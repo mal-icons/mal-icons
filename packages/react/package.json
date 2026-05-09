@@ -1,21 +1,53 @@
 {
   "name": "@mal-icon/react",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
-  "main": "./src/index.ts",
-  "module": "./src/index.ts",
-  "types": "./src/index.ts",
-  "exports": {
-    ".": "./src/index.ts"
-  },
+  "license": "MIT",
   "sideEffects": false,
+  "files": ["dist"],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "bun": "./src/index.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./fi": {
+      "types": "./dist/icons/fi/index.d.ts",
+      "bun": "./src/icons/fi/index.ts",
+      "import": "./dist/icons/fi/index.js",
+      "require": "./dist/icons/fi/index.cjs"
+    },
+    "./fi/*": {
+      "types": "./dist/icons/fi/*.d.ts",
+      "bun": "./src/icons/fi/*.tsx",
+      "import": "./dist/icons/fi/*.js"
+    },
+    "./demo": {
+      "types": "./dist/icons/demo/index.d.ts",
+      "bun": "./src/icons/demo/index.ts",
+      "import": "./dist/icons/demo/index.js",
+      "require": "./dist/icons/demo/index.cjs"
+    },
+    "./demo/*": {
+      "types": "./dist/icons/demo/*.d.ts",
+      "bun": "./src/icons/demo/*.tsx",
+      "import": "./dist/icons/demo/*.js"
+    },
+    "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
+    "./manifest.json": "./dist/icons/manifest.json",
+    "./package.json": "./package.json"
+  },
   "peerDependencies": {
     "react": ">=18"
   },
   "dependencies": {
     "@mal-icon/core": "workspace:*"
   },
-  "scripts": {
-    "build": "bun build ./src/index.ts --outdir ./dist --target browser --external react --external react/jsx-runtime"
+  "publishConfig": {
+    "access": "public"
   }
 }
