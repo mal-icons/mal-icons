@@ -47,7 +47,7 @@ export async function fetchSet(source: IconSource, noFetch: boolean): Promise<Ra
 }
 
 async function downloadAndExtract(source: IconSource, cacheDir: string): Promise<void> {
-  const url = `https://codeload.github.com/${source.repo}/tar.gz/refs/heads/${source.ref}`;
+  const url = `https://codeload.github.com/${source.repo}/tar.gz/${source.ref}`;
   const res = await fetch(url);
   if (!res.ok) {
     throw new Error(`Failed to download ${url}: HTTP ${res.status}`);
