@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+.bun/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Caches
+.cache/
+.svg-cache/
+coverage/
+
+# Docs (excluded from version control per project policy)
+doc/
+
+# OS / editor
+.DS_Store
+*.log
+.idea/
+.vscode/*
+!.vscode/extensions.json

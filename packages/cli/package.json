@@ -1,0 +1,15 @@
+{
+  "name": "@mal-icon/cli",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/index.ts",
+  "bin": {
+    "mal-icon": "./src/index.ts"
+  },
+  "dependencies": {
+    "@mal-icon/core": "workspace:*"
+  },
+  "scripts": {
+    "build": "bun build ./src/index.ts --outdir ./dist --target node"
+  }
+}
