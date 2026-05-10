@@ -132,10 +132,22 @@ export async function generateSet(
     await writeFile(join(setDir, `${icon.componentName}.tsx`), iconFileContents(icon));
   }
 
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
   const barrel = `${icons
     .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.tsx";`)
-    .join("\n")}\n`;
+    .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
+
+  const namesFile = `/** Type-safe list of every icon name in the "${source.id}" set. */
+export const ${namesConst} = [
+${icons.map((icon) => `  "${icon.componentName}",`).join("\n")}
+] as const;
+
+/** Union of valid "${source.id}" icon names; invalid names are TS errors. */
+export type ${namesType} = (typeof ${namesConst})[number];
+`;
+  await writeFile(join(setDir, "names.ts"), namesFile);
 
   await writeFile(join(setDir, "sprite.svg"), buildSprite(source, icons));
 

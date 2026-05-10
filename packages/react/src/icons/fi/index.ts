@@ -285,3 +285,4 @@ export { FiZap } from "./FiZap.tsx";
 export { FiZapOff } from "./FiZapOff.tsx";
 export { FiZoomIn } from "./FiZoomIn.tsx";
 export { FiZoomOut } from "./FiZoomOut.tsx";
+export { fiIconNames, type FiIconName } from "./names.ts";
