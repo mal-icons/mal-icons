@@ -14,7 +14,18 @@
       "bun": "./src/index.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "./fi": {
+      "types": "./dist/icons/fi/index.d.ts",
+      "bun": "./src/icons/fi/index.ts",
+      "import": "./dist/icons/fi/index.js"
+    },
+    "./fi/*": {
+      "types": "./dist/icons/fi/*.d.ts",
+      "bun": "./src/icons/fi/*.ts",
+      "import": "./dist/icons/fi/*.js"
+    },
+    "./package.json": "./package.json"
   },
   "peerDependencies": {
     "vue": ">=3.3"

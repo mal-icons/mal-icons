@@ -30,7 +30,7 @@ jobs:
       - name: Determinism (regenerate from pinned source must produce no diff)
         run: |
           bun run generate --set fi
-          git diff --exit-code -- packages/react/src/icons
+          git diff --exit-code -- packages/react/src/icons packages/vue/src/icons packages/svelte/src/icons
 
       - name: Lint
         run: bun run lint
