@@ -43,6 +43,16 @@
         "react": ">=18",
       },
     },
+    "packages/svelte": {
+      "name": "@mal-icon/svelte",
+      "version": "0.1.0",
+      "dependencies": {
+        "@mal-icon/core": "workspace:*",
+      },
+      "peerDependencies": {
+        "svelte": ">=5",
+      },
+    },
     "packages/vue": {
       "name": "@mal-icon/vue",
       "version": "0.1.0",
@@ -98,6 +108,8 @@
     "@mal-icon/core": ["@mal-icon/core@workspace:packages/core"],
 
     "@mal-icon/react": ["@mal-icon/react@workspace:packages/react"],
+
+    "@mal-icon/svelte": ["@mal-icon/svelte@workspace:packages/svelte"],
 
     "@mal-icon/vue": ["@mal-icon/vue@workspace:packages/vue"],
 

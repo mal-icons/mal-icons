@@ -1,0 +1,29 @@
+{
+  "name": "@mal-icon/svelte",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": ["src", "dist"],
+  "svelte": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./src/index.ts",
+      "bun": "./src/index.ts",
+      "import": "./src/index.ts"
+    },
+    "./IconBase.svelte": "./src/IconBase.svelte",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "svelte": ">=5"
+  },
+  "dependencies": {
+    "@mal-icon/core": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
