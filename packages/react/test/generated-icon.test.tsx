@@ -1,6 +1,6 @@
 import { describe, expect, test } from "bun:test";
-import { renderToStaticMarkup } from "react-dom/server";
 import { createElement } from "react";
+import { renderToStaticMarkup } from "react-dom/server";
 import { FiActivity } from "../src/icons/fi/index.ts";
 
 describe("generated Feather icon", () => {

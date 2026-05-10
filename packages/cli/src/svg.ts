@@ -56,7 +56,7 @@ export function parseSvg(svg: string): ParsedSvg {
   if (!viewBox) viewBox = "0 0 24 24";
 
   const inner = svg.slice(
-    svgOpenMatch.index! + svgOpenMatch[0].length,
+    (svgOpenMatch.index ?? 0) + svgOpenMatch[0].length,
     svg.lastIndexOf("</svg>") === -1 ? undefined : svg.lastIndexOf("</svg>"),
   );
 

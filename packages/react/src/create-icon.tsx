@@ -1,6 +1,6 @@
+import type { NodeTuple } from "@mal-icon/core";
 import { createElement, memo } from "react";
 import type { ReactElement } from "react";
-import type { NodeTuple } from "@mal-icon/core";
 import { IconBase, type IconBaseProps } from "./icon-base.tsx";
 
 /** A generated mal-icon React component. */

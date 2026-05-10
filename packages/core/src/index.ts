@@ -105,7 +105,6 @@ export function resolveIconAttrs(
 ): ResolvedIconAttrs {
   const size = props.size ?? context.size ?? "1em";
   const color = props.color ?? context.color;
-  const className =
-    [context.className, props.className].filter(Boolean).join(" ") || undefined;
+  const className = [context.className, props.className].filter(Boolean).join(" ") || undefined;
   return { size, color, className };
 }

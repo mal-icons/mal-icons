@@ -4,10 +4,10 @@ import { join } from "node:path";
 import type { IconNode, IconsManifest } from "@mal-icon/core";
 import type { IconSource } from "../../../icons-data/sources.config";
 import { contentHash } from "./dedup.ts";
+import type { RawIcon } from "./fetch.ts";
 import { toComponentName } from "./naming.ts";
 import { optimize } from "./optimize.ts";
 import { parseSvg } from "./svg.ts";
-import type { RawIcon } from "./fetch.ts";
 
 /** Absolute path to the React package's generated-icons root. */
 const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");
@@ -34,10 +34,7 @@ function iconFileContents(icon: GeneratedIcon): string {
   const nodesLiteral = serializeNodes(icon.nodes);
   const hasDefaults = Object.keys(icon.defaultAttr).length > 0;
   const defaultsArg = hasDefaults ? `, ${JSON.stringify(icon.defaultAttr)}` : "";
-  return (
-    `import { createIcon } from "../../create-icon.tsx";\n\n` +
-    `export const ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${defaultsArg});\n`
-  );
+  return `import { createIcon } from "../../create-icon.tsx";\n\nexport const ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${defaultsArg});\n`;
 }
 
 function nodeToSvgString(node: IconNode): string {
