@@ -1,4 +1,6 @@
 #!/usr/bin/env bun
+import { cp, mkdir, rm } from "node:fs/promises";
+import { join } from "node:path";
 /**
  * Build the publishable JS artifacts for @mal-icon/core and @mal-icon/react.
  *
@@ -8,16 +10,17 @@
  * - Type declarations are emitted separately by `tsc --build` (run first).
  */
 import { Glob } from "bun";
-import { cp, mkdir, rm } from "node:fs/promises";
-import { join } from "node:path";
 
 const ROOT = process.cwd();
 const REACT_SRC = join(ROOT, "packages", "react", "src");
 const REACT_OUT = join(ROOT, "packages", "react", "dist");
 const CORE_SRC = join(ROOT, "packages", "core", "src");
 const CORE_OUT = join(ROOT, "packages", "core", "dist");
+const VUE_SRC = join(ROOT, "packages", "vue", "src");
+const VUE_OUT = join(ROOT, "packages", "vue", "dist");
 
 const REACT_EXTERNAL = ["react", "react/jsx-runtime", "react-dom", "@mal-icon/core"];
+const VUE_EXTERNAL = ["vue", "@mal-icon/core"];
 
 async function collect(glob: string, base: string): Promise<string[]> {
   const out: string[] = [];
@@ -38,6 +41,21 @@ async function buildCore(): Promise<void> {
       naming: format === "cjs" ? "[dir]/[name].cjs" : "[dir]/[name].js",
     });
     if (!result.success) throw new AggregateError(result.logs, "core build failed");
+  }
+}
+
+async function buildVue(): Promise<void> {
+  const entry = join(VUE_SRC, "index.ts");
+  for (const format of ["esm", "cjs"] as const) {
+    const result = await Bun.build({
+      entrypoints: [entry],
+      outdir: VUE_OUT,
+      target: "browser",
+      format,
+      external: VUE_EXTERNAL,
+      naming: format === "cjs" ? "[dir]/[name].cjs" : "[dir]/[name].js",
+    });
+    if (!result.success) throw new AggregateError(result.logs, "vue build failed");
   }
 }
 
@@ -80,19 +98,18 @@ async function buildReact(): Promise<void> {
   }
   const manifest = Bun.file(join(REACT_SRC, "icons", "manifest.json"));
   if (await manifest.exists()) {
-    await cp(
-      join(REACT_SRC, "icons", "manifest.json"),
-      join(REACT_OUT, "icons", "manifest.json"),
-    );
+    await cp(join(REACT_SRC, "icons", "manifest.json"), join(REACT_OUT, "icons", "manifest.json"));
   }
 }
 
 async function main(): Promise<void> {
   await rm(CORE_OUT, { recursive: true, force: true });
   await rm(REACT_OUT, { recursive: true, force: true });
+  await rm(VUE_OUT, { recursive: true, force: true });
   await buildCore();
   await buildReact();
-  console.log("Build complete: core + react (ESM + CJS).");
+  await buildVue();
+  console.log("Build complete: core + react + vue (ESM + CJS).");
 }
 
 await main();
