@@ -18,6 +18,8 @@ const CORE_SRC = join(ROOT, "packages", "core", "src");
 const CORE_OUT = join(ROOT, "packages", "core", "dist");
 const VUE_SRC = join(ROOT, "packages", "vue", "src");
 const VUE_OUT = join(ROOT, "packages", "vue", "dist");
+const ESLINT_SRC = join(ROOT, "packages", "eslint-plugin", "src");
+const ESLINT_OUT = join(ROOT, "packages", "eslint-plugin", "dist");
 
 const REACT_EXTERNAL = ["react", "react/jsx-runtime", "react-dom", "@mal-icon/core"];
 const VUE_EXTERNAL = ["vue", "@mal-icon/core"];
@@ -115,14 +117,27 @@ async function buildReact(): Promise<void> {
   }
 }
 
+async function buildEslintPlugin(): Promise<void> {
+  const result = await Bun.build({
+    entrypoints: [join(ESLINT_SRC, "index.ts")],
+    outdir: ESLINT_OUT,
+    target: "node",
+    format: "esm",
+    external: ["eslint"],
+  });
+  if (!result.success) throw new AggregateError(result.logs, "eslint-plugin build failed");
+}
+
 async function main(): Promise<void> {
   await rm(CORE_OUT, { recursive: true, force: true });
   await rm(REACT_OUT, { recursive: true, force: true });
   await rm(VUE_OUT, { recursive: true, force: true });
+  await rm(ESLINT_OUT, { recursive: true, force: true });
   await buildCore();
   await buildReact();
   await buildVue();
-  console.log("Build complete: core + react + vue (ESM + CJS).");
+  await buildEslintPlugin();
+  console.log("Build complete: core + react + vue + eslint-plugin.");
 }
 
 await main();

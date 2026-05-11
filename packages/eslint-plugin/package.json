@@ -1,0 +1,23 @@
+{
+  "name": "@mal-icon/eslint-plugin",
+  "version": "0.1.0",
+  "description": "ESLint rules for mal-icon: keep icon imports tree-shakeable and tidy.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": {
+      "bun": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["dist"],
+  "peerDependencies": {
+    "eslint": ">=8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
