@@ -77,7 +77,8 @@ async function buildVue(): Promise<void> {
 async function buildReact(): Promise<void> {
   const iconFiles = await collect("icons/**/*.tsx", REACT_SRC);
   const barrels = await collect("icons/**/index.ts", REACT_SRC);
-  const esmEntrypoints = [join(REACT_SRC, "index.ts"), ...barrels, ...iconFiles];
+  const serverEntry = join(REACT_SRC, "server.tsx");
+  const esmEntrypoints = [join(REACT_SRC, "index.ts"), serverEntry, ...barrels, ...iconFiles];
 
   const esm = await Bun.build({
     entrypoints: esmEntrypoints,
@@ -92,7 +93,7 @@ async function buildReact(): Promise<void> {
 
   // CJS: bundle the public entry points (no splitting in CJS).
   const cjs = await Bun.build({
-    entrypoints: [join(REACT_SRC, "index.ts"), ...barrels],
+    entrypoints: [join(REACT_SRC, "index.ts"), serverEntry, ...barrels],
     outdir: REACT_OUT,
     root: REACT_SRC,
     target: "browser",
