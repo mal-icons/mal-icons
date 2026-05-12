@@ -7,6 +7,7 @@ import { contentHash } from "./dedup.ts";
 import type { RawIcon } from "./fetch.ts";
 import { toComponentName } from "./naming.ts";
 import { optimize } from "./optimize.ts";
+import { type SearchEntry, type SearchIndex, tokenize } from "./search.ts";
 import { parseSvg } from "./svg.ts";
 
 /** Absolute path to the React package's generated-icons root. */
@@ -155,6 +156,7 @@ export type ${namesType} = (typeof ${namesConst})[number];
   await emitSvelteSet(source, icons);
 
   await updateManifest(source, icons.length);
+  await updateSearchIndex(source, icons);
 
   return { count: icons.length };
 }
@@ -204,4 +206,23 @@ async function updateManifest(source: IconSource, count: number): Promise<void> 
   const others = manifest.sets.filter((s) => s.id !== source.id);
   manifest.sets = [...others, entry].sort((a, b) => a.id.localeCompare(b.id));
   await writeFile(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
+}
+
+/** Merge a set's icons into the shared, deterministic search index. */
+async function updateSearchIndex(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const indexPath = join(ICONS_ROOT, "search-index.json");
+  let index: SearchIndex = { entries: [] };
+  if (existsSync(indexPath)) {
+    index = JSON.parse(await readFile(indexPath, "utf8")) as SearchIndex;
+  }
+  const others = index.entries.filter((e) => e.set !== source.id);
+  const setEntries: SearchEntry[] = icons.map((icon) => ({
+    name: icon.componentName,
+    set: source.id,
+    terms: [...new Set([...tokenize(icon.componentName), ...tokenize(icon.rawName)])],
+  }));
+  index.entries = [...others, ...setEntries].sort(
+    (a, b) => a.set.localeCompare(b.set) || a.name.localeCompare(b.name),
+  );
+  await writeFile(indexPath, `${JSON.stringify(index, null, 2)}\n`);
 }

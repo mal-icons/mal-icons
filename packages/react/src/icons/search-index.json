@@ -1,0 +1,2464 @@
+{
+  "entries": [
+    {
+      "name": "FiActivity",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "activity"
+      ]
+    },
+    {
+      "name": "FiAirplay",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "airplay"
+      ]
+    },
+    {
+      "name": "FiAlertCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "alert",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiAlertOctagon",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "alert",
+        "octagon"
+      ]
+    },
+    {
+      "name": "FiAlertTriangle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "alert",
+        "triangle"
+      ]
+    },
+    {
+      "name": "FiAlignCenter",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "align",
+        "center"
+      ]
+    },
+    {
+      "name": "FiAlignJustify",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "align",
+        "justify"
+      ]
+    },
+    {
+      "name": "FiAlignLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "FiAlignRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "FiAnchor",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "anchor"
+      ]
+    },
+    {
+      "name": "FiAperture",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "aperture"
+      ]
+    },
+    {
+      "name": "FiArchive",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "archive"
+      ]
+    },
+    {
+      "name": "FiArrowDown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "FiArrowDownCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "down",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiArrowDownLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "FiArrowDownRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "FiArrowLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "FiArrowLeftCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "left",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiArrowRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "FiArrowRightCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "right",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiArrowUp",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "FiArrowUpCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "up",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiArrowUpLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "FiArrowUpRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "arrow",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "FiAtSign",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "at",
+        "sign"
+      ]
+    },
+    {
+      "name": "FiAward",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "award"
+      ]
+    },
+    {
+      "name": "FiBarChart",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "bar",
+        "chart"
+      ]
+    },
+    {
+      "name": "FiBarChart2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "bar",
+        "chart2",
+        "chart",
+        "2"
+      ]
+    },
+    {
+      "name": "FiBattery",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "battery"
+      ]
+    },
+    {
+      "name": "FiBatteryCharging",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "battery",
+        "charging"
+      ]
+    },
+    {
+      "name": "FiBell",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "bell"
+      ]
+    },
+    {
+      "name": "FiBellOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "bell",
+        "off"
+      ]
+    },
+    {
+      "name": "FiBluetooth",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "bluetooth"
+      ]
+    },
+    {
+      "name": "FiBold",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "bold"
+      ]
+    },
+    {
+      "name": "FiBook",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "book"
+      ]
+    },
+    {
+      "name": "FiBookmark",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "FiBookOpen",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "book",
+        "open"
+      ]
+    },
+    {
+      "name": "FiBox",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "box"
+      ]
+    },
+    {
+      "name": "FiBriefcase",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "FiCalendar",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "calendar"
+      ]
+    },
+    {
+      "name": "FiCamera",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "camera"
+      ]
+    },
+    {
+      "name": "FiCameraOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "camera",
+        "off"
+      ]
+    },
+    {
+      "name": "FiCast",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cast"
+      ]
+    },
+    {
+      "name": "FiCheck",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "check"
+      ]
+    },
+    {
+      "name": "FiCheckCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "check",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiCheckSquare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "check",
+        "square"
+      ]
+    },
+    {
+      "name": "FiChevronDown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevron",
+        "down"
+      ]
+    },
+    {
+      "name": "FiChevronLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevron",
+        "left"
+      ]
+    },
+    {
+      "name": "FiChevronRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevron",
+        "right"
+      ]
+    },
+    {
+      "name": "FiChevronsDown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevrons",
+        "down"
+      ]
+    },
+    {
+      "name": "FiChevronsLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevrons",
+        "left"
+      ]
+    },
+    {
+      "name": "FiChevronsRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevrons",
+        "right"
+      ]
+    },
+    {
+      "name": "FiChevronsUp",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevrons",
+        "up"
+      ]
+    },
+    {
+      "name": "FiChevronUp",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chevron",
+        "up"
+      ]
+    },
+    {
+      "name": "FiChrome",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "chrome"
+      ]
+    },
+    {
+      "name": "FiCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiClipboard",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "FiClock",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "clock"
+      ]
+    },
+    {
+      "name": "FiCloud",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cloud"
+      ]
+    },
+    {
+      "name": "FiCloudDrizzle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cloud",
+        "drizzle"
+      ]
+    },
+    {
+      "name": "FiCloudLightning",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cloud",
+        "lightning"
+      ]
+    },
+    {
+      "name": "FiCloudOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cloud",
+        "off"
+      ]
+    },
+    {
+      "name": "FiCloudRain",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cloud",
+        "rain"
+      ]
+    },
+    {
+      "name": "FiCloudSnow",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cloud",
+        "snow"
+      ]
+    },
+    {
+      "name": "FiCode",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "code"
+      ]
+    },
+    {
+      "name": "FiCodepen",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "codepen"
+      ]
+    },
+    {
+      "name": "FiCodesandbox",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "codesandbox"
+      ]
+    },
+    {
+      "name": "FiCoffee",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "coffee"
+      ]
+    },
+    {
+      "name": "FiColumns",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "columns"
+      ]
+    },
+    {
+      "name": "FiCommand",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "command"
+      ]
+    },
+    {
+      "name": "FiCompass",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "compass"
+      ]
+    },
+    {
+      "name": "FiCopy",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "copy"
+      ]
+    },
+    {
+      "name": "FiCornerDownLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "FiCornerDownRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "FiCornerLeftDown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "name": "FiCornerLeftUp",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "name": "FiCornerRightDown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "name": "FiCornerRightUp",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "name": "FiCornerUpLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "FiCornerUpRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "corner",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "FiCpu",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "cpu"
+      ]
+    },
+    {
+      "name": "FiCreditCard",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "FiCrop",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "crop"
+      ]
+    },
+    {
+      "name": "FiCrosshair",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "crosshair"
+      ]
+    },
+    {
+      "name": "FiDatabase",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "database"
+      ]
+    },
+    {
+      "name": "FiDelete",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "delete"
+      ]
+    },
+    {
+      "name": "FiDisc",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "disc"
+      ]
+    },
+    {
+      "name": "FiDivide",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "divide"
+      ]
+    },
+    {
+      "name": "FiDivideCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "divide",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiDivideSquare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "divide",
+        "square"
+      ]
+    },
+    {
+      "name": "FiDollarSign",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "dollar",
+        "sign"
+      ]
+    },
+    {
+      "name": "FiDownload",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "download"
+      ]
+    },
+    {
+      "name": "FiDownloadCloud",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "download",
+        "cloud"
+      ]
+    },
+    {
+      "name": "FiDribbble",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "dribbble"
+      ]
+    },
+    {
+      "name": "FiDroplet",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "droplet"
+      ]
+    },
+    {
+      "name": "FiEdit",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "edit"
+      ]
+    },
+    {
+      "name": "FiEdit2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "edit2",
+        "edit",
+        "2"
+      ]
+    },
+    {
+      "name": "FiEdit3",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "edit3",
+        "edit",
+        "3"
+      ]
+    },
+    {
+      "name": "FiExternalLink",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "external",
+        "link"
+      ]
+    },
+    {
+      "name": "FiEye",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "eye"
+      ]
+    },
+    {
+      "name": "FiEyeOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "eye",
+        "off"
+      ]
+    },
+    {
+      "name": "FiFacebook",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "facebook"
+      ]
+    },
+    {
+      "name": "FiFastForward",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "fast",
+        "forward"
+      ]
+    },
+    {
+      "name": "FiFeather",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "feather"
+      ]
+    },
+    {
+      "name": "FiFigma",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "figma"
+      ]
+    },
+    {
+      "name": "FiFile",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "file"
+      ]
+    },
+    {
+      "name": "FiFileMinus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "file",
+        "minus"
+      ]
+    },
+    {
+      "name": "FiFilePlus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "file",
+        "plus"
+      ]
+    },
+    {
+      "name": "FiFileText",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "file",
+        "text"
+      ]
+    },
+    {
+      "name": "FiFilm",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "film"
+      ]
+    },
+    {
+      "name": "FiFilter",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "filter"
+      ]
+    },
+    {
+      "name": "FiFlag",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "flag"
+      ]
+    },
+    {
+      "name": "FiFolder",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "folder"
+      ]
+    },
+    {
+      "name": "FiFolderMinus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "folder",
+        "minus"
+      ]
+    },
+    {
+      "name": "FiFolderPlus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "folder",
+        "plus"
+      ]
+    },
+    {
+      "name": "FiFramer",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "framer"
+      ]
+    },
+    {
+      "name": "FiFrown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "frown"
+      ]
+    },
+    {
+      "name": "FiGift",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "gift"
+      ]
+    },
+    {
+      "name": "FiGitBranch",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "git",
+        "branch"
+      ]
+    },
+    {
+      "name": "FiGitCommit",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "git",
+        "commit"
+      ]
+    },
+    {
+      "name": "FiGithub",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "github"
+      ]
+    },
+    {
+      "name": "FiGitlab",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "gitlab"
+      ]
+    },
+    {
+      "name": "FiGitMerge",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "git",
+        "merge"
+      ]
+    },
+    {
+      "name": "FiGitPullRequest",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "git",
+        "pull",
+        "request"
+      ]
+    },
+    {
+      "name": "FiGlobe",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "globe"
+      ]
+    },
+    {
+      "name": "FiGrid",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "grid"
+      ]
+    },
+    {
+      "name": "FiHardDrive",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "hard",
+        "drive"
+      ]
+    },
+    {
+      "name": "FiHash",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "hash"
+      ]
+    },
+    {
+      "name": "FiHeadphones",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "headphones"
+      ]
+    },
+    {
+      "name": "FiHeart",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "heart"
+      ]
+    },
+    {
+      "name": "FiHelpCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "help",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiHexagon",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "hexagon"
+      ]
+    },
+    {
+      "name": "FiHome",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "home"
+      ]
+    },
+    {
+      "name": "FiImage",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "image"
+      ]
+    },
+    {
+      "name": "FiInbox",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "inbox"
+      ]
+    },
+    {
+      "name": "FiInfo",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "info"
+      ]
+    },
+    {
+      "name": "FiInstagram",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "instagram"
+      ]
+    },
+    {
+      "name": "FiItalic",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "italic"
+      ]
+    },
+    {
+      "name": "FiKey",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "key"
+      ]
+    },
+    {
+      "name": "FiLayers",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "layers"
+      ]
+    },
+    {
+      "name": "FiLayout",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "layout"
+      ]
+    },
+    {
+      "name": "FiLifeBuoy",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "life",
+        "buoy"
+      ]
+    },
+    {
+      "name": "FiLink",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "link"
+      ]
+    },
+    {
+      "name": "FiLink2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "link2",
+        "link",
+        "2"
+      ]
+    },
+    {
+      "name": "FiLinkedin",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "linkedin"
+      ]
+    },
+    {
+      "name": "FiList",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "list"
+      ]
+    },
+    {
+      "name": "FiLoader",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "loader"
+      ]
+    },
+    {
+      "name": "FiLock",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "lock"
+      ]
+    },
+    {
+      "name": "FiLogIn",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "log",
+        "in"
+      ]
+    },
+    {
+      "name": "FiLogOut",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "log",
+        "out"
+      ]
+    },
+    {
+      "name": "FiMail",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "mail"
+      ]
+    },
+    {
+      "name": "FiMap",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "map"
+      ]
+    },
+    {
+      "name": "FiMapPin",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "map",
+        "pin"
+      ]
+    },
+    {
+      "name": "FiMaximize",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "maximize"
+      ]
+    },
+    {
+      "name": "FiMaximize2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "maximize2",
+        "maximize",
+        "2"
+      ]
+    },
+    {
+      "name": "FiMeh",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "meh"
+      ]
+    },
+    {
+      "name": "FiMenu",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "menu"
+      ]
+    },
+    {
+      "name": "FiMessageCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "message",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiMessageSquare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "message",
+        "square"
+      ]
+    },
+    {
+      "name": "FiMic",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "mic"
+      ]
+    },
+    {
+      "name": "FiMicOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "mic",
+        "off"
+      ]
+    },
+    {
+      "name": "FiMinimize",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "minimize"
+      ]
+    },
+    {
+      "name": "FiMinimize2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "minimize2",
+        "minimize",
+        "2"
+      ]
+    },
+    {
+      "name": "FiMinus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "minus"
+      ]
+    },
+    {
+      "name": "FiMinusCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "minus",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiMinusSquare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "minus",
+        "square"
+      ]
+    },
+    {
+      "name": "FiMonitor",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "monitor"
+      ]
+    },
+    {
+      "name": "FiMoon",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "moon"
+      ]
+    },
+    {
+      "name": "FiMoreHorizontal",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "more",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "FiMoreVertical",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "more",
+        "vertical"
+      ]
+    },
+    {
+      "name": "FiMousePointer",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "mouse",
+        "pointer"
+      ]
+    },
+    {
+      "name": "FiMove",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "move"
+      ]
+    },
+    {
+      "name": "FiMusic",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "music"
+      ]
+    },
+    {
+      "name": "FiNavigation",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "navigation"
+      ]
+    },
+    {
+      "name": "FiNavigation2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "navigation2",
+        "navigation",
+        "2"
+      ]
+    },
+    {
+      "name": "FiOctagon",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "octagon"
+      ]
+    },
+    {
+      "name": "FiPackage",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "package"
+      ]
+    },
+    {
+      "name": "FiPaperclip",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "paperclip"
+      ]
+    },
+    {
+      "name": "FiPause",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "pause"
+      ]
+    },
+    {
+      "name": "FiPauseCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "pause",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiPenTool",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "pen",
+        "tool"
+      ]
+    },
+    {
+      "name": "FiPercent",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "percent"
+      ]
+    },
+    {
+      "name": "FiPhone",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "phone"
+      ]
+    },
+    {
+      "name": "FiPhoneCall",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "phone",
+        "call"
+      ]
+    },
+    {
+      "name": "FiPhoneForwarded",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "phone",
+        "forwarded"
+      ]
+    },
+    {
+      "name": "FiPhoneIncoming",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "phone",
+        "incoming"
+      ]
+    },
+    {
+      "name": "FiPhoneMissed",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "phone",
+        "missed"
+      ]
+    },
+    {
+      "name": "FiPhoneOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "phone",
+        "off"
+      ]
+    },
+    {
+      "name": "FiPhoneOutgoing",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "phone",
+        "outgoing"
+      ]
+    },
+    {
+      "name": "FiPieChart",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "pie",
+        "chart"
+      ]
+    },
+    {
+      "name": "FiPlay",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "play"
+      ]
+    },
+    {
+      "name": "FiPlayCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "play",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiPlus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "plus"
+      ]
+    },
+    {
+      "name": "FiPlusCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "plus",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiPlusSquare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "plus",
+        "square"
+      ]
+    },
+    {
+      "name": "FiPocket",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "pocket"
+      ]
+    },
+    {
+      "name": "FiPower",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "power"
+      ]
+    },
+    {
+      "name": "FiPrinter",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "printer"
+      ]
+    },
+    {
+      "name": "FiRadio",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "radio"
+      ]
+    },
+    {
+      "name": "FiRefreshCcw",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "refresh",
+        "ccw"
+      ]
+    },
+    {
+      "name": "FiRefreshCw",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "refresh",
+        "cw"
+      ]
+    },
+    {
+      "name": "FiRepeat",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "repeat"
+      ]
+    },
+    {
+      "name": "FiRewind",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "rewind"
+      ]
+    },
+    {
+      "name": "FiRotateCcw",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "rotate",
+        "ccw"
+      ]
+    },
+    {
+      "name": "FiRotateCw",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "rotate",
+        "cw"
+      ]
+    },
+    {
+      "name": "FiRss",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "rss"
+      ]
+    },
+    {
+      "name": "FiSave",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "save"
+      ]
+    },
+    {
+      "name": "FiScissors",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "scissors"
+      ]
+    },
+    {
+      "name": "FiSearch",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "search"
+      ]
+    },
+    {
+      "name": "FiSend",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "send"
+      ]
+    },
+    {
+      "name": "FiServer",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "server"
+      ]
+    },
+    {
+      "name": "FiSettings",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "settings"
+      ]
+    },
+    {
+      "name": "FiShare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "share"
+      ]
+    },
+    {
+      "name": "FiShare2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "share2",
+        "share",
+        "2"
+      ]
+    },
+    {
+      "name": "FiShield",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "shield"
+      ]
+    },
+    {
+      "name": "FiShieldOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "shield",
+        "off"
+      ]
+    },
+    {
+      "name": "FiShoppingBag",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "shopping",
+        "bag"
+      ]
+    },
+    {
+      "name": "FiShoppingCart",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "shopping",
+        "cart"
+      ]
+    },
+    {
+      "name": "FiShuffle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "FiSidebar",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "sidebar"
+      ]
+    },
+    {
+      "name": "FiSkipBack",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "skip",
+        "back"
+      ]
+    },
+    {
+      "name": "FiSkipForward",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "skip",
+        "forward"
+      ]
+    },
+    {
+      "name": "FiSlack",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "slack"
+      ]
+    },
+    {
+      "name": "FiSlash",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "slash"
+      ]
+    },
+    {
+      "name": "FiSliders",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "sliders"
+      ]
+    },
+    {
+      "name": "FiSmartphone",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "smartphone"
+      ]
+    },
+    {
+      "name": "FiSmile",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "smile"
+      ]
+    },
+    {
+      "name": "FiSpeaker",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "speaker"
+      ]
+    },
+    {
+      "name": "FiSquare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "square"
+      ]
+    },
+    {
+      "name": "FiStar",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "star"
+      ]
+    },
+    {
+      "name": "FiStopCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "stop",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiSun",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "sun"
+      ]
+    },
+    {
+      "name": "FiSunrise",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "sunrise"
+      ]
+    },
+    {
+      "name": "FiSunset",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "sunset"
+      ]
+    },
+    {
+      "name": "FiTable",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "table"
+      ]
+    },
+    {
+      "name": "FiTablet",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "tablet"
+      ]
+    },
+    {
+      "name": "FiTag",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "tag"
+      ]
+    },
+    {
+      "name": "FiTarget",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "target"
+      ]
+    },
+    {
+      "name": "FiTerminal",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "terminal"
+      ]
+    },
+    {
+      "name": "FiThermometer",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "thermometer"
+      ]
+    },
+    {
+      "name": "FiThumbsDown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "thumbs",
+        "down"
+      ]
+    },
+    {
+      "name": "FiThumbsUp",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "thumbs",
+        "up"
+      ]
+    },
+    {
+      "name": "FiToggleLeft",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "toggle",
+        "left"
+      ]
+    },
+    {
+      "name": "FiToggleRight",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "toggle",
+        "right"
+      ]
+    },
+    {
+      "name": "FiTool",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "tool"
+      ]
+    },
+    {
+      "name": "FiTrash",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "trash"
+      ]
+    },
+    {
+      "name": "FiTrash2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "trash2",
+        "trash",
+        "2"
+      ]
+    },
+    {
+      "name": "FiTrello",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "trello"
+      ]
+    },
+    {
+      "name": "FiTrendingDown",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "trending",
+        "down"
+      ]
+    },
+    {
+      "name": "FiTrendingUp",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "trending",
+        "up"
+      ]
+    },
+    {
+      "name": "FiTriangle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "triangle"
+      ]
+    },
+    {
+      "name": "FiTruck",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "truck"
+      ]
+    },
+    {
+      "name": "FiTv",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "tv"
+      ]
+    },
+    {
+      "name": "FiTwitch",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "twitch"
+      ]
+    },
+    {
+      "name": "FiTwitter",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "twitter"
+      ]
+    },
+    {
+      "name": "FiType",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "type"
+      ]
+    },
+    {
+      "name": "FiUmbrella",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "umbrella"
+      ]
+    },
+    {
+      "name": "FiUnderline",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "underline"
+      ]
+    },
+    {
+      "name": "FiUnlock",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "unlock"
+      ]
+    },
+    {
+      "name": "FiUpload",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "upload"
+      ]
+    },
+    {
+      "name": "FiUploadCloud",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "upload",
+        "cloud"
+      ]
+    },
+    {
+      "name": "FiUser",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "user"
+      ]
+    },
+    {
+      "name": "FiUserCheck",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "user",
+        "check"
+      ]
+    },
+    {
+      "name": "FiUserMinus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "user",
+        "minus"
+      ]
+    },
+    {
+      "name": "FiUserPlus",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "user",
+        "plus"
+      ]
+    },
+    {
+      "name": "FiUsers",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "users"
+      ]
+    },
+    {
+      "name": "FiUserX",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "user",
+        "x"
+      ]
+    },
+    {
+      "name": "FiVideo",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "video"
+      ]
+    },
+    {
+      "name": "FiVideoOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "video",
+        "off"
+      ]
+    },
+    {
+      "name": "FiVoicemail",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "voicemail"
+      ]
+    },
+    {
+      "name": "FiVolume",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "volume"
+      ]
+    },
+    {
+      "name": "FiVolume1",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "volume1",
+        "volume",
+        "1"
+      ]
+    },
+    {
+      "name": "FiVolume2",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "volume2",
+        "volume",
+        "2"
+      ]
+    },
+    {
+      "name": "FiVolumeX",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "volume",
+        "x"
+      ]
+    },
+    {
+      "name": "FiWatch",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "watch"
+      ]
+    },
+    {
+      "name": "FiWifi",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "wifi"
+      ]
+    },
+    {
+      "name": "FiWifiOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "wifi",
+        "off"
+      ]
+    },
+    {
+      "name": "FiWind",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "wind"
+      ]
+    },
+    {
+      "name": "FiX",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "x"
+      ]
+    },
+    {
+      "name": "FiXCircle",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "xcircle",
+        "x",
+        "circle"
+      ]
+    },
+    {
+      "name": "FiXOctagon",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "xoctagon",
+        "x",
+        "octagon"
+      ]
+    },
+    {
+      "name": "FiXSquare",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "xsquare",
+        "x",
+        "square"
+      ]
+    },
+    {
+      "name": "FiYoutube",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "youtube"
+      ]
+    },
+    {
+      "name": "FiZap",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "zap"
+      ]
+    },
+    {
+      "name": "FiZapOff",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "zap",
+        "off"
+      ]
+    },
+    {
+      "name": "FiZoomIn",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "FiZoomOut",
+      "set": "fi",
+      "terms": [
+        "fi",
+        "zoom",
+        "out"
+      ]
+    }
+  ]
+}
