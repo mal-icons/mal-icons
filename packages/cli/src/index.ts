@@ -7,7 +7,7 @@ import { type Framework, runAdd } from "./add.ts";
 import { fetchSet } from "./fetch.ts";
 import { generateSet } from "./generate.ts";
 import { writeLicenseReport } from "./licenses.ts";
-import { type SearchIndex, searchIcons } from "./search.ts";
+import { type SearchIndex, searchIcons, semanticSearch } from "./search.ts";
 import { type ImportFramework, svgToComponentSource } from "./svg-import.ts";
 
 interface GenerateOptions {
@@ -54,7 +54,7 @@ Usage:
   mal-icon generate --set <id> [--no-fetch] [--limit <n>]
   mal-icon add <Name...> [--set <id>] [--framework <react|vue|svelte>] [--out <dir>]
   mal-icon licenses [--out <file>]
-  mal-icon search <query...>
+  mal-icon search <query...> [--semantic]
   mal-icon import <file.svg> --name <Name> [--framework <react|vue|svelte>] [--out <dir>]
 
 Options:
@@ -110,7 +110,7 @@ async function runLicensesCommand(flags: Record<string, string>): Promise<void> 
   console.log(`Wrote license report to ${out}.`);
 }
 
-async function runSearchCommand(positionals: string[]): Promise<void> {
+async function runSearchCommand(positionals: string[], semantic: boolean): Promise<void> {
   const query = positionals.join(" ");
   const indexPath = join(process.cwd(), "packages", "react", "src", "icons", "search-index.json");
   if (!existsSync(indexPath)) {
@@ -119,7 +119,7 @@ async function runSearchCommand(positionals: string[]): Promise<void> {
     return;
   }
   const index = JSON.parse(await readFile(indexPath, "utf8")) as SearchIndex;
-  const results = searchIcons(query, index.entries);
+  const results = (semantic ? semanticSearch : searchIcons)(query, index.entries);
   if (results.length === 0) {
     console.log(`No icons match "${query}".`);
     return;
@@ -169,7 +169,7 @@ async function main(): Promise<void> {
       await runLicensesCommand(flags);
       break;
     case "search":
-      await runSearchCommand(positionals);
+      await runSearchCommand(positionals, "semantic" in flags);
       break;
     case "import":
       await runImportCommand(positionals, flags);
