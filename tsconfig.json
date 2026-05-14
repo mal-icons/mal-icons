@@ -1,6 +1,7 @@
 {
   "files": [],
   "references": [
+    { "path": "./icons-data" },
     { "path": "./packages/core" },
     { "path": "./packages/react" },
     { "path": "./packages/cli" }
