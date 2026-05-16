@@ -36,7 +36,7 @@ export const sources: Record<string, IconSource> = {
     name: "Feather",
     license: "MIT",
     repo: "feathericons/feather",
-    ref: "main",
+    ref: "v4.29.0",
     iconDir: "icons",
     style: "stroke",
   },

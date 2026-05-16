@@ -18,6 +18,7 @@
     "rewriteRelativeImportExtensions": true,
     "declaration": true,
     "declarationMap": true,
+    "emitDeclarationOnly": true,
     "sourceMap": true,
     "composite": true,
     "resolveJsonModule": true
