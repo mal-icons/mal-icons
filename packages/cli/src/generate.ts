@@ -16,6 +16,18 @@ const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");
 const VUE_ICONS_ROOT = join(process.cwd(), "packages", "vue", "src", "icons");
 /** Absolute path to the Svelte package's generated-icons root. */
 const SVELTE_ICONS_ROOT = join(process.cwd(), "packages", "svelte", "src", "icons");
+/** Absolute path to the React Native package's generated-icons root. */
+const REACT_NATIVE_ICONS_ROOT = join(process.cwd(), "packages", "react-native", "src", "icons");
+/** Absolute path to the Preact package's generated-icons root. */
+const PREACT_ICONS_ROOT = join(process.cwd(), "packages", "preact", "src", "icons");
+/** Absolute path to the Solid package's generated-icons root. */
+const SOLID_ICONS_ROOT = join(process.cwd(), "packages", "solid", "src", "icons");
+/** Absolute path to the Angular package's generated-icons root. */
+const ANGULAR_ICONS_ROOT = join(process.cwd(), "packages", "angular", "src", "icons");
+/** Absolute path to the Astro package's generated-icons root. */
+const ASTRO_ICONS_ROOT = join(process.cwd(), "packages", "astro", "src", "icons");
+/** Absolute path to the Web (CDN) package's generated-icons root. */
+const WEB_ICONS_ROOT = join(process.cwd(), "packages", "web", "src", "icons");
 
 /** A generated icon ready to be written to disk. */
 interface GeneratedIcon {
@@ -60,6 +72,72 @@ function vueIconFileContents(icon: GeneratedIcon): string {
   const hasDefaults = Object.keys(icon.defaultAttr).length > 0;
   const defaultsArg = hasDefaults ? `, ${JSON.stringify(kebabAttrs(icon.defaultAttr))}` : "";
   return `import { createIcon } from "../../create-icon.ts";\n\nexport const ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${defaultsArg});\n`;
+}
+
+/**
+ * Per-icon module for the JS-factory adapters (Preact, Solid) that share the
+ * same `createIcon(viewBox, nodes, defaultAttr)` shape as Vue, using
+ * kebab-cased attributes for native SVG rendering.
+ */
+function factoryIconFileContents(icon: GeneratedIcon): string {
+  return vueIconFileContents(icon);
+}
+
+/** Angular standalone component wrapping the shared `IconBaseComponent`. */
+function angularIconFileContents(source: IconSource, icon: GeneratedIcon): string {
+  const nodesLiteral = serializeNodesKebab(icon.nodes);
+  const hasDefaults = Object.keys(icon.defaultAttr).length > 0;
+  const defaultLine = hasDefaults
+    ? `  readonly defaultAttr = ${JSON.stringify(kebabAttrs(icon.defaultAttr))};\n`
+    : "";
+  const selector = `mal-${source.id}-${icon.rawName}`;
+  return `import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icon/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "${selector}",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: \`<mal-icon [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icon>\`,
+})
+export class ${icon.componentName} {
+  readonly viewBox = "${icon.viewBox}";
+  readonly nodes: NodeTuple[] = ${nodesLiteral};
+${defaultLine}  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+`;
+}
+
+/** Astro per-icon component wrapping the shared `IconBase.astro`. */
+function astroIconFileContents(icon: GeneratedIcon): string {
+  const nodesLiteral = serializeNodesKebab(icon.nodes);
+  const hasDefaults = Object.keys(icon.defaultAttr).length > 0;
+  const defaultLine = hasDefaults
+    ? `const defaultAttr = ${JSON.stringify(kebabAttrs(icon.defaultAttr))};\n`
+    : "";
+  const defaultBind = hasDefaults ? " defaultAttr={defaultAttr}" : "";
+  return `---
+import type { NodeTuple } from "@mal-icon/core";
+import IconBase from "../../IconBase.astro";
+
+const nodes: NodeTuple[] = ${nodesLiteral};
+${defaultLine}---
+
+<IconBase viewBox="${icon.viewBox}" nodes={nodes}${defaultBind} {...Astro.props} />
+`;
+}
+
+/** Serializable {@link IconData} payload for the Web (CDN) package. */
+function webIconData(icon: GeneratedIcon): string {
+  const nodes = icon.nodes.map((n) => [n.tag, kebabAttrs(n.attr)]);
+  const data: Record<string, unknown> = { viewBox: icon.viewBox, nodes };
+  if (Object.keys(icon.defaultAttr).length > 0) data.defaultAttr = kebabAttrs(icon.defaultAttr);
+  return `${JSON.stringify(data)}\n`;
 }
 
 /** Svelte per-icon component wrapping the shared `IconBase.svelte`. */
@@ -154,6 +232,12 @@ export type ${namesType} = (typeof ${namesConst})[number];
 
   await emitVueSet(source, icons);
   await emitSvelteSet(source, icons);
+  await emitReactNativeSet(source, icons);
+  await emitPreactSet(source, icons);
+  await emitSolidSet(source, icons);
+  await emitAngularSet(source, icons);
+  await emitAstroSet(source, icons);
+  await emitWebSet(source, icons);
 
   await updateManifest(source, icons.length);
   await updateSearchIndex(source, icons);
@@ -194,6 +278,141 @@ async function emitSvelteSet(source: IconSource, icons: GeneratedIcon[]): Promis
     )
     .join("\n")}\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
+}
+
+/** Emit the React Native per-icon modules + barrel + names for a set. */
+async function emitReactNativeSet(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const setDir = join(REACT_NATIVE_ICONS_ROOT, source.id);
+  await rm(setDir, { recursive: true, force: true });
+  await mkdir(setDir, { recursive: true });
+
+  for (const icon of icons) {
+    await writeFile(join(setDir, `${icon.componentName}.tsx`), iconFileContents(icon));
+  }
+
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  const barrel = `${icons
+    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.tsx";`)
+    .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
+  await writeFile(join(setDir, "index.ts"), barrel);
+  await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
+}
+
+/** Build the shared, type-safe `names.ts` contents for a set. */
+function namesFileContents(source: IconSource, icons: GeneratedIcon[]): string {
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  return `/** Type-safe list of every icon name in the "${source.id}" set. */
+export const ${namesConst} = [
+${icons.map((icon) => `  "${icon.componentName}",`).join("\n")}
+] as const;
+
+/** Union of valid "${source.id}" icon names; invalid names are TS errors. */
+export type ${namesType} = (typeof ${namesConst})[number];
+`;
+}
+
+/** Emit the Preact per-icon modules + barrel for a set. */
+async function emitPreactSet(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const setDir = join(PREACT_ICONS_ROOT, source.id);
+  await rm(setDir, { recursive: true, force: true });
+  await mkdir(setDir, { recursive: true });
+
+  for (const icon of icons) {
+    await writeFile(join(setDir, `${icon.componentName}.ts`), factoryIconFileContents(icon));
+  }
+
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  const barrel = `${icons
+    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.ts";`)
+    .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
+  await writeFile(join(setDir, "index.ts"), barrel);
+  await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
+}
+
+/** Emit the Solid per-icon modules + barrel for a set. */
+async function emitSolidSet(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const setDir = join(SOLID_ICONS_ROOT, source.id);
+  await rm(setDir, { recursive: true, force: true });
+  await mkdir(setDir, { recursive: true });
+
+  for (const icon of icons) {
+    await writeFile(join(setDir, `${icon.componentName}.ts`), factoryIconFileContents(icon));
+  }
+
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  const barrel = `${icons
+    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.ts";`)
+    .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
+  await writeFile(join(setDir, "index.ts"), barrel);
+  await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
+}
+
+/** Emit the Angular per-icon standalone components + barrel for a set. */
+async function emitAngularSet(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const setDir = join(ANGULAR_ICONS_ROOT, source.id);
+  await rm(setDir, { recursive: true, force: true });
+  await mkdir(setDir, { recursive: true });
+
+  for (const icon of icons) {
+    await writeFile(
+      join(setDir, `${icon.componentName}.ts`),
+      angularIconFileContents(source, icon),
+    );
+  }
+
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  const barrel = `${icons
+    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.ts";`)
+    .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
+  await writeFile(join(setDir, "index.ts"), barrel);
+  await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
+}
+
+/** Emit the Astro per-icon components for a set (no barrel; Astro imports files directly). */
+async function emitAstroSet(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const setDir = join(ASTRO_ICONS_ROOT, source.id);
+  await rm(setDir, { recursive: true, force: true });
+  await mkdir(setDir, { recursive: true });
+
+  for (const icon of icons) {
+    await writeFile(join(setDir, `${icon.componentName}.astro`), astroIconFileContents(icon));
+  }
+  await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
+}
+
+/** Emit the Web (CDN) per-icon JSON data + typed registry barrel for a set. */
+async function emitWebSet(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const setDir = join(WEB_ICONS_ROOT, source.id);
+  await rm(setDir, { recursive: true, force: true });
+  await mkdir(setDir, { recursive: true });
+
+  for (const icon of icons) {
+    await writeFile(join(setDir, `${icon.componentName}.json`), webIconData(icon));
+  }
+
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  const imports = icons
+    .map((icon) => `import ${icon.componentName} from "./${icon.componentName}.json";`)
+    .join("\n");
+  const record = icons.map((icon) => `  ${icon.componentName},`).join("\n");
+  const barrel = `import type { IconData } from "@mal-icon/core";
+${imports}
+
+/** Every "${source.id}" icon as serializable data, keyed by component name. */
+export const ${source.id}Icons = {
+${record}
+} as unknown as Record<string, IconData>;
+
+export { ${namesConst}, type ${namesType} } from "./names.ts";
+`;
+  await writeFile(join(setDir, "index.ts"), barrel);
+  await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
 }
 
 async function updateManifest(source: IconSource, count: number): Promise<void> {
