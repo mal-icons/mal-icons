@@ -2,10 +2,9 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "types": ["bun"],
-    "paths": {
-      "@mal-icon/core": ["../core/src/index.ts"]
-    }
+    "rootDir": "src",
+    "tsBuildInfoFile": "./dist/.tsbuildinfo",
+    "types": ["bun"]
   },
   "references": [{ "path": "../core" }],
   "include": ["src/**/*"]
