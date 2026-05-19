@@ -1,4 +1,6 @@
 #!/usr/bin/env bun
+import { readFileSync, readdirSync, statSync } from "node:fs";
+import { join } from "node:path";
 /**
  * Size budget gate (NFR-2): every generated per-icon module must stay under
  * the gzipped size limit. Run via `bun run size`.
@@ -8,8 +10,6 @@
  * one icon — the shared runtime is paid only once by the consumer.
  */
 import { gzipSync } from "node:zlib";
-import { readdirSync, readFileSync, statSync } from "node:fs";
-import { join } from "node:path";
 
 const LIMIT_BYTES = 800; // 0.8 KB gzipped
 const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");

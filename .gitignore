@@ -20,3 +20,8 @@ doc/
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+# stray tsc outputs
+icons-data/*.js
+icons-data/*.d.ts
+icons-data/*.d.ts.map

@@ -1,9 +1,9 @@
 import { describe, expect, test } from "bun:test";
 import axe from "axe-core";
-import { renderToStaticMarkup } from "react-dom/server";
 import { createElement } from "react";
-import { FiActivity } from "../src/icons/fi/index.ts";
+import { renderToStaticMarkup } from "react-dom/server";
 import { MlCircle } from "../src/icons/demo/index.ts";
+import { FiActivity } from "../src/icons/fi/index.ts";
 
 async function runAxe(markup: string) {
   const host = document.createElement("div");
@@ -32,9 +32,7 @@ describe("accessibility", () => {
   });
 
   test("labelled icon has no axe violations", async () => {
-    const html = renderToStaticMarkup(
-      createElement(FiActivity, { title: "activity indicator" }),
-    );
+    const html = renderToStaticMarkup(createElement(FiActivity, { title: "activity indicator" }));
     const results = await runAxe(html);
     expect(results.violations).toHaveLength(0);
   });

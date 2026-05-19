@@ -1,9 +1,9 @@
 import { describe, expect, test } from "bun:test";
-import { toCamelAttr, toComponentName } from "../src/naming.ts";
-import { roundNumbers, optimize } from "../src/optimize.ts";
-import { parseSvg } from "../src/svg.ts";
-import { contentHash } from "../src/dedup.ts";
 import type { IconSource } from "../../../icons-data/sources.config";
+import { contentHash } from "../src/dedup.ts";
+import { toCamelAttr, toComponentName } from "../src/naming.ts";
+import { optimize, roundNumbers } from "../src/optimize.ts";
+import { parseSvg } from "../src/svg.ts";
 
 const strokeSource: IconSource = {
   id: "fi",

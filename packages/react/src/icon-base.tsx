@@ -1,6 +1,6 @@
+import { resolveIconAttrs } from "@mal-icon/core";
 import { useContext } from "react";
 import type { CSSProperties, ReactNode, SVGAttributes } from "react";
-import { resolveIconAttrs } from "@mal-icon/core";
 import { IconContext } from "./context.ts";
 
 /** Props accepted by every generated mal-icon React component. */
@@ -38,10 +38,11 @@ export function IconBase({
   ...rest
 }: IconBaseInternalProps) {
   const conf = useContext(IconContext);
-  const { size: computedSize, color: computedColor, className: cls } = resolveIconAttrs(
-    { size, color, className },
-    conf,
-  );
+  const {
+    size: computedSize,
+    color: computedColor,
+    className: cls,
+  } = resolveIconAttrs({ size, color, className }, conf);
 
   const mergedStyle: CSSProperties | undefined =
     computedColor || conf.style || style

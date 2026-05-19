@@ -1,11 +1,11 @@
 #!/usr/bin/env bun
+import { createElement } from "react";
 /**
  * Lightweight render benchmark (SRS §12). Renders a batch of icons many
  * times with `renderToStaticMarkup` and reports throughput. Not run in CI;
  * intended for local comparison against alternatives.
  */
 import { renderToStaticMarkup } from "react-dom/server";
-import { createElement } from "react";
 import { FiActivity, FiAirplay, FiAlertCircle } from "../packages/react/src/icons/fi/index.ts";
 
 const ICONS = [FiActivity, FiAirplay, FiAlertCircle];
