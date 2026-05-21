@@ -1,0 +1,41 @@
+{
+  "name": "@mal-icon/react-native",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": ["dist"],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "bun": "./src/index.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./fi": {
+      "types": "./dist/icons/fi/index.d.ts",
+      "bun": "./src/icons/fi/index.ts",
+      "import": "./dist/icons/fi/index.js"
+    },
+    "./fi/*": {
+      "types": "./dist/icons/fi/*.d.ts",
+      "bun": "./src/icons/fi/*.tsx",
+      "import": "./dist/icons/fi/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.70",
+    "react-native-svg": ">=13"
+  },
+  "dependencies": {
+    "@mal-icon/core": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
