@@ -45,18 +45,31 @@ async function buildCore(): Promise<void> {
 }
 
 async function buildVue(): Promise<void> {
-  const entry = join(VUE_SRC, "index.ts");
-  for (const format of ["esm", "cjs"] as const) {
-    const result = await Bun.build({
-      entrypoints: [entry],
-      outdir: VUE_OUT,
-      target: "browser",
-      format,
-      external: VUE_EXTERNAL,
-      naming: format === "cjs" ? "[dir]/[name].cjs" : "[dir]/[name].js",
-    });
-    if (!result.success) throw new AggregateError(result.logs, "vue build failed");
-  }
+  const iconFiles = await collect("icons/**/*.ts", VUE_SRC);
+  const barrels = await collect("icons/**/index.ts", VUE_SRC);
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
+
+  const esm = await Bun.build({
+    entrypoints: [join(VUE_SRC, "index.ts"), ...barrels, ...perIcon],
+    outdir: VUE_OUT,
+    root: VUE_SRC,
+    target: "browser",
+    format: "esm",
+    splitting: true,
+    external: VUE_EXTERNAL,
+  });
+  if (!esm.success) throw new AggregateError(esm.logs, "vue ESM build failed");
+
+  const cjs = await Bun.build({
+    entrypoints: [join(VUE_SRC, "index.ts")],
+    outdir: VUE_OUT,
+    root: VUE_SRC,
+    target: "browser",
+    format: "cjs",
+    external: VUE_EXTERNAL,
+    naming: "[dir]/[name].cjs",
+  });
+  if (!cjs.success) throw new AggregateError(cjs.logs, "vue CJS build failed");
 }
 
 async function buildReact(): Promise<void> {
