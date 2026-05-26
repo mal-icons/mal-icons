@@ -19,6 +19,20 @@ export interface IconNode {
  */
 export type NodeTuple = [tag: string, attr: Record<string, string>];
 
+/**
+ * Minimal, serializable icon payload used by lazy/CDN and dynamic-by-name
+ * loaders. Mirrors what `createIcon` needs to render without bundling the
+ * whole set.
+ */
+export interface IconData {
+  /** SVG viewBox, e.g. "0 0 24 24". */
+  viewBox: string;
+  /** Shape children as compact tuples. */
+  nodes: NodeTuple[];
+  /** Optional root attributes (e.g. `fill: "none"`) for stroke-style sets. */
+  defaultAttr?: Record<string, string | number>;
+}
+
 /** A fully-described, deduplicatable icon definition. */
 export interface IconDefinition {
   /** PascalCase component name, e.g. "FiActivity". */
