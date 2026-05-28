@@ -10,6 +10,7 @@ compare the developer experience side by side.
 | [`react`](./react)               | Vite + React 19                | Context theming, weight/animation controls, copy-import |
 | [`nextjs`](./nextjs)             | Next.js (App Router)           | React Server Components + a client island               |
 | [`vue`](./vue)                   | Vite + Vue 3.5                 | `provideIconContext`, reactive controls                 |
+| [`nuxt`](./nuxt)                 | Nuxt 3 (SSR)                   | Server-rendered icons + `useState` SSR-safe theming     |
 | [`svelte`](./svelte)             | Vite + Svelte 5                | Runes, `setIconContext`, scoped styles                  |
 | [`cdn-sprite`](./cdn-sprite)     | Plain HTML (no build, no deps) | SVG `<symbol>` sprite via `<use>`                        |
 
@@ -31,7 +32,7 @@ Next.js) resolve through each package's `exports` map.
 Each app is a standalone workspace. After the root build:
 
 ```bash
-cd examples/react   # or nextjs / vue / svelte
+cd examples/react   # or nextjs / vue / nuxt / svelte
 bun install         # links the workspace @mal-icon/* packages
 bun run dev
 ```
