@@ -1,9 +1,13 @@
 #!/usr/bin/env bun
+import { existsSync } from "node:fs";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 import { sources } from "../../../icons-data/sources.config";
 import { type Framework, runAdd } from "./add.ts";
 import { fetchSet } from "./fetch.ts";
 import { generateSet } from "./generate.ts";
 import { writeLicenseReport } from "./licenses.ts";
+import { type SearchIndex, searchIcons } from "./search.ts";
 
 interface GenerateOptions {
   set?: string;
@@ -49,6 +53,7 @@ Usage:
   mal-icon generate --set <id> [--no-fetch] [--limit <n>]
   mal-icon add <Name...> [--set <id>] [--framework <react|vue|svelte>] [--out <dir>]
   mal-icon licenses [--out <file>]
+  mal-icon search <query...>
 
 Options:
   --set <id>          Icon set (e.g. fi). Omit on generate to do all sets.
@@ -102,6 +107,25 @@ async function runLicensesCommand(flags: Record<string, string>): Promise<void> 
   console.log(`Wrote license report to ${out}.`);
 }
 
+async function runSearchCommand(positionals: string[]): Promise<void> {
+  const query = positionals.join(" ");
+  const indexPath = join(process.cwd(), "packages", "react", "src", "icons", "search-index.json");
+  if (!existsSync(indexPath)) {
+    console.error("mal-icon search: no search index found. Run 'generate' first.");
+    process.exitCode = 1;
+    return;
+  }
+  const index = JSON.parse(await readFile(indexPath, "utf8")) as SearchIndex;
+  const results = searchIcons(query, index.entries);
+  if (results.length === 0) {
+    console.log(`No icons match "${query}".`);
+    return;
+  }
+  for (const r of results) {
+    console.log(`${r.set}\t${r.name}`);
+  }
+}
+
 async function main(): Promise<void> {
   const { command, opts, positionals, flags } = parseArgs(process.argv.slice(2));
   switch (command) {
@@ -113,6 +137,9 @@ async function main(): Promise<void> {
       break;
     case "licenses":
       await runLicensesCommand(flags);
+      break;
+    case "search":
+      await runSearchCommand(positionals);
       break;
     default:
       printHelp();
