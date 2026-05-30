@@ -1,4 +1,5 @@
 # Build / framework caches specific to the example apps
+.astro/
 .next/
 .nuxt/
 .output/
