@@ -1,11 +1,11 @@
 import {
   ChangeDetectionStrategy,
   Component,
-  type ElementRef,
-  Inject,
+  ElementRef,
   Input,
   type OnChanges,
-  type Renderer2,
+  Renderer2,
+  inject,
 } from "@angular/core";
 import { type NodeTuple, resolveIconAttrs } from "@mal-icon/core";
 import { type AngularIconContextValue, ICON_CONTEXT } from "./context.ts";
@@ -34,11 +34,9 @@ export class IconBaseComponent implements OnChanges {
 
   private svg?: SVGSVGElement;
 
-  constructor(
-    private readonly host: ElementRef<HTMLElement>,
-    private readonly renderer: Renderer2,
-    @Inject(ICON_CONTEXT) private readonly ctx: AngularIconContextValue,
-  ) {}
+  private readonly host = inject<ElementRef<HTMLElement>>(ElementRef);
+  private readonly renderer = inject(Renderer2);
+  private readonly ctx = inject<AngularIconContextValue>(ICON_CONTEXT);
 
   ngOnChanges(): void {
     this.build();
