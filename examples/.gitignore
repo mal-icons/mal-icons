@@ -1,5 +1,7 @@
 # Build / framework caches specific to the example apps
 .next/
+.nuxt/
+.output/
 .svelte-kit/
 .vite/
 out/
