@@ -131,6 +131,17 @@
         "vue-tsc": "^2.2.0",
       },
     },
+    "examples/web": {
+      "name": "@mal-icon-example/web",
+      "version": "0.0.0",
+      "dependencies": {
+        "@mal-icon/web": "workspace:*",
+      },
+      "devDependencies": {
+        "typescript": "^5.7.2",
+        "vite": "^6.0.0",
+      },
+    },
     "packages/angular": {
       "name": "@mal-icon/angular",
       "version": "0.1.0",
@@ -528,6 +539,8 @@
     "@mal-icon-example/svelte": ["@mal-icon-example/svelte@workspace:examples/svelte"],
 
     "@mal-icon-example/vue": ["@mal-icon-example/vue@workspace:examples/vue"],
+
+    "@mal-icon-example/web": ["@mal-icon-example/web@workspace:examples/web"],
 
     "@mal-icon/angular": ["@mal-icon/angular@workspace:packages/angular"],
 
