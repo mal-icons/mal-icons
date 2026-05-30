@@ -1,5 +1,5 @@
 // Bun Snapshot v1, https://bun.sh/docs/test/snapshots
 
-exports[`svg output snapshots FiActivity default render is stable 1`] = `"<svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" width="1em" height="1em" role="presentation" aria-hidden="true" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>"`;
+exports[`svg output snapshots FiActivity default render is stable 1`] = `"<svg viewBox="0 0 24 24" stroke="currentColor" fill="none" width="1em" height="1em" role="presentation" aria-hidden="true" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>"`;
 
-exports[`svg output snapshots FiActivity with size/color/title is stable 1`] = `"<svg viewBox="0 0 24 24" stroke="currentColor" fill="none" stroke-width="2" width="24" height="24" style="color:#3366ff" role="img" stroke-linecap="round" stroke-linejoin="round"><title>activity</title><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>"`;
+exports[`svg output snapshots FiActivity with size/color/title is stable 1`] = `"<svg viewBox="0 0 24 24" stroke="currentColor" fill="none" width="24" height="24" style="color:#3366ff" role="img" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><title>activity</title><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>"`;

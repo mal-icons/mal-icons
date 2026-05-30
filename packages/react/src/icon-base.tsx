@@ -1,4 +1,10 @@
-import { resolveIconAttrs } from "@mal-icon/core";
+import {
+  type IconAnimation,
+  type IconWeight,
+  WEIGHT_STROKE_WIDTH,
+  animationClass,
+  resolveIconAttrs,
+} from "@mal-icon/core";
 import { useContext } from "react";
 import type { CSSProperties, ReactNode, SVGAttributes } from "react";
 import { IconContext } from "./context.ts";
@@ -9,6 +15,12 @@ export interface IconBaseProps extends Omit<SVGAttributes<SVGSVGElement>, "color
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
+  /** Secondary color for multi-tone icons, exposed as `--mal-icon-secondary`. */
+  secondaryColor?: string;
+  /** Stroke weight preset for stroke-based sets (overrides the baked width). */
+  weight?: IconWeight;
+  /** CSS-driven animation preset; requires `ICON_ANIMATIONS_CSS` on the page. */
+  animate?: IconAnimation;
   /** Accessible label; renders a `<title>` element and sets `role="img"`. */
   title?: string;
   /** Additional class name(s), concatenated after the context className. */
@@ -31,6 +43,9 @@ export function IconBase({
   viewBox,
   size,
   color,
+  secondaryColor,
+  weight,
+  animate,
   title,
   className,
   style,
@@ -44,25 +59,37 @@ export function IconBase({
     className: cls,
   } = resolveIconAttrs({ size, color, className }, conf);
 
+  const fullClassName =
+    [cls, animate ? animationClass(animate) : undefined].filter(Boolean).join(" ") || undefined;
+
   const mergedStyle: CSSProperties | undefined =
-    computedColor || conf.style || style
-      ? { color: computedColor, ...conf.style, ...style }
+    computedColor || secondaryColor || conf.style || style
+      ? ({
+          color: computedColor,
+          ...(secondaryColor ? { "--mal-icon-secondary": secondaryColor } : {}),
+          ...conf.style,
+          ...style,
+        } as CSSProperties)
       : undefined;
+
+  const weightWidth = weight ? WEIGHT_STROKE_WIDTH[weight] : undefined;
+  const { strokeWidth: restStrokeWidth, ...restProps } = rest;
+  const strokeWidth = weightWidth ?? restStrokeWidth ?? "0";
 
   return (
     <svg
       viewBox={viewBox}
       stroke="currentColor"
       fill="currentColor"
-      strokeWidth="0"
       width={computedSize}
       height={computedSize}
-      className={cls}
+      className={fullClassName}
       style={mergedStyle}
       role={title ? "img" : "presentation"}
       aria-hidden={title ? undefined : true}
       {...conf.attr}
-      {...rest}
+      {...restProps}
+      strokeWidth={strokeWidth}
     >
       {title ? <title>{title}</title> : null}
       {children}

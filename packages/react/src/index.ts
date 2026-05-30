@@ -18,3 +18,10 @@ export {
   DefaultIconContext,
   type ReactIconContextValue,
 } from "./context.ts";
+export {
+  ICON_ANIMATIONS_CSS,
+  WEIGHT_STROKE_WIDTH,
+  animationClass,
+  type IconAnimation,
+  type IconWeight,
+} from "@mal-icon/core";

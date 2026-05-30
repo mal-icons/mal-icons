@@ -1,6 +1,6 @@
 #!/usr/bin/env bun
 import { existsSync } from "node:fs";
-import { readFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { sources } from "../../../icons-data/sources.config";
 import { type Framework, runAdd } from "./add.ts";
@@ -8,6 +8,7 @@ import { fetchSet } from "./fetch.ts";
 import { generateSet } from "./generate.ts";
 import { writeLicenseReport } from "./licenses.ts";
 import { type SearchIndex, searchIcons } from "./search.ts";
+import { type ImportFramework, svgToComponentSource } from "./svg-import.ts";
 
 interface GenerateOptions {
   set?: string;
@@ -54,13 +55,15 @@ Usage:
   mal-icon add <Name...> [--set <id>] [--framework <react|vue|svelte>] [--out <dir>]
   mal-icon licenses [--out <file>]
   mal-icon search <query...>
+  mal-icon import <file.svg> --name <Name> [--framework <react|vue|svelte>] [--out <dir>]
 
 Options:
   --set <id>          Icon set (e.g. fi). Omit on generate to do all sets.
   --no-fetch          Reuse the local SVG cache instead of downloading.
   --limit <n>         Only generate the first <n> icons (for quick checks).
-  --framework <name>  Target framework for "add" (default react).
-  --out <path>        Output directory ("add") or file ("licenses").
+  --framework <name>  Target framework for "add"/"import" (default react).
+  --name <Name>       Component name for "import".
+  --out <path>        Output directory ("add"/"import") or file ("licenses").
 
 Available sets: ${Object.keys(sources).join(", ")}`);
 }
@@ -126,6 +129,33 @@ async function runSearchCommand(positionals: string[]): Promise<void> {
   }
 }
 
+async function runImportCommand(
+  positionals: string[],
+  flags: Record<string, string>,
+): Promise<void> {
+  const file = positionals[0];
+  if (file === undefined) {
+    console.error("mal-icon import: provide a path to an .svg file.");
+    process.exitCode = 1;
+    return;
+  }
+  const name = flags.name;
+  if (name === undefined || name === "") {
+    console.error("mal-icon import: --name <Name> is required.");
+    process.exitCode = 1;
+    return;
+  }
+  const framework = (flags.framework ?? "react") as ImportFramework;
+  const svg = await readFile(file, "utf8");
+  const source = svgToComponentSource(name, svg, framework);
+  const ext = framework === "react" ? "tsx" : framework === "vue" ? "ts" : "svelte";
+  const outDir = flags.out ?? "src/icons";
+  const dest = join(outDir, `${name}.${ext}`);
+  await mkdir(outDir, { recursive: true });
+  await writeFile(dest, source, "utf8");
+  console.log(`imported ${name} -> ${dest}`);
+}
+
 async function main(): Promise<void> {
   const { command, opts, positionals, flags } = parseArgs(process.argv.slice(2));
   switch (command) {
@@ -140,6 +170,9 @@ async function main(): Promise<void> {
       break;
     case "search":
       await runSearchCommand(positionals);
+      break;
+    case "import":
+      await runImportCommand(positionals, flags);
       break;
     default:
       printHelp();

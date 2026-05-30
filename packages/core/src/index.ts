@@ -103,6 +103,42 @@ export interface ResolvedIconAttrs {
   className: string | undefined;
 }
 
+/** Stroke weight presets for stroke-based icon sets. */
+export type IconWeight = "thin" | "light" | "regular" | "bold";
+
+/** Maps a {@link IconWeight} to a concrete SVG `stroke-width`. */
+export const WEIGHT_STROKE_WIDTH: Record<IconWeight, number> = {
+  thin: 1,
+  light: 1.5,
+  regular: 2,
+  bold: 3,
+};
+
+/** CSS-driven animation presets applied via the `animate` prop. */
+export type IconAnimation = "spin" | "spin-reverse" | "pulse" | "beat" | "bounce";
+
+/** Class name applied to the root `<svg>` for a given animation. */
+export function animationClass(animation: IconAnimation): string {
+  return `mal-icon-animate-${animation}`;
+}
+
+/**
+ * CSS keyframes + classes backing {@link IconAnimation}. Consumers inject
+ * this once (e.g. a `<style>` tag); animations are pure CSS so they add no
+ * JS cost and only animate the icons that opt in (SRS §16.2).
+ */
+export const ICON_ANIMATIONS_CSS = `@keyframes mal-icon-spin{to{transform:rotate(360deg)}}
+@keyframes mal-icon-pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes mal-icon-beat{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes mal-icon-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-15%)}}
+.mal-icon-animate-spin{animation:mal-icon-spin 1s linear infinite;will-change:transform}
+.mal-icon-animate-spin-reverse{animation:mal-icon-spin 1s linear infinite reverse;will-change:transform}
+.mal-icon-animate-pulse{animation:mal-icon-pulse 1.5s ease-in-out infinite}
+.mal-icon-animate-beat{animation:mal-icon-beat 1s ease-in-out infinite;will-change:transform}
+.mal-icon-animate-bounce{animation:mal-icon-bounce 1s ease infinite;will-change:transform}
+@media (prefers-reduced-motion:reduce){[class*=mal-icon-animate-]{animation:none}}
+`;
+
 /**
  * Resolve the final size/color/className given per-icon props and the
  * surrounding context, following the SRS override priority:
