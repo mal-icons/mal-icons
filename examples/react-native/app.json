@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "mal-icon · React Native",
+    "slug": "mal-icon-react-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0b0d12"
+    },
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#0b0d12" }
+    },
+    "web": { "bundler": "metro" }
+  }
+}
