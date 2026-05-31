@@ -65,3 +65,87 @@ export function searchIcons(query: string, index: SearchEntry[], limit = 20): Se
   );
   return scored.slice(0, limit).map((s) => s.entry);
 }
+
+/**
+ * Concept synonyms mapping everyday/natural-language words to the icon terms
+ * that actually appear in the bundled sets. This is the lightweight,
+ * deterministic backbone of "AI" icon search: a `"trash"` query also matches
+ * `FiTrash2`, `"gear"` finds `FiSettings`, etc. (SRS FR-16).
+ */
+export const SYNONYMS: Record<string, string[]> = {
+  add: ["plus"],
+  account: ["user"],
+  bin: ["trash"],
+  cancel: ["x"],
+  cart: ["shopping-cart"],
+  close: ["x"],
+  delete: ["trash", "x"],
+  edit: ["edit", "pen", "pencil"],
+  find: ["search"],
+  gear: ["settings", "sliders"],
+  hide: ["eye-off"],
+  house: ["home"],
+  like: ["heart", "thumbs-up"],
+  love: ["heart"],
+  notification: ["bell"],
+  person: ["user"],
+  photo: ["image", "camera"],
+  picture: ["image"],
+  remove: ["trash", "minus", "x"],
+  save: ["save", "download"],
+  setting: ["settings", "sliders"],
+  trash: ["trash"],
+  warning: ["alert-triangle"],
+};
+
+/**
+ * Expand a query into the original token(s) plus any concept synonyms,
+ * preserving order and removing duplicates.
+ */
+export function expandQuery(query: string): string[] {
+  const tokens = tokenize(query);
+  const out: string[] = [];
+  const seen = new Set<string>();
+  const push = (term: string) => {
+    if (term && !seen.has(term)) {
+      seen.add(term);
+      out.push(term);
+    }
+  };
+  const whole = query.toLowerCase().trim();
+  push(whole);
+  for (const token of tokens) {
+    push(token);
+    for (const syn of SYNONYMS[token] ?? []) push(syn);
+  }
+  return out;
+}
+
+/**
+ * Natural-language icon search. Expands the query via {@link SYNONYMS}, scores
+ * each entry by its best-matching candidate (direct hits outrank synonyms),
+ * and returns the top results. Falls back to {@link searchIcons} semantics for
+ * empty queries.
+ */
+export function semanticSearch(query: string, index: SearchEntry[], limit = 20): SearchEntry[] {
+  const candidates = expandQuery(query);
+  if (candidates.length === 0) return index.slice(0, limit);
+  const original = candidates[0];
+  const scored: { entry: SearchEntry; score: number }[] = [];
+  for (const entry of index) {
+    let best = 0;
+    for (const candidate of candidates) {
+      const raw = scoreEntry(candidate, entry);
+      const weighted = candidate === original ? raw : raw * 0.85;
+      if (weighted > best) best = weighted;
+    }
+    if (best > 0) scored.push({ entry, score: best });
+  }
+  scored.sort(
+    (a, b) =>
+      b.score - a.score ||
+      a.entry.name.length - b.entry.name.length ||
+      a.entry.name.localeCompare(b.entry.name),
+  );
+  return scored.slice(0, limit).map((s) => s.entry);
+}
