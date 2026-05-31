@@ -12,6 +12,12 @@ compare the developer experience side by side.
 | [`vue`](./vue)                   | Vite + Vue 3.5                 | `provideIconContext`, reactive controls                 |
 | [`nuxt`](./nuxt)                 | Nuxt 3 (SSR)                   | Server-rendered icons + `useState` SSR-safe theming     |
 | [`svelte`](./svelte)             | Vite + Svelte 5                | Runes, `setIconContext`, scoped styles                  |
+| [`preact`](./preact)             | Vite + Preact 10               | `IconContext` provider, hooks, copy-import              |
+| [`solid`](./solid)               | Vite + SolidJS 1.9             | Signals + `IconProvider`, fine-grained reactivity       |
+| [`angular`](./angular)           | Vite + Angular 22 (JIT)        | Standalone components, signals, `NgComponentOutlet`     |
+| [`web`](./web)                   | Vanilla TS + Web Components    | `<mal-icon>` custom element, `registerIcons`            |
+| [`astro`](./astro)               | Astro 5 (static, zero-JS)      | `.astro` icon components rendered at build time         |
+| [`react-native`](./react-native) | Expo + react-native-svg        | `IconContext` theming on native `<Svg>`                 |
 | [`cdn-sprite`](./cdn-sprite)     | Plain HTML (no build, no deps) | SVG `<symbol>` sprite via `<use>`                        |
 
 ## Prerequisites
@@ -32,7 +38,7 @@ Next.js) resolve through each package's `exports` map.
 Each app is a standalone workspace. After the root build:
 
 ```bash
-cd examples/react   # or nextjs / vue / nuxt / svelte
+cd examples/react   # or nextjs / vue / nuxt / svelte / preact / solid / angular / web / astro
 bun install         # links the workspace @mal-icon/* packages
 bun run dev
 ```

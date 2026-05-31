@@ -1,0 +1,140 @@
+---
+import { ICON_ANIMATIONS_CSS, animationClass } from "@mal-icon/core";
+import FiActivity from "@mal-icon/astro/fi/FiActivity";
+import FiArrowRight from "@mal-icon/astro/fi/FiArrowRight";
+import FiBell from "@mal-icon/astro/fi/FiBell";
+import FiCalendar from "@mal-icon/astro/fi/FiCalendar";
+import FiCamera from "@mal-icon/astro/fi/FiCamera";
+import FiCheck from "@mal-icon/astro/fi/FiCheck";
+import FiCloud from "@mal-icon/astro/fi/FiCloud";
+import FiCode from "@mal-icon/astro/fi/FiCode";
+import FiDownload from "@mal-icon/astro/fi/FiDownload";
+import FiEdit from "@mal-icon/astro/fi/FiEdit";
+import FiGithub from "@mal-icon/astro/fi/FiGithub";
+import FiGlobe from "@mal-icon/astro/fi/FiGlobe";
+import FiHeart from "@mal-icon/astro/fi/FiHeart";
+import FiHome from "@mal-icon/astro/fi/FiHome";
+import FiLoader from "@mal-icon/astro/fi/FiLoader";
+import FiLock from "@mal-icon/astro/fi/FiLock";
+import FiMail from "@mal-icon/astro/fi/FiMail";
+import FiMoon from "@mal-icon/astro/fi/FiMoon";
+import FiSearch from "@mal-icon/astro/fi/FiSearch";
+import FiSettings from "@mal-icon/astro/fi/FiSettings";
+import FiStar from "@mal-icon/astro/fi/FiStar";
+import FiSun from "@mal-icon/astro/fi/FiSun";
+import FiTrash2 from "@mal-icon/astro/fi/FiTrash2";
+import FiUpload from "@mal-icon/astro/fi/FiUpload";
+import FiUser from "@mal-icon/astro/fi/FiUser";
+import FiZap from "@mal-icon/astro/fi/FiZap";
+import "../styles/styles.css";
+
+// Astro has no runtime theming context, so every icon is themed purely through
+// its own props (`size`, `color`, `title`, `class`) — resolved at build time.
+const ICONS = [
+  ["FiActivity", FiActivity],
+  ["FiArrowRight", FiArrowRight],
+  ["FiBell", FiBell],
+  ["FiCalendar", FiCalendar],
+  ["FiCamera", FiCamera],
+  ["FiCheck", FiCheck],
+  ["FiCloud", FiCloud],
+  ["FiCode", FiCode],
+  ["FiDownload", FiDownload],
+  ["FiEdit", FiEdit],
+  ["FiGithub", FiGithub],
+  ["FiGlobe", FiGlobe],
+  ["FiHeart", FiHeart],
+  ["FiHome", FiHome],
+  ["FiLoader", FiLoader],
+  ["FiLock", FiLock],
+  ["FiMail", FiMail],
+  ["FiMoon", FiMoon],
+  ["FiSearch", FiSearch],
+  ["FiSettings", FiSettings],
+  ["FiStar", FiStar],
+  ["FiSun", FiSun],
+  ["FiTrash2", FiTrash2],
+  ["FiUpload", FiUpload],
+  ["FiUser", FiUser],
+  ["FiZap", FiZap],
+] as const;
+
+const SIZES = [16, 24, 32, 48] as const;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mal-icon · Astro example</title>
+    <!-- Animations are pure CSS; inject the keyframes once. -->
+    <style set:html={ICON_ANIMATIONS_CSS}></style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero__badge">Astro · SSG</div>
+        <h1 class="hero__title">mal-icon <span>for Astro</span></h1>
+        <p class="hero__subtitle">
+          Server-rendered, zero-runtime icons. Each <code>.astro</code> component
+          emits a plain <code>&lt;svg&gt;</code> at build time — no client JavaScript,
+          themed entirely through props.
+        </p>
+        <a
+          class="hero__link"
+          href="https://github.com/MAnasLatif/mal-icon"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FiGithub size={18} /> View on GitHub
+        </a>
+      </header>
+
+      <section class="panel panel--showcase" aria-label="Prop showcase">
+        <div class="showcase">
+          <span class="showcase__label">size</span>
+          <div class="showcase__row">
+            {SIZES.map((s) => <FiActivity size={s} title={`Activity ${s}px`} />)}
+          </div>
+        </div>
+        <div class="showcase">
+          <span class="showcase__label">color</span>
+          <div class="showcase__row">
+            <FiHeart size={32} color="#f43f5e" title="Heart" />
+            <FiStar size={32} color="#f59e0b" title="Star" />
+            <FiCloud size={32} color="#22d3ee" title="Cloud" />
+            <FiZap size={32} color="#a78bfa" title="Zap" />
+          </div>
+        </div>
+        <div class="showcase">
+          <span class="showcase__label">animate (CSS)</span>
+          <div class="showcase__row">
+            <FiLoader size={32} class={animationClass("spin")} title="Loading" />
+            <FiBell size={32} class={animationClass("beat")} title="Notification" />
+            <FiHeart size={32} color="#f43f5e" class={animationClass("pulse")} title="Pulse" />
+          </div>
+        </div>
+      </section>
+
+      <main class="grid" aria-label="Icon gallery">
+        {
+          ICONS.map(([name, Icon]) => (
+            <div class="card card--static">
+              <span class="card__icon">
+                <Icon size={32} color="#6366f1" title={name} />
+              </span>
+              <span class="card__name">{name}</span>
+              <code class="card__import">@mal-icon/astro/fi/{name}.astro</code>
+            </div>
+          ))
+        }
+      </main>
+
+      <footer class="footer">
+        Showing {ICONS.length} curated Feather icons. The full set ships 287 zero-runtime
+        <code>.astro</code> components.
+      </footer>
+    </div>
+  </body>
+</html>

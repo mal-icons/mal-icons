@@ -1,0 +1,27 @@
+{
+  "name": "@mal-icon-example/react-native",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "export": "expo export --platform web"
+  },
+  "dependencies": {
+    "@mal-icon/core": "workspace:*",
+    "@mal-icon/react-native": "workspace:*",
+    "expo": "^52.0.0",
+    "expo-clipboard": "~7.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "0.76.5",
+    "react-native-svg": "15.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "~18.3.12",
+    "typescript": "~5.7.2"
+  }
+}
