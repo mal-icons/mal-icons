@@ -29,8 +29,16 @@ const state = {
   query: "",
 };
 
+/** Escape a value before interpolating it into an HTML string. */
+function esc(value: string | number): string {
+  return String(value).replace(
+    /[&<>"']/g,
+    (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[ch] as string,
+  );
+}
+
 function option(value: string, selected: boolean): string {
-  return `<option value="${value}"${selected ? " selected" : ""}>${value}</option>`;
+  return `<option value="${esc(value)}"${selected ? " selected" : ""}>${esc(value)}</option>`;
 }
 
 app.innerHTML = `
@@ -55,12 +63,12 @@ app.innerHTML = `
         <input id="q" type="search" placeholder="Search icons…" />
       </label>
       <label class="field">
-        <span>Size · <span id="size-label">${state.size}</span>px</span>
-        <input id="size" type="range" min="16" max="64" value="${state.size}" />
+        <span>Size · <span id="size-label">${esc(state.size)}</span>px</span>
+        <input id="size" type="range" min="16" max="64" value="${esc(state.size)}" />
       </label>
       <label class="field">
         <span>Color</span>
-        <input id="color" type="color" value="${state.color}" />
+        <input id="color" type="color" value="${esc(state.color)}" />
       </label>
       <label class="field">
         <span>Weight</span>
@@ -75,11 +83,11 @@ app.innerHTML = `
     <main class="grid" aria-label="Icon gallery">
       ${ICON_NAMES.map(
         (name) => `
-        <button type="button" class="card" data-name="${name}" title="Copy import for ${name}">
+        <button type="button" class="card" data-name="${esc(name)}" title="Copy import for ${esc(name)}">
           <span class="card__icon">
-            <mal-icon data-gallery name="${name}" title="${name}"></mal-icon>
+            <mal-icon data-gallery name="${esc(name)}" title="${esc(name)}"></mal-icon>
           </span>
-          <span class="card__name">${name}</span>
+          <span class="card__name">${esc(name)}</span>
           <span class="card__copy">
             <mal-icon class="card__copy-icon" name="FiCopy" size="14"></mal-icon>
             <span class="card__copy-label">Copy</span>
