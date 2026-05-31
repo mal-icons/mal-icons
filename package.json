@@ -3,10 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "workspaces": [
-    "packages/*",
-    "examples/*"
-  ],
+  "workspaces": ["packages/*", "examples/*"],
   "engines": {
     "bun": ">=1.1",
     "node": ">=20"
@@ -16,6 +13,7 @@
     "test": "bun test",
     "build": "bun run scripts/build.ts && tsc --build --force",
     "lint": "biome check .",
+    "lint:fix": "biome check --fix .",
     "format": "biome format --write .",
     "generate": "bun run packages/cli/src/index.ts generate",
     "size": "bun run scripts/size-check.ts",
