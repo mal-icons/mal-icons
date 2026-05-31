@@ -11,4 +11,4 @@ export {
   animationClass,
   type IconAnimation,
   type IconWeight,
-} from "@mal-icon/core";
+} from "@mal-icons/core";

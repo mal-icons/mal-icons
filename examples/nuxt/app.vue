@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { provideIconContext } from "@mal-icon/vue";
+import { provideIconContext } from "@mal-icons/vue";
 import { FiActivity, FiGlobe, FiSearch, FiZap, ICONS } from "~/icons";
 
 // Nuxt's `useState` keeps the controls SSR-safe: the values are serialized on
@@ -24,7 +24,7 @@ const filtered = computed(() => {
   <div class="page">
     <header class="hero">
       <div class="hero__badge">Nuxt 3 · Vue 3.5 · SSR</div>
-      <h1 class="hero__title">mal-icon <span>for Nuxt</span></h1>
+      <h1 class="hero__title">mal-icons <span>for Nuxt</span></h1>
       <p class="hero__subtitle">
         The hero icons below are rendered on the server as native
         <code>&lt;svg&gt;</code> markup — no <code>v-html</code>, no runtime JSON
@@ -70,7 +70,7 @@ const filtered = computed(() => {
 
     <footer class="footer">
       Showing {{ filtered.length }} of {{ ICONS.length }} curated Feather icons,
-      server-rendered with <code>@mal-icon/vue</code>.
+      server-rendered with <code>@mal-icons/vue</code>.
     </footer>
   </div>
 </template>

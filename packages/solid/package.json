@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon/solid",
+  "name": "@mal-icons/solid",
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "solid-js": ">=1.8"
   },
   "dependencies": {
-    "@mal-icon/core": "workspace:*"
+    "@mal-icons/core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

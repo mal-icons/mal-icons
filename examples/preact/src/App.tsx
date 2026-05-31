@@ -4,8 +4,8 @@ import {
   IconContext,
   type IconWeight,
   type PreactIconContextValue,
-} from "@mal-icon/preact";
-import { FiCheck, FiCopy, FiGithub, FiSearch } from "@mal-icon/preact/fi";
+} from "@mal-icons/preact";
+import { FiCheck, FiCopy, FiGithub, FiSearch } from "@mal-icons/preact/fi";
 import { useMemo, useState } from "preact/hooks";
 import { ICONS } from "./icons.ts";
 
@@ -30,7 +30,7 @@ export function App() {
   const contextValue = useMemo<PreactIconContextValue>(() => ({ size, color }), [size, color]);
 
   async function copyImport(name: string) {
-    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icon/preact/fi";`);
+    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icons/preact/fi";`);
     setCopied(name);
     window.setTimeout(() => setCopied((c) => (c === name ? null : c)), 1200);
   }
@@ -44,7 +44,7 @@ export function App() {
         <header class="hero">
           <div class="hero__badge">Preact 10 · Vite</div>
           <h1 class="hero__title">
-            mal-icon <span>for Preact</span>
+            mal-icons <span>for Preact</span>
           </h1>
           <p class="hero__subtitle">
             Tree-shakeable, ahead-of-time generated icons with a single, consistent API. Theme
@@ -52,7 +52,7 @@ export function App() {
           </p>
           <a
             class="hero__link"
-            href="https://github.com/MAnasLatif/mal-icon"
+            href="https://github.com/MAnasLatif/mal-icons"
             target="_blank"
             rel="noreferrer"
           >

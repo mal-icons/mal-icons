@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { ICON_ANIMATIONS_CSS, WEIGHT_STROKE_WIDTH, animationClass } from "@mal-icon/core";
+import { ICON_ANIMATIONS_CSS, WEIGHT_STROKE_WIDTH, animationClass } from "@mal-icons/core";
 import { renderToStaticMarkup } from "react-dom/server";
 import { createIcon } from "../src/index.ts";
 
@@ -17,16 +17,16 @@ describe("animations", () => {
 
   test("no animate prop renders no animation class", () => {
     const html = renderToStaticMarkup(<FiActivity />);
-    expect(html).not.toContain("mal-icon-animate");
+    expect(html).not.toContain("mal-icons-animate");
   });
 
   test("animate merges with a user className", () => {
     const html = renderToStaticMarkup(<FiActivity animate="pulse" className="x" />);
-    expect(html).toContain("x mal-icon-animate-pulse");
+    expect(html).toContain("x mal-icons-animate-pulse");
   });
 
   test("animations CSS exposes keyframes and reduced-motion guard", () => {
-    expect(ICON_ANIMATIONS_CSS).toContain("@keyframes mal-icon-spin");
+    expect(ICON_ANIMATIONS_CSS).toContain("@keyframes mal-icons-spin");
     expect(ICON_ANIMATIONS_CSS).toContain("prefers-reduced-motion");
   });
 });
@@ -51,11 +51,11 @@ describe("weights", () => {
 describe("multi-tone", () => {
   test("secondaryColor sets the CSS variable", () => {
     const html = renderToStaticMarkup(<FiActivity secondaryColor="#f00" />);
-    expect(html).toContain("--mal-icon-secondary:#f00");
+    expect(html).toContain("--mal-icons-secondary:#f00");
   });
 
   test("no secondaryColor omits the variable", () => {
     const html = renderToStaticMarkup(<FiActivity color="blue" />);
-    expect(html).not.toContain("--mal-icon-secondary");
+    expect(html).not.toContain("--mal-icons-secondary");
   });
 });

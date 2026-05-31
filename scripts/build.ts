@@ -2,7 +2,7 @@
 import { cp, mkdir, rm } from "node:fs/promises";
 import { join } from "node:path";
 /**
- * Build the publishable JS artifacts for @mal-icon/core and @mal-icon/react.
+ * Build the publishable JS artifacts for @mal-icons/core and @mal-icons/react.
  *
  * - ESM is built with code-splitting so per-icon modules share a single
  *   runtime chunk while remaining individually tree-shakeable.
@@ -29,24 +29,24 @@ const WEB_OUT = join(ROOT, "packages", "web", "dist");
 const ESLINT_SRC = join(ROOT, "packages", "eslint-plugin", "src");
 const ESLINT_OUT = join(ROOT, "packages", "eslint-plugin", "dist");
 
-const REACT_EXTERNAL = ["react", "react/jsx-runtime", "react-dom", "@mal-icon/core"];
-const VUE_EXTERNAL = ["vue", "@mal-icon/core"];
+const REACT_EXTERNAL = ["react", "react/jsx-runtime", "react-dom", "@mal-icons/core"];
+const VUE_EXTERNAL = ["vue", "@mal-icons/core"];
 const RN_EXTERNAL = [
   "react",
   "react/jsx-runtime",
   "react-native",
   "react-native-svg",
-  "@mal-icon/core",
+  "@mal-icons/core",
 ];
-const PREACT_EXTERNAL = ["preact", "preact/hooks", "preact/jsx-runtime", "@mal-icon/core"];
+const PREACT_EXTERNAL = ["preact", "preact/hooks", "preact/jsx-runtime", "@mal-icons/core"];
 const SOLID_EXTERNAL = [
   "solid-js",
   "solid-js/web",
   "solid-js/h",
   "solid-js/store",
-  "@mal-icon/core",
+  "@mal-icons/core",
 ];
-const WEB_EXTERNAL = ["@mal-icon/core"];
+const WEB_EXTERNAL = ["@mal-icons/core"];
 
 async function collect(glob: string, base: string): Promise<string[]> {
   const out: string[] = [];

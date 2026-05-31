@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon/web",
+  "name": "@mal-icons/web",
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@mal-icon/core": "workspace:*"
+    "@mal-icons/core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

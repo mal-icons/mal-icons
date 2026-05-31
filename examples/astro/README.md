@@ -1,6 +1,6 @@
-# mal-icon · Astro example
+# mal-icons · Astro example
 
-A static, server-rendered Astro site that showcases the `@mal-icon/astro`
+A static, server-rendered Astro site that showcases the `@mal-icons/astro`
 adapter. Every icon is a `.astro` component that emits a plain `<svg>` at build
 time — **zero client-side JavaScript**.
 
@@ -26,12 +26,12 @@ bun run dev
 
 ## What it shows
 
-- `import FiActivity from "@mal-icon/astro/fi/FiActivity.astro"` — one component
+- `import FiActivity from "@mal-icons/astro/fi/FiActivity.astro"` — one component
   per icon, tree-shaken by the bundler.
 - Prop-based theming: `<FiHeart size={32} color="#f43f5e" title="Heart" />`.
 - CSS animation presets applied via `class={animationClass("spin")}`, with
   `ICON_ANIMATIONS_CSS` injected once into `<head>`.
 
-> `astro.config.mjs` resolves `@mal-icon/*` to source via the `"bun"` export
+> `astro.config.mjs` resolves `@mal-icons/*` to source via the `"bun"` export
 > condition so the example runs straight from the workspace. When consuming the
 > published npm packages you can delete that `vite.resolve.conditions` block.

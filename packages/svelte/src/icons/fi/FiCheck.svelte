@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { NodeTuple } from "@mal-icon/core";
+  import type { NodeTuple } from "@mal-icons/core";
   import IconBase from "../../IconBase.svelte";
 
   const nodes: NodeTuple[] = [["polyline",{"points":"20 6 9 17 4 12"}]];

@@ -1,4 +1,4 @@
-import type { NodeTuple } from "@mal-icon/core";
+import type { NodeTuple } from "@mal-icons/core";
 import { createElement, memo } from "react";
 import type { ComponentType, ReactElement } from "react";
 import { Circle, Ellipse, G, Line, Path, Polygon, Polyline, Rect } from "react-native-svg";
@@ -54,5 +54,5 @@ export function createIcon(viewBox: string, nodes: NodeTuple[], defaultAttr?: Ic
   return memo(Icon);
 }
 
-/** A generated mal-icon React Native component. */
+/** A generated mal-icons React Native component. */
 export type IconComponent = ReturnType<typeof createIcon>;

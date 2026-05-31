@@ -1,7 +1,7 @@
 import { existsSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { IconsManifest } from "@mal-icon/core";
+import type { IconsManifest } from "@mal-icons/core";
 
 const MANIFEST_PATH = join(process.cwd(), "packages", "react", "src", "icons", "manifest.json");
 

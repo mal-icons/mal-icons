@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { provideIconContext } from "@mal-icon/vue";
+import { provideIconContext } from "@mal-icons/vue";
 import { computed, reactive, ref } from "vue";
 import { FiSearch, ICONS } from "./icons";
 
@@ -22,7 +22,7 @@ const filtered = computed(() => {
   <div class="page">
     <header class="hero">
       <div class="hero__badge">Vue 3.5 · Vite</div>
-      <h1 class="hero__title">mal-icon <span>for Vue</span></h1>
+      <h1 class="hero__title">mal-icons <span>for Vue</span></h1>
       <p class="hero__subtitle">
         The same ahead-of-time generated icons, rendered with Vue's
         <code>h()</code> render functions. Theme everything through

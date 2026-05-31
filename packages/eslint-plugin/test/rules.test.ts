@@ -8,17 +8,17 @@ const tester = new RuleTester({
 
 tester.run("prefer-named-import", preferNamedImport, {
   valid: [
-    { code: 'import { FiActivity } from "@mal-icon/react/fi";' },
+    { code: 'import { FiActivity } from "@mal-icons/react/fi";' },
     { code: 'import React from "react";' },
     { code: 'import * as path from "node:path";' },
   ],
   invalid: [
     {
-      code: 'import Icons from "@mal-icon/react/fi";',
+      code: 'import Icons from "@mal-icons/react/fi";',
       errors: [{ messageId: "named" }],
     },
     {
-      code: 'import * as Icons from "@mal-icon/vue/fi";',
+      code: 'import * as Icons from "@mal-icons/vue/fi";',
       errors: [{ messageId: "named" }],
     },
   ],
@@ -26,16 +26,16 @@ tester.run("prefer-named-import", preferNamedImport, {
 
 tester.run("no-unused-icons", noUnusedIcons, {
   valid: [
-    { code: 'import { FiActivity } from "@mal-icon/react/fi";\nFiActivity();' },
+    { code: 'import { FiActivity } from "@mal-icons/react/fi";\nFiActivity();' },
     { code: 'import { useState } from "react";' },
   ],
   invalid: [
     {
-      code: 'import { FiActivity } from "@mal-icon/react/fi";',
+      code: 'import { FiActivity } from "@mal-icons/react/fi";',
       errors: [{ messageId: "unused" }],
     },
     {
-      code: 'import { FiActivity, FiAirplay } from "@mal-icon/react/fi";\nFiActivity();',
+      code: 'import { FiActivity, FiAirplay } from "@mal-icons/react/fi";\nFiActivity();',
       errors: [{ messageId: "unused" }],
     },
   ],

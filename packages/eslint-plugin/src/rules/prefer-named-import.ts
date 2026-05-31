@@ -1,16 +1,16 @@
 import type { Rule } from "eslint";
 
-const MAL_ICON_PREFIX = "@mal-icon/";
+const MAL_ICON_PREFIX = "@mal-icons/";
 
 /**
- * Disallow default and namespace imports from `@mal-icon/*` packages. Named
+ * Disallow default and namespace imports from `@mal-icons/*` packages. Named
  * imports are required so bundlers can tree-shake unused icons.
  */
 export const preferNamedImport: Rule.RuleModule = {
   meta: {
     type: "suggestion",
     docs: {
-      description: "Require named imports from @mal-icon packages for tree-shaking.",
+      description: "Require named imports from @mal-icons packages for tree-shaking.",
     },
     schema: [],
     messages: {

@@ -1,31 +1,31 @@
 ---
-import { ICON_ANIMATIONS_CSS, animationClass } from "@mal-icon/core";
-import FiActivity from "@mal-icon/astro/fi/FiActivity";
-import FiArrowRight from "@mal-icon/astro/fi/FiArrowRight";
-import FiBell from "@mal-icon/astro/fi/FiBell";
-import FiCalendar from "@mal-icon/astro/fi/FiCalendar";
-import FiCamera from "@mal-icon/astro/fi/FiCamera";
-import FiCheck from "@mal-icon/astro/fi/FiCheck";
-import FiCloud from "@mal-icon/astro/fi/FiCloud";
-import FiCode from "@mal-icon/astro/fi/FiCode";
-import FiDownload from "@mal-icon/astro/fi/FiDownload";
-import FiEdit from "@mal-icon/astro/fi/FiEdit";
-import FiGithub from "@mal-icon/astro/fi/FiGithub";
-import FiGlobe from "@mal-icon/astro/fi/FiGlobe";
-import FiHeart from "@mal-icon/astro/fi/FiHeart";
-import FiHome from "@mal-icon/astro/fi/FiHome";
-import FiLoader from "@mal-icon/astro/fi/FiLoader";
-import FiLock from "@mal-icon/astro/fi/FiLock";
-import FiMail from "@mal-icon/astro/fi/FiMail";
-import FiMoon from "@mal-icon/astro/fi/FiMoon";
-import FiSearch from "@mal-icon/astro/fi/FiSearch";
-import FiSettings from "@mal-icon/astro/fi/FiSettings";
-import FiStar from "@mal-icon/astro/fi/FiStar";
-import FiSun from "@mal-icon/astro/fi/FiSun";
-import FiTrash2 from "@mal-icon/astro/fi/FiTrash2";
-import FiUpload from "@mal-icon/astro/fi/FiUpload";
-import FiUser from "@mal-icon/astro/fi/FiUser";
-import FiZap from "@mal-icon/astro/fi/FiZap";
+import { ICON_ANIMATIONS_CSS, animationClass } from "@mal-icons/core";
+import FiActivity from "@mal-icons/astro/fi/FiActivity";
+import FiArrowRight from "@mal-icons/astro/fi/FiArrowRight";
+import FiBell from "@mal-icons/astro/fi/FiBell";
+import FiCalendar from "@mal-icons/astro/fi/FiCalendar";
+import FiCamera from "@mal-icons/astro/fi/FiCamera";
+import FiCheck from "@mal-icons/astro/fi/FiCheck";
+import FiCloud from "@mal-icons/astro/fi/FiCloud";
+import FiCode from "@mal-icons/astro/fi/FiCode";
+import FiDownload from "@mal-icons/astro/fi/FiDownload";
+import FiEdit from "@mal-icons/astro/fi/FiEdit";
+import FiGithub from "@mal-icons/astro/fi/FiGithub";
+import FiGlobe from "@mal-icons/astro/fi/FiGlobe";
+import FiHeart from "@mal-icons/astro/fi/FiHeart";
+import FiHome from "@mal-icons/astro/fi/FiHome";
+import FiLoader from "@mal-icons/astro/fi/FiLoader";
+import FiLock from "@mal-icons/astro/fi/FiLock";
+import FiMail from "@mal-icons/astro/fi/FiMail";
+import FiMoon from "@mal-icons/astro/fi/FiMoon";
+import FiSearch from "@mal-icons/astro/fi/FiSearch";
+import FiSettings from "@mal-icons/astro/fi/FiSettings";
+import FiStar from "@mal-icons/astro/fi/FiStar";
+import FiSun from "@mal-icons/astro/fi/FiSun";
+import FiTrash2 from "@mal-icons/astro/fi/FiTrash2";
+import FiUpload from "@mal-icons/astro/fi/FiUpload";
+import FiUser from "@mal-icons/astro/fi/FiUser";
+import FiZap from "@mal-icons/astro/fi/FiZap";
 import "../styles/styles.css";
 
 // Astro has no runtime theming context, so every icon is themed purely through
@@ -67,7 +67,7 @@ const SIZES = [16, 24, 32, 48] as const;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mal-icon · Astro example</title>
+    <title>mal-icons · Astro example</title>
     <!-- Animations are pure CSS; inject the keyframes once. -->
     <style set:html={ICON_ANIMATIONS_CSS}></style>
   </head>
@@ -75,7 +75,7 @@ const SIZES = [16, 24, 32, 48] as const;
     <div class="page">
       <header class="hero">
         <div class="hero__badge">Astro · SSG</div>
-        <h1 class="hero__title">mal-icon <span>for Astro</span></h1>
+        <h1 class="hero__title">mal-icons <span>for Astro</span></h1>
         <p class="hero__subtitle">
           Server-rendered, zero-runtime icons. Each <code>.astro</code> component
           emits a plain <code>&lt;svg&gt;</code> at build time — no client JavaScript,
@@ -83,7 +83,7 @@ const SIZES = [16, 24, 32, 48] as const;
         </p>
         <a
           class="hero__link"
-          href="https://github.com/MAnasLatif/mal-icon"
+          href="https://github.com/MAnasLatif/mal-icons"
           target="_blank"
           rel="noreferrer"
         >
@@ -125,7 +125,7 @@ const SIZES = [16, 24, 32, 48] as const;
                 <Icon size={32} color="#6366f1" title={name} />
               </span>
               <span class="card__name">{name}</span>
-              <code class="card__import">@mal-icon/astro/fi/{name}.astro</code>
+              <code class="card__import">@mal-icons/astro/fi/{name}.astro</code>
             </div>
           ))
         }

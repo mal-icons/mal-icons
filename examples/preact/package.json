@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon-example/preact",
+  "name": "@mal-icons-example/preact",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mal-icon/preact": "workspace:*",
+    "@mal-icons/preact": "workspace:*",
     "preact": "^10.29.2"
   },
   "devDependencies": {

@@ -4,19 +4,19 @@ import {
   WEIGHT_STROKE_WIDTH,
   animationClass,
   resolveIconAttrs,
-} from "@mal-icon/core";
+} from "@mal-icons/core";
 import { useContext } from "solid-js";
 import type { JSX } from "solid-js";
 import h from "solid-js/h";
 import { IconContext } from "./context.ts";
 
-/** Props accepted by every generated mal-icon Solid component. */
+/** Props accepted by every generated mal-icons Solid component. */
 export interface IconBaseProps {
   /** Width and height. Defaults to the context size or "1em". */
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
-  /** Secondary color for multi-tone icons, exposed as `--mal-icon-secondary`. */
+  /** Secondary color for multi-tone icons, exposed as `--mal-icons-secondary`. */
   secondaryColor?: string;
   /** Stroke weight preset for stroke-based sets (overrides the baked width). */
   weight?: IconWeight;
@@ -59,7 +59,7 @@ export function IconBase(props: IconBaseInternalProps): JSX.Element {
     computedColor || props.secondaryColor || conf.style || props.style
       ? ({
           color: computedColor,
-          ...(props.secondaryColor ? { "--mal-icon-secondary": props.secondaryColor } : {}),
+          ...(props.secondaryColor ? { "--mal-icons-secondary": props.secondaryColor } : {}),
           ...conf.style,
           ...props.style,
         } as JSX.CSSProperties)

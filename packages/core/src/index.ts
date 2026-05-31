@@ -119,7 +119,7 @@ export type IconAnimation = "spin" | "spin-reverse" | "pulse" | "beat" | "bounce
 
 /** Class name applied to the root `<svg>` for a given animation. */
 export function animationClass(animation: IconAnimation): string {
-  return `mal-icon-animate-${animation}`;
+  return `mal-icons-animate-${animation}`;
 }
 
 /**
@@ -127,16 +127,16 @@ export function animationClass(animation: IconAnimation): string {
  * this once (e.g. a `<style>` tag); animations are pure CSS so they add no
  * JS cost and only animate the icons that opt in (SRS §16.2).
  */
-export const ICON_ANIMATIONS_CSS = `@keyframes mal-icon-spin{to{transform:rotate(360deg)}}
-@keyframes mal-icon-pulse{0%,100%{opacity:1}50%{opacity:.4}}
-@keyframes mal-icon-beat{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
-@keyframes mal-icon-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-15%)}}
-.mal-icon-animate-spin{animation:mal-icon-spin 1s linear infinite;will-change:transform}
-.mal-icon-animate-spin-reverse{animation:mal-icon-spin 1s linear infinite reverse;will-change:transform}
-.mal-icon-animate-pulse{animation:mal-icon-pulse 1.5s ease-in-out infinite}
-.mal-icon-animate-beat{animation:mal-icon-beat 1s ease-in-out infinite;will-change:transform}
-.mal-icon-animate-bounce{animation:mal-icon-bounce 1s ease infinite;will-change:transform}
-@media (prefers-reduced-motion:reduce){[class*=mal-icon-animate-]{animation:none}}
+export const ICON_ANIMATIONS_CSS = `@keyframes mal-icons-spin{to{transform:rotate(360deg)}}
+@keyframes mal-icons-pulse{0%,100%{opacity:1}50%{opacity:.4}}
+@keyframes mal-icons-beat{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+@keyframes mal-icons-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-15%)}}
+.mal-icons-animate-spin{animation:mal-icons-spin 1s linear infinite;will-change:transform}
+.mal-icons-animate-spin-reverse{animation:mal-icons-spin 1s linear infinite reverse;will-change:transform}
+.mal-icons-animate-pulse{animation:mal-icons-pulse 1.5s ease-in-out infinite}
+.mal-icons-animate-beat{animation:mal-icons-beat 1s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-bounce{animation:mal-icons-bounce 1s ease infinite;will-change:transform}
+@media (prefers-reduced-motion:reduce){[class*=mal-icons-animate-]{animation:none}}
 `;
 
 /**

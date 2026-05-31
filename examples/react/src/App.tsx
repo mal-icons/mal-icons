@@ -4,8 +4,8 @@ import {
   IconContext,
   type IconWeight,
   type ReactIconContextValue,
-} from "@mal-icon/react";
-import { FiCheck, FiCopy, FiGithub, FiSearch } from "@mal-icon/react/fi";
+} from "@mal-icons/react";
+import { FiCheck, FiCopy, FiGithub, FiSearch } from "@mal-icons/react/fi";
 import { useMemo, useState } from "react";
 import { ICONS } from "./icons.ts";
 
@@ -30,7 +30,7 @@ export function App() {
   const contextValue = useMemo<ReactIconContextValue>(() => ({ size, color }), [size, color]);
 
   async function copyImport(name: string) {
-    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icon/react/fi";`);
+    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icons/react/fi";`);
     setCopied(name);
     window.setTimeout(() => setCopied((c) => (c === name ? null : c)), 1200);
   }
@@ -44,7 +44,7 @@ export function App() {
         <header className="hero">
           <div className="hero__badge">React 19 · Vite</div>
           <h1 className="hero__title">
-            mal-icon <span>for React</span>
+            mal-icons <span>for React</span>
           </h1>
           <p className="hero__subtitle">
             Tree-shakeable, ahead-of-time generated icons with a single, consistent API. Theme
@@ -52,7 +52,7 @@ export function App() {
           </p>
           <a
             className="hero__link"
-            href="https://github.com/MAnasLatif/mal-icon"
+            href="https://github.com/MAnasLatif/mal-icons"
             target="_blank"
             rel="noreferrer"
           >

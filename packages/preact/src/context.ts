@@ -1,8 +1,8 @@
-import type { IconContextValue } from "@mal-icon/core";
+import type { IconContextValue } from "@mal-icons/core";
 import { createContext } from "preact";
 import type { JSX } from "preact";
 
-/** Theming context value for all mal-icon Preact components. */
+/** Theming context value for all mal-icons Preact components. */
 export type PreactIconContextValue = IconContextValue<JSX.CSSProperties>;
 
 /** Default (empty) theming configuration. */

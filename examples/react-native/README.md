@@ -1,7 +1,7 @@
-# mal-icon · React Native example
+# mal-icons · React Native example
 
-An [Expo](https://expo.dev) app that renders the shared mal-icon gallery with
-[`@mal-icon/react-native`](../../packages/react-native). Icons are real
+An [Expo](https://expo.dev) app that renders the shared mal-icons gallery with
+[`@mal-icons/react-native`](../../packages/react-native). Icons are real
 [`react-native-svg`](https://github.com/software-mansion/react-native-svg)
 components — no DOM, no CSS, no runtime string parsing.
 
@@ -12,7 +12,7 @@ components — no DOM, no CSS, no runtime string parsing.
 - **Per-icon props win** — chrome icons pass explicit `size`/`color` that
   override the context, matching the SRS override priority (`props > context >
   default`).
-- **Tree-shakeable subpath imports** — `@mal-icon/react-native/fi/FiActivity`
+- **Tree-shakeable subpath imports** — `@mal-icons/react-native/fi/FiActivity`
   pulls in exactly one icon.
 - **Tap to copy** the import statement via `expo-clipboard`.
 
@@ -33,7 +33,7 @@ npx expo start        # press i / a / w for iOS, Android, or web
 ```
 
 > **Monorepo note.** [`metro.config.js`](./metro.config.js) watches the
-> workspace root and resolves `@mal-icon/*` to their TypeScript source through
+> workspace root and resolves `@mal-icons/*` to their TypeScript source through
 > the `"bun"` export condition. In a real app that installs the packages from
 > npm, delete that block — Metro picks the published bundles automatically.
 > Expo's tooling targets npm/yarn/pnpm; run the dev server with one of those.
@@ -41,8 +41,8 @@ npx expo start        # press i / a / w for iOS, Android, or web
 ## How theming works
 
 ```tsx
-import { IconContext } from "@mal-icon/react-native";
-import { FiActivity } from "@mal-icon/react-native/fi/FiActivity";
+import { IconContext } from "@mal-icons/react-native";
+import { FiActivity } from "@mal-icons/react-native/fi/FiActivity";
 
 <IconContext.Provider value={{ size: 28, color: "#6366f1" }}>
   <FiActivity />                    {/* inherits size + color  */}

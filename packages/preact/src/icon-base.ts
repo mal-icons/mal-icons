@@ -4,19 +4,19 @@ import {
   WEIGHT_STROKE_WIDTH,
   animationClass,
   resolveIconAttrs,
-} from "@mal-icon/core";
+} from "@mal-icons/core";
 import { type ComponentChildren, h } from "preact";
 import type { JSX } from "preact";
 import { useContext } from "preact/hooks";
 import { IconContext } from "./context.ts";
 
-/** Props accepted by every generated mal-icon Preact component. */
+/** Props accepted by every generated mal-icons Preact component. */
 export interface IconBaseProps {
   /** Width and height. Defaults to the context size or "1em". */
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
-  /** Secondary color for multi-tone icons, exposed as `--mal-icon-secondary`. */
+  /** Secondary color for multi-tone icons, exposed as `--mal-icons-secondary`. */
   secondaryColor?: string;
   /** Stroke weight preset for stroke-based sets (overrides the baked width). */
   weight?: IconWeight;
@@ -73,7 +73,7 @@ export function IconBase(props: IconBaseInternalProps): JSX.Element {
     computedColor || secondaryColor || conf.style || style
       ? ({
           color: computedColor,
-          ...(secondaryColor ? { "--mal-icon-secondary": secondaryColor } : {}),
+          ...(secondaryColor ? { "--mal-icons-secondary": secondaryColor } : {}),
           ...conf.style,
           ...style,
         } as JSX.CSSProperties)

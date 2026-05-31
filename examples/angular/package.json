@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon-example/angular",
+  "name": "@mal-icons-example/angular",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,8 +14,8 @@
     "@angular/compiler": "^22.0.0",
     "@angular/core": "^22.0.0",
     "@angular/platform-browser": "^22.0.0",
-    "@mal-icon/angular": "workspace:*",
-    "@mal-icon/core": "workspace:*",
+    "@mal-icons/angular": "workspace:*",
+    "@mal-icons/core": "workspace:*",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon-example/svelte",
+  "name": "@mal-icons-example/svelte",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mal-icon/svelte": "workspace:*",
+    "@mal-icons/svelte": "workspace:*",
     "svelte": "^5.56.1"
   },
   "devDependencies": {

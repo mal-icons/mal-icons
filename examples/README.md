@@ -1,6 +1,6 @@
-# mal-icon examples
+# mal-icons examples
 
-Runnable, professionally-designed demo apps that show how to use **mal-icon**
+Runnable, professionally-designed demo apps that show how to use **mal-icons**
 across every supported framework. Each example renders the same icon gallery —
 with live controls for size, color, stroke weight, and animation — so you can
 compare the developer experience side by side.
@@ -15,7 +15,7 @@ compare the developer experience side by side.
 | [`preact`](./preact)             | Vite + Preact 10               | `IconContext` provider, hooks, copy-import              |
 | [`solid`](./solid)               | Vite + SolidJS 1.9             | Signals + `IconProvider`, fine-grained reactivity       |
 | [`angular`](./angular)           | Vite + Angular 22 (JIT)        | Standalone components, signals, `NgComponentOutlet`     |
-| [`web`](./web)                   | Vanilla TS + Web Components    | `<mal-icon>` custom element, `registerIcons`            |
+| [`web`](./web)                   | Vanilla TS + Web Components    | `<mal-icons>` custom element, `registerIcons`            |
 | [`astro`](./astro)               | Astro 5 (static, zero-JS)      | `.astro` icon components rendered at build time         |
 | [`react-native`](./react-native) | Expo + react-native-svg        | `IconContext` theming on native `<Svg>`                 |
 | [`cdn-sprite`](./cdn-sprite)     | Plain HTML (no build, no deps) | SVG `<symbol>` sprite via `<use>`                        |
@@ -39,7 +39,7 @@ Each app is a standalone workspace. After the root build:
 
 ```bash
 cd examples/react   # or nextjs / vue / nuxt / svelte / preact / solid / angular / web / astro
-bun install         # links the workspace @mal-icon/* packages
+bun install         # links the workspace @mal-icons/* packages
 bun run dev
 ```
 

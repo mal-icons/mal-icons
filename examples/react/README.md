@@ -1,10 +1,10 @@
-# mal-icon · React example
+# mal-icons · React example
 
-A Vite + React 19 icon gallery showcasing **`@mal-icon/react`**.
+A Vite + React 19 icon gallery showcasing **`@mal-icons/react`**.
 
 ## What it demonstrates
 
-- **Direct, tree-shakeable imports** — `import { FiActivity } from "@mal-icon/react/fi"`.
+- **Direct, tree-shakeable imports** — `import { FiActivity } from "@mal-icons/react/fi"`.
 - **Context theming** — app-wide `size`, `color`, and `weight` via
   `IconContext.Provider`, with per-icon overrides.
 - **Stroke weights** — `thin · light · regular · bold`.

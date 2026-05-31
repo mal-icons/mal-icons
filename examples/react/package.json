@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon-example/react",
+  "name": "@mal-icons-example/react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mal-icon/react": "workspace:*",
+    "@mal-icons/react": "workspace:*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

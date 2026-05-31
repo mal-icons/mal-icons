@@ -25,7 +25,7 @@ import {
   FiUpload,
   FiUser,
   FiZap,
-} from "@mal-icon/vue/fi";
+} from "@mal-icons/vue/fi";
 import type { Component } from "vue";
 
 export interface IconEntry {

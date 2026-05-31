@@ -1,4 +1,4 @@
-import type { IconData } from "@mal-icon/core";
+import type { IconData } from "@mal-icons/core";
 import FiActivity from "./FiActivity.json";
 import FiAirplay from "./FiAirplay.json";
 import FiAlertCircle from "./FiAlertCircle.json";

@@ -6,8 +6,8 @@ import {
   IconContext,
   type IconWeight,
   type ReactIconContextValue,
-} from "@mal-icon/react";
-import { FiSearch } from "@mal-icon/react/fi";
+} from "@mal-icons/react";
+import { FiSearch } from "@mal-icons/react/fi";
 import { useMemo, useState } from "react";
 import { ICONS } from "./icons";
 

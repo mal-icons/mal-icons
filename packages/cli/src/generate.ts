@@ -1,7 +1,7 @@
 import { existsSync } from "node:fs";
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { IconNode, IconsManifest } from "@mal-icon/core";
+import type { IconNode, IconsManifest } from "@mal-icons/core";
 import type { IconSource } from "../../../icons-data/sources.config";
 import { contentHash } from "./dedup.ts";
 import type { RawIcon } from "./fetch.ts";
@@ -92,7 +92,7 @@ function angularIconFileContents(source: IconSource, icon: GeneratedIcon): strin
     : "";
   const selector = `mal-${source.id}-${icon.rawName}`;
   return `import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
-import type { NodeTuple } from "@mal-icon/core";
+import type { NodeTuple } from "@mal-icons/core";
 import { IconBaseComponent } from "../../icon-base.ts";
 
 @Component({
@@ -100,7 +100,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   standalone: true,
   imports: [IconBaseComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: \`<mal-icon [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icon>\`,
+  template: \`<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>\`,
 })
 export class ${icon.componentName} {
   readonly viewBox = "${icon.viewBox}";
@@ -122,7 +122,7 @@ function astroIconFileContents(icon: GeneratedIcon): string {
     : "";
   const defaultBind = hasDefaults ? " defaultAttr={defaultAttr}" : "";
   return `---
-import type { NodeTuple } from "@mal-icon/core";
+import type { NodeTuple } from "@mal-icons/core";
 import IconBase from "../../IconBase.astro";
 
 const nodes: NodeTuple[] = ${nodesLiteral};
@@ -149,7 +149,7 @@ function svelteIconFileContents(icon: GeneratedIcon): string {
     : "";
   const defaultBind = hasDefaults ? " {defaultAttr}" : "";
   return `<script lang="ts">
-  import type { NodeTuple } from "@mal-icon/core";
+  import type { NodeTuple } from "@mal-icons/core";
   import IconBase from "../../IconBase.svelte";
 
   const nodes: NodeTuple[] = ${nodesLiteral};
@@ -401,7 +401,7 @@ async function emitWebSet(source: IconSource, icons: GeneratedIcon[]): Promise<v
     .map((icon) => `import ${icon.componentName} from "./${icon.componentName}.json";`)
     .join("\n");
   const record = icons.map((icon) => `  ${icon.componentName},`).join("\n");
-  const barrel = `import type { IconData } from "@mal-icon/core";
+  const barrel = `import type { IconData } from "@mal-icons/core";
 ${imports}
 
 /** Every "${source.id}" icon as serializable data, keyed by component name. */

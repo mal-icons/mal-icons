@@ -1,4 +1,4 @@
-import type { IconComponent } from "@mal-icon/react";
+import type { IconComponent } from "@mal-icons/react";
 import {
   FiActivity,
   FiArrowRight,
@@ -26,7 +26,7 @@ import {
   FiUpload,
   FiUser,
   FiZap,
-} from "@mal-icon/react/fi";
+} from "@mal-icons/react/fi";
 
 /** Curated showcase set: `[exported name, component]`. */
 export const ICONS: ReadonlyArray<readonly [string, IconComponent]> = [
