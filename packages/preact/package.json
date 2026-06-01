@@ -1,8 +1,20 @@
 {
   "name": "@mal-icons/preact",
   "version": "0.1.0",
+  "description": "Preact components for mal-icons.",
   "type": "module",
   "license": "MIT",
+  "author": "MALDevs",
+  "homepage": "https://github.com/mal-icons/mal-icons#readme",
+  "bugs": {
+    "url": "https://github.com/mal-icons/mal-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mal-icons/mal-icons.git",
+    "directory": "packages/preact"
+  },
+  "keywords": ["icons", "svg", "preact", "components", "mal-icons"],
   "sideEffects": false,
   "files": ["dist"],
   "main": "./dist/index.cjs",

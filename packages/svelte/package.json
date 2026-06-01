@@ -1,8 +1,20 @@
 {
   "name": "@mal-icons/svelte",
   "version": "0.1.0",
+  "description": "Svelte components for mal-icons.",
   "type": "module",
   "license": "MIT",
+  "author": "MALDevs",
+  "homepage": "https://github.com/mal-icons/mal-icons#readme",
+  "bugs": {
+    "url": "https://github.com/mal-icons/mal-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mal-icons/mal-icons.git",
+    "directory": "packages/svelte"
+  },
+  "keywords": ["icons", "svg", "svelte", "components", "mal-icons"],
   "sideEffects": false,
   "files": ["src", "dist"],
   "svelte": "./src/index.ts",

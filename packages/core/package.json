@@ -1,8 +1,20 @@
 {
   "name": "@mal-icons/core",
   "version": "0.1.0",
+  "description": "Framework-agnostic types and theming utilities for mal-icons.",
   "type": "module",
   "license": "MIT",
+  "author": "MALDevs",
+  "homepage": "https://github.com/mal-icons/mal-icons#readme",
+  "bugs": {
+    "url": "https://github.com/mal-icons/mal-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mal-icons/mal-icons.git",
+    "directory": "packages/core"
+  },
+  "keywords": ["icons", "svg", "typescript", "theming", "mal-icons"],
   "sideEffects": false,
   "files": ["dist"],
   "main": "./dist/index.cjs",
