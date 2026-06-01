@@ -37,6 +37,12 @@
       "bun": "./src/icons/demo/*.tsx",
       "import": "./dist/icons/demo/*.js"
     },
+    "./server": {
+      "types": "./dist/server.d.ts",
+      "bun": "./src/server.tsx",
+      "import": "./dist/server.js",
+      "require": "./dist/server.cjs"
+    },
     "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",
     "./package.json": "./package.json"
