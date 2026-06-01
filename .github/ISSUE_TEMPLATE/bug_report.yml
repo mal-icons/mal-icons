@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a reproducible problem in mal-icons.
+title: "bug: "
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. A small reproduction helps the fastest.
+  - type: dropdown
+    id: package
+    attributes:
+      label: Affected package
+      options:
+        - "@mal-icons/core"
+        - "@mal-icons/react"
+        - "@mal-icons/react-native"
+        - "@mal-icons/vue"
+        - "@mal-icons/svelte"
+        - "@mal-icons/preact"
+        - "@mal-icons/solid"
+        - "@mal-icons/angular"
+        - "@mal-icons/astro"
+        - "@mal-icons/web"
+        - "@mal-icons/eslint-plugin"
+        - "@mal-icons/cli"
+        - Examples or documentation
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Link a repo, StackBlitz, gist, or paste the smallest code sample that reproduces it.
+      render: tsx
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include versions that apply.
+      value: |
+        - mal-icons package/version:
+        - Framework/version:
+        - Bun:
+        - Node:
+        - OS:
+        - Browser or runtime:
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Logs, screenshots, stack traces, or related issues.

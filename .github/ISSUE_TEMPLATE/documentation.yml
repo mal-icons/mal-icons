@@ -1,0 +1,24 @@
+name: Documentation issue
+description: Report missing, confusing, or incorrect documentation.
+title: "docs: "
+labels: ["documentation", "needs triage"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page or section
+      description: Link to the README section, example, or file.
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What should change?
+      description: Explain what is unclear, missing, or incorrect.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording
+      description: Optional wording or examples that would make it clearer.
