@@ -1,5 +1,9 @@
 # mal-icons
 
+[![CI](https://github.com/mal-icons/mal-icons/actions/workflows/ci.yml/badge.svg)](https://github.com/mal-icons/mal-icons/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/mal-icons/mal-icons/actions/workflows/codeql.yml/badge.svg)](https://github.com/mal-icons/mal-icons/actions/workflows/codeql.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 A high-performance, multi-framework icon SDK. Author your UI with a single,
 consistent API across **React**, **React Native**, **Vue**, **Svelte**, **Preact**, **Solid**, **Angular**, **Astro**, and ship only the
 icons you actually use.
@@ -39,6 +43,22 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 | `@mal-icons/astro`         | Astro adapter and generated `.astro` components     |
 | `@mal-icons/web`           | Zero-build web/CDN renderer, data and `<mal-icons>` |
 | `@mal-icons/eslint-plugin` | Lint rules for correct, minimal icon usage          |
+
+## Installation
+
+Install the adapter for your framework:
+
+```bash
+bun add @mal-icons/react
+# or
+npm install @mal-icons/react
+```
+
+React Native also needs its peer dependency:
+
+```bash
+bun add @mal-icons/react-native react-native-svg
+```
 
 ## Quick start
 
@@ -301,6 +321,15 @@ bun run size       # enforce the per-icon size budget
 bun run generate   # regenerate icon modules from sources
 ```
 
+## Community
+
+- Read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening a pull request.
+- Use [SUPPORT.md](./SUPPORT.md) for questions, bugs, and feature requests.
+- Report vulnerabilities privately using [SECURITY.md](./SECURITY.md).
+- Releases are documented in [docs/RELEASE.md](./docs/RELEASE.md).
+- Changes are tracked in [CHANGELOG.md](./CHANGELOG.md).
+
 ## License
 
-MIT
+MIT. Source icon sets may have their own licenses; use the CLI license report
+when shipping bundled icon sets.
