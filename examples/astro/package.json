@@ -11,6 +11,6 @@
   "dependencies": {
     "@mal-icons/astro": "workspace:*",
     "@mal-icons/core": "workspace:*",
-    "astro": "^4.16.18"
+    "astro": "^5.18.2"
   }
 }
