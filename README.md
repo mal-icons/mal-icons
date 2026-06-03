@@ -163,7 +163,23 @@ packages/
 icons-data/      # pinned source configs + licenses
 scripts/         # build, size, and benchmark tooling
 test/            # cross-framework parity tests
+examples/        # runnable demo apps (React, Next.js, Vue, Svelte, sprite)
 ```
+
+## Examples
+
+The [`examples/`](./examples) folder contains professionally-designed demo apps
+that render the same icon gallery in every supported framework:
+
+| Example                                       | Stack                          |
+| --------------------------------------------- | ------------------------------ |
+| [`react`](./examples/react)                   | Vite + React 19                |
+| [`nextjs`](./examples/nextjs)                 | Next.js App Router (RSC)       |
+| [`vue`](./examples/vue)                       | Vite + Vue 3.5                 |
+| [`svelte`](./examples/svelte)                 | Vite + Svelte 5                |
+| [`cdn-sprite`](./examples/cdn-sprite)         | Plain HTML (no build, no deps) |
+
+See [`examples/README.md`](./examples/README.md) for run instructions.
 
 ## Development
 
