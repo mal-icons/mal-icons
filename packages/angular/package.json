@@ -4,12 +4,12 @@
   "type": "module",
   "license": "MIT",
   "sideEffects": false,
-  "files": ["src", "dist"],
+  "files": ["src"],
   "module": "./src/index.ts",
-  "types": "./dist/index.d.ts",
+  "types": "./src/index.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
+      "types": "./src/index.ts",
       "bun": "./src/index.ts",
       "import": "./src/index.ts"
     },
