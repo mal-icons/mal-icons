@@ -1,0 +1,35 @@
+{
+  "name": "@mal-icon/angular",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": ["src", "dist"],
+  "module": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "bun": "./src/index.ts",
+      "import": "./src/index.ts"
+    },
+    "./fi": {
+      "bun": "./src/icons/fi/index.ts",
+      "import": "./src/icons/fi/index.ts"
+    },
+    "./fi/*": {
+      "bun": "./src/icons/fi/*.ts",
+      "import": "./src/icons/fi/*.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=16"
+  },
+  "dependencies": {
+    "@mal-icon/core": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
