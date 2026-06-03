@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "ignore": ["dist/**", "node_modules/**", "**/icons/**", "doc/**", "**/*.svelte"]
+    "ignore": ["dist/**", "node_modules/**", "**/icons/**", "doc/**", "**/*.svelte", "**/*.astro"]
   },
   "formatter": {
     "enabled": true,
@@ -21,6 +21,9 @@
     }
   },
   "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
     "formatter": {
       "quoteStyle": "double",
       "semicolons": "always"

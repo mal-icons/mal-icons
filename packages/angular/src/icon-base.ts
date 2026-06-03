@@ -1,13 +1,13 @@
-import { type NodeTuple, resolveIconAttrs } from "@mal-icon/core";
 import {
   ChangeDetectionStrategy,
   Component,
-  ElementRef,
+  type ElementRef,
   Inject,
   Input,
   type OnChanges,
-  Renderer2,
+  type Renderer2,
 } from "@angular/core";
+import { type NodeTuple, resolveIconAttrs } from "@mal-icon/core";
 import { type AngularIconContextValue, ICON_CONTEXT } from "./context.ts";
 
 const SVG_NS = "http://www.w3.org/2000/svg";

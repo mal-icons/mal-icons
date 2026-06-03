@@ -1,4 +1,5 @@
 import { describe, expect, test } from "bun:test";
+import FiActivity from "../src/icons/fi/FiActivity.json" with { type: "json" };
 import {
   type IconData,
   cdnLoader,
@@ -7,7 +8,6 @@ import {
   registerIcons,
   renderIcon,
 } from "../src/index.ts";
-import FiActivity from "../src/icons/fi/FiActivity.json" with { type: "json" };
 
 const activity = FiActivity as IconData;
 

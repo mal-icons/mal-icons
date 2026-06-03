@@ -20,6 +20,10 @@ export type IconDefaultAttr = Record<string, unknown>;
 export function createIcon(viewBox: string, nodes: NodeTuple[], defaultAttr?: IconDefaultAttr) {
   return function Icon(props: IconBaseProps): JSX.Element {
     const children = nodes.map(([tag, attr]) => h(tag, attr));
-    return h(IconBase, mergeProps({ viewBox, defaultAttr }, props), children) as unknown as JSX.Element;
+    return h(
+      IconBase,
+      mergeProps({ viewBox, defaultAttr }, props),
+      children,
+    ) as unknown as JSX.Element;
   };
 }

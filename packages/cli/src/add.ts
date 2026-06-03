@@ -3,7 +3,13 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 
 /** Frameworks the `add` command can vendor icons for. */
-export const FRAMEWORK_EXT = { react: "tsx", vue: "ts", svelte: "svelte" } as const;
+export const FRAMEWORK_EXT = {
+  react: "tsx",
+  vue: "ts",
+  svelte: "svelte",
+  preact: "ts",
+  solid: "ts",
+} as const;
 export type Framework = keyof typeof FRAMEWORK_EXT;
 
 /** Options controlling where icons are copied from and to. */
@@ -36,6 +42,10 @@ export function rewriteImports(content: string, framework: Framework): string {
       return content.replace('"../../create-icon.ts"', '"@mal-icon/vue"');
     case "svelte":
       return content.replace('"../../IconBase.svelte"', '"@mal-icon/svelte/IconBase.svelte"');
+    case "preact":
+      return content.replace('"../../create-icon.ts"', '"@mal-icon/preact"');
+    case "solid":
+      return content.replace('"../../create-icon.ts"', '"@mal-icon/solid"');
   }
 }
 

@@ -18,11 +18,26 @@ const CORE_SRC = join(ROOT, "packages", "core", "src");
 const CORE_OUT = join(ROOT, "packages", "core", "dist");
 const VUE_SRC = join(ROOT, "packages", "vue", "src");
 const VUE_OUT = join(ROOT, "packages", "vue", "dist");
+const PREACT_SRC = join(ROOT, "packages", "preact", "src");
+const PREACT_OUT = join(ROOT, "packages", "preact", "dist");
+const SOLID_SRC = join(ROOT, "packages", "solid", "src");
+const SOLID_OUT = join(ROOT, "packages", "solid", "dist");
+const WEB_SRC = join(ROOT, "packages", "web", "src");
+const WEB_OUT = join(ROOT, "packages", "web", "dist");
 const ESLINT_SRC = join(ROOT, "packages", "eslint-plugin", "src");
 const ESLINT_OUT = join(ROOT, "packages", "eslint-plugin", "dist");
 
 const REACT_EXTERNAL = ["react", "react/jsx-runtime", "react-dom", "@mal-icon/core"];
 const VUE_EXTERNAL = ["vue", "@mal-icon/core"];
+const PREACT_EXTERNAL = ["preact", "preact/hooks", "preact/jsx-runtime", "@mal-icon/core"];
+const SOLID_EXTERNAL = [
+  "solid-js",
+  "solid-js/web",
+  "solid-js/h",
+  "solid-js/store",
+  "@mal-icon/core",
+];
+const WEB_EXTERNAL = ["@mal-icon/core"];
 
 async function collect(glob: string, base: string): Promise<string[]> {
   const out: string[] = [];
@@ -72,6 +87,90 @@ async function buildVue(): Promise<void> {
     naming: "[dir]/[name].cjs",
   });
   if (!cjs.success) throw new AggregateError(cjs.logs, "vue CJS build failed");
+}
+
+async function buildPreact(): Promise<void> {
+  const iconFiles = await collect("icons/**/*.ts", PREACT_SRC);
+  const barrels = await collect("icons/**/index.ts", PREACT_SRC);
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
+
+  const esm = await Bun.build({
+    entrypoints: [join(PREACT_SRC, "index.ts"), ...barrels, ...perIcon],
+    outdir: PREACT_OUT,
+    root: PREACT_SRC,
+    target: "browser",
+    format: "esm",
+    splitting: true,
+    external: PREACT_EXTERNAL,
+  });
+  if (!esm.success) throw new AggregateError(esm.logs, "preact ESM build failed");
+
+  const cjs = await Bun.build({
+    entrypoints: [join(PREACT_SRC, "index.ts")],
+    outdir: PREACT_OUT,
+    root: PREACT_SRC,
+    target: "browser",
+    format: "cjs",
+    external: PREACT_EXTERNAL,
+    naming: "[dir]/[name].cjs",
+  });
+  if (!cjs.success) throw new AggregateError(cjs.logs, "preact CJS build failed");
+}
+
+async function buildSolid(): Promise<void> {
+  const iconFiles = await collect("icons/**/*.ts", SOLID_SRC);
+  const barrels = await collect("icons/**/index.ts", SOLID_SRC);
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
+
+  const esm = await Bun.build({
+    entrypoints: [join(SOLID_SRC, "index.ts"), ...barrels, ...perIcon],
+    outdir: SOLID_OUT,
+    root: SOLID_SRC,
+    target: "browser",
+    format: "esm",
+    splitting: true,
+    external: SOLID_EXTERNAL,
+  });
+  if (!esm.success) throw new AggregateError(esm.logs, "solid ESM build failed");
+
+  const cjs = await Bun.build({
+    entrypoints: [join(SOLID_SRC, "index.ts")],
+    outdir: SOLID_OUT,
+    root: SOLID_SRC,
+    target: "browser",
+    format: "cjs",
+    external: SOLID_EXTERNAL,
+    naming: "[dir]/[name].cjs",
+  });
+  if (!cjs.success) throw new AggregateError(cjs.logs, "solid CJS build failed");
+}
+
+async function buildWeb(): Promise<void> {
+  // The per-icon JSON data ships as-is via the `./fi/*.json` export; only the
+  // vanilla renderer and the typed `./fi` registry barrel are bundled here.
+  const barrels = await collect("icons/**/index.ts", WEB_SRC);
+
+  const esm = await Bun.build({
+    entrypoints: [join(WEB_SRC, "index.ts"), ...barrels],
+    outdir: WEB_OUT,
+    root: WEB_SRC,
+    target: "browser",
+    format: "esm",
+    splitting: true,
+    external: WEB_EXTERNAL,
+  });
+  if (!esm.success) throw new AggregateError(esm.logs, "web ESM build failed");
+
+  const cjs = await Bun.build({
+    entrypoints: [join(WEB_SRC, "index.ts")],
+    outdir: WEB_OUT,
+    root: WEB_SRC,
+    target: "browser",
+    format: "cjs",
+    external: WEB_EXTERNAL,
+    naming: "[dir]/[name].cjs",
+  });
+  if (!cjs.success) throw new AggregateError(cjs.logs, "web CJS build failed");
 }
 
 async function buildReact(): Promise<void> {
@@ -133,12 +232,18 @@ async function main(): Promise<void> {
   await rm(CORE_OUT, { recursive: true, force: true });
   await rm(REACT_OUT, { recursive: true, force: true });
   await rm(VUE_OUT, { recursive: true, force: true });
+  await rm(PREACT_OUT, { recursive: true, force: true });
+  await rm(SOLID_OUT, { recursive: true, force: true });
+  await rm(WEB_OUT, { recursive: true, force: true });
   await rm(ESLINT_OUT, { recursive: true, force: true });
   await buildCore();
   await buildReact();
   await buildVue();
+  await buildPreact();
+  await buildSolid();
+  await buildWeb();
   await buildEslintPlugin();
-  console.log("Build complete: core + react + vue + eslint-plugin.");
+  console.log("Build complete: core + react + vue + preact + solid + web + eslint-plugin.");
 }
 
 await main();

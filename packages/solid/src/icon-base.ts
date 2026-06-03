@@ -49,10 +49,7 @@ export function IconBase(props: IconBaseInternalProps): JSX.Element {
     size: computedSize,
     color: computedColor,
     className: cls,
-  } = resolveIconAttrs(
-    { size: props.size, color: props.color, className: props.className },
-    conf,
-  );
+  } = resolveIconAttrs({ size: props.size, color: props.color, className: props.className }, conf);
 
   const fullClassName =
     [cls, props.animate ? animationClass(props.animate) : undefined].filter(Boolean).join(" ") ||

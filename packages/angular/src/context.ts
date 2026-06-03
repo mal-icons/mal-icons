@@ -1,5 +1,5 @@
-import type { IconContextValue } from "@mal-icon/core";
 import { InjectionToken } from "@angular/core";
+import type { IconContextValue } from "@mal-icon/core";
 
 /** Theming context value for all mal-icon Angular components. */
 export type AngularIconContextValue = IconContextValue<Record<string, string>>;
