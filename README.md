@@ -13,8 +13,8 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 
 ## Highlights
 
-- **Multi-framework** — first-class React, Vue 3, and Svelte 5 adapters that
-  share one data model and render identical SVG markup.
+- **Multi-framework** — first-class React, React Native, Vue 3, and Svelte 5
+  adapters that share one data model and render identical SVG markup.
 - **Compile-time generation** — each icon is its own module, so bundlers keep
   exactly what you import and nothing else.
 - **Tiny by design** — a strict per-icon size budget (< 0.8 KB gzipped) is
@@ -35,6 +35,7 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 | ------------------------- | ------------------------------------------ |
 | `@mal-icon/core`          | Framework-agnostic types and theming logic |
 | `@mal-icon/react`         | React adapter and generated icons          |
+| `@mal-icon/react-native`  | React Native adapter and generated icons   |
 | `@mal-icon/vue`           | Vue 3 adapter and generated icons          |
 | `@mal-icon/svelte`        | Svelte 5 adapter and generated icons       |
 | `@mal-icon/eslint-plugin` | Lint rules for correct, minimal icon usage |
@@ -55,6 +56,30 @@ Provide app-wide defaults with the context provider:
 
 ```tsx
 import { IconContext } from "@mal-icon/react";
+
+<IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
+  <App />
+</IconContext.Provider>;
+```
+
+### React Native
+
+Backed by [`react-native-svg`](https://github.com/software-mansion/react-native-svg),
+so the same icons render natively on iOS and Android:
+
+```tsx
+import { FiActivity } from "@mal-icon/react-native/fi";
+
+export function Status() {
+  return <FiActivity size={24} color="#3366ff" title="Status" />;
+}
+```
+
+Theming flows through the same context API (sizes are plain numbers, since
+there is no DOM/CSS):
+
+```tsx
+import { IconContext } from "@mal-icon/react-native";
 
 <IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
   <App />
@@ -144,7 +169,7 @@ mal-icon search arrow
 mal-icon search "trash" --semantic
 
 # Turn your own SVG into a component
-mal-icon import logo.svg --name BrandLogo --framework react
+mal-icon import logo.svg --name BrandLogo --framework react-native
 
 # Produce a license report for the bundled sets
 mal-icon licenses --out LICENSES.md
@@ -156,6 +181,7 @@ mal-icon licenses --out LICENSES.md
 packages/
   core/          # framework-agnostic types + theming logic
   react/         # React adapter + generated icons
+  react-native/  # React Native adapter (react-native-svg) + generated icons
   vue/           # Vue 3 adapter + generated icons
   svelte/        # Svelte 5 adapter + generated icons
   cli/           # build pipeline (fetch / optimize / generate)

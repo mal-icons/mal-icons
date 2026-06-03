@@ -16,6 +16,8 @@ const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");
 const VUE_ICONS_ROOT = join(process.cwd(), "packages", "vue", "src", "icons");
 /** Absolute path to the Svelte package's generated-icons root. */
 const SVELTE_ICONS_ROOT = join(process.cwd(), "packages", "svelte", "src", "icons");
+/** Absolute path to the React Native package's generated-icons root. */
+const REACT_NATIVE_ICONS_ROOT = join(process.cwd(), "packages", "react-native", "src", "icons");
 
 /** A generated icon ready to be written to disk. */
 interface GeneratedIcon {
@@ -154,6 +156,7 @@ export type ${namesType} = (typeof ${namesConst})[number];
 
   await emitVueSet(source, icons);
   await emitSvelteSet(source, icons);
+  await emitReactNativeSet(source, icons);
 
   await updateManifest(source, icons.length);
   await updateSearchIndex(source, icons);
@@ -194,6 +197,34 @@ async function emitSvelteSet(source: IconSource, icons: GeneratedIcon[]): Promis
     )
     .join("\n")}\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
+}
+
+/** Emit the React Native per-icon modules + barrel + names for a set. */
+async function emitReactNativeSet(source: IconSource, icons: GeneratedIcon[]): Promise<void> {
+  const setDir = join(REACT_NATIVE_ICONS_ROOT, source.id);
+  await rm(setDir, { recursive: true, force: true });
+  await mkdir(setDir, { recursive: true });
+
+  for (const icon of icons) {
+    await writeFile(join(setDir, `${icon.componentName}.tsx`), iconFileContents(icon));
+  }
+
+  const namesConst = `${source.id}IconNames`;
+  const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  const barrel = `${icons
+    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.tsx";`)
+    .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
+  await writeFile(join(setDir, "index.ts"), barrel);
+
+  const namesFile = `/** Type-safe list of every icon name in the "${source.id}" set. */
+export const ${namesConst} = [
+${icons.map((icon) => `  "${icon.componentName}",`).join("\n")}
+] as const;
+
+/** Union of valid "${source.id}" icon names; invalid names are TS errors. */
+export type ${namesType} = (typeof ${namesConst})[number];
+`;
+  await writeFile(join(setDir, "names.ts"), namesFile);
 }
 
 async function updateManifest(source: IconSource, count: number): Promise<void> {

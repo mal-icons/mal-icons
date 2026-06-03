@@ -119,6 +119,18 @@
         "react": ">=18",
       },
     },
+    "packages/react-native": {
+      "name": "@mal-icon/react-native",
+      "version": "0.1.0",
+      "dependencies": {
+        "@mal-icon/core": "workspace:*",
+      },
+      "peerDependencies": {
+        "react": ">=18",
+        "react-native": ">=0.70",
+        "react-native-svg": ">=13",
+      },
+    },
     "packages/svelte": {
       "name": "@mal-icon/svelte",
       "version": "0.1.0",
@@ -364,6 +376,8 @@
     "@mal-icon/eslint-plugin": ["@mal-icon/eslint-plugin@workspace:packages/eslint-plugin"],
 
     "@mal-icon/react": ["@mal-icon/react@workspace:packages/react"],
+
+    "@mal-icon/react-native": ["@mal-icon/react-native@workspace:packages/react-native"],
 
     "@mal-icon/svelte": ["@mal-icon/svelte@workspace:packages/svelte"],
 

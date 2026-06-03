@@ -18,11 +18,20 @@ const CORE_SRC = join(ROOT, "packages", "core", "src");
 const CORE_OUT = join(ROOT, "packages", "core", "dist");
 const VUE_SRC = join(ROOT, "packages", "vue", "src");
 const VUE_OUT = join(ROOT, "packages", "vue", "dist");
+const RN_SRC = join(ROOT, "packages", "react-native", "src");
+const RN_OUT = join(ROOT, "packages", "react-native", "dist");
 const ESLINT_SRC = join(ROOT, "packages", "eslint-plugin", "src");
 const ESLINT_OUT = join(ROOT, "packages", "eslint-plugin", "dist");
 
 const REACT_EXTERNAL = ["react", "react/jsx-runtime", "react-dom", "@mal-icon/core"];
 const VUE_EXTERNAL = ["vue", "@mal-icon/core"];
+const RN_EXTERNAL = [
+  "react",
+  "react/jsx-runtime",
+  "react-native",
+  "react-native-svg",
+  "@mal-icon/core",
+];
 
 async function collect(glob: string, base: string): Promise<string[]> {
   const out: string[] = [];
@@ -118,6 +127,35 @@ async function buildReact(): Promise<void> {
   }
 }
 
+async function buildReactNative(): Promise<void> {
+  const iconFiles = await collect("icons/**/*.tsx", RN_SRC);
+  const barrels = await collect("icons/**/index.ts", RN_SRC);
+  const esmEntrypoints = [join(RN_SRC, "index.ts"), ...barrels, ...iconFiles];
+
+  const esm = await Bun.build({
+    entrypoints: esmEntrypoints,
+    outdir: RN_OUT,
+    root: RN_SRC,
+    target: "node",
+    format: "esm",
+    splitting: true,
+    external: RN_EXTERNAL,
+  });
+  if (!esm.success) throw new AggregateError(esm.logs, "react-native ESM build failed");
+
+  // CJS: bundle the public entry points (no splitting in CJS).
+  const cjs = await Bun.build({
+    entrypoints: [join(RN_SRC, "index.ts"), ...barrels],
+    outdir: RN_OUT,
+    root: RN_SRC,
+    target: "node",
+    format: "cjs",
+    external: RN_EXTERNAL,
+    naming: "[dir]/[name].cjs",
+  });
+  if (!cjs.success) throw new AggregateError(cjs.logs, "react-native CJS build failed");
+}
+
 async function buildEslintPlugin(): Promise<void> {
   const result = await Bun.build({
     entrypoints: [join(ESLINT_SRC, "index.ts")],
@@ -133,12 +171,14 @@ async function main(): Promise<void> {
   await rm(CORE_OUT, { recursive: true, force: true });
   await rm(REACT_OUT, { recursive: true, force: true });
   await rm(VUE_OUT, { recursive: true, force: true });
+  await rm(RN_OUT, { recursive: true, force: true });
   await rm(ESLINT_OUT, { recursive: true, force: true });
   await buildCore();
   await buildReact();
   await buildVue();
+  await buildReactNative();
   await buildEslintPlugin();
-  console.log("Build complete: core + react + vue + eslint-plugin.");
+  console.log("Build complete: core + react + vue + react-native + eslint-plugin.");
 }
 
 await main();
