@@ -1,0 +1,10 @@
+{
+  "name": "@mal-icon-example/cdn-sprite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "copy-sprite": "node -e \"require('fs').copyFileSync('../../packages/react/src/icons/fi/sprite.svg','./fi.svg')\"",
+    "dev": "npm run copy-sprite && npx --yes serve ."
+  }
+}
