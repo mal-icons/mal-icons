@@ -44,9 +44,8 @@ export default function Page() {
           mal-icon <span>for Next.js</span>
         </h1>
         <p className="hero__subtitle">
-          The hero below is rendered entirely on the server with{" "}
-          <code>createServerIcon</code> — zero client JavaScript. The gallery
-          underneath is a client island using context theming.
+          The hero below is rendered entirely on the server with <code>createServerIcon</code> —
+          zero client JavaScript. The gallery underneath is a client island using context theming.
         </p>
         <div className="server-row" aria-label="Server-rendered icons">
           <ServerActivity size={40} color="#6366f1" title="Activity" />

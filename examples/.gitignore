@@ -4,3 +4,6 @@
 .vite/
 out/
 build/
+
+# Sprite copied into cdn-sprite by its dev script
+cdn-sprite/fi.svg

@@ -6,8 +6,8 @@
   --border: rgba(255, 255, 255, 0.1);
   --text: #e8ecf6;
   --text-dim: #9aa3bd;
-  --brand: #6366f1;
-  --brand-2: #22d3ee;
+  --brand: #e11d48;
+  --brand-2: #fb7185;
   --radius: 16px;
   --shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.6);
   font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
@@ -21,8 +21,8 @@
 body {
   margin: 0;
   color: var(--text);
-  background: radial-gradient(1200px 600px at 80% -10%, rgba(99, 102, 241, 0.25), transparent 60%),
-    radial-gradient(900px 500px at 0% 0%, rgba(34, 211, 238, 0.18), transparent 55%), var(--bg);
+  background: radial-gradient(1200px 600px at 80% -10%, rgba(225, 29, 72, 0.22), transparent 60%),
+    radial-gradient(900px 500px at 0% 0%, rgba(251, 113, 133, 0.16), transparent 55%), var(--bg);
   min-height: 100vh;
 }
 
@@ -33,6 +33,15 @@ code {
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 1px 6px;
+}
+
+/* Feather is a stroke set; style the <use> target. */
+.icon {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .page {
@@ -77,20 +86,10 @@ code {
   font-size: 16px;
   line-height: 1.6;
 }
-.server-row {
-  display: inline-flex;
-  gap: 18px;
-  margin-top: 24px;
-  padding: 16px 22px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
 
 .panel {
-  display: grid;
-  grid-template-columns: 2fr 1.4fr 0.9fr 1fr 1.1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   align-items: end;
   padding: 18px;
@@ -98,7 +97,6 @@ code {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  backdrop-filter: blur(8px);
   box-shadow: var(--shadow);
 }
 .field {
@@ -108,15 +106,19 @@ code {
   font-size: 13px;
   color: var(--text-dim);
   font-weight: 600;
+  flex: 1 1 160px;
 }
-.field input,
-.field select {
+.field--search {
+  flex: 2 1 260px;
+}
+.field input {
   font: inherit;
   color: var(--text);
   background: var(--bg-soft);
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 10px 12px;
+  width: 100%;
 }
 .field input[type="range"] {
   padding: 0;
@@ -126,22 +128,6 @@ code {
   padding: 4px;
   height: 42px;
   cursor: pointer;
-}
-.field select {
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.field--search {
-  position: relative;
-}
-.field--search input {
-  padding-left: 38px;
-}
-.field__icon {
-  position: absolute;
-  left: 12px;
-  bottom: 12px;
-  color: var(--text-dim);
 }
 
 .grid {
@@ -158,26 +144,20 @@ code {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  color: var(--text);
   transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
 }
 .card:hover {
   transform: translateY(-3px);
-  border-color: rgba(99, 102, 241, 0.6);
+  border-color: rgba(225, 29, 72, 0.6);
   background: var(--surface-strong);
-}
-.card__icon {
-  display: grid;
-  place-items: center;
-  height: 56px;
 }
 .card__name {
   font-size: 13px;
   font-weight: 600;
+  color: var(--text);
 }
 
 .empty {
-  grid-column: 1 / -1;
   text-align: center;
   color: var(--text-dim);
   padding: 40px 0;
@@ -188,13 +168,4 @@ code {
   text-align: center;
   color: var(--text-dim);
   font-size: 13px;
-}
-
-@media (max-width: 760px) {
-  .panel {
-    grid-template-columns: 1fr 1fr;
-  }
-  .field--search {
-    grid-column: 1 / -1;
-  }
 }
