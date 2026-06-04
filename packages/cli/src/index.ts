@@ -52,10 +52,10 @@ function printHelp(): void {
 
 Usage:
   mal-icon generate --set <id> [--no-fetch] [--limit <n>]
-  mal-icon add <Name...> [--set <id>] [--framework <react|vue|svelte>] [--out <dir>]
+  mal-icon add <Name...> [--set <id>] [--framework <react|react-native|vue|svelte|preact|solid>] [--out <dir>]
   mal-icon licenses [--out <file>]
   mal-icon search <query...> [--semantic]
-  mal-icon import <file.svg> --name <Name> [--framework <react|vue|svelte>] [--out <dir>]
+  mal-icon import <file.svg> --name <Name> [--framework <react|react-native|vue|svelte|preact|solid>] [--out <dir>]
 
 Options:
   --set <id>          Icon set (e.g. fi). Omit on generate to do all sets.
@@ -148,7 +148,12 @@ async function runImportCommand(
   const framework = (flags.framework ?? "react") as ImportFramework;
   const svg = await readFile(file, "utf8");
   const source = svgToComponentSource(name, svg, framework);
-  const ext = framework === "react" ? "tsx" : framework === "vue" ? "ts" : "svelte";
+  const ext =
+    framework === "react" || framework === "react-native"
+      ? "tsx"
+      : framework === "svelte"
+        ? "svelte"
+        : "ts";
   const outDir = flags.out ?? "src/icons";
   const dest = join(outDir, `${name}.${ext}`);
   await mkdir(outDir, { recursive: true });
