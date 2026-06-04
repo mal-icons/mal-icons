@@ -1,0 +1,105 @@
+# @mal-icons/preact
+
+[![npm](https://img.shields.io/npm/v/@mal-icons/preact.svg)](https://www.npmjs.com/package/@mal-icons/preact)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
+
+Preact adapter for [**mal-icons**](https://github.com/mal-icons/mal-icons) — a
+high-performance, tree-shakeable icon SDK. Each icon is a pre-generated Preact
+component that renders plain SVG, with no runtime parsing.
+
+## Highlights
+
+- **Tree-shakeable** — every icon is its own module.
+- **Tiny** — strict per-icon size budget; ideal for size-sensitive Preact apps.
+- **Themeable** — `IconContext` provider with per-icon overrides.
+- **Pure-CSS animations** — `spin`, `pulse`, `beat`, `bounce`, with a `prefers-reduced-motion` guard.
+- **Accessible** — correct `role` / `aria-hidden` and optional `<title>`.
+
+## Installation
+
+```bash
+bun add @mal-icons/preact
+# or
+npm install @mal-icons/preact
+```
+
+> Requires Preact 10 or newer (peer dependency).
+
+## Quick start
+
+```tsx
+import { FiActivity } from "@mal-icons/preact/fi";
+
+export function Status() {
+  return <FiActivity size={24} title="Status" />;
+}
+```
+
+### App-wide theming
+
+```tsx
+import { IconContext } from "@mal-icons/preact";
+
+<IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
+  <App />
+</IconContext.Provider>;
+```
+
+Per-icon props always override context values.
+
+## Props
+
+| Prop             | Type                                       | Description                                          |
+| ---------------- | ------------------------------------------ | ---------------------------------------------------- |
+| `size`           | `number \| string`                         | Width and height (defaults to `1em`)                 |
+| `color`          | `string`                                   | Overrides `currentColor`                             |
+| `weight`         | `"thin" \| "light" \| "regular" \| "bold"` | Stroke weight for stroke-based sets                  |
+| `animate`        | `"spin" \| "pulse" \| "beat" \| "bounce"`  | CSS animation preset                                 |
+| `secondaryColor` | `string`                                   | Multi-tone color, exposed as `--mal-icons-secondary` |
+| `title`          | `string`                                   | Accessible label                                     |
+| `class`          | `string`                                   | Additional class names                               |
+
+## Animations
+
+```tsx
+import { ICON_ANIMATIONS_CSS } from "@mal-icons/preact";
+
+<style>{ICON_ANIMATIONS_CSS}</style>;
+<FiLoader animate="spin" />;
+```
+
+## API
+
+```ts
+import {
+  IconBase,
+  createIcon,
+  IconContext,
+  DefaultIconContext,
+  ICON_ANIMATIONS_CSS,
+  WEIGHT_STROKE_WIDTH,
+  animationClass,
+} from "@mal-icons/preact";
+```
+
+## Subpath exports
+
+| Import                            | Contents                          |
+| --------------------------------- | --------------------------------- |
+| `@mal-icons/preact`               | Adapter and context               |
+| `@mal-icons/preact/fi`            | All Feather icons (named exports) |
+| `@mal-icons/preact/fi/FiActivity` | A single icon module              |
+
+## Example
+
+A Vite + Preact 10 gallery lives in
+[`examples/preact`](https://github.com/mal-icons/mal-icons/tree/main/examples/preact).
+
+## Repository
+
+<https://github.com/mal-icons/mal-icons> · package directory
+[`packages/preact`](https://github.com/mal-icons/mal-icons/tree/main/packages/preact).
+
+## License
+
+[MIT](https://github.com/mal-icons/mal-icons/blob/main/LICENSE) © MALDevs
