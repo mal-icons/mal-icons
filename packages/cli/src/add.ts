@@ -8,6 +8,8 @@ export const FRAMEWORK_EXT = {
   "react-native": "tsx",
   vue: "ts",
   svelte: "svelte",
+  preact: "ts",
+  solid: "ts",
 } as const;
 export type Framework = keyof typeof FRAMEWORK_EXT;
 
@@ -43,6 +45,10 @@ export function rewriteImports(content: string, framework: Framework): string {
       return content.replace('"../../create-icon.ts"', '"@mal-icon/vue"');
     case "svelte":
       return content.replace('"../../IconBase.svelte"', '"@mal-icon/svelte/IconBase.svelte"');
+    case "preact":
+      return content.replace('"../../create-icon.ts"', '"@mal-icon/preact"');
+    case "solid":
+      return content.replace('"../../create-icon.ts"', '"@mal-icon/solid"');
   }
 }
 

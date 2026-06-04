@@ -1,0 +1,39 @@
+{
+  "name": "@mal-icon/solid",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": ["src", "dist"],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "solid": "./src/index.ts",
+      "bun": "./src/index.ts",
+      "import": "./src/index.ts"
+    },
+    "./fi": {
+      "solid": "./src/icons/fi/index.ts",
+      "bun": "./src/icons/fi/index.ts",
+      "import": "./src/icons/fi/index.ts"
+    },
+    "./fi/*": {
+      "solid": "./src/icons/fi/*.ts",
+      "bun": "./src/icons/fi/*.ts",
+      "import": "./src/icons/fi/*.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "solid-js": ">=1.8"
+  },
+  "dependencies": {
+    "@mal-icon/core": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
