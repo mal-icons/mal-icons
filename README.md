@@ -13,8 +13,8 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 
 ## Highlights
 
-- **Multi-framework** — first-class React, Vue 3, and Svelte 5 adapters that
-  share one data model and render identical SVG markup.
+- **Multi-framework** — first-class React, React Native, Vue 3, and Svelte 5
+  adapters that share one data model and render identical SVG markup.
 - **Compile-time generation** — each icon is its own module, so bundlers keep
   exactly what you import and nothing else.
 - **Tiny by design** — a strict per-icon size budget (< 0.8 KB gzipped) is
@@ -31,13 +31,19 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 
 ## Packages
 
-| Package                   | Description                                |
-| ------------------------- | ------------------------------------------ |
-| `@mal-icon/core`          | Framework-agnostic types and theming logic |
-| `@mal-icon/react`         | React adapter and generated icons          |
-| `@mal-icon/vue`           | Vue 3 adapter and generated icons          |
-| `@mal-icon/svelte`        | Svelte 5 adapter and generated icons       |
-| `@mal-icon/eslint-plugin` | Lint rules for correct, minimal icon usage |
+| Package                   | Description                                        |
+| ------------------------- | -------------------------------------------------- |
+| `@mal-icon/core`          | Framework-agnostic types and theming logic         |
+| `@mal-icon/react`         | React adapter and generated icons                  |
+| `@mal-icon/react-native`  | React Native adapter and generated icons           |
+| `@mal-icon/vue`           | Vue 3 adapter and generated icons                  |
+| `@mal-icon/svelte`        | Svelte 5 adapter and generated icons               |
+| `@mal-icon/preact`        | Preact adapter and generated icons                 |
+| `@mal-icon/solid`         | Solid adapter and generated icons                  |
+| `@mal-icon/angular`       | Angular standalone adapter and generated icons     |
+| `@mal-icon/astro`         | Astro adapter and generated `.astro` components    |
+| `@mal-icon/web`           | Zero-build web/CDN renderer, data and `<mal-icon>` |
+| `@mal-icon/eslint-plugin` | Lint rules for correct, minimal icon usage         |
 
 ## Quick start
 
@@ -55,6 +61,30 @@ Provide app-wide defaults with the context provider:
 
 ```tsx
 import { IconContext } from "@mal-icon/react";
+
+<IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
+  <App />
+</IconContext.Provider>;
+```
+
+### React Native
+
+Backed by [`react-native-svg`](https://github.com/software-mansion/react-native-svg),
+so the same icons render natively on iOS and Android:
+
+```tsx
+import { FiActivity } from "@mal-icon/react-native/fi";
+
+export function Status() {
+  return <FiActivity size={24} color="#3366ff" title="Status" />;
+}
+```
+
+Theming flows through the same context API (sizes are plain numbers, since
+there is no DOM/CSS):
+
+```tsx
+import { IconContext } from "@mal-icon/react-native";
 
 <IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
   <App />
@@ -81,6 +111,74 @@ import { FiActivity } from "@mal-icon/vue/fi";
 </script>
 
 <FiActivity size={24} title="Status" />
+```
+
+### Preact
+
+```tsx
+import { FiActivity } from "@mal-icon/preact/fi";
+
+<FiActivity size={24} title="Status" />;
+```
+
+### Solid
+
+```tsx
+import { FiActivity } from "@mal-icon/solid/fi";
+
+<FiActivity size={24} title="Status" />;
+```
+
+### Angular
+
+```ts
+import { FiActivity } from "@mal-icon/angular/fi";
+
+@Component({
+  standalone: true,
+  imports: [FiActivity],
+  template: `<mal-fi-activity [size]="24" title="Status" />`,
+})
+export class StatusIcon {}
+```
+
+### Astro
+
+```astro
+---
+import FiActivity from "@mal-icon/astro/fi/FiActivity.astro";
+---
+
+<FiActivity size={24} title="Status" />
+```
+
+> Astro components render at build time and have no runtime context, so
+> theming is configured per-component via props rather than a shared provider.
+
+### Web / CDN (no build)
+
+```html
+<script type="module">
+  import { defineMalIcon, registerIcons } from "https://esm.sh/@mal-icon/web";
+  import { fi } from "https://esm.sh/@mal-icon/web/fi";
+
+  registerIcons(fi);
+  defineMalIcon();
+</script>
+
+<mal-icon name="FiActivity" size="24" title="Status"></mal-icon>
+```
+
+Or render imperatively / lazily over a CDN:
+
+```js
+import { renderIcon, cdnLoader } from "@mal-icon/web";
+import FiActivity from "@mal-icon/web/fi/FiActivity.json" with { type: "json" };
+
+document.body.appendChild(renderIcon(FiActivity, { size: 24, title: "Status" }));
+
+const load = cdnLoader("https://cdn.example.com/mal-icon/fi");
+const data = await load("FiActivity");
 ```
 
 ## Theming and styling
@@ -144,7 +242,7 @@ mal-icon search arrow
 mal-icon search "trash" --semantic
 
 # Turn your own SVG into a component
-mal-icon import logo.svg --name BrandLogo --framework react
+mal-icon import logo.svg --name BrandLogo --framework react-native
 
 # Produce a license report for the bundled sets
 mal-icon licenses --out LICENSES.md
@@ -156,6 +254,7 @@ mal-icon licenses --out LICENSES.md
 packages/
   core/          # framework-agnostic types + theming logic
   react/         # React adapter + generated icons
+  react-native/  # React Native adapter (react-native-svg) + generated icons
   vue/           # Vue 3 adapter + generated icons
   svelte/        # Svelte 5 adapter + generated icons
   cli/           # build pipeline (fetch / optimize / generate)
@@ -163,7 +262,23 @@ packages/
 icons-data/      # pinned source configs + licenses
 scripts/         # build, size, and benchmark tooling
 test/            # cross-framework parity tests
+examples/        # runnable demo apps (React, Next.js, Vue, Svelte, sprite)
 ```
+
+## Examples
+
+The [`examples/`](./examples) folder contains professionally-designed demo apps
+that render the same icon gallery in every supported framework:
+
+| Example                                       | Stack                          |
+| --------------------------------------------- | ------------------------------ |
+| [`react`](./examples/react)                   | Vite + React 19                |
+| [`nextjs`](./examples/nextjs)                 | Next.js App Router (RSC)       |
+| [`vue`](./examples/vue)                       | Vite + Vue 3.5                 |
+| [`svelte`](./examples/svelte)                 | Vite + Svelte 5                |
+| [`cdn-sprite`](./examples/cdn-sprite)         | Plain HTML (no build, no deps) |
+
+See [`examples/README.md`](./examples/README.md) for run instructions.
 
 ## Development
 
