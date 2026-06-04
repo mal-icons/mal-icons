@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mal-icon · SVG sprite example</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- The generated sprite is injected here at runtime (see app.js). -->
+    <div id="sprite-host" hidden aria-hidden="true"></div>
+
+    <div class="page">
+      <header class="hero">
+        <div class="hero__badge">Framework-free · SVG sprite</div>
+        <h1 class="hero__title">mal-icon <span>as a sprite</span></h1>
+        <p class="hero__subtitle">
+          No bundler, no framework — just one cached
+          <code>&lt;symbol&gt;</code> sheet referenced with
+          <code>&lt;use&gt;</code>. Ideal for static sites and emails-style
+          embedding.
+        </p>
+      </header>
+
+      <section class="panel" aria-label="Icon controls">
+        <label class="field field--search">
+          <input id="search" type="search" placeholder="Search icons…" />
+        </label>
+        <label class="field">
+          <span>Size · <output id="size-out">32</output>px</span>
+          <input id="size" type="range" min="16" max="64" value="32" />
+        </label>
+        <label class="field">
+          <span>Color</span>
+          <input id="color" type="color" value="#e11d48" />
+        </label>
+      </section>
+
+      <main id="grid" class="grid" aria-label="Icon gallery"></main>
+
+      <p id="error" class="empty" hidden></p>
+
+      <footer class="footer">
+        Sprite served from <code>fi.svg</code> · referenced via
+        <code>&lt;use href="#fi-activity"&gt;</code>.
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
