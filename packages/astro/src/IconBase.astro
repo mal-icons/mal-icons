@@ -1,0 +1,51 @@
+---
+import type { NodeTuple } from "@mal-icon/core";
+import { resolveIconAttrs } from "@mal-icon/core";
+
+/**
+ * Shared SVG wrapper for Astro. Astro has no runtime theming context, so
+ * size/color/className are resolved from props only (per-component props).
+ */
+export interface Props {
+  viewBox: string;
+  nodes?: NodeTuple[];
+  defaultAttr?: Record<string, string | number>;
+  size?: string | number;
+  color?: string;
+  title?: string;
+  class?: string;
+}
+
+const {
+  viewBox,
+  nodes = [],
+  defaultAttr = {},
+  size,
+  color,
+  title,
+  class: className,
+} = Astro.props;
+
+const resolved = resolveIconAttrs({ size, color, className }, {});
+const style = resolved.color ? `color:${resolved.color}` : undefined;
+---
+
+<svg
+  viewBox={viewBox}
+  stroke="currentColor"
+  fill="currentColor"
+  stroke-width="0"
+  width={resolved.size}
+  height={resolved.size}
+  class={resolved.className}
+  style={style}
+  role={title ? "img" : "presentation"}
+  aria-hidden={title ? undefined : "true"}
+  {...defaultAttr}
+>
+  {title && <title>{title}</title>}
+  {nodes.map(([tag, attr]) => {
+    const Tag = tag as any;
+    return <Tag {...attr} />;
+  })}
+</svg>
