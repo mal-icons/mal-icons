@@ -1,0 +1,22 @@
+{
+  "name": "@mal-icon/astro",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "files": ["src"],
+  "exports": {
+    "./IconBase.astro": "./src/IconBase.astro",
+    "./fi/*": "./src/icons/fi/*.astro",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "astro": ">=4"
+  },
+  "dependencies": {
+    "@mal-icon/core": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

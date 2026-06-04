@@ -31,13 +31,18 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 
 ## Packages
 
-| Package                   | Description                                |
-| ------------------------- | ------------------------------------------ |
-| `@mal-icon/core`          | Framework-agnostic types and theming logic |
-| `@mal-icon/react`         | React adapter and generated icons          |
-| `@mal-icon/vue`           | Vue 3 adapter and generated icons          |
-| `@mal-icon/svelte`        | Svelte 5 adapter and generated icons       |
-| `@mal-icon/eslint-plugin` | Lint rules for correct, minimal icon usage |
+| Package                   | Description                                       |
+| ------------------------- | ------------------------------------------------- |
+| `@mal-icon/core`          | Framework-agnostic types and theming logic        |
+| `@mal-icon/react`         | React adapter and generated icons                 |
+| `@mal-icon/vue`           | Vue 3 adapter and generated icons                 |
+| `@mal-icon/svelte`        | Svelte 5 adapter and generated icons              |
+| `@mal-icon/preact`        | Preact adapter and generated icons                |
+| `@mal-icon/solid`         | Solid adapter and generated icons                 |
+| `@mal-icon/angular`       | Angular standalone adapter and generated icons    |
+| `@mal-icon/astro`         | Astro adapter and generated `.astro` components   |
+| `@mal-icon/web`           | Zero-build web/CDN renderer, data and `<mal-icon>`|
+| `@mal-icon/eslint-plugin` | Lint rules for correct, minimal icon usage        |
 
 ## Quick start
 
@@ -81,6 +86,74 @@ import { FiActivity } from "@mal-icon/vue/fi";
 </script>
 
 <FiActivity size={24} title="Status" />
+```
+
+### Preact
+
+```tsx
+import { FiActivity } from "@mal-icon/preact/fi";
+
+<FiActivity size={24} title="Status" />;
+```
+
+### Solid
+
+```tsx
+import { FiActivity } from "@mal-icon/solid/fi";
+
+<FiActivity size={24} title="Status" />;
+```
+
+### Angular
+
+```ts
+import { FiActivity } from "@mal-icon/angular/fi";
+
+@Component({
+  standalone: true,
+  imports: [FiActivity],
+  template: `<mal-fi-activity [size]="24" title="Status" />`,
+})
+export class StatusIcon {}
+```
+
+### Astro
+
+```astro
+---
+import FiActivity from "@mal-icon/astro/fi/FiActivity.astro";
+---
+
+<FiActivity size={24} title="Status" />
+```
+
+> Astro components render at build time and have no runtime context, so
+> theming is configured per-component via props rather than a shared provider.
+
+### Web / CDN (no build)
+
+```html
+<script type="module">
+  import { defineMalIcon, registerIcons } from "https://esm.sh/@mal-icon/web";
+  import { fi } from "https://esm.sh/@mal-icon/web/fi";
+
+  registerIcons(fi);
+  defineMalIcon();
+</script>
+
+<mal-icon name="FiActivity" size="24" title="Status"></mal-icon>
+```
+
+Or render imperatively / lazily over a CDN:
+
+```js
+import { renderIcon, cdnLoader } from "@mal-icon/web";
+import FiActivity from "@mal-icon/web/fi/FiActivity.json" with { type: "json" };
+
+document.body.appendChild(renderIcon(FiActivity, { size: 24, title: "Status" }));
+
+const load = cdnLoader("https://cdn.example.com/mal-icon/fi");
+const data = await load("FiActivity");
 ```
 
 ## Theming and styling

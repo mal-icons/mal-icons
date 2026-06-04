@@ -5,7 +5,7 @@ import { optimize } from "./optimize.ts";
 import { parseSvg } from "./svg.ts";
 
 /** Target framework for {@link svgToComponentSource}. */
-export type ImportFramework = "react" | "vue" | "svelte";
+export type ImportFramework = "react" | "vue" | "svelte" | "preact" | "solid";
 
 /**
  * Serializable icon shape produced from a raw SVG. Mirrors core's `IconData`
@@ -97,6 +97,10 @@ export function svgToComponentSource(
   if (framework === "vue") {
     const arg = hasDefaults ? `, ${JSON.stringify(defaultAttr)}` : "";
     return `import { createIcon } from "@mal-icon/vue";\n\nexport const ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${arg});\n`;
+  }
+  if (framework === "preact" || framework === "solid") {
+    const arg = hasDefaults ? `, ${JSON.stringify(defaultAttr)}` : "";
+    return `import { createIcon } from "@mal-icon/${framework}";\n\nexport const ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${arg});\n`;
   }
   const defaultLine = hasDefaults ? `  const defaultAttr = ${JSON.stringify(defaultAttr)};\n` : "";
   const defaultBind = hasDefaults ? " {defaultAttr}" : "";
