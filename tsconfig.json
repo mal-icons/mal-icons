@@ -4,8 +4,12 @@
     { "path": "./icons-data" },
     { "path": "./packages/core" },
     { "path": "./packages/react" },
+    { "path": "./packages/react-native" },
     { "path": "./packages/vue" },
     { "path": "./packages/svelte" },
+    { "path": "./packages/preact" },
+    { "path": "./packages/solid" },
+    { "path": "./packages/web" },
     { "path": "./packages/cli" },
     { "path": "./packages/eslint-plugin" }
   ]
