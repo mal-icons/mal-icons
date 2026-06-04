@@ -262,7 +262,7 @@ packages/
 icons-data/      # pinned source configs + licenses
 scripts/         # build, size, and benchmark tooling
 test/            # cross-framework parity tests
-examples/        # runnable demo apps (React, Next.js, Vue, Svelte, sprite)
+examples/        # runnable demo apps (React, Next.js, Vue, Nuxt, Svelte, sprite)
 ```
 
 ## Examples
@@ -275,6 +275,7 @@ that render the same icon gallery in every supported framework:
 | [`react`](./examples/react)                   | Vite + React 19                |
 | [`nextjs`](./examples/nextjs)                 | Next.js App Router (RSC)       |
 | [`vue`](./examples/vue)                       | Vite + Vue 3.5                 |
+| [`nuxt`](./examples/nuxt)                     | Nuxt 3 (SSR)                   |
 | [`svelte`](./examples/svelte)                 | Vite + Svelte 5                |
 | [`cdn-sprite`](./examples/cdn-sprite)         | Plain HTML (no build, no deps) |
 

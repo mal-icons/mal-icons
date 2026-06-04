@@ -6,7 +6,16 @@
     "useIgnoreFile": true
   },
   "files": {
-    "ignore": ["dist/**", "node_modules/**", "**/icons/**", "doc/**", "**/*.svelte", "**/*.astro"]
+    "ignore": [
+      "dist/**",
+      "node_modules/**",
+      "**/.nuxt/**",
+      "**/.output/**",
+      "**/icons/**",
+      "doc/**",
+      "**/*.svelte",
+      "**/*.astro"
+    ]
   },
   "formatter": {
     "enabled": true,
