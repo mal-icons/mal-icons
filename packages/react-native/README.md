@@ -1,0 +1,100 @@
+# @mal-icons/react-native
+
+[![npm](https://img.shields.io/npm/v/@mal-icons/react-native.svg)](https://www.npmjs.com/package/@mal-icons/react-native)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
+
+React Native adapter for [**mal-icons**](https://github.com/mal-icons/mal-icons).
+The same icon set you use on the web renders natively on iOS and Android,
+backed by [`react-native-svg`](https://github.com/software-mansion/react-native-svg).
+
+## Highlights
+
+- **Native rendering** — each icon maps to `react-native-svg` primitives (`Svg`, `Path`, `Polyline`, `Circle`, …), no WebView.
+- **Tree-shakeable** — every icon is its own module.
+- **Shared API** — the same prop surface and `IconContext` theming as the React adapter.
+- **Accessible** — optional `title` for screen readers.
+
+## Installation
+
+```bash
+bun add @mal-icons/react-native react-native-svg
+# or
+npm install @mal-icons/react-native react-native-svg
+```
+
+> Peer dependencies: `react >=18`, `react-native >=0.70`, and
+> `react-native-svg >=13`. Follow the `react-native-svg` install steps for your
+> project (Expo or bare).
+
+## Quick start
+
+```tsx
+import { FiActivity } from "@mal-icons/react-native/fi";
+
+export function Status() {
+  return <FiActivity size={24} color="#3366ff" title="Status" />;
+}
+```
+
+### App-wide theming
+
+Sizes are plain numbers — there is no DOM or CSS:
+
+```tsx
+import { IconContext } from "@mal-icons/react-native";
+
+export function App() {
+  return (
+    <IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
+      <Screen />
+    </IconContext.Provider>
+  );
+}
+```
+
+Per-icon props always override context values.
+
+## Props
+
+| Prop    | Type               | Description                         |
+| ------- | ------------------ | ----------------------------------- |
+| `size`  | `number \| string` | Width and height                    |
+| `color` | `string`           | Overrides `currentColor`            |
+| `title` | `string`           | Accessible label for screen readers |
+| `style` | `StyleProp`        | Style passed to the root `<Svg>`    |
+
+> CSS-only features from the web adapters (pure-CSS `animate`, `--mal-icons-secondary`)
+> do not apply on native. Use `react-native-svg` / Reanimated for motion.
+
+## API
+
+```ts
+import {
+  IconBase,
+  createIcon,
+  IconContext,
+  DefaultIconContext,
+} from "@mal-icons/react-native";
+```
+
+## Subpath exports
+
+| Import                                  | Contents                          |
+| --------------------------------------- | --------------------------------- |
+| `@mal-icons/react-native`               | Adapter and context               |
+| `@mal-icons/react-native/fi`            | All Feather icons (named exports) |
+| `@mal-icons/react-native/fi/FiActivity` | A single icon module              |
+
+## Example
+
+An Expo demo that themes native `<Svg>` icons via `IconContext` lives in
+[`examples/react-native`](https://github.com/mal-icons/mal-icons/tree/main/examples/react-native).
+
+## Repository
+
+<https://github.com/mal-icons/mal-icons> · package directory
+[`packages/react-native`](https://github.com/mal-icons/mal-icons/tree/main/packages/react-native).
+
+## License
+
+[MIT](https://github.com/mal-icons/mal-icons/blob/main/LICENSE) © MALDevs
