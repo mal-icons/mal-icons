@@ -7,7 +7,7 @@ import { resolveAddPlan, rewriteImports, runAdd } from "../src/add.ts";
 import { buildLicenseReport } from "../src/licenses.ts";
 
 async function tmp(): Promise<string> {
-  return mkdtemp(join(tmpdir(), "mal-icon-add-"));
+  return mkdtemp(join(tmpdir(), "mal-icons-add-"));
 }
 
 describe("add command", () => {
@@ -34,7 +34,7 @@ describe("add command", () => {
       const dest = plan[0]?.dest ?? "";
       expect(existsSync(dest)).toBe(true);
       const content = await readFile(dest, "utf8");
-      expect(content).toContain('from "@mal-icon/react"');
+      expect(content).toContain('from "@mal-icons/react"');
       expect(content).not.toContain("../../create-icon");
     } finally {
       await rm(out, { recursive: true, force: true });
@@ -49,7 +49,7 @@ describe("add command", () => {
       expect(dest).toBe(join(out, "FiActivity.tsx"));
       expect(existsSync(dest)).toBe(true);
       const content = await readFile(dest, "utf8");
-      expect(content).toContain('from "@mal-icon/react-native"');
+      expect(content).toContain('from "@mal-icons/react-native"');
       expect(content).not.toContain("../../create-icon");
     } finally {
       await rm(out, { recursive: true, force: true });
@@ -58,11 +58,11 @@ describe("add command", () => {
 
   test("rewriteImports targets the right package per framework", () => {
     expect(rewriteImports('x from "../../create-icon.tsx"', "react-native")).toContain(
-      '"@mal-icon/react-native"',
+      '"@mal-icons/react-native"',
     );
-    expect(rewriteImports('x from "../../create-icon.ts"', "vue")).toContain('"@mal-icon/vue"');
+    expect(rewriteImports('x from "../../create-icon.ts"', "vue")).toContain('"@mal-icons/vue"');
     expect(rewriteImports('import IconBase from "../../IconBase.svelte";', "svelte")).toContain(
-      '"@mal-icon/svelte/IconBase.svelte"',
+      '"@mal-icons/svelte/IconBase.svelte"',
     );
   });
 });

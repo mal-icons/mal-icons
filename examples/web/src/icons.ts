@@ -1,5 +1,5 @@
-import type { IconData } from "@mal-icon/web";
-import { fiIcons } from "@mal-icon/web/fi";
+import type { IconData } from "@mal-icons/web";
+import { fiIcons } from "@mal-icons/web/fi";
 
 /** Names shown in the gallery, in display order. */
 export const ICON_NAMES = [
@@ -34,7 +34,7 @@ export const ICON_NAMES = [
 /** Icons used by the app chrome itself (search field, copy buttons, links). */
 const UI_ICON_NAMES = ["FiSearch", "FiGithub", "FiCopy", "FiCheck"];
 
-/** Curated subset of the full Feather set, keyed by name for `<mal-icon>`. */
+/** Curated subset of the full Feather set, keyed by name for `<mal-icons>`. */
 export const ICONS: Record<string, IconData> = Object.fromEntries(
   [...ICON_NAMES, ...UI_ICON_NAMES].map((name) => [name, fiIcons[name]]),
 );

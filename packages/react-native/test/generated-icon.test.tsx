@@ -14,7 +14,7 @@ function attr(svg: string, name: string): string {
   return m ? m[1] : "";
 }
 
-describe("@mal-icon/react-native generated icon", () => {
+describe("@mal-icons/react-native generated icon", () => {
   test("renders an SVG equivalent to the other adapters", () => {
     const svg = renderToStaticMarkup(createElement(FiActivity));
     expect(attr(svg, "viewBox")).toBe("0 0 24 24");

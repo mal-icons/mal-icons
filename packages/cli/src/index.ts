@@ -48,14 +48,14 @@ function parseArgs(argv: string[]): ParsedArgs {
 }
 
 function printHelp(): void {
-  console.log(`mal-icon — icon build pipeline
+  console.log(`mal-icons — icon build pipeline
 
 Usage:
-  mal-icon generate --set <id> [--no-fetch] [--limit <n>]
-  mal-icon add <Name...> [--set <id>] [--framework <react|react-native|vue|svelte|preact|solid>] [--out <dir>]
-  mal-icon licenses [--out <file>]
-  mal-icon search <query...> [--semantic]
-  mal-icon import <file.svg> --name <Name> [--framework <react|react-native|vue|svelte|preact|solid>] [--out <dir>]
+  mal-icons generate --set <id> [--no-fetch] [--limit <n>]
+  mal-icons add <Name...> [--set <id>] [--framework <react|react-native|vue|svelte|preact|solid>] [--out <dir>]
+  mal-icons licenses [--out <file>]
+  mal-icons search <query...> [--semantic]
+  mal-icons import <file.svg> --name <Name> [--framework <react|react-native|vue|svelte|preact|solid>] [--out <dir>]
 
 Options:
   --set <id>          Icon set (e.g. fi). Omit on generate to do all sets.
@@ -87,7 +87,7 @@ async function runGenerate(opts: GenerateOptions): Promise<void> {
 
 async function runAddCommand(positionals: string[], flags: Record<string, string>): Promise<void> {
   if (positionals.length === 0) {
-    console.error("mal-icon add: provide at least one icon name.");
+    console.error("mal-icons add: provide at least one icon name.");
     process.exitCode = 1;
     return;
   }
@@ -114,7 +114,7 @@ async function runSearchCommand(positionals: string[], semantic: boolean): Promi
   const query = positionals.join(" ");
   const indexPath = join(process.cwd(), "packages", "react", "src", "icons", "search-index.json");
   if (!existsSync(indexPath)) {
-    console.error("mal-icon search: no search index found. Run 'generate' first.");
+    console.error("mal-icons search: no search index found. Run 'generate' first.");
     process.exitCode = 1;
     return;
   }
@@ -135,13 +135,13 @@ async function runImportCommand(
 ): Promise<void> {
   const file = positionals[0];
   if (file === undefined) {
-    console.error("mal-icon import: provide a path to an .svg file.");
+    console.error("mal-icons import: provide a path to an .svg file.");
     process.exitCode = 1;
     return;
   }
   const name = flags.name;
   if (name === undefined || name === "") {
-    console.error("mal-icon import: --name <Name> is required.");
+    console.error("mal-icons import: --name <Name> is required.");
     process.exitCode = 1;
     return;
   }

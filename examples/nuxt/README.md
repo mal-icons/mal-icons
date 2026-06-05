@@ -1,6 +1,6 @@
-# mal-icon · Nuxt example
+# mal-icons · Nuxt example
 
-A Nuxt 3 app showing **`@mal-icon/vue`** rendered with server-side rendering
+A Nuxt 3 app showing **`@mal-icons/vue`** rendered with server-side rendering
 (SSR) and themed through Vue's provide/inject.
 
 ## What it demonstrates
@@ -12,7 +12,7 @@ A Nuxt 3 app showing **`@mal-icon/vue`** rendered with server-side rendering
   the server and client render the same values without a hydration mismatch.
 - **Context theming** — app-wide `size` and `color` via `provideIconContext`
   with a reactive context object; per-icon props still override.
-- **Source resolution** — `nuxt.config.ts` aliases the workspace `@mal-icon/*`
+- **Source resolution** — `nuxt.config.ts` aliases the workspace `@mal-icons/*`
   packages to their TypeScript source (client and server), so the example runs
   without pre-building the libraries.
 

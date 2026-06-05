@@ -1,8 +1,8 @@
-import type { IconContextValue } from "@mal-icon/core";
+import type { IconContextValue } from "@mal-icons/core";
 import { createContext } from "solid-js";
 import type { JSX } from "solid-js";
 
-/** Theming context value for all mal-icon Solid components. */
+/** Theming context value for all mal-icons Solid components. */
 export type SolidIconContextValue = IconContextValue<JSX.CSSProperties>;
 
 /** Default (empty) theming configuration. */

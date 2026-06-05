@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon/angular",
+  "name": "@mal-icons/angular",
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "@angular/core": ">=16"
   },
   "dependencies": {
-    "@mal-icon/core": "workspace:*"
+    "@mal-icons/core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

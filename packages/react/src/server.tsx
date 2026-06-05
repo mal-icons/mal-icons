@@ -1,10 +1,10 @@
-import { WEIGHT_STROKE_WIDTH, animationClass, resolveIconAttrs } from "@mal-icon/core";
-import type { NodeTuple } from "@mal-icon/core";
+import { WEIGHT_STROKE_WIDTH, animationClass, resolveIconAttrs } from "@mal-icons/core";
+import type { NodeTuple } from "@mal-icons/core";
 import { type ReactElement, createElement } from "react";
 import type { IconBaseProps } from "./icon-base.tsx";
 
 /**
- * React Server Component build of mal-icon (SRS §16.2).
+ * React Server Component build of mal-icons (SRS §16.2).
  *
  * The default React entry reads theming through `useContext`, which is not
  * available in Server Components. This module renders the exact same SVG
@@ -46,7 +46,7 @@ export function IconBaseServer({
     computedColor || secondaryColor || style
       ? ({
           color: computedColor,
-          ...(secondaryColor ? { "--mal-icon-secondary": secondaryColor } : {}),
+          ...(secondaryColor ? { "--mal-icons-secondary": secondaryColor } : {}),
           ...style,
         } as IconBaseProps["style"])
       : undefined;

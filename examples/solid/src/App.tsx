@@ -4,8 +4,8 @@ import {
   IconContext,
   type IconWeight,
   type SolidIconContextValue,
-} from "@mal-icon/solid";
-import { FiCheck, FiCopy, FiGithub, FiSearch } from "@mal-icon/solid/fi";
+} from "@mal-icons/solid";
+import { FiCheck, FiCopy, FiGithub, FiSearch } from "@mal-icons/solid/fi";
 import { For, Show, createMemo, createSignal } from "solid-js";
 import { ICONS } from "./icons.ts";
 
@@ -30,7 +30,7 @@ export function App() {
   const contextValue = createMemo<SolidIconContextValue>(() => ({ size: size(), color: color() }));
 
   async function copyImport(name: string) {
-    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icon/solid/fi";`);
+    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icons/solid/fi";`);
     setCopied(name);
     window.setTimeout(() => setCopied((c) => (c === name ? null : c)), 1200);
   }
@@ -44,7 +44,7 @@ export function App() {
         <header class="hero">
           <div class="hero__badge">Solid 1.9 · Vite</div>
           <h1 class="hero__title">
-            mal-icon <span>for Solid</span>
+            mal-icons <span>for Solid</span>
           </h1>
           <p class="hero__subtitle">
             Tree-shakeable, ahead-of-time generated icons with a single, consistent API. Theme
@@ -52,7 +52,7 @@ export function App() {
           </p>
           <a
             class="hero__link"
-            href="https://github.com/MAnasLatif/mal-icon"
+            href="https://github.com/MAnasLatif/mal-icons"
             target="_blank"
             rel="noreferrer"
           >

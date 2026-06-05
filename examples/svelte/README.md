@@ -1,10 +1,10 @@
-# mal-icon · Svelte example
+# mal-icons · Svelte example
 
-A Vite + Svelte 5 icon gallery showcasing **`@mal-icon/svelte`**.
+A Vite + Svelte 5 icon gallery showcasing **`@mal-icons/svelte`**.
 
 ## What it demonstrates
 
-- **Precompiled per-icon components** — `import { FiActivity } from "@mal-icon/svelte/fi"`.
+- **Precompiled per-icon components** — `import { FiActivity } from "@mal-icons/svelte/fi"`.
 - **Context theming** — app-wide `size` and `color` via `setIconContext`.
 - **Svelte 5 runes** — `$state` / `$derived` drive the controls and search.
 

@@ -1,4 +1,4 @@
-# Contributing to mal-icon
+# Contributing to mal-icons
 
 Thanks for your interest in contributing!
 

@@ -2,7 +2,7 @@ import { fileURLToPath } from "node:url";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-// For this in-repo example we resolve the workspace @mal-icon/* packages to
+// For this in-repo example we resolve the workspace @mal-icons/* packages to
 // their TypeScript *source*, so the example runs straight from source without a
 // prior library build — for both the client and the server (SSR) bundle. We use
 // explicit aliases (rather than an export condition) because Nuxt's SSR build
@@ -21,9 +21,9 @@ export default defineNuxtConfig({
     resolve: {
       // Most specific first: the `/fi` set barrel, then the package roots.
       alias: [
-        { find: "@mal-icon/vue/fi", replacement: src("../../packages/vue/src/icons/fi/index.ts") },
-        { find: "@mal-icon/vue", replacement: src("../../packages/vue/src/index.ts") },
-        { find: "@mal-icon/core", replacement: src("../../packages/core/src/index.ts") },
+        { find: "@mal-icons/vue/fi", replacement: src("../../packages/vue/src/icons/fi/index.ts") },
+        { find: "@mal-icons/vue", replacement: src("../../packages/vue/src/index.ts") },
+        { find: "@mal-icons/core", replacement: src("../../packages/core/src/index.ts") },
       ],
     },
   },

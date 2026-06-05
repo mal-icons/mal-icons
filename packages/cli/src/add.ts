@@ -38,17 +38,17 @@ function iconsRoot(framework: Framework): string {
 export function rewriteImports(content: string, framework: Framework): string {
   switch (framework) {
     case "react":
-      return content.replace('"../../create-icon.tsx"', '"@mal-icon/react"');
+      return content.replace('"../../create-icon.tsx"', '"@mal-icons/react"');
     case "react-native":
-      return content.replace('"../../create-icon.tsx"', '"@mal-icon/react-native"');
+      return content.replace('"../../create-icon.tsx"', '"@mal-icons/react-native"');
     case "vue":
-      return content.replace('"../../create-icon.ts"', '"@mal-icon/vue"');
+      return content.replace('"../../create-icon.ts"', '"@mal-icons/vue"');
     case "svelte":
-      return content.replace('"../../IconBase.svelte"', '"@mal-icon/svelte/IconBase.svelte"');
+      return content.replace('"../../IconBase.svelte"', '"@mal-icons/svelte/IconBase.svelte"');
     case "preact":
-      return content.replace('"../../create-icon.ts"', '"@mal-icon/preact"');
+      return content.replace('"../../create-icon.ts"', '"@mal-icons/preact"');
     case "solid":
-      return content.replace('"../../create-icon.ts"', '"@mal-icon/solid"');
+      return content.replace('"../../create-icon.ts"', '"@mal-icons/solid"');
   }
 }
 
@@ -62,7 +62,7 @@ export function resolveAddPlan(names: string[], opts: AddOptions): AddItem[] {
   return names.map((name) => {
     const source = join(setDir, `${name}.${ext}`);
     if (!existsSync(source)) {
-      throw new Error(`mal-icon: unknown icon "${name}" in set "${opts.set}" (${opts.framework})`);
+      throw new Error(`mal-icons: unknown icon "${name}" in set "${opts.set}" (${opts.framework})`);
     }
     return { name, source, dest: join(opts.out, `${name}.${ext}`) };
   });

@@ -1,4 +1,4 @@
-import type { IconNode } from "@mal-icon/core";
+import type { IconNode } from "@mal-icons/core";
 import type { IconSource } from "../../../icons-data/sources.config";
 import { toCamelAttr } from "./naming.ts";
 import type { ParsedSvg } from "./svg.ts";

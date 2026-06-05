@@ -1,4 +1,4 @@
-import type { NodeTuple } from "@mal-icon/core";
+import type { NodeTuple } from "@mal-icons/core";
 import { defineComponent, h } from "vue";
 import type { PropType, VNode } from "vue";
 import { IconBase, type IconBaseProps } from "./icon-base.ts";

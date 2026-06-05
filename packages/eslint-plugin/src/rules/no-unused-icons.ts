@@ -1,10 +1,10 @@
 import type { Rule } from "eslint";
 import type { ImportDeclaration } from "estree";
 
-const MAL_ICON_PREFIX = "@mal-icon/";
+const MAL_ICON_PREFIX = "@mal-icons/";
 
 /**
- * Report icons imported from `@mal-icon/*` that are never referenced in the
+ * Report icons imported from `@mal-icons/*` that are never referenced in the
  * file. Unused icon imports add no runtime cost with tree-shaking but signal
  * dead code and bloat editor autocomplete.
  */
@@ -12,7 +12,7 @@ export const noUnusedIcons: Rule.RuleModule = {
   meta: {
     type: "problem",
     docs: {
-      description: "Disallow unused icon imports from @mal-icon packages.",
+      description: "Disallow unused icon imports from @mal-icons packages.",
     },
     schema: [],
     messages: {

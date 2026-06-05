@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon/vue",
+  "name": "@mal-icons/vue",
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
@@ -31,7 +31,7 @@
     "vue": ">=3.3"
   },
   "dependencies": {
-    "@mal-icon/core": "workspace:*"
+    "@mal-icons/core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

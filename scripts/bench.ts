@@ -22,7 +22,7 @@ function bench(label: string, fn: () => void): void {
 }
 
 let sink = 0;
-bench("mal-icon render", () => {
+bench("mal-icons render", () => {
   for (const Icon of ICONS) {
     sink += renderToStaticMarkup(createElement(Icon, { size: 24 })).length;
   }

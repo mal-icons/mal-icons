@@ -1,4 +1,4 @@
-import type { IconData } from "@mal-icon/core";
+import type { IconData } from "@mal-icons/core";
 import { type ComponentType, createElement, useEffect, useState } from "react";
 import { IconBase, type IconBaseProps } from "./icon-base.tsx";
 
@@ -117,10 +117,10 @@ export function cdnLoader(baseUrl: string, fetchImpl: typeof fetch = fetch): Ico
   const base = baseUrl.replace(/\/+$/, "");
   return async (name) => {
     const res = await fetchImpl(`${base}/${name}.json`);
-    if (!res.ok) throw new Error(`mal-icon: failed to load "${name}" (${res.status})`);
+    if (!res.ok) throw new Error(`mal-icons: failed to load "${name}" (${res.status})`);
     const data = (await res.json()) as IconData;
     if (typeof data?.viewBox !== "string" || !Array.isArray(data?.nodes)) {
-      throw new Error(`mal-icon: malformed icon payload for "${name}"`);
+      throw new Error(`mal-icons: malformed icon payload for "${name}"`);
     }
     return { viewBox: data.viewBox, nodes: data.nodes, defaultAttr: data.defaultAttr };
   };
@@ -129,7 +129,7 @@ export function cdnLoader(baseUrl: string, fetchImpl: typeof fetch = fetch): Ico
 /**
  * Build a loader backed by a dynamically imported set barrel. Only the
  * referenced set's module is fetched, and named components are resolved by
- * key, e.g. `setLoader(() => import("@mal-icon/react/fi"))`.
+ * key, e.g. `setLoader(() => import("@mal-icons/react/fi"))`.
  */
 export function setLoader(
   importer: () => Promise<Record<string, ComponentType<IconBaseProps>>>,
@@ -139,7 +139,7 @@ export function setLoader(
     if (!modulePromise) modulePromise = importer();
     const mod = await modulePromise;
     const component = mod[name];
-    if (!component) throw new Error(`mal-icon: "${name}" not found in set module`);
+    if (!component) throw new Error(`mal-icons: "${name}" not found in set module`);
     return component;
   };
 }

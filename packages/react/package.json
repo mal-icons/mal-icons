@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon/react",
+  "name": "@mal-icons/react",
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
@@ -51,7 +51,7 @@
     "react": ">=18"
   },
   "dependencies": {
-    "@mal-icon/core": "workspace:*"
+    "@mal-icons/core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

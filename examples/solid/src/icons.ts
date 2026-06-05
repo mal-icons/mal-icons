@@ -25,10 +25,10 @@ import {
   FiUpload,
   FiUser,
   FiZap,
-} from "@mal-icon/solid/fi";
+} from "@mal-icons/solid/fi";
 import type { JSX } from "solid-js";
 
-/** A generated mal-icon Solid component. */
+/** A generated mal-icons Solid component. */
 // biome-ignore lint/suspicious/noExplicitAny: heterogeneous icon props share one type
 export type IconComponent = (props: any) => JSX.Element;
 

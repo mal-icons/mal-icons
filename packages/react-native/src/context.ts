@@ -1,8 +1,8 @@
-import type { IconContextValue } from "@mal-icon/core";
+import type { IconContextValue } from "@mal-icons/core";
 import { createContext } from "react";
 import type { StyleProp, ViewStyle } from "react-native";
 
-/** Theming context value for all mal-icon React Native components. */
+/** Theming context value for all mal-icons React Native components. */
 export type ReactNativeIconContextValue = IconContextValue<StyleProp<ViewStyle>>;
 
 /** Default (empty) theming configuration. */

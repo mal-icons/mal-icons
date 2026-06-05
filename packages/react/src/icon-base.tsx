@@ -4,18 +4,18 @@ import {
   WEIGHT_STROKE_WIDTH,
   animationClass,
   resolveIconAttrs,
-} from "@mal-icon/core";
+} from "@mal-icons/core";
 import { useContext } from "react";
 import type { CSSProperties, ReactNode, SVGAttributes } from "react";
 import { IconContext } from "./context.ts";
 
-/** Props accepted by every generated mal-icon React component. */
+/** Props accepted by every generated mal-icons React component. */
 export interface IconBaseProps extends Omit<SVGAttributes<SVGSVGElement>, "color"> {
   /** Width and height. Defaults to the context size or "1em". */
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
-  /** Secondary color for multi-tone icons, exposed as `--mal-icon-secondary`. */
+  /** Secondary color for multi-tone icons, exposed as `--mal-icons-secondary`. */
   secondaryColor?: string;
   /** Stroke weight preset for stroke-based sets (overrides the baked width). */
   weight?: IconWeight;
@@ -66,7 +66,7 @@ export function IconBase({
     computedColor || secondaryColor || conf.style || style
       ? ({
           color: computedColor,
-          ...(secondaryColor ? { "--mal-icon-secondary": secondaryColor } : {}),
+          ...(secondaryColor ? { "--mal-icons-secondary": secondaryColor } : {}),
           ...conf.style,
           ...style,
         } as CSSProperties)

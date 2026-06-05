@@ -1,13 +1,13 @@
 {
-  "name": "@mal-icon/cli",
+  "name": "@mal-icons/cli",
   "version": "0.0.0",
   "type": "module",
   "main": "./src/index.ts",
   "bin": {
-    "mal-icon": "./src/index.ts"
+    "mal-icons": "./src/index.ts"
   },
   "dependencies": {
-    "@mal-icon/core": "workspace:*"
+    "@mal-icons/core": "workspace:*"
   },
   "scripts": {
     "build": "bun build ./src/index.ts --outdir ./dist --target node"

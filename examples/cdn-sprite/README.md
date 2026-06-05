@@ -1,4 +1,4 @@
-# mal-icon · SVG sprite example (framework-free)
+# mal-icons · SVG sprite example (framework-free)
 
 A zero-dependency, no-bundler demo that renders icons from a single generated
 **SVG sprite** using `<use href="#fi-…">`. This is the "and other" delivery

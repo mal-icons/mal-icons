@@ -7,7 +7,7 @@ import {
   Renderer2,
   inject,
 } from "@angular/core";
-import { type NodeTuple, resolveIconAttrs } from "@mal-icon/core";
+import { type NodeTuple, resolveIconAttrs } from "@mal-icons/core";
 import { type AngularIconContextValue, ICON_CONTEXT } from "./context.ts";
 
 const SVG_NS = "http://www.w3.org/2000/svg";
@@ -18,7 +18,7 @@ const SVG_NS = "http://www.w3.org/2000/svg";
  * `Renderer2` — no `innerHTML`, no runtime string parsing.
  */
 @Component({
-  selector: "mal-icon",
+  selector: "mal-icons",
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: "",

@@ -1,4 +1,4 @@
-import { resolveIconAttrs } from "@mal-icon/core";
+import { resolveIconAttrs } from "@mal-icons/core";
 import { useContext } from "react";
 import type { CSSProperties } from "react";
 import { IconContext } from "./context.ts";

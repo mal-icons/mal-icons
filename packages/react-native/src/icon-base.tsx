@@ -7,7 +7,7 @@ import { IconContext } from "./context.ts";
 /** Default rendered size (px) when neither a prop nor context provides one. */
 const DEFAULT_SIZE = 24;
 
-/** Props accepted by every generated mal-icon React Native component. */
+/** Props accepted by every generated mal-icons React Native component. */
 export interface IconBaseProps extends Omit<SvgProps, "color" | "width" | "height" | "viewBox"> {
   /** Width and height. Defaults to the context size or 24. */
   size?: string | number;

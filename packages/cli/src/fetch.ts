@@ -54,7 +54,7 @@ async function downloadAndExtract(source: IconSource, cacheDir: string): Promise
   }
   const buf = Buffer.from(await res.arrayBuffer());
 
-  const work = await mkdtemp(join(tmpdir(), `mal-icon-${source.id}-`));
+  const work = await mkdtemp(join(tmpdir(), `mal-icons-${source.id}-`));
   try {
     const tarPath = join(work, "src.tar.gz");
     await writeFile(tarPath, buf);

@@ -1,4 +1,4 @@
-import type { IconBaseProps } from "@mal-icon/preact";
+import type { IconBaseProps } from "@mal-icons/preact";
 import {
   FiActivity,
   FiArrowRight,
@@ -26,9 +26,9 @@ import {
   FiUpload,
   FiUser,
   FiZap,
-} from "@mal-icon/preact/fi";
+} from "@mal-icons/preact/fi";
 
-/** A generated mal-icon Preact component. */
+/** A generated mal-icons Preact component. */
 export type IconComponent = (props: IconBaseProps) => preact.JSX.Element;
 
 /** Curated showcase set: `[exported name, component]`. */

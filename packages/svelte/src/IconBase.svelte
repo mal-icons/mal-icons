@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { NodeTuple } from "@mal-icon/core";
-  import { resolveIconAttrs } from "@mal-icon/core";
+  import type { NodeTuple } from "@mal-icons/core";
+  import { resolveIconAttrs } from "@mal-icons/core";
   import { getIconContext } from "./context.ts";
 
   interface Props {

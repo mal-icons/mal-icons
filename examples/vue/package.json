@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon-example/vue",
+  "name": "@mal-icons-example/vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mal-icon/vue": "workspace:*",
+    "@mal-icons/vue": "workspace:*",
     "vue": "^3.5.35"
   },
   "devDependencies": {

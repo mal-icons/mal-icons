@@ -1,4 +1,4 @@
-import { createServerIcon } from "@mal-icon/react/server";
+import { createServerIcon } from "@mal-icons/react/server";
 import { Gallery } from "./Gallery";
 
 // React Server Components can't use hooks/context, so render icons with the
@@ -41,7 +41,7 @@ export default function Page() {
       <header className="hero">
         <div className="hero__badge">Next.js · App Router · RSC</div>
         <h1 className="hero__title">
-          mal-icon <span>for Next.js</span>
+          mal-icons <span>for Next.js</span>
         </h1>
         <p className="hero__subtitle">
           The hero below is rendered entirely on the server with <code>createServerIcon</code> —
@@ -57,8 +57,8 @@ export default function Page() {
       <Gallery />
 
       <footer className="footer">
-        Server icons via <code>@mal-icon/react/server</code> · client icons via{" "}
-        <code>@mal-icon/react/fi</code>.
+        Server icons via <code>@mal-icons/react/server</code> · client icons via{" "}
+        <code>@mal-icons/react/fi</code>.
       </footer>
     </div>
   );

@@ -35,26 +35,26 @@ describe("svgToIcon", () => {
 describe("svgToComponentSource", () => {
   test("react module imports the public package", () => {
     const src = svgToComponentSource("Dot", fillSvg, "react");
-    expect(src).toContain('from "@mal-icon/react"');
+    expect(src).toContain('from "@mal-icons/react"');
     expect(src).toContain("export const Dot = createIcon(");
   });
 
   test("react-native module imports the public package with camel-cased attrs", () => {
     const src = svgToComponentSource("Arrow", strokeSvg, "react-native");
-    expect(src).toContain('from "@mal-icon/react-native"');
+    expect(src).toContain('from "@mal-icons/react-native"');
     expect(src).toContain("export const Arrow = createIcon(");
     expect(src).toContain('"strokeWidth":2');
   });
 
   test("svelte module wraps IconBase.svelte", () => {
     const src = svgToComponentSource("Dot", fillSvg, "svelte");
-    expect(src).toContain("@mal-icon/svelte/IconBase.svelte");
+    expect(src).toContain("@mal-icons/svelte/IconBase.svelte");
     expect(src).toContain("<IconBase");
   });
 
   test("vue module uses kebab-cased attrs", () => {
     const src = svgToComponentSource("Arrow", strokeSvg, "vue");
-    expect(src).toContain('from "@mal-icon/vue"');
+    expect(src).toContain('from "@mal-icons/vue"');
     expect(src).toContain('"stroke-width":2');
   });
 });

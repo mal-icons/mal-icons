@@ -4,7 +4,7 @@ import {
   type WEIGHT_STROKE_WIDTH,
   defineMalIcon,
   registerIcons,
-} from "@mal-icon/web";
+} from "@mal-icons/web";
 import { ICONS, ICON_NAMES } from "./icons.ts";
 import "./styles.css";
 
@@ -13,7 +13,7 @@ type IconWeight = keyof typeof WEIGHT_STROKE_WIDTH;
 const WEIGHTS: IconWeight[] = ["thin", "light", "regular", "bold"];
 const ANIMATIONS: Array<IconAnimation | "none"> = ["none", "spin", "pulse", "beat", "bounce"];
 
-// Register the curated set (plus the chrome icons) so `<mal-icon name="…">`
+// Register the curated set (plus the chrome icons) so `<mal-icons name="…">`
 // resolves synchronously from the in-memory registry, then define the element.
 registerIcons(ICONS);
 defineMalIcon();
@@ -46,20 +46,20 @@ app.innerHTML = `
   <div class="page">
     <header class="hero">
       <div class="hero__badge">Web Components · Vite</div>
-      <h1 class="hero__title">mal-icon <span>for the platform</span></h1>
+      <h1 class="hero__title">mal-icons <span>for the platform</span></h1>
       <p class="hero__subtitle">
-        Framework-free icons rendered as a native <code>&lt;mal-icon&gt;</code> custom
+        Framework-free icons rendered as a native <code>&lt;mal-icons&gt;</code> custom
         element — no virtual DOM, no <code>innerHTML</code>, every shape built with
         <code>createElementNS</code>.
       </p>
-      <a class="hero__link" href="https://github.com/MAnasLatif/mal-icon" target="_blank" rel="noreferrer">
-        <mal-icon name="FiGithub" size="18"></mal-icon> View on GitHub
+      <a class="hero__link" href="https://github.com/MAnasLatif/mal-icons" target="_blank" rel="noreferrer">
+        <mal-icons name="FiGithub" size="18"></mal-icons> View on GitHub
       </a>
     </header>
 
     <section class="panel" aria-label="Icon controls">
       <label class="field field--search">
-        <mal-icon name="FiSearch" size="18" class="field__icon"></mal-icon>
+        <mal-icons name="FiSearch" size="18" class="field__icon"></mal-icons>
         <input id="q" type="search" placeholder="Search icons…" />
       </label>
       <label class="field">
@@ -85,11 +85,11 @@ app.innerHTML = `
         (name) => `
         <button type="button" class="card" data-name="${esc(name)}" title="Copy import for ${esc(name)}">
           <span class="card__icon">
-            <mal-icon data-gallery name="${esc(name)}" title="${esc(name)}"></mal-icon>
+            <mal-icons data-gallery name="${esc(name)}" title="${esc(name)}"></mal-icons>
           </span>
           <span class="card__name">${esc(name)}</span>
           <span class="card__copy">
-            <mal-icon class="card__copy-icon" name="FiCopy" size="14"></mal-icon>
+            <mal-icons class="card__copy-icon" name="FiCopy" size="14"></mal-icons>
             <span class="card__copy-label">Copy</span>
           </span>
         </button>`,
@@ -110,12 +110,12 @@ const $ = <T extends Element>(sel: string): T => {
   return el;
 };
 
-const galleryIcons = Array.from(app.querySelectorAll<HTMLElement>("mal-icon[data-gallery]"));
+const galleryIcons = Array.from(app.querySelectorAll<HTMLElement>("mal-icons[data-gallery]"));
 const cards = Array.from(app.querySelectorAll<HTMLButtonElement>(".card"));
 const empty = $<HTMLParagraphElement>(".empty");
 const count = $<HTMLSpanElement>("#count");
 
-/** Push the current theming controls onto every gallery `<mal-icon>`. */
+/** Push the current theming controls onto every gallery `<mal-icons>`. */
 function applyTheme(): void {
   for (const icon of galleryIcons) {
     icon.setAttribute("size", String(state.size));
@@ -169,7 +169,7 @@ $<HTMLInputElement>("#q").addEventListener("input", (e) => {
 for (const card of cards) {
   card.addEventListener("click", async () => {
     const name = card.dataset.name ?? "";
-    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icon/web/fi";`);
+    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icons/web/fi";`);
     const icon = card.querySelector<HTMLElement>(".card__copy-icon");
     const label = card.querySelector<HTMLSpanElement>(".card__copy-label");
     icon?.setAttribute("name", "FiCheck");

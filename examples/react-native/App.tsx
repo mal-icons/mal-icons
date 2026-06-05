@@ -1,4 +1,4 @@
-import { IconContext } from "@mal-icon/react-native";
+import { IconContext } from "@mal-icons/react-native";
 import * as Clipboard from "expo-clipboard";
 import { StatusBar } from "expo-status-bar";
 import { useMemo, useState } from "react";
@@ -21,7 +21,7 @@ export default function App() {
   }, [query]);
 
   async function copyImport(name: string) {
-    await Clipboard.setStringAsync(`import { ${name} } from "@mal-icon/react-native/fi";`);
+    await Clipboard.setStringAsync(`import { ${name} } from "@mal-icons/react-native/fi";`);
     setCopied(name);
     setTimeout(() => setCopied((c) => (c === name ? null : c)), 1200);
   }
@@ -32,14 +32,14 @@ export default function App() {
       <ScrollView style={styles.screen} contentContainerStyle={styles.content}>
         <View style={styles.hero}>
           <Text style={styles.badge}>React Native · Expo</Text>
-          <Text style={styles.title}>mal-icon for React Native</Text>
+          <Text style={styles.title}>mal-icons for React Native</Text>
           <Text style={styles.subtitle}>
             Tree-shakeable icon components built on react-native-svg. Theming flows through a single
             IconContext — no DOM, no runtime string parsing.
           </Text>
           <Pressable
             style={styles.link}
-            onPress={() => Linking.openURL("https://github.com/MAnasLatif/mal-icon")}
+            onPress={() => Linking.openURL("https://github.com/MAnasLatif/mal-icons")}
           >
             <FiGithub size={18} />
             <Text style={styles.linkText}>View on GitHub</Text>

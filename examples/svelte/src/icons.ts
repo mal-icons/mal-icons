@@ -25,7 +25,7 @@ import {
   FiUpload,
   FiUser,
   FiZap,
-} from "@mal-icon/svelte/fi";
+} from "@mal-icons/svelte/fi";
 import type { Component } from "svelte";
 
 export interface IconEntry {

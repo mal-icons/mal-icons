@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon-example/astro",
+  "name": "@mal-icons-example/astro",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "@mal-icon/astro": "workspace:*",
-    "@mal-icon/core": "workspace:*",
+    "@mal-icons/astro": "workspace:*",
+    "@mal-icons/core": "workspace:*",
     "astro": "^4.16.18"
   }
 }

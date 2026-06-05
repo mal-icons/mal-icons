@@ -1,6 +1,6 @@
 import { NgComponentOutlet } from "@angular/common";
 import { Component, computed, signal } from "@angular/core";
-import { ICON_ANIMATIONS_CSS, type IconAnimation, animationClass } from "@mal-icon/angular";
+import { ICON_ANIMATIONS_CSS, type IconAnimation, animationClass } from "@mal-icons/angular";
 import { FiCheck, FiCopy, FiGithub, FiSearch, ICONS } from "./icons";
 
 const ANIMATIONS: Array<IconAnimation | "none"> = ["none", "spin", "pulse", "beat", "bounce"];
@@ -13,14 +13,14 @@ const ANIMATIONS: Array<IconAnimation | "none"> = ["none", "spin", "pulse", "bea
     <div class="page">
       <header class="hero">
         <div class="hero__badge">Angular 22 · Vite</div>
-        <h1 class="hero__title">mal-icon <span>for Angular</span></h1>
+        <h1 class="hero__title">mal-icons <span>for Angular</span></h1>
         <p class="hero__subtitle">
           Tree-shakeable, ahead-of-time generated standalone components. Each icon builds a
           native &lt;svg&gt; with Renderer2 — no innerHTML, no runtime string parsing.
         </p>
         <a
           class="hero__link"
-          href="https://github.com/MAnasLatif/mal-icon"
+          href="https://github.com/MAnasLatif/mal-icons"
           target="_blank"
           rel="noreferrer"
         >
@@ -140,7 +140,7 @@ export class AppComponent {
   }
 
   async copyImport(name: string): Promise<void> {
-    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icon/angular/fi";`);
+    await navigator.clipboard?.writeText(`import { ${name} } from "@mal-icons/angular/fi";`);
     this.copied.set(name);
     window.setTimeout(() => {
       if (this.copied() === name) this.copied.set(null);

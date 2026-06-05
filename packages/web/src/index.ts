@@ -4,7 +4,7 @@ import {
   WEIGHT_STROKE_WIDTH,
   animationClass,
   resolveIconAttrs,
-} from "@mal-icon/core";
+} from "@mal-icons/core";
 
 export type { IconData };
 
@@ -16,7 +16,7 @@ export interface RenderIconProps {
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
-  /** Secondary color for multi-tone icons, exposed as `--mal-icon-secondary`. */
+  /** Secondary color for multi-tone icons, exposed as `--mal-icons-secondary`. */
   secondaryColor?: string;
   /** CSS-driven animation preset; requires {@link ICON_ANIMATIONS_CSS} on the page. */
   animate?: IconAnimation;
@@ -58,7 +58,7 @@ export function renderIcon(data: IconData, props: RenderIconProps = {}): SVGSVGE
   if (fullClassName) svg.setAttribute("class", fullClassName);
 
   if (color) svg.style.color = color;
-  if (props.secondaryColor) svg.style.setProperty("--mal-icon-secondary", props.secondaryColor);
+  if (props.secondaryColor) svg.style.setProperty("--mal-icons-secondary", props.secondaryColor);
 
   if (props.title) {
     svg.setAttribute("role", "img");
@@ -101,17 +101,17 @@ export function cdnLoader(baseUrl: string, fetchImpl: typeof fetch = fetch): Ico
   const base = baseUrl.replace(/\/+$/, "");
   return async (name) => {
     const res = await fetchImpl(`${base}/${name}.json`);
-    if (!res.ok) throw new Error(`mal-icon: failed to load "${name}" (${res.status})`);
+    if (!res.ok) throw new Error(`mal-icons: failed to load "${name}" (${res.status})`);
     const data: unknown = await res.json();
-    if (!isIconData(data)) throw new Error(`mal-icon: malformed icon payload for "${name}"`);
+    if (!isIconData(data)) throw new Error(`mal-icons: malformed icon payload for "${name}"`);
     return data;
   };
 }
 
-/** In-memory registry backing the `<mal-icon>` element's `name` attribute. */
+/** In-memory registry backing the `<mal-icons>` element's `name` attribute. */
 const registry = new Map<string, IconData>();
 
-/** Register icon data so `<mal-icon name="…">` can render synchronously. */
+/** Register icon data so `<mal-icons name="…">` can render synchronously. */
 export function registerIcons(icons: Record<string, IconData>): void {
   for (const [name, data] of Object.entries(icons)) registry.set(name, data);
 }
@@ -143,17 +143,17 @@ function readProps(el: Element): RenderIconProps {
 }
 
 /**
- * Register a `<mal-icon>` custom element. Usage from plain HTML:
+ * Register a `<mal-icons>` custom element. Usage from plain HTML:
  *
  * ```html
- * <mal-icon name="FiActivity" size="24" title="Status"></mal-icon>
- * <mal-icon src="https://cdn.example.com/fi/FiActivity.json"></mal-icon>
+ * <mal-icons name="FiActivity" size="24" title="Status"></mal-icons>
+ * <mal-icons src="https://cdn.example.com/fi/FiActivity.json"></mal-icons>
  * ```
  *
  * Icons resolve from the in-memory {@link registerIcons} registry, or from a
  * JSON `src` URL via {@link cdnLoader}.
  */
-export function defineMalIcon(tagName = "mal-icon", loader?: IconLoader): void {
+export function defineMalIcon(tagName = "mal-icons", loader?: IconLoader): void {
   if (typeof customElements === "undefined" || customElements.get(tagName)) return;
 
   class MalIconElement extends HTMLElement {
@@ -185,9 +185,9 @@ export function defineMalIcon(tagName = "mal-icon", loader?: IconLoader): void {
       let pending: Promise<IconData> | undefined;
       if (src) {
         pending = fetch(src).then(async (res) => {
-          if (!res.ok) throw new Error(`mal-icon: failed to load "${src}" (${res.status})`);
+          if (!res.ok) throw new Error(`mal-icons: failed to load "${src}" (${res.status})`);
           const data: unknown = await res.json();
-          if (!isIconData(data)) throw new Error(`mal-icon: malformed icon payload at "${src}"`);
+          if (!isIconData(data)) throw new Error(`mal-icons: malformed icon payload at "${src}"`);
           return data;
         });
       } else if (name && loader) {
@@ -211,4 +211,4 @@ export {
   WEIGHT_STROKE_WIDTH,
   animationClass,
   type IconAnimation,
-} from "@mal-icon/core";
+} from "@mal-icons/core";

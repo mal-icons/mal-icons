@@ -1,4 +1,4 @@
-import type { NodeTuple } from "@mal-icon/core";
+import type { NodeTuple } from "@mal-icons/core";
 import { mergeProps } from "solid-js";
 import type { JSX } from "solid-js";
 import h from "solid-js/h";

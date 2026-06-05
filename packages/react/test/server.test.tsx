@@ -27,6 +27,6 @@ describe("createServerIcon", () => {
   test("supports weight and animate without a provider", () => {
     const html = renderToStaticMarkup(<FiActivity weight="bold" animate="spin" />);
     expect(html).toContain('stroke-width="3"');
-    expect(html).toContain("mal-icon-animate-spin");
+    expect(html).toContain("mal-icons-animate-spin");
   });
 });

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { setIconContext } from "@mal-icon/svelte";
+  import { setIconContext } from "@mal-icons/svelte";
   import { ICONS, FiSearch } from "./icons";
 
   let query = $state("");
@@ -24,7 +24,7 @@
 <div class="page">
   <header class="hero">
     <div class="hero__badge">Svelte 5 · Vite</div>
-    <h1 class="hero__title">mal-icon <span>for Svelte</span></h1>
+    <h1 class="hero__title">mal-icons <span>for Svelte</span></h1>
     <p class="hero__subtitle">
       Each icon is a precompiled <code>.svelte</code> component. Theme them
       through <code>setIconContext</code> and Svelte 5 runes.

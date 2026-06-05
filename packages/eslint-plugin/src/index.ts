@@ -8,17 +8,17 @@ const rules: Record<string, Rule.RuleModule> = {
 };
 
 const plugin = {
-  meta: { name: "@mal-icon/eslint-plugin", version: "0.1.0" },
+  meta: { name: "@mal-icons/eslint-plugin", version: "0.1.0" },
   rules,
   configs: {} as Record<string, unknown>,
 };
 
 /** Recommended flat config enabling both rules as errors. */
 plugin.configs.recommended = {
-  plugins: { "@mal-icon": plugin as unknown as ESLint.Plugin },
+  plugins: { "@mal-icons": plugin as unknown as ESLint.Plugin },
   rules: {
-    "@mal-icon/prefer-named-import": "error",
-    "@mal-icon/no-unused-icons": "error",
+    "@mal-icons/prefer-named-import": "error",
+    "@mal-icons/no-unused-icons": "error",
   },
 };
 

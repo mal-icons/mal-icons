@@ -1,5 +1,5 @@
 {
-  "name": "@mal-icon/react-native",
+  "name": "@mal-icons/react-native",
   "version": "0.1.0",
   "type": "module",
   "license": "MIT",
@@ -33,7 +33,7 @@
     "react-native-svg": ">=13"
   },
   "dependencies": {
-    "@mal-icon/core": "workspace:*"
+    "@mal-icons/core": "workspace:*"
   },
   "publishConfig": {
     "access": "public"

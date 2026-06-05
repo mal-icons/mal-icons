@@ -1,9 +1,9 @@
-import { resolveIconAttrs } from "@mal-icon/core";
+import { resolveIconAttrs } from "@mal-icons/core";
 import { defineComponent, h, inject } from "vue";
 import type { CSSProperties, PropType, VNode } from "vue";
 import { DefaultIconContext, IconContextKey } from "./context.ts";
 
-/** Props accepted by every generated mal-icon Vue component. */
+/** Props accepted by every generated mal-icons Vue component. */
 export interface IconBaseProps {
   /** Width and height. Defaults to the context size or "1em". */
   size?: string | number;

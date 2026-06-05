@@ -1,4 +1,4 @@
-# mal-icon
+# mal-icons
 
 A high-performance, multi-framework icon SDK. Author your UI with a single,
 consistent API across **React**, **Vue**, and **Svelte**, and ship only the
@@ -33,24 +33,24 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 
 | Package                   | Description                                        |
 | ------------------------- | -------------------------------------------------- |
-| `@mal-icon/core`          | Framework-agnostic types and theming logic         |
-| `@mal-icon/react`         | React adapter and generated icons                  |
-| `@mal-icon/react-native`  | React Native adapter and generated icons           |
-| `@mal-icon/vue`           | Vue 3 adapter and generated icons                  |
-| `@mal-icon/svelte`        | Svelte 5 adapter and generated icons               |
-| `@mal-icon/preact`        | Preact adapter and generated icons                 |
-| `@mal-icon/solid`         | Solid adapter and generated icons                  |
-| `@mal-icon/angular`       | Angular standalone adapter and generated icons     |
-| `@mal-icon/astro`         | Astro adapter and generated `.astro` components    |
-| `@mal-icon/web`           | Zero-build web/CDN renderer, data and `<mal-icon>` |
-| `@mal-icon/eslint-plugin` | Lint rules for correct, minimal icon usage         |
+| `@mal-icons/core`          | Framework-agnostic types and theming logic         |
+| `@mal-icons/react`         | React adapter and generated icons                  |
+| `@mal-icons/react-native`  | React Native adapter and generated icons           |
+| `@mal-icons/vue`           | Vue 3 adapter and generated icons                  |
+| `@mal-icons/svelte`        | Svelte 5 adapter and generated icons               |
+| `@mal-icons/preact`        | Preact adapter and generated icons                 |
+| `@mal-icons/solid`         | Solid adapter and generated icons                  |
+| `@mal-icons/angular`       | Angular standalone adapter and generated icons     |
+| `@mal-icons/astro`         | Astro adapter and generated `.astro` components    |
+| `@mal-icons/web`           | Zero-build web/CDN renderer, data and `<mal-icons>` |
+| `@mal-icons/eslint-plugin` | Lint rules for correct, minimal icon usage         |
 
 ## Quick start
 
 ### React
 
 ```tsx
-import { FiActivity } from "@mal-icon/react/fi";
+import { FiActivity } from "@mal-icons/react/fi";
 
 export function Status() {
   return <FiActivity size={24} color="currentColor" title="Status" />;
@@ -60,7 +60,7 @@ export function Status() {
 Provide app-wide defaults with the context provider:
 
 ```tsx
-import { IconContext } from "@mal-icon/react";
+import { IconContext } from "@mal-icons/react";
 
 <IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
   <App />
@@ -73,7 +73,7 @@ Backed by [`react-native-svg`](https://github.com/software-mansion/react-native-
 so the same icons render natively on iOS and Android:
 
 ```tsx
-import { FiActivity } from "@mal-icon/react-native/fi";
+import { FiActivity } from "@mal-icons/react-native/fi";
 
 export function Status() {
   return <FiActivity size={24} color="#3366ff" title="Status" />;
@@ -84,7 +84,7 @@ Theming flows through the same context API (sizes are plain numbers, since
 there is no DOM/CSS):
 
 ```tsx
-import { IconContext } from "@mal-icon/react-native";
+import { IconContext } from "@mal-icons/react-native";
 
 <IconContext.Provider value={{ size: 20, color: "#3366ff" }}>
   <App />
@@ -95,7 +95,7 @@ import { IconContext } from "@mal-icon/react-native";
 
 ```vue
 <script setup lang="ts">
-import { FiActivity } from "@mal-icon/vue/fi";
+import { FiActivity } from "@mal-icons/vue/fi";
 </script>
 
 <template>
@@ -107,7 +107,7 @@ import { FiActivity } from "@mal-icon/vue/fi";
 
 ```svelte
 <script lang="ts">
-  import { FiActivity } from "@mal-icon/svelte/fi";
+  import { FiActivity } from "@mal-icons/svelte/fi";
 </script>
 
 <FiActivity size={24} title="Status" />
@@ -116,7 +116,7 @@ import { FiActivity } from "@mal-icon/vue/fi";
 ### Preact
 
 ```tsx
-import { FiActivity } from "@mal-icon/preact/fi";
+import { FiActivity } from "@mal-icons/preact/fi";
 
 <FiActivity size={24} title="Status" />;
 ```
@@ -124,7 +124,7 @@ import { FiActivity } from "@mal-icon/preact/fi";
 ### Solid
 
 ```tsx
-import { FiActivity } from "@mal-icon/solid/fi";
+import { FiActivity } from "@mal-icons/solid/fi";
 
 <FiActivity size={24} title="Status" />;
 ```
@@ -132,7 +132,7 @@ import { FiActivity } from "@mal-icon/solid/fi";
 ### Angular
 
 ```ts
-import { FiActivity } from "@mal-icon/angular/fi";
+import { FiActivity } from "@mal-icons/angular/fi";
 
 @Component({
   standalone: true,
@@ -146,7 +146,7 @@ export class StatusIcon {}
 
 ```astro
 ---
-import FiActivity from "@mal-icon/astro/fi/FiActivity.astro";
+import FiActivity from "@mal-icons/astro/fi/FiActivity.astro";
 ---
 
 <FiActivity size={24} title="Status" />
@@ -159,25 +159,25 @@ import FiActivity from "@mal-icon/astro/fi/FiActivity.astro";
 
 ```html
 <script type="module">
-  import { defineMalIcon, registerIcons } from "https://esm.sh/@mal-icon/web";
-  import { fi } from "https://esm.sh/@mal-icon/web/fi";
+  import { defineMalIcon, registerIcons } from "https://esm.sh/@mal-icons/web";
+  import { fi } from "https://esm.sh/@mal-icons/web/fi";
 
   registerIcons(fi);
   defineMalIcon();
 </script>
 
-<mal-icon name="FiActivity" size="24" title="Status"></mal-icon>
+<mal-icons name="FiActivity" size="24" title="Status"></mal-icons>
 ```
 
 Or render imperatively / lazily over a CDN:
 
 ```js
-import { renderIcon, cdnLoader } from "@mal-icon/web";
-import FiActivity from "@mal-icon/web/fi/FiActivity.json" with { type: "json" };
+import { renderIcon, cdnLoader } from "@mal-icons/web";
+import FiActivity from "@mal-icons/web/fi/FiActivity.json" with { type: "json" };
 
 document.body.appendChild(renderIcon(FiActivity, { size: 24, title: "Status" }));
 
-const load = cdnLoader("https://cdn.example.com/mal-icon/fi");
+const load = cdnLoader("https://cdn.example.com/mal-icons/fi");
 const data = await load("FiActivity");
 ```
 
@@ -191,7 +191,7 @@ Every icon accepts a consistent prop surface:
 | `color`          | Overrides `currentColor`                                |
 | `weight`         | Stroke weight: `thin` \| `light` \| `regular` \| `bold` |
 | `animate`        | CSS animation: `spin` \| `pulse` \| `beat` \| `bounce`  |
-| `secondaryColor` | Multi-tone color, exposed as `--mal-icon-secondary`     |
+| `secondaryColor` | Multi-tone color, exposed as `--mal-icons-secondary`     |
 | `title`          | Accessible label (renders `<title>` and `role="img"`)   |
 | `className`      | Additional class names                                  |
 | `style`          | Inline styles                                           |
@@ -200,7 +200,7 @@ Animations are pure CSS. Inject the keyframes once and they apply only to the
 icons that opt in, with a built-in `prefers-reduced-motion` guard:
 
 ```tsx
-import { ICON_ANIMATIONS_CSS } from "@mal-icon/react";
+import { ICON_ANIMATIONS_CSS } from "@mal-icons/react";
 
 <style>{ICON_ANIMATIONS_CSS}</style>;
 <FiLoader animate="spin" />;
@@ -210,11 +210,11 @@ import { ICON_ANIMATIONS_CSS } from "@mal-icon/react";
 
 ```tsx
 // SVG sprite
-import { SpriteIcon } from "@mal-icon/react";
+import { SpriteIcon } from "@mal-icons/react";
 <SpriteIcon id="fi-activity" href="/sprite/fi.svg" />;
 
 // Dynamic by name, with caching and preloading
-import { Icon, cdnLoader, setDefaultIconLoader } from "@mal-icon/react";
+import { Icon, cdnLoader, setDefaultIconLoader } from "@mal-icons/react";
 setDefaultIconLoader(cdnLoader("https://cdn.example.com/icons"));
 <Icon name="FiActivity" />;
 ```
@@ -225,27 +225,27 @@ Use the hook-free server entry to render icons directly inside Server
 Components:
 
 ```tsx
-import { createServerIcon } from "@mal-icon/react/server";
+import { createServerIcon } from "@mal-icons/react/server";
 ```
 
 ## CLI
 
 ```bash
 # Generate framework modules from the configured icon sets
-mal-icon generate --set fi
+mal-icons generate --set fi
 
 # Vendor specific icons into your project
-mal-icon add FiActivity FiBell --framework react --out src/icons
+mal-icons add FiActivity FiBell --framework react --out src/icons
 
 # Search the icon catalog (add --semantic for natural-language queries)
-mal-icon search arrow
-mal-icon search "trash" --semantic
+mal-icons search arrow
+mal-icons search "trash" --semantic
 
 # Turn your own SVG into a component
-mal-icon import logo.svg --name BrandLogo --framework react-native
+mal-icons import logo.svg --name BrandLogo --framework react-native
 
 # Produce a license report for the bundled sets
-mal-icon licenses --out LICENSES.md
+mal-icons licenses --out LICENSES.md
 ```
 
 ## Repository layout

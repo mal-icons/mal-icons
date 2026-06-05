@@ -1,4 +1,4 @@
-// Angular JIT: the example consumes `@mal-icon/angular` straight from TypeScript
+// Angular JIT: the example consumes `@mal-icons/angular` straight from TypeScript
 // source, so templates are compiled in the browser via `@angular/compiler`.
 import "@angular/compiler";
 import { provideZonelessChangeDetection } from "@angular/core";

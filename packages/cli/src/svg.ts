@@ -1,4 +1,4 @@
-import type { IconNode } from "@mal-icon/core";
+import type { IconNode } from "@mal-icons/core";
 
 /** Result of parsing a raw SVG string. */
 export interface ParsedSvg {

@@ -1,16 +1,16 @@
-import type { IconContextValue } from "@mal-icon/core";
+import type { IconContextValue } from "@mal-icons/core";
 import { getContext, setContext } from "svelte";
 
-/** Theming context value for all mal-icon Svelte components. */
+/** Theming context value for all mal-icons Svelte components. */
 export type SvelteIconContextValue = IconContextValue<string>;
 
-const ICON_CONTEXT_KEY = Symbol("mal-icon-context");
+const ICON_CONTEXT_KEY = Symbol("mal-icons-context");
 
 /** Default (empty) theming configuration. */
 export const DefaultIconContext: SvelteIconContextValue = {};
 
 /**
- * Provide icon theming to all descendant mal-icon components. Call during
+ * Provide icon theming to all descendant mal-icons components. Call during
  * a parent component's initialisation.
  */
 export function setIconContext(value: SvelteIconContextValue = DefaultIconContext): void {

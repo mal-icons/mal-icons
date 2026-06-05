@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { NodeTuple } from "@mal-icon/core";
+  import type { NodeTuple } from "@mal-icons/core";
   import IconBase from "../../IconBase.svelte";
 
   const nodes: NodeTuple[] = [["rect",{"x":"6","y":"4","width":"4","height":"16"}],["rect",{"x":"14","y":"4","width":"4","height":"16"}]];

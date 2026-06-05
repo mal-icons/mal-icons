@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
-import type { NodeTuple } from "@mal-icon/core";
+import type { NodeTuple } from "@mal-icons/core";
 import { IconBaseComponent } from "../../icon-base.ts";
 
 @Component({
@@ -7,7 +7,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   standalone: true,
   imports: [IconBaseComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  template: `<mal-icon [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icon>`,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
 export class FiArrowRightCircle {
   readonly viewBox = "0 0 24 24";
