@@ -1,0 +1,25 @@
+{
+  "name": "@mal-icon-example/angular",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@angular/common": "^22.0.0",
+    "@angular/compiler": "^22.0.0",
+    "@angular/core": "^22.0.0",
+    "@angular/platform-browser": "^22.0.0",
+    "@mal-icon/angular": "workspace:*",
+    "@mal-icon/core": "workspace:*",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^7.0.0"
+  }
+}
