@@ -1,0 +1,127 @@
+# @mal-icons/web
+
+[![npm](https://img.shields.io/npm/v/@mal-icons/web.svg)](https://www.npmjs.com/package/@mal-icons/web)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
+
+Zero-build web renderer for [**mal-icons**](https://github.com/mal-icons/mal-icons).
+Use icons in **plain HTML** via a `<mal-icons>` custom element, render them
+imperatively, or lazy-load them from a CDN — no framework, no bundler required.
+
+## Highlights
+
+- **No build step** — works straight from a `<script type="module">` and a CDN.
+- **Safe by construction** — every shape is built with `document.createElementNS`; **never** `innerHTML`, so CDN-loaded data is safe.
+- **`<mal-icons>` custom element** — declarative, re-renders on attribute changes.
+- **Serializable data** — icons ship as tiny tree-shakeable JSON payloads.
+- **Theming + animations** — `size`, `color`, `weight`, `animate`, `secondaryColor`, plus the shared CSS animation presets.
+
+## Installation
+
+```bash
+bun add @mal-icons/web
+# or
+npm install @mal-icons/web
+```
+
+Or use it directly from a CDN with no install (see below).
+
+## Quick start — custom element (no build)
+
+```html
+<script type="module">
+  import { defineMalIcon, registerIcons } from "https://esm.sh/@mal-icons/web";
+  import { fi } from "https://esm.sh/@mal-icons/web/fi";
+
+  registerIcons(fi);
+  defineMalIcon();
+</script>
+
+<mal-icons name="FiActivity" size="24" title="Status"></mal-icons>
+```
+
+The element observes its attributes — change `size`, `color`, `weight`, or
+`animate` and it re-renders automatically.
+
+## Imperative rendering
+
+```js
+import { renderIcon } from "@mal-icons/web";
+import FiActivity from "@mal-icons/web/fi/FiActivity.json" with { type: "json" };
+
+document.body.appendChild(
+  renderIcon(FiActivity, { size: 24, title: "Status" }),
+);
+```
+
+## Lazy / CDN loading
+
+```js
+import { cdnLoader, defineMalIcon } from "@mal-icons/web";
+
+const load = cdnLoader("https://cdn.example.com/mal-icons/fi");
+const data = await load("FiActivity");
+
+// Or wire the loader into the custom element for on-demand resolution:
+defineMalIcon("mal-icons", load);
+```
+
+```html
+<!-- resolves <baseUrl>/<name>.json via the loader, or a direct src URL -->
+<mal-icons name="FiActivity"></mal-icons>
+<mal-icons src="https://cdn.example.com/fi/FiActivity.json"></mal-icons>
+```
+
+## API
+
+| Export          | Description                                                     |
+| --------------- | --------------------------------------------------------------- |
+| `renderIcon`    | Build an `<svg>` element from `IconData` (no `innerHTML`)       |
+| `defineMalIcon` | Register the `<mal-icons>` custom element (optional CDN loader) |
+| `registerIcons` | Seed the in-memory registry for synchronous `name` resolution   |
+| `clearRegistry` | Clear the registry (mainly for tests)                           |
+| `cdnLoader`     | Build a validating loader for `<baseUrl>/<name>.json`           |
+| `isIconData`    | Type guard validating an unknown payload                        |
+| `IconLoader`    | `(name: string) => Promise<IconData>` type                      |
+
+### `<mal-icons>` attributes
+
+`name`, `src`, `size`, `color`, `weight`, `animate`, `title`, `class`.
+
+## Animations
+
+```js
+import { ICON_ANIMATIONS_CSS } from "@mal-icons/core";
+
+document.head.insertAdjacentHTML(
+  "beforeend",
+  `<style>${ICON_ANIMATIONS_CSS}</style>`,
+);
+```
+
+```html
+<mal-icons name="FiLoader" animate="spin"></mal-icons>
+```
+
+## Subpath exports
+
+| Import                              | Contents                                         |
+| ----------------------------------- | ------------------------------------------------ |
+| `@mal-icons/web`                    | Renderer, custom element, CDN loader             |
+| `@mal-icons/web/fi`                 | The Feather set as a `{ name: IconData }` object |
+| `@mal-icons/web/fi/FiActivity.json` | A single icon's JSON data                        |
+
+## Example
+
+A framework-free Vite demo using `<mal-icons>` and `registerIcons` lives in
+[`examples/web`](https://github.com/mal-icons/mal-icons/tree/main/examples/web).
+A no-build SVG sprite demo lives in
+[`examples/cdn-sprite`](https://github.com/mal-icons/mal-icons/tree/main/examples/cdn-sprite).
+
+## Repository
+
+<https://github.com/mal-icons/mal-icons> · package directory
+[`packages/web`](https://github.com/mal-icons/mal-icons/tree/main/packages/web).
+
+## License
+
+[MIT](https://github.com/mal-icons/mal-icons/blob/main/LICENSE) © MALDevs
