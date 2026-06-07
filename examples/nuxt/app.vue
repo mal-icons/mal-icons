@@ -1,12 +1,39 @@
 <script setup lang="ts">
+import { ICON_ANIMATIONS_CSS, type IconAnimation } from "@mal-icons/core";
 import { provideIconContext } from "@mal-icons/vue";
 import { FiActivity, FiGlobe, FiSearch, FiZap, ICONS } from "~/icons";
+
+const ANIMATIONS: Array<IconAnimation | "none"> = [
+  "none",
+  "spin",
+  "spin-reverse",
+  "pulse",
+  "beat",
+  "bounce",
+  "ping",
+  "shake",
+  "wiggle",
+  "float",
+  "heartbeat",
+  "flip",
+  "rotate",
+  "zoom",
+  "fade",
+  "slide",
+  "glow",
+  "swing",
+  "tada",
+];
 
 // Nuxt's `useState` keeps the controls SSR-safe: the values are serialized on
 // the server and hydrated on the client without a mismatch.
 const size = useState("icon-size", () => 32);
 const color = useState("icon-color", () => "#00dc82");
 const query = useState("icon-query", () => "");
+const animate = useState<IconAnimation | "none">("icon-animate", () => "none");
+
+// Animations are pure CSS; inject the keyframes once into <head>.
+useHead({ style: [{ children: ICON_ANIMATIONS_CSS }] });
 
 // A reactive context object — updating its fields re-themes every descendant
 // icon. Provided once here so the whole app (hero + gallery) shares it.
@@ -53,12 +80,25 @@ const filtered = computed(() => {
         <span>Color</span>
         <input v-model="color" type="color" />
       </label>
+
+      <label class="field">
+        <span>Animate</span>
+        <select v-model="animate">
+          <option v-for="name in ANIMATIONS" :key="name" :value="name">
+            {{ name }}
+          </option>
+        </select>
+      </label>
     </section>
 
     <main class="grid" aria-label="Icon gallery">
       <div v-for="icon in filtered" :key="icon.name" class="card">
         <span class="card__icon">
-          <component :is="icon.comp" :title="icon.name" />
+          <component
+            :is="icon.comp"
+            :title="icon.name"
+            :animate="animate === 'none' ? undefined : animate"
+          />
         </span>
         <span class="card__name">{{ icon.name }}</span>
       </div>
