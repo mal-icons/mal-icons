@@ -38,17 +38,17 @@ npm install @mal-icons/core
 
 ### Types
 
-| Export                 | Description                                                 |
-| ---------------------- | ----------------------------------------------------------- |
-| `IconNode`             | Recursive `{ tag, attr, child }` build-time icon shape      |
-| `NodeTuple`            | Compact `[tag, attr]` tuple used at render time             |
-| `IconData`             | Minimal `{ viewBox, nodes, defaultAttr? }` render payload   |
-| `IconDefinition`       | Fully-described, deduplicatable icon (used by the pipeline) |
-| `IconBaseProps<St>`    | Props every generated icon component accepts                |
-| `IconContextValue<St>` | Theming values supplied through a framework provider        |
-| `IconsManifest`        | Top-level manifest describing all available icon sets       |
-| `IconWeight`           | `"thin" \| "light" \| "regular" \| "bold"`                  |
-| `IconAnimation`        | `"spin" \| "spin-reverse" \| "pulse" \| "beat" \| "bounce"` |
+| Export                 | Description                                                                                                                                                                                                |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `IconNode`             | Recursive `{ tag, attr, child }` build-time icon shape                                                                                                                                                     |
+| `NodeTuple`            | Compact `[tag, attr]` tuple used at render time                                                                                                                                                            |
+| `IconData`             | Minimal `{ viewBox, nodes, defaultAttr? }` render payload                                                                                                                                                  |
+| `IconDefinition`       | Fully-described, deduplicatable icon (used by the pipeline)                                                                                                                                                |
+| `IconBaseProps<St>`    | Props every generated icon component accepts                                                                                                                                                               |
+| `IconContextValue<St>` | Theming values supplied through a framework provider                                                                                                                                                       |
+| `IconsManifest`        | Top-level manifest describing all available icon sets                                                                                                                                                      |
+| `IconWeight`           | `"thin" \| "light" \| "regular" \| "bold"`                                                                                                                                                                 |
+| `IconAnimation`        | `"spin" \| "spin-reverse" \| "pulse" \| "beat" \| "bounce" \| "ping" \| "shake" \| "wiggle" \| "float" \| "heartbeat" \| "flip" \| "rotate" \| "zoom" \| "fade" \| "slide" \| "glow" \| "swing" \| "tada"` |
 
 ### Utilities
 
