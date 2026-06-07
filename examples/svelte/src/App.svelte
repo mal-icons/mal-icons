@@ -1,8 +1,32 @@
 <script lang="ts">
+  import { ICON_ANIMATIONS_CSS, type IconAnimation } from "@mal-icons/core";
   import { setIconContext } from "@mal-icons/svelte";
   import { ICONS, FiSearch } from "./icons";
 
+  const ANIMATIONS: Array<IconAnimation | "none"> = [
+    "none",
+    "spin",
+    "spin-reverse",
+    "pulse",
+    "beat",
+    "bounce",
+    "ping",
+    "shake",
+    "wiggle",
+    "float",
+    "heartbeat",
+    "flip",
+    "rotate",
+    "zoom",
+    "fade",
+    "slide",
+    "glow",
+    "swing",
+    "tada",
+  ];
+
   let query = $state("");
+  let animate = $state<IconAnimation | "none">("none");
 
   // Theming context. The library resolves theme at component init, so we
   // re-key the grid below to re-apply changes to already-rendered icons.
@@ -20,6 +44,11 @@
       : ICONS,
   );
 </script>
+
+<!-- Animations are pure CSS; inject the keyframes once. -->
+<svelte:head>
+  {@html `<style>${ICON_ANIMATIONS_CSS}</style>`}
+</svelte:head>
 
 <div class="page">
   <header class="hero">
@@ -46,6 +75,15 @@
       <span>Color</span>
       <input type="color" bind:value={ctx.color} />
     </label>
+
+    <label class="field">
+      <span>Animate</span>
+      <select bind:value={animate}>
+        {#each ANIMATIONS as name (name)}
+          <option value={name}>{name}</option>
+        {/each}
+      </select>
+    </label>
   </section>
 
   <main class="grid" aria-label="Icon gallery">
@@ -53,7 +91,12 @@
       {#each filtered as icon (icon.name)}
         {@const Comp = icon.comp}
         <div class="card">
-          <span class="card__icon"><Comp title={icon.name} /></span>
+          <span class="card__icon">
+            <Comp
+              title={icon.name}
+              animate={animate === "none" ? undefined : animate}
+            />
+          </span>
           <span class="card__name">{icon.name}</span>
         </div>
       {/each}
