@@ -1,0 +1,139 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*" # match semver tags like v1.2.3
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  BUN_VERSION: "1.3.14"
+  PUBLISH_ORDER: >-
+    packages/core packages/react packages/vue packages/svelte packages/preact
+    packages/solid packages/react-native packages/web packages/angular
+    packages/astro packages/eslint-plugin
+
+jobs:
+  verify:
+    name: Test & publish dry-run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Derive version from tag
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+
+      - name: Lint
+        run: bun run lint
+      - name: Type-check
+        run: bun run typecheck
+      - name: Test
+        run: bun test
+      - name: Size budget
+        run: bun run size
+
+      - name: Stamp tag version into every package
+        run: bun run set-version "$VERSION"
+
+      - name: Refresh lockfile so workspace:* resolves to the new version
+        run: bun install
+
+      - name: Build all packages
+        run: bun run build
+
+      - name: Publish dry-run (no packages are published)
+        run: |
+          for dir in $PUBLISH_ORDER; do
+            echo "::group::dry-run $dir"
+            (cd "$dir" && bun publish --access public --dry-run)
+            echo "::endgroup::"
+          done
+
+  publish:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+    needs: [verify]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Derive version from tag
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+
+      - name: Stamp tag version into every package
+        run: bun run set-version "$VERSION"
+
+      - name: Refresh lockfile so workspace:* resolves to the new version
+        run: bun install
+
+      - name: Build all packages
+        run: bun run build
+
+      - name: Configure npm authentication
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NPM_TOKEN" ]; then
+            echo "::error::NPM_TOKEN secret is not set"
+            exit 1
+          fi
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
+
+      - name: Publish packages (core first)
+        run: |
+          for dir in $PUBLISH_ORDER; do
+            echo "::group::publish $dir"
+            (cd "$dir" && bun publish --access public)
+            echo "::endgroup::"
+          done
+
+      - name: Remove npm credentials
+        if: always()
+        run: rm -f "$HOME/.npmrc"
+
+  commit:
+    name: Commit version bump
+    runs-on: ubuntu-latest
+    needs: [publish]
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: ./.github/actions/setup
+        with:
+          bun-version: ${{ env.BUN_VERSION }}
+
+      - name: Derive version from tag
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+
+      - name: Stamp tag version into every package
+        run: bun run set-version "$VERSION"
+
+      - name: Refresh lockfile
+        run: bun install
+
+      - name: Commit and push the version bump
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packages/*/package.json bun.lock
+          if git diff --cached --quiet; then
+            echo "No version changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(release): v$VERSION [skip ci]"
+          git push origin HEAD:${{ github.event.repository.default_branch }}
