@@ -1,11 +1,35 @@
 <script setup lang="ts">
+import { ICON_ANIMATIONS_CSS, type IconAnimation } from "@mal-icons/core";
 import { provideIconContext } from "@mal-icons/vue";
 import { computed, reactive, ref } from "vue";
 import { FiSearch, ICONS } from "./icons";
 
+const ANIMATIONS: Array<IconAnimation | "none"> = [
+  "none",
+  "spin",
+  "spin-reverse",
+  "pulse",
+  "beat",
+  "bounce",
+  "ping",
+  "shake",
+  "wiggle",
+  "float",
+  "heartbeat",
+  "flip",
+  "rotate",
+  "zoom",
+  "fade",
+  "slide",
+  "glow",
+  "swing",
+  "tada",
+];
+
 const size = ref(32);
 const color = ref("#22c55e");
 const query = ref("");
+const animate = ref<IconAnimation | "none">("none");
 
 // A reactive context object — updating its fields re-themes every icon.
 const iconContext = reactive({ size, color });
@@ -19,6 +43,8 @@ const filtered = computed(() => {
 </script>
 
 <template>
+  <!-- Animations are pure CSS; inject the keyframes once. -->
+  <component :is="'style'">{{ ICON_ANIMATIONS_CSS }}</component>
   <div class="page">
     <header class="hero">
       <div class="hero__badge">Vue 3.5 · Vite</div>
@@ -45,12 +71,25 @@ const filtered = computed(() => {
         <span>Color</span>
         <input v-model="color" type="color" />
       </label>
+
+      <label class="field">
+        <span>Animate</span>
+        <select v-model="animate">
+          <option v-for="name in ANIMATIONS" :key="name" :value="name">
+            {{ name }}
+          </option>
+        </select>
+      </label>
     </section>
 
     <main class="grid" aria-label="Icon gallery">
       <div v-for="icon in filtered" :key="icon.name" class="card">
         <span class="card__icon">
-          <component :is="icon.comp" :title="icon.name" />
+          <component
+            :is="icon.comp"
+            :title="icon.name"
+            :animate="animate === 'none' ? undefined : animate"
+          />
         </span>
         <span class="card__name">{{ icon.name }}</span>
       </div>
