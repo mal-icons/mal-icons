@@ -16,7 +16,7 @@
   },
   "keywords": ["icons", "svg", "typescript", "theming", "mal-icons"],
   "sideEffects": false,
-  "files": ["dist"],
+  "files": ["dist", "!dist/.tsbuildinfo"],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -24,7 +24,7 @@
     },
     "./package.json": "./package.json"
   },
-  "files": ["dist"],
+  "files": ["dist", "!dist/.tsbuildinfo"],
   "peerDependencies": {
     "eslint": ">=8"
   },
