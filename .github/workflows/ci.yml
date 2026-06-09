@@ -87,6 +87,10 @@ jobs:
         uses: actions/dependency-review-action@v4
         with:
           fail-on-severity: high
+          # GitHub Actions have no resolvable license metadata, so they are
+          # reported with an "unknown license". Skip license checks for them.
+          allow-dependencies-licenses: >-
+            pkg:githubactions/actions/checkout
 
   node-compat:
     name: Node compatibility (Node ${{ matrix.node-version }})
