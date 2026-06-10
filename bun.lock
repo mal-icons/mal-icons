@@ -188,7 +188,7 @@
     },
     "packages/angular": {
       "name": "@mal-icons/angular",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -198,7 +198,7 @@
     },
     "packages/astro": {
       "name": "@mal-icons/astro",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -218,18 +218,18 @@
     },
     "packages/core": {
       "name": "@mal-icons/core",
-      "version": "0.1.2",
+      "version": "0.2.7",
     },
     "packages/eslint-plugin": {
       "name": "@mal-icons/eslint-plugin",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "peerDependencies": {
         "eslint": ">=8",
       },
     },
     "packages/preact": {
       "name": "@mal-icons/preact",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -239,7 +239,7 @@
     },
     "packages/react": {
       "name": "@mal-icons/react",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -249,7 +249,7 @@
     },
     "packages/react-native": {
       "name": "@mal-icons/react-native",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -261,7 +261,7 @@
     },
     "packages/solid": {
       "name": "@mal-icons/solid",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -271,7 +271,7 @@
     },
     "packages/svelte": {
       "name": "@mal-icons/svelte",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -281,7 +281,7 @@
     },
     "packages/vue": {
       "name": "@mal-icons/vue",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
@@ -291,7 +291,7 @@
     },
     "packages/web": {
       "name": "@mal-icons/web",
-      "version": "0.1.2",
+      "version": "0.2.7",
       "dependencies": {
         "@mal-icons/core": "workspace:*",
       },
