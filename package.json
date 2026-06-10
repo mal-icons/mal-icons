@@ -41,7 +41,8 @@
     "format": "biome format --write .",
     "generate": "bun run packages/cli/src/index.ts generate",
     "size": "bun run scripts/size-check.ts",
-    "bench": "bun run scripts/bench.ts"
+    "bench": "bun run scripts/bench.ts",
+    "set-version": "bun run scripts/set-version.ts"
   },
   "devDependencies": {
     "@angular/core": "^22.0.0",
