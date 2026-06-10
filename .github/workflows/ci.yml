@@ -12,6 +12,7 @@ concurrency:
 # Least-privilege default token for all jobs.
 permissions:
   contents: read
+  pull-requests: read
 
 env:
   # Pin the toolchain so every job uses the same versions.
