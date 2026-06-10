@@ -106,8 +106,18 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Build all packages
         run: bun run build
-      - name: Smoke-import built packages under Node
-        run: node --input-type=module -e "await import('./packages/core/dist/index.js'); await import('./packages/react/dist/index.js');"
+      - name: Smoke-import core under Node
+        run: node --input-type=module -e "await import('./packages/core/dist/index.js');"
+      - name: Smoke-import react under Node
+        run: node --input-type=module -e "await import('./packages/react/dist/index.js');"
+      - name: Smoke-import vue under Node
+        run: node --input-type=module -e "await import('./packages/vue/dist/index.js');"
+      - name: Smoke-import preact under Node
+        run: node --input-type=module -e "await import('./packages/preact/dist/index.js');"
+      - name: Smoke-import solid under Node
+        run: node --input-type=module -e "await import('./packages/solid/dist/index.js');"
+      - name: Smoke-import web under Node
+        run: node --input-type=module -e "await import('./packages/web/dist/index.js');"
 
   build:
     name: Build packages
