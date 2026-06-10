@@ -3,6 +3,17 @@
   "version": "0.1.0",
   "description": "ESLint rules for mal-icons: keep icon imports tree-shakeable and tidy.",
   "license": "MIT",
+  "author": "MALDevs",
+  "homepage": "https://github.com/mal-icons/mal-icons#readme",
+  "bugs": {
+    "url": "https://github.com/mal-icons/mal-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mal-icons/mal-icons.git",
+    "directory": "packages/eslint-plugin"
+  },
+  "keywords": ["eslint", "eslint-plugin", "icons", "tree-shaking", "mal-icons"],
   "type": "module",
   "main": "./src/index.ts",
   "exports": {

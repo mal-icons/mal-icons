@@ -1,7 +1,20 @@
 {
   "name": "@mal-icons/cli",
   "version": "0.0.0",
+  "description": "Bun-powered generator and vendoring CLI for mal-icons.",
   "type": "module",
+  "license": "MIT",
+  "author": "MALDevs",
+  "homepage": "https://github.com/mal-icons/mal-icons#readme",
+  "bugs": {
+    "url": "https://github.com/mal-icons/mal-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mal-icons/mal-icons.git",
+    "directory": "packages/cli"
+  },
+  "keywords": ["icons", "svg", "cli", "generator", "mal-icons"],
   "main": "./src/index.ts",
   "bin": {
     "mal-icons": "./src/index.ts"
