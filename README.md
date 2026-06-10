@@ -30,19 +30,23 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 
 ## Packages
 
-| Package                    | Description                                         |
-| -------------------------- | --------------------------------------------------- |
-| `@mal-icons/core`          | Framework-agnostic types and theming logic          |
-| `@mal-icons/react`         | React adapter and generated icons                   |
-| `@mal-icons/react-native`  | React Native adapter and generated icons            |
-| `@mal-icons/vue`           | Vue 3 adapter and generated icons                   |
-| `@mal-icons/svelte`        | Svelte 5 adapter and generated icons                |
-| `@mal-icons/preact`        | Preact adapter and generated icons                  |
-| `@mal-icons/solid`         | Solid adapter and generated icons                   |
-| `@mal-icons/angular`       | Angular standalone adapter and generated icons      |
-| `@mal-icons/astro`         | Astro adapter and generated `.astro` components     |
-| `@mal-icons/web`           | Zero-build web/CDN renderer, data and `<mal-icons>` |
-| `@mal-icons/eslint-plugin` | Lint rules for correct, minimal icon usage          |
+Every package ships its own focused README — click a package name for
+framework-specific installation, theming, and API docs.
+
+| Package                                                | Description                                         |
+| ------------------------------------------------------ | --------------------------------------------------- |
+| [`@mal-icons/core`](./packages/core)                   | Framework-agnostic types and theming logic          |
+| [`@mal-icons/react`](./packages/react)                 | React adapter and generated icons                   |
+| [`@mal-icons/react-native`](./packages/react-native)   | React Native adapter and generated icons            |
+| [`@mal-icons/vue`](./packages/vue)                     | Vue 3 adapter and generated icons                   |
+| [`@mal-icons/svelte`](./packages/svelte)               | Svelte 5 adapter and generated icons                |
+| [`@mal-icons/preact`](./packages/preact)               | Preact adapter and generated icons                  |
+| [`@mal-icons/solid`](./packages/solid)                 | Solid adapter and generated icons                   |
+| [`@mal-icons/angular`](./packages/angular)             | Angular standalone adapter and generated icons      |
+| [`@mal-icons/astro`](./packages/astro)                 | Astro adapter and generated `.astro` components     |
+| [`@mal-icons/web`](./packages/web)                     | Zero-build web/CDN renderer, data and `<mal-icons>` |
+| [`@mal-icons/cli`](./packages/cli)                     | Build pipeline + vendoring/search/license CLI       |
+| [`@mal-icons/eslint-plugin`](./packages/eslint-plugin) | Lint rules for correct, minimal icon usage          |
 
 ## Installation
 
