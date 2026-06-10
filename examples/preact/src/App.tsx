@@ -10,7 +10,27 @@ import { useMemo, useState } from "preact/hooks";
 import { ICONS } from "./icons.ts";
 
 const WEIGHTS: IconWeight[] = ["thin", "light", "regular", "bold"];
-const ANIMATIONS: Array<IconAnimation | "none"> = ["none", "spin", "pulse", "beat", "bounce"];
+const ANIMATIONS: Array<IconAnimation | "none"> = [
+  "none",
+  "spin",
+  "spin-reverse",
+  "pulse",
+  "beat",
+  "bounce",
+  "ping",
+  "shake",
+  "wiggle",
+  "float",
+  "heartbeat",
+  "flip",
+  "rotate",
+  "zoom",
+  "fade",
+  "slide",
+  "glow",
+  "swing",
+  "tada",
+];
 
 export function App() {
   const [size, setSize] = useState(32);

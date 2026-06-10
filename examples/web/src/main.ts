@@ -11,7 +11,27 @@ import "./styles.css";
 type IconWeight = keyof typeof WEIGHT_STROKE_WIDTH;
 
 const WEIGHTS: IconWeight[] = ["thin", "light", "regular", "bold"];
-const ANIMATIONS: Array<IconAnimation | "none"> = ["none", "spin", "pulse", "beat", "bounce"];
+const ANIMATIONS: Array<IconAnimation | "none"> = [
+  "none",
+  "spin",
+  "spin-reverse",
+  "pulse",
+  "beat",
+  "bounce",
+  "ping",
+  "shake",
+  "wiggle",
+  "float",
+  "heartbeat",
+  "flip",
+  "rotate",
+  "zoom",
+  "fade",
+  "slide",
+  "glow",
+  "swing",
+  "tada",
+];
 
 // Register the curated set (plus the chrome icons) so `<mal-icons name="…">`
 // resolves synchronously from the in-memory registry, then define the element.

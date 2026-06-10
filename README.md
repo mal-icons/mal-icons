@@ -206,16 +206,16 @@ const data = await load("FiActivity");
 
 Every icon accepts a consistent prop surface:
 
-| Prop             | Description                                             |
-| ---------------- | ------------------------------------------------------- |
-| `size`           | Width and height (number or CSS length)                 |
-| `color`          | Overrides `currentColor`                                |
-| `weight`         | Stroke weight: `thin` \| `light` \| `regular` \| `bold` |
-| `animate`        | CSS animation: `spin` \| `pulse` \| `beat` \| `bounce`  |
-| `secondaryColor` | Multi-tone color, exposed as `--mal-icons-secondary`    |
-| `title`          | Accessible label (renders `<title>` and `role="img"`)   |
-| `className`      | Additional class names                                  |
-| `style`          | Inline styles                                           |
+| Prop             | Description                                                                                                                                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `size`           | Width and height (number or CSS length)                                                                                                                                                               |
+| `color`          | Overrides `currentColor`                                                                                                                                                                              |
+| `weight`         | Stroke weight: `thin` \| `light` \| `regular` \| `bold`                                                                                                                                               |
+| `animate`        | CSS animation: `spin` \| `pulse` \| `beat` \| `bounce` \| `ping` \| `shake` \| `wiggle` \| `float` \| `heartbeat` \| `flip` \| `rotate` \| `zoom` \| `fade` \| `slide` \| `glow` \| `swing` \| `tada` |
+| `secondaryColor` | Multi-tone color, exposed as `--mal-icons-secondary`                                                                                                                                                  |
+| `title`          | Accessible label (renders `<title>` and `role="img"`)                                                                                                                                                 |
+| `className`      | Additional class names                                                                                                                                                                                |
+| `style`          | Inline styles                                                                                                                                                                                         |
 
 Animations are pure CSS. Inject the keyframes once and they apply only to the
 icons that opt in, with a built-in `prefers-reduced-motion` guard:

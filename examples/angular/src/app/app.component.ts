@@ -3,7 +3,27 @@ import { Component, computed, signal } from "@angular/core";
 import { ICON_ANIMATIONS_CSS, type IconAnimation, animationClass } from "@mal-icons/angular";
 import { FiCheck, FiCopy, FiGithub, FiSearch, ICONS } from "./icons";
 
-const ANIMATIONS: Array<IconAnimation | "none"> = ["none", "spin", "pulse", "beat", "bounce"];
+const ANIMATIONS: Array<IconAnimation | "none"> = [
+  "none",
+  "spin",
+  "spin-reverse",
+  "pulse",
+  "beat",
+  "bounce",
+  "ping",
+  "shake",
+  "wiggle",
+  "float",
+  "heartbeat",
+  "flip",
+  "rotate",
+  "zoom",
+  "fade",
+  "slide",
+  "glow",
+  "swing",
+  "tada",
+];
 
 @Component({
   selector: "app-root",

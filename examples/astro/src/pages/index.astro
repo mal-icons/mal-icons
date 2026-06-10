@@ -1,5 +1,26 @@
 ---
-import { ICON_ANIMATIONS_CSS, animationClass } from "@mal-icons/core";
+import { ICON_ANIMATIONS_CSS, animationClass, type IconAnimation } from "@mal-icons/core";
+
+const ANIMATIONS: IconAnimation[] = [
+  "spin",
+  "spin-reverse",
+  "pulse",
+  "beat",
+  "bounce",
+  "ping",
+  "shake",
+  "wiggle",
+  "float",
+  "heartbeat",
+  "flip",
+  "rotate",
+  "zoom",
+  "fade",
+  "slide",
+  "glow",
+  "swing",
+  "tada",
+];
 import FiActivity from "@mal-icons/astro/fi/FiActivity";
 import FiArrowRight from "@mal-icons/astro/fi/FiArrowRight";
 import FiBell from "@mal-icons/astro/fi/FiBell";
@@ -110,9 +131,14 @@ const SIZES = [16, 24, 32, 48] as const;
         <div class="showcase">
           <span class="showcase__label">animate (CSS)</span>
           <div class="showcase__row">
-            <FiLoader size={32} class={animationClass("spin")} title="Loading" />
-            <FiBell size={32} class={animationClass("beat")} title="Notification" />
-            <FiHeart size={32} color="#f43f5e" class={animationClass("pulse")} title="Pulse" />
+            {
+              ANIMATIONS.map((animation) => (
+                <div class="showcase__anim">
+                  <FiLoader size={32} class={animationClass(animation)} title={animation} />
+                  <span class="showcase__anim-name">{animation}</span>
+                </div>
+              ))
+            }
           </div>
         </div>
       </section>

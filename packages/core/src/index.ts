@@ -115,7 +115,25 @@ export const WEIGHT_STROKE_WIDTH: Record<IconWeight, number> = {
 };
 
 /** CSS-driven animation presets applied via the `animate` prop. */
-export type IconAnimation = "spin" | "spin-reverse" | "pulse" | "beat" | "bounce";
+export type IconAnimation =
+  | "spin"
+  | "spin-reverse"
+  | "pulse"
+  | "beat"
+  | "bounce"
+  | "ping"
+  | "shake"
+  | "wiggle"
+  | "float"
+  | "heartbeat"
+  | "flip"
+  | "rotate"
+  | "zoom"
+  | "fade"
+  | "slide"
+  | "glow"
+  | "swing"
+  | "tada";
 
 /** Class name applied to the root `<svg>` for a given animation. */
 export function animationClass(animation: IconAnimation): string {
@@ -131,11 +149,37 @@ export const ICON_ANIMATIONS_CSS = `@keyframes mal-icons-spin{to{transform:rotat
 @keyframes mal-icons-pulse{0%,100%{opacity:1}50%{opacity:.4}}
 @keyframes mal-icons-beat{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
 @keyframes mal-icons-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-15%)}}
+@keyframes mal-icons-ping{0%{transform:scale(1);opacity:1}75%,100%{transform:scale(1.8);opacity:0}}
+@keyframes mal-icons-shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-12%)}40%,80%{transform:translateX(12%)}}
+@keyframes mal-icons-wiggle{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@keyframes mal-icons-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12%)}}
+@keyframes mal-icons-heartbeat{0%,28%,70%,100%{transform:scale(1)}14%,42%{transform:scale(1.2)}}
+@keyframes mal-icons-flip{0%{transform:perspective(400px) rotateY(0)}100%{transform:perspective(400px) rotateY(360deg)}}
+@keyframes mal-icons-rotate{0%{transform:rotate(0)}50%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}
+@keyframes mal-icons-zoom{0%,100%{transform:scale(1)}50%{transform:scale(1.4)}}
+@keyframes mal-icons-fade{0%,100%{opacity:1}50%{opacity:.1}}
+@keyframes mal-icons-slide{0%,100%{transform:translateX(0)}50%{transform:translateX(18%)}}
+@keyframes mal-icons-glow{0%,100%{filter:drop-shadow(0 0 0 currentColor)}50%{filter:drop-shadow(0 0 4px currentColor)}}
+@keyframes mal-icons-swing{0%,100%{transform:rotate(0)}20%{transform:rotate(15deg)}40%{transform:rotate(-10deg)}60%{transform:rotate(5deg)}80%{transform:rotate(-5deg)}}
+@keyframes mal-icons-tada{0%,100%{transform:scale(1) rotate(0)}10%,20%{transform:scale(.9) rotate(-3deg)}30%,50%,70%,90%{transform:scale(1.1) rotate(3deg)}40%,60%,80%{transform:scale(1.1) rotate(-3deg)}}
 .mal-icons-animate-spin{animation:mal-icons-spin 1s linear infinite;will-change:transform}
 .mal-icons-animate-spin-reverse{animation:mal-icons-spin 1s linear infinite reverse;will-change:transform}
 .mal-icons-animate-pulse{animation:mal-icons-pulse 1.5s ease-in-out infinite}
 .mal-icons-animate-beat{animation:mal-icons-beat 1s ease-in-out infinite;will-change:transform}
 .mal-icons-animate-bounce{animation:mal-icons-bounce 1s ease infinite;will-change:transform}
+.mal-icons-animate-ping{animation:mal-icons-ping 1s cubic-bezier(0,0,.2,1) infinite;will-change:transform,opacity}
+.mal-icons-animate-shake{animation:mal-icons-shake .8s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-wiggle{animation:mal-icons-wiggle .6s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-float{animation:mal-icons-float 3s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-heartbeat{animation:mal-icons-heartbeat 1.3s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-flip{animation:mal-icons-flip 1.2s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-rotate{animation:mal-icons-rotate 1.5s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-zoom{animation:mal-icons-zoom 1.2s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-fade{animation:mal-icons-fade 1.5s ease-in-out infinite}
+.mal-icons-animate-slide{animation:mal-icons-slide 1s ease-in-out infinite;will-change:transform}
+.mal-icons-animate-glow{animation:mal-icons-glow 1.5s ease-in-out infinite}
+.mal-icons-animate-swing{animation:mal-icons-swing 1s ease-in-out infinite;transform-origin:top center;will-change:transform}
+.mal-icons-animate-tada{animation:mal-icons-tada 1s ease-in-out infinite;will-change:transform}
 @media (prefers-reduced-motion:reduce){[class*=mal-icons-animate-]{animation:none}}
 `;
 
