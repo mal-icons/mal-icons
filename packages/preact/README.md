@@ -12,7 +12,7 @@ component that renders plain SVG, with no runtime parsing.
 - **Tree-shakeable** — every icon is its own module.
 - **Tiny** — strict per-icon size budget; ideal for size-sensitive Preact apps.
 - **Themeable** — `IconContext` provider with per-icon overrides.
-- **Pure-CSS animations** — `spin`, `pulse`, `beat`, `bounce`, with a `prefers-reduced-motion` guard.
+- **Pure-CSS animations** — `spin`, `pulse`, `beat`, `bounce`, `ping`, `shake`, `wiggle`, `float`, `heartbeat`, `flip`, `rotate`, `zoom`, `fade`, `slide`, `glow`, `swing`, `tada`, with a `prefers-reduced-motion` guard.
 - **Accessible** — correct `role` / `aria-hidden` and optional `<title>`.
 
 ## Installation
@@ -49,15 +49,15 @@ Per-icon props always override context values.
 
 ## Props
 
-| Prop             | Type                                       | Description                                          |
-| ---------------- | ------------------------------------------ | ---------------------------------------------------- |
-| `size`           | `number \| string`                         | Width and height (defaults to `1em`)                 |
-| `color`          | `string`                                   | Overrides `currentColor`                             |
-| `weight`         | `"thin" \| "light" \| "regular" \| "bold"` | Stroke weight for stroke-based sets                  |
-| `animate`        | `"spin" \| "pulse" \| "beat" \| "bounce"`  | CSS animation preset                                 |
-| `secondaryColor` | `string`                                   | Multi-tone color, exposed as `--mal-icons-secondary` |
-| `title`          | `string`                                   | Accessible label                                     |
-| `class`          | `string`                                   | Additional class names                               |
+| Prop             | Type                                                                           | Description                                          |
+| ---------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| `size`           | `number \| string`                                                             | Width and height (defaults to `1em`)                 |
+| `color`          | `string`                                                                       | Overrides `currentColor`                             |
+| `weight`         | `"thin" \| "light" \| "regular" \| "bold"`                                     | Stroke weight for stroke-based sets                  |
+| `animate`        | `IconAnimation` (`"spin"`, `"pulse"`, `"bounce"`, `"shake"`, `"heartbeat"`, …) | CSS animation preset                                 |
+| `secondaryColor` | `string`                                                                       | Multi-tone color, exposed as `--mal-icons-secondary` |
+| `title`          | `string`                                                                       | Accessible label                                     |
+| `class`          | `string`                                                                       | Additional class names                               |
 
 ## Animations
 

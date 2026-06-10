@@ -13,7 +13,7 @@ render**, and **no `dangerouslySetInnerHTML`**.
 - **Tree-shakeable** — every icon is its own module; bundlers keep only what you import.
 - **Tiny** — a strict per-icon budget (< 0.8 KB gzipped) is enforced in CI.
 - **Themeable** — `size`, `color`, `weight`, and `className` resolved through `IconContext`, with per-icon overrides.
-- **Pure-CSS animations** — `spin`, `pulse`, `beat`, `bounce`, with a `prefers-reduced-motion` guard.
+- **Pure-CSS animations** — `spin`, `pulse`, `beat`, `bounce`, `ping`, `shake`, `wiggle`, `float`, `heartbeat`, `flip`, `rotate`, `zoom`, `fade`, `slide`, `glow`, `swing`, `tada`, with a `prefers-reduced-motion` guard.
 - **Advanced delivery** — SVG sprites, dynamic-by-name loading with caching/preloading, and CDN loaders.
 - **Server Components** — a hook-free `/server` entry renders icons in RSC with zero client JS.
 - **Accessible** — correct `role` / `aria-hidden` handling and optional `<title>`.
@@ -58,16 +58,16 @@ Per-icon props always override context values.
 
 ## Props
 
-| Prop             | Type                                       | Description                                          |
-| ---------------- | ------------------------------------------ | ---------------------------------------------------- |
-| `size`           | `number \| string`                         | Width and height (defaults to `1em`)                 |
-| `color`          | `string`                                   | Overrides `currentColor`                             |
-| `weight`         | `"thin" \| "light" \| "regular" \| "bold"` | Stroke weight for stroke-based sets                  |
-| `animate`        | `"spin" \| "pulse" \| "beat" \| "bounce"`  | CSS animation preset                                 |
-| `secondaryColor` | `string`                                   | Multi-tone color, exposed as `--mal-icons-secondary` |
-| `title`          | `string`                                   | Accessible label (renders `<title>` + `role="img"`)  |
-| `className`      | `string`                                   | Additional class names                               |
-| `style`          | `CSSProperties`                            | Inline styles                                        |
+| Prop             | Type                                                                           | Description                                          |
+| ---------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- |
+| `size`           | `number \| string`                                                             | Width and height (defaults to `1em`)                 |
+| `color`          | `string`                                                                       | Overrides `currentColor`                             |
+| `weight`         | `"thin" \| "light" \| "regular" \| "bold"`                                     | Stroke weight for stroke-based sets                  |
+| `animate`        | `IconAnimation` (`"spin"`, `"pulse"`, `"bounce"`, `"shake"`, `"heartbeat"`, …) | CSS animation preset                                 |
+| `secondaryColor` | `string`                                                                       | Multi-tone color, exposed as `--mal-icons-secondary` |
+| `title`          | `string`                                                                       | Accessible label (renders `<title>` + `role="img"`)  |
+| `className`      | `string`                                                                       | Additional class names                               |
+| `style`          | `CSSProperties`                                                                | Inline styles                                        |
 
 ## Animations
 
