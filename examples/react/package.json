@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@mal-icons/react": "workspace:*",
-    "react": "^19.0.0",
+    "react": "^19.2.7",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
