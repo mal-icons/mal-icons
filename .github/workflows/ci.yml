@@ -80,10 +80,7 @@ jobs:
   dependency-review:
     name: Dependency review
     runs-on: ubuntu-latest
-    # Disabled until GitHub Dependency graph is enabled for this repository:
-    # Repo settings → Security & analysis → enable "Dependency graph".
-    # Once enabled, change this back to: github.event_name == 'pull_request'
-    if: false
+    if: github.event_name == 'pull_request'
     steps:
       - uses: actions/checkout@v4
       - name: Review dependency changes for vulnerabilities and licenses
