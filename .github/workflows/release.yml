@@ -61,6 +61,8 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
 
       - name: Publish dry-run (no packages are published)
+        env:
+          NPM_CONFIG_USERCONFIG: ${{ env.HOME }}/.npmrc
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::dry-run $dir"
@@ -105,6 +107,8 @@ jobs:
           echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
 
       - name: Publish packages (core first)
+        env:
+          NPM_CONFIG_USERCONFIG: ${{ env.HOME }}/.npmrc
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::publish $dir"
