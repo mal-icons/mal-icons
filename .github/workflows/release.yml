@@ -50,39 +50,13 @@ jobs:
       - name: Build all packages
         run: bun run build
 
-      - name: Detect npm token
-        id: npm_token
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          if [ -n "$NPM_TOKEN" ]; then
-            echo "available=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "available=false" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: Configure npm authentication
-        if: ${{ steps.npm_token.outputs.available == 'true' }}
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
-
-      - name: Publish dry-run (no packages are published)
-        if: ${{ steps.npm_token.outputs.available == 'true' }}
+      - name: Pack dry-run (verify publish contents, no auth needed)
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::dry-run $dir"
-            (cd "$dir" && bun publish --access public --dry-run)
+            (cd "$dir" && npm pack --dry-run)
             echo "::endgroup::"
           done
-
-      - name: Skip dry-run when npm token is unavailable
-        if: ${{ steps.npm_token.outputs.available != 'true' }}
-        run: echo "Skipping publish dry-run because NPM_TOKEN is not configured."
-
-      - name: Remove npm credentials
-        if: always()
-        run: rm -f "$HOME/.npmrc"
 
   publish:
     name: Publish to npm
