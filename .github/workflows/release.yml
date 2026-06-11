@@ -54,12 +54,17 @@ jobs:
 
       - name: Configure npm authentication
         if: ${{ env.NPM_TOKEN != '' }}
-        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
+        run: |
+          cat > "${GITHUB_WORKSPACE}/.npmrc" <<EOF
+          //registry.npmjs.org/:_authToken=${NPM_TOKEN}
+          registry=https://registry.npmjs.org/
+          always-auth=true
+          EOF
 
       - name: Publish dry-run (no packages are published)
         if: ${{ env.NPM_TOKEN != '' }}
         env:
-          NPM_CONFIG_USERCONFIG: ${{ env.HOME }}/.npmrc
+          NPM_CONFIG_USERCONFIG: ${{ github.workspace }}/.npmrc
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::dry-run $dir"
@@ -73,7 +78,7 @@ jobs:
 
       - name: Remove npm credentials
         if: always()
-        run: rm -f "$HOME/.npmrc"
+        run: rm -f "${GITHUB_WORKSPACE}/.npmrc"
 
   publish:
     name: Publish to npm
@@ -105,11 +110,15 @@ jobs:
             echo "::error::NPM_TOKEN secret is not set"
             exit 1
           fi
-          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
+          cat > "${GITHUB_WORKSPACE}/.npmrc" <<EOF
+          //registry.npmjs.org/:_authToken=${NPM_TOKEN}
+          registry=https://registry.npmjs.org/
+          always-auth=true
+          EOF
 
       - name: Publish packages (core first)
         env:
-          NPM_CONFIG_USERCONFIG: ${{ env.HOME }}/.npmrc
+          NPM_CONFIG_USERCONFIG: ${{ github.workspace }}/.npmrc
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::publish $dir"
@@ -119,7 +128,7 @@ jobs:
 
       - name: Remove npm credentials
         if: always()
-        run: rm -f "$HOME/.npmrc"
+        run: rm -f "${GITHUB_WORKSPACE}/.npmrc"
 
   commit:
     name: Commit version bump
