@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/eslint-plugin",
-  "version": "0.1.2",
+  "version": "0.2.7",
   "description": "ESLint rules for mal-icons: keep icon imports tree-shakeable and tidy.",
   "license": "MIT",
   "author": "MALDevs",
