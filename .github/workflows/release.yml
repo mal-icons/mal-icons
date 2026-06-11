@@ -50,6 +50,16 @@ jobs:
       - name: Build all packages
         run: bun run build
 
+      - name: Configure npm authentication
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [ -z "$NPM_TOKEN" ]; then
+            echo "::error::NPM_TOKEN secret is not set"
+            exit 1
+          fi
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
+
       - name: Publish dry-run (no packages are published)
         run: |
           for dir in $PUBLISH_ORDER; do
@@ -57,6 +67,10 @@ jobs:
             (cd "$dir" && bun publish --access public --dry-run)
             echo "::endgroup::"
           done
+
+      - name: Remove npm credentials
+        if: always()
+        run: rm -f "$HOME/.npmrc"
 
   publish:
     name: Publish to npm
