@@ -62,13 +62,15 @@ jobs:
     name: Publish to npm
     runs-on: ubuntu-latest
     needs: [verify]
-    env:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
         with:
           bun-version: ${{ env.BUN_VERSION }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Derive version from tag
         run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
@@ -82,29 +84,15 @@ jobs:
       - name: Build all packages
         run: bun run build
 
-      - name: Configure npm authentication
-        if: env.NPM_TOKEN != ''
-        run: |
-          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
-
       - name: Publish packages (core first)
-        if: env.NPM_TOKEN != ''
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::publish $dir"
             (cd "$dir" && npm publish --access public)
             echo "::endgroup::"
           done
-
-      - name: Fail clearly when token is missing
-        if: env.NPM_TOKEN == ''
-        run: |
-          echo "::error::NPM_TOKEN secret is not set"
-          exit 1
-
-      - name: Remove npm credentials
-        if: always()
-        run: rm -f "$HOME/.npmrc"
 
   commit:
     name: Commit version bump
