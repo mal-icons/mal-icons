@@ -23,6 +23,8 @@ jobs:
   verify:
     name: Test & publish dry-run
     runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
@@ -51,16 +53,11 @@ jobs:
         run: bun run build
 
       - name: Configure npm authentication
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          if [ -z "$NPM_TOKEN" ]; then
-            echo "::error::NPM_TOKEN secret is not set"
-            exit 1
-          fi
-          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
+        if: ${{ env.NPM_TOKEN != '' }}
+        run: echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > "$HOME/.npmrc"
 
       - name: Publish dry-run (no packages are published)
+        if: ${{ env.NPM_TOKEN != '' }}
         env:
           NPM_CONFIG_USERCONFIG: ${{ env.HOME }}/.npmrc
         run: |
@@ -69,6 +66,10 @@ jobs:
             (cd "$dir" && bun publish --access public --dry-run)
             echo "::endgroup::"
           done
+
+      - name: Skip dry-run (NPM_TOKEN not set)
+        if: ${{ env.NPM_TOKEN == '' }}
+        run: echo "::warning::NPM_TOKEN secret is not set; skipping publish dry-run."
 
       - name: Remove npm credentials
         if: always()
