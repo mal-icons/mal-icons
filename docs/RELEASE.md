@@ -38,6 +38,9 @@ done
 
 ## Publishing
 
+The GitHub release workflow publishes with npm trusted publishing from GitHub
+Actions, so it does not rely on an `NPM_TOKEN` secret.
+
 Publish `@mal-icons/core` before framework adapters, then publish the CLI and
 tooling packages when their package layout is ready for standalone use.
 
@@ -46,7 +49,7 @@ resolved to the version being released by your publish tooling.
 
 ```bash
 cd packages/core
-npm publish --access public
+npm publish --provenance --access public
 ```
 
 Repeat for each public package in dependency order.

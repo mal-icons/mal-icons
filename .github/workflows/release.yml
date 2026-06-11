@@ -62,6 +62,9 @@ jobs:
     name: Publish to npm
     runs-on: ubuntu-latest
     needs: [verify]
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
@@ -70,7 +73,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
-          registry-url: "https://registry.npmjs.org"
 
       - name: Derive version from tag
         run: echo "VERSION=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
@@ -85,12 +87,10 @@ jobs:
         run: bun run build
 
       - name: Publish packages (core first)
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::publish $dir"
-            (cd "$dir" && npm publish --access public)
+            (cd "$dir" && npm publish --provenance --access public)
             echo "::endgroup::"
           done
 
