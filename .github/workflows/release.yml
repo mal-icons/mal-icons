@@ -92,7 +92,7 @@ jobs:
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::publish $dir"
-            (cd "$dir" && bun publish --access public)
+            (cd "$dir" && npm publish --access public)
             echo "::endgroup::"
           done
 
