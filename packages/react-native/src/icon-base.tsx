@@ -1,7 +1,7 @@
-import { useContext } from "react";
 import type { ReactNode } from "react";
-import { Svg } from "react-native-svg";
+import { useContext } from "react";
 import type { SvgProps } from "react-native-svg";
+import { Svg } from "react-native-svg";
 import { IconContext } from "./context.ts";
 
 /** Default rendered size (px) when neither a prop nor context provides one. */

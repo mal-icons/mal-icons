@@ -3,9 +3,9 @@ import {
   Component,
   ElementRef,
   Input,
+  inject,
   type OnChanges,
   Renderer2,
-  inject,
 } from "@angular/core";
 import { type NodeTuple, resolveIconAttrs } from "@mal-icons/core";
 import { type AngularIconContextValue, ICON_CONTEXT } from "./context.ts";

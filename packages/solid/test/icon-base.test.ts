@@ -1,7 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import h from "solid-js/h";
 import { render } from "solid-js/web";
-import { IconBase, IconContext, createIcon } from "../src/index.ts";
+import { createIcon, IconBase, IconContext } from "../src/index.ts";
 
 const FiActivity = createIcon(
   "0 0 24 24",

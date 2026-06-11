@@ -1,11 +1,11 @@
 import {
+  defineMalIcon,
   ICON_ANIMATIONS_CSS,
   type IconAnimation,
-  type WEIGHT_STROKE_WIDTH,
-  defineMalIcon,
   registerIcons,
+  type WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/web";
-import { ICONS, ICON_NAMES } from "./icons.ts";
+import { ICON_NAMES, ICONS } from "./icons.ts";
 import "./styles.css";
 
 type IconWeight = keyof typeof WEIGHT_STROKE_WIDTH;

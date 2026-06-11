@@ -1,6 +1,6 @@
-import { WEIGHT_STROKE_WIDTH, animationClass, resolveIconAttrs } from "@mal-icons/core";
 import type { NodeTuple } from "@mal-icons/core";
-import { type ReactElement, createElement } from "react";
+import { animationClass, resolveIconAttrs, WEIGHT_STROKE_WIDTH } from "@mal-icons/core";
+import { createElement, type ReactElement } from "react";
 import type { IconBaseProps } from "./icon-base.tsx";
 
 /**

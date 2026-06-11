@@ -14,9 +14,18 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/svelte"
   },
-  "keywords": ["icons", "svg", "svelte", "components", "mal-icons"],
+  "keywords": [
+    "icons",
+    "svg",
+    "svelte",
+    "components",
+    "mal-icons"
+  ],
   "sideEffects": false,
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "svelte": "./src/index.ts",
   "types": "./dist/index.d.ts",
   "exports": {

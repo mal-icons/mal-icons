@@ -1,9 +1,9 @@
 import {
+  animationClass,
   type IconAnimation,
   type IconData,
-  WEIGHT_STROKE_WIDTH,
-  animationClass,
   resolveIconAttrs,
+  WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";
 
 export type { IconData };
@@ -207,8 +207,8 @@ export function defineMalIcon(tagName = "mal-icons", loader?: IconLoader): void 
 }
 
 export {
-  ICON_ANIMATIONS_CSS,
-  WEIGHT_STROKE_WIDTH,
   animationClass,
+  ICON_ANIMATIONS_CSS,
   type IconAnimation,
+  WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";

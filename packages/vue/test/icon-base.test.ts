@@ -1,7 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { renderToString } from "@vue/server-renderer";
 import { defineComponent, h } from "vue";
-import { IconBase, createIcon, provideIconContext } from "../src/index.ts";
+import { createIcon, IconBase, provideIconContext } from "../src/index.ts";
 
 const FiActivity = createIcon(
   "0 0 24 24",

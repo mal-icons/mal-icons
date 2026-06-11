@@ -1,6 +1,6 @@
 import type { NodeTuple } from "@mal-icons/core";
-import { createElement, memo } from "react";
 import type { ComponentType, ReactElement } from "react";
+import { createElement, memo } from "react";
 import { Circle, Ellipse, G, Line, Path, Polygon, Polyline, Rect } from "react-native-svg";
 import { IconBase, type IconBaseProps } from "./icon-base.tsx";
 

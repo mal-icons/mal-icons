@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { ICON_ANIMATIONS_CSS, WEIGHT_STROKE_WIDTH, animationClass } from "@mal-icons/core";
+import { animationClass, ICON_ANIMATIONS_CSS, WEIGHT_STROKE_WIDTH } from "@mal-icons/core";
 import { renderToStaticMarkup } from "react-dom/server";
 import { createIcon } from "../src/index.ts";
 

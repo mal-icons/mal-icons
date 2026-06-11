@@ -1,5 +1,5 @@
 #!/usr/bin/env bun
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 /**
  * Size budget gate (NFR-2): every generated per-icon module must stay under

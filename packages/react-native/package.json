@@ -14,9 +14,17 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/react-native"
   },
-  "keywords": ["icons", "svg", "react-native", "components", "mal-icons"],
+  "keywords": [
+    "icons",
+    "svg",
+    "react-native",
+    "components",
+    "mal-icons"
+  ],
   "sideEffects": false,
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

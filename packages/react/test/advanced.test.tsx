@@ -4,13 +4,13 @@ import { act, createElement } from "react";
 import { createRoot } from "react-dom/client";
 import { renderToStaticMarkup } from "react-dom/server";
 import {
-  Icon,
-  IconContext,
-  SpriteIcon,
   cdnLoader,
   clearIconCache,
   createIcon,
+  Icon,
+  IconContext,
   preloadIcon,
+  SpriteIcon,
   setLoader,
 } from "../src/index.ts";
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env bun
-import { readFileSync, readdirSync, writeFileSync } from "node:fs";
+import { readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+
 /**
  * Set the version field of every publishable package to a given value.
  *

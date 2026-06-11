@@ -1,6 +1,6 @@
 import { resolveIconAttrs } from "@mal-icons/core";
-import { defineComponent, h, inject } from "vue";
 import type { CSSProperties, PropType, VNode } from "vue";
+import { defineComponent, h, inject } from "vue";
 import { DefaultIconContext, IconContextKey } from "./context.ts";
 
 /** Props accepted by every generated mal-icons Vue component. */

@@ -6,7 +6,7 @@ import {
   type SolidIconContextValue,
 } from "@mal-icons/solid";
 import { FiCheck, FiCopy, FiGithub, FiSearch } from "@mal-icons/solid/fi";
-import { For, Show, createMemo, createSignal } from "solid-js";
+import { createMemo, createSignal, For, Show } from "solid-js";
 import { ICONS } from "./icons.ts";
 
 const WEIGHTS: IconWeight[] = ["thin", "light", "regular", "bold"];

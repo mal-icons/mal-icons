@@ -1,6 +1,6 @@
 import type { IconContextValue } from "@mal-icons/core";
-import { createContext } from "react";
 import type { CSSProperties } from "react";
+import { createContext } from "react";
 
 /** Theming context for all mal-icons React components. */
 export type ReactIconContextValue = IconContextValue<CSSProperties>;
