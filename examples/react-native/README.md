@@ -44,7 +44,7 @@ npx expo start        # press i / a / w for iOS, Android, or web
 
 ```tsx
 import { IconContext } from "@mal-icons/react-native";
-import { FiActivity } from "@mal-icons/react-native/fi/FiActivity";
+import FiActivity from "@mal-icons/react-native/fi/FiActivity";
 
 <IconContext.Provider value={{ size: 28, color: "#6366f1" }}>
   <FiActivity /> {/* inherits size + color  */}

@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiLoader {
+class FiLoader {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["line",{"x1":"12","y1":"2","x2":"12","y2":"6"}],["line",{"x1":"12","y1":"18","x2":"12","y2":"22"}],["line",{"x1":"4.93","y1":"4.93","x2":"7.76","y2":"7.76"}],["line",{"x1":"16.24","y1":"16.24","x2":"19.07","y2":"19.07"}],["line",{"x1":"2","y1":"12","x2":"6","y2":"12"}],["line",{"x1":"18","y1":"12","x2":"22","y2":"12"}],["line",{"x1":"4.93","y1":"19.07","x2":"7.76","y2":"16.24"}],["line",{"x1":"16.24","y1":"7.76","x2":"19.07","y2":"4.93"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiLoader {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiLoader;

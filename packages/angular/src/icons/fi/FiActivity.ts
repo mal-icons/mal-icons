@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiActivity {
+class FiActivity {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["polyline",{"points":"22 12 18 12 15 21 9 3 6 12 2 12"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiActivity {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiActivity;

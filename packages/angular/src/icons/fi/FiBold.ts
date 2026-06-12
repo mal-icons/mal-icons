@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiBold {
+class FiBold {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["path",{"d":"M6 4h8a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"}],["path",{"d":"M6 12h9a4 4 0 0 1 4 4 4 4 0 0 1-4 4H6z"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiBold {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiBold;

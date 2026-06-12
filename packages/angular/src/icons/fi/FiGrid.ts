@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiGrid {
+class FiGrid {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["rect",{"x":"3","y":"3","width":"7","height":"7"}],["rect",{"x":"14","y":"3","width":"7","height":"7"}],["rect",{"x":"14","y":"14","width":"7","height":"7"}],["rect",{"x":"3","y":"14","width":"7","height":"7"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiGrid {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiGrid;

@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiShoppingCart {
+class FiShoppingCart {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["circle",{"cx":"9","cy":"21","r":"1"}],["circle",{"cx":"20","cy":"21","r":"1"}],["path",{"d":"M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiShoppingCart {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiShoppingCart;

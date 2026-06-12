@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiShare2 {
+class FiShare2 {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["circle",{"cx":"18","cy":"5","r":"3"}],["circle",{"cx":"6","cy":"12","r":"3"}],["circle",{"cx":"18","cy":"19","r":"3"}],["line",{"x1":"8.59","y1":"13.51","x2":"15.42","y2":"17.49"}],["line",{"x1":"15.41","y1":"6.51","x2":"8.59","y2":"10.49"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiShare2 {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiShare2;

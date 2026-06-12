@@ -1,3 +1,8 @@
+// Three equivalent ways to import an icon — pick whichever you prefer:
+//   import FiSearch from "@mal-icons/solid/fi/FiSearch"; // per-icon default
+//   import { FiSearch } from "@mal-icons/solid/fi";      // set barrel (named)
+//   import { FiSearch } from "@mal-icons/solid";         // package root (named)
+// This demo uses the set barrel below for a compact, tree-shakeable list.
 import {
   FiActivity,
   FiArrowRight,

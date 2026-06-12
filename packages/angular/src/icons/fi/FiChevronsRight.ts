@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiChevronsRight {
+class FiChevronsRight {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["polyline",{"points":"13 17 18 12 13 7"}],["polyline",{"points":"6 17 11 12 6 7"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiChevronsRight {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiChevronsRight;

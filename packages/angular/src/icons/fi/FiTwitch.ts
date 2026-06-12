@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiTwitch {
+class FiTwitch {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["path",{"d":"M21 2H3v16h5v4l4-4h5l4-4V2zM11 11V7M16 11V7"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiTwitch {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiTwitch;

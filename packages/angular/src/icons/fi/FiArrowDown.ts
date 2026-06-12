@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiArrowDown {
+class FiArrowDown {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["line",{"x1":"12","y1":"5","x2":"12","y2":"19"}],["polyline",{"points":"19 12 12 19 5 12"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiArrowDown {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiArrowDown;

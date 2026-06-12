@@ -1,4 +1,9 @@
 import type { IconComponent } from "@mal-icons/react";
+// Three equivalent ways to import an icon — pick whichever you prefer:
+//   import FiSearch from "@mal-icons/react/fi/FiSearch"; // per-icon default
+//   import { FiSearch } from "@mal-icons/react/fi";      // set barrel (named)
+//   import { FiSearch } from "@mal-icons/react";         // package root (named)
+// This demo uses the set barrel below for a compact, tree-shakeable list.
 import {
   FiActivity,
   FiArrowRight,

@@ -5,9 +5,9 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { render as svelteRender } from "svelte/server";
 import { h } from "vue";
 
-import { FiActivity as ReactFiActivity } from "../packages/react/src/icons/fi/FiActivity.tsx";
+import ReactFiActivity from "../packages/react/src/icons/fi/FiActivity.tsx";
 import SvelteFiActivity from "../packages/svelte/src/icons/fi/FiActivity.svelte";
-import { FiActivity as VueFiActivity } from "../packages/vue/src/icons/fi/FiActivity.ts";
+import VueFiActivity from "../packages/vue/src/icons/fi/FiActivity.ts";
 
 interface Shape {
   tag: string;

@@ -1,3 +1,5 @@
 import { createIcon } from "../../create-icon.tsx";
 
-export const FiTrendingUp = createIcon("0 0 24 24", [["polyline",{"points":"23 6 13.5 15.5 8.5 10.5 1 18"}],["polyline",{"points":"17 6 23 6 23 12"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+const FiTrendingUp = createIcon("0 0 24 24", [["polyline",{"points":"23 6 13.5 15.5 8.5 10.5 1 18"}],["polyline",{"points":"17 6 23 6 23 12"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default FiTrendingUp;
