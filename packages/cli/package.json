@@ -15,7 +15,13 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/cli"
   },
-  "keywords": ["icons", "svg", "cli", "generator", "mal-icons"],
+  "keywords": [
+    "icons",
+    "svg",
+    "cli",
+    "generator",
+    "mal-icons"
+  ],
   "main": "./src/index.ts",
   "bin": {
     "mal-icons": "./src/index.ts"

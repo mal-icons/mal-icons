@@ -14,9 +14,17 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/angular"
   },
-  "keywords": ["icons", "svg", "angular", "components", "mal-icons"],
+  "keywords": [
+    "icons",
+    "svg",
+    "angular",
+    "components",
+    "mal-icons"
+  ],
   "sideEffects": false,
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "module": "./src/index.ts",
   "types": "./src/index.ts",
   "exports": {

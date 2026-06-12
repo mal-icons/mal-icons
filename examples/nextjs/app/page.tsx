@@ -47,7 +47,7 @@ export default function Page() {
           The hero below is rendered entirely on the server with <code>createServerIcon</code> —
           zero client JavaScript. The gallery underneath is a client island using context theming.
         </p>
-        <div className="server-row" aria-label="Server-rendered icons">
+        <div className="server-row">
           <ServerActivity size={40} color="#6366f1" title="Activity" />
           <ServerZap size={40} color="#22d3ee" title="Zap" />
           <ServerGlobe size={40} color="#f472b6" title="Globe" />

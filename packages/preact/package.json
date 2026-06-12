@@ -14,9 +14,17 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/preact"
   },
-  "keywords": ["icons", "svg", "preact", "components", "mal-icons"],
+  "keywords": [
+    "icons",
+    "svg",
+    "preact",
+    "components",
+    "mal-icons"
+  ],
   "sideEffects": false,
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

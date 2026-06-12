@@ -1,12 +1,12 @@
 import {
+  animationClass,
   type IconAnimation,
   type IconWeight,
-  WEIGHT_STROKE_WIDTH,
-  animationClass,
   resolveIconAttrs,
+  WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";
-import { type ComponentChildren, h } from "preact";
 import type { JSX } from "preact";
+import { type ComponentChildren, h } from "preact";
 import { useContext } from "preact/hooks";
 import { IconContext } from "./context.ts";
 

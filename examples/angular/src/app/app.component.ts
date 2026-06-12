@@ -1,6 +1,6 @@
 import { NgComponentOutlet } from "@angular/common";
 import { Component, computed, signal } from "@angular/core";
-import { ICON_ANIMATIONS_CSS, type IconAnimation, animationClass } from "@mal-icons/angular";
+import { animationClass, ICON_ANIMATIONS_CSS, type IconAnimation } from "@mal-icons/angular";
 import { FiCheck, FiCopy, FiGithub, FiSearch, ICONS } from "./icons";
 
 const ANIMATIONS: Array<IconAnimation | "none"> = [

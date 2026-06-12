@@ -1,6 +1,6 @@
 import type { NodeTuple } from "@mal-icons/core";
-import { h } from "preact";
 import type { JSX } from "preact";
+import { h } from "preact";
 import { IconBase, type IconBaseProps } from "./icon-base.ts";
 
 /**

@@ -14,9 +14,19 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/solid"
   },
-  "keywords": ["icons", "svg", "solid", "solidjs", "components", "mal-icons"],
+  "keywords": [
+    "icons",
+    "svg",
+    "solid",
+    "solidjs",
+    "components",
+    "mal-icons"
+  ],
   "sideEffects": false,
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

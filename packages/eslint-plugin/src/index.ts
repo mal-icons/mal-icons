@@ -22,5 +22,5 @@ plugin.configs.recommended = {
   },
 };
 
-export { preferNamedImport, noUnusedIcons, rules };
+export { noUnusedIcons, preferNamedImport, rules };
 export default plugin;

@@ -7,11 +7,7 @@ export const metadata: Metadata = {
     "mal-icons with the Next.js App Router — React Server Components plus a client island.",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>{children}</body>

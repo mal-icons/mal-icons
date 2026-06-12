@@ -4,14 +4,14 @@ import {
   WEIGHT_STROKE_WIDTH as coreWeightStrokeWidth,
 } from "@mal-icons/core";
 
-export { IconBase, type IconBaseProps } from "./icon-base.ts";
-export { createIcon, type IconDefaultAttr } from "./create-icon.ts";
+export type { IconAnimation, IconWeight } from "@mal-icons/core";
 export {
-  IconContext,
   DefaultIconContext,
+  IconContext,
   type SolidIconContextValue,
 } from "./context.ts";
-export type { IconAnimation, IconWeight } from "@mal-icons/core";
+export { createIcon, type IconDefaultAttr } from "./create-icon.ts";
+export { IconBase, type IconBaseProps } from "./icon-base.ts";
 
 // Re-bind core runtime values as local bindings instead of bare re-exports.
 // Bun's splitting bundler emits a pure re-export barrel as a "facade" module

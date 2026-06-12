@@ -1,6 +1,5 @@
 import type { IconContextValue } from "@mal-icons/core";
-import type { InjectionKey } from "vue";
-import type { CSSProperties } from "vue";
+import type { CSSProperties, InjectionKey } from "vue";
 
 /** Theming context value for all mal-icons Vue components. */
 export type VueIconContextValue = IconContextValue<CSSProperties>;

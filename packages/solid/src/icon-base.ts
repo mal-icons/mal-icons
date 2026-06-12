@@ -1,12 +1,12 @@
 import {
+  animationClass,
   type IconAnimation,
   type IconWeight,
-  WEIGHT_STROKE_WIDTH,
-  animationClass,
   resolveIconAttrs,
+  WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";
-import { useContext } from "solid-js";
 import type { JSX } from "solid-js";
+import { useContext } from "solid-js";
 import h from "solid-js/h";
 import { IconContext } from "./context.ts";
 

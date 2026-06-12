@@ -1,9 +1,9 @@
 import { describe, expect, test } from "bun:test";
 import FiActivity from "../src/icons/fi/FiActivity.json" with { type: "json" };
 import {
-  type IconData,
   cdnLoader,
   clearRegistry,
+  type IconData,
   isIconData,
   registerIcons,
   renderIcon,

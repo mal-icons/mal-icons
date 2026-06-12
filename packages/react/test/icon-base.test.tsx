@@ -1,7 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
-import { IconBase, IconContext, createIcon } from "../src/index.ts";
+import { createIcon, IconBase, IconContext } from "../src/index.ts";
 
 const Demo = createIcon("0 0 24 24", [["circle", { cx: "12", cy: "12", r: "10" }]]);
 

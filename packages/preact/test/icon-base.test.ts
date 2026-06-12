@@ -1,7 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { h } from "preact";
 import { renderToString } from "preact-render-to-string";
-import { IconBase, IconContext, createIcon } from "../src/index.ts";
+import { createIcon, IconBase, IconContext } from "../src/index.ts";
 
 const FiActivity = createIcon(
   "0 0 24 24",

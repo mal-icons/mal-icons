@@ -1,12 +1,12 @@
 import {
+  animationClass,
   type IconAnimation,
   type IconWeight,
-  WEIGHT_STROKE_WIDTH,
-  animationClass,
   resolveIconAttrs,
+  WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";
-import { useContext } from "react";
 import type { CSSProperties, ReactNode, SVGAttributes } from "react";
+import { useContext } from "react";
 import { IconContext } from "./context.ts";
 
 /** Props accepted by every generated mal-icons React component. */

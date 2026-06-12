@@ -1,6 +1,6 @@
 import type { NodeTuple } from "@mal-icons/core";
-import { mergeProps } from "solid-js";
 import type { JSX } from "solid-js";
+import { mergeProps } from "solid-js";
 import h from "solid-js/h";
 import { IconBase, type IconBaseProps } from "./icon-base.ts";
 

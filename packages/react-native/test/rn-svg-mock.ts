@@ -1,6 +1,6 @@
 import { mock } from "bun:test";
-import { createElement } from "react";
 import type { ReactNode } from "react";
+import { createElement } from "react";
 
 /**
  * Lightweight `react-native-svg` stand-in for unit tests.

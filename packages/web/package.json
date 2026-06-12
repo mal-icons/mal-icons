@@ -14,9 +14,18 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/web"
   },
-  "keywords": ["icons", "svg", "web-components", "custom-elements", "mal-icons"],
+  "keywords": [
+    "icons",
+    "svg",
+    "web-components",
+    "custom-elements",
+    "mal-icons"
+  ],
   "sideEffects": false,
-  "files": ["dist", "src/icons"],
+  "files": [
+    "dist",
+    "src/icons"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -13,7 +13,13 @@
     "url": "git+https://github.com/mal-icons/mal-icons.git",
     "directory": "packages/eslint-plugin"
   },
-  "keywords": ["eslint", "eslint-plugin", "icons", "tree-shaking", "mal-icons"],
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "icons",
+    "tree-shaking",
+    "mal-icons"
+  ],
   "type": "module",
   "main": "./src/index.ts",
   "exports": {
@@ -24,7 +30,10 @@
     },
     "./package.json": "./package.json"
   },
-  "files": ["dist", "!dist/.tsbuildinfo"],
+  "files": [
+    "dist",
+    "!dist/.tsbuildinfo"
+  ],
   "peerDependencies": {
     "eslint": ">=8"
   },
