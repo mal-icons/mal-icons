@@ -186,22 +186,55 @@ async function buildReact(): Promise<void> {
   const iconFiles = await collect("icons/**/*.tsx", REACT_SRC);
   const barrels = await collect("icons/**/index.ts", REACT_SRC);
   const serverEntry = join(REACT_SRC, "server.tsx");
-  const esmEntrypoints = [join(REACT_SRC, "index.ts"), serverEntry, ...barrels, ...iconFiles];
+
+  // The default entry and every generated icon read theming through React
+  // context/hooks, so they are Client Components. They must carry a top-level
+  // `"use client"` directive so they can be imported into React Server
+  // Components (e.g. Next.js App Router). Bun hoists ESM imports above any
+  // in-source directive, demoting it to a no-op string, so the directive is
+  // injected via `banner` to guarantee it is the first statement of every
+  // emitted client chunk. The hook-free `server.tsx` entry is built
+  // separately, WITHOUT the banner, so it stays a Server Component.
+  const USE_CLIENT = '"use client";';
+  const clientEntrypoints = [join(REACT_SRC, "index.ts"), ...barrels, ...iconFiles];
 
   const esm = await Bun.build({
-    entrypoints: esmEntrypoints,
+    entrypoints: clientEntrypoints,
     outdir: REACT_OUT,
     root: REACT_SRC,
     target: "browser",
     format: "esm",
     splitting: true,
     external: REACT_EXTERNAL,
+    banner: USE_CLIENT,
   });
   if (!esm.success) throw new AggregateError(esm.logs, "react ESM build failed");
 
+  const serverEsm = await Bun.build({
+    entrypoints: [serverEntry],
+    outdir: REACT_OUT,
+    root: REACT_SRC,
+    target: "browser",
+    format: "esm",
+    external: REACT_EXTERNAL,
+  });
+  if (!serverEsm.success) throw new AggregateError(serverEsm.logs, "react server ESM build failed");
+
   // CJS: bundle the public entry points (no splitting in CJS).
   const cjs = await Bun.build({
-    entrypoints: [join(REACT_SRC, "index.ts"), serverEntry, ...barrels],
+    entrypoints: [join(REACT_SRC, "index.ts"), ...barrels],
+    outdir: REACT_OUT,
+    root: REACT_SRC,
+    target: "browser",
+    format: "cjs",
+    external: REACT_EXTERNAL,
+    naming: "[dir]/[name].cjs",
+    banner: USE_CLIENT,
+  });
+  if (!cjs.success) throw new AggregateError(cjs.logs, "react CJS build failed");
+
+  const serverCjs = await Bun.build({
+    entrypoints: [serverEntry],
     outdir: REACT_OUT,
     root: REACT_SRC,
     target: "browser",
@@ -209,7 +242,7 @@ async function buildReact(): Promise<void> {
     external: REACT_EXTERNAL,
     naming: "[dir]/[name].cjs",
   });
-  if (!cjs.success) throw new AggregateError(cjs.logs, "react CJS build failed");
+  if (!serverCjs.success) throw new AggregateError(serverCjs.logs, "react server CJS build failed");
 
   // Copy static assets (sprites + manifest) that are referenced by exports.
   await mkdir(join(REACT_OUT, "icons", "fi"), { recursive: true });

@@ -1,3 +1,5 @@
+"use client";
+
 import { resolveIconAttrs } from "@mal-icons/core";
 import type { CSSProperties } from "react";
 import { useContext } from "react";
