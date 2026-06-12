@@ -24,6 +24,9 @@ export {
   setLoader,
 } from "./dynamic.tsx";
 export { IconBase, type IconBaseProps } from "./icon-base.tsx";
+// Re-export every generated icon set so consumers can also import named icons
+// directly from the package root (e.g. `import { FiSearch } from "@mal-icons/react"`).
+export * from "./icons/fi/index.ts";
 export { SpriteIcon, type SpriteIconProps } from "./sprite-icon.tsx";
 
 // Re-bind core runtime values as local bindings instead of bare re-exports.

@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiSend {
+class FiSend {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["line",{"x1":"22","y1":"2","x2":"11","y2":"13"}],["polygon",{"points":"22 2 15 22 11 13 2 9 22 2"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiSend {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiSend;

@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiRepeat {
+class FiRepeat {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["polyline",{"points":"17 1 21 5 17 9"}],["path",{"d":"M3 11V9a4 4 0 0 1 4-4h14"}],["polyline",{"points":"7 23 3 19 7 15"}],["path",{"d":"M21 13v2a4 4 0 0 1-4 4H3"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiRepeat {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiRepeat;

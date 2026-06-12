@@ -6,7 +6,7 @@ import { registerReactNativeSvgMock } from "./rn-svg-mock.ts";
 // Mock `react-native-svg` before the adapter (and its icons) are imported.
 registerReactNativeSvgMock();
 
-const { FiActivity } = await import("../src/icons/fi/FiActivity.tsx");
+const { default: FiActivity } = await import("../src/icons/fi/FiActivity.tsx");
 const { IconContext } = await import("../src/index.ts");
 
 function attr(svg: string, name: string): string {

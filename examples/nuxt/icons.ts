@@ -1,3 +1,8 @@
+// Three equivalent ways to import an icon — pick whichever you prefer:
+//   import FiSearch from "@mal-icons/vue/fi/FiSearch"; // per-icon default
+//   import { FiSearch } from "@mal-icons/vue/fi";      // set barrel (named)
+//   import { FiSearch } from "@mal-icons/vue";         // package root (named)
+// This demo uses the set barrel below for a compact, tree-shakeable list.
 import {
   FiActivity,
   FiArrowRight,

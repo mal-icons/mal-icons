@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiVoicemail {
+class FiVoicemail {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["circle",{"cx":"5.5","cy":"11.5","r":"4.5"}],["circle",{"cx":"18.5","cy":"11.5","r":"4.5"}],["line",{"x1":"5.5","y1":"16","x2":"18.5","y2":"16"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiVoicemail {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiVoicemail;

@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiMinusCircle {
+class FiMinusCircle {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["circle",{"cx":"12","cy":"12","r":"10"}],["line",{"x1":"8","y1":"12","x2":"16","y2":"12"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiMinusCircle {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiMinusCircle;

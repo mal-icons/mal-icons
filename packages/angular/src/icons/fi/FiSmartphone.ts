@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiSmartphone {
+class FiSmartphone {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["rect",{"x":"5","y":"2","width":"14","height":"20","rx":"2","ry":"2"}],["line",{"x1":"12","y1":"18","x2":"12.01","y2":"18"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiSmartphone {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiSmartphone;

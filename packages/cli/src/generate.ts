@@ -63,7 +63,7 @@ function iconFileContents(icon: GeneratedIcon): string {
   const nodesLiteral = serializeNodes(icon.nodes);
   const hasDefaults = Object.keys(icon.defaultAttr).length > 0;
   const defaultsArg = hasDefaults ? `, ${JSON.stringify(icon.defaultAttr)}` : "";
-  return `import { createIcon } from "../../create-icon.tsx";\n\nexport const ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${defaultsArg});\n`;
+  return `import { createIcon } from "../../create-icon.tsx";\n\nconst ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${defaultsArg});\n\nexport default ${icon.componentName};\n`;
 }
 
 /** Vue per-icon module using the Vue `createIcon` factory. */
@@ -71,7 +71,7 @@ function vueIconFileContents(icon: GeneratedIcon): string {
   const nodesLiteral = serializeNodesKebab(icon.nodes);
   const hasDefaults = Object.keys(icon.defaultAttr).length > 0;
   const defaultsArg = hasDefaults ? `, ${JSON.stringify(kebabAttrs(icon.defaultAttr))}` : "";
-  return `import { createIcon } from "../../create-icon.ts";\n\nexport const ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${defaultsArg});\n`;
+  return `import { createIcon } from "../../create-icon.ts";\n\nconst ${icon.componentName} = createIcon("${icon.viewBox}", ${nodesLiteral}${defaultsArg});\n\nexport default ${icon.componentName};\n`;
 }
 
 /**
@@ -102,7 +102,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: \`<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>\`,
 })
-export class ${icon.componentName} {
+class ${icon.componentName} {
   readonly viewBox = "${icon.viewBox}";
   readonly nodes: NodeTuple[] = ${nodesLiteral};
 ${defaultLine}  @Input() size?: string | number;
@@ -110,6 +110,8 @@ ${defaultLine}  @Input() size?: string | number;
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default ${icon.componentName};
 `;
 }
 
@@ -214,7 +216,9 @@ export async function generateSet(
   const namesConst = `${source.id}IconNames`;
   const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
   const barrel = `${icons
-    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.tsx";`)
+    .map(
+      (icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.tsx";`,
+    )
     .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
 
@@ -256,7 +260,7 @@ async function emitVueSet(source: IconSource, icons: GeneratedIcon[]): Promise<v
   }
 
   const barrel = `${icons
-    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.ts";`)
+    .map((icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.ts";`)
     .join("\n")}\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
 }
@@ -293,7 +297,9 @@ async function emitReactNativeSet(source: IconSource, icons: GeneratedIcon[]): P
   const namesConst = `${source.id}IconNames`;
   const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
   const barrel = `${icons
-    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.tsx";`)
+    .map(
+      (icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.tsx";`,
+    )
     .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
   await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
@@ -326,7 +332,7 @@ async function emitPreactSet(source: IconSource, icons: GeneratedIcon[]): Promis
   const namesConst = `${source.id}IconNames`;
   const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
   const barrel = `${icons
-    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.ts";`)
+    .map((icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.ts";`)
     .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
   await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
@@ -345,7 +351,7 @@ async function emitSolidSet(source: IconSource, icons: GeneratedIcon[]): Promise
   const namesConst = `${source.id}IconNames`;
   const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
   const barrel = `${icons
-    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.ts";`)
+    .map((icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.ts";`)
     .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
   await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
@@ -367,7 +373,7 @@ async function emitAngularSet(source: IconSource, icons: GeneratedIcon[]): Promi
   const namesConst = `${source.id}IconNames`;
   const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
   const barrel = `${icons
-    .map((icon) => `export { ${icon.componentName} } from "./${icon.componentName}.ts";`)
+    .map((icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.ts";`)
     .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
   await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));

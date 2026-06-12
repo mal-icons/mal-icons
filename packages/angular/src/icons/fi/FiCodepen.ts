@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiCodepen {
+class FiCodepen {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["polygon",{"points":"12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"}],["line",{"x1":"12","y1":"22","x2":"12","y2":"15.5"}],["polyline",{"points":"22 8.5 12 15.5 2 8.5"}],["polyline",{"points":"2 15.5 12 8.5 22 15.5"}],["line",{"x1":"12","y1":"2","x2":"12","y2":"8.5"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiCodepen {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiCodepen;

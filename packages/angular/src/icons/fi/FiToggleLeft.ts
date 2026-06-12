@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiToggleLeft {
+class FiToggleLeft {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["rect",{"x":"1","y":"5","width":"22","height":"14","rx":"7","ry":"7"}],["circle",{"cx":"8","cy":"12","r":"3"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiToggleLeft {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiToggleLeft;

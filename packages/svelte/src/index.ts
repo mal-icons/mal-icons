@@ -5,3 +5,6 @@ export {
   setIconContext,
 } from "./context.ts";
 export { default as IconBase } from "./IconBase.svelte";
+// Re-export every generated icon set so consumers can also import named icons
+// directly from the package root (e.g. `import { FiSearch } from "@mal-icons/svelte"`).
+export * from "./icons/fi/index.ts";

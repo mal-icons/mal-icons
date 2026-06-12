@@ -9,7 +9,7 @@ import { IconBaseComponent } from "../../icon-base.ts";
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
 })
-export class FiRewind {
+class FiRewind {
   readonly viewBox = "0 0 24 24";
   readonly nodes: NodeTuple[] = [["polygon",{"points":"11 19 2 12 11 5 11 19"}],["polygon",{"points":"22 19 13 12 22 5 22 19"}]];
   readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
@@ -18,3 +18,5 @@ export class FiRewind {
   @Input() title?: string;
   @Input() className?: string;
 }
+
+export default FiRewind;
