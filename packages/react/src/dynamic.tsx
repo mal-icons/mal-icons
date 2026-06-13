@@ -1,3 +1,5 @@
+"use client";
+
 import type { IconData } from "@mal-icons/core";
 import { type ComponentType, createElement, useEffect, useState } from "react";
 import { IconBase, type IconBaseProps } from "./icon-base.tsx";

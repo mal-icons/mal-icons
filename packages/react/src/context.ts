@@ -1,3 +1,5 @@
+"use client";
+
 import type { IconContextValue } from "@mal-icons/core";
 import type { CSSProperties } from "react";
 import { createContext } from "react";
