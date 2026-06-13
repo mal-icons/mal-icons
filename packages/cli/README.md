@@ -1,7 +1,4 @@
-# @mal-icons/cli
-
-[![npm](https://img.shields.io/npm/v/@mal-icons/cli.svg)](https://www.npmjs.com/package/@mal-icons/cli)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
+# mal-icons/cli
 
 The Bun-powered build pipeline and developer-tooling CLI for
 [**mal-icons**](https://github.com/mal-icons/mal-icons). It fetches upstream
@@ -12,12 +9,17 @@ produces license reports.
 > Built and run with [Bun](https://bun.sh). The `mal-icons` bin executes
 > TypeScript directly.
 
-## Installation
+> **Note:** This package is internal to the mal-icons monorepo and is **not
+> published to npm**. It is run from within the repository using Bun.
+
+## Usage
+
+Clone the [mal-icons](https://github.com/mal-icons/mal-icons) repository and run
+the CLI directly from the workspace with Bun:
 
 ```bash
-bun add -d @mal-icons/cli
-# or run ad hoc
-bunx @mal-icons/cli <command>
+bun install
+bun run packages/cli/src/index.ts <command>
 ```
 
 ## Commands
