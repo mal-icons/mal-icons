@@ -72,11 +72,22 @@ import {
 } from "@mal-icons/svelte";
 ```
 
+## Icons
+
+The bundled icon sets, their upstream licenses, pinned versions, and counts:
+
+| Icon Library                             | License                                                                           | Version | Count |
+| ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+
 ## Subpath exports
 
 | Import                                   | Contents                          |
 | ---------------------------------------- | --------------------------------- |
 | `@mal-icons/svelte`                      | Adapter and context helpers       |
+| `@mal-icons/svelte/ci`                   | All Circum icons (named exports)  |
+| `@mal-icons/svelte/ci/CiHeart.svelte`    | A single Circum icon component    |
 | `@mal-icons/svelte/fi`                   | All Feather icons (named exports) |
 | `@mal-icons/svelte/fi/FiActivity.svelte` | A single icon component           |
 

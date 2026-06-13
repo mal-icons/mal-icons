@@ -82,11 +82,22 @@ import {
 } from "@mal-icons/preact";
 ```
 
+## Icons
+
+The bundled icon sets, their upstream licenses, pinned versions, and counts:
+
+| Icon Library                             | License                                                                           | Version | Count |
+| ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+
 ## Subpath exports
 
 | Import                            | Contents                          |
 | --------------------------------- | --------------------------------- |
 | `@mal-icons/preact`               | Adapter and context               |
+| `@mal-icons/preact/ci`            | All Circum icons (named exports)  |
+| `@mal-icons/preact/ci/CiHeart`    | A single Circum icon module       |
 | `@mal-icons/preact/fi`            | All Feather icons (named exports) |
 | `@mal-icons/preact/fi/FiActivity` | A single icon module              |
 

@@ -48,6 +48,17 @@ framework-specific installation, theming, and API docs.
 | [`@mal-icons/cli`](./packages/cli)                     | Build pipeline + vendoring/search/license CLI       |
 | [`@mal-icons/eslint-plugin`](./packages/eslint-plugin) | Lint rules for correct, minimal icon usage          |
 
+## Icons
+
+The bundled icon sets, their upstream licenses, pinned versions, and counts:
+
+| Icon Library                             | License                                                                           | Version | Count |
+| ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+
+Each set is exposed under its own subpath (`/ci`, `/fi`) and at the package root.
+
 ## Installation
 
 Install the adapter for your framework:

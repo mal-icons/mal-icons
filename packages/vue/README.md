@@ -88,11 +88,22 @@ import {
 } from "@mal-icons/vue";
 ```
 
+## Icons
+
+The bundled icon sets, their upstream licenses, pinned versions, and counts:
+
+| Icon Library                             | License                                                                           | Version | Count |
+| ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+
 ## Subpath exports
 
 | Import                         | Contents                          |
 | ------------------------------ | --------------------------------- |
 | `@mal-icons/vue`               | Adapter and theming helpers       |
+| `@mal-icons/vue/ci`            | All Circum icons (named exports)  |
+| `@mal-icons/vue/ci/CiHeart`    | A single Circum icon module       |
 | `@mal-icons/vue/fi`            | All Feather icons (named exports) |
 | `@mal-icons/vue/fi/FiActivity` | A single icon module              |
 

@@ -47,12 +47,22 @@ import FiActivity from "@mal-icons/astro/fi/FiActivity.astro";
 | `title` | `string`           | Accessible label                     |
 | `class` | `string`           | Additional class names               |
 
+## Icons
+
+The bundled icon sets, their upstream licenses, pinned versions, and counts:
+
+| Icon Library                             | License                                                                           | Version | Count |
+| ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+
 ## Subpath exports
 
-| Import                                 | Contents                  |
-| -------------------------------------- | ------------------------- |
-| `@mal-icons/astro/fi/FiActivity.astro` | A single icon component   |
-| `@mal-icons/astro/IconBase.astro`      | The shared base component |
+| Import                                 | Contents                       |
+| -------------------------------------- | ------------------------------ |
+| `@mal-icons/astro/ci/CiHeart.astro`    | A single Circum icon component |
+| `@mal-icons/astro/fi/FiActivity.astro` | A single icon component        |
+| `@mal-icons/astro/IconBase.astro`      | The shared base component      |
 
 ## Example
 

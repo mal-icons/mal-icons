@@ -41,6 +41,7 @@ Fetch a set and emit per-framework, tree-shakeable icon modules:
 
 ```bash
 mal-icons generate --set fi          # download + generate the Feather set
+mal-icons generate --set ci          # download + generate the Circum set
 mal-icons generate --set fi --no-fetch  # reuse the local SVG cache
 mal-icons generate --set fi --limit 20  # quick partial run
 ```
