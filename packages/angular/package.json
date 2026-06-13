@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/angular",
-  "version": "0.3.8",
+  "version": "0.4.8",
   "description": "Angular standalone components for mal-icons.",
   "type": "module",
   "license": "MIT",
