@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/solid",
-  "version": "0.4.8",
+  "version": "0.5.9",
   "description": "SolidJS components for mal-icons.",
   "type": "module",
   "license": "MIT",

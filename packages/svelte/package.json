@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/svelte",
-  "version": "0.4.8",
+  "version": "0.5.9",
   "description": "Svelte components for mal-icons.",
   "type": "module",
   "license": "MIT",

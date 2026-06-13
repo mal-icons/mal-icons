@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/preact",
-  "version": "0.4.8",
+  "version": "0.5.9",
   "description": "Preact components for mal-icons.",
   "type": "module",
   "license": "MIT",
