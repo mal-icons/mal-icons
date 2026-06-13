@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CiCircleChevLeft = createIcon("0 0 24 24", [["g",{"data-name":"Circle Chev Left"}],["path",{"d":"M10.15,12.35a0.490.49,0,0,1,0-0.7l3-3a0.50.5,0,0,1,0.70.7L11.21,12l2.64,2.65a0.50.5,0,0,1-0.70.7Z"}],["path",{"d":"M12,21.93A9.93,9.93,0,1,1,21.93,12,9.94,9.94,0,0,1,12,21.93ZM12,3.07A8.93,8.93,0,1,0,20.93,12,8.94,8.94,0,0,0,12,3.07Z"}]]);
+
+export default CiCircleChevLeft;

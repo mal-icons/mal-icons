@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-alarm-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiAlarmOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Alarm Off"}],["path",{"d":"M4.56,3.86a0.50.5,0,0,0-0.70.71l0.290.29-0.50.5a2.02,2.02,0,0,0-0.01,2.85l0.650.67a8.27,8.27,0,0,0-0.71,3.39A8.43,8.43,0,0,0,12,20.69a8.28,8.28,0,0,0,5.72-2.26c0.570.57,1.14,1.15,1.71,1.71a0.50.5,0,0,0,0.71-0.7Zm-0.21,2.210.51-0.5c0.320.330.650.650.980.98a6.38,6.38,0,0,0-1.06,1.4l-0.43-0.44A1.03,1.03,0,0,1,4.35,6.07ZM12,19.69a7.43,7.43,0,0,1-7.42-7.42,7.31,7.31,0,0,1,1.96-5.02l2.59,2.59q3.95,3.95,7.88,7.88A7.27,7.27,0,0,1,12,19.69Z"}],["path",{"d":"M20.35,8.22a2.04,2.04,0,0,0,0-2.86l-1.46-1.45a2.01,2.01,0,0,0-2.85,0l-0.680.67a8.53,8.53,0,0,0-6.38-0.17c-0.60.23-0.34,1.190.270.97a7.42,7.42,0,0,1,9.64,9.64c-0.220.60.740.860.970.26a8.51,8.51,0,0,0-0.17-6.39Zm-2.4-1.9a8.07,8.07,0,0,0-1.65-1.27l0.44-0.43a1.03,1.03,0,0,1,1.45,0l1.45,1.45a1.01,1.01,0,0,1,0,1.44l-0.430.44A8.26,8.26,0,0,0,17.95,6.32Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiAlarmOff;

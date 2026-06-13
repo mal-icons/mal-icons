@@ -27,6 +27,7 @@
   ],
   "exports": {
     "./IconBase.astro": "./src/IconBase.astro",
+    "./ci/*": "./src/icons/ci/*.astro",
     "./fi/*": "./src/icons/fi/*.astro",
     "./package.json": "./package.json"
   },

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-hashtag",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiHashtag {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.43,15.51H16.2l0.61-7h3.63a0.50.5,0,0,0,0.5-0.50.50.5,0,0,0-0.5-0.5H16.9l0.34-3.87a0.510.51,0,0,0-0.46-0.540.50.5,0,0,0-0.540.46l-0.35,3.95H8.9l0.34-3.87a0.510.51,0,0,0-0.46-0.540.490.49,0,0,0-0.540.46l-0.35,3.95H3.57a0.50.5,0,0,0-0.50.50.50.5,0,0,0,0.50.5h4.24l-0.62,7H3.57a0.50.5,0,0,0-0.50.50.50.5,0,0,0,0.50.5h3.54l-0.34,3.86a0.510.51,0,0,0,0.450.54h0.05a0.520.52,0,0,0,0.5-0.46l0.34-3.94h7l-0.34,3.86a0.510.51,0,0,0,0.450.54h0.05a0.520.52,0,0,0,0.5-0.46l0.34-3.94h4.33a0.50.5,0,0,0,0.5-0.5A0.50.5,0,0,0,20.43,15.51Zm-5.25,0H8.2l0.61-7h7Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiHashtag;

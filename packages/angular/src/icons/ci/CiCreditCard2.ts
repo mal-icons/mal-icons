@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-credit-card-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiCreditCard2 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Credit Card 2"}],["path",{"d":"M19.44,18.86H4.56a2.5,2.5,0,0,1-2.5-2.5V7.64a2.5,2.5,0,0,1,2.5-2.5H19.44a2.5,2.5,0,0,1,2.5,2.5v8.72A2.5,2.5,0,0,1,19.44,18.86ZM4.56,6.14a1.5,1.5,0,0,0-1.5,1.5v8.72a1.5,1.5,0,0,0,1.5,1.5H19.44a1.5,1.5,0,0,0,1.5-1.5V7.64a1.5,1.5,0,0,0-1.5-1.5Z"}],["path",{"d":"M8.06,14.25h-3a0.50.5,0,1,1,0-1h3a0.50.5,0,1,1,0,1Z"}],["path",{"d":"M18.93,14.25h-6.5a0.50.5,0,0,1,0-1h6.5a0.50.5,0,0,1,0,1Z"}],["rect",{"x":"16.43","y":"7.14","width":"2","height":"4","rx":"0.5","transform":"translate(8.293 26.574) rotate(-90)"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiCreditCard2;

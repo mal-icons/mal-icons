@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-gps",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiGps {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12,14.5A2.5,2.5,0,1,1,14.5,12,2.5,2.5,0,0,1,12,14.5Zm0-4A1.5,1.5,0,1,0,13.5,12,1.5,1.5,0,0,0,12,10.5Z"}],["path",{"d":"M21.44,11.51h-1.46a7.98,7.98,0,0,0-7.48-7.48V2.57a0.510.51,0,0,0-0.5-0.50.520.52,0,0,0-0.50.5v1.46a8,8,0,0,0-7.48,7.48H2.57a0.50.5,0,1,0,0,1h1.45a8.01,8.01,0,0,0,7.48,7.48v1.45a0.510.51,0,0,0,0.50.50.50.5,0,0,0,0.5-0.5v-1.45a8,8,0,0,0,7.48-7.48h1.46a0.50.5,0,0,0,0-1ZM12,19.01a7,7,0,1,1,7-7A7.02,7.02,0,0,1,12,19.01Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiGps;

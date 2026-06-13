@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-compass-1",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiCompass1 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Compass 1"}],["path",{"d":"M4.66,20.94a1.59,1.59,0,0,1-1.12-0.48,1.53,1.53,0,0,1-0.4-1.59L6.58,8.94A3.8,3.8,0,0,1,8.94,6.58l9.93-3.44a1.54,1.54,0,0,1,1.590.4,1.53,1.53,0,0,1,0.4,1.59L17.42,15.06a3.8,3.8,0,0,1-2.36,2.36l-9.93,3.44A1.44,1.44,0,0,1,4.66,20.94ZM19.34,4.06a0.420.42,0,0,0-0.140.02L9.27,7.53A2.8,2.8,0,0,0,7.53,9.27L4.09,19.2a0.60.6,0,0,0,0.720.72l9.93-3.44a2.8,2.8,0,0,0,1.74-1.74L19.91,4.8a0.550.55,0,0,0-0.16-0.55A0.610.61,0,0,0,19.34,4.06Z"}],["circle",{"cx":"12","cy":"12","r":"1.56"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiCompass1;

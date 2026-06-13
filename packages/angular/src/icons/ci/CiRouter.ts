@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-router",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiRouter {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.44,10.94H17.93V4.54a0.50.5,0,0,0-1,0v6.4H7.06V7a0.50.5,0,0,0-1,0v3.94H4.56a2.51,2.51,0,0,0-2.5,2.5v4a2.51,2.51,0,0,0,2.5,2.5H19.44a2.51,2.51,0,0,0,2.5-2.5v-4A2.5,2.5,0,0,0,19.44,10.94Zm1.5,6.5a1.5,1.5,0,0,1-1.5,1.5H4.56a1.51,1.51,0,0,1-1.5-1.5v-4a1.5,1.5,0,0,1,1.5-1.5H19.44a1.5,1.5,0,0,1,1.5,1.5Z"}],["circle",{"cx":"4.75","cy":"15.44","r":"0.75"}],["circle",{"cx":"8.25","cy":"15.44","r":"0.75"}],["path",{"d":"M18.5,16.94h-5a1.5,1.5,0,1,1,0-3h5a1.5,1.5,0,0,1,0,3Zm-5-2a0.50.5,0,1,0,0,1h5a0.50.5,0,0,0,0-1Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiRouter;

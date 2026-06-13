@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-burger",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiBurger {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.33,11.02a7.34,7.34,0,0,0-14.66,0,2.01,2.01,0,0,0-1.6,1.96v0.16a2.02,2.02,0,0,0,1.64,1.97l0.27,2.45a2.59,2.59,0,0,0,2.59,2.32h8.87a2.59,2.59,0,0,0,2.59-2.32l0.27-2.45a2.02,2.02,0,0,0,1.64-1.97v-0.16A2,2,0,0,0,19.33,11.02ZM12,5.13a6.37,6.37,0,0,1,6.34,5.85H5.67A6.36,6.36,0,0,1,12,5.13Zm6.04,12.32a1.6,1.6,0,0,1-1.6,1.43H7.57a1.6,1.6,0,0,1-1.6-1.43l-0.26-2.31H18.3Zm1.9-4.31a1,1,0,0,1-1,1H5.07a1,1,0,0,1-1-1v-0.16a1,1,0,0,1,1-1h13.87a1,1,0,0,1,1,1Z"}],["circle",{"cx":"12","cy":"6.62","r":"0.5"}],["circle",{"cx":"8.32","cy":"8.32","r":"0.5"}],["circle",{"cx":"15.68","cy":"8.32","r":"0.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiBurger;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-import",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiImport {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.55,20.97a2.58,2.58,0,0,1-2.5-2.73c-0.01-2.15,0-4.31,0-6.46a0.50.5,0,0,1,1,0c0,2.2-0.03,4.4,0,6.60.02,1.110.85,1.59,1.84,1.59H18.35A1.55,1.55,0,0,0,19.83,19a3.02,3.02,0,0,0,0.1-1.06V11.78h0a0.50.5,0,0,1,1,0c0,2.220.09,4.47,0,6.69a2.57,2.57,0,0,1-2.67,2.5Z"}],["path",{"d":"M11.63,15.82a0.460.46,0,0,0,0.310.14c0.01,0,0.030.010.040.01s0.03,0,0.04-0.01a0.460.46,0,0,0,0.31-0.14l3.67-3.67a0.50.5,0,0,0-0.71-0.71l-2.81,2.82V3.52a0.50.5,0,0,0-1,0V14.26L8.67,11.44a0.50.5,0,0,0-0.710.71Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiImport;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-facebook",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiFacebook {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.02,4.97A9.93,9.93,0,0,0,2.07,12,9.94,9.94,0,0,0,12,21.94a9.98,9.98,0,0,0,3.8-0.75,10.19,10.19,0,0,0,3.22-2.16,9.93,9.93,0,0,0,0-14.05Zm-0.7,13.34A8.92,8.92,0,0,1,13,20.89v-6.56h1.88a1,1,0,0,0,0-2H13V9.59a1,1,0,0,1,1-1h1.2a1,1,0,0,0,0-2H13.5a2.5,2.5,0,0,0-2.5,2.5v3.24H9.13a1,1,0,1,0,0,2H11v6.56a8.92,8.92,0,1,1,9.26-5.47A9.06,9.06,0,0,1,18.32,18.32Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiFacebook;

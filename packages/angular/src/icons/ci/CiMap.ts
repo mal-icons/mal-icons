@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-map",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiMap {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.21,4.58a1.91,1.91,0,0,0-1.63-0.35l-3.530.89a1.09,1.09,0,0,1-0.44,0L9.63,3.88a2.04,2.04,0,0,0-0.92,0L4.5,4.94a1.89,1.89,0,0,0-1.44,1.84v11.15a1.87,1.87,0,0,0,0.73,1.5,1.91,1.91,0,0,0,1.630.35l3.53-0.89a1.09,1.09,0,0,1,0.44,0l4.98,1.24a2.32,2.32,0,0,0,0.460.05,2.4,2.4,0,0,0,0.46-0.05l4.21-1.06a1.89,1.89,0,0,0,1.44-1.84V6.08A1.87,1.87,0,0,0,20.21,4.58ZM8.67,17.93l-3.490.87a0.890.89,0,0,1-1.12-0.87V6.78a0.90.9,0,0,1,0.68-0.87l3.93-0.99Zm5.66,1.16-4.66-1.16V4.92l4.66,1.16Zm5.61-1.86a0.90.9,0,0,1-0.680.87l-3.930.99V6.08l3.49-0.87a0.910.91,0,0,1,0.780.160.890.89,0,0,1,0.340.71Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiMap;

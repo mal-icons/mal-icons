@@ -41,7 +41,7 @@ function optimizeNode(node: IconNode): IconNode {
   for (const [rawKey, rawVal] of Object.entries(node.attr)) {
     if (DROP_ATTRS.has(rawKey)) continue;
     let val = rawVal;
-    if (COORD_ATTRS.has(rawKey)) val = roundNumbers(val);
+    if (COORD_ATTRS.has(rawKey)) val = roundNumbers(val).replace(/\s+/g, " ").trim();
     // Replace concrete colors with currentColor; keep "none" as-is.
     if ((rawKey === "fill" || rawKey === "stroke") && val !== "none") {
       val = "currentColor";
@@ -65,7 +65,12 @@ export interface OptimizedIcon {
  * the relevant root presentation attributes into `defaultAttr`.
  */
 export function optimize(parsed: ParsedSvg, source: IconSource): OptimizedIcon {
-  const nodes = parsed.nodes.map(optimizeNode);
+  const nodes = parsed.nodes
+    .map(optimizeNode)
+    // Fill sets (e.g. Circum) wrap paths in a presentational `<g id="…">`.
+    // Once the id is stripped the group carries nothing, so drop the empty
+    // wrapper rather than emit a useless `<g></g>` element.
+    .filter((n) => !(n.tag === "g" && Object.keys(n.attr).length === 0));
 
   const defaultAttr: Record<string, string | number> = {};
   if (source.style === "stroke") {

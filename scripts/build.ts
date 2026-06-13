@@ -245,13 +245,15 @@ async function buildReact(): Promise<void> {
   if (!serverCjs.success) throw new AggregateError(serverCjs.logs, "react server CJS build failed");
 
   // Copy static assets (sprites + manifest) that are referenced by exports.
-  await mkdir(join(REACT_OUT, "icons", "fi"), { recursive: true });
-  const sprite = Bun.file(join(REACT_SRC, "icons", "fi", "sprite.svg"));
-  if (await sprite.exists()) {
-    await cp(
-      join(REACT_SRC, "icons", "fi", "sprite.svg"),
-      join(REACT_OUT, "icons", "fi", "sprite.svg"),
-    );
+  for (const set of ["ci", "fi"]) {
+    await mkdir(join(REACT_OUT, "icons", set), { recursive: true });
+    const sprite = Bun.file(join(REACT_SRC, "icons", set, "sprite.svg"));
+    if (await sprite.exists()) {
+      await cp(
+        join(REACT_SRC, "icons", set, "sprite.svg"),
+        join(REACT_OUT, "icons", set, "sprite.svg"),
+      );
+    }
   }
   const manifest = Bun.file(join(REACT_SRC, "icons", "manifest.json"));
   if (await manifest.exists()) {

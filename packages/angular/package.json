@@ -33,6 +33,14 @@
       "bun": "./src/index.ts",
       "import": "./src/index.ts"
     },
+    "./ci": {
+      "bun": "./src/icons/ci/index.ts",
+      "import": "./src/icons/ci/index.ts"
+    },
+    "./ci/*": {
+      "bun": "./src/icons/ci/*.ts",
+      "import": "./src/icons/ci/*.ts"
+    },
     "./fi": {
       "bun": "./src/icons/fi/index.ts",
       "import": "./src/icons/fi/index.ts"

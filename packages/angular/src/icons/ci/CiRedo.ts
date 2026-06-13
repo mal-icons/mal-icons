@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-redo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiRedo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.06,13.67A7.96,7.96,0,0,0,16.2,19.74a8.06,8.06,0,0,0,3.77-6.770.50.5,0,0,0-1,0,6.98,6.98,0,0,1-11,5.7,6.97,6.97,0,0,1,1-11.97,10.07,10.07,0,0,1,4.64-0.69V7.46a0.50.5,0,0,0,0.810.39l2.47-1.95a0.50.5,0,0,0,0-0.79L14.4,3.17a0.50.5,0,0,0-0.80.4V5.01c-0.71-0.01-1.43-0.03-2.130.02a7.99,7.99,0,0,0-7.41,8.64Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiRedo;

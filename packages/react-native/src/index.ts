@@ -5,6 +5,7 @@ export { createIcon, type IconComponent, type IconDefaultAttr } from "./create-i
 export { IconBase, type IconBaseProps } from "./icon-base.tsx";
 // Re-export every generated icon set so consumers can also import named icons
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/react-native"`).
+export * from "./icons/ci/index.ts";
 export * from "./icons/fi/index.ts";
 
 // Re-bind as a local binding instead of a bare re-export. Bun's splitting

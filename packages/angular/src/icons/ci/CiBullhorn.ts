@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-bullhorn",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiBullhorn {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.5,16.47c-0.85,-0.4 -1.44,-1.26 -1.44,-2.26l0,-4.42c0,-1.38 1.12,-2.5 2.5,-2.5l4.34,0c0.79,0 1.58,-0.13 2.33,-0.39c1.86,-0.7 3.79,-1.73 5.24,-2.92l0.87,-0.72c0.02,-0.01 0.03,-0.02 0.05,-0.04c0.67,-0.42 1.54,0.05 1.54,0.84l0,6.72c0.57,0.11 1,0.61 1,1.22c0,0.6 -0.43,1.11 -1,1.22l0,6.72c0,0.79 -0.87,1.27 -1.54,0.84c-0.02,-0.01 -0.03,-0.02 -0.05,-0.04l-0.87,-0.72c-1.45,-1.19 -3.36,-2.21 -5.23,-2.89c-0.75,-0.26 -1.54,-0.39 -2.33,-0.39c-0.61,-0.03 -1.26,-0.03 -1.26,-0.03l0,2.15c0,1.15 -0.93,2.08 -2.08,2.08c-1.15,0 -2.08,-0.93 -2.08,-2.08l0,-2.38Zm1,0.24l0,2.15c0,0.6 0.48,1.08 1.08,1.08c0.6,0 1.08,-0.48 1.08,-1.08c0,0 0,-2.15 0,-2.15l-2.09,0c-0.03,0 -0.05,0 -0.06,0Zm6,-0.88l0.14,0.04c2.37,0.66 4.58,1.82 6.47,3.39l0.82,0.68l0,-15.86l-0.82,0.68c-1.9,1.57 -4.1,2.72 -6.47,3.38l-0.14,0.04l0,7.66Zm-2.84,-0.12l1.84,0l0,-7.42l-4.94,0c-0.83,0 -1.5,0.67 -1.5,1.5l0,4.42c0,0.83 0.67,1.5 1.5,1.5l3.1,0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiBullhorn;

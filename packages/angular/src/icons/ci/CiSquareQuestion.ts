@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-square-question",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiSquareQuestion {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Square Question"}],["path",{"d":"M11.41,12.46a1.56,1.56,0,0,1,0.34-0.6,2.68,2.68,0,0,1,0.54-0.42,2.2,2.2,0,0,0,0.36-0.28,1.22,1.22,0,0,0,0.26-0.36A1.08,1.08,0,0,0,13,10.34a0.930.93,0,0,0-0.14-0.520.950.95,0,0,0-0.37-0.34,1.14,1.14,0,0,0-0.52-0.12,1.19,1.19,0,0,0-0.50.110.930.93,0,0,0-0.390.340.880.88,0,0,0-0.110.220.520.52,0,0,1-0.480.36h0a0.510.51,0,0,1-0.48-0.67,1.65,1.65,0,0,1,0.18-0.35,1.79,1.79,0,0,1,0.75-0.63,2.61,2.61,0,0,1,2.110.02,1.73,1.73,0,0,1,0.720.64,1.77,1.77,0,0,1,0.260.96,1.83,1.83,0,0,1-0.120.68,1.67,1.67,0,0,1-0.330.54,2.29,2.29,0,0,1-0.520.42,2.25,2.25,0,0,0-0.460.37,1.1,1.1,0,0,0-0.260.45,2.34,2.34,0,0,0-0.040.280.490.49,0,0,1-0.480.43h0a0.480.48,0,0,1-0.48-0.53A2.93,2.93,0,0,1,11.41,12.46Z"}],["circle",{"cx":"11.79","cy":"14.89","r":"0.59"}],["path",{"d":"M18.44,20.94H5.56a2.5,2.5,0,0,1-2.5-2.5V5.56a2.5,2.5,0,0,1,2.5-2.5H18.44a2.5,2.5,0,0,1,2.5,2.5V18.44A2.5,2.5,0,0,1,18.44,20.94ZM5.56,4.06a1.5,1.5,0,0,0-1.5,1.5V18.44a1.5,1.5,0,0,0,1.5,1.5H18.44a1.5,1.5,0,0,0,1.5-1.5V5.56a1.5,1.5,0,0,0-1.5-1.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiSquareQuestion;

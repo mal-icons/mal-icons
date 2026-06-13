@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-rainbow",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiRainbow {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.09,16.71A9,9,0,0,1,8.97,8.33,8.91,8.91,0,0,1,20.91,16.71a0.50.5,0,0,0,1,0,10.03,10.03,0,0,0-6.46-9.29,9.98,9.98,0,0,0-11.06,2.94,10.06,10.06,0,0,0-2.3,6.350.50.5,0,0,0,1,0Z"}],["path",{"d":"M5.99,16.71A6.08,6.08,0,0,1,12,10.7a6.08,6.08,0,0,1,6.02,6.020.50.5,0,0,0,1,0A7.01,7.01,0,0,0,6.61,12.23,7.15,7.15,0,0,0,4.99,16.71a0.50.5,0,0,0,1,0Z"}],["path",{"d":"M8.88,16.71a3.12,3.12,0,0,1,6.24,0,0.50.5,0,0,0,1,0,4.12,4.12,0,0,0-7.25-2.67A4.22,4.22,0,0,0,7.88,16.71a0.50.5,0,0,0,1,0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiRainbow;

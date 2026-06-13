@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-location-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiLocationOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Location Off"}],["path",{"d":"M18.2,14.46a0.50.5,0,0,1-0.42-0.77A6.79,6.79,0,0,0,18.83,9.06a6.91,6.91,0,0,0-6.02-5.95A6.83,6.83,0,0,0,8.25,4.18a0.50.5,0,1,1-0.55-0.84,7.88,7.88,0,0,1,10.91,10.9A0.50.5,0,0,1,18.2,14.46Z"}],["path",{"d":"M4,3.3a0.50.5,0,0,0-0.70.7l1.92,1.92a7.78,7.78,0,0,0-1.11,4.03A7.88,7.88,0,0,0,5.55,14.5l5.06,6.74a1.72,1.72,0,0,0,1.390.69,1.71,1.71,0,0,0,1.38-0.69l3.06-4.09c0.50.490.990.99,1.48,1.480.70.69,1.39,1.38,2.08,2.070.450.46,1.16-0.250.7-0.71Zm8.58,17.34a0.730.73,0,0,1-0.580.290.750.75,0,0,1-0.59-0.29l-5.05-6.73a6.9,6.9,0,0,1-0.41-7.26q1.5,1.52,3.01,3.01,3.39,3.39,6.77,6.78Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiLocationOff;

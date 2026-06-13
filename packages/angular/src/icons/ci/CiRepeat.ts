@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-repeat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiRepeat {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.08,17.56c-0.01,-0.04 -0.02,-0.08 -0.02,-0.12c0,-0.14 0.06,-0.26 0.15,-0.35c0.01,-0.01 1.42,-1.42 2,-2c0.2,-0.2 0.51,-0.18 0.71,0c0.2,0.18 0.19,0.52 0,0.71l-1.15,1.15l15.67,0c0.83,0 1.5,-0.67 1.5,-1.5l0,-3.44c0,-0.28 0.22,-0.5 0.5,-0.5c0.28,0 0.5,0.22 0.5,0.5l0,3.44c0,1.38 -1.12,2.5 -2.5,2.5l-15.67,0l1.15,1.15c0.2,0.2 0.18,0.51 0,0.71c-0.18,0.2 -0.52,0.19 -0.71,0l-2,-2c-0.07,-0.06 -0.11,-0.14 -0.13,-0.23Zm19.85,-11.1c0.01,0.04 0.02,0.08 0.02,0.12c0,0.14 -0.06,0.26 -0.15,0.35c-0.01,0.01 -1.42,1.42 -2,2c-0.2,0.2 -0.51,0.18 -0.71,0c-0.2,-0.18 -0.18,-0.52 0,-0.71l1.15,-1.15l-15.67,0c-0.83,0 -1.5,0.67 -1.5,1.5l0,3.44c0,0.28 -0.22,0.5 -0.5,0.5c-0.28,0 -0.5,-0.22 -0.5,-0.5l0,-3.44c0,-1.38 1.12,-2.5 2.5,-2.5l15.67,0l-1.15,-1.15c-0.2,-0.2 -0.18,-0.51 0,-0.71c0.18,-0.2 0.52,-0.18 0.71,0l2,2c0.07,0.06 0.11,0.14 0.13,0.23Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiRepeat;

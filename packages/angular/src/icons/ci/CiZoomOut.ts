@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-zoom-out",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiZoomOut {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.28,17.04c-1.4,1.21 -3.22,1.94 -5.21,1.94c-4.39,0 -7.96,-3.57 -7.96,-7.96c0,-4.39 3.57,-7.96 7.96,-7.96c4.39,0 7.96,3.57 7.96,7.96c0,2.04 -0.77,3.91 -2.04,5.32l0.17,0.17c1.19,1.19 2.39,2.39 3.58,3.58c0.46,0.46 -0.25,1.16 -0.71,0.71l-3.75,-3.75Zm1.75,-6.02c0,-3.84 -3.12,-6.96 -6.96,-6.96c-3.84,0 -6.96,3.12 -6.96,6.96c0,3.84 3.12,6.96 6.96,6.96c3.84,0 6.96,-3.12 6.96,-6.96Zm-4.96,-0.5c0.65,0 0.64,1 0,1l-4,0c-0.64,0 -0.64,-1 0,-1l4,0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiZoomOut;

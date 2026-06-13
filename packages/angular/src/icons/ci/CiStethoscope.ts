@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-stethoscope",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiStethoscope {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.18,9.26a2.75,2.75,0,0,0-0.5,5.45v2.31a2.92,2.92,0,0,1-2.92,2.92h-2.78a2.92,2.92,0,0,1-2.92-2.92v-0.98a5.5,5.5,0,0,0,5-5.47V5.29a1.48,1.48,0,0,0-1.03-1.42l-2.31-0.78a0.50.5,0,0,0-0.630.320.490.49,0,0,0,0.310.63l2.320.78a0.490.49,0,0,1,0.340.47v5.28a4.5,4.5,0,0,1-9,0V5.29a0.490.49,0,0,1,0.34-0.47l2.32-0.78a0.490.49,0,0,0,0.31-0.630.50.5,0,0,0-0.63-0.32l-2.310.78a1.48,1.48,0,0,0-1.03,1.42v5.28a5.5,5.5,0,0,0,5,5.47v0.98a3.93,3.93,0,0,0,3.92,3.92h2.78a3.93,3.93,0,0,0,3.92-3.92v-2.31a2.75,2.75,0,0,0-0.5-5.45Zm0,4.5a1.75,1.75,0,1,1,1.75-1.75A1.76,1.76,0,0,1,18.18,13.76Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiStethoscope;

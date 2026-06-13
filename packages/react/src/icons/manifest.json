@@ -1,6 +1,12 @@
 {
   "sets": [
     {
+      "id": "ci",
+      "name": "Circum",
+      "license": "MPL-2.0",
+      "count": 288
+    },
+    {
       "id": "fi",
       "name": "Feather",
       "license": "MIT",

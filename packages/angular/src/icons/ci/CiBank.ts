@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-bank",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiBank {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.51,17.94V10.36a1.49,1.49,0,0,0,1.39-1.12,1.47,1.47,0,0,0-0.7-1.68l-7.45-4.3a1.52,1.52,0,0,0-1.49,0l-7.45,4.3a1.47,1.47,0,0,0-0.7,1.68,1.49,1.49,0,0,0,1.45,1.12h0.13v7.57h-0.12a1.5,1.5,0,0,0,0,3h14.87a1.5,1.5,0,0,0,0.07-2.99ZM4.56,9.36a0.510.51,0,0,1-0.25-0.94l7.45-4.29a0.470.47,0,0,1,0.49,0L19.7,8.42a0.50.5,0,0,1-0.250.94Zm13.95,1v7.57H14.9v-7.57Zm-4.61,0v7.57h-3.61v-7.57Zm-4.61,0v7.57h-3.6v-7.57Zm10.15,9.57H4.57a0.50.5,0,0,1-0.5-0.50.50.5,0,0,1,0.5-0.5h14.87a0.50.5,0,0,1,0.50.5A0.50.5,0,0,1,19.43,19.93Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiBank;

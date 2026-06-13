@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-desktop",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiDesktop {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.43,3.07H5.57a2.5,2.5,0,0,0-2.5,2.5v8.87a2.5,2.5,0,0,0,2.5,2.5h2.91l-0.37,3H7a0.50.5,0,0,0,0,1h10.01a0.50.5,0,0,0,0-1H15.9l-0.37-3h2.91a2.5,2.5,0,0,0,2.5-2.5V5.57A2.5,2.5,0,0,0,18.43,3.07Zm-9.33,16.870.38-3h5.03l0.37,3Zm10.83-5.5a1.5,1.5,0,0,1-1.5,1.5H5.57a1.5,1.5,0,0,1-1.5-1.5v-0.5h15.87Zm0-1.5H4.07V5.57a1.5,1.5,0,0,1,1.5-1.5h12.87a1.5,1.5,0,0,1,1.5,1.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiDesktop;

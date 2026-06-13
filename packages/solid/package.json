@@ -37,6 +37,16 @@
       "bun": "./src/index.ts",
       "import": "./src/index.ts"
     },
+    "./ci": {
+      "solid": "./src/icons/ci/index.ts",
+      "bun": "./src/icons/ci/index.ts",
+      "import": "./src/icons/ci/index.ts"
+    },
+    "./ci/*": {
+      "solid": "./src/icons/ci/*.ts",
+      "bun": "./src/icons/ci/*.ts",
+      "import": "./src/icons/ci/*.ts"
+    },
     "./fi": {
       "solid": "./src/icons/fi/index.ts",
       "bun": "./src/icons/fi/index.ts",

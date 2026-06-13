@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-cloud-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiCloudOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Cloud Off"}],["path",{"d":"M20.8,16.58c-0.410.49-1.12-0.22-0.7-0.71a3.59,3.59,0,0,0,0.37-4.04A3.27,3.27,0,0,0,16.6,10.3a0.50.5,0,0,1-0.56-0.23,5.39,5.39,0,0,0-5.3-3.1c-0.640.04-0.64-0.96,0-1a6.35,6.35,0,0,1,5.99,3.26,4.26,4.26,0,0,1,4.6,2.1A4.58,4.58,0,0,1,20.8,16.58Z"}],["path",{"d":"M4.94,4.24a0.50.5,0,0,0-0.70.7l2.69,2.69a6.27,6.27,0,0,0-1.94,3.78,3.34,3.34,0,0,0-2.65,4.6,3.52,3.52,0,0,0,3.48,2.05h11.53c0.580.57,1.14,1.14,1.71,1.71a0.50.5,0,0,0,0.71-0.71Zm0.3,12.81a2.35,2.35,0,0,1-2.16-2.25,2.31,2.31,0,0,1,2.35-2.420.520.52,0,0,0,0.5-0.5,5.38,5.38,0,0,1,1.71-3.54q4.35,4.37,8.71,8.72Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiCloudOff;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-slider-vertical",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiSliderVertical {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Slider Vertical"}],["path",{"d":"M8.5,5.13V2.55a0.50.5,0,0,0-0.5-0.50.510.51,0,0,0-0.50.5V5.13A2,2,0,0,0,6,7.06v1A2,2,0,0,0,7.5,9.99V21.45a0.50.5,0,0,0,1,0V9.99A2,2,0,0,0,10,8.06v-1A2,2,0,0,0,8.5,5.13ZM9,8.06a1,1,0,1,1-2,0v-1a1.01,1.01,0,0,1,0.98-1H8a1,1,0,0,1,1,1Z"}],["path",{"d":"M16.5,14.01V2.55a0.50.5,0,0,0-1,0V14.01A2,2,0,0,0,14,15.94v1a2,2,0,0,0,1.5,1.93v2.58a0.50.5,0,0,0,0.50.50.510.51,0,0,0,0.5-0.5V18.87A2,2,0,0,0,18,16.94v-1A2,2,0,0,0,16.5,14.01Zm0.5,2.93a1.01,1.01,0,0,1-0.98,1H16a1,1,0,0,1-1-1v-1a1,1,0,1,1,2,0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiSliderVertical;

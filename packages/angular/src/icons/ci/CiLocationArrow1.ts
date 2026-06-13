@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-location-arrow-1",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiLocationArrow1 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Location Arrow 1"}],["path",{"d":"M14.47,20.94a1.44,1.44,0,0,1-1.3-0.81L10.3,14.34a1.42,1.42,0,0,0-0.64-0.64L3.87,10.83A1.46,1.46,0,0,1,4.06,8.14l14.95-5a1.46,1.46,0,0,1,1.85,1.85l-5,14.95a1.44,1.44,0,0,1-1.280.99C14.54,20.94,14.51,20.94,14.47,20.94ZM19.48,4.06a0.490.49,0,0,0-0.150.02h0l-14.95,5a0.460.46,0,0,0-0.060.85L10.1,12.81A2.44,2.44,0,0,1,11.2,13.9l2.87,5.78a0.440.44,0,0,0,0.450.260.450.45,0,0,0,0.4-0.31l5-14.95a0.460.46,0,0,0-0.43-0.61Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiLocationArrow1;

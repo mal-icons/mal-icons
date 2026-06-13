@@ -26,6 +26,7 @@ export {
 export { IconBase, type IconBaseProps } from "./icon-base.tsx";
 // Re-export every generated icon set so consumers can also import named icons
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/react"`).
+export * from "./icons/ci/index.ts";
 export * from "./icons/fi/index.ts";
 export { SpriteIcon, type SpriteIconProps } from "./sprite-icon.tsx";
 

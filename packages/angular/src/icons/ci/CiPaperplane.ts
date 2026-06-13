@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-paperplane",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiPaperplane {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Paper Plane"}],["path",{"d":"M21.06,11.08,3.74,4.16a0.990.99,0,0,0-1.170.32,1,1,0,0,0-0.01,1.22l4.49,6a0.530.53,0,0,1-0.010.62L2.51,18.3a1.02,1.02,0,0,0,0,1.22,1,1,0,0,0,0.80.4,1.02,1.02,0,0,0,0.38-0.07l17.36-6.9a1.01,1.01,0,0,0,0.01-1.87ZM3.37,5.09l16.06,6.42H8.06a1.33,1.33,0,0,0-0.21-0.41Zm-0.06,13.82,4.53-5.98a1.21,1.21,0,0,0,0.22-0.42h11.38Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiPaperplane;

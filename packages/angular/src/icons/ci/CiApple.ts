@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-apple",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiApple {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.88,6.61l0.05-0.05a3.23,3.23,0,0,0,0.95-2.580.980.98,0,0,0-0.9-0.9,3.23,3.23,0,0,0-2.580.95,3.28,3.28,0,0,0-0.85,1.46,4.66,4.66,0,0,0-2.69-1.750.50.5,0,1,0-0.220.98,3.66,3.66,0,0,1,2.59,2.2,5.58,5.58,0,0,0-1.9-0.32,5.85,5.85,0,0,0-5.84,5.84c0,2.98,2.41,8.49,5.84,8.49a5.82,5.82,0,0,0,2.4-0.520.680.68,0,0,1,0.56,0,5.73,5.73,0,0,0,2.380.52c3.44,0,5.85-5.51,5.85-8.49A5.84,5.84,0,0,0,14.88,6.61Zm-1.77-1.87a2.3,2.3,0,0,1,1.78-0.68c0,0.060.010.120.010.17a2.33,2.33,0,0,1-0.67,1.63,2.36,2.36,0,0,1-1.790.66A2.25,2.25,0,0,1,13.11,4.74Zm1.56,15.19a4.79,4.79,0,0,1-1.97-0.43,1.72,1.72,0,0,0-0.69-0.15,1.65,1.65,0,0,0-0.690.15,4.88,4.88,0,0,1-1.990.43c-2.58,0-4.84-4.67-4.84-7.49a4.86,4.86,0,0,1,6.83-4.42,1.56,1.56,0,0,0,0.670.15h0.02a1.68,1.68,0,0,0,0.69-0.15,4.78,4.78,0,0,1,1.97-0.42,4.85,4.85,0,0,1,4.85,4.84C19.52,15.26,17.25,19.93,14.67,19.93Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiApple;

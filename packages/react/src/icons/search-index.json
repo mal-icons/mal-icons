@@ -1,6 +1,2591 @@
 {
   "entries": [
     {
+      "name": "CiAirportSign1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "airport",
+        "sign1",
+        "sign",
+        "1"
+      ]
+    },
+    {
+      "name": "CiAlarmOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "alarm",
+        "off"
+      ]
+    },
+    {
+      "name": "CiAlarmOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "alarm",
+        "on"
+      ]
+    },
+    {
+      "name": "CiAlignBottom",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "align",
+        "bottom"
+      ]
+    },
+    {
+      "name": "CiAlignCenterH",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "align",
+        "center",
+        "h"
+      ]
+    },
+    {
+      "name": "CiAlignCenterV",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "align",
+        "center",
+        "v"
+      ]
+    },
+    {
+      "name": "CiAlignLeft",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "CiAlignRight",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "CiAlignTop",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "align",
+        "top"
+      ]
+    },
+    {
+      "name": "CiApple",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "apple"
+      ]
+    },
+    {
+      "name": "CiAt",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "at"
+      ]
+    },
+    {
+      "name": "CiAvocado",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "avocado"
+      ]
+    },
+    {
+      "name": "CiBacon",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bacon"
+      ]
+    },
+    {
+      "name": "CiBadgeDollar",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "badge",
+        "dollar"
+      ]
+    },
+    {
+      "name": "CiBag1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bag1",
+        "bag",
+        "1"
+      ]
+    },
+    {
+      "name": "CiBandage",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bandage"
+      ]
+    },
+    {
+      "name": "CiBank",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bank"
+      ]
+    },
+    {
+      "name": "CiBarcode",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "barcode"
+      ]
+    },
+    {
+      "name": "CiBaseball",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "baseball"
+      ]
+    },
+    {
+      "name": "CiBasketball",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "basketball"
+      ]
+    },
+    {
+      "name": "CiBatteryCharging",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "battery",
+        "charging"
+      ]
+    },
+    {
+      "name": "CiBatteryEmpty",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "battery",
+        "empty"
+      ]
+    },
+    {
+      "name": "CiBatteryFull",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "battery",
+        "full"
+      ]
+    },
+    {
+      "name": "CiBeaker1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "beaker1",
+        "beaker",
+        "1"
+      ]
+    },
+    {
+      "name": "CiBeerMugFull",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "beer",
+        "mug",
+        "full"
+      ]
+    },
+    {
+      "name": "CiBellOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bell",
+        "off"
+      ]
+    },
+    {
+      "name": "CiBellOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bell",
+        "on"
+      ]
+    },
+    {
+      "name": "CiBezier",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bezier"
+      ]
+    },
+    {
+      "name": "CiBitcoin",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bitcoin"
+      ]
+    },
+    {
+      "name": "CiBluetooth",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bluetooth"
+      ]
+    },
+    {
+      "name": "CiBookmark",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "CiBookmarkCheck",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bookmark",
+        "check"
+      ]
+    },
+    {
+      "name": "CiBookmarkMinus",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bookmark",
+        "minus"
+      ]
+    },
+    {
+      "name": "CiBookmarkPlus",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bookmark",
+        "plus"
+      ]
+    },
+    {
+      "name": "CiBookmarkRemove",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bookmark",
+        "remove"
+      ]
+    },
+    {
+      "name": "CiBowlNoodles",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bowl",
+        "noodles"
+      ]
+    },
+    {
+      "name": "CiBoxes",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "boxes"
+      ]
+    },
+    {
+      "name": "CiBoxList",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "box",
+        "list"
+      ]
+    },
+    {
+      "name": "CiBrightnessDown",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "brightness",
+        "down"
+      ]
+    },
+    {
+      "name": "CiBrightnessUp",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "brightness",
+        "up"
+      ]
+    },
+    {
+      "name": "CiBullhorn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "bullhorn"
+      ]
+    },
+    {
+      "name": "CiBurger",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "burger"
+      ]
+    },
+    {
+      "name": "CiCalculator1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "calculator1",
+        "calculator",
+        "1"
+      ]
+    },
+    {
+      "name": "CiCalculator2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "calculator2",
+        "calculator",
+        "2"
+      ]
+    },
+    {
+      "name": "CiCalendar",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "calendar"
+      ]
+    },
+    {
+      "name": "CiCalendarDate",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "calendar",
+        "date"
+      ]
+    },
+    {
+      "name": "CiCamera",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "camera"
+      ]
+    },
+    {
+      "name": "CiChat1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "chat1",
+        "chat",
+        "1"
+      ]
+    },
+    {
+      "name": "CiChat2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "chat2",
+        "chat",
+        "2"
+      ]
+    },
+    {
+      "name": "CiCircleAlert",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "alert"
+      ]
+    },
+    {
+      "name": "CiCircleCheck",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "check"
+      ]
+    },
+    {
+      "name": "CiCircleChevDown",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "chev",
+        "down"
+      ]
+    },
+    {
+      "name": "CiCircleChevLeft",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "chev",
+        "left"
+      ]
+    },
+    {
+      "name": "CiCircleChevRight",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "chev",
+        "right"
+      ]
+    },
+    {
+      "name": "CiCircleChevUp",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "chev",
+        "up"
+      ]
+    },
+    {
+      "name": "CiCircleInfo",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "info"
+      ]
+    },
+    {
+      "name": "CiCircleList",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "list"
+      ]
+    },
+    {
+      "name": "CiCircleMinus",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "minus"
+      ]
+    },
+    {
+      "name": "CiCircleMore",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "more"
+      ]
+    },
+    {
+      "name": "CiCirclePlus",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "plus"
+      ]
+    },
+    {
+      "name": "CiCircleQuestion",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "question"
+      ]
+    },
+    {
+      "name": "CiCircleRemove",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "circle",
+        "remove"
+      ]
+    },
+    {
+      "name": "CiClock1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "clock1",
+        "clock",
+        "1"
+      ]
+    },
+    {
+      "name": "CiClock2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "clock2",
+        "clock",
+        "2"
+      ]
+    },
+    {
+      "name": "CiCloud",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "cloud"
+      ]
+    },
+    {
+      "name": "CiCloudDrizzle",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "cloud",
+        "drizzle"
+      ]
+    },
+    {
+      "name": "CiCloudMoon",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "cloud",
+        "moon"
+      ]
+    },
+    {
+      "name": "CiCloudOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "cloud",
+        "off"
+      ]
+    },
+    {
+      "name": "CiCloudOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "cloud",
+        "on"
+      ]
+    },
+    {
+      "name": "CiCloudRainbow",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "cloud",
+        "rainbow"
+      ]
+    },
+    {
+      "name": "CiCloudSun",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "cloud",
+        "sun"
+      ]
+    },
+    {
+      "name": "CiCoffeeBean",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "coffee",
+        "bean"
+      ]
+    },
+    {
+      "name": "CiCoffeeCup",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "coffee",
+        "cup"
+      ]
+    },
+    {
+      "name": "CiCoinInsert",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "coin",
+        "insert"
+      ]
+    },
+    {
+      "name": "CiCoins1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "coins1",
+        "coins",
+        "1"
+      ]
+    },
+    {
+      "name": "CiCompass1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "compass1",
+        "compass",
+        "1"
+      ]
+    },
+    {
+      "name": "CiCreditCard1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "credit",
+        "card1",
+        "card",
+        "1"
+      ]
+    },
+    {
+      "name": "CiCreditCard2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "credit",
+        "card2",
+        "card",
+        "2"
+      ]
+    },
+    {
+      "name": "CiCreditCardOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "credit",
+        "card",
+        "off"
+      ]
+    },
+    {
+      "name": "CiCrop",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "crop"
+      ]
+    },
+    {
+      "name": "CiDark",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "dark"
+      ]
+    },
+    {
+      "name": "CiDatabase",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "database"
+      ]
+    },
+    {
+      "name": "CiDeliveryTruck",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "delivery",
+        "truck"
+      ]
+    },
+    {
+      "name": "CiDesktop",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "desktop"
+      ]
+    },
+    {
+      "name": "CiDesktopMouse1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "desktop",
+        "mouse1",
+        "mouse",
+        "1"
+      ]
+    },
+    {
+      "name": "CiDesktopMouse2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "desktop",
+        "mouse2",
+        "mouse",
+        "2"
+      ]
+    },
+    {
+      "name": "CiDiscount1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "discount1",
+        "discount",
+        "1"
+      ]
+    },
+    {
+      "name": "CiDollar",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "dollar"
+      ]
+    },
+    {
+      "name": "CiDroplet",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "droplet"
+      ]
+    },
+    {
+      "name": "CiDumbbell",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "dumbbell"
+      ]
+    },
+    {
+      "name": "CiEdit",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "edit"
+      ]
+    },
+    {
+      "name": "CiEraser",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "eraser"
+      ]
+    },
+    {
+      "name": "CiExport",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "export"
+      ]
+    },
+    {
+      "name": "CiFacebook",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "facebook"
+      ]
+    },
+    {
+      "name": "CiFaceFrown",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "face",
+        "frown"
+      ]
+    },
+    {
+      "name": "CiFaceMeh",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "face",
+        "meh"
+      ]
+    },
+    {
+      "name": "CiFaceSmile",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "face",
+        "smile"
+      ]
+    },
+    {
+      "name": "CiFileOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "file",
+        "off"
+      ]
+    },
+    {
+      "name": "CiFileOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "file",
+        "on"
+      ]
+    },
+    {
+      "name": "CiFilter",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "filter"
+      ]
+    },
+    {
+      "name": "CiFlag1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "flag1",
+        "flag",
+        "1"
+      ]
+    },
+    {
+      "name": "CiFloppyDisk",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "floppy",
+        "disk"
+      ]
+    },
+    {
+      "name": "CiFolderOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "folder",
+        "off"
+      ]
+    },
+    {
+      "name": "CiFolderOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "folder",
+        "on"
+      ]
+    },
+    {
+      "name": "CiFootball",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "football"
+      ]
+    },
+    {
+      "name": "CiForkKnife",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "fork",
+        "knife"
+      ]
+    },
+    {
+      "name": "CiFries",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "fries"
+      ]
+    },
+    {
+      "name": "CiGift",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "gift"
+      ]
+    },
+    {
+      "name": "CiGlass",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "glass"
+      ]
+    },
+    {
+      "name": "CiGlobe",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "globe"
+      ]
+    },
+    {
+      "name": "CiGps",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "gps"
+      ]
+    },
+    {
+      "name": "CiGrid2H",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "grid2",
+        "h",
+        "grid",
+        "2"
+      ]
+    },
+    {
+      "name": "CiGrid2V",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "grid2",
+        "v",
+        "grid",
+        "2"
+      ]
+    },
+    {
+      "name": "CiGrid31",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "grid31",
+        "grid",
+        "3",
+        "1"
+      ]
+    },
+    {
+      "name": "CiGrid32",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "grid32",
+        "grid",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "name": "CiGrid41",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "grid41",
+        "grid",
+        "4",
+        "1"
+      ]
+    },
+    {
+      "name": "CiGrid42",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "grid42",
+        "grid",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "name": "CiHardDrive",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "hard",
+        "drive"
+      ]
+    },
+    {
+      "name": "CiHashtag",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "hashtag"
+      ]
+    },
+    {
+      "name": "CiHeadphones",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "headphones"
+      ]
+    },
+    {
+      "name": "CiHeart",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "heart"
+      ]
+    },
+    {
+      "name": "CiHome",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "home"
+      ]
+    },
+    {
+      "name": "CiHospital1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "hospital1",
+        "hospital",
+        "1"
+      ]
+    },
+    {
+      "name": "CiHotdog",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "hotdog"
+      ]
+    },
+    {
+      "name": "CiIceCream",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "ice",
+        "cream"
+      ]
+    },
+    {
+      "name": "CiImageOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "image",
+        "off"
+      ]
+    },
+    {
+      "name": "CiImageOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "image",
+        "on"
+      ]
+    },
+    {
+      "name": "CiImport",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "import"
+      ]
+    },
+    {
+      "name": "CiInboxIn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "inbox",
+        "in"
+      ]
+    },
+    {
+      "name": "CiInboxOut",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "inbox",
+        "out"
+      ]
+    },
+    {
+      "name": "CiIndent",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "indent"
+      ]
+    },
+    {
+      "name": "CiInstagram",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "instagram"
+      ]
+    },
+    {
+      "name": "CiKeyboard",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "keyboard"
+      ]
+    },
+    {
+      "name": "CiLaptop",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "laptop"
+      ]
+    },
+    {
+      "name": "CiLemon",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "lemon"
+      ]
+    },
+    {
+      "name": "CiLight",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "light"
+      ]
+    },
+    {
+      "name": "CiLineHeight",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "line",
+        "height"
+      ]
+    },
+    {
+      "name": "CiLink",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "link"
+      ]
+    },
+    {
+      "name": "CiLinkedin",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "linkedin"
+      ]
+    },
+    {
+      "name": "CiLocationArrow1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "location",
+        "arrow1",
+        "arrow",
+        "1"
+      ]
+    },
+    {
+      "name": "CiLocationOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "location",
+        "off"
+      ]
+    },
+    {
+      "name": "CiLocationOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "location",
+        "on"
+      ]
+    },
+    {
+      "name": "CiLock",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "lock"
+      ]
+    },
+    {
+      "name": "CiLogin",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "login"
+      ]
+    },
+    {
+      "name": "CiLogout",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "logout"
+      ]
+    },
+    {
+      "name": "CiLollipop",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "lollipop"
+      ]
+    },
+    {
+      "name": "CiMail",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "mail"
+      ]
+    },
+    {
+      "name": "CiMap",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "map"
+      ]
+    },
+    {
+      "name": "CiMapPin",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "map",
+        "pin"
+      ]
+    },
+    {
+      "name": "CiMaximize1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "maximize1",
+        "maximize",
+        "1"
+      ]
+    },
+    {
+      "name": "CiMaximize2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "maximize2",
+        "maximize",
+        "2"
+      ]
+    },
+    {
+      "name": "CiMedal",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "medal"
+      ]
+    },
+    {
+      "name": "CiMedicalCase",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "medical",
+        "case"
+      ]
+    },
+    {
+      "name": "CiMedicalClipboard",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "medical",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "CiMedicalCross",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "medical",
+        "cross"
+      ]
+    },
+    {
+      "name": "CiMedicalMask",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "medical",
+        "mask"
+      ]
+    },
+    {
+      "name": "CiMemoPad",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "memo",
+        "pad"
+      ]
+    },
+    {
+      "name": "CiMenuBurger",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "menu",
+        "burger"
+      ]
+    },
+    {
+      "name": "CiMenuFries",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "menu",
+        "fries"
+      ]
+    },
+    {
+      "name": "CiMenuKebab",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "menu",
+        "kebab"
+      ]
+    },
+    {
+      "name": "CiMicrochip",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "microchip"
+      ]
+    },
+    {
+      "name": "CiMicrophoneOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "microphone",
+        "off"
+      ]
+    },
+    {
+      "name": "CiMicrophoneOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "microphone",
+        "on"
+      ]
+    },
+    {
+      "name": "CiMinimize1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "minimize1",
+        "minimize",
+        "1"
+      ]
+    },
+    {
+      "name": "CiMinimize2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "minimize2",
+        "minimize",
+        "2"
+      ]
+    },
+    {
+      "name": "CiMobile1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "mobile1",
+        "mobile",
+        "1"
+      ]
+    },
+    {
+      "name": "CiMobile2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "mobile2",
+        "mobile",
+        "2"
+      ]
+    },
+    {
+      "name": "CiMobile3",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "mobile3",
+        "mobile",
+        "3"
+      ]
+    },
+    {
+      "name": "CiMobile4",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "mobile4",
+        "mobile",
+        "4"
+      ]
+    },
+    {
+      "name": "CiMoneyBill",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "money",
+        "bill"
+      ]
+    },
+    {
+      "name": "CiMoneyCheck1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "money",
+        "check1",
+        "check",
+        "1"
+      ]
+    },
+    {
+      "name": "CiMonitor",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "monitor"
+      ]
+    },
+    {
+      "name": "CiMountain1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "mountain1",
+        "mountain",
+        "1"
+      ]
+    },
+    {
+      "name": "CiMug1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "mug1",
+        "mug",
+        "1"
+      ]
+    },
+    {
+      "name": "CiMusicNote1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "music",
+        "note1",
+        "note",
+        "1"
+      ]
+    },
+    {
+      "name": "CiNoWaitingSign",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "no",
+        "waiting",
+        "sign"
+      ]
+    },
+    {
+      "name": "CiPalette",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "palette"
+      ]
+    },
+    {
+      "name": "CiPaperplane",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "paperplane"
+      ]
+    },
+    {
+      "name": "CiParking1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "parking1",
+        "parking",
+        "1"
+      ]
+    },
+    {
+      "name": "CiPassport1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "passport1",
+        "passport",
+        "1"
+      ]
+    },
+    {
+      "name": "CiPause1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "pause1",
+        "pause",
+        "1"
+      ]
+    },
+    {
+      "name": "CiPen",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "pen"
+      ]
+    },
+    {
+      "name": "CiPenpot",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "penpot"
+      ]
+    },
+    {
+      "name": "CiPercent",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "percent"
+      ]
+    },
+    {
+      "name": "CiPhone",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "phone"
+      ]
+    },
+    {
+      "name": "CiPickerEmpty",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "picker",
+        "empty"
+      ]
+    },
+    {
+      "name": "CiPickerHalf",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "picker",
+        "half"
+      ]
+    },
+    {
+      "name": "CiPill",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "pill"
+      ]
+    },
+    {
+      "name": "CiPillsBottle1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "pills",
+        "bottle1",
+        "bottle",
+        "1"
+      ]
+    },
+    {
+      "name": "CiPizza",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "pizza"
+      ]
+    },
+    {
+      "name": "CiPlane",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "plane"
+      ]
+    },
+    {
+      "name": "CiPlay1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "play1",
+        "play",
+        "1"
+      ]
+    },
+    {
+      "name": "CiPlug1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "plug1",
+        "plug",
+        "1"
+      ]
+    },
+    {
+      "name": "CiPower",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "power"
+      ]
+    },
+    {
+      "name": "CiRainbow",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "rainbow"
+      ]
+    },
+    {
+      "name": "CiRead",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "read"
+      ]
+    },
+    {
+      "name": "CiReceipt",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "receipt"
+      ]
+    },
+    {
+      "name": "CiRedo",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "redo"
+      ]
+    },
+    {
+      "name": "CiRepeat",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "repeat"
+      ]
+    },
+    {
+      "name": "CiRollingSuitcase",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "rolling",
+        "suitcase"
+      ]
+    },
+    {
+      "name": "CiRoute",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "route"
+      ]
+    },
+    {
+      "name": "CiRouter",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "router"
+      ]
+    },
+    {
+      "name": "CiRuler",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "ruler"
+      ]
+    },
+    {
+      "name": "CiSatellite1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "satellite1",
+        "satellite",
+        "1"
+      ]
+    },
+    {
+      "name": "CiSaveDown1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "save",
+        "down1",
+        "down",
+        "1"
+      ]
+    },
+    {
+      "name": "CiSaveDown2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "save",
+        "down2",
+        "down",
+        "2"
+      ]
+    },
+    {
+      "name": "CiSaveUp1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "save",
+        "up1",
+        "up",
+        "1"
+      ]
+    },
+    {
+      "name": "CiSaveUp2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "save",
+        "up2",
+        "up",
+        "2"
+      ]
+    },
+    {
+      "name": "CiSearch",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "search"
+      ]
+    },
+    {
+      "name": "CiServer",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "server"
+      ]
+    },
+    {
+      "name": "CiSettings",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "settings"
+      ]
+    },
+    {
+      "name": "CiShare1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "share1",
+        "share",
+        "1"
+      ]
+    },
+    {
+      "name": "CiShare2",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "share2",
+        "share",
+        "2"
+      ]
+    },
+    {
+      "name": "CiShirt",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "shirt"
+      ]
+    },
+    {
+      "name": "CiShop",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "shop"
+      ]
+    },
+    {
+      "name": "CiShoppingBasket",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "shopping",
+        "basket"
+      ]
+    },
+    {
+      "name": "CiShoppingCart",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "shopping",
+        "cart"
+      ]
+    },
+    {
+      "name": "CiShoppingTag",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "shopping",
+        "tag"
+      ]
+    },
+    {
+      "name": "CiShuffle",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "CiSignpostDuo1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "signpost",
+        "duo1",
+        "duo",
+        "1"
+      ]
+    },
+    {
+      "name": "CiSignpostL1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "signpost",
+        "l1",
+        "l",
+        "1"
+      ]
+    },
+    {
+      "name": "CiSignpostR1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "signpost",
+        "r1",
+        "r",
+        "1"
+      ]
+    },
+    {
+      "name": "CiSliderHorizontal",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "slider",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "CiSliderVertical",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "slider",
+        "vertical"
+      ]
+    },
+    {
+      "name": "CiSpeaker",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "speaker"
+      ]
+    },
+    {
+      "name": "CiSquareAlert",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "alert"
+      ]
+    },
+    {
+      "name": "CiSquareCheck",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "check"
+      ]
+    },
+    {
+      "name": "CiSquareChevDown",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "chev",
+        "down"
+      ]
+    },
+    {
+      "name": "CiSquareChevLeft",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "chev",
+        "left"
+      ]
+    },
+    {
+      "name": "CiSquareChevRight",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "chev",
+        "right"
+      ]
+    },
+    {
+      "name": "CiSquareChevUp",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "chev",
+        "up"
+      ]
+    },
+    {
+      "name": "CiSquareInfo",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "info"
+      ]
+    },
+    {
+      "name": "CiSquareMinus",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "minus"
+      ]
+    },
+    {
+      "name": "CiSquareMore",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "more"
+      ]
+    },
+    {
+      "name": "CiSquarePlus",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "plus"
+      ]
+    },
+    {
+      "name": "CiSquareQuestion",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "question"
+      ]
+    },
+    {
+      "name": "CiSquareRemove",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "square",
+        "remove"
+      ]
+    },
+    {
+      "name": "CiStar",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "star"
+      ]
+    },
+    {
+      "name": "CiStethoscope",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "stethoscope"
+      ]
+    },
+    {
+      "name": "CiStickyNote",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "sticky",
+        "note"
+      ]
+    },
+    {
+      "name": "CiStop1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "stop1",
+        "stop",
+        "1"
+      ]
+    },
+    {
+      "name": "CiStopSign1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "stop",
+        "sign1",
+        "sign",
+        "1"
+      ]
+    },
+    {
+      "name": "CiStopwatch",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "stopwatch"
+      ]
+    },
+    {
+      "name": "CiStreamOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "stream",
+        "off"
+      ]
+    },
+    {
+      "name": "CiStreamOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "stream",
+        "on"
+      ]
+    },
+    {
+      "name": "CiSun",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "sun"
+      ]
+    },
+    {
+      "name": "CiTablets1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "tablets1",
+        "tablets",
+        "1"
+      ]
+    },
+    {
+      "name": "CiTempHigh",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "temp",
+        "high"
+      ]
+    },
+    {
+      "name": "CiText",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "text"
+      ]
+    },
+    {
+      "name": "CiTextAlignCenter",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "text",
+        "align",
+        "center"
+      ]
+    },
+    {
+      "name": "CiTextAlignJustify",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "text",
+        "align",
+        "justify"
+      ]
+    },
+    {
+      "name": "CiTextAlignLeft",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "text",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "CiTextAlignRight",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "text",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "CiTimer",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "timer"
+      ]
+    },
+    {
+      "name": "CiTrash",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "trash"
+      ]
+    },
+    {
+      "name": "CiTrophy",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "trophy"
+      ]
+    },
+    {
+      "name": "CiTurnL1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "turn",
+        "l1",
+        "l",
+        "1"
+      ]
+    },
+    {
+      "name": "CiTurnR1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "turn",
+        "r1",
+        "r",
+        "1"
+      ]
+    },
+    {
+      "name": "CiTwitter",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "twitter"
+      ]
+    },
+    {
+      "name": "CiUmbrella",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "umbrella"
+      ]
+    },
+    {
+      "name": "CiUndo",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "undo"
+      ]
+    },
+    {
+      "name": "CiUnlock",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "unlock"
+      ]
+    },
+    {
+      "name": "CiUnread",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "unread"
+      ]
+    },
+    {
+      "name": "CiUsb",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "usb"
+      ]
+    },
+    {
+      "name": "CiUser",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "user"
+      ]
+    },
+    {
+      "name": "CiVault",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "vault"
+      ]
+    },
+    {
+      "name": "CiVial",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "vial"
+      ]
+    },
+    {
+      "name": "CiVideoOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "video",
+        "off"
+      ]
+    },
+    {
+      "name": "CiVideoOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "video",
+        "on"
+      ]
+    },
+    {
+      "name": "CiViewBoard",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "view",
+        "board"
+      ]
+    },
+    {
+      "name": "CiViewColumn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "view",
+        "column"
+      ]
+    },
+    {
+      "name": "CiViewList",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "view",
+        "list"
+      ]
+    },
+    {
+      "name": "CiViewTable",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "view",
+        "table"
+      ]
+    },
+    {
+      "name": "CiViewTimeline",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "view",
+        "timeline"
+      ]
+    },
+    {
+      "name": "CiVirus",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "virus"
+      ]
+    },
+    {
+      "name": "CiVoicemail",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "voicemail"
+      ]
+    },
+    {
+      "name": "CiVolume",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "volume"
+      ]
+    },
+    {
+      "name": "CiVolumeHigh",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "volume",
+        "high"
+      ]
+    },
+    {
+      "name": "CiVolumeMute",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "volume",
+        "mute"
+      ]
+    },
+    {
+      "name": "CiWallet",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "wallet"
+      ]
+    },
+    {
+      "name": "CiWarning",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "warning"
+      ]
+    },
+    {
+      "name": "CiWavePulse1",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "wave",
+        "pulse1",
+        "pulse",
+        "1"
+      ]
+    },
+    {
+      "name": "CiWheat",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "wheat"
+      ]
+    },
+    {
+      "name": "CiWifiOff",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "wifi",
+        "off"
+      ]
+    },
+    {
+      "name": "CiWifiOn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "wifi",
+        "on"
+      ]
+    },
+    {
+      "name": "CiYoutube",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "youtube"
+      ]
+    },
+    {
+      "name": "CiZoomIn",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "CiZoomOut",
+      "set": "ci",
+      "terms": [
+        "ci",
+        "zoom",
+        "out"
+      ]
+    },
+    {
       "name": "FiActivity",
       "set": "fi",
       "terms": [

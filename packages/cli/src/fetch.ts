@@ -13,6 +13,23 @@ export interface RawIcon {
 
 const CACHE_ROOT = join(process.cwd(), ".svg-cache");
 
+/**
+ * Reduce a source SVG file name to a clean, lowercase kebab-case slug.
+ *
+ * Source sets are inconsistent: some use kebab-case (`arrow-up.svg`), others
+ * mix underscores and punctuation (`fork_&_knife.svg`, `align_center-h.svg`).
+ * Folding everything to alphanumeric tokens joined by single hyphens yields a
+ * stable id that is safe for component names, custom-element selectors, and
+ * sprite ids. Already-kebab names (e.g. Feather) are unchanged.
+ */
+function normalizeName(file: string): string {
+  return file
+    .replace(/\.svg$/i, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
 function cacheDirFor(source: IconSource): string {
   return join(CACHE_ROOT, source.id);
 }
@@ -41,7 +58,7 @@ export async function fetchSet(source: IconSource, noFetch: boolean): Promise<Ra
   const icons: RawIcon[] = [];
   for (const file of files) {
     const svg = await readFile(join(cacheDir, file), "utf8");
-    icons.push({ name: file.replace(/\.svg$/, ""), svg });
+    icons.push({ name: normalizeName(file), svg });
   }
   return icons;
 }

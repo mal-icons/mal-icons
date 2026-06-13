@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-wifi-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiWifiOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Wi-Fi Off"}],["path",{"d":"M10.37,6.56a12.39,12.39,0,0,1,10.71,3.93c0.440.48,1.14-0.230.71-0.71A13.32,13.32,0,0,0,10.37,5.56c-0.630.08-0.64,1.08,0,1Z"}],["path",{"d":"M13.91,10.28A8.64,8.64,0,0,1,18.35,12.9c0.430.48,1.14-0.230.71-0.71a9.59,9.59,0,0,0-4.88-2.87c-0.63-0.15-0.890.82-0.270.97Z"}],["circle",{"cx":"12","cy":"16.92","r":"1.12"}],["path",{"d":"M19.77,19.06a0.50.5,0,0,1-0.710.71l-5.84-5.84A4.48,4.48,0,0,0,8.7,15.24c-0.430.48-1.14-0.23-0.71-0.7a5.47,5.47,0,0,1,4.06-1.78l-2.37-2.37a8.69,8.69,0,0,0-4.03,2.53c-0.430.48-1.13-0.23-0.7-0.71A9.44,9.44,0,0,1,8.89,9.6L6.88,7.59a12.56,12.56,0,0,0-3.96,2.940.50.5,0,1,1-0.7-0.71,13.11,13.11,0,0,1,3.91-2.98l-1.9-1.9a0.50.5,0,0,1,0.71-0.71Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiWifiOff;

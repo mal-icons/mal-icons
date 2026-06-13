@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-signpost-r-1",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiSignpostR1 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Signpost R 1"}],["path",{"d":"M3.56,8h13.9a2.49,2.49,0,0,1,1.740.71l2.25,2.19a1.5,1.5,0,0,1-0.01,2.2l-2.24,2.19A2.48,2.48,0,0,1,17.46,16H3.56a1.5,1.5,0,0,1-1.5-1.5v-5A1.5,1.5,0,0,1,3.56,8Zm13.9,7a1.49,1.49,0,0,0,1.05-0.42l2.26-2.2A0.50.5,0,0,0,20.94,12a0.490.49,0,0,0-0.16-0.37l-0.01-0.01-2.25-2.2A1.49,1.49,0,0,0,17.46,9H3.56a0.50.5,0,0,0-0.50.5v5a0.50.5,0,0,0,0.50.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiSignpostR1;

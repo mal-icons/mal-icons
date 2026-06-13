@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-percent",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiPercent {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12,21.93A9.93,9.93,0,1,1,21.93,12,9.95,9.95,0,0,1,12,21.93ZM12,3.07A8.93,8.93,0,1,0,20.93,12,8.94,8.94,0,0,0,12,3.07Z"}],["path",{"d":"M9,10.26a1.5,1.5,0,1,1,1.06-0.44h0A1.5,1.5,0,0,1,9,10.26Zm0-2a0.50.5,0,1,0,0.350.15A0.50.5,0,0,0,9,8.26Z"}],["path",{"d":"M7.76,16.74A0.50.5,0,0,1,7.4,15.89L15.89,7.4a0.50.5,0,0,1,0.710.71L8.11,16.6A0.50.5,0,0,1,7.76,16.74Z"}],["path",{"d":"M15,16.74a1.5,1.5,0,1,1,1.06-0.44A1.49,1.49,0,0,1,15,16.74Zm0-2a0.50.5,0,0,0-0.350.15h0a0.50.5,0,0,0-0.150.350.50.5,0,1,0,1,0,0.50.5,0,0,0-0.5-0.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiPercent;

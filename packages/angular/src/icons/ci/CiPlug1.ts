@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-plug-1",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiPlug1 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Plug 1"}],["path",{"d":"M17.31,5.76H15.5V2.55a0.50.5,0,0,0-1,0v3.21h-5V2.55a0.50.5,0,0,0-1,0v3.21H6.7a1.57,1.57,0,0,0-1.57,1.57v4.28a7.05,7.05,0,0,0,6.37,7.11v2.72a0.50.5,0,0,0,1,0v-2.7a6.87,6.87,0,0,0,6.38-6.86V7.33A1.57,1.57,0,0,0,17.31,5.76Zm0.57,6.12a5.88,5.88,0,0,1-6.06,5.87,6.05,6.05,0,0,1-5.69-6.14V7.33a0.560.56,0,0,1,0.57-0.57h10.61a0.570.57,0,0,1,0.570.57Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiPlug1;

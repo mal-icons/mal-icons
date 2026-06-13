@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-unread",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiUnread {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.18,6.31a10.22,10.22,0,0,1,7.9,1.78,9.15,9.15,0,0,1,2.5,2.82,1.88,1.88,0,0,1,0.08,2.02,9.27,9.27,0,0,1-1.48,2.01c-0.450.460.26,1.170.710.71,1.1-1.14,2.53-2.86,1.9-4.55a8.85,8.85,0,0,0-2.72-3.5A11.24,11.24,0,0,0,9.92,5.35c-0.630.11-0.36,1.070.270.96Z"}],["path",{"d":"M19.82,19.11q-3.04-3.04-6.09-6.08c-0.93-0.93-1.85-1.86-2.77-2.77Q8.85,8.15,6.75,6.04L4.89,4.18c-0.45-0.45-1.160.26-0.710.71l1.9,1.9a10.42,10.42,0,0,0-3.22,3.12,3.74,3.74,0,0,0-0.8,2.28,4.58,4.58,0,0,0,0.99,2.17,10.93,10.93,0,0,0,8.18,4.5A11.38,11.38,0,0,0,17,17.71l0.250.25,1.86,1.86C19.56,20.27,20.27,19.56,19.82,19.11Zm-10.3-8.88c0.250.240.490.490.730.73A2.04,2.04,0,0,0,12,14.03a2.02,2.02,0,0,0,1.04-0.28c0.250.240.490.490.730.73a3.05,3.05,0,0,1-4.25-4.25Zm-3.7,5.6a9.56,9.56,0,0,1-1.81-1.84c-0.53-0.71-1.19-1.62-0.85-2.55a8.35,8.35,0,0,1,3.65-3.92c0.670.67,1.34,1.33,2,2a4.04,4.04,0,0,0,5.67,5.67c0.60.59,1.19,1.19,1.78,1.78A10.4,10.4,0,0,1,5.82,15.83Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiUnread;

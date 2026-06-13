@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-coffee-cup",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiCoffeeCup {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Coffee Cup"}],["path",{"d":"M18.79,5.67a1.5,1.5,0,0,0-1.16-1.46l-0.38-1.38a1.08,1.08,0,0,0-1.05-0.76H7.79a1.06,1.06,0,0,0-1.040.76L6.37,4.21A1.54,1.54,0,0,0,5.21,5.76,1.48,1.48,0,0,0,6.27,7.18l0.1,2.77a0.750.75,0,0,0-0.420.220.770.77,0,0,0-0.210.56l0.24,5.76a0.760.76,0,0,0,0.650.72l0.08,2.22a2.58,2.58,0,0,0,2.59,2.5h5.39a2.58,2.58,0,0,0,2.6-2.5l0.08-2.22a0.760.76,0,0,0,0.64-0.72l0.24-5.76a0.770.77,0,0,0-0.21-0.560.720.72,0,0,0-0.41-0.22l0.1-2.77A1.53,1.53,0,0,0,18.79,5.67Zm-11-2.6,8.490.030.3,1.07H7.44Zm8.5,16.33a1.58,1.58,0,0,1-1.6,1.53H9.3A1.58,1.58,0,0,1,7.71,19.4l-0.08-2.18h8.74ZM9.9,13.58a2.1,2.1,0,1,1,2.1,2.1A2.1,2.1,0,0,1,9.9,13.58Zm6.73-3.65H7.37l-0.1-2.67h9.45Zm0.66-3.67H6.71a0.520.52,0,0,1-0.5-0.590.50.5,0,0,1,0.5-0.5H17.29a0.530.53,0,0,1,0.50.59A0.50.5,0,0,1,17.29,6.26Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiCoffeeCup;

@@ -35,6 +35,17 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
+    "./ci": {
+      "types": "./dist/icons/ci/index.d.ts",
+      "bun": "./src/icons/ci/index.ts",
+      "import": "./dist/icons/ci/index.js",
+      "require": "./dist/icons/ci/index.cjs"
+    },
+    "./ci/*": {
+      "types": "./dist/icons/ci/*.d.ts",
+      "bun": "./src/icons/ci/*.tsx",
+      "import": "./dist/icons/ci/*.js"
+    },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
       "bun": "./src/icons/fi/index.ts",
@@ -63,6 +74,7 @@
       "import": "./dist/server.js",
       "require": "./dist/server.cjs"
     },
+    "./sprite/ci.svg": "./dist/icons/ci/sprite.svg",
     "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",
     "./package.json": "./package.json"

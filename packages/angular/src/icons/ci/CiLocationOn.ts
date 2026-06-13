@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-location-on",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiLocationOn {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Location On"}],["path",{"d":"M12,21.93a1.72,1.72,0,0,1-1.38-0.69L5.56,14.5a7.89,7.89,0,1,1,12.89-0.01L13.39,21.24A1.72,1.72,0,0,1,12,21.93ZM11.99,3.07A6.81,6.81,0,0,0,7.41,4.82a6.89,6.89,0,0,0-1.05,9.1l5.05,6.73a0.730.73,0,0,0,0.580.29h0a0.730.73,0,0,0,0.59-0.29l5.04-6.73A6.87,6.87,0,0,0,12.81,3.11,7.28,7.28,0,0,0,11.99,3.07Z"}],["path",{"d":"M12,12.5A2.5,2.5,0,1,1,14.5,10,2.5,2.5,0,0,1,12,12.5Zm0-4A1.5,1.5,0,1,0,13.5,10,1.5,1.5,0,0,0,12,8.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiLocationOn;

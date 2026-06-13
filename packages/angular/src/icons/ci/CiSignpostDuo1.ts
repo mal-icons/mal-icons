@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-signpost-duo-1",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiSignpostDuo1 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"data-name":"Signpost Duo 1"}],["path",{"d":"M20.44,11.5H6.54a2.63,2.63,0,0,1-1.72-0.63L2.56,8.91A1.33,1.33,0,0,1,2.57,6.83L4.81,4.88a2.62,2.62,0,0,1,1.72-0.63h13.9a1.45,1.45,0,0,1,1.5,1.39v4.46A1.45,1.45,0,0,1,20.44,11.5Zm-13.9-6.25a1.64,1.64,0,0,0-1.070.38L3.22,7.6a0.360.36,0,0,0-0.150.280.350.35,0,0,0,0.140.27l0.010.01,2.25,1.96a1.64,1.64,0,0,0,1.070.38h13.9a0.460.46,0,0,0,0.5-0.39V5.64a0.460.46,0,0,0-0.5-0.39Z"}],["path",{"d":"M17.46,19.75H3.56a1.45,1.45,0,0,1-1.5-1.39V13.89a1.45,1.45,0,0,1,1.5-1.39h13.9a2.62,2.62,0,0,1,1.720.63l2.25,1.96a1.33,1.33,0,0,1-0.01,2.08l-2.24,1.95A2.63,2.63,0,0,1,17.46,19.75ZM3.56,13.5a0.460.46,0,0,0-0.50.39v4.46a0.460.46,0,0,0,0.50.39h13.9a1.64,1.64,0,0,0,1.07-0.38l2.25-1.96a0.360.36,0,0,0,0.15-0.280.350.35,0,0,0-0.14-0.27l-0.01-0.01-2.25-1.96a1.64,1.64,0,0,0-1.07-0.38Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiSignpostDuo1;

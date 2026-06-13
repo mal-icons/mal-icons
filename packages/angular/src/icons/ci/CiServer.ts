@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-server",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiServer {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.44,11H3.56a1.5,1.5,0,0,1-1.5-1.5V5.57a1.5,1.5,0,0,1,1.5-1.5H20.44a1.5,1.5,0,0,1,1.5,1.5v3.93A1.5,1.5,0,0,1,20.44,11ZM3.56,5.07a0.50.5,0,0,0-0.50.5v3.93a0.50.5,0,0,0,0.50.5H20.44a0.50.5,0,0,0,0.5-0.5V5.57a0.50.5,0,0,0-0.5-0.5Z"}],["path",{"d":"M20.44,19.93H3.56a1.5,1.5,0,0,1-1.5-1.5v-3.93a1.5,1.5,0,0,1,1.5-1.5H20.44a1.5,1.5,0,0,1,1.5,1.5v3.93A1.5,1.5,0,0,1,20.44,19.93ZM3.56,14.01a0.50.5,0,0,0-0.50.5v3.93a0.50.5,0,0,0,0.50.5H20.44a0.50.5,0,0,0,0.5-0.5v-3.93a0.50.5,0,0,0-0.5-0.5Z"}],["circle",{"cx":"5.56","cy":"7.53","r":"0.5"}],["circle",{"cx":"7.56","cy":"7.53","r":"0.5"}],["path",{"d":"M13.45,8.03a0.50.5,0,0,1,0-1h5a0.50.5,0,0,1,0,1Z"}],["circle",{"cx":"5.56","cy":"16.47","r":"0.5"}],["circle",{"cx":"7.56","cy":"16.47","r":"0.5"}],["path",{"d":"M13.45,16.97a0.50.5,0,0,1,0-1h5a0.50.5,0,0,1,0,1Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiServer;

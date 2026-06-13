@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ci-lollipop",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CiLollipop {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18,6.57h-0.19a6,6,0,0,0-11.62,0H6a1.5,1.5,0,1,0,0,3h0.19a5.99,5.99,0,0,0,5.31,4.48v7.39a0.50.5,0,0,0,0.50.50.50.5,0,0,0,0.5-0.5v-7.39a6.01,6.01,0,0,0,5.31-4.48H18a1.5,1.5,0,1,0,0-3Zm-6-3.5a4.99,4.99,0,0,1,4.77,3.5H7.23A4.99,4.99,0,0,1,12,3.07Zm0,10a4.99,4.99,0,0,1-4.77-3.5h9.54A4.99,4.99,0,0,1,12,13.07Zm6-4.5H6a0.50.5,0,0,1-0.5-0.50.50.5,0,0,1,0.5-0.5H18a0.50.5,0,0,1,0.50.5A0.510.51,0,0,1,18,8.57Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CiLollipop;

@@ -40,4 +40,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "icons",
     style: "stroke",
   },
+  ci: {
+    id: "ci",
+    prefix: "Ci",
+    name: "Circum",
+    license: "MPL-2.0",
+    repo: "Klarr-Agency/Circum-Icons",
+    ref: "v2.0.2",
+    iconDir: "svg",
+    style: "fill",
+  },
 };

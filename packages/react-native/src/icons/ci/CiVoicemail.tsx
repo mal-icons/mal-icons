@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CiVoicemail = createIcon("0 0 24 24", [["path",{"d":"M17.43,7.5a4.5,4.5,0,0,0-2.82,8H9.39a4.49,4.49,0,1,0-2.82,1h10.87a4.5,4.5,0,0,0,0-9ZM3.07,12a3.5,3.5,0,1,1,3.56,3.5h-0.06A3.5,3.5,0,0,1,3.07,12Zm14.37,3.5h-0.06a3.53,3.53,0,1,1,0.06,0Z"}]]);
+
+export default CiVoicemail;
