@@ -23,6 +23,19 @@ npm install --save-dev @mal-icons/eslint-plugin
 
 > Requires ESLint 8 or newer (peer dependency).
 
+## Use with AI agents
+
+The [`mal-icons` agent skill](../../skills/mal-icons) teaches AI coding agents
+to use these lint rules and write tree-shakeable icon imports. Install it with
+the [`skills` CLI](https://www.npmjs.com/package/skills):
+
+```bash
+npx skills add mal-icons/mal-icons
+```
+
+See the
+[ESLint plugin setup guide](../../skills/mal-icons/references/setup/eslint-plugin.md).
+
 ## Usage
 
 ### Flat config (ESLint 9+)

@@ -1,0 +1,2573 @@
+{
+  "set": {
+    "id": "fi",
+    "name": "Feather",
+    "prefix": "Fi",
+    "version": "4.29.0",
+    "license": "MIT",
+    "repo": "feathericons/feather",
+    "style": "stroke",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 287,
+  "icons": [
+    {
+      "name": "FiActivity",
+      "tags": [
+        "activity",
+        "stroke"
+      ],
+      "description": "Activity icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAirplay",
+      "tags": [
+        "airplay",
+        "stroke"
+      ],
+      "description": "Airplay icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAlertCircle",
+      "tags": [
+        "alert",
+        "circle",
+        "stroke",
+        "warning"
+      ],
+      "description": "Alert Circle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAlertOctagon",
+      "tags": [
+        "alert",
+        "octagon",
+        "stroke",
+        "warning"
+      ],
+      "description": "Alert Octagon icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAlertTriangle",
+      "tags": [
+        "alert",
+        "stroke",
+        "triangle",
+        "warning"
+      ],
+      "description": "Alert Triangle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAlignCenter",
+      "tags": [
+        "align",
+        "center",
+        "stroke"
+      ],
+      "description": "Align Center icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAlignJustify",
+      "tags": [
+        "align",
+        "justify",
+        "stroke"
+      ],
+      "description": "Align Justify icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAlignLeft",
+      "tags": [
+        "align",
+        "left",
+        "stroke"
+      ],
+      "description": "Align Left icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAlignRight",
+      "tags": [
+        "align",
+        "right",
+        "stroke"
+      ],
+      "description": "Align Right icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAnchor",
+      "tags": [
+        "anchor",
+        "stroke"
+      ],
+      "description": "Anchor icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAperture",
+      "tags": [
+        "aperture",
+        "stroke"
+      ],
+      "description": "Aperture icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiArchive",
+      "tags": [
+        "archive",
+        "stroke"
+      ],
+      "description": "Archive icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowDownCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowDownLeft",
+      "tags": [
+        "arrow",
+        "down",
+        "left",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowDownRight",
+      "tags": [
+        "arrow",
+        "down",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowLeftCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "left",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowRight",
+      "tags": [
+        "arrow",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowRightCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowUp",
+      "tags": [
+        "arrow",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowUpCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowUpLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiArrowUpRight",
+      "tags": [
+        "arrow",
+        "like",
+        "right",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "FiAtSign",
+      "tags": [
+        "at",
+        "sign",
+        "stroke"
+      ],
+      "description": "At Sign icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiAward",
+      "tags": [
+        "award",
+        "stroke"
+      ],
+      "description": "Award icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiBarChart",
+      "tags": [
+        "bar",
+        "chart",
+        "stroke"
+      ],
+      "description": "Bar Chart icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiBarChart2",
+      "tags": [
+        "2",
+        "bar",
+        "chart",
+        "chart2",
+        "stroke"
+      ],
+      "description": "Bar Chart 2 icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiBattery",
+      "tags": [
+        "battery",
+        "stroke"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FiBatteryCharging",
+      "tags": [
+        "battery",
+        "charging",
+        "stroke"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FiBell",
+      "tags": [
+        "bell",
+        "notification",
+        "stroke"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "FiBellOff",
+      "tags": [
+        "bell",
+        "hide",
+        "notification",
+        "off",
+        "stroke"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "FiBluetooth",
+      "tags": [
+        "bluetooth",
+        "stroke"
+      ],
+      "description": "Bluetooth — device pairing and wireless links."
+    },
+    {
+      "name": "FiBold",
+      "tags": [
+        "bold",
+        "stroke"
+      ],
+      "description": "Bold icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiBook",
+      "tags": [
+        "book",
+        "stroke"
+      ],
+      "description": "Book icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiBookmark",
+      "tags": [
+        "bookmark",
+        "stroke"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "FiBookOpen",
+      "tags": [
+        "book",
+        "open",
+        "stroke"
+      ],
+      "description": "Book Open icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiBox",
+      "tags": [
+        "box",
+        "stroke"
+      ],
+      "description": "Box icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiBriefcase",
+      "tags": [
+        "briefcase",
+        "stroke"
+      ],
+      "description": "Briefcase icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCalendar",
+      "tags": [
+        "calendar",
+        "stroke"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FiCamera",
+      "tags": [
+        "camera",
+        "photo",
+        "stroke"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FiCameraOff",
+      "tags": [
+        "camera",
+        "hide",
+        "off",
+        "photo",
+        "stroke"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FiCast",
+      "tags": [
+        "cast",
+        "stroke"
+      ],
+      "description": "Cast icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCheck",
+      "tags": [
+        "check",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "FiCheckCircle",
+      "tags": [
+        "check",
+        "circle",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "FiCheckSquare",
+      "tags": [
+        "check",
+        "square",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "FiChevronDown",
+      "tags": [
+        "chevron",
+        "down",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "FiChevronLeft",
+      "tags": [
+        "chevron",
+        "left",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "FiChevronRight",
+      "tags": [
+        "chevron",
+        "right",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "FiChevronsDown",
+      "tags": [
+        "chevrons",
+        "down",
+        "stroke"
+      ],
+      "description": "Chevrons Down icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiChevronsLeft",
+      "tags": [
+        "chevrons",
+        "left",
+        "stroke"
+      ],
+      "description": "Chevrons Left icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiChevronsRight",
+      "tags": [
+        "chevrons",
+        "right",
+        "stroke"
+      ],
+      "description": "Chevrons Right icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiChevronsUp",
+      "tags": [
+        "chevrons",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Chevrons Up icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiChevronUp",
+      "tags": [
+        "chevron",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "FiChrome",
+      "tags": [
+        "chrome",
+        "stroke"
+      ],
+      "description": "Chrome icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCircle",
+      "tags": [
+        "circle",
+        "stroke"
+      ],
+      "description": "Circle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiClipboard",
+      "tags": [
+        "clipboard",
+        "stroke"
+      ],
+      "description": "Clipboard icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiClock",
+      "tags": [
+        "clock",
+        "stroke"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "FiCloud",
+      "tags": [
+        "cloud",
+        "stroke"
+      ],
+      "description": "Cloud icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCloudDrizzle",
+      "tags": [
+        "cloud",
+        "drizzle",
+        "stroke"
+      ],
+      "description": "Cloud Drizzle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCloudLightning",
+      "tags": [
+        "cloud",
+        "lightning",
+        "stroke"
+      ],
+      "description": "Cloud Lightning icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCloudOff",
+      "tags": [
+        "cloud",
+        "hide",
+        "off",
+        "stroke"
+      ],
+      "description": "Cloud Off icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCloudRain",
+      "tags": [
+        "cloud",
+        "rain",
+        "stroke"
+      ],
+      "description": "Cloud Rain icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCloudSnow",
+      "tags": [
+        "cloud",
+        "snow",
+        "stroke"
+      ],
+      "description": "Cloud Snow icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCode",
+      "tags": [
+        "code",
+        "stroke"
+      ],
+      "description": "Code icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCodepen",
+      "tags": [
+        "codepen",
+        "stroke"
+      ],
+      "description": "Codepen icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCodesandbox",
+      "tags": [
+        "codesandbox",
+        "stroke"
+      ],
+      "description": "Codesandbox icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCoffee",
+      "tags": [
+        "coffee",
+        "stroke"
+      ],
+      "description": "Coffee icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiColumns",
+      "tags": [
+        "columns",
+        "stroke"
+      ],
+      "description": "Columns icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCommand",
+      "tags": [
+        "command",
+        "stroke"
+      ],
+      "description": "Command icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCompass",
+      "tags": [
+        "compass",
+        "stroke"
+      ],
+      "description": "Compass icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCopy",
+      "tags": [
+        "copy",
+        "stroke"
+      ],
+      "description": "Copy icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerDownLeft",
+      "tags": [
+        "corner",
+        "down",
+        "left",
+        "stroke"
+      ],
+      "description": "Corner Down Left icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerDownRight",
+      "tags": [
+        "corner",
+        "down",
+        "right",
+        "stroke"
+      ],
+      "description": "Corner Down Right icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerLeftDown",
+      "tags": [
+        "corner",
+        "down",
+        "left",
+        "stroke"
+      ],
+      "description": "Corner Left Down icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerLeftUp",
+      "tags": [
+        "corner",
+        "left",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Corner Left Up icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerRightDown",
+      "tags": [
+        "corner",
+        "down",
+        "right",
+        "stroke"
+      ],
+      "description": "Corner Right Down icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerRightUp",
+      "tags": [
+        "corner",
+        "like",
+        "right",
+        "stroke",
+        "up"
+      ],
+      "description": "Corner Right Up icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerUpLeft",
+      "tags": [
+        "corner",
+        "left",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Corner Up Left icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCornerUpRight",
+      "tags": [
+        "corner",
+        "like",
+        "right",
+        "stroke",
+        "up"
+      ],
+      "description": "Corner Up Right icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCpu",
+      "tags": [
+        "cpu",
+        "stroke"
+      ],
+      "description": "Cpu icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "stroke"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "FiCrop",
+      "tags": [
+        "crop",
+        "stroke"
+      ],
+      "description": "Crop icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiCrosshair",
+      "tags": [
+        "crosshair",
+        "stroke"
+      ],
+      "description": "Crosshair icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDatabase",
+      "tags": [
+        "database",
+        "stroke"
+      ],
+      "description": "Database icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDelete",
+      "tags": [
+        "delete",
+        "stroke"
+      ],
+      "description": "Delete icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDisc",
+      "tags": [
+        "disc",
+        "stroke"
+      ],
+      "description": "Disc icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDivide",
+      "tags": [
+        "divide",
+        "stroke"
+      ],
+      "description": "Divide icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDivideCircle",
+      "tags": [
+        "circle",
+        "divide",
+        "stroke"
+      ],
+      "description": "Divide Circle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDivideSquare",
+      "tags": [
+        "divide",
+        "square",
+        "stroke"
+      ],
+      "description": "Divide Square icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDollarSign",
+      "tags": [
+        "dollar",
+        "sign",
+        "stroke"
+      ],
+      "description": "Dollar Sign icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDownload",
+      "tags": [
+        "download",
+        "save",
+        "stroke"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "FiDownloadCloud",
+      "tags": [
+        "cloud",
+        "download",
+        "save",
+        "stroke"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "FiDribbble",
+      "tags": [
+        "dribbble",
+        "stroke"
+      ],
+      "description": "Dribbble icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiDroplet",
+      "tags": [
+        "droplet",
+        "stroke"
+      ],
+      "description": "Droplet icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiEdit",
+      "tags": [
+        "edit",
+        "stroke"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "FiEdit2",
+      "tags": [
+        "2",
+        "edit",
+        "edit2",
+        "stroke"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "FiEdit3",
+      "tags": [
+        "3",
+        "edit",
+        "edit3",
+        "stroke"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "FiExternalLink",
+      "tags": [
+        "external",
+        "link",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "FiEye",
+      "tags": [
+        "eye",
+        "hide",
+        "stroke"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "FiEyeOff",
+      "tags": [
+        "eye",
+        "hide",
+        "off",
+        "stroke"
+      ],
+      "description": "Eye with slash — hide and reduced-visibility toggles."
+    },
+    {
+      "name": "FiFacebook",
+      "tags": [
+        "facebook",
+        "stroke"
+      ],
+      "description": "Facebook icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiFastForward",
+      "tags": [
+        "fast",
+        "forward",
+        "stroke"
+      ],
+      "description": "Fast Forward icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiFeather",
+      "tags": [
+        "feather",
+        "stroke"
+      ],
+      "description": "Feather icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiFigma",
+      "tags": [
+        "figma",
+        "stroke"
+      ],
+      "description": "Figma icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiFile",
+      "tags": [
+        "file",
+        "stroke"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FiFileMinus",
+      "tags": [
+        "file",
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FiFilePlus",
+      "tags": [
+        "add",
+        "file",
+        "plus",
+        "stroke"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FiFileText",
+      "tags": [
+        "file",
+        "stroke",
+        "text"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FiFilm",
+      "tags": [
+        "film",
+        "stroke"
+      ],
+      "description": "Film icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiFilter",
+      "tags": [
+        "filter",
+        "stroke"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "FiFlag",
+      "tags": [
+        "flag",
+        "stroke"
+      ],
+      "description": "Flag icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiFolder",
+      "tags": [
+        "folder",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FiFolderMinus",
+      "tags": [
+        "folder",
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FiFolderPlus",
+      "tags": [
+        "add",
+        "folder",
+        "plus",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FiFramer",
+      "tags": [
+        "framer",
+        "stroke"
+      ],
+      "description": "Framer icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiFrown",
+      "tags": [
+        "frown",
+        "stroke"
+      ],
+      "description": "Frown icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiGift",
+      "tags": [
+        "gift",
+        "stroke"
+      ],
+      "description": "Gift icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiGitBranch",
+      "tags": [
+        "branch",
+        "git",
+        "stroke"
+      ],
+      "description": "Git Branch icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiGitCommit",
+      "tags": [
+        "commit",
+        "git",
+        "stroke"
+      ],
+      "description": "Git Commit icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiGithub",
+      "tags": [
+        "github",
+        "stroke"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "FiGitlab",
+      "tags": [
+        "gitlab",
+        "stroke"
+      ],
+      "description": "Gitlab icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiGitMerge",
+      "tags": [
+        "git",
+        "merge",
+        "stroke"
+      ],
+      "description": "Git Merge icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiGitPullRequest",
+      "tags": [
+        "git",
+        "pull",
+        "request",
+        "stroke"
+      ],
+      "description": "Git Pull Request icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiGlobe",
+      "tags": [
+        "globe",
+        "stroke"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "FiGrid",
+      "tags": [
+        "grid",
+        "stroke"
+      ],
+      "description": "Grid icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiHardDrive",
+      "tags": [
+        "drive",
+        "hard",
+        "stroke"
+      ],
+      "description": "Hard Drive icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiHash",
+      "tags": [
+        "hash",
+        "stroke"
+      ],
+      "description": "Hash icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiHeadphones",
+      "tags": [
+        "headphones",
+        "stroke"
+      ],
+      "description": "Headphones icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiHeart",
+      "tags": [
+        "heart",
+        "like",
+        "love",
+        "stroke"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "FiHelpCircle",
+      "tags": [
+        "circle",
+        "help",
+        "stroke"
+      ],
+      "description": "Question mark — help and support."
+    },
+    {
+      "name": "FiHexagon",
+      "tags": [
+        "hexagon",
+        "stroke"
+      ],
+      "description": "Hexagon icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiHome",
+      "tags": [
+        "home",
+        "house",
+        "stroke"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "FiImage",
+      "tags": [
+        "image",
+        "photo",
+        "picture",
+        "stroke"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "FiInbox",
+      "tags": [
+        "inbox",
+        "stroke"
+      ],
+      "description": "Inbox icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiInfo",
+      "tags": [
+        "info",
+        "stroke"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "FiInstagram",
+      "tags": [
+        "instagram",
+        "stroke"
+      ],
+      "description": "Instagram icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiItalic",
+      "tags": [
+        "italic",
+        "stroke"
+      ],
+      "description": "Italic icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiKey",
+      "tags": [
+        "key",
+        "stroke"
+      ],
+      "description": "Key icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiLayers",
+      "tags": [
+        "layers",
+        "stroke"
+      ],
+      "description": "Layers icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiLayout",
+      "tags": [
+        "layout",
+        "stroke"
+      ],
+      "description": "Layout icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiLifeBuoy",
+      "tags": [
+        "buoy",
+        "life",
+        "stroke"
+      ],
+      "description": "Life Buoy icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiLink",
+      "tags": [
+        "link",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "FiLink2",
+      "tags": [
+        "2",
+        "link",
+        "link2",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "FiLinkedin",
+      "tags": [
+        "linkedin",
+        "stroke"
+      ],
+      "description": "Linkedin icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiList",
+      "tags": [
+        "list",
+        "stroke"
+      ],
+      "description": "List icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiLoader",
+      "tags": [
+        "loader",
+        "stroke"
+      ],
+      "description": "Loader icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiLock",
+      "tags": [
+        "lock",
+        "stroke"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "FiLogIn",
+      "tags": [
+        "in",
+        "log",
+        "stroke"
+      ],
+      "description": "Log In icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiLogOut",
+      "tags": [
+        "log",
+        "out",
+        "stroke"
+      ],
+      "description": "Log Out icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMail",
+      "tags": [
+        "mail",
+        "stroke"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "FiMap",
+      "tags": [
+        "map",
+        "stroke"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "FiMapPin",
+      "tags": [
+        "map",
+        "pin",
+        "stroke"
+      ],
+      "description": "Map pin — places, markers and addresses."
+    },
+    {
+      "name": "FiMaximize",
+      "tags": [
+        "maximize",
+        "stroke"
+      ],
+      "description": "Maximize icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMaximize2",
+      "tags": [
+        "2",
+        "maximize",
+        "maximize2",
+        "stroke"
+      ],
+      "description": "Maximize 2 icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMeh",
+      "tags": [
+        "meh",
+        "stroke"
+      ],
+      "description": "Meh icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMenu",
+      "tags": [
+        "menu",
+        "stroke"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "FiMessageCircle",
+      "tags": [
+        "circle",
+        "message",
+        "stroke"
+      ],
+      "description": "Message Circle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMessageSquare",
+      "tags": [
+        "message",
+        "square",
+        "stroke"
+      ],
+      "description": "Message Square icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMic",
+      "tags": [
+        "mic",
+        "stroke"
+      ],
+      "description": "Mic icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMicOff",
+      "tags": [
+        "hide",
+        "mic",
+        "off",
+        "stroke"
+      ],
+      "description": "Mic Off icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMinimize",
+      "tags": [
+        "minimize",
+        "stroke"
+      ],
+      "description": "Minimize icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMinimize2",
+      "tags": [
+        "2",
+        "minimize",
+        "minimize2",
+        "stroke"
+      ],
+      "description": "Minimize 2 icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMinus",
+      "tags": [
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "FiMinusCircle",
+      "tags": [
+        "circle",
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "FiMinusSquare",
+      "tags": [
+        "minus",
+        "remove",
+        "square",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "FiMonitor",
+      "tags": [
+        "monitor",
+        "stroke"
+      ],
+      "description": "Monitor icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMoon",
+      "tags": [
+        "moon",
+        "stroke"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "FiMoreHorizontal",
+      "tags": [
+        "horizontal",
+        "more",
+        "stroke"
+      ],
+      "description": "More Horizontal icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMoreVertical",
+      "tags": [
+        "more",
+        "stroke",
+        "vertical"
+      ],
+      "description": "More Vertical icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMousePointer",
+      "tags": [
+        "mouse",
+        "pointer",
+        "stroke"
+      ],
+      "description": "Mouse Pointer icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMove",
+      "tags": [
+        "move",
+        "stroke"
+      ],
+      "description": "Move icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiMusic",
+      "tags": [
+        "music",
+        "stroke"
+      ],
+      "description": "Music icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiNavigation",
+      "tags": [
+        "navigation",
+        "stroke"
+      ],
+      "description": "Navigation icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiNavigation2",
+      "tags": [
+        "2",
+        "navigation",
+        "navigation2",
+        "stroke"
+      ],
+      "description": "Navigation 2 icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiOctagon",
+      "tags": [
+        "octagon",
+        "stroke"
+      ],
+      "description": "Octagon icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPackage",
+      "tags": [
+        "package",
+        "stroke"
+      ],
+      "description": "Package icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPaperclip",
+      "tags": [
+        "paperclip",
+        "stroke"
+      ],
+      "description": "Paperclip icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPause",
+      "tags": [
+        "pause",
+        "stroke"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "FiPauseCircle",
+      "tags": [
+        "circle",
+        "pause",
+        "stroke"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "FiPenTool",
+      "tags": [
+        "edit",
+        "pen",
+        "stroke",
+        "tool"
+      ],
+      "description": "Pen Tool icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPercent",
+      "tags": [
+        "percent",
+        "stroke"
+      ],
+      "description": "Percent icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPhone",
+      "tags": [
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FiPhoneCall",
+      "tags": [
+        "call",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FiPhoneForwarded",
+      "tags": [
+        "forwarded",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FiPhoneIncoming",
+      "tags": [
+        "incoming",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FiPhoneMissed",
+      "tags": [
+        "missed",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FiPhoneOff",
+      "tags": [
+        "hide",
+        "off",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FiPhoneOutgoing",
+      "tags": [
+        "outgoing",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FiPieChart",
+      "tags": [
+        "chart",
+        "pie",
+        "stroke"
+      ],
+      "description": "Pie Chart icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPlay",
+      "tags": [
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "FiPlayCircle",
+      "tags": [
+        "circle",
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "FiPlus",
+      "tags": [
+        "add",
+        "plus",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "FiPlusCircle",
+      "tags": [
+        "add",
+        "circle",
+        "plus",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "FiPlusSquare",
+      "tags": [
+        "add",
+        "plus",
+        "square",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "FiPocket",
+      "tags": [
+        "pocket",
+        "stroke"
+      ],
+      "description": "Pocket icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPower",
+      "tags": [
+        "power",
+        "stroke"
+      ],
+      "description": "Power icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiPrinter",
+      "tags": [
+        "printer",
+        "stroke"
+      ],
+      "description": "Printer icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiRadio",
+      "tags": [
+        "radio",
+        "stroke"
+      ],
+      "description": "Radio icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiRefreshCcw",
+      "tags": [
+        "ccw",
+        "refresh",
+        "stroke"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "FiRefreshCw",
+      "tags": [
+        "cw",
+        "refresh",
+        "stroke"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "FiRepeat",
+      "tags": [
+        "repeat",
+        "stroke"
+      ],
+      "description": "Repeat icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiRewind",
+      "tags": [
+        "rewind",
+        "stroke"
+      ],
+      "description": "Rewind icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiRotateCcw",
+      "tags": [
+        "ccw",
+        "rotate",
+        "stroke"
+      ],
+      "description": "Rotate Ccw icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiRotateCw",
+      "tags": [
+        "cw",
+        "rotate",
+        "stroke"
+      ],
+      "description": "Rotate Cw icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiRss",
+      "tags": [
+        "rss",
+        "stroke"
+      ],
+      "description": "Rss icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSave",
+      "tags": [
+        "save",
+        "stroke"
+      ],
+      "description": "Save icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiScissors",
+      "tags": [
+        "scissors",
+        "stroke"
+      ],
+      "description": "Scissors icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSearch",
+      "tags": [
+        "find",
+        "search",
+        "stroke"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "FiSend",
+      "tags": [
+        "send",
+        "stroke"
+      ],
+      "description": "Paper plane — send and submit actions."
+    },
+    {
+      "name": "FiServer",
+      "tags": [
+        "server",
+        "stroke"
+      ],
+      "description": "Server icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSettings",
+      "tags": [
+        "gear",
+        "setting",
+        "settings",
+        "stroke"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "FiShare",
+      "tags": [
+        "share",
+        "stroke"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "FiShare2",
+      "tags": [
+        "2",
+        "share",
+        "share2",
+        "stroke"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "FiShield",
+      "tags": [
+        "shield",
+        "stroke"
+      ],
+      "description": "Shield icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiShieldOff",
+      "tags": [
+        "hide",
+        "off",
+        "shield",
+        "stroke"
+      ],
+      "description": "Shield Off icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiShoppingBag",
+      "tags": [
+        "bag",
+        "cart",
+        "shopping",
+        "stroke"
+      ],
+      "description": "Shopping Bag icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiShoppingCart",
+      "tags": [
+        "cart",
+        "shopping",
+        "stroke"
+      ],
+      "description": "Shopping cart — carts, checkout and e-commerce."
+    },
+    {
+      "name": "FiShuffle",
+      "tags": [
+        "shuffle",
+        "stroke"
+      ],
+      "description": "Shuffle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSidebar",
+      "tags": [
+        "sidebar",
+        "stroke"
+      ],
+      "description": "Sidebar icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSkipBack",
+      "tags": [
+        "back",
+        "skip",
+        "stroke"
+      ],
+      "description": "Skip Back icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSkipForward",
+      "tags": [
+        "forward",
+        "skip",
+        "stroke"
+      ],
+      "description": "Skip Forward icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSlack",
+      "tags": [
+        "slack",
+        "stroke"
+      ],
+      "description": "Slack icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSlash",
+      "tags": [
+        "slash",
+        "stroke"
+      ],
+      "description": "Slash icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSliders",
+      "tags": [
+        "gear",
+        "setting",
+        "sliders",
+        "stroke"
+      ],
+      "description": "Sliders icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSmartphone",
+      "tags": [
+        "smartphone",
+        "stroke"
+      ],
+      "description": "Smartphone icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSmile",
+      "tags": [
+        "smile",
+        "stroke"
+      ],
+      "description": "Smile icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSpeaker",
+      "tags": [
+        "speaker",
+        "stroke"
+      ],
+      "description": "Speaker icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSquare",
+      "tags": [
+        "square",
+        "stroke"
+      ],
+      "description": "Square icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiStar",
+      "tags": [
+        "star",
+        "stroke"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "FiStopCircle",
+      "tags": [
+        "circle",
+        "stop",
+        "stroke"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "FiSun",
+      "tags": [
+        "stroke",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "FiSunrise",
+      "tags": [
+        "stroke",
+        "sunrise"
+      ],
+      "description": "Sunrise icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiSunset",
+      "tags": [
+        "stroke",
+        "sunset"
+      ],
+      "description": "Sunset icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTable",
+      "tags": [
+        "stroke",
+        "table"
+      ],
+      "description": "Table icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTablet",
+      "tags": [
+        "stroke",
+        "tablet"
+      ],
+      "description": "Tablet icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTag",
+      "tags": [
+        "stroke",
+        "tag"
+      ],
+      "description": "Tag icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTarget",
+      "tags": [
+        "stroke",
+        "target"
+      ],
+      "description": "Target icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTerminal",
+      "tags": [
+        "stroke",
+        "terminal"
+      ],
+      "description": "Terminal icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiThermometer",
+      "tags": [
+        "stroke",
+        "thermometer"
+      ],
+      "description": "Thermometer icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiThumbsDown",
+      "tags": [
+        "down",
+        "like",
+        "stroke",
+        "thumbs"
+      ],
+      "description": "Thumbs Down icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiThumbsUp",
+      "tags": [
+        "like",
+        "stroke",
+        "thumbs",
+        "up"
+      ],
+      "description": "Thumbs Up icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiToggleLeft",
+      "tags": [
+        "left",
+        "stroke",
+        "toggle"
+      ],
+      "description": "Toggle Left icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiToggleRight",
+      "tags": [
+        "right",
+        "stroke",
+        "toggle"
+      ],
+      "description": "Toggle Right icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTool",
+      "tags": [
+        "stroke",
+        "tool"
+      ],
+      "description": "Tool icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "remove",
+        "stroke",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "FiTrash2",
+      "tags": [
+        "2",
+        "bin",
+        "delete",
+        "remove",
+        "stroke",
+        "trash",
+        "trash2"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "FiTrello",
+      "tags": [
+        "stroke",
+        "trello"
+      ],
+      "description": "Trello icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTrendingDown",
+      "tags": [
+        "down",
+        "stroke",
+        "trending"
+      ],
+      "description": "Trending Down icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTrendingUp",
+      "tags": [
+        "like",
+        "stroke",
+        "trending",
+        "up"
+      ],
+      "description": "Trending Up icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTriangle",
+      "tags": [
+        "stroke",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTruck",
+      "tags": [
+        "stroke",
+        "truck"
+      ],
+      "description": "Truck icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTv",
+      "tags": [
+        "stroke",
+        "tv"
+      ],
+      "description": "Tv icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTwitch",
+      "tags": [
+        "stroke",
+        "twitch"
+      ],
+      "description": "Twitch icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiTwitter",
+      "tags": [
+        "stroke",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "FiType",
+      "tags": [
+        "stroke",
+        "type"
+      ],
+      "description": "Type icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiUmbrella",
+      "tags": [
+        "stroke",
+        "umbrella"
+      ],
+      "description": "Umbrella icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiUnderline",
+      "tags": [
+        "stroke",
+        "underline"
+      ],
+      "description": "Underline icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiUnlock",
+      "tags": [
+        "stroke",
+        "unlock"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "FiUpload",
+      "tags": [
+        "stroke",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "FiUploadCloud",
+      "tags": [
+        "cloud",
+        "stroke",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "FiUser",
+      "tags": [
+        "account",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "FiUserCheck",
+      "tags": [
+        "account",
+        "check",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "FiUserMinus",
+      "tags": [
+        "account",
+        "minus",
+        "person",
+        "remove",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "FiUserPlus",
+      "tags": [
+        "account",
+        "add",
+        "person",
+        "plus",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "FiUsers",
+      "tags": [
+        "stroke",
+        "users"
+      ],
+      "description": "Group of people — teams, members and audiences."
+    },
+    {
+      "name": "FiUserX",
+      "tags": [
+        "account",
+        "cancel",
+        "close",
+        "delete",
+        "person",
+        "remove",
+        "stroke",
+        "user",
+        "x"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "FiVideo",
+      "tags": [
+        "stroke",
+        "video"
+      ],
+      "description": "Video icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiVideoOff",
+      "tags": [
+        "hide",
+        "off",
+        "stroke",
+        "video"
+      ],
+      "description": "Video Off icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiVoicemail",
+      "tags": [
+        "stroke",
+        "voicemail"
+      ],
+      "description": "Voicemail icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiVolume",
+      "tags": [
+        "stroke",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "FiVolume1",
+      "tags": [
+        "1",
+        "stroke",
+        "volume",
+        "volume1"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "FiVolume2",
+      "tags": [
+        "2",
+        "stroke",
+        "volume",
+        "volume2"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "FiVolumeX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "stroke",
+        "volume",
+        "x"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "FiWatch",
+      "tags": [
+        "stroke",
+        "watch"
+      ],
+      "description": "Watch icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiWifi",
+      "tags": [
+        "stroke",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "FiWifiOff",
+      "tags": [
+        "hide",
+        "off",
+        "stroke",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "FiWind",
+      "tags": [
+        "stroke",
+        "wind"
+      ],
+      "description": "Wind icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "stroke",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "FiXCircle",
+      "tags": [
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "remove",
+        "stroke",
+        "x",
+        "xcircle"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "FiXOctagon",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "octagon",
+        "remove",
+        "stroke",
+        "x",
+        "xoctagon"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "FiXSquare",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "square",
+        "stroke",
+        "x",
+        "xsquare"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "FiYoutube",
+      "tags": [
+        "stroke",
+        "youtube"
+      ],
+      "description": "Youtube icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiZap",
+      "tags": [
+        "stroke",
+        "zap"
+      ],
+      "description": "Zap icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiZapOff",
+      "tags": [
+        "hide",
+        "off",
+        "stroke",
+        "zap"
+      ],
+      "description": "Zap Off icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiZoomIn",
+      "tags": [
+        "in",
+        "stroke",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Feather (fi) set, stroke style."
+    },
+    {
+      "name": "FiZoomOut",
+      "tags": [
+        "out",
+        "stroke",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Feather (fi) set, stroke style."
+    }
+  ]
+}

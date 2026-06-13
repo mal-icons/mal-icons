@@ -1,0 +1,2646 @@
+{
+  "set": {
+    "id": "ci",
+    "name": "Circum",
+    "prefix": "Ci",
+    "version": "2.0.2",
+    "license": "MPL-2.0",
+    "repo": "Klarr-Agency/Circum-Icons",
+    "style": "fill",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 288,
+  "icons": [
+    {
+      "name": "CiAirportSign1",
+      "tags": [
+        "1",
+        "airport",
+        "fill",
+        "sign",
+        "sign1"
+      ],
+      "description": "Airport Sign 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlarmOff",
+      "tags": [
+        "alarm",
+        "fill",
+        "hide",
+        "off"
+      ],
+      "description": "Alarm Off icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlarmOn",
+      "tags": [
+        "alarm",
+        "fill",
+        "on"
+      ],
+      "description": "Alarm On icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlignBottom",
+      "tags": [
+        "align",
+        "bottom",
+        "fill"
+      ],
+      "description": "Align Bottom icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlignCenterH",
+      "tags": [
+        "align",
+        "center",
+        "fill",
+        "h"
+      ],
+      "description": "Align Center H icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlignCenterV",
+      "tags": [
+        "align",
+        "center",
+        "fill",
+        "v"
+      ],
+      "description": "Align Center V icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlignLeft",
+      "tags": [
+        "align",
+        "fill",
+        "left"
+      ],
+      "description": "Align Left icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlignRight",
+      "tags": [
+        "align",
+        "fill",
+        "right"
+      ],
+      "description": "Align Right icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAlignTop",
+      "tags": [
+        "align",
+        "fill",
+        "top"
+      ],
+      "description": "Align Top icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiApple",
+      "tags": [
+        "apple",
+        "fill"
+      ],
+      "description": "Apple icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAt",
+      "tags": [
+        "at",
+        "fill"
+      ],
+      "description": "At icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiAvocado",
+      "tags": [
+        "avocado",
+        "fill"
+      ],
+      "description": "Avocado icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBacon",
+      "tags": [
+        "bacon",
+        "fill"
+      ],
+      "description": "Bacon icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBadgeDollar",
+      "tags": [
+        "badge",
+        "dollar",
+        "fill"
+      ],
+      "description": "Badge Dollar icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBag1",
+      "tags": [
+        "1",
+        "bag",
+        "bag1",
+        "fill"
+      ],
+      "description": "Bag 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBandage",
+      "tags": [
+        "bandage",
+        "fill"
+      ],
+      "description": "Bandage icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBank",
+      "tags": [
+        "bank",
+        "fill"
+      ],
+      "description": "Bank icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBarcode",
+      "tags": [
+        "barcode",
+        "fill"
+      ],
+      "description": "Barcode icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBaseball",
+      "tags": [
+        "baseball",
+        "fill"
+      ],
+      "description": "Baseball icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBasketball",
+      "tags": [
+        "basketball",
+        "fill"
+      ],
+      "description": "Basketball icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBatteryCharging",
+      "tags": [
+        "battery",
+        "charging",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "CiBatteryEmpty",
+      "tags": [
+        "battery",
+        "empty",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "CiBatteryFull",
+      "tags": [
+        "battery",
+        "fill",
+        "full"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "CiBeaker1",
+      "tags": [
+        "1",
+        "beaker",
+        "beaker1",
+        "fill"
+      ],
+      "description": "Beaker 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBeerMugFull",
+      "tags": [
+        "beer",
+        "fill",
+        "full",
+        "mug"
+      ],
+      "description": "Beer Mug Full icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBellOff",
+      "tags": [
+        "bell",
+        "fill",
+        "hide",
+        "notification",
+        "off"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "CiBellOn",
+      "tags": [
+        "bell",
+        "fill",
+        "notification",
+        "on"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "CiBezier",
+      "tags": [
+        "bezier",
+        "fill"
+      ],
+      "description": "Bezier icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBitcoin",
+      "tags": [
+        "bitcoin",
+        "fill"
+      ],
+      "description": "Bitcoin icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBluetooth",
+      "tags": [
+        "bluetooth",
+        "fill"
+      ],
+      "description": "Bluetooth — device pairing and wireless links."
+    },
+    {
+      "name": "CiBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "CiBookmarkCheck",
+      "tags": [
+        "bookmark",
+        "check",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "CiBookmarkMinus",
+      "tags": [
+        "bookmark",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "CiBookmarkPlus",
+      "tags": [
+        "add",
+        "bookmark",
+        "fill",
+        "plus"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "CiBookmarkRemove",
+      "tags": [
+        "bookmark",
+        "fill",
+        "remove"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "CiBowlNoodles",
+      "tags": [
+        "bowl",
+        "fill",
+        "noodles"
+      ],
+      "description": "Bowl Noodles icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBoxes",
+      "tags": [
+        "boxes",
+        "fill"
+      ],
+      "description": "Boxes icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBoxList",
+      "tags": [
+        "box",
+        "fill",
+        "list"
+      ],
+      "description": "Box List icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBrightnessDown",
+      "tags": [
+        "brightness",
+        "down",
+        "fill"
+      ],
+      "description": "Brightness Down icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBrightnessUp",
+      "tags": [
+        "brightness",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Brightness Up icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBullhorn",
+      "tags": [
+        "bullhorn",
+        "fill"
+      ],
+      "description": "Bullhorn icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiBurger",
+      "tags": [
+        "burger",
+        "fill"
+      ],
+      "description": "Burger icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCalculator1",
+      "tags": [
+        "1",
+        "calculator",
+        "calculator1",
+        "fill"
+      ],
+      "description": "Calculator 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCalculator2",
+      "tags": [
+        "2",
+        "calculator",
+        "calculator2",
+        "fill"
+      ],
+      "description": "Calculator 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CiCalendarDate",
+      "tags": [
+        "calendar",
+        "date",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CiCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "CiChat1",
+      "tags": [
+        "1",
+        "chat",
+        "chat1",
+        "fill"
+      ],
+      "description": "Chat 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiChat2",
+      "tags": [
+        "2",
+        "chat",
+        "chat2",
+        "fill"
+      ],
+      "description": "Chat 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleAlert",
+      "tags": [
+        "alert",
+        "circle",
+        "fill",
+        "warning"
+      ],
+      "description": "Circle Alert icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleCheck",
+      "tags": [
+        "check",
+        "circle",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "CiCircleChevDown",
+      "tags": [
+        "chev",
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Circle Chev Down icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleChevLeft",
+      "tags": [
+        "chev",
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Circle Chev Left icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleChevRight",
+      "tags": [
+        "chev",
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Circle Chev Right icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleChevUp",
+      "tags": [
+        "chev",
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Circle Chev Up icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleInfo",
+      "tags": [
+        "circle",
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "CiCircleList",
+      "tags": [
+        "circle",
+        "fill",
+        "list"
+      ],
+      "description": "Circle List icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleMinus",
+      "tags": [
+        "circle",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "CiCircleMore",
+      "tags": [
+        "circle",
+        "fill",
+        "more"
+      ],
+      "description": "Circle More icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCirclePlus",
+      "tags": [
+        "add",
+        "circle",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "CiCircleQuestion",
+      "tags": [
+        "circle",
+        "fill",
+        "question"
+      ],
+      "description": "Circle Question icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCircleRemove",
+      "tags": [
+        "circle",
+        "fill",
+        "remove"
+      ],
+      "description": "Circle Remove icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiClock1",
+      "tags": [
+        "1",
+        "clock",
+        "clock1",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "CiClock2",
+      "tags": [
+        "2",
+        "clock",
+        "clock2",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "CiCloud",
+      "tags": [
+        "cloud",
+        "fill"
+      ],
+      "description": "Cloud icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCloudDrizzle",
+      "tags": [
+        "cloud",
+        "drizzle",
+        "fill"
+      ],
+      "description": "Cloud Drizzle icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCloudMoon",
+      "tags": [
+        "cloud",
+        "fill",
+        "moon"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "CiCloudOff",
+      "tags": [
+        "cloud",
+        "fill",
+        "hide",
+        "off"
+      ],
+      "description": "Cloud Off icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCloudOn",
+      "tags": [
+        "cloud",
+        "fill",
+        "on"
+      ],
+      "description": "Cloud On icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCloudRainbow",
+      "tags": [
+        "cloud",
+        "fill",
+        "rainbow"
+      ],
+      "description": "Cloud Rainbow icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCloudSun",
+      "tags": [
+        "cloud",
+        "fill",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "CiCoffeeBean",
+      "tags": [
+        "bean",
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee Bean icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCoffeeCup",
+      "tags": [
+        "coffee",
+        "cup",
+        "fill"
+      ],
+      "description": "Coffee Cup icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCoinInsert",
+      "tags": [
+        "coin",
+        "fill",
+        "insert"
+      ],
+      "description": "Coin Insert icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCoins1",
+      "tags": [
+        "1",
+        "coins",
+        "coins1",
+        "fill"
+      ],
+      "description": "Coins 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCompass1",
+      "tags": [
+        "1",
+        "compass",
+        "compass1",
+        "fill"
+      ],
+      "description": "Compass 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCreditCard1",
+      "tags": [
+        "1",
+        "card",
+        "card1",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit Card 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCreditCard2",
+      "tags": [
+        "2",
+        "card",
+        "card2",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit Card 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCreditCardOff",
+      "tags": [
+        "card",
+        "credit",
+        "fill",
+        "hide",
+        "off"
+      ],
+      "description": "Credit Card Off icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiCrop",
+      "tags": [
+        "crop",
+        "fill"
+      ],
+      "description": "Crop icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDark",
+      "tags": [
+        "dark",
+        "fill"
+      ],
+      "description": "Dark icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDatabase",
+      "tags": [
+        "database",
+        "fill"
+      ],
+      "description": "Database icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDeliveryTruck",
+      "tags": [
+        "delivery",
+        "fill",
+        "truck"
+      ],
+      "description": "Delivery Truck icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDesktop",
+      "tags": [
+        "desktop",
+        "fill"
+      ],
+      "description": "Desktop icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDesktopMouse1",
+      "tags": [
+        "1",
+        "desktop",
+        "fill",
+        "mouse",
+        "mouse1"
+      ],
+      "description": "Desktop Mouse 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDesktopMouse2",
+      "tags": [
+        "2",
+        "desktop",
+        "fill",
+        "mouse",
+        "mouse2"
+      ],
+      "description": "Desktop Mouse 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDiscount1",
+      "tags": [
+        "1",
+        "discount",
+        "discount1",
+        "fill"
+      ],
+      "description": "Discount 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDollar",
+      "tags": [
+        "dollar",
+        "fill"
+      ],
+      "description": "Dollar icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDroplet",
+      "tags": [
+        "droplet",
+        "fill"
+      ],
+      "description": "Droplet icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiDumbbell",
+      "tags": [
+        "dumbbell",
+        "fill"
+      ],
+      "description": "Dumbbell icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiEdit",
+      "tags": [
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CiEraser",
+      "tags": [
+        "eraser",
+        "fill"
+      ],
+      "description": "Eraser icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiExport",
+      "tags": [
+        "export",
+        "fill"
+      ],
+      "description": "Export icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFacebook",
+      "tags": [
+        "facebook",
+        "fill"
+      ],
+      "description": "Facebook icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFaceFrown",
+      "tags": [
+        "face",
+        "fill",
+        "frown"
+      ],
+      "description": "Face Frown icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFaceMeh",
+      "tags": [
+        "face",
+        "fill",
+        "meh"
+      ],
+      "description": "Face Meh icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFaceSmile",
+      "tags": [
+        "face",
+        "fill",
+        "smile"
+      ],
+      "description": "Face Smile icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFileOff",
+      "tags": [
+        "file",
+        "fill",
+        "hide",
+        "off"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "CiFileOn",
+      "tags": [
+        "file",
+        "fill",
+        "on"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "CiFilter",
+      "tags": [
+        "fill",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "CiFlag1",
+      "tags": [
+        "1",
+        "fill",
+        "flag",
+        "flag1"
+      ],
+      "description": "Flag 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFloppyDisk",
+      "tags": [
+        "disk",
+        "fill",
+        "floppy"
+      ],
+      "description": "Floppy Disk icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFolderOff",
+      "tags": [
+        "fill",
+        "folder",
+        "hide",
+        "off"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "CiFolderOn",
+      "tags": [
+        "fill",
+        "folder",
+        "on"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "CiFootball",
+      "tags": [
+        "fill",
+        "football"
+      ],
+      "description": "Football icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiForkKnife",
+      "tags": [
+        "fill",
+        "fork",
+        "knife"
+      ],
+      "description": "Fork Knife icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiFries",
+      "tags": [
+        "fill",
+        "fries"
+      ],
+      "description": "Fries icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGift",
+      "tags": [
+        "fill",
+        "gift"
+      ],
+      "description": "Gift icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGlass",
+      "tags": [
+        "fill",
+        "glass"
+      ],
+      "description": "Glass icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGlobe",
+      "tags": [
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "CiGps",
+      "tags": [
+        "fill",
+        "gps"
+      ],
+      "description": "Gps icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGrid2H",
+      "tags": [
+        "2",
+        "fill",
+        "grid",
+        "grid2",
+        "h"
+      ],
+      "description": "Grid 2 H icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGrid2V",
+      "tags": [
+        "2",
+        "fill",
+        "grid",
+        "grid2",
+        "v"
+      ],
+      "description": "Grid 2 V icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGrid31",
+      "tags": [
+        "1",
+        "3",
+        "fill",
+        "grid",
+        "grid31"
+      ],
+      "description": "Grid 31 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGrid32",
+      "tags": [
+        "2",
+        "3",
+        "fill",
+        "grid",
+        "grid32"
+      ],
+      "description": "Grid 32 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGrid41",
+      "tags": [
+        "1",
+        "4",
+        "fill",
+        "grid",
+        "grid41"
+      ],
+      "description": "Grid 41 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiGrid42",
+      "tags": [
+        "2",
+        "4",
+        "fill",
+        "grid",
+        "grid42"
+      ],
+      "description": "Grid 42 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiHardDrive",
+      "tags": [
+        "drive",
+        "fill",
+        "hard"
+      ],
+      "description": "Hard Drive icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiHashtag",
+      "tags": [
+        "fill",
+        "hashtag"
+      ],
+      "description": "Hashtag icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiHeadphones",
+      "tags": [
+        "fill",
+        "headphones"
+      ],
+      "description": "Headphones icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "CiHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CiHospital1",
+      "tags": [
+        "1",
+        "fill",
+        "hospital",
+        "hospital1"
+      ],
+      "description": "Hospital 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiHotdog",
+      "tags": [
+        "fill",
+        "hotdog"
+      ],
+      "description": "Hotdog icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiIceCream",
+      "tags": [
+        "cream",
+        "fill",
+        "ice"
+      ],
+      "description": "Ice Cream icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiImageOff",
+      "tags": [
+        "fill",
+        "hide",
+        "image",
+        "off",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "CiImageOn",
+      "tags": [
+        "fill",
+        "image",
+        "on",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "CiImport",
+      "tags": [
+        "fill",
+        "import"
+      ],
+      "description": "Import icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiInboxIn",
+      "tags": [
+        "fill",
+        "in",
+        "inbox"
+      ],
+      "description": "Inbox In icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiInboxOut",
+      "tags": [
+        "fill",
+        "inbox",
+        "out"
+      ],
+      "description": "Inbox Out icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiIndent",
+      "tags": [
+        "fill",
+        "indent"
+      ],
+      "description": "Indent icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiInstagram",
+      "tags": [
+        "fill",
+        "instagram"
+      ],
+      "description": "Instagram icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiKeyboard",
+      "tags": [
+        "fill",
+        "keyboard"
+      ],
+      "description": "Keyboard icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLaptop",
+      "tags": [
+        "fill",
+        "laptop"
+      ],
+      "description": "Laptop icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLemon",
+      "tags": [
+        "fill",
+        "lemon"
+      ],
+      "description": "Lemon icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLight",
+      "tags": [
+        "fill",
+        "light"
+      ],
+      "description": "Light icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLineHeight",
+      "tags": [
+        "fill",
+        "height",
+        "line"
+      ],
+      "description": "Line Height icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "CiLinkedin",
+      "tags": [
+        "fill",
+        "linkedin"
+      ],
+      "description": "Linkedin icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLocationArrow1",
+      "tags": [
+        "1",
+        "arrow",
+        "arrow1",
+        "fill",
+        "location"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CiLocationOff",
+      "tags": [
+        "fill",
+        "hide",
+        "location",
+        "off"
+      ],
+      "description": "Location Off icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLocationOn",
+      "tags": [
+        "fill",
+        "location",
+        "on"
+      ],
+      "description": "Location On icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "CiLogin",
+      "tags": [
+        "fill",
+        "login"
+      ],
+      "description": "Login icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLogout",
+      "tags": [
+        "fill",
+        "logout"
+      ],
+      "description": "Logout icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiLollipop",
+      "tags": [
+        "fill",
+        "lollipop"
+      ],
+      "description": "Lollipop icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMail",
+      "tags": [
+        "fill",
+        "mail"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "CiMap",
+      "tags": [
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "CiMapPin",
+      "tags": [
+        "fill",
+        "map",
+        "pin"
+      ],
+      "description": "Map pin — places, markers and addresses."
+    },
+    {
+      "name": "CiMaximize1",
+      "tags": [
+        "1",
+        "fill",
+        "maximize",
+        "maximize1"
+      ],
+      "description": "Maximize 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMaximize2",
+      "tags": [
+        "2",
+        "fill",
+        "maximize",
+        "maximize2"
+      ],
+      "description": "Maximize 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMedal",
+      "tags": [
+        "fill",
+        "medal"
+      ],
+      "description": "Medal icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMedicalCase",
+      "tags": [
+        "case",
+        "fill",
+        "medical"
+      ],
+      "description": "Medical Case icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMedicalClipboard",
+      "tags": [
+        "clipboard",
+        "fill",
+        "medical"
+      ],
+      "description": "Medical Clipboard icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMedicalCross",
+      "tags": [
+        "cross",
+        "fill",
+        "medical"
+      ],
+      "description": "Medical Cross icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMedicalMask",
+      "tags": [
+        "fill",
+        "mask",
+        "medical"
+      ],
+      "description": "Medical Mask icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMemoPad",
+      "tags": [
+        "fill",
+        "memo",
+        "pad"
+      ],
+      "description": "Memo Pad icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMenuBurger",
+      "tags": [
+        "burger",
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CiMenuFries",
+      "tags": [
+        "fill",
+        "fries",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CiMenuKebab",
+      "tags": [
+        "fill",
+        "kebab",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CiMicrochip",
+      "tags": [
+        "fill",
+        "microchip"
+      ],
+      "description": "Microchip icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMicrophoneOff",
+      "tags": [
+        "fill",
+        "hide",
+        "microphone",
+        "off"
+      ],
+      "description": "Microphone Off icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMicrophoneOn",
+      "tags": [
+        "fill",
+        "microphone",
+        "on"
+      ],
+      "description": "Microphone On icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMinimize1",
+      "tags": [
+        "1",
+        "fill",
+        "minimize",
+        "minimize1"
+      ],
+      "description": "Minimize 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMinimize2",
+      "tags": [
+        "2",
+        "fill",
+        "minimize",
+        "minimize2"
+      ],
+      "description": "Minimize 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMobile1",
+      "tags": [
+        "1",
+        "fill",
+        "mobile",
+        "mobile1"
+      ],
+      "description": "Mobile 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMobile2",
+      "tags": [
+        "2",
+        "fill",
+        "mobile",
+        "mobile2"
+      ],
+      "description": "Mobile 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMobile3",
+      "tags": [
+        "3",
+        "fill",
+        "mobile",
+        "mobile3"
+      ],
+      "description": "Mobile 3 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMobile4",
+      "tags": [
+        "4",
+        "fill",
+        "mobile",
+        "mobile4"
+      ],
+      "description": "Mobile 4 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMoneyBill",
+      "tags": [
+        "bill",
+        "fill",
+        "money"
+      ],
+      "description": "Money Bill icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMoneyCheck1",
+      "tags": [
+        "1",
+        "check",
+        "check1",
+        "fill",
+        "money"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "CiMonitor",
+      "tags": [
+        "fill",
+        "monitor"
+      ],
+      "description": "Monitor icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMountain1",
+      "tags": [
+        "1",
+        "fill",
+        "mountain",
+        "mountain1"
+      ],
+      "description": "Mountain 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMug1",
+      "tags": [
+        "1",
+        "fill",
+        "mug",
+        "mug1"
+      ],
+      "description": "Mug 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiMusicNote1",
+      "tags": [
+        "1",
+        "fill",
+        "music",
+        "note",
+        "note1"
+      ],
+      "description": "Music Note 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiNoWaitingSign",
+      "tags": [
+        "fill",
+        "no",
+        "sign",
+        "waiting"
+      ],
+      "description": "No Waiting Sign icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPalette",
+      "tags": [
+        "fill",
+        "palette"
+      ],
+      "description": "Palette icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPaperplane",
+      "tags": [
+        "fill",
+        "paperplane"
+      ],
+      "description": "Paperplane icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiParking1",
+      "tags": [
+        "1",
+        "fill",
+        "parking",
+        "parking1"
+      ],
+      "description": "Parking 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPassport1",
+      "tags": [
+        "1",
+        "fill",
+        "passport",
+        "passport1"
+      ],
+      "description": "Passport 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPause1",
+      "tags": [
+        "1",
+        "fill",
+        "pause",
+        "pause1"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "CiPen",
+      "tags": [
+        "edit",
+        "fill",
+        "pen"
+      ],
+      "description": "Pen icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPenpot",
+      "tags": [
+        "fill",
+        "penpot"
+      ],
+      "description": "Penpot icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPercent",
+      "tags": [
+        "fill",
+        "percent"
+      ],
+      "description": "Percent icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPhone",
+      "tags": [
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "CiPickerEmpty",
+      "tags": [
+        "empty",
+        "fill",
+        "picker"
+      ],
+      "description": "Picker Empty icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPickerHalf",
+      "tags": [
+        "fill",
+        "half",
+        "picker"
+      ],
+      "description": "Picker Half icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPill",
+      "tags": [
+        "fill",
+        "pill"
+      ],
+      "description": "Pill icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPillsBottle1",
+      "tags": [
+        "1",
+        "bottle",
+        "bottle1",
+        "fill",
+        "pills"
+      ],
+      "description": "Pills Bottle 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPizza",
+      "tags": [
+        "fill",
+        "pizza"
+      ],
+      "description": "Pizza icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPlane",
+      "tags": [
+        "fill",
+        "plane"
+      ],
+      "description": "Plane icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPlay1",
+      "tags": [
+        "1",
+        "fill",
+        "play",
+        "play1"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CiPlug1",
+      "tags": [
+        "1",
+        "fill",
+        "plug",
+        "plug1"
+      ],
+      "description": "Plug 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiPower",
+      "tags": [
+        "fill",
+        "power"
+      ],
+      "description": "Power icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRainbow",
+      "tags": [
+        "fill",
+        "rainbow"
+      ],
+      "description": "Rainbow icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRead",
+      "tags": [
+        "fill",
+        "read"
+      ],
+      "description": "Read icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiReceipt",
+      "tags": [
+        "fill",
+        "receipt"
+      ],
+      "description": "Receipt icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRedo",
+      "tags": [
+        "fill",
+        "redo"
+      ],
+      "description": "Redo icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRepeat",
+      "tags": [
+        "fill",
+        "repeat"
+      ],
+      "description": "Repeat icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRollingSuitcase",
+      "tags": [
+        "fill",
+        "rolling",
+        "suitcase"
+      ],
+      "description": "Rolling Suitcase icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRoute",
+      "tags": [
+        "fill",
+        "route"
+      ],
+      "description": "Route icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRouter",
+      "tags": [
+        "fill",
+        "router"
+      ],
+      "description": "Router icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiRuler",
+      "tags": [
+        "fill",
+        "ruler"
+      ],
+      "description": "Ruler icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSatellite1",
+      "tags": [
+        "1",
+        "fill",
+        "satellite",
+        "satellite1"
+      ],
+      "description": "Satellite 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSaveDown1",
+      "tags": [
+        "1",
+        "down",
+        "down1",
+        "fill",
+        "save"
+      ],
+      "description": "Save Down 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSaveDown2",
+      "tags": [
+        "2",
+        "down",
+        "down2",
+        "fill",
+        "save"
+      ],
+      "description": "Save Down 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSaveUp1",
+      "tags": [
+        "1",
+        "fill",
+        "like",
+        "save",
+        "up",
+        "up1"
+      ],
+      "description": "Save Up 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSaveUp2",
+      "tags": [
+        "2",
+        "fill",
+        "like",
+        "save",
+        "up",
+        "up2"
+      ],
+      "description": "Save Up 2 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSearch",
+      "tags": [
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "CiServer",
+      "tags": [
+        "fill",
+        "server"
+      ],
+      "description": "Server icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSettings",
+      "tags": [
+        "fill",
+        "gear",
+        "setting",
+        "settings"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "CiShare1",
+      "tags": [
+        "1",
+        "fill",
+        "share",
+        "share1"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "CiShare2",
+      "tags": [
+        "2",
+        "fill",
+        "share",
+        "share2"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "CiShirt",
+      "tags": [
+        "fill",
+        "shirt"
+      ],
+      "description": "Shirt icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiShop",
+      "tags": [
+        "fill",
+        "shop"
+      ],
+      "description": "Shop icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiShoppingBasket",
+      "tags": [
+        "basket",
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping Basket icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiShoppingCart",
+      "tags": [
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping cart — carts, checkout and e-commerce."
+    },
+    {
+      "name": "CiShoppingTag",
+      "tags": [
+        "cart",
+        "fill",
+        "shopping",
+        "tag"
+      ],
+      "description": "Shopping Tag icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiShuffle",
+      "tags": [
+        "fill",
+        "shuffle"
+      ],
+      "description": "Shuffle icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSignpostDuo1",
+      "tags": [
+        "1",
+        "duo",
+        "duo1",
+        "fill",
+        "signpost"
+      ],
+      "description": "Signpost Duo 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSignpostL1",
+      "tags": [
+        "1",
+        "fill",
+        "l",
+        "l1",
+        "signpost"
+      ],
+      "description": "Signpost L 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSignpostR1",
+      "tags": [
+        "1",
+        "fill",
+        "r",
+        "r1",
+        "signpost"
+      ],
+      "description": "Signpost R 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSliderHorizontal",
+      "tags": [
+        "fill",
+        "horizontal",
+        "slider"
+      ],
+      "description": "Slider Horizontal icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSliderVertical",
+      "tags": [
+        "fill",
+        "slider",
+        "vertical"
+      ],
+      "description": "Slider Vertical icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSpeaker",
+      "tags": [
+        "fill",
+        "speaker"
+      ],
+      "description": "Speaker icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquareAlert",
+      "tags": [
+        "alert",
+        "fill",
+        "square",
+        "warning"
+      ],
+      "description": "Square Alert icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquareCheck",
+      "tags": [
+        "check",
+        "fill",
+        "square"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "CiSquareChevDown",
+      "tags": [
+        "chev",
+        "down",
+        "fill",
+        "square"
+      ],
+      "description": "Square Chev Down icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquareChevLeft",
+      "tags": [
+        "chev",
+        "fill",
+        "left",
+        "square"
+      ],
+      "description": "Square Chev Left icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquareChevRight",
+      "tags": [
+        "chev",
+        "fill",
+        "right",
+        "square"
+      ],
+      "description": "Square Chev Right icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquareChevUp",
+      "tags": [
+        "chev",
+        "fill",
+        "like",
+        "square",
+        "up"
+      ],
+      "description": "Square Chev Up icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquareInfo",
+      "tags": [
+        "fill",
+        "info",
+        "square"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "CiSquareMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove",
+        "square"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "CiSquareMore",
+      "tags": [
+        "fill",
+        "more",
+        "square"
+      ],
+      "description": "Square More icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquarePlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus",
+        "square"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "CiSquareQuestion",
+      "tags": [
+        "fill",
+        "question",
+        "square"
+      ],
+      "description": "Square Question icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSquareRemove",
+      "tags": [
+        "fill",
+        "remove",
+        "square"
+      ],
+      "description": "Square Remove icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "CiStethoscope",
+      "tags": [
+        "fill",
+        "stethoscope"
+      ],
+      "description": "Stethoscope icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiStickyNote",
+      "tags": [
+        "fill",
+        "note",
+        "sticky"
+      ],
+      "description": "Sticky Note icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiStop1",
+      "tags": [
+        "1",
+        "fill",
+        "stop",
+        "stop1"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "CiStopSign1",
+      "tags": [
+        "1",
+        "fill",
+        "sign",
+        "sign1",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "CiStopwatch",
+      "tags": [
+        "fill",
+        "stopwatch"
+      ],
+      "description": "Stopwatch icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiStreamOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "stream"
+      ],
+      "description": "Stream Off icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiStreamOn",
+      "tags": [
+        "fill",
+        "on",
+        "stream"
+      ],
+      "description": "Stream On icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiSun",
+      "tags": [
+        "fill",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "CiTablets1",
+      "tags": [
+        "1",
+        "fill",
+        "tablets",
+        "tablets1"
+      ],
+      "description": "Tablets 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTempHigh",
+      "tags": [
+        "fill",
+        "high",
+        "temp"
+      ],
+      "description": "Temp High icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiText",
+      "tags": [
+        "fill",
+        "text"
+      ],
+      "description": "Text icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTextAlignCenter",
+      "tags": [
+        "align",
+        "center",
+        "fill",
+        "text"
+      ],
+      "description": "Text Align Center icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTextAlignJustify",
+      "tags": [
+        "align",
+        "fill",
+        "justify",
+        "text"
+      ],
+      "description": "Text Align Justify icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTextAlignLeft",
+      "tags": [
+        "align",
+        "fill",
+        "left",
+        "text"
+      ],
+      "description": "Text Align Left icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTextAlignRight",
+      "tags": [
+        "align",
+        "fill",
+        "right",
+        "text"
+      ],
+      "description": "Text Align Right icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTimer",
+      "tags": [
+        "fill",
+        "timer"
+      ],
+      "description": "Timer icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "CiTrophy",
+      "tags": [
+        "fill",
+        "trophy"
+      ],
+      "description": "Trophy icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTurnL1",
+      "tags": [
+        "1",
+        "fill",
+        "l",
+        "l1",
+        "turn"
+      ],
+      "description": "Turn L 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTurnR1",
+      "tags": [
+        "1",
+        "fill",
+        "r",
+        "r1",
+        "turn"
+      ],
+      "description": "Turn R 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiTwitter",
+      "tags": [
+        "fill",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "CiUmbrella",
+      "tags": [
+        "fill",
+        "umbrella"
+      ],
+      "description": "Umbrella icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiUndo",
+      "tags": [
+        "fill",
+        "undo"
+      ],
+      "description": "Undo icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiUnlock",
+      "tags": [
+        "fill",
+        "unlock"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "CiUnread",
+      "tags": [
+        "fill",
+        "unread"
+      ],
+      "description": "Unread icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiUsb",
+      "tags": [
+        "fill",
+        "usb"
+      ],
+      "description": "Usb icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "CiVault",
+      "tags": [
+        "fill",
+        "vault"
+      ],
+      "description": "Vault icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiVial",
+      "tags": [
+        "fill",
+        "vial"
+      ],
+      "description": "Vial icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiVideoOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "video"
+      ],
+      "description": "Video Off icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiVideoOn",
+      "tags": [
+        "fill",
+        "on",
+        "video"
+      ],
+      "description": "Video On icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiViewBoard",
+      "tags": [
+        "board",
+        "fill",
+        "view"
+      ],
+      "description": "View Board icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiViewColumn",
+      "tags": [
+        "column",
+        "fill",
+        "view"
+      ],
+      "description": "View Column icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiViewList",
+      "tags": [
+        "fill",
+        "list",
+        "view"
+      ],
+      "description": "View List icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiViewTable",
+      "tags": [
+        "fill",
+        "table",
+        "view"
+      ],
+      "description": "View Table icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiViewTimeline",
+      "tags": [
+        "fill",
+        "timeline",
+        "view"
+      ],
+      "description": "View Timeline icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiVirus",
+      "tags": [
+        "fill",
+        "virus"
+      ],
+      "description": "Virus icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiVoicemail",
+      "tags": [
+        "fill",
+        "voicemail"
+      ],
+      "description": "Voicemail icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiVolume",
+      "tags": [
+        "fill",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "CiVolumeHigh",
+      "tags": [
+        "fill",
+        "high",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "CiVolumeMute",
+      "tags": [
+        "fill",
+        "mute",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "CiWallet",
+      "tags": [
+        "fill",
+        "wallet"
+      ],
+      "description": "Wallet icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiWarning",
+      "tags": [
+        "fill",
+        "warning"
+      ],
+      "description": "Warning icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiWavePulse1",
+      "tags": [
+        "1",
+        "fill",
+        "pulse",
+        "pulse1",
+        "wave"
+      ],
+      "description": "Wave Pulse 1 icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiWheat",
+      "tags": [
+        "fill",
+        "wheat"
+      ],
+      "description": "Wheat icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiWifiOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "CiWifiOn",
+      "tags": [
+        "fill",
+        "on",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "CiYoutube",
+      "tags": [
+        "fill",
+        "youtube"
+      ],
+      "description": "Youtube icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Circum (ci) set, fill style."
+    },
+    {
+      "name": "CiZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Circum (ci) set, fill style."
+    }
+  ]
+}

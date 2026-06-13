@@ -25,6 +25,20 @@ npm install @mal-icons/web
 
 Or use it directly from a CDN with no install (see below).
 
+## Use with AI agents
+
+AI coding agents can add and theme these icons for you via the
+[`mal-icons` agent skill](../../skills/mal-icons). Install it with the
+[`skills` CLI](https://www.npmjs.com/package/skills):
+
+```bash
+npx skills add mal-icons/mal-icons
+```
+
+Then ask your agent to "add a trash icon" and it searches the catalog and writes
+the correct `@mal-icons/web` usage. See the
+[Web setup guide](../../skills/mal-icons/references/setup/web.md).
+
 ## Quick start — custom element (no build)
 
 ```html

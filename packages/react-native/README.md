@@ -26,6 +26,20 @@ npm install @mal-icons/react-native react-native-svg
 > `react-native-svg >=13`. Follow the `react-native-svg` install steps for your
 > project (Expo or bare).
 
+## Use with AI agents
+
+AI coding agents can add and theme these icons for you via the
+[`mal-icons` agent skill](../../skills/mal-icons). Install it with the
+[`skills` CLI](https://www.npmjs.com/package/skills):
+
+```bash
+npx skills add mal-icons/mal-icons
+```
+
+Then ask your agent to "add a trash icon" and it searches the catalog and writes
+the correct `@mal-icons/react-native` import. See the
+[React Native setup guide](../../skills/mal-icons/references/setup/react-native.md).
+
 ## Quick start
 
 ```tsx

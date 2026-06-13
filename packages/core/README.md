@@ -26,6 +26,19 @@ model**. `@mal-icons/core` is where that contract lives:
 There is **no runtime dependency** and **no framework code** — just types and a
 few tiny pure functions.
 
+## Use with AI agents
+
+The [`mal-icons` agent skill](../../skills/mal-icons) teaches AI coding agents
+to find, import, and theme icons across every `@mal-icons` adapter. Install it
+with the [`skills` CLI](https://www.npmjs.com/package/skills):
+
+```bash
+npx skills add mal-icons/mal-icons
+```
+
+See [`skills/mal-icons`](https://github.com/mal-icons/mal-icons/tree/main/skills/mal-icons)
+for the catalog and per-framework guides.
+
 ## Installation
 
 ```bash

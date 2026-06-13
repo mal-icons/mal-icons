@@ -8,6 +8,8 @@ A high-performance, multi-framework icon SDK. Author your UI with a single,
 consistent API across **React**, **React Native**, **Vue**, **Svelte**, **Preact**, **Solid**, **Angular**, **Astro**, and ship only the
 icons you actually use.
 
+AI coding agents can find the right icon and write the correct import for your framework via the included [**`mal-icons` agent skill**](./skills/mal-icons).
+
 Icons are generated ahead of time into individual, tree-shakeable components —
 there is no runtime tree-walking, no JSON parsing on render, and no
 `dangerouslySetInnerHTML`.
@@ -27,6 +29,8 @@ there is no runtime tree-walking, no JSON parsing on render, and no
 - **First-class DX** — type-safe icon names, fuzzy and natural-language search,
   a vendoring CLI, a license report, and an ESLint plugin.
 - **Accessible** — correct `role`/`aria-hidden` handling and optional titles.
+- **Open source** — MIT license, with all source icons bundled and their licenses documented.
+- **AI agent support** — a first-class [Agent Skill](https://agentskills.io) so AI coding assistants can find the right icon and write the correct import for your framework.
 
 ## Packages
 
@@ -75,6 +79,40 @@ React Native also needs its peer dependency:
 ```bash
 bun add @mal-icons/react-native react-native-svg
 ```
+
+## Use with AI agents (Agent Skills)
+
+This repo ships a first-class [**`mal-icons` agent skill**](./skills/mal-icons)
+so AI coding agents can find the right icon, write the correct import for your
+framework, and follow theming/SSR best practices — instead of guessing
+component names. It follows the open [Agent Skills](https://agentskills.io)
+standard (a `SKILL.md` plus bundled reference docs and a search script).
+
+Install it into your agent with the [`skills` CLI](https://www.npmjs.com/package/skills)
+(works with Claude Code, GitHub Copilot, Cursor, Codex, and 60+ others):
+
+```bash
+# Add the skill to the agents detected in your project
+npx skills add mal-icons/mal-icons
+
+# Preview what's in the repo without installing
+npx skills add mal-icons/mal-icons --list
+
+# Install only the icons skill, to a specific agent, globally
+npx skills add mal-icons/mal-icons --skill mal-icons -a claude-code -g
+```
+
+Once installed, ask your agent naturally — "add a trash icon to this button" or
+"which icon should I use for notifications?" — and it searches the bundled
+catalog (Feather, Circum, Ionicons) and wires the icon into your code. You can
+also run the search helper directly:
+
+```bash
+node skills/mal-icons/scripts/search.js "shopping cart" --set fi
+```
+
+See [`skills/mal-icons`](./skills/mal-icons) for the full skill, per-framework
+setup guides, and the icon catalog.
 
 ## Quick start
 

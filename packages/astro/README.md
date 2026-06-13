@@ -23,6 +23,20 @@ npm install @mal-icons/astro
 
 > Requires Astro 4 or newer (peer dependency).
 
+## Use with AI agents
+
+AI coding agents can add and theme these icons for you via the
+[`mal-icons` agent skill](../../skills/mal-icons). Install it with the
+[`skills` CLI](https://www.npmjs.com/package/skills):
+
+```bash
+npx skills add mal-icons/mal-icons
+```
+
+Then ask your agent to "add a trash icon" and it searches the catalog and writes
+the correct `@mal-icons/astro` import. See the
+[Astro setup guide](../../skills/mal-icons/references/setup/astro.md).
+
 ## Quick start
 
 Import the `.astro` icon component directly and use it in your markup:

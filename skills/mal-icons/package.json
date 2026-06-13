@@ -1,0 +1,9 @@
+{
+  "name": "mal-icons-skill",
+  "private": true,
+  "type": "module",
+  "description": "Agent skill helper scripts for @mal-icons. Run scripts/search.js to find icons.",
+  "bin": {
+    "mal-icons-search": "scripts/search.js"
+  }
+}

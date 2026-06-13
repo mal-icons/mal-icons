@@ -1,0 +1,323 @@
+#!/usr/bin/env node
+/**
+ * build-packs.mjs — deterministic generator for the mal-icons reference packs.
+ *
+ * Reads the library's canonical search index and emits, for every icon set,
+ * a machine-readable JSON pack (consumed by search.js) and a human-readable
+ * Markdown table. Each icon record carries: name, tags, description.
+ *
+ *   - tags        : name tokens + everyday synonyms (reverse SYNONYMS map)
+ *   - description : curated text for popular concepts, templated otherwise
+ *
+ * Source of truth (relative to this file):
+ *   ../../../packages/react/src/icons/search-index.json   (name, set, terms)
+ *
+ * Usage:  node scripts/build-packs.mjs
+ *
+ * The generated files are committed artifacts; re-run this whenever the
+ * library adds icons so the packs stay in sync. Output is byte-stable.
+ */
+
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const HERE = dirname(fileURLToPath(import.meta.url));
+const SKILL_ROOT = join(HERE, "..");
+const REPO_ROOT = join(SKILL_ROOT, "..", "..");
+const INDEX_PATH = join(
+  REPO_ROOT,
+  "packages",
+  "react",
+  "src",
+  "icons",
+  "search-index.json",
+);
+const OUT_DIR = join(SKILL_ROOT, "references", "icons");
+
+/** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
+const SET_META = {
+  fi: {
+    id: "fi",
+    name: "Feather",
+    prefix: "Fi",
+    version: "4.29.0",
+    license: "MIT",
+    repo: "feathericons/feather",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Simple, clean, stroke-based 24×24 icons. Themed via `color`; honor `strokeWidth`/`weight`.",
+  },
+  ci: {
+    id: "ci",
+    name: "Circum",
+    prefix: "Ci",
+    version: "2.0.2",
+    license: "MPL-2.0",
+    repo: "Klarr-Agency/Circum-Icons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Lightweight, friendly fill icons. Paths paint with `currentColor`; theme via `color`.",
+  },
+  io: {
+    id: "io",
+    name: "Ionicons",
+    prefix: "Io",
+    version: "8.0.13",
+    license: "MIT",
+    repo: "ionic-team/ionicons",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "Large 512×512 set with filled, `-outline` and `-sharp` variants. Filled icons theme via `color`; outline variants carry stroke geometry.",
+  },
+};
+
+/**
+ * Concept synonyms (kept in lock-step with packages/cli/src/search.ts SYNONYMS).
+ * Maps everyday words -> the icon terms that actually appear in the sets.
+ */
+const SYNONYMS = {
+  add: ["plus"],
+  account: ["user"],
+  bin: ["trash"],
+  cancel: ["x"],
+  cart: ["shopping-cart"],
+  close: ["x"],
+  delete: ["trash", "x"],
+  edit: ["edit", "pen", "pencil"],
+  find: ["search"],
+  gear: ["settings", "sliders"],
+  hide: ["eye-off"],
+  house: ["home"],
+  like: ["heart", "thumbs-up"],
+  love: ["heart"],
+  notification: ["bell"],
+  person: ["user"],
+  photo: ["image", "camera"],
+  picture: ["image"],
+  remove: ["trash", "minus", "x"],
+  save: ["save", "download"],
+  setting: ["settings", "sliders"],
+  trash: ["trash"],
+  warning: ["alert-triangle"],
+};
+
+/** Reverse map: icon term -> everyday words that should also tag it. */
+const REVERSE_SYNONYMS = (() => {
+  const out = {};
+  for (const [word, terms] of Object.entries(SYNONYMS)) {
+    for (const term of terms) {
+      // a synonym target may be multi-word ("shopping-cart"); index each token
+      for (const token of term.split("-")) {
+        const set = out[token] ?? new Set();
+        set.add(word);
+        out[token] = set;
+      }
+    }
+  }
+  return out;
+})();
+
+/**
+ * Curated, human-written descriptions for popular concepts, keyed by the
+ * icon's base slug (component name minus set prefix, kebab-cased) OR by any
+ * single meaningful term. Applied across every set (Fi/Ci/Io) so FiHeart,
+ * CiHeart and IoHeart all read well. Everything else is templated.
+ */
+const CURATED = {
+  heart: "Heart outline — likes, favorites, wishlists and reactions.",
+  star: "Star — ratings, favorites and featured/bookmarked content.",
+  search: "Magnifying glass — search inputs, filters and lookups.",
+  home: "House — home links, dashboards and primary navigation.",
+  user: "Single person — profiles, accounts and authors.",
+  users: "Group of people — teams, members and audiences.",
+  settings: "Cog/gear — settings, configuration and preferences.",
+  bell: "Bell — notifications and alerts.",
+  trash: "Trash can — delete and remove actions.",
+  "trash-2": "Trash can — delete and remove actions.",
+  plus: "Plus — add, create and increment actions.",
+  minus: "Minus — remove, collapse and decrement actions.",
+  x: "Cross — close, dismiss and cancel actions.",
+  check: "Check mark — success, confirm and completed states.",
+  edit: "Pencil — edit, compose and rename actions.",
+  download: "Downward arrow to tray — download and save actions.",
+  upload: "Upward arrow from tray — upload and import actions.",
+  share: "Share — share, export and send-to actions.",
+  mail: "Envelope — email, messages and inboxes.",
+  phone: "Handset — call and contact actions.",
+  calendar: "Calendar — dates, scheduling and events.",
+  clock: "Clock face — time, history and schedules.",
+  camera: "Camera — capture photos and image uploads.",
+  image: "Picture — images, galleries and media.",
+  lock: "Closed padlock — security, privacy and protected content.",
+  unlock: "Open padlock — unlocked or accessible content.",
+  eye: "Eye — show, view and visibility toggles.",
+  "eye-off": "Eye with slash — hide and reduced-visibility toggles.",
+  menu: "Hamburger lines — menus and navigation drawers.",
+  "shopping-cart": "Shopping cart — carts, checkout and e-commerce.",
+  "credit-card": "Credit card — payments, billing and checkout.",
+  download_done: "Completed download indicator.",
+  github: "GitHub mark — repository and source-code links.",
+  twitter: "Twitter/X bird — social profile links.",
+  arrow: "Directional arrow — navigation and movement.",
+  chevron: "Chevron — expand/collapse and step navigation.",
+  bookmark: "Bookmark/ribbon — save-for-later and reading lists.",
+  filter: "Funnel — filtering and refining lists.",
+  refresh: "Circular arrows — refresh, reload and sync.",
+  sun: "Sun — light theme and daytime.",
+  moon: "Crescent moon — dark theme and night.",
+  map: "Map — locations, directions and geography.",
+  "map-pin": "Map pin — places, markers and addresses.",
+  wifi: "Wi-Fi waves — connectivity and network status.",
+  bluetooth: "Bluetooth — device pairing and wireless links.",
+  battery: "Battery — power level and charging state.",
+  play: "Play triangle — start playback.",
+  pause: "Pause bars — pause playback.",
+  stop: "Stop square — stop playback or processes.",
+  volume: "Speaker — audio volume controls.",
+  folder: "Folder — directories and file grouping.",
+  file: "Document — files and attachments.",
+  link: "Chain link — hyperlinks and connected items.",
+  send: "Paper plane — send and submit actions.",
+  globe: "Globe — language, web and worldwide reach.",
+  info: "Information — details, help and tooltips.",
+  help: "Question mark — help and support.",
+};
+
+/**
+ * Human-readable display name derived from the component name (not the split
+ * search terms), so "CiAirportSign1" → "Airport Sign 1" rather than the
+ * redundant "Airport Sign1 Sign 1".
+ */
+function humanFromName(name, prefix) {
+  const base = name.startsWith(prefix) ? name.slice(prefix.length) : name;
+  return base
+    .replace(/([a-z])([A-Z])/g, "$1 $2") // camelCase boundary
+    .replace(/([A-Za-z])(\d)/g, "$1 $2") // letter→digit boundary
+    .replace(/(\d)([A-Za-z])/g, "$1 $2") // digit→letter boundary
+    .trim();
+}
+
+/** Variant note for Ionicons outline/sharp companions. */
+function variantNote(slug) {
+  if (slug.endsWith("-outline")) return " Outline variant.";
+  if (slug.endsWith("-sharp")) return " Sharp (squared) variant.";
+  return "";
+}
+
+function buildRecord(entry, meta) {
+  // terms[0] is the set id; drop it.
+  const meaningful = entry.terms.slice(1).filter((t) => t && t !== meta.id);
+  const baseSlug = meaningful.join("-");
+
+  // --- tags ---
+  const tags = new Set(meaningful);
+  for (const term of meaningful) {
+    for (const word of REVERSE_SYNONYMS[term] ?? []) tags.add(word);
+  }
+  if (meta.style === "stroke") tags.add("stroke");
+  else tags.add("fill");
+  if (baseSlug.endsWith("-outline")) tags.add("outline");
+  if (baseSlug.endsWith("-sharp")) tags.add("sharp");
+
+  // --- description (curated first, then templated) ---
+  let description;
+  const rootSlug = baseSlug.replace(/-(outline|sharp)$/, "");
+  if (CURATED[baseSlug]) {
+    description = CURATED[baseSlug];
+  } else if (CURATED[rootSlug]) {
+    description = CURATED[rootSlug] + variantNote(baseSlug);
+  } else {
+    const hit = meaningful.find((t) => CURATED[t]);
+    if (hit) {
+      description = CURATED[hit] + variantNote(baseSlug);
+    } else {
+      const human = humanFromName(entry.name, meta.prefix) || meta.name;
+      description = `${human} icon — ${meta.name} (${meta.id}) set, ${meta.style} style.${variantNote(baseSlug)}`;
+    }
+  }
+
+  return {
+    name: entry.name,
+    tags: [...tags].sort(),
+    description,
+  };
+}
+
+function main() {
+  const index = JSON.parse(readFileSync(INDEX_PATH, "utf8"));
+  mkdirSync(OUT_DIR, { recursive: true });
+
+  const bySet = {};
+  for (const entry of index.entries) {
+    const list = bySet[entry.set] ?? [];
+    list.push(entry);
+    bySet[entry.set] = list;
+  }
+
+  for (const [setId, entries] of Object.entries(bySet)) {
+    const meta = SET_META[setId];
+    if (!meta) {
+      console.warn(`! no metadata for set "${setId}", skipping`);
+      continue;
+    }
+    entries.sort((a, b) => a.name.localeCompare(b.name));
+    const icons = entries.map((e) => buildRecord(e, meta));
+
+    // --- JSON pack ---
+    const pack = {
+      set: {
+        id: meta.id,
+        name: meta.name,
+        prefix: meta.prefix,
+        version: meta.version,
+        license: meta.license,
+        repo: meta.repo,
+        style: meta.style,
+        viewBox: meta.viewBox,
+      },
+      count: icons.length,
+      icons,
+    };
+    writeFileSync(
+      join(OUT_DIR, `${setId}.json`),
+      `${JSON.stringify(pack, null, 2)}\n`,
+    );
+
+    // --- Markdown table ---
+    const lines = [];
+    lines.push(`# ${meta.name} (\`${meta.id}\`) — ${icons.length} icons`);
+    lines.push("");
+    lines.push(
+      `- **Prefix:** \`${meta.prefix}\` · **Version:** ${meta.version} · **License:** ${meta.license} · **Style:** ${meta.style} · **viewBox:** \`${meta.viewBox}\``,
+    );
+    lines.push(`- **Source:** [${meta.repo}](https://github.com/${meta.repo})`);
+    lines.push(`- ${meta.blurb}`);
+    lines.push("");
+    lines.push(
+      "Import default-only per icon: `import " +
+        `${meta.prefix}Example` +
+        ` from "@mal-icons/react/${meta.id}/${meta.prefix}Example"\`, ` +
+        `or named from the set barrel: \`import { ${meta.prefix}Example } from "@mal-icons/react/${meta.id}"\`.`,
+    );
+    lines.push("");
+    lines.push("| Name | Tags | Description |");
+    lines.push("| --- | --- | --- |");
+    for (const icon of icons) {
+      const tags = icon.tags.map((t) => `\`${t}\``).join(" ");
+      const desc = icon.description.replace(/\|/g, "\\|");
+      lines.push(`| \`${icon.name}\` | ${tags} | ${desc} |`);
+    }
+    lines.push("");
+    writeFileSync(join(OUT_DIR, `${setId}.md`), lines.join("\n"));
+
+    console.log(
+      `✓ ${setId}: ${icons.length} icons → ${setId}.json + ${setId}.md`,
+    );
+  }
+}
+
+main();
