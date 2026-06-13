@@ -27,3 +27,6 @@ doc/
 icons-data/*.js
 icons-data/*.d.ts
 icons-data/*.d.ts.map
+
+# AI Agent skills for Devs
+.agents
