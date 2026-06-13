@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const IoChevronUpOutline = createIcon("0 0 512 512", [["polyline",{"points":"112 328 256 184 400 328","fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"48"}]]);
+
+export default IoChevronUpOutline;

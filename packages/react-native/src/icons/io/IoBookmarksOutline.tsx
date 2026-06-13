@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const IoBookmarksOutline = createIcon("0 0 512 512", [["path",{"d":"M128,80V64a48.14,48.14,0,0,1,48-48H400a48.14,48.14,0,0,1,48,48V432l-80-64","fill":"none","stroke":"currentColor","strokeLinejoin":"round","strokeWidth":"32"}],["path",{"d":"M320,96H112a48.14,48.14,0,0,0-48,48V496L216,368,368,496V144A48.14,48.14,0,0,0,320,96Z","fill":"none","stroke":"currentColor","strokeLinejoin":"round","strokeWidth":"32"}]]);
+
+export default IoBookmarksOutline;

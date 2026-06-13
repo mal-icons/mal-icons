@@ -7,6 +7,7 @@ export { IconBase, type IconBaseProps } from "./icon-base.tsx";
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/react-native"`).
 export * from "./icons/ci/index.ts";
 export * from "./icons/fi/index.ts";
+export * from "./icons/io/index.ts";
 
 // Re-bind as a local binding instead of a bare re-export. Bun's splitting
 // bundler emits a pure re-export barrel as a "facade" module and drops the

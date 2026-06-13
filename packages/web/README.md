@@ -110,16 +110,19 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 
 ## Subpath exports
 
-| Import                              | Contents                                         |
-| ----------------------------------- | ------------------------------------------------ |
-| `@mal-icons/web`                    | Renderer, custom element, CDN loader             |
-| `@mal-icons/web/ci`                 | The Circum set as a `{ name: IconData }` object  |
-| `@mal-icons/web/ci/CiHeart.json`    | A single Circum icon's JSON data                 |
-| `@mal-icons/web/fi`                 | The Feather set as a `{ name: IconData }` object |
-| `@mal-icons/web/fi/FiActivity.json` | A single icon's JSON data                        |
+| Import                              | Contents                                          |
+| ----------------------------------- | ------------------------------------------------- |
+| `@mal-icons/web`                    | Renderer, custom element, CDN loader              |
+| `@mal-icons/web/ci`                 | The Circum set as a `{ name: IconData }` object   |
+| `@mal-icons/web/ci/CiHeart.json`    | A single Circum icon's JSON data                  |
+| `@mal-icons/web/fi`                 | The Feather set as a `{ name: IconData }` object  |
+| `@mal-icons/web/fi/FiActivity.json` | A single icon's JSON data                         |
+| `@mal-icons/web/io`                 | The Ionicons set as a `{ name: IconData }` object |
+| `@mal-icons/web/io/IoHeart.json`    | A single Ionicons icon's JSON data                |
 
 ## Example
 

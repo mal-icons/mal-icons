@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const IoReturnDownBack = createIcon("0 0 512 512", [["polyline",{"points":"112 352 48 288 112 224","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"32"}],["path",{"d":"M64,288H358c58.76,0,106-49.33,106-108V160","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"32"}]]);
+
+export default IoReturnDownBack;

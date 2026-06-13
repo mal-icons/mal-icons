@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-io-logo-web-component",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class IoLogoWebComponent {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["polygon",{"points":"179.9 388 179.9 388 103.74 256 179.9 388","fill":"none"}],["polygon",{"points":"179.9 388 332.11 388 408.26 256 332.11 124 179.9 124 103.74 256 179.9 388","fill":"none"}],["polygon",{"points":"103.74 256 179.9 124 179.9 124 103.74 256","fill":"none"}],["polygon",{"points":"496 256 376 48 239.74 48 195.9 124 332.11 124 408.26 256 332.11 388 195.9 388 239.74 464 376 464 496 256"}],["polygon",{"points":"179.9 388 103.74 256 179.9 124 179.9 124 223.74 48 136 48 16 256 136 464 223.74 464 179.9 388 179.9 388"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default IoLogoWebComponent;

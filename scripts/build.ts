@@ -245,7 +245,7 @@ async function buildReact(): Promise<void> {
   if (!serverCjs.success) throw new AggregateError(serverCjs.logs, "react server CJS build failed");
 
   // Copy static assets (sprites + manifest) that are referenced by exports.
-  for (const set of ["ci", "fi"]) {
+  for (const set of ["ci", "fi", "io"]) {
     await mkdir(join(REACT_OUT, "icons", set), { recursive: true });
     const sprite = Bun.file(join(REACT_SRC, "icons", set, "sprite.svg"));
     if (await sprite.exists()) {

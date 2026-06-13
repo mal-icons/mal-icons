@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const IoVolumeOffSharp = createIcon("0 0 512 512", [["polygon",{"points":"237.65 176.1 144 176.1 144 335.9 237.65 335.9 368 440 368 72 237.65 176.1"}]]);
+
+export default IoVolumeOffSharp;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const IoBinocularsOutline = createIcon("0 0 512 512", [["circle",{"cx":"392","cy":"344","r":"88","stroke":"currentColor","strokeWidth":"32","strokeLinecap":"round","strokeLinejoin":"round"}],["circle",{"cx":"120","cy":"344","r":"88","stroke":"currentColor","strokeWidth":"32","strokeLinecap":"round","strokeLinejoin":"round"}],["path",{"d":"M208 344V128C208 101.5 192 80 164 80C129 80 117.5 101.5 107 128C107 128 58.5 255.83 36 317.5","stroke":"currentColor","strokeWidth":"32","strokeLinecap":"round","strokeLinejoin":"round"}],["path",{"d":"M208 184C208 184 224.5 176 256 176C287.5 176 304 184 304 184","stroke":"currentColor","strokeWidth":"32","strokeLinecap":"round","strokeLinejoin":"round"}],["path",{"d":"M208 272C208 272 224.5 264 256 264C287.5 264 304 272 304 272","stroke":"currentColor","strokeWidth":"32","strokeLinecap":"round","strokeLinejoin":"round"}],["path",{"d":"M304 344V128C304 101.5 320 80 348 80C383 80 394.5 101.5 405 128C405 128 453.5 255.83 476 317.5","stroke":"currentColor","strokeWidth":"32","strokeLinecap":"round","strokeLinejoin":"round"}]]);
+
+export default IoBinocularsOutline;

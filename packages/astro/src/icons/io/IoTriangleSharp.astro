@@ -1,0 +1,8 @@
+---
+import type { NodeTuple } from "@mal-icons/core";
+import IconBase from "../../IconBase.astro";
+
+const nodes: NodeTuple[] = [["polygon",{"points":"256 32 20 464 492 464 256 32"}]];
+---
+
+<IconBase viewBox="0 0 512 512" nodes={nodes} {...Astro.props} />

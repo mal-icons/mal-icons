@@ -42,6 +42,7 @@ Fetch a set and emit per-framework, tree-shakeable icon modules:
 ```bash
 mal-icons generate --set fi          # download + generate the Feather set
 mal-icons generate --set ci          # download + generate the Circum set
+mal-icons generate --set io          # download + generate the Ionicons set
 mal-icons generate --set fi --no-fetch  # reuse the local SVG cache
 mal-icons generate --set fi --limit 20  # quick partial run
 ```
@@ -76,6 +77,17 @@ Produce a license report for the bundled sets before shipping:
 ```bash
 mal-icons licenses --out LICENSES.md
 ```
+
+## Icons
+
+The icon sets the pipeline knows how to fetch and generate, with their upstream
+licenses, pinned versions, and counts:
+
+| Icon Library                             | License                                                                           | Version | Count |
+| ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 
 ## Options
 

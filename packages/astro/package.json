@@ -29,6 +29,7 @@
     "./IconBase.astro": "./src/IconBase.astro",
     "./ci/*": "./src/icons/ci/*.astro",
     "./fi/*": "./src/icons/fi/*.astro",
+    "./io/*": "./src/icons/io/*.astro",
     "./package.json": "./package.json"
   },
   "peerDependencies": {

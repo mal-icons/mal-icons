@@ -15,3 +15,4 @@ export { IconBaseComponent } from "./icon-base.ts";
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/angular"`).
 export * from "./icons/ci/index.ts";
 export * from "./icons/fi/index.ts";
+export * from "./icons/io/index.ts";

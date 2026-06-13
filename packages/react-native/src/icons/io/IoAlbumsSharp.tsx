@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const IoAlbumsSharp = createIcon("0 0 512 512", [["rect",{"x":"128","y":"64","width":"256","height":"32"}],["rect",{"x":"96","y":"112","width":"320","height":"32"}],["path",{"d":"M464,448H48V160H464Z"}]]);
+
+export default IoAlbumsSharp;

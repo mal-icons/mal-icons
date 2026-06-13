@@ -8,6 +8,7 @@ export { IconBase, type IconBaseProps } from "./icon-base.ts";
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/vue"`).
 export * from "./icons/ci/index.ts";
 export * from "./icons/fi/index.ts";
+export * from "./icons/io/index.ts";
 
 /**
  * Provide icon theming to all descendant mal-icons components. Call inside a

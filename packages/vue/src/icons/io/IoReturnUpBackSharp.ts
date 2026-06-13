@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const IoReturnUpBackSharp = createIcon("0 0 512 512", [["polyline",{"points":"112 160 48 224 112 288","fill":"none","stroke":"currentColor","stroke-linecap":"square","stroke-miterlimit":"10","stroke-width":"32"}],["polyline",{"points":"64 224 464 224 464 352","fill":"none","stroke":"currentColor","stroke-linecap":"square","stroke-miterlimit":"10","stroke-width":"32"}]]);
+
+export default IoReturnUpBackSharp;

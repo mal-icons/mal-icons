@@ -55,6 +55,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 
 ## Subpath exports
 
@@ -62,6 +63,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | -------------------------------------- | ------------------------------ |
 | `@mal-icons/astro/ci/CiHeart.astro`    | A single Circum icon component |
 | `@mal-icons/astro/fi/FiActivity.astro` | A single icon component        |
+| `@mal-icons/astro/io/IoHeart.astro`    | A single Ionicons component    |
 | `@mal-icons/astro/IconBase.astro`      | The shared base component      |
 
 ## Example

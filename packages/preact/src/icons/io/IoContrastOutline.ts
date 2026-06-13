@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const IoContrastOutline = createIcon("0 0 512 512", [["circle",{"cx":"256","cy":"256","r":"208","fill":"none","stroke":"currentColor","stroke-linejoin":"round","stroke-width":"32"}],["path",{"d":"M256,464C141.12,464,48,370.88,48,256S141.12,48,256,48Z"}]]);
+
+export default IoContrastOutline;

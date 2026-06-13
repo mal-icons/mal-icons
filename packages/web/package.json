@@ -48,6 +48,12 @@
       "import": "./dist/icons/fi/index.js"
     },
     "./fi/*.json": "./src/icons/fi/*.json",
+    "./io": {
+      "types": "./dist/icons/io/index.d.ts",
+      "bun": "./src/icons/io/index.ts",
+      "import": "./dist/icons/io/index.js"
+    },
+    "./io/*.json": "./src/icons/io/*.json",
     "./package.json": "./package.json"
   },
   "dependencies": {

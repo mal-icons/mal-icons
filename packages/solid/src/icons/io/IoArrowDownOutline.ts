@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const IoArrowDownOutline = createIcon("0 0 512 512", [["polyline",{"points":"112 268 256 412 400 268","fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"48"}],["line",{"x1":"256","y1":"392","x2":"256","y2":"100","fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"48"}]]);
+
+export default IoArrowDownOutline;

@@ -50,4 +50,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "svg",
     style: "fill",
   },
+  io: {
+    id: "io",
+    prefix: "Io",
+    name: "Ionicons",
+    license: "MIT",
+    repo: "ionic-team/ionicons",
+    ref: "v8.0.13",
+    iconDir: "src/svg",
+    style: "fill",
+  },
 };

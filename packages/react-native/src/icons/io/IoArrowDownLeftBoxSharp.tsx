@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const IoArrowDownLeftBoxSharp = createIcon("0 0 512 512", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M32 480L32 315.64L64 315.64L64 425.37L107.64 381.74L107.64 404.36L130.26 404.36L86.63 448L196.36 448L196.36 480L32 480ZM318.63 216L130.26 404.36L480 404.36L480 32L107.64 32L107.64 381.74L296 193.37L318.63 216Z"}]]);
+
+export default IoArrowDownLeftBoxSharp;

@@ -23,7 +23,45 @@ const COORD_ATTRS = new Set([
 ]);
 
 /** Attributes we always drop from child shapes (handled by the runtime). */
-const DROP_ATTRS = new Set(["class", "xmlns", "id"]);
+const DROP_ATTRS = new Set(["class", "xmlns", "id", "style"]);
+
+/** SVG presentation properties lifted out of an inline `style` declaration. */
+const STYLE_PROPS = new Set([
+  "fill",
+  "fill-rule",
+  "fill-opacity",
+  "stroke",
+  "stroke-width",
+  "stroke-linecap",
+  "stroke-linejoin",
+  "stroke-miterlimit",
+  "stroke-dasharray",
+  "stroke-opacity",
+  "opacity",
+]);
+
+/**
+ * Expand an inline `style="fill:none;stroke:#000;…"` declaration into discrete
+ * presentation attributes so the usual color-folding and camel/kebab handling
+ * applies. Some sets (e.g. Ionicons outline variants) carry their stroke
+ * geometry this way instead of as attributes. Existing attributes win over
+ * style declarations, and the raw `style` key is dropped afterwards.
+ */
+function expandInlineStyle(attr: Record<string, string>): Record<string, string> {
+  const style = attr.style;
+  if (!style) return attr;
+  const out: Record<string, string> = { ...attr };
+  for (const decl of style.split(";")) {
+    const idx = decl.indexOf(":");
+    if (idx === -1) continue;
+    const prop = decl.slice(0, idx).trim().toLowerCase();
+    let value = decl.slice(idx + 1).trim();
+    if (!prop || !value || !STYLE_PROPS.has(prop)) continue;
+    if (prop === "stroke-width") value = value.replace(/px$/i, "");
+    if (!(prop in out)) out[prop] = value;
+  }
+  return out;
+}
 
 /** Round every numeric token in a string to at most 2 decimals (deterministic). */
 export function roundNumbers(value: string): string {
@@ -38,7 +76,7 @@ export function roundNumbers(value: string): string {
 /** Normalize a single shape node's attributes deterministically. */
 function optimizeNode(node: IconNode): IconNode {
   const out: Record<string, string> = {};
-  for (const [rawKey, rawVal] of Object.entries(node.attr)) {
+  for (const [rawKey, rawVal] of Object.entries(expandInlineStyle(node.attr))) {
     if (DROP_ATTRS.has(rawKey)) continue;
     let val = rawVal;
     if (COORD_ATTRS.has(rawKey)) val = roundNumbers(val).replace(/\s+/g, " ").trim();

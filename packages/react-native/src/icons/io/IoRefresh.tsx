@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const IoRefresh = createIcon("0 0 512 512", [["path",{"d":"M320,146s24.36-12-64-12A160,160,0,1,0,416,294","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeMiterlimit":"10","strokeWidth":"32"}],["polyline",{"points":"256 58 336 138 256 218","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"32"}]]);
+
+export default IoRefresh;

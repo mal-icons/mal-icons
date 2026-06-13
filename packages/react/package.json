@@ -57,6 +57,17 @@
       "bun": "./src/icons/fi/*.tsx",
       "import": "./dist/icons/fi/*.js"
     },
+    "./io": {
+      "types": "./dist/icons/io/index.d.ts",
+      "bun": "./src/icons/io/index.ts",
+      "import": "./dist/icons/io/index.js",
+      "require": "./dist/icons/io/index.cjs"
+    },
+    "./io/*": {
+      "types": "./dist/icons/io/*.d.ts",
+      "bun": "./src/icons/io/*.tsx",
+      "import": "./dist/icons/io/*.js"
+    },
     "./demo": {
       "types": "./dist/icons/demo/index.d.ts",
       "bun": "./src/icons/demo/index.ts",
@@ -76,6 +87,7 @@
     },
     "./sprite/ci.svg": "./dist/icons/ci/sprite.svg",
     "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
+    "./sprite/io.svg": "./dist/icons/io/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",
     "./package.json": "./package.json"
   },

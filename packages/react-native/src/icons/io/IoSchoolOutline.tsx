@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const IoSchoolOutline = createIcon("0 0 512 512", [["polygon",{"points":"32 192 256 64 480 192 256 320 32 192","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"32"}],["polyline",{"points":"112 240 112 368 256 448 400 368 400 240","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"32"}],["line",{"x1":"480","y1":"368","x2":"480","y2":"192","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"32"}],["line",{"x1":"256","y1":"320","x2":"256","y2":"448","fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"32"}]]);
+
+export default IoSchoolOutline;

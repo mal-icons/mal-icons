@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const IoArrowDownRightBoxOutline = createIcon("0 0 512 512", [["path",{"d":"M269.24 388.36L90.55 388.36C79.26 388.36 68.44 383.88 60.46 375.9C52.48 367.92 48 357.1 48 345.82L48 90.55C48 79.26 52.48 68.44 60.46 60.46C68.44 52.48 79.26 48 90.55 48L345.82 48C357.1 48 367.92 52.48 375.9 60.46C383.88 68.44 388.36 79.26 388.36 90.55L388.36 269.24","stroke":"currentColor","stroke-width":"32","stroke-linecap":"round","stroke-linejoin":"round"}],["path",{"d":"M331.64 464L464 464L464 331.64","stroke":"currentColor","stroke-width":"32","stroke-linecap":"round","stroke-linejoin":"round"}],["path",{"d":"M216 216L464 464","stroke":"currentColor","stroke-width":"32","stroke-linecap":"round","stroke-linejoin":"round"}]]);
+
+export default IoArrowDownRightBoxOutline;

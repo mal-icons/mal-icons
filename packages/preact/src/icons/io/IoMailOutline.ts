@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const IoMailOutline = createIcon("0 0 512 512", [["rect",{"x":"48","y":"96","width":"416","height":"320","rx":"40","ry":"40","fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"32"}],["polyline",{"points":"112 160 256 272 400 160","fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-linejoin":"round","stroke-width":"32"}]]);
+
+export default IoMailOutline;

@@ -11,6 +11,12 @@
       "name": "Feather",
       "license": "MIT",
       "count": 287
+    },
+    {
+      "id": "io",
+      "name": "Ionicons",
+      "license": "MIT",
+      "count": 1357
     }
   ]
 }

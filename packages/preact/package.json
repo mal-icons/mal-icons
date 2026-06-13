@@ -55,6 +55,16 @@
       "bun": "./src/icons/fi/*.ts",
       "import": "./dist/icons/fi/*.js"
     },
+    "./io": {
+      "types": "./dist/icons/io/index.d.ts",
+      "bun": "./src/icons/io/index.ts",
+      "import": "./dist/icons/io/index.js"
+    },
+    "./io/*": {
+      "types": "./dist/icons/io/*.d.ts",
+      "bun": "./src/icons/io/*.ts",
+      "import": "./dist/icons/io/*.js"
+    },
     "./package.json": "./package.json"
   },
   "peerDependencies": {

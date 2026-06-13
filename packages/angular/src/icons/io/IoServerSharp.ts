@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-io-server-sharp",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class IoServerSharp {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M125.3 40.73C159.8 25.16 206.27 16 256.5 16C306.73 16 352.97 25.16 387.25 40.75C420.14 55.71 448 80 448 112V112.03C447.99 117.56 444.9 125.92 435.71 136.25C426.71 146.35 413.09 156.91 395.43 166.51C360.16 185.7 310.79 200 256 200C201.21 200 151.84 185.7 116.57 166.51C98.91 156.91 85.29 146.35 76.3 136.25C67.08 125.9 64 117.53 64 112C64 79.57 92.25 55.64 125.3 40.73Z"}],["path",{"d":"M410.72 194.62C424.94 186.89 437.56 176.24 448 165.02V258C448 263.53 444.92 269.9 435.71 280.25C426.71 290.35 413.09 300.91 395.43 310.51C360.16 329.7 310.79 344 256 344C201.21 344 151.84 329.7 116.57 310.51C98.91 300.91 85.29 290.35 76.3 280.25C67.08 269.9 64 263.53 64 258V165.02C74.44 176.24 87.06 186.89 101.28 194.62C141.29 216.39 195.92 232 256 232C316.08 232 370.71 216.39 410.72 194.62Z"}],["path",{"d":"M64 309.02V400C64 432.22 92 456.17 124.93 471.13C159.3 486.76 205.65 496 256 496C306.35 496 352.7 486.76 387.07 471.13C420 456.17 448 432.22 448 400V309.02C437.56 320.24 424.94 330.89 410.72 338.62C370.71 360.39 316.08 376 256 376C195.92 376 141.29 360.39 101.28 338.62C87.06 330.89 74.44 320.24 64 309.02Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default IoServerSharp;
