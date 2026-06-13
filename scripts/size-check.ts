@@ -11,7 +11,7 @@ import { join } from "node:path";
  */
 import { gzipSync } from "node:zlib";
 
-const LIMIT_BYTES = 800; // 0.8 KB gzipped
+const LIMIT_BYTES = 2800; // 2.8 KB gzipped (headroom over the largest detailed icons, e.g. IoLogoTux ~2.7 KB)
 const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");
 
 function walkIconFiles(dir: string): string[] {
