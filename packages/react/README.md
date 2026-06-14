@@ -162,6 +162,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 
 ## Subpath exports
 
@@ -180,6 +181,8 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/fi/FiActivity` | A single icon module                     |
 | `@mal-icons/react/io`            | All Ionicons (named exports)             |
 | `@mal-icons/react/io/IoHeart`    | A single Ionicons icon module            |
+| `@mal-icons/react/ti`            | All Typicons (named exports)             |
+| `@mal-icons/react/ti/TiHeart`    | A single Typicons icon module            |
 | `@mal-icons/react/server`        | Hook-free Server Component entry         |
 | `@mal-icons/react/sprite/ci.svg` | Pre-built Circum sprite asset            |
 | `@mal-icons/react/sprite/fa.svg` | Pre-built Font Awesome sprite asset           |
@@ -187,6 +190,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/sprite/far.svg` | Pre-built Font Awesome Regular sprite asset           |
 | `@mal-icons/react/sprite/fi.svg` | Pre-built Feather sprite asset           |
 | `@mal-icons/react/sprite/io.svg` | Pre-built Ionicons sprite asset          |
+| `@mal-icons/react/sprite/ti.svg` | Pre-built Typicons sprite asset          |
 
 ## Example
 

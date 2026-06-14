@@ -101,6 +101,18 @@ const SET_META = {
     blurb:
       "Regular (outline-style) 512×512 icons (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
   },
+  ti: {
+    id: "ti",
+    name: "Typicons",
+    prefix: "Ti",
+    version: "2.1.2",
+    license: "CC-BY-SA-4.0",
+    repo: "stephenhutchings/typicons.font",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Compact, rounded 24×24 fill icons with many `-outline` variants. Paths paint with `currentColor`; theme via `color`.",
+  },
 };
 
 /**

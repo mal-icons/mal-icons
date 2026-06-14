@@ -64,8 +64,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 
-Each set is exposed under its own subpath (`/ci`, `/fa`, `/fab`, `/far`, `/fi`, `/io`) and at the package root.
+Each set is exposed under its own subpath (`/ci`, `/fa`, `/fab`, `/far`, `/fi`, `/io`, `/ti`) and at the package root.
 
 ## Installation
 
@@ -107,7 +108,7 @@ npx skills add mal-icons/mal-icons --skill mal-icons -a claude-code -g
 
 Once installed, ask your agent naturally — "add a trash icon to this button" or
 "which icon should I use for notifications?" — and it searches the bundled
-catalog (Feather, Circum, Font Awesome, Ionicons) and wires the icon into your code. You can
+catalog (Feather, Circum, Font Awesome, Ionicons, Typicons) and wires the icon into your code. You can
 also run the search helper directly:
 
 ```bash
