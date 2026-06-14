@@ -125,6 +125,16 @@
       "bun": "./src/icons/ti/*.svelte",
       "import": "./src/icons/ti/*.svelte"
     },
+    "./wi": {
+      "svelte": "./src/icons/wi/index.ts",
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./src/icons/wi/index.ts"
+    },
+    "./wi/*": {
+      "svelte": "./src/icons/wi/*.svelte",
+      "bun": "./src/icons/wi/*.svelte",
+      "import": "./src/icons/wi/*.svelte"
+    },
     "./IconBase.svelte": "./src/IconBase.svelte",
     "./package.json": "./package.json"
   },

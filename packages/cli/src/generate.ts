@@ -194,9 +194,15 @@ export async function generateSet(
 
   const icons: GeneratedIcon[] = slice.map((item) => {
     const optimized = optimize(parseSvg(item.svg), source);
+    const name =
+      source.stripPrefix &&
+      item.name.startsWith(source.stripPrefix) &&
+      item.name.length > source.stripPrefix.length
+        ? item.name.slice(source.stripPrefix.length)
+        : item.name;
     return {
-      componentName: toComponentName(source.prefix, item.name),
-      rawName: item.name,
+      componentName: toComponentName(source.prefix, name),
+      rawName: name,
       viewBox: optimized.viewBox,
       defaultAttr: optimized.defaultAttr,
       nodes: optimized.nodes,

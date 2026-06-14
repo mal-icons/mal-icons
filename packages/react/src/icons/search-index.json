@@ -60990,6 +60990,2202 @@
         "out",
         "outline"
       ]
+    },
+    {
+      "name": "WiAlien",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "alien"
+      ]
+    },
+    {
+      "name": "WiBarometer",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "barometer"
+      ]
+    },
+    {
+      "name": "WiCelsius",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "celsius"
+      ]
+    },
+    {
+      "name": "WiCloud",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "cloud"
+      ]
+    },
+    {
+      "name": "WiCloudDown",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "cloud",
+        "down"
+      ]
+    },
+    {
+      "name": "WiCloudRefresh",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "cloud",
+        "refresh"
+      ]
+    },
+    {
+      "name": "WiCloudUp",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "cloud",
+        "up"
+      ]
+    },
+    {
+      "name": "WiCloudy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "WiCloudyGusts",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "cloudy",
+        "gusts"
+      ]
+    },
+    {
+      "name": "WiCloudyWindy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "cloudy",
+        "windy"
+      ]
+    },
+    {
+      "name": "WiDayCloudy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "WiDayCloudyGusts",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "cloudy",
+        "gusts"
+      ]
+    },
+    {
+      "name": "WiDayCloudyHigh",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "cloudy",
+        "high"
+      ]
+    },
+    {
+      "name": "WiDayCloudyWindy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "cloudy",
+        "windy"
+      ]
+    },
+    {
+      "name": "WiDayFog",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "fog"
+      ]
+    },
+    {
+      "name": "WiDayHail",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "hail"
+      ]
+    },
+    {
+      "name": "WiDayHaze",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "haze"
+      ]
+    },
+    {
+      "name": "WiDayLightning",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "lightning"
+      ]
+    },
+    {
+      "name": "WiDayLightWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "light",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiDayRain",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "rain"
+      ]
+    },
+    {
+      "name": "WiDayRainMix",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "rain",
+        "mix"
+      ]
+    },
+    {
+      "name": "WiDayRainWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiDayShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiDaySleet",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "sleet"
+      ]
+    },
+    {
+      "name": "WiDaySleetStorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "sleet",
+        "storm"
+      ]
+    },
+    {
+      "name": "WiDaySnow",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "snow"
+      ]
+    },
+    {
+      "name": "WiDaySnowThunderstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "snow",
+        "thunderstorm"
+      ]
+    },
+    {
+      "name": "WiDaySnowWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "snow",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiDaySprinkle",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "sprinkle"
+      ]
+    },
+    {
+      "name": "WiDayStormShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "storm",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiDaySunny",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "sunny"
+      ]
+    },
+    {
+      "name": "WiDaySunnyOvercast",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "sunny",
+        "overcast"
+      ]
+    },
+    {
+      "name": "WiDayThunderstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "thunderstorm"
+      ]
+    },
+    {
+      "name": "WiDayWindy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "day",
+        "windy"
+      ]
+    },
+    {
+      "name": "WiDegrees",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "degrees"
+      ]
+    },
+    {
+      "name": "WiDirectionDown",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "down"
+      ]
+    },
+    {
+      "name": "WiDirectionDownLeft",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "WiDirectionDownRight",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "WiDirectionLeft",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "left"
+      ]
+    },
+    {
+      "name": "WiDirectionRight",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "right"
+      ]
+    },
+    {
+      "name": "WiDirectionUp",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "up"
+      ]
+    },
+    {
+      "name": "WiDirectionUpLeft",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "WiDirectionUpRight",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "direction",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "WiDust",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "dust"
+      ]
+    },
+    {
+      "name": "WiEarthquake",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "earthquake"
+      ]
+    },
+    {
+      "name": "WiFahrenheit",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "fahrenheit"
+      ]
+    },
+    {
+      "name": "WiFire",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "fire"
+      ]
+    },
+    {
+      "name": "WiFlood",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "flood"
+      ]
+    },
+    {
+      "name": "WiFog",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "fog"
+      ]
+    },
+    {
+      "name": "WiGaleWarning",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "gale",
+        "warning"
+      ]
+    },
+    {
+      "name": "WiHail",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "hail"
+      ]
+    },
+    {
+      "name": "WiHorizon",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "horizon"
+      ]
+    },
+    {
+      "name": "WiHorizonAlt",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "horizon",
+        "alt"
+      ]
+    },
+    {
+      "name": "WiHot",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "hot"
+      ]
+    },
+    {
+      "name": "WiHumidity",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "humidity"
+      ]
+    },
+    {
+      "name": "WiHurricane",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "hurricane"
+      ]
+    },
+    {
+      "name": "WiHurricaneWarning",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "hurricane",
+        "warning"
+      ]
+    },
+    {
+      "name": "WiLightning",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "lightning"
+      ]
+    },
+    {
+      "name": "WiLunarEclipse",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "lunar",
+        "eclipse"
+      ]
+    },
+    {
+      "name": "WiMeteor",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "meteor"
+      ]
+    },
+    {
+      "name": "WiMoonAltFirstQuarter",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "first",
+        "quarter"
+      ]
+    },
+    {
+      "name": "WiMoonAltFull",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "full"
+      ]
+    },
+    {
+      "name": "WiMoonAltNew",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "new"
+      ]
+    },
+    {
+      "name": "WiMoonAltThirdQuarter",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "third",
+        "quarter"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningCrescent1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "crescent1",
+        "crescent",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningCrescent2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "crescent2",
+        "crescent",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningCrescent3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "crescent3",
+        "crescent",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningCrescent4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "crescent4",
+        "crescent",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningCrescent5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "crescent5",
+        "crescent",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningCrescent6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "crescent6",
+        "crescent",
+        "6"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningGibbous1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "gibbous1",
+        "gibbous",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningGibbous2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "gibbous2",
+        "gibbous",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningGibbous3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "gibbous3",
+        "gibbous",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningGibbous4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "gibbous4",
+        "gibbous",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningGibbous5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "gibbous5",
+        "gibbous",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaningGibbous6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waning",
+        "gibbous6",
+        "gibbous",
+        "6"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "crescent1",
+        "crescent",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "crescent2",
+        "crescent",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "crescent3",
+        "crescent",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "crescent4",
+        "crescent",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "crescent5",
+        "crescent",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "crescent6",
+        "crescent",
+        "6"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "gibbous1",
+        "gibbous",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "gibbous2",
+        "gibbous",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "gibbous3",
+        "gibbous",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "gibbous4",
+        "gibbous",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "gibbous5",
+        "gibbous",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "alt",
+        "waxing",
+        "gibbous6",
+        "gibbous",
+        "6"
+      ]
+    },
+    {
+      "name": "WiMoonFirstQuarter",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "first",
+        "quarter"
+      ]
+    },
+    {
+      "name": "WiMoonFull",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "full"
+      ]
+    },
+    {
+      "name": "WiMoonNew",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "new"
+      ]
+    },
+    {
+      "name": "WiMoonrise",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moonrise"
+      ]
+    },
+    {
+      "name": "WiMoonset",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moonset"
+      ]
+    },
+    {
+      "name": "WiMoonThirdQuarter",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "third",
+        "quarter"
+      ]
+    },
+    {
+      "name": "WiMoonWaningCrescent1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "crescent1",
+        "crescent",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonWaningCrescent2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "crescent2",
+        "crescent",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonWaningCrescent3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "crescent3",
+        "crescent",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonWaningCrescent4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "crescent4",
+        "crescent",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonWaningCrescent5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "crescent5",
+        "crescent",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonWaningCrescent6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "crescent6",
+        "crescent",
+        "6"
+      ]
+    },
+    {
+      "name": "WiMoonWaningGibbous1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "gibbous1",
+        "gibbous",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonWaningGibbous2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "gibbous2",
+        "gibbous",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonWaningGibbous3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "gibbous3",
+        "gibbous",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonWaningGibbous4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "gibbous4",
+        "gibbous",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonWaningGibbous5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "gibbous5",
+        "gibbous",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonWaningGibbous6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waning",
+        "gibbous6",
+        "gibbous",
+        "6"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingCrescent1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "crescent1",
+        "crescent",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingCrescent2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "crescent2",
+        "crescent",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingCrescent3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "crescent3",
+        "crescent",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingCrescent4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "crescent4",
+        "crescent",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingCrescent5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "crescent5",
+        "crescent",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingCrescent6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "crescent6",
+        "crescent",
+        "6"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingGibbous1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "gibbous1",
+        "gibbous",
+        "1"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingGibbous2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "gibbous2",
+        "gibbous",
+        "2"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingGibbous3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "gibbous3",
+        "gibbous",
+        "3"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingGibbous4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "gibbous4",
+        "gibbous",
+        "4"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingGibbous5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "gibbous5",
+        "gibbous",
+        "5"
+      ]
+    },
+    {
+      "name": "WiMoonWaxingGibbous6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "moon",
+        "waxing",
+        "gibbous6",
+        "gibbous",
+        "6"
+      ]
+    },
+    {
+      "name": "WiNa",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "na"
+      ]
+    },
+    {
+      "name": "WiNightAltCloudy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "WiNightAltCloudyGusts",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "cloudy",
+        "gusts"
+      ]
+    },
+    {
+      "name": "WiNightAltCloudyHigh",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "cloudy",
+        "high"
+      ]
+    },
+    {
+      "name": "WiNightAltCloudyWindy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "cloudy",
+        "windy"
+      ]
+    },
+    {
+      "name": "WiNightAltHail",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "hail"
+      ]
+    },
+    {
+      "name": "WiNightAltLightning",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "lightning"
+      ]
+    },
+    {
+      "name": "WiNightAltPartlyCloudy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "partly",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "WiNightAltRain",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "rain"
+      ]
+    },
+    {
+      "name": "WiNightAltRainMix",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "rain",
+        "mix"
+      ]
+    },
+    {
+      "name": "WiNightAltRainWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiNightAltShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiNightAltSleet",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "sleet"
+      ]
+    },
+    {
+      "name": "WiNightAltSleetStorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "sleet",
+        "storm"
+      ]
+    },
+    {
+      "name": "WiNightAltSnow",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "snow"
+      ]
+    },
+    {
+      "name": "WiNightAltSnowThunderstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "snow",
+        "thunderstorm"
+      ]
+    },
+    {
+      "name": "WiNightAltSnowWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "snow",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiNightAltSprinkle",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "sprinkle"
+      ]
+    },
+    {
+      "name": "WiNightAltStormShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "storm",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiNightAltThunderstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "alt",
+        "thunderstorm"
+      ]
+    },
+    {
+      "name": "WiNightClear",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "clear"
+      ]
+    },
+    {
+      "name": "WiNightCloudy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "WiNightCloudyGusts",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "cloudy",
+        "gusts"
+      ]
+    },
+    {
+      "name": "WiNightCloudyHigh",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "cloudy",
+        "high"
+      ]
+    },
+    {
+      "name": "WiNightCloudyWindy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "cloudy",
+        "windy"
+      ]
+    },
+    {
+      "name": "WiNightFog",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "fog"
+      ]
+    },
+    {
+      "name": "WiNightHail",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "hail"
+      ]
+    },
+    {
+      "name": "WiNightLightning",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "lightning"
+      ]
+    },
+    {
+      "name": "WiNightPartlyCloudy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "partly",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "WiNightRain",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "rain"
+      ]
+    },
+    {
+      "name": "WiNightRainMix",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "rain",
+        "mix"
+      ]
+    },
+    {
+      "name": "WiNightRainWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiNightShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiNightSleet",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "sleet"
+      ]
+    },
+    {
+      "name": "WiNightSleetStorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "sleet",
+        "storm"
+      ]
+    },
+    {
+      "name": "WiNightSnow",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "snow"
+      ]
+    },
+    {
+      "name": "WiNightSnowThunderstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "snow",
+        "thunderstorm"
+      ]
+    },
+    {
+      "name": "WiNightSnowWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "snow",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiNightSprinkle",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "sprinkle"
+      ]
+    },
+    {
+      "name": "WiNightStormShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "storm",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiNightThunderstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "night",
+        "thunderstorm"
+      ]
+    },
+    {
+      "name": "WiRain",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "rain"
+      ]
+    },
+    {
+      "name": "WiRaindrop",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "raindrop"
+      ]
+    },
+    {
+      "name": "WiRaindrops",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "raindrops"
+      ]
+    },
+    {
+      "name": "WiRainMix",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "rain",
+        "mix"
+      ]
+    },
+    {
+      "name": "WiRainWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "rain",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiRefresh",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "refresh"
+      ]
+    },
+    {
+      "name": "WiRefreshAlt",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "refresh",
+        "alt"
+      ]
+    },
+    {
+      "name": "WiSandstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "sandstorm"
+      ]
+    },
+    {
+      "name": "WiShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiSleet",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "sleet"
+      ]
+    },
+    {
+      "name": "WiSmallCraftAdvisory",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "small",
+        "craft",
+        "advisory"
+      ]
+    },
+    {
+      "name": "WiSmog",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "smog"
+      ]
+    },
+    {
+      "name": "WiSmoke",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "smoke"
+      ]
+    },
+    {
+      "name": "WiSnow",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "snow"
+      ]
+    },
+    {
+      "name": "WiSnowflakeCold",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "snowflake",
+        "cold"
+      ]
+    },
+    {
+      "name": "WiSnowWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "snow",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiSolarEclipse",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "solar",
+        "eclipse"
+      ]
+    },
+    {
+      "name": "WiSprinkle",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "sprinkle"
+      ]
+    },
+    {
+      "name": "WiStars",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "stars"
+      ]
+    },
+    {
+      "name": "WiStormShowers",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "storm",
+        "showers"
+      ]
+    },
+    {
+      "name": "WiStormWarning",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "storm",
+        "warning"
+      ]
+    },
+    {
+      "name": "WiStrongWind",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "strong",
+        "wind"
+      ]
+    },
+    {
+      "name": "WiSunrise",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "sunrise"
+      ]
+    },
+    {
+      "name": "WiSunset",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "sunset"
+      ]
+    },
+    {
+      "name": "WiThermometer",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "thermometer"
+      ]
+    },
+    {
+      "name": "WiThermometerExterior",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "thermometer",
+        "exterior"
+      ]
+    },
+    {
+      "name": "WiThermometerInternal",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "thermometer",
+        "internal"
+      ]
+    },
+    {
+      "name": "WiThunderstorm",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "thunderstorm"
+      ]
+    },
+    {
+      "name": "WiTime1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time1",
+        "time",
+        "1"
+      ]
+    },
+    {
+      "name": "WiTime10",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time10",
+        "time",
+        "10"
+      ]
+    },
+    {
+      "name": "WiTime11",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time11",
+        "time",
+        "11"
+      ]
+    },
+    {
+      "name": "WiTime12",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time12",
+        "time",
+        "12"
+      ]
+    },
+    {
+      "name": "WiTime2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time2",
+        "time",
+        "2"
+      ]
+    },
+    {
+      "name": "WiTime3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time3",
+        "time",
+        "3"
+      ]
+    },
+    {
+      "name": "WiTime4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time4",
+        "time",
+        "4"
+      ]
+    },
+    {
+      "name": "WiTime5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time5",
+        "time",
+        "5"
+      ]
+    },
+    {
+      "name": "WiTime6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time6",
+        "time",
+        "6"
+      ]
+    },
+    {
+      "name": "WiTime7",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time7",
+        "time",
+        "7"
+      ]
+    },
+    {
+      "name": "WiTime8",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time8",
+        "time",
+        "8"
+      ]
+    },
+    {
+      "name": "WiTime9",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "time9",
+        "time",
+        "9"
+      ]
+    },
+    {
+      "name": "WiTornado",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "tornado"
+      ]
+    },
+    {
+      "name": "WiTrain",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "train"
+      ]
+    },
+    {
+      "name": "WiTsunami",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "tsunami"
+      ]
+    },
+    {
+      "name": "WiUmbrella",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "umbrella"
+      ]
+    },
+    {
+      "name": "WiVolcano",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "volcano"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort0",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort0",
+        "beaufort",
+        "0"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort1",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort1",
+        "beaufort",
+        "1"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort10",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort10",
+        "beaufort",
+        "10"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort11",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort11",
+        "beaufort",
+        "11"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort12",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort12",
+        "beaufort",
+        "12"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort2",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort2",
+        "beaufort",
+        "2"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort3",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort3",
+        "beaufort",
+        "3"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort4",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort4",
+        "beaufort",
+        "4"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort5",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort5",
+        "beaufort",
+        "5"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort6",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort6",
+        "beaufort",
+        "6"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort7",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort7",
+        "beaufort",
+        "7"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort8",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort8",
+        "beaufort",
+        "8"
+      ]
+    },
+    {
+      "name": "WiWindBeaufort9",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "beaufort9",
+        "beaufort",
+        "9"
+      ]
+    },
+    {
+      "name": "WiWindDeg",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "wind",
+        "deg"
+      ]
+    },
+    {
+      "name": "WiWindy",
+      "set": "wi",
+      "terms": [
+        "wi",
+        "windy"
+      ]
     }
   ]
 }

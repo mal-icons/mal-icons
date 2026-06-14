@@ -53,6 +53,12 @@
       "name": "Typicons",
       "license": "CC-BY-SA-4.0",
       "count": 336
+    },
+    {
+      "id": "wi",
+      "name": "Weather Icons",
+      "license": "OFL-1.1",
+      "count": 219
     }
   ]
 }

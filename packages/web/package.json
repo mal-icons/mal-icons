@@ -90,6 +90,12 @@
       "import": "./dist/icons/ti/index.js"
     },
     "./ti/*.json": "./src/icons/ti/*.json",
+    "./wi": {
+      "types": "./dist/icons/wi/index.d.ts",
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./dist/icons/wi/index.js"
+    },
+    "./wi/*.json": "./src/icons/wi/*.json",
     "./package.json": "./package.json"
   },
   "dependencies": {

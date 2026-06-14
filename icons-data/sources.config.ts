@@ -27,6 +27,13 @@ export interface IconSource {
    * `fill="none"` and rely on stroke; `fill` sets paint with currentColor.
    */
   style: "stroke" | "fill";
+  /**
+   * Optional file-name prefix to drop before deriving component names. Some
+   * sets ship every file already namespaced (e.g. Weather Icons uses
+   * `wi-day-sunny.svg`); stripping the redundant prefix avoids doubled
+   * component names like `WiWiDaySunny`.
+   */
+  stripPrefix?: string;
 }
 
 export const sources: Record<string, IconSource> = {
@@ -119,5 +126,16 @@ export const sources: Record<string, IconSource> = {
     ref: "devicons-v2.0.1",
     iconDir: "packages/core/export-files/icons",
     style: "fill",
+  },
+  wi: {
+    id: "wi",
+    prefix: "Wi",
+    name: "Weather Icons",
+    license: "OFL-1.1",
+    repo: "erikflowers/weather-icons",
+    ref: "2.0.12",
+    iconDir: "svg",
+    style: "fill",
+    stripPrefix: "wi-",
   },
 };

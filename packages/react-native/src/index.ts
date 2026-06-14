@@ -14,6 +14,7 @@ export * from "./icons/fi/index.ts";
 export * from "./icons/io/index.ts";
 export * from "./icons/oc/index.ts";
 export * from "./icons/ti/index.ts";
+export * from "./icons/wi/index.ts";
 
 // Re-bind as a local binding instead of a bare re-export. Bun's splitting
 // bundler emits a pure re-export barrel as a "facade" module and drops the

@@ -134,6 +134,17 @@
       "bun": "./src/icons/ti/*.tsx",
       "import": "./dist/icons/ti/*.js"
     },
+    "./wi": {
+      "types": "./dist/icons/wi/index.d.ts",
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./dist/icons/wi/index.js",
+      "require": "./dist/icons/wi/index.cjs"
+    },
+    "./wi/*": {
+      "types": "./dist/icons/wi/*.d.ts",
+      "bun": "./src/icons/wi/*.tsx",
+      "import": "./dist/icons/wi/*.js"
+    },
     "./demo": {
       "types": "./dist/icons/demo/index.d.ts",
       "bun": "./src/icons/demo/index.ts",
@@ -160,6 +171,7 @@
     "./sprite/io.svg": "./dist/icons/io/sprite.svg",
     "./sprite/oc.svg": "./dist/icons/oc/sprite.svg",
     "./sprite/ti.svg": "./dist/icons/ti/sprite.svg",
+    "./sprite/wi.svg": "./dist/icons/wi/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",
     "./package.json": "./package.json"
   },

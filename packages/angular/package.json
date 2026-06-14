@@ -105,6 +105,14 @@
       "bun": "./src/icons/ti/*.ts",
       "import": "./src/icons/ti/*.ts"
     },
+    "./wi": {
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./src/icons/wi/index.ts"
+    },
+    "./wi/*": {
+      "bun": "./src/icons/wi/*.ts",
+      "import": "./src/icons/wi/*.ts"
+    },
     "./package.json": "./package.json"
   },
   "peerDependencies": {

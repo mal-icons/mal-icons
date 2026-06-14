@@ -137,6 +137,18 @@ const SET_META = {
     blurb:
       "Developer brand logos & icons (e.g. `DevReact`, `DevDreamhost`). Many ship a plain and an `Icon` variant. Paths paint with `currentColor`; theme via `color`.",
   },
+  wi: {
+    id: "wi",
+    name: "Weather Icons",
+    prefix: "Wi",
+    version: "2.0.12",
+    license: "OFL-1.1",
+    repo: "erikflowers/weather-icons",
+    style: "fill",
+    viewBox: "0 0 30 30",
+    blurb:
+      "Weather, maritime & meteorological 30×30 fill icons (e.g. `WiDaySunny`, `WiThunderstorm`). The redundant `wi-` filename prefix is dropped. Paths paint with `currentColor`; theme via `color`.",
+  },
 };
 
 /**

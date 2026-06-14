@@ -35,6 +35,7 @@ export * from "./icons/fi/index.ts";
 export * from "./icons/io/index.ts";
 export * from "./icons/oc/index.ts";
 export * from "./icons/ti/index.ts";
+export * from "./icons/wi/index.ts";
 export { SpriteIcon, type SpriteIconProps } from "./sprite-icon.tsx";
 
 // Re-bind core runtime values as local bindings instead of bare re-exports.
