@@ -77,6 +77,18 @@ const SET_META = {
     blurb:
       "Large 512×512 set with filled, `-outline` and `-sharp` variants. Filled icons theme via `color`; outline variants carry stroke geometry.",
   },
+  lu: {
+    id: "lu",
+    name: "Lucide",
+    prefix: "Lu",
+    version: "1.19.0",
+    license: "ISC",
+    repo: "lucide-icons/lucide",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Large, community-driven 24×24 stroke set (a Feather fork, e.g. `LuActivity`, `LuSearch`). Themed via `color`; honor `strokeWidth`/`weight`.",
+  },
   fa: {
     id: "fa",
     name: "Font Awesome Free",
