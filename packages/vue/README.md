@@ -116,6 +116,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
@@ -140,8 +141,10 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/vue/far/FarHeart` | A single icon module              |
 | `@mal-icons/vue/fi/FiActivity` | A single icon module              |
 | `@mal-icons/vue/io`            | All Ionicons (named exports)      |
+| `@mal-icons/vue/lu`            | All Lucide (named exports)        |
 | `@mal-icons/vue/oc`            | All Octicons (named exports)      |
 | `@mal-icons/vue/io/IoHeart`    | A single Ionicons icon module     |
+| `@mal-icons/vue/lu/LuHeart`    | A single Lucide icon module       |
 | `@mal-icons/vue/oc/OcHeart16`    | A single Octicons icon module     |
 | `@mal-icons/vue/ti`            | All Typicons (named exports)      |
 | `@mal-icons/vue/wi`            | All Weather Icons (named exports) |
