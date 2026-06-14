@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const FcImport = createIcon("0 0 48 48", [["path",{"fill":"#F8BBD0","d":"M7,40V8c0-2.2,1.8-4,4-4h24c2.2,0,4,1.8,4,4v32c0,2.2-1.8,4-4,4H11C8.8,44,7,42.2,7,40z"}],["polygon",{"fill":"#E91E63","points":"13.3,24 24,15 24,33"}],["rect",{"fill":"#E91E63","x":"19","y":"21","width":"23","height":"6"}]]);
+
+export default FcImport;

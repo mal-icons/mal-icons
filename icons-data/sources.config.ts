@@ -24,9 +24,11 @@ export interface IconSource {
   iconDir: string;
   /**
    * Rendering style of the set. `stroke` sets (e.g. Feather) keep
-   * `fill="none"` and rely on stroke; `fill` sets paint with currentColor.
+   * `fill="none"` and rely on stroke; `fill` sets paint with currentColor;
+   * `color` sets (e.g. Flat Color Icons) keep their original multi-color
+   * fills baked into each shape and are not themed via `currentColor`.
    */
-  style: "stroke" | "fill";
+  style: "stroke" | "fill" | "color";
   /**
    * Optional file-name prefix to drop before deriving component names. Some
    * sets ship every file already namespaced (e.g. Weather Icons uses
@@ -157,5 +159,15 @@ export const sources: Record<string, IconSource> = {
     iconDir: "svg",
     style: "fill",
     stripPrefix: "wi-",
+  },
+  fc: {
+    id: "fc",
+    prefix: "Fc",
+    name: "Flat Color Icons",
+    license: "CC-BY-4.0",
+    repo: "icons8/flat-color-icons",
+    ref: "v1.0.2",
+    iconDir: "svg",
+    style: "color",
   },
 };

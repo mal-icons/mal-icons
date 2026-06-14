@@ -91,10 +91,20 @@
       "bun": "./src/icons/far/index.ts",
       "import": "./dist/icons/far/index.js"
     },
+    "./fc": {
+      "types": "./dist/icons/fc/index.d.ts",
+      "bun": "./src/icons/fc/index.ts",
+      "import": "./dist/icons/fc/index.js"
+    },
     "./far/*": {
       "types": "./dist/icons/far/*.d.ts",
       "bun": "./src/icons/far/*.ts",
       "import": "./dist/icons/far/*.js"
+    },
+    "./fc/*": {
+      "types": "./dist/icons/fc/*.d.ts",
+      "bun": "./src/icons/fc/*.ts",
+      "import": "./dist/icons/fc/*.js"
     },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",

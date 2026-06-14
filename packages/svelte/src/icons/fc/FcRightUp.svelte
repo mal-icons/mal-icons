@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["polygon",{"fill":"#3F51B5","points":"41,7 41,25 23,7"}],["rect",{"x":"17.4","y":"10.3","transform":"matrix(-.707 -.707 .707 -.707 17.661 60.567)","fill":"#3F51B5","width":"8","height":"32.7"}]];
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 48 48" {nodes} {...props} />

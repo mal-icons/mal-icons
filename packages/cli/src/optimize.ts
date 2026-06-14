@@ -74,14 +74,15 @@ export function roundNumbers(value: string): string {
 }
 
 /** Normalize a single shape node's attributes deterministically. */
-function optimizeNode(node: IconNode): IconNode {
+function optimizeNode(node: IconNode, preserveColor: boolean): IconNode {
   const out: Record<string, string> = {};
   for (const [rawKey, rawVal] of Object.entries(expandInlineStyle(node.attr))) {
     if (DROP_ATTRS.has(rawKey)) continue;
     let val = rawVal;
     if (COORD_ATTRS.has(rawKey)) val = roundNumbers(val).replace(/\s+/g, " ").trim();
-    // Replace concrete colors with currentColor; keep "none" as-is.
-    if ((rawKey === "fill" || rawKey === "stroke") && val !== "none") {
+    // Replace concrete colors with currentColor; keep "none" as-is. Multi-color
+    // (`color`) sets keep their baked fills so each shape renders its own hue.
+    if (!preserveColor && (rawKey === "fill" || rawKey === "stroke") && val !== "none") {
       val = "currentColor";
     }
     out[toCamelAttr(rawKey)] = val;
@@ -103,8 +104,9 @@ export interface OptimizedIcon {
  * the relevant root presentation attributes into `defaultAttr`.
  */
 export function optimize(parsed: ParsedSvg, source: IconSource): OptimizedIcon {
+  const preserveColor = source.style === "color";
   const nodes = parsed.nodes
-    .map(optimizeNode)
+    .map((n) => optimizeNode(n, preserveColor))
     // Fill sets (e.g. Circum) wrap paths in a presentational `<g id="…">`.
     // Once the id is stripped the group carries nothing, so drop the empty
     // wrapper rather than emit a useless `<g></g>` element.

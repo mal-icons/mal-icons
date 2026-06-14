@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const FcVideoFile = createIcon("0 0 48 48", [["polygon",{"fill":"#90CAF9","points":"40,45 8,45 8,3 30,3 40,13"}],["polygon",{"fill":"#E1F5FE","points":"38.5,14 29,14 29,4.5"}],["polygon",{"fill":"#1976D2","points":"30,28 20,22 20,34"}]]);
+
+export default FcVideoFile;

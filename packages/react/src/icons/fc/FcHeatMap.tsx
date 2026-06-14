@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const FcHeatMap = createIcon("0 0 48 48", [["polygon",{"fill":"#CFD8DC","points":"9,39 9,6 7,6 7,41 42,41 42,39"}],["circle",{"fill":"#00BCD4","cx":"14","cy":"11","r":"2"}],["circle",{"fill":"#00BCD4","cx":"32","cy":"11","r":"2"}],["circle",{"fill":"#00BCD4","cx":"39","cy":"11","r":"2"}],["circle",{"fill":"#00BCD4","cx":"23","cy":"11","r":"4"}],["circle",{"fill":"#00BCD4","cx":"14","cy":"33","r":"2"}],["circle",{"fill":"#00BCD4","cx":"30","cy":"33","r":"2"}],["circle",{"fill":"#00BCD4","cx":"22","cy":"33","r":"3"}],["circle",{"fill":"#00BCD4","cx":"38","cy":"33","r":"4"}],["circle",{"fill":"#00BCD4","cx":"14","cy":"22","r":"2"}],["circle",{"fill":"#00BCD4","cx":"39","cy":"22","r":"2"}],["circle",{"fill":"#00BCD4","cx":"32","cy":"22","r":"3"}]]);
+
+export default FcHeatMap;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fc-combo-chart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FcComboChart {
+  readonly viewBox = "0 0 48 48";
+  readonly nodes: NodeTuple[] = [["rect",{"fill":"#00BCD4","x":"37","y":"18","width":"6","height":"24"}],["rect",{"fill":"#00BCD4","x":"29","y":"26","width":"6","height":"16"}],["rect",{"fill":"#00BCD4","x":"21","y":"22","width":"6","height":"20"}],["rect",{"fill":"#00BCD4","x":"13","y":"32","width":"6","height":"10"}],["rect",{"fill":"#00BCD4","x":"5","y":"28","width":"6","height":"14"}],["circle",{"fill":"#3F51B5","cx":"8","cy":"16","r":"3"}],["circle",{"fill":"#3F51B5","cx":"16","cy":"18","r":"3"}],["circle",{"fill":"#3F51B5","cx":"24","cy":"11","r":"3"}],["circle",{"fill":"#3F51B5","cx":"32","cy":"13","r":"3"}],["circle",{"fill":"#3F51B5","cx":"40","cy":"9","r":"3"}],["polygon",{"fill":"#3F51B5","points":"39.1,7.2 31.8,10.9 23.5,8.8 15.5,15.8 8.5,14.1 7.5,17.9 16.5,20.2 24.5,13.2 32.2,15.1 40.9,10.8"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FcComboChart;
