@@ -81,6 +81,14 @@
       "bun": "./src/icons/io/*.ts",
       "import": "./src/icons/io/*.ts"
     },
+    "./ti": {
+      "bun": "./src/icons/ti/index.ts",
+      "import": "./src/icons/ti/index.ts"
+    },
+    "./ti/*": {
+      "bun": "./src/icons/ti/*.ts",
+      "import": "./src/icons/ti/*.ts"
+    },
     "./package.json": "./package.json"
   },
   "peerDependencies": {

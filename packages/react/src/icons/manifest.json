@@ -35,6 +35,12 @@
       "name": "Ionicons",
       "license": "MIT",
       "count": 1357
+    },
+    {
+      "id": "ti",
+      "name": "Typicons",
+      "license": "CC-BY-SA-4.0",
+      "count": 336
     }
   ]
 }

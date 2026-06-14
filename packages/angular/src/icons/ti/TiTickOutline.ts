@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-tick-outline",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiTickOutline {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11 20c-0.8 0-1.55-0.31-2.12-0.88l-4-4c-0.57-0.57-0.88-1.32-0.88-2.12s0.31-1.550.88-2.12c1.13-1.13 3.11-1.13 4.24 0l1.19 1.19 3.07-5.52c0.53-0.95 1.53-1.54 2.62-1.540.51 0 1.010.13 1.460.380.70.39 1.21 1.03 1.43 1.80.220.770.13 1.58-0.26 2.28l-5 9c-0.450.82-1.28 1.38-2.21 1.51-0.140.02-0.280.03-0.420.03zm-4-8c-0.27 0-0.520.1-0.710.29s-0.290.44-0.290.710.10.520.290.71l4 4c0.220.220.520.330.840.280.31-0.040.59-0.230.74-0.5l5-9c0.13-0.230.16-0.50.09-0.76-0.07-0.26-0.24-0.47-0.48-0.6-0.47-0.26-1.1-0.08-1.360.39l-4.36 7.84-3.06-3.06c-0.19-0.19-0.44-0.29-0.71-0.29z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiTickOutline;

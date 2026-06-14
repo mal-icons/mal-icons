@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-social-vimeo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiSocialVimeo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.92 8.78c-0.33 1.93-1.21 3.76-2.65 5.48-1.44 1.73-2.71 2.96-3.82 3.7-0.70.33-1.290.34-1.790.03-0.49-0.31-0.88-0.75-1.17-1.32-0.16-0.33-0.56-1.57-1.2-3.73-0.64-2.15-1.02-3.31-1.14-3.48-0.08-0.16-0.29-0.18-0.62-0.06-0.330.12-0.560.23-0.680.31-0.120.08-0.230.17-0.310.25l-0.55-0.740.62-0.74c0.45-0.49 1.03-1.01 1.72-1.540.7-0.53 1.31-0.86 1.85-0.990.37-0.080.68-0.030.920.160.250.180.450.480.620.890.170.410.290.810.37 1.20.080.390.170.850.25 1.390.080.530.160.950.25 1.230.45 1.930.82 2.9 1.11 2.90.41 0 1.07-0.86 1.97-2.590.41-0.780.43-1.430.06-1.94-0.37-0.51-0.94-0.52-1.72-0.030.12-0.780.47-1.46 1.05-2.03 1.03-1.11 2.16-1.52 3.39-1.23 1.270.25 1.77 1.21 1.48 2.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiSocialVimeo;

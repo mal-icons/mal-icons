@@ -95,6 +95,16 @@
       "bun": "./src/icons/io/*.svelte",
       "import": "./src/icons/io/*.svelte"
     },
+    "./ti": {
+      "svelte": "./src/icons/ti/index.ts",
+      "bun": "./src/icons/ti/index.ts",
+      "import": "./src/icons/ti/index.ts"
+    },
+    "./ti/*": {
+      "svelte": "./src/icons/ti/*.svelte",
+      "bun": "./src/icons/ti/*.svelte",
+      "import": "./src/icons/ti/*.svelte"
+    },
     "./IconBase.svelte": "./src/IconBase.svelte",
     "./package.json": "./package.json"
   },

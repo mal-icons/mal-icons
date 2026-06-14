@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-printer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiPrinter {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 5v-2c0-0.55-0.45-1-1-1h-9c-0.55 0-1 0.45-1 1v2c-1.65 0-3 1.35-3 3v10c0 1.65 1.35 3 3 3h11c1.65 0 3-1.35 3-3v-10c0-1.65-1.35-3-3-3zm-9-1h7v5h-7v-5zm-2 3v3c0 0.550.45 1 1 1h9c0.55 0 1-0.45 1-1v-3c0.55 0 1 0.45 1 1v2.5c0 0.83-0.67 1.5-1.5 1.5h-10c-0.83 0-1.5-0.67-1.5-1.5v-2.5c0-0.550.45-1 1-1zm11 12h-11c-0.55 0-1-0.45-1-1v-5.51c0.420.320.940.51 1.50.51h10c0.56 0 1.08-0.19 1.5-0.51v5.51c0 0.55-0.45 1-1 1zM13.5 7h-4c-0.28 0-0.50.22-0.50.5s0.220.50.50.5h4c0.28 0 0.5-0.220.5-0.5s-0.22-0.5-0.5-0.5zM15 16h-7c-0.28 0-0.50.22-0.50.5s0.220.50.50.5h7c0.28 0 0.5-0.220.5-0.5s-0.22-0.5-0.5-0.5zM13.5 5h-4c-0.28 0-0.50.22-0.50.5s0.220.50.50.5h4c0.28 0 0.5-0.220.5-0.5s-0.22-0.5-0.5-0.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiPrinter;

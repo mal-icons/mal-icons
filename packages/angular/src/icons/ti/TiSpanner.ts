@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-spanner",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiSpanner {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.29 7.12c-0.05-0.17-0.18-0.3-0.35-0.34-0.17-0.05-0.350-0.480.13l-2.62 2.56-1.91-0.38-0.38-1.91 2.65-2.58c0.13-0.120.18-0.30.14-0.47s-0.17-0.31-0.34-0.36c-0.53-0.17-1.02-0.25-1.49-0.25-2.76 0-5 2.24-5 5 0 0.320.040.650.12 1.01-0.560.46-1.10.86-1.7 1.31-0.860.65-1.84 1.38-3.18 2.51-0.780.69-1.24 1.66-1.24 2.67 0 1.93 1.57 3.5 3.5 3.5 1.02 0 1.99-0.46 2.66-1.25 1.15-1.35 1.89-2.34 2.54-3.210.44-0.590.83-1.11 1.28-1.660.360.080.690.12 1.010.12 2.76 0 5-2.24 5-5 0-0.44-0.07-0.87-0.21-1.38zm-12.28 9.88c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiSpanner;

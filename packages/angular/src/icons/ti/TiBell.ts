@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-bell",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiBell {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.72 17.3c-0.02-0.02-1.72-1.85-1.73-6.32-0.01-2.61-1.69-4.82-4.02-5.64l0.03-0.34c0-1.1-0.9-2-2-2s-2 0.9-2 2l0.030.34c-2.340.82-4.02 3.04-4.02 5.65 0 4.46-1.71 6.3-1.72 6.31-0.290.29-0.370.72-0.22 1.09s0.520.620.930.62h3.14c0.45 1.72 2 3 3.86 3s3.41-1.28 3.86-3h3.14c0.4 0 0.76-0.240.92-0.61s0.08-0.8-0.2-1.09zm-7.71-10.3c2.19 0 3.98 1.79 3.98 3.9900.730.05 1.40.12 2.01h-8.2c0.07-0.620.11-1.290.11-2.020-2.2 1.79-3.98 3.99-3.98zm0 13c-0.74 0-1.37-0.4-1.72-1h3.44c-0.350.6-0.98 1-1.72 1zm-5.19-3c0.35-0.740.71-1.730.94-3h8.5c0.23 1.270.59 2.260.94 3h-10.38z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiBell;

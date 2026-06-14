@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-flag",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiFlag {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.38 4.32c-0.37-0.15-0.8-0.07-1.090.22-1.26 1.26-3.32 1.26-4.59 0-2.04-2.04-5.37-2.04-7.41 0-0.190.19-0.290.44-0.290.71v13c0 0.550.45 1 1 1s1-0.45 1-1v-4.55c1.27-1 3.12-0.91 4.290.26 2.05 2.04 5.37 2.04 7.41 0 0.19-0.190.29-0.440.29-0.71v-8c0-0.4-0.24-0.77-0.62-0.92z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiFlag;

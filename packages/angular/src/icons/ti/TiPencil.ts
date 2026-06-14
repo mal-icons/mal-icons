@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-pencil",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiPencil {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 6.88l-3.88-3.88c-0.29-0.29-0.68-0.44-1.06-0.44-0.38 0-0.770.15-1.060.44l-10.94 10.94c-0.290.29-0.560.73-0.75 1.19-0.190.46-0.310.96-0.31 1.37v4.5h4.5c0.41 0 0.91-0.12 1.37-0.310.46-0.190.9-0.46 1.19-0.75l10.94-10.94c0.29-0.290.44-0.680.44-1.06 0-0.38-0.15-0.77-0.44-1.06zm-15.23 8.18l8.29-8.29 1.23 1.23-8.29 8.29-1.23-1.23zm1.73 3.94h-1.5l-1-1v-1.5c0-0.080.03-0.30.16-0.60.01-0.02 2.97 2.94 2.97 2.94-0.320.13-0.550.17-0.620.17zm1.44-0.77l-1.23-1.23 8.29-8.29 1.23 1.23-8.29 8.29zm9-9l-3.17-3.17 1.29-1.29 3.17 3.17-1.29 1.29z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiPencil;

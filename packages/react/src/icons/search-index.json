@@ -35724,6 +35724,3005 @@
         "woman",
         "sharp"
       ]
+    },
+    {
+      "name": "TiAdjustBrightness",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "adjust",
+        "brightness"
+      ]
+    },
+    {
+      "name": "TiAdjustContrast",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "adjust",
+        "contrast"
+      ]
+    },
+    {
+      "name": "TiAnchor",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "anchor"
+      ]
+    },
+    {
+      "name": "TiAnchorOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "anchor",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArchive",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "archive"
+      ]
+    },
+    {
+      "name": "TiArrowBack",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "back"
+      ]
+    },
+    {
+      "name": "TiArrowBackOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "back",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowDown",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "TiArrowDownOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "down",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowDownThick",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "down",
+        "thick"
+      ]
+    },
+    {
+      "name": "TiArrowForward",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "forward"
+      ]
+    },
+    {
+      "name": "TiArrowForwardOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "forward",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowLeft",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "TiArrowLeftOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "left",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowLeftThick",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "left",
+        "thick"
+      ]
+    },
+    {
+      "name": "TiArrowLoop",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "loop"
+      ]
+    },
+    {
+      "name": "TiArrowLoopOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "loop",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowMaximise",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "maximise"
+      ]
+    },
+    {
+      "name": "TiArrowMaximiseOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "maximise",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowMinimise",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "minimise"
+      ]
+    },
+    {
+      "name": "TiArrowMinimiseOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "minimise",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowMove",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "move"
+      ]
+    },
+    {
+      "name": "TiArrowMoveOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "move",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowRepeat",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "repeat"
+      ]
+    },
+    {
+      "name": "TiArrowRepeatOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "repeat",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowRight",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "TiArrowRightOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "right",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowRightThick",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "right",
+        "thick"
+      ]
+    },
+    {
+      "name": "TiArrowShuffle",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "TiArrowSortedDown",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "sorted",
+        "down"
+      ]
+    },
+    {
+      "name": "TiArrowSortedUp",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "sorted",
+        "up"
+      ]
+    },
+    {
+      "name": "TiArrowSync",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "sync"
+      ]
+    },
+    {
+      "name": "TiArrowSyncOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "sync",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowUnsorted",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "unsorted"
+      ]
+    },
+    {
+      "name": "TiArrowUp",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "TiArrowUpOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "up",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiArrowUpThick",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "arrow",
+        "up",
+        "thick"
+      ]
+    },
+    {
+      "name": "TiAt",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "at"
+      ]
+    },
+    {
+      "name": "TiAttachment",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "attachment"
+      ]
+    },
+    {
+      "name": "TiAttachmentOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "attachment",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiBackspace",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "backspace"
+      ]
+    },
+    {
+      "name": "TiBackspaceOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "backspace",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiBatteryCharge",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "battery",
+        "charge"
+      ]
+    },
+    {
+      "name": "TiBatteryFull",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "battery",
+        "full"
+      ]
+    },
+    {
+      "name": "TiBatteryHigh",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "battery",
+        "high"
+      ]
+    },
+    {
+      "name": "TiBatteryLow",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "battery",
+        "low"
+      ]
+    },
+    {
+      "name": "TiBatteryMid",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "battery",
+        "mid"
+      ]
+    },
+    {
+      "name": "TiBeaker",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "beaker"
+      ]
+    },
+    {
+      "name": "TiBeer",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "beer"
+      ]
+    },
+    {
+      "name": "TiBell",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "bell"
+      ]
+    },
+    {
+      "name": "TiBook",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "book"
+      ]
+    },
+    {
+      "name": "TiBookmark",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "TiBriefcase",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "TiBrush",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "brush"
+      ]
+    },
+    {
+      "name": "TiBusinessCard",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "business",
+        "card"
+      ]
+    },
+    {
+      "name": "TiCalculator",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "calculator"
+      ]
+    },
+    {
+      "name": "TiCalendar",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "calendar"
+      ]
+    },
+    {
+      "name": "TiCalendarOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "calendar",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiCamera",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "camera"
+      ]
+    },
+    {
+      "name": "TiCameraOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "camera",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiCancel",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "cancel"
+      ]
+    },
+    {
+      "name": "TiCancelOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "cancel",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiChartArea",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "area"
+      ]
+    },
+    {
+      "name": "TiChartAreaOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "area",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiChartBar",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "bar"
+      ]
+    },
+    {
+      "name": "TiChartBarOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "bar",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiChartLine",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "line"
+      ]
+    },
+    {
+      "name": "TiChartLineOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "line",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiChartPie",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "pie"
+      ]
+    },
+    {
+      "name": "TiChartPieOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chart",
+        "pie",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiChevronLeft",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chevron",
+        "left"
+      ]
+    },
+    {
+      "name": "TiChevronLeftOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chevron",
+        "left",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiChevronRight",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chevron",
+        "right"
+      ]
+    },
+    {
+      "name": "TiChevronRightOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "chevron",
+        "right",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiClipboard",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "TiCloudStorage",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "cloud",
+        "storage"
+      ]
+    },
+    {
+      "name": "TiCloudStorageOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "cloud",
+        "storage",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiCode",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "code"
+      ]
+    },
+    {
+      "name": "TiCodeOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "code",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiCoffee",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "coffee"
+      ]
+    },
+    {
+      "name": "TiCog",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "cog"
+      ]
+    },
+    {
+      "name": "TiCogOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "cog",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiCompass",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "compass"
+      ]
+    },
+    {
+      "name": "TiContacts",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "contacts"
+      ]
+    },
+    {
+      "name": "TiCreditCard",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "TiCss3",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "css3"
+      ]
+    },
+    {
+      "name": "TiDatabase",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "database"
+      ]
+    },
+    {
+      "name": "TiDelete",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "delete"
+      ]
+    },
+    {
+      "name": "TiDeleteOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "delete",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiDeviceDesktop",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "device",
+        "desktop"
+      ]
+    },
+    {
+      "name": "TiDeviceLaptop",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "device",
+        "laptop"
+      ]
+    },
+    {
+      "name": "TiDevicePhone",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "device",
+        "phone"
+      ]
+    },
+    {
+      "name": "TiDeviceTablet",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "device",
+        "tablet"
+      ]
+    },
+    {
+      "name": "TiDirections",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "directions"
+      ]
+    },
+    {
+      "name": "TiDivide",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "divide"
+      ]
+    },
+    {
+      "name": "TiDivideOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "divide",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiDocument",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "document"
+      ]
+    },
+    {
+      "name": "TiDocumentAdd",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "document",
+        "add"
+      ]
+    },
+    {
+      "name": "TiDocumentDelete",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "document",
+        "delete"
+      ]
+    },
+    {
+      "name": "TiDocumentText",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "document",
+        "text"
+      ]
+    },
+    {
+      "name": "TiDownload",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "download"
+      ]
+    },
+    {
+      "name": "TiDownloadOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "download",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiDropbox",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "dropbox"
+      ]
+    },
+    {
+      "name": "TiEdit",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "edit"
+      ]
+    },
+    {
+      "name": "TiEject",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "eject"
+      ]
+    },
+    {
+      "name": "TiEjectOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "eject",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiEquals",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "equals"
+      ]
+    },
+    {
+      "name": "TiEqualsOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "equals",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiExport",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "export"
+      ]
+    },
+    {
+      "name": "TiExportOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "export",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiEye",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "eye"
+      ]
+    },
+    {
+      "name": "TiEyeOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "eye",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiFeather",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "feather"
+      ]
+    },
+    {
+      "name": "TiFilm",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "film"
+      ]
+    },
+    {
+      "name": "TiFilter",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "filter"
+      ]
+    },
+    {
+      "name": "TiFlag",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flag"
+      ]
+    },
+    {
+      "name": "TiFlagOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flag",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiFlash",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flash"
+      ]
+    },
+    {
+      "name": "TiFlashOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flash",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiFlowChildren",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flow",
+        "children"
+      ]
+    },
+    {
+      "name": "TiFlowMerge",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flow",
+        "merge"
+      ]
+    },
+    {
+      "name": "TiFlowParallel",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flow",
+        "parallel"
+      ]
+    },
+    {
+      "name": "TiFlowSwitch",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "flow",
+        "switch"
+      ]
+    },
+    {
+      "name": "TiFolder",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "folder"
+      ]
+    },
+    {
+      "name": "TiFolderAdd",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "folder",
+        "add"
+      ]
+    },
+    {
+      "name": "TiFolderDelete",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "folder",
+        "delete"
+      ]
+    },
+    {
+      "name": "TiFolderOpen",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "folder",
+        "open"
+      ]
+    },
+    {
+      "name": "TiGift",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "gift"
+      ]
+    },
+    {
+      "name": "TiGlobe",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "globe"
+      ]
+    },
+    {
+      "name": "TiGlobeOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "globe",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiGroup",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "group"
+      ]
+    },
+    {
+      "name": "TiGroupOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "group",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiHeadphones",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "headphones"
+      ]
+    },
+    {
+      "name": "TiHeart",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "heart"
+      ]
+    },
+    {
+      "name": "TiHeartFullOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "heart",
+        "full",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiHeartHalfOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "heart",
+        "half",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiHeartOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "heart",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiHome",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "home"
+      ]
+    },
+    {
+      "name": "TiHomeOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "home",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiHtml5",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "html5"
+      ]
+    },
+    {
+      "name": "TiImage",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "image"
+      ]
+    },
+    {
+      "name": "TiImageOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "image",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiInfinity",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "infinity"
+      ]
+    },
+    {
+      "name": "TiInfinityOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "infinity",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiInfo",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "info"
+      ]
+    },
+    {
+      "name": "TiInfoLarge",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "info",
+        "large"
+      ]
+    },
+    {
+      "name": "TiInfoLargeOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "info",
+        "large",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiInfoOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "info",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiInputChecked",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "input",
+        "checked"
+      ]
+    },
+    {
+      "name": "TiInputCheckedOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "input",
+        "checked",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiKey",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "key"
+      ]
+    },
+    {
+      "name": "TiKeyboard",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "keyboard"
+      ]
+    },
+    {
+      "name": "TiKeyOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "key",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiLeaf",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "leaf"
+      ]
+    },
+    {
+      "name": "TiLightbulb",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "lightbulb"
+      ]
+    },
+    {
+      "name": "TiLink",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "link"
+      ]
+    },
+    {
+      "name": "TiLinkOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "link",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiLocation",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "location"
+      ]
+    },
+    {
+      "name": "TiLocationArrow",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "location",
+        "arrow"
+      ]
+    },
+    {
+      "name": "TiLocationArrowOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "location",
+        "arrow",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiLocationOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "location",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiLockClosed",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "lock",
+        "closed"
+      ]
+    },
+    {
+      "name": "TiLockClosedOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "lock",
+        "closed",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiLockOpen",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "lock",
+        "open"
+      ]
+    },
+    {
+      "name": "TiLockOpenOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "lock",
+        "open",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMail",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "mail"
+      ]
+    },
+    {
+      "name": "TiMap",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "map"
+      ]
+    },
+    {
+      "name": "TiMediaEject",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "eject"
+      ]
+    },
+    {
+      "name": "TiMediaEjectOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "eject",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMediaFastForward",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "fast",
+        "forward"
+      ]
+    },
+    {
+      "name": "TiMediaFastForwardOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "fast",
+        "forward",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMediaPause",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "pause"
+      ]
+    },
+    {
+      "name": "TiMediaPauseOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "pause",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMediaPlay",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "play"
+      ]
+    },
+    {
+      "name": "TiMediaPlayOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "play",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMediaPlayReverse",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "play",
+        "reverse"
+      ]
+    },
+    {
+      "name": "TiMediaPlayReverseOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "play",
+        "reverse",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMediaRecord",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "record"
+      ]
+    },
+    {
+      "name": "TiMediaRecordOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "record",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMediaRewind",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "rewind"
+      ]
+    },
+    {
+      "name": "TiMediaRewindOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "rewind",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMediaStop",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "stop"
+      ]
+    },
+    {
+      "name": "TiMediaStopOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "media",
+        "stop",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMessage",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "message"
+      ]
+    },
+    {
+      "name": "TiMessages",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "messages"
+      ]
+    },
+    {
+      "name": "TiMessageTyping",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "message",
+        "typing"
+      ]
+    },
+    {
+      "name": "TiMicrophone",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "microphone"
+      ]
+    },
+    {
+      "name": "TiMicrophoneOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "microphone",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMinus",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "minus"
+      ]
+    },
+    {
+      "name": "TiMinusOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "minus",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiMortarBoard",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "mortar",
+        "board"
+      ]
+    },
+    {
+      "name": "TiNews",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "news"
+      ]
+    },
+    {
+      "name": "TiNotes",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "notes"
+      ]
+    },
+    {
+      "name": "TiNotesOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "notes",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPen",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "pen"
+      ]
+    },
+    {
+      "name": "TiPencil",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "pencil"
+      ]
+    },
+    {
+      "name": "TiPhone",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "phone"
+      ]
+    },
+    {
+      "name": "TiPhoneOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "phone",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPi",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "pi"
+      ]
+    },
+    {
+      "name": "TiPin",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "pin"
+      ]
+    },
+    {
+      "name": "TiPinOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "pin",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPiOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "pi",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPipette",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "pipette"
+      ]
+    },
+    {
+      "name": "TiPlane",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "plane"
+      ]
+    },
+    {
+      "name": "TiPlaneOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "plane",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPlug",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "plug"
+      ]
+    },
+    {
+      "name": "TiPlus",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "plus"
+      ]
+    },
+    {
+      "name": "TiPlusOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "plus",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPointOfInterest",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "point",
+        "of",
+        "interest"
+      ]
+    },
+    {
+      "name": "TiPointOfInterestOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "point",
+        "of",
+        "interest",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPower",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "power"
+      ]
+    },
+    {
+      "name": "TiPowerOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "power",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiPrinter",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "printer"
+      ]
+    },
+    {
+      "name": "TiPuzzle",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "puzzle"
+      ]
+    },
+    {
+      "name": "TiPuzzleOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "puzzle",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiRadar",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "radar"
+      ]
+    },
+    {
+      "name": "TiRadarOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "radar",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiRefresh",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "refresh"
+      ]
+    },
+    {
+      "name": "TiRefreshOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "refresh",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiRss",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "rss"
+      ]
+    },
+    {
+      "name": "TiRssOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "rss",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiScissors",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "scissors"
+      ]
+    },
+    {
+      "name": "TiScissorsOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "scissors",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiShoppingBag",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "shopping",
+        "bag"
+      ]
+    },
+    {
+      "name": "TiShoppingCart",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "shopping",
+        "cart"
+      ]
+    },
+    {
+      "name": "TiSocialAtCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "at",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialDribbble",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "dribbble"
+      ]
+    },
+    {
+      "name": "TiSocialDribbbleCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "dribbble",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialFacebook",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "facebook"
+      ]
+    },
+    {
+      "name": "TiSocialFacebookCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "facebook",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialFlickr",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "flickr"
+      ]
+    },
+    {
+      "name": "TiSocialFlickrCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "flickr",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialGithub",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "github"
+      ]
+    },
+    {
+      "name": "TiSocialGithubCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "github",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialGooglePlus",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "google",
+        "plus"
+      ]
+    },
+    {
+      "name": "TiSocialGooglePlusCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "google",
+        "plus",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialInstagram",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "instagram"
+      ]
+    },
+    {
+      "name": "TiSocialInstagramCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "instagram",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialLastFm",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "last",
+        "fm"
+      ]
+    },
+    {
+      "name": "TiSocialLastFmCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "last",
+        "fm",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialLinkedin",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "linkedin"
+      ]
+    },
+    {
+      "name": "TiSocialLinkedinCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "linkedin",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialPinterest",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "pinterest"
+      ]
+    },
+    {
+      "name": "TiSocialPinterestCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "pinterest",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialSkype",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "skype"
+      ]
+    },
+    {
+      "name": "TiSocialSkypeOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "skype",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiSocialTumbler",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "tumbler"
+      ]
+    },
+    {
+      "name": "TiSocialTumblerCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "tumbler",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialTwitter",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "twitter"
+      ]
+    },
+    {
+      "name": "TiSocialTwitterCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "twitter",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialVimeo",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "vimeo"
+      ]
+    },
+    {
+      "name": "TiSocialVimeoCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "vimeo",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSocialYoutube",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "youtube"
+      ]
+    },
+    {
+      "name": "TiSocialYoutubeCircular",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "social",
+        "youtube",
+        "circular"
+      ]
+    },
+    {
+      "name": "TiSortAlphabetically",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "sort",
+        "alphabetically"
+      ]
+    },
+    {
+      "name": "TiSortAlphabeticallyOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "sort",
+        "alphabetically",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiSortNumerically",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "sort",
+        "numerically"
+      ]
+    },
+    {
+      "name": "TiSortNumericallyOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "sort",
+        "numerically",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiSpanner",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "spanner"
+      ]
+    },
+    {
+      "name": "TiSpannerOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "spanner",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiSpiral",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "spiral"
+      ]
+    },
+    {
+      "name": "TiStar",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "star"
+      ]
+    },
+    {
+      "name": "TiStarburst",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "starburst"
+      ]
+    },
+    {
+      "name": "TiStarburstOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "starburst",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiStarFullOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "star",
+        "full",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiStarHalf",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "star",
+        "half"
+      ]
+    },
+    {
+      "name": "TiStarHalfOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "star",
+        "half",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiStarOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "star",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiStopwatch",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "stopwatch"
+      ]
+    },
+    {
+      "name": "TiSupport",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "support"
+      ]
+    },
+    {
+      "name": "TiTabsOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "tabs",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiTag",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "tag"
+      ]
+    },
+    {
+      "name": "TiTags",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "tags"
+      ]
+    },
+    {
+      "name": "TiThermometer",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "thermometer"
+      ]
+    },
+    {
+      "name": "TiThLarge",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "large"
+      ]
+    },
+    {
+      "name": "TiThLargeOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "large",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiThList",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "list"
+      ]
+    },
+    {
+      "name": "TiThListOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "list",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiThMenu",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "menu"
+      ]
+    },
+    {
+      "name": "TiThMenuOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "menu",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiThSmall",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "small"
+      ]
+    },
+    {
+      "name": "TiThSmallOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "th",
+        "small",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiThumbsDown",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "thumbs",
+        "down"
+      ]
+    },
+    {
+      "name": "TiThumbsOk",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "thumbs",
+        "ok"
+      ]
+    },
+    {
+      "name": "TiThumbsUp",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "thumbs",
+        "up"
+      ]
+    },
+    {
+      "name": "TiTick",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "tick"
+      ]
+    },
+    {
+      "name": "TiTicket",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "ticket"
+      ]
+    },
+    {
+      "name": "TiTickOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "tick",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiTime",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "time"
+      ]
+    },
+    {
+      "name": "TiTimes",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "times"
+      ]
+    },
+    {
+      "name": "TiTimesOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "times",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiTrash",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "trash"
+      ]
+    },
+    {
+      "name": "TiTree",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "tree"
+      ]
+    },
+    {
+      "name": "TiUpload",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "upload"
+      ]
+    },
+    {
+      "name": "TiUploadOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "upload",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiUser",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "user"
+      ]
+    },
+    {
+      "name": "TiUserAdd",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "user",
+        "add"
+      ]
+    },
+    {
+      "name": "TiUserAddOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "user",
+        "add",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiUserDelete",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "user",
+        "delete"
+      ]
+    },
+    {
+      "name": "TiUserDeleteOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "user",
+        "delete",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiUserOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "user",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiVendorAndroid",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "vendor",
+        "android"
+      ]
+    },
+    {
+      "name": "TiVendorApple",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "vendor",
+        "apple"
+      ]
+    },
+    {
+      "name": "TiVendorMicrosoft",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "vendor",
+        "microsoft"
+      ]
+    },
+    {
+      "name": "TiVideo",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "video"
+      ]
+    },
+    {
+      "name": "TiVideoOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "video",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiVolume",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "volume"
+      ]
+    },
+    {
+      "name": "TiVolumeDown",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "volume",
+        "down"
+      ]
+    },
+    {
+      "name": "TiVolumeMute",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "volume",
+        "mute"
+      ]
+    },
+    {
+      "name": "TiVolumeUp",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "volume",
+        "up"
+      ]
+    },
+    {
+      "name": "TiWarning",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "warning"
+      ]
+    },
+    {
+      "name": "TiWarningOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "warning",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiWatch",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "watch"
+      ]
+    },
+    {
+      "name": "TiWaves",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "waves"
+      ]
+    },
+    {
+      "name": "TiWavesOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "waves",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiWeatherCloudy",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "TiWeatherDownpour",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "downpour"
+      ]
+    },
+    {
+      "name": "TiWeatherNight",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "night"
+      ]
+    },
+    {
+      "name": "TiWeatherPartlySunny",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "partly",
+        "sunny"
+      ]
+    },
+    {
+      "name": "TiWeatherShower",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "shower"
+      ]
+    },
+    {
+      "name": "TiWeatherSnow",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "snow"
+      ]
+    },
+    {
+      "name": "TiWeatherStormy",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "stormy"
+      ]
+    },
+    {
+      "name": "TiWeatherSunny",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "sunny"
+      ]
+    },
+    {
+      "name": "TiWeatherWindy",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "windy"
+      ]
+    },
+    {
+      "name": "TiWeatherWindyCloudy",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "weather",
+        "windy",
+        "cloudy"
+      ]
+    },
+    {
+      "name": "TiWiFi",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "wi",
+        "fi"
+      ]
+    },
+    {
+      "name": "TiWiFiOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "wi",
+        "fi",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiWine",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "wine"
+      ]
+    },
+    {
+      "name": "TiWorld",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "world"
+      ]
+    },
+    {
+      "name": "TiWorldOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "world",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiZoom",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "zoom"
+      ]
+    },
+    {
+      "name": "TiZoomIn",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "TiZoomInOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "zoom",
+        "in",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiZoomOut",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "zoom",
+        "out"
+      ]
+    },
+    {
+      "name": "TiZoomOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "zoom",
+        "outline"
+      ]
+    },
+    {
+      "name": "TiZoomOutOutline",
+      "set": "ti",
+      "terms": [
+        "ti",
+        "zoom",
+        "out",
+        "outline"
+      ]
     }
   ]
 }

@@ -90,4 +90,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "svgs/brands",
     style: "fill",
   },
+  ti: {
+    id: "ti",
+    prefix: "Ti",
+    name: "Typicons",
+    license: "CC-BY-SA-4.0",
+    repo: "stephenhutchings/typicons.font",
+    ref: "v2.1.2",
+    iconDir: "src/svg",
+    style: "fill",
+  },
 };
