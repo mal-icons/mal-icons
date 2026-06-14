@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuLockKeyhole = createIcon("0 0 24 24", [["circle",{"cx":"12","cy":"16","r":"1"}],["rect",{"x":"3","y":"10","width":"18","height":"12","rx":"2"}],["path",{"d":"M7 10V7a5 5 0 0 1 10 0v3"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuLockKeyhole;

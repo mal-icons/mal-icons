@@ -67,6 +67,16 @@ export const sources: Record<string, IconSource> = {
     iconDir: "src/svg",
     style: "fill",
   },
+  lu: {
+    id: "lu",
+    prefix: "Lu",
+    name: "Lucide",
+    license: "ISC",
+    repo: "lucide-icons/lucide",
+    ref: "1.19.0",
+    iconDir: "icons",
+    style: "stroke",
+  },
   fa: {
     id: "fa",
     prefix: "Fa",

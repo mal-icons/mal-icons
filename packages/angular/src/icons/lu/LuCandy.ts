@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-lu-candy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LuCandy {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 7v10.9"}],["path",{"d":"M14 6.1V17"}],["path",{"d":"M16 7V3a1 1 0 0 1 1.71-0.71 2.5 2.5 0 0 0 2.150.72 1 1 0 0 1 1.13 1.13 2.5 2.5 0 0 0 0.72 2.15A1 1 0 0 1 21 8h-4"}],["path",{"d":"M16.54 7.47a5 5 0 0 0-7.07 0l-2 2a5 5 0 0 0 0 7.07 5 5 0 0 0 7.07 0l2-2a5 5 0 0 0 0-7.07"}],["path",{"d":"M8 17v4a1 1 0 0 1-1.710.71 2.5 2.5 0 0 0-2.15-0.72 1 1 0 0 1-1.13-1.13 2.5 2.5 0 0 0-0.72-2.15A1 1 0 0 1 3 16h4"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LuCandy;

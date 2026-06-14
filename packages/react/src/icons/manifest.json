@@ -49,6 +49,12 @@
       "count": 1357
     },
     {
+      "id": "lu",
+      "name": "Lucide",
+      "license": "ISC",
+      "count": 1727
+    },
+    {
       "id": "oc",
       "name": "Octicons",
       "license": "MIT",

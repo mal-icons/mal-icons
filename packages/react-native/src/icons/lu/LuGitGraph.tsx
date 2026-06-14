@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuGitGraph = createIcon("0 0 24 24", [["circle",{"cx":"5","cy":"6","r":"3"}],["path",{"d":"M5 9v6"}],["circle",{"cx":"5","cy":"18","r":"3"}],["path",{"d":"M12 3v18"}],["circle",{"cx":"19","cy":"6","r":"3"}],["path",{"d":"M16 15.7A9 9 0 0 0 19 9"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuGitGraph;

@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-lu-lamp-wall-down",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LuLampWallDown {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.93 18.63A1 1 0 0 1 19 20H9a1 1 0 0 1-0.93-1.37l2-5A1 1 0 0 1 11 13h6a1 1 0 0 1 0.930.63z"}],["path",{"d":"M6 3a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H5a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"}],["path",{"d":"M8 6h4a2 2 0 0 1 2 2v5"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LuLampWallDown;

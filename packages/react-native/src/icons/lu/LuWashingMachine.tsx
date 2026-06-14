@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuWashingMachine = createIcon("0 0 24 24", [["path",{"d":"M3 6h3"}],["path",{"d":"M17 6h0.01"}],["rect",{"width":"18","height":"20","x":"3","y":"2","rx":"2"}],["circle",{"cx":"12","cy":"13","r":"5"}],["path",{"d":"M12 18a2.5 2.5 0 0 0 0-5 2.5 2.5 0 0 1 0-5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuWashingMachine;

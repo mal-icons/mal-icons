@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuRat = createIcon("0 0 24 24", [["path",{"d":"M13 22H4a2 2 0 0 1 0-4h12"}],["path",{"d":"M13.24 18a3 3 0 0 0-2.2-5"}],["path",{"d":"M16 9h0.01"}],["path",{"d":"M16.82 3.94a3 3 0 1 1 3.24 4.87l1.82 2.59a1.5 1.5 0 0 1-1.5 2.1l-2.87-0.45a3 3 0 0 0-3.5 3"}],["path",{"d":"M17 4.99a3 3 0 1 0-5.2 2.05A7 7 0 0 0 4 14.02 4 4 0 0 0 8 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuRat;

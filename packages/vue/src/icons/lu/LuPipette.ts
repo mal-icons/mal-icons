@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuPipette = createIcon("0 0 24 24", [["path",{"d":"m12 9-8.41 8.41A2 2 0 0 0 3 18.83v1.34a2 2 0 0 1-0.59 1.41A2 2 0 0 1 3.83 21h1.34a2 2 0 0 0 1.41-0.59L15 12"}],["path",{"d":"m18 9 0.40.4a1 1 0 1 1-3 3l-3.8-3.8a1 1 0 1 1 3-3l0.40.4 3.4-3.4a1 1 0 1 1 3 3z"}],["path",{"d":"m2 22 0.41-0.41"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuPipette;

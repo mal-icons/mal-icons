@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuFileVideoCamera = createIcon("0 0 24 24", [["path",{"d":"M4 12V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.710.71l3.59 3.59A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2"}],["path",{"d":"M14 2v5a1 1 0 0 0 1 1h5"}],["path",{"d":"m10 17.84 3.03-1.75a0.640.64 0 0 1 0.970.56v4.7a0.650.65 0 0 1-0.970.56L10 20.16"}],["rect",{"width":"7","height":"6","x":"3","y":"16","rx":"1"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuFileVideoCamera;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuArrowRightLeft = createIcon("0 0 24 24", [["path",{"d":"m16 3 4 4-4 4"}],["path",{"d":"M20 7H4"}],["path",{"d":"m8 21-4-4 4-4"}],["path",{"d":"M4 17h16"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuArrowRightLeft;

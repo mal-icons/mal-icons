@@ -83,12 +83,18 @@
       "bun": "./src/icons/io/index.ts",
       "import": "./dist/icons/io/index.js"
     },
+    "./lu": {
+      "types": "./dist/icons/lu/index.d.ts",
+      "bun": "./src/icons/lu/index.ts",
+      "import": "./dist/icons/lu/index.js"
+    },
     "./oc": {
       "types": "./dist/icons/oc/index.d.ts",
       "bun": "./src/icons/oc/index.ts",
       "import": "./dist/icons/oc/index.js"
     },
     "./io/*.json": "./src/icons/io/*.json",
+    "./lu/*.json": "./src/icons/lu/*.json",
     "./oc/*.json": "./src/icons/oc/*.json",
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",

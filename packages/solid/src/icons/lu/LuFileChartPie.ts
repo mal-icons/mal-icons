@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuFileChartPie = createIcon("0 0 24 24", [["path",{"d":"M15.94 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-0.71-1.7l-3.59-3.59A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.51"}],["path",{"d":"M14 2v5a1 1 0 0 0 1 1h5"}],["path",{"d":"M4.02 11.51a6 6 0 1 0 8.47 8.48"}],["path",{"d":"M9 16a1 1 0 0 1-1-1v-4c0-0.550.45-1.011-0.92a6 6 0 0 1 4.92 4.92c0.090.54-0.361-0.921z"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuFileChartPie;

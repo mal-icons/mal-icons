@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuWineOff = createIcon("0 0 24 24", [["path",{"d":"M8 22h8"}],["path",{"d":"M7 10h3m7 0h-1.34"}],["path",{"d":"M12 15v7"}],["path",{"d":"M7.31 7.31A12.33 12.33 0 0 0 7 10a5 5 0 0 0 7.39 4.39M8.64 2.98C8.75 2.67 8.87 2.34 9 2h6c1.5 4 2 6 2 8 0 0.41-0.050.81-0.14 1.2"}],["line",{"x1":"2","x2":"22","y1":"2","y2":"22"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuWineOff;
