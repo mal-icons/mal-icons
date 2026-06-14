@@ -99,6 +99,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
+| [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
+| [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 
 ## Subpath exports
@@ -108,7 +111,13 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react-native`               | Adapter and context               |
 | `@mal-icons/react-native/ci`            | All Circum icons (named exports)  |
 | `@mal-icons/react-native/ci/CiHeart`    | A single Circum icon module       |
+| `@mal-icons/react-native/fa`            | All Font Awesome icons (named exports) |
+| `@mal-icons/react-native/fab`            | All Font Awesome Brands icons (named exports) |
+| `@mal-icons/react-native/far`            | All Font Awesome Regular icons (named exports) |
 | `@mal-icons/react-native/fi`            | All Feather icons (named exports) |
+| `@mal-icons/react-native/fa/FaHeart` | A single icon module              |
+| `@mal-icons/react-native/fab/FabGithub` | A single icon module              |
+| `@mal-icons/react-native/far/FarHeart` | A single icon module              |
 | `@mal-icons/react-native/fi/FiActivity` | A single icon module              |
 | `@mal-icons/react-native/io`            | All Ionicons (named exports)      |
 | `@mal-icons/react-native/io/IoHeart`    | A single Ionicons icon module     |

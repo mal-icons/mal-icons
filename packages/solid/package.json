@@ -47,6 +47,36 @@
       "bun": "./src/icons/ci/*.ts",
       "import": "./src/icons/ci/*.ts"
     },
+    "./fa": {
+      "solid": "./src/icons/fa/index.ts",
+      "bun": "./src/icons/fa/index.ts",
+      "import": "./src/icons/fa/index.ts"
+    },
+    "./fa/*": {
+      "solid": "./src/icons/fa/*.ts",
+      "bun": "./src/icons/fa/*.ts",
+      "import": "./src/icons/fa/*.ts"
+    },
+    "./fab": {
+      "solid": "./src/icons/fab/index.ts",
+      "bun": "./src/icons/fab/index.ts",
+      "import": "./src/icons/fab/index.ts"
+    },
+    "./fab/*": {
+      "solid": "./src/icons/fab/*.ts",
+      "bun": "./src/icons/fab/*.ts",
+      "import": "./src/icons/fab/*.ts"
+    },
+    "./far": {
+      "solid": "./src/icons/far/index.ts",
+      "bun": "./src/icons/far/index.ts",
+      "import": "./src/icons/far/index.ts"
+    },
+    "./far/*": {
+      "solid": "./src/icons/far/*.ts",
+      "bun": "./src/icons/far/*.ts",
+      "import": "./src/icons/far/*.ts"
+    },
     "./fi": {
       "solid": "./src/icons/fi/index.ts",
       "bun": "./src/icons/fi/index.ts",

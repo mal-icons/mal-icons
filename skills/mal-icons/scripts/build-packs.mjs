@@ -25,14 +25,7 @@ import { fileURLToPath } from "node:url";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SKILL_ROOT = join(HERE, "..");
 const REPO_ROOT = join(SKILL_ROOT, "..", "..");
-const INDEX_PATH = join(
-  REPO_ROOT,
-  "packages",
-  "react",
-  "src",
-  "icons",
-  "search-index.json",
-);
+const INDEX_PATH = join(REPO_ROOT, "packages", "react", "src", "icons", "search-index.json");
 const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
@@ -58,8 +51,7 @@ const SET_META = {
     repo: "Klarr-Agency/Circum-Icons",
     style: "fill",
     viewBox: "0 0 24 24",
-    blurb:
-      "Lightweight, friendly fill icons. Paths paint with `currentColor`; theme via `color`.",
+    blurb: "Lightweight, friendly fill icons. Paths paint with `currentColor`; theme via `color`.",
   },
   io: {
     id: "io",
@@ -72,6 +64,42 @@ const SET_META = {
     viewBox: "0 0 512 512",
     blurb:
       "Large 512×512 set with filled, `-outline` and `-sharp` variants. Filled icons theme via `color`; outline variants carry stroke geometry.",
+  },
+  fa: {
+    id: "fa",
+    name: "Font Awesome Free",
+    prefix: "Fa",
+    version: "6.7.2",
+    license: "CC-BY-4.0",
+    repo: "FortAwesome/Font-Awesome",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "Large solid 512×512 set (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
+  },
+  fab: {
+    id: "fab",
+    name: "Font Awesome Free Brands",
+    prefix: "Fab",
+    version: "6.7.2",
+    license: "CC-BY-4.0",
+    repo: "FortAwesome/Font-Awesome",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "Brand and logo marks (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
+  },
+  far: {
+    id: "far",
+    name: "Font Awesome Free Regular",
+    prefix: "Far",
+    version: "6.7.2",
+    license: "CC-BY-4.0",
+    repo: "FortAwesome/Font-Awesome",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "Regular (outline-style) 512×512 icons (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
   },
 };
 
@@ -282,10 +310,7 @@ function main() {
       count: icons.length,
       icons,
     };
-    writeFileSync(
-      join(OUT_DIR, `${setId}.json`),
-      `${JSON.stringify(pack, null, 2)}\n`,
-    );
+    writeFileSync(join(OUT_DIR, `${setId}.json`), `${JSON.stringify(pack, null, 2)}\n`);
 
     // --- Markdown table ---
     const lines = [];
@@ -314,9 +339,7 @@ function main() {
     lines.push("");
     writeFileSync(join(OUT_DIR, `${setId}.md`), lines.join("\n"));
 
-    console.log(
-      `✓ ${setId}: ${icons.length} icons → ${setId}.json + ${setId}.md`,
-    );
+    console.log(`✓ ${setId}: ${icons.length} icons → ${setId}.json + ${setId}.md`);
   }
 }
 
