@@ -13,6 +13,18 @@
       "count": 1402
     },
     {
+      "id": "fab",
+      "name": "Font Awesome Free Brands",
+      "license": "CC-BY-4.0",
+      "count": 495
+    },
+    {
+      "id": "far",
+      "name": "Font Awesome Free Regular",
+      "license": "CC-BY-4.0",
+      "count": 163
+    },
+    {
       "id": "fi",
       "name": "Feather",
       "license": "MIT",

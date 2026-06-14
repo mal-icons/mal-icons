@@ -6,8 +6,8 @@ An [Agent Skill](https://agentskills.io) that teaches AI coding agents how to
 Svelte, Solid, Preact, Angular, Astro, vanilla Web, and React Native.
 
 It bundles the full icon catalog (Feather `fi`, Circum `ci`, Ionicons `io`,
-Font Awesome Free `fa` —
-3,334 icons) with tags and descriptions, a fast search script, per-framework
+Font Awesome Free `fa`, Font Awesome Free Brands `fab`, Font Awesome Free Regular `far` —
+3,992 icons) with tags and descriptions, a fast search script, per-framework
 setup guides, and best-practice references.
 
 ## Install

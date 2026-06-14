@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fab-wpbeginner",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FabWpbeginner {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M462.8 322.37C519.01 386.68 466.96 480 370.94 480c-39.6 0-78.82-17.69-100.14-50.04-6.890.36-22.70.36-29.59 0C219.85 462.38 180.59 480 141.07 480c-95.49 0-148.35-93-91.85-157.63C-29.92 190.52 80.48 32 256.01 32c175.63 0 285.87 158.63 206.79 290.37zm-339.65-82.97h41.53v-58.07h-41.53v58.08zm217.18 86.07v-23.84c-60.51 20.92-132.35 9.2-187.59-33.97l0.25 24.9c51.1 46.37 131.75 57.88 187.34 32.91zm-150.75-86.07h166.06v-58.07H189.58v58.08z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FabWpbeginner;

@@ -1,0 +1,1513 @@
+{
+  "set": {
+    "id": "far",
+    "name": "Font Awesome Free Regular",
+    "prefix": "Far",
+    "version": "6.7.2",
+    "license": "CC-BY-4.0",
+    "repo": "FortAwesome/Font-Awesome",
+    "style": "fill",
+    "viewBox": "0 0 512 512"
+  },
+  "count": 163,
+  "icons": [
+    {
+      "name": "FarAddressBook",
+      "tags": [
+        "address",
+        "book",
+        "fill"
+      ],
+      "description": "Address Book icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarAddressCard",
+      "tags": [
+        "address",
+        "card",
+        "fill"
+      ],
+      "description": "Address Card icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "FarBellSlash",
+      "tags": [
+        "bell",
+        "fill",
+        "notification",
+        "slash"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "FarBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "FarBuilding",
+      "tags": [
+        "building",
+        "fill"
+      ],
+      "description": "Building icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FarCalendarCheck",
+      "tags": [
+        "calendar",
+        "check",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FarCalendarDays",
+      "tags": [
+        "calendar",
+        "days",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FarCalendarMinus",
+      "tags": [
+        "calendar",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FarCalendarPlus",
+      "tags": [
+        "add",
+        "calendar",
+        "fill",
+        "plus"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FarCalendarXmark",
+      "tags": [
+        "calendar",
+        "fill",
+        "xmark"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FarChartBar",
+      "tags": [
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Chart Bar icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarChessBishop",
+      "tags": [
+        "bishop",
+        "chess",
+        "fill"
+      ],
+      "description": "Chess Bishop icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarChessKing",
+      "tags": [
+        "chess",
+        "fill",
+        "king"
+      ],
+      "description": "Chess King icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarChessKnight",
+      "tags": [
+        "chess",
+        "fill",
+        "knight"
+      ],
+      "description": "Chess Knight icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarChessPawn",
+      "tags": [
+        "chess",
+        "fill",
+        "pawn"
+      ],
+      "description": "Chess Pawn icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarChessQueen",
+      "tags": [
+        "chess",
+        "fill",
+        "queen"
+      ],
+      "description": "Chess Queen icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarChessRook",
+      "tags": [
+        "chess",
+        "fill",
+        "rook"
+      ],
+      "description": "Chess Rook icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCircle",
+      "tags": [
+        "circle",
+        "fill"
+      ],
+      "description": "Circle icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCircleCheck",
+      "tags": [
+        "check",
+        "circle",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "FarCircleDot",
+      "tags": [
+        "circle",
+        "dot",
+        "fill"
+      ],
+      "description": "Circle Dot icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCircleDown",
+      "tags": [
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Circle Down icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCircleLeft",
+      "tags": [
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Circle Left icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCirclePause",
+      "tags": [
+        "circle",
+        "fill",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "FarCirclePlay",
+      "tags": [
+        "circle",
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "FarCircleQuestion",
+      "tags": [
+        "circle",
+        "fill",
+        "question"
+      ],
+      "description": "Circle Question icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCircleRight",
+      "tags": [
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Circle Right icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCircleStop",
+      "tags": [
+        "circle",
+        "fill",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "FarCircleUp",
+      "tags": [
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Circle Up icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCircleUser",
+      "tags": [
+        "account",
+        "circle",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "FarCircleXmark",
+      "tags": [
+        "circle",
+        "fill",
+        "xmark"
+      ],
+      "description": "Circle Xmark icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarClipboard",
+      "tags": [
+        "clipboard",
+        "fill"
+      ],
+      "description": "Clipboard icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarClock",
+      "tags": [
+        "clock",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "FarClone",
+      "tags": [
+        "clone",
+        "fill"
+      ],
+      "description": "Clone icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarClosedCaptioning",
+      "tags": [
+        "captioning",
+        "closed",
+        "fill"
+      ],
+      "description": "Closed Captioning icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarComment",
+      "tags": [
+        "comment",
+        "fill"
+      ],
+      "description": "Comment icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCommentDots",
+      "tags": [
+        "comment",
+        "dots",
+        "fill"
+      ],
+      "description": "Comment Dots icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarComments",
+      "tags": [
+        "comments",
+        "fill"
+      ],
+      "description": "Comments icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCompass",
+      "tags": [
+        "compass",
+        "fill"
+      ],
+      "description": "Compass icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCopy",
+      "tags": [
+        "copy",
+        "fill"
+      ],
+      "description": "Copy icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCopyright",
+      "tags": [
+        "copyright",
+        "fill"
+      ],
+      "description": "Copyright icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "FarEnvelope",
+      "tags": [
+        "envelope",
+        "fill"
+      ],
+      "description": "Envelope icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarEnvelopeOpen",
+      "tags": [
+        "envelope",
+        "fill",
+        "open"
+      ],
+      "description": "Envelope Open icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarEye",
+      "tags": [
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "FarEyeSlash",
+      "tags": [
+        "eye",
+        "fill",
+        "hide",
+        "slash"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "FarFaceAngry",
+      "tags": [
+        "angry",
+        "face",
+        "fill"
+      ],
+      "description": "Face Angry icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceDizzy",
+      "tags": [
+        "dizzy",
+        "face",
+        "fill"
+      ],
+      "description": "Face Dizzy icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceFlushed",
+      "tags": [
+        "face",
+        "fill",
+        "flushed"
+      ],
+      "description": "Face Flushed icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceFrown",
+      "tags": [
+        "face",
+        "fill",
+        "frown"
+      ],
+      "description": "Face Frown icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceFrownOpen",
+      "tags": [
+        "face",
+        "fill",
+        "frown",
+        "open"
+      ],
+      "description": "Face Frown Open icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrimace",
+      "tags": [
+        "face",
+        "fill",
+        "grimace"
+      ],
+      "description": "Face Grimace icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrin",
+      "tags": [
+        "face",
+        "fill",
+        "grin"
+      ],
+      "description": "Face Grin icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinBeam",
+      "tags": [
+        "beam",
+        "face",
+        "fill",
+        "grin"
+      ],
+      "description": "Face Grin Beam icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinBeamSweat",
+      "tags": [
+        "beam",
+        "face",
+        "fill",
+        "grin",
+        "sweat"
+      ],
+      "description": "Face Grin Beam Sweat icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinHearts",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "hearts"
+      ],
+      "description": "Face Grin Hearts icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinSquint",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "squint"
+      ],
+      "description": "Face Grin Squint icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinSquintTears",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "squint",
+        "tears"
+      ],
+      "description": "Face Grin Squint Tears icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinStars",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "stars"
+      ],
+      "description": "Face Grin Stars icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinTears",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "tears"
+      ],
+      "description": "Face Grin Tears icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinTongue",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "tongue"
+      ],
+      "description": "Face Grin Tongue icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinTongueSquint",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "squint",
+        "tongue"
+      ],
+      "description": "Face Grin Tongue Squint icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinTongueWink",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "tongue",
+        "wink"
+      ],
+      "description": "Face Grin Tongue Wink icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinWide",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "wide"
+      ],
+      "description": "Face Grin Wide icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceGrinWink",
+      "tags": [
+        "face",
+        "fill",
+        "grin",
+        "wink"
+      ],
+      "description": "Face Grin Wink icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceKiss",
+      "tags": [
+        "face",
+        "fill",
+        "kiss"
+      ],
+      "description": "Face Kiss icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceKissBeam",
+      "tags": [
+        "beam",
+        "face",
+        "fill",
+        "kiss"
+      ],
+      "description": "Face Kiss Beam icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceKissWinkHeart",
+      "tags": [
+        "face",
+        "fill",
+        "heart",
+        "kiss",
+        "like",
+        "love",
+        "wink"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "FarFaceLaugh",
+      "tags": [
+        "face",
+        "fill",
+        "laugh"
+      ],
+      "description": "Face Laugh icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceLaughBeam",
+      "tags": [
+        "beam",
+        "face",
+        "fill",
+        "laugh"
+      ],
+      "description": "Face Laugh Beam icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceLaughSquint",
+      "tags": [
+        "face",
+        "fill",
+        "laugh",
+        "squint"
+      ],
+      "description": "Face Laugh Squint icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceLaughWink",
+      "tags": [
+        "face",
+        "fill",
+        "laugh",
+        "wink"
+      ],
+      "description": "Face Laugh Wink icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceMeh",
+      "tags": [
+        "face",
+        "fill",
+        "meh"
+      ],
+      "description": "Face Meh icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceMehBlank",
+      "tags": [
+        "blank",
+        "face",
+        "fill",
+        "meh"
+      ],
+      "description": "Face Meh Blank icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceRollingEyes",
+      "tags": [
+        "eyes",
+        "face",
+        "fill",
+        "rolling"
+      ],
+      "description": "Face Rolling Eyes icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceSadCry",
+      "tags": [
+        "cry",
+        "face",
+        "fill",
+        "sad"
+      ],
+      "description": "Face Sad Cry icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceSadTear",
+      "tags": [
+        "face",
+        "fill",
+        "sad",
+        "tear"
+      ],
+      "description": "Face Sad Tear icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceSmile",
+      "tags": [
+        "face",
+        "fill",
+        "smile"
+      ],
+      "description": "Face Smile icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceSmileBeam",
+      "tags": [
+        "beam",
+        "face",
+        "fill",
+        "smile"
+      ],
+      "description": "Face Smile Beam icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceSmileWink",
+      "tags": [
+        "face",
+        "fill",
+        "smile",
+        "wink"
+      ],
+      "description": "Face Smile Wink icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceSurprise",
+      "tags": [
+        "face",
+        "fill",
+        "surprise"
+      ],
+      "description": "Face Surprise icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFaceTired",
+      "tags": [
+        "face",
+        "fill",
+        "tired"
+      ],
+      "description": "Face Tired icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileAudio",
+      "tags": [
+        "audio",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileCode",
+      "tags": [
+        "code",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileExcel",
+      "tags": [
+        "excel",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileImage",
+      "tags": [
+        "file",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileLines",
+      "tags": [
+        "file",
+        "fill",
+        "lines"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFilePdf",
+      "tags": [
+        "file",
+        "fill",
+        "pdf"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFilePowerpoint",
+      "tags": [
+        "file",
+        "fill",
+        "powerpoint"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileVideo",
+      "tags": [
+        "file",
+        "fill",
+        "video"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileWord",
+      "tags": [
+        "file",
+        "fill",
+        "word"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFileZipper",
+      "tags": [
+        "file",
+        "fill",
+        "zipper"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FarFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFloppyDisk",
+      "tags": [
+        "disk",
+        "fill",
+        "floppy"
+      ],
+      "description": "Floppy Disk icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FarFolderClosed",
+      "tags": [
+        "closed",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FarFolderOpen",
+      "tags": [
+        "fill",
+        "folder",
+        "open"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FarFontAwesome",
+      "tags": [
+        "awesome",
+        "fill",
+        "font"
+      ],
+      "description": "Font Awesome icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarFutbol",
+      "tags": [
+        "fill",
+        "futbol"
+      ],
+      "description": "Futbol icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarGem",
+      "tags": [
+        "fill",
+        "gem"
+      ],
+      "description": "Gem icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHand",
+      "tags": [
+        "fill",
+        "hand"
+      ],
+      "description": "Hand icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandBackFist",
+      "tags": [
+        "back",
+        "fill",
+        "fist",
+        "hand"
+      ],
+      "description": "Hand Back Fist icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandLizard",
+      "tags": [
+        "fill",
+        "hand",
+        "lizard"
+      ],
+      "description": "Hand Lizard icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandPeace",
+      "tags": [
+        "fill",
+        "hand",
+        "peace"
+      ],
+      "description": "Hand Peace icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandPointDown",
+      "tags": [
+        "down",
+        "fill",
+        "hand",
+        "point"
+      ],
+      "description": "Hand Point Down icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandPointer",
+      "tags": [
+        "fill",
+        "hand",
+        "pointer"
+      ],
+      "description": "Hand Pointer icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandPointLeft",
+      "tags": [
+        "fill",
+        "hand",
+        "left",
+        "point"
+      ],
+      "description": "Hand Point Left icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandPointRight",
+      "tags": [
+        "fill",
+        "hand",
+        "point",
+        "right"
+      ],
+      "description": "Hand Point Right icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandPointUp",
+      "tags": [
+        "fill",
+        "hand",
+        "like",
+        "point",
+        "up"
+      ],
+      "description": "Hand Point Up icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandScissors",
+      "tags": [
+        "fill",
+        "hand",
+        "scissors"
+      ],
+      "description": "Hand Scissors icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandshake",
+      "tags": [
+        "fill",
+        "handshake"
+      ],
+      "description": "Handshake icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHandSpock",
+      "tags": [
+        "fill",
+        "hand",
+        "spock"
+      ],
+      "description": "Hand Spock icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHardDrive",
+      "tags": [
+        "drive",
+        "fill",
+        "hard"
+      ],
+      "description": "Hard Drive icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "FarHospital",
+      "tags": [
+        "fill",
+        "hospital"
+      ],
+      "description": "Hospital icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHourglass",
+      "tags": [
+        "fill",
+        "hourglass"
+      ],
+      "description": "Hourglass icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarHourglassHalf",
+      "tags": [
+        "fill",
+        "half",
+        "hourglass"
+      ],
+      "description": "Hourglass Half icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarIdBadge",
+      "tags": [
+        "badge",
+        "fill",
+        "id"
+      ],
+      "description": "Id Badge icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarIdCard",
+      "tags": [
+        "card",
+        "fill",
+        "id"
+      ],
+      "description": "Id Card icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarImage",
+      "tags": [
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "FarImages",
+      "tags": [
+        "fill",
+        "images"
+      ],
+      "description": "Images icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarKeyboard",
+      "tags": [
+        "fill",
+        "keyboard"
+      ],
+      "description": "Keyboard icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarLemon",
+      "tags": [
+        "fill",
+        "lemon"
+      ],
+      "description": "Lemon icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarLifeRing",
+      "tags": [
+        "fill",
+        "life",
+        "ring"
+      ],
+      "description": "Life Ring icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarLightbulb",
+      "tags": [
+        "fill",
+        "lightbulb"
+      ],
+      "description": "Lightbulb icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarMap",
+      "tags": [
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "FarMessage",
+      "tags": [
+        "fill",
+        "message"
+      ],
+      "description": "Message icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarMoneyBill1",
+      "tags": [
+        "1",
+        "bill",
+        "bill1",
+        "fill",
+        "money"
+      ],
+      "description": "Money Bill 1 icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarMoon",
+      "tags": [
+        "fill",
+        "moon"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "FarNewspaper",
+      "tags": [
+        "fill",
+        "newspaper"
+      ],
+      "description": "Newspaper icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarNoteSticky",
+      "tags": [
+        "fill",
+        "note",
+        "sticky"
+      ],
+      "description": "Note Sticky icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarObjectGroup",
+      "tags": [
+        "fill",
+        "group",
+        "object"
+      ],
+      "description": "Object Group icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarObjectUngroup",
+      "tags": [
+        "fill",
+        "object",
+        "ungroup"
+      ],
+      "description": "Object Ungroup icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarPaperPlane",
+      "tags": [
+        "fill",
+        "paper",
+        "plane"
+      ],
+      "description": "Paper Plane icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarPaste",
+      "tags": [
+        "fill",
+        "paste"
+      ],
+      "description": "Paste icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarPenToSquare",
+      "tags": [
+        "edit",
+        "fill",
+        "pen",
+        "square",
+        "to"
+      ],
+      "description": "Pen To Square icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarRectangleList",
+      "tags": [
+        "fill",
+        "list",
+        "rectangle"
+      ],
+      "description": "Rectangle List icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarRectangleXmark",
+      "tags": [
+        "fill",
+        "rectangle",
+        "xmark"
+      ],
+      "description": "Rectangle Xmark icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarRegistered",
+      "tags": [
+        "fill",
+        "registered"
+      ],
+      "description": "Registered icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarShareFromSquare",
+      "tags": [
+        "fill",
+        "from",
+        "share",
+        "square"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "FarSnowflake",
+      "tags": [
+        "fill",
+        "snowflake"
+      ],
+      "description": "Snowflake icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarSquare",
+      "tags": [
+        "fill",
+        "square"
+      ],
+      "description": "Square icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarSquareCaretDown",
+      "tags": [
+        "caret",
+        "down",
+        "fill",
+        "square"
+      ],
+      "description": "Square Caret Down icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarSquareCaretLeft",
+      "tags": [
+        "caret",
+        "fill",
+        "left",
+        "square"
+      ],
+      "description": "Square Caret Left icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarSquareCaretRight",
+      "tags": [
+        "caret",
+        "fill",
+        "right",
+        "square"
+      ],
+      "description": "Square Caret Right icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarSquareCaretUp",
+      "tags": [
+        "caret",
+        "fill",
+        "like",
+        "square",
+        "up"
+      ],
+      "description": "Square Caret Up icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarSquareCheck",
+      "tags": [
+        "check",
+        "fill",
+        "square"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "FarSquareFull",
+      "tags": [
+        "fill",
+        "full",
+        "square"
+      ],
+      "description": "Square Full icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarSquareMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove",
+        "square"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "FarSquarePlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus",
+        "square"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "FarStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "FarStarHalf",
+      "tags": [
+        "fill",
+        "half",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "FarStarHalfStroke",
+      "tags": [
+        "fill",
+        "half",
+        "star",
+        "stroke"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "FarSun",
+      "tags": [
+        "fill",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "FarThumbsDown",
+      "tags": [
+        "down",
+        "fill",
+        "like",
+        "thumbs"
+      ],
+      "description": "Thumbs Down icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarThumbsUp",
+      "tags": [
+        "fill",
+        "like",
+        "thumbs",
+        "up"
+      ],
+      "description": "Thumbs Up icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarTrashCan",
+      "tags": [
+        "bin",
+        "can",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "FarUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "FarWindowMaximize",
+      "tags": [
+        "fill",
+        "maximize",
+        "window"
+      ],
+      "description": "Window Maximize icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarWindowMinimize",
+      "tags": [
+        "fill",
+        "minimize",
+        "window"
+      ],
+      "description": "Window Minimize icon — Font Awesome Free Regular (far) set, fill style."
+    },
+    {
+      "name": "FarWindowRestore",
+      "tags": [
+        "fill",
+        "restore",
+        "window"
+      ],
+      "description": "Window Restore icon — Font Awesome Free Regular (far) set, fill style."
+    }
+  ]
+}

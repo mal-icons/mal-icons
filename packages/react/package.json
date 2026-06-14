@@ -57,6 +57,28 @@
       "bun": "./src/icons/fa/*.tsx",
       "import": "./dist/icons/fa/*.js"
     },
+    "./fab": {
+      "types": "./dist/icons/fab/index.d.ts",
+      "bun": "./src/icons/fab/index.ts",
+      "import": "./dist/icons/fab/index.js",
+      "require": "./dist/icons/fab/index.cjs"
+    },
+    "./fab/*": {
+      "types": "./dist/icons/fab/*.d.ts",
+      "bun": "./src/icons/fab/*.tsx",
+      "import": "./dist/icons/fab/*.js"
+    },
+    "./far": {
+      "types": "./dist/icons/far/index.d.ts",
+      "bun": "./src/icons/far/index.ts",
+      "import": "./dist/icons/far/index.js",
+      "require": "./dist/icons/far/index.cjs"
+    },
+    "./far/*": {
+      "types": "./dist/icons/far/*.d.ts",
+      "bun": "./src/icons/far/*.tsx",
+      "import": "./dist/icons/far/*.js"
+    },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
       "bun": "./src/icons/fi/index.ts",
@@ -98,6 +120,8 @@
     },
     "./sprite/ci.svg": "./dist/icons/ci/sprite.svg",
     "./sprite/fa.svg": "./dist/icons/fa/sprite.svg",
+    "./sprite/fab.svg": "./dist/icons/fab/sprite.svg",
+    "./sprite/far.svg": "./dist/icons/far/sprite.svg",
     "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
     "./sprite/io.svg": "./dist/icons/io/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",

@@ -28,6 +28,8 @@ export { IconBase, type IconBaseProps } from "./icon-base.tsx";
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/react"`).
 export * from "./icons/ci/index.ts";
 export * from "./icons/fa/index.ts";
+export * from "./icons/fab/index.ts";
+export * from "./icons/far/index.ts";
 export * from "./icons/fi/index.ts";
 export * from "./icons/io/index.ts";
 export { SpriteIcon, type SpriteIconProps } from "./sprite-icon.tsx";

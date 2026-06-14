@@ -55,6 +55,26 @@
       "bun": "./src/icons/fa/*.tsx",
       "import": "./dist/icons/fa/*.js"
     },
+    "./fab": {
+      "types": "./dist/icons/fab/index.d.ts",
+      "bun": "./src/icons/fab/index.ts",
+      "import": "./dist/icons/fab/index.js"
+    },
+    "./fab/*": {
+      "types": "./dist/icons/fab/*.d.ts",
+      "bun": "./src/icons/fab/*.tsx",
+      "import": "./dist/icons/fab/*.js"
+    },
+    "./far": {
+      "types": "./dist/icons/far/index.d.ts",
+      "bun": "./src/icons/far/index.ts",
+      "import": "./dist/icons/far/index.js"
+    },
+    "./far/*": {
+      "types": "./dist/icons/far/*.d.ts",
+      "bun": "./src/icons/far/*.tsx",
+      "import": "./dist/icons/far/*.js"
+    },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
       "bun": "./src/icons/fi/index.ts",

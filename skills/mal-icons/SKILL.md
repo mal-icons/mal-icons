@@ -2,7 +2,8 @@
 name: mal-icons
 description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
-  "fi", Circum "ci", Ionicons "io", Font Awesome Free "fa" — 3,334 icons) across
+  "fi", Circum "ci", Ionicons "io", Font Awesome Free solid "fa" / brands "fab" /
+  regular "far" — 3,992 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -25,6 +26,8 @@ helps you choose icons and wire them into any supported framework correctly.
 | `ci` | Circum   | `Ci`   | fill   |   288 | MPL-2.0 | `0 0 24 24`   |
 | `io` | Ionicons | `Io`   | fill   |  1357 | MIT     | `0 0 512 512` |
 | `fa` | Font Awesome Free | `Fa` | fill | 1402 | CC-BY-4.0 | `0 0 512 512` |
+| `fab` | Font Awesome Free Brands | `Fab` | fill | 495 | CC-BY-4.0 | `0 0 512 512` |
+| `far` | Font Awesome Free Regular | `Far` | fill | 163 | CC-BY-4.0 | `0 0 512 512` |
 
 Component names are PascalCase with the set prefix: `FiActivity`, `CiHeart`,
 `IoHeartOutline`. Ionicons ships filled, `-outline`, and `-sharp` variants
@@ -49,6 +52,8 @@ catalog (name, tags, description) lives in:
 - [references/icons/ci.json](references/icons/ci.json) · [ci.md](references/icons/ci.md) — Circum
 - [references/icons/io.json](references/icons/io.json) · [io.md](references/icons/io.md) — Ionicons
 - [references/icons/fa.json](references/icons/fa.json) · [fa.md](references/icons/fa.md) — Font Awesome Free
+- [references/icons/fab.json](references/icons/fab.json) · [fab.md](references/icons/fab.md) — Font Awesome Free Brands
+- [references/icons/far.json](references/icons/far.json) · [far.md](references/icons/far.md) — Font Awesome Free Regular
 
 Prefer the JSON packs for programmatic lookups; the `.md` tables are for
 human browsing. Regenerate both with `node scripts/build-packs.mjs`.
@@ -114,4 +119,4 @@ Swap `react` for any package: `vue`, `svelte`, `solid`, `preact`, `angular`,
 2. Use the package that matches their framework; default to per-icon or set
    barrel imports for tree-shaking.
 3. Open the relevant `references/setup/<framework>.md` for the exact API.
-4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`) is CC-BY-4.0; Feather/Ionicons are MIT.
+4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) is CC-BY-4.0; Feather/Ionicons are MIT.

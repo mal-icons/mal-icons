@@ -12,7 +12,20 @@ import { join } from "node:path";
 import { gzipSync } from "node:zlib";
 
 const LIMIT_BYTES = 2800; // 2.8 KB gzipped (headroom over the largest detailed icons, e.g. IoLogoTux ~2.7 KB)
+/**
+ * Per-set budget overrides. Brand marks (Font Awesome `fab`) are detailed,
+ * multi-path logos (e.g. FabOldRepublic ~5.2 KB) whose geometry is irreducible,
+ * so they get a larger ceiling than the icon-grade default above. Every other
+ * set stays on the strict {@link LIMIT_BYTES} budget.
+ */
+const SET_LIMIT_BYTES: Record<string, number> = { fab: 6000 };
 const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");
+
+/** Resolve the set id (parent folder) and its applicable byte budget. */
+function limitFor(file: string): number {
+  const setId = file.slice(ICONS_ROOT.length + 1).split(/[/\\]/)[0];
+  return SET_LIMIT_BYTES[setId] ?? LIMIT_BYTES;
+}
 
 function walkIconFiles(dir: string): string[] {
   const out: string[] = [];
@@ -42,23 +55,24 @@ function main(): void {
 
   let max = 0;
   let maxFile = "";
-  const offenders: Array<{ file: string; size: number }> = [];
+  const offenders: Array<{ file: string; size: number; limit: number }> = [];
   for (const file of files) {
     const size = gzippedSize(file);
     if (size > max) {
       max = size;
       maxFile = file;
     }
-    if (size > LIMIT_BYTES) offenders.push({ file, size });
+    const limit = limitFor(file);
+    if (size > limit) offenders.push({ file, size, limit });
   }
 
   console.log(`Checked ${files.length} icons. Largest: ${max} B gzip (${maxFile}).`);
   if (offenders.length > 0) {
-    console.error(`\n${offenders.length} icon(s) exceed ${LIMIT_BYTES} B gzip:`);
-    for (const o of offenders) console.error(`  ${o.size} B  ${o.file}`);
+    console.error(`\n${offenders.length} icon(s) exceed their gzip budget:`);
+    for (const o of offenders) console.error(`  ${o.size} B (limit ${o.limit} B)  ${o.file}`);
     process.exit(1);
   }
-  console.log(`All icons within the ${LIMIT_BYTES} B budget.`);
+  console.log(`All icons within budget (default ${LIMIT_BYTES} B).`);
 }
 
 main();
