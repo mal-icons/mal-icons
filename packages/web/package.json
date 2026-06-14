@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/web",
-  "version": "0.5.9",
+  "version": "0.6.10",
   "description": "Zero-build web components and icon data for mal-icons.",
   "type": "module",
   "license": "MIT",

@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/core",
-  "version": "0.5.9",
+  "version": "0.6.10",
   "description": "Framework-agnostic types and theming utilities for mal-icons.",
   "type": "module",
   "license": "MIT",
