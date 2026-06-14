@@ -60,9 +60,10 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 
-Each set is exposed under its own subpath (`/ci`, `/fi`, `/io`) and at the package root.
+Each set is exposed under its own subpath (`/ci`, `/fa`, `/fi`, `/io`) and at the package root.
 
 ## Installation
 
@@ -104,7 +105,7 @@ npx skills add mal-icons/mal-icons --skill mal-icons -a claude-code -g
 
 Once installed, ask your agent naturally — "add a trash icon to this button" or
 "which icon should I use for notifications?" — and it searches the bundled
-catalog (Feather, Circum, Ionicons) and wires the icon into your code. You can
+catalog (Feather, Circum, Font Awesome, Ionicons) and wires the icon into your code. You can
 also run the search helper directly:
 
 ```bash
