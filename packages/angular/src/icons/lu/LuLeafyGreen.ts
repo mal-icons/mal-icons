@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-lu-leafy-green",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LuLeafyGreen {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 22c1.25-0.99 2.27-1.97 3.9-2.2a5.56 5.56 0 0 1 3.8 1.5 4 4 0 0 0 6.19-2.35 3.5 3.5 0 0 0 3.69-5.12A3.5 3.5 0 0 0 20.95 8 3.5 3.5 0 1 0 16 3.05a3.5 3.5 0 0 0-5.83 1.37 3.5 3.5 0 0 0-5.12 3.69 4 4 0 0 0-2.35 6.16C3.5 15.42 4.41 16.71 4.2 18.1 3.93 19.74 3.01 20.73 2 22"}],["path",{"d":"M2 22 17 7"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LuLeafyGreen;

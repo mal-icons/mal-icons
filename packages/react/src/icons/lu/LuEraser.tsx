@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuEraser = createIcon("0 0 24 24", [["path",{"d":"M21 21H8a2 2 0 0 1-1.42-0.59l-3.99-4a2 2 0 0 1 0-2.83l10-10a2 2 0 0 1 2.83 0l6 6a2 2 0 0 1 0 2.83L12.83 21"}],["path",{"d":"m5.08 11.09 8.83 8.83"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuEraser;

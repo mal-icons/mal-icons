@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuVolumeOff = createIcon("0 0 24 24", [["path",{"d":"M16 9a5 5 0 0 1 0.95 2.29"}],["path",{"d":"M19.36 5.64a9 9 0 0 1 1.89 9.96"}],["path",{"d":"m2 2 20 20"}],["path",{"d":"m7 7-0.590.59A1.4 1.4 0 0 1 5.42 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.42a1.4 1.4 0 0 1 10.41l3.38 3.38A0.710.71 0 0 0 11 19.3V11"}],["path",{"d":"M9.83 4.17A0.690.69 0 0 1 11 4.66v0.69"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuVolumeOff;

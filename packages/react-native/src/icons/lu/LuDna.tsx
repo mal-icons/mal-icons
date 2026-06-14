@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuDna = createIcon("0 0 24 24", [["path",{"d":"m10 16 1.5 1.5"}],["path",{"d":"m14 8-1.5-1.5"}],["path",{"d":"M15 2c-1.8 2-2.52 4-2.81 5.99"}],["path",{"d":"m16.5 10.5 1 1"}],["path",{"d":"m17 6-2.89-2.89"}],["path",{"d":"M2 15c6.67-6 13.33 0 20-6"}],["path",{"d":"m20 9 0.890.89"}],["path",{"d":"M3.11 14.11 4 15"}],["path",{"d":"m6.5 12.5 1 1"}],["path",{"d":"m7 18 2.89 2.89"}],["path",{"d":"M9 22c1.8-2 2.52-3.99 2.81-5.99"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuDna;

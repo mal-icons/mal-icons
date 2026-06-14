@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuRose = createIcon("0 0 24 24", [["path",{"d":"M17 10h-1a4 4 0 1 1 4-4v0.53"}],["path",{"d":"M17 6h1a4 4 0 0 1 1.42 7.74l-2.290.87a6 6 0 0 1-5.34-10.68l2.07-1.31"}],["path",{"d":"M4.5 17c2.8-0.5 4.4 0 5.50.8s1.8 2.2 2.3 3.7c-2 0.4-3.50.4-4.8-0.3-1.2-0.6-2.3-1.9-3-4.2"}],["path",{"d":"M9.77 12C4 15 2 22 2 22"}],["circle",{"cx":"17","cy":"8","r":"2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuRose;

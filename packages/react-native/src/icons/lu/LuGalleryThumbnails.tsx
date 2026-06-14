@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuGalleryThumbnails = createIcon("0 0 24 24", [["rect",{"width":"18","height":"14","x":"3","y":"3","rx":"2"}],["path",{"d":"M4 21h1"}],["path",{"d":"M9 21h1"}],["path",{"d":"M14 21h1"}],["path",{"d":"M19 21h1"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuGalleryThumbnails;

@@ -1,0 +1,10 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["path",{"d":"M18 8a2 2 0 0 0 0-4 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0-4 0 2 2 0 0 0 0 4"}],["path",{"d":"M10 22 9 8"}],["path",{"d":"m14 22 1-14"}],["path",{"d":"M20 8c0.5 0 0.90.40.8 1l-2.6 12c-0.10.5-0.7 1-1.2 1H7c-0.6 0-1.1-0.4-1.2-1L3.2 9c-0.1-0.60.3-1 0.8-1Z"}]];
+  const defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 24 24" {nodes} {defaultAttr} {...props} />

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuDrone = createIcon("0 0 24 24", [["path",{"d":"M10 10 7 7"}],["path",{"d":"m10 14-3 3"}],["path",{"d":"m14 10 3-3"}],["path",{"d":"m14 14 3 3"}],["path",{"d":"M14.21 4.14a4 4 0 1 1 5.44 5.86"}],["path",{"d":"M19.64 14a4 4 0 1 1-5.43 5.87"}],["path",{"d":"M4.37 10a4 4 0 1 1 5.44-5.86"}],["path",{"d":"M9.8 19.86a4 4 0 1 1-5.43-5.87"}],["rect",{"x":"10","y":"8","width":"4","height":"8","rx":"1"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuDrone;

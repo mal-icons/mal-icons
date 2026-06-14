@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuClipboardPenLine = createIcon("0 0 24 24", [["rect",{"width":"8","height":"4","x":"8","y":"2","rx":"1"}],["path",{"d":"M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-0.5"}],["path",{"d":"M16 4h2a2 2 0 0 1 1.73 1"}],["path",{"d":"M8 18h1"}],["path",{"d":"M21.38 12.63a1 1 0 0 0-3-3l-4.01 4.01a2 2 0 0 0-0.510.85l-0.84 2.87a0.50.5 0 0 0 0.620.62l2.87-0.84a2 2 0 0 0 0.85-0.51z"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuClipboardPenLine;

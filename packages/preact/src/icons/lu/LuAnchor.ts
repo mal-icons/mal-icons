@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuAnchor = createIcon("0 0 24 24", [["path",{"d":"M12 6v16"}],["path",{"d":"m19 13 2-1a9 9 0 0 1-18 0l2 1"}],["path",{"d":"M9 11h6"}],["circle",{"cx":"12","cy":"4","r":"2"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuAnchor;

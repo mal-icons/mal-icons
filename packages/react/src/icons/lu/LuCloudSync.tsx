@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuCloudSync = createIcon("0 0 24 24", [["path",{"d":"m17 18-1.53 1.61a5 5 0 0 1-8-1.5"}],["path",{"d":"M17 22v-4h-4"}],["path",{"d":"M21 15.25A4.5 4.5 0 0 0 17.5 8h-1.79a7 7 0 1 0-12.71 5.61"}],["path",{"d":"M7 10v4h4"}],["path",{"d":"m7 14 1.54-1.6a5 5 0 0 1 8 1.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuCloudSync;

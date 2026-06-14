@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuCandy = createIcon("0 0 24 24", [["path",{"d":"M10 7v10.9"}],["path",{"d":"M14 6.1V17"}],["path",{"d":"M16 7V3a1 1 0 0 1 1.71-0.71 2.5 2.5 0 0 0 2.150.72 1 1 0 0 1 1.13 1.13 2.5 2.5 0 0 0 0.72 2.15A1 1 0 0 1 21 8h-4"}],["path",{"d":"M16.54 7.47a5 5 0 0 0-7.07 0l-2 2a5 5 0 0 0 0 7.07 5 5 0 0 0 7.07 0l2-2a5 5 0 0 0 0-7.07"}],["path",{"d":"M8 17v4a1 1 0 0 1-1.710.71 2.5 2.5 0 0 0-2.15-0.72 1 1 0 0 1-1.13-1.13 2.5 2.5 0 0 0-0.72-2.15A1 1 0 0 1 3 16h4"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuCandy;

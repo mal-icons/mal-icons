@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-lu-magnet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LuMagnet {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m12 15 4 4"}],["path",{"d":"M2.35 10.65a1.21 1.21 0 0 0 0 1.7l2.3 2.3a1.21 1.21 0 0 0 1.7 0l6.03-6.03a1 1 0 1 1 3 3l-6.03 6.03a1.21 1.21 0 0 0 0 1.7l2.3 2.3a1.21 1.21 0 0 0 1.7 0l6.37-6.37A1 1 0 0 0 8.72 4.28z"}],["path",{"d":"m5 8 4 4"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LuMagnet;

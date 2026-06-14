@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuPercent = createIcon("0 0 24 24", [["line",{"x1":"19","x2":"5","y1":"5","y2":"19"}],["circle",{"cx":"6.5","cy":"6.5","r":"2.5"}],["circle",{"cx":"17.5","cy":"17.5","r":"2.5"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuPercent;
