@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevAuth0Icon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M494.9 0H300l60.2 187.7h194.9L397.4 299.6l60.3 188.7c101.4-74 134.6-185.8 97.4-300.6zm-450 187.7h194.9L300 0H105.2zc-37.2 114.8-4 226.7 97.4 300.6l60.3-188.7zm97.4 300.6L300 600l157.6-111.7L300 374.8z"}]]);
+
+export default DevAuth0Icon;

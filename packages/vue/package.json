@@ -46,6 +46,16 @@
       "bun": "./src/icons/ci/*.ts",
       "import": "./dist/icons/ci/*.js"
     },
+    "./dev": {
+      "types": "./dist/icons/dev/index.d.ts",
+      "bun": "./src/icons/dev/index.ts",
+      "import": "./dist/icons/dev/index.js"
+    },
+    "./dev/*": {
+      "types": "./dist/icons/dev/*.d.ts",
+      "bun": "./src/icons/dev/*.ts",
+      "import": "./dist/icons/dev/*.js"
+    },
     "./fa": {
       "types": "./dist/icons/fa/index.d.ts",
       "bun": "./src/icons/fa/index.ts",

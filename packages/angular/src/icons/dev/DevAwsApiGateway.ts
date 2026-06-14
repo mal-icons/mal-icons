@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-aws-api-gateway",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevAwsApiGateway {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-aws-api-gateway-2-a)"}],["path",{"fill":"currentColor","d":"M600 0H0v600h600z"}],["path",{"fill":"currentColor","d":"M255.5 417.2h22v-15h-22zm37 0H315v-15h-22.5zm-90-307.5L105 158.1V459l97.5 33zm15 95.8V402H240v15.1h-22.5v85.2a7.6 7.6 0 0 1-7.5 7.6q-1.2 0-2.4-0.4l-112.5-38c-3-1-5.1-4-5.1-7.2v-311c0-2.9 1.6-5.5 4.2-6.8l112.5-55.8q3.7-1.7 7.30.3a8 8 0 0 1 3.5 6.5v92.7H240v15.2zM330 417.2h22.5v-15H330zm0.5-211.7h22v-15.2h-22zm-37.5 0h22v-15.2h-22zm-37.5 0h22v-15.2h-22zM495 158l-97.5-48.4V492l97.5-33zm15 306.3c0 3.2-2 6.1-5.1 7.2l-112.5 38a7 7 0 0 1-6.8-1 8 8 0 0 1-3.1-6.2v-85.2H368v-15h14.5V205.4H368v-15.2h14.5V97.6q0.1-4.2 3.5-6.5c2.2-1.3 5-1.5 7.3-0.3l112.5 55.8c2.6 1.3 4.2 4 4.2 6.8zM322 253.6l-14-5.5-37.5 98.4 14 5.4zm50.8 48c3-3 3-7.8 0-10.7l-30-30.3-10.6 10.7 24.7 25-24.7 24.8 10.6 10.7zm-115.6 30.2-30-30.2c-3-3-3-7.8 0-10.7l30-30.3 10.6 10.7-24.7 25 24.7 24.8z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevAwsApiGateway;

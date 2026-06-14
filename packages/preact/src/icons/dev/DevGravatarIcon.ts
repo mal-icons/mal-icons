@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevGravatarIcon = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-gravatar-icon-1-a)"}],["path",{"fill":"currentColor","d":"M240 60v210a60 60 0 1 0 120 0V130.3a180 180 0 1 1-187.2 42.5 60 60 0 0 0-85-85A300 300 0 1 0 300 0a60 60 0 0 0-60 60"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevGravatarIcon;

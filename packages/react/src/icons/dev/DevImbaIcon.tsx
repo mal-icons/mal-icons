@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevImbaIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M594.9 242.4C529.1 118.2-58.8-8.7 4.9 73.4 68.4 155.4 350.3 268 367 270.2c-86.5 27.1-317.4 75.9-268 117 49.5 41 284.3-4.9 283.9-4.2-65 49-146 197-64.7 165.3 128.4-49.8 315-233.6 276.6-306"}]]);
+
+export default DevImbaIcon;

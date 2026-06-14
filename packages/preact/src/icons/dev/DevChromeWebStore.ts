@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevChromeWebStore = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M600 39.5H0v480a41 41 0 0 0 41 41h518a41 41 0 0 0 41-41z"}],["path",{"fill":"currentColor","d":"M600 39.5H0v261.9h600z"}],["path",{"fill":"currentColor","d":"M368.1 151.4H231.8a27.3 27.3 0 1 1 0-54.6h136.3a27.3 27.3 0 1 1 0 54.6"}],["path",{"fill":"currentColor","d":"M600 39.5H0v480a41 41 0 0 0 41 41h518a41 41 0 0 0 41-41z"}],["g",{"mask":"url(#devicon-chrome-web-store-4-a)"}],["path",{"fill":"currentColor","d":"m75.6 390 35.7 109 76.5 85.4L300 390h224.3a258.9 258.9 0 0 0-448.7 0"}],["path",{"fill":"currentColor","d":"m300 778.7 76.4-85.4 35.7-109H187.8L75.6 390A259 259 0 0 0 300 778.7"}],["path",{"fill":"currentColor","d":"M524.3 390H300l112.2 194.4L300 778.7A259 259 0 0 0 524.4 390"}],["path",{"fill":"currentColor","d":"M300 649.1a129.5 129.5 0 1 0 0-259 129.5 129.5 0 0 0 0 259"}],["path",{"fill":"currentColor","d":"M300 624.8a105.2 105.2 0 1 0 0-210.5 105.2 105.2 0 0 0 0 210.5"}],["path",{"fill":"currentColor","d":"M600 301.4H0v3.4h600zm0-3.4H0v3.3h600z","opacity":".1"}]]);
+
+export default DevChromeWebStore;

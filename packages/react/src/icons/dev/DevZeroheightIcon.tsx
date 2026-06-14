@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevZeroheightIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"m95.6 0 44 93.6h-88zM51.7 108.4h87.8V527H51.7zm0 433.4h87.8v51H51.7zM208 93.3l60.9-60.7 279.5 279.7-281 287.7-60.7-57.7 220.7-229.6z"}]]);
+
+export default DevZeroheightIcon;

@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-aws-certificate-manager-2-a)"}],["path",{"fill":"currentColor","d":"M600 0H0v600h600z"}],["path",{"fill":"currentColor","d":"M267.7 294.6a8 8 0 0 1 2.1 7l-7.7 35.3 34-20.8a8 8 0 0 1 7.8 0l33.7 20.8-7.4-35.4c-0.6-2.50.2-5.1 2-7l30.3-29.6-39.5-5.7q-3.8-0.6-5.6-4.1l-17.5-35.7-17.8 35.8a8 8 0 0 1-5.6 4L237 265zm-24 56.3 10.6-48.4-38.6-37.3a7.5 7.5 0 0 1 4-12.8l50.7-7.4 22.9-46a7 7 0 0 1 6.7-4c2.9 0 5.5 1.6 6.7 4.1l22.4 45.8 50.6 7.4a7.5 7.5 0 0 1 4.2 12.7l-38.2 37.4 10.2 48.5a7.5 7.5 0 0 1-11.3 8L300 331.2 255 359a8 8 0 0 1-8.3-0.3 8 8 0 0 1-3-7.7M105 157.7h390V120H105zm405-45.2v375c0 4.1-3.4 7.5-7.5 7.5h-45v-15H495V172.7H105V480h285v15H97.5a7.5 7.5 0 0 1-7.5-7.5v-375c0-4.1 3.4-7.5 7.5-7.5h405c4.1 0 7.5 3.4 7.5 7.5m-330 330h45v-15h-45zm75 0h105v-15H255zM180 405h45v-15h-45zm75 0h165v-15H255z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 600 600" {nodes} {...props} />

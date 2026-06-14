@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-aws-appflow",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevAwsAppflow {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-aws-appflow-2-a)"}],["path",{"fill":"currentColor","d":"M600 0H0v600h600z"}],["path",{"fill":"currentColor","d":"M312.4 142.5 194.7 340.4l-7.8-29-14.4 3.8L187 370l54.7-14.7-3.9-14.5-30.9 8.3 114-191.6h112.6l56.3 97.5-56.3 97.5h-58.9v15h67.5l65-112.5-65-112.5zm36.7 102.2 3.8 14.5 31.3-8.4-108 191.7H163.5L107.3 345l56.3-97.5h46.1v-15H155L90 345l65 112.5h129.9L396.3 260l7.6 28.6 14.5-3.8-14.6-54.7z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevAwsAppflow;

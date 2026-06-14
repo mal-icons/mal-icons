@@ -110,4 +110,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "icons",
     style: "fill",
   },
+  dev: {
+    id: "dev",
+    prefix: "Dev",
+    name: "Devicons",
+    license: "MIT",
+    repo: "vorillaz/devicons",
+    ref: "devicons-v2.0.1",
+    iconDir: "packages/core/export-files/icons",
+    style: "fill",
+  },
 };

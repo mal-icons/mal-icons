@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-haskell-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevHaskellIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M0 511.6 141.2 300 0 88.4h105.9L247 300 105.9 511.6z"}],["path",{"fill":"currentColor","d":"M141.2 511.6 282.4 300 141.2 88.4H247l282.3 423.2H423.5l-88.2-132.2-88.2 132.2z"}],["path",{"fill":"currentColor","d":"m482.4 388.2-47.1-70.6H600v70.6zm-70.6-105.8-47.1-70.6H600v70.6z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevHaskellIcon;

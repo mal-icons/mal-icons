@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevHhvm = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M304.8 199.2h184.6l-184.6 182z"}],["path",{"fill":"currentColor","d":"M98.1 405h184l-184 186.7zm0-216L290.50.4V192L98.2 384zm403.8 19.2v196.1L304.8 600V403.9zm-0.1-23.5H317L501.8 0z"}],["path",{"fill":"currentColor","d":"M290.4 389.8h-179l179-179.1z"}]]);
+
+export default DevHhvm;

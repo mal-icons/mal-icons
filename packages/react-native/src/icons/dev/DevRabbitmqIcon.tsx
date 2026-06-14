@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevRabbitmqIcon = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-rabbitmq-icon-1-a)"}],["path",{"fill":"currentColor","d":"M575.9 240h-192a24 24 0 0 1-24-24V24a24 24 0 0 0-24-23.8H264A24 24 0 0 0 240 24v192a24 24 0 0 1-24.1 24h-71.8a24 24 0 0 1-24-24V24A24 24 0 0 0 96 0H24A24 24 0 0 0 0 24v552a24 24 0 0 0 24.1 24H576a24 24 0 0 0 24-24V264.5a24 24 0 0 0-24-24.5m-96.5 203.8a36 36 0 0 1-36 36.1h-48a36 36 0 0 1-36-36v-48a36 36 0 0 1 36-36h48a36 36 0 0 1 36 36z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevRabbitmqIcon;

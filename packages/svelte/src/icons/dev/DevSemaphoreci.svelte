@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-semaphoreci-1-a)"}],["path",{"fill":"currentColor","d":"m62.2 269.2 104 105.4a76 76 0 0 0 108.9 0l82.3-83.7c11.8-12 31.2-12 43 0l40.8 41.5L337.5 438a163 163 0 0 1-233.6-0.3L0 332.4z"}],["path",{"fill":"currentColor","d":"m496 162.2 104 105.7-62.4 63.5-104-105.8a76 76 0 0 0-109 0l-82.2 83.7a30 30 0 0 1-43 0L158.5 268l103.9-105.7a163.3 163.3 0 0 1 233.6 0"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 600 600" {nodes} {...props} />

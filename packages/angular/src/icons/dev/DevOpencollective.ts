@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-opencollective",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevOpencollective {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-opencollective-1-a)"}],["path",{"fill":"currentColor","d":"M492.2 300c0 37.6-11.5 73.5-31.2 104.6l78.5 78.5A303 303 0 0 0 600 301.6c0-68.7-22.9-130.8-62.1-181.5L461 197a186 186 0 0 1 31.1 103z"}],["path",{"fill":"currentColor","d":"M299.2 492.9a193.3 193.3 0 0 1-193-192.9 193.3 193.3 0 0 1 193-193c39.2 0 75.2 11.5 104.6 31.1l76.9-76.9A303 303 0 0 0 299.20.8a299.3 299.3 0 0 0 0 598.4c65.70.2 129.6-21.7 181.5-62.2l-78.5-78.4c-27.8 22.8-63.7 34.3-103 34.3"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevOpencollective;

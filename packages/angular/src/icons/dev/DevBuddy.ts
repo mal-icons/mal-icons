@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-buddy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevBuddy {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m276.3 6.3-219 126.4a48 48 0 0 0-23.6 41v252.7c0 16.8 9.1 32.5 23.7 41 50.3 29 168.3 97.2 219 126.3a48 48 0 0 0 47.3 0l219-126.4a48 48 0 0 0 23.6-41V173.7c0-17-9.1-32.5-23.7-41-50.3-29-168.3-97.2-219-126.3a48 48 0 0 0-47.3 0"}],["path",{"fill":"currentColor","d":"m276.3 6.3-219 126.4a48 48 0 0 0-23.6 41v252.7c0 16.8 9.1 32.5 23.7 41 50.3 29 168.3 97.2 219 126.3a48 48 0 0 0 47.3 0l219-126.4a48 48 0 0 0 23.6-41V173.7c0-17-9.1-32.5-23.7-41-50.3-29-168.3-97.2-219-126.3a48 48 0 0 0-47.3 0"}],["g",{"mask":"url(#devicon-buddy-1-a)"}],["path",{"fill":"currentColor","d":"M172.2 300 300 608 33.7 453.8z"}],["path",{"fill":"currentColor","d":"M172.2 300 33.7 145.3v308.5z"}],["path",{"fill":"currentColor","d":"M172.2 300 300-7.5l266.3 461.3z"}],["path",{"fill":"currentColor","d":"M172.2 300 300-7.5 33.7 145.2z"}],["path",{"fill":"currentColor","d":"m300 608 266.3-154.2L172.2 300z"}],["path",{"fill":"currentColor","d":"M566.3 453.8V146.2L300-7.5z"}],["path",{"fill":"currentColor","fill-opacity":".5","d":"m356.3 274 33.7 34-16.8 16.8-17 17L261 437l-33.8-33.8 95.3-95.3-95.3-95.3 33.8-33.8z"}],["path",{"fill":"currentColor","d":"m390 292.6-33.7-33.8-129.1 129 33.8 33.9z"}],["path",{"fill":"currentColor","d":"m261 163.8-33.6 33.8 129.1 129 33.8-33.8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevBuddy;

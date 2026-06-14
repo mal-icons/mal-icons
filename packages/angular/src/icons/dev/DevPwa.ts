@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-pwa",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevPwa {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m441.6 372.5 17.3-43.8h50l-23.7-66.5L515 187l85 226h-62.7l-14.6-40.5z"}],["path",{"fill":"currentColor","d":"m388 413 91.1-226h-60.3l-62.4 146-44.3-146h-46.4l-47.5 146-33.6-66.5-30.4 93.5 30.9 53h59.4l43-131 41 131z"}],["path",{"fill":"currentColor","d":"M57.3 335.4h37.2q17 0 30.1-3.8l9.6-29.6 27-82.8q-3.2-4.9-7.1-9.2-20.7-23-60.6-23H0v226h57.3zm49.3-96.4q8 8.1 8 21.8t-7 21.8q-7.9 9-28.8 9H57.3v-60.7H79q19.5 0 27.6 8.1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevPwa;

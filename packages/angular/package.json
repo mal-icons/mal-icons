@@ -41,6 +41,14 @@
       "bun": "./src/icons/ci/*.ts",
       "import": "./src/icons/ci/*.ts"
     },
+    "./dev": {
+      "bun": "./src/icons/dev/index.ts",
+      "import": "./src/icons/dev/index.ts"
+    },
+    "./dev/*": {
+      "bun": "./src/icons/dev/*.ts",
+      "import": "./src/icons/dev/*.ts"
+    },
     "./fa": {
       "bun": "./src/icons/fa/index.ts",
       "import": "./src/icons/fa/index.ts"

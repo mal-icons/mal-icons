@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevJira = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-jira-3-a)"}],["path",{"fill":"currentColor","d":"M575 0H286a130.4 130.4 0 0 0 130.4 130.4h53.3v51.4c0 72 58.3 130.3 130.3 130.4V25a25 25 0 0 0-25-25"}],["path",{"fill":"currentColor","d":"M432 144H143c0 72 58.4 130.3 130.4 130.3h53.2V326c0.1 72 58.5 130.2 130.4 130.2v-287a25 25 0 0 0-25-25.1"}],["path",{"fill":"currentColor","d":"M289 287.8H0c0 72 58.4 130.5 130.4 130.5h53.4v51.4c0 71.9 58.3 130.2 130.2 130.3V313a25 25 0 0 0-25-25.2"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevJira;

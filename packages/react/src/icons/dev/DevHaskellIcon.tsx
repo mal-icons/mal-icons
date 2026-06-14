@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevHaskellIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M0 511.6 141.2 300 0 88.4h105.9L247 300 105.9 511.6z"}],["path",{"fill":"currentColor","d":"M141.2 511.6 282.4 300 141.2 88.4H247l282.3 423.2H423.5l-88.2-132.2-88.2 132.2z"}],["path",{"fill":"currentColor","d":"m482.4 388.2-47.1-70.6H600v70.6zm-70.6-105.8-47.1-70.6H600v70.6z"}]]);
+
+export default DevHaskellIcon;

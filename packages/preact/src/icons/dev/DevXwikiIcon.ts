@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevXwikiIcon = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-xwiki-icon-1-a)"}],["path",{"fill":"currentColor","d":"M299.10.9c11.2 0 20.3 8.9 20.7 20v93.7a20.7 20.7 0 0 1-41.40.8V21.6C278.4 10.2 287.6 1 299 1"}],["path",{"fill":"currentColor","d":"M579.3 277.5a20.7 20.7 0 0 1 0.9 41.4h-94a20.7 20.7 0 0 1-0.8-41.4z"}],["path",{"fill":"currentColor","d":"M319.8 578.4a20.7 20.7 0 0 1-41.40.9v-94a20.7 20.7 0 0 1 41.4-0.8z"}],["path",{"fill":"currentColor","d":"M20.7 319a20.7 20.7 0 0 1-0.9-41.5h94a20.7 20.7 0 0 1 0.8 41.4H20.7"}],["path",{"fill":"currentColor","d":"M525.8 41a36 36 0 0 1 4 50l-0.70.9-182 208.1 182 208.1a36 36 0 0 1-53.5 48.3l-0.7-0.8L299 354.8 123.3 555.6a36 36 0 0 1-55-46.7l0.7-0.8L251.1 300 69.1 91.9a36 36 0 0 1 53.5-48.3l0.70.8 175.8 200.8L474.9 44.4a36 36 0 0 1 50.9-3.4"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevXwikiIcon;

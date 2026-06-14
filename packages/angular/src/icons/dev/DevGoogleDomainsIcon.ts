@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-google-domains-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevGoogleDomainsIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-google-domains-icon-1-a)"}],["path",{"fill":"currentColor","d":"M579.3 20.3a20.6 20.6 0 0 1 19 28.8L389.1 549.5c-8 18.3-26 30.2-46 30.2h-143c-14.8 0-25.2-14.7-19.3-28.3l16.4-39.3 35.7-208.6 103.8-126.2 53-126.8c7.8-18.3 22.6-30.2 42.6-30.2z"}],["path",{"fill":"currentColor","d":"M337.5 175.5a199 199 0 0 0-141-56.2A198.4 198.4 0 0 0 0 319.6a198.4 198.4 0 0 0 195.8 195.8c0.5-1.3 96-151.4 96-151.4z"}],["path",{"fill":"currentColor","d":"m337.5 175.5-141.7 340h5.1a198.4 198.4 0 0 0 196.6-200.3 197 197 0 0 0-60-139.7"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevGoogleDomainsIcon;

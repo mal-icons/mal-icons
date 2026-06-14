@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-dailydev-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevDailydevIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M515.2 300 449 233.8l33.1-66.4 107.6 107.9a35 35 0 0 1 0 49.7L457.3 457.7a35 35 0 1 1-49.7-49.8z"}],["path",{"fill":"currentColor","d":"M407.6 142.3a35 35 0 0 1 49.7 0l24.8 25-289.7 290.2a35 35 0 0 1-49.7 0L118 432.7zm-124.1 91.3-49.7 49.7-66.2-66.3-82.8 83 66.2 66.3-33.1 66.4L10.3 324.8a35 35 0 0 1 0-49.7l132.4-132.8a35 35 0 0 1 49.7 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevDailydevIcon;

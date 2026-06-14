@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-google-cloud",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevGoogleCloud {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-google-cloud-1-a)"}],["path",{"fill":"currentColor","d":"m399 192 52.2-52.2 3.5-22c-95-86.3-246.2-76.5-331.8 20.5a241 241 0 0 0-51 95.3l18.8-2.6L195 213.8l8-8.3a130.7 130.7 0 0 1 178.5-14.4z"}],["path",{"fill":"currentColor","d":"M525.5 232a235 235 0 0 0-70.8-114l-73.2 73a130 130 0 0 1 47.7 103.2v13c36 0 65.2 29.2 65.2 65.1 0 36-29.2 64.5-65.2 64.5H298.7l-12.7 14v78.1l12.8 12.3h130.5A168.8 168.8 0 0 0 525.5 232"}],["path",{"fill":"currentColor","d":"M168.4 541.2h130.3V436.9H168.4a64 64 0 0 1-26.7-5.9l-18.5 5.7-52.5 52.1-4.6 17.8a169 169 0 0 0 102.3 34.6"}],["path",{"fill":"currentColor","d":"M168.4 202.8A169.5 169.5 0 0 0 66.1 506.6l75.6-75.6a65.1 65.1 0 1 1 86.2-86.2l75.6-75.6a169 169 0 0 0-135-66.4"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevGoogleCloud;

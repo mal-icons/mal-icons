@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevImportio = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-importio-1-a)"}],["path",{"fill":"currentColor","d":"M378 110.2V417H222V110a251.1 251.1 0 1 0 156 0"}],["path",{"fill":"currentColor","d":"M300 156.1A78 78 0 1 0 300 0a78 78 0 0 0 0 156.1"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevImportio;

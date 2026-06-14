@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevOpenframeworks = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M158.2 141.8a158.3 158.3 0 0 1 0 316.4 158.3 158.3 0 0 1 0-316.4m300 0v316.4H321.8V141.8zm87.3 141.8v81.9h-81.9v-81.9zM600 141.8 463.6 278.2V141.8z"}]]);
+
+export default DevOpenframeworks;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-authy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevAuthy {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-authy-1-a)"}],["path",{"fill":"currentColor","d":"M600 300a300 300 0 1 1-600 0 300 300 0 0 1 600 0"}],["path",{"fill":"currentColor","d":"m274.3 236.5 72 71.9a26.6 26.6 0 0 0 37.6-37.7l-72-71.9a134.5 134.5 0 0 0-188.6-1.3l-0.70.6-0.70.7-1.2 1.4a134.5 134.5 0 0 0 2.6 187.3l72 71.9a26.6 26.6 0 0 0 37.6-37.7l-72-71.9a81 81 0 0 1-0.6-114 81 81 0 0 1 114 0.7"}],["path",{"fill":"currentColor","d":"M367.1 140.7a26.6 26.6 0 0 0 0 37.6l72 72a81 81 0 0 1 0.6 114 81 81 0 0 1-114-0.7l-72-72a26.6 26.6 0 1 0-37.6 37.7l72 72a134.5 134.5 0 0 0 187.2 2.5l1.4-1.20.7-0.70.6-0.7 1.3-1.4a134.5 134.5 0 0 0-2.6-187.2l-72-72a26.6 26.6 0 0 0-37.6 0"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevAuthy;

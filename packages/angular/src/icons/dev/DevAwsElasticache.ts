@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-aws-elasticache",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevAwsElasticache {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-aws-elasticache-2-a)"}],["path",{"fill":"currentColor","d":"M600 0H0v600h600z"}],["path",{"fill":"currentColor","d":"M382.5 461.7v-44c-19 12.4-53.2 18.1-85.8 18.1-35.6 0-63.3-6.2-79.2-16.8v42.7c0 12.7 29.6 25.8 79.2 25.8 50.6 0 85.8-13.6 85.8-25.8m-85.8-92.5c-35.6 0-63.3-6.2-79.2-16.9v42.8c0.2 12.7 29.8 25.7 79.2 25.7 50.4 0 85.6-13.5 85.8-25.7v-44c-19 12.3-53.2 18-85.8 18m85.8-40.8v-50.7c-19 12.3-53.2 18.1-85.8 18.1-35.6 0-63.3-6.2-79.2-16.8v49.5c0.2 12.6 29.8 25.7 79.2 25.7 50.4 0 85.6-13.6 85.8-25.8m-165-73.5v0.2c0.2 12.7 29.8 25.7 79.2 25.7 55 0 85.6-15.2 85.8-25.7v-0.2c0-10.5-30.5-25.8-85.8-25.8-49.6 0-79.2 13.1-79.2 25.8m180 0.2v206.6c0 28-52.3 40.8-100.8 40.8-57.2 0-94.2-16-94.2-40.8V254.9c0-24.8 37-40.8 94.2-40.8 48.5 0 100.8 12.8 100.8 40.8zm105-96.7c4.1 0 7.5-3.4 7.5-7.5v-38.4c0-4.1-3.4-7.5-7.5-7.5h-405a7.5 7.5 0 0 0-7.5 7.5v38.4c0 4.1 3.4 7.5 7.5 7.5a16.5 16.5 0 1 1 0 33A7.5 7.5 0 0 0 90 199v153.6c0 4.2 3.4 7.5 7.5 7.5h75v-15H135v-22.5h37.5v-15h-45a7.5 7.5 0 0 0-7.5 7.5v30h-15V205.5a31.6 31.6 0 0 0 0-61.2V120h390v24.3a31.6 31.6 0 0 0 0 61.2V345h-15v-30c0-4.1-3.4-7.5-7.5-7.5h-45v15H465V345h-37.5v15h75c4.1 0 7.5-3.3 7.5-7.5V199c0-4.1-3.4-7.5-7.5-7.5a16.5 16.5 0 1 1 0-33M210 210v-60c0-4.1-3.4-7.5-7.5-7.5h-45a7.5 7.5 0 0 0-7.5 7.5v127.5c0 4.2 3.4 7.5 7.5 7.5H180v-15h-15V157.5h30V210zm225 60h-7.5v15h15c4.1 0 7.5-3.3 7.5-7.5V150c0-4.1-3.4-7.5-7.5-7.5h-45a7.5 7.5 0 0 0-7.5 7.5v60h15v-52.5h30zm-60-67.5V150c0-4.1-3.4-7.5-7.5-7.5H315a7.5 7.5 0 0 0-7.5 7.5v45h15v-37.5H360v45zm-97.5-7.5v-37.5H240v45h-15V150c0-4.1 3.4-7.5 7.5-7.5H285c4.1 0 7.5 3.4 7.5 7.5v45z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevAwsElasticache;

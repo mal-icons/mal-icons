@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-remix-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevRemixIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M327.6 0c154.4 0 231 73.5 231 190.8 0 87.8-53.9 145-126.8 154.6 61.5 12.4 97.5 47.7 104.2 117.3l1 12.80.8 12 0.7 11.20.5 8.40.5 10 0.3 5.70.4 9 0.3 8.60.2 4.90.2 7.80.2 9v4.3l0.2 12.6v21H382.1v-3.3l0.1-6.30.1-6.20.3-15v-5l0.1-8V546l-0.1-4.1-0.1-5.8-0.2-6.2-0.3-6.6-0.3-7-0.2-3.6-0.3-5.7-0.4-6-0.6-8.5-0.5-6.8-0.5-6.1-0.4-4c-5.2-46-23.5-64.9-54.9-71.2l-2.6-0.5-5.5-0.8-2.8-0.3-1.4-0.2-3-0.2-3-0.2-3-0.2-3-0.1-3.2-0.1H41.3v-125h258q6.2 0 12.2-0.3l3.9-0.2 3.8-0.2 3.8-0.3 1.8-0.2 3.6-0.4 7-1 3.3-0.5c41.9-7.6 62.8-29.8 62.8-73.2 0-48.6-34-78.1-102.3-78.1H41.3V0zm-118 506.8c20.9 0 29.6 11.6 32.7 22.7l0.5 1.60.3 1.60.2 1.30.10.60.2 1.2v1.2l0.10.6v1.1l0.10.6V600H41.3v-93.2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevRemixIcon;

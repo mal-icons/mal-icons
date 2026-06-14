@@ -45,6 +45,16 @@
       "bun": "./src/icons/ci/*.svelte",
       "import": "./src/icons/ci/*.svelte"
     },
+    "./dev": {
+      "svelte": "./src/icons/dev/index.ts",
+      "bun": "./src/icons/dev/index.ts",
+      "import": "./src/icons/dev/index.ts"
+    },
+    "./dev/*": {
+      "svelte": "./src/icons/dev/*.svelte",
+      "bun": "./src/icons/dev/*.svelte",
+      "import": "./src/icons/dev/*.svelte"
+    },
     "./fa": {
       "svelte": "./src/icons/fa/index.ts",
       "bun": "./src/icons/fa/index.ts",
