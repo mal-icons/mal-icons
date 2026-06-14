@@ -45,6 +45,16 @@
       "bun": "./src/icons/ci/*.ts",
       "import": "./dist/icons/ci/*.js"
     },
+    "./fa": {
+      "types": "./dist/icons/fa/index.d.ts",
+      "bun": "./src/icons/fa/index.ts",
+      "import": "./dist/icons/fa/index.js"
+    },
+    "./fa/*": {
+      "types": "./dist/icons/fa/*.d.ts",
+      "bun": "./src/icons/fa/*.ts",
+      "import": "./dist/icons/fa/*.js"
+    },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
       "bun": "./src/icons/fi/index.ts",
