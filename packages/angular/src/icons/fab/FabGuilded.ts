@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fab-guilded",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FabGuilded {
+  readonly viewBox = "0 0 448 512";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M443.43,64H4.57c0,103.26,22.19,180.06,43.42,222.36C112.05,414.14,224,448,225.26,448a312.82,312.82,0,0,0,140.55-103.48c25.91-33.92,53.1-87.19,65.92-145.76H171.83c4.14,36.43,22.18,67.95,45.1,86.94h88.59c-17.01,28.21-48.19,54.4-80.46,69.48-31.23-13.26-69.09-46.54-96.55-98.36-26.73-53.83-27.09-105.88-27.09-105.88H437.57A625.91,625.91,0,0,0,443.43,64Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FabGuilded;

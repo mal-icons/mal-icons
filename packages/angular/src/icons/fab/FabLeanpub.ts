@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fab-leanpub",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FabLeanpub {
+  readonly viewBox = "0 0 576 512";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M386.54 111.49l15.1 248.96-10.98-0.28c-36.23-0.82-71.64 8.78-102.66 28-31.02-19.21-66.42-28-102.66-28-45.56 0-82.07 10.71-123.52 27.72L93.12 129.6c28.55-11.8 61.48-18.11 92.23-18.11 41.17 0 73.84 13.18 102.66 42.54 27.72-28.27 59.01-41.72 98.54-42.54zM569.07 448c-25.53 0-47.48-5.21-70.54-15.64-34.31-15.64-69.99-24.98-107.87-24.98-38.98 0-74.93 12.9-102.66 40.62-27.72-27.72-63.68-40.62-102.66-40.62-37.88 0-73.56 9.33-107.87 24.98C55.24 442.24 32.73 448 8.3 448H6.93L49.48 98.86C88.73 76.63 136.49 64 181.78 64 218.83 64 256.98 71.69 288 93.1 319.02 71.69 357.17 64 394.23 64c45.29 0 93.05 12.63 132.3 34.86L569.07 448zm-43.37-44.74l-34.04-280.25c-30.74-14-67.25-21.41-101.01-21.41-38.43 0-74.39 12.08-102.66 38.7-28.27-26.62-64.23-38.7-102.66-38.7-33.76 0-70.27 7.41-101.01 21.41L50.3 403.26c47.21-19.49 82.89-33.49 135.04-33.49 37.6 0 70.82 9.61 102.66 29.64 31.84-20.04 65.05-29.64 102.66-29.64 52.15 0 87.83 14 135.04 33.49z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FabLeanpub;

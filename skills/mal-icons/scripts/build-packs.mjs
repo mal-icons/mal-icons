@@ -77,6 +77,30 @@ const SET_META = {
     blurb:
       "Large solid 512×512 set (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
   },
+  fab: {
+    id: "fab",
+    name: "Font Awesome Free Brands",
+    prefix: "Fab",
+    version: "6.7.2",
+    license: "CC-BY-4.0",
+    repo: "FortAwesome/Font-Awesome",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "Brand and logo marks (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
+  },
+  far: {
+    id: "far",
+    name: "Font Awesome Free Regular",
+    prefix: "Far",
+    version: "6.7.2",
+    license: "CC-BY-4.0",
+    repo: "FortAwesome/Font-Awesome",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "Regular (outline-style) 512×512 icons (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
+  },
 };
 
 /**

@@ -29,6 +29,8 @@
     "./IconBase.astro": "./src/IconBase.astro",
     "./ci/*": "./src/icons/ci/*.astro",
     "./fa/*": "./src/icons/fa/*.astro",
+    "./fab/*": "./src/icons/fab/*.astro",
+    "./far/*": "./src/icons/far/*.astro",
     "./fi/*": "./src/icons/fi/*.astro",
     "./io/*": "./src/icons/io/*.astro",
     "./package.json": "./package.json"

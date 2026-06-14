@@ -49,6 +49,22 @@
       "bun": "./src/icons/fa/*.ts",
       "import": "./src/icons/fa/*.ts"
     },
+    "./fab": {
+      "bun": "./src/icons/fab/index.ts",
+      "import": "./src/icons/fab/index.ts"
+    },
+    "./fab/*": {
+      "bun": "./src/icons/fab/*.ts",
+      "import": "./src/icons/fab/*.ts"
+    },
+    "./far": {
+      "bun": "./src/icons/far/index.ts",
+      "import": "./src/icons/far/index.ts"
+    },
+    "./far/*": {
+      "bun": "./src/icons/far/*.ts",
+      "import": "./src/icons/far/*.ts"
+    },
     "./fi": {
       "bun": "./src/icons/fi/index.ts",
       "import": "./src/icons/fi/index.ts"

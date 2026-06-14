@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fab-unity",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FabUnity {
+  readonly viewBox = "0 0 448 512";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M243.58 91.6L323.7 138.38C326.58 140.03 326.68 144.58 323.7 146.23L228.5 201.85C225.62 203.55 222.22 203.44 219.55 201.85L124.36 146.23C121.43 144.64 121.37 139.97 124.36 138.38L204.42 91.6V0L0 119.42V358.25L78.38 312.48V218.91C78.33 215.58 82.21 213.19 85.09 214.99L180.28 270.62C183.16 272.32 184.78 275.34 184.78 278.46V389.67C184.83 393.01 180.96 395.39 178.08 393.59L97.97 346.81L19.58 392.58L224 512L428.42 392.58L350.03 346.81L269.92 393.59C267.09 395.34 263.11 393.06 263.22 389.67V278.46C263.22 275.13 265.05 272.16 267.72 270.62L362.91 214.99C365.74 213.25 369.72 215.47 369.62 218.91V312.48L448 358.25V119.42L243.58 0V91.6Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FabUnity;

@@ -55,6 +55,26 @@
       "bun": "./src/icons/fa/*.svelte",
       "import": "./src/icons/fa/*.svelte"
     },
+    "./fab": {
+      "svelte": "./src/icons/fab/index.ts",
+      "bun": "./src/icons/fab/index.ts",
+      "import": "./src/icons/fab/index.ts"
+    },
+    "./fab/*": {
+      "svelte": "./src/icons/fab/*.svelte",
+      "bun": "./src/icons/fab/*.svelte",
+      "import": "./src/icons/fab/*.svelte"
+    },
+    "./far": {
+      "svelte": "./src/icons/far/index.ts",
+      "bun": "./src/icons/far/index.ts",
+      "import": "./src/icons/far/index.ts"
+    },
+    "./far/*": {
+      "svelte": "./src/icons/far/*.svelte",
+      "bun": "./src/icons/far/*.svelte",
+      "import": "./src/icons/far/*.svelte"
+    },
     "./fi": {
       "svelte": "./src/icons/fi/index.ts",
       "bun": "./src/icons/fi/index.ts",
