@@ -45,6 +45,16 @@
       "bun": "./src/icons/ci/*.svelte",
       "import": "./src/icons/ci/*.svelte"
     },
+    "./fa": {
+      "svelte": "./src/icons/fa/index.ts",
+      "bun": "./src/icons/fa/index.ts",
+      "import": "./src/icons/fa/index.ts"
+    },
+    "./fa/*": {
+      "svelte": "./src/icons/fa/*.svelte",
+      "bun": "./src/icons/fa/*.svelte",
+      "import": "./src/icons/fa/*.svelte"
+    },
     "./fi": {
       "svelte": "./src/icons/fi/index.ts",
       "bun": "./src/icons/fi/index.ts",

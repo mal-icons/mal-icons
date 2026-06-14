@@ -46,6 +46,17 @@
       "bun": "./src/icons/ci/*.tsx",
       "import": "./dist/icons/ci/*.js"
     },
+    "./fa": {
+      "types": "./dist/icons/fa/index.d.ts",
+      "bun": "./src/icons/fa/index.ts",
+      "import": "./dist/icons/fa/index.js",
+      "require": "./dist/icons/fa/index.cjs"
+    },
+    "./fa/*": {
+      "types": "./dist/icons/fa/*.d.ts",
+      "bun": "./src/icons/fa/*.tsx",
+      "import": "./dist/icons/fa/*.js"
+    },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
       "bun": "./src/icons/fi/index.ts",
@@ -86,6 +97,7 @@
       "require": "./dist/server.cjs"
     },
     "./sprite/ci.svg": "./dist/icons/ci/sprite.svg",
+    "./sprite/fa.svg": "./dist/icons/fa/sprite.svg",
     "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
     "./sprite/io.svg": "./dist/icons/io/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",

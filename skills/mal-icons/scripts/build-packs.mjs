@@ -25,14 +25,7 @@ import { fileURLToPath } from "node:url";
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SKILL_ROOT = join(HERE, "..");
 const REPO_ROOT = join(SKILL_ROOT, "..", "..");
-const INDEX_PATH = join(
-  REPO_ROOT,
-  "packages",
-  "react",
-  "src",
-  "icons",
-  "search-index.json",
-);
+const INDEX_PATH = join(REPO_ROOT, "packages", "react", "src", "icons", "search-index.json");
 const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
@@ -58,8 +51,7 @@ const SET_META = {
     repo: "Klarr-Agency/Circum-Icons",
     style: "fill",
     viewBox: "0 0 24 24",
-    blurb:
-      "Lightweight, friendly fill icons. Paths paint with `currentColor`; theme via `color`.",
+    blurb: "Lightweight, friendly fill icons. Paths paint with `currentColor`; theme via `color`.",
   },
   io: {
     id: "io",
@@ -282,10 +274,7 @@ function main() {
       count: icons.length,
       icons,
     };
-    writeFileSync(
-      join(OUT_DIR, `${setId}.json`),
-      `${JSON.stringify(pack, null, 2)}\n`,
-    );
+    writeFileSync(join(OUT_DIR, `${setId}.json`), `${JSON.stringify(pack, null, 2)}\n`);
 
     // --- Markdown table ---
     const lines = [];
@@ -314,9 +303,7 @@ function main() {
     lines.push("");
     writeFileSync(join(OUT_DIR, `${setId}.md`), lines.join("\n"));
 
-    console.log(
-      `✓ ${setId}: ${icons.length} icons → ${setId}.json + ${setId}.md`,
-    );
+    console.log(`✓ ${setId}: ${icons.length} icons → ${setId}.json + ${setId}.md`);
   }
 }
 

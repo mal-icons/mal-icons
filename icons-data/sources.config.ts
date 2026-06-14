@@ -60,4 +60,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "src/svg",
     style: "fill",
   },
+  fa: {
+    id: "fa",
+    prefix: "Fa",
+    name: "Font Awesome Free",
+    license: "CC-BY-4.0",
+    repo: "FortAwesome/Font-Awesome",
+    ref: "6.7.2",
+    iconDir: "svgs/solid",
+    style: "fill",
+  },
 };
