@@ -109,6 +109,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
@@ -123,7 +124,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ------------------------------ | --------------------------------- |
 | `@mal-icons/vue`               | Adapter and theming helpers       |
 | `@mal-icons/vue/ci`            | All Circum icons (named exports)  |
+| `@mal-icons/vue/dev`            | All Devicons icons (named exports)  |
 | `@mal-icons/vue/ci/CiHeart`    | A single Circum icon module       |
+| `@mal-icons/vue/dev/DevDreamhost`    | A single Devicons icon module       |
 | `@mal-icons/vue/fa`            | All Font Awesome icons (named exports) |
 | `@mal-icons/vue/fab`            | All Font Awesome Brands icons (named exports) |
 | `@mal-icons/vue/far`            | All Font Awesome Regular icons (named exports) |
