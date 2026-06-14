@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TiThMenu = createIcon("0 0 24 24", [["path",{"d":"M19 17h-14c-1.1 0-2 0.9-2 2s0.9 2 2 2h14c1.1 0 2-0.9 2-2s-0.9-2-2-2zM19 10h-14c-1.1 0-2 0.9-2 2s0.9 2 2 2h14c1.1 0 2-0.9 2-2s-0.9-2-2-2zM19 3h-14c-1.1 0-2 0.9-2 2s0.9 2 2 2h14c1.1 0 2-0.9 2-2s-0.9-2-2-2z"}]]);
+
+export default TiThMenu;

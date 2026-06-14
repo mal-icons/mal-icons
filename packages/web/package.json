@@ -72,6 +72,12 @@
       "import": "./dist/icons/io/index.js"
     },
     "./io/*.json": "./src/icons/io/*.json",
+    "./ti": {
+      "types": "./dist/icons/ti/index.d.ts",
+      "bun": "./src/icons/ti/index.ts",
+      "import": "./dist/icons/ti/index.js"
+    },
+    "./ti/*.json": "./src/icons/ti/*.json",
     "./package.json": "./package.json"
   },
   "dependencies": {

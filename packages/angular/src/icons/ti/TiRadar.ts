@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-radar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiRadar {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 20c3.86 0 7-3.14 7-7s-3.14-7-7-7c-3.86 0-7 3.14-7 7s3.14 7 7 7zm-1-11.9v1.9c0 0.550.45 1 1 1s1-0.45 1-1v-1.9c1.960.4 3.5 1.94 3.9 3.9h-1.9c-0.55 0-1 0.45-1 1s0.45 1 1 1h1.9c-0.4 1.96-1.94 3.5-3.9 3.9v-1.9c0-0.55-0.45-1-1-1s-1 0.45-1 1v1.9c-1.96-0.4-3.5-1.94-3.9-3.9h1.9c0.55 0 1-0.45 1-1s-0.45-1-1-1h-1.9c0.4-1.96 1.94-3.5 3.9-3.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiRadar;

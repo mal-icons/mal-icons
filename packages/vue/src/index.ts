@@ -12,6 +12,7 @@ export * from "./icons/fab/index.ts";
 export * from "./icons/far/index.ts";
 export * from "./icons/fi/index.ts";
 export * from "./icons/io/index.ts";
+export * from "./icons/ti/index.ts";
 
 /**
  * Provide icon theming to all descendant mal-icons components. Call inside a

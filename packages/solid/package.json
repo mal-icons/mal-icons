@@ -97,6 +97,16 @@
       "bun": "./src/icons/io/*.ts",
       "import": "./src/icons/io/*.ts"
     },
+    "./ti": {
+      "solid": "./src/icons/ti/index.ts",
+      "bun": "./src/icons/ti/index.ts",
+      "import": "./src/icons/ti/index.ts"
+    },
+    "./ti/*": {
+      "solid": "./src/icons/ti/*.ts",
+      "bun": "./src/icons/ti/*.ts",
+      "import": "./src/icons/ti/*.ts"
+    },
     "./package.json": "./package.json"
   },
   "peerDependencies": {

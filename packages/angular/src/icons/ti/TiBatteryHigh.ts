@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-battery-high",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiBatteryHigh {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 16c-0.55 0-1-0.45-1-1v-4c0-0.550.45-1 1-1s1 0.45 1 1v4c0 0.55-0.45 1-1 1zM6 16c-0.55 0-1-0.45-1-1v-4c0-0.550.45-1 1-1s1 0.45 1 1v4c0 0.55-0.45 1-1 1zM12 16c-0.55 0-1-0.45-1-1v-4c0-0.550.45-1 1-1s1 0.45 1 1v4c0 0.55-0.45 1-1 1zM19 10c0-1.65-1.35-3-3-3h-11c-1.65 0-3 1.35-3 3v6c0 1.65 1.35 3 3 3h11c1.65 0 3-1.35 3-3 1.1 0 2-0.9 2-2v-2c0-1.1-0.9-2-2-2zm-2 6c0 0.55-0.45 1-1 1h-11c-0.55 0-1-0.45-1-1v-6c0-0.550.45-1 1-1h11c0.55 0 1 0.45 1 1v6z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiBatteryHigh;

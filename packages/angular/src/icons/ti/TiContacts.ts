@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-contacts",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiContacts {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 3h-11c-1.65 0-3 1.35-3 3v1h-1c-0.55 0-1 0.45-1 1s0.45 1 1 1h1v2h-1c-0.55 0-1 0.45-1 1s0.45 1 1 1h1v2h-1c-0.55 0-1 0.45-1 1s0.45 1 1 1h1v1c0 1.65 1.35 3 3 3h11c1.65 0 3-1.35 3-3v-12c0-1.65-1.35-3-3-3zm-12 3c0-0.550.45-1 1-1v2h-1v-1zm0 3h1v2h-1v-2zm0 4h1v2h-1v-2zm0 5v-1h1v2c-0.55 0-1-0.45-1-1zm13 0c0 0.55-0.45 1-1 1h-10v-14h10c0.55 0 1 0.45 1 1v12z"}],["circle",{"cx":"14","cy":"10.5","r":"2"}],["path",{"d":"M14 13.36c-1.56 0-2.50.72-2.5 1.43 0 0.360.940.72 2.50.72 1.47 0 2.5-0.36 2.5-0.71 0-0.71-0.98-1.43-2.5-1.43z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiContacts;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-social-twitter-circular",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiSocialTwitterCircular {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.28 10.28c0.36-0.220.6-0.520.71-0.9-0.350.19-0.70.31-1.040.38-0.31-0.34-0.71-0.51-1.18-0.51-0.46 0-0.850.16-1.170.48-0.320.32-0.480.71-0.48 1.16 0 0.140.020.260.050.36-1.37-0.05-2.5-0.61-3.39-1.71-0.150.27-0.230.54-0.230.82 0 0.580.24 1.040.73 1.37-0.28-0.02-0.52-0.09-0.73-0.21 0 0.410.120.760.37 1.060.240.30.560.490.940.57-0.140.04-0.280.05-0.430.05-0.14 0-0.24-0.01-0.3-0.040.10.340.30.610.570.820.280.210.60.320.960.33-0.590.47-1.270.69-2.030.69-0.19 0-0.320-0.4-0.020.750.49 1.590.73 2.520.730.95 0 1.79-0.24 2.52-0.720.73-0.48 1.27-1.07 1.62-1.770.35-0.690.52-1.420.52-2.17v-0.21c0.34-0.250.61-0.540.82-0.85-0.30.13-0.610.22-0.930.27zM12 21c-2.49 0-4.63-0.89-6.38-2.65-1.74-1.75-2.62-3.89-2.62-6.35 0-2.490.88-4.63 2.63-6.37 1.74-1.74 3.88-2.62 6.37-2.62 2.47 0 4.60.88 6.35 2.62 1.76 1.74 2.65 3.89 2.65 6.38 0 2.47-0.89 4.6-2.64 6.36-1.75 1.75-3.89 2.64-6.36 2.64zm0-16c-1.97 0-3.590.67-4.96 2.04-1.37 1.37-2.04 2.99-2.04 4.96 0 1.940.67 3.56 2.04 4.95 1.37 1.38 2.99 2.06 4.96 2.06 1.94 0 3.56-0.67 4.94-2.06 1.39-1.38 2.06-3 2.06-4.94 0-1.96-0.67-3.58-2.06-4.96-1.38-1.37-3-2.04-4.94-2.04z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiSocialTwitterCircular;

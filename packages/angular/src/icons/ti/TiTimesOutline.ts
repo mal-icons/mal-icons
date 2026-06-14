@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-times-outline",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiTimesOutline {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16 19c-0.8 0-1.55-0.31-2.12-0.88l-1.88-1.88-1.88 1.88c-1.13 1.13-3.11 1.13-4.24 0-0.57-0.57-0.88-1.32-0.88-2.12s0.31-1.550.88-2.12l1.88-1.88-1.88-1.88c-0.57-0.57-0.88-1.32-0.88-2.12s0.31-1.550.88-2.12c1.13-1.13 3.11-1.13 4.240l1.88 1.88 1.88-1.88c1.13-1.13 3.11-1.13 4.24 0 0.570.570.88 1.320.88 2.12s-0.31 1.56-0.88 2.12l-1.88 1.88 1.88 1.88c0.570.570.88 1.320.88 2.12s-0.31 1.56-0.88 2.12c-0.570.57-1.320.88-2.120.88zm-4-5.59l3.29 3.29c0.380.38 1.040.38 1.41 0 0.19-0.190.29-0.440.29-0.71s-0.1-0.52-0.29-0.71l-3.29-3.29 3.29-3.29c0.19-0.190.29-0.440.29-0.71s-0.1-0.52-0.29-0.71c-0.38-0.38-1.04-0.38-1.410l-3.29 3.29-3.29-3.29c-0.38-0.38-1.04-0.38-1.41 0-0.190.19-0.290.44-0.290.71s0.10.520.290.71l3.29 3.29-3.29 3.29c-0.190.19-0.290.44-0.290.71s0.10.520.290.71c0.380.38 1.040.38 1.410l3.29-3.29z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiTimesOutline;

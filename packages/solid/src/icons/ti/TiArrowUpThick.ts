@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TiArrowUpThick = createIcon("0 0 24 24", [["path",{"d":"M12 3.17l-6.41 6.41c-0.780.78-0.78 2.05 0 2.83s2.050.78 2.83 0l1.59-1.59v7.24c0 1.10.9 2 2 2 1.1 0 2-0.9 2-2v-7.24l1.59 1.59c0.390.390.90.59 1.410.59s1.02-0.19 1.41-0.59c0.78-0.780.78-2.05 0-2.83l-6.41-6.41z"}]]);
+
+export default TiArrowUpThick;
