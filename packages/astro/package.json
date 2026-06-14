@@ -36,6 +36,7 @@
     "./io/*": "./src/icons/io/*.astro",
     "./oc/*": "./src/icons/oc/*.astro",
     "./ti/*": "./src/icons/ti/*.astro",
+    "./wi/*": "./src/icons/wi/*.astro",
     "./package.json": "./package.json"
   },
   "peerDependencies": {

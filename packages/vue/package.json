@@ -126,6 +126,16 @@
       "bun": "./src/icons/ti/*.ts",
       "import": "./dist/icons/ti/*.js"
     },
+    "./wi": {
+      "types": "./dist/icons/wi/index.d.ts",
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./dist/icons/wi/index.js"
+    },
+    "./wi/*": {
+      "types": "./dist/icons/wi/*.d.ts",
+      "bun": "./src/icons/wi/*.ts",
+      "import": "./dist/icons/wi/*.js"
+    },
     "./package.json": "./package.json"
   },
   "peerDependencies": {
