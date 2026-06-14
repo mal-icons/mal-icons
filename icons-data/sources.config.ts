@@ -127,6 +127,16 @@ export const sources: Record<string, IconSource> = {
     iconDir: "packages/core/export-files/icons",
     style: "fill",
   },
+  ad: {
+    id: "ad",
+    prefix: "Ad",
+    name: "Ant Design Icons",
+    license: "MIT",
+    repo: "ant-design/ant-design-icons",
+    ref: "refs/tags/@ant-design/icons-svg@4.0.0",
+    iconDir: "packages/icons-svg/svg/outlined",
+    style: "fill",
+  },
   wi: {
     id: "wi",
     prefix: "Wi",
