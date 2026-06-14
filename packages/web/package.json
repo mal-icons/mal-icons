@@ -36,6 +36,12 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
+    "./ad": {
+      "types": "./dist/icons/ad/index.d.ts",
+      "bun": "./src/icons/ad/index.ts",
+      "import": "./dist/icons/ad/index.js"
+    },
+    "./ad/*.json": "./src/icons/ad/*.json",
     "./ci": {
       "types": "./dist/icons/ci/index.d.ts",
       "bun": "./src/icons/ci/index.ts",

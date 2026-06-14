@@ -104,6 +104,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
@@ -120,8 +121,10 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | Import                             | Contents                       |
 | ---------------------------------- | ------------------------------ |
 | `@mal-icons/angular`               | Base component and context     |
+| `@mal-icons/angular/ad`            | All Ant Design icon components |
 | `@mal-icons/angular/ci`            | All Circum icon components     |
 | `@mal-icons/angular/dev`            | All Devicons icon components     |
+| `@mal-icons/angular/ad/AdHome`    | A single Ant Design icon component |
 | `@mal-icons/angular/ci/CiHeart`    | A single Circum icon component |
 | `@mal-icons/angular/dev/DevDreamhost`    | A single Devicons icon component |
 | `@mal-icons/angular/fa`            | All Font Awesome icon components    |

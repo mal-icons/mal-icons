@@ -1,6 +1,12 @@
 {
   "sets": [
     {
+      "id": "ad",
+      "name": "Ant Design Icons",
+      "license": "MIT",
+      "count": 420
+    },
+    {
       "id": "ci",
       "name": "Circum",
       "license": "MPL-2.0",

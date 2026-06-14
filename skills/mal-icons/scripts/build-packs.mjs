@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  ad: {
+    id: "ad",
+    name: "Ant Design Icons",
+    prefix: "Ad",
+    version: "4.0.0",
+    license: "MIT",
+    repo: "ant-design/ant-design-icons",
+    style: "fill",
+    viewBox: "0 0 1024 1024",
+    blurb:
+      "Ant Design's outlined UI icon set (e.g. `AdHome`, `AdSetting`, `AdSearch`). Clean single-color 1024×1024 fill icons. Paths paint with `currentColor`; theme via `color`.",
+  },
   fi: {
     id: "fi",
     name: "Feather",
