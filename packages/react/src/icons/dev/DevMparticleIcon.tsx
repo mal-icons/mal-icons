@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevMparticleIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M600 300v125L400 550V425zm-200 0v125L200 550V425zm-200 0v125L0 550V425zM600 50v125L400 300V175zm-200 0v125L200 300V175zm-200 0v125L0 300V175z"}]]);
+
+export default DevMparticleIcon;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevProducthunt = createIcon("0 0 600 600", [["g",{"fillRule":"evenodd","clipPath":"url(#devicon-producthunt-2-a)","clipRule":"evenodd"}],["path",{"fill":"currentColor","d":"M300 600a300 300 0 1 0 0-600 300 300 0 0 0 0 600"}],["path",{"fill":"currentColor","d":"M225 180v240h45v-75h68.1a83.6 83.6 0 0 0 81.9-82.5 82 82 0 0 0-81.9-82.5zm113.7 120H270v-75h68.7a37 37 0 0 1 36.3 37.5 37 37 0 0 1-36.3 37.5"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevProducthunt;

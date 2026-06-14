@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-globe-outline",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiGlobeOutline {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11 6c2.21 0 4 1.79 4 4s-1.79 4-4 4c-2.2 0-4-1.79-4-4s1.79-4 4-4m0-2c-3.31 0-6 2.69-6 6s2.68 6 6 6c3.31 0 6-2.69 6-6 0-3.31-2.69-6-6-6zM17 20h-4v-1.23c1.64-0.37 3.15-1.19 4.36-2.41 1.7-1.7 2.64-3.96 2.64-6.36 0-2.07-0.69-4.03-1.97-5.62l0.68-0.67c0.39-0.390.39-1.020-1.41-0.39-0.39-1.02-0.39-1.410l-2.05 2.050.710.71c1.32 1.32 2.05 3.08 2.05 4.95s-0.73 3.63-2.05 4.95-3.08 2.05-4.95 2.05-3.63-0.73-4.95-2.05c-0.39-0.39-1.02-0.39-1.41 0-0.390.39-0.39 1.02 0 1.41 1.7 1.7 3.96 2.64 6.36 2.64v1h-4c-0.55 0-1 0.45-1 1s0.45 1 1 1h10c0.55 0 1-0.45 1-1s-0.45-1-1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiGlobeOutline;

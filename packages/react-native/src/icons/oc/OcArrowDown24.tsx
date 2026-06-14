@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcArrowDown24 = createIcon("0 0 24 24", [["path",{"d":"M4.97 13.22a0.750.75 0 0 1 1.06 0L11 18.19V3.75a0.750.75 0 0 1 1.5 0v14.44l4.97-4.97a0.750.75 0 0 1 1.270.330.750.75 0 0 1-0.210.73l-6.25 6.25a0.750.75 0 0 1-1.06 0l-6.25-6.25a0.750.75 0 0 1 0-1.06Z"}]]);
+
+export default OcArrowDown24;

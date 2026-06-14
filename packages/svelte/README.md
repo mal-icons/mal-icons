@@ -92,20 +92,30 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
+| [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
 ## Subpath exports
 
 | Import                                   | Contents                          |
 | ---------------------------------------- | --------------------------------- |
 | `@mal-icons/svelte`                      | Adapter and context helpers       |
+| `@mal-icons/svelte/ad`                   | All Ant Design icons (named exports)  |
 | `@mal-icons/svelte/ci`                   | All Circum icons (named exports)  |
+| `@mal-icons/svelte/dev`                   | All Devicons icons (named exports)  |
+| `@mal-icons/svelte/ad/AdHome.svelte`    | A single Ant Design icon component    |
 | `@mal-icons/svelte/ci/CiHeart.svelte`    | A single Circum icon component    |
+| `@mal-icons/svelte/dev/DevDreamhost.svelte`    | A single Devicons icon component    |
 | `@mal-icons/svelte/fa`                   | All Font Awesome icons (named exports) |
 | `@mal-icons/svelte/fab`                   | All Font Awesome Brands icons (named exports) |
 | `@mal-icons/svelte/far`                   | All Font Awesome Regular icons (named exports) |
@@ -115,7 +125,15 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/svelte/far/FarHeart.svelte` | A single icon component           |
 | `@mal-icons/svelte/fi/FiActivity.svelte` | A single icon component           |
 | `@mal-icons/svelte/io`                   | All Ionicons (named exports)      |
+| `@mal-icons/svelte/lu`                   | All Lucide (named exports)        |
+| `@mal-icons/svelte/oc`                   | All Octicons (named exports)      |
 | `@mal-icons/svelte/io/IoHeart.svelte`    | A single Ionicons icon component  |
+| `@mal-icons/svelte/lu/LuHeart.svelte`    | A single Lucide icon component    |
+| `@mal-icons/svelte/oc/OcHeart16.svelte`    | A single Octicons icon component  |
+| `@mal-icons/svelte/ti`                   | All Typicons (named exports)      |
+| `@mal-icons/svelte/wi`                   | All Weather Icons (named exports) |
+| `@mal-icons/svelte/ti/TiHeart.svelte`    | A single Typicons icon component  |
+| `@mal-icons/svelte/wi/WiDaySunny.svelte` | A single Weather Icons icon component |
 
 ## Example
 

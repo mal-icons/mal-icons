@@ -14,12 +14,18 @@ export { createIcon, type IconDefaultAttr } from "./create-icon.ts";
 export { IconBase, type IconBaseProps } from "./icon-base.ts";
 // Re-export every generated icon set so consumers can also import named icons
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/solid"`).
+export * from "./icons/ad/index.ts";
 export * from "./icons/ci/index.ts";
+export * from "./icons/dev/index.ts";
 export * from "./icons/fa/index.ts";
 export * from "./icons/fab/index.ts";
 export * from "./icons/far/index.ts";
 export * from "./icons/fi/index.ts";
 export * from "./icons/io/index.ts";
+export * from "./icons/lu/index.ts";
+export * from "./icons/oc/index.ts";
+export * from "./icons/ti/index.ts";
+export * from "./icons/wi/index.ts";
 
 // Re-bind core runtime values as local bindings instead of bare re-exports.
 // Bun's splitting bundler emits a pure re-export barrel as a "facade" module

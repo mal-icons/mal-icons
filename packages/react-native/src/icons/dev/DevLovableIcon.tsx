@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevLovableIcon = createIcon("0 0 600 600", [["g",{"transform":"scale(25)"}],["path",{"fill":"currentColor","fillRule":"evenodd","d":"M7 0c4 0 7.2 3.2 7.2 7.1v2.7h2.3a7 7 0 0 1 0 14.2H0V7.1A7 7 0 0 1 7 0","clipRule":"evenodd"}]]);
+
+export default DevLovableIcon;

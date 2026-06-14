@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-arrow-shuffle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiArrowShuffle {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 9h3.5c0.74 0 1.390.39 1.85 10.33-0.60.73-1.16 1.19-1.66-0.8-0.82-1.87-1.34-3.04-1.34h-3.5c-0.55 0-1 0.45-1 1s0.45 1 1 1zM11.69 12.11c0.55-1.66 2.26-3.11 3.65-3.11h1.84l-1.29 1.29c-0.390.39-0.39 1.02 0 1.410.20.20.450.290.710.29s0.51-0.10.71-0.29l3.71-3.71-3.71-3.71c-0.39-0.39-1.02-0.39-1.41 0s-0.39 1.02 0 1.41l1.29 1.29h-1.84c-2.27 0-4.71 1.97-5.55 4.48l-0.47 1.41c-0.64 1.93-2.07 3.11-2.81 3.11h-2.5c-0.55 0-1 0.45-1 1s0.45 1 1 1h2.5c1.84 0 3.86-1.92 4.71-4.48l0.47-1.41zM15.88 13.29c-0.390.39-0.39 1.02 0 1.41l1.29 1.29h-2.34c-1.27 0-2.33-0.89-2.69-2.11-0.260.75-0.63 1.5-1.09 2.190.89 1.16 2.24 1.92 3.78 1.92h2.34l-1.29 1.29c-0.390.39-0.39 1.02 0 1.410.20.20.450.290.710.29s0.51-0.10.71-0.29l3.71-3.71-3.71-3.71c-0.39-0.39-1.02-0.39-1.41 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiArrowShuffle;

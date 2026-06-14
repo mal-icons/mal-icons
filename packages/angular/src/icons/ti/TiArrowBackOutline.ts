@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-arrow-back-outline",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiArrowBackOutline {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.16 19.55c-1.64-2.5-3.67-3.28-6.16-3.48v1.44c0 0.53-0.21 1.04-0.59 1.41-0.760.76-2.080.75-2.820.01l-6.29-6.21c-0.19-0.19-0.3-0.44-0.3-0.71s0.11-0.520.3-0.71l6.29-6.2c0.75-0.75 2.07-0.76 2.8300.380.380.590.880.59 1.41v1.7c4.620.93 8 5 8 9.8v1c0 0.44-0.290.83-0.710.96-0.090.03-0.190.04-0.290.04-0.33 0-0.65-0.16-0.84-0.45zm-7.14-5.54c2.210.06 4.640.39 6.76 2.12-0.77-3.22-3.48-5.7-6.89-6.08-0.5-0.06-0.89-0.05-0.89-0.05v-3.5l-5.58 5.5 5.58 5.5v-3.5l1.020.01z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiArrowBackOutline;

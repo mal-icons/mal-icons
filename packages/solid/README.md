@@ -102,20 +102,30 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
+| [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
 ## Subpath exports
 
 | Import                           | Contents                          |
 | -------------------------------- | --------------------------------- |
 | `@mal-icons/solid`               | Adapter and context               |
+| `@mal-icons/solid/ad`            | All Ant Design icons (named exports)  |
 | `@mal-icons/solid/ci`            | All Circum icons (named exports)  |
+| `@mal-icons/solid/dev`            | All Devicons icons (named exports)  |
+| `@mal-icons/solid/ad/AdHome`    | A single Ant Design icon module       |
 | `@mal-icons/solid/ci/CiHeart`    | A single Circum icon module       |
+| `@mal-icons/solid/dev/DevDreamhost`    | A single Devicons icon module       |
 | `@mal-icons/solid/fa`            | All Font Awesome icons (named exports) |
 | `@mal-icons/solid/fab`            | All Font Awesome Brands icons (named exports) |
 | `@mal-icons/solid/far`            | All Font Awesome Regular icons (named exports) |
@@ -125,7 +135,15 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/solid/far/FarHeart` | A single icon module              |
 | `@mal-icons/solid/fi/FiActivity` | A single icon module              |
 | `@mal-icons/solid/io`            | All Ionicons (named exports)      |
+| `@mal-icons/solid/lu`            | All Lucide (named exports)        |
+| `@mal-icons/solid/oc`            | All Octicons (named exports)      |
 | `@mal-icons/solid/io/IoHeart`    | A single Ionicons icon module     |
+| `@mal-icons/solid/lu/LuHeart`    | A single Lucide icon module       |
+| `@mal-icons/solid/oc/OcHeart16`    | A single Octicons icon module     |
+| `@mal-icons/solid/ti`            | All Typicons (named exports)      |
+| `@mal-icons/solid/wi`            | All Weather Icons (named exports) |
+| `@mal-icons/solid/ti/TiHeart`    | A single Typicons icon module     |
+| `@mal-icons/solid/wi/WiDaySunny` | A single Weather Icons icon module |
 
 ## Example
 

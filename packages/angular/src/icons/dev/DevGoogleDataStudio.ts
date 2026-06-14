@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-google-data-studio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevGoogleDataStudio {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M525 426.8H307.2c-52.7 0-82.2 36.9-82.2 76.1 0 36.2 25 76.2 82.2 76.2H525z"}],["path",{"fill":"currentColor","d":"M525 579c41.4 0 75-34.2 75-76.2s-33.6-76.2-75-76.2a75.6 75.6 0 0 0-74.9 76.2c0 42 33.6 76.1 75 76.1"}],["path",{"fill":"currentColor","d":"M300 223.8H82.3C29.5 223.8 0 260.7 0 299.9c0 36.3 25 76.2 82.2 76.2h217.9z"}],["path",{"fill":"currentColor","d":"M300 376c41.5 0 75-34 75-76a75.5 75.5 0 0 0-75-76.2c-41.3 0-74.9 34-74.9 76.1s33.6 76.2 75 76.2"}],["path",{"fill":"currentColor","d":"M525 21H307.2C254.5 21 225 57.7 225 97c0 36.3 25 76.2 82.2 76.2H525z"}],["path",{"fill":"currentColor","d":"M525 173.2c41.4 0 75-34 75-76.1s-33.6-76.2-75-76.2a75.6 75.6 0 0 0-74.9 76.2c0 42 33.6 76.1 75 76.1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevGoogleDataStudio;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-markdown",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevMarkdown {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M558.7 485H43a43.7 43.7 0 0 1-43-43V158a43.7 43.7 0 0 1 43.1-43H557a43.7 43.7 0 0 1 43.1 43v284c0 23.3-18 43-41.3 43M43 143.7c-7.2 0-14.4 7.2-14.4 14.4v283.8c0 9 7.2 14.4 14.4 14.4h514c9 0 14.4-7.2 14.4-14.4V158.1c0-9-7.2-14.4-14.4-14.4zm43.1 255.1V201.2h57.5l57.5 71.9 57.5-71.9h57.5v197.6h-57.5V285.6l-57.5 71.9-57.5-71.9v113.2zm361.1 0L361 303.6h57.5V201.2H476v100.6h57.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevMarkdown;

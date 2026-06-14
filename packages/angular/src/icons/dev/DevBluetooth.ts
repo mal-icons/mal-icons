@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-bluetooth",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevBluetooth {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m324.3 148.1 49.6 49.7-49.6 49.5zm0 303.7 49.6-49.6-49.6-49.6zm-53-151.8L164 192.5l31-31.1 85.5 85.5V42l155.3 155.4L333.3 300 436 402.6 280.7 558V353L195 438.6l-31-31.1zM300 600c131 0 221.3-62.2 221.3-300S431 0 300 0 78.7 62.2 78.7 300 169 600 300 600"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevBluetooth;

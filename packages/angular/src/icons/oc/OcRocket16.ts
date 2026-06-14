@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-rocket-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcRocket16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.06 0h0.19C15.22 0 16 0.78 16 1.75v0.19a8.75 8.75 0 0 1-2.56 6.19l-0.460.46c-0.310.31-0.640.62-0.980.9v3.21c0 0.61-0.31 1.17-0.83 1.49l-2.77 1.71a0.750.75 0 0 1-1.11-0.42l-0.95-3.1a1.21 1.21 0 0 1-0.14-0.12L3.75 9.82a1.22 1.22 0 0 1-0.12-0.14L0.53 8.72a0.750.75 0 0 1-0.42-1.11l1.71-2.77A1.75 1.75 0 0 1 3.31 4h3.2c0.29-0.340.59-0.660.9-0.98l0.46-0.46A8.75 8.75 0 0 1 14.06 0ZM8.94 3.62h0l-0.460.46c-0.760.76-1.44 1.6-2.02 2.5l-1.5 2.32 2.14 2.14 2.32-1.5c0.9-0.58 1.74-1.26 2.5-2.02l0.46-0.46a7.25 7.25 0 0 0 2.12-5.13V1.75a0.250.25 0 0 0-0.25-0.25h-0.19a7.25 7.25 0 0 0-5.12 2.12ZM3.56 14.56c-0.730.73-2.33 1.05-3 1.15a0.230.23 0 0 1-0.2-0.060.230.23 0 0 1-0.06-0.2c0.1-0.670.42-2.27 1.15-3a1.5 1.5 0 1 1 2.12 2.12Zm6.94-3.93c-0.090.06-0.180.12-0.270.18l-2.35 1.520.55 1.78 1.95-1.2a0.250.25 0 0 0 0.12-0.21ZM3.68 8.12 5.2 5.77c0.06-0.090.12-0.180.18-0.27H3.31a0.250.25 0 0 0-0.210.12l-1.2 1.95ZM12 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcRocket16;

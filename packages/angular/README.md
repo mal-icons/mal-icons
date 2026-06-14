@@ -104,20 +104,30 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
+| [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
+| [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
 ## Subpath exports
 
 | Import                             | Contents                       |
 | ---------------------------------- | ------------------------------ |
 | `@mal-icons/angular`               | Base component and context     |
+| `@mal-icons/angular/ad`            | All Ant Design icon components |
 | `@mal-icons/angular/ci`            | All Circum icon components     |
+| `@mal-icons/angular/dev`            | All Devicons icon components     |
+| `@mal-icons/angular/ad/AdHome`    | A single Ant Design icon component |
 | `@mal-icons/angular/ci/CiHeart`    | A single Circum icon component |
+| `@mal-icons/angular/dev/DevDreamhost`    | A single Devicons icon component |
 | `@mal-icons/angular/fa`            | All Font Awesome icon components    |
 | `@mal-icons/angular/fab`            | All Font Awesome Brands icon components    |
 | `@mal-icons/angular/far`            | All Font Awesome Regular icon components    |
@@ -127,7 +137,15 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/angular/far/FarHeart` | A single icon component        |
 | `@mal-icons/angular/fi/FiActivity` | A single icon component        |
 | `@mal-icons/angular/io`            | All Ionicons components        |
+| `@mal-icons/angular/lu`            | All Lucide components          |
+| `@mal-icons/angular/oc`            | All Octicons components        |
 | `@mal-icons/angular/io/IoHeart`    | A single Ionicons component    |
+| `@mal-icons/angular/lu/LuHeart`    | A single Lucide component      |
+| `@mal-icons/angular/oc/OcHeart16`    | A single Octicons component    |
+| `@mal-icons/angular/ti`            | All Typicons components        |
+| `@mal-icons/angular/wi`            | All Weather Icons components   |
+| `@mal-icons/angular/ti/TiHeart`    | A single Typicons component    |
+| `@mal-icons/angular/wi/WiDaySunny` | A single Weather Icons component |
 
 ## Example
 

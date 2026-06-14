@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-hibernate",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevHibernate {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m357.8 401.9-2.1 6.2 110.5 187.5 6.3 4.4L588 400.3 472.5 199.7zM125.1 0l-113 199.7L129.4 402l112-202.2-0.4-8.1L130.3 4z"}],["path",{"fill":"currentColor","d":"m125.1 0 116.3 199.7h231L355.5 0zm4.4 401.9 114 198.1h229L357.8 401.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevHibernate;

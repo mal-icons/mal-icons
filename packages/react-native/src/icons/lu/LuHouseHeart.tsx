@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuHouseHeart = createIcon("0 0 24 24", [["path",{"d":"M8.62 13.8A2.25 2.25 0 1 1 12 10.84a2.25 2.25 0 1 1 3.38 2.97l-2.63 2.86a11 0 0 1-1.51 0z"}],["path",{"d":"M3 10a2 2 0 0 1 0.71-1.53l7-6a2 2 0 0 1 2.58 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuHouseHeart;

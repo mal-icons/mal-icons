@@ -1,0 +1,2215 @@
+{
+  "set": {
+    "id": "wi",
+    "name": "Weather Icons",
+    "prefix": "Wi",
+    "version": "2.0.12",
+    "license": "OFL-1.1",
+    "repo": "erikflowers/weather-icons",
+    "style": "fill",
+    "viewBox": "0 0 30 30"
+  },
+  "count": 219,
+  "icons": [
+    {
+      "name": "WiAlien",
+      "tags": [
+        "alien",
+        "fill"
+      ],
+      "description": "Alien icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiBarometer",
+      "tags": [
+        "barometer",
+        "fill"
+      ],
+      "description": "Barometer icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiCelsius",
+      "tags": [
+        "celsius",
+        "fill"
+      ],
+      "description": "Celsius icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiCloud",
+      "tags": [
+        "cloud",
+        "fill"
+      ],
+      "description": "Cloud icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiCloudDown",
+      "tags": [
+        "cloud",
+        "down",
+        "fill"
+      ],
+      "description": "Cloud Down icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiCloudRefresh",
+      "tags": [
+        "cloud",
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "WiCloudUp",
+      "tags": [
+        "cloud",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Cloud Up icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiCloudy",
+      "tags": [
+        "cloudy",
+        "fill"
+      ],
+      "description": "Cloudy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiCloudyGusts",
+      "tags": [
+        "cloudy",
+        "fill",
+        "gusts"
+      ],
+      "description": "Cloudy Gusts icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiCloudyWindy",
+      "tags": [
+        "cloudy",
+        "fill",
+        "windy"
+      ],
+      "description": "Cloudy Windy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayCloudy",
+      "tags": [
+        "cloudy",
+        "day",
+        "fill"
+      ],
+      "description": "Day Cloudy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayCloudyGusts",
+      "tags": [
+        "cloudy",
+        "day",
+        "fill",
+        "gusts"
+      ],
+      "description": "Day Cloudy Gusts icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayCloudyHigh",
+      "tags": [
+        "cloudy",
+        "day",
+        "fill",
+        "high"
+      ],
+      "description": "Day Cloudy High icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayCloudyWindy",
+      "tags": [
+        "cloudy",
+        "day",
+        "fill",
+        "windy"
+      ],
+      "description": "Day Cloudy Windy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayFog",
+      "tags": [
+        "day",
+        "fill",
+        "fog"
+      ],
+      "description": "Day Fog icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayHail",
+      "tags": [
+        "day",
+        "fill",
+        "hail"
+      ],
+      "description": "Day Hail icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayHaze",
+      "tags": [
+        "day",
+        "fill",
+        "haze"
+      ],
+      "description": "Day Haze icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayLightning",
+      "tags": [
+        "day",
+        "fill",
+        "lightning"
+      ],
+      "description": "Day Lightning icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayLightWind",
+      "tags": [
+        "day",
+        "fill",
+        "light",
+        "wind"
+      ],
+      "description": "Day Light Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayRain",
+      "tags": [
+        "day",
+        "fill",
+        "rain"
+      ],
+      "description": "Day Rain icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayRainMix",
+      "tags": [
+        "day",
+        "fill",
+        "mix",
+        "rain"
+      ],
+      "description": "Day Rain Mix icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayRainWind",
+      "tags": [
+        "day",
+        "fill",
+        "rain",
+        "wind"
+      ],
+      "description": "Day Rain Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayShowers",
+      "tags": [
+        "day",
+        "fill",
+        "showers"
+      ],
+      "description": "Day Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySleet",
+      "tags": [
+        "day",
+        "fill",
+        "sleet"
+      ],
+      "description": "Day Sleet icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySleetStorm",
+      "tags": [
+        "day",
+        "fill",
+        "sleet",
+        "storm"
+      ],
+      "description": "Day Sleet Storm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySnow",
+      "tags": [
+        "day",
+        "fill",
+        "snow"
+      ],
+      "description": "Day Snow icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySnowThunderstorm",
+      "tags": [
+        "day",
+        "fill",
+        "snow",
+        "thunderstorm"
+      ],
+      "description": "Day Snow Thunderstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySnowWind",
+      "tags": [
+        "day",
+        "fill",
+        "snow",
+        "wind"
+      ],
+      "description": "Day Snow Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySprinkle",
+      "tags": [
+        "day",
+        "fill",
+        "sprinkle"
+      ],
+      "description": "Day Sprinkle icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayStormShowers",
+      "tags": [
+        "day",
+        "fill",
+        "showers",
+        "storm"
+      ],
+      "description": "Day Storm Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySunny",
+      "tags": [
+        "day",
+        "fill",
+        "sunny"
+      ],
+      "description": "Day Sunny icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDaySunnyOvercast",
+      "tags": [
+        "day",
+        "fill",
+        "overcast",
+        "sunny"
+      ],
+      "description": "Day Sunny Overcast icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayThunderstorm",
+      "tags": [
+        "day",
+        "fill",
+        "thunderstorm"
+      ],
+      "description": "Day Thunderstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDayWindy",
+      "tags": [
+        "day",
+        "fill",
+        "windy"
+      ],
+      "description": "Day Windy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDegrees",
+      "tags": [
+        "degrees",
+        "fill"
+      ],
+      "description": "Degrees icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionDown",
+      "tags": [
+        "direction",
+        "down",
+        "fill"
+      ],
+      "description": "Direction Down icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionDownLeft",
+      "tags": [
+        "direction",
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Direction Down Left icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionDownRight",
+      "tags": [
+        "direction",
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Direction Down Right icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionLeft",
+      "tags": [
+        "direction",
+        "fill",
+        "left"
+      ],
+      "description": "Direction Left icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionRight",
+      "tags": [
+        "direction",
+        "fill",
+        "right"
+      ],
+      "description": "Direction Right icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionUp",
+      "tags": [
+        "direction",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Direction Up icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionUpLeft",
+      "tags": [
+        "direction",
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Direction Up Left icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDirectionUpRight",
+      "tags": [
+        "direction",
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Direction Up Right icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiDust",
+      "tags": [
+        "dust",
+        "fill"
+      ],
+      "description": "Dust icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiEarthquake",
+      "tags": [
+        "earthquake",
+        "fill"
+      ],
+      "description": "Earthquake icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiFahrenheit",
+      "tags": [
+        "fahrenheit",
+        "fill"
+      ],
+      "description": "Fahrenheit icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiFire",
+      "tags": [
+        "fill",
+        "fire"
+      ],
+      "description": "Fire icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiFlood",
+      "tags": [
+        "fill",
+        "flood"
+      ],
+      "description": "Flood icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiFog",
+      "tags": [
+        "fill",
+        "fog"
+      ],
+      "description": "Fog icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiGaleWarning",
+      "tags": [
+        "fill",
+        "gale",
+        "warning"
+      ],
+      "description": "Gale Warning icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiHail",
+      "tags": [
+        "fill",
+        "hail"
+      ],
+      "description": "Hail icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiHorizon",
+      "tags": [
+        "fill",
+        "horizon"
+      ],
+      "description": "Horizon icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiHorizonAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "horizon"
+      ],
+      "description": "Horizon Alt icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiHot",
+      "tags": [
+        "fill",
+        "hot"
+      ],
+      "description": "Hot icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiHumidity",
+      "tags": [
+        "fill",
+        "humidity"
+      ],
+      "description": "Humidity icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiHurricane",
+      "tags": [
+        "fill",
+        "hurricane"
+      ],
+      "description": "Hurricane icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiHurricaneWarning",
+      "tags": [
+        "fill",
+        "hurricane",
+        "warning"
+      ],
+      "description": "Hurricane Warning icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiLightning",
+      "tags": [
+        "fill",
+        "lightning"
+      ],
+      "description": "Lightning icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiLunarEclipse",
+      "tags": [
+        "eclipse",
+        "fill",
+        "lunar"
+      ],
+      "description": "Lunar Eclipse icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiMeteor",
+      "tags": [
+        "fill",
+        "meteor"
+      ],
+      "description": "Meteor icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiMoonAltFirstQuarter",
+      "tags": [
+        "alt",
+        "fill",
+        "first",
+        "moon",
+        "quarter"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltFull",
+      "tags": [
+        "alt",
+        "fill",
+        "full",
+        "moon"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltNew",
+      "tags": [
+        "alt",
+        "fill",
+        "moon",
+        "new"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltThirdQuarter",
+      "tags": [
+        "alt",
+        "fill",
+        "moon",
+        "quarter",
+        "third"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningCrescent1",
+      "tags": [
+        "1",
+        "alt",
+        "crescent",
+        "crescent1",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningCrescent2",
+      "tags": [
+        "2",
+        "alt",
+        "crescent",
+        "crescent2",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningCrescent3",
+      "tags": [
+        "3",
+        "alt",
+        "crescent",
+        "crescent3",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningCrescent4",
+      "tags": [
+        "4",
+        "alt",
+        "crescent",
+        "crescent4",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningCrescent5",
+      "tags": [
+        "5",
+        "alt",
+        "crescent",
+        "crescent5",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningCrescent6",
+      "tags": [
+        "6",
+        "alt",
+        "crescent",
+        "crescent6",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningGibbous1",
+      "tags": [
+        "1",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous1",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningGibbous2",
+      "tags": [
+        "2",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous2",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningGibbous3",
+      "tags": [
+        "3",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous3",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningGibbous4",
+      "tags": [
+        "4",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous4",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningGibbous5",
+      "tags": [
+        "5",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous5",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaningGibbous6",
+      "tags": [
+        "6",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous6",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent1",
+      "tags": [
+        "1",
+        "alt",
+        "crescent",
+        "crescent1",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent2",
+      "tags": [
+        "2",
+        "alt",
+        "crescent",
+        "crescent2",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent3",
+      "tags": [
+        "3",
+        "alt",
+        "crescent",
+        "crescent3",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent4",
+      "tags": [
+        "4",
+        "alt",
+        "crescent",
+        "crescent4",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent5",
+      "tags": [
+        "5",
+        "alt",
+        "crescent",
+        "crescent5",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingCrescent6",
+      "tags": [
+        "6",
+        "alt",
+        "crescent",
+        "crescent6",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous1",
+      "tags": [
+        "1",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous1",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous2",
+      "tags": [
+        "2",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous2",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous3",
+      "tags": [
+        "3",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous3",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous4",
+      "tags": [
+        "4",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous4",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous5",
+      "tags": [
+        "5",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous5",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonAltWaxingGibbous6",
+      "tags": [
+        "6",
+        "alt",
+        "fill",
+        "gibbous",
+        "gibbous6",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonFirstQuarter",
+      "tags": [
+        "fill",
+        "first",
+        "moon",
+        "quarter"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonFull",
+      "tags": [
+        "fill",
+        "full",
+        "moon"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonNew",
+      "tags": [
+        "fill",
+        "moon",
+        "new"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonrise",
+      "tags": [
+        "fill",
+        "moonrise"
+      ],
+      "description": "Moonrise icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiMoonset",
+      "tags": [
+        "fill",
+        "moonset"
+      ],
+      "description": "Moonset icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiMoonThirdQuarter",
+      "tags": [
+        "fill",
+        "moon",
+        "quarter",
+        "third"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningCrescent1",
+      "tags": [
+        "1",
+        "crescent",
+        "crescent1",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningCrescent2",
+      "tags": [
+        "2",
+        "crescent",
+        "crescent2",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningCrescent3",
+      "tags": [
+        "3",
+        "crescent",
+        "crescent3",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningCrescent4",
+      "tags": [
+        "4",
+        "crescent",
+        "crescent4",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningCrescent5",
+      "tags": [
+        "5",
+        "crescent",
+        "crescent5",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningCrescent6",
+      "tags": [
+        "6",
+        "crescent",
+        "crescent6",
+        "fill",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningGibbous1",
+      "tags": [
+        "1",
+        "fill",
+        "gibbous",
+        "gibbous1",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningGibbous2",
+      "tags": [
+        "2",
+        "fill",
+        "gibbous",
+        "gibbous2",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningGibbous3",
+      "tags": [
+        "3",
+        "fill",
+        "gibbous",
+        "gibbous3",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningGibbous4",
+      "tags": [
+        "4",
+        "fill",
+        "gibbous",
+        "gibbous4",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningGibbous5",
+      "tags": [
+        "5",
+        "fill",
+        "gibbous",
+        "gibbous5",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaningGibbous6",
+      "tags": [
+        "6",
+        "fill",
+        "gibbous",
+        "gibbous6",
+        "moon",
+        "waning"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingCrescent1",
+      "tags": [
+        "1",
+        "crescent",
+        "crescent1",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingCrescent2",
+      "tags": [
+        "2",
+        "crescent",
+        "crescent2",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingCrescent3",
+      "tags": [
+        "3",
+        "crescent",
+        "crescent3",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingCrescent4",
+      "tags": [
+        "4",
+        "crescent",
+        "crescent4",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingCrescent5",
+      "tags": [
+        "5",
+        "crescent",
+        "crescent5",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingCrescent6",
+      "tags": [
+        "6",
+        "crescent",
+        "crescent6",
+        "fill",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingGibbous1",
+      "tags": [
+        "1",
+        "fill",
+        "gibbous",
+        "gibbous1",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingGibbous2",
+      "tags": [
+        "2",
+        "fill",
+        "gibbous",
+        "gibbous2",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingGibbous3",
+      "tags": [
+        "3",
+        "fill",
+        "gibbous",
+        "gibbous3",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingGibbous4",
+      "tags": [
+        "4",
+        "fill",
+        "gibbous",
+        "gibbous4",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingGibbous5",
+      "tags": [
+        "5",
+        "fill",
+        "gibbous",
+        "gibbous5",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiMoonWaxingGibbous6",
+      "tags": [
+        "6",
+        "fill",
+        "gibbous",
+        "gibbous6",
+        "moon",
+        "waxing"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "WiNa",
+      "tags": [
+        "fill",
+        "na"
+      ],
+      "description": "Na icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltCloudy",
+      "tags": [
+        "alt",
+        "cloudy",
+        "fill",
+        "night"
+      ],
+      "description": "Night Alt Cloudy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltCloudyGusts",
+      "tags": [
+        "alt",
+        "cloudy",
+        "fill",
+        "gusts",
+        "night"
+      ],
+      "description": "Night Alt Cloudy Gusts icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltCloudyHigh",
+      "tags": [
+        "alt",
+        "cloudy",
+        "fill",
+        "high",
+        "night"
+      ],
+      "description": "Night Alt Cloudy High icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltCloudyWindy",
+      "tags": [
+        "alt",
+        "cloudy",
+        "fill",
+        "night",
+        "windy"
+      ],
+      "description": "Night Alt Cloudy Windy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltHail",
+      "tags": [
+        "alt",
+        "fill",
+        "hail",
+        "night"
+      ],
+      "description": "Night Alt Hail icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltLightning",
+      "tags": [
+        "alt",
+        "fill",
+        "lightning",
+        "night"
+      ],
+      "description": "Night Alt Lightning icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltPartlyCloudy",
+      "tags": [
+        "alt",
+        "cloudy",
+        "fill",
+        "night",
+        "partly"
+      ],
+      "description": "Night Alt Partly Cloudy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltRain",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "rain"
+      ],
+      "description": "Night Alt Rain icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltRainMix",
+      "tags": [
+        "alt",
+        "fill",
+        "mix",
+        "night",
+        "rain"
+      ],
+      "description": "Night Alt Rain Mix icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltRainWind",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "rain",
+        "wind"
+      ],
+      "description": "Night Alt Rain Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltShowers",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "showers"
+      ],
+      "description": "Night Alt Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltSleet",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "sleet"
+      ],
+      "description": "Night Alt Sleet icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltSleetStorm",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "sleet",
+        "storm"
+      ],
+      "description": "Night Alt Sleet Storm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltSnow",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "snow"
+      ],
+      "description": "Night Alt Snow icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltSnowThunderstorm",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "snow",
+        "thunderstorm"
+      ],
+      "description": "Night Alt Snow Thunderstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltSnowWind",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "snow",
+        "wind"
+      ],
+      "description": "Night Alt Snow Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltSprinkle",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "sprinkle"
+      ],
+      "description": "Night Alt Sprinkle icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltStormShowers",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "showers",
+        "storm"
+      ],
+      "description": "Night Alt Storm Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightAltThunderstorm",
+      "tags": [
+        "alt",
+        "fill",
+        "night",
+        "thunderstorm"
+      ],
+      "description": "Night Alt Thunderstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightClear",
+      "tags": [
+        "clear",
+        "fill",
+        "night"
+      ],
+      "description": "Night Clear icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightCloudy",
+      "tags": [
+        "cloudy",
+        "fill",
+        "night"
+      ],
+      "description": "Night Cloudy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightCloudyGusts",
+      "tags": [
+        "cloudy",
+        "fill",
+        "gusts",
+        "night"
+      ],
+      "description": "Night Cloudy Gusts icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightCloudyHigh",
+      "tags": [
+        "cloudy",
+        "fill",
+        "high",
+        "night"
+      ],
+      "description": "Night Cloudy High icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightCloudyWindy",
+      "tags": [
+        "cloudy",
+        "fill",
+        "night",
+        "windy"
+      ],
+      "description": "Night Cloudy Windy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightFog",
+      "tags": [
+        "fill",
+        "fog",
+        "night"
+      ],
+      "description": "Night Fog icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightHail",
+      "tags": [
+        "fill",
+        "hail",
+        "night"
+      ],
+      "description": "Night Hail icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightLightning",
+      "tags": [
+        "fill",
+        "lightning",
+        "night"
+      ],
+      "description": "Night Lightning icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightPartlyCloudy",
+      "tags": [
+        "cloudy",
+        "fill",
+        "night",
+        "partly"
+      ],
+      "description": "Night Partly Cloudy icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightRain",
+      "tags": [
+        "fill",
+        "night",
+        "rain"
+      ],
+      "description": "Night Rain icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightRainMix",
+      "tags": [
+        "fill",
+        "mix",
+        "night",
+        "rain"
+      ],
+      "description": "Night Rain Mix icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightRainWind",
+      "tags": [
+        "fill",
+        "night",
+        "rain",
+        "wind"
+      ],
+      "description": "Night Rain Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightShowers",
+      "tags": [
+        "fill",
+        "night",
+        "showers"
+      ],
+      "description": "Night Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightSleet",
+      "tags": [
+        "fill",
+        "night",
+        "sleet"
+      ],
+      "description": "Night Sleet icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightSleetStorm",
+      "tags": [
+        "fill",
+        "night",
+        "sleet",
+        "storm"
+      ],
+      "description": "Night Sleet Storm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightSnow",
+      "tags": [
+        "fill",
+        "night",
+        "snow"
+      ],
+      "description": "Night Snow icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightSnowThunderstorm",
+      "tags": [
+        "fill",
+        "night",
+        "snow",
+        "thunderstorm"
+      ],
+      "description": "Night Snow Thunderstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightSnowWind",
+      "tags": [
+        "fill",
+        "night",
+        "snow",
+        "wind"
+      ],
+      "description": "Night Snow Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightSprinkle",
+      "tags": [
+        "fill",
+        "night",
+        "sprinkle"
+      ],
+      "description": "Night Sprinkle icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightStormShowers",
+      "tags": [
+        "fill",
+        "night",
+        "showers",
+        "storm"
+      ],
+      "description": "Night Storm Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiNightThunderstorm",
+      "tags": [
+        "fill",
+        "night",
+        "thunderstorm"
+      ],
+      "description": "Night Thunderstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiRain",
+      "tags": [
+        "fill",
+        "rain"
+      ],
+      "description": "Rain icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiRaindrop",
+      "tags": [
+        "fill",
+        "raindrop"
+      ],
+      "description": "Raindrop icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiRaindrops",
+      "tags": [
+        "fill",
+        "raindrops"
+      ],
+      "description": "Raindrops icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiRainMix",
+      "tags": [
+        "fill",
+        "mix",
+        "rain"
+      ],
+      "description": "Rain Mix icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiRainWind",
+      "tags": [
+        "fill",
+        "rain",
+        "wind"
+      ],
+      "description": "Rain Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiRefresh",
+      "tags": [
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "WiRefreshAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "WiSandstorm",
+      "tags": [
+        "fill",
+        "sandstorm"
+      ],
+      "description": "Sandstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiShowers",
+      "tags": [
+        "fill",
+        "showers"
+      ],
+      "description": "Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSleet",
+      "tags": [
+        "fill",
+        "sleet"
+      ],
+      "description": "Sleet icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSmallCraftAdvisory",
+      "tags": [
+        "advisory",
+        "craft",
+        "fill",
+        "small"
+      ],
+      "description": "Small Craft Advisory icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSmog",
+      "tags": [
+        "fill",
+        "smog"
+      ],
+      "description": "Smog icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSmoke",
+      "tags": [
+        "fill",
+        "smoke"
+      ],
+      "description": "Smoke icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSnow",
+      "tags": [
+        "fill",
+        "snow"
+      ],
+      "description": "Snow icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSnowflakeCold",
+      "tags": [
+        "cold",
+        "fill",
+        "snowflake"
+      ],
+      "description": "Snowflake Cold icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSnowWind",
+      "tags": [
+        "fill",
+        "snow",
+        "wind"
+      ],
+      "description": "Snow Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSolarEclipse",
+      "tags": [
+        "eclipse",
+        "fill",
+        "solar"
+      ],
+      "description": "Solar Eclipse icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSprinkle",
+      "tags": [
+        "fill",
+        "sprinkle"
+      ],
+      "description": "Sprinkle icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiStars",
+      "tags": [
+        "fill",
+        "stars"
+      ],
+      "description": "Stars icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiStormShowers",
+      "tags": [
+        "fill",
+        "showers",
+        "storm"
+      ],
+      "description": "Storm Showers icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiStormWarning",
+      "tags": [
+        "fill",
+        "storm",
+        "warning"
+      ],
+      "description": "Storm Warning icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiStrongWind",
+      "tags": [
+        "fill",
+        "strong",
+        "wind"
+      ],
+      "description": "Strong Wind icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSunrise",
+      "tags": [
+        "fill",
+        "sunrise"
+      ],
+      "description": "Sunrise icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiSunset",
+      "tags": [
+        "fill",
+        "sunset"
+      ],
+      "description": "Sunset icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiThermometer",
+      "tags": [
+        "fill",
+        "thermometer"
+      ],
+      "description": "Thermometer icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiThermometerExterior",
+      "tags": [
+        "exterior",
+        "fill",
+        "thermometer"
+      ],
+      "description": "Thermometer Exterior icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiThermometerInternal",
+      "tags": [
+        "fill",
+        "internal",
+        "thermometer"
+      ],
+      "description": "Thermometer Internal icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiThunderstorm",
+      "tags": [
+        "fill",
+        "thunderstorm"
+      ],
+      "description": "Thunderstorm icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime1",
+      "tags": [
+        "1",
+        "fill",
+        "time",
+        "time1"
+      ],
+      "description": "Time 1 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime10",
+      "tags": [
+        "10",
+        "fill",
+        "time",
+        "time10"
+      ],
+      "description": "Time 10 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime11",
+      "tags": [
+        "11",
+        "fill",
+        "time",
+        "time11"
+      ],
+      "description": "Time 11 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime12",
+      "tags": [
+        "12",
+        "fill",
+        "time",
+        "time12"
+      ],
+      "description": "Time 12 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime2",
+      "tags": [
+        "2",
+        "fill",
+        "time",
+        "time2"
+      ],
+      "description": "Time 2 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime3",
+      "tags": [
+        "3",
+        "fill",
+        "time",
+        "time3"
+      ],
+      "description": "Time 3 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime4",
+      "tags": [
+        "4",
+        "fill",
+        "time",
+        "time4"
+      ],
+      "description": "Time 4 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime5",
+      "tags": [
+        "5",
+        "fill",
+        "time",
+        "time5"
+      ],
+      "description": "Time 5 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime6",
+      "tags": [
+        "6",
+        "fill",
+        "time",
+        "time6"
+      ],
+      "description": "Time 6 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime7",
+      "tags": [
+        "7",
+        "fill",
+        "time",
+        "time7"
+      ],
+      "description": "Time 7 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime8",
+      "tags": [
+        "8",
+        "fill",
+        "time",
+        "time8"
+      ],
+      "description": "Time 8 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTime9",
+      "tags": [
+        "9",
+        "fill",
+        "time",
+        "time9"
+      ],
+      "description": "Time 9 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTornado",
+      "tags": [
+        "fill",
+        "tornado"
+      ],
+      "description": "Tornado icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTrain",
+      "tags": [
+        "fill",
+        "train"
+      ],
+      "description": "Train icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiTsunami",
+      "tags": [
+        "fill",
+        "tsunami"
+      ],
+      "description": "Tsunami icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiUmbrella",
+      "tags": [
+        "fill",
+        "umbrella"
+      ],
+      "description": "Umbrella icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiVolcano",
+      "tags": [
+        "fill",
+        "volcano"
+      ],
+      "description": "Volcano icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort0",
+      "tags": [
+        "0",
+        "beaufort",
+        "beaufort0",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 0 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort1",
+      "tags": [
+        "1",
+        "beaufort",
+        "beaufort1",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 1 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort10",
+      "tags": [
+        "10",
+        "beaufort",
+        "beaufort10",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 10 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort11",
+      "tags": [
+        "11",
+        "beaufort",
+        "beaufort11",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 11 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort12",
+      "tags": [
+        "12",
+        "beaufort",
+        "beaufort12",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 12 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort2",
+      "tags": [
+        "2",
+        "beaufort",
+        "beaufort2",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 2 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort3",
+      "tags": [
+        "3",
+        "beaufort",
+        "beaufort3",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 3 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort4",
+      "tags": [
+        "4",
+        "beaufort",
+        "beaufort4",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 4 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort5",
+      "tags": [
+        "5",
+        "beaufort",
+        "beaufort5",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 5 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort6",
+      "tags": [
+        "6",
+        "beaufort",
+        "beaufort6",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 6 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort7",
+      "tags": [
+        "7",
+        "beaufort",
+        "beaufort7",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 7 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort8",
+      "tags": [
+        "8",
+        "beaufort",
+        "beaufort8",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 8 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindBeaufort9",
+      "tags": [
+        "9",
+        "beaufort",
+        "beaufort9",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Beaufort 9 icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindDeg",
+      "tags": [
+        "deg",
+        "fill",
+        "wind"
+      ],
+      "description": "Wind Deg icon — Weather Icons (wi) set, fill style."
+    },
+    {
+      "name": "WiWindy",
+      "tags": [
+        "fill",
+        "windy"
+      ],
+      "description": "Windy icon — Weather Icons (wi) set, fill style."
+    }
+  ]
+}

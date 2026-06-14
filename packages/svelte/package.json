@@ -35,6 +35,16 @@
       "bun": "./src/index.ts",
       "import": "./src/index.ts"
     },
+    "./ad": {
+      "svelte": "./src/icons/ad/index.ts",
+      "bun": "./src/icons/ad/index.ts",
+      "import": "./src/icons/ad/index.ts"
+    },
+    "./ad/*": {
+      "svelte": "./src/icons/ad/*.svelte",
+      "bun": "./src/icons/ad/*.svelte",
+      "import": "./src/icons/ad/*.svelte"
+    },
     "./ci": {
       "svelte": "./src/icons/ci/index.ts",
       "bun": "./src/icons/ci/index.ts",
@@ -44,6 +54,16 @@
       "svelte": "./src/icons/ci/*.svelte",
       "bun": "./src/icons/ci/*.svelte",
       "import": "./src/icons/ci/*.svelte"
+    },
+    "./dev": {
+      "svelte": "./src/icons/dev/index.ts",
+      "bun": "./src/icons/dev/index.ts",
+      "import": "./src/icons/dev/index.ts"
+    },
+    "./dev/*": {
+      "svelte": "./src/icons/dev/*.svelte",
+      "bun": "./src/icons/dev/*.svelte",
+      "import": "./src/icons/dev/*.svelte"
     },
     "./fa": {
       "svelte": "./src/icons/fa/index.ts",
@@ -90,10 +110,50 @@
       "bun": "./src/icons/io/index.ts",
       "import": "./src/icons/io/index.ts"
     },
+    "./lu": {
+      "svelte": "./src/icons/lu/index.ts",
+      "bun": "./src/icons/lu/index.ts",
+      "import": "./src/icons/lu/index.ts"
+    },
+    "./oc": {
+      "svelte": "./src/icons/oc/index.ts",
+      "bun": "./src/icons/oc/index.ts",
+      "import": "./src/icons/oc/index.ts"
+    },
     "./io/*": {
       "svelte": "./src/icons/io/*.svelte",
       "bun": "./src/icons/io/*.svelte",
       "import": "./src/icons/io/*.svelte"
+    },
+    "./lu/*": {
+      "svelte": "./src/icons/lu/*.svelte",
+      "bun": "./src/icons/lu/*.svelte",
+      "import": "./src/icons/lu/*.svelte"
+    },
+    "./oc/*": {
+      "svelte": "./src/icons/oc/*.svelte",
+      "bun": "./src/icons/oc/*.svelte",
+      "import": "./src/icons/oc/*.svelte"
+    },
+    "./ti": {
+      "svelte": "./src/icons/ti/index.ts",
+      "bun": "./src/icons/ti/index.ts",
+      "import": "./src/icons/ti/index.ts"
+    },
+    "./ti/*": {
+      "svelte": "./src/icons/ti/*.svelte",
+      "bun": "./src/icons/ti/*.svelte",
+      "import": "./src/icons/ti/*.svelte"
+    },
+    "./wi": {
+      "svelte": "./src/icons/wi/index.ts",
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./src/icons/wi/index.ts"
+    },
+    "./wi/*": {
+      "svelte": "./src/icons/wi/*.svelte",
+      "bun": "./src/icons/wi/*.svelte",
+      "import": "./src/icons/wi/*.svelte"
     },
     "./IconBase.svelte": "./src/IconBase.svelte",
     "./package.json": "./package.json"

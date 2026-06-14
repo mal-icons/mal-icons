@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-appcode",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevAppcode {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-appcode-4-a)"}],["path",{"fill":"currentColor","d":"M458.5 600 600 225.9l-112.5-25.5z"}],["path",{"fill":"currentColor","d":"M598.3 481.3 458.5 600l-199.4-51.4z"}],["path",{"fill":"currentColor","d":"M74.7 274.9 10.9 92.5 329.2 0z"}],["path",{"fill":"currentColor","d":"m523.5 347.4-89.3-152.5 1.7-1L329.3 0 0 355.6V600l598.3-118.7z"}],["path",{"fill":"currentColor","d":"M112.5 112.5h375v375h-375z"}],["path",{"fill":"currentColor","d":"M159.3 416.6h140.6v23.5H159.3zm263-238-19.9 22.9a52 52 0 0 0-36.2-16c-23.6 0-40.8 19.4-41.1 43.3v1.3c0 24.3 16.8 44.5 41 44.5 15.2 0 24.8-5.4 35.3-14.5l1.5-1.40.8-0.7 19.6 20.1a73 73 0 0 1-58.1 25 71.6 71.6 0 0 1-72.8-71.5v-1.5a72 72 0 0 1 74-73.3 73 73 0 0 1 56 21.8m-184.8-19.2 59.9 140.8h-32.1l-12.6-31.3h-59.3L181 300.2h-31.3l59.8-140.8zm-14.5 37-18.7 45.3h37.4z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevAppcode;

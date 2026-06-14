@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TiSocialFacebook = createIcon("0 0 24 24", [["path",{"d":"M13 10h3v3h-3v7h-3v-7h-3v-3h3v-1.25c0-1.190.37-2.69 1.12-3.510.74-0.82 1.67-1.23 2.79-1.23h2.1v3h-2.1c-0.5 0-0.90.4-0.90.9v2.1z"}]]);
+
+export default TiSocialFacebook;

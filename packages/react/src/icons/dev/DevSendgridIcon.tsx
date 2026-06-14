@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevSendgridIcon = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-sendgrid-icon-1-a)"}],["path",{"fill":"currentColor","d":"M600 0v400H400v200H0V200h200V0z"}],["path",{"fill":"currentColor","d":"M0 600h200V400H0z"}],["path",{"fill":"currentColor","d":"M400 400h200V200H400zM200 200h200V0H200z"}],["path",{"fill":"currentColor","d":"M200 400h200V200H200z"}],["path",{"fill":"currentColor","d":"M400 200h200V0H400z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevSendgridIcon;

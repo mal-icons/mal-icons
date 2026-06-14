@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-logo-github-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcLogoGithub16 {
+  readonly viewBox = "0 0 49 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.61 2.06c2.8 0 4.49 1.19 5.02 3.2l-2.50.6c-0.3-1.09-1.18-1.69-2.52-1.69-1.99 0-3.07 1.31-3.07 3.8s1.05 3.83 3.01 3.83c1.66 0 2.7-0.93 2.86-2.53H5.34V7.17h5.59v1.33c0 3.48-2.02 5.42-5.43 5.42C2.13 13.91 0 11.6 0 7.97s2.17-5.91 5.61-5.91m28.55 8.37c0 10.45 1.56 1.31 1.560.99 0 1.75-0.92 1.75-2.17V5.51h2.32v8.18h-2.32V12.31c-0.440.89-1.48 1.53-2.61 1.53-1.79 0-2.77-0.99-2.77-2.8V5.51h2.32z"}],["path",{"fill-rule":"evenodd","d":"M43.06 7.01c0.47-0.99 1.54-1.69 2.61-1.69 2.23 0 3.41 1.54 3.33 4.270.08 2.69-1.14 4.25-3.33 4.25-1.12 0-2.14-0.64-2.62-1.56v1.41H40.74V2.28h2.32zm1.790.25c-0.95 0-1.710.93-1.79 2.21v0.13c0.08 1.330.84 2.3 1.79 2.3 1.2 0 1.86-0.89 1.78-2.310.08-1.44-0.58-2.33-1.78-2.33"}],["path",{"d":"M14.11 13.69h-2.3V5.51h2.3zm4.64-8.18h1.7v1.92h-1.7v3.71c0 0.450.20.630.660.63h1.05v1.92h-1.88c-1.53 0-2.13-0.65-2.13-2.04V7.43h-1.46V5.51h1.46V3.88l2.3-0.54zm5.15-3.23v4.63h4.34v-4.63h2.48v11.42h-2.48V9.12h-4.34v4.57H21.42V2.28zM12.96 2a1.35 1.35 0 0 1 1.37 1.37 1.35 1.35 0 0 1-1.37 1.37 1.35 1.35 0 0 1-1.37-1.37A1.35 1.35 0 0 1 12.96 2"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcLogoGithub16;

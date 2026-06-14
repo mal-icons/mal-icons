@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-coda-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevCodaIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M529.8 0H70.1C42.5 0 20.1 22.4 20 50v500c0.1 27.6 22.5 50 50.1 50H530c27.6 0 50-22.4 50.1-50v-23.3c-0.8-30-1.7-92.5-1.7-120.9 0-15.8-11.7-29.1-26.7-29.1-16.7 0-27.6 10-36 18.3-25 22.5-62.6 26.7-95.3 20.8-15-3.3-29.2-7.5-40.9-15a119 119 0 0 1-59.3-101.6 120 120 0 0 1 59.3-101.7 142 142 0 0 1 41-15c31.7-5.8 70.2-1.7 95.2 20.8 9.2 8.4 20.1 18.4 36 18.4 15 0 26.7-13.4 26.7-29.2 0-27.50.9-90.8 1.7-120.8V50c0-27.5-22.6-50-50.1-50"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevCodaIcon;

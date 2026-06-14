@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuWalletCards = createIcon("0 0 24 24", [["path",{"d":"M3 11h3.75a2 2 0 0 1 1.60.8l0.450.6a4 4 0 0 0 6.4 0l0.45-0.6a2 2 0 0 1 1.6-0.8H21"}],["path",{"d":"M3 7h18"}],["rect",{"x":"3","y":"3","width":"18","height":"18","rx":"2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuWalletCards;

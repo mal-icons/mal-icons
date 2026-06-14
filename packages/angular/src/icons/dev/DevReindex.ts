@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-reindex",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevReindex {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M529 472.4 300 574 71 472.4a30 30 0 1 0-10 22.8L295 599a12 12 0 0 0 10 0l234-103.7a30 30 0 1 0-10-22.8"}],["path",{"fill":"currentColor","d":"M270.2 242 36.4 345.7a12.4 12.4 0 0 0 0 22.7l258.8 114.7q4.9 2.2 10 0l234-103.6a30 30 0 1 0-10-22.7L300 458.2 72.2 357l208-92.3a30 30 0 1 0-10-22.7"}],["path",{"fill":"currentColor","d":"M295 116.2 61 220a30 30 0 1 0 10 22.8l229-101.5 228.3 101.1L320 334.8a30 30 0 1 0 10 22.8l234-103.8a12.4 12.4 0 0 0 0-22.8L305 116.3a13 13 0 0 0-10 0"}],["path",{"fill":"currentColor","d":"M295 1 61 104.9a30 30 0 1 0 10 22.8L300 26l229 101.5a30 30 0 1 0 10-22.8L305 1a13 13 0 0 0-10 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevReindex;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuTowerControl = createIcon("0 0 24 24", [["path",{"d":"M18.2 12.27 20 6H4l1.8 6.27a1 1 0 0 0 0.950.73h10.5a1 1 0 0 0 0.96-0.73Z"}],["path",{"d":"M8 13v9"}],["path",{"d":"M16 22v-9"}],["path",{"d":"m9 6 1 7"}],["path",{"d":"m15 6-1 7"}],["path",{"d":"M12 6V2"}],["path",{"d":"M13 2h-2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuTowerControl;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevProtractor = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-protractor-1-a)"}],["path",{"fill":"currentColor","d":"M600 300a300 300 0 1 1-600 0 300 300 0 0 1 600 0"}],["path",{"fill":"currentColor","d":"M600 300v-3a14793 14793 0 0 1-122.3-118.3A230.4 230.4 0 0 0 77 378.5c83.5 88 161.2 168 219.3 221.4l3.70.1a300 300 0 0 0 300-300"}],["path",{"fill":"currentColor","d":"M449.7 324h-295v-1.2a147.5 147.5 0 1 1 295 0zm35-6.6h47a230 230 0 0 0-66.5-152.2l-32.5 32.5-8-7.8 32.5-32.4a230 230 0 0 0-151-60.4v42h-11V97a230 230 0 0 0-150.6 62l29.6 29.6-7.9 7.9-29.7-29.7a230 230 0 0 0-65.1 150.7h43.1v11H71.2q0.2 26 5.8 50.2h449.2a231 231 0 0 0 5.8-50.1h-47.4z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevProtractor;

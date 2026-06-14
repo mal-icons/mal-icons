@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuSplinePointer = createIcon("0 0 24 24", [["path",{"d":"M12.03 12.68a0.50.5 0 0 1 0.65-0.65l9 3.5a0.50.5 0 0 1-0.030.94l-3.44 1.07a1 1 0 0 0-0.660.66l-1.07 3.44a0.50.5 0 0 1-0.940.03z"}],["path",{"d":"M5 17A12 12 0 0 1 17 5"}],["circle",{"cx":"19","cy":"5","r":"2"}],["circle",{"cx":"5","cy":"19","r":"2"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuSplinePointer;

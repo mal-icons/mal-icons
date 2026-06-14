@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-smiley-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcSmiley24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.46 14.49a0.750.75 0 0 1 1.070.17 3.08 3.08 0 0 0 0.570.49A3.38 3.38 0 0 0 12 15.72c0.86 0 1.49-0.28 1.9-0.56a3.08 3.08 0 0 0 0.57-0.49l0.02-0.03a0.750.75 0 0 1 1.20.91l-0.030.03c-0.010.02-0.030.04-0.050.06-0.040.05-0.10.12-0.180.2a4.57 4.57 0 0 1-0.690.57A4.88 4.88 0 0 1 12 17.22a4.88 4.88 0 0 1-2.74-0.81 4.57 4.57 0 0 1-0.69-0.57 3.25 3.25 0 0 1-0.24-0.26c-0.26-0.33-0.22-0.820.12-1.08Z"}],["path",{"d":"M12 1c6.08 0 11 4.93 11 11s-4.92 11-11 11S1 18.08 1 12 5.93 1 12 1ZM2.5 12a9.5 9.5 0 0 0 9.5 9.5 9.5 9.5 0 0 0 9.5-9.5A9.5 9.5 0 0 0 12 2.5 9.5 9.5 0 0 0 2.5 12Z"}],["path",{"d":"M9 10.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0ZM16.25 12a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcSmiley24;

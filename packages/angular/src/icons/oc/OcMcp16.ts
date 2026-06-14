@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-mcp-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcMcp16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.52 1.12a3.58 3.58 0 0 1 6.08 2.98 3.58 3.58 0 0 1 2.98 6.08l-3.29 3.29a0.250.25 0 0 0 0 0.35l0.840.84a0.750.75 0 1 1-1.06 1.06l-0.84-0.84a1.75 1.75 0 0 1 0-2.47L13.52 9.12a2.08 2.08 0 0 0 0-2.94 2.08 2.08 0 0 0-2.94 0L7.73 9.03A0.750.75 0 0 1 6.67 7.97l2.85-2.85a2.08 2.08 0 0 0 0-2.94 2.08 2.08 0 0 0-2.94 0l-4.8 4.8A0.750.75 0 0 1 0.72 5.92Z"}],["path",{"d":"M7.52 3.12a0.750.75 0 1 1 1.06 1.06L5.73 7.03A2.08 2.08 0 0 0 8.67 9.97l2.85-2.85a0.750.75 0 1 1 1.06 1.06l-2.85 2.85A3.58 3.58 0 0 1 4.67 5.97Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcMcp16;

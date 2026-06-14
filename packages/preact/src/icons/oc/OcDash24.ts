@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const OcDash24 = createIcon("0 0 24 24", [["path",{"d":"M4.5 12.75a0.750.75 0 0 1 0.75-0.75h13.5a0.750.75 0 0 1 0 1.5H5.25a0.750.75 0 0 1-0.75-0.75Z"}]]);
+
+export default OcDash24;

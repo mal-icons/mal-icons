@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevTapcartIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M570.9 229.5 405 63.8a99.7 99.7 0 0 0-141.3 0l-73.8 74a164.1 164.1 0 0 1 0 324.3l74.1 74.2a99.7 99.7 0 0 0 141.3 0L571 370.4a99.7 99.7 0 0 0 0-140.9m-383.2-89.4 2.3-2.2a164.2 164.2 0 1 0 0 324.2l-2.3-2.3a226 226 0 0 1 0-319.7"}]]);
+
+export default DevTapcartIcon;

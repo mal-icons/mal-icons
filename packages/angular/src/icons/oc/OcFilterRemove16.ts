@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-filter-remove-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcFilterRemove16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.38 4.57a0.750.75 0 0 0 1.06 0 0.750.75 0 0 0 0-1.06l-0.88-0.880.88-0.88A0.750.75 0 0 0 14.380.68l-0.880.88-0.88-0.88a0.750.75 0 0 0-1.06 1.06l0.880.88-0.880.88a0.750.75 0 0 0 1.06 1.06l0.88-0.880.880.88ZM0.75 3a0.750.75 0 0 0 0 1.5H9A0.750.75 0 0 0 9 3H0.75ZM3 7.75A0.750.75 0 0 1 3.75 7h8.5a0.750.75 0 0 1 0 1.5h-8.5A0.750.75 0 0 1 3 7.75Zm3 4a0.750.75 0 0 1 0.75-0.75h2.5a0.750.75 0 0 1 0 1.5h-2.5a0.750.75 0 0 1-0.75-0.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcFilterRemove16;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuLassoSelect = createIcon("0 0 24 24", [["path",{"d":"M7 22a5 5 0 0 1-2-4"}],["path",{"d":"M7 16.93c0.960.43 1.960.74 2.990.91"}],["path",{"d":"M3.34 14A6.8 6.8 0 0 1 2 10c0-4.42 4.48-8 10-8s10 3.58 10 8a7.19 7.19 0 0 1-0.33 2"}],["path",{"d":"M5 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"}],["path",{"d":"M14.33 22h-0.09a0.350.35 0 0 1-0.24-0.32v-10a0.340.34 0 0 1 0.33-0.34c0.08 0 0.150.030.210.08l7.34 6a0.330.33 0 0 1-0.210.59h-4.49l-2.57 3.85a0.350.35 0 0 1-0.280.14z"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuLassoSelect;

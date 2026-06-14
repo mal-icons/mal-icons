@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-emmet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevEmmet {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M298.5 600a294.3 294.3 0 1 0 0-588.6 294.3 294.3 0 0 0 0 588.6"}],["path",{"fill":"currentColor","d":"M416 297.8 383.2 265l16.9-69.3-70.2 16-31.9-32 157.3-39.2z"}],["path",{"fill":"currentColor","d":"m361.7 515-281-280.9 157.4-39.3 31.8 31.8-112.3 28.1 63.6 63.7 74-17.8-18.7 73 63.7 63.7 28-112.4 32.8 32.8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevEmmet;

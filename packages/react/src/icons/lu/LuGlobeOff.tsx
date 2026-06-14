@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuGlobeOff = createIcon("0 0 24 24", [["path",{"d":"M10.11 4.46A14.5 14.5 0 0 1 12 2a10 10 0 0 1 9.31 13.64"}],["path",{"d":"M15.56 15.56A14.5 14.5 0 0 1 12 22 10 10 0 0 1 4.93 4.93"}],["path",{"d":"M15.89 10.23A14.5 14.5 0 0 0 12 2a10 10 0 0 0-3.640.69"}],["path",{"d":"M17.66 12H22"}],["path",{"d":"M19.07 19.07A10 10 0 0 1 12 22 14.5 14.5 0 0 1 8.44 8.45"}],["path",{"d":"M2 12h10"}],["path",{"d":"m2 2 20 20"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuGlobeOff;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-at",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiAt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 4c-4.41 0-8 3.59-8 8s3.59 8 8 8c1.62 0 3.17-0.48 4.5-1.380.46-0.310.57-0.930.26-1.39-0.31-0.46-0.93-0.57-1.39-0.26-0.990.68-2.16 1.04-3.37 1.04-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6v0.5c0 0.55-0.45 1-1 1s-1-0.45-1-1v-3c0-0.55-0.45-1-1-1-0.44 0-0.80.29-0.940.69-0.58-0.43-1.29-0.69-2.06-0.69-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5c1.05 0 1.98-0.47 2.62-1.20.550.72 1.41 1.2 2.38 1.2 1.65 0 3-1.35 3-3v-0.5c0-4.41-3.59-8-8-8zm0 9.5c-0.83 0-1.5-0.67-1.5-1.5s0.67-1.5 1.5-1.5 1.50.67 1.5 1.5-0.67 1.5-1.5 1.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiAt;

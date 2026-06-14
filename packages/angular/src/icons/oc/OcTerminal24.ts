@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-terminal-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcTerminal24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.25 12a0.750.75 0 0 1-0.220.53l-2.75 2.75a0.750.75 0 0 1-1.06-1.06L7.44 12 5.22 9.78a0.750.75 0 1 1 1.06-1.06l2.75 2.75c0.140.140.220.330.220.53Zm2 2a0.750.75 0 0 0 0 1.5h5a0.750.75 0 0 0 0-1.5h-5Z"}],["path",{"d":"M0 4.75C0 3.780.78 3 1.75 3h20.5c0.97 0 1.750.78 1.75 1.75v14.5A1.75 1.75 0 0 1 22.25 21H1.75A1.75 1.75 0 0 1 0 19.25Zm1.75-0.25a0.250.25 0 0 0-0.250.25v14.5c0 0.140.110.250.250.25h20.5a0.250.25 0 0 0 0.25-0.25V4.75a0.250.25 0 0 0-0.25-0.25Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcTerminal24;

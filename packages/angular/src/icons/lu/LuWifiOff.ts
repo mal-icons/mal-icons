@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-lu-wifi-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LuWifiOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 20h0.01"}],["path",{"d":"M8.5 16.43a5 5 0 0 1 7 0"}],["path",{"d":"M5 12.86a10 10 0 0 1 5.17-2.69"}],["path",{"d":"M19 12.86a10 10 0 0 0-2.01-1.52"}],["path",{"d":"M2 8.82a15 15 0 0 1 4.18-2.64"}],["path",{"d":"M22 8.82a15 15 0 0 0-11.29-3.76"}],["path",{"d":"m2 2 20 20"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LuWifiOff;

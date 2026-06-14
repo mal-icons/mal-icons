@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-key-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcKey16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.5 0a5.5 5.5 0 1 1-1.29 10.85l-0.930.93a0.750.75 0 0 1-0.530.22H7v0.75a0.750.75 0 0 1-0.220.53l-0.50.5a0.750.75 0 0 1-0.530.22H5v0.75a0.750.75 0 0 1-0.220.53l-0.50.5a0.750.75 0 0 1-0.530.22h-2A1.75 1.75 0 0 1 0 14.25v-2c0-0.20.08-0.390.22-0.53l4.93-4.93A5.5 5.5 0 0 1 10.5 0Zm-4 5.5c00.430.070.860.21 1.27a0.750.75 0 0 1-0.180.77L1.5 12.56v1.69c0 0.140.110.250.250.25h1.69l0.06-0.06v-1.19a0.750.75 0 0 1 0.75-0.75h1.19l0.06-0.06v-1.19a0.750.75 0 0 1 0.75-0.75h1.19l1.02-1.02a0.750.75 0 0 1 0.77-0.18A4 4 0 1 0 6.5 5.5ZM11 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcKey16;

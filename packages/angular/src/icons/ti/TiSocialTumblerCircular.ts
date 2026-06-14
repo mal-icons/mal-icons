@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-social-tumbler-circular",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiSocialTumblerCircular {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.38 15.59v-1.23c-0.40.27-0.790.4-1.170.4-0.18 0-0.38-0.06-0.6-0.17-0.13-0.09-0.21-0.19-0.23-0.3-0.07-0.13-0.1-0.42-0.1-0.87v-1.97h1.83v-1.23h-1.83v-1.97h-1.07c-0.090.47-0.180.8-0.27 1-0.110.24-0.290.47-0.530.67-0.240.2-0.50.35-0.770.43v1.1h0.83v2.7c0 0.310.040.580.130.80.070.180.20.360.40.530.150.160.380.290.670.40.360.090.670.130.930.130.31 0 0.6-0.030.87-0.10.31-0.070.61-0.180.9-0.33"}],["path",{"d":"M12 21c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9zm0-16c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiSocialTumblerCircular;

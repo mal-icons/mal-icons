@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-mistral-ai-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevMistralAiIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M545.5 27.3H436.4v109h109z"}],["path",{"fill":"currentColor","d":"M600 27.3H491v109h109z"}],["path",{"fill":"currentColor","d":"M109 27.3H0v109h109zm0 109.1H0v109h109zm0 109.1H0v109h109zm0 109H0v109.1h109zm0 109.1H0v109.1h109z"}],["path",{"fill":"currentColor","d":"M163.6 27.3h-109v109h109z"}],["path",{"fill":"currentColor","d":"M600 136.4H491v109h109zm-436.4 0h-109v109h109z"}],["path",{"fill":"currentColor","d":"M436.4 136.4H327.3v109h109z"}],["path",{"fill":"currentColor","d":"M491 136.4H381.7v109H491zm-218.3 0h-109v109h109z"}],["path",{"fill":"currentColor","d":"M381.8 245.5h-109v109h109z"}],["path",{"fill":"currentColor","d":"M491 245.5H381.7v109H491zm-218.3 0h-109v109h109z"}],["path",{"fill":"currentColor","d":"M327.3 354.5H218.2v109.1h109z"}],["path",{"fill":"currentColor","d":"M381.8 354.5h-109v109.1h109z"}],["path",{"fill":"currentColor","d":"M600 245.5H491v109h109zm-436.4 0h-109v109h109z"}],["path",{"fill":"currentColor","d":"M545.5 354.5H436.4v109.1h109z"}],["path",{"fill":"currentColor","d":"M600 354.5H491v109.1h109z"}],["path",{"fill":"currentColor","d":"M545.5 463.6H436.4v109.1h109z"}],["path",{"fill":"currentColor","d":"M163.6 354.5h-109v109.1h109z"}],["path",{"fill":"currentColor","d":"M600 463.6H491v109.1h109zm-436.4 0h-109v109.1h109z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevMistralAiIcon;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-book",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiBook {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18 3h-11c-0.26 0-0.520.11-0.710.29l-3 3-0.060.06c-0.140.17-0.220.37-0.230.6l00.05v10.99c0 1.65 1.35 3 3 3h9c1.3 0 2.42-0.84 2.83-2h0.67c1.4 0 2.5-1.32 2.5-3v-10c0-1.65-1.35-3-3-3zm-12 16c-0.55 0-1-0.45-1-1v-10h2v11h-1zm10-1c0 0.55-0.45 1-1 1h-7v-11h7c0.55 0 1 0.45 1 1v9zm3-2c0 0.62-0.32 1-0.5 1h-0.5v-8c0-1.65-1.35-3-3-3h-8.59l1-1h10.59c0.55 0 1 0.45 1 1v10z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiBook;

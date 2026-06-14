@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-trash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiTrash {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18 7h-1v-1c0-1.1-0.9-2-2-2h-7c-1.1 0-2 0.9-2 2v1h-1c-0.55 0-1 0.45-1 1s0.45 1 1 1v8c0 2.21 1.79 4 4 4h5c2.21 0 4-1.79 4-4v-8c0.55 0 1-0.45 1-1s-0.45-1-1-1zm-10-1h7v1h-7v-1zm8 11c0 1.1-0.9 2-2 2h-5c-1.1 0-2-0.9-2-2v-8h9v8zM8.5 10.5c-0.28 0-0.50.23-0.50.5v6c0 0.280.230.50.50.5s0.5-0.220.5-0.5v-6c0-0.28-0.22-0.5-0.5-0.5zM10.5 10.5c-0.28 0-0.50.23-0.50.5v6c0 0.280.230.50.50.5s0.5-0.220.5-0.5v-6c0-0.28-0.22-0.5-0.5-0.5zM12.5 10.5c-0.28 0-0.50.23-0.50.5v6c0 0.280.230.50.50.5s0.5-0.220.5-0.5v-6c0-0.28-0.22-0.5-0.5-0.5zM14.5 10.5c-0.28 0-0.50.23-0.50.5v6c0 0.280.230.50.50.5s0.5-0.220.5-0.5v-6c0-0.28-0.22-0.5-0.5-0.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiTrash;

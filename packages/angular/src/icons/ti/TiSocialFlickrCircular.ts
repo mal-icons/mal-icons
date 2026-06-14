@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-social-flickr-circular",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiSocialFlickrCircular {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 21c-2.49 0-4.63-0.89-6.38-2.65-1.74-1.75-2.62-3.89-2.62-6.35 0-2.490.88-4.63 2.63-6.37 1.74-1.74 3.89-2.62 6.37-2.62 2.47 0 4.60.88 6.35 2.62 1.76 1.74 2.65 3.89 2.65 6.38 0 2.47-0.89 4.6-2.64 6.36-1.75 1.75-3.89 2.64-6.36 2.64zm0-16c-1.97 0-3.590.67-4.96 2.04-1.37 1.37-2.04 2.99-2.04 4.96 0 1.940.67 3.56 2.04 4.95 1.37 1.38 2.99 2.06 4.96 2.06 1.94 0 3.56-0.67 4.94-2.06 1.39-1.38 2.06-3 2.06-4.94 0-1.96-0.67-3.58-2.06-4.96-1.38-1.37-3-2.04-4.94-2.04zM9 14.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5zm0-4c-0.83 0-1.50.67-1.5 1.5s0.67 1.5 1.5 1.5 1.5-0.67 1.5-1.5-0.67-1.5-1.5-1.5zM15 14.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiSocialFlickrCircular;

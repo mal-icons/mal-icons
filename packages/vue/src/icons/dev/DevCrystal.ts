@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevCrystal = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-crystal-1-a)"}],["path",{"fill":"currentColor","d":"M218.8 0 0 219.7l80.3 300.9L382 600l218-220.6L520.6 83zm-203 223.2 293-76.7-80.3 292z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevCrystal;

@@ -33,6 +33,14 @@
       "bun": "./src/index.ts",
       "import": "./src/index.ts"
     },
+    "./ad": {
+      "bun": "./src/icons/ad/index.ts",
+      "import": "./src/icons/ad/index.ts"
+    },
+    "./ad/*": {
+      "bun": "./src/icons/ad/*.ts",
+      "import": "./src/icons/ad/*.ts"
+    },
     "./ci": {
       "bun": "./src/icons/ci/index.ts",
       "import": "./src/icons/ci/index.ts"
@@ -40,6 +48,14 @@
     "./ci/*": {
       "bun": "./src/icons/ci/*.ts",
       "import": "./src/icons/ci/*.ts"
+    },
+    "./dev": {
+      "bun": "./src/icons/dev/index.ts",
+      "import": "./src/icons/dev/index.ts"
+    },
+    "./dev/*": {
+      "bun": "./src/icons/dev/*.ts",
+      "import": "./src/icons/dev/*.ts"
     },
     "./fa": {
       "bun": "./src/icons/fa/index.ts",
@@ -77,9 +93,41 @@
       "bun": "./src/icons/io/index.ts",
       "import": "./src/icons/io/index.ts"
     },
+    "./lu": {
+      "bun": "./src/icons/lu/index.ts",
+      "import": "./src/icons/lu/index.ts"
+    },
+    "./oc": {
+      "bun": "./src/icons/oc/index.ts",
+      "import": "./src/icons/oc/index.ts"
+    },
     "./io/*": {
       "bun": "./src/icons/io/*.ts",
       "import": "./src/icons/io/*.ts"
+    },
+    "./lu/*": {
+      "bun": "./src/icons/lu/*.ts",
+      "import": "./src/icons/lu/*.ts"
+    },
+    "./oc/*": {
+      "bun": "./src/icons/oc/*.ts",
+      "import": "./src/icons/oc/*.ts"
+    },
+    "./ti": {
+      "bun": "./src/icons/ti/index.ts",
+      "import": "./src/icons/ti/index.ts"
+    },
+    "./ti/*": {
+      "bun": "./src/icons/ti/*.ts",
+      "import": "./src/icons/ti/*.ts"
+    },
+    "./wi": {
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./src/icons/wi/index.ts"
+    },
+    "./wi/*": {
+      "bun": "./src/icons/wi/*.ts",
+      "import": "./src/icons/wi/*.ts"
     },
     "./package.json": "./package.json"
   },

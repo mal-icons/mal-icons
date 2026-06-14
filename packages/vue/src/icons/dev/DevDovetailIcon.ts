@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevDovetailIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"m562.5 375-131.2 75V300L300 224.2 431.3 150l131.2 75zM300 225l-131.3 75V150L37.5 75 168.8 0 300 75zm0 300-131.3 75V450L37.6 375l131.2-75L300 375z"}]]);
+
+export default DevDovetailIcon;

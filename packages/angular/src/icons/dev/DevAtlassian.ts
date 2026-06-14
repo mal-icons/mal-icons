@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-atlassian",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevAtlassian {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-atlassian-2-a)"}],["path",{"fill":"currentColor","d":"M178 277.1c-9-9.6-23-9-29.1 3.2l-147 294a17.6 17.6 0 0 0 15.7 25.5h204.8A17 17 0 0 0 238 590c44.1-91.3 17.4-230.1-60.2-313"}],["path",{"fill":"currentColor","d":"M285.8 9.6c-82.2 130.3-76.8 274.6-22.6 383L361.9 590c3 6 9 9.7 15.8 9.7h204.7a17.6 17.6 0 0 0 15.7-25.5L315.7 9.5c-6.2-12.3-21.9-12.5-29.90.1"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevAtlassian;

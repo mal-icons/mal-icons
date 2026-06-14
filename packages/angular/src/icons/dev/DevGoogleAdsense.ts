@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-google-adsense",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevGoogleAdsense {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M379.2 180a96.5 96.5 0 0 0-36-132.6 99 99 0 0 0-137.6 42l-91.8 157q-3.1 4.5-5.6 9.5L12.9 420.4l170.3 95.4 94.8-163q3.1-4.6 5.6-9.7l91.7-157z"}],["path",{"fill":"currentColor","d":"M184 515.3a99 99 0 0 1-134.7 37.4A98 98 0 0 1 13 419a98.3 98.3 0 0 1 134-37.4 98 98 0 0 1 37 133.6"}],["path",{"fill":"currentColor","d":"M551.4 211.2a97.4 97.4 0 0 0-132.8 35.4l-97.2 168A97 97 0 0 0 356.7 547l0.30.2a97.4 97.4 0 0 0 132.8-35.5l97.2-168a97 97 0 0 0-35.6-132.4"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevGoogleAdsense;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevDropbox = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M150 45 0 140.7l150 95.6 150-95.6zm300 0-150 95.6 150 95.6 150-95.6z"}],["path",{"fill":"currentColor","d":"m0 331.8 150 95.5 150-95.5-150-95.6zm450-95.6-150 95.6 150 95.5 150-95.5zM150 459.4l150 95.5 150-95.5-150-95.6z"}]]);
+
+export default DevDropbox;

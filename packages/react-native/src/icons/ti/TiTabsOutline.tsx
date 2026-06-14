@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TiTabsOutline = createIcon("0 0 24 24", [["path",{"d":"M18 4h-10c-1.1 0-2 0.9-2 2v2h-1c-1.1 0-2 0.9-2 2v9c0 1.10.9 2 2 2h9c1.1 0 2-0.9 2-2v-1h2c1.1 0 2-0.9 2-2v-10c0-1.1-0.9-2-2-2zm-13 15v-9h8.5c0.28 0 0.50.230.50.5v8.5h-9zm13-3h-3v-5.5c0-0.83-0.67-1.5-1.5-1.5h-5.5v-3h10v10z"}]]);
+
+export default TiTabsOutline;

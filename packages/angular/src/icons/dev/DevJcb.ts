@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-jcb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevJcb {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M600 437.9a93.3 93.3 0 0 1-93.2 93.2H0V162a93.3 93.3 0 0 1 93.2-93.2H600z"}],["path",{"fill":"currentColor","d":"M435 343.3h38.5l4.7-0.4c7.4-1.5 13.6-8 13.6-17.2 0-8.8-6.2-15.4-13.6-17.3-1-0.3-3.3-0.3-4.7-0.3H435z"}],["path",{"fill":"currentColor","d":"M469 100.1a67 67 0 0 0-66.7 66.8v69.3h94.3c2.2 0 4.7 0 6.60.4 21.2 1 37 12 37 31.1 0 15-10.6 27.9-30.4 30.5v0.7c21.6 1.5 38.1 13.6 38.1 32.3 0 20.1-18.3 33.3-42.5 33.3H402v135.7h97.9a67 67 0 0 0 66.7-66.7V100.1z"}],["path",{"fill":"currentColor","d":"M487 272.1c0-8.8-6.2-14.6-13.5-15.7-0.8 0-2.6-0.4-3.7-0.4H435v32.3h34.8c1.1 0 3.3 0 3.7-0.4 7.3-1.1 13.5-7 13.5-15.8"}],["path",{"fill":"currentColor","d":"M100.1 100.1A67 67 0 0 0 33.4 167v164.6a132 132 0 0 0 57.6 15c23 0 35.5-13.9 35.5-33v-77.7h57.2v77.4c0 30-18.7 54.6-82.1 54.6-38.5 0-68.6-8.4-68.6-8.4V500h98a67 67 0 0 0 66.7-66.8v-333z"}],["path",{"fill":"currentColor","d":"M284.6 100.1a67 67 0 0 0-66.8 66.8v87.3c17-14.3 46.3-23.5 93.6-21.3 25.3 1 52.4 8 52.4 8v28.3a127 127 0 0 0-50.6-14.7c-36-2.5-57.6 15-57.6 45.9 0 31.1 21.7 48.7 57.6 45.8 21-1.5 37-8 50.6-14.7v28.3s-26.8 7-52.4 8c-47.3 2.3-76.7-7-93.6-21.2v154h98a67 67 0 0 0 66.7-66.7V100z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevJcb;

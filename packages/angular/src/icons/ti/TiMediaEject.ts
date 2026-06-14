@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-media-eject",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiMediaEject {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 16h-10c-1.1 0-2 0.9-2 2 0 1.10.9 2 2 2h10c1.1 0 2-0.9 2-2 0-1.1-0.9-2-2-2zM18.43 10.6c-2.57-2.64-6.43-6.6-6.43-6.6s-3.86 3.96-6.43 6.6c-0.350.36-0.570.85-0.57 1.4 0 1.10.9 2 2 2h10c1.1 0 2-0.9 2-2 0-0.54-0.22-1.03-0.57-1.4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiMediaEject;

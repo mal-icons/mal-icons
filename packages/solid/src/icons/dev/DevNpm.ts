@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevNpm = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M184.6 396.2h77v-38.5h76.9V203.8H184.6zm77-153.9H300v77h-38.5zm107.6-38.5v153.9h77V242.3h38.4v115.4h38.5V242.3h38.4v115.4H600V203.8zM0 357.7h77V242.3h38.4v115.4h38.4V203.8H0z"}]]);
+
+export default DevNpm;

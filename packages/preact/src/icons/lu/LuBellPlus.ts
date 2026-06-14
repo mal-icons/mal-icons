@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuBellPlus = createIcon("0 0 24 24", [["path",{"d":"M10.27 21a2 2 0 0 0 3.46 0"}],["path",{"d":"M15 8h6"}],["path",{"d":"M18 5v6"}],["path",{"d":"M20 14.46a9 9 0 0 0 0.740.86A1 1 0 0 1 20 17H4a1 1 0 0 1-0.74-1.67C4.59 13.96 6 12.5 6 8a6 6 0 0 1 8.75-5.33"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuBellPlus;

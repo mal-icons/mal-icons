@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevFlattr = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-flattr-3-a)"}],["path",{"fill":"currentColor","d":"M215.5 0C73.1 0 0.5 82.10.5 235.5v321.7l139.4-139.9V254c0-63.5 16.8-104 73.2-113 19.7-3.9 60.7-2.5 86.8-2.5v97c0 1 0.1 2.50.3 3.3 1.1 4 4.7 6.8 8.9 6.8q3.5 0 6.9-3.5L557.6 0z"}],["path",{"fill":"currentColor","d":"M460 182.7V346c0 63.5-16.7 104-73.1 113-19.7 3.9-60.7 2.5-86.8 2.5v-97c0-0.9-0.1-2.5-0.3-3.3a9 9 0 0 0-8.9-6.8q-3.5 0-6.9 3.5L42.4 600h342.1c142.4 0 215-82.1 215-235.5V42.8z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevFlattr;

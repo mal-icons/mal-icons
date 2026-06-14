@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevBitbucket = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M19.5 30.2A19.2 19.2 0 0 0 0.2 52.5L82 548a26 26 0 0 0 25.5 21.9H499c9.5 0 17.7-6.8 19.2-16.2l81.7-501a19.2 19.2 0 0 0-19.3-22.3zm343.6 358h-125l-33.8-176.7h189z"}],["path",{"fill":"currentColor","d":"M573.3 211.3H393l-30.2 176.6H237.9l-147.4 175a26 26 0 0 0 16.8 6.3h391.3c9.50.1 17.7-6.7 19.2-16.1z"}]]);
+
+export default DevBitbucket;

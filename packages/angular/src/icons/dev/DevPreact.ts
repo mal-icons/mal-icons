@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-preact",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevPreact {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m300 0 259.8 150v300L300 600 40.2 450V150z"}],["path",{"fill":"currentColor","d":"M111 447.5c34.5 44.2 144.3 10.5 247.9-70.4s162.9-179.3 128.3-223.6S343 143 239.2 224C135.8 305 76.5 403.3 111 447.5m14.7-11.5c-11.4-14.7-6.4-43.5 15.4-79.7 23-38.1 62-80.3 109.7-117.6s98-65 140.6-78c40.5-12.4 69.6-10.3 81 4.4 11.5 14.6 6.5 43.4-15.3 79.7-23 38.1-62 80.2-109.7 117.5s-98 65-140.7 78c-40.4 12.5-69.5 10.4-81-4.3"}],["path",{"fill":"currentColor","d":"M487.2 447.5C521.8 403.3 462.5 305 359 224s-213.4-114.7-248-70.5 24.8 142.6 128.4 223.6 213.4 114.6 248 70.4M472.5 436c-11.5 14.7-40.6 16.8-81 4.4-42.6-13.1-93-40.8-140.7-78-47.7-37.4-86.7-79.5-109.7-117.6-21.8-36.3-26.8-65-15.4-79.7s40.6-16.8 81-4.4c42.6 13 93 40.7 140.7 78S434 318.2 457 356.3c21.8 36.2 26.8 65 15.4 79.7"}],["path",{"fill":"currentColor","d":"M299 340.3a39.8 39.8 0 1 0 0-79.6 39.8 39.8 0 0 0 0 79.6"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevPreact;

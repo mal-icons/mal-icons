@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuCrown = createIcon("0 0 24 24", [["path",{"d":"M11.56 3.27a0.50.5 0 0 1 0.88 0L15.39 8.87a1 1 0 0 0 1.520.29L21.18 5.5a0.50.5 0 0 1 0.80.52l-2.83 10.25a1 1 0 0 1-0.960.73H5.81a1 1 0 0 1-0.96-0.73L2.02 6.02a0.50.5 0 0 1 0.8-0.52l4.28 3.66a1 1 0 0 0 1.52-0.29z"}],["path",{"d":"M5 21h14"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuCrown;

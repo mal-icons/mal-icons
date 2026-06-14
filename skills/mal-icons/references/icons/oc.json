@@ -1,0 +1,7903 @@
+{
+  "set": {
+    "id": "oc",
+    "name": "Octicons",
+    "prefix": "Oc",
+    "version": "19.28.1",
+    "license": "MIT",
+    "repo": "primer/octicons",
+    "style": "fill",
+    "viewBox": "0 0 16 16"
+  },
+  "count": 733,
+  "icons": [
+    {
+      "name": "OcAccessibility16",
+      "tags": [
+        "16",
+        "accessibility",
+        "accessibility16",
+        "fill"
+      ],
+      "description": "Accessibility 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAccessibility24",
+      "tags": [
+        "24",
+        "accessibility",
+        "accessibility24",
+        "fill"
+      ],
+      "description": "Accessibility 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAccessibilityInset16",
+      "tags": [
+        "16",
+        "accessibility",
+        "fill",
+        "inset",
+        "inset16"
+      ],
+      "description": "Accessibility Inset 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAccessibilityInset24",
+      "tags": [
+        "24",
+        "accessibility",
+        "fill",
+        "inset",
+        "inset24"
+      ],
+      "description": "Accessibility Inset 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAgent16",
+      "tags": [
+        "16",
+        "agent",
+        "agent16",
+        "fill"
+      ],
+      "description": "Agent 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAgent24",
+      "tags": [
+        "24",
+        "agent",
+        "agent24",
+        "fill"
+      ],
+      "description": "Agent 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAiModel16",
+      "tags": [
+        "16",
+        "ai",
+        "fill",
+        "model",
+        "model16"
+      ],
+      "description": "Ai Model 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAiModel24",
+      "tags": [
+        "24",
+        "ai",
+        "fill",
+        "model",
+        "model24"
+      ],
+      "description": "Ai Model 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAlert16",
+      "tags": [
+        "16",
+        "alert",
+        "alert16",
+        "fill",
+        "warning"
+      ],
+      "description": "Alert 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAlert24",
+      "tags": [
+        "24",
+        "alert",
+        "alert24",
+        "fill",
+        "warning"
+      ],
+      "description": "Alert 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAlertFill12",
+      "tags": [
+        "12",
+        "alert",
+        "fill",
+        "fill12",
+        "warning"
+      ],
+      "description": "Alert Fill 12 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAlertFill16",
+      "tags": [
+        "16",
+        "alert",
+        "fill",
+        "fill16",
+        "warning"
+      ],
+      "description": "Alert Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcAlertFill24",
+      "tags": [
+        "24",
+        "alert",
+        "fill",
+        "fill24",
+        "warning"
+      ],
+      "description": "Alert Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcApps16",
+      "tags": [
+        "16",
+        "apps",
+        "apps16",
+        "fill"
+      ],
+      "description": "Apps 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcApps24",
+      "tags": [
+        "24",
+        "apps",
+        "apps24",
+        "fill"
+      ],
+      "description": "Apps 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcArchive16",
+      "tags": [
+        "16",
+        "archive",
+        "archive16",
+        "fill"
+      ],
+      "description": "Archive 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcArchive24",
+      "tags": [
+        "24",
+        "archive",
+        "archive24",
+        "fill"
+      ],
+      "description": "Archive 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcArrowBoth16",
+      "tags": [
+        "16",
+        "arrow",
+        "both",
+        "both16",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowBoth24",
+      "tags": [
+        "24",
+        "arrow",
+        "both",
+        "both24",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowDown16",
+      "tags": [
+        "16",
+        "arrow",
+        "down",
+        "down16",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowDown24",
+      "tags": [
+        "24",
+        "arrow",
+        "down",
+        "down24",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowDownLeft16",
+      "tags": [
+        "16",
+        "arrow",
+        "down",
+        "fill",
+        "left",
+        "left16"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowDownLeft24",
+      "tags": [
+        "24",
+        "arrow",
+        "down",
+        "fill",
+        "left",
+        "left24"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowDownRight16",
+      "tags": [
+        "16",
+        "arrow",
+        "down",
+        "fill",
+        "right",
+        "right16"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowDownRight24",
+      "tags": [
+        "24",
+        "arrow",
+        "down",
+        "fill",
+        "right",
+        "right24"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowLeft16",
+      "tags": [
+        "16",
+        "arrow",
+        "fill",
+        "left",
+        "left16"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowLeft24",
+      "tags": [
+        "24",
+        "arrow",
+        "fill",
+        "left",
+        "left24"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowRight16",
+      "tags": [
+        "16",
+        "arrow",
+        "fill",
+        "right",
+        "right16"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowRight24",
+      "tags": [
+        "24",
+        "arrow",
+        "fill",
+        "right",
+        "right24"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowSwitch16",
+      "tags": [
+        "16",
+        "arrow",
+        "fill",
+        "switch",
+        "switch16"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowSwitch24",
+      "tags": [
+        "24",
+        "arrow",
+        "fill",
+        "switch",
+        "switch24"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowUp16",
+      "tags": [
+        "16",
+        "arrow",
+        "fill",
+        "like",
+        "up",
+        "up16"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowUp24",
+      "tags": [
+        "24",
+        "arrow",
+        "fill",
+        "like",
+        "up",
+        "up24"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowUpLeft16",
+      "tags": [
+        "16",
+        "arrow",
+        "fill",
+        "left",
+        "left16",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowUpLeft24",
+      "tags": [
+        "24",
+        "arrow",
+        "fill",
+        "left",
+        "left24",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowUpRight16",
+      "tags": [
+        "16",
+        "arrow",
+        "fill",
+        "like",
+        "right",
+        "right16",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcArrowUpRight24",
+      "tags": [
+        "24",
+        "arrow",
+        "fill",
+        "like",
+        "right",
+        "right24",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "OcBeaker16",
+      "tags": [
+        "16",
+        "beaker",
+        "beaker16",
+        "fill"
+      ],
+      "description": "Beaker 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBeaker24",
+      "tags": [
+        "24",
+        "beaker",
+        "beaker24",
+        "fill"
+      ],
+      "description": "Beaker 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBell16",
+      "tags": [
+        "16",
+        "bell",
+        "bell16",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "OcBell24",
+      "tags": [
+        "24",
+        "bell",
+        "bell24",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "OcBellFill16",
+      "tags": [
+        "16",
+        "bell",
+        "fill",
+        "fill16",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "OcBellFill24",
+      "tags": [
+        "24",
+        "bell",
+        "fill",
+        "fill24",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "OcBellSlash16",
+      "tags": [
+        "16",
+        "bell",
+        "fill",
+        "notification",
+        "slash",
+        "slash16"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "OcBellSlash24",
+      "tags": [
+        "24",
+        "bell",
+        "fill",
+        "notification",
+        "slash",
+        "slash24"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "OcBlocked16",
+      "tags": [
+        "16",
+        "blocked",
+        "blocked16",
+        "fill"
+      ],
+      "description": "Blocked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBlocked24",
+      "tags": [
+        "24",
+        "blocked",
+        "blocked24",
+        "fill"
+      ],
+      "description": "Blocked 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBold16",
+      "tags": [
+        "16",
+        "bold",
+        "bold16",
+        "fill"
+      ],
+      "description": "Bold 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBold24",
+      "tags": [
+        "24",
+        "bold",
+        "bold24",
+        "fill"
+      ],
+      "description": "Bold 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBook16",
+      "tags": [
+        "16",
+        "book",
+        "book16",
+        "fill"
+      ],
+      "description": "Book 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBook24",
+      "tags": [
+        "24",
+        "book",
+        "book24",
+        "fill"
+      ],
+      "description": "Book 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBookLocked16",
+      "tags": [
+        "16",
+        "book",
+        "fill",
+        "locked",
+        "locked16"
+      ],
+      "description": "Book Locked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBookmark16",
+      "tags": [
+        "16",
+        "bookmark",
+        "bookmark16",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBookmark24",
+      "tags": [
+        "24",
+        "bookmark",
+        "bookmark24",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBookmarkFill24",
+      "tags": [
+        "24",
+        "bookmark",
+        "fill",
+        "fill24"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBookmarkFilled16",
+      "tags": [
+        "16",
+        "bookmark",
+        "fill",
+        "filled",
+        "filled16"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBookmarkSlash16",
+      "tags": [
+        "16",
+        "bookmark",
+        "fill",
+        "slash",
+        "slash16"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBookmarkSlash24",
+      "tags": [
+        "24",
+        "bookmark",
+        "fill",
+        "slash",
+        "slash24"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBookmarkSlashFill16",
+      "tags": [
+        "16",
+        "bookmark",
+        "fill",
+        "fill16",
+        "slash"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBookmarkSlashFill24",
+      "tags": [
+        "24",
+        "bookmark",
+        "fill",
+        "fill24",
+        "slash"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "OcBooleanOff16",
+      "tags": [
+        "16",
+        "boolean",
+        "fill",
+        "hide",
+        "off",
+        "off16"
+      ],
+      "description": "Boolean Off 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBooleanOff24",
+      "tags": [
+        "24",
+        "boolean",
+        "fill",
+        "hide",
+        "off",
+        "off24"
+      ],
+      "description": "Boolean Off 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBooleanOn16",
+      "tags": [
+        "16",
+        "boolean",
+        "fill",
+        "on",
+        "on16"
+      ],
+      "description": "Boolean On 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBooleanOn24",
+      "tags": [
+        "24",
+        "boolean",
+        "fill",
+        "on",
+        "on24"
+      ],
+      "description": "Boolean On 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBriefcase16",
+      "tags": [
+        "16",
+        "briefcase",
+        "briefcase16",
+        "fill"
+      ],
+      "description": "Briefcase 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBriefcase24",
+      "tags": [
+        "24",
+        "briefcase",
+        "briefcase24",
+        "fill"
+      ],
+      "description": "Briefcase 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBroadcast16",
+      "tags": [
+        "16",
+        "broadcast",
+        "broadcast16",
+        "fill"
+      ],
+      "description": "Broadcast 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBroadcast24",
+      "tags": [
+        "24",
+        "broadcast",
+        "broadcast24",
+        "fill"
+      ],
+      "description": "Broadcast 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBrowser16",
+      "tags": [
+        "16",
+        "browser",
+        "browser16",
+        "fill"
+      ],
+      "description": "Browser 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBrowser24",
+      "tags": [
+        "24",
+        "browser",
+        "browser24",
+        "fill"
+      ],
+      "description": "Browser 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBug16",
+      "tags": [
+        "16",
+        "bug",
+        "bug16",
+        "fill"
+      ],
+      "description": "Bug 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcBug24",
+      "tags": [
+        "24",
+        "bug",
+        "bug24",
+        "fill"
+      ],
+      "description": "Bug 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCache16",
+      "tags": [
+        "16",
+        "cache",
+        "cache16",
+        "fill"
+      ],
+      "description": "Cache 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCache24",
+      "tags": [
+        "24",
+        "cache",
+        "cache24",
+        "fill"
+      ],
+      "description": "Cache 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCalendar16",
+      "tags": [
+        "16",
+        "calendar",
+        "calendar16",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "OcCalendar24",
+      "tags": [
+        "24",
+        "calendar",
+        "calendar24",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "OcCheck16",
+      "tags": [
+        "16",
+        "check",
+        "check16",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcCheck24",
+      "tags": [
+        "24",
+        "check",
+        "check24",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcCheckbox16",
+      "tags": [
+        "16",
+        "checkbox",
+        "checkbox16",
+        "fill"
+      ],
+      "description": "Checkbox 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCheckbox24",
+      "tags": [
+        "24",
+        "checkbox",
+        "checkbox24",
+        "fill"
+      ],
+      "description": "Checkbox 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCheckboxFill16",
+      "tags": [
+        "16",
+        "checkbox",
+        "fill",
+        "fill16"
+      ],
+      "description": "Checkbox Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCheckboxFill24",
+      "tags": [
+        "24",
+        "checkbox",
+        "fill",
+        "fill24"
+      ],
+      "description": "Checkbox Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCheckCircle16",
+      "tags": [
+        "16",
+        "check",
+        "circle",
+        "circle16",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcCheckCircle24",
+      "tags": [
+        "24",
+        "check",
+        "circle",
+        "circle24",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcCheckCircleFill12",
+      "tags": [
+        "12",
+        "check",
+        "circle",
+        "fill",
+        "fill12"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcCheckCircleFill16",
+      "tags": [
+        "16",
+        "check",
+        "circle",
+        "fill",
+        "fill16"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcCheckCircleFill24",
+      "tags": [
+        "24",
+        "check",
+        "circle",
+        "fill",
+        "fill24"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcChecklist16",
+      "tags": [
+        "16",
+        "checklist",
+        "checklist16",
+        "fill"
+      ],
+      "description": "Checklist 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcChecklist24",
+      "tags": [
+        "24",
+        "checklist",
+        "checklist24",
+        "fill"
+      ],
+      "description": "Checklist 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcChevronDown12",
+      "tags": [
+        "12",
+        "chevron",
+        "down",
+        "down12",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronDown16",
+      "tags": [
+        "16",
+        "chevron",
+        "down",
+        "down16",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronDown24",
+      "tags": [
+        "24",
+        "chevron",
+        "down",
+        "down24",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronLeft12",
+      "tags": [
+        "12",
+        "chevron",
+        "fill",
+        "left",
+        "left12"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronLeft16",
+      "tags": [
+        "16",
+        "chevron",
+        "fill",
+        "left",
+        "left16"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronLeft24",
+      "tags": [
+        "24",
+        "chevron",
+        "fill",
+        "left",
+        "left24"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronRight12",
+      "tags": [
+        "12",
+        "chevron",
+        "fill",
+        "right",
+        "right12"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronRight16",
+      "tags": [
+        "16",
+        "chevron",
+        "fill",
+        "right",
+        "right16"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronRight24",
+      "tags": [
+        "24",
+        "chevron",
+        "fill",
+        "right",
+        "right24"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronUp12",
+      "tags": [
+        "12",
+        "chevron",
+        "fill",
+        "like",
+        "up",
+        "up12"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronUp16",
+      "tags": [
+        "16",
+        "chevron",
+        "fill",
+        "like",
+        "up",
+        "up16"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcChevronUp24",
+      "tags": [
+        "24",
+        "chevron",
+        "fill",
+        "like",
+        "up",
+        "up24"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "OcCircle16",
+      "tags": [
+        "16",
+        "circle",
+        "circle16",
+        "fill"
+      ],
+      "description": "Circle 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCircle24",
+      "tags": [
+        "24",
+        "circle",
+        "circle24",
+        "fill"
+      ],
+      "description": "Circle 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCircleSlash16",
+      "tags": [
+        "16",
+        "circle",
+        "fill",
+        "slash",
+        "slash16"
+      ],
+      "description": "Circle Slash 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCircleSlash24",
+      "tags": [
+        "24",
+        "circle",
+        "fill",
+        "slash",
+        "slash24"
+      ],
+      "description": "Circle Slash 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcClock16",
+      "tags": [
+        "16",
+        "clock",
+        "clock16",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "OcClock24",
+      "tags": [
+        "24",
+        "clock",
+        "clock24",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "OcClockFill16",
+      "tags": [
+        "16",
+        "clock",
+        "fill",
+        "fill16"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "OcClockFill24",
+      "tags": [
+        "24",
+        "clock",
+        "fill",
+        "fill24"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "OcCloud16",
+      "tags": [
+        "16",
+        "cloud",
+        "cloud16",
+        "fill"
+      ],
+      "description": "Cloud 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCloud24",
+      "tags": [
+        "24",
+        "cloud",
+        "cloud24",
+        "fill"
+      ],
+      "description": "Cloud 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCloudOffline16",
+      "tags": [
+        "16",
+        "cloud",
+        "fill",
+        "offline",
+        "offline16"
+      ],
+      "description": "Cloud Offline 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCloudOffline24",
+      "tags": [
+        "24",
+        "cloud",
+        "fill",
+        "offline",
+        "offline24"
+      ],
+      "description": "Cloud Offline 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCode16",
+      "tags": [
+        "16",
+        "code",
+        "code16",
+        "fill"
+      ],
+      "description": "Code 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCode24",
+      "tags": [
+        "24",
+        "code",
+        "code24",
+        "fill"
+      ],
+      "description": "Code 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodeOfConduct16",
+      "tags": [
+        "16",
+        "code",
+        "conduct",
+        "conduct16",
+        "fill",
+        "of"
+      ],
+      "description": "Code Of Conduct 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodeOfConduct24",
+      "tags": [
+        "24",
+        "code",
+        "conduct",
+        "conduct24",
+        "fill",
+        "of"
+      ],
+      "description": "Code Of Conduct 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodeReview16",
+      "tags": [
+        "16",
+        "code",
+        "fill",
+        "review",
+        "review16"
+      ],
+      "description": "Code Review 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodeReview24",
+      "tags": [
+        "24",
+        "code",
+        "fill",
+        "review",
+        "review24"
+      ],
+      "description": "Code Review 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodescan16",
+      "tags": [
+        "16",
+        "codescan",
+        "codescan16",
+        "fill"
+      ],
+      "description": "Codescan 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodescan24",
+      "tags": [
+        "24",
+        "codescan",
+        "codescan24",
+        "fill"
+      ],
+      "description": "Codescan 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodescanCheckmark16",
+      "tags": [
+        "16",
+        "checkmark",
+        "checkmark16",
+        "codescan",
+        "fill"
+      ],
+      "description": "Codescan Checkmark 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodescanCheckmark24",
+      "tags": [
+        "24",
+        "checkmark",
+        "checkmark24",
+        "codescan",
+        "fill"
+      ],
+      "description": "Codescan Checkmark 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodespaces16",
+      "tags": [
+        "16",
+        "codespaces",
+        "codespaces16",
+        "fill"
+      ],
+      "description": "Codespaces 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodespaces24",
+      "tags": [
+        "24",
+        "codespaces",
+        "codespaces24",
+        "fill"
+      ],
+      "description": "Codespaces 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodeSquare16",
+      "tags": [
+        "16",
+        "code",
+        "fill",
+        "square",
+        "square16"
+      ],
+      "description": "Code Square 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCodeSquare24",
+      "tags": [
+        "24",
+        "code",
+        "fill",
+        "square",
+        "square24"
+      ],
+      "description": "Code Square 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcColumns16",
+      "tags": [
+        "16",
+        "columns",
+        "columns16",
+        "fill"
+      ],
+      "description": "Columns 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcColumns24",
+      "tags": [
+        "24",
+        "columns",
+        "columns24",
+        "fill"
+      ],
+      "description": "Columns 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCommandPalette16",
+      "tags": [
+        "16",
+        "command",
+        "fill",
+        "palette",
+        "palette16"
+      ],
+      "description": "Command Palette 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCommandPalette24",
+      "tags": [
+        "24",
+        "command",
+        "fill",
+        "palette",
+        "palette24"
+      ],
+      "description": "Command Palette 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcComment16",
+      "tags": [
+        "16",
+        "comment",
+        "comment16",
+        "fill"
+      ],
+      "description": "Comment 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcComment24",
+      "tags": [
+        "24",
+        "comment",
+        "comment24",
+        "fill"
+      ],
+      "description": "Comment 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCommentAi16",
+      "tags": [
+        "16",
+        "ai",
+        "ai16",
+        "comment",
+        "fill"
+      ],
+      "description": "Comment Ai 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCommentAi24",
+      "tags": [
+        "24",
+        "ai",
+        "ai24",
+        "comment",
+        "fill"
+      ],
+      "description": "Comment Ai 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCommentDiscussion16",
+      "tags": [
+        "16",
+        "comment",
+        "discussion",
+        "discussion16",
+        "fill"
+      ],
+      "description": "Comment Discussion 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCommentDiscussion24",
+      "tags": [
+        "24",
+        "comment",
+        "discussion",
+        "discussion24",
+        "fill"
+      ],
+      "description": "Comment Discussion 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCommentLocked16",
+      "tags": [
+        "16",
+        "comment",
+        "fill",
+        "locked",
+        "locked16"
+      ],
+      "description": "Comment Locked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCompose16",
+      "tags": [
+        "16",
+        "compose",
+        "compose16",
+        "fill"
+      ],
+      "description": "Compose 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCompose24",
+      "tags": [
+        "24",
+        "compose",
+        "compose24",
+        "fill"
+      ],
+      "description": "Compose 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcContainer16",
+      "tags": [
+        "16",
+        "container",
+        "container16",
+        "fill"
+      ],
+      "description": "Container 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcContainer24",
+      "tags": [
+        "24",
+        "container",
+        "container24",
+        "fill"
+      ],
+      "description": "Container 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopilot16",
+      "tags": [
+        "16",
+        "copilot",
+        "copilot16",
+        "fill"
+      ],
+      "description": "Copilot 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopilot24",
+      "tags": [
+        "24",
+        "copilot",
+        "copilot24",
+        "fill"
+      ],
+      "description": "Copilot 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopilot48",
+      "tags": [
+        "48",
+        "copilot",
+        "copilot48",
+        "fill"
+      ],
+      "description": "Copilot 48 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopilot96",
+      "tags": [
+        "96",
+        "copilot",
+        "copilot96",
+        "fill"
+      ],
+      "description": "Copilot 96 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopilotError16",
+      "tags": [
+        "16",
+        "copilot",
+        "error",
+        "error16",
+        "fill"
+      ],
+      "description": "Copilot Error 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopilotWarning16",
+      "tags": [
+        "16",
+        "copilot",
+        "fill",
+        "warning",
+        "warning16"
+      ],
+      "description": "Copilot Warning 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopy16",
+      "tags": [
+        "16",
+        "copy",
+        "copy16",
+        "fill"
+      ],
+      "description": "Copy 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCopy24",
+      "tags": [
+        "24",
+        "copy",
+        "copy24",
+        "fill"
+      ],
+      "description": "Copy 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCpu16",
+      "tags": [
+        "16",
+        "cpu",
+        "cpu16",
+        "fill"
+      ],
+      "description": "Cpu 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCpu24",
+      "tags": [
+        "24",
+        "cpu",
+        "cpu24",
+        "fill"
+      ],
+      "description": "Cpu 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCreditCard16",
+      "tags": [
+        "16",
+        "card",
+        "card16",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit Card 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCreditCard24",
+      "tags": [
+        "24",
+        "card",
+        "card24",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit Card 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCrosshairs16",
+      "tags": [
+        "16",
+        "crosshairs",
+        "crosshairs16",
+        "fill"
+      ],
+      "description": "Crosshairs 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCrosshairs24",
+      "tags": [
+        "24",
+        "crosshairs",
+        "crosshairs24",
+        "fill"
+      ],
+      "description": "Crosshairs 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCrossReference16",
+      "tags": [
+        "16",
+        "cross",
+        "fill",
+        "reference",
+        "reference16"
+      ],
+      "description": "Cross Reference 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcCrossReference24",
+      "tags": [
+        "24",
+        "cross",
+        "fill",
+        "reference",
+        "reference24"
+      ],
+      "description": "Cross Reference 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDash16",
+      "tags": [
+        "16",
+        "dash",
+        "dash16",
+        "fill"
+      ],
+      "description": "Dash 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDash24",
+      "tags": [
+        "24",
+        "dash",
+        "dash24",
+        "fill"
+      ],
+      "description": "Dash 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDatabase16",
+      "tags": [
+        "16",
+        "database",
+        "database16",
+        "fill"
+      ],
+      "description": "Database 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDatabase24",
+      "tags": [
+        "24",
+        "database",
+        "database24",
+        "fill"
+      ],
+      "description": "Database 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDependabot16",
+      "tags": [
+        "16",
+        "dependabot",
+        "dependabot16",
+        "fill"
+      ],
+      "description": "Dependabot 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDependabot24",
+      "tags": [
+        "24",
+        "dependabot",
+        "dependabot24",
+        "fill"
+      ],
+      "description": "Dependabot 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDesktopDownload16",
+      "tags": [
+        "16",
+        "desktop",
+        "download",
+        "download16",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "OcDesktopDownload24",
+      "tags": [
+        "24",
+        "desktop",
+        "download",
+        "download24",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "OcDeviceCamera16",
+      "tags": [
+        "16",
+        "camera",
+        "camera16",
+        "device",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "OcDeviceCamera24",
+      "tags": [
+        "24",
+        "camera",
+        "camera24",
+        "device",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "OcDeviceCameraVideo16",
+      "tags": [
+        "16",
+        "camera",
+        "device",
+        "fill",
+        "photo",
+        "video",
+        "video16"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "OcDeviceCameraVideo24",
+      "tags": [
+        "24",
+        "camera",
+        "device",
+        "fill",
+        "photo",
+        "video",
+        "video24"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "OcDeviceDesktop16",
+      "tags": [
+        "16",
+        "desktop",
+        "desktop16",
+        "device",
+        "fill"
+      ],
+      "description": "Device Desktop 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDeviceDesktop24",
+      "tags": [
+        "24",
+        "desktop",
+        "desktop24",
+        "device",
+        "fill"
+      ],
+      "description": "Device Desktop 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDeviceMobile16",
+      "tags": [
+        "16",
+        "device",
+        "fill",
+        "mobile",
+        "mobile16"
+      ],
+      "description": "Device Mobile 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDeviceMobile24",
+      "tags": [
+        "24",
+        "device",
+        "fill",
+        "mobile",
+        "mobile24"
+      ],
+      "description": "Device Mobile 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDevices16",
+      "tags": [
+        "16",
+        "devices",
+        "devices16",
+        "fill"
+      ],
+      "description": "Devices 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDevices24",
+      "tags": [
+        "24",
+        "devices",
+        "devices24",
+        "fill"
+      ],
+      "description": "Devices 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiamond16",
+      "tags": [
+        "16",
+        "diamond",
+        "diamond16",
+        "fill"
+      ],
+      "description": "Diamond 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiamond24",
+      "tags": [
+        "24",
+        "diamond",
+        "diamond24",
+        "fill"
+      ],
+      "description": "Diamond 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDice16",
+      "tags": [
+        "16",
+        "dice",
+        "dice16",
+        "fill"
+      ],
+      "description": "Dice 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDice24",
+      "tags": [
+        "24",
+        "dice",
+        "dice24",
+        "fill"
+      ],
+      "description": "Dice 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiff16",
+      "tags": [
+        "16",
+        "diff",
+        "diff16",
+        "fill"
+      ],
+      "description": "Diff 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiff24",
+      "tags": [
+        "24",
+        "diff",
+        "diff24",
+        "fill"
+      ],
+      "description": "Diff 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffAdded16",
+      "tags": [
+        "16",
+        "added",
+        "added16",
+        "diff",
+        "fill"
+      ],
+      "description": "Diff Added 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffAdded24",
+      "tags": [
+        "24",
+        "added",
+        "added24",
+        "diff",
+        "fill"
+      ],
+      "description": "Diff Added 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffIgnored16",
+      "tags": [
+        "16",
+        "diff",
+        "fill",
+        "ignored",
+        "ignored16"
+      ],
+      "description": "Diff Ignored 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffIgnored24",
+      "tags": [
+        "24",
+        "diff",
+        "fill",
+        "ignored",
+        "ignored24"
+      ],
+      "description": "Diff Ignored 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffModified16",
+      "tags": [
+        "16",
+        "diff",
+        "fill",
+        "modified",
+        "modified16"
+      ],
+      "description": "Diff Modified 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffModified24",
+      "tags": [
+        "24",
+        "diff",
+        "fill",
+        "modified",
+        "modified24"
+      ],
+      "description": "Diff Modified 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffRemoved16",
+      "tags": [
+        "16",
+        "diff",
+        "fill",
+        "removed",
+        "removed16"
+      ],
+      "description": "Diff Removed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffRemoved24",
+      "tags": [
+        "24",
+        "diff",
+        "fill",
+        "removed",
+        "removed24"
+      ],
+      "description": "Diff Removed 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffRenamed16",
+      "tags": [
+        "16",
+        "diff",
+        "fill",
+        "renamed",
+        "renamed16"
+      ],
+      "description": "Diff Renamed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiffRenamed24",
+      "tags": [
+        "24",
+        "diff",
+        "fill",
+        "renamed",
+        "renamed24"
+      ],
+      "description": "Diff Renamed 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiscussionClosed16",
+      "tags": [
+        "16",
+        "closed",
+        "closed16",
+        "discussion",
+        "fill"
+      ],
+      "description": "Discussion Closed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiscussionClosed24",
+      "tags": [
+        "24",
+        "closed",
+        "closed24",
+        "discussion",
+        "fill"
+      ],
+      "description": "Discussion Closed 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiscussionDuplicate16",
+      "tags": [
+        "16",
+        "discussion",
+        "duplicate",
+        "duplicate16",
+        "fill"
+      ],
+      "description": "Discussion Duplicate 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiscussionDuplicate24",
+      "tags": [
+        "24",
+        "discussion",
+        "duplicate",
+        "duplicate24",
+        "fill"
+      ],
+      "description": "Discussion Duplicate 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiscussionOutdated16",
+      "tags": [
+        "16",
+        "discussion",
+        "fill",
+        "outdated",
+        "outdated16"
+      ],
+      "description": "Discussion Outdated 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDiscussionOutdated24",
+      "tags": [
+        "24",
+        "discussion",
+        "fill",
+        "outdated",
+        "outdated24"
+      ],
+      "description": "Discussion Outdated 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDot16",
+      "tags": [
+        "16",
+        "dot",
+        "dot16",
+        "fill"
+      ],
+      "description": "Dot 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDot24",
+      "tags": [
+        "24",
+        "dot",
+        "dot24",
+        "fill"
+      ],
+      "description": "Dot 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDotFill16",
+      "tags": [
+        "16",
+        "dot",
+        "fill",
+        "fill16"
+      ],
+      "description": "Dot Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDotFill24",
+      "tags": [
+        "24",
+        "dot",
+        "fill",
+        "fill24"
+      ],
+      "description": "Dot Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDownload16",
+      "tags": [
+        "16",
+        "download",
+        "download16",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "OcDownload24",
+      "tags": [
+        "24",
+        "download",
+        "download24",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "OcDuplicate16",
+      "tags": [
+        "16",
+        "duplicate",
+        "duplicate16",
+        "fill"
+      ],
+      "description": "Duplicate 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcDuplicate24",
+      "tags": [
+        "24",
+        "duplicate",
+        "duplicate24",
+        "fill"
+      ],
+      "description": "Duplicate 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcEllipsis16",
+      "tags": [
+        "16",
+        "ellipsis",
+        "ellipsis16",
+        "fill"
+      ],
+      "description": "Ellipsis 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcEllipsis24",
+      "tags": [
+        "24",
+        "ellipsis",
+        "ellipsis24",
+        "fill"
+      ],
+      "description": "Ellipsis 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcExclamation16",
+      "tags": [
+        "16",
+        "exclamation",
+        "exclamation16",
+        "fill"
+      ],
+      "description": "Exclamation 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcExclamation24",
+      "tags": [
+        "24",
+        "exclamation",
+        "exclamation24",
+        "fill"
+      ],
+      "description": "Exclamation 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcEye16",
+      "tags": [
+        "16",
+        "eye",
+        "eye16",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "OcEye24",
+      "tags": [
+        "24",
+        "eye",
+        "eye24",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "OcEyeClosed16",
+      "tags": [
+        "16",
+        "closed",
+        "closed16",
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "OcEyeClosed24",
+      "tags": [
+        "24",
+        "closed",
+        "closed24",
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "OcFeedDiscussion16",
+      "tags": [
+        "16",
+        "discussion",
+        "discussion16",
+        "feed",
+        "fill"
+      ],
+      "description": "Feed Discussion 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedForked16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "forked",
+        "forked16"
+      ],
+      "description": "Feed Forked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedHeart16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "heart",
+        "heart16",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "OcFeedIssueClosed16",
+      "tags": [
+        "16",
+        "closed",
+        "closed16",
+        "feed",
+        "fill",
+        "issue"
+      ],
+      "description": "Feed Issue Closed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedIssueDraft16",
+      "tags": [
+        "16",
+        "draft",
+        "draft16",
+        "feed",
+        "fill",
+        "issue"
+      ],
+      "description": "Feed Issue Draft 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedIssueOpen16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "issue",
+        "open",
+        "open16"
+      ],
+      "description": "Feed Issue Open 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedIssueReopen16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "issue",
+        "reopen",
+        "reopen16"
+      ],
+      "description": "Feed Issue Reopen 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedMerged16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "merged",
+        "merged16"
+      ],
+      "description": "Feed Merged 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedPerson16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "person",
+        "person16"
+      ],
+      "description": "Feed Person 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedPlus16",
+      "tags": [
+        "16",
+        "add",
+        "feed",
+        "fill",
+        "plus",
+        "plus16"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "OcFeedPublic16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "public",
+        "public16"
+      ],
+      "description": "Feed Public 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedPullRequestClosed16",
+      "tags": [
+        "16",
+        "closed",
+        "closed16",
+        "feed",
+        "fill",
+        "pull",
+        "request"
+      ],
+      "description": "Feed Pull Request Closed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedPullRequestDraft16",
+      "tags": [
+        "16",
+        "draft",
+        "draft16",
+        "feed",
+        "fill",
+        "pull",
+        "request"
+      ],
+      "description": "Feed Pull Request Draft 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedPullRequestOpen16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "open",
+        "open16",
+        "pull",
+        "request"
+      ],
+      "description": "Feed Pull Request Open 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedRepo16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "repo",
+        "repo16"
+      ],
+      "description": "Feed Repo 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedRocket16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "rocket",
+        "rocket16"
+      ],
+      "description": "Feed Rocket 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedStar16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "star",
+        "star16"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "OcFeedTag16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "tag",
+        "tag16"
+      ],
+      "description": "Feed Tag 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFeedTrophy16",
+      "tags": [
+        "16",
+        "feed",
+        "fill",
+        "trophy",
+        "trophy16"
+      ],
+      "description": "Feed Trophy 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFile16",
+      "tags": [
+        "16",
+        "file",
+        "file16",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFile24",
+      "tags": [
+        "24",
+        "file",
+        "file24",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileAdded16",
+      "tags": [
+        "16",
+        "added",
+        "added16",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileAdded24",
+      "tags": [
+        "24",
+        "added",
+        "added24",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileBadge16",
+      "tags": [
+        "16",
+        "badge",
+        "badge16",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileBadge24",
+      "tags": [
+        "24",
+        "badge",
+        "badge24",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileBinary16",
+      "tags": [
+        "16",
+        "binary",
+        "binary16",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileBinary24",
+      "tags": [
+        "24",
+        "binary",
+        "binary24",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileCheck16",
+      "tags": [
+        "16",
+        "check",
+        "check16",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileCheck24",
+      "tags": [
+        "24",
+        "check",
+        "check24",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileCode16",
+      "tags": [
+        "16",
+        "code",
+        "code16",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileCode24",
+      "tags": [
+        "24",
+        "code",
+        "code24",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDiff16",
+      "tags": [
+        "16",
+        "diff",
+        "diff16",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDiff24",
+      "tags": [
+        "24",
+        "diff",
+        "diff24",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectory16",
+      "tags": [
+        "16",
+        "directory",
+        "directory16",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectory24",
+      "tags": [
+        "24",
+        "directory",
+        "directory24",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectoryFill16",
+      "tags": [
+        "16",
+        "directory",
+        "file",
+        "fill",
+        "fill16"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectoryFill24",
+      "tags": [
+        "24",
+        "directory",
+        "file",
+        "fill",
+        "fill24"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectoryOpenFill16",
+      "tags": [
+        "16",
+        "directory",
+        "file",
+        "fill",
+        "fill16",
+        "open"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectoryOpenFill24",
+      "tags": [
+        "24",
+        "directory",
+        "file",
+        "fill",
+        "fill24",
+        "open"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectorySymlink16",
+      "tags": [
+        "16",
+        "directory",
+        "file",
+        "fill",
+        "symlink",
+        "symlink16"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileDirectorySymlink24",
+      "tags": [
+        "24",
+        "directory",
+        "file",
+        "fill",
+        "symlink",
+        "symlink24"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileMedia16",
+      "tags": [
+        "16",
+        "file",
+        "fill",
+        "media",
+        "media16"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileMedia24",
+      "tags": [
+        "24",
+        "file",
+        "fill",
+        "media",
+        "media24"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileMoved16",
+      "tags": [
+        "16",
+        "file",
+        "fill",
+        "moved",
+        "moved16"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileMoved24",
+      "tags": [
+        "24",
+        "file",
+        "fill",
+        "moved",
+        "moved24"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileRemoved16",
+      "tags": [
+        "16",
+        "file",
+        "fill",
+        "removed",
+        "removed16"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileRemoved24",
+      "tags": [
+        "24",
+        "file",
+        "fill",
+        "removed",
+        "removed24"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileSubmodule16",
+      "tags": [
+        "16",
+        "file",
+        "fill",
+        "submodule",
+        "submodule16"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileSubmodule24",
+      "tags": [
+        "24",
+        "file",
+        "fill",
+        "submodule",
+        "submodule24"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileSymlinkFile16",
+      "tags": [
+        "16",
+        "file",
+        "file16",
+        "fill",
+        "symlink"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileSymlinkFile24",
+      "tags": [
+        "24",
+        "file",
+        "file24",
+        "fill",
+        "symlink"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileZip16",
+      "tags": [
+        "16",
+        "file",
+        "fill",
+        "zip",
+        "zip16"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFileZip24",
+      "tags": [
+        "24",
+        "file",
+        "fill",
+        "zip",
+        "zip24"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcFilter16",
+      "tags": [
+        "16",
+        "fill",
+        "filter",
+        "filter16"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "OcFilter24",
+      "tags": [
+        "24",
+        "fill",
+        "filter",
+        "filter24"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "OcFilterRemove16",
+      "tags": [
+        "16",
+        "fill",
+        "filter",
+        "remove",
+        "remove16"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "OcFilterRemove24",
+      "tags": [
+        "24",
+        "fill",
+        "filter",
+        "remove",
+        "remove24"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "OcFiscalHost16",
+      "tags": [
+        "16",
+        "fill",
+        "fiscal",
+        "host",
+        "host16"
+      ],
+      "description": "Fiscal Host 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFiscalHost24",
+      "tags": [
+        "24",
+        "fill",
+        "fiscal",
+        "host",
+        "host24"
+      ],
+      "description": "Fiscal Host 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFlag16",
+      "tags": [
+        "16",
+        "fill",
+        "flag",
+        "flag16"
+      ],
+      "description": "Flag 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFlag24",
+      "tags": [
+        "24",
+        "fill",
+        "flag",
+        "flag24"
+      ],
+      "description": "Flag 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFlame16",
+      "tags": [
+        "16",
+        "fill",
+        "flame",
+        "flame16"
+      ],
+      "description": "Flame 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFlame24",
+      "tags": [
+        "24",
+        "fill",
+        "flame",
+        "flame24"
+      ],
+      "description": "Flame 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFlowchart16",
+      "tags": [
+        "16",
+        "fill",
+        "flowchart",
+        "flowchart16"
+      ],
+      "description": "Flowchart 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFlowchart24",
+      "tags": [
+        "24",
+        "fill",
+        "flowchart",
+        "flowchart24"
+      ],
+      "description": "Flowchart 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFocusCenter16",
+      "tags": [
+        "16",
+        "center",
+        "center16",
+        "fill",
+        "focus"
+      ],
+      "description": "Focus Center 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFocusCenter24",
+      "tags": [
+        "24",
+        "center",
+        "center24",
+        "fill",
+        "focus"
+      ],
+      "description": "Focus Center 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFold16",
+      "tags": [
+        "16",
+        "fill",
+        "fold",
+        "fold16"
+      ],
+      "description": "Fold 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFold24",
+      "tags": [
+        "24",
+        "fill",
+        "fold",
+        "fold24"
+      ],
+      "description": "Fold 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFoldDown16",
+      "tags": [
+        "16",
+        "down",
+        "down16",
+        "fill",
+        "fold"
+      ],
+      "description": "Fold Down 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFoldDown24",
+      "tags": [
+        "24",
+        "down",
+        "down24",
+        "fill",
+        "fold"
+      ],
+      "description": "Fold Down 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFoldUp16",
+      "tags": [
+        "16",
+        "fill",
+        "fold",
+        "like",
+        "up",
+        "up16"
+      ],
+      "description": "Fold Up 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcFoldUp24",
+      "tags": [
+        "24",
+        "fill",
+        "fold",
+        "like",
+        "up",
+        "up24"
+      ],
+      "description": "Fold Up 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGear16",
+      "tags": [
+        "16",
+        "fill",
+        "gear",
+        "gear16"
+      ],
+      "description": "Gear 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGear24",
+      "tags": [
+        "24",
+        "fill",
+        "gear",
+        "gear24"
+      ],
+      "description": "Gear 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGift16",
+      "tags": [
+        "16",
+        "fill",
+        "gift",
+        "gift16"
+      ],
+      "description": "Gift 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGift24",
+      "tags": [
+        "24",
+        "fill",
+        "gift",
+        "gift24"
+      ],
+      "description": "Gift 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitBranch16",
+      "tags": [
+        "16",
+        "branch",
+        "branch16",
+        "fill",
+        "git"
+      ],
+      "description": "Git Branch 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitBranch24",
+      "tags": [
+        "24",
+        "branch",
+        "branch24",
+        "fill",
+        "git"
+      ],
+      "description": "Git Branch 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitBranchCheck16",
+      "tags": [
+        "16",
+        "branch",
+        "check",
+        "check16",
+        "fill",
+        "git"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcGitBranchCheck24",
+      "tags": [
+        "24",
+        "branch",
+        "check",
+        "check24",
+        "fill",
+        "git"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcGitCommit16",
+      "tags": [
+        "16",
+        "commit",
+        "commit16",
+        "fill",
+        "git"
+      ],
+      "description": "Git Commit 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitCommit24",
+      "tags": [
+        "24",
+        "commit",
+        "commit24",
+        "fill",
+        "git"
+      ],
+      "description": "Git Commit 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitCompare16",
+      "tags": [
+        "16",
+        "compare",
+        "compare16",
+        "fill",
+        "git"
+      ],
+      "description": "Git Compare 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitCompare24",
+      "tags": [
+        "24",
+        "compare",
+        "compare24",
+        "fill",
+        "git"
+      ],
+      "description": "Git Compare 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitMerge16",
+      "tags": [
+        "16",
+        "fill",
+        "git",
+        "merge",
+        "merge16"
+      ],
+      "description": "Git Merge 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitMerge24",
+      "tags": [
+        "24",
+        "fill",
+        "git",
+        "merge",
+        "merge24"
+      ],
+      "description": "Git Merge 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitMergeQueue16",
+      "tags": [
+        "16",
+        "fill",
+        "git",
+        "merge",
+        "queue",
+        "queue16"
+      ],
+      "description": "Git Merge Queue 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitMergeQueue24",
+      "tags": [
+        "24",
+        "fill",
+        "git",
+        "merge",
+        "queue",
+        "queue24"
+      ],
+      "description": "Git Merge Queue 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitPullRequest16",
+      "tags": [
+        "16",
+        "fill",
+        "git",
+        "pull",
+        "request",
+        "request16"
+      ],
+      "description": "Git Pull Request 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitPullRequest24",
+      "tags": [
+        "24",
+        "fill",
+        "git",
+        "pull",
+        "request",
+        "request24"
+      ],
+      "description": "Git Pull Request 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitPullRequestClosed16",
+      "tags": [
+        "16",
+        "closed",
+        "closed16",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Closed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitPullRequestClosed24",
+      "tags": [
+        "24",
+        "closed",
+        "closed24",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Closed 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitPullRequestDraft16",
+      "tags": [
+        "16",
+        "draft",
+        "draft16",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Draft 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitPullRequestDraft24",
+      "tags": [
+        "24",
+        "draft",
+        "draft24",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Draft 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGitPullRequestLocked16",
+      "tags": [
+        "16",
+        "fill",
+        "git",
+        "locked",
+        "locked16",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Locked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGlobe16",
+      "tags": [
+        "16",
+        "fill",
+        "globe",
+        "globe16"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "OcGlobe24",
+      "tags": [
+        "24",
+        "fill",
+        "globe",
+        "globe24"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "OcGoal16",
+      "tags": [
+        "16",
+        "fill",
+        "goal",
+        "goal16"
+      ],
+      "description": "Goal 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGoal24",
+      "tags": [
+        "24",
+        "fill",
+        "goal",
+        "goal24"
+      ],
+      "description": "Goal 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGrabber16",
+      "tags": [
+        "16",
+        "fill",
+        "grabber",
+        "grabber16"
+      ],
+      "description": "Grabber 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGrabber24",
+      "tags": [
+        "24",
+        "fill",
+        "grabber",
+        "grabber24"
+      ],
+      "description": "Grabber 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGraph16",
+      "tags": [
+        "16",
+        "fill",
+        "graph",
+        "graph16"
+      ],
+      "description": "Graph 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGraph24",
+      "tags": [
+        "24",
+        "fill",
+        "graph",
+        "graph24"
+      ],
+      "description": "Graph 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGraphBarHorizontal16",
+      "tags": [
+        "16",
+        "bar",
+        "fill",
+        "graph",
+        "horizontal",
+        "horizontal16"
+      ],
+      "description": "Graph Bar Horizontal 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGraphBarHorizontal24",
+      "tags": [
+        "24",
+        "bar",
+        "fill",
+        "graph",
+        "horizontal",
+        "horizontal24"
+      ],
+      "description": "Graph Bar Horizontal 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGraphBarVertical16",
+      "tags": [
+        "16",
+        "bar",
+        "fill",
+        "graph",
+        "vertical",
+        "vertical16"
+      ],
+      "description": "Graph Bar Vertical 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcGraphBarVertical24",
+      "tags": [
+        "24",
+        "bar",
+        "fill",
+        "graph",
+        "vertical",
+        "vertical24"
+      ],
+      "description": "Graph Bar Vertical 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHash16",
+      "tags": [
+        "16",
+        "fill",
+        "hash",
+        "hash16"
+      ],
+      "description": "Hash 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHash24",
+      "tags": [
+        "24",
+        "fill",
+        "hash",
+        "hash24"
+      ],
+      "description": "Hash 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHeading16",
+      "tags": [
+        "16",
+        "fill",
+        "heading",
+        "heading16"
+      ],
+      "description": "Heading 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHeading24",
+      "tags": [
+        "24",
+        "fill",
+        "heading",
+        "heading24"
+      ],
+      "description": "Heading 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHeart16",
+      "tags": [
+        "16",
+        "fill",
+        "heart",
+        "heart16",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "OcHeart24",
+      "tags": [
+        "24",
+        "fill",
+        "heart",
+        "heart24",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "OcHeartFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "OcHeartFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "OcHistory16",
+      "tags": [
+        "16",
+        "fill",
+        "history",
+        "history16"
+      ],
+      "description": "History 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHistory24",
+      "tags": [
+        "24",
+        "fill",
+        "history",
+        "history24"
+      ],
+      "description": "History 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHome16",
+      "tags": [
+        "16",
+        "fill",
+        "home",
+        "home16",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "OcHome24",
+      "tags": [
+        "24",
+        "fill",
+        "home",
+        "home24",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "OcHomeFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "OcHomeFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "OcHorizontalRule16",
+      "tags": [
+        "16",
+        "fill",
+        "horizontal",
+        "rule",
+        "rule16"
+      ],
+      "description": "Horizontal Rule 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHorizontalRule24",
+      "tags": [
+        "24",
+        "fill",
+        "horizontal",
+        "rule",
+        "rule24"
+      ],
+      "description": "Horizontal Rule 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHourglass16",
+      "tags": [
+        "16",
+        "fill",
+        "hourglass",
+        "hourglass16"
+      ],
+      "description": "Hourglass 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHourglass24",
+      "tags": [
+        "24",
+        "fill",
+        "hourglass",
+        "hourglass24"
+      ],
+      "description": "Hourglass 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHubot16",
+      "tags": [
+        "16",
+        "fill",
+        "hubot",
+        "hubot16"
+      ],
+      "description": "Hubot 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcHubot24",
+      "tags": [
+        "24",
+        "fill",
+        "hubot",
+        "hubot24"
+      ],
+      "description": "Hubot 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIdBadge16",
+      "tags": [
+        "16",
+        "badge",
+        "badge16",
+        "fill",
+        "id"
+      ],
+      "description": "Id Badge 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIdBadge24",
+      "tags": [
+        "24",
+        "badge",
+        "badge24",
+        "fill",
+        "id"
+      ],
+      "description": "Id Badge 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcImage16",
+      "tags": [
+        "16",
+        "fill",
+        "image",
+        "image16",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "OcImage24",
+      "tags": [
+        "24",
+        "fill",
+        "image",
+        "image24",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "OcInbox16",
+      "tags": [
+        "16",
+        "fill",
+        "inbox",
+        "inbox16"
+      ],
+      "description": "Inbox 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcInbox24",
+      "tags": [
+        "24",
+        "fill",
+        "inbox",
+        "inbox24"
+      ],
+      "description": "Inbox 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcInboxFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "inbox"
+      ],
+      "description": "Inbox Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcInboxFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "inbox"
+      ],
+      "description": "Inbox Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcInfinity16",
+      "tags": [
+        "16",
+        "fill",
+        "infinity",
+        "infinity16"
+      ],
+      "description": "Infinity 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcInfinity24",
+      "tags": [
+        "24",
+        "fill",
+        "infinity",
+        "infinity24"
+      ],
+      "description": "Infinity 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcInfo16",
+      "tags": [
+        "16",
+        "fill",
+        "info",
+        "info16"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "OcInfo24",
+      "tags": [
+        "24",
+        "fill",
+        "info",
+        "info24"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "OcIssueClosed16",
+      "tags": [
+        "16",
+        "closed",
+        "closed16",
+        "fill",
+        "issue"
+      ],
+      "description": "Issue Closed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueClosed24",
+      "tags": [
+        "24",
+        "closed",
+        "closed24",
+        "fill",
+        "issue"
+      ],
+      "description": "Issue Closed 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueDraft16",
+      "tags": [
+        "16",
+        "draft",
+        "draft16",
+        "fill",
+        "issue"
+      ],
+      "description": "Issue Draft 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueDraft24",
+      "tags": [
+        "24",
+        "draft",
+        "draft24",
+        "fill",
+        "issue"
+      ],
+      "description": "Issue Draft 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueLocked16",
+      "tags": [
+        "16",
+        "fill",
+        "issue",
+        "locked",
+        "locked16"
+      ],
+      "description": "Issue Locked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueOpened16",
+      "tags": [
+        "16",
+        "fill",
+        "issue",
+        "opened",
+        "opened16"
+      ],
+      "description": "Issue Opened 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueOpened24",
+      "tags": [
+        "24",
+        "fill",
+        "issue",
+        "opened",
+        "opened24"
+      ],
+      "description": "Issue Opened 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueReopened16",
+      "tags": [
+        "16",
+        "fill",
+        "issue",
+        "reopened",
+        "reopened16"
+      ],
+      "description": "Issue Reopened 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueReopened24",
+      "tags": [
+        "24",
+        "fill",
+        "issue",
+        "reopened",
+        "reopened24"
+      ],
+      "description": "Issue Reopened 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueTrackedBy16",
+      "tags": [
+        "16",
+        "by",
+        "by16",
+        "fill",
+        "issue",
+        "tracked"
+      ],
+      "description": "Issue Tracked By 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueTrackedBy24",
+      "tags": [
+        "24",
+        "by",
+        "by24",
+        "fill",
+        "issue",
+        "tracked"
+      ],
+      "description": "Issue Tracked By 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueTracks16",
+      "tags": [
+        "16",
+        "fill",
+        "issue",
+        "tracks",
+        "tracks16"
+      ],
+      "description": "Issue Tracks 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIssueTracks24",
+      "tags": [
+        "24",
+        "fill",
+        "issue",
+        "tracks",
+        "tracks24"
+      ],
+      "description": "Issue Tracks 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcItalic16",
+      "tags": [
+        "16",
+        "fill",
+        "italic",
+        "italic16"
+      ],
+      "description": "Italic 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcItalic24",
+      "tags": [
+        "24",
+        "fill",
+        "italic",
+        "italic24"
+      ],
+      "description": "Italic 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIterations16",
+      "tags": [
+        "16",
+        "fill",
+        "iterations",
+        "iterations16"
+      ],
+      "description": "Iterations 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcIterations24",
+      "tags": [
+        "24",
+        "fill",
+        "iterations",
+        "iterations24"
+      ],
+      "description": "Iterations 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcKebabHorizontal16",
+      "tags": [
+        "16",
+        "fill",
+        "horizontal",
+        "horizontal16",
+        "kebab"
+      ],
+      "description": "Kebab Horizontal 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcKebabHorizontal24",
+      "tags": [
+        "24",
+        "fill",
+        "horizontal",
+        "horizontal24",
+        "kebab"
+      ],
+      "description": "Kebab Horizontal 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcKey16",
+      "tags": [
+        "16",
+        "fill",
+        "key",
+        "key16"
+      ],
+      "description": "Key 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcKey24",
+      "tags": [
+        "24",
+        "fill",
+        "key",
+        "key24"
+      ],
+      "description": "Key 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcKeyAsterisk16",
+      "tags": [
+        "16",
+        "asterisk",
+        "asterisk16",
+        "fill",
+        "key"
+      ],
+      "description": "Key Asterisk 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcKeyAsterisk24",
+      "tags": [
+        "24",
+        "asterisk",
+        "asterisk24",
+        "fill",
+        "key"
+      ],
+      "description": "Key Asterisk 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLaw16",
+      "tags": [
+        "16",
+        "fill",
+        "law",
+        "law16"
+      ],
+      "description": "Law 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLaw24",
+      "tags": [
+        "24",
+        "fill",
+        "law",
+        "law24"
+      ],
+      "description": "Law 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLightBulb16",
+      "tags": [
+        "16",
+        "bulb",
+        "bulb16",
+        "fill",
+        "light"
+      ],
+      "description": "Light Bulb 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLightBulb24",
+      "tags": [
+        "24",
+        "bulb",
+        "bulb24",
+        "fill",
+        "light"
+      ],
+      "description": "Light Bulb 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLink16",
+      "tags": [
+        "16",
+        "fill",
+        "link",
+        "link16"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "OcLink24",
+      "tags": [
+        "24",
+        "fill",
+        "link",
+        "link24"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "OcLinkExternal16",
+      "tags": [
+        "16",
+        "external",
+        "external16",
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "OcLinkExternal24",
+      "tags": [
+        "24",
+        "external",
+        "external24",
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "OcListOrdered16",
+      "tags": [
+        "16",
+        "fill",
+        "list",
+        "ordered",
+        "ordered16"
+      ],
+      "description": "List Ordered 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcListOrdered24",
+      "tags": [
+        "24",
+        "fill",
+        "list",
+        "ordered",
+        "ordered24"
+      ],
+      "description": "List Ordered 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcListUnordered16",
+      "tags": [
+        "16",
+        "fill",
+        "list",
+        "unordered",
+        "unordered16"
+      ],
+      "description": "List Unordered 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcListUnordered24",
+      "tags": [
+        "24",
+        "fill",
+        "list",
+        "unordered",
+        "unordered24"
+      ],
+      "description": "List Unordered 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLocation16",
+      "tags": [
+        "16",
+        "fill",
+        "location",
+        "location16"
+      ],
+      "description": "Location 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLocation24",
+      "tags": [
+        "24",
+        "fill",
+        "location",
+        "location24"
+      ],
+      "description": "Location 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLock16",
+      "tags": [
+        "16",
+        "fill",
+        "lock",
+        "lock16"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "OcLock24",
+      "tags": [
+        "24",
+        "fill",
+        "lock",
+        "lock24"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "OcLockupGithub16",
+      "tags": [
+        "16",
+        "fill",
+        "github",
+        "github16",
+        "lockup"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "OcLockupGithub24",
+      "tags": [
+        "24",
+        "fill",
+        "github",
+        "github24",
+        "lockup"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "OcLog16",
+      "tags": [
+        "16",
+        "fill",
+        "log",
+        "log16"
+      ],
+      "description": "Log 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLog24",
+      "tags": [
+        "24",
+        "fill",
+        "log",
+        "log24"
+      ],
+      "description": "Log 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLogoGist16",
+      "tags": [
+        "16",
+        "fill",
+        "gist",
+        "gist16",
+        "logo"
+      ],
+      "description": "Logo Gist 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLogoGist24",
+      "tags": [
+        "24",
+        "fill",
+        "gist",
+        "gist24",
+        "logo"
+      ],
+      "description": "Logo Gist 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLogoGithub16",
+      "tags": [
+        "16",
+        "fill",
+        "github",
+        "github16",
+        "logo"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "OcLogoGithub24",
+      "tags": [
+        "24",
+        "fill",
+        "github",
+        "github24",
+        "logo"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "OcLoop16",
+      "tags": [
+        "16",
+        "fill",
+        "loop",
+        "loop16"
+      ],
+      "description": "Loop 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcLoop24",
+      "tags": [
+        "24",
+        "fill",
+        "loop",
+        "loop24"
+      ],
+      "description": "Loop 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMail16",
+      "tags": [
+        "16",
+        "fill",
+        "mail",
+        "mail16"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "OcMail24",
+      "tags": [
+        "24",
+        "fill",
+        "mail",
+        "mail24"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "OcMarkdown16",
+      "tags": [
+        "16",
+        "fill",
+        "markdown",
+        "markdown16"
+      ],
+      "description": "Markdown 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMarkdown24",
+      "tags": [
+        "24",
+        "fill",
+        "markdown",
+        "markdown24"
+      ],
+      "description": "Markdown 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMarkGithub16",
+      "tags": [
+        "16",
+        "fill",
+        "github",
+        "github16",
+        "mark"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "OcMarkGithub24",
+      "tags": [
+        "24",
+        "fill",
+        "github",
+        "github24",
+        "mark"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "OcMaximize16",
+      "tags": [
+        "16",
+        "fill",
+        "maximize",
+        "maximize16"
+      ],
+      "description": "Maximize 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMaximize24",
+      "tags": [
+        "24",
+        "fill",
+        "maximize",
+        "maximize24"
+      ],
+      "description": "Maximize 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMcp16",
+      "tags": [
+        "16",
+        "fill",
+        "mcp",
+        "mcp16"
+      ],
+      "description": "Mcp 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMcp24",
+      "tags": [
+        "24",
+        "fill",
+        "mcp",
+        "mcp24"
+      ],
+      "description": "Mcp 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMegaphone16",
+      "tags": [
+        "16",
+        "fill",
+        "megaphone",
+        "megaphone16"
+      ],
+      "description": "Megaphone 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMegaphone24",
+      "tags": [
+        "24",
+        "fill",
+        "megaphone",
+        "megaphone24"
+      ],
+      "description": "Megaphone 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMention16",
+      "tags": [
+        "16",
+        "fill",
+        "mention",
+        "mention16"
+      ],
+      "description": "Mention 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMention24",
+      "tags": [
+        "24",
+        "fill",
+        "mention",
+        "mention24"
+      ],
+      "description": "Mention 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMeter16",
+      "tags": [
+        "16",
+        "fill",
+        "meter",
+        "meter16"
+      ],
+      "description": "Meter 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMeter24",
+      "tags": [
+        "24",
+        "fill",
+        "meter",
+        "meter24"
+      ],
+      "description": "Meter 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMilestone16",
+      "tags": [
+        "16",
+        "fill",
+        "milestone",
+        "milestone16"
+      ],
+      "description": "Milestone 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMilestone24",
+      "tags": [
+        "24",
+        "fill",
+        "milestone",
+        "milestone24"
+      ],
+      "description": "Milestone 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMinimize16",
+      "tags": [
+        "16",
+        "fill",
+        "minimize",
+        "minimize16"
+      ],
+      "description": "Minimize 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMinimize24",
+      "tags": [
+        "24",
+        "fill",
+        "minimize",
+        "minimize24"
+      ],
+      "description": "Minimize 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMirror16",
+      "tags": [
+        "16",
+        "fill",
+        "mirror",
+        "mirror16"
+      ],
+      "description": "Mirror 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMirror24",
+      "tags": [
+        "24",
+        "fill",
+        "mirror",
+        "mirror24"
+      ],
+      "description": "Mirror 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoon16",
+      "tags": [
+        "16",
+        "fill",
+        "moon",
+        "moon16"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "OcMoon24",
+      "tags": [
+        "24",
+        "fill",
+        "moon",
+        "moon24"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "OcMortarBoard16",
+      "tags": [
+        "16",
+        "board",
+        "board16",
+        "fill",
+        "mortar"
+      ],
+      "description": "Mortar Board 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMortarBoard24",
+      "tags": [
+        "24",
+        "board",
+        "board24",
+        "fill",
+        "mortar"
+      ],
+      "description": "Mortar Board 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToBottom16",
+      "tags": [
+        "16",
+        "bottom",
+        "bottom16",
+        "fill",
+        "move",
+        "to"
+      ],
+      "description": "Move To Bottom 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToBottom24",
+      "tags": [
+        "24",
+        "bottom",
+        "bottom24",
+        "fill",
+        "move",
+        "to"
+      ],
+      "description": "Move To Bottom 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToEnd16",
+      "tags": [
+        "16",
+        "end",
+        "end16",
+        "fill",
+        "move",
+        "to"
+      ],
+      "description": "Move To End 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToEnd24",
+      "tags": [
+        "24",
+        "end",
+        "end24",
+        "fill",
+        "move",
+        "to"
+      ],
+      "description": "Move To End 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToStart16",
+      "tags": [
+        "16",
+        "fill",
+        "move",
+        "start",
+        "start16",
+        "to"
+      ],
+      "description": "Move To Start 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToStart24",
+      "tags": [
+        "24",
+        "fill",
+        "move",
+        "start",
+        "start24",
+        "to"
+      ],
+      "description": "Move To Start 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToTop16",
+      "tags": [
+        "16",
+        "fill",
+        "move",
+        "to",
+        "top",
+        "top16"
+      ],
+      "description": "Move To Top 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMoveToTop24",
+      "tags": [
+        "24",
+        "fill",
+        "move",
+        "to",
+        "top",
+        "top24"
+      ],
+      "description": "Move To Top 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMultiSelect16",
+      "tags": [
+        "16",
+        "fill",
+        "multi",
+        "select",
+        "select16"
+      ],
+      "description": "Multi Select 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMultiSelect24",
+      "tags": [
+        "24",
+        "fill",
+        "multi",
+        "select",
+        "select24"
+      ],
+      "description": "Multi Select 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMute16",
+      "tags": [
+        "16",
+        "fill",
+        "mute",
+        "mute16"
+      ],
+      "description": "Mute 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcMute24",
+      "tags": [
+        "24",
+        "fill",
+        "mute",
+        "mute24"
+      ],
+      "description": "Mute 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNode16",
+      "tags": [
+        "16",
+        "fill",
+        "node",
+        "node16"
+      ],
+      "description": "Node 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNode24",
+      "tags": [
+        "24",
+        "fill",
+        "node",
+        "node24"
+      ],
+      "description": "Node 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNoEntry16",
+      "tags": [
+        "16",
+        "entry",
+        "entry16",
+        "fill",
+        "no"
+      ],
+      "description": "No Entry 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNoEntry24",
+      "tags": [
+        "24",
+        "entry",
+        "entry24",
+        "fill",
+        "no"
+      ],
+      "description": "No Entry 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNoEntryFill12",
+      "tags": [
+        "12",
+        "entry",
+        "fill",
+        "fill12",
+        "no"
+      ],
+      "description": "No Entry Fill 12 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNorthStar16",
+      "tags": [
+        "16",
+        "fill",
+        "north",
+        "star",
+        "star16"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "OcNorthStar24",
+      "tags": [
+        "24",
+        "fill",
+        "north",
+        "star",
+        "star24"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "OcNote16",
+      "tags": [
+        "16",
+        "fill",
+        "note",
+        "note16"
+      ],
+      "description": "Note 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNote24",
+      "tags": [
+        "24",
+        "fill",
+        "note",
+        "note24"
+      ],
+      "description": "Note 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNumber16",
+      "tags": [
+        "16",
+        "fill",
+        "number",
+        "number16"
+      ],
+      "description": "Number 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcNumber24",
+      "tags": [
+        "24",
+        "fill",
+        "number",
+        "number24"
+      ],
+      "description": "Number 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcOrganization16",
+      "tags": [
+        "16",
+        "fill",
+        "organization",
+        "organization16"
+      ],
+      "description": "Organization 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcOrganization24",
+      "tags": [
+        "24",
+        "fill",
+        "organization",
+        "organization24"
+      ],
+      "description": "Organization 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPackage16",
+      "tags": [
+        "16",
+        "fill",
+        "package",
+        "package16"
+      ],
+      "description": "Package 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPackage24",
+      "tags": [
+        "24",
+        "fill",
+        "package",
+        "package24"
+      ],
+      "description": "Package 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPackageDependencies16",
+      "tags": [
+        "16",
+        "dependencies",
+        "dependencies16",
+        "fill",
+        "package"
+      ],
+      "description": "Package Dependencies 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPackageDependencies24",
+      "tags": [
+        "24",
+        "dependencies",
+        "dependencies24",
+        "fill",
+        "package"
+      ],
+      "description": "Package Dependencies 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPackageDependents16",
+      "tags": [
+        "16",
+        "dependents",
+        "dependents16",
+        "fill",
+        "package"
+      ],
+      "description": "Package Dependents 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPackageDependents24",
+      "tags": [
+        "24",
+        "dependents",
+        "dependents24",
+        "fill",
+        "package"
+      ],
+      "description": "Package Dependents 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaintbrush16",
+      "tags": [
+        "16",
+        "fill",
+        "paintbrush",
+        "paintbrush16"
+      ],
+      "description": "Paintbrush 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaintbrush24",
+      "tags": [
+        "24",
+        "fill",
+        "paintbrush",
+        "paintbrush24"
+      ],
+      "description": "Paintbrush 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaperAirplane16",
+      "tags": [
+        "16",
+        "airplane",
+        "airplane16",
+        "fill",
+        "paper"
+      ],
+      "description": "Paper Airplane 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaperAirplane24",
+      "tags": [
+        "24",
+        "airplane",
+        "airplane24",
+        "fill",
+        "paper"
+      ],
+      "description": "Paper Airplane 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaperclip16",
+      "tags": [
+        "16",
+        "fill",
+        "paperclip",
+        "paperclip16"
+      ],
+      "description": "Paperclip 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaperclip24",
+      "tags": [
+        "24",
+        "fill",
+        "paperclip",
+        "paperclip24"
+      ],
+      "description": "Paperclip 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPasskeyFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "passkey"
+      ],
+      "description": "Passkey Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPasskeyFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "passkey"
+      ],
+      "description": "Passkey Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaste16",
+      "tags": [
+        "16",
+        "fill",
+        "paste",
+        "paste16"
+      ],
+      "description": "Paste 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPaste24",
+      "tags": [
+        "24",
+        "fill",
+        "paste",
+        "paste24"
+      ],
+      "description": "Paste 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPause16",
+      "tags": [
+        "16",
+        "fill",
+        "pause",
+        "pause16"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "OcPause24",
+      "tags": [
+        "24",
+        "fill",
+        "pause",
+        "pause24"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "OcPencil16",
+      "tags": [
+        "16",
+        "edit",
+        "fill",
+        "pencil",
+        "pencil16"
+      ],
+      "description": "Pencil 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPencil24",
+      "tags": [
+        "24",
+        "edit",
+        "fill",
+        "pencil",
+        "pencil24"
+      ],
+      "description": "Pencil 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPencilAi16",
+      "tags": [
+        "16",
+        "ai",
+        "ai16",
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil Ai 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPencilAi24",
+      "tags": [
+        "24",
+        "ai",
+        "ai24",
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil Ai 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPeople16",
+      "tags": [
+        "16",
+        "fill",
+        "people",
+        "people16"
+      ],
+      "description": "People 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPeople24",
+      "tags": [
+        "24",
+        "fill",
+        "people",
+        "people24"
+      ],
+      "description": "People 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPerson16",
+      "tags": [
+        "16",
+        "fill",
+        "person",
+        "person16"
+      ],
+      "description": "Person 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPerson24",
+      "tags": [
+        "24",
+        "fill",
+        "person",
+        "person24"
+      ],
+      "description": "Person 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPersonAdd16",
+      "tags": [
+        "16",
+        "add",
+        "add16",
+        "fill",
+        "person"
+      ],
+      "description": "Person Add 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPersonAdd24",
+      "tags": [
+        "24",
+        "add",
+        "add24",
+        "fill",
+        "person"
+      ],
+      "description": "Person Add 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPersonFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "person"
+      ],
+      "description": "Person Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPersonFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "person"
+      ],
+      "description": "Person Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPin16",
+      "tags": [
+        "16",
+        "fill",
+        "pin",
+        "pin16"
+      ],
+      "description": "Pin 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPin24",
+      "tags": [
+        "24",
+        "fill",
+        "pin",
+        "pin24"
+      ],
+      "description": "Pin 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPinSlash16",
+      "tags": [
+        "16",
+        "fill",
+        "pin",
+        "slash",
+        "slash16"
+      ],
+      "description": "Pin Slash 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPinSlash24",
+      "tags": [
+        "24",
+        "fill",
+        "pin",
+        "slash",
+        "slash24"
+      ],
+      "description": "Pin Slash 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPivotColumn16",
+      "tags": [
+        "16",
+        "column",
+        "column16",
+        "fill",
+        "pivot"
+      ],
+      "description": "Pivot Column 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPivotColumn24",
+      "tags": [
+        "24",
+        "column",
+        "column24",
+        "fill",
+        "pivot"
+      ],
+      "description": "Pivot Column 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPlay16",
+      "tags": [
+        "16",
+        "fill",
+        "play",
+        "play16"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "OcPlay24",
+      "tags": [
+        "24",
+        "fill",
+        "play",
+        "play24"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "OcPlug16",
+      "tags": [
+        "16",
+        "fill",
+        "plug",
+        "plug16"
+      ],
+      "description": "Plug 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPlug24",
+      "tags": [
+        "24",
+        "fill",
+        "plug",
+        "plug24"
+      ],
+      "description": "Plug 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPlus16",
+      "tags": [
+        "16",
+        "add",
+        "fill",
+        "plus",
+        "plus16"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "OcPlus24",
+      "tags": [
+        "24",
+        "add",
+        "fill",
+        "plus",
+        "plus24"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "OcPlusCircle16",
+      "tags": [
+        "16",
+        "add",
+        "circle",
+        "circle16",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "OcPlusCircle24",
+      "tags": [
+        "24",
+        "add",
+        "circle",
+        "circle24",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "OcProject16",
+      "tags": [
+        "16",
+        "fill",
+        "project",
+        "project16"
+      ],
+      "description": "Project 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcProject24",
+      "tags": [
+        "24",
+        "fill",
+        "project",
+        "project24"
+      ],
+      "description": "Project 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcProjectRoadmap16",
+      "tags": [
+        "16",
+        "fill",
+        "project",
+        "roadmap",
+        "roadmap16"
+      ],
+      "description": "Project Roadmap 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcProjectRoadmap24",
+      "tags": [
+        "24",
+        "fill",
+        "project",
+        "roadmap",
+        "roadmap24"
+      ],
+      "description": "Project Roadmap 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcProjectSymlink16",
+      "tags": [
+        "16",
+        "fill",
+        "project",
+        "symlink",
+        "symlink16"
+      ],
+      "description": "Project Symlink 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcProjectSymlink24",
+      "tags": [
+        "24",
+        "fill",
+        "project",
+        "symlink",
+        "symlink24"
+      ],
+      "description": "Project Symlink 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcProjectTemplate16",
+      "tags": [
+        "16",
+        "fill",
+        "project",
+        "template",
+        "template16"
+      ],
+      "description": "Project Template 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcProjectTemplate24",
+      "tags": [
+        "24",
+        "fill",
+        "project",
+        "template",
+        "template24"
+      ],
+      "description": "Project Template 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPulse16",
+      "tags": [
+        "16",
+        "fill",
+        "pulse",
+        "pulse16"
+      ],
+      "description": "Pulse 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcPulse24",
+      "tags": [
+        "24",
+        "fill",
+        "pulse",
+        "pulse24"
+      ],
+      "description": "Pulse 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcQuestion16",
+      "tags": [
+        "16",
+        "fill",
+        "question",
+        "question16"
+      ],
+      "description": "Question 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcQuestion24",
+      "tags": [
+        "24",
+        "fill",
+        "question",
+        "question24"
+      ],
+      "description": "Question 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcQuote16",
+      "tags": [
+        "16",
+        "fill",
+        "quote",
+        "quote16"
+      ],
+      "description": "Quote 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcQuote24",
+      "tags": [
+        "24",
+        "fill",
+        "quote",
+        "quote24"
+      ],
+      "description": "Quote 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRead16",
+      "tags": [
+        "16",
+        "fill",
+        "read",
+        "read16"
+      ],
+      "description": "Read 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRead24",
+      "tags": [
+        "24",
+        "fill",
+        "read",
+        "read24"
+      ],
+      "description": "Read 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRedo16",
+      "tags": [
+        "16",
+        "fill",
+        "redo",
+        "redo16"
+      ],
+      "description": "Redo 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRedo24",
+      "tags": [
+        "24",
+        "fill",
+        "redo",
+        "redo24"
+      ],
+      "description": "Redo 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRelFilePath16",
+      "tags": [
+        "16",
+        "file",
+        "fill",
+        "path",
+        "path16",
+        "rel"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcRelFilePath24",
+      "tags": [
+        "24",
+        "file",
+        "fill",
+        "path",
+        "path24",
+        "rel"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "OcReply16",
+      "tags": [
+        "16",
+        "fill",
+        "reply",
+        "reply16"
+      ],
+      "description": "Reply 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcReply24",
+      "tags": [
+        "24",
+        "fill",
+        "reply",
+        "reply24"
+      ],
+      "description": "Reply 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepo16",
+      "tags": [
+        "16",
+        "fill",
+        "repo",
+        "repo16"
+      ],
+      "description": "Repo 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepo24",
+      "tags": [
+        "24",
+        "fill",
+        "repo",
+        "repo24"
+      ],
+      "description": "Repo 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoClone16",
+      "tags": [
+        "16",
+        "clone",
+        "clone16",
+        "fill",
+        "repo"
+      ],
+      "description": "Repo Clone 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoClone24",
+      "tags": [
+        "24",
+        "clone",
+        "clone24",
+        "fill",
+        "repo"
+      ],
+      "description": "Repo Clone 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoDelete24",
+      "tags": [
+        "24",
+        "delete",
+        "delete24",
+        "fill",
+        "repo"
+      ],
+      "description": "Repo Delete 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoDeleted16",
+      "tags": [
+        "16",
+        "deleted",
+        "deleted16",
+        "fill",
+        "repo"
+      ],
+      "description": "Repo Deleted 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoForked16",
+      "tags": [
+        "16",
+        "fill",
+        "forked",
+        "forked16",
+        "repo"
+      ],
+      "description": "Repo Forked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoForked24",
+      "tags": [
+        "24",
+        "fill",
+        "forked",
+        "forked24",
+        "repo"
+      ],
+      "description": "Repo Forked 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoForkedLocked16",
+      "tags": [
+        "16",
+        "fill",
+        "forked",
+        "locked",
+        "locked16",
+        "repo"
+      ],
+      "description": "Repo Forked Locked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoForkedLocked24",
+      "tags": [
+        "24",
+        "fill",
+        "forked",
+        "locked",
+        "locked24",
+        "repo"
+      ],
+      "description": "Repo Forked Locked 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoLocked16",
+      "tags": [
+        "16",
+        "fill",
+        "locked",
+        "locked16",
+        "repo"
+      ],
+      "description": "Repo Locked 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoLocked24",
+      "tags": [
+        "24",
+        "fill",
+        "locked",
+        "locked24",
+        "repo"
+      ],
+      "description": "Repo Locked 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoPull16",
+      "tags": [
+        "16",
+        "fill",
+        "pull",
+        "pull16",
+        "repo"
+      ],
+      "description": "Repo Pull 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoPull24",
+      "tags": [
+        "24",
+        "fill",
+        "pull",
+        "pull24",
+        "repo"
+      ],
+      "description": "Repo Pull 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoPush16",
+      "tags": [
+        "16",
+        "fill",
+        "push",
+        "push16",
+        "repo"
+      ],
+      "description": "Repo Push 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoPush24",
+      "tags": [
+        "24",
+        "fill",
+        "push",
+        "push24",
+        "repo"
+      ],
+      "description": "Repo Push 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcReport16",
+      "tags": [
+        "16",
+        "fill",
+        "report",
+        "report16"
+      ],
+      "description": "Report 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcReport24",
+      "tags": [
+        "24",
+        "fill",
+        "report",
+        "report24"
+      ],
+      "description": "Report 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoTemplate16",
+      "tags": [
+        "16",
+        "fill",
+        "repo",
+        "template",
+        "template16"
+      ],
+      "description": "Repo Template 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRepoTemplate24",
+      "tags": [
+        "24",
+        "fill",
+        "repo",
+        "template",
+        "template24"
+      ],
+      "description": "Repo Template 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRocket16",
+      "tags": [
+        "16",
+        "fill",
+        "rocket",
+        "rocket16"
+      ],
+      "description": "Rocket 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRocket24",
+      "tags": [
+        "24",
+        "fill",
+        "rocket",
+        "rocket24"
+      ],
+      "description": "Rocket 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRows16",
+      "tags": [
+        "16",
+        "fill",
+        "rows",
+        "rows16"
+      ],
+      "description": "Rows 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRows24",
+      "tags": [
+        "24",
+        "fill",
+        "rows",
+        "rows24"
+      ],
+      "description": "Rows 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRss16",
+      "tags": [
+        "16",
+        "fill",
+        "rss",
+        "rss16"
+      ],
+      "description": "Rss 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRss24",
+      "tags": [
+        "24",
+        "fill",
+        "rss",
+        "rss24"
+      ],
+      "description": "Rss 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRuby16",
+      "tags": [
+        "16",
+        "fill",
+        "ruby",
+        "ruby16"
+      ],
+      "description": "Ruby 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcRuby24",
+      "tags": [
+        "24",
+        "fill",
+        "ruby",
+        "ruby24"
+      ],
+      "description": "Ruby 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSandbox16",
+      "tags": [
+        "16",
+        "fill",
+        "sandbox",
+        "sandbox16"
+      ],
+      "description": "Sandbox 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcScreenFull16",
+      "tags": [
+        "16",
+        "fill",
+        "full",
+        "full16",
+        "screen"
+      ],
+      "description": "Screen Full 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcScreenFull24",
+      "tags": [
+        "24",
+        "fill",
+        "full",
+        "full24",
+        "screen"
+      ],
+      "description": "Screen Full 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcScreenNormal16",
+      "tags": [
+        "16",
+        "fill",
+        "normal",
+        "normal16",
+        "screen"
+      ],
+      "description": "Screen Normal 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcScreenNormal24",
+      "tags": [
+        "24",
+        "fill",
+        "normal",
+        "normal24",
+        "screen"
+      ],
+      "description": "Screen Normal 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSearch16",
+      "tags": [
+        "16",
+        "fill",
+        "find",
+        "search",
+        "search16"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "OcSearch24",
+      "tags": [
+        "24",
+        "fill",
+        "find",
+        "search",
+        "search24"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "OcServer16",
+      "tags": [
+        "16",
+        "fill",
+        "server",
+        "server16"
+      ],
+      "description": "Server 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcServer24",
+      "tags": [
+        "24",
+        "fill",
+        "server",
+        "server24"
+      ],
+      "description": "Server 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcShare16",
+      "tags": [
+        "16",
+        "fill",
+        "share",
+        "share16"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "OcShare24",
+      "tags": [
+        "24",
+        "fill",
+        "share",
+        "share24"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "OcShareAndroid16",
+      "tags": [
+        "16",
+        "android",
+        "android16",
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "OcShareAndroid24",
+      "tags": [
+        "24",
+        "android",
+        "android24",
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "OcShield16",
+      "tags": [
+        "16",
+        "fill",
+        "shield",
+        "shield16"
+      ],
+      "description": "Shield 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcShield24",
+      "tags": [
+        "24",
+        "fill",
+        "shield",
+        "shield24"
+      ],
+      "description": "Shield 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcShieldCheck16",
+      "tags": [
+        "16",
+        "check",
+        "check16",
+        "fill",
+        "shield"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcShieldCheck24",
+      "tags": [
+        "24",
+        "check",
+        "check24",
+        "fill",
+        "shield"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcShieldLock16",
+      "tags": [
+        "16",
+        "fill",
+        "lock",
+        "lock16",
+        "shield"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "OcShieldLock24",
+      "tags": [
+        "24",
+        "fill",
+        "lock",
+        "lock24",
+        "shield"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "OcShieldSlash16",
+      "tags": [
+        "16",
+        "fill",
+        "shield",
+        "slash",
+        "slash16"
+      ],
+      "description": "Shield Slash 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcShieldSlash24",
+      "tags": [
+        "24",
+        "fill",
+        "shield",
+        "slash",
+        "slash24"
+      ],
+      "description": "Shield Slash 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcShieldX16",
+      "tags": [
+        "16",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "shield",
+        "x",
+        "x16"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcShieldX24",
+      "tags": [
+        "24",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "shield",
+        "x",
+        "x24"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcSidebarCollapse16",
+      "tags": [
+        "16",
+        "collapse",
+        "collapse16",
+        "fill",
+        "sidebar"
+      ],
+      "description": "Sidebar Collapse 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSidebarCollapse24",
+      "tags": [
+        "24",
+        "collapse",
+        "collapse24",
+        "fill",
+        "sidebar"
+      ],
+      "description": "Sidebar Collapse 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSidebarExpand16",
+      "tags": [
+        "16",
+        "expand",
+        "expand16",
+        "fill",
+        "sidebar"
+      ],
+      "description": "Sidebar Expand 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSidebarExpand24",
+      "tags": [
+        "24",
+        "expand",
+        "expand24",
+        "fill",
+        "sidebar"
+      ],
+      "description": "Sidebar Expand 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSignIn16",
+      "tags": [
+        "16",
+        "fill",
+        "in",
+        "in16",
+        "sign"
+      ],
+      "description": "Sign In 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSignIn24",
+      "tags": [
+        "24",
+        "fill",
+        "in",
+        "in24",
+        "sign"
+      ],
+      "description": "Sign In 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSignOut16",
+      "tags": [
+        "16",
+        "fill",
+        "out",
+        "out16",
+        "sign"
+      ],
+      "description": "Sign Out 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSignOut24",
+      "tags": [
+        "24",
+        "fill",
+        "out",
+        "out24",
+        "sign"
+      ],
+      "description": "Sign Out 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSingleSelect16",
+      "tags": [
+        "16",
+        "fill",
+        "select",
+        "select16",
+        "single"
+      ],
+      "description": "Single Select 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSingleSelect24",
+      "tags": [
+        "24",
+        "fill",
+        "select",
+        "select24",
+        "single"
+      ],
+      "description": "Single Select 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSkip16",
+      "tags": [
+        "16",
+        "fill",
+        "skip",
+        "skip16"
+      ],
+      "description": "Skip 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSkip24",
+      "tags": [
+        "24",
+        "fill",
+        "skip",
+        "skip24"
+      ],
+      "description": "Skip 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSkipFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "skip"
+      ],
+      "description": "Skip Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSkipFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "skip"
+      ],
+      "description": "Skip Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSliders16",
+      "tags": [
+        "16",
+        "fill",
+        "gear",
+        "setting",
+        "sliders",
+        "sliders16"
+      ],
+      "description": "Sliders 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSliders24",
+      "tags": [
+        "24",
+        "fill",
+        "gear",
+        "setting",
+        "sliders",
+        "sliders24"
+      ],
+      "description": "Sliders 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmiley16",
+      "tags": [
+        "16",
+        "fill",
+        "smiley",
+        "smiley16"
+      ],
+      "description": "Smiley 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmiley24",
+      "tags": [
+        "24",
+        "fill",
+        "smiley",
+        "smiley24"
+      ],
+      "description": "Smiley 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyFrown16",
+      "tags": [
+        "16",
+        "fill",
+        "frown",
+        "frown16",
+        "smiley"
+      ],
+      "description": "Smiley Frown 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyFrown24",
+      "tags": [
+        "24",
+        "fill",
+        "frown",
+        "frown24",
+        "smiley"
+      ],
+      "description": "Smiley Frown 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyFrustrated16",
+      "tags": [
+        "16",
+        "fill",
+        "frustrated",
+        "frustrated16",
+        "smiley"
+      ],
+      "description": "Smiley Frustrated 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyFrustrated24",
+      "tags": [
+        "24",
+        "fill",
+        "frustrated",
+        "frustrated24",
+        "smiley"
+      ],
+      "description": "Smiley Frustrated 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyGrin16",
+      "tags": [
+        "16",
+        "fill",
+        "grin",
+        "grin16",
+        "smiley"
+      ],
+      "description": "Smiley Grin 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyGrin24",
+      "tags": [
+        "24",
+        "fill",
+        "grin",
+        "grin24",
+        "smiley"
+      ],
+      "description": "Smiley Grin 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyNeutral16",
+      "tags": [
+        "16",
+        "fill",
+        "neutral",
+        "neutral16",
+        "smiley"
+      ],
+      "description": "Smiley Neutral 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSmileyNeutral24",
+      "tags": [
+        "24",
+        "fill",
+        "neutral",
+        "neutral24",
+        "smiley"
+      ],
+      "description": "Smiley Neutral 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSortAsc16",
+      "tags": [
+        "16",
+        "asc",
+        "asc16",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Asc 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSortAsc24",
+      "tags": [
+        "24",
+        "asc",
+        "asc24",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Asc 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSortDesc16",
+      "tags": [
+        "16",
+        "desc",
+        "desc16",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Desc 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSortDesc24",
+      "tags": [
+        "24",
+        "desc",
+        "desc24",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Desc 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpace16",
+      "tags": [
+        "16",
+        "fill",
+        "space",
+        "space16"
+      ],
+      "description": "Space 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpace24",
+      "tags": [
+        "24",
+        "fill",
+        "space",
+        "space24"
+      ],
+      "description": "Space 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpacingLarge16",
+      "tags": [
+        "16",
+        "fill",
+        "large",
+        "large16",
+        "spacing"
+      ],
+      "description": "Spacing Large 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpacingLarge24",
+      "tags": [
+        "24",
+        "fill",
+        "large",
+        "large24",
+        "spacing"
+      ],
+      "description": "Spacing Large 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpacingMedium16",
+      "tags": [
+        "16",
+        "fill",
+        "medium",
+        "medium16",
+        "spacing"
+      ],
+      "description": "Spacing Medium 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpacingMedium24",
+      "tags": [
+        "24",
+        "fill",
+        "medium",
+        "medium24",
+        "spacing"
+      ],
+      "description": "Spacing Medium 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpacingSmall16",
+      "tags": [
+        "16",
+        "fill",
+        "small",
+        "small16",
+        "spacing"
+      ],
+      "description": "Spacing Small 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSpacingSmall24",
+      "tags": [
+        "24",
+        "fill",
+        "small",
+        "small24",
+        "spacing"
+      ],
+      "description": "Spacing Small 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSparkle16",
+      "tags": [
+        "16",
+        "fill",
+        "sparkle",
+        "sparkle16"
+      ],
+      "description": "Sparkle 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSparkle24",
+      "tags": [
+        "24",
+        "fill",
+        "sparkle",
+        "sparkle24"
+      ],
+      "description": "Sparkle 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSparkleFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "sparkle"
+      ],
+      "description": "Sparkle Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSparkleFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "sparkle"
+      ],
+      "description": "Sparkle Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSparklesFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "sparkles"
+      ],
+      "description": "Sparkles Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSparklesFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "sparkles"
+      ],
+      "description": "Sparkles Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSplitView16",
+      "tags": [
+        "16",
+        "fill",
+        "split",
+        "view",
+        "view16"
+      ],
+      "description": "Split View 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSplitView24",
+      "tags": [
+        "24",
+        "fill",
+        "split",
+        "view",
+        "view24"
+      ],
+      "description": "Split View 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSponsorTiers16",
+      "tags": [
+        "16",
+        "fill",
+        "sponsor",
+        "tiers",
+        "tiers16"
+      ],
+      "description": "Sponsor Tiers 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSponsorTiers24",
+      "tags": [
+        "24",
+        "fill",
+        "sponsor",
+        "tiers",
+        "tiers24"
+      ],
+      "description": "Sponsor Tiers 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquare16",
+      "tags": [
+        "16",
+        "fill",
+        "square",
+        "square16"
+      ],
+      "description": "Square 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquare24",
+      "tags": [
+        "24",
+        "fill",
+        "square",
+        "square24"
+      ],
+      "description": "Square 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquareCircle16",
+      "tags": [
+        "16",
+        "circle",
+        "circle16",
+        "fill",
+        "square"
+      ],
+      "description": "Square Circle 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquareCircle24",
+      "tags": [
+        "24",
+        "circle",
+        "circle24",
+        "fill",
+        "square"
+      ],
+      "description": "Square Circle 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquareFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "square"
+      ],
+      "description": "Square Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquareFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "square"
+      ],
+      "description": "Square Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquirrel16",
+      "tags": [
+        "16",
+        "fill",
+        "squirrel",
+        "squirrel16"
+      ],
+      "description": "Squirrel 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSquirrel24",
+      "tags": [
+        "24",
+        "fill",
+        "squirrel",
+        "squirrel24"
+      ],
+      "description": "Squirrel 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStack16",
+      "tags": [
+        "16",
+        "fill",
+        "stack",
+        "stack16"
+      ],
+      "description": "Stack 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStack24",
+      "tags": [
+        "24",
+        "fill",
+        "stack",
+        "stack24"
+      ],
+      "description": "Stack 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStackAdd16",
+      "tags": [
+        "16",
+        "add",
+        "add16",
+        "fill",
+        "stack"
+      ],
+      "description": "Stack Add 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStackCheck16",
+      "tags": [
+        "16",
+        "check",
+        "check16",
+        "fill",
+        "stack"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "OcStackRemove16",
+      "tags": [
+        "16",
+        "fill",
+        "remove",
+        "remove16",
+        "stack"
+      ],
+      "description": "Stack Remove 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStar16",
+      "tags": [
+        "16",
+        "fill",
+        "star",
+        "star16"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "OcStar24",
+      "tags": [
+        "24",
+        "fill",
+        "star",
+        "star24"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "OcStarFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "OcStarFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "OcStop16",
+      "tags": [
+        "16",
+        "fill",
+        "stop",
+        "stop16"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "OcStop24",
+      "tags": [
+        "24",
+        "fill",
+        "stop",
+        "stop24"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "OcStopwatch16",
+      "tags": [
+        "16",
+        "fill",
+        "stopwatch",
+        "stopwatch16"
+      ],
+      "description": "Stopwatch 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStopwatch24",
+      "tags": [
+        "24",
+        "fill",
+        "stopwatch",
+        "stopwatch24"
+      ],
+      "description": "Stopwatch 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStrikethrough16",
+      "tags": [
+        "16",
+        "fill",
+        "strikethrough",
+        "strikethrough16"
+      ],
+      "description": "Strikethrough 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcStrikethrough24",
+      "tags": [
+        "24",
+        "fill",
+        "strikethrough",
+        "strikethrough24"
+      ],
+      "description": "Strikethrough 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSun16",
+      "tags": [
+        "16",
+        "fill",
+        "sun",
+        "sun16"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "OcSun24",
+      "tags": [
+        "24",
+        "fill",
+        "sun",
+        "sun24"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "OcSync16",
+      "tags": [
+        "16",
+        "fill",
+        "sync",
+        "sync16"
+      ],
+      "description": "Sync 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcSync24",
+      "tags": [
+        "24",
+        "fill",
+        "sync",
+        "sync24"
+      ],
+      "description": "Sync 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTab16",
+      "tags": [
+        "16",
+        "fill",
+        "tab",
+        "tab16"
+      ],
+      "description": "Tab 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTab24",
+      "tags": [
+        "24",
+        "fill",
+        "tab",
+        "tab24"
+      ],
+      "description": "Tab 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTabExternal16",
+      "tags": [
+        "16",
+        "external",
+        "external16",
+        "fill",
+        "tab"
+      ],
+      "description": "Tab External 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTabExternal24",
+      "tags": [
+        "24",
+        "external",
+        "external24",
+        "fill",
+        "tab"
+      ],
+      "description": "Tab External 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTable16",
+      "tags": [
+        "16",
+        "fill",
+        "table",
+        "table16"
+      ],
+      "description": "Table 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTable24",
+      "tags": [
+        "24",
+        "fill",
+        "table",
+        "table24"
+      ],
+      "description": "Table 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTag16",
+      "tags": [
+        "16",
+        "fill",
+        "tag",
+        "tag16"
+      ],
+      "description": "Tag 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTag24",
+      "tags": [
+        "24",
+        "fill",
+        "tag",
+        "tag24"
+      ],
+      "description": "Tag 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTasklist16",
+      "tags": [
+        "16",
+        "fill",
+        "tasklist",
+        "tasklist16"
+      ],
+      "description": "Tasklist 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTasklist24",
+      "tags": [
+        "24",
+        "fill",
+        "tasklist",
+        "tasklist24"
+      ],
+      "description": "Tasklist 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTelescope16",
+      "tags": [
+        "16",
+        "fill",
+        "telescope",
+        "telescope16"
+      ],
+      "description": "Telescope 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTelescope24",
+      "tags": [
+        "24",
+        "fill",
+        "telescope",
+        "telescope24"
+      ],
+      "description": "Telescope 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTelescopeFill16",
+      "tags": [
+        "16",
+        "fill",
+        "fill16",
+        "telescope"
+      ],
+      "description": "Telescope Fill 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTelescopeFill24",
+      "tags": [
+        "24",
+        "fill",
+        "fill24",
+        "telescope"
+      ],
+      "description": "Telescope Fill 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTerminal16",
+      "tags": [
+        "16",
+        "fill",
+        "terminal",
+        "terminal16"
+      ],
+      "description": "Terminal 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTerminal24",
+      "tags": [
+        "24",
+        "fill",
+        "terminal",
+        "terminal24"
+      ],
+      "description": "Terminal 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcThreeBars16",
+      "tags": [
+        "16",
+        "bars",
+        "bars16",
+        "fill",
+        "three"
+      ],
+      "description": "Three Bars 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcThreeBars24",
+      "tags": [
+        "24",
+        "bars",
+        "bars24",
+        "fill",
+        "three"
+      ],
+      "description": "Three Bars 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcThumbsdown16",
+      "tags": [
+        "16",
+        "fill",
+        "thumbsdown",
+        "thumbsdown16"
+      ],
+      "description": "Thumbsdown 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcThumbsdown24",
+      "tags": [
+        "24",
+        "fill",
+        "thumbsdown",
+        "thumbsdown24"
+      ],
+      "description": "Thumbsdown 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcThumbsup16",
+      "tags": [
+        "16",
+        "fill",
+        "thumbsup",
+        "thumbsup16"
+      ],
+      "description": "Thumbsup 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcThumbsup24",
+      "tags": [
+        "24",
+        "fill",
+        "thumbsup",
+        "thumbsup24"
+      ],
+      "description": "Thumbsup 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTools16",
+      "tags": [
+        "16",
+        "fill",
+        "tools",
+        "tools16"
+      ],
+      "description": "Tools 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTools24",
+      "tags": [
+        "24",
+        "fill",
+        "tools",
+        "tools24"
+      ],
+      "description": "Tools 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTrackedByClosedCompleted16",
+      "tags": [
+        "16",
+        "by",
+        "closed",
+        "completed",
+        "completed16",
+        "fill",
+        "tracked"
+      ],
+      "description": "Tracked By Closed Completed 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTrackedByClosedCompleted24",
+      "tags": [
+        "24",
+        "by",
+        "closed",
+        "completed",
+        "completed24",
+        "fill",
+        "tracked"
+      ],
+      "description": "Tracked By Closed Completed 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTrackedByClosedNotPlanned16",
+      "tags": [
+        "16",
+        "by",
+        "closed",
+        "fill",
+        "not",
+        "planned",
+        "planned16",
+        "tracked"
+      ],
+      "description": "Tracked By Closed Not Planned 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTrackedByClosedNotPlanned24",
+      "tags": [
+        "24",
+        "by",
+        "closed",
+        "fill",
+        "not",
+        "planned",
+        "planned24",
+        "tracked"
+      ],
+      "description": "Tracked By Closed Not Planned 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTrash16",
+      "tags": [
+        "16",
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash",
+        "trash16"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "OcTrash24",
+      "tags": [
+        "24",
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash",
+        "trash24"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "OcTriangleDown16",
+      "tags": [
+        "16",
+        "down",
+        "down16",
+        "fill",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Down 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTriangleDown24",
+      "tags": [
+        "24",
+        "down",
+        "down24",
+        "fill",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Down 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTriangleLeft16",
+      "tags": [
+        "16",
+        "fill",
+        "left",
+        "left16",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Left 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTriangleLeft24",
+      "tags": [
+        "24",
+        "fill",
+        "left",
+        "left24",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Left 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTriangleRight16",
+      "tags": [
+        "16",
+        "fill",
+        "right",
+        "right16",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Right 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTriangleRight24",
+      "tags": [
+        "24",
+        "fill",
+        "right",
+        "right24",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Right 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTriangleUp16",
+      "tags": [
+        "16",
+        "fill",
+        "like",
+        "triangle",
+        "up",
+        "up16",
+        "warning"
+      ],
+      "description": "Triangle Up 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTriangleUp24",
+      "tags": [
+        "24",
+        "fill",
+        "like",
+        "triangle",
+        "up",
+        "up24",
+        "warning"
+      ],
+      "description": "Triangle Up 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTrophy16",
+      "tags": [
+        "16",
+        "fill",
+        "trophy",
+        "trophy16"
+      ],
+      "description": "Trophy 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTrophy24",
+      "tags": [
+        "24",
+        "fill",
+        "trophy",
+        "trophy24"
+      ],
+      "description": "Trophy 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTypography16",
+      "tags": [
+        "16",
+        "fill",
+        "typography",
+        "typography16"
+      ],
+      "description": "Typography 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcTypography24",
+      "tags": [
+        "24",
+        "fill",
+        "typography",
+        "typography24"
+      ],
+      "description": "Typography 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUndo16",
+      "tags": [
+        "16",
+        "fill",
+        "undo",
+        "undo16"
+      ],
+      "description": "Undo 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUndo24",
+      "tags": [
+        "24",
+        "fill",
+        "undo",
+        "undo24"
+      ],
+      "description": "Undo 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnfold16",
+      "tags": [
+        "16",
+        "fill",
+        "unfold",
+        "unfold16"
+      ],
+      "description": "Unfold 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnfold24",
+      "tags": [
+        "24",
+        "fill",
+        "unfold",
+        "unfold24"
+      ],
+      "description": "Unfold 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnlink16",
+      "tags": [
+        "16",
+        "fill",
+        "unlink",
+        "unlink16"
+      ],
+      "description": "Unlink 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnlink24",
+      "tags": [
+        "24",
+        "fill",
+        "unlink",
+        "unlink24"
+      ],
+      "description": "Unlink 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnlock16",
+      "tags": [
+        "16",
+        "fill",
+        "unlock",
+        "unlock16"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "OcUnlock24",
+      "tags": [
+        "24",
+        "fill",
+        "unlock",
+        "unlock24"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "OcUnmute16",
+      "tags": [
+        "16",
+        "fill",
+        "unmute",
+        "unmute16"
+      ],
+      "description": "Unmute 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnmute24",
+      "tags": [
+        "24",
+        "fill",
+        "unmute",
+        "unmute24"
+      ],
+      "description": "Unmute 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnread16",
+      "tags": [
+        "16",
+        "fill",
+        "unread",
+        "unread16"
+      ],
+      "description": "Unread 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnread24",
+      "tags": [
+        "24",
+        "fill",
+        "unread",
+        "unread24"
+      ],
+      "description": "Unread 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnverified16",
+      "tags": [
+        "16",
+        "fill",
+        "unverified",
+        "unverified16"
+      ],
+      "description": "Unverified 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnverified24",
+      "tags": [
+        "24",
+        "fill",
+        "unverified",
+        "unverified24"
+      ],
+      "description": "Unverified 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnwrap16",
+      "tags": [
+        "16",
+        "fill",
+        "unwrap",
+        "unwrap16"
+      ],
+      "description": "Unwrap 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUnwrap24",
+      "tags": [
+        "24",
+        "fill",
+        "unwrap",
+        "unwrap24"
+      ],
+      "description": "Unwrap 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcUpload16",
+      "tags": [
+        "16",
+        "fill",
+        "upload",
+        "upload16"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "OcUpload24",
+      "tags": [
+        "24",
+        "fill",
+        "upload",
+        "upload24"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "OcVerified16",
+      "tags": [
+        "16",
+        "fill",
+        "verified",
+        "verified16"
+      ],
+      "description": "Verified 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcVerified24",
+      "tags": [
+        "24",
+        "fill",
+        "verified",
+        "verified24"
+      ],
+      "description": "Verified 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcVersions16",
+      "tags": [
+        "16",
+        "fill",
+        "versions",
+        "versions16"
+      ],
+      "description": "Versions 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcVersions24",
+      "tags": [
+        "24",
+        "fill",
+        "versions",
+        "versions24"
+      ],
+      "description": "Versions 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcVideo16",
+      "tags": [
+        "16",
+        "fill",
+        "video",
+        "video16"
+      ],
+      "description": "Video 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcVideo24",
+      "tags": [
+        "24",
+        "fill",
+        "video",
+        "video24"
+      ],
+      "description": "Video 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcVscode16",
+      "tags": [
+        "16",
+        "fill",
+        "vscode",
+        "vscode16"
+      ],
+      "description": "Vscode 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcVscode24",
+      "tags": [
+        "24",
+        "fill",
+        "vscode",
+        "vscode24"
+      ],
+      "description": "Vscode 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcWebhook16",
+      "tags": [
+        "16",
+        "fill",
+        "webhook",
+        "webhook16"
+      ],
+      "description": "Webhook 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcWorkflow16",
+      "tags": [
+        "16",
+        "fill",
+        "workflow",
+        "workflow16"
+      ],
+      "description": "Workflow 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcWorkflow24",
+      "tags": [
+        "24",
+        "fill",
+        "workflow",
+        "workflow24"
+      ],
+      "description": "Workflow 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcWrap16",
+      "tags": [
+        "16",
+        "fill",
+        "wrap",
+        "wrap16"
+      ],
+      "description": "Wrap 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcWrap24",
+      "tags": [
+        "24",
+        "fill",
+        "wrap",
+        "wrap24"
+      ],
+      "description": "Wrap 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcX12",
+      "tags": [
+        "12",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "x",
+        "x12"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcX16",
+      "tags": [
+        "16",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "x",
+        "x16"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcX24",
+      "tags": [
+        "24",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "x",
+        "x24"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcXCircle16",
+      "tags": [
+        "16",
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "x",
+        "xcircle16"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcXCircle24",
+      "tags": [
+        "24",
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "x",
+        "xcircle24"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcXCircleFill12",
+      "tags": [
+        "12",
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "fill",
+        "fill12",
+        "remove",
+        "x",
+        "xcircle"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcXCircleFill16",
+      "tags": [
+        "16",
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "fill",
+        "fill16",
+        "remove",
+        "x",
+        "xcircle"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcXCircleFill24",
+      "tags": [
+        "24",
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "fill",
+        "fill24",
+        "remove",
+        "x",
+        "xcircle"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "OcZap16",
+      "tags": [
+        "16",
+        "fill",
+        "zap",
+        "zap16"
+      ],
+      "description": "Zap 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcZap24",
+      "tags": [
+        "24",
+        "fill",
+        "zap",
+        "zap24"
+      ],
+      "description": "Zap 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcZoomIn16",
+      "tags": [
+        "16",
+        "fill",
+        "in",
+        "in16",
+        "zoom"
+      ],
+      "description": "Zoom In 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcZoomIn24",
+      "tags": [
+        "24",
+        "fill",
+        "in",
+        "in24",
+        "zoom"
+      ],
+      "description": "Zoom In 24 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcZoomOut16",
+      "tags": [
+        "16",
+        "fill",
+        "out",
+        "out16",
+        "zoom"
+      ],
+      "description": "Zoom Out 16 icon — Octicons (oc) set, fill style."
+    },
+    {
+      "name": "OcZoomOut24",
+      "tags": [
+        "24",
+        "fill",
+        "out",
+        "out24",
+        "zoom"
+      ],
+      "description": "Zoom Out 24 icon — Octicons (oc) set, fill style."
+    }
+  ]
+}

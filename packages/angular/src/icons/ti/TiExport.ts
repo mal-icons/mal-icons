@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-export",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiExport {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 16.5v0.5c1.69-2.58 3.6-3.95 6-4v3c0 0.550.51 1 1.14 1 0.36 0 0.68-0.160.88-0.39 1.93-2.03 5.97-6.11 5.97-6.11s-4.04-4.08-5.97-6.14c-0.21-0.2-0.52-0.36-0.88-0.36-0.63 0-1.140.45-1.14 1v3c-4.66 0-6 4.87-6 8.5zM5 21h14c0.55 0 1-0.45 1-1v-6.05c-0.660.68-1.36 1.39-2 2.05v3h-12v-12h7v-2h-8c-0.55 0-1 0.45-1 1v14c0 0.550.45 1 1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiExport;

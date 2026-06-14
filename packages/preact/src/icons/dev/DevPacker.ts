@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevPacker = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-packer-1-a)"}],["path",{"fill":"currentColor","d":"M114.6 73.3 311 185.7V600L114.6 487.6"}],["path",{"fill":"currentColor","d":"M408.5 121.7 194.8 0v84.5l145.3 83v253.8l68.4 38.8c42.3 24.2 77 9.7 77-32.2V241.8c0-41.9-34.7-95.9-77-120"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevPacker;

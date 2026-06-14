@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuHandHeart = createIcon("0 0 24 24", [["path",{"d":"M11 14h2a2 2 0 0 0 0-4h-3c-0.6 0-1.10.2-1.40.6L3 16"}],["path",{"d":"m14.45 13.39 5.05-4.69C20.2 8 21 6.85 21 5.75a2.75 2.75 0 0 0-4.8-1.840.280.28 0 0 1-0.41 0A2.75 2.75 0 0 0 11 5.75c0 1.20.8 2.25 1.5 2.95L16 11.95"}],["path",{"d":"m2 15 6 6"}],["path",{"d":"m7 20 1.6-1.4c0.3-0.40.8-0.6 1.4-0.6h4c1.1 0 2.1-0.4 2.8-1.2l4.6-4.4a1 1 0 0 0-2.75-2.91"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuHandHeart;

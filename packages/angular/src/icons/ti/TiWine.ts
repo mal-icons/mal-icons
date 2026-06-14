@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ti-wine",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TiWine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.57 9.43c0-2.55-0.91-5.59-0.94-5.72-0.13-0.42-0.52-0.71-0.96-0.71h-7.33c-0.44 0-0.830.29-0.960.71-0.040.13-0.94 3.17-0.94 5.72 0 2.74 1.98 5.01 4.59 5.48l-0.020.09v4h-1c-0.55 0-1 0.45-1 1s0.45 1 1 1h4c0.55 0 1-0.45 1-1s-0.45-1-1-1h-1v-4l-0.02-0.09c2.6-0.47 4.59-2.74 4.59-5.48zm-5.57 3.57c-1.77 0-3.24-1.3-3.51-3h7.02c-0.27 1.7-1.74 3-3.51 3zm-3.55-4c0.06-1.470.42-3.090.65-4h5.8c0.230.910.59 2.530.65 4h-7.11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TiWine;

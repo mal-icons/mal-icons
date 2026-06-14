@@ -27,6 +27,13 @@ export interface IconSource {
    * `fill="none"` and rely on stroke; `fill` sets paint with currentColor.
    */
   style: "stroke" | "fill";
+  /**
+   * Optional file-name prefix to drop before deriving component names. Some
+   * sets ship every file already namespaced (e.g. Weather Icons uses
+   * `wi-day-sunny.svg`); stripping the redundant prefix avoids doubled
+   * component names like `WiWiDaySunny`.
+   */
+  stripPrefix?: string;
 }
 
 export const sources: Record<string, IconSource> = {
@@ -60,6 +67,16 @@ export const sources: Record<string, IconSource> = {
     iconDir: "src/svg",
     style: "fill",
   },
+  lu: {
+    id: "lu",
+    prefix: "Lu",
+    name: "Lucide",
+    license: "ISC",
+    repo: "lucide-icons/lucide",
+    ref: "1.19.0",
+    iconDir: "icons",
+    style: "stroke",
+  },
   fa: {
     id: "fa",
     prefix: "Fa",
@@ -89,5 +106,56 @@ export const sources: Record<string, IconSource> = {
     ref: "6.7.2",
     iconDir: "svgs/brands",
     style: "fill",
+  },
+  ti: {
+    id: "ti",
+    prefix: "Ti",
+    name: "Typicons",
+    license: "CC-BY-SA-4.0",
+    repo: "stephenhutchings/typicons.font",
+    ref: "v2.1.2",
+    iconDir: "src/svg",
+    style: "fill",
+  },
+  oc: {
+    id: "oc",
+    prefix: "Oc",
+    name: "Octicons",
+    license: "MIT",
+    repo: "primer/octicons",
+    ref: "v19.28.1",
+    iconDir: "icons",
+    style: "fill",
+  },
+  dev: {
+    id: "dev",
+    prefix: "Dev",
+    name: "Devicons",
+    license: "MIT",
+    repo: "vorillaz/devicons",
+    ref: "devicons-v2.0.1",
+    iconDir: "packages/core/export-files/icons",
+    style: "fill",
+  },
+  ad: {
+    id: "ad",
+    prefix: "Ad",
+    name: "Ant Design Icons",
+    license: "MIT",
+    repo: "ant-design/ant-design-icons",
+    ref: "refs/tags/@ant-design/icons-svg@4.0.0",
+    iconDir: "packages/icons-svg/svg/outlined",
+    style: "fill",
+  },
+  wi: {
+    id: "wi",
+    prefix: "Wi",
+    name: "Weather Icons",
+    license: "OFL-1.1",
+    repo: "erikflowers/weather-icons",
+    ref: "2.0.12",
+    iconDir: "svg",
+    style: "fill",
+    stripPrefix: "wi-",
   },
 };

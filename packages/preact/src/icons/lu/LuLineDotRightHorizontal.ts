@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LuLineDotRightHorizontal = createIcon("0 0 24 24", [["path",{"d":"M 3 12 L 15 12"}],["circle",{"cx":"18","cy":"12","r":"3"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default LuLineDotRightHorizontal;

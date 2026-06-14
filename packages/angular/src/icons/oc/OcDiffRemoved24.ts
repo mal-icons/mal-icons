@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-diff-removed-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcDiffRemoved24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.31 11.25a0.750.75 0 0 0 0 1.5h9.94a0.750.75 0 0 0 0-1.5H7.31Z"}],["path",{"d":"M3.75 2A1.75 1.75 0 0 0 2 3.75v16.5c0 0.970.78 1.75 1.75 1.75h16.5A1.75 1.75 0 0 0 22 20.25V3.75A1.75 1.75 0 0 0 20.25 2H3.75ZM3.5 3.75a0.250.25 0 0 1 0.25-0.25h16.5a0.250.25 0 0 1 0.250.25v16.5a0.250.25 0 0 1-0.250.25H3.75a0.250.25 0 0 1-0.25-0.25V3.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcDiffRemoved24;

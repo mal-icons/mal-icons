@@ -1,10 +1,22 @@
 {
   "sets": [
     {
+      "id": "ad",
+      "name": "Ant Design Icons",
+      "license": "MIT",
+      "count": 420
+    },
+    {
       "id": "ci",
       "name": "Circum",
       "license": "MPL-2.0",
       "count": 288
+    },
+    {
+      "id": "dev",
+      "name": "Devicons",
+      "license": "MIT",
+      "count": 1725
     },
     {
       "id": "fa",
@@ -35,6 +47,30 @@
       "name": "Ionicons",
       "license": "MIT",
       "count": 1357
+    },
+    {
+      "id": "lu",
+      "name": "Lucide",
+      "license": "ISC",
+      "count": 1727
+    },
+    {
+      "id": "oc",
+      "name": "Octicons",
+      "license": "MIT",
+      "count": 733
+    },
+    {
+      "id": "ti",
+      "name": "Typicons",
+      "license": "CC-BY-SA-4.0",
+      "count": 336
+    },
+    {
+      "id": "wi",
+      "name": "Weather Icons",
+      "license": "OFL-1.1",
+      "count": 219
     }
   ]
 }

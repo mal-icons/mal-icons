@@ -36,6 +36,16 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
+    "./ad": {
+      "types": "./dist/icons/ad/index.d.ts",
+      "bun": "./src/icons/ad/index.ts",
+      "import": "./dist/icons/ad/index.js"
+    },
+    "./ad/*": {
+      "types": "./dist/icons/ad/*.d.ts",
+      "bun": "./src/icons/ad/*.ts",
+      "import": "./dist/icons/ad/*.js"
+    },
     "./ci": {
       "types": "./dist/icons/ci/index.d.ts",
       "bun": "./src/icons/ci/index.ts",
@@ -45,6 +55,16 @@
       "types": "./dist/icons/ci/*.d.ts",
       "bun": "./src/icons/ci/*.ts",
       "import": "./dist/icons/ci/*.js"
+    },
+    "./dev": {
+      "types": "./dist/icons/dev/index.d.ts",
+      "bun": "./src/icons/dev/index.ts",
+      "import": "./dist/icons/dev/index.js"
+    },
+    "./dev/*": {
+      "types": "./dist/icons/dev/*.d.ts",
+      "bun": "./src/icons/dev/*.ts",
+      "import": "./dist/icons/dev/*.js"
     },
     "./fa": {
       "types": "./dist/icons/fa/index.d.ts",
@@ -91,10 +111,50 @@
       "bun": "./src/icons/io/index.ts",
       "import": "./dist/icons/io/index.js"
     },
+    "./lu": {
+      "types": "./dist/icons/lu/index.d.ts",
+      "bun": "./src/icons/lu/index.ts",
+      "import": "./dist/icons/lu/index.js"
+    },
+    "./oc": {
+      "types": "./dist/icons/oc/index.d.ts",
+      "bun": "./src/icons/oc/index.ts",
+      "import": "./dist/icons/oc/index.js"
+    },
     "./io/*": {
       "types": "./dist/icons/io/*.d.ts",
       "bun": "./src/icons/io/*.ts",
       "import": "./dist/icons/io/*.js"
+    },
+    "./lu/*": {
+      "types": "./dist/icons/lu/*.d.ts",
+      "bun": "./src/icons/lu/*.ts",
+      "import": "./dist/icons/lu/*.js"
+    },
+    "./oc/*": {
+      "types": "./dist/icons/oc/*.d.ts",
+      "bun": "./src/icons/oc/*.ts",
+      "import": "./dist/icons/oc/*.js"
+    },
+    "./ti": {
+      "types": "./dist/icons/ti/index.d.ts",
+      "bun": "./src/icons/ti/index.ts",
+      "import": "./dist/icons/ti/index.js"
+    },
+    "./ti/*": {
+      "types": "./dist/icons/ti/*.d.ts",
+      "bun": "./src/icons/ti/*.ts",
+      "import": "./dist/icons/ti/*.js"
+    },
+    "./wi": {
+      "types": "./dist/icons/wi/index.d.ts",
+      "bun": "./src/icons/wi/index.ts",
+      "import": "./dist/icons/wi/index.js"
+    },
+    "./wi/*": {
+      "types": "./dist/icons/wi/*.d.ts",
+      "bun": "./src/icons/wi/*.ts",
+      "import": "./dist/icons/wi/*.js"
     },
     "./package.json": "./package.json"
   },

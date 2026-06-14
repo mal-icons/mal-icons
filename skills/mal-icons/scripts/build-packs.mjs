@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  ad: {
+    id: "ad",
+    name: "Ant Design Icons",
+    prefix: "Ad",
+    version: "4.0.0",
+    license: "MIT",
+    repo: "ant-design/ant-design-icons",
+    style: "fill",
+    viewBox: "0 0 1024 1024",
+    blurb:
+      "Ant Design's outlined UI icon set (e.g. `AdHome`, `AdSetting`, `AdSearch`). Clean single-color 1024×1024 fill icons. Paths paint with `currentColor`; theme via `color`.",
+  },
   fi: {
     id: "fi",
     name: "Feather",
@@ -64,6 +76,18 @@ const SET_META = {
     viewBox: "0 0 512 512",
     blurb:
       "Large 512×512 set with filled, `-outline` and `-sharp` variants. Filled icons theme via `color`; outline variants carry stroke geometry.",
+  },
+  lu: {
+    id: "lu",
+    name: "Lucide",
+    prefix: "Lu",
+    version: "1.19.0",
+    license: "ISC",
+    repo: "lucide-icons/lucide",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Large, community-driven 24×24 stroke set (a Feather fork, e.g. `LuActivity`, `LuSearch`). Themed via `color`; honor `strokeWidth`/`weight`.",
   },
   fa: {
     id: "fa",
@@ -100,6 +124,54 @@ const SET_META = {
     viewBox: "0 0 512 512",
     blurb:
       "Regular (outline-style) 512×512 icons (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
+  },
+  ti: {
+    id: "ti",
+    name: "Typicons",
+    prefix: "Ti",
+    version: "2.1.2",
+    license: "CC-BY-SA-4.0",
+    repo: "stephenhutchings/typicons.font",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Compact, rounded 24×24 fill icons with many `-outline` variants. Paths paint with `currentColor`; theme via `color`.",
+  },
+  oc: {
+    id: "oc",
+    name: "Octicons",
+    prefix: "Oc",
+    version: "19.28.1",
+    license: "MIT",
+    repo: "primer/octicons",
+    style: "fill",
+    viewBox: "0 0 16 16",
+    blurb:
+      "GitHub's UI icons, shipped in size variants (component names keep the size suffix, e.g. `OcAlert16`/`OcAlert24`). Paths paint with `currentColor`; theme via `color`.",
+  },
+  dev: {
+    id: "dev",
+    name: "Devicons",
+    prefix: "Dev",
+    version: "2.0.1",
+    license: "MIT",
+    repo: "vorillaz/devicons",
+    style: "fill",
+    viewBox: "0 0 600 600",
+    blurb:
+      "Developer brand logos & icons (e.g. `DevReact`, `DevDreamhost`). Many ship a plain and an `Icon` variant. Paths paint with `currentColor`; theme via `color`.",
+  },
+  wi: {
+    id: "wi",
+    name: "Weather Icons",
+    prefix: "Wi",
+    version: "2.0.12",
+    license: "OFL-1.1",
+    repo: "erikflowers/weather-icons",
+    style: "fill",
+    viewBox: "0 0 30 30",
+    blurb:
+      "Weather, maritime & meteorological 30×30 fill icons (e.g. `WiDaySunny`, `WiThunderstorm`). The redundant `wi-` filename prefix is dropped. Paths paint with `currentColor`; theme via `color`.",
   },
 };
 

@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M330.1 8.2 537.8 128a59 59 0 0 1 30 53.8v238.4a57 57 0 0 1-29.6 51.5L331 591.3a59 59 0 0 1-62.2-0.2L62.2 471.7a60 60 0 0 1-30-52.5V171c0-21.8 10.3-32.8 29.6-44l82.8-47.6v310.2L300 479.4l155.4-89.7V210.2L300 120.5 234.7 158V28.4l35.4-20.2a59 59 0 0 1 60 0"}],["path",{"fill":"currentColor","d":"M365.3 261.9v75.3L332.6 356 300 375l-32.6-19-32.7-18.8v-75.3l32.7-18.8 32.6-18.9 32.6 18.9z"}],["path",{"fill":"currentColor","d":"M363 263.3 300 227l-63 36.4 63 36.6z"}],["path",{"fill":"currentColor","d":"m300 372.3 63-36.4v-72.6l-63 36.2z"}],["path",{"fill":"currentColor","d":"M300 372.3 237 336v-72.6l63 36.2z"}],["path",{"fill":"currentColor","d":"M237 30v124.2l63-36.4 157.7 91v0.6l100.6-57.8a56 56 0 0 0-21.7-21.7q-104-59.6-207.7-119.6a57 57 0 0 0-57.8 0l-34 19.6"}],["path",{"fill":"currentColor","d":"M142.3 390.7v-1c0-105.20.4-205 0.4-310.2L63.4 125c-18.4 10.8-28.8 25-28.8 46v248c0 10.3 2.7 20.4 7.5 29.1z"}]];
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 600 600" {nodes} {...props} />

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-saucelabs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevSaucelabs {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-saucelabs-1-a)"}],["path",{"fill":"currentColor","d":"M73.3 386.8h159.9l-89.6 169a299.8 299.8 0 0 1 279.8-529L135.7 314.4h256.2L203.5 504.7 281.3 358H94.9q-8-28.3-8-58A213.3 213.3 0 0 1 300 87l7.50.2L335 59.7A243.4 243.4 0 0 0 73.4 386.9m383-342.6a299.8 299.8 0 0 1-279.8 529L462 285.5H205.1L396.4 95.1l-77.8 147H505a213.3 213.3 0 0 1-205 271l-8.4-0.3-27.2 27.4a246 246 0 0 0 122.9-13.6 242.6 242.6 0 0 0 139.3-313.5H366.7z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevSaucelabs;

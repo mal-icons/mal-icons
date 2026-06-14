@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LuSendHorizontal = createIcon("0 0 24 24", [["path",{"d":"M3.71 3.05a0.50.5 0 0 0-0.680.63l2.84 7.63a2 2 0 0 1 0 1.4l-2.84 7.63a0.50.5 0 0 0 0.680.63l18-8.5a0.50.5 0 0 0 0-0.9z"}],["path",{"d":"M6 12h16"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default LuSendHorizontal;
