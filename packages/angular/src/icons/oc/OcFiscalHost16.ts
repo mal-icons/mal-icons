@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-fiscal-host-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcFiscalHost16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"}],["path",{"d":"M4 9.25h-0.75a0.750.75 0 0 1 0-1.5H4v-1.5h-0.75a0.750.75 0 0 1 0-1.5H4V3.5a1 1 0 0 1 1-1h7.5a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1ZM5.5 4v0.79a0.750.75 0 0 1 0 1.41v1.59a0.750.75 0 0 1 0 1.41V10H12V4Z"}],["path",{"d":"M12.75 14.25V14h-9.5v0.25a0.750.75 0 0 1-1.5 0V14A1.75 1.75 0 0 1 0 12.25V1.75C0 0.780.78 0 1.75 0h12.5C15.22 0 16 0.78 16 1.75v10.5A1.75 1.75 0 0 1 14.25 14v0.25a0.750.75 0 0 1-1.5 0ZM1.75 1.5a0.250.25 0 0 0-0.250.25v10.5c0 0.140.110.250.250.25h12.5a0.250.25 0 0 0 0.25-0.25V1.75a0.250.25 0 0 0-0.25-0.25Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcFiscalHost16;

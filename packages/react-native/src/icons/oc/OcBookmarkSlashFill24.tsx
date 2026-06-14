@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcBookmarkSlashFill24 = createIcon("0 0 24 24", [["path",{"d":"m3.23 2.17 18.5 15.5a0.750.75 0 1 1-0.96 1.15L19 17.34v3.91a0.750.75 0 0 1-1.220.59L12 17.21l-5.78 4.63A0.750.75 0 0 1 5 21.25L4.95 5.57 2.27 3.33a0.750.75 0 1 1 0.96-1.15ZM7.42 2h9.83c0.97 0 1.750.78 1.75 1.75v8.07a0.750.75 0 0 1-1.230.57L6.94 3.33A0.750.75 0 0 1 7.42 2Z"}]]);
+
+export default OcBookmarkSlashFill24;

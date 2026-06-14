@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-device-camera-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcDeviceCamera24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.33 5.33c0.73 0 1.330.6 1.33 1.33v12c0 0.73-0.6 1.33-1.33 1.33H2.67c-0.73 0-1.33-0.6-1.33-1.33v-12c0-0.730.6-1.33 1.33-1.33C2.67 4.6 3.27 4 4 4h5.33c0.73 0 1.330.6 1.33 1.33h10.67Zm-6 12A4.66 4.66 0 0 0 20 12.67 4.66 4.66 0 0 0 15.33 8a4.66 4.66 0 0 0-4.67 4.67 4.66 4.66 0 0 0 4.67 4.67Zm3.33-4.67A3.34 3.34 0 0 1 15.33 16 3.35 3.35 0 0 1 12 12.67a3.35 3.35 0 0 1 3.33-3.33 3.35 3.35 0 0 1 3.33 3.33ZM9.33 8V6.67H4V8h5.33Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcDeviceCamera24;

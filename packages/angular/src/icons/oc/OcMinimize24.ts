@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-minimize-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcMinimize24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 13.25a0.710.71 0 0 1 0.150.02c0.0100.030.010.040.010.030.010.070.020.10.03a0.750.75 0 0 1 0.360.32c0.020.030.030.050.040.08a0.730.73 0 0 1 0.060.29v6a0.750.75 0 0 1-1.5 0v-4.19L3.53 21.53a0.750.75 0 1 1-1.06-1.06l5.72-5.72H4a0.750.75 0 0 1 0-1.5h6ZM20.47 2.47a0.750.75 0 1 1 1.06 1.06l-5.72 5.72H20a0.750.75 0 0 1 0 1.5h-6a0.730.73 0 0 1-0.13-0.01c00-0.010-0.020-0.010-0.03-0.01-0.04-0.01-0.03-0.01-0.07-0.02-0.1-0.03-0.03-0.01-0.06-0.03-0.08-0.04a0.730.73 0 0 1-0.38-0.65V4a0.750.75 0 0 1 1.5 0v4.19l5.72-5.72Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcMinimize24;

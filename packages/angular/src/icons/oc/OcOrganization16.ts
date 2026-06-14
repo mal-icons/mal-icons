@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-organization-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcOrganization16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.75 16A1.75 1.75 0 0 1 0 14.25V1.75C0 0.780.78 0 1.75 0h8.5C11.22 0 12 0.78 12 1.75v12.5c0 0.09-0.010.17-0.020.25h2.27a0.250.25 0 0 0 0.25-0.25V8.29a0.250.25 0 0 0-0.11-0.21l-1.05-0.7a0.750.75 0 1 1 0.83-1.25l1.060.7c0.490.330.780.870.78 1.46v5.97A1.75 1.75 0 0 1 14.25 16h-3.5a0.770.77 0 0 1-0.2-0.03c-0.10.02-0.20.03-0.30.03h-3a0.750.75 0 0 1-0.75-0.75V14h-1v1.25a0.750.75 0 0 1-0.750.75Zm-0.25-1.75c0 0.140.110.250.250.25H4v-1.25a0.750.75 0 0 1 0.75-0.75h2.5a0.750.75 0 0 1 0.750.75v1.25h2.25a0.250.25 0 0 0 0.25-0.25V1.75a0.250.25 0 0 0-0.25-0.25h-8.5a0.250.25 0 0 0-0.250.25ZM3.75 6h0.5a0.750.75 0 0 1 0 1.5h-0.5a0.750.75 0 0 1 0-1.5ZM3 3.75A0.750.75 0 0 1 3.75 3h0.5a0.750.75 0 0 1 0 1.5h-0.5A0.750.75 0 0 1 3 3.75Zm4 3A0.750.75 0 0 1 7.75 6h0.5a0.750.75 0 0 1 0 1.5h-0.5A0.750.75 0 0 1 7 6.75ZM7.75 3h0.5a0.750.75 0 0 1 0 1.5h-0.5a0.750.75 0 0 1 0-1.5ZM3 9.75A0.750.75 0 0 1 3.75 9h0.5a0.750.75 0 0 1 0 1.5h-0.5A0.750.75 0 0 1 3 9.75ZM7.75 9h0.5a0.750.75 0 0 1 0 1.5h-0.5a0.750.75 0 0 1 0-1.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcOrganization16;

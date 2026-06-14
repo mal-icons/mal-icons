@@ -37,6 +37,12 @@
       "count": 1357
     },
     {
+      "id": "oc",
+      "name": "Octicons",
+      "license": "MIT",
+      "count": 733
+    },
+    {
       "id": "ti",
       "name": "Typicons",
       "license": "CC-BY-SA-4.0",

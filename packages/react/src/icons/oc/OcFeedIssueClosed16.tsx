@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcFeedIssueClosed16 = createIcon("0 0 16 16", [["path",{"d":"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm3.46 6.96a11 0 1 0-1.41-1.41L7.25 8.34 5.96 7.04a11 0 1 0-1.41 1.41l2 2a11 0 0 0 1.41 0Z"}]]);
+
+export default OcFeedIssueClosed16;

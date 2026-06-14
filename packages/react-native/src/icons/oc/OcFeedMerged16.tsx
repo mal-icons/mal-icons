@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcFeedMerged16 = createIcon("0 0 16 16", [["path",{"d":"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm0.25-11.25A1.75 1.75 0 1 0 6 6.43v3.14a1.75 1.75 0 1 0 1 0V8.24A2.99 2.99 0 0 0 9 9h0.57a1.75 1.75 0 1 0 0-1H9a2 2 0 0 1-1.96-1.59A1.75 1.75 0 0 0 8.25 4.75Z"}]]);
+
+export default OcFeedMerged16;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-codescan-checkmark-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcCodescanCheckmark24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.03 8.28a0.750.75 0 0 0-1.06-1.06l-5.22 5.22-2.22-2.22a0.750.75 0 1 0-1.06 1.06l2.75 2.75a0.750.75 0 0 0 1.06 0l5.75-5.75Z"}],["path",{"d":"M0 10.5C0 4.7 4.7 0 10.5 0S21 4.7 21 10.5c0 2.63-0.97 5.03-2.56 6.88l4.34 4.35a0.750.75 0 0 1-0.33 1.270.750.75 0 0 1-0.73-0.21l-4.34-4.34A10.46 10.46 0 0 1 10.5 21C4.7 21 0 16.3 0 10.5Zm10.5-9a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9 9 9 0 0 0-9-9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcCodescanCheckmark24;

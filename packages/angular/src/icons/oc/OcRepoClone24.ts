@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-repo-clone-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcRepoClone24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.380.38a2.5 2.5 0 0 0-2.5 2.5v15.25a2.5 2.5 0 0 0 2.5 2.5h5.19a0.750.75 0 1 0 0-1.5H4.38a1 1 0 0 1-1-1v-1.75a1 1 0 0 1 1-1h5.69a0.750.75 0 1 0 0-1.5H4.38c-0.36 0-0.690.07-1 0.21V2.88a1 1 0 0 1 1-1h13.25v5.25a0.750.75 0 0 0 1.5 0v-6a0.750.75 0 0 0-0.75-0.75h-14Z"}],["path",{"d":"M12.38 12.09c0-1.4 1-2.71 2.46-2.71h8.04a0.750.75 0 0 1 0.750.75v12.75a0.750.75 0 0 1-0.750.75h-7.5a3 3 0 0 1-3-3Zm9.75 5.54v-6.75h-7.29c-0.43 0-0.960.44-0.96 1.21v5.94a2.99 2.99 0 0 1 1.5-0.4Zm-8.25 3a1.5 1.5 0 0 0 1.5 1.5h6.75v-3h-6.75a1.5 1.5 0 0 0-1.5 1.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcRepoClone24;

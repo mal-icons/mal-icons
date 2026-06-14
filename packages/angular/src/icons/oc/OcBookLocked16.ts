@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-book-locked-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcBookLocked16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 6a3 3 0 0 1 3 3v1.17c0.590.28 1 0.88 1 1.58v2.5A1.75 1.75 0 0 1 14.25 16h-4.5A1.75 1.75 0 0 1 8 14.25v-2.5c0-0.70.41-1.3 1-1.58V9a3 3 0 0 1 3-3Zm0 1.5A1.5 1.5 0 0 0 10.5 9v1h3V9A1.5 1.5 0 0 0 12 7.5Z"}],["path",{"d":"M5 1c1.23 0 2.320.59 3 1.5A3.75 3.75 0 0 1 11.01 1h4.25a0.750.75 0 0 1 0.750.75V5.5a0.750.75 0 0 1-1.5 0v-3h-3.49c-1.21 0-2.20.96-2.25 2.15V6.5a0.750.75 0 0 1-1.5 0V4.69A2.25 2.25 0 0 0 5 2.5H1.5v9h3.76c0.61 0 1.210.15 1.740.43l0.010a0.750.75 0 0 1-0.7 1.32l00v0A2.25 2.25 0 0 0 5.26 13H0.75a0.750.75 0 0 1-0.75-0.75V1.75A0.750.75 0 0 1 0.75 1h4.25Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcBookLocked16;

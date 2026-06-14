@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcPerson16 = createIcon("0 0 16 16", [["path",{"d":"M10.56 8.07a6.01 6.01 0 0 1 3.43 5.140.750.75 0 1 1-1.50.07 4.5 4.5 0 0 0-8.99 0 0.750.75 0 0 1-1.5-0.07 6 6 0 0 1 3.43-5.14 4 4 0 1 1 5.12 0ZM10.5 5a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"}]]);
+
+export default OcPerson16;

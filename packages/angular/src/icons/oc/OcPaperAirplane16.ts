@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-paper-airplane-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcPaperAirplane16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.99 8 0.06 2.68a1.34 1.34 0 0 1 1.85-1.46l13.4 5.74a1.13 1.13 0 0 1 0 2.08L1.91 14.78a1.34 1.34 0 0 1-1.85-1.46L0.99 8Zm0.6-5.29L2.38 7.25h4.87a0.750.75 0 0 1 0 1.5H2.38l-0.79 4.54L13.93 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcPaperAirplane16;

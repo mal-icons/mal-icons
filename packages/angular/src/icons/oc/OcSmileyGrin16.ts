@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-smiley-grin-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcSmileyGrin16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 0a8 8 0 0 1 8 8 8 8 0 1 1-8-8Zm0 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm3 7.75a0.750.75 0 0 1 0.730.93C11.52 11.02 10.49 13 8 13s-3.52-1.98-3.73-2.82A0.750.75 0 0 1 5 9.25ZM8.33 6.16c0.9-1.79 3.45-1.79 4.34 0a0.750.75 0 0 1-1.340.670.930.93 0 0 0-1.66 0 0.750.75 0 0 1-1.34-0.67Zm-5 0c0.9-1.79 3.45-1.79 4.34 0a0.750.75 0 0 1-1.340.670.930.93 0 0 0-1.66 0 0.750.75 0 0 1-1.34-0.67Zm2.93 4.59c0.360.40.920.75 1.750.75s1.38-0.35 1.75-0.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcSmileyGrin16;

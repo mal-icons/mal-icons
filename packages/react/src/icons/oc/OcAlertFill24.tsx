@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcAlertFill24 = createIcon("0 0 24 24", [["path",{"d":"M9.84 3.24c0.96-1.66 3.37-1.66 4.33 0l8.97 15.5c0.96 1.67-0.24 3.75-2.16 3.75H3.03c-1.93 0-3.13-2.08-2.16-3.75ZM12 8.5a0.750.75 0 0 0-0.750.75v4.5a0.750.75 0 0 0 1.5 0v-4.5A0.750.75 0 0 0 12 8.5Zm1 9a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"}]]);
+
+export default OcAlertFill24;

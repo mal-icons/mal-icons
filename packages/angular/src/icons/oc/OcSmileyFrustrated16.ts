@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-smiley-frustrated-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcSmileyFrustrated16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 0a8 8 0 0 1 8 8 8 8 0 1 1-8-8Zm0 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 6.75c2.49 0 3.52 1.98 3.73 2.82A0.750.75 0 0 1 11 12H5a0.750.75 0 0 1-0.73-0.93C4.48 10.23 5.51 8.25 8 8.25Zm3.26-3.85a0.650.65 0 0 1 0.48 1.21L10.75 6l0.990.4a0.650.65 0 0 1-0.48 1.21L8.99 6.7a0.750.75 0 0 1 0-1.39Zm-7.360.36a0.650.65 0 0 1 0.85-0.36l2.270.91a0.750.75 0 0 1 0 1.39l-2.270.91a0.650.65 0 0 1-0.48-1.21L5.25 6l-0.99-0.4a0.650.65 0 0 1-0.36-0.84ZM8 9.75c-0.82 0-1.380.35-1.750.75h3.49c-0.36-0.4-0.92-0.75-1.75-0.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcSmileyFrustrated16;

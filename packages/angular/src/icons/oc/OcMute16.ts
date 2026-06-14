@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-mute-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcMute16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 2.75v10.5a0.750.75 0 0 1-1.240.57L3.47 11H1.75A1.75 1.75 0 0 1 0 9.25v-2.5C0 5.780.78 5 1.75 5h1.72l3.29-2.82A0.750.75 0 0 1 8 2.75Zm3.28 2.47L13 6.94l1.72-1.72a0.750.75 0 0 1 1.040.020.750.75 0 0 1 0.02 1.04L14.06 8l1.72 1.72a0.750.75 0 0 1-0.33 1.270.750.75 0 0 1-0.73-0.21L13 9.06l-1.72 1.72a0.750.75 0 0 1-1.27-0.330.750.75 0 0 1 0.22-0.73L11.94 8l-1.72-1.72a0.750.75 0 0 1 0.33-1.270.750.75 0 0 1 0.730.22Zm-7.04 1.1a0.750.75 0 0 1-0.490.18h-2a0.250.25 0 0 0-0.250.25v2.5c0 0.140.110.250.250.25h2c0.18 0 0.350.060.490.18L6.5 11.62V4.38Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcMute16;

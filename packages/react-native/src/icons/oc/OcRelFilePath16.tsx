@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcRelFilePath16 = createIcon("0 0 16 16", [["path",{"d":"M13.94 3.05a0.750.75 0 0 0-1.38-0.59l-4.5 10.5a0.750.75 0 1 0 1.380.59l4.5-10.5ZM5 11.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"}]]);
+
+export default OcRelFilePath16;

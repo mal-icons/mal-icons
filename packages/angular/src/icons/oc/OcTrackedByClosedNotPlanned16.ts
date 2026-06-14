@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-tracked-by-closed-not-planned-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcTrackedByClosedNotPlanned16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.5 8a6.5 6.5 0 1 1 13 0A0.750.75 0 0 0 16 8a8 8 0 1 0-8 8 0.750.75 0 0 0 0-1.5A6.5 6.5 0 0 1 1.5 8Z"}],["path",{"d":"m8.68 12.43 2.9 2.9a0.250.25 0 0 0 0.43-0.18V13h3.25a0.750.75 0 0 0 0-1.5H12V9.35a0.250.25 0 0 0-0.43-0.18l-2.9 2.9a0.250.25 0 0 0 0 0.35ZM11.28 5.78a0.750.75 0 1 0-1.06-1.06l-5.5 5.5a0.750.75 0 1 0 1.06 1.06l5.5-5.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcTrackedByClosedNotPlanned16;

@@ -90,10 +90,20 @@
       "bun": "./src/icons/io/index.ts",
       "import": "./src/icons/io/index.ts"
     },
+    "./oc": {
+      "svelte": "./src/icons/oc/index.ts",
+      "bun": "./src/icons/oc/index.ts",
+      "import": "./src/icons/oc/index.ts"
+    },
     "./io/*": {
       "svelte": "./src/icons/io/*.svelte",
       "bun": "./src/icons/io/*.svelte",
       "import": "./src/icons/io/*.svelte"
+    },
+    "./oc/*": {
+      "svelte": "./src/icons/oc/*.svelte",
+      "bun": "./src/icons/oc/*.svelte",
+      "import": "./src/icons/oc/*.svelte"
     },
     "./ti": {
       "svelte": "./src/icons/ti/index.ts",

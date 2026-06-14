@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-telescope-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcTelescope24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.41 15.13a2 2 0 0 1 0.59-2.64L17.04 1.33a2 2 0 0 1 2.850.6l2.83 4.64a2 2 0 0 1-0.85 2.85l-17.76 8.43a2 2 0 0 1-2.59-0.81Zm5.26-4.07 1.99 3.44 8.71-4.13-2.86-4.76Zm12.06-1.3400 3.49-1.66a0.50.5 0 0 0 0.21-0.71l-2.83-4.64a0.50.5 0 0 0-0.71-0.15l-3.15 2.19Zm-13.29 2.2L1.85 13.72a0.50.5 0 0 0-0.150.66l1.11 1.92a0.50.5 0 0 0 0.650.2l2.84-1.35ZM17.16 22.87a0.750.75 0 0 0 0.23-1.04l-4-6.24a0.750.75 0 0 0-0.94-0.28l-2.75 1.25a0.750.75 0 0 0-0.320.27l-3.25 4.99a0.750.75 0 0 0 1.260.82l3.13-4.810.51-0.23v5.64a0.750.75 0 1 0 1.5 0v-6.22l3.6 5.61a0.750.75 0 0 0 1.040.23Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcTelescope24;

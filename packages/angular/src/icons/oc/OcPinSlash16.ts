@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-pin-slash-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcPinSlash16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m1.660.6 13.75 13.75q0.220.220.220.53 0 0.31-0.220.53-0.220.22-0.530.22-0.31 0-0.53-0.22L0.6 1.66q-0.22-0.22-0.22-0.53 0-0.310.22-0.530.22-0.220.53-0.220.31 0 0.530.22ZM0.72 14.22l4.5-4.5q0.22-0.220.53-0.220.31 0 0.530.220.220.220.220.53 0 0.31-0.220.53l-4.5 4.5q-0.220.22-0.530.22-0.31 0-0.53-0.22-0.22-0.22-0.22-0.53 0-0.310.22-0.53Z"}],["path",{"d":"m5.42 6.15-1.760.42q-0.140.03-0.180.18-0.040.140.060.25l5.47 5.47q0.10.10.250.060.14-0.040.18-0.18l0.36-1.51q0.07-0.30.34-0.460.26-0.160.57-0.090.30.070.470.340.160.260.090.57l-0.36 1.51q-0.241-1.23 1.28-0.990.28-1.71-0.45L2.49 8.05q-0.73-0.73-0.45-1.710.28-0.99 1.28-1.23l1.76-0.42q0.3-0.070.570.090.270.160.340.470.070.3-0.090.57-0.160.26-0.460.34ZM7.47 3.47q0.16-0.160.25-0.35l0.75-1.63Q8.850.66 9.750.5q0.9-0.16 1.540.49l3.72 3.72q0.650.650.49 1.54-0.160.9-0.99 1.28l-1.630.75q-0.20.09-0.350.25-0.220.22-0.530.22-0.31 0-0.53-0.22-0.22-0.22-0.22-0.53 0-0.310.22-0.530.34-0.340.79-0.55l1.63-0.75q0.12-0.050.14-0.180.02-0.13-0.07-0.22l-3.72-3.72q-0.09-0.09-0.22-0.07-0.130.02-0.180.14l-0.75 1.63q-0.20.44-0.550.79-0.220.22-0.530.22-0.31 0-0.53-0.22-0.22-0.22-0.22-0.53 0-0.310.22-0.53Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcPinSlash16;

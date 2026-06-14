@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-cloud-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcCloud24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.1 10.11c0-4.24 3.45-7.61 7.73-7.61 3.19 0 5.91 1.86 7.1 4.56l0.010.0200.01C21.35 7.35 24 10.1 24 13.54 24 17.15 21.08 20 17.43 20H5.02C2.23 20 0 17.83 0 15.06a4.9 4.9 0 0 1 3.11-4.58 7.7 7.7 0 0 1-0.01-0.37ZM10.84 4c-3.48 0-6.23 2.72-6.23 6.11 0 0.280.020.60.050.76a0.750.75 0 0 1-0.550.87c-1.520.39-2.6 1.71-2.6 3.33 0 1.92 1.53 3.44 3.52 3.44h12.41c2.84 0 5.07-2.21 5.07-4.96 0-2.76-2.23-4.96-5.07-4.96a0.750.75 0 0 1-0.7-0.47l-0.18-0.45C15.61 5.5 13.42 4 10.84 4Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcCloud24;

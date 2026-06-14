@@ -20,6 +20,7 @@ export * from "./icons/fab/index.ts";
 export * from "./icons/far/index.ts";
 export * from "./icons/fi/index.ts";
 export * from "./icons/io/index.ts";
+export * from "./icons/oc/index.ts";
 export * from "./icons/ti/index.ts";
 
 // Re-bind core runtime values as local bindings instead of bare re-exports.

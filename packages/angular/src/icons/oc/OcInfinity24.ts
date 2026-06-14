@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-infinity-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcInfinity24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 11.16c0.89-0.93 1.81-1.86 2.78-2.6C15.95 7.67 17.27 7 18.75 7 21.66 7 24 9.62 24 12.25s-2.34 5.25-5.25 5.25c-1.48 0-2.8-0.67-3.97-1.56-0.97-0.73-1.89-1.67-2.78-2.6-0.890.93-1.81 1.87-2.78 2.6-1.170.89-2.49 1.56-3.97 1.56C2.34 17.5 0 14.89 0 12.25S2.34 7 5.25 7c1.48 0 2.80.67 3.97 1.560.970.74 1.89 1.67 2.78 2.6ZM5.25 8.5c-2.03 0-3.75 1.9-3.75 3.75S3.22 16 5.25 16c1.02 0 2.01-0.46 3.06-1.250.89-0.68 1.76-1.55 2.66-2.5-0.9-0.94-1.76-1.82-2.65-2.5C7.26 8.96 6.27 8.5 5.25 8.5Zm7.78 3.75c0.90.94 1.77 1.82 2.66 2.5C16.74 15.54 17.73 16 18.75 16c2.03 0 3.75-1.89 3.75-3.75S20.78 8.5 18.75 8.5c-1.02 0-2.010.46-3.06 1.25-0.890.68-1.76 1.55-2.65 2.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcInfinity24;

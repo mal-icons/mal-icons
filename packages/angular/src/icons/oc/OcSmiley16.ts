@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-smiley-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcSmiley16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm3.82 1.64a0.750.75 0 0 1 1.040.18l0.010.01c0.10.120.220.220.350.310.260.180.680.37 1.290.370.6 0 1.02-0.19 1.29-0.370.13-0.090.25-0.190.35-0.31l0.01-0.01a0.750.75 0 0 1 1.220.87l-0.02-0.01c0.020.010.020.020.020.02v0l000000.01-0.010.02a2.07 2.07 0 0 1-0.180.21c-0.160.17-0.340.32-0.530.45-0.630.42-1.370.64-2.130.63-0.95 0-1.65-0.31-2.13-0.63a3.33 3.33 0 0 1-0.71-0.66l-0.01-0.020-0.0100v0h0l0.61-0.43-0.610.43a0.750.75 0 0 1 0.18-1.04ZM12 7a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM5 8a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm5.25 2.250.590.42a97.71 97.71 0 0 0-0.59-0.42Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcSmiley16;

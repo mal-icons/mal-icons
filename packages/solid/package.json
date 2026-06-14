@@ -92,10 +92,20 @@
       "bun": "./src/icons/io/index.ts",
       "import": "./src/icons/io/index.ts"
     },
+    "./oc": {
+      "solid": "./src/icons/oc/index.ts",
+      "bun": "./src/icons/oc/index.ts",
+      "import": "./src/icons/oc/index.ts"
+    },
     "./io/*": {
       "solid": "./src/icons/io/*.ts",
       "bun": "./src/icons/io/*.ts",
       "import": "./src/icons/io/*.ts"
+    },
+    "./oc/*": {
+      "solid": "./src/icons/oc/*.ts",
+      "bun": "./src/icons/oc/*.ts",
+      "import": "./src/icons/oc/*.ts"
     },
     "./ti": {
       "solid": "./src/icons/ti/index.ts",

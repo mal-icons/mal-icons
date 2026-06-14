@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-code-of-conduct-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcCodeOfConduct16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.05 2.24c0.96-0.71 2.08-1.24 3.33-1.24a4.62 4.62 0 0 1 3.28 1.36c0.410.410.760.861 1.430.240.570.35 1.210.35 1.97 0 2.19-1.5 4.25-3.08 5.86-1.5 1.53-3.21 2.8-4.25 3.56l-0.220.16a0.750.75 0 0 1-0.89 0l-0.22-0.16c-1.04-0.77-2.75-2.04-4.25-3.56C1.51 10.010.01 7.950 5.76a4.61 4.61 0 0 1 1.35-3.41C3.120.59 6.220.54 8.05 2.24Zm-1.150.98c-1.25-1.03-3.32-0.97-4.480.19a3.12 3.12 0 0 0-0.91 2.34c0 1.56 1.11 3.24 2.65 4.81C5.46 11.9 6.96 13.03 8 13.81c0.35-0.260.76-0.56 1.19-0.9l-1.33-1.22a0.750.75 0 0 1 1.02-1.1l1.48 1.37c0.33-0.280.66-0.580.98-0.89L9.99 9.8a0.750.75 0 1 1 1.02-1.1l1.38 1.28c0.3-0.330.57-0.660.81-0.99L12.92 8.7l-1.17-1.17c-0.67-0.67-1.78-0.66-2.470.03-0.270.27-0.540.54-0.80.8-0.890.88-2.320.84-3.18-0.03-0.35-0.35-0.69-0.7-1.04-1.05a0.750.75 0 0 1-0.04-1.02c0.16-0.190.34-0.40.52-0.620.62-0.75 1.36-1.64 2.17-2.42Zm7.11 4.44c0.31-0.650.49-1.290.49-1.92v0c0-0.61-0.09-1.04-0.23-1.38-0.14-0.34-0.36-0.63-0.67-0.95a3.11 3.11 0 0 0-2.22-0.91c-1.090-2.160.63-3.23 1.6-0.820.76-1.55 1.64-2.23 2.45l-0.130.150.560.57a0.760.76 0 0 0 1.070.02l0.79-0.79c1.26-1.26 3.31-1.31 4.59-0.030.40.390.790.79 1.17 1.17Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcCodeOfConduct16;
