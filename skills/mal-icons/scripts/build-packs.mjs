@@ -173,6 +173,18 @@ const SET_META = {
     blurb:
       "Weather, maritime & meteorological 30×30 fill icons (e.g. `WiDaySunny`, `WiThunderstorm`). The redundant `wi-` filename prefix is dropped. Paths paint with `currentColor`; theme via `color`.",
   },
+  fc: {
+    id: "fc",
+    name: "Flat Color Icons",
+    prefix: "Fc",
+    version: "1.0.2",
+    license: "CC-BY-4.0",
+    repo: "icons8/flat-color-icons",
+    style: "color",
+    viewBox: "0 0 48 48",
+    blurb:
+      "Icons8's multi-color flat 48×48 icons (e.g. `FcAbout`, `FcSearch`, `FcCalendar`). Each shape keeps its own baked color, so these are NOT themed via `color`/`currentColor` — render them as-is.",
+  },
 };
 
 /**

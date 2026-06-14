@@ -1,5 +1,6 @@
 # @mal-icons/preact
 
+
 [![npm](https://img.shields.io/npm/v/@mal-icons/preact.svg)](https://www.npmjs.com/package/@mal-icons/preact)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
 
@@ -106,6 +107,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Flat Color Icons](https://icons8.github.io/flat-color-icons/) | [CC BY 4.0 license](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md) | 1.0.2   |   312 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
@@ -129,10 +131,12 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/preact/fa`            | All Font Awesome icons (named exports) |
 | `@mal-icons/preact/fab`            | All Font Awesome Brands icons (named exports) |
 | `@mal-icons/preact/far`            | All Font Awesome Regular icons (named exports) |
+| `@mal-icons/preact/fc`            | All Flat Color icons (named exports) |
 | `@mal-icons/preact/fi`            | All Feather icons (named exports) |
 | `@mal-icons/preact/fa/FaHeart` | A single icon module              |
 | `@mal-icons/preact/fab/FabGithub` | A single icon module              |
 | `@mal-icons/preact/far/FarHeart` | A single icon module              |
+| `@mal-icons/preact/fc/FcAbout` | A single icon module              |
 | `@mal-icons/preact/fi/FiActivity` | A single icon module              |
 | `@mal-icons/preact/io`            | All Ionicons (named exports)      |
 | `@mal-icons/preact/lu`            | All Lucide (named exports)        |
