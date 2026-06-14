@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const OcPaperAirplane16 = createIcon("0 0 16 16", [["path",{"d":"M0.99 8 0.06 2.68a1.34 1.34 0 0 1 1.85-1.46l13.4 5.74a1.13 1.13 0 0 1 0 2.08L1.91 14.78a1.34 1.34 0 0 1-1.85-1.46L0.99 8Zm0.6-5.29L2.38 7.25h4.87a0.750.75 0 0 1 0 1.5H2.38l-0.79 4.54L13.93 8Z"}]]);
+
+export default OcPaperAirplane16;

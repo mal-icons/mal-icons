@@ -90,10 +90,20 @@
       "bun": "./src/icons/io/index.ts",
       "import": "./dist/icons/io/index.js"
     },
+    "./oc": {
+      "types": "./dist/icons/oc/index.d.ts",
+      "bun": "./src/icons/oc/index.ts",
+      "import": "./dist/icons/oc/index.js"
+    },
     "./io/*": {
       "types": "./dist/icons/io/*.d.ts",
       "bun": "./src/icons/io/*.tsx",
       "import": "./dist/icons/io/*.js"
+    },
+    "./oc/*": {
+      "types": "./dist/icons/oc/*.d.ts",
+      "bun": "./src/icons/oc/*.tsx",
+      "import": "./dist/icons/oc/*.js"
     },
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",

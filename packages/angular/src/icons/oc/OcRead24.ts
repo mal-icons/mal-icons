@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-read-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcRead24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.89 1.77a2.25 2.25 0 0 1 2.22 0l9.75 5.53A2.25 2.25 0 0 1 24 9.25v9.5A2.25 2.25 0 0 1 21.75 21H2.25A2.25 2.25 0 0 1 0 18.75v-9.5c0-0.810.44-1.56 1.14-1.96Zm1.48 1.31a0.750.75 0 0 0-0.74 0l-9.32 5.28 7.41 4.23a3.75 3.75 0 0 1 4.55 0l7.41-4.23-9.32-5.28ZM20.65 19.5l-7.26-5.7a2.25 2.25 0 0 0-2.78 0L3.35 19.5Zm1.85-9.89-6.95 3.97 6.66 5.24c0.090.070.160.160.210.26a0.750.75 0 0 0 0.08-0.33ZM8.45 13.59 1.5 9.61v9.14c0 0.120.030.230.080.33a0.740.74 0 0 1 0.21-0.26Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcRead24;

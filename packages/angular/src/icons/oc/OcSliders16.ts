@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-sliders-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcSliders16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15 2.75a0.750.75 0 0 1-0.750.75h-4a0.750.75 0 0 1 0-1.5h4a0.750.75 0 0 1 0.750.75Zm-8.50.75v1.25a0.750.75 0 0 0 1.5 0v-4a0.750.75 0 0 0-1.5 0V2H1.75a0.750.75 0 0 0 0 1.5H6.5Zm1.25 5.25a0.750.75 0 0 0 0-1.5h-6a0.750.75 0 0 0 0 1.5h6ZM15 8a0.750.75 0 0 1-0.750.75H11.5V10a0.750.75 0 1 1-1.5 0V6a0.750.75 0 0 1 1.5 0v1.25h2.75A0.750.75 0 0 1 15 8Zm-9 5.25v-2a0.750.75 0 0 0-1.5 0v1.25H1.75a0.750.75 0 0 0 0 1.5H4.5v1.25a0.750.75 0 0 0 1.5 0v-2Zm9 0a0.750.75 0 0 1-0.750.75h-6a0.750.75 0 0 1 0-1.5h6a0.750.75 0 0 1 0.750.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcSliders16;

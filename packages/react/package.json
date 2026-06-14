@@ -96,10 +96,21 @@
       "import": "./dist/icons/io/index.js",
       "require": "./dist/icons/io/index.cjs"
     },
+    "./oc": {
+      "types": "./dist/icons/oc/index.d.ts",
+      "bun": "./src/icons/oc/index.ts",
+      "import": "./dist/icons/oc/index.js",
+      "require": "./dist/icons/oc/index.cjs"
+    },
     "./io/*": {
       "types": "./dist/icons/io/*.d.ts",
       "bun": "./src/icons/io/*.tsx",
       "import": "./dist/icons/io/*.js"
+    },
+    "./oc/*": {
+      "types": "./dist/icons/oc/*.d.ts",
+      "bun": "./src/icons/oc/*.tsx",
+      "import": "./dist/icons/oc/*.js"
     },
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",
@@ -135,6 +146,7 @@
     "./sprite/far.svg": "./dist/icons/far/sprite.svg",
     "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
     "./sprite/io.svg": "./dist/icons/io/sprite.svg",
+    "./sprite/oc.svg": "./dist/icons/oc/sprite.svg",
     "./sprite/ti.svg": "./dist/icons/ti/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",
     "./package.json": "./package.json"

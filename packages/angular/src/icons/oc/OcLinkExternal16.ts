@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-link-external-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcLinkExternal16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.75 2h3.5a0.750.75 0 0 1 0 1.5h-3.5a0.250.25 0 0 0-0.250.25v8.5c0 0.140.110.250.250.25h8.5a0.250.25 0 0 0 0.25-0.25v-3.5a0.750.75 0 0 1 1.5 0v3.5A1.75 1.75 0 0 1 12.25 14h-8.5A1.75 1.75 0 0 1 2 12.25v-8.5C2 2.78 2.78 2 3.75 2Zm6.85-1h4.15a0.250.25 0 0 1 0.250.25v4.15a0.250.25 0 0 1-0.430.18L13.03 4.03 9.28 7.78a0.750.75 0 0 1-1.04-0.020.750.75 0 0 1-0.02-1.04l3.75-3.75-1.54-1.54A0.250.25 0 0 1 10.6 1Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcLinkExternal16;

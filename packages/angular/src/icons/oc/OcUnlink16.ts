@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-unlink-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcUnlink16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.91 5.91a2 2 0 0 0-2.83-2.83l-0.840.84a0.750.75 0 1 1-1.06-1.06l0.84-0.84a3.5 3.5 0 1 1 4.95 4.95l-0.190.19a0.750.75 0 0 1-1.06-1.06l0.19-0.19Zm-1.87 3.48a0.760.76 0 0 1-0.070.08c-0.630.63-1.47 1.11-2.34 1.26-0.890.16-1.86-0.02-2.61-0.76a0.750.75 0 1 1 1.06-1.06c0.330.330.770.44 1.280.350.49-0.09 1.02-0.36 1.45-0.75l-1.25-0.9a0.710.71 0 0 1-0.01-0.01l-0.29-0.21c-0.94-0.6-1.98-0.5-2.680.19l-2.5 2.5a2 2 0 1 0 2.83 2.83l0.84-0.84a0.750.75 0 0 1 1.06 1.06l-0.840.84a3.5 3.5 0 0 1-4.95-4.95l2.5-2.5a3.47 3.47 0 0 1 1.35-0.85L2.31 3.11a0.750.75 0 0 1 0.88-1.22l5.93 4.27c0.120.070.230.160.340.24l6.24 4.49a0.750.75 0 0 1-0.88 1.22l-3.77-2.71Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcUnlink16;

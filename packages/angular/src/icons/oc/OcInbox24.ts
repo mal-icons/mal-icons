@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-inbox-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcInbox24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.8 3.57A1.75 1.75 0 0 1 6.41 2.5h11.17c0.7 0 1.340.42 1.61 1.07l3.74 8.83c0.040.090.060.190.060.29v7.56A1.75 1.75 0 0 1 21.25 22H2.75A1.75 1.75 0 0 1 1 20.25v-7.5c0-0.10.02-0.20.06-0.29L4.8 3.57ZM6.41 4a0.250.25 0 0 0-0.230.15L2.88 12H8a0.750.75 0 0 1 0.650.37L10.18 15h3.64l1.53-2.63a0.750.75 0 0 1 0.64-0.37l5.13-0.05-3.3-7.8a0.250.25 0 0 0-0.23-0.15ZM21.5 13.45l-5.070.05-1.53 2.63a0.750.75 0 0 1-0.650.37h-4.5a0.750.75 0 0 1-0.65-0.37L7.57 13.5H2.5v6.75c0 0.140.110.250.250.25h18.5a0.250.25 0 0 0 0.25-0.25Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcInbox24;

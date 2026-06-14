@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-compose-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcCompose16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m14.520.460.970.97a1.56 1.56 0 0 1 0 2.2L9.74 9.36a1.55 1.55 0 0 1-0.670.4l-2.890.83a0.670.67 0 0 1-0.83-0.470.660.66 0 0 1 0-0.35l0.83-2.89c0.07-0.250.21-0.490.4-0.67L12.320.46c0.14-0.140.32-0.260.51-0.34a1.54 1.54 0 0 1 1.19 0c0.190.080.360.190.510.34Zm-3.32 3.01-3.67 3.67a0.210.21 0 0 0-0.060.1L6.97 8.97l1.74-0.5a0.220.22 0 0 0 0.1-0.06l3.67-3.67Zm2.07-2.07L12.14 2.52l1.28 1.28 1.12-1.12a0.220.22 0 0 0 0.07-0.160.220.22 0 0 0-0.06-0.16l-0.96-0.97a0.220.22 0 0 0-0.16-0.060.230.23 0 0 0-0.160.07Z"}],["path",{"d":"M0 14.25V2.75A1.75 1.75 0 0 1 1.75 1H7a0.750.75 0 0 1 0 1.5H1.75a0.250.25 0 0 0-0.250.25v11.5a0.250.25 0 0 0 0.250.25h11.5a0.250.25 0 0 0 0.25-0.25V8.5a0.750.75 0 0 1 1.5 0v5.75c0 0.46-0.180.91-0.51 1.24A1.75 1.75 0 0 1 13.25 16H1.75A1.75 1.75 0 0 1 0 14.25Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcCompose16;

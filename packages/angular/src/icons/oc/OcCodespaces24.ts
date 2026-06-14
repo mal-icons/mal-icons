@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-codespaces-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcCodespaces24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.5 3.75C3.5 2.78 4.28 2 5.25 2h13.5c0.97 0 1.750.78 1.75 1.75v7.5A1.75 1.75 0 0 1 18.75 13H5.25a1.75 1.75 0 0 1-1.75-1.75Zm-2 12c0-0.970.78-1.75 1.75-1.75h17.5c0.97 0 1.750.78 1.75 1.75v4a1.75 1.75 0 0 1-1.75 1.75H3.25a1.75 1.75 0 0 1-1.75-1.75ZM5.25 3.5a0.250.25 0 0 0-0.250.25v7.5c0 0.140.110.250.250.25h13.5a0.250.25 0 0 0 0.25-0.25v-7.5a0.250.25 0 0 0-0.25-0.25Zm-2 12a0.250.25 0 0 0-0.250.25v4c0 0.140.110.250.250.25h17.5a0.250.25 0 0 0 0.25-0.25v-4a0.250.25 0 0 0-0.25-0.25Z"}],["path",{"d":"M10 17.75a0.750.75 0 0 1 0.75-0.75h6.5a0.750.75 0 0 1 0 1.5h-6.5a0.750.75 0 0 1-0.75-0.75Zm-4 0a0.750.75 0 0 1 0.75-0.75h0.5a0.750.75 0 0 1 0 1.5h-0.5a0.750.75 0 0 1-0.75-0.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcCodespaces24;

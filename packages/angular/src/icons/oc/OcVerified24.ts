@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-verified-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcVerified24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.03 9.78a0.750.75 0 0 0-1.06-1.06l-5.47 5.47-2.47-2.47a0.750.75 0 0 0-1.06 1.06l3 3a0.750.75 0 0 0 1.06 0l6-6Z"}],["path",{"d":"m14.14 1.2 1.38 1.01c0.270.20.590.330.930.38l1.690.26a3.61 3.61 0 0 1 3.02 3.02l0.26 1.69c0.050.340.180.660.380.93l1.01 1.38a3.61 3.61 0 0 1 0 4.27l-1.01 1.38a2.11 2.11 0 0 0-0.380.93l-0.26 1.69a3.61 3.61 0 0 1-3.02 3.02l-1.690.26a2.11 2.11 0 0 0-0.930.38l-1.37 1.01a3.61 3.61 0 0 1-4.27 0l-1.37-1.01a2.11 2.11 0 0 0-0.93-0.38l-1.69-0.26a3.61 3.61 0 0 1-3.02-3.02l-0.26-1.69a2.12 2.12 0 0 0-0.38-0.93L1.2 14.14a3.61 3.61 0 0 1 0-4.27l1.01-1.37c0.2-0.270.33-0.590.38-0.93l0.26-1.69a3.61 3.61 0 0 1 3.02-3.02l1.69-0.26c0.34-0.050.66-0.180.93-0.38L9.86 1.2a3.61 3.61 0 0 1 4.27 0Zm-3.38 1.21-1.37 1.01a3.61 3.61 0 0 1-1.590.66l-1.690.26a2.11 2.11 0 0 0-1.77 1.77l-0.26 1.69a3.61 3.61 0 0 1-0.66 1.59l-1.01 1.38a2.11 2.11 0 0 0 0 2.5l1.01 1.38c0.340.470.57 1.010.66 1.59l0.26 1.69c0.140.910.86 1.63 1.77 1.77l1.690.26a3.61 3.61 0 0 1 1.590.66l1.38 1.01a2.11 2.11 0 0 0 2.5 0l1.38-1.01a3.61 3.61 0 0 1 1.59-0.66l1.69-0.26a2.11 2.11 0 0 0 1.77-1.76l0.26-1.69a3.61 3.61 0 0 1 0.66-1.59l1.01-1.38a2.11 2.11 0 0 0 0-2.5l-1.01-1.37a3.61 3.61 0 0 1-0.66-1.59l-0.26-1.69a2.11 2.11 0 0 0-1.76-1.77l-1.69-0.26a3.61 3.61 0 0 1-1.59-0.66l-1.38-1.01a2.11 2.11 0 0 0-2.5 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcVerified24;

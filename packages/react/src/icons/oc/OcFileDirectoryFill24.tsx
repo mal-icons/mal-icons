@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcFileDirectoryFill24 = createIcon("0 0 24 24", [["path",{"d":"M2 4.75C2 3.78 2.78 3 3.75 3h4.97c0.58 0 1.120.29 1.450.77l1.4 2.06c0.050.070.120.110.210.11h8.47c0.97 0 1.750.78 1.75 1.75V19.25A1.75 1.75 0 0 1 20.25 21H3.75A1.75 1.75 0 0 1 2 19.25Z"}]]);
+
+export default OcFileDirectoryFill24;

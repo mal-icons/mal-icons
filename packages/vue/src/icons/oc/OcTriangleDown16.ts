@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const OcTriangleDown16 = createIcon("0 0 16 16", [["path",{"d":"m4.43 7.43 3.4 3.4a0.250.25 0 0 0 0.35 0l3.4-3.4A0.250.25 0 0 0 11.4 7H4.6a0.250.25 0 0 0-0.180.43Z"}]]);
+
+export default OcTriangleDown16;

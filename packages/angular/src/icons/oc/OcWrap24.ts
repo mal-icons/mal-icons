@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-wrap-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcWrap24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 11.25c1.11 0 2.170.28 2.970.910.820.66 1.28 1.63 1.28 2.84 0 1.21-0.46 2.18-1.28 2.84-0.80.64-1.850.91-2.970.91h-0.5v0.98a0.50.5 0 0 1-0.750.43l-3-1.73a0.50.5 0 0 1 0-0.87l3-1.73a0.50.5 0 0 1 0.750.43v0.98h0.5c0.89 0 1.58-0.22 2.03-0.590.43-0.340.72-0.870.72-1.66 0-0.79-0.29-1.32-0.72-1.66-0.45-0.36-1.14-0.59-2.03-0.59H3.82a0.750.75 0 0 1 0-1.5H17Zm-7.75 6c0.2 0 0.390.080.530.22a0.750.75 0 0 1 0 1.060.750.75 0 0 1-0.530.22h-5.5a0.750.75 0 0 1-0.53-0.220.750.75 0 0 1 0-1.060.750.75 0 0 1 0.53-0.22h5.5Zm11-12c0.2 0 0.390.080.530.22a0.750.75 0 0 1 0 1.060.750.75 0 0 1-0.530.22H3.75a0.750.75 0 0 1-0.53-0.220.750.75 0 0 1 0-1.060.750.75 0 0 1 0.53-0.22h16.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcWrap24;

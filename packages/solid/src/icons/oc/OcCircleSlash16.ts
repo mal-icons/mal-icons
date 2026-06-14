@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const OcCircleSlash16 = createIcon("0 0 16 16", [["path",{"d":"M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM3.97 13.1a6.5 6.5 0 0 0 9.13-9.13ZM1.5 8a6.47 6.47 0 0 0 1.4 4.04l9.13-9.13A6.5 6.5 0 0 0 1.5 8Z"}]]);
+
+export default OcCircleSlash16;

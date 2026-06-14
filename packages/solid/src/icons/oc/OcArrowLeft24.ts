@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const OcArrowLeft24 = createIcon("0 0 24 24", [["path",{"d":"M10.78 19.03a0.750.75 0 0 1-1.06 0l-6.25-6.25a0.750.75 0 0 1 0-1.06l6.25-6.25a0.750.75 0 0 1 1.270.330.750.75 0 0 1-0.210.73L5.81 11.5h14.44a0.750.75 0 0 1 0 1.5H5.81l4.97 4.97a0.750.75 0 0 1 0 1.06Z"}]]);
+
+export default OcArrowLeft24;

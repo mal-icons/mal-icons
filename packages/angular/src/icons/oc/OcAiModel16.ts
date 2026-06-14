@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-ai-model-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcAiModel16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.63 7.25a2.25 2.25 0 1 1 0 1.5H8.62a2.25 2.25 0 0 1-2.51 1.47L5.03 12.12a2.25 2.25 0 1 1-1.26-0.81l1.03-1.83A2.25 2.25 0 0 1 4.25 8c0-0.570.21-1.080.55-1.48L3.77 4.69a2.25 2.25 0 1 1 1.26-0.81l1.08 1.91A2.25 2.25 0 0 1 8.62 7.25ZM2.5 2.5a0.750.75 0 1 0 1.5 0 0.750.75 0 0 0-1.5 0Zm4 4.75a0.750.75 0 1 0 0 1.50.750.75 0 0 0 0-1.5Zm6.25 0a0.750.75 0 1 0 0 1.50.750.75 0 0 0 0-1.5Zm-9.5 5.5a0.750.75 0 1 0 0 1.50.750.75 0 0 0 0-1.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcAiModel16;

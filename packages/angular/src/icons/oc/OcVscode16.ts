@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-vscode-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcVscode16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M11.1 1.01c0.18-0.030.36-0.010.520.07l2.88 1.39c0.30.150.50.450.50.79v9.45c00.34-0.190.65-0.50.79l-2.88 1.39c-0.110.05-0.230.08-0.340.09-0.120-0.24-0.02-0.35-0.06-0.11-0.04-0.21-0.11-0.3-0.2L5.11 9.68 2.71 11.52c-0.110.08-0.240.12-0.380.12-0.14-0.01-0.27-0.06-0.37-0.15l-0.77-0.7c-0.06-0.06-0.11-0.12-0.14-0.2-0.03-0.07-0.05-0.15-0.05-0.24 0-0.080.02-0.160.05-0.240.03-0.070.08-0.140.14-0.2l2.08-1.91-2.08-1.91c-0.06-0.06-0.11-0.12-0.14-0.2-0.03-0.07-0.05-0.15-0.05-0.24 0-0.080.02-0.160.05-0.240.03-0.070.08-0.140.14-0.2l0.77-0.71c0.1-0.090.23-0.150.37-0.150.14-0.010.270.040.380.12l2.4 1.83 5.52-5.06c0.13-0.130.29-0.210.47-0.25M7.32 8 11.5 11.19v-0.19H11.5V6h0V4.81z","clip-rule":"evenodd"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcVscode16;

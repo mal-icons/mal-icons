@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcTriangleUp16 = createIcon("0 0 16 16", [["path",{"d":"m4.43 9.57 3.4-3.4a0.250.25 0 0 1 0.35 0l3.4 3.4a0.250.25 0 0 1-0.180.43H4.6a0.250.25 0 0 1-0.18-0.43Z"}]]);
+
+export default OcTriangleUp16;

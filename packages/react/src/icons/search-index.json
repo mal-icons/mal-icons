@@ -35726,6 +35726,7816 @@
       ]
     },
     {
+      "name": "OcAccessibility16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "accessibility16",
+        "accessibility",
+        "16"
+      ]
+    },
+    {
+      "name": "OcAccessibility24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "accessibility24",
+        "accessibility",
+        "24"
+      ]
+    },
+    {
+      "name": "OcAccessibilityInset16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "accessibility",
+        "inset16",
+        "inset",
+        "16"
+      ]
+    },
+    {
+      "name": "OcAccessibilityInset24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "accessibility",
+        "inset24",
+        "inset",
+        "24"
+      ]
+    },
+    {
+      "name": "OcAgent16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "agent16",
+        "agent",
+        "16"
+      ]
+    },
+    {
+      "name": "OcAgent24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "agent24",
+        "agent",
+        "24"
+      ]
+    },
+    {
+      "name": "OcAiModel16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "ai",
+        "model16",
+        "model",
+        "16"
+      ]
+    },
+    {
+      "name": "OcAiModel24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "ai",
+        "model24",
+        "model",
+        "24"
+      ]
+    },
+    {
+      "name": "OcAlert16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "alert16",
+        "alert",
+        "16"
+      ]
+    },
+    {
+      "name": "OcAlert24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "alert24",
+        "alert",
+        "24"
+      ]
+    },
+    {
+      "name": "OcAlertFill12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "alert",
+        "fill12",
+        "fill",
+        "12"
+      ]
+    },
+    {
+      "name": "OcAlertFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "alert",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcAlertFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "alert",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcApps16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "apps16",
+        "apps",
+        "16"
+      ]
+    },
+    {
+      "name": "OcApps24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "apps24",
+        "apps",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArchive16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "archive16",
+        "archive",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArchive24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "archive24",
+        "archive",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowBoth16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "both16",
+        "both",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowBoth24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "both24",
+        "both",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowDown16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "down16",
+        "down",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowDown24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "down24",
+        "down",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowDownLeft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "down",
+        "left16",
+        "left",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowDownLeft24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "down",
+        "left24",
+        "left",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowDownRight16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "down",
+        "right16",
+        "right",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowDownRight24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "down",
+        "right24",
+        "right",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowLeft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "left16",
+        "left",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowLeft24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "left24",
+        "left",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowRight16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "right16",
+        "right",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowRight24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "right24",
+        "right",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowSwitch16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "switch16",
+        "switch",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowSwitch24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "switch24",
+        "switch",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowUp16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "up16",
+        "up",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowUp24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "up24",
+        "up",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowUpLeft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "up",
+        "left16",
+        "left",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowUpLeft24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "up",
+        "left24",
+        "left",
+        "24"
+      ]
+    },
+    {
+      "name": "OcArrowUpRight16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "up",
+        "right16",
+        "right",
+        "16"
+      ]
+    },
+    {
+      "name": "OcArrowUpRight24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "arrow",
+        "up",
+        "right24",
+        "right",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBeaker16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "beaker16",
+        "beaker",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBeaker24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "beaker24",
+        "beaker",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBell16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bell16",
+        "bell",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBell24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bell24",
+        "bell",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBellFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bell",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBellFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bell",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBellSlash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bell",
+        "slash16",
+        "slash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBellSlash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bell",
+        "slash24",
+        "slash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBlocked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "blocked16",
+        "blocked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBlocked24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "blocked24",
+        "blocked",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBold16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bold16",
+        "bold",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBold24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bold24",
+        "bold",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBook16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "book16",
+        "book",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBook24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "book24",
+        "book",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBookLocked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "book",
+        "locked16",
+        "locked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBookmark16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark16",
+        "bookmark",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBookmark24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark24",
+        "bookmark",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBookmarkFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBookmarkFilled16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark",
+        "filled16",
+        "filled",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBookmarkSlash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark",
+        "slash16",
+        "slash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBookmarkSlash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark",
+        "slash24",
+        "slash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBookmarkSlashFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark",
+        "slash",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBookmarkSlashFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bookmark",
+        "slash",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBooleanOff16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "boolean",
+        "off16",
+        "off",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBooleanOff24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "boolean",
+        "off24",
+        "off",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBooleanOn16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "boolean",
+        "on16",
+        "on",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBooleanOn24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "boolean",
+        "on24",
+        "on",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBriefcase16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "briefcase16",
+        "briefcase",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBriefcase24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "briefcase24",
+        "briefcase",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBroadcast16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "broadcast16",
+        "broadcast",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBroadcast24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "broadcast24",
+        "broadcast",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBrowser16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "browser16",
+        "browser",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBrowser24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "browser24",
+        "browser",
+        "24"
+      ]
+    },
+    {
+      "name": "OcBug16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bug16",
+        "bug",
+        "16"
+      ]
+    },
+    {
+      "name": "OcBug24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "bug24",
+        "bug",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCache16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cache16",
+        "cache",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCache24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cache24",
+        "cache",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCalendar16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "calendar16",
+        "calendar",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCalendar24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "calendar24",
+        "calendar",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCheck16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "check16",
+        "check",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCheck24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "check24",
+        "check",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCheckbox16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "checkbox16",
+        "checkbox",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCheckbox24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "checkbox24",
+        "checkbox",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCheckboxFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "checkbox",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCheckboxFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "checkbox",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCheckCircle16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "check",
+        "circle16",
+        "circle",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCheckCircle24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "check",
+        "circle24",
+        "circle",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCheckCircleFill12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "check",
+        "circle",
+        "fill12",
+        "fill",
+        "12"
+      ]
+    },
+    {
+      "name": "OcCheckCircleFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "check",
+        "circle",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCheckCircleFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "check",
+        "circle",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcChecklist16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "checklist16",
+        "checklist",
+        "16"
+      ]
+    },
+    {
+      "name": "OcChecklist24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "checklist24",
+        "checklist",
+        "24"
+      ]
+    },
+    {
+      "name": "OcChevronDown12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "down12",
+        "down",
+        "12"
+      ]
+    },
+    {
+      "name": "OcChevronDown16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "down16",
+        "down",
+        "16"
+      ]
+    },
+    {
+      "name": "OcChevronDown24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "down24",
+        "down",
+        "24"
+      ]
+    },
+    {
+      "name": "OcChevronLeft12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "left12",
+        "left",
+        "12"
+      ]
+    },
+    {
+      "name": "OcChevronLeft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "left16",
+        "left",
+        "16"
+      ]
+    },
+    {
+      "name": "OcChevronLeft24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "left24",
+        "left",
+        "24"
+      ]
+    },
+    {
+      "name": "OcChevronRight12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "right12",
+        "right",
+        "12"
+      ]
+    },
+    {
+      "name": "OcChevronRight16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "right16",
+        "right",
+        "16"
+      ]
+    },
+    {
+      "name": "OcChevronRight24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "right24",
+        "right",
+        "24"
+      ]
+    },
+    {
+      "name": "OcChevronUp12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "up12",
+        "up",
+        "12"
+      ]
+    },
+    {
+      "name": "OcChevronUp16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "up16",
+        "up",
+        "16"
+      ]
+    },
+    {
+      "name": "OcChevronUp24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "chevron",
+        "up24",
+        "up",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCircle16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "circle16",
+        "circle",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCircle24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "circle24",
+        "circle",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCircleSlash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "circle",
+        "slash16",
+        "slash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCircleSlash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "circle",
+        "slash24",
+        "slash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcClock16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "clock16",
+        "clock",
+        "16"
+      ]
+    },
+    {
+      "name": "OcClock24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "clock24",
+        "clock",
+        "24"
+      ]
+    },
+    {
+      "name": "OcClockFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "clock",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcClockFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "clock",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCloud16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cloud16",
+        "cloud",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCloud24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cloud24",
+        "cloud",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCloudOffline16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cloud",
+        "offline16",
+        "offline",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCloudOffline24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cloud",
+        "offline24",
+        "offline",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCode16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code16",
+        "code",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCode24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code24",
+        "code",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCodeOfConduct16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code",
+        "of",
+        "conduct16",
+        "conduct",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCodeOfConduct24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code",
+        "of",
+        "conduct24",
+        "conduct",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCodeReview16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code",
+        "review16",
+        "review",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCodeReview24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code",
+        "review24",
+        "review",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCodescan16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "codescan16",
+        "codescan",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCodescan24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "codescan24",
+        "codescan",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCodescanCheckmark16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "codescan",
+        "checkmark16",
+        "checkmark",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCodescanCheckmark24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "codescan",
+        "checkmark24",
+        "checkmark",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCodespaces16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "codespaces16",
+        "codespaces",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCodespaces24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "codespaces24",
+        "codespaces",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCodeSquare16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code",
+        "square16",
+        "square",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCodeSquare24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "code",
+        "square24",
+        "square",
+        "24"
+      ]
+    },
+    {
+      "name": "OcColumns16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "columns16",
+        "columns",
+        "16"
+      ]
+    },
+    {
+      "name": "OcColumns24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "columns24",
+        "columns",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCommandPalette16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "command",
+        "palette16",
+        "palette",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCommandPalette24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "command",
+        "palette24",
+        "palette",
+        "24"
+      ]
+    },
+    {
+      "name": "OcComment16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "comment16",
+        "comment",
+        "16"
+      ]
+    },
+    {
+      "name": "OcComment24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "comment24",
+        "comment",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCommentAi16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "comment",
+        "ai16",
+        "ai",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCommentAi24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "comment",
+        "ai24",
+        "ai",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCommentDiscussion16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "comment",
+        "discussion16",
+        "discussion",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCommentDiscussion24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "comment",
+        "discussion24",
+        "discussion",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCommentLocked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "comment",
+        "locked16",
+        "locked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCompose16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "compose16",
+        "compose",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCompose24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "compose24",
+        "compose",
+        "24"
+      ]
+    },
+    {
+      "name": "OcContainer16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "container16",
+        "container",
+        "16"
+      ]
+    },
+    {
+      "name": "OcContainer24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "container24",
+        "container",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCopilot16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copilot16",
+        "copilot",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCopilot24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copilot24",
+        "copilot",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCopilot48",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copilot48",
+        "copilot",
+        "48"
+      ]
+    },
+    {
+      "name": "OcCopilot96",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copilot96",
+        "copilot",
+        "96"
+      ]
+    },
+    {
+      "name": "OcCopilotError16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copilot",
+        "error16",
+        "error",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCopilotWarning16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copilot",
+        "warning16",
+        "warning",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCopy16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copy16",
+        "copy",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCopy24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "copy24",
+        "copy",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCpu16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cpu16",
+        "cpu",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCpu24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cpu24",
+        "cpu",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCreditCard16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "credit",
+        "card16",
+        "card",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCreditCard24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "credit",
+        "card24",
+        "card",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCrosshairs16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "crosshairs16",
+        "crosshairs",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCrosshairs24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "crosshairs24",
+        "crosshairs",
+        "24"
+      ]
+    },
+    {
+      "name": "OcCrossReference16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cross",
+        "reference16",
+        "reference",
+        "16"
+      ]
+    },
+    {
+      "name": "OcCrossReference24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "cross",
+        "reference24",
+        "reference",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dash16",
+        "dash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dash24",
+        "dash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDatabase16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "database16",
+        "database",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDatabase24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "database24",
+        "database",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDependabot16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dependabot16",
+        "dependabot",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDependabot24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dependabot24",
+        "dependabot",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDesktopDownload16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "desktop",
+        "download16",
+        "download",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDesktopDownload24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "desktop",
+        "download24",
+        "download",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDeviceCamera16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "camera16",
+        "camera",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDeviceCamera24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "camera24",
+        "camera",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDeviceCameraVideo16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "camera",
+        "video16",
+        "video",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDeviceCameraVideo24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "camera",
+        "video24",
+        "video",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDeviceDesktop16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "desktop16",
+        "desktop",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDeviceDesktop24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "desktop24",
+        "desktop",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDeviceMobile16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "mobile16",
+        "mobile",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDeviceMobile24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "device",
+        "mobile24",
+        "mobile",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDevices16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "devices16",
+        "devices",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDevices24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "devices24",
+        "devices",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiamond16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diamond16",
+        "diamond",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiamond24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diamond24",
+        "diamond",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDice16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dice16",
+        "dice",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDice24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dice24",
+        "dice",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiff16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff16",
+        "diff",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiff24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff24",
+        "diff",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiffAdded16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "added16",
+        "added",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiffAdded24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "added24",
+        "added",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiffIgnored16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "ignored16",
+        "ignored",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiffIgnored24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "ignored24",
+        "ignored",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiffModified16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "modified16",
+        "modified",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiffModified24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "modified24",
+        "modified",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiffRemoved16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "removed16",
+        "removed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiffRemoved24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "removed24",
+        "removed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiffRenamed16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "renamed16",
+        "renamed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiffRenamed24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "diff",
+        "renamed24",
+        "renamed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiscussionClosed16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "discussion",
+        "closed16",
+        "closed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiscussionClosed24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "discussion",
+        "closed24",
+        "closed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiscussionDuplicate16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "discussion",
+        "duplicate16",
+        "duplicate",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiscussionDuplicate24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "discussion",
+        "duplicate24",
+        "duplicate",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDiscussionOutdated16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "discussion",
+        "outdated16",
+        "outdated",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDiscussionOutdated24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "discussion",
+        "outdated24",
+        "outdated",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDot16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dot16",
+        "dot",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDot24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dot24",
+        "dot",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDotFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dot",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDotFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "dot",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDownload16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "download16",
+        "download",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDownload24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "download24",
+        "download",
+        "24"
+      ]
+    },
+    {
+      "name": "OcDuplicate16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "duplicate16",
+        "duplicate",
+        "16"
+      ]
+    },
+    {
+      "name": "OcDuplicate24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "duplicate24",
+        "duplicate",
+        "24"
+      ]
+    },
+    {
+      "name": "OcEllipsis16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "ellipsis16",
+        "ellipsis",
+        "16"
+      ]
+    },
+    {
+      "name": "OcEllipsis24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "ellipsis24",
+        "ellipsis",
+        "24"
+      ]
+    },
+    {
+      "name": "OcExclamation16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "exclamation16",
+        "exclamation",
+        "16"
+      ]
+    },
+    {
+      "name": "OcExclamation24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "exclamation24",
+        "exclamation",
+        "24"
+      ]
+    },
+    {
+      "name": "OcEye16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "eye16",
+        "eye",
+        "16"
+      ]
+    },
+    {
+      "name": "OcEye24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "eye24",
+        "eye",
+        "24"
+      ]
+    },
+    {
+      "name": "OcEyeClosed16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "eye",
+        "closed16",
+        "closed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcEyeClosed24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "eye",
+        "closed24",
+        "closed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFeedDiscussion16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "discussion16",
+        "discussion",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedForked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "forked16",
+        "forked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedHeart16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "heart16",
+        "heart",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedIssueClosed16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "issue",
+        "closed16",
+        "closed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedIssueDraft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "issue",
+        "draft16",
+        "draft",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedIssueOpen16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "issue",
+        "open16",
+        "open",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedIssueReopen16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "issue",
+        "reopen16",
+        "reopen",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedMerged16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "merged16",
+        "merged",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedPerson16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "person16",
+        "person",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedPlus16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "plus16",
+        "plus",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedPublic16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "public16",
+        "public",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedPullRequestClosed16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "pull",
+        "request",
+        "closed16",
+        "closed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedPullRequestDraft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "pull",
+        "request",
+        "draft16",
+        "draft",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedPullRequestOpen16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "pull",
+        "request",
+        "open16",
+        "open",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedRepo16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "repo16",
+        "repo",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedRocket16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "rocket16",
+        "rocket",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedStar16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "star16",
+        "star",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedTag16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "tag16",
+        "tag",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFeedTrophy16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "feed",
+        "trophy16",
+        "trophy",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFile16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file16",
+        "file",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFile24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file24",
+        "file",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileAdded16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "added16",
+        "added",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileAdded24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "added24",
+        "added",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileBadge16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "badge16",
+        "badge",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileBadge24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "badge24",
+        "badge",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileBinary16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "binary16",
+        "binary",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileBinary24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "binary24",
+        "binary",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileCheck16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "check16",
+        "check",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileCheck24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "check24",
+        "check",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileCode16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "code16",
+        "code",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileCode24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "code24",
+        "code",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileDiff16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "diff16",
+        "diff",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileDiff24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "diff24",
+        "diff",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileDirectory16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory16",
+        "directory",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileDirectory24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory24",
+        "directory",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileDirectoryFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileDirectoryFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileDirectoryOpenFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory",
+        "open",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileDirectoryOpenFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory",
+        "open",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileDirectorySymlink16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory",
+        "symlink16",
+        "symlink",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileDirectorySymlink24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "directory",
+        "symlink24",
+        "symlink",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileMedia16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "media16",
+        "media",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileMedia24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "media24",
+        "media",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileMoved16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "moved16",
+        "moved",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileMoved24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "moved24",
+        "moved",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileRemoved16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "removed16",
+        "removed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileRemoved24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "removed24",
+        "removed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileSubmodule16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "submodule16",
+        "submodule",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileSubmodule24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "submodule24",
+        "submodule",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileSymlinkFile16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "symlink",
+        "file16",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileSymlinkFile24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "symlink",
+        "file24",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFileZip16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "zip16",
+        "zip",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFileZip24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "file",
+        "zip24",
+        "zip",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFilter16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "filter16",
+        "filter",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFilter24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "filter24",
+        "filter",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFilterRemove16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "filter",
+        "remove16",
+        "remove",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFilterRemove24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "filter",
+        "remove24",
+        "remove",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFiscalHost16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fiscal",
+        "host16",
+        "host",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFiscalHost24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fiscal",
+        "host24",
+        "host",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFlag16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "flag16",
+        "flag",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFlag24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "flag24",
+        "flag",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFlame16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "flame16",
+        "flame",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFlame24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "flame24",
+        "flame",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFlowchart16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "flowchart16",
+        "flowchart",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFlowchart24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "flowchart24",
+        "flowchart",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFocusCenter16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "focus",
+        "center16",
+        "center",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFocusCenter24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "focus",
+        "center24",
+        "center",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFold16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fold16",
+        "fold",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFold24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fold24",
+        "fold",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFoldDown16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fold",
+        "down16",
+        "down",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFoldDown24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fold",
+        "down24",
+        "down",
+        "24"
+      ]
+    },
+    {
+      "name": "OcFoldUp16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fold",
+        "up16",
+        "up",
+        "16"
+      ]
+    },
+    {
+      "name": "OcFoldUp24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "fold",
+        "up24",
+        "up",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGear16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "gear16",
+        "gear",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGear24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "gear24",
+        "gear",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGift16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "gift16",
+        "gift",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGift24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "gift24",
+        "gift",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitBranch16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "branch16",
+        "branch",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitBranch24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "branch24",
+        "branch",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitBranchCheck16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "branch",
+        "check16",
+        "check",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitBranchCheck24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "branch",
+        "check24",
+        "check",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitCommit16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "commit16",
+        "commit",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitCommit24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "commit24",
+        "commit",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitCompare16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "compare16",
+        "compare",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitCompare24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "compare24",
+        "compare",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitMerge16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "merge16",
+        "merge",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitMerge24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "merge24",
+        "merge",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitMergeQueue16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "merge",
+        "queue16",
+        "queue",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitMergeQueue24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "merge",
+        "queue24",
+        "queue",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitPullRequest16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "pull",
+        "request16",
+        "request",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitPullRequest24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "pull",
+        "request24",
+        "request",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitPullRequestClosed16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "pull",
+        "request",
+        "closed16",
+        "closed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitPullRequestClosed24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "pull",
+        "request",
+        "closed24",
+        "closed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitPullRequestDraft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "pull",
+        "request",
+        "draft16",
+        "draft",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGitPullRequestDraft24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "pull",
+        "request",
+        "draft24",
+        "draft",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGitPullRequestLocked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "git",
+        "pull",
+        "request",
+        "locked16",
+        "locked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGlobe16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "globe16",
+        "globe",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGlobe24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "globe24",
+        "globe",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGoal16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "goal16",
+        "goal",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGoal24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "goal24",
+        "goal",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGrabber16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "grabber16",
+        "grabber",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGrabber24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "grabber24",
+        "grabber",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGraph16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "graph16",
+        "graph",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGraph24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "graph24",
+        "graph",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGraphBarHorizontal16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "graph",
+        "bar",
+        "horizontal16",
+        "horizontal",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGraphBarHorizontal24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "graph",
+        "bar",
+        "horizontal24",
+        "horizontal",
+        "24"
+      ]
+    },
+    {
+      "name": "OcGraphBarVertical16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "graph",
+        "bar",
+        "vertical16",
+        "vertical",
+        "16"
+      ]
+    },
+    {
+      "name": "OcGraphBarVertical24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "graph",
+        "bar",
+        "vertical24",
+        "vertical",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "hash16",
+        "hash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "hash24",
+        "hash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHeading16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "heading16",
+        "heading",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHeading24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "heading24",
+        "heading",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHeart16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "heart16",
+        "heart",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHeart24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "heart24",
+        "heart",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHeartFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "heart",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHeartFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "heart",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHistory16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "history16",
+        "history",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHistory24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "history24",
+        "history",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHome16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "home16",
+        "home",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHome24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "home24",
+        "home",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHomeFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "home",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHomeFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "home",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHorizontalRule16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "horizontal",
+        "rule16",
+        "rule",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHorizontalRule24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "horizontal",
+        "rule24",
+        "rule",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHourglass16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "hourglass16",
+        "hourglass",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHourglass24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "hourglass24",
+        "hourglass",
+        "24"
+      ]
+    },
+    {
+      "name": "OcHubot16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "hubot16",
+        "hubot",
+        "16"
+      ]
+    },
+    {
+      "name": "OcHubot24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "hubot24",
+        "hubot",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIdBadge16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "id",
+        "badge16",
+        "badge",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIdBadge24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "id",
+        "badge24",
+        "badge",
+        "24"
+      ]
+    },
+    {
+      "name": "OcImage16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "image16",
+        "image",
+        "16"
+      ]
+    },
+    {
+      "name": "OcImage24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "image24",
+        "image",
+        "24"
+      ]
+    },
+    {
+      "name": "OcInbox16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "inbox16",
+        "inbox",
+        "16"
+      ]
+    },
+    {
+      "name": "OcInbox24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "inbox24",
+        "inbox",
+        "24"
+      ]
+    },
+    {
+      "name": "OcInboxFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "inbox",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcInboxFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "inbox",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcInfinity16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "infinity16",
+        "infinity",
+        "16"
+      ]
+    },
+    {
+      "name": "OcInfinity24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "infinity24",
+        "infinity",
+        "24"
+      ]
+    },
+    {
+      "name": "OcInfo16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "info16",
+        "info",
+        "16"
+      ]
+    },
+    {
+      "name": "OcInfo24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "info24",
+        "info",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIssueClosed16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "closed16",
+        "closed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIssueClosed24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "closed24",
+        "closed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIssueDraft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "draft16",
+        "draft",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIssueDraft24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "draft24",
+        "draft",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIssueLocked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "locked16",
+        "locked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIssueOpened16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "opened16",
+        "opened",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIssueOpened24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "opened24",
+        "opened",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIssueReopened16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "reopened16",
+        "reopened",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIssueReopened24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "reopened24",
+        "reopened",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIssueTrackedBy16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "tracked",
+        "by16",
+        "by",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIssueTrackedBy24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "tracked",
+        "by24",
+        "by",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIssueTracks16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "tracks16",
+        "tracks",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIssueTracks24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "issue",
+        "tracks24",
+        "tracks",
+        "24"
+      ]
+    },
+    {
+      "name": "OcItalic16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "italic16",
+        "italic",
+        "16"
+      ]
+    },
+    {
+      "name": "OcItalic24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "italic24",
+        "italic",
+        "24"
+      ]
+    },
+    {
+      "name": "OcIterations16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "iterations16",
+        "iterations",
+        "16"
+      ]
+    },
+    {
+      "name": "OcIterations24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "iterations24",
+        "iterations",
+        "24"
+      ]
+    },
+    {
+      "name": "OcKebabHorizontal16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "kebab",
+        "horizontal16",
+        "horizontal",
+        "16"
+      ]
+    },
+    {
+      "name": "OcKebabHorizontal24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "kebab",
+        "horizontal24",
+        "horizontal",
+        "24"
+      ]
+    },
+    {
+      "name": "OcKey16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "key16",
+        "key",
+        "16"
+      ]
+    },
+    {
+      "name": "OcKey24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "key24",
+        "key",
+        "24"
+      ]
+    },
+    {
+      "name": "OcKeyAsterisk16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "key",
+        "asterisk16",
+        "asterisk",
+        "16"
+      ]
+    },
+    {
+      "name": "OcKeyAsterisk24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "key",
+        "asterisk24",
+        "asterisk",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLaw16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "law16",
+        "law",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLaw24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "law24",
+        "law",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLightBulb16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "light",
+        "bulb16",
+        "bulb",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLightBulb24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "light",
+        "bulb24",
+        "bulb",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLink16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "link16",
+        "link",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLink24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "link24",
+        "link",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLinkExternal16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "link",
+        "external16",
+        "external",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLinkExternal24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "link",
+        "external24",
+        "external",
+        "24"
+      ]
+    },
+    {
+      "name": "OcListOrdered16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "list",
+        "ordered16",
+        "ordered",
+        "16"
+      ]
+    },
+    {
+      "name": "OcListOrdered24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "list",
+        "ordered24",
+        "ordered",
+        "24"
+      ]
+    },
+    {
+      "name": "OcListUnordered16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "list",
+        "unordered16",
+        "unordered",
+        "16"
+      ]
+    },
+    {
+      "name": "OcListUnordered24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "list",
+        "unordered24",
+        "unordered",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLocation16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "location16",
+        "location",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLocation24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "location24",
+        "location",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLock16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "lock16",
+        "lock",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLock24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "lock24",
+        "lock",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLockupGithub16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "lockup",
+        "github16",
+        "github",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLockupGithub24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "lockup",
+        "github24",
+        "github",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLog16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "log16",
+        "log",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLog24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "log24",
+        "log",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLogoGist16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "logo",
+        "gist16",
+        "gist",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLogoGist24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "logo",
+        "gist24",
+        "gist",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLogoGithub16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "logo",
+        "github16",
+        "github",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLogoGithub24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "logo",
+        "github24",
+        "github",
+        "24"
+      ]
+    },
+    {
+      "name": "OcLoop16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "loop16",
+        "loop",
+        "16"
+      ]
+    },
+    {
+      "name": "OcLoop24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "loop24",
+        "loop",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMail16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mail16",
+        "mail",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMail24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mail24",
+        "mail",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMarkdown16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "markdown16",
+        "markdown",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMarkdown24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "markdown24",
+        "markdown",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMarkGithub16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mark",
+        "github16",
+        "github",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMarkGithub24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mark",
+        "github24",
+        "github",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMaximize16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "maximize16",
+        "maximize",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMaximize24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "maximize24",
+        "maximize",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMcp16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mcp16",
+        "mcp",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMcp24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mcp24",
+        "mcp",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMegaphone16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "megaphone16",
+        "megaphone",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMegaphone24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "megaphone24",
+        "megaphone",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMention16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mention16",
+        "mention",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMention24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mention24",
+        "mention",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMeter16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "meter16",
+        "meter",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMeter24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "meter24",
+        "meter",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMilestone16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "milestone16",
+        "milestone",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMilestone24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "milestone24",
+        "milestone",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMinimize16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "minimize16",
+        "minimize",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMinimize24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "minimize24",
+        "minimize",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMirror16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mirror16",
+        "mirror",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMirror24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mirror24",
+        "mirror",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMoon16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "moon16",
+        "moon",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMoon24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "moon24",
+        "moon",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMortarBoard16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mortar",
+        "board16",
+        "board",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMortarBoard24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mortar",
+        "board24",
+        "board",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMoveToBottom16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "bottom16",
+        "bottom",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMoveToBottom24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "bottom24",
+        "bottom",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMoveToEnd16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "end16",
+        "end",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMoveToEnd24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "end24",
+        "end",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMoveToStart16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "start16",
+        "start",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMoveToStart24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "start24",
+        "start",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMoveToTop16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "top16",
+        "top",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMoveToTop24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "move",
+        "to",
+        "top24",
+        "top",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMultiSelect16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "multi",
+        "select16",
+        "select",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMultiSelect24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "multi",
+        "select24",
+        "select",
+        "24"
+      ]
+    },
+    {
+      "name": "OcMute16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mute16",
+        "mute",
+        "16"
+      ]
+    },
+    {
+      "name": "OcMute24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "mute24",
+        "mute",
+        "24"
+      ]
+    },
+    {
+      "name": "OcNode16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "node16",
+        "node",
+        "16"
+      ]
+    },
+    {
+      "name": "OcNode24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "node24",
+        "node",
+        "24"
+      ]
+    },
+    {
+      "name": "OcNoEntry16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "no",
+        "entry16",
+        "entry",
+        "16"
+      ]
+    },
+    {
+      "name": "OcNoEntry24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "no",
+        "entry24",
+        "entry",
+        "24"
+      ]
+    },
+    {
+      "name": "OcNoEntryFill12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "no",
+        "entry",
+        "fill12",
+        "fill",
+        "12"
+      ]
+    },
+    {
+      "name": "OcNorthStar16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "north",
+        "star16",
+        "star",
+        "16"
+      ]
+    },
+    {
+      "name": "OcNorthStar24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "north",
+        "star24",
+        "star",
+        "24"
+      ]
+    },
+    {
+      "name": "OcNote16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "note16",
+        "note",
+        "16"
+      ]
+    },
+    {
+      "name": "OcNote24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "note24",
+        "note",
+        "24"
+      ]
+    },
+    {
+      "name": "OcNumber16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "number16",
+        "number",
+        "16"
+      ]
+    },
+    {
+      "name": "OcNumber24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "number24",
+        "number",
+        "24"
+      ]
+    },
+    {
+      "name": "OcOrganization16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "organization16",
+        "organization",
+        "16"
+      ]
+    },
+    {
+      "name": "OcOrganization24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "organization24",
+        "organization",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPackage16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "package16",
+        "package",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPackage24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "package24",
+        "package",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPackageDependencies16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "package",
+        "dependencies16",
+        "dependencies",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPackageDependencies24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "package",
+        "dependencies24",
+        "dependencies",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPackageDependents16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "package",
+        "dependents16",
+        "dependents",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPackageDependents24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "package",
+        "dependents24",
+        "dependents",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPaintbrush16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paintbrush16",
+        "paintbrush",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPaintbrush24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paintbrush24",
+        "paintbrush",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPaperAirplane16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paper",
+        "airplane16",
+        "airplane",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPaperAirplane24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paper",
+        "airplane24",
+        "airplane",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPaperclip16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paperclip16",
+        "paperclip",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPaperclip24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paperclip24",
+        "paperclip",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPasskeyFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "passkey",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPasskeyFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "passkey",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPaste16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paste16",
+        "paste",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPaste24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "paste24",
+        "paste",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPause16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pause16",
+        "pause",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPause24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pause24",
+        "pause",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPencil16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pencil16",
+        "pencil",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPencil24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pencil24",
+        "pencil",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPencilAi16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pencil",
+        "ai16",
+        "ai",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPencilAi24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pencil",
+        "ai24",
+        "ai",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPeople16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "people16",
+        "people",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPeople24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "people24",
+        "people",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPerson16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "person16",
+        "person",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPerson24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "person24",
+        "person",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPersonAdd16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "person",
+        "add16",
+        "add",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPersonAdd24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "person",
+        "add24",
+        "add",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPersonFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "person",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPersonFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "person",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPin16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pin16",
+        "pin",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPin24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pin24",
+        "pin",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPinSlash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pin",
+        "slash16",
+        "slash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPinSlash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pin",
+        "slash24",
+        "slash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPivotColumn16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pivot",
+        "column16",
+        "column",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPivotColumn24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pivot",
+        "column24",
+        "column",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPlay16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "play16",
+        "play",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPlay24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "play24",
+        "play",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPlug16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "plug16",
+        "plug",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPlug24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "plug24",
+        "plug",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPlus16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "plus16",
+        "plus",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPlus24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "plus24",
+        "plus",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPlusCircle16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "plus",
+        "circle16",
+        "circle",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPlusCircle24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "plus",
+        "circle24",
+        "circle",
+        "24"
+      ]
+    },
+    {
+      "name": "OcProject16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project16",
+        "project",
+        "16"
+      ]
+    },
+    {
+      "name": "OcProject24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project24",
+        "project",
+        "24"
+      ]
+    },
+    {
+      "name": "OcProjectRoadmap16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project",
+        "roadmap16",
+        "roadmap",
+        "16"
+      ]
+    },
+    {
+      "name": "OcProjectRoadmap24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project",
+        "roadmap24",
+        "roadmap",
+        "24"
+      ]
+    },
+    {
+      "name": "OcProjectSymlink16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project",
+        "symlink16",
+        "symlink",
+        "16"
+      ]
+    },
+    {
+      "name": "OcProjectSymlink24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project",
+        "symlink24",
+        "symlink",
+        "24"
+      ]
+    },
+    {
+      "name": "OcProjectTemplate16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project",
+        "template16",
+        "template",
+        "16"
+      ]
+    },
+    {
+      "name": "OcProjectTemplate24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "project",
+        "template24",
+        "template",
+        "24"
+      ]
+    },
+    {
+      "name": "OcPulse16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pulse16",
+        "pulse",
+        "16"
+      ]
+    },
+    {
+      "name": "OcPulse24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "pulse24",
+        "pulse",
+        "24"
+      ]
+    },
+    {
+      "name": "OcQuestion16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "question16",
+        "question",
+        "16"
+      ]
+    },
+    {
+      "name": "OcQuestion24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "question24",
+        "question",
+        "24"
+      ]
+    },
+    {
+      "name": "OcQuote16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "quote16",
+        "quote",
+        "16"
+      ]
+    },
+    {
+      "name": "OcQuote24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "quote24",
+        "quote",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRead16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "read16",
+        "read",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRead24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "read24",
+        "read",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRedo16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "redo16",
+        "redo",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRedo24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "redo24",
+        "redo",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRelFilePath16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rel",
+        "file",
+        "path16",
+        "path",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRelFilePath24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rel",
+        "file",
+        "path24",
+        "path",
+        "24"
+      ]
+    },
+    {
+      "name": "OcReply16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "reply16",
+        "reply",
+        "16"
+      ]
+    },
+    {
+      "name": "OcReply24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "reply24",
+        "reply",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepo16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo16",
+        "repo",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepo24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo24",
+        "repo",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoClone16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "clone16",
+        "clone",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoClone24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "clone24",
+        "clone",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoDelete24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "delete24",
+        "delete",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoDeleted16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "deleted16",
+        "deleted",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoForked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "forked16",
+        "forked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoForked24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "forked24",
+        "forked",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoForkedLocked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "forked",
+        "locked16",
+        "locked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoForkedLocked24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "forked",
+        "locked24",
+        "locked",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoLocked16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "locked16",
+        "locked",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoLocked24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "locked24",
+        "locked",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoPull16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "pull16",
+        "pull",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoPull24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "pull24",
+        "pull",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoPush16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "push16",
+        "push",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoPush24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "push24",
+        "push",
+        "24"
+      ]
+    },
+    {
+      "name": "OcReport16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "report16",
+        "report",
+        "16"
+      ]
+    },
+    {
+      "name": "OcReport24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "report24",
+        "report",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRepoTemplate16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "template16",
+        "template",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRepoTemplate24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "repo",
+        "template24",
+        "template",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRocket16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rocket16",
+        "rocket",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRocket24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rocket24",
+        "rocket",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRows16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rows16",
+        "rows",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRows24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rows24",
+        "rows",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRss16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rss16",
+        "rss",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRss24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "rss24",
+        "rss",
+        "24"
+      ]
+    },
+    {
+      "name": "OcRuby16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "ruby16",
+        "ruby",
+        "16"
+      ]
+    },
+    {
+      "name": "OcRuby24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "ruby24",
+        "ruby",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSandbox16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sandbox16",
+        "sandbox",
+        "16"
+      ]
+    },
+    {
+      "name": "OcScreenFull16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "screen",
+        "full16",
+        "full",
+        "16"
+      ]
+    },
+    {
+      "name": "OcScreenFull24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "screen",
+        "full24",
+        "full",
+        "24"
+      ]
+    },
+    {
+      "name": "OcScreenNormal16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "screen",
+        "normal16",
+        "normal",
+        "16"
+      ]
+    },
+    {
+      "name": "OcScreenNormal24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "screen",
+        "normal24",
+        "normal",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSearch16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "search16",
+        "search",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSearch24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "search24",
+        "search",
+        "24"
+      ]
+    },
+    {
+      "name": "OcServer16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "server16",
+        "server",
+        "16"
+      ]
+    },
+    {
+      "name": "OcServer24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "server24",
+        "server",
+        "24"
+      ]
+    },
+    {
+      "name": "OcShare16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "share16",
+        "share",
+        "16"
+      ]
+    },
+    {
+      "name": "OcShare24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "share24",
+        "share",
+        "24"
+      ]
+    },
+    {
+      "name": "OcShareAndroid16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "share",
+        "android16",
+        "android",
+        "16"
+      ]
+    },
+    {
+      "name": "OcShareAndroid24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "share",
+        "android24",
+        "android",
+        "24"
+      ]
+    },
+    {
+      "name": "OcShield16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield16",
+        "shield",
+        "16"
+      ]
+    },
+    {
+      "name": "OcShield24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield24",
+        "shield",
+        "24"
+      ]
+    },
+    {
+      "name": "OcShieldCheck16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "check16",
+        "check",
+        "16"
+      ]
+    },
+    {
+      "name": "OcShieldCheck24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "check24",
+        "check",
+        "24"
+      ]
+    },
+    {
+      "name": "OcShieldLock16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "lock16",
+        "lock",
+        "16"
+      ]
+    },
+    {
+      "name": "OcShieldLock24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "lock24",
+        "lock",
+        "24"
+      ]
+    },
+    {
+      "name": "OcShieldSlash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "slash16",
+        "slash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcShieldSlash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "slash24",
+        "slash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcShieldX16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "x16",
+        "x",
+        "16"
+      ]
+    },
+    {
+      "name": "OcShieldX24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "shield",
+        "x24",
+        "x",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSidebarCollapse16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sidebar",
+        "collapse16",
+        "collapse",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSidebarCollapse24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sidebar",
+        "collapse24",
+        "collapse",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSidebarExpand16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sidebar",
+        "expand16",
+        "expand",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSidebarExpand24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sidebar",
+        "expand24",
+        "expand",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSignIn16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sign",
+        "in16",
+        "in",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSignIn24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sign",
+        "in24",
+        "in",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSignOut16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sign",
+        "out16",
+        "out",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSignOut24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sign",
+        "out24",
+        "out",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSingleSelect16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "single",
+        "select16",
+        "select",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSingleSelect24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "single",
+        "select24",
+        "select",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSkip16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "skip16",
+        "skip",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSkip24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "skip24",
+        "skip",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSkipFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "skip",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSkipFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "skip",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSliders16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sliders16",
+        "sliders",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSliders24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sliders24",
+        "sliders",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSmiley16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley16",
+        "smiley",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSmiley24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley24",
+        "smiley",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSmileyFrown16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "frown16",
+        "frown",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSmileyFrown24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "frown24",
+        "frown",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSmileyFrustrated16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "frustrated16",
+        "frustrated",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSmileyFrustrated24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "frustrated24",
+        "frustrated",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSmileyGrin16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "grin16",
+        "grin",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSmileyGrin24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "grin24",
+        "grin",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSmileyNeutral16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "neutral16",
+        "neutral",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSmileyNeutral24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "smiley",
+        "neutral24",
+        "neutral",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSortAsc16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sort",
+        "asc16",
+        "asc",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSortAsc24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sort",
+        "asc24",
+        "asc",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSortDesc16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sort",
+        "desc16",
+        "desc",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSortDesc24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sort",
+        "desc24",
+        "desc",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSpace16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "space16",
+        "space",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSpace24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "space24",
+        "space",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSpacingLarge16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "spacing",
+        "large16",
+        "large",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSpacingLarge24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "spacing",
+        "large24",
+        "large",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSpacingMedium16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "spacing",
+        "medium16",
+        "medium",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSpacingMedium24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "spacing",
+        "medium24",
+        "medium",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSpacingSmall16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "spacing",
+        "small16",
+        "small",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSpacingSmall24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "spacing",
+        "small24",
+        "small",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSparkle16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sparkle16",
+        "sparkle",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSparkle24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sparkle24",
+        "sparkle",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSparkleFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sparkle",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSparkleFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sparkle",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSparklesFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sparkles",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSparklesFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sparkles",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSplitView16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "split",
+        "view16",
+        "view",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSplitView24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "split",
+        "view24",
+        "view",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSponsorTiers16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sponsor",
+        "tiers16",
+        "tiers",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSponsorTiers24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sponsor",
+        "tiers24",
+        "tiers",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSquare16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "square16",
+        "square",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSquare24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "square24",
+        "square",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSquareCircle16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "square",
+        "circle16",
+        "circle",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSquareCircle24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "square",
+        "circle24",
+        "circle",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSquareFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "square",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSquareFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "square",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSquirrel16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "squirrel16",
+        "squirrel",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSquirrel24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "squirrel24",
+        "squirrel",
+        "24"
+      ]
+    },
+    {
+      "name": "OcStack16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stack16",
+        "stack",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStack24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stack24",
+        "stack",
+        "24"
+      ]
+    },
+    {
+      "name": "OcStackAdd16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stack",
+        "add16",
+        "add",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStackCheck16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stack",
+        "check16",
+        "check",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStackRemove16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stack",
+        "remove16",
+        "remove",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStar16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "star16",
+        "star",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStar24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "star24",
+        "star",
+        "24"
+      ]
+    },
+    {
+      "name": "OcStarFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "star",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStarFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "star",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcStop16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stop16",
+        "stop",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStop24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stop24",
+        "stop",
+        "24"
+      ]
+    },
+    {
+      "name": "OcStopwatch16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stopwatch16",
+        "stopwatch",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStopwatch24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "stopwatch24",
+        "stopwatch",
+        "24"
+      ]
+    },
+    {
+      "name": "OcStrikethrough16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "strikethrough16",
+        "strikethrough",
+        "16"
+      ]
+    },
+    {
+      "name": "OcStrikethrough24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "strikethrough24",
+        "strikethrough",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSun16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sun16",
+        "sun",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSun24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sun24",
+        "sun",
+        "24"
+      ]
+    },
+    {
+      "name": "OcSync16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sync16",
+        "sync",
+        "16"
+      ]
+    },
+    {
+      "name": "OcSync24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "sync24",
+        "sync",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTab16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tab16",
+        "tab",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTab24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tab24",
+        "tab",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTabExternal16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tab",
+        "external16",
+        "external",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTabExternal24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tab",
+        "external24",
+        "external",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTable16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "table16",
+        "table",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTable24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "table24",
+        "table",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTag16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tag16",
+        "tag",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTag24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tag24",
+        "tag",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTasklist16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tasklist16",
+        "tasklist",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTasklist24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tasklist24",
+        "tasklist",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTelescope16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "telescope16",
+        "telescope",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTelescope24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "telescope24",
+        "telescope",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTelescopeFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "telescope",
+        "fill16",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTelescopeFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "telescope",
+        "fill24",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTerminal16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "terminal16",
+        "terminal",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTerminal24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "terminal24",
+        "terminal",
+        "24"
+      ]
+    },
+    {
+      "name": "OcThreeBars16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "three",
+        "bars16",
+        "bars",
+        "16"
+      ]
+    },
+    {
+      "name": "OcThreeBars24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "three",
+        "bars24",
+        "bars",
+        "24"
+      ]
+    },
+    {
+      "name": "OcThumbsdown16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "thumbsdown16",
+        "thumbsdown",
+        "16"
+      ]
+    },
+    {
+      "name": "OcThumbsdown24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "thumbsdown24",
+        "thumbsdown",
+        "24"
+      ]
+    },
+    {
+      "name": "OcThumbsup16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "thumbsup16",
+        "thumbsup",
+        "16"
+      ]
+    },
+    {
+      "name": "OcThumbsup24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "thumbsup24",
+        "thumbsup",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTools16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tools16",
+        "tools",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTools24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tools24",
+        "tools",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTrackedByClosedCompleted16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tracked",
+        "by",
+        "closed",
+        "completed16",
+        "completed",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTrackedByClosedCompleted24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tracked",
+        "by",
+        "closed",
+        "completed24",
+        "completed",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTrackedByClosedNotPlanned16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tracked",
+        "by",
+        "closed",
+        "not",
+        "planned16",
+        "planned",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTrackedByClosedNotPlanned24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "tracked",
+        "by",
+        "closed",
+        "not",
+        "planned24",
+        "planned",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTrash16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "trash16",
+        "trash",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTrash24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "trash24",
+        "trash",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTriangleDown16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "down16",
+        "down",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTriangleDown24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "down24",
+        "down",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTriangleLeft16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "left16",
+        "left",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTriangleLeft24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "left24",
+        "left",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTriangleRight16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "right16",
+        "right",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTriangleRight24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "right24",
+        "right",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTriangleUp16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "up16",
+        "up",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTriangleUp24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "triangle",
+        "up24",
+        "up",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTrophy16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "trophy16",
+        "trophy",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTrophy24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "trophy24",
+        "trophy",
+        "24"
+      ]
+    },
+    {
+      "name": "OcTypography16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "typography16",
+        "typography",
+        "16"
+      ]
+    },
+    {
+      "name": "OcTypography24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "typography24",
+        "typography",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUndo16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "undo16",
+        "undo",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUndo24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "undo24",
+        "undo",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUnfold16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unfold16",
+        "unfold",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUnfold24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unfold24",
+        "unfold",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUnlink16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unlink16",
+        "unlink",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUnlink24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unlink24",
+        "unlink",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUnlock16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unlock16",
+        "unlock",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUnlock24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unlock24",
+        "unlock",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUnmute16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unmute16",
+        "unmute",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUnmute24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unmute24",
+        "unmute",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUnread16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unread16",
+        "unread",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUnread24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unread24",
+        "unread",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUnverified16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unverified16",
+        "unverified",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUnverified24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unverified24",
+        "unverified",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUnwrap16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unwrap16",
+        "unwrap",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUnwrap24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "unwrap24",
+        "unwrap",
+        "24"
+      ]
+    },
+    {
+      "name": "OcUpload16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "upload16",
+        "upload",
+        "16"
+      ]
+    },
+    {
+      "name": "OcUpload24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "upload24",
+        "upload",
+        "24"
+      ]
+    },
+    {
+      "name": "OcVerified16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "verified16",
+        "verified",
+        "16"
+      ]
+    },
+    {
+      "name": "OcVerified24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "verified24",
+        "verified",
+        "24"
+      ]
+    },
+    {
+      "name": "OcVersions16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "versions16",
+        "versions",
+        "16"
+      ]
+    },
+    {
+      "name": "OcVersions24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "versions24",
+        "versions",
+        "24"
+      ]
+    },
+    {
+      "name": "OcVideo16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "video16",
+        "video",
+        "16"
+      ]
+    },
+    {
+      "name": "OcVideo24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "video24",
+        "video",
+        "24"
+      ]
+    },
+    {
+      "name": "OcVscode16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "vscode16",
+        "vscode",
+        "16"
+      ]
+    },
+    {
+      "name": "OcVscode24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "vscode24",
+        "vscode",
+        "24"
+      ]
+    },
+    {
+      "name": "OcWebhook16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "webhook16",
+        "webhook",
+        "16"
+      ]
+    },
+    {
+      "name": "OcWorkflow16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "workflow16",
+        "workflow",
+        "16"
+      ]
+    },
+    {
+      "name": "OcWorkflow24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "workflow24",
+        "workflow",
+        "24"
+      ]
+    },
+    {
+      "name": "OcWrap16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "wrap16",
+        "wrap",
+        "16"
+      ]
+    },
+    {
+      "name": "OcWrap24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "wrap24",
+        "wrap",
+        "24"
+      ]
+    },
+    {
+      "name": "OcX12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "x12",
+        "x",
+        "12"
+      ]
+    },
+    {
+      "name": "OcX16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "x16",
+        "x",
+        "16"
+      ]
+    },
+    {
+      "name": "OcX24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "x24",
+        "x",
+        "24"
+      ]
+    },
+    {
+      "name": "OcXCircle16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "xcircle16",
+        "x",
+        "circle",
+        "16"
+      ]
+    },
+    {
+      "name": "OcXCircle24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "xcircle24",
+        "x",
+        "circle",
+        "24"
+      ]
+    },
+    {
+      "name": "OcXCircleFill12",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "xcircle",
+        "fill12",
+        "x",
+        "circle",
+        "fill",
+        "12"
+      ]
+    },
+    {
+      "name": "OcXCircleFill16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "xcircle",
+        "fill16",
+        "x",
+        "circle",
+        "fill",
+        "16"
+      ]
+    },
+    {
+      "name": "OcXCircleFill24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "xcircle",
+        "fill24",
+        "x",
+        "circle",
+        "fill",
+        "24"
+      ]
+    },
+    {
+      "name": "OcZap16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "zap16",
+        "zap",
+        "16"
+      ]
+    },
+    {
+      "name": "OcZap24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "zap24",
+        "zap",
+        "24"
+      ]
+    },
+    {
+      "name": "OcZoomIn16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "zoom",
+        "in16",
+        "in",
+        "16"
+      ]
+    },
+    {
+      "name": "OcZoomIn24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "zoom",
+        "in24",
+        "in",
+        "24"
+      ]
+    },
+    {
+      "name": "OcZoomOut16",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "zoom",
+        "out16",
+        "out",
+        "16"
+      ]
+    },
+    {
+      "name": "OcZoomOut24",
+      "set": "oc",
+      "terms": [
+        "oc",
+        "zoom",
+        "out24",
+        "out",
+        "24"
+      ]
+    },
+    {
       "name": "TiAdjustBrightness",
       "set": "ti",
       "terms": [

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcCheckboxFill24 = createIcon("0 0 24 24", [["path",{"d":"M20.25 2c0.97 0 1.750.78 1.75 1.75v16.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25V3.75C2 2.78 2.78 2 3.75 2Zm-2.97 6.22a0.750.75 0 0 0-1.06 0l-5.97 5.97-2.47-2.47a0.750.75 0 1 0-1.06 1.06l3 3a0.750.75 0 0 0 1.06 0l6.5-6.5a0.750.75 0 0 0 0-1.06Z"}]]);
+
+export default OcCheckboxFill24;

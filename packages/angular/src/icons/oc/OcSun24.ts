@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-sun-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcSun24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 19a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm0-1.5a5.5 5.5 0 1 0 0-11 5.5 5.5 0 1 0 0 11Zm-5.660.16a0.750.75 0 0 1 0 1.06l-1.77 1.77a0.750.75 0 0 1-1.27-0.330.750.75 0 0 1 0.22-0.73l1.77-1.77a0.750.75 0 0 1 1.06 0ZM3.52 3.52a0.750.75 0 0 1 1.06 0l1.77 1.77a0.750.75 0 0 1-0.33 1.270.750.75 0 0 1-0.73-0.21L3.52 4.58a0.750.75 0 0 1 0-1.06ZM12 0a0.750.75 0 0 1 0.750.75v2.5a0.750.75 0 0 1-1.5 0V0.75A0.750.75 0 0 1 12 0ZM4 12a0.750.75 0 0 1-0.750.75H0.75a0.750.75 0 0 1 0-1.5h2.5A0.750.75 0 0 1 4 12Zm8 8a0.750.75 0 0 1 0.750.75v2.5a0.750.75 0 0 1-1.5 0v-2.5A0.750.75 0 0 1 12 20Zm12-8a0.750.75 0 0 1-0.750.75h-2.5a0.750.75 0 0 1 0-1.5h2.5A0.750.75 0 0 1 24 12Zm-6.34 5.66a0.750.75 0 0 1 1.06 0l1.77 1.77a0.750.75 0 0 1-0.02 1.040.750.75 0 0 1-1.040.02l-1.77-1.77a0.750.75 0 0 1 0-1.06Zm2.83-14.14a0.750.75 0 0 1 0 1.06l-1.77 1.77a0.750.75 0 0 1-1.04-0.020.750.75 0 0 1-0.02-1.04l1.77-1.77a0.750.75 0 0 1 1.06 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcSun24;

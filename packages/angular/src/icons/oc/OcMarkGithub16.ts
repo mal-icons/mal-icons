@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-mark-github-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcMarkGithub16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.77 11.33c-2.06-0.25-3.52-1.73-3.52-3.66 0-0.780.28-1.620.75-2.19-0.2-0.51-0.17-1.610.06-2.060.63-0.08 1.470.25 1.970.70.59-0.19 1.22-0.28 1.99-0.280.77 0 1.390.09 1.950.270.48-0.44 1.34-0.76 1.97-0.690.220.420.25 1.520.05 2.050.50.590.77 1.390.77 2.2 0 1.92-1.45 3.38-3.55 3.640.530.340.89 1.090.89 1.95v1.63c0 0.470.390.730.860.55C13.78 14.36 16 11.53 16 8.03 16 3.61 12.41 0 7.98 0 3.56 0 0 3.61 0 8.03a7.88 7.88 0 0 0 5.17 7.42c0.420.160.83-0.120.83-0.55v-1.25c-0.220.09-0.50.16-0.750.16-1.03 0-1.64-0.56-2.08-1.61-0.17-0.42-0.36-0.67-0.72-0.72-0.19-0.01-0.25-0.09-0.25-0.19 0-0.190.31-0.330.63-0.330.45 0 0.840.28 1.250.860.310.450.640.66 1.030.66s0.64-0.14 1-0.5c0.27-0.260.47-0.50.66-0.66"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcMarkGithub16;

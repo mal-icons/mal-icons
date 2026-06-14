@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-git-pull-request-closed-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcGitPullRequestClosed24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.27 2.71a0.750.75 0 1 0-1.06-1.06l-1.98 1.98-1.98-1.98a0.750.75 0 1 0-1.06 1.06l1.98 1.98-1.98 1.98a0.750.75 0 0 0 1.06 1.06l1.98-1.98 1.98 1.98a0.750.75 0 0 0 1.06-1.06l-1.98-1.98 1.98-1.98ZM4.75 1.5a3.25 3.25 0 0 1 0.75 6.41A0.830.83 0 0 1 5.5 8v8a0.830.83 0 0 100.09A3.25 3.25 0 0 1 4.75 22.5a3.25 3.25 0 0 1-0.74-6.41A0.830.83 0 0 1 4 16V8c0-0.030-0.060.01-0.09A3.25 3.25 0 0 1 4.75 1.5ZM16 19.25a3.25 3.25 0 0 1 2.5-3.16V9.63a0.750.75 0 0 1 1.5 0v6.46a3.25 3.25 0 0 1-0.75 6.41A3.25 3.25 0 0 1 16 19.25ZM3 4.75a1.75 1.75 0 1 0 3.50A1.75 1.75 0 0 0 3 4.75Zm0 14.5a1.75 1.75 0 1 0 3.50A1.75 1.75 0 0 0 3 19.25Zm16.25-1.75a1.75 1.75 0 1 0 0 3.5 1.75 1.75 0 0 00-3.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcGitPullRequestClosed24;

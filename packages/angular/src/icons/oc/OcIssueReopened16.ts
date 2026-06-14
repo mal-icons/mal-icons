@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-issue-reopened-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcIssueReopened16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.03 2.22a6.5 6.5 0 0 1 9.44 5.110.750.75 0 1 0 1.49-0.15 8 8 0 0 0-14.31-4.03L0.43 1.93A0.250.25 0 0 0 0 2.1V5.75A0.250.25 0 0 0 0.25 6h3.65a0.250.25 0 0 0 0.18-0.43L2.72 4.22a6.49 6.49 0 0 1 2.31-2ZM1.26 8.17a0.750.75 0 0 0-1.220.66 8 8 0 0 0 14.32 4.03l1.22 1.22a0.250.25 0 0 0 0.43-0.18V10.25a0.250.25 0 0 0-0.25-0.25h-3.65a0.250.25 0 0 0-0.180.43l1.36 1.36a6.5 6.5 0 0 1-11.75-3.110.750.75 0 0 0-0.27-0.51Z"}],["path",{"d":"M9.06 9.06a1.5 1.5 0 1 1-2.12-2.12 1.5 1.5 0 0 1 2.12 2.12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcIssueReopened16;

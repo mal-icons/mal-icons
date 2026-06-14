@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-desktop-download-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcDesktopDownload16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m4.93 5.43 2.9 2.9a0.250.25 0 0 0 0.35 0l2.9-2.9A0.250.25 0 0 0 10.9 5H8.75V0.75a0.750.75 0 1 0-1.5 0V5H5.1a0.250.25 0 0 0-0.180.43Z"}],["path",{"d":"M1.57 2.57a0.250.25 0 0 0-0.070.18v7.5a0.250.25 0 0 0 0.250.25h12.5a0.250.25 0 0 0 0.25-0.25v-7.5a0.250.25 0 0 0-0.25-0.25h-3a0.750.75 0 1 1 0-1.5h3A1.75 1.75 0 0 1 16 2.75v7.5A1.75 1.75 0 0 1 14.25 12h-3.73c0.1 1.040.52 1.87 1.29 2.76A0.750.75 0 0 1 11.25 16h-6.5a0.750.75 0 0 1-0.56-1.24c0.77-0.88 1.19-1.72 1.29-2.76H1.75A1.75 1.75 0 0 1 0 10.25v-7.5A1.75 1.75 0 0 1 1.75 1h3a0.750.75 0 0 1 0 1.5h-3a0.250.25 0 0 0-0.180.07ZM6.98 12a5.72 5.72 0 0 1-0.76 2.5h3.57a5.72 5.72 0 0 1-0.76-2.5H6.98Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcDesktopDownload16;

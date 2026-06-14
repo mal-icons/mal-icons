@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcCheckCircleFill16 = createIcon("0 0 16 16", [["path",{"d":"M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm3.78-9.72a0.750.75 0 0 0-0.02-1.040.750.75 0 0 0-1.04-0.02L6.75 9.19 5.28 7.72a0.750.75 0 0 0-1.040.020.750.75 0 0 0-0.02 1.04l2 2a0.750.75 0 0 0 1.06 0Z"}]]);
+
+export default OcCheckCircleFill16;

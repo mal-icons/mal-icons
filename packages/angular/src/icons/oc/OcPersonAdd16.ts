@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-person-add-16",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcPersonAdd16 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.9 8.55h0a5.53 5.53 0 0 1 3.1 4.660.750.75 0 1 1-1.50.09A4.01 4.01 0 0 0 5.5 9.5a4.01 4.01 0 0 0-4 3.790.750.75 0 1 1-1.5-0.08 5.53 5.53 0 0 1 3.1-4.66 3.5 3.5 0 1 1 4.8 0ZM13.25 0a0.750.75 0 0 1 0.750.75V2h1.25a0.750.75 0 0 1 0 1.5H14v1.25a0.750.75 0 0 1-1.5 0V3.5h-1.25a0.750.75 0 0 1 0-1.5h1.25V0.75a0.750.75 0 0 1 0.75-0.75ZM5.5 4a2 2 0 1 00 4A2 2 0 0 0 5.5 4Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcPersonAdd16;

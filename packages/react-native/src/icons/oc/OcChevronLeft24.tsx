@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const OcChevronLeft24 = createIcon("0 0 24 24", [["path",{"d":"M15.28 5.22a0.750.75 0 0 1 0 1.06L9.56 12l5.72 5.72a0.750.75 0 0 1-0.33 1.270.750.75 0 0 1-0.73-0.21l-6.25-6.25a0.750.75 0 0 1 0-1.06l6.25-6.25a0.750.75 0 0 1 1.06 0Z"}]]);
+
+export default OcChevronLeft24;

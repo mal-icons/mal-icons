@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-oc-file-badge-24",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class OcFileBadge24 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 2.5a0.50.5 0 0 0-0.50.5v18a0.50.5 0 0 0 0.50.5h6a0.750.75 0 0 1 0 1.5H4a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h10.98a2 2 0 0 1 1.410.59l0.060.060.010.010.310.31a0.750.75 0 0 1-1.06 1.06l-0.08-0.0800-0.09-0.09c00 0 0 0 0l-0.21-0.21a0.50.5 0 0 0-0.35-0.15H4Z"}],["path",{"d":"M18 6.25a4.25 4.25 0 1 0 0 8.5 4.25 4.25 0 0 0 0-8.5Zm-5.75 4.25a5.75 5.75 0 1 1 11.5 0 5.75 5.75 0 0 1-11.5 0Z"}],["path",{"d":"m21.28 14.87 1.46 8a0.750.75 0 0 1-10.84l-3.3-1.24a1.25 1.25 0 0 0-0.88 0l-3.3 1.24a0.750.75 0 0 1-1-0.84l1.46-8 1.480.27-1.22 6.7 2.06-0.77a2.75 2.75 0 0 1 1.94 0l2.060.77-1.22-6.7 1.48-0.27Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default OcFileBadge24;

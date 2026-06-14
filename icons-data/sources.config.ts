@@ -100,4 +100,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "src/svg",
     style: "fill",
   },
+  oc: {
+    id: "oc",
+    prefix: "Oc",
+    name: "Octicons",
+    license: "MIT",
+    repo: "primer/octicons",
+    ref: "v19.28.1",
+    iconDir: "icons",
+    style: "fill",
+  },
 };
