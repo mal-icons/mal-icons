@@ -106,6 +106,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 
 ## Subpath exports
@@ -115,7 +116,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/angular`               | Base component and context     |
 | `@mal-icons/angular/ci`            | All Circum icon components     |
 | `@mal-icons/angular/ci/CiHeart`    | A single Circum icon component |
+| `@mal-icons/angular/fa`            | All Font Awesome icon components    |
 | `@mal-icons/angular/fi`            | All Feather icon components    |
+| `@mal-icons/angular/fa/FaHeart` | A single icon component        |
 | `@mal-icons/angular/fi/FiActivity` | A single icon component        |
 | `@mal-icons/angular/io`            | All Ionicons components        |
 | `@mal-icons/angular/io/IoHeart`    | A single Ionicons component    |

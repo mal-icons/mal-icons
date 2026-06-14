@@ -65,6 +65,18 @@ const SET_META = {
     blurb:
       "Large 512×512 set with filled, `-outline` and `-sharp` variants. Filled icons theme via `color`; outline variants carry stroke geometry.",
   },
+  fa: {
+    id: "fa",
+    name: "Font Awesome Free",
+    prefix: "Fa",
+    version: "6.7.2",
+    license: "CC-BY-4.0",
+    repo: "FortAwesome/Font-Awesome",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "Large solid 512×512 set (variable width viewBox). Paths paint with `currentColor`; theme via `color`.",
+  },
 };
 
 /**
