@@ -96,10 +96,21 @@
       "import": "./dist/icons/far/index.js",
       "require": "./dist/icons/far/index.cjs"
     },
+    "./fc": {
+      "types": "./dist/icons/fc/index.d.ts",
+      "bun": "./src/icons/fc/index.ts",
+      "import": "./dist/icons/fc/index.js",
+      "require": "./dist/icons/fc/index.cjs"
+    },
     "./far/*": {
       "types": "./dist/icons/far/*.d.ts",
       "bun": "./src/icons/far/*.tsx",
       "import": "./dist/icons/far/*.js"
+    },
+    "./fc/*": {
+      "types": "./dist/icons/fc/*.d.ts",
+      "bun": "./src/icons/fc/*.tsx",
+      "import": "./dist/icons/fc/*.js"
     },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
@@ -190,6 +201,7 @@
     "./sprite/fa.svg": "./dist/icons/fa/sprite.svg",
     "./sprite/fab.svg": "./dist/icons/fab/sprite.svg",
     "./sprite/far.svg": "./dist/icons/far/sprite.svg",
+    "./sprite/fc.svg": "./dist/icons/fc/sprite.svg",
     "./sprite/fi.svg": "./dist/icons/fi/sprite.svg",
     "./sprite/io.svg": "./dist/icons/io/sprite.svg",
     "./sprite/lu.svg": "./dist/icons/lu/sprite.svg",

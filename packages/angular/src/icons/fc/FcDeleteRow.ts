@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fc-delete-row",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FcDeleteRow {
+  readonly viewBox = "0 0 48 48";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"#90CAF9","d":"M43,30V18c0-2.2-1.8-4-4-4H9c-2.2,0-4,1.8-4,4v12c0,2.2,1.8,4,4,4h30C41.2,34,43,32.2,43,30z M9,18h30v12 L9,30V18z"}],["circle",{"fill":"#F44336","cx":"38","cy":"38","r":"10"}],["rect",{"fill":"#fff","x":"36.5","y":"32","transform":"matrix(-.707 .707 -.707 -.707 91.74 38)","width":"3","height":"12"}],["rect",{"fill":"#fff","x":"36.5","y":"32","transform":"matrix(-.707 -.707 .707 -.707 38 91.74)","width":"3","height":"12"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FcDeleteRow;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fc-display",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FcDisplay {
+  readonly viewBox = "0 0 48 48";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"#80DEEA","d":"M40,41H8c-2.2,0-4-1.8-4-4V11c0-2.2,1.8-4,4-4h32c2.2,0,4,1.8,4,4v26C44,39.2,42.2,41,40,41z"}],["polygon",{"fill":"#2962FF","points":"36,17 31,17 29,15 31,13 36,13 38,15"}],["polygon",{"fill":"#2962FF","points":"36,35 31,35 29,33 31,31 36,31 38,33"}],["polygon",{"fill":"#2962FF","points":"37,30 37,18 39,16 41,18 41,30 39,32"}],["polygon",{"fill":"#2962FF","points":"26,30 26,18 28,16 30,18 30,30 28,32"}],["polygon",{"fill":"#2962FF","points":"17,17 12,17 10,15 12,13 17,13 19,15"}],["polygon",{"fill":"#2962FF","points":"17,35 12,35 10,33 12,31 17,31 19,33"}],["polygon",{"fill":"#2962FF","points":"18,30 18,18 20,16 22,18 22,30 20,32"}],["polygon",{"fill":"#2962FF","points":"7,30 7,18 9,16 11,18 11,30 9,32"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FcDisplay;

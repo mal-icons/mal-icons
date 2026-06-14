@@ -71,7 +71,13 @@
       "bun": "./src/icons/far/index.ts",
       "import": "./dist/icons/far/index.js"
     },
+    "./fc": {
+      "types": "./dist/icons/fc/index.d.ts",
+      "bun": "./src/icons/fc/index.ts",
+      "import": "./dist/icons/fc/index.js"
+    },
     "./far/*.json": "./src/icons/far/*.json",
+    "./fc/*.json": "./src/icons/fc/*.json",
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
       "bun": "./src/icons/fi/index.ts",

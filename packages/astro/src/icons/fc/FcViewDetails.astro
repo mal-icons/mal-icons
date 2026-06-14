@@ -1,0 +1,8 @@
+---
+import type { NodeTuple } from "@mal-icons/core";
+import IconBase from "../../IconBase.astro";
+
+const nodes: NodeTuple[] = [["rect",{"x":"7","y":"4","fill":"#BBDEFB","width":"34","height":"40"}],["rect",{"fill":"#2196F3","x":"13","y":"26","width":"4","height":"4"}],["rect",{"fill":"#2196F3","x":"13","y":"18","width":"4","height":"4"}],["rect",{"fill":"#2196F3","x":"13","y":"34","width":"4","height":"4"}],["rect",{"fill":"#2196F3","x":"13","y":"10","width":"4","height":"4"}],["rect",{"fill":"#2196F3","x":"21","y":"26","width":"14","height":"4"}],["rect",{"fill":"#2196F3","x":"21","y":"18","width":"14","height":"4"}],["rect",{"fill":"#2196F3","x":"21","y":"34","width":"14","height":"4"}],["rect",{"fill":"#2196F3","x":"21","y":"10","width":"14","height":"4"}]];
+---
+
+<IconBase viewBox="0 0 48 48" nodes={nodes} {...Astro.props} />

@@ -92,10 +92,20 @@
       "bun": "./src/icons/far/index.ts",
       "import": "./src/icons/far/index.ts"
     },
+    "./fc": {
+      "solid": "./src/icons/fc/index.ts",
+      "bun": "./src/icons/fc/index.ts",
+      "import": "./src/icons/fc/index.ts"
+    },
     "./far/*": {
       "solid": "./src/icons/far/*.ts",
       "bun": "./src/icons/far/*.ts",
       "import": "./src/icons/far/*.ts"
+    },
+    "./fc/*": {
+      "solid": "./src/icons/fc/*.ts",
+      "bun": "./src/icons/fc/*.ts",
+      "import": "./src/icons/fc/*.ts"
     },
     "./fi": {
       "solid": "./src/icons/fi/index.ts",

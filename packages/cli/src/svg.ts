@@ -9,16 +9,30 @@ export interface ParsedSvg {
   nodes: IconNode[];
 }
 
-const SHAPE_TAGS = new Set([
-  "path",
-  "circle",
-  "rect",
-  "line",
-  "polyline",
-  "polygon",
-  "ellipse",
-  "g",
-]);
+/** Leaf shape elements emitted as flat nodes. */
+const SHAPE_TAGS = new Set(["path", "circle", "rect", "line", "polyline", "polygon", "ellipse"]);
+
+/**
+ * Group attributes that must NOT cascade onto child shapes when a `<g>`
+ * wrapper is flattened. Structural keys (`id`, `class`, namespaces) are
+ * per-element, not inheritable presentation; everything else (e.g. `fill`
+ * on a `<g fill="#fff">` grouping white details) is pushed down so the flat
+ * node carries the color it visually rendered with inside the group.
+ */
+const NON_INHERITED_ATTRS = new Set(["id", "class", "xmlns"]);
+
+/** Merge a `<g>`'s inheritable attributes onto a child's own attributes (child wins). */
+function inheritAttrs(
+  parent: Record<string, string>,
+  child: Record<string, string>,
+): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const [k, v] of Object.entries(parent)) {
+    if (NON_INHERITED_ATTRS.has(k) || k.startsWith("xmlns:") || k.startsWith("xml:")) continue;
+    out[k] = v;
+  }
+  return { ...out, ...child };
+}
 
 /** Parse the attributes out of a single opening tag body (without `< >`). */
 function parseAttrs(tagBody: string): Record<string, string> {
@@ -36,11 +50,18 @@ function parseAttrs(tagBody: string): Record<string, string> {
 
 /**
  * Minimal, dependency-free SVG parser covering the subset emitted by the
- * supported icon sets (a single `<svg>` root with flat shape children).
+ * supported icon sets (a single `<svg>` root with shape children, optionally
+ * wrapped in presentational `<g>` groups).
  *
- * It deliberately ignores scripts, styles, and nested groups beyond one
- * level, which is sufficient for line/fill icon sets and avoids pulling in
- * a full XML/DOM dependency.
+ * Nested `<g>` wrappers are *flattened*: a group's inheritable presentation
+ * attributes (e.g. `fill`) cascade onto its descendant shapes, and the group
+ * element itself is dropped. This keeps the runtime model a flat list of
+ * shapes while preserving the per-shape colors of multi-color sets (e.g. Flat
+ * Color Icons, which group same-colored details under `<g fill="…">`).
+ *
+ * It deliberately ignores scripts, styles, defs, and gradients, which is
+ * sufficient for line/fill/color icon sets and avoids pulling in a full
+ * XML/DOM dependency.
  */
 export function parseSvg(svg: string): ParsedSvg {
   const svgOpenMatch = svg.match(/<svg\b([^>]*)>/i);
@@ -61,14 +82,30 @@ export function parseSvg(svg: string): ParsedSvg {
   );
 
   const nodes: IconNode[] = [];
-  const tagRe = /<([a-zA-Z][a-zA-Z0-9]*)\b([^>]*?)\/?>/g;
+  // Stack of inherited attributes contributed by currently-open `<g>` groups.
+  const groupStack: Record<string, string>[] = [];
+  // Match an opening/self-closing tag or a closing tag, in document order.
+  const tagRe = /<(\/)?([a-zA-Z][a-zA-Z0-9]*)\b([^>]*?)(\/)?>/g;
   let t: RegExpExecArray | null;
   // biome-ignore lint/suspicious/noAssignInExpressions: standard regex loop
   while ((t = tagRe.exec(inner)) !== null) {
-    const tag = (t[1] ?? "").toLowerCase();
-    if (!SHAPE_TAGS.has(tag)) continue;
-    if (t[2] === undefined) continue;
-    nodes.push({ tag, attr: parseAttrs(t[2]), child: [] });
+    const isClosing = t[1] === "/";
+    const tag = (t[2] ?? "").toLowerCase();
+    const selfClosed = t[4] === "/";
+
+    if (tag === "g") {
+      if (isClosing) {
+        groupStack.pop();
+      } else if (!selfClosed) {
+        const parent = groupStack[groupStack.length - 1] ?? {};
+        groupStack.push(inheritAttrs(parent, parseAttrs(t[3] ?? "")));
+      }
+      continue;
+    }
+
+    if (isClosing || !SHAPE_TAGS.has(tag) || t[3] === undefined) continue;
+    const inherited = groupStack[groupStack.length - 1] ?? {};
+    nodes.push({ tag, attr: inheritAttrs(inherited, parseAttrs(t[3])), child: [] });
   }
 
   return { viewBox, rootAttr, nodes };

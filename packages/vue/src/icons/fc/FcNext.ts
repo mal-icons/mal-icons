@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const FcNext = createIcon("0 0 48 48", [["polygon",{"fill":"#2196F3","points":"17.1,5 14,8.1 29.9,24 14,39.9 17.1,43 36,24"}]]);
+
+export default FcNext;

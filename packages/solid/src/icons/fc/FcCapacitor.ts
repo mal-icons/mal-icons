@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const FcCapacitor = createIcon("0 0 48 48", [["rect",{"fill":"#FF9800","y":"27","width":"25","height":"4"}],["rect",{"fill":"#FF9800","y":"17","width":"25","height":"4"}],["path",{"fill":"#3F51B5","d":"M46,35c1.1,0,2-0.9,2-2V15c0-1.1-0.9-2-2-2H27v22H46z"}],["path",{"fill":"#3F51B5","d":"M21,13c-1.1,0-2,0.9-2,2v18c0,1.1,0.9,2,2,2h2V13H21z"}],["path",{"fill":"#303F9F","d":"M25,33c1.1,0,2,0.9,2,2V13c0,1.1-0.9,2-2,2c-1.1,0-2-0.9-2-2v22C23,33.9,23.9,33,25,33z"}]]);
+
+export default FcCapacitor;

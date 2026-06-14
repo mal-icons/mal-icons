@@ -90,10 +90,20 @@
       "bun": "./src/icons/far/index.ts",
       "import": "./src/icons/far/index.ts"
     },
+    "./fc": {
+      "svelte": "./src/icons/fc/index.ts",
+      "bun": "./src/icons/fc/index.ts",
+      "import": "./src/icons/fc/index.ts"
+    },
     "./far/*": {
       "svelte": "./src/icons/far/*.svelte",
       "bun": "./src/icons/far/*.svelte",
       "import": "./src/icons/far/*.svelte"
+    },
+    "./fc/*": {
+      "svelte": "./src/icons/fc/*.svelte",
+      "bun": "./src/icons/fc/*.svelte",
+      "import": "./src/icons/fc/*.svelte"
     },
     "./fi": {
       "svelte": "./src/icons/fi/index.ts",
