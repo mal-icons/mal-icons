@@ -71,6 +71,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 
 ## Subpath exports
@@ -81,6 +82,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/astro/fa/FaHeart.astro` | A single icon component        |
 | `@mal-icons/astro/fi/FiActivity.astro` | A single icon component        |
 | `@mal-icons/astro/io/IoHeart.astro`    | A single Ionicons component    |
+| `@mal-icons/astro/oc/OcHeart16.astro`    | A single Octicons component    |
 | `@mal-icons/astro/ti/TiHeart.astro`    | A single Typicons component    |
 | `@mal-icons/astro/IconBase.astro`      | The shared base component      |
 

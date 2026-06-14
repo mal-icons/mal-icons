@@ -98,6 +98,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 
 ## Subpath exports
@@ -116,7 +117,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/svelte/far/FarHeart.svelte` | A single icon component           |
 | `@mal-icons/svelte/fi/FiActivity.svelte` | A single icon component           |
 | `@mal-icons/svelte/io`                   | All Ionicons (named exports)      |
+| `@mal-icons/svelte/oc`                   | All Octicons (named exports)      |
 | `@mal-icons/svelte/io/IoHeart.svelte`    | A single Ionicons icon component  |
+| `@mal-icons/svelte/oc/OcHeart16.svelte`    | A single Octicons icon component  |
 | `@mal-icons/svelte/ti`                   | All Typicons (named exports)      |
 | `@mal-icons/svelte/ti/TiHeart.svelte`    | A single Typicons icon component  |
 

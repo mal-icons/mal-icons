@@ -113,6 +113,18 @@ const SET_META = {
     blurb:
       "Compact, rounded 24×24 fill icons with many `-outline` variants. Paths paint with `currentColor`; theme via `color`.",
   },
+  oc: {
+    id: "oc",
+    name: "Octicons",
+    prefix: "Oc",
+    version: "19.28.1",
+    license: "MIT",
+    repo: "primer/octicons",
+    style: "fill",
+    viewBox: "0 0 16 16",
+    blurb:
+      "GitHub's UI icons, shipped in size variants (component names keep the size suffix, e.g. `OcAlert16`/`OcAlert24`). Paths paint with `currentColor`; theme via `color`.",
+  },
 };
 
 /**
