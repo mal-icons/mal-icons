@@ -193,7 +193,10 @@ export async function generateSet(
   const slice = typeof limit === "number" ? raw.slice(0, limit) : raw;
 
   const icons: GeneratedIcon[] = slice.map((item) => {
-    const optimized = optimize(parseSvg(item.svg), source);
+    const optimized = optimize(
+      parseSvg(item.svg, { flattenGroups: source.style === "color" }),
+      source,
+    );
     const name =
       source.stripPrefix &&
       item.name.startsWith(source.stripPrefix) &&
