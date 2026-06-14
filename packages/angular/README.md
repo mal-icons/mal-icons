@@ -110,6 +110,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 
 ## Subpath exports
 
@@ -128,6 +129,8 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/angular/fi/FiActivity` | A single icon component        |
 | `@mal-icons/angular/io`            | All Ionicons components        |
 | `@mal-icons/angular/io/IoHeart`    | A single Ionicons component    |
+| `@mal-icons/angular/ti`            | All Typicons components        |
+| `@mal-icons/angular/ti/TiHeart`    | A single Typicons component    |
 
 ## Example
 

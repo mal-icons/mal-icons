@@ -1,0 +1,3067 @@
+{
+  "set": {
+    "id": "ti",
+    "name": "Typicons",
+    "prefix": "Ti",
+    "version": "2.1.2",
+    "license": "CC-BY-SA-4.0",
+    "repo": "stephenhutchings/typicons.font",
+    "style": "fill",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 336,
+  "icons": [
+    {
+      "name": "TiAdjustBrightness",
+      "tags": [
+        "adjust",
+        "brightness",
+        "fill"
+      ],
+      "description": "Adjust Brightness icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiAdjustContrast",
+      "tags": [
+        "adjust",
+        "contrast",
+        "fill"
+      ],
+      "description": "Adjust Contrast icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiAnchor",
+      "tags": [
+        "anchor",
+        "fill"
+      ],
+      "description": "Anchor icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiAnchorOutline",
+      "tags": [
+        "anchor",
+        "fill",
+        "outline"
+      ],
+      "description": "Anchor Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiArchive",
+      "tags": [
+        "archive",
+        "fill"
+      ],
+      "description": "Archive icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiArrowBack",
+      "tags": [
+        "arrow",
+        "back",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowBackOutline",
+      "tags": [
+        "arrow",
+        "back",
+        "fill",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowDownOutline",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowDownThick",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "thick"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowForward",
+      "tags": [
+        "arrow",
+        "fill",
+        "forward"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowForwardOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "forward",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowLeftOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowLeftThick",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "thick"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowLoop",
+      "tags": [
+        "arrow",
+        "fill",
+        "loop"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowLoopOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "loop",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowMaximise",
+      "tags": [
+        "arrow",
+        "fill",
+        "maximise"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowMaximiseOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "maximise",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowMinimise",
+      "tags": [
+        "arrow",
+        "fill",
+        "minimise"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowMinimiseOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "minimise",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowMove",
+      "tags": [
+        "arrow",
+        "fill",
+        "move"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowMoveOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "move",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowRepeat",
+      "tags": [
+        "arrow",
+        "fill",
+        "repeat"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowRepeatOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "outline",
+        "repeat"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowRightOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "outline",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowRightThick",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "thick"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowShuffle",
+      "tags": [
+        "arrow",
+        "fill",
+        "shuffle"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowSortedDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "sorted"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowSortedUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "sorted",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowSync",
+      "tags": [
+        "arrow",
+        "fill",
+        "sync"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowSyncOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "outline",
+        "sync"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowUnsorted",
+      "tags": [
+        "arrow",
+        "fill",
+        "unsorted"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiArrowUpOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "outline",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiArrowUpThick",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "thick",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiAt",
+      "tags": [
+        "at",
+        "fill"
+      ],
+      "description": "At icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiAttachment",
+      "tags": [
+        "attachment",
+        "fill"
+      ],
+      "description": "Attachment icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiAttachmentOutline",
+      "tags": [
+        "attachment",
+        "fill",
+        "outline"
+      ],
+      "description": "Attachment Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiBackspace",
+      "tags": [
+        "backspace",
+        "fill"
+      ],
+      "description": "Backspace icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiBackspaceOutline",
+      "tags": [
+        "backspace",
+        "fill",
+        "outline"
+      ],
+      "description": "Backspace Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiBatteryCharge",
+      "tags": [
+        "battery",
+        "charge",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "TiBatteryFull",
+      "tags": [
+        "battery",
+        "fill",
+        "full"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "TiBatteryHigh",
+      "tags": [
+        "battery",
+        "fill",
+        "high"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "TiBatteryLow",
+      "tags": [
+        "battery",
+        "fill",
+        "low"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "TiBatteryMid",
+      "tags": [
+        "battery",
+        "fill",
+        "mid"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "TiBeaker",
+      "tags": [
+        "beaker",
+        "fill"
+      ],
+      "description": "Beaker icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiBeer",
+      "tags": [
+        "beer",
+        "fill"
+      ],
+      "description": "Beer icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "TiBook",
+      "tags": [
+        "book",
+        "fill"
+      ],
+      "description": "Book icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "TiBriefcase",
+      "tags": [
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiBrush",
+      "tags": [
+        "brush",
+        "fill"
+      ],
+      "description": "Brush icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiBusinessCard",
+      "tags": [
+        "business",
+        "card",
+        "fill"
+      ],
+      "description": "Business Card icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCalculator",
+      "tags": [
+        "calculator",
+        "fill"
+      ],
+      "description": "Calculator icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "TiCalendarOutline",
+      "tags": [
+        "calendar",
+        "fill",
+        "outline"
+      ],
+      "description": "Calendar — dates, scheduling and events. Outline variant."
+    },
+    {
+      "name": "TiCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "TiCameraOutline",
+      "tags": [
+        "camera",
+        "fill",
+        "outline",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads. Outline variant."
+    },
+    {
+      "name": "TiCancel",
+      "tags": [
+        "cancel",
+        "fill"
+      ],
+      "description": "Cancel icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCancelOutline",
+      "tags": [
+        "cancel",
+        "fill",
+        "outline"
+      ],
+      "description": "Cancel Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiChartArea",
+      "tags": [
+        "area",
+        "chart",
+        "fill"
+      ],
+      "description": "Chart Area icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiChartAreaOutline",
+      "tags": [
+        "area",
+        "chart",
+        "fill",
+        "outline"
+      ],
+      "description": "Chart Area Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiChartBar",
+      "tags": [
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Chart Bar icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiChartBarOutline",
+      "tags": [
+        "bar",
+        "chart",
+        "fill",
+        "outline"
+      ],
+      "description": "Chart Bar Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiChartLine",
+      "tags": [
+        "chart",
+        "fill",
+        "line"
+      ],
+      "description": "Chart Line icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiChartLineOutline",
+      "tags": [
+        "chart",
+        "fill",
+        "line",
+        "outline"
+      ],
+      "description": "Chart Line Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiChartPie",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Chart Pie icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiChartPieOutline",
+      "tags": [
+        "chart",
+        "fill",
+        "outline",
+        "pie"
+      ],
+      "description": "Chart Pie Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiChevronLeft",
+      "tags": [
+        "chevron",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "TiChevronLeftOutline",
+      "tags": [
+        "chevron",
+        "fill",
+        "left",
+        "outline"
+      ],
+      "description": "Chevron — expand/collapse and step navigation. Outline variant."
+    },
+    {
+      "name": "TiChevronRight",
+      "tags": [
+        "chevron",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "TiChevronRightOutline",
+      "tags": [
+        "chevron",
+        "fill",
+        "outline",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation. Outline variant."
+    },
+    {
+      "name": "TiClipboard",
+      "tags": [
+        "clipboard",
+        "fill"
+      ],
+      "description": "Clipboard icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCloudStorage",
+      "tags": [
+        "cloud",
+        "fill",
+        "storage"
+      ],
+      "description": "Cloud Storage icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCloudStorageOutline",
+      "tags": [
+        "cloud",
+        "fill",
+        "outline",
+        "storage"
+      ],
+      "description": "Cloud Storage Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiCode",
+      "tags": [
+        "code",
+        "fill"
+      ],
+      "description": "Code icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCodeOutline",
+      "tags": [
+        "code",
+        "fill",
+        "outline"
+      ],
+      "description": "Code Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiCoffee",
+      "tags": [
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCog",
+      "tags": [
+        "cog",
+        "fill"
+      ],
+      "description": "Cog icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCogOutline",
+      "tags": [
+        "cog",
+        "fill",
+        "outline"
+      ],
+      "description": "Cog Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiCompass",
+      "tags": [
+        "compass",
+        "fill"
+      ],
+      "description": "Compass icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiContacts",
+      "tags": [
+        "contacts",
+        "fill"
+      ],
+      "description": "Contacts icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "TiCss3",
+      "tags": [
+        "css3",
+        "fill"
+      ],
+      "description": "Css 3 icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDatabase",
+      "tags": [
+        "database",
+        "fill"
+      ],
+      "description": "Database icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDelete",
+      "tags": [
+        "delete",
+        "fill"
+      ],
+      "description": "Delete icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDeleteOutline",
+      "tags": [
+        "delete",
+        "fill",
+        "outline"
+      ],
+      "description": "Delete Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiDeviceDesktop",
+      "tags": [
+        "desktop",
+        "device",
+        "fill"
+      ],
+      "description": "Device Desktop icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDeviceLaptop",
+      "tags": [
+        "device",
+        "fill",
+        "laptop"
+      ],
+      "description": "Device Laptop icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDevicePhone",
+      "tags": [
+        "device",
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "TiDeviceTablet",
+      "tags": [
+        "device",
+        "fill",
+        "tablet"
+      ],
+      "description": "Device Tablet icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDirections",
+      "tags": [
+        "directions",
+        "fill"
+      ],
+      "description": "Directions icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDivide",
+      "tags": [
+        "divide",
+        "fill"
+      ],
+      "description": "Divide icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDivideOutline",
+      "tags": [
+        "divide",
+        "fill",
+        "outline"
+      ],
+      "description": "Divide Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiDocument",
+      "tags": [
+        "document",
+        "fill"
+      ],
+      "description": "Document icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDocumentAdd",
+      "tags": [
+        "add",
+        "document",
+        "fill"
+      ],
+      "description": "Document Add icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDocumentDelete",
+      "tags": [
+        "delete",
+        "document",
+        "fill"
+      ],
+      "description": "Document Delete icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDocumentText",
+      "tags": [
+        "document",
+        "fill",
+        "text"
+      ],
+      "description": "Document Text icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "TiDownloadOutline",
+      "tags": [
+        "download",
+        "fill",
+        "outline",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions. Outline variant."
+    },
+    {
+      "name": "TiDropbox",
+      "tags": [
+        "dropbox",
+        "fill"
+      ],
+      "description": "Dropbox icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiEdit",
+      "tags": [
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "TiEject",
+      "tags": [
+        "eject",
+        "fill"
+      ],
+      "description": "Eject icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiEjectOutline",
+      "tags": [
+        "eject",
+        "fill",
+        "outline"
+      ],
+      "description": "Eject Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiEquals",
+      "tags": [
+        "equals",
+        "fill"
+      ],
+      "description": "Equals icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiEqualsOutline",
+      "tags": [
+        "equals",
+        "fill",
+        "outline"
+      ],
+      "description": "Equals Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiExport",
+      "tags": [
+        "export",
+        "fill"
+      ],
+      "description": "Export icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiExportOutline",
+      "tags": [
+        "export",
+        "fill",
+        "outline"
+      ],
+      "description": "Export Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiEye",
+      "tags": [
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "TiEyeOutline",
+      "tags": [
+        "eye",
+        "fill",
+        "hide",
+        "outline"
+      ],
+      "description": "Eye — show, view and visibility toggles. Outline variant."
+    },
+    {
+      "name": "TiFeather",
+      "tags": [
+        "feather",
+        "fill"
+      ],
+      "description": "Feather icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFilm",
+      "tags": [
+        "fill",
+        "film"
+      ],
+      "description": "Film icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFilter",
+      "tags": [
+        "fill",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "TiFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFlagOutline",
+      "tags": [
+        "fill",
+        "flag",
+        "outline"
+      ],
+      "description": "Flag Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiFlash",
+      "tags": [
+        "fill",
+        "flash"
+      ],
+      "description": "Flash icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFlashOutline",
+      "tags": [
+        "fill",
+        "flash",
+        "outline"
+      ],
+      "description": "Flash Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiFlowChildren",
+      "tags": [
+        "children",
+        "fill",
+        "flow"
+      ],
+      "description": "Flow Children icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFlowMerge",
+      "tags": [
+        "fill",
+        "flow",
+        "merge"
+      ],
+      "description": "Flow Merge icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFlowParallel",
+      "tags": [
+        "fill",
+        "flow",
+        "parallel"
+      ],
+      "description": "Flow Parallel icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFlowSwitch",
+      "tags": [
+        "fill",
+        "flow",
+        "switch"
+      ],
+      "description": "Flow Switch icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "TiFolderAdd",
+      "tags": [
+        "add",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "TiFolderDelete",
+      "tags": [
+        "delete",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "TiFolderOpen",
+      "tags": [
+        "fill",
+        "folder",
+        "open"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "TiGift",
+      "tags": [
+        "fill",
+        "gift"
+      ],
+      "description": "Gift icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiGlobe",
+      "tags": [
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "TiGlobeOutline",
+      "tags": [
+        "fill",
+        "globe",
+        "outline"
+      ],
+      "description": "Globe — language, web and worldwide reach. Outline variant."
+    },
+    {
+      "name": "TiGroup",
+      "tags": [
+        "fill",
+        "group"
+      ],
+      "description": "Group icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiGroupOutline",
+      "tags": [
+        "fill",
+        "group",
+        "outline"
+      ],
+      "description": "Group Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiHeadphones",
+      "tags": [
+        "fill",
+        "headphones"
+      ],
+      "description": "Headphones icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "TiHeartFullOutline",
+      "tags": [
+        "fill",
+        "full",
+        "heart",
+        "like",
+        "love",
+        "outline"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions. Outline variant."
+    },
+    {
+      "name": "TiHeartHalfOutline",
+      "tags": [
+        "fill",
+        "half",
+        "heart",
+        "like",
+        "love",
+        "outline"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions. Outline variant."
+    },
+    {
+      "name": "TiHeartOutline",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love",
+        "outline"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions. Outline variant."
+    },
+    {
+      "name": "TiHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "TiHomeOutline",
+      "tags": [
+        "fill",
+        "home",
+        "house",
+        "outline"
+      ],
+      "description": "House — home links, dashboards and primary navigation. Outline variant."
+    },
+    {
+      "name": "TiHtml5",
+      "tags": [
+        "fill",
+        "html5"
+      ],
+      "description": "Html 5 icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiImage",
+      "tags": [
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "TiImageOutline",
+      "tags": [
+        "fill",
+        "image",
+        "outline",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media. Outline variant."
+    },
+    {
+      "name": "TiInfinity",
+      "tags": [
+        "fill",
+        "infinity"
+      ],
+      "description": "Infinity icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiInfinityOutline",
+      "tags": [
+        "fill",
+        "infinity",
+        "outline"
+      ],
+      "description": "Infinity Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiInfo",
+      "tags": [
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "TiInfoLarge",
+      "tags": [
+        "fill",
+        "info",
+        "large"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "TiInfoLargeOutline",
+      "tags": [
+        "fill",
+        "info",
+        "large",
+        "outline"
+      ],
+      "description": "Information — details, help and tooltips. Outline variant."
+    },
+    {
+      "name": "TiInfoOutline",
+      "tags": [
+        "fill",
+        "info",
+        "outline"
+      ],
+      "description": "Information — details, help and tooltips. Outline variant."
+    },
+    {
+      "name": "TiInputChecked",
+      "tags": [
+        "checked",
+        "fill",
+        "input"
+      ],
+      "description": "Input Checked icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiInputCheckedOutline",
+      "tags": [
+        "checked",
+        "fill",
+        "input",
+        "outline"
+      ],
+      "description": "Input Checked Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiKeyboard",
+      "tags": [
+        "fill",
+        "keyboard"
+      ],
+      "description": "Keyboard icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiKeyOutline",
+      "tags": [
+        "fill",
+        "key",
+        "outline"
+      ],
+      "description": "Key Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiLeaf",
+      "tags": [
+        "fill",
+        "leaf"
+      ],
+      "description": "Leaf icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiLightbulb",
+      "tags": [
+        "fill",
+        "lightbulb"
+      ],
+      "description": "Lightbulb icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "TiLinkOutline",
+      "tags": [
+        "fill",
+        "link",
+        "outline"
+      ],
+      "description": "Chain link — hyperlinks and connected items. Outline variant."
+    },
+    {
+      "name": "TiLocation",
+      "tags": [
+        "fill",
+        "location"
+      ],
+      "description": "Location icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiLocationArrow",
+      "tags": [
+        "arrow",
+        "fill",
+        "location"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TiLocationArrowOutline",
+      "tags": [
+        "arrow",
+        "fill",
+        "location",
+        "outline"
+      ],
+      "description": "Directional arrow — navigation and movement. Outline variant."
+    },
+    {
+      "name": "TiLocationOutline",
+      "tags": [
+        "fill",
+        "location",
+        "outline"
+      ],
+      "description": "Location Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiLockClosed",
+      "tags": [
+        "closed",
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "TiLockClosedOutline",
+      "tags": [
+        "closed",
+        "fill",
+        "lock",
+        "outline"
+      ],
+      "description": "Closed padlock — security, privacy and protected content. Outline variant."
+    },
+    {
+      "name": "TiLockOpen",
+      "tags": [
+        "fill",
+        "lock",
+        "open"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "TiLockOpenOutline",
+      "tags": [
+        "fill",
+        "lock",
+        "open",
+        "outline"
+      ],
+      "description": "Closed padlock — security, privacy and protected content. Outline variant."
+    },
+    {
+      "name": "TiMail",
+      "tags": [
+        "fill",
+        "mail"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "TiMap",
+      "tags": [
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "TiMediaEject",
+      "tags": [
+        "eject",
+        "fill",
+        "media"
+      ],
+      "description": "Media Eject icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMediaEjectOutline",
+      "tags": [
+        "eject",
+        "fill",
+        "media",
+        "outline"
+      ],
+      "description": "Media Eject Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiMediaFastForward",
+      "tags": [
+        "fast",
+        "fill",
+        "forward",
+        "media"
+      ],
+      "description": "Media Fast Forward icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMediaFastForwardOutline",
+      "tags": [
+        "fast",
+        "fill",
+        "forward",
+        "media",
+        "outline"
+      ],
+      "description": "Media Fast Forward Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiMediaPause",
+      "tags": [
+        "fill",
+        "media",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "TiMediaPauseOutline",
+      "tags": [
+        "fill",
+        "media",
+        "outline",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback. Outline variant."
+    },
+    {
+      "name": "TiMediaPlay",
+      "tags": [
+        "fill",
+        "media",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "TiMediaPlayOutline",
+      "tags": [
+        "fill",
+        "media",
+        "outline",
+        "play"
+      ],
+      "description": "Play triangle — start playback. Outline variant."
+    },
+    {
+      "name": "TiMediaPlayReverse",
+      "tags": [
+        "fill",
+        "media",
+        "play",
+        "reverse"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "TiMediaPlayReverseOutline",
+      "tags": [
+        "fill",
+        "media",
+        "outline",
+        "play",
+        "reverse"
+      ],
+      "description": "Play triangle — start playback. Outline variant."
+    },
+    {
+      "name": "TiMediaRecord",
+      "tags": [
+        "fill",
+        "media",
+        "record"
+      ],
+      "description": "Media Record icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMediaRecordOutline",
+      "tags": [
+        "fill",
+        "media",
+        "outline",
+        "record"
+      ],
+      "description": "Media Record Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiMediaRewind",
+      "tags": [
+        "fill",
+        "media",
+        "rewind"
+      ],
+      "description": "Media Rewind icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMediaRewindOutline",
+      "tags": [
+        "fill",
+        "media",
+        "outline",
+        "rewind"
+      ],
+      "description": "Media Rewind Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiMediaStop",
+      "tags": [
+        "fill",
+        "media",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "TiMediaStopOutline",
+      "tags": [
+        "fill",
+        "media",
+        "outline",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes. Outline variant."
+    },
+    {
+      "name": "TiMessage",
+      "tags": [
+        "fill",
+        "message"
+      ],
+      "description": "Message icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMessages",
+      "tags": [
+        "fill",
+        "messages"
+      ],
+      "description": "Messages icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMessageTyping",
+      "tags": [
+        "fill",
+        "message",
+        "typing"
+      ],
+      "description": "Message Typing icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMicrophone",
+      "tags": [
+        "fill",
+        "microphone"
+      ],
+      "description": "Microphone icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiMicrophoneOutline",
+      "tags": [
+        "fill",
+        "microphone",
+        "outline"
+      ],
+      "description": "Microphone Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "TiMinusOutline",
+      "tags": [
+        "fill",
+        "minus",
+        "outline",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions. Outline variant."
+    },
+    {
+      "name": "TiMortarBoard",
+      "tags": [
+        "board",
+        "fill",
+        "mortar"
+      ],
+      "description": "Mortar Board icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiNews",
+      "tags": [
+        "fill",
+        "news"
+      ],
+      "description": "News icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiNotes",
+      "tags": [
+        "fill",
+        "notes"
+      ],
+      "description": "Notes icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiNotesOutline",
+      "tags": [
+        "fill",
+        "notes",
+        "outline"
+      ],
+      "description": "Notes Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiPen",
+      "tags": [
+        "edit",
+        "fill",
+        "pen"
+      ],
+      "description": "Pen icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPencil",
+      "tags": [
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPhone",
+      "tags": [
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "TiPhoneOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions. Outline variant."
+    },
+    {
+      "name": "TiPi",
+      "tags": [
+        "fill",
+        "pi"
+      ],
+      "description": "Pi icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPin",
+      "tags": [
+        "fill",
+        "pin"
+      ],
+      "description": "Pin icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPinOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "pin"
+      ],
+      "description": "Pin Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiPiOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "pi"
+      ],
+      "description": "Pi Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiPipette",
+      "tags": [
+        "fill",
+        "pipette"
+      ],
+      "description": "Pipette icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPlane",
+      "tags": [
+        "fill",
+        "plane"
+      ],
+      "description": "Plane icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPlaneOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "plane"
+      ],
+      "description": "Plane Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiPlug",
+      "tags": [
+        "fill",
+        "plug"
+      ],
+      "description": "Plug icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "TiPlusOutline",
+      "tags": [
+        "add",
+        "fill",
+        "outline",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions. Outline variant."
+    },
+    {
+      "name": "TiPointOfInterest",
+      "tags": [
+        "fill",
+        "interest",
+        "of",
+        "point"
+      ],
+      "description": "Point Of Interest icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPointOfInterestOutline",
+      "tags": [
+        "fill",
+        "interest",
+        "of",
+        "outline",
+        "point"
+      ],
+      "description": "Point Of Interest Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiPower",
+      "tags": [
+        "fill",
+        "power"
+      ],
+      "description": "Power icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPowerOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "power"
+      ],
+      "description": "Power Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiPrinter",
+      "tags": [
+        "fill",
+        "printer"
+      ],
+      "description": "Printer icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPuzzle",
+      "tags": [
+        "fill",
+        "puzzle"
+      ],
+      "description": "Puzzle icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiPuzzleOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "puzzle"
+      ],
+      "description": "Puzzle Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiRadar",
+      "tags": [
+        "fill",
+        "radar"
+      ],
+      "description": "Radar icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiRadarOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "radar"
+      ],
+      "description": "Radar Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiRefresh",
+      "tags": [
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "TiRefreshOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync. Outline variant."
+    },
+    {
+      "name": "TiRss",
+      "tags": [
+        "fill",
+        "rss"
+      ],
+      "description": "Rss icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiRssOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "rss"
+      ],
+      "description": "Rss Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiScissors",
+      "tags": [
+        "fill",
+        "scissors"
+      ],
+      "description": "Scissors icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiScissorsOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "scissors"
+      ],
+      "description": "Scissors Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiShoppingBag",
+      "tags": [
+        "bag",
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping Bag icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiShoppingCart",
+      "tags": [
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping cart — carts, checkout and e-commerce."
+    },
+    {
+      "name": "TiSocialAtCircular",
+      "tags": [
+        "at",
+        "circular",
+        "fill",
+        "social"
+      ],
+      "description": "Social At Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialDribbble",
+      "tags": [
+        "dribbble",
+        "fill",
+        "social"
+      ],
+      "description": "Social Dribbble icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialDribbbleCircular",
+      "tags": [
+        "circular",
+        "dribbble",
+        "fill",
+        "social"
+      ],
+      "description": "Social Dribbble Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialFacebook",
+      "tags": [
+        "facebook",
+        "fill",
+        "social"
+      ],
+      "description": "Social Facebook icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialFacebookCircular",
+      "tags": [
+        "circular",
+        "facebook",
+        "fill",
+        "social"
+      ],
+      "description": "Social Facebook Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialFlickr",
+      "tags": [
+        "fill",
+        "flickr",
+        "social"
+      ],
+      "description": "Social Flickr icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialFlickrCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "flickr",
+        "social"
+      ],
+      "description": "Social Flickr Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialGithub",
+      "tags": [
+        "fill",
+        "github",
+        "social"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "TiSocialGithubCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "github",
+        "social"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "TiSocialGooglePlus",
+      "tags": [
+        "add",
+        "fill",
+        "google",
+        "plus",
+        "social"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "TiSocialGooglePlusCircular",
+      "tags": [
+        "add",
+        "circular",
+        "fill",
+        "google",
+        "plus",
+        "social"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "TiSocialInstagram",
+      "tags": [
+        "fill",
+        "instagram",
+        "social"
+      ],
+      "description": "Social Instagram icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialInstagramCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "instagram",
+        "social"
+      ],
+      "description": "Social Instagram Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialLastFm",
+      "tags": [
+        "fill",
+        "fm",
+        "last",
+        "social"
+      ],
+      "description": "Social Last Fm icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialLastFmCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "fm",
+        "last",
+        "social"
+      ],
+      "description": "Social Last Fm Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialLinkedin",
+      "tags": [
+        "fill",
+        "linkedin",
+        "social"
+      ],
+      "description": "Social Linkedin icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialLinkedinCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "linkedin",
+        "social"
+      ],
+      "description": "Social Linkedin Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialPinterest",
+      "tags": [
+        "fill",
+        "pinterest",
+        "social"
+      ],
+      "description": "Social Pinterest icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialPinterestCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "pinterest",
+        "social"
+      ],
+      "description": "Social Pinterest Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialSkype",
+      "tags": [
+        "fill",
+        "skype",
+        "social"
+      ],
+      "description": "Social Skype icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialSkypeOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "skype",
+        "social"
+      ],
+      "description": "Social Skype Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiSocialTumbler",
+      "tags": [
+        "fill",
+        "social",
+        "tumbler"
+      ],
+      "description": "Social Tumbler icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialTumblerCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "social",
+        "tumbler"
+      ],
+      "description": "Social Tumbler Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialTwitter",
+      "tags": [
+        "fill",
+        "social",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "TiSocialTwitterCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "social",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "TiSocialVimeo",
+      "tags": [
+        "fill",
+        "social",
+        "vimeo"
+      ],
+      "description": "Social Vimeo icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialVimeoCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "social",
+        "vimeo"
+      ],
+      "description": "Social Vimeo Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialYoutube",
+      "tags": [
+        "fill",
+        "social",
+        "youtube"
+      ],
+      "description": "Social Youtube icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSocialYoutubeCircular",
+      "tags": [
+        "circular",
+        "fill",
+        "social",
+        "youtube"
+      ],
+      "description": "Social Youtube Circular icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSortAlphabetically",
+      "tags": [
+        "alphabetically",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Alphabetically icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSortAlphabeticallyOutline",
+      "tags": [
+        "alphabetically",
+        "fill",
+        "outline",
+        "sort"
+      ],
+      "description": "Sort Alphabetically Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiSortNumerically",
+      "tags": [
+        "fill",
+        "numerically",
+        "sort"
+      ],
+      "description": "Sort Numerically icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSortNumericallyOutline",
+      "tags": [
+        "fill",
+        "numerically",
+        "outline",
+        "sort"
+      ],
+      "description": "Sort Numerically Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiSpanner",
+      "tags": [
+        "fill",
+        "spanner"
+      ],
+      "description": "Spanner icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSpannerOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "spanner"
+      ],
+      "description": "Spanner Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiSpiral",
+      "tags": [
+        "fill",
+        "spiral"
+      ],
+      "description": "Spiral icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "TiStarburst",
+      "tags": [
+        "fill",
+        "starburst"
+      ],
+      "description": "Starburst icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiStarburstOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "starburst"
+      ],
+      "description": "Starburst Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiStarFullOutline",
+      "tags": [
+        "fill",
+        "full",
+        "outline",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content. Outline variant."
+    },
+    {
+      "name": "TiStarHalf",
+      "tags": [
+        "fill",
+        "half",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "TiStarHalfOutline",
+      "tags": [
+        "fill",
+        "half",
+        "outline",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content. Outline variant."
+    },
+    {
+      "name": "TiStarOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content. Outline variant."
+    },
+    {
+      "name": "TiStopwatch",
+      "tags": [
+        "fill",
+        "stopwatch"
+      ],
+      "description": "Stopwatch icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiSupport",
+      "tags": [
+        "fill",
+        "support"
+      ],
+      "description": "Support icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiTabsOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "tabs"
+      ],
+      "description": "Tabs Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiTag",
+      "tags": [
+        "fill",
+        "tag"
+      ],
+      "description": "Tag icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiTags",
+      "tags": [
+        "fill",
+        "tags"
+      ],
+      "description": "Tags icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiThermometer",
+      "tags": [
+        "fill",
+        "thermometer"
+      ],
+      "description": "Thermometer icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiThLarge",
+      "tags": [
+        "fill",
+        "large",
+        "th"
+      ],
+      "description": "Th Large icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiThLargeOutline",
+      "tags": [
+        "fill",
+        "large",
+        "outline",
+        "th"
+      ],
+      "description": "Th Large Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiThList",
+      "tags": [
+        "fill",
+        "list",
+        "th"
+      ],
+      "description": "Th List icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiThListOutline",
+      "tags": [
+        "fill",
+        "list",
+        "outline",
+        "th"
+      ],
+      "description": "Th List Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiThMenu",
+      "tags": [
+        "fill",
+        "menu",
+        "th"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "TiThMenuOutline",
+      "tags": [
+        "fill",
+        "menu",
+        "outline",
+        "th"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers. Outline variant."
+    },
+    {
+      "name": "TiThSmall",
+      "tags": [
+        "fill",
+        "small",
+        "th"
+      ],
+      "description": "Th Small icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiThSmallOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "small",
+        "th"
+      ],
+      "description": "Th Small Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiThumbsDown",
+      "tags": [
+        "down",
+        "fill",
+        "like",
+        "thumbs"
+      ],
+      "description": "Thumbs Down icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiThumbsOk",
+      "tags": [
+        "fill",
+        "like",
+        "ok",
+        "thumbs"
+      ],
+      "description": "Thumbs Ok icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiThumbsUp",
+      "tags": [
+        "fill",
+        "like",
+        "thumbs",
+        "up"
+      ],
+      "description": "Thumbs Up icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiTick",
+      "tags": [
+        "fill",
+        "tick"
+      ],
+      "description": "Tick icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiTicket",
+      "tags": [
+        "fill",
+        "ticket"
+      ],
+      "description": "Ticket icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiTickOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "tick"
+      ],
+      "description": "Tick Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiTime",
+      "tags": [
+        "fill",
+        "time"
+      ],
+      "description": "Time icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiTimes",
+      "tags": [
+        "fill",
+        "times"
+      ],
+      "description": "Times icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiTimesOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "times"
+      ],
+      "description": "Times Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "TiTree",
+      "tags": [
+        "fill",
+        "tree"
+      ],
+      "description": "Tree icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiUpload",
+      "tags": [
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "TiUploadOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions. Outline variant."
+    },
+    {
+      "name": "TiUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "TiUserAdd",
+      "tags": [
+        "account",
+        "add",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "TiUserAddOutline",
+      "tags": [
+        "account",
+        "add",
+        "fill",
+        "outline",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors. Outline variant."
+    },
+    {
+      "name": "TiUserDelete",
+      "tags": [
+        "account",
+        "delete",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "TiUserDeleteOutline",
+      "tags": [
+        "account",
+        "delete",
+        "fill",
+        "outline",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors. Outline variant."
+    },
+    {
+      "name": "TiUserOutline",
+      "tags": [
+        "account",
+        "fill",
+        "outline",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors. Outline variant."
+    },
+    {
+      "name": "TiVendorAndroid",
+      "tags": [
+        "android",
+        "fill",
+        "vendor"
+      ],
+      "description": "Vendor Android icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiVendorApple",
+      "tags": [
+        "apple",
+        "fill",
+        "vendor"
+      ],
+      "description": "Vendor Apple icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiVendorMicrosoft",
+      "tags": [
+        "fill",
+        "microsoft",
+        "vendor"
+      ],
+      "description": "Vendor Microsoft icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiVideo",
+      "tags": [
+        "fill",
+        "video"
+      ],
+      "description": "Video icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiVideoOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "video"
+      ],
+      "description": "Video Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiVolume",
+      "tags": [
+        "fill",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "TiVolumeDown",
+      "tags": [
+        "down",
+        "fill",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "TiVolumeMute",
+      "tags": [
+        "fill",
+        "mute",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "TiVolumeUp",
+      "tags": [
+        "fill",
+        "like",
+        "up",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "TiWarning",
+      "tags": [
+        "fill",
+        "warning"
+      ],
+      "description": "Warning icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWarningOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "warning"
+      ],
+      "description": "Warning Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiWatch",
+      "tags": [
+        "fill",
+        "watch"
+      ],
+      "description": "Watch icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWaves",
+      "tags": [
+        "fill",
+        "waves"
+      ],
+      "description": "Waves icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWavesOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "waves"
+      ],
+      "description": "Waves Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiWeatherCloudy",
+      "tags": [
+        "cloudy",
+        "fill",
+        "weather"
+      ],
+      "description": "Weather Cloudy icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherDownpour",
+      "tags": [
+        "downpour",
+        "fill",
+        "weather"
+      ],
+      "description": "Weather Downpour icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherNight",
+      "tags": [
+        "fill",
+        "night",
+        "weather"
+      ],
+      "description": "Weather Night icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherPartlySunny",
+      "tags": [
+        "fill",
+        "partly",
+        "sunny",
+        "weather"
+      ],
+      "description": "Weather Partly Sunny icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherShower",
+      "tags": [
+        "fill",
+        "shower",
+        "weather"
+      ],
+      "description": "Weather Shower icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherSnow",
+      "tags": [
+        "fill",
+        "snow",
+        "weather"
+      ],
+      "description": "Weather Snow icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherStormy",
+      "tags": [
+        "fill",
+        "stormy",
+        "weather"
+      ],
+      "description": "Weather Stormy icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherSunny",
+      "tags": [
+        "fill",
+        "sunny",
+        "weather"
+      ],
+      "description": "Weather Sunny icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherWindy",
+      "tags": [
+        "fill",
+        "weather",
+        "windy"
+      ],
+      "description": "Weather Windy icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWeatherWindyCloudy",
+      "tags": [
+        "cloudy",
+        "fill",
+        "weather",
+        "windy"
+      ],
+      "description": "Weather Windy Cloudy icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWiFi",
+      "tags": [
+        "fi",
+        "fill",
+        "wi"
+      ],
+      "description": "Wi Fi icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWiFiOutline",
+      "tags": [
+        "fi",
+        "fill",
+        "outline",
+        "wi"
+      ],
+      "description": "Wi Fi Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiWine",
+      "tags": [
+        "fill",
+        "wine"
+      ],
+      "description": "Wine icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWorld",
+      "tags": [
+        "fill",
+        "world"
+      ],
+      "description": "World icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiWorldOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "world"
+      ],
+      "description": "World Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiZoom",
+      "tags": [
+        "fill",
+        "zoom"
+      ],
+      "description": "Zoom icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiZoomInOutline",
+      "tags": [
+        "fill",
+        "in",
+        "outline",
+        "zoom"
+      ],
+      "description": "Zoom In Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Typicons (ti) set, fill style."
+    },
+    {
+      "name": "TiZoomOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "zoom"
+      ],
+      "description": "Zoom Outline icon — Typicons (ti) set, fill style. Outline variant."
+    },
+    {
+      "name": "TiZoomOutOutline",
+      "tags": [
+        "fill",
+        "out",
+        "outline",
+        "zoom"
+      ],
+      "description": "Zoom Out Outline icon — Typicons (ti) set, fill style. Outline variant."
+    }
+  ]
+}
