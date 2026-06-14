@@ -102,6 +102,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
@@ -118,8 +119,10 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | Import                            | Contents                          |
 | --------------------------------- | --------------------------------- |
 | `@mal-icons/preact`               | Adapter and context               |
+| `@mal-icons/preact/ad`            | All Ant Design icons (named exports)  |
 | `@mal-icons/preact/ci`            | All Circum icons (named exports)  |
 | `@mal-icons/preact/dev`            | All Devicons icons (named exports)  |
+| `@mal-icons/preact/ad/AdHome`    | A single Ant Design icon module       |
 | `@mal-icons/preact/ci/CiHeart`    | A single Circum icon module       |
 | `@mal-icons/preact/dev/DevDreamhost`    | A single Devicons icon module       |
 | `@mal-icons/preact/fa`            | All Font Awesome icons (named exports) |

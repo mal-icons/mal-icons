@@ -1,0 +1,3613 @@
+{
+  "set": {
+    "id": "ad",
+    "name": "Ant Design Icons",
+    "prefix": "Ad",
+    "version": "4.0.0",
+    "license": "MIT",
+    "repo": "ant-design/ant-design-icons",
+    "style": "fill",
+    "viewBox": "0 0 1024 1024"
+  },
+  "count": 420,
+  "icons": [
+    {
+      "name": "AdAccountBook",
+      "tags": [
+        "account",
+        "book",
+        "fill"
+      ],
+      "description": "Account Book icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAim",
+      "tags": [
+        "aim",
+        "fill"
+      ],
+      "description": "Aim icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAlert",
+      "tags": [
+        "alert",
+        "fill",
+        "warning"
+      ],
+      "description": "Alert icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAlibaba",
+      "tags": [
+        "alibaba",
+        "fill"
+      ],
+      "description": "Alibaba icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAlignCenter",
+      "tags": [
+        "align",
+        "center",
+        "fill"
+      ],
+      "description": "Align Center icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAlignLeft",
+      "tags": [
+        "align",
+        "fill",
+        "left"
+      ],
+      "description": "Align Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAlignRight",
+      "tags": [
+        "align",
+        "fill",
+        "right"
+      ],
+      "description": "Align Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAlipay",
+      "tags": [
+        "alipay",
+        "fill"
+      ],
+      "description": "Alipay icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAlipayCircle",
+      "tags": [
+        "alipay",
+        "circle",
+        "fill"
+      ],
+      "description": "Alipay Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAliwangwang",
+      "tags": [
+        "aliwangwang",
+        "fill"
+      ],
+      "description": "Aliwangwang icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAliyun",
+      "tags": [
+        "aliyun",
+        "fill"
+      ],
+      "description": "Aliyun icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAmazon",
+      "tags": [
+        "amazon",
+        "fill"
+      ],
+      "description": "Amazon icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAndroid",
+      "tags": [
+        "android",
+        "fill"
+      ],
+      "description": "Android icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAntCloud",
+      "tags": [
+        "ant",
+        "cloud",
+        "fill"
+      ],
+      "description": "Ant Cloud icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAntDesign",
+      "tags": [
+        "ant",
+        "design",
+        "fill"
+      ],
+      "description": "Ant Design icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdApartment",
+      "tags": [
+        "apartment",
+        "fill"
+      ],
+      "description": "Apartment icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdApi",
+      "tags": [
+        "api",
+        "fill"
+      ],
+      "description": "Api icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdApple",
+      "tags": [
+        "apple",
+        "fill"
+      ],
+      "description": "Apple icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAppstore",
+      "tags": [
+        "appstore",
+        "fill"
+      ],
+      "description": "Appstore icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAppstoreAdd",
+      "tags": [
+        "add",
+        "appstore",
+        "fill"
+      ],
+      "description": "Appstore Add icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAreaChart",
+      "tags": [
+        "area",
+        "chart",
+        "fill"
+      ],
+      "description": "Area Chart icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "AdArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "AdArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "AdArrowsAlt",
+      "tags": [
+        "alt",
+        "arrows",
+        "fill"
+      ],
+      "description": "Arrows Alt icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "AdAudio",
+      "tags": [
+        "audio",
+        "fill"
+      ],
+      "description": "Audio icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAudioMuted",
+      "tags": [
+        "audio",
+        "fill",
+        "muted"
+      ],
+      "description": "Audio Muted icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdAudit",
+      "tags": [
+        "audit",
+        "fill"
+      ],
+      "description": "Audit icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBackward",
+      "tags": [
+        "backward",
+        "fill"
+      ],
+      "description": "Backward icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBank",
+      "tags": [
+        "bank",
+        "fill"
+      ],
+      "description": "Bank icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBarChart",
+      "tags": [
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Bar Chart icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBarcode",
+      "tags": [
+        "barcode",
+        "fill"
+      ],
+      "description": "Barcode icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBars",
+      "tags": [
+        "bars",
+        "fill"
+      ],
+      "description": "Bars icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBehance",
+      "tags": [
+        "behance",
+        "fill"
+      ],
+      "description": "Behance icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBehanceSquare",
+      "tags": [
+        "behance",
+        "fill",
+        "square"
+      ],
+      "description": "Behance Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "AdBgColors",
+      "tags": [
+        "bg",
+        "colors",
+        "fill"
+      ],
+      "description": "Bg Colors icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBlock",
+      "tags": [
+        "block",
+        "fill"
+      ],
+      "description": "Block icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBold",
+      "tags": [
+        "bold",
+        "fill"
+      ],
+      "description": "Bold icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBook",
+      "tags": [
+        "book",
+        "fill"
+      ],
+      "description": "Book icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorder",
+      "tags": [
+        "border",
+        "fill"
+      ],
+      "description": "Border icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderBottom",
+      "tags": [
+        "border",
+        "bottom",
+        "fill"
+      ],
+      "description": "Border Bottom icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderHorizontal",
+      "tags": [
+        "border",
+        "fill",
+        "horizontal"
+      ],
+      "description": "Border Horizontal icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderInner",
+      "tags": [
+        "border",
+        "fill",
+        "inner"
+      ],
+      "description": "Border Inner icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderLeft",
+      "tags": [
+        "border",
+        "fill",
+        "left"
+      ],
+      "description": "Border Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderlessTable",
+      "tags": [
+        "borderless",
+        "fill",
+        "table"
+      ],
+      "description": "Borderless Table icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderOuter",
+      "tags": [
+        "border",
+        "fill",
+        "outer"
+      ],
+      "description": "Border Outer icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderRight",
+      "tags": [
+        "border",
+        "fill",
+        "right"
+      ],
+      "description": "Border Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderTop",
+      "tags": [
+        "border",
+        "fill",
+        "top"
+      ],
+      "description": "Border Top icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBorderVerticle",
+      "tags": [
+        "border",
+        "fill",
+        "verticle"
+      ],
+      "description": "Border Verticle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBoxPlot",
+      "tags": [
+        "box",
+        "fill",
+        "plot"
+      ],
+      "description": "Box Plot icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBranches",
+      "tags": [
+        "branches",
+        "fill"
+      ],
+      "description": "Branches icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBug",
+      "tags": [
+        "bug",
+        "fill"
+      ],
+      "description": "Bug icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBuild",
+      "tags": [
+        "build",
+        "fill"
+      ],
+      "description": "Build icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdBulb",
+      "tags": [
+        "bulb",
+        "fill"
+      ],
+      "description": "Bulb icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCalculator",
+      "tags": [
+        "calculator",
+        "fill"
+      ],
+      "description": "Calculator icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "AdCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "AdCar",
+      "tags": [
+        "car",
+        "fill"
+      ],
+      "description": "Car icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCaretDown",
+      "tags": [
+        "caret",
+        "down",
+        "fill"
+      ],
+      "description": "Caret Down icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCaretLeft",
+      "tags": [
+        "caret",
+        "fill",
+        "left"
+      ],
+      "description": "Caret Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCaretRight",
+      "tags": [
+        "caret",
+        "fill",
+        "right"
+      ],
+      "description": "Caret Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCaretUp",
+      "tags": [
+        "caret",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Caret Up icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCarryOut",
+      "tags": [
+        "carry",
+        "fill",
+        "out"
+      ],
+      "description": "Carry Out icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCheck",
+      "tags": [
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "AdCheckCircle",
+      "tags": [
+        "check",
+        "circle",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "AdCheckSquare",
+      "tags": [
+        "check",
+        "fill",
+        "square"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "AdChrome",
+      "tags": [
+        "chrome",
+        "fill"
+      ],
+      "description": "Chrome icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCi",
+      "tags": [
+        "ci",
+        "fill"
+      ],
+      "description": "Ci icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCiCircle",
+      "tags": [
+        "ci",
+        "circle",
+        "fill"
+      ],
+      "description": "Ci Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdClear",
+      "tags": [
+        "clear",
+        "fill"
+      ],
+      "description": "Clear icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdClockCircle",
+      "tags": [
+        "circle",
+        "clock",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "AdClose",
+      "tags": [
+        "close",
+        "fill"
+      ],
+      "description": "Close icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCloseCircle",
+      "tags": [
+        "circle",
+        "close",
+        "fill"
+      ],
+      "description": "Close Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCloseSquare",
+      "tags": [
+        "close",
+        "fill",
+        "square"
+      ],
+      "description": "Close Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCloud",
+      "tags": [
+        "cloud",
+        "fill"
+      ],
+      "description": "Cloud icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCloudDownload",
+      "tags": [
+        "cloud",
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "AdCloudServer",
+      "tags": [
+        "cloud",
+        "fill",
+        "server"
+      ],
+      "description": "Cloud Server icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCloudSync",
+      "tags": [
+        "cloud",
+        "fill",
+        "sync"
+      ],
+      "description": "Cloud Sync icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCloudUpload",
+      "tags": [
+        "cloud",
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "AdCluster",
+      "tags": [
+        "cluster",
+        "fill"
+      ],
+      "description": "Cluster icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCode",
+      "tags": [
+        "code",
+        "fill"
+      ],
+      "description": "Code icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCodepen",
+      "tags": [
+        "codepen",
+        "fill"
+      ],
+      "description": "Codepen icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCodepenCircle",
+      "tags": [
+        "circle",
+        "codepen",
+        "fill"
+      ],
+      "description": "Codepen Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCodeSandbox",
+      "tags": [
+        "code",
+        "fill",
+        "sandbox"
+      ],
+      "description": "Code Sandbox icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCoffee",
+      "tags": [
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdColumnHeight",
+      "tags": [
+        "column",
+        "fill",
+        "height"
+      ],
+      "description": "Column Height icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdColumnWidth",
+      "tags": [
+        "column",
+        "fill",
+        "width"
+      ],
+      "description": "Column Width icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdComment",
+      "tags": [
+        "comment",
+        "fill"
+      ],
+      "description": "Comment icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCompass",
+      "tags": [
+        "compass",
+        "fill"
+      ],
+      "description": "Compass icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCompress",
+      "tags": [
+        "compress",
+        "fill"
+      ],
+      "description": "Compress icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdConsoleSql",
+      "tags": [
+        "console",
+        "fill",
+        "sql"
+      ],
+      "description": "Console Sql icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdContacts",
+      "tags": [
+        "contacts",
+        "fill"
+      ],
+      "description": "Contacts icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdContainer",
+      "tags": [
+        "container",
+        "fill"
+      ],
+      "description": "Container icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdControl",
+      "tags": [
+        "control",
+        "fill"
+      ],
+      "description": "Control icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCopy",
+      "tags": [
+        "copy",
+        "fill"
+      ],
+      "description": "Copy icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCopyright",
+      "tags": [
+        "copyright",
+        "fill"
+      ],
+      "description": "Copyright icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCopyrightCircle",
+      "tags": [
+        "circle",
+        "copyright",
+        "fill"
+      ],
+      "description": "Copyright Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "AdCrown",
+      "tags": [
+        "crown",
+        "fill"
+      ],
+      "description": "Crown icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdCustomerService",
+      "tags": [
+        "customer",
+        "fill",
+        "service"
+      ],
+      "description": "Customer Service icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDash",
+      "tags": [
+        "dash",
+        "fill"
+      ],
+      "description": "Dash icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDashboard",
+      "tags": [
+        "dashboard",
+        "fill"
+      ],
+      "description": "Dashboard icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDatabase",
+      "tags": [
+        "database",
+        "fill"
+      ],
+      "description": "Database icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDelete",
+      "tags": [
+        "delete",
+        "fill"
+      ],
+      "description": "Delete icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDeleteColumn",
+      "tags": [
+        "column",
+        "delete",
+        "fill"
+      ],
+      "description": "Delete Column icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDeleteRow",
+      "tags": [
+        "delete",
+        "fill",
+        "row"
+      ],
+      "description": "Delete Row icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDeliveredProcedure",
+      "tags": [
+        "delivered",
+        "fill",
+        "procedure"
+      ],
+      "description": "Delivered Procedure icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDeploymentUnit",
+      "tags": [
+        "deployment",
+        "fill",
+        "unit"
+      ],
+      "description": "Deployment Unit icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDesktop",
+      "tags": [
+        "desktop",
+        "fill"
+      ],
+      "description": "Desktop icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDiff",
+      "tags": [
+        "diff",
+        "fill"
+      ],
+      "description": "Diff icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDingding",
+      "tags": [
+        "dingding",
+        "fill"
+      ],
+      "description": "Dingding icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDingtalk",
+      "tags": [
+        "dingtalk",
+        "fill"
+      ],
+      "description": "Dingtalk icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDisconnect",
+      "tags": [
+        "disconnect",
+        "fill"
+      ],
+      "description": "Disconnect icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDislike",
+      "tags": [
+        "dislike",
+        "fill"
+      ],
+      "description": "Dislike icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDollar",
+      "tags": [
+        "dollar",
+        "fill"
+      ],
+      "description": "Dollar icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDollarCircle",
+      "tags": [
+        "circle",
+        "dollar",
+        "fill"
+      ],
+      "description": "Dollar Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDotChart",
+      "tags": [
+        "chart",
+        "dot",
+        "fill"
+      ],
+      "description": "Dot Chart icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDoubleLeft",
+      "tags": [
+        "double",
+        "fill",
+        "left"
+      ],
+      "description": "Double Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDoubleRight",
+      "tags": [
+        "double",
+        "fill",
+        "right"
+      ],
+      "description": "Double Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDown",
+      "tags": [
+        "down",
+        "fill"
+      ],
+      "description": "Down icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDownCircle",
+      "tags": [
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Down Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "AdDownSquare",
+      "tags": [
+        "down",
+        "fill",
+        "square"
+      ],
+      "description": "Down Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDrag",
+      "tags": [
+        "drag",
+        "fill"
+      ],
+      "description": "Drag icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDribbble",
+      "tags": [
+        "dribbble",
+        "fill"
+      ],
+      "description": "Dribbble icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDribbbleSquare",
+      "tags": [
+        "dribbble",
+        "fill",
+        "square"
+      ],
+      "description": "Dribbble Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdDropbox",
+      "tags": [
+        "dropbox",
+        "fill"
+      ],
+      "description": "Dropbox icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdEdit",
+      "tags": [
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "AdEllipsis",
+      "tags": [
+        "ellipsis",
+        "fill"
+      ],
+      "description": "Ellipsis icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdEnter",
+      "tags": [
+        "enter",
+        "fill"
+      ],
+      "description": "Enter icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdEnvironment",
+      "tags": [
+        "environment",
+        "fill"
+      ],
+      "description": "Environment icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdEuro",
+      "tags": [
+        "euro",
+        "fill"
+      ],
+      "description": "Euro icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdEuroCircle",
+      "tags": [
+        "circle",
+        "euro",
+        "fill"
+      ],
+      "description": "Euro Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdException",
+      "tags": [
+        "exception",
+        "fill"
+      ],
+      "description": "Exception icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdExclamation",
+      "tags": [
+        "exclamation",
+        "fill"
+      ],
+      "description": "Exclamation icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdExclamationCircle",
+      "tags": [
+        "circle",
+        "exclamation",
+        "fill"
+      ],
+      "description": "Exclamation Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdExpand",
+      "tags": [
+        "expand",
+        "fill"
+      ],
+      "description": "Expand icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdExpandAlt",
+      "tags": [
+        "alt",
+        "expand",
+        "fill"
+      ],
+      "description": "Expand Alt icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdExperiment",
+      "tags": [
+        "experiment",
+        "fill"
+      ],
+      "description": "Experiment icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdExport",
+      "tags": [
+        "export",
+        "fill"
+      ],
+      "description": "Export icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdEye",
+      "tags": [
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "AdEyeInvisible",
+      "tags": [
+        "eye",
+        "fill",
+        "hide",
+        "invisible"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "AdFacebook",
+      "tags": [
+        "facebook",
+        "fill"
+      ],
+      "description": "Facebook icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFall",
+      "tags": [
+        "fall",
+        "fill"
+      ],
+      "description": "Fall icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFastBackward",
+      "tags": [
+        "backward",
+        "fast",
+        "fill"
+      ],
+      "description": "Fast Backward icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFastForward",
+      "tags": [
+        "fast",
+        "fill",
+        "forward"
+      ],
+      "description": "Fast Forward icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFieldBinary",
+      "tags": [
+        "binary",
+        "field",
+        "fill"
+      ],
+      "description": "Field Binary icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFieldNumber",
+      "tags": [
+        "field",
+        "fill",
+        "number"
+      ],
+      "description": "Field Number icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFieldString",
+      "tags": [
+        "field",
+        "fill",
+        "string"
+      ],
+      "description": "Field String icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFieldTime",
+      "tags": [
+        "field",
+        "fill",
+        "time"
+      ],
+      "description": "Field Time icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileAdd",
+      "tags": [
+        "add",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileDone",
+      "tags": [
+        "done",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileExcel",
+      "tags": [
+        "excel",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileExclamation",
+      "tags": [
+        "exclamation",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileGif",
+      "tags": [
+        "file",
+        "fill",
+        "gif"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileImage",
+      "tags": [
+        "file",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileJpg",
+      "tags": [
+        "file",
+        "fill",
+        "jpg"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileMarkdown",
+      "tags": [
+        "file",
+        "fill",
+        "markdown"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFilePdf",
+      "tags": [
+        "file",
+        "fill",
+        "pdf"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFilePpt",
+      "tags": [
+        "file",
+        "fill",
+        "ppt"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileProtect",
+      "tags": [
+        "file",
+        "fill",
+        "protect"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileSearch",
+      "tags": [
+        "file",
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileSync",
+      "tags": [
+        "file",
+        "fill",
+        "sync"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileText",
+      "tags": [
+        "file",
+        "fill",
+        "text"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileUnknown",
+      "tags": [
+        "file",
+        "fill",
+        "unknown"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileWord",
+      "tags": [
+        "file",
+        "fill",
+        "word"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFileZip",
+      "tags": [
+        "file",
+        "fill",
+        "zip"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "AdFilter",
+      "tags": [
+        "fill",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "AdFire",
+      "tags": [
+        "fill",
+        "fire"
+      ],
+      "description": "Fire icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "AdFolderAdd",
+      "tags": [
+        "add",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "AdFolderOpen",
+      "tags": [
+        "fill",
+        "folder",
+        "open"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "AdFolderView",
+      "tags": [
+        "fill",
+        "folder",
+        "view"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "AdFontColors",
+      "tags": [
+        "colors",
+        "fill",
+        "font"
+      ],
+      "description": "Font Colors icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFontSize",
+      "tags": [
+        "fill",
+        "font",
+        "size"
+      ],
+      "description": "Font Size icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFork",
+      "tags": [
+        "fill",
+        "fork"
+      ],
+      "description": "Fork icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdForm",
+      "tags": [
+        "fill",
+        "form"
+      ],
+      "description": "Form icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFormatPainter",
+      "tags": [
+        "fill",
+        "format",
+        "painter"
+      ],
+      "description": "Format Painter icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdForward",
+      "tags": [
+        "fill",
+        "forward"
+      ],
+      "description": "Forward icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFrown",
+      "tags": [
+        "fill",
+        "frown"
+      ],
+      "description": "Frown icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFullscreen",
+      "tags": [
+        "fill",
+        "fullscreen"
+      ],
+      "description": "Fullscreen icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFullscreenExit",
+      "tags": [
+        "exit",
+        "fill",
+        "fullscreen"
+      ],
+      "description": "Fullscreen Exit icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFunction",
+      "tags": [
+        "fill",
+        "function"
+      ],
+      "description": "Function icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFund",
+      "tags": [
+        "fill",
+        "fund"
+      ],
+      "description": "Fund icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFundProjectionScreen",
+      "tags": [
+        "fill",
+        "fund",
+        "projection",
+        "screen"
+      ],
+      "description": "Fund Projection Screen icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFundView",
+      "tags": [
+        "fill",
+        "fund",
+        "view"
+      ],
+      "description": "Fund View icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdFunnelPlot",
+      "tags": [
+        "fill",
+        "funnel",
+        "plot"
+      ],
+      "description": "Funnel Plot icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGateway",
+      "tags": [
+        "fill",
+        "gateway"
+      ],
+      "description": "Gateway icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGif",
+      "tags": [
+        "fill",
+        "gif"
+      ],
+      "description": "Gif icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGift",
+      "tags": [
+        "fill",
+        "gift"
+      ],
+      "description": "Gift icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGithub",
+      "tags": [
+        "fill",
+        "github"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "AdGitlab",
+      "tags": [
+        "fill",
+        "gitlab"
+      ],
+      "description": "Gitlab icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGlobal",
+      "tags": [
+        "fill",
+        "global"
+      ],
+      "description": "Global icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGold",
+      "tags": [
+        "fill",
+        "gold"
+      ],
+      "description": "Gold icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGoogle",
+      "tags": [
+        "fill",
+        "google"
+      ],
+      "description": "Google icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdGooglePlus",
+      "tags": [
+        "add",
+        "fill",
+        "google",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "AdGroup",
+      "tags": [
+        "fill",
+        "group"
+      ],
+      "description": "Group icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdHdd",
+      "tags": [
+        "fill",
+        "hdd"
+      ],
+      "description": "Hdd icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "AdHeatMap",
+      "tags": [
+        "fill",
+        "heat",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "AdHighlight",
+      "tags": [
+        "fill",
+        "highlight"
+      ],
+      "description": "Highlight icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdHistory",
+      "tags": [
+        "fill",
+        "history"
+      ],
+      "description": "History icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "AdHourglass",
+      "tags": [
+        "fill",
+        "hourglass"
+      ],
+      "description": "Hourglass icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdHtml5",
+      "tags": [
+        "fill",
+        "html5"
+      ],
+      "description": "Html 5 icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdIdcard",
+      "tags": [
+        "fill",
+        "idcard"
+      ],
+      "description": "Idcard icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdIe",
+      "tags": [
+        "fill",
+        "ie"
+      ],
+      "description": "Ie icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdImport",
+      "tags": [
+        "fill",
+        "import"
+      ],
+      "description": "Import icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInbox",
+      "tags": [
+        "fill",
+        "inbox"
+      ],
+      "description": "Inbox icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInfo",
+      "tags": [
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "AdInfoCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "AdInsertRowAbove",
+      "tags": [
+        "above",
+        "fill",
+        "insert",
+        "row"
+      ],
+      "description": "Insert Row Above icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInsertRowBelow",
+      "tags": [
+        "below",
+        "fill",
+        "insert",
+        "row"
+      ],
+      "description": "Insert Row Below icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInsertRowLeft",
+      "tags": [
+        "fill",
+        "insert",
+        "left",
+        "row"
+      ],
+      "description": "Insert Row Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInsertRowRight",
+      "tags": [
+        "fill",
+        "insert",
+        "right",
+        "row"
+      ],
+      "description": "Insert Row Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInstagram",
+      "tags": [
+        "fill",
+        "instagram"
+      ],
+      "description": "Instagram icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInsurance",
+      "tags": [
+        "fill",
+        "insurance"
+      ],
+      "description": "Insurance icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdInteraction",
+      "tags": [
+        "fill",
+        "interaction"
+      ],
+      "description": "Interaction icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdIssuesClose",
+      "tags": [
+        "close",
+        "fill",
+        "issues"
+      ],
+      "description": "Issues Close icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdItalic",
+      "tags": [
+        "fill",
+        "italic"
+      ],
+      "description": "Italic icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLaptop",
+      "tags": [
+        "fill",
+        "laptop"
+      ],
+      "description": "Laptop icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLayout",
+      "tags": [
+        "fill",
+        "layout"
+      ],
+      "description": "Layout icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLeft",
+      "tags": [
+        "fill",
+        "left"
+      ],
+      "description": "Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLeftCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Left Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLeftSquare",
+      "tags": [
+        "fill",
+        "left",
+        "square"
+      ],
+      "description": "Left Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLike",
+      "tags": [
+        "fill",
+        "like"
+      ],
+      "description": "Like icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLine",
+      "tags": [
+        "fill",
+        "line"
+      ],
+      "description": "Line icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLineChart",
+      "tags": [
+        "chart",
+        "fill",
+        "line"
+      ],
+      "description": "Line Chart icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLineHeight",
+      "tags": [
+        "fill",
+        "height",
+        "line"
+      ],
+      "description": "Line Height icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "AdLinkedin",
+      "tags": [
+        "fill",
+        "linkedin"
+      ],
+      "description": "Linkedin icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLoading",
+      "tags": [
+        "fill",
+        "loading"
+      ],
+      "description": "Loading icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLoading3Quarters",
+      "tags": [
+        "3",
+        "fill",
+        "loading",
+        "loading3",
+        "quarters"
+      ],
+      "description": "Loading 3 Quarters icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "AdLogin",
+      "tags": [
+        "fill",
+        "login"
+      ],
+      "description": "Login icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdLogout",
+      "tags": [
+        "fill",
+        "logout"
+      ],
+      "description": "Logout icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMacCommand",
+      "tags": [
+        "command",
+        "fill",
+        "mac"
+      ],
+      "description": "Mac Command icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMail",
+      "tags": [
+        "fill",
+        "mail"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "AdMan",
+      "tags": [
+        "fill",
+        "man"
+      ],
+      "description": "Man icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMedicineBox",
+      "tags": [
+        "box",
+        "fill",
+        "medicine"
+      ],
+      "description": "Medicine Box icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMedium",
+      "tags": [
+        "fill",
+        "medium"
+      ],
+      "description": "Medium icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMediumWorkmark",
+      "tags": [
+        "fill",
+        "medium",
+        "workmark"
+      ],
+      "description": "Medium Workmark icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMeh",
+      "tags": [
+        "fill",
+        "meh"
+      ],
+      "description": "Meh icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMenu",
+      "tags": [
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "AdMenuFold",
+      "tags": [
+        "fill",
+        "fold",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "AdMenuUnfold",
+      "tags": [
+        "fill",
+        "menu",
+        "unfold"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "AdMergeCells",
+      "tags": [
+        "cells",
+        "fill",
+        "merge"
+      ],
+      "description": "Merge Cells icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMessage",
+      "tags": [
+        "fill",
+        "message"
+      ],
+      "description": "Message icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "AdMinusCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "AdMinusSquare",
+      "tags": [
+        "fill",
+        "minus",
+        "remove",
+        "square"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "AdMobile",
+      "tags": [
+        "fill",
+        "mobile"
+      ],
+      "description": "Mobile icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMoneyCollect",
+      "tags": [
+        "collect",
+        "fill",
+        "money"
+      ],
+      "description": "Money Collect icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMonitor",
+      "tags": [
+        "fill",
+        "monitor"
+      ],
+      "description": "Monitor icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdMore",
+      "tags": [
+        "fill",
+        "more"
+      ],
+      "description": "More icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdNodeCollapse",
+      "tags": [
+        "collapse",
+        "fill",
+        "node"
+      ],
+      "description": "Node Collapse icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdNodeExpand",
+      "tags": [
+        "expand",
+        "fill",
+        "node"
+      ],
+      "description": "Node Expand icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdNodeIndex",
+      "tags": [
+        "fill",
+        "index",
+        "node"
+      ],
+      "description": "Node Index icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdNotification",
+      "tags": [
+        "fill",
+        "notification"
+      ],
+      "description": "Notification icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdNumber",
+      "tags": [
+        "fill",
+        "number"
+      ],
+      "description": "Number icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdOneToOne",
+      "tags": [
+        "fill",
+        "one",
+        "to"
+      ],
+      "description": "One To One icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdOrderedList",
+      "tags": [
+        "fill",
+        "list",
+        "ordered"
+      ],
+      "description": "Ordered List icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPaperClip",
+      "tags": [
+        "clip",
+        "fill",
+        "paper"
+      ],
+      "description": "Paper Clip icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPartition",
+      "tags": [
+        "fill",
+        "partition"
+      ],
+      "description": "Partition icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPause",
+      "tags": [
+        "fill",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "AdPauseCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "AdPayCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "pay"
+      ],
+      "description": "Pay Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPercentage",
+      "tags": [
+        "fill",
+        "percentage"
+      ],
+      "description": "Percentage icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPhone",
+      "tags": [
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "AdPicCenter",
+      "tags": [
+        "center",
+        "fill",
+        "pic"
+      ],
+      "description": "Pic Center icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPicLeft",
+      "tags": [
+        "fill",
+        "left",
+        "pic"
+      ],
+      "description": "Pic Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPicRight",
+      "tags": [
+        "fill",
+        "pic",
+        "right"
+      ],
+      "description": "Pic Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPicture",
+      "tags": [
+        "fill",
+        "picture"
+      ],
+      "description": "Picture icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPieChart",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPlayCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "AdPlaySquare",
+      "tags": [
+        "fill",
+        "play",
+        "square"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "AdPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "AdPlusCircle",
+      "tags": [
+        "add",
+        "circle",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "AdPlusSquare",
+      "tags": [
+        "add",
+        "fill",
+        "plus",
+        "square"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "AdPound",
+      "tags": [
+        "fill",
+        "pound"
+      ],
+      "description": "Pound icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPoundCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "pound"
+      ],
+      "description": "Pound Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPoweroff",
+      "tags": [
+        "fill",
+        "poweroff"
+      ],
+      "description": "Poweroff icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPrinter",
+      "tags": [
+        "fill",
+        "printer"
+      ],
+      "description": "Printer icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdProfile",
+      "tags": [
+        "fill",
+        "profile"
+      ],
+      "description": "Profile icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdProject",
+      "tags": [
+        "fill",
+        "project"
+      ],
+      "description": "Project icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPropertySafety",
+      "tags": [
+        "fill",
+        "property",
+        "safety"
+      ],
+      "description": "Property Safety icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPullRequest",
+      "tags": [
+        "fill",
+        "pull",
+        "request"
+      ],
+      "description": "Pull Request icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdPushpin",
+      "tags": [
+        "fill",
+        "pushpin"
+      ],
+      "description": "Pushpin icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdQq",
+      "tags": [
+        "fill",
+        "qq"
+      ],
+      "description": "Qq icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdQrcode",
+      "tags": [
+        "fill",
+        "qrcode"
+      ],
+      "description": "Qrcode icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdQuestion",
+      "tags": [
+        "fill",
+        "question"
+      ],
+      "description": "Question icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdQuestionCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "question"
+      ],
+      "description": "Question Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRadarChart",
+      "tags": [
+        "chart",
+        "fill",
+        "radar"
+      ],
+      "description": "Radar Chart icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRadiusBottomleft",
+      "tags": [
+        "bottomleft",
+        "fill",
+        "radius"
+      ],
+      "description": "Radius Bottomleft icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRadiusBottomright",
+      "tags": [
+        "bottomright",
+        "fill",
+        "radius"
+      ],
+      "description": "Radius Bottomright icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRadiusSetting",
+      "tags": [
+        "fill",
+        "radius",
+        "setting"
+      ],
+      "description": "Radius Setting icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRadiusUpleft",
+      "tags": [
+        "fill",
+        "radius",
+        "upleft"
+      ],
+      "description": "Radius Upleft icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRadiusUpright",
+      "tags": [
+        "fill",
+        "radius",
+        "upright"
+      ],
+      "description": "Radius Upright icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRead",
+      "tags": [
+        "fill",
+        "read"
+      ],
+      "description": "Read icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdReconciliation",
+      "tags": [
+        "fill",
+        "reconciliation"
+      ],
+      "description": "Reconciliation icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdReddit",
+      "tags": [
+        "fill",
+        "reddit"
+      ],
+      "description": "Reddit icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRedEnvelope",
+      "tags": [
+        "envelope",
+        "fill",
+        "red"
+      ],
+      "description": "Red Envelope icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRedo",
+      "tags": [
+        "fill",
+        "redo"
+      ],
+      "description": "Redo icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdReload",
+      "tags": [
+        "fill",
+        "reload"
+      ],
+      "description": "Reload icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRest",
+      "tags": [
+        "fill",
+        "rest"
+      ],
+      "description": "Rest icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRetweet",
+      "tags": [
+        "fill",
+        "retweet"
+      ],
+      "description": "Retweet icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRight",
+      "tags": [
+        "fill",
+        "right"
+      ],
+      "description": "Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRightCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Right Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRightSquare",
+      "tags": [
+        "fill",
+        "right",
+        "square"
+      ],
+      "description": "Right Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRise",
+      "tags": [
+        "fill",
+        "rise"
+      ],
+      "description": "Rise icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRobot",
+      "tags": [
+        "fill",
+        "robot"
+      ],
+      "description": "Robot icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRocket",
+      "tags": [
+        "fill",
+        "rocket"
+      ],
+      "description": "Rocket icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRollback",
+      "tags": [
+        "fill",
+        "rollback"
+      ],
+      "description": "Rollback icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRotateLeft",
+      "tags": [
+        "fill",
+        "left",
+        "rotate"
+      ],
+      "description": "Rotate Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdRotateRight",
+      "tags": [
+        "fill",
+        "right",
+        "rotate"
+      ],
+      "description": "Rotate Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSafety",
+      "tags": [
+        "fill",
+        "safety"
+      ],
+      "description": "Safety icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSafetyCertificate",
+      "tags": [
+        "certificate",
+        "fill",
+        "safety"
+      ],
+      "description": "Safety Certificate icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSave",
+      "tags": [
+        "fill",
+        "save"
+      ],
+      "description": "Save icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdScan",
+      "tags": [
+        "fill",
+        "scan"
+      ],
+      "description": "Scan icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSchedule",
+      "tags": [
+        "fill",
+        "schedule"
+      ],
+      "description": "Schedule icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdScissor",
+      "tags": [
+        "fill",
+        "scissor"
+      ],
+      "description": "Scissor icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSearch",
+      "tags": [
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "AdSecurityScan",
+      "tags": [
+        "fill",
+        "scan",
+        "security"
+      ],
+      "description": "Security Scan icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSelect",
+      "tags": [
+        "fill",
+        "select"
+      ],
+      "description": "Select icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSend",
+      "tags": [
+        "fill",
+        "send"
+      ],
+      "description": "Paper plane — send and submit actions."
+    },
+    {
+      "name": "AdSetting",
+      "tags": [
+        "fill",
+        "setting"
+      ],
+      "description": "Setting icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdShake",
+      "tags": [
+        "fill",
+        "shake"
+      ],
+      "description": "Shake icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdShareAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "AdShop",
+      "tags": [
+        "fill",
+        "shop"
+      ],
+      "description": "Shop icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdShopping",
+      "tags": [
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdShoppingCart",
+      "tags": [
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping cart — carts, checkout and e-commerce."
+    },
+    {
+      "name": "AdShrink",
+      "tags": [
+        "fill",
+        "shrink"
+      ],
+      "description": "Shrink icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSisternode",
+      "tags": [
+        "fill",
+        "sisternode"
+      ],
+      "description": "Sisternode icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSketch",
+      "tags": [
+        "fill",
+        "sketch"
+      ],
+      "description": "Sketch icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSkin",
+      "tags": [
+        "fill",
+        "skin"
+      ],
+      "description": "Skin icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSkype",
+      "tags": [
+        "fill",
+        "skype"
+      ],
+      "description": "Skype icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSlack",
+      "tags": [
+        "fill",
+        "slack"
+      ],
+      "description": "Slack icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSlackSquare",
+      "tags": [
+        "fill",
+        "slack",
+        "square"
+      ],
+      "description": "Slack Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSliders",
+      "tags": [
+        "fill",
+        "gear",
+        "setting",
+        "sliders"
+      ],
+      "description": "Sliders icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSmallDash",
+      "tags": [
+        "dash",
+        "fill",
+        "small"
+      ],
+      "description": "Small Dash icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSmile",
+      "tags": [
+        "fill",
+        "smile"
+      ],
+      "description": "Smile icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSnippets",
+      "tags": [
+        "fill",
+        "snippets"
+      ],
+      "description": "Snippets icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSolution",
+      "tags": [
+        "fill",
+        "solution"
+      ],
+      "description": "Solution icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSortAscending",
+      "tags": [
+        "ascending",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Ascending icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSortDescending",
+      "tags": [
+        "descending",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Descending icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSound",
+      "tags": [
+        "fill",
+        "sound"
+      ],
+      "description": "Sound icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSplitCells",
+      "tags": [
+        "cells",
+        "fill",
+        "split"
+      ],
+      "description": "Split Cells icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "AdStepBackward",
+      "tags": [
+        "backward",
+        "fill",
+        "step"
+      ],
+      "description": "Step Backward icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdStepForward",
+      "tags": [
+        "fill",
+        "forward",
+        "step"
+      ],
+      "description": "Step Forward icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdStock",
+      "tags": [
+        "fill",
+        "stock"
+      ],
+      "description": "Stock icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdStop",
+      "tags": [
+        "fill",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "AdStrikethrough",
+      "tags": [
+        "fill",
+        "strikethrough"
+      ],
+      "description": "Strikethrough icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSubnode",
+      "tags": [
+        "fill",
+        "subnode"
+      ],
+      "description": "Subnode icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSwap",
+      "tags": [
+        "fill",
+        "swap"
+      ],
+      "description": "Swap icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSwapLeft",
+      "tags": [
+        "fill",
+        "left",
+        "swap"
+      ],
+      "description": "Swap Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSwapRight",
+      "tags": [
+        "fill",
+        "right",
+        "swap"
+      ],
+      "description": "Swap Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSwitcher",
+      "tags": [
+        "fill",
+        "switcher"
+      ],
+      "description": "Switcher icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdSync",
+      "tags": [
+        "fill",
+        "sync"
+      ],
+      "description": "Sync icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTable",
+      "tags": [
+        "fill",
+        "table"
+      ],
+      "description": "Table icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTablet",
+      "tags": [
+        "fill",
+        "tablet"
+      ],
+      "description": "Tablet icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTag",
+      "tags": [
+        "fill",
+        "tag"
+      ],
+      "description": "Tag icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTags",
+      "tags": [
+        "fill",
+        "tags"
+      ],
+      "description": "Tags icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTaobao",
+      "tags": [
+        "fill",
+        "taobao"
+      ],
+      "description": "Taobao icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTaobaoCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "taobao"
+      ],
+      "description": "Taobao Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTeam",
+      "tags": [
+        "fill",
+        "team"
+      ],
+      "description": "Team icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdThunderbolt",
+      "tags": [
+        "fill",
+        "thunderbolt"
+      ],
+      "description": "Thunderbolt icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTool",
+      "tags": [
+        "fill",
+        "tool"
+      ],
+      "description": "Tool icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdToTop",
+      "tags": [
+        "fill",
+        "to",
+        "top"
+      ],
+      "description": "To Top icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTrademark",
+      "tags": [
+        "fill",
+        "trademark"
+      ],
+      "description": "Trademark icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTrademarkCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "trademark"
+      ],
+      "description": "Trademark Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTransaction",
+      "tags": [
+        "fill",
+        "transaction"
+      ],
+      "description": "Transaction icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTranslation",
+      "tags": [
+        "fill",
+        "translation"
+      ],
+      "description": "Translation icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTrophy",
+      "tags": [
+        "fill",
+        "trophy"
+      ],
+      "description": "Trophy icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdTwitter",
+      "tags": [
+        "fill",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "AdUnderline",
+      "tags": [
+        "fill",
+        "underline"
+      ],
+      "description": "Underline icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUndo",
+      "tags": [
+        "fill",
+        "undo"
+      ],
+      "description": "Undo icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUngroup",
+      "tags": [
+        "fill",
+        "ungroup"
+      ],
+      "description": "Ungroup icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUnlock",
+      "tags": [
+        "fill",
+        "unlock"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "AdUnorderedList",
+      "tags": [
+        "fill",
+        "list",
+        "unordered"
+      ],
+      "description": "Unordered List icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUp",
+      "tags": [
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Up icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUpCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Up Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUpload",
+      "tags": [
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "AdUpSquare",
+      "tags": [
+        "fill",
+        "like",
+        "square",
+        "up"
+      ],
+      "description": "Up Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUsb",
+      "tags": [
+        "fill",
+        "usb"
+      ],
+      "description": "Usb icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "AdUserAdd",
+      "tags": [
+        "account",
+        "add",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "AdUserDelete",
+      "tags": [
+        "account",
+        "delete",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "AdUsergroupAdd",
+      "tags": [
+        "add",
+        "fill",
+        "usergroup"
+      ],
+      "description": "Usergroup Add icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUsergroupDelete",
+      "tags": [
+        "delete",
+        "fill",
+        "usergroup"
+      ],
+      "description": "Usergroup Delete icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdUserSwitch",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "switch",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "AdVerified",
+      "tags": [
+        "fill",
+        "verified"
+      ],
+      "description": "Verified icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdVerticalAlignBottom",
+      "tags": [
+        "align",
+        "bottom",
+        "fill",
+        "vertical"
+      ],
+      "description": "Vertical Align Bottom icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdVerticalAlignMiddle",
+      "tags": [
+        "align",
+        "fill",
+        "middle",
+        "vertical"
+      ],
+      "description": "Vertical Align Middle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdVerticalAlignTop",
+      "tags": [
+        "align",
+        "fill",
+        "top",
+        "vertical"
+      ],
+      "description": "Vertical Align Top icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdVerticalLeft",
+      "tags": [
+        "fill",
+        "left",
+        "vertical"
+      ],
+      "description": "Vertical Left icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdVerticalRight",
+      "tags": [
+        "fill",
+        "right",
+        "vertical"
+      ],
+      "description": "Vertical Right icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdVideoCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo",
+        "video"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "AdVideoCameraAdd",
+      "tags": [
+        "add",
+        "camera",
+        "fill",
+        "photo",
+        "video"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "AdWallet",
+      "tags": [
+        "fill",
+        "wallet"
+      ],
+      "description": "Wallet icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWarning",
+      "tags": [
+        "fill",
+        "warning"
+      ],
+      "description": "Warning icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWechat",
+      "tags": [
+        "fill",
+        "wechat"
+      ],
+      "description": "Wechat icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWeibo",
+      "tags": [
+        "fill",
+        "weibo"
+      ],
+      "description": "Weibo icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWeiboCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "weibo"
+      ],
+      "description": "Weibo Circle icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWeiboSquare",
+      "tags": [
+        "fill",
+        "square",
+        "weibo"
+      ],
+      "description": "Weibo Square icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWhatsApp",
+      "tags": [
+        "app",
+        "fill",
+        "whats"
+      ],
+      "description": "Whats App icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWifi",
+      "tags": [
+        "fill",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "AdWindows",
+      "tags": [
+        "fill",
+        "windows"
+      ],
+      "description": "Windows icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdWoman",
+      "tags": [
+        "fill",
+        "woman"
+      ],
+      "description": "Woman icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdYahoo",
+      "tags": [
+        "fill",
+        "yahoo"
+      ],
+      "description": "Yahoo icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdYoutube",
+      "tags": [
+        "fill",
+        "youtube"
+      ],
+      "description": "Youtube icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdYuque",
+      "tags": [
+        "fill",
+        "yuque"
+      ],
+      "description": "Yuque icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdZhihu",
+      "tags": [
+        "fill",
+        "zhihu"
+      ],
+      "description": "Zhihu icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Ant Design Icons (ad) set, fill style."
+    },
+    {
+      "name": "AdZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Ant Design Icons (ad) set, fill style."
+    }
+  ]
+}

@@ -35,6 +35,16 @@
       "bun": "./src/index.ts",
       "import": "./src/index.ts"
     },
+    "./ad": {
+      "svelte": "./src/icons/ad/index.ts",
+      "bun": "./src/icons/ad/index.ts",
+      "import": "./src/icons/ad/index.ts"
+    },
+    "./ad/*": {
+      "svelte": "./src/icons/ad/*.svelte",
+      "bun": "./src/icons/ad/*.svelte",
+      "import": "./src/icons/ad/*.svelte"
+    },
     "./ci": {
       "svelte": "./src/icons/ci/index.ts",
       "bun": "./src/icons/ci/index.ts",

@@ -92,6 +92,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
+| [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
@@ -108,8 +109,10 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | Import                                   | Contents                          |
 | ---------------------------------------- | --------------------------------- |
 | `@mal-icons/svelte`                      | Adapter and context helpers       |
+| `@mal-icons/svelte/ad`                   | All Ant Design icons (named exports)  |
 | `@mal-icons/svelte/ci`                   | All Circum icons (named exports)  |
 | `@mal-icons/svelte/dev`                   | All Devicons icons (named exports)  |
+| `@mal-icons/svelte/ad/AdHome.svelte`    | A single Ant Design icon component    |
 | `@mal-icons/svelte/ci/CiHeart.svelte`    | A single Circum icon component    |
 | `@mal-icons/svelte/dev/DevDreamhost.svelte`    | A single Devicons icon component    |
 | `@mal-icons/svelte/fa`                   | All Font Awesome icons (named exports) |

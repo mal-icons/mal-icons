@@ -7,8 +7,8 @@ Svelte, Solid, Preact, Angular, Astro, vanilla Web, and React Native.
 
 It bundles the full icon catalog (Feather `fi`, Circum `ci`, Ionicons `io`,
 Font Awesome Free `fa`, Font Awesome Free Brands `fab`, Font Awesome Free Regular `far`,
-Typicons `ti`, Octicons `oc`, Devicons `dev`, Weather Icons `wi` —
-7,005 icons) with tags and descriptions, a fast search script, per-framework
+Typicons `ti`, Octicons `oc`, Devicons `dev`, Weather Icons `wi`, Ant Design `ad` —
+7,425 icons) with tags and descriptions, a fast search script, per-framework
 setup guides, and best-practice references.
 
 ## Install
@@ -85,5 +85,5 @@ node scripts/build-packs.mjs
 ## License
 
 [MIT](https://github.com/mal-icons/mal-icons/blob/main/LICENSE) © MALDevs.
-Bundled icon sets keep their upstream licenses — Feather (MIT), Ionicons (MIT), Octicons (MIT), Devicons (MIT), Font Awesome Free (CC-BY-4.0),
+Bundled icon sets keep their upstream licenses — Feather (MIT), Ionicons (MIT), Octicons (MIT), Devicons (MIT), Ant Design (MIT), Font Awesome Free (CC-BY-4.0),
 Circum (MPL-2.0), Typicons (CC-BY-SA-4.0), Weather Icons (OFL-1.1).
