@@ -42,6 +42,24 @@
       "import": "./dist/icons/ci/index.js"
     },
     "./ci/*.json": "./src/icons/ci/*.json",
+    "./fa": {
+      "types": "./dist/icons/fa/index.d.ts",
+      "bun": "./src/icons/fa/index.ts",
+      "import": "./dist/icons/fa/index.js"
+    },
+    "./fa/*.json": "./src/icons/fa/*.json",
+    "./fab": {
+      "types": "./dist/icons/fab/index.d.ts",
+      "bun": "./src/icons/fab/index.ts",
+      "import": "./dist/icons/fab/index.js"
+    },
+    "./fab/*.json": "./src/icons/fab/*.json",
+    "./far": {
+      "types": "./dist/icons/far/index.d.ts",
+      "bun": "./src/icons/far/index.ts",
+      "import": "./dist/icons/far/index.js"
+    },
+    "./far/*.json": "./src/icons/far/*.json",
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
       "bun": "./src/icons/fi/index.ts",

@@ -5,8 +5,9 @@ An [Agent Skill](https://agentskills.io) that teaches AI coding agents how to
 [`@mal-icons/*`](https://github.com/mal-icons/mal-icons) SDK across React, Vue,
 Svelte, Solid, Preact, Angular, Astro, vanilla Web, and React Native.
 
-It bundles the full icon catalog (Feather `fi`, Circum `ci`, Ionicons `io` —
-1,932 icons) with tags and descriptions, a fast search script, per-framework
+It bundles the full icon catalog (Feather `fi`, Circum `ci`, Ionicons `io`,
+Font Awesome Free `fa`, Font Awesome Free Brands `fab`, Font Awesome Free Regular `far` —
+3,992 icons) with tags and descriptions, a fast search script, per-framework
 setup guides, and best-practice references.
 
 ## Install
@@ -66,7 +67,7 @@ mal-icons/
 ├── references/
 │   ├── usage.md              # end-to-end user guide
 │   ├── best-practices.md     # tree-shaking, a11y, SSR, licensing
-│   ├── icons/                # fi/ci/io packs (.json + .md): name, tags, desc
+│   ├── icons/                # fi/ci/io/fa packs (.json + .md): name, tags, desc
 │   └── setup/                # per-framework setup guides
 └── agents/                   # per-agent config descriptors
 ```
@@ -83,5 +84,5 @@ node scripts/build-packs.mjs
 ## License
 
 [MIT](https://github.com/mal-icons/mal-icons/blob/main/LICENSE) © MALDevs.
-Bundled icon sets keep their upstream licenses — Feather (MIT), Ionicons (MIT),
+Bundled icon sets keep their upstream licenses — Feather (MIT), Ionicons (MIT), Font Awesome Free (CC-BY-4.0),
 Circum (MPL-2.0).
