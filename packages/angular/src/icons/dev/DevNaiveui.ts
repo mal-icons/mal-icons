@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-naiveui",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevNaiveui {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M402.6 298q0.5-3 0.6-6.1V481L304 390.4 254.1 345l-30-27.6-13.3-12.2-5-4.5-0.3-0.3-3.5-3c-1.1-0.9-2.1-1.7-3.4-1.3a3 3 0 0 0-1.9 2.2V120l1 1 20.4 18.3 32.2 28.5a6866 6866 0 0 1 81.3 73.8l42.5 39 19.4 17.2 4.1 3.6q1.6 1 3.30.4 1-0.6 1.4-1.7z"}],["path",{"fill":"currentColor","d":"M196.5 299.3q-0.4 3.3-0.3 6.5-0.1 90.80.5 181.7V509a35 35 0 0 1-14 26.3c-16.1 13.5-31.2 28.3-46.8 42.5q-9.7 9-19.7 17.7c-6.8 5.8-24 6.5-33.6-1.5q-11-9.5-20.3-20.6a30 30 0 0 1-8.9-20.6v-5.7l0.1-10.7V172.7a30 30 0 0 1 3.3-14q2-4.3 4.8-8.4l38-38 24.2-24.2q2-2 4.4-3.3 3.6-2 7.6-2.3a33 33 0 0 1 28 8l32.9 29.4v178.2zm345.1 145.4-69.8 64.1-0.80.6-0.30.2-0.50.3a33 33 0 0 1-39.8-4l-4.2-3.6-23.1-21.2V89.5q0.6-5 1.6-9.8c1.6-8.5 9-12.6 14.7-18Q438 45 456.8 28.4l26-23.1C490.3-1.5 505-1.2 512 3a24 24 0 0 1 5 3.8l8 7.7 6.5 6.2 5.9 5.8q2.4 2.2 4.2 5 4.3 7 4 15.3l0.3 104.50.5 268.3v4.2c0.4 9 0.2 15-4.9 20.9"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevNaiveui;

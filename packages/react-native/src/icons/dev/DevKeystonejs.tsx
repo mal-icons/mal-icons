@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevKeystonejs = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-keystonejs-2-a)"}],["path",{"fill":"currentColor","d":"M139.8 0h320.4c48.6 0 66.2 5 84 14.6a99 99 0 0 1 41.2 41.2c9.5 17.8 14.6 35.4 14.6 84v320.4c0 48.6-5 66.2-14.6 84a99 99 0 0 1-41.2 41.2c-17.8 9.5-35.4 14.6-84 14.6H139.8c-48.6 0-66.2-5-84-14.6a99 99 0 0 1-41.2-41.2C5 526.4 0 508.8 0 460.2V139.8c0-48.6 5-66.2 14.6-84a99 99 0 0 1 41.2-41.2C73.6 5 91.2 0 139.8 0M172 154.8v311.6h68.5V366l39.3-39.7 93.8 140h86L326 278l121.7-123.1h-85.5L240.4 284V154.8z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevKeystonejs;

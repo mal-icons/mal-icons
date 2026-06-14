@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-drupal-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevDrupalIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-drupal-icon-1-a)"}],["path",{"fill":"currentColor","d":"M300.1 0A300 300 0 0 1 600 300v0.1A300 300 0 1 1 300.1 0m-1.5 77.2c-8.3 31.1-36 58.8-65.1 88-43.5 43.5-93 92.9-93 167a158.3 158.3 0 0 0 157.9 158c87.3 0 158.2-70.7 158.3-158 0-74.1-49.4-123.4-93-167l-4-4c-27.6-27.7-53.3-54.2-61.1-84m2.1 236.7a878 878 0 0 1 41.6 47.2l2.5 3.5a54.7 54.7 0 1 1-85.1-5.9c11.6-13.7 25.7-27.3 41-44.8m-72.2-72.6 7.6 7.2 35.4 36.2a4 4 0 0 1 0 5.4l-37 40.9-13 15.7a96 96 0 0 0-12.4 19.6q-0.8 1.8-2.7 2.3h-1.3c-3.6-0.3-7.7-7-7.7-7l-0.7-1-2.3-4-0.7-1.5c-5-16.5-5.5-34-1.2-50.8l0.5-1.7q6-21 18.3-38.9 8-11.6 17.2-22.4m70.3-73.2c9.4 10.7 20 21.5 30 31.5l0.30.7q31.5 29.3 56.6 64.4a120 120 0 0 1 22.1 68q0 15.9-4.7 31l-0.10.5q-1.5 3.2-4.9 3.9h-1a9 9 0 0 1-5.1-4.1l-1.7-2.6Q376.7 341.3 360 324l-14.4-15.3-48.2-50.2a436 436 0 0 1-28.8-29.4l-0.7-1.2q-2.5-3.5-3.8-7.5v-1.5a25 25 0 0 1 7.3-22.2c9.4-9.3 18.7-18.5 27.5-28.5"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevDrupalIcon;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-vercel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevVercel {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M299.3 266c-23.4 0-40.3 15.3-40.3 38.2s19 38.2 42.4 38.2c14.2 0 26.7-5.6 34.4-15l-16.2-9.4a24 24 0 0 1-18.2 7.4c-10.1 0-18.8-5.3-22-13.7H339q0.7-3.60.7-7.5c0-22.9-16.9-38.2-40.3-38.2m-20 30.8c2.6-8.4 9.9-13.8 20-13.8s17.4 5.4 20 13.8zM527.7 266c-23.4 0-40.3 15.3-40.3 38.2s19 38.2 42.5 38.2c14.1 0 26.6-5.6 34.3-15L548 318a24 24 0 0 1-18.1 7.4c-10.2 0-18.8-5.3-22-13.7h59.4q0.8-3.60.8-7.5c0-22.9-17-38.2-40.4-38.2m-20 30.8c2.6-8.4 9.9-13.8 20-13.8s17.5 5.4 20.1 13.8zm-82.8 7.4c0 12.8 8.3 21.3 21.2 21.3a20 20 0 0 0 18.7-10.5l16.3 9.4a39 39 0 0 1-35 18c-23.5 0-40.3-15.2-40.3-38.2 0-22.9 16.9-38.2 40.3-38.2 15.6 0 28.2 6.8 35 18l-16.3 9.5a20 20 0 0 0-18.7-10.5c-12.9 0-21.2 8.5-21.2 21.2m175-61.5v97.6h-19.1v-97.6zM78.4 232.1l78.4 135.8H0zm196 10.6-58.7 101.9-58.8-101.9h22l36.8 63.7 36.7-63.7zm125 25.5v20.5q-3-1-6.7-1a20.3 20.3 0 0 0-21.2 21.2v31.4h-19.1v-72.1h19v19.5c0-10.8 12.6-19.5 28-19.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevVercel;

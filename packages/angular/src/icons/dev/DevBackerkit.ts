@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-backerkit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevBackerkit {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M486.3 519.8H280.2l103-224.30.20.3v-0.3h2l64.4 141.8 31.6 71.6zm112.4 54.8L400.2 141a12 12 0 0 0-5.6-6V98.3h95.2v-2.9l-26.1-41.6 26-41.5V8.5h-113v127a13 13 0 0 0-4.9 5.4L264 374.3 193.4 220c-2-3.8-4.5-7-11-7H176c-5.8 0-9 3.2-11 7L27 518.6l-5 11-20.7 45c-3.9 8.4 1.3 16.8 11 16.8h575.5c9.6 0 14.8-8.4 11-16.8"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevBackerkit;

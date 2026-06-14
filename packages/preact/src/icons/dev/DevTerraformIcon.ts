@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevTerraformIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"m400 389.8 164-94.6V105.7l-164 94.8z"}],["path",{"fill":"currentColor","d":"m218 105.7 164 94.8v189.3l-164-94.7M36 189.4l164 94.7V94.7L36 0m182 505.3L382 600V410.6l-164-94.7"}]]);
+
+export default DevTerraformIcon;

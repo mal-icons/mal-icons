@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevMicrosoftWindowsIcon = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-microsoft-windows-icon-1-a)"}],["path",{"fill":"currentColor","d":"M0 0h284.4v284.4H0zm315.6 0H600v284.4H315.6zM0 315.6h284.4V600H0zm315.6 0H600V600H315.6z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevMicrosoftWindowsIcon;

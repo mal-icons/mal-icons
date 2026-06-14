@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-perplexity-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevPerplexityIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M494.6 0v181.8h67.9v258.7h-73.4V600L313.2 445.2v153.6h-27.3V445L109.8 600V438.4H37.5V179.7h72.1V0l176.3 162.4V4.8h27.3V167zM313.2 226.1v183l148.7 130.8V361zm-27.5-2-148.6 135v180.8l148.6-130.8zm203.4 189.5h46.1V208.7H336.5l152.6 138.5zm-224.5-207H64.7v204.9h45V347zM136.9 61.9v117.8h127.9zm330.4 0L339.5 179.7h127.8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevPerplexityIcon;

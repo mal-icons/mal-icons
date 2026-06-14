@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-sap",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevSap {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M0 448.4h303.2L600 151.6H0z"}],["path",{"fill":"currentColor","d":"M356 211h-59.2l0.2 139.3L245.4 211h-51.2l-44 116.4c-4.7-29.6-35.3-39.8-59.4-47.5-16-5-32.8-12.6-32.7-21 0.2-6.7 9-13 26.8-12.1 11.90.6 22.3 1.6 43.2 11.7l20.5-35.8c-19-9.7-45.3-15.8-66.9-15.8h-0.1c-25.2 0-46.1 8.1-59 21.6a49 49 0 0 0-14.2 34.4c-0.3 18.1 6.3 31 20.3 41.3a138 138 0 0 0 40.1 18.3c16.4 5.1 29.8 9.5 29.6 19a14 14 0 0 1-3.8 9.1c-4.1 4.3-10.4 5.9-19 6-16.80.4-29.2-2.3-49-14L8.4 378.9a127 127 0 0 0 64.5 16.8h5.3c20.8-0.4 37.6-5.3 51-16.1l2.1-1.9-2.2 11.6 50-0.2 9-23a98 98 0 0 0 31.5 5q16.7 0 30.8-4.6l6.2 22.6 89.70.10.2-52.3h19.1c46.2 0 73.4-23.5 73.4-62.9 0-43.8-26.5-63-83-63M219.7 330q-10.6 0-19-3.2l18.8-59h0.3l18.4 59.1q-8.3 3.1-18.5 3.2m140-33.8h-13v-47.6h13c17.3 0 31.1 5.7 31.1 23.5 0 18.3-13.8 24-31.2 24"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevSap;

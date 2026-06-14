@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevAwsEc2 = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-aws-ec2-2-a)"}],["path",{"fill":"currentColor","d":"M600 0H0v600h600z"}],["path",{"fill":"currentColor","d":"M202.5 397.5H390V210H202.5zM405 210h30v15h-30v30h30v15h-30v22.5h30v15h-30v30h30v15h-30v30h30v15h-30v1a14 14 0 0 1-14 14h-1v30h-15v-30h-30v30h-15v-30h-22.5v30h-15v-30h-30v30h-15v-30h-30v30h-15v-30h-1a14 14 0 0 1-14-14v-1H165v-15h22.5v-30H165v-15h22.5v-30H165v-15h22.5V270H165v-15h22.5v-30H165v-15h22.5v-1a14 14 0 0 1 14-14h1v-30h15v30h30v-30h15v30h30v-30h15v30H330v-30h15v30h30v-30h15v30h1a14 14 0 0 1 14 14zm-97.5 284q0 1-1 1H106a1 1 0 0 1-0.9-1V293.5q0-0.8 1-0.9h44v-15h-44a16 16 0 0 0-16 16V494a16 16 0 0 0 16 15.9h200.6a16 16 0 0 0 15.9-16v-36.5h-15zM510 106v200.6a16 16 0 0 1-16 15.9h-44v-15h44q1 0 1-1V106q0-0.8-1-0.9H293.5a1 1 0 0 0-0.9 1v44h-15v-44a16 16 0 0 1 16-16H494a16 16 0 0 1 15.9 16"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevAwsEc2;

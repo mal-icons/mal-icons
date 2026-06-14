@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-dataspell-6-a)"}],["path",{"fill":"currentColor","d":"m385.6 0 11.9 243.8-303.7 120L0 121.2z"}],["path",{"fill":"currentColor","d":"M600 142.5 337.5 256.2 385.6 0z"}],["path",{"fill":"currentColor","d":"M321.9 198.7 600 142.5v263.1l-191.2 71.9-78.2-71.3z"}],["path",{"fill":"currentColor","d":"M206.3 121.9 398 151.6l202 251.7L406.2 478l-74.7-74z"}],["path",{"fill":"currentColor","d":"m123.8 0 273.7 151.2L303.1 600H143.7L5.8 457.5z"}],["path",{"fill":"currentColor","d":"M482.8 117.2H117.2v365.6h365.6z"}],["path",{"fill":"currentColor","d":"M294 419.8H157.7v22.4H294zM159.3 164.1h53.4c43.4 0 72.7 29.2 72.7 67.5 0 38.4-29.3 68.6-72.7 68.6l-53.4 1zm30.2 28.2V274h23.2c24.2 0 41.4-16.1 41.4-40.3 0-24.3-16.2-41.4-41.4-41.4zM300 280.5l17.7-21.3a62 62 0 0 0 40.8 16.4c12.2 0 20.1-4.9 20.1-12.8v-0.6c0-7.9-4.9-11.6-27.4-17.7-28-6.7-45.7-14.6-45.7-42v-0.6c0-25 20-41.4 48.1-41.4a78 78 0 0 1 51.2 17.6L389 200.7a64 64 0 0 0-36-13.4c-11.6 0-17.7 5.4-17.7 12.2v0.6c0 9.1 6.1 12.2 29.9 18.2 28 7.4 43.9 17.1 43.9 41.5v0.6c0 27.4-20.7 42.6-50.6 42.6-20.7-0.6-42-7.9-58.5-22.5"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 600 600" {nodes} {...props} />

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-nodeos",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevNodeos {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-nodeos-1-a)"}],["path",{"fill":"currentColor","d":"M231.7 127 300 87.6l68.3 39.4v96.4l75.8 43.8v-184L300 0 155.9 83.2v184l75.8-43.8z"}],["path",{"fill":"currentColor","d":"m429 276-129 74.4-129-74.5 129-74.4z"}],["path",{"fill":"currentColor","d":"M155.9 284.7 19.3 363.5v157.7L156 600l136.5-78.8V363.5zm0 70 75.8 43.8v87.6L156 530l-76-43.9v-87.6zM444.1 530l-75.8-44v-17.5l-60.7-35v87.6L444 600l136.6-78.8v-35L398.7 381l45.4-26.3 75.9 43.8v17.6l60.7 35v-87.6L444 284.7l-136.5 78.8v35l182 105.1z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevNodeos;

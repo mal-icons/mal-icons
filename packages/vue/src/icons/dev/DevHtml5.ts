@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevHtml5 = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M516.3 540 564.5 0h-529l48.1 540 216 60zm-310-363.4 6 67.8h241.4l-1.6 17.8-16.6 185.6L300 485.4h-0.3L164 447.8l-9.3-104h66.5l4.7 52.8 73.8 20 74-20 7.6-86H151.8l-17.9-200.2h331.8l-6 66.2z"}]]);
+
+export default DevHtml5;

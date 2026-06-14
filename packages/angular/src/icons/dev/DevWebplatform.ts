@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-webplatform",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevWebplatform {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M600 517.8v-436a79.5 79.5 0 0 0-159 0v244l135.8 135.8a79 79 0 0 1 23.2 56.2"}],["path",{"fill":"currentColor","d":"m245.4 239.6-88.1 88v191.9c0 22-9 41.7-23.2 56.2l167.5-167.3-56.2-56.3a80 80 0 0 1 0-112.5"}],["path",{"fill":"currentColor","d":"M442.5 327.5 354.8 240c31 30.9 31 81.3 0 112.5l-56.2 56.2L465.9 576a82 82 0 0 1-23.2-56.2V327.5z"}],["path",{"fill":"currentColor","d":"m243.8 353.5 56.2 56.3 56.3-56.3A79.7 79.7 0 0 0 243.8 241a80 80 0 0 0 0 112.5"}],["path",{"fill":"currentColor","d":"M159 325.9 50.5 434c-16 16-36.8 31.7-44.7 53.7a80 80 0 0 0 10 77.6A79 79 0 0 0 89 596.7a81 81 0 0 0 62-44.3 80 80 0 0 0 8-39.8v-77.8l-0.2-109"}],["path",{"fill":"currentColor","d":"M441 325.9V479c0 22.5-2.7 47.9 6 69a80 80 0 0 0 59.3 48c27.8 4.2 56.2-5 74.5-26.7a82 82 0 0 0 15-76.9 81 81 0 0 0-23-34.7l-55-55q-38.4-38.3-76.7-77"}],["path",{"fill":"currentColor","d":"M159 325.9v-244a79.5 79.5 0 0 0-159 0v436a79 79 0 0 1 23.2-56.3z"}],["path",{"fill":"currentColor","d":"M323.7 273.8a33.5 33.5 0 0 0-47.1 0 33.5 33.5 0 0 0 0 47.1 33.5 33.5 0 0 0 47 0 33.7 33.7 0 0 0 0-47M79.5 115.2a33.3 33.3 0 1 0 0-66.6 33.3 33.3 0 0 0 0 66.6m441 0a33.3 33.3 0 1 0 0-66.6 33.3 33.3 0 0 0 0 66.6m-441 435.9a33.3 33.3 0 1 0 0-66.6 33.3 33.3 0 0 0 0 66.6m441 0a33.3 33.3 0 1 0 0-66.6 33.3 33.3 0 0 0 0 66.6"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevWebplatform;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevRubymine = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-rubymine-4-a)"}],["path",{"fill":"currentColor","d":"M499 0 327.3 61.5 192 0l-44.6 112.3h-28.8v331.3l416.7 3.6 64.7-330z"}],["path",{"fill":"currentColor","d":"M493.9 215.3 219.7 52.8l274.2 321.4z"}],["path",{"fill":"currentColor","d":"M249.8 584.4 474 554.5l-34.8-67h54.7V374.3l-274.3-322L0 106.3l0.3 315L126.5 600l122.6-15.6z"}],["path",{"fill":"currentColor","d":"M118.8 112.5h375v375h-375z"}],["path",{"fill":"currentColor","d":"M165.5 416.6h140.6v23.5H165.5zm139-257.4h33.4l37 59.6 37.1-59.6h33.4v141h-30.8v-92l-39.6 60h-0.8L335 208.8V300h-30.5zm-138.90.2H230q26.7 0 41 14.2a44 44 0 0 1 12 32.2v0.5a44 44 0 0 1-30.1 43.6l34.4 50h-36.2l-29.2-43.2h-25.6v43.2h-30.7zm62.5 68.2c6.30.2 12.5-1.8 17.3-5.7 4.2-3.7 6.4-9 6.3-14.5v-0.4c0.5-5.7-1.9-11.3-6.3-15a28 28 0 0 0-17.8-5.1h-31.2v40.4z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevRubymine;

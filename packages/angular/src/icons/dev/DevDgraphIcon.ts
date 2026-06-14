@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-dgraph-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevDgraphIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M455.2 108A72.8 72.8 0 0 0 391 0c-33.6 0-62.8 23-70.9 55.5l-20.2-0.8A252.3 252.3 0 0 0 119.4 483a73.1 73.1 0 1 0 126.4 70.2q26.8 6 54.2 6A252.3 252.3 0 0 0 455.2 108M391 118q-5.7 0-11.3-1.5l-30.3 88 44.2-7.3-62.3 101.6 51.8-12.6-174.6 208.2a44.8 44.8 0 0 1-54.9 70.4A44.8 44.8 0 0 1 194 485l49.4-108-48.2 13.1 78.5-112.4-48.3 11.7L362.3 107a44.8 44.8 0 1 1 28.8 10.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevDgraphIcon;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevTestcafe = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"m372.4 364-20.7 21.4h82.8l82.8 74.7H82.8l82.7-74.7h62.1L206.9 364h-62L0 492.1h600l-144.8-128z"}],["path",{"fill":"currentColor","d":"M556.5 159.6 505 108 288.8 325.3l-82.3-82.9-51.4 51.8 133.8 134.6z"}]]);
+
+export default DevTestcafe;

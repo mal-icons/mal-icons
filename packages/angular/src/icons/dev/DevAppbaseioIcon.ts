@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-appbaseio-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevAppbaseioIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-appbaseio-icon-1-a)"}],["path",{"fill":"currentColor","d":"M300 0a300 300 0 1 1 0 600 300 300 0 0 1 0-600m0 16.7a283.3 283.3 0 1 0 0 566.5 283.3 283.3 0 0 0 0-566.5m-32.3 167a42.2 42.2 0 0 1 41.7 48l94.8 26.2a28.7 28.7 0 1 1 0.4 32.4l-116.4 61a60.1 60.1 0 1 1-42.2-34.6l8.1-50.9a42.2 42.2 0 0 1 13.6-82.1m39 58a42 42 0 0 1-42.6 26.2l-8.3 52a60 60 0 0 1 27.5 22.5l117-61.4a30 30 0 0 1-0.2-13.7z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevAppbaseioIcon;

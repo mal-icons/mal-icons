@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-vitess",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevVitess {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M0 26.1h120.4l60.5 110.7 24.3 44.7 47 86.8 27 50 20.4 37.4 15-27.4 43.8-80.7 39.4-71.3 21.4-38.8 61-111.4H600l-53.8 97.6L478 247.3l-62.4 112.8-118 213.7L406.3 377 297.6 573.9l-56.8-104.2-50.3-92.7-9.8-18-60-110.4-5.7-10.3-10.7-19.4z"}],["path",{"fill":"currentColor","d":"M339.1 360.5v-0.3l19.3-112.6zM478 247.4 415.6 360l-118 213.7 118-213.7zl68.2-123.7zm2.1-221.2-20 36.6zM120.6 248.6l-5.6-10.3zL180.7 359l9.8 18-9.8-18z"}],["path",{"fill":"currentColor","d":"m180.9 136.8 24.2 44.7 47 86.8-47-86.8zL120.4 26.2zM317.8 389l0.30.5 11.3 20.9zm80-212.8-39.4 71.3-43.8 80.7 43.8-80.7z"}],["path",{"fill":"currentColor","d":"M240.8 469.7 297.6 574 329 413z"}],["path",{"fill":"currentColor","d":"m329.4 410.5-11.3-20.9-38.9-71.4-38.4 151.5 88.1-56.7z"}],["path",{"fill":"currentColor","d":"m180.7 359 9.8 18 50.3 92.7 38.4-151.5z"}],["path",{"fill":"currentColor","d":"m180.7 359 98.5-40.8-27-49.9-47-86.8z"}],["path",{"fill":"currentColor","d":"m339.1 360.5 19.3-112.9-43.8 80.7-15 27.5 18.2 33.3 11.6 21.4z"}],["path",{"fill":"currentColor","d":"M120.6 248.6 180.7 359l24.4-177.4z"}],["path",{"fill":"currentColor","d":"M415.6 360.1 478 247.4 339.2 360.2z"}],["path",{"fill":"currentColor","d":"m180.9 136.8-39.2 72.7-21 39.1 84.4-67zm158.3 223.4 80-222.7-21.4 38.8-39.4 71.3z"}],["path",{"fill":"currentColor","d":"m120.6 248.6 21.1-39.1 39.2-72.7-76.5 82v0.1l10.6 19.4z"}],["path",{"fill":"currentColor","d":"m478 247.4-58.8-109.9-80 222.7zm-373.6-28.5 76.5-82.1-60.5-110.6z"}],["path",{"fill":"currentColor","d":"m478 247.4 2.2-221.2-20 36.6-41 74.7zM120.4 26H0l104.3 193z"}],["path",{"fill":"currentColor","d":"M480.2 26.1 478 247.5l68.2-123.7L600 26zm-141 334.1v0.3l-9.8 50-0.5 2.5-31.3 161 118-213.8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevVitess;

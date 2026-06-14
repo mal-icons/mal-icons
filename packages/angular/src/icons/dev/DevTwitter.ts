@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-twitter",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevTwitter {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M600 114q-33.2 14.7-70.7 19.3c25.4-15.2 45-39.4 54.1-68.1a247 247 0 0 1-78.1 29.9 123.1 123.1 0 0 0-209.8 112.3A350 350 0 0 1 41.8 78.6 123 123 0 0 0 79.9 243c-20.2-0.6-39.2-6.1-55.8-15.3v1.5a123 123 0 0 0 98.7 120.7 123 123 0 0 1-55.5 2.1 123 123 0 0 0 115 85.5A247 247 0 0 1 0 488.5a348 348 0 0 0 188.7 55.3c226.4 0 350.2-187.6 350.2-350.2q0-8-0.3-16c24-17.3 44.9-39 61.4-63.7"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevTwitter;

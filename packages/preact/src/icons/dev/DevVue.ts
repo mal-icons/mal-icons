@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevVue = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"M480 41.3h120L300 558.8 0 41.3h229.5l70.5 120 69-120z"}],["path",{"fill":"currentColor","d":"m0 41.3 300 517.5L600 41.3H480L300 351.8 118.5 41.3z"}],["path",{"fill":"currentColor","d":"m118.5 41.3 181.5 312 180-312H369l-69 120-70.5-120z"}]]);
+
+export default DevVue;

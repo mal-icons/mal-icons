@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevMillionIcon = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-million-icon-5-a)"}],["path",{"fill":"currentColor","d":"M152.3 446.4C180 407 236.1 380 301 380s121 27 148.6 66.5C421.9 486 365.7 513 300.9 513s-121-27-148.6-66.6"}],["path",{"fill":"currentColor","d":"M151.3 152.9C179 113.8 235.1 87 299.8 87s121 26.8 148.5 65.9c-27.6 39-83.7 65.8-148.5 65.8S179 192 151.3 153"}],["path",{"fill":"currentColor","d":"M302.7 300.8a218 218 0 0 1-151.4 60.5A218 218 0 0 1 0 300.8l151.3-148z"}],["path",{"fill":"currentColor","d":"M600 300.9a218 218 0 0 1-151.3 60.5 218 218 0 0 1-151.4-60.5l151.4-148z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevMillionIcon;

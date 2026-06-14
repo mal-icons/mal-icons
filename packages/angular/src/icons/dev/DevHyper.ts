@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-hyper",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevHyper {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M30.9 48.9H569c10.6 0 19.2 8.6 19.2 19.1v463.3c0 10.6-8.6 19.1-19.2 19.1H31a19 19 0 0 1-19.2-19V68A19 19 0 0 1 31 49"}],["path",{"fill":"currentColor","d":"M16.8 72v456c0 9.3 7.5 16.8 16.8 16.8h532.8c9.3 0 16.8-7.5 16.8-16.8V72c0-9.3-7.5-16.8-16.8-16.8H33.6c-9.3 0-16.8 7.5-16.8 16.8M0 72c0-18.6 15-33.7 33.6-33.7h532.8A33.7 33.7 0 0 1 600 72v456c0 18.6-15 33.7-33.6 33.7H33.6A33.7 33.7 0 0 1 0 528z"}],["path",{"fill":"currentColor","d":"M178.5 233.6h90.2V251h-90.2zM151 188.2l-79.5 71.4L96.3 197l-35-23.5 79.5-71.4-26.9 66.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevHyper;

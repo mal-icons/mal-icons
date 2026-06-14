@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevYcombinator = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-ycombinator-1-a)"}],["path",{"fill":"currentColor","d":"M600 0H0v600h600z"}],["path",{"fill":"currentColor","d":"m279.8 339.2-103-192.9h47l60.6 122.1q1.4 3.3 3.3 6.8t3.3 7.2l1.4 2.60.9 2a155 155 0 0 1 7.5 17.3q3.7-8 8.1-17 4.5-9 9-18.9l61.6-122h43.8l-104 195.2V466h-39.5z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevYcombinator;

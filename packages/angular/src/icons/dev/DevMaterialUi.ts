@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-material-ui",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevMaterialUi {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M505.7 394.8c5.2-3 8.4-8.4 8.4-14.4l0.3-96.4c0-6 3.2-11.5 8.3-14.4l52.3-30a16.7 16.7 0 0 1 25 14.4v175.3c0 6-3.2 11.5-8.4 14.5L394.3 557c-5.1 3-11.4 3-16.6 0L223 468.6c-5.2-3-8.4-8.5-8.4-14.5v-88.4q0-0.20.2-0.1l0.2-0.1v-0.1l0.1-0.2 127.5-73.3q0.2-0.1 0-0.2-0.2 0-0.2-0.2l0.3-86.7a16.7 16.7 0 0 0-25-14.5L222.8 245c-5.1 3-11.5 3-16.6 0L111 190.2a16.7 16.7 0 0 0-25 14.4v156.7a16.7 16.7 0 0 1-25 14.5L8.5 345.6c-5.2-3-8.4-8.5-8.4-14.5L0.5 57.3a16.7 16.7 0 0 1 25-14.4l180.7 103.8c5.1 3 11.5 3 16.6 0L403.5 42.9a16.7 16.7 0 0 1 25 14.4v274c0 6-3.2 11.4-8.4 14.4l-94.6 54.5a16.7 16.7 0 0 0 0 29l52.2 29.6c5.2 3 11.5 3 16.6 0zm11-245.7a16.7 16.7 0 0 0 25.2 14.3l50-30c5-3 8.1-8.4 8.1-14.3V58a16.7 16.7 0 0 0-25.2-14.3l-50 30c-5 3-8.1 8.4-8.1 14.3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevMaterialUi;

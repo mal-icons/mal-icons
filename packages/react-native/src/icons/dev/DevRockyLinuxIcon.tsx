@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevRockyLinuxIcon = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-rocky-linux-icon-1-a)"}],["path",{"fill":"currentColor","d":"M583.3 399A300 300 0 1 0 86.2 510.4L390.5 206l75.1 75.2zm-54.8 95.4-138-138-216.1 216.1A299 299 0 0 0 300 600c91.5 0 173.5-41 228.5-105.6"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevRockyLinuxIcon;

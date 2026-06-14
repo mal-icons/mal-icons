@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevKickstarterIcon = createIcon("0 0 600 600", [["path",{"fill":"currentColor","d":"m468.8 300.1 54.5-54.2a143.6 143.6 0 0 0 0-203.7 146 146 0 0 0-205 0l-20 19.8a145 145 0 0 0-119-62c-80.1 0-145 64.5-145 144v312c0 79.5 64.9 144 145 144a145 145 0 0 0 119-62l20 19.8a146 146 0 0 0 205 0 143.6 143.6 0 0 0 0-203.7z"}]]);
+
+export default DevKickstarterIcon;

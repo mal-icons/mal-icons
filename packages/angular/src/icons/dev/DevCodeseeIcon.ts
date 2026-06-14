@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-codesee-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevCodeseeIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m230 128 27.5 70c-41.9 16.5-96.7 54.8-150 102.4 53.3 47.6 108.1 85 150 103L230.8 472C163.7 443.1 81.5 379.7 0 299.6l4.9-4.7C84.7 217 164.3 156.3 230 128m140 0c67 28.9 148.5 91.6 230 171.6l-4.9 4.8C515.2 382.2 435 443.7 369.2 472l-26.7-68.5c41.9-18 96.7-55.5 150-103.1l-4.3-3.9c-52-45.8-105-82.4-145.7-98.5zm-70 116.8a57 57 0 1 1 0 114 57 57 0 0 1 0-114"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevCodeseeIcon;

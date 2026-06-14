@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-wakatime",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevWakatime {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-wakatime-1-a)"}],["path",{"fill":"currentColor","d":"M300 0a300 300 0 1 1 0 600 300 300 0 0 1 0-600m0 70.6a229.4 229.4 0 1 0 0 458.8 229.4 229.4 0 0 0 0-458.8M427.4 197c12.7 0 22.6 10.9 22.6 24a25 25 0 0 1-4.5 14.3l-0.20.3L342.8 382l-0.20.3a22 22 0 0 1-24.4 7.9l-1.7-0.7-0.5-0.2-0.9-0.4-0.4-0.3-0.4-0.2-0.2-0.1-0.8-0.5-0.5-0.3-1.6-1.2-0.5-0.5-0.8-0.7-0.2-0.1a26 26 0 0 1-4-5.1l-0.2-0.4-8-13-8 13-0.10.2c-4 6.9-11 11.4-18.8 11.6h-0.6c-8 0-15.2-4.5-19.2-11.4l-0.3-0.5-67.7-98.6-0.1-0.2q-4.8-6.3-5.2-14.6v-0.7c0-13.1 9.9-24 22.5-24 7.9 0 15 4.3 19 11l0.10.2L269 326l8.8-14.4v-0.1c3.9-7.3 11-12.1 19.2-12.3h0.6c7.8 0 14.9 4.2 19 11l9.6 15.8 82.4-118 0.1-0.1c4-6.4 10.7-10.5 18.2-10.7z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevWakatime;

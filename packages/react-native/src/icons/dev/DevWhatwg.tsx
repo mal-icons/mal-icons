@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const DevWhatwg = createIcon("0 0 600 600", [["g",{"clipPath":"url(#devicon-whatwg-1-a)"}],["path",{"fill":"currentColor","d":"M300 570a270 270 0 1 0 0-540 270 270 0 0 0 0 540"}],["path",{"fill":"currentColor","d":"M300 600a300 300 0 1 0 0-600 300 300 0 0 0 0 600m0-60a240 240 0 1 1 0-480 240 240 0 0 1 0 480"}],["path",{"fill":"currentColor","d":"M228 228c0-72 144-90 138-12 0 54-96 78-96 138v42h60v-24c0-54 102-72 102-162-12-132-270-132-270 18zm42 192h60v60h-60z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevWhatwg;

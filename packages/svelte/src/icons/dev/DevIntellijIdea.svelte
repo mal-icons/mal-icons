@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-intellij-idea-4-a)"}],["path",{"fill":"currentColor","d":"M95 423.2 6.8 353.5l51.9-96.2 78 26.1z"}],["path",{"fill":"currentColor","d":"m600 160-10.8 347.4L358 600l-126-81.2z"}],["path",{"fill":"currentColor","d":"M600 160 485.6 271.4 338.7 91.3l72.5-81.5z"}],["path",{"fill":"currentColor","d":"M232.2 518.8 48.4 585.2l38.5-134.8 49.8-167L0 237.7 86.9 0l196.4 23.2 202.3 248.3z"}],["path",{"fill":"currentColor","d":"M115.2 112.5h375v375h-375z"}],["path",{"fill":"currentColor","d":"M162 416.6h140.6v23.5H161.9zm70-231.5v-25.6h-70v25.6h19.7v88.5h-19.6v25.6h70v-25.6h-19.6v-88.5zM298.8 301l0.40.3c-9.50.3-19-1.9-27.4-6.3q-10.6-5.6-18.3-14.7l19.3-21.6q5.3 6 12.1 10.2a25 25 0 0 0 13.5 3.8 18 18 0 0 0 13.7-5.4 26 26 0 0 0 5-17.7v-90.2h31.2v91.5q0.3 11.3-3.4 21.8a41 41 0 0 1-25.5 25 62 62 0 0 1-20.6 3.3"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 600 600" {nodes} {...props} />

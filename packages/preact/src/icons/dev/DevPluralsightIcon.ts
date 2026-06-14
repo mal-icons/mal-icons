@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const DevPluralsightIcon = createIcon("0 0 600 600", [["g",{"clip-path":"url(#devicon-pluralsight-icon-2-a)"}],["path",{"fill":"currentColor","d":"M600 300a300 300 0 1 1-600 0 300 300 0 0 1 600 0"}],["path",{"fill":"currentColor","d":"M222.9 144v312l270-155.9zm25.8 44.9 192.5 111-192.5 111.2z"}],["path",{"fill":"currentColor","d":"M160.8 178.1v243.7l211-121.8zm25.9 44.8 133.5 77-133.5 77.2z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]]);
+
+export default DevPluralsightIcon;

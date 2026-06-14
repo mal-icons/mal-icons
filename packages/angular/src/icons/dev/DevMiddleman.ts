@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-middleman",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevMiddleman {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-middleman-1-a)"}],["path",{"fill":"currentColor","d":"M548.4 0H51.6C23 0 0 23 0 51.6v496.8C0 577 23 600 51.6 600h496.8c28.5 0 51.6-23 51.6-51.6V51.6C600 23 577 0 548.4 0"}],["path",{"fill":"currentColor","fill-opacity":".3","d":"M276.8 443.4V160l-69 9.7-52.7 102.2-50.1-90-58 9.1v223.5l54.6 9.3V282.2L155 382.8h1.2l56.2-101v152zm-231-316.9v29.3L301 113.6V76zm0 346.6L301 523.4V486L45.8 443.7z"}],["path",{"fill":"currentColor","d":"M301 76.1v37.5l255.1 42.2v-29.3zm254 338.3V190.9l-58-9.2-50.1 90-52.7-102.1-69-9.7v283.5l64.4-9.5v-152l56.2 101h1.2l53.4-100.7v141.5zm-254 109L556.1 473v-29.4L301 486z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevMiddleman;

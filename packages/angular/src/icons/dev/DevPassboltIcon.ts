@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-dev-passbolt-icon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class DevPassboltIcon {
+  readonly viewBox = "0 0 600 600";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M323.2 27.5h1l2.50.2a60 60 0 0 1 34.7 14l2 1.8 1.8 1.7 218.2 219.3c21.9 22 22 56.30.9 78.9l-1.5 1.5-1.5 1.4L355 556.1a61 61 0 0 1-81.3 1.8l-1.6-1.5-1.5-1.4-126.4-127a4 4 0 0 1 0.6-6c26.6-17.8 46-44.6 54.5-75.3l0.8-3.10.8-3.2a4 4 0 0 1 3-3h95q3.10.2 3.9 3.1V378c0 11 8.3 20.3 19 21.5l1.40.2h47.7c11.2 0 20.4-8.3 21.6-19l0.1-1.4v-38a4 4 0 0 1 3.2-3.8h17.3c11.3 0 20.6-8.4 21.8-19.3l0.1-1.4v-25.3c0-11.5-8.4-20.9-19.3-22.2h-1.3l-1.3-0.1H199.6q-2.6-0.1-3.6-2.5a134 134 0 0 0-61.8-71.2l-3-1.5-2.8-1.5a4 4 0 0 1-1.4-5.7l0.5-0.6 153.3-142a62 62 0 0 1 37-16.3l2.5-0.2h3m-256 219.2c37 0 67 29.4 67 65.9 0 36.4-30 65.9-67 65.9A67 67 0 0 1 0 312.5c0-36.4 30-65.8 67.1-65.8"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default DevPassboltIcon;

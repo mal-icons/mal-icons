@@ -1,0 +1,9 @@
+<script lang="ts">
+  import type { NodeTuple } from "@mal-icons/core";
+  import IconBase from "../../IconBase.svelte";
+
+  const nodes: NodeTuple[] = [["g",{"clip-path":"url(#devicon-rider-4-a)"}],["path",{"fill":"currentColor","d":"M600 233.4 179.4 0 461 418.4l57.9-37.9z"}],["path",{"fill":"currentColor","d":"m432.2 138.3-52.7-129-116.6 114.9 47.7 416.4 113 59.4L600 497z"}],["path",{"fill":"currentColor","d":"M179.4 0 0 120.8l66.7 412 172 66.2L461 418.4z"}],["path",{"fill":"currentColor","d":"M112.5 113.3h375v375h-375z"}],["path",{"fill":"currentColor","d":"M159.3 417.4h140.6v23.4H159.3zm0-257.8h64.5c15-0.9 29.8 4.3 41 14.3a45 45 0 0 1 12.2 30.4v2.3a44 44 0 0 1-30.3 43.7l34.5 50.4h-36.3l-30.2-45.1h-24v45h-31.3zm62.6 68.8c14.6 0 23.2-7.6 23.8-18.8v-1.5c0-13.3-9.3-20.2-24.4-20.2h-30.7v40.5zm80.8-68.8h55c43.6 0 74 29.5 75 68.3v2.3c0 39.7-30.6 70.5-75 70.5h-55zm31.2 28v85h24a40 40 0 0 0 42.6-40.3v-2.2a40.6 40.6 0 0 0-42.6-42.5z"}],["path",{"fill":"currentColor","d":"M0 0h600v600H0z"}]];
+  let props = $props();
+</script>
+
+<IconBase viewBox="0 0 600 600" {nodes} {...props} />
