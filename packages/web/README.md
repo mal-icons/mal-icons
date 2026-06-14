@@ -123,6 +123,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
@@ -137,7 +138,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ----------------------------------- | ------------------------------------------------- |
 | `@mal-icons/web`                    | Renderer, custom element, CDN loader              |
 | `@mal-icons/web/ci`                 | The Circum set as a `{ name: IconData }` object   |
+| `@mal-icons/web/dev`                 | The Devicons set as a `{ name: IconData }` object   |
 | `@mal-icons/web/ci/CiHeart.json`    | A single Circum icon's JSON data                  |
+| `@mal-icons/web/dev/DevDreamhost.json`    | A single Devicons icon's JSON data                  |
 | `@mal-icons/web/fa`                 | The Font Awesome set as a `{ name: IconData }` object  |
 | `@mal-icons/web/fab`                 | The Font Awesome Brands set as a `{ name: IconData }` object  |
 | `@mal-icons/web/far`                 | The Font Awesome Regular set as a `{ name: IconData }` object  |

@@ -125,6 +125,18 @@ const SET_META = {
     blurb:
       "GitHub's UI icons, shipped in size variants (component names keep the size suffix, e.g. `OcAlert16`/`OcAlert24`). Paths paint with `currentColor`; theme via `color`.",
   },
+  dev: {
+    id: "dev",
+    name: "Devicons",
+    prefix: "Dev",
+    version: "2.0.1",
+    license: "MIT",
+    repo: "vorillaz/devicons",
+    style: "fill",
+    viewBox: "0 0 600 600",
+    blurb:
+      "Developer brand logos & icons (e.g. `DevReact`, `DevDreamhost`). Many ship a plain and an `Icon` variant. Paths paint with `currentColor`; theme via `color`.",
+  },
 };
 
 /**

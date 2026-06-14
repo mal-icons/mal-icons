@@ -3,7 +3,7 @@ name: mal-icons
 description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Font Awesome Free solid "fa" / brands "fab" /
-  regular "far", Typicons "ti", Octicons "oc" — 5,061 icons) across
+  regular "far", Typicons "ti", Octicons "oc", Devicons "dev" — 6,786 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -30,11 +30,14 @@ helps you choose icons and wire them into any supported framework correctly.
 | `far` | Font Awesome Free Regular | `Far` | fill | 163 | CC-BY-4.0 | `0 0 512 512` |
 | `ti` | Typicons | `Ti`   | fill   |   336 | CC-BY-SA-4.0 | `0 0 24 24`   |
 | `oc` | Octicons | `Oc`   | fill   |   733 | MIT     | `0 0 16 16`   |
+| `dev` | Devicons | `Dev` | fill  |  1725 | MIT     | `0 0 600 600` |
 
 Component names are PascalCase with the set prefix: `FiActivity`, `CiHeart`,
 `IoHeartOutline`. Ionicons ships filled, `-outline`, and `-sharp` variants
 (`IoHeart`, `IoHeartOutline`, `IoHeartSharp`). Octicons ship size variants, so
 their component names keep the pixel-size suffix (`OcAlert16`, `OcAlert24`).
+Devicons are developer brand logos; many ship a plain and an `Icon` variant
+(`DevReact`, `DevReactIcon`).
 
 ## Finding an icon
 
@@ -59,6 +62,7 @@ catalog (name, tags, description) lives in:
 - [references/icons/far.json](references/icons/far.json) · [far.md](references/icons/far.md) — Font Awesome Free Regular
 - [references/icons/ti.json](references/icons/ti.json) · [ti.md](references/icons/ti.md) — Typicons
 - [references/icons/oc.json](references/icons/oc.json) · [oc.md](references/icons/oc.md) — Octicons
+- [references/icons/dev.json](references/icons/dev.json) · [dev.md](references/icons/dev.md) — Devicons
 
 Prefer the JSON packs for programmatic lookups; the `.md` tables are for
 human browsing. Regenerate both with `node scripts/build-packs.mjs`.
@@ -124,4 +128,4 @@ Swap `react` for any package: `vue`, `svelte`, `solid`, `preact`, `angular`,
 2. Use the package that matches their framework; default to per-icon or set
    barrel imports for tree-shaking.
 3. Open the relevant `references/setup/<framework>.md` for the exact API.
-4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) is CC-BY-4.0; Typicons (`ti`) is CC-BY-SA-4.0; Feather/Ionicons/Octicons are MIT.
+4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) is CC-BY-4.0; Typicons (`ti`) is CC-BY-SA-4.0; Feather/Ionicons/Octicons/Devicons are MIT.
