@@ -4,7 +4,7 @@ description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf" — 12,274 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx" — 12,592 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -37,6 +37,7 @@ helps you choose icons and wire them into any supported framework correctly.
 | `ad` | Ant Design Icons | `Ad` | fill |   420 | MIT | `0 0 1024 1024` |
 | `fc` | Flat Color Icons | `Fc` | color |   312 | CC-BY-4.0 | `0 0 48 48` |
 | `gr` | Grommet  | `Gr`   | stroke |   637 | Apache-2.0 | `0 0 24 24` |
+| `rx` | Radix Icons | `Rx` | fill | 318 | MIT | `0 0 15 15` |
 | `tf` | Themify | `Tf` | fill | 352 | OFL-1.1 | `0 0 17 17` |
 | `vsc` | Codicons | `Vsc` | fill | 604 | CC-BY-4.0 | `0 0 16 16` |
 | `cg` | css.gg | `Cg` | fill | 704 | MIT | `0 0 24 24` |
@@ -87,6 +88,7 @@ catalog (name, tags, description) lives in:
 - [references/icons/ad.json](references/icons/ad.json) · [ad.md](references/icons/ad.md) — Ant Design Icons
 - [references/icons/fc.json](references/icons/fc.json) · [fc.md](references/icons/fc.md) — Flat Color Icons
 - [references/icons/gr.json](references/icons/gr.json) · [gr.md](references/icons/gr.md) — Grommet
+- [references/icons/rx.json](references/icons/rx.json) · [rx.md](references/icons/rx.md) — Radix Icons
 - [references/icons/tf.json](references/icons/tf.json) · [tf.md](references/icons/tf.md) — Themify
 - [references/icons/vsc.json](references/icons/vsc.json) · [vsc.md](references/icons/vsc.md) — Codicons
 - [references/icons/cg.json](references/icons/cg.json) · [cg.md](references/icons/cg.md) — css.gg

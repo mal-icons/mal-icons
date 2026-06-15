@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-star-filled",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxStarFilled {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.22 0.67C7.33 0.42 7.67 0.42 7.78 0.67L9.41 4.6C9.46 4.7 9.55 4.78 9.67 4.78L13.91 5.12C14.18 5.15 14.29 5.48 14.09 5.65L10.85 8.42C10.76 8.5 10.73 8.61 10.75 8.72L11.74 12.87C11.8 13.13 11.52 13.33 11.29 13.19L7.66 10.97C7.56 10.91 7.44 10.91 7.34 10.97L3.71 13.19C3.48 13.33 3.2 13.13 3.26 12.87L4.25 8.72C4.27 8.61 4.24 8.5 4.15 8.42L0.91 5.65C0.71 5.48 0.82 5.15 1.09 5.12L5.33 4.78C5.45 4.78 5.54 4.7 5.59 4.6L7.22 0.67Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxStarFilled;

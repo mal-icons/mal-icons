@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-archive",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxArchive {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.31 1C2.93 1 2.58 1.21 2.41 1.55L1.05 4.28C1.02 4.35 1 4.42 1 4.5V13C1 13.55 1.45 14 2 14H13C13.55 14 14 13.55 14 13V4.5C14 4.42 13.98 4.35 13.95 4.28L12.59 1.55C12.42 1.21 12.07 1 11.69 1L7.5 1L3.31 1ZM3.31 2L7 2V4H2.31L3.31 2ZM8 4V2L11.69 2L12.69 4H8ZM7.5 5H13V13H2V5H7.5ZM5.5 7C5.22 7 5 7.22 5 7.5C5 7.78 5.22 8 5.5 8H9.5C9.78 8 10 7.78 10 7.5C10 7.22 9.78 7 9.5 7H5.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxArchive;

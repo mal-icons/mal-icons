@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-lap-timer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxLapTimer {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.5 0.5C5.5 0.22 5.72 0 6 0H7.5H9C9.28 0 9.5 0.22 9.5 0.5C9.5 0.78 9.28 1 9 1H8V2.12C9.1 2.2 10.12 2.57 10.99 3.14C11.01 3.11 11.03 3.08 11.06 3.06L12.06 2.06C12.3 1.81 12.7 1.81 12.94 2.06C13.19 2.3 13.19 2.7 12.94 2.94L11.97 3.92C13.16 5.08 13.9 6.7 13.9 8.5C13.9 12.03 11.03 14.9 7.5 14.9C3.97 14.9 1.1 12.03 1.1 8.5C1.1 5.13 3.7 2.37 7 2.12V1H6C5.72 1 5.5 0.78 5.5 0.5ZM2.1 8.5C2.1 5.52 4.52 3.1 7.5 3.1C10.48 3.1 12.9 5.52 12.9 8.5C12.9 11.48 10.48 13.9 7.5 13.9C4.52 13.9 2.1 11.48 2.1 8.5ZM7.5 8.5V4.1C5.07 4.1 3.1 6.07 3.1 8.5C3.1 10.93 5.07 12.9 7.5 12.9C8.72 12.9 9.82 12.41 10.61 11.61L7.5 8.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxLapTimer;

@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  rx: {
+    id: "rx",
+    name: "Radix Icons",
+    prefix: "Rx",
+    version: "0.0.17",
+    license: "MIT",
+    repo: "radix-ui/icons",
+    style: "fill",
+    viewBox: "0 0 15 15",
+    blurb:
+      "Crisp 15×15 UI icons by the Radix team (`RxAccessibility`, `RxGear`). Single-color fill; theme via `color`.",
+  },
   tf: {
     id: "tf",
     name: "Themify",

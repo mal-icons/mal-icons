@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-layers",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxLayers {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.75 0.82C7.6 0.73 7.4 0.73 7.25 0.82L1.75 4.07C1.59 4.16 1.5 4.32 1.5 4.5C1.5 4.68 1.59 4.84 1.75 4.93L7.25 8.18C7.4 8.27 7.6 8.27 7.75 8.18L13.25 4.93C13.41 4.84 13.5 4.68 13.5 4.5C13.5 4.32 13.41 4.16 13.25 4.07L7.75 0.82ZM7.5 7.17L2.98 4.5L7.5 1.83L12.02 4.5L7.5 7.17ZM1.57 7.5C1.71 7.26 2.02 7.18 2.25 7.32L7.5 10.42L12.75 7.32C12.98 7.18 13.29 7.26 13.43 7.5C13.57 7.73 13.49 8.04 13.25 8.18L7.75 11.43C7.6 11.52 7.4 11.52 7.25 11.43L1.75 8.18C1.51 8.04 1.43 7.73 1.57 7.5ZM1.57 10.5C1.71 10.26 2.02 10.18 2.25 10.32L7.5 13.42L12.75 10.32C12.98 10.18 13.29 10.26 13.43 10.5C13.57 10.73 13.49 11.04 13.25 11.18L7.75 14.43C7.6 14.52 7.4 14.52 7.25 14.43L1.75 11.18C1.51 11.04 1.43 10.73 1.57 10.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxLayers;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-image",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxImage {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2.5 1H12.5C13.33 1 14 1.67 14 2.5V12.5C14 13.33 13.33 14 12.5 14H2.5C1.67 14 1 13.33 1 12.5V2.5C1 1.67 1.67 1 2.5 1ZM2.5 2C2.22 2 2 2.22 2 2.5V8.36L3.68 6.68C3.77 6.6 3.89 6.55 4.01 6.55C4.13 6.55 4.25 6.6 4.33 6.69L7.87 10.49L10.68 7.68C10.86 7.51 11.14 7.51 11.32 7.68L13 9.36V2.5C13 2.22 12.78 2 12.5 2H2.5ZM2 12.5V9.64L3.99 7.65L7.53 11.44L8.94 13H2.5C2.22 13 2 12.78 2 12.5ZM12.5 13H10.15L8.48 11.15L11 8.64L13 10.64V12.5C13 12.78 12.78 13 12.5 13ZM6.65 5.5C6.65 5.03 7.03 4.65 7.5 4.65C7.97 4.65 8.35 5.03 8.35 5.5C8.35 5.97 7.97 6.35 7.5 6.35C7.03 6.35 6.65 5.97 6.65 5.5ZM7.5 3.75C6.53 3.75 5.75 4.53 5.75 5.5C5.75 6.47 6.53 7.25 7.5 7.25C8.47 7.25 9.25 6.47 9.25 5.5C9.25 4.53 8.47 3.75 7.5 3.75Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxImage;

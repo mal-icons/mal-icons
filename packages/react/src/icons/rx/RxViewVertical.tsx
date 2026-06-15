@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RxViewVertical = createIcon("0 0 15 15", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M8 2H13.5C13.78 2 14 2.22 14 2.5V12.5C14 12.78 13.78 13 13.5 13H8V2ZM7 2H1.5C1.22 2 1 2.22 1 2.5V12.5C1 12.78 1.22 13 1.5 13H7V2ZM0 2.5C0 1.67 0.67 1 1.5 1H13.5C14.33 1 15 1.67 15 2.5V12.5C15 13.33 14.33 14 13.5 14H1.5C0.67 14 0 13.33 0 12.5V2.5Z","fill":"currentColor"}]]);
+
+export default RxViewVertical;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-corner-bottom-right",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxCornerBottomRight {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.12 12H5.1H3.5C3.22 12 3 11.78 3 11.5C3 11.22 3.22 11 3.5 11H5.1C6.23 11 7.04 11 7.69 10.95C8.32 10.9 8.74 10.79 9.09 10.62C9.75 10.28 10.28 9.75 10.62 9.09C10.79 8.74 10.9 8.32 10.95 7.69C11 7.04 11 6.23 11 5.1V3.5C11 3.22 11.22 3 11.5 3C11.78 3 12 3.22 12 3.5V5.1V5.12C12 6.22 12 7.08 11.94 7.77C11.89 8.47 11.77 9.03 11.51 9.54C11.08 10.39 10.39 11.08 9.54 11.51C9.03 11.77 8.47 11.89 7.77 11.94C7.08 12 6.22 12 5.12 12Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxCornerBottomRight;

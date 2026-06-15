@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RxBookmarkFilled = createIcon("0 0 15 15", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.5 2C3.22 2 3 2.22 3 2.5V13.5C3 13.68 3.1 13.85 3.26 13.94C3.42 14.03 3.61 14.02 3.77 13.92L7.5 11.59L11.24 13.92C11.39 14.02 11.58 14.03 11.74 13.94C11.9 13.85 12 13.68 12 13.5V2.5C12 2.22 11.78 2 11.5 2H3.5Z","fill":"currentColor"}]]);
+
+export default RxBookmarkFilled;

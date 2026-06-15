@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-cross-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxCross2 {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11.78 4.03C12.01 3.81 12.01 3.44 11.78 3.22C11.56 2.99 11.19 2.99 10.97 3.22L7.5 6.69L4.03 3.22C3.81 2.99 3.44 2.99 3.22 3.22C2.99 3.44 2.99 3.81 3.22 4.03L6.69 7.5L3.22 10.97C2.99 11.19 2.99 11.56 3.22 11.78C3.44 12.01 3.81 12.01 4.03 11.78L7.5 8.31L10.97 11.78C11.19 12.01 11.56 12.01 11.78 11.78C12.01 11.56 12.01 11.19 11.78 10.97L8.31 7.5L11.78 4.03Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxCross2;

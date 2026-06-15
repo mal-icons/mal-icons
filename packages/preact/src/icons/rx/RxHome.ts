@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RxHome = createIcon("0 0 15 15", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.08 0.22C7.31 -0.01 7.69 -0.01 7.92 0.22L14.67 6.86C14.91 7.09 14.91 7.47 14.68 7.71C14.45 7.95 14.07 7.95 13.83 7.72L13 6.9V12.5C13 12.78 12.78 13 12.5 13H2.5C2.22 13 2 12.78 2 12.5V6.9L1.17 7.72C0.93 7.95 0.55 7.95 0.32 7.71C0.09 7.47 0.09 7.09 0.33 6.86L7.08 0.22ZM7.5 1.49L12 5.92V12H10V8.5C10 8.22 9.78 8 9.5 8H6.5C6.22 8 6 8.22 6 8.5V12H3V5.92L7.5 1.49ZM7 12H9V9H7V12Z","fill":"currentColor"}]]);
+
+export default RxHome;

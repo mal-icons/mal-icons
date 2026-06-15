@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RxPilcrow = createIcon("0 0 15 15", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3 5.5C3 7.98 4.99 9 7 9V12.5C7 12.78 7.22 13 7.5 13C7.78 13 8 12.78 8 12.5V9V3.1H9V12.5C9 12.78 9.22 13 9.5 13C9.78 13 10 12.78 10 12.5V3.1H11.5C11.8 3.1 12.05 2.85 12.05 2.55C12.05 2.25 11.8 2 11.5 2H9.5H8H7.5H7C4.99 2 3 3.02 3 5.5Z","fill":"currentColor"}]]);
+
+export default RxPilcrow;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-double-arrow-right",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxDoubleArrowRight {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2.15 11.15C1.95 11.34 1.95 11.66 2.15 11.85C2.34 12.05 2.66 12.05 2.85 11.85L6.85 7.85C7.05 7.66 7.05 7.34 6.85 7.15L2.85 3.15C2.66 2.95 2.34 2.95 2.15 3.15C1.95 3.34 1.95 3.66 2.15 3.85L5.79 7.5L2.15 11.15ZM8.15 11.15C7.95 11.34 7.95 11.66 8.15 11.85C8.34 12.05 8.66 12.05 8.85 11.85L12.85 7.85C13.05 7.66 13.05 7.34 12.85 7.15L8.85 3.15C8.66 2.95 8.34 2.95 8.15 3.15C7.95 3.34 7.95 3.66 8.15 3.85L11.79 7.5L8.15 11.15Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxDoubleArrowRight;

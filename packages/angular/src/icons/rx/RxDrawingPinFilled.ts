@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-drawing-pin-filled",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxDrawingPinFilled {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9.62 1.14C9.82 0.94 10.13 0.94 10.33 1.14L11.39 2.2L12.8 3.61L13.86 4.67C14.06 4.87 14.06 5.18 13.86 5.38C13.67 5.57 13.35 5.57 13.16 5.38L12.5 4.73L8.87 9.57L9.97 10.68C10.17 10.88 10.17 11.19 9.97 11.39C9.78 11.58 9.46 11.58 9.27 11.39L7.85 9.97L6.79 8.91L3.52 12.18C3.33 12.38 3.01 12.38 2.82 12.18C2.62 11.99 2.62 11.67 2.82 11.48L6.09 8.21L5.03 7.15L3.61 5.73C3.42 5.54 3.42 5.22 3.61 5.03C3.81 4.83 4.12 4.83 4.32 5.03L5.43 6.13L10.27 2.5L9.62 1.84C9.43 1.65 9.43 1.33 9.62 1.14Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9.62 1.14C9.82 0.94 10.13 0.94 10.33 1.14L11.39 2.2L12.8 3.61L13.86 4.67C14.06 4.87 14.06 5.18 13.86 5.38C13.67 5.57 13.35 5.57 13.16 5.38L12.5 4.73L8.87 9.57L9.97 10.68C10.17 10.88 10.17 11.19 9.97 11.39C9.78 11.58 9.46 11.58 9.27 11.39L7.85 9.97L6.79 8.91L3.52 12.18C3.33 12.38 3.01 12.38 2.82 12.18C2.62 11.99 2.62 11.67 2.82 11.48L6.09 8.21L5.03 7.15L3.61 5.73C3.42 5.54 3.42 5.22 3.61 5.03C3.81 4.83 4.12 4.83 4.32 5.03L5.43 6.13L10.27 2.5L9.62 1.84C9.43 1.65 9.43 1.33 9.62 1.14Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxDrawingPinFilled;

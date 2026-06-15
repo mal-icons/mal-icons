@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-cursor-arrow",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxCursorArrow {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.29 0.05C3.47 -0.03 3.68 0 3.83 0.13L12.86 7.95C13.01 8.08 13.07 8.3 13 8.49C12.94 8.69 12.76 8.82 12.55 8.83L9.22 8.97L11.15 13.22C11.26 13.47 11.15 13.77 10.9 13.88L8.75 14.86C8.5 14.98 8.2 14.86 8.09 14.61L6.15 10.37L3.86 12.79C3.72 12.93 3.5 12.98 3.31 12.91C3.12 12.83 3 12.65 3 12.44V0.5C3 0.31 3.11 0.13 3.29 0.05ZM4 1.6V11.19L5.94 9.14C6.05 9.02 6.22 8.97 6.38 9C6.55 9.02 6.69 9.13 6.76 9.28L8.79 13.74L10.03 13.18L8 8.71C7.93 8.56 7.94 8.39 8.03 8.25C8.12 8.1 8.27 8.02 8.44 8.01L11.25 7.88L4 1.6Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxCursorArrow;

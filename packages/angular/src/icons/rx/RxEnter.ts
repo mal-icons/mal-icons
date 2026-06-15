@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-enter",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxEnter {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4.5 1C4.22 1 4 1.22 4 1.5C4 1.78 4.22 2 4.5 2H12V13H4.5C4.22 13 4 13.22 4 13.5C4 13.78 4.22 14 4.5 14H12C12.55 14 13 13.55 13 13V2C13 1.45 12.55 1 12 1H4.5ZM6.6 4.9C6.41 4.7 6.09 4.7 5.9 4.9C5.7 5.09 5.7 5.41 5.9 5.6L7.29 7H0.5C0.22 7 0 7.22 0 7.5C0 7.78 0.22 8 0.5 8H7.29L5.9 9.4C5.7 9.59 5.7 9.91 5.9 10.1C6.09 10.3 6.41 10.3 6.6 10.1L8.85 7.85C9.05 7.66 9.05 7.34 8.85 7.15L6.6 4.9Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxEnter;

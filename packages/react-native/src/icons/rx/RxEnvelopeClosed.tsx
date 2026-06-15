@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RxEnvelopeClosed = createIcon("0 0 15 15", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M1 2C0.45 2 0 2.45 0 3V12C0 12.55 0.45 13 1 13H14C14.55 13 15 12.55 15 12V3C15 2.45 14.55 2 14 2H1ZM1 3L14 3V3.92C13.92 3.92 13.83 3.95 13.76 4L7.5 7.97L1.24 4C1.17 3.95 1.08 3.92 1 3.92V3ZM1 4.91V12H14V4.91L7.74 8.88C7.59 8.97 7.41 8.97 7.26 8.88L1 4.91Z","fill":"currentColor"}]]);
+
+export default RxEnvelopeClosed;

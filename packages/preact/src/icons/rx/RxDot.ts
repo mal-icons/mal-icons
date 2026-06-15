@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RxDot = createIcon("0 0 15 15", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.5 9.13C8.4 9.13 9.13 8.4 9.13 7.5C9.13 6.6 8.4 5.88 7.5 5.88C6.6 5.88 5.88 6.6 5.88 7.5C5.88 8.4 6.6 9.13 7.5 9.13ZM7.5 10.13C8.95 10.13 10.13 8.95 10.13 7.5C10.13 6.05 8.95 4.88 7.5 4.88C6.05 4.88 4.88 6.05 4.88 7.5C4.88 8.95 6.05 10.13 7.5 10.13Z","fill":"currentColor"}]]);
+
+export default RxDot;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-font-italic",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxFontItalic {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.67 3.5C5.67 3.25 5.88 3.05 6.12 3.05H10.62C10.87 3.05 11.07 3.25 11.07 3.5C11.07 3.75 10.87 3.95 10.62 3.95H9.01L7.23 11.05H8.87C9.12 11.05 9.32 11.25 9.32 11.5C9.32 11.75 9.12 11.95 8.87 11.95H4.37C4.13 11.95 3.92 11.75 3.92 11.5C3.92 11.25 4.13 11.05 4.37 11.05H5.99L7.77 3.95H6.12C5.88 3.95 5.67 3.75 5.67 3.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxFontItalic;
