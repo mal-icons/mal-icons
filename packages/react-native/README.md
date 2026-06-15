@@ -115,6 +115,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
+| [Themify](https://themify.me/themify-icons) | [SIL OFL 1.1 license](https://github.com/lykmapipo/themify-icons/blob/master/README.md) | 9600186 | 352 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
@@ -159,6 +160,8 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react-native/cg/CgAbstract` | A single css.gg icon module |
 | `@mal-icons/react-native/vsc` | All Codicons icons (named exports) |
 | `@mal-icons/react-native/vsc/VscAccount` | A single Codicons icon module |
+| `@mal-icons/react-native/tf` | All Themify icons (named exports) |
+| `@mal-icons/react-native/tf/TfAgenda` | A single Themify icon module |
 
 ## Example
 

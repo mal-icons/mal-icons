@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TfBag = createIcon("0 0 17 17", [["path",{"d":"M13 4v-2.39c0-0.88-0.74-1.61-1.64-1.61h-5.7c-0.9 0-1.64 0.72-1.64 1.61v2.39h-3.02v13h15v-13h-3zM5.02 1.61c0-0.33 0.29-0.61 0.64-0.61h5.7c0.36 0 0.64 0.27 0.64 0.61v2.39h-6.98v-2.39zM15 16h-13v-8h13v8zM15 7h-13v-2h2.02v0.64h1v-0.64h6.98v0.64h1v-0.64h2v2z","fill":"currentColor"}]]);
+
+export default TfBag;

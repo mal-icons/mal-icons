@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TfSplitV = createIcon("0 0 17 17", [["path",{"d":"M10.65 13.15l0.71 0.71-2.85 2.85-2.85-2.85 0.71-0.71 1.65 1.65v-3.77h1v3.77l1.65-1.65zM8 2.21v3.77h1v-3.77l1.65 1.65 0.71-0.71-2.85-2.85-2.85 2.85 0.71 0.71 1.65-1.65zM0 8v1h17v-1h-17z","fill":"currentColor"}]]);
+
+export default TfSplitV;

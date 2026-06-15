@@ -42,6 +42,7 @@
     "./lu/*": "./src/icons/lu/*.astro",
     "./oc/*": "./src/icons/oc/*.astro",
     "./sl/*": "./src/icons/sl/*.astro",
+    "./tf/*": "./src/icons/tf/*.astro",
     "./ti/*": "./src/icons/ti/*.astro",
     "./vsc/*": "./src/icons/vsc/*.astro",
     "./wi/*": "./src/icons/wi/*.astro",

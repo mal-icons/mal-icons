@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-instagram",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfInstagram {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13 0h-9c-2.2 0-4 1.8-4 4v9c0 2.2 1.8 4 4 4h9c2.2 0 4-1.8 4-4v-9c0-2.2-1.8-4-4-4zM16 13c0 1.65-1.35 3-3 3h-9c-1.65 0-3-1.35-3-3v-6h3.21c-0.29 0.61-0.46 1.28-0.46 2 0 2.62 2.13 4.75 4.75 4.75s4.75-2.13 4.75-4.75c0-0.72-0.17-1.39-0.46-2h3.21v6zM12.25 9c0 2.07-1.68 3.75-3.75 3.75s-3.75-1.68-3.75-3.75 1.68-3.75 3.75-3.75 3.75 1.68 3.75 3.75zM12.15 6c-0.87-1.06-2.18-1.75-3.65-1.75s-2.78 0.69-3.65 1.75h-3.85v-2c0-1.65 1.35-3 3-3h9c1.65 0 3 1.35 3 3v2h-3.85zM14.45 2.72v1.3c0 0.3-0.24 0.54-0.54 0.54h-1.37c-0.30-0.54-0.24-0.54-0.54v-1.3c0-0.3 0.24-0.54 0.54-0.54h1.37c0.3 0 0.54 0.24 0.54 0.54z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfInstagram;

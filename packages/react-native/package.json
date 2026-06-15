@@ -185,6 +185,16 @@
       "bun": "./src/icons/sl/*.tsx",
       "import": "./dist/icons/sl/*.js"
     },
+    "./tf": {
+      "types": "./dist/icons/tf/index.d.ts",
+      "bun": "./src/icons/tf/index.ts",
+      "import": "./dist/icons/tf/index.js"
+    },
+    "./tf/*": {
+      "types": "./dist/icons/tf/*.d.ts",
+      "bun": "./src/icons/tf/*.tsx",
+      "import": "./dist/icons/tf/*.js"
+    },
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",
       "bun": "./src/icons/ti/index.ts",

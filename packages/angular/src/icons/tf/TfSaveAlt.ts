@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-save-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfSaveAlt {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.5 0h-12.66l-2.84 2.78v12.72c0 0.83 0.67 1.5 1.5 1.5h14c0.83 0 1.5-0.67 1.5-1.5v-14c0-0.83-0.67-1.5-1.5-1.5zM13 1v2h-8v-2h8zM3 16v-1h11v1h-11zM16 15.5c0 0.28-0.22 0.5-0.5 0.5h-0.5v-2h-13v2h-0.5c-0.28 0-0.5-0.22-0.5-0.5v-12.3l2.24-2.2h0.76v3h10v-3h1.5c0.28 0 0.5 0.23 0.5 0.5v14zM8.5 5c-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5 3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5zM8.5 11c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfSaveAlt;

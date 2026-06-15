@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-google",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfGoogle {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 2.62v1.31h-2.61v2.62h-1.31v-2.62h-2.61v-1.31h2.62v-2.61h1.31v2.62h2.62zM10.39 12.78c0 1.18-0.56 2.13-1.43 2.88-1.17 1.01-2.78 1.34-4.29 1.34-1.91 0-4.67-0.82-4.67-3.19 0-0.48 0.16-0.95 0.38-1.38 0.91-1.84 3.75-2.31 5.58-2.36-0.34-0.44-0.65-0.95-0.65-1.52 0-0.34 0.12-0.56 0.23-0.88-0.25 0.03-0.48 0.05-0.71 0.05-1.98 0-3.7-1.46-3.7-3.51 0-1.94 1.5-3.6 3.36-4 0.62-0.13 1.27-0.2 1.91-0.2h4.47l-1.38 0.81h-1.38c1.01 0.63 1.52 1.87 1.52 3.01 0 2.71-2.29 2.91-2.29 4.26 0 1.32 3.07 1.84 3.07 4.7zM7.73 4.85c0-1.55-0.84-4.12-2.73-4.12-1.34 0-1.99 1.19-1.99 2.39 0 1.55 1.02 3.98 2.84 3.98 1.40 1.88-1.01 1.88-2.26zM8.95 13.66c0-1.43-1.34-2.23-2.38-2.95-0.17-0.02-0.34-0.02-0.51-0.02-1.67 0-4.17 0.53-4.17 2.66 0 1.96 2.21 2.72 3.84 2.72 1.52 0 3.22-0.61 3.22-2.4z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfGoogle;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TfPulse = createIcon("0 0 17 17", [["path",{"d":"M14.33 8l-1.88-4.38-3.44 9.78-4.01-13.11-2.37 7.7h-2.63v1h3.37l1.63-5.3 3.95 12.9 3.6-10.23 1.12 2.62h3.33v-1z","fill":"currentColor"}]]);
+
+export default TfPulse;

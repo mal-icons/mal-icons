@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TfControlSkipBackward = createIcon("0 0 17 17", [["path",{"d":"M6.72 8.53l7.28 6.04v-12.13l-7.28 6.1zM13 12.44l-4.72-3.91 4.72-3.95v7.87zM3 2h1v13h-1v-13z","fill":"currentColor"}]]);
+
+export default TfControlSkipBackward;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-twitter-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfTwitterAlt {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.25 5.04c0.01 0.15 0.01 0.3 0.01 0.45 0 4.61-3.51 9.91-9.91 9.91-1.97 0-3.81-0.57-5.35-1.56 0.28 0.03 0.55 0.04 0.84 0.04 1.63 0 3.13-0.55 4.33-1.49-1.53-0.03-2.81-1.04-3.26-2.42 0.22 0.03 0.43 0.05 0.66 0.05 0.31 0 0.63-0.04 0.92-0.12-1.6-0.32-2.79-1.73-2.79-3.42 0-0.01 0-0.03 0-0.04 0.46 0.26 1 0.42 1.58 0.44-0.94-0.63-1.55-1.69-1.55-2.9 0-0.65 0.17-1.24 0.48-1.76 1.72 2.12 4.29 3.5 7.18 3.65-0.05-0.26-0.09-0.53-0.09-0.8 0-1.92 1.55-3.48 3.48-3.48 1 0 1.91 0.42 2.55 1.1 0.79-0.15 1.54-0.44 2.21-0.84-0.26 0.81-0.81 1.49-1.53 1.92 0.7-0.07 1.38-0.27 2.01-0.54-0.47 0.69-1.07 1.31-1.75 1.8z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfTwitterAlt;

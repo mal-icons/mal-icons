@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-announcement",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfAnnouncement {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.47 2.22h-1.93c-0.29 0-0.53 0.23-0.53 0.52v0.67l-10.99 4.03v-0.27c0-0.43-0.36-0.78-0.8-0.78h-1.42c-0.44 0-0.8 0.35-0.8 0.78v4.69c0 0.43 0.36 0.78 0.8 0.78h1.42c0.44 0 0.8-0.35 0.8-0.78v-0.33l1.03 0.19c-0.02 0.16-0.04 0.33-0.04 0.49 0 1.9 1.56 3.44 3.48 3.44 1.66 0 3.03-1.13 3.38-2.68l3.14 0.58v0.66c0 0.29 0.24 0.52 0.53 0.52h1.93c0.29 0 0.53-0.23 0.53-0.52v-11.46c0-0.29-0.24-0.52-0.53-0.52zM7.49 14.65c-1.37 0-2.48-1.09-2.48-2.44 0-0.1 0.03-0.2 0.04-0.31l4.84 0.89c-0.26 1.08-1.24 1.86-2.4 1.86zM16 13.72h-0.99v-1.01l-12.99-2.38v1.31h-1.02v-4.25h1.02v1.48l13-4.76v-0.89h0.99v10.5z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfAnnouncement;

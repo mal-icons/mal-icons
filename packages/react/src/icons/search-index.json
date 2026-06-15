@@ -96103,6 +96103,3092 @@
       ]
     },
     {
+      "name": "TfAgenda",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "agenda"
+      ]
+    },
+    {
+      "name": "TfAlarmClock",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "alarm",
+        "clock"
+      ]
+    },
+    {
+      "name": "TfAlert",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "alert"
+      ]
+    },
+    {
+      "name": "TfAlignCenter",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "align",
+        "center"
+      ]
+    },
+    {
+      "name": "TfAlignJustify",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "align",
+        "justify"
+      ]
+    },
+    {
+      "name": "TfAlignLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "TfAlignRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "TfAnchor",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "anchor"
+      ]
+    },
+    {
+      "name": "TfAndroid",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "android"
+      ]
+    },
+    {
+      "name": "TfAngleDoubleDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "double",
+        "down"
+      ]
+    },
+    {
+      "name": "TfAngleDoubleLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "double",
+        "left"
+      ]
+    },
+    {
+      "name": "TfAngleDoubleRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "double",
+        "right"
+      ]
+    },
+    {
+      "name": "TfAngleDoubleUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "double",
+        "up"
+      ]
+    },
+    {
+      "name": "TfAngleDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "down"
+      ]
+    },
+    {
+      "name": "TfAngleLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "left"
+      ]
+    },
+    {
+      "name": "TfAngleRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "right"
+      ]
+    },
+    {
+      "name": "TfAngleUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "angle",
+        "up"
+      ]
+    },
+    {
+      "name": "TfAnnouncement",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "announcement"
+      ]
+    },
+    {
+      "name": "TfApple",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "apple"
+      ]
+    },
+    {
+      "name": "TfArchive",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "archive"
+      ]
+    },
+    {
+      "name": "TfArrow",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow"
+      ]
+    },
+    {
+      "name": "TfArrowCircleDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "circle",
+        "down"
+      ]
+    },
+    {
+      "name": "TfArrowCircleLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "circle",
+        "left"
+      ]
+    },
+    {
+      "name": "TfArrowCircleRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "circle",
+        "right"
+      ]
+    },
+    {
+      "name": "TfArrowCircleUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "circle",
+        "up"
+      ]
+    },
+    {
+      "name": "TfArrowDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "TfArrowLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "TfArrowRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "TfArrowsCorner",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrows",
+        "corner"
+      ]
+    },
+    {
+      "name": "TfArrowsHorizontal",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrows",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "TfArrowsVertical",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrows",
+        "vertical"
+      ]
+    },
+    {
+      "name": "TfArrowTopLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "top",
+        "left"
+      ]
+    },
+    {
+      "name": "TfArrowTopRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "top",
+        "right"
+      ]
+    },
+    {
+      "name": "TfArrowUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "TfBackLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "back",
+        "left"
+      ]
+    },
+    {
+      "name": "TfBackRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "back",
+        "right"
+      ]
+    },
+    {
+      "name": "TfBag",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bag"
+      ]
+    },
+    {
+      "name": "TfBarChart",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bar",
+        "chart"
+      ]
+    },
+    {
+      "name": "TfBarChartAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bar",
+        "chart",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfBasketball",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "basketball"
+      ]
+    },
+    {
+      "name": "TfBell",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bell"
+      ]
+    },
+    {
+      "name": "TfBlackboard",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "blackboard"
+      ]
+    },
+    {
+      "name": "TfBolt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bolt"
+      ]
+    },
+    {
+      "name": "TfBoltAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bolt",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfBook",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "book"
+      ]
+    },
+    {
+      "name": "TfBookmark",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "TfBookmarkAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "bookmark",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfBriefcase",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "TfBrush",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "brush"
+      ]
+    },
+    {
+      "name": "TfBrushAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "brush",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfCalendar",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "calendar"
+      ]
+    },
+    {
+      "name": "TfCamera",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "camera"
+      ]
+    },
+    {
+      "name": "TfCar",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "car"
+      ]
+    },
+    {
+      "name": "TfCheck",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "check"
+      ]
+    },
+    {
+      "name": "TfCheckBox",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "check",
+        "box"
+      ]
+    },
+    {
+      "name": "TfClip",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "clip"
+      ]
+    },
+    {
+      "name": "TfClipboard",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "TfClose",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "close"
+      ]
+    },
+    {
+      "name": "TfCloud",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "cloud"
+      ]
+    },
+    {
+      "name": "TfCloudDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "cloud",
+        "down"
+      ]
+    },
+    {
+      "name": "TfCloudUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "cloud",
+        "up"
+      ]
+    },
+    {
+      "name": "TfComment",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "comment"
+      ]
+    },
+    {
+      "name": "TfCommentAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "comment",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfComments",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "comments"
+      ]
+    },
+    {
+      "name": "TfCommentsSmiley",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "comments",
+        "smiley"
+      ]
+    },
+    {
+      "name": "TfControlBackward",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "backward"
+      ]
+    },
+    {
+      "name": "TfControlEject",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "eject"
+      ]
+    },
+    {
+      "name": "TfControlForward",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "forward"
+      ]
+    },
+    {
+      "name": "TfControlPause",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "pause"
+      ]
+    },
+    {
+      "name": "TfControlPlay",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "play"
+      ]
+    },
+    {
+      "name": "TfControlRecord",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "record"
+      ]
+    },
+    {
+      "name": "TfControlShuffle",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "TfControlSkipBackward",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "skip",
+        "backward"
+      ]
+    },
+    {
+      "name": "TfControlSkipForward",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "skip",
+        "forward"
+      ]
+    },
+    {
+      "name": "TfControlStop",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "control",
+        "stop"
+      ]
+    },
+    {
+      "name": "TfCreditCard",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "TfCrown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "crown"
+      ]
+    },
+    {
+      "name": "TfCss3",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "css3"
+      ]
+    },
+    {
+      "name": "TfCup",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "cup"
+      ]
+    },
+    {
+      "name": "TfCut",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "cut"
+      ]
+    },
+    {
+      "name": "TfDashboard",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "TfDesktop",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "desktop"
+      ]
+    },
+    {
+      "name": "TfDirection",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "direction"
+      ]
+    },
+    {
+      "name": "TfDirectionAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "direction",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfDownload",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "download"
+      ]
+    },
+    {
+      "name": "TfDribbble",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "dribbble"
+      ]
+    },
+    {
+      "name": "TfDropbox",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "dropbox"
+      ]
+    },
+    {
+      "name": "TfDropboxAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "dropbox",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfDrupal",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "drupal"
+      ]
+    },
+    {
+      "name": "TfEmail",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "email"
+      ]
+    },
+    {
+      "name": "TfEnvelope",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "envelope"
+      ]
+    },
+    {
+      "name": "TfEraser",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "eraser"
+      ]
+    },
+    {
+      "name": "TfExchangeVertical",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "exchange",
+        "vertical"
+      ]
+    },
+    {
+      "name": "TfExport",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "export"
+      ]
+    },
+    {
+      "name": "TfEye",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "eye"
+      ]
+    },
+    {
+      "name": "TfFacebook",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "facebook"
+      ]
+    },
+    {
+      "name": "TfFaceSad",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "face",
+        "sad"
+      ]
+    },
+    {
+      "name": "TfFaceSmile",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "face",
+        "smile"
+      ]
+    },
+    {
+      "name": "TfFile",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "file"
+      ]
+    },
+    {
+      "name": "TfFiles",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "files"
+      ]
+    },
+    {
+      "name": "TfFilter",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "filter"
+      ]
+    },
+    {
+      "name": "TfFlag",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "flag"
+      ]
+    },
+    {
+      "name": "TfFlagAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "flag",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfFlagAlt2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "flag",
+        "alt2",
+        "alt",
+        "2"
+      ]
+    },
+    {
+      "name": "TfFlickr",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "flickr"
+      ]
+    },
+    {
+      "name": "TfFlickrAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "flickr",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfFolder",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "folder"
+      ]
+    },
+    {
+      "name": "TfFullscreen",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "fullscreen"
+      ]
+    },
+    {
+      "name": "TfGallery",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "gallery"
+      ]
+    },
+    {
+      "name": "TfGame",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "game"
+      ]
+    },
+    {
+      "name": "TfGift",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "gift"
+      ]
+    },
+    {
+      "name": "TfGithub",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "github"
+      ]
+    },
+    {
+      "name": "TfGoogle",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "google"
+      ]
+    },
+    {
+      "name": "TfHandDrag",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hand",
+        "drag"
+      ]
+    },
+    {
+      "name": "TfHandOpen",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hand",
+        "open"
+      ]
+    },
+    {
+      "name": "TfHandPointDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hand",
+        "point",
+        "down"
+      ]
+    },
+    {
+      "name": "TfHandPointLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hand",
+        "point",
+        "left"
+      ]
+    },
+    {
+      "name": "TfHandPointRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hand",
+        "point",
+        "right"
+      ]
+    },
+    {
+      "name": "TfHandPointUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hand",
+        "point",
+        "up"
+      ]
+    },
+    {
+      "name": "TfHandStop",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hand",
+        "stop"
+      ]
+    },
+    {
+      "name": "TfHarddrive",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "harddrive"
+      ]
+    },
+    {
+      "name": "TfHarddrives",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "harddrives"
+      ]
+    },
+    {
+      "name": "TfHeadphone",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "headphone"
+      ]
+    },
+    {
+      "name": "TfHeadphoneAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "headphone",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfHeart",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "heart"
+      ]
+    },
+    {
+      "name": "TfHeartBroken",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "heart",
+        "broken"
+      ]
+    },
+    {
+      "name": "TfHelp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "help"
+      ]
+    },
+    {
+      "name": "TfHelpAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "help",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfHome",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "home"
+      ]
+    },
+    {
+      "name": "TfHtml5",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "html5"
+      ]
+    },
+    {
+      "name": "TfHummer",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "hummer"
+      ]
+    },
+    {
+      "name": "TfIdBadge",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "id",
+        "badge"
+      ]
+    },
+    {
+      "name": "TfImage",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "image"
+      ]
+    },
+    {
+      "name": "TfImport",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "import"
+      ]
+    },
+    {
+      "name": "TfInfinite",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "infinite"
+      ]
+    },
+    {
+      "name": "TfInfo",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "info"
+      ]
+    },
+    {
+      "name": "TfInfoAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "info",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfInkPen",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "ink",
+        "pen"
+      ]
+    },
+    {
+      "name": "TfInstagram",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "instagram"
+      ]
+    },
+    {
+      "name": "TfItalic",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "italic"
+      ]
+    },
+    {
+      "name": "TfJoomla",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "joomla"
+      ]
+    },
+    {
+      "name": "TfJsfiddle",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "jsfiddle"
+      ]
+    },
+    {
+      "name": "TfKey",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "key"
+      ]
+    },
+    {
+      "name": "TfLayers",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layers"
+      ]
+    },
+    {
+      "name": "TfLayersAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layers",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayout",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout"
+      ]
+    },
+    {
+      "name": "TfLayoutAccordionList",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "accordion",
+        "list"
+      ]
+    },
+    {
+      "name": "TfLayoutAccordionMerged",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "accordion",
+        "merged"
+      ]
+    },
+    {
+      "name": "TfLayoutAccordionSeparated",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "accordion",
+        "separated"
+      ]
+    },
+    {
+      "name": "TfLayoutColumn2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "column2"
+      ]
+    },
+    {
+      "name": "TfLayoutColumn2Alt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "column2",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutColumn3",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "column3"
+      ]
+    },
+    {
+      "name": "TfLayoutColumn3Alt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "column3",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutColumn4",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "column4"
+      ]
+    },
+    {
+      "name": "TfLayoutColumn4Alt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "column4",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutCtaBtnLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "cta",
+        "btn",
+        "left"
+      ]
+    },
+    {
+      "name": "TfLayoutCtaBtnRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "cta",
+        "btn",
+        "right"
+      ]
+    },
+    {
+      "name": "TfLayoutCtaCenter",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "cta",
+        "center"
+      ]
+    },
+    {
+      "name": "TfLayoutCtaLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "cta",
+        "left"
+      ]
+    },
+    {
+      "name": "TfLayoutCtaRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "cta",
+        "right"
+      ]
+    },
+    {
+      "name": "TfLayoutGrid2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "grid2"
+      ]
+    },
+    {
+      "name": "TfLayoutGrid2Alt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "grid2",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutGrid2Thumb",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "grid2",
+        "thumb"
+      ]
+    },
+    {
+      "name": "TfLayoutGrid3",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "grid3"
+      ]
+    },
+    {
+      "name": "TfLayoutGrid3Alt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "grid3",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutGrid4",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "grid4"
+      ]
+    },
+    {
+      "name": "TfLayoutGrid4Alt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "grid4",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutLineSolid",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "line",
+        "solid"
+      ]
+    },
+    {
+      "name": "TfLayoutListLargeImage",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "list",
+        "large",
+        "image"
+      ]
+    },
+    {
+      "name": "TfLayoutListPost",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "list",
+        "post"
+      ]
+    },
+    {
+      "name": "TfLayoutListThumb",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "list",
+        "thumb"
+      ]
+    },
+    {
+      "name": "TfLayoutListThumbAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "list",
+        "thumb",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaCenter",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "center"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaCenterAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "center",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "left"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaLeftAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "left",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaOverlay",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "overlay"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaOverlayAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "overlay",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaOverlayAlt2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "overlay",
+        "alt2",
+        "alt",
+        "2"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "right"
+      ]
+    },
+    {
+      "name": "TfLayoutMediaRightAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "media",
+        "right",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutMenu",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "menu"
+      ]
+    },
+    {
+      "name": "TfLayoutMenuFull",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "menu",
+        "full"
+      ]
+    },
+    {
+      "name": "TfLayoutMenuSeparated",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "menu",
+        "separated"
+      ]
+    },
+    {
+      "name": "TfLayoutMenuV",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "menu",
+        "v"
+      ]
+    },
+    {
+      "name": "TfLayoutPlaceholder",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "placeholder"
+      ]
+    },
+    {
+      "name": "TfLayoutSidebar2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "sidebar2",
+        "sidebar",
+        "2"
+      ]
+    },
+    {
+      "name": "TfLayoutSidebarLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "sidebar",
+        "left"
+      ]
+    },
+    {
+      "name": "TfLayoutSidebarNone",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "sidebar",
+        "none"
+      ]
+    },
+    {
+      "name": "TfLayoutSidebarRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "sidebar",
+        "right"
+      ]
+    },
+    {
+      "name": "TfLayoutSlider",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "slider"
+      ]
+    },
+    {
+      "name": "TfLayoutSliderAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "slider",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutTab",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "tab"
+      ]
+    },
+    {
+      "name": "TfLayoutTabMin",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "tab",
+        "min"
+      ]
+    },
+    {
+      "name": "TfLayoutTabV",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "tab",
+        "v"
+      ]
+    },
+    {
+      "name": "TfLayoutTabWindow",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "tab",
+        "window"
+      ]
+    },
+    {
+      "name": "TfLayoutWidthDefault",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "width",
+        "default"
+      ]
+    },
+    {
+      "name": "TfLayoutWidthDefaultAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "width",
+        "default",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfLayoutWidthFull",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "layout",
+        "width",
+        "full"
+      ]
+    },
+    {
+      "name": "TfLightBulb",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "light",
+        "bulb"
+      ]
+    },
+    {
+      "name": "TfLineDashed",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "line",
+        "dashed"
+      ]
+    },
+    {
+      "name": "TfLineDotted",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "line",
+        "dotted"
+      ]
+    },
+    {
+      "name": "TfLineDouble",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "line",
+        "double"
+      ]
+    },
+    {
+      "name": "TfLink",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "link"
+      ]
+    },
+    {
+      "name": "TfLinkedin",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "linkedin"
+      ]
+    },
+    {
+      "name": "TfLinux",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "linux"
+      ]
+    },
+    {
+      "name": "TfList",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "list"
+      ]
+    },
+    {
+      "name": "TfListOl",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "list",
+        "ol"
+      ]
+    },
+    {
+      "name": "TfLocationArrow",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "location",
+        "arrow"
+      ]
+    },
+    {
+      "name": "TfLocationPin",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "location",
+        "pin"
+      ]
+    },
+    {
+      "name": "TfLock",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "lock"
+      ]
+    },
+    {
+      "name": "TfLoop",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "loop"
+      ]
+    },
+    {
+      "name": "TfMagnet",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "magnet"
+      ]
+    },
+    {
+      "name": "TfMap",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "map"
+      ]
+    },
+    {
+      "name": "TfMapAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "map",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMarker",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "marker"
+      ]
+    },
+    {
+      "name": "TfMarkerAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "marker",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMedall",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "medall"
+      ]
+    },
+    {
+      "name": "TfMedallAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "medall",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMenu",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "menu"
+      ]
+    },
+    {
+      "name": "TfMenuAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "menu",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMicrophone",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "microphone"
+      ]
+    },
+    {
+      "name": "TfMicrophoneAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "microphone",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMicrosoft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "microsoft"
+      ]
+    },
+    {
+      "name": "TfMicrosoftAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "microsoft",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMinus",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "minus"
+      ]
+    },
+    {
+      "name": "TfMobile",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "mobile"
+      ]
+    },
+    {
+      "name": "TfMoney",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "money"
+      ]
+    },
+    {
+      "name": "TfMore",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "more"
+      ]
+    },
+    {
+      "name": "TfMoreAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "more",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMouse",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "mouse"
+      ]
+    },
+    {
+      "name": "TfMouseAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "mouse",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfMusic",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "music"
+      ]
+    },
+    {
+      "name": "TfMusicAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "music",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfNa",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "na"
+      ]
+    },
+    {
+      "name": "TfNewWindow",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "new",
+        "window"
+      ]
+    },
+    {
+      "name": "TfNotepad",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "notepad"
+      ]
+    },
+    {
+      "name": "TfPackage",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "package"
+      ]
+    },
+    {
+      "name": "TfPaintBucket",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "paint",
+        "bucket"
+      ]
+    },
+    {
+      "name": "TfPaintRoller",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "paint",
+        "roller"
+      ]
+    },
+    {
+      "name": "TfPalette",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "palette"
+      ]
+    },
+    {
+      "name": "TfPanel",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "panel"
+      ]
+    },
+    {
+      "name": "TfParagraph",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "paragraph"
+      ]
+    },
+    {
+      "name": "TfPencil",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pencil"
+      ]
+    },
+    {
+      "name": "TfPencilAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pencil",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfPencilAlt2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pencil",
+        "alt2"
+      ]
+    },
+    {
+      "name": "TfPieChart",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pie",
+        "chart"
+      ]
+    },
+    {
+      "name": "TfPin",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pin"
+      ]
+    },
+    {
+      "name": "TfPin2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pin2"
+      ]
+    },
+    {
+      "name": "TfPinAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pin",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfPinterest",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pinterest"
+      ]
+    },
+    {
+      "name": "TfPinterestAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pinterest",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfPlug",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "plug"
+      ]
+    },
+    {
+      "name": "TfPlus",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "plus"
+      ]
+    },
+    {
+      "name": "TfPowerOff",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "power",
+        "off"
+      ]
+    },
+    {
+      "name": "TfPrinter",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "printer"
+      ]
+    },
+    {
+      "name": "TfPulse",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "pulse"
+      ]
+    },
+    {
+      "name": "TfQuoteLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "quote",
+        "left"
+      ]
+    },
+    {
+      "name": "TfQuoteRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "quote",
+        "right"
+      ]
+    },
+    {
+      "name": "TfReceipt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "receipt"
+      ]
+    },
+    {
+      "name": "TfReddit",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "reddit"
+      ]
+    },
+    {
+      "name": "TfReload",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "reload"
+      ]
+    },
+    {
+      "name": "TfRocket",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "rocket"
+      ]
+    },
+    {
+      "name": "TfRss",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "rss"
+      ]
+    },
+    {
+      "name": "TfRssAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "rss",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfRuler",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "ruler"
+      ]
+    },
+    {
+      "name": "TfRulerAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "ruler",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfRulerAlt2",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "ruler",
+        "alt2",
+        "alt",
+        "2"
+      ]
+    },
+    {
+      "name": "TfRulerPencil",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "ruler",
+        "pencil"
+      ]
+    },
+    {
+      "name": "TfSave",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "save"
+      ]
+    },
+    {
+      "name": "TfSaveAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "save",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfSearch",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "search"
+      ]
+    },
+    {
+      "name": "TfServer",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "server"
+      ]
+    },
+    {
+      "name": "TfSettings",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "settings"
+      ]
+    },
+    {
+      "name": "TfShare",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "share"
+      ]
+    },
+    {
+      "name": "TfShareAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "share",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfSharethis",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "sharethis"
+      ]
+    },
+    {
+      "name": "TfSharethisAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "sharethis",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfShield",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shield"
+      ]
+    },
+    {
+      "name": "TfShiftLeft",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shift",
+        "left"
+      ]
+    },
+    {
+      "name": "TfShiftLeftAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shift",
+        "left",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfShiftRight",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shift",
+        "right"
+      ]
+    },
+    {
+      "name": "TfShiftRightAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shift",
+        "right",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfShine",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shine"
+      ]
+    },
+    {
+      "name": "TfShoppingCart",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shopping",
+        "cart"
+      ]
+    },
+    {
+      "name": "TfShoppingCartFull",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shopping",
+        "cart",
+        "full"
+      ]
+    },
+    {
+      "name": "TfShortcode",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "shortcode"
+      ]
+    },
+    {
+      "name": "TfSignal",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "signal"
+      ]
+    },
+    {
+      "name": "TfSkype",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "skype"
+      ]
+    },
+    {
+      "name": "TfSlice",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "slice"
+      ]
+    },
+    {
+      "name": "TfSmallcap",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "smallcap"
+      ]
+    },
+    {
+      "name": "TfSoundcloud",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "soundcloud"
+      ]
+    },
+    {
+      "name": "TfSplitH",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "split",
+        "h"
+      ]
+    },
+    {
+      "name": "TfSplitV",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "split",
+        "v"
+      ]
+    },
+    {
+      "name": "TfSplitVAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "split",
+        "valt",
+        "v",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfSpray",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "spray"
+      ]
+    },
+    {
+      "name": "TfStackOverflow",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "stack",
+        "overflow"
+      ]
+    },
+    {
+      "name": "TfStamp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "stamp"
+      ]
+    },
+    {
+      "name": "TfStar",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "star"
+      ]
+    },
+    {
+      "name": "TfStatsDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "stats",
+        "down"
+      ]
+    },
+    {
+      "name": "TfStatsUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "stats",
+        "up"
+      ]
+    },
+    {
+      "name": "TfSupport",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "support"
+      ]
+    },
+    {
+      "name": "TfTablet",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "tablet"
+      ]
+    },
+    {
+      "name": "TfTag",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "tag"
+      ]
+    },
+    {
+      "name": "TfTarget",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "target"
+      ]
+    },
+    {
+      "name": "TfText",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "text"
+      ]
+    },
+    {
+      "name": "TfThemifyFavicon",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "themify",
+        "favicon"
+      ]
+    },
+    {
+      "name": "TfThemifyFaviconAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "themify",
+        "favicon",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfThemifyLogo",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "themify",
+        "logo"
+      ]
+    },
+    {
+      "name": "TfThought",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "thought"
+      ]
+    },
+    {
+      "name": "TfThumbDown",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "thumb",
+        "down"
+      ]
+    },
+    {
+      "name": "TfThumbUp",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "thumb",
+        "up"
+      ]
+    },
+    {
+      "name": "TfTicket",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "ticket"
+      ]
+    },
+    {
+      "name": "TfTime",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "time"
+      ]
+    },
+    {
+      "name": "TfTimer",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "timer"
+      ]
+    },
+    {
+      "name": "TfTrash",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "trash"
+      ]
+    },
+    {
+      "name": "TfTrello",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "trello"
+      ]
+    },
+    {
+      "name": "TfTruck",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "truck"
+      ]
+    },
+    {
+      "name": "TfTumblr",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "tumblr"
+      ]
+    },
+    {
+      "name": "TfTumblrAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "tumblr",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfTwitter",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "twitter"
+      ]
+    },
+    {
+      "name": "TfTwitterAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "twitter",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfUnderline",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "underline"
+      ]
+    },
+    {
+      "name": "TfUnlink",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "unlink"
+      ]
+    },
+    {
+      "name": "TfUnlock",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "unlock"
+      ]
+    },
+    {
+      "name": "TfUpload",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "upload"
+      ]
+    },
+    {
+      "name": "TfUppercase",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "uppercase"
+      ]
+    },
+    {
+      "name": "TfUser",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "user"
+      ]
+    },
+    {
+      "name": "TfVector",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "vector"
+      ]
+    },
+    {
+      "name": "TfVideoCamera",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "video",
+        "camera"
+      ]
+    },
+    {
+      "name": "TfVideoClapper",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "video",
+        "clapper"
+      ]
+    },
+    {
+      "name": "TfViewGrid",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "view",
+        "grid"
+      ]
+    },
+    {
+      "name": "TfViewList",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "view",
+        "list"
+      ]
+    },
+    {
+      "name": "TfViewListAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "view",
+        "list",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfVimeo",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "vimeo"
+      ]
+    },
+    {
+      "name": "TfVimeoAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "vimeo",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfVolume",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "volume"
+      ]
+    },
+    {
+      "name": "TfWallet",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "wallet"
+      ]
+    },
+    {
+      "name": "TfWand",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "wand"
+      ]
+    },
+    {
+      "name": "TfWheelchair",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "wheelchair"
+      ]
+    },
+    {
+      "name": "TfWidget",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "widget"
+      ]
+    },
+    {
+      "name": "TfWidgetAlt",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "widget",
+        "alt"
+      ]
+    },
+    {
+      "name": "TfWidgetized",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "widgetized"
+      ]
+    },
+    {
+      "name": "TfWindow",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "window"
+      ]
+    },
+    {
+      "name": "TfWordpress",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "wordpress"
+      ]
+    },
+    {
+      "name": "TfWorld",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "world"
+      ]
+    },
+    {
+      "name": "TfWrite",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "write"
+      ]
+    },
+    {
+      "name": "TfYahoo",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "yahoo"
+      ]
+    },
+    {
+      "name": "TfYoutube",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "youtube"
+      ]
+    },
+    {
+      "name": "TfZip",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "zip"
+      ]
+    },
+    {
+      "name": "TfZoomIn",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "TfZoomOut",
+      "set": "tf",
+      "terms": [
+        "tf",
+        "zoom",
+        "out"
+      ]
+    },
+    {
       "name": "TiAdjustBrightness",
       "set": "ti",
       "terms": [
