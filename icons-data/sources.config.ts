@@ -180,4 +180,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "public/img",
     style: "stroke",
   },
+  hi: {
+    id: "hi",
+    prefix: "Hi",
+    name: "Heroicons",
+    license: "MIT",
+    repo: "tailwindlabs/heroicons",
+    ref: "v2.2.0",
+    iconDir: "optimized/24/outline",
+    style: "stroke",
+  },
 };

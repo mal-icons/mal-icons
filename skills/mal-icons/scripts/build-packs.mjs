@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  hi: {
+    id: "hi",
+    name: "Heroicons",
+    prefix: "Hi",
+    version: "2.2.0",
+    license: "MIT",
+    repo: "tailwindlabs/heroicons",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Tailwind Labs' hand-crafted 24×24 outline icons (`HiAcademicCap`, `HiBell`, `HiHome`). Stroke-based; theme via `color`, honor `strokeWidth`/`weight`.",
+  },
   ad: {
     id: "ad",
     name: "Ant Design Icons",

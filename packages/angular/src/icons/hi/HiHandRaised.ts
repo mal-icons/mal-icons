@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-hand-raised",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiHandRaised {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M10.05 4.58a1.58 1.58 0 1 0-3.15 0v3m3.15-3v-1.5a1.58 1.58 0 0 1 3.15 0v1.5m-3.15 0 0.08 5.93m3.080.75V4.58m0 0a1.58 1.58 0 0 1 3.15 0V15M6.9 7.58a1.58 1.58 0 1 0-3.15 0v8.18a6.75 6.75 0 0 0 6.75 6.75h2.02a5.25 5.25 0 0 0 3.71-1.54l1.73-1.73a5.25 5.25 0 0 0 1.54-3.71l0-2.02a0.670.67 0 0 1 0.2-0.47 1.58 1.58 0 1 0-2.23-2.23 3.82 3.82 0 0 0-1.12 2.69M6.9 7.58V12m6.27 4.32A4.49 4.49 0 0 1 16.35 15m0 0h0"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiHandRaised;

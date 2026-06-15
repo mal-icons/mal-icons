@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiShieldExclamation = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M12 9v3.75m0-10.04A11.96 11.96 0 0 1 3.6 6 11.99 11.99 0 0 0 3 9.75c0 5.59 3.82 10.29 9 11.62 5.18-1.33 9-6.03 9-11.62 0-1.31-0.21-2.57-0.6-3.75h-0.15c-3.2 0-6.1-1.25-8.25-3.29Zm0 13.04h0.01v0.01H12v-0.01Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiShieldExclamation;

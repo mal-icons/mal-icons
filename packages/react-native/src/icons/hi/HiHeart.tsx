@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiHeart = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21 8.25c0-2.48-2.1-4.5-4.69-4.5-1.93 0-3.6 1.13-4.31 2.73-0.71-1.61-2.38-2.73-4.31-2.73C5.1 3.75 3 5.77 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiHeart;

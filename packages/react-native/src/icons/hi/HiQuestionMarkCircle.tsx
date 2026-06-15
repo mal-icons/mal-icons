@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiQuestionMarkCircle = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M9.88 7.52c1.17-1.02 3.07-1.02 4.24 0 1.17 1.02 1.17 2.69 0 3.71-0.20.18-0.430.33-0.670.44-0.740.36-1.451-1.45 1.83v0.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h0.01v0.01H12v-0.01Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiQuestionMarkCircle;

@@ -8,8 +8,8 @@ Svelte, Solid, Preact, Angular, Astro, vanilla Web, and React Native.
 It bundles the full icon catalog (Feather `fi`, Circum `ci`, Ionicons `io`,
 Lucide `lu`, Font Awesome Free `fa`, Font Awesome Free Brands `fab`, Font Awesome Free Regular `far`,
 Typicons `ti`, Octicons `oc`, Devicons `dev`, Weather Icons `wi`, Ant Design `ad`,
-Flat Color Icons `fc`, Grommet `gr` —
-10,101 icons) with tags and descriptions, a fast search script, per-framework
+Flat Color Icons `fc`, Grommet `gr`, Heroicons `hi` —
+10,425 icons) with tags and descriptions, a fast search script, per-framework
 setup guides, and best-practice references.
 
 ## Install

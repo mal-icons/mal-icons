@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const HiUsers = createIcon("0 0 24 24", [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M15 19.13a9.38 9.38 0 0 0 2.630.37 9.34 9.34 0 0 0 4.12-0.95 4.13 4.13 0 0 0-7.53-2.49M15 19.13v0c0-1.11-0.28-2.16-0.79-3.07M15 19.13v0.11A12.32 12.32 0 0 1 8.62 21c-2.33 0-4.51-0.64-6.37-1.77l0-0.11a6.38 6.38 0 0 1 11.96-3.07M12 6.38a3.38 3.38 0 1 1-6.75 0 3.38 3.38 0 0 1 6.75 0Zm8.25 2.25a2.63 2.63 0 1 1-5.25 0 2.63 2.63 0 0 1 5.25 0Z"}]], {"fill":"none","stroke-width":1.5});
+
+export default HiUsers;

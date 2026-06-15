@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiTicket = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M16.5 6v0.75m0 3v0.75m0 3v0.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.38 5.25c-0.62 0-1.120.5-1.12 1.13v3.03a3 3 0 0 1 0 5.2v3.03c0 0.620.5 1.13 1.13 1.13h17.25c0.62 0 1.13-0.5 1.13-1.12v-3.03a3 3 0 0 1 0-5.2V6.38c0-0.62-0.5-1.12-1.12-1.12H3.38Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiTicket;

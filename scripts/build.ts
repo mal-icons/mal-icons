@@ -255,6 +255,7 @@ async function buildReact(): Promise<void> {
     "fc",
     "fi",
     "gr",
+    "hi",
     "io",
     "lu",
     "oc",

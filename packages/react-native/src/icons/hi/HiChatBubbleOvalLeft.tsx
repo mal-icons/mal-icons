@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiChatBubbleOvalLeft = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M12 20.25c4.97 0 9-3.69 9-8.25s-4.03-8.25-9-8.25S3 7.44 3 12c0 2.10.86 4.02 2.27 5.480.430.450.74 1.040.59 1.64a4.48 4.48 0 0 1-0.92 1.79A5.97 5.97 0 0 0 6 21c1.28 0 2.47-0.4 3.45-1.090.810.22 1.670.34 2.560.34Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiChatBubbleOvalLeft;

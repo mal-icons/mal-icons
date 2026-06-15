@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-inbox",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiInbox {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M2.25 13.5h3.86a2.25 2.25 0 0 1 2.01 1.24l0.260.51a2.25 2.25 0 0 0 2.01 1.24h3.22a2.25 2.25 0 0 0 2.01-1.24l0.26-0.51a2.25 2.25 0 0 1 2.01-1.24h3.86m-19.50.34V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.16c0-0.22-0.03-0.45-0.1-0.66L19.24 5.34a2.25 2.25 0 0 0-2.15-1.59H6.91a2.25 2.25 0 0 0-2.15 1.59L2.35 13.18a2.25 2.25 0 0 0-0.10.66Z"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiInbox;

@@ -127,6 +127,16 @@
       "bun": "./src/icons/gr/*.ts",
       "import": "./src/icons/gr/*.ts"
     },
+    "./hi": {
+      "solid": "./src/icons/hi/index.ts",
+      "bun": "./src/icons/hi/index.ts",
+      "import": "./src/icons/hi/index.ts"
+    },
+    "./hi/*": {
+      "solid": "./src/icons/hi/*.ts",
+      "bun": "./src/icons/hi/*.ts",
+      "import": "./src/icons/hi/*.ts"
+    },
     "./io": {
       "solid": "./src/icons/io/index.ts",
       "bun": "./src/icons/io/index.ts",

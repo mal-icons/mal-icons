@@ -36,6 +36,7 @@
     "./fc/*": "./src/icons/fc/*.astro",
     "./fi/*": "./src/icons/fi/*.astro",
     "./gr/*": "./src/icons/gr/*.astro",
+    "./hi/*": "./src/icons/hi/*.astro",
     "./io/*": "./src/icons/io/*.astro",
     "./lu/*": "./src/icons/lu/*.astro",
     "./oc/*": "./src/icons/oc/*.astro",
