@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-file-code",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscFileCode {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.56 4.35L10.65 1.44C10.37 1.16 9.99 1 9.59 1H6C5.47 1 4.96 1.21 4.59 1.59C4.21 1.96 4 2.47 4 3V8.83C4.28 8.9 4.54 9.05 4.74 9.26C4.85 9.36 4.93 9.48 5 9.61V3C5 2.73 5.11 2.48 5.29 2.29C5.48 2.11 5.73 2 6 2H9V4.5C9 4.9 9.16 5.28 9.44 5.56C9.72 5.84 10.1 6 10.5 6H13V13C13 13.27 12.89 13.52 12.71 13.71C12.52 13.89 12.27 14 12 14H10.48L9.47 15H12C12.53 15 13.04 14.79 13.41 14.41C13.79 14.04 14 13.53 14 13V5.41C14 5.01 13.84 4.63 13.56 4.35ZM10.5 5C10.37 5 10.24 4.95 10.15 4.85C10.05 4.76 10 4.63 10 4.5V2.21L12.79 5H10.5Z"}],["path",{"d":"M3.48 14.98C3.35 14.98 3.22 14.92 3.12 14.83L1.15 12.85C1.1 12.81 1.06 12.75 1.04 12.69C1.01 12.63 1 12.57 1 12.5C1 12.43 1.01 12.37 1.04 12.31C1.06 12.25 1.1 12.19 1.15 12.15L3.15 10.15C3.24 10.05 3.37 10 3.5 10C3.63 10 3.76 10.05 3.85 10.15C3.95 10.24 4 10.37 4 10.5C4 10.63 3.95 10.76 3.85 10.85L2.21 12.5L3.83 14.12C3.9 14.19 3.95 14.28 3.97 14.38C3.99 14.48 3.98 14.58 3.94 14.67C3.9 14.76 3.84 14.84 3.76 14.89C3.67 14.95 3.58 14.98 3.48 14.98Z"}],["path",{"d":"M7.52 14.98C7.42 14.98 7.33 14.95 7.24 14.89C7.16 14.84 7.1 14.76 7.06 14.67C7.02 14.58 7.01 14.48 7.03 14.38C7.05 14.28 7.1 14.19 7.17 14.12L8.79 12.5L7.15 10.85C7.05 10.76 7 10.63 7 10.5C7 10.37 7.05 10.24 7.15 10.15C7.24 10.05 7.37 10 7.5 10C7.63 10 7.76 10.05 7.85 10.15L9.85 12.15C9.9 12.19 9.94 12.25 9.96 12.31C9.99 12.37 10 12.43 10 12.5C10 12.57 9.99 12.63 9.96 12.69C9.94 12.75 9.9 12.81 9.85 12.85L7.87 14.83C7.78 14.92 7.65 14.98 7.52 14.98Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscFileCode;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-layers-dot",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscLayersDot {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.49 5.85L7.49 8.86C7.64 8.95 7.82 9 8 9C8.18 9 8.36 8.95 8.51 8.85L13.51 5.86C13.81 5.68 14 5.35 14 5C14 4.65 13.81 4.32 13.51 4.14L8.52 1.14C8.21 0.95 7.79 0.95 7.49 1.14L2.49 4.14C2.19 4.32 2 4.65 2 5C2 5.35 2.19 5.68 2.49 5.85ZM8 2L13 5L8 8L3 5L8 2ZM13.85 6.98L8 10.5L2.15 6.98C2.05 7.14 2 7.31 2 7.5C2 7.85 2.19 8.18 2.49 8.35L7.49 11.36C7.64 11.45 7.82 11.5 8 11.5C8.18 11.5 8.36 11.45 8.51 11.35L9.87 10.54C10.47 9.78 11.33 9.24 12.33 9.07L13.51 8.36C13.81 8.18 14 7.85 14 7.5C14 7.31 13.95 7.14 13.85 6.98ZM8 13L2.15 9.48C2.05 9.64 2 9.81 2 10C2 10.35 2.19 10.68 2.49 10.85L7.49 13.86C7.64 13.95 7.82 14 8 14C8.18 14 8.36 13.95 8.51 13.85L9.05 13.53C9.03 13.36 9 13.18 9 13C9 12.78 9.03 12.57 9.07 12.36L8 13Z"}],["path",{"d":"M13 16C14.66 16 16 14.66 16 13C16 11.34 14.66 10 13 10C11.34 10 10 11.34 10 13C10 14.66 11.34 16 13 16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscLayersDot;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-cloud-upload",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscCloudUpload {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.5 7C9.02 7 7 9.02 7 11.5C7 13.99 9.02 16 11.5 16C13.99 16 16 13.99 16 11.5C16 9.02 13.99 7 11.5 7ZM13.85 11.85C13.66 12.05 13.34 12.05 13.15 11.85L12 10.71V14C12 14.28 11.78 14.5 11.5 14.5C11.23 14.5 11 14.28 11 14V10.71L9.86 11.85C9.66 12.05 9.34 12.05 9.15 11.85C8.95 11.66 8.95 11.34 9.15 11.15L11.15 9.15C11.2 9.1 11.25 9.06 11.31 9.04C11.37 9.02 11.43 9 11.5 9H11.5C11.57 9 11.63 9.02 11.69 9.04C11.75 9.06 11.81 9.1 11.85 9.15L11.86 9.15L13.86 11.15C14.05 11.34 14.05 11.66 13.86 11.86L13.85 11.85ZM4.25 12H6V13H4.25C2.46 13 1 11.55 1 9.75C1 8.03 2.34 6.62 4.03 6.51C4.27 4.53 5.96 3 8 3C9.86 3 11.41 4.28 11.86 6H10.81C10.4 4.84 9.3 4 8 4C6.34 4 5 5.34 5 7C5 7.28 4.78 7.5 4.5 7.5H4.25C3.01 7.5 2 8.51 2 9.75C2 10.99 3.01 12 4.25 12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscCloudUpload;

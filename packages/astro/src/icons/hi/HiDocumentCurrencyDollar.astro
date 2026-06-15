@@ -1,0 +1,9 @@
+---
+import type { NodeTuple } from "@mal-icons/core";
+import IconBase from "../../IconBase.astro";
+
+const nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M19.5 14.25v-2.62a3.38 3.38 0 0 0-3.37-3.37h-1.5A1.13 1.13 0 0 1 13.5 7.13v-1.5a3.38 3.38 0 0 0-3.37-3.37H8.25m3.75 9v7.5m2.25-6.47a9.02 9.02 0 0 0-3.46-0.2c-0.540.07-0.970.48-1.02 1.02a4.56 4.56 0 0 0-0.020.4c0 0.460.340.840.780.99l2.95 1.01c0.440.150.780.530.780.99 0 0.14-0.010.27-0.020.4-0.050.54-0.480.95-1.02 1.02a9.08 9.08 0 0 1-3.46-0.2M10.5 2.25H5.63c-0.62 0-1.120.5-1.12 1.13v17.25c0 0.620.5 1.13 1.13 1.13h12.75c0.62 0 1.13-0.5 1.13-1.12V11.25a9 9 0 0 0-9-9Z"}]];
+const defaultAttr = {"fill":"none","stroke-width":1.5};
+---
+
+<IconBase viewBox="0 0 24 24" nodes={nodes} defaultAttr={defaultAttr} {...Astro.props} />

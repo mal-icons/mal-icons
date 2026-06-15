@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const FcRightDown = createIcon("0 0 48 48", [["polygon",{"fill":"#3F51B5","points":"41,41 23,41 41,23"}],["rect",{"x":"17.4","y":"5","transform":"matrix(.707 -.707 .707 .707 -8.854 21.374)","fill":"#3F51B5","width":"8","height":"32.7"}]]);
+
+export default FcRightDown;

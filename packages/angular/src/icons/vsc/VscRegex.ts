@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-regex",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscRegex {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.5 5H9.71L10.97 3.73C11.17 3.54 11.17 3.22 10.97 3.03C10.78 2.83 10.46 2.83 10.27 3.03L9 4.29V2.5C9 2.22 8.77 2 8.5 2C8.22 2 8 2.22 8 2.5V4.29L6.73 3.03C6.54 2.83 6.22 2.83 6.02 3.03C5.83 3.22 5.83 3.54 6.02 3.73L7.29 5H5.5C5.22 5 5 5.22 5 5.5C5 5.78 5.22 6 5.5 6H7.29L6.02 7.27C5.83 7.46 5.83 7.78 6.02 7.98C6.12 8.07 6.25 8.12 6.38 8.12C6.51 8.12 6.63 8.07 6.73 7.98L8 6.71V8.5C8 8.78 8.22 9 8.5 9C8.78 9 9 8.78 9 8.5V6.71L10.27 7.98C10.37 8.07 10.49 8.12 10.62 8.12C10.75 8.12 10.88 8.07 10.98 7.98C11.17 7.78 11.17 7.46 10.98 7.27L9.71 6H11.5C11.78 6 12 5.78 12 5.5C12 5.22 11.78 5 11.5 5H11.5ZM5 12C5 12.55 4.55 13 4 13C3.45 13 3 12.55 3 12C3 11.45 3.45 11 4 11C4.55 11 5 11.45 5 12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscRegex;

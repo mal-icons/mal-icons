@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgDetailsLess = createIcon("0 0 24 24", [["path",{"d":"M3 9C2.45 9 2 9.45 2 10C2 10.55 2.45 11 3 11H21C21.55 11 22 10.55 22 10C22 9.45 21.55 9 21 9H3Z","fill":"currentColor"}],["path",{"d":"M3 13C2.45 13 2 13.45 2 14C2 14.55 2.45 15 3 15H15C15.55 15 16 14.55 16 14C16 13.45 15.55 13 15 13H3Z","fill":"currentColor"}]]);
+
+export default CgDetailsLess;

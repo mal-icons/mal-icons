@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-italic",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscItalic {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13 2H7C6.72 2 6.5 2.22 6.5 2.5C6.5 2.78 6.72 3 7 3H9.47L5.66 13L3 13C2.72 13 2.5 13.22 2.5 13.5C2.5 13.78 2.72 14 3 14H5.99C6 14 6 14 6.01 14H9C9.28 14 9.5 13.78 9.5 13.5C9.5 13.22 9.28 13 9 13L6.73 13L10.54 3H13C13.28 3 13.5 2.78 13.5 2.5C13.5 2.22 13.28 2 13 2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscItalic;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TfInkPen = createIcon("0 0 17 17", [["path",{"d":"M3 0v6.5l5.47 9.5 5.53-9.5v-6.5h-11zM8.47 14h0l0 000zM8.5 6c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zM13 6.23l-4 6.87v-6.17c0.86-0.22 1.5-1 1.5-1.93 0-1.1-0.9-2-2-2s-2 0.9-2 2c0 0.93 0.64 1.71 1.5 1.93v6.25l-4-6.95v-5.23h9v5.23z","fill":"currentColor"}]]);
+
+export default TfInkPen;

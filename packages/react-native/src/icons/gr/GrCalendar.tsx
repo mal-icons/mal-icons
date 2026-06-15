@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrCalendar = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M2,5 L22,5 L22,22 L2,22 L2,5 Z M18,5 L18,1 M6,5 L6,1 M2,10 L22,10"}]], {"fill":"none"});
+
+export default GrCalendar;

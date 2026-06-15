@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TfParagraph = createIcon("0 0 17 17", [["path",{"d":"M16 1.03h-11.01c-2.18 0-3.95 1.77-3.95 3.96s1.77 3.95 3.96 3.95h3.01v7.07h1v-13.97h2.02v13.97h1v-13.97h3.99v-1zM8 7.94h-3.01c-1.63 0-2.95-1.32-2.95-2.95 0-1.63 1.33-2.95 2.96-2.95h3.01v5.91z","fill":"currentColor"}]]);
+
+export default TfParagraph;

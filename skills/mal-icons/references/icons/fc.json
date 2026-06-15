@@ -1,0 +1,2736 @@
+{
+  "set": {
+    "id": "fc",
+    "name": "Flat Color Icons",
+    "prefix": "Fc",
+    "version": "1.0.2",
+    "license": "CC-BY-4.0",
+    "repo": "icons8/flat-color-icons",
+    "style": "color",
+    "viewBox": "0 0 48 48"
+  },
+  "count": 312,
+  "icons": [
+    {
+      "name": "FcAbout",
+      "tags": [
+        "about",
+        "fill"
+      ],
+      "description": "About icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAcceptDatabase",
+      "tags": [
+        "accept",
+        "database",
+        "fill"
+      ],
+      "description": "Accept Database icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAddColumn",
+      "tags": [
+        "add",
+        "column",
+        "fill"
+      ],
+      "description": "Add Column icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAddDatabase",
+      "tags": [
+        "add",
+        "database",
+        "fill"
+      ],
+      "description": "Add Database icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAddImage",
+      "tags": [
+        "add",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "FcAddressBook",
+      "tags": [
+        "address",
+        "book",
+        "fill"
+      ],
+      "description": "Address Book icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAddRow",
+      "tags": [
+        "add",
+        "fill",
+        "row"
+      ],
+      "description": "Add Row icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAdvance",
+      "tags": [
+        "advance",
+        "fill"
+      ],
+      "description": "Advance icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAdvertising",
+      "tags": [
+        "advertising",
+        "fill"
+      ],
+      "description": "Advertising icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAlarmClock",
+      "tags": [
+        "alarm",
+        "clock",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "FcAlphabeticalSortingAz",
+      "tags": [
+        "alphabetical",
+        "az",
+        "fill",
+        "sorting"
+      ],
+      "description": "Alphabetical Sorting Az icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAlphabeticalSortingZa",
+      "tags": [
+        "alphabetical",
+        "fill",
+        "sorting",
+        "za"
+      ],
+      "description": "Alphabetical Sorting Za icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAnswers",
+      "tags": [
+        "answers",
+        "fill"
+      ],
+      "description": "Answers icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcApproval",
+      "tags": [
+        "approval",
+        "fill"
+      ],
+      "description": "Approval icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcApprove",
+      "tags": [
+        "approve",
+        "fill"
+      ],
+      "description": "Approve icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAreaChart",
+      "tags": [
+        "area",
+        "chart",
+        "fill"
+      ],
+      "description": "Area Chart icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAssistant",
+      "tags": [
+        "assistant",
+        "fill"
+      ],
+      "description": "Assistant icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAudioFile",
+      "tags": [
+        "audio",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FcAutomatic",
+      "tags": [
+        "automatic",
+        "fill"
+      ],
+      "description": "Automatic icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcAutomotive",
+      "tags": [
+        "automotive",
+        "fill"
+      ],
+      "description": "Automotive icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBadDecision",
+      "tags": [
+        "bad",
+        "decision",
+        "fill"
+      ],
+      "description": "Bad Decision icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBarChart",
+      "tags": [
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Bar Chart icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBearish",
+      "tags": [
+        "bearish",
+        "fill"
+      ],
+      "description": "Bearish icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBinoculars",
+      "tags": [
+        "binoculars",
+        "fill"
+      ],
+      "description": "Binoculars icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBiohazard",
+      "tags": [
+        "biohazard",
+        "fill"
+      ],
+      "description": "Biohazard icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBiomass",
+      "tags": [
+        "biomass",
+        "fill"
+      ],
+      "description": "Biomass icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBiotech",
+      "tags": [
+        "biotech",
+        "fill"
+      ],
+      "description": "Biotech icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "FcBriefcase",
+      "tags": [
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBrokenLink",
+      "tags": [
+        "broken",
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "FcBullish",
+      "tags": [
+        "bullish",
+        "fill"
+      ],
+      "description": "Bullish icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBusiness",
+      "tags": [
+        "business",
+        "fill"
+      ],
+      "description": "Business icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBusinessContact",
+      "tags": [
+        "business",
+        "contact",
+        "fill"
+      ],
+      "description": "Business Contact icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBusinessman",
+      "tags": [
+        "businessman",
+        "fill"
+      ],
+      "description": "Businessman icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcBusinesswoman",
+      "tags": [
+        "businesswoman",
+        "fill"
+      ],
+      "description": "Businesswoman icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcButtingIn",
+      "tags": [
+        "butting",
+        "fill",
+        "in"
+      ],
+      "description": "Butting In icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCableRelease",
+      "tags": [
+        "cable",
+        "fill",
+        "release"
+      ],
+      "description": "Cable Release icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCalculator",
+      "tags": [
+        "calculator",
+        "fill"
+      ],
+      "description": "Calculator icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "FcCallback",
+      "tags": [
+        "callback",
+        "fill"
+      ],
+      "description": "Callback icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCallTransfer",
+      "tags": [
+        "call",
+        "fill",
+        "transfer"
+      ],
+      "description": "Call Transfer icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCamcorder",
+      "tags": [
+        "camcorder",
+        "fill"
+      ],
+      "description": "Camcorder icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCamcorderPro",
+      "tags": [
+        "camcorder",
+        "fill",
+        "pro"
+      ],
+      "description": "Camcorder Pro icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FcCameraAddon",
+      "tags": [
+        "addon",
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FcCameraIdentification",
+      "tags": [
+        "camera",
+        "fill",
+        "identification",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FcCancel",
+      "tags": [
+        "cancel",
+        "fill"
+      ],
+      "description": "Cancel icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCandleSticks",
+      "tags": [
+        "candle",
+        "fill",
+        "sticks"
+      ],
+      "description": "Candle Sticks icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCapacitor",
+      "tags": [
+        "capacitor",
+        "fill"
+      ],
+      "description": "Capacitor icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCellPhone",
+      "tags": [
+        "cell",
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FcChargeBattery",
+      "tags": [
+        "battery",
+        "charge",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FcCheckmark",
+      "tags": [
+        "checkmark",
+        "fill"
+      ],
+      "description": "Checkmark icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCircuit",
+      "tags": [
+        "circuit",
+        "fill"
+      ],
+      "description": "Circuit icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcClapperboard",
+      "tags": [
+        "clapperboard",
+        "fill"
+      ],
+      "description": "Clapperboard icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcClearFilters",
+      "tags": [
+        "clear",
+        "fill",
+        "filters"
+      ],
+      "description": "Clear Filters icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcClock",
+      "tags": [
+        "clock",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "FcCloseUpMode",
+      "tags": [
+        "close",
+        "fill",
+        "like",
+        "mode",
+        "up"
+      ],
+      "description": "Close Up Mode icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCloth",
+      "tags": [
+        "cloth",
+        "fill"
+      ],
+      "description": "Cloth icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCollaboration",
+      "tags": [
+        "collaboration",
+        "fill"
+      ],
+      "description": "Collaboration icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCollapse",
+      "tags": [
+        "collapse",
+        "fill"
+      ],
+      "description": "Collapse icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCollect",
+      "tags": [
+        "collect",
+        "fill"
+      ],
+      "description": "Collect icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcComboChart",
+      "tags": [
+        "chart",
+        "combo",
+        "fill"
+      ],
+      "description": "Combo Chart icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcComments",
+      "tags": [
+        "comments",
+        "fill"
+      ],
+      "description": "Comments icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCompactCamera",
+      "tags": [
+        "camera",
+        "compact",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FcConferenceCall",
+      "tags": [
+        "call",
+        "conference",
+        "fill"
+      ],
+      "description": "Conference Call icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcContacts",
+      "tags": [
+        "contacts",
+        "fill"
+      ],
+      "description": "Contacts icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCopyleft",
+      "tags": [
+        "copyleft",
+        "fill"
+      ],
+      "description": "Copyleft icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCopyright",
+      "tags": [
+        "copyright",
+        "fill"
+      ],
+      "description": "Copyright icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCrystalOscillator",
+      "tags": [
+        "crystal",
+        "fill",
+        "oscillator"
+      ],
+      "description": "Crystal Oscillator icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCurrencyExchange",
+      "tags": [
+        "currency",
+        "exchange",
+        "fill"
+      ],
+      "description": "Currency Exchange icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCursor",
+      "tags": [
+        "cursor",
+        "fill"
+      ],
+      "description": "Cursor icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcCustomerSupport",
+      "tags": [
+        "customer",
+        "fill",
+        "support"
+      ],
+      "description": "Customer Support icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDam",
+      "tags": [
+        "dam",
+        "fill"
+      ],
+      "description": "Dam icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDataBackup",
+      "tags": [
+        "backup",
+        "data",
+        "fill"
+      ],
+      "description": "Data Backup icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDatabase",
+      "tags": [
+        "database",
+        "fill"
+      ],
+      "description": "Database icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDataConfiguration",
+      "tags": [
+        "configuration",
+        "data",
+        "fill"
+      ],
+      "description": "Data Configuration icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDataEncryption",
+      "tags": [
+        "data",
+        "encryption",
+        "fill"
+      ],
+      "description": "Data Encryption icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDataProtection",
+      "tags": [
+        "data",
+        "fill",
+        "protection"
+      ],
+      "description": "Data Protection icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDataRecovery",
+      "tags": [
+        "data",
+        "fill",
+        "recovery"
+      ],
+      "description": "Data Recovery icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDataSheet",
+      "tags": [
+        "data",
+        "fill",
+        "sheet"
+      ],
+      "description": "Data Sheet icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDebt",
+      "tags": [
+        "debt",
+        "fill"
+      ],
+      "description": "Debt icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDecision",
+      "tags": [
+        "decision",
+        "fill"
+      ],
+      "description": "Decision icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDeleteColumn",
+      "tags": [
+        "column",
+        "delete",
+        "fill"
+      ],
+      "description": "Delete Column icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDeleteDatabase",
+      "tags": [
+        "database",
+        "delete",
+        "fill"
+      ],
+      "description": "Delete Database icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDeleteRow",
+      "tags": [
+        "delete",
+        "fill",
+        "row"
+      ],
+      "description": "Delete Row icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDepartment",
+      "tags": [
+        "department",
+        "fill"
+      ],
+      "description": "Department icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDeployment",
+      "tags": [
+        "deployment",
+        "fill"
+      ],
+      "description": "Deployment icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDiploma1",
+      "tags": [
+        "1",
+        "diploma",
+        "diploma1",
+        "fill"
+      ],
+      "description": "Diploma 1 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDiploma2",
+      "tags": [
+        "2",
+        "diploma",
+        "diploma2",
+        "fill"
+      ],
+      "description": "Diploma 2 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDisapprove",
+      "tags": [
+        "disapprove",
+        "fill"
+      ],
+      "description": "Disapprove icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDisclaimer",
+      "tags": [
+        "disclaimer",
+        "fill"
+      ],
+      "description": "Disclaimer icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDislike",
+      "tags": [
+        "dislike",
+        "fill"
+      ],
+      "description": "Dislike icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDisplay",
+      "tags": [
+        "display",
+        "fill"
+      ],
+      "description": "Display icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDocument",
+      "tags": [
+        "document",
+        "fill"
+      ],
+      "description": "Document icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDonate",
+      "tags": [
+        "donate",
+        "fill"
+      ],
+      "description": "Donate icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDoNotInhale",
+      "tags": [
+        "do",
+        "fill",
+        "inhale",
+        "not"
+      ],
+      "description": "Do Not Inhale icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDoNotInsert",
+      "tags": [
+        "do",
+        "fill",
+        "insert",
+        "not"
+      ],
+      "description": "Do Not Insert icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDoNotMix",
+      "tags": [
+        "do",
+        "fill",
+        "mix",
+        "not"
+      ],
+      "description": "Do Not Mix icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDoughnutChart",
+      "tags": [
+        "chart",
+        "doughnut",
+        "fill"
+      ],
+      "description": "Doughnut Chart icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDown",
+      "tags": [
+        "down",
+        "fill"
+      ],
+      "description": "Down icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDownLeft",
+      "tags": [
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Down Left icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "FcDownRight",
+      "tags": [
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Down Right icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcEditImage",
+      "tags": [
+        "edit",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "FcElectricalSensor",
+      "tags": [
+        "electrical",
+        "fill",
+        "sensor"
+      ],
+      "description": "Electrical Sensor icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcElectricalThreshold",
+      "tags": [
+        "electrical",
+        "fill",
+        "threshold"
+      ],
+      "description": "Electrical Threshold icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcElectricity",
+      "tags": [
+        "electricity",
+        "fill"
+      ],
+      "description": "Electricity icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcElectroDevices",
+      "tags": [
+        "devices",
+        "electro",
+        "fill"
+      ],
+      "description": "Electro Devices icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcElectronics",
+      "tags": [
+        "electronics",
+        "fill"
+      ],
+      "description": "Electronics icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcEmptyBattery",
+      "tags": [
+        "battery",
+        "empty",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FcEmptyFilter",
+      "tags": [
+        "empty",
+        "fill",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "FcEmptyTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "empty",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "FcEndCall",
+      "tags": [
+        "call",
+        "end",
+        "fill"
+      ],
+      "description": "End Call icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcEngineering",
+      "tags": [
+        "engineering",
+        "fill"
+      ],
+      "description": "Engineering icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcEnteringHeavenAlive",
+      "tags": [
+        "alive",
+        "entering",
+        "fill",
+        "heaven"
+      ],
+      "description": "Entering Heaven Alive icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcExpand",
+      "tags": [
+        "expand",
+        "fill"
+      ],
+      "description": "Expand icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcExpired",
+      "tags": [
+        "expired",
+        "fill"
+      ],
+      "description": "Expired icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcExport",
+      "tags": [
+        "export",
+        "fill"
+      ],
+      "description": "Export icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcExternal",
+      "tags": [
+        "external",
+        "fill"
+      ],
+      "description": "External icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFactory",
+      "tags": [
+        "factory",
+        "fill"
+      ],
+      "description": "Factory icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFactoryBreakdown",
+      "tags": [
+        "breakdown",
+        "factory",
+        "fill"
+      ],
+      "description": "Factory Breakdown icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFaq",
+      "tags": [
+        "faq",
+        "fill"
+      ],
+      "description": "Faq icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFeedback",
+      "tags": [
+        "feedback",
+        "fill"
+      ],
+      "description": "Feedback icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFeedIn",
+      "tags": [
+        "feed",
+        "fill",
+        "in"
+      ],
+      "description": "Feed In icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FcFilingCabinet",
+      "tags": [
+        "cabinet",
+        "filing",
+        "fill"
+      ],
+      "description": "Filing Cabinet icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFilledFilter",
+      "tags": [
+        "fill",
+        "filled",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "FcFilm",
+      "tags": [
+        "fill",
+        "film"
+      ],
+      "description": "Film icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFilmReel",
+      "tags": [
+        "fill",
+        "film",
+        "reel"
+      ],
+      "description": "Film Reel icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFinePrint",
+      "tags": [
+        "fill",
+        "fine",
+        "print"
+      ],
+      "description": "Fine Print icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFlashAuto",
+      "tags": [
+        "auto",
+        "fill",
+        "flash"
+      ],
+      "description": "Flash Auto icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFlashOff",
+      "tags": [
+        "fill",
+        "flash",
+        "hide",
+        "off"
+      ],
+      "description": "Flash Off icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFlashOn",
+      "tags": [
+        "fill",
+        "flash",
+        "on"
+      ],
+      "description": "Flash On icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFlowChart",
+      "tags": [
+        "chart",
+        "fill",
+        "flow"
+      ],
+      "description": "Flow Chart icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FcFrame",
+      "tags": [
+        "fill",
+        "frame"
+      ],
+      "description": "Frame icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcFullBattery",
+      "tags": [
+        "battery",
+        "fill",
+        "full"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FcFullTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "full",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "FcGallery",
+      "tags": [
+        "fill",
+        "gallery"
+      ],
+      "description": "Gallery icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcGenealogy",
+      "tags": [
+        "fill",
+        "genealogy"
+      ],
+      "description": "Genealogy icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcGenericSortingAsc",
+      "tags": [
+        "asc",
+        "fill",
+        "generic",
+        "sorting"
+      ],
+      "description": "Generic Sorting Asc icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcGenericSortingDesc",
+      "tags": [
+        "desc",
+        "fill",
+        "generic",
+        "sorting"
+      ],
+      "description": "Generic Sorting Desc icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcGlobe",
+      "tags": [
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "FcGoodDecision",
+      "tags": [
+        "decision",
+        "fill",
+        "good"
+      ],
+      "description": "Good Decision icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcGraduationCap",
+      "tags": [
+        "cap",
+        "fill",
+        "graduation"
+      ],
+      "description": "Graduation Cap icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcGrid",
+      "tags": [
+        "fill",
+        "grid"
+      ],
+      "description": "Grid icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcHeadset",
+      "tags": [
+        "fill",
+        "headset"
+      ],
+      "description": "Headset icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcHeatMap",
+      "tags": [
+        "fill",
+        "heat",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "FcHighBattery",
+      "tags": [
+        "battery",
+        "fill",
+        "high"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FcHighPriority",
+      "tags": [
+        "fill",
+        "high",
+        "priority"
+      ],
+      "description": "High Priority icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "FcIcons8Cup",
+      "tags": [
+        "cup",
+        "fill",
+        "icons8"
+      ],
+      "description": "Icons 8 Cup icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcIdea",
+      "tags": [
+        "fill",
+        "idea"
+      ],
+      "description": "Idea icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcImageFile",
+      "tags": [
+        "file",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "FcImport",
+      "tags": [
+        "fill",
+        "import"
+      ],
+      "description": "Import icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcInfo",
+      "tags": [
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "FcInspection",
+      "tags": [
+        "fill",
+        "inspection"
+      ],
+      "description": "Inspection icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcIntegratedWebcam",
+      "tags": [
+        "fill",
+        "integrated",
+        "webcam"
+      ],
+      "description": "Integrated Webcam icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcInternal",
+      "tags": [
+        "fill",
+        "internal"
+      ],
+      "description": "Internal icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcInTransit",
+      "tags": [
+        "fill",
+        "in",
+        "transit"
+      ],
+      "description": "In Transit icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcInvite",
+      "tags": [
+        "fill",
+        "invite"
+      ],
+      "description": "Invite icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcIpad",
+      "tags": [
+        "fill",
+        "ipad"
+      ],
+      "description": "Ipad icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcIphone",
+      "tags": [
+        "fill",
+        "iphone"
+      ],
+      "description": "Iphone icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcKindle",
+      "tags": [
+        "fill",
+        "kindle"
+      ],
+      "description": "Kindle icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLandscape",
+      "tags": [
+        "fill",
+        "landscape"
+      ],
+      "description": "Landscape icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLeave",
+      "tags": [
+        "fill",
+        "leave"
+      ],
+      "description": "Leave icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLeft",
+      "tags": [
+        "fill",
+        "left"
+      ],
+      "description": "Left icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLeftDown",
+      "tags": [
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Left Down icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLeftDown2",
+      "tags": [
+        "down2",
+        "fill",
+        "left"
+      ],
+      "description": "Left Down 2 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLeftUp",
+      "tags": [
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Left Up icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLeftUp2",
+      "tags": [
+        "fill",
+        "left",
+        "up2"
+      ],
+      "description": "Left Up 2 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLibrary",
+      "tags": [
+        "fill",
+        "library"
+      ],
+      "description": "Library icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLightAtTheEndOfTunnel",
+      "tags": [
+        "at",
+        "end",
+        "fill",
+        "light",
+        "of",
+        "the",
+        "tunnel"
+      ],
+      "description": "Light At The End Of Tunnel icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLike",
+      "tags": [
+        "fill",
+        "like"
+      ],
+      "description": "Like icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLikePlaceholder",
+      "tags": [
+        "fill",
+        "like",
+        "placeholder"
+      ],
+      "description": "Like Placeholder icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLineChart",
+      "tags": [
+        "chart",
+        "fill",
+        "line"
+      ],
+      "description": "Line Chart icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "FcList",
+      "tags": [
+        "fill",
+        "list"
+      ],
+      "description": "List icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "FcLockLandscape",
+      "tags": [
+        "fill",
+        "landscape",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "FcLockPortrait",
+      "tags": [
+        "fill",
+        "lock",
+        "portrait"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "FcLowBattery",
+      "tags": [
+        "battery",
+        "fill",
+        "low"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FcLowPriority",
+      "tags": [
+        "fill",
+        "low",
+        "priority"
+      ],
+      "description": "Low Priority icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMakeDecision",
+      "tags": [
+        "decision",
+        "fill",
+        "make"
+      ],
+      "description": "Make Decision icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcManager",
+      "tags": [
+        "fill",
+        "manager"
+      ],
+      "description": "Manager icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMediumPriority",
+      "tags": [
+        "fill",
+        "medium",
+        "priority"
+      ],
+      "description": "Medium Priority icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMenu",
+      "tags": [
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "FcMiddleBattery",
+      "tags": [
+        "battery",
+        "fill",
+        "middle"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "FcMindMap",
+      "tags": [
+        "fill",
+        "map",
+        "mind"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "FcMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "FcMissedCall",
+      "tags": [
+        "call",
+        "fill",
+        "missed"
+      ],
+      "description": "Missed Call icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMms",
+      "tags": [
+        "fill",
+        "mms"
+      ],
+      "description": "Mms icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMoneyTransfer",
+      "tags": [
+        "fill",
+        "money",
+        "transfer"
+      ],
+      "description": "Money Transfer icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMultipleCameras",
+      "tags": [
+        "cameras",
+        "fill",
+        "multiple"
+      ],
+      "description": "Multiple Cameras icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMultipleDevices",
+      "tags": [
+        "devices",
+        "fill",
+        "multiple"
+      ],
+      "description": "Multiple Devices icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMultipleInputs",
+      "tags": [
+        "fill",
+        "inputs",
+        "multiple"
+      ],
+      "description": "Multiple Inputs icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMultipleSmartphones",
+      "tags": [
+        "fill",
+        "multiple",
+        "smartphones"
+      ],
+      "description": "Multiple Smartphones icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcMusic",
+      "tags": [
+        "fill",
+        "music"
+      ],
+      "description": "Music icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNegativeDynamic",
+      "tags": [
+        "dynamic",
+        "fill",
+        "negative"
+      ],
+      "description": "Negative Dynamic icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNeutralDecision",
+      "tags": [
+        "decision",
+        "fill",
+        "neutral"
+      ],
+      "description": "Neutral Decision icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNeutralTrading",
+      "tags": [
+        "fill",
+        "neutral",
+        "trading"
+      ],
+      "description": "Neutral Trading icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNews",
+      "tags": [
+        "fill",
+        "news"
+      ],
+      "description": "News icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNext",
+      "tags": [
+        "fill",
+        "next"
+      ],
+      "description": "Next icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNightLandscape",
+      "tags": [
+        "fill",
+        "landscape",
+        "night"
+      ],
+      "description": "Night Landscape icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNightPortrait",
+      "tags": [
+        "fill",
+        "night",
+        "portrait"
+      ],
+      "description": "Night Portrait icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNoIdea",
+      "tags": [
+        "fill",
+        "idea",
+        "no"
+      ],
+      "description": "No Idea icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNook",
+      "tags": [
+        "fill",
+        "nook"
+      ],
+      "description": "Nook icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNoVideo",
+      "tags": [
+        "fill",
+        "no",
+        "video"
+      ],
+      "description": "No Video icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNumericalSorting12",
+      "tags": [
+        "12",
+        "fill",
+        "numerical",
+        "sorting",
+        "sorting12"
+      ],
+      "description": "Numerical Sorting 12 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcNumericalSorting21",
+      "tags": [
+        "21",
+        "fill",
+        "numerical",
+        "sorting",
+        "sorting21"
+      ],
+      "description": "Numerical Sorting 21 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcOk",
+      "tags": [
+        "fill",
+        "ok"
+      ],
+      "description": "Ok icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcOldTimeCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "old",
+        "photo",
+        "time"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FcOnlineSupport",
+      "tags": [
+        "fill",
+        "online",
+        "support"
+      ],
+      "description": "Online Support icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcOpenedFolder",
+      "tags": [
+        "fill",
+        "folder",
+        "opened"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "FcOrganization",
+      "tags": [
+        "fill",
+        "organization"
+      ],
+      "description": "Organization icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcOrgUnit",
+      "tags": [
+        "fill",
+        "org",
+        "unit"
+      ],
+      "description": "Org Unit icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcOvertime",
+      "tags": [
+        "fill",
+        "overtime"
+      ],
+      "description": "Overtime icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPackage",
+      "tags": [
+        "fill",
+        "package"
+      ],
+      "description": "Package icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPaid",
+      "tags": [
+        "fill",
+        "paid"
+      ],
+      "description": "Paid icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPanorama",
+      "tags": [
+        "fill",
+        "panorama"
+      ],
+      "description": "Panorama icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcParallelTasks",
+      "tags": [
+        "fill",
+        "parallel",
+        "tasks"
+      ],
+      "description": "Parallel Tasks icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPhone",
+      "tags": [
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FcPhoneAndroid",
+      "tags": [
+        "android",
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "FcPhotoReel",
+      "tags": [
+        "fill",
+        "photo",
+        "reel"
+      ],
+      "description": "Photo Reel icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPicture",
+      "tags": [
+        "fill",
+        "picture"
+      ],
+      "description": "Picture icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPieChart",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPlanner",
+      "tags": [
+        "fill",
+        "planner"
+      ],
+      "description": "Planner icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "FcPodiumWithAudience",
+      "tags": [
+        "audience",
+        "fill",
+        "podium",
+        "with"
+      ],
+      "description": "Podium With Audience icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPodiumWithoutSpeaker",
+      "tags": [
+        "fill",
+        "podium",
+        "speaker",
+        "without"
+      ],
+      "description": "Podium Without Speaker icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPodiumWithSpeaker",
+      "tags": [
+        "fill",
+        "podium",
+        "speaker",
+        "with"
+      ],
+      "description": "Podium With Speaker icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPortraitMode",
+      "tags": [
+        "fill",
+        "mode",
+        "portrait"
+      ],
+      "description": "Portrait Mode icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPositiveDynamic",
+      "tags": [
+        "dynamic",
+        "fill",
+        "positive"
+      ],
+      "description": "Positive Dynamic icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPrevious",
+      "tags": [
+        "fill",
+        "previous"
+      ],
+      "description": "Previous icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPrint",
+      "tags": [
+        "fill",
+        "print"
+      ],
+      "description": "Print icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPrivacy",
+      "tags": [
+        "fill",
+        "privacy"
+      ],
+      "description": "Privacy icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcProcess",
+      "tags": [
+        "fill",
+        "process"
+      ],
+      "description": "Process icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcPuzzle",
+      "tags": [
+        "fill",
+        "puzzle"
+      ],
+      "description": "Puzzle icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcQuestions",
+      "tags": [
+        "fill",
+        "questions"
+      ],
+      "description": "Questions icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRadarPlot",
+      "tags": [
+        "fill",
+        "plot",
+        "radar"
+      ],
+      "description": "Radar Plot icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRating",
+      "tags": [
+        "fill",
+        "rating"
+      ],
+      "description": "Rating icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRatings",
+      "tags": [
+        "fill",
+        "ratings"
+      ],
+      "description": "Ratings icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcReading",
+      "tags": [
+        "fill",
+        "reading"
+      ],
+      "description": "Reading icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcReadingEbook",
+      "tags": [
+        "ebook",
+        "fill",
+        "reading"
+      ],
+      "description": "Reading Ebook icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRedo",
+      "tags": [
+        "fill",
+        "redo"
+      ],
+      "description": "Redo icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRefresh",
+      "tags": [
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "FcRegisteredTrademark",
+      "tags": [
+        "fill",
+        "registered",
+        "trademark"
+      ],
+      "description": "Registered Trademark icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRemoveImage",
+      "tags": [
+        "fill",
+        "image",
+        "photo",
+        "picture",
+        "remove"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "FcReuse",
+      "tags": [
+        "fill",
+        "reuse"
+      ],
+      "description": "Reuse icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRight",
+      "tags": [
+        "fill",
+        "right"
+      ],
+      "description": "Right icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRightDown",
+      "tags": [
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Right Down icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRightDown2",
+      "tags": [
+        "down2",
+        "fill",
+        "right"
+      ],
+      "description": "Right Down 2 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRightUp",
+      "tags": [
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Right Up icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRightUp2",
+      "tags": [
+        "fill",
+        "right",
+        "up2"
+      ],
+      "description": "Right Up 2 icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRotateCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo",
+        "rotate"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FcRotateToLandscape",
+      "tags": [
+        "fill",
+        "landscape",
+        "rotate",
+        "to"
+      ],
+      "description": "Rotate To Landscape icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRotateToPortrait",
+      "tags": [
+        "fill",
+        "portrait",
+        "rotate",
+        "to"
+      ],
+      "description": "Rotate To Portrait icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRuler",
+      "tags": [
+        "fill",
+        "ruler"
+      ],
+      "description": "Ruler icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcRules",
+      "tags": [
+        "fill",
+        "rules"
+      ],
+      "description": "Rules icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSafe",
+      "tags": [
+        "fill",
+        "safe"
+      ],
+      "description": "Safe icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSalesPerformance",
+      "tags": [
+        "fill",
+        "performance",
+        "sales"
+      ],
+      "description": "Sales Performance icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcScatterPlot",
+      "tags": [
+        "fill",
+        "plot",
+        "scatter"
+      ],
+      "description": "Scatter Plot icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSearch",
+      "tags": [
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "FcSelfie",
+      "tags": [
+        "fill",
+        "selfie"
+      ],
+      "description": "Selfie icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSelfServiceKiosk",
+      "tags": [
+        "fill",
+        "kiosk",
+        "self",
+        "service"
+      ],
+      "description": "Self Service Kiosk icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSerialTasks",
+      "tags": [
+        "fill",
+        "serial",
+        "tasks"
+      ],
+      "description": "Serial Tasks icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcServiceMark",
+      "tags": [
+        "fill",
+        "mark",
+        "service"
+      ],
+      "description": "Service Mark icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcServices",
+      "tags": [
+        "fill",
+        "services"
+      ],
+      "description": "Services icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSettings",
+      "tags": [
+        "fill",
+        "gear",
+        "setting",
+        "settings"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "FcShare",
+      "tags": [
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "FcShipped",
+      "tags": [
+        "fill",
+        "shipped"
+      ],
+      "description": "Shipped icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcShop",
+      "tags": [
+        "fill",
+        "shop"
+      ],
+      "description": "Shop icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSignature",
+      "tags": [
+        "fill",
+        "signature"
+      ],
+      "description": "Signature icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSimCard",
+      "tags": [
+        "card",
+        "fill",
+        "sim"
+      ],
+      "description": "Sim Card icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSimCardChip",
+      "tags": [
+        "card",
+        "chip",
+        "fill",
+        "sim"
+      ],
+      "description": "Sim Card Chip icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSlrBackSide",
+      "tags": [
+        "back",
+        "fill",
+        "side",
+        "slr"
+      ],
+      "description": "Slr Back Side icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSmartphoneTablet",
+      "tags": [
+        "fill",
+        "smartphone",
+        "tablet"
+      ],
+      "description": "Smartphone Tablet icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSms",
+      "tags": [
+        "fill",
+        "sms"
+      ],
+      "description": "Sms icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSoundRecordingCopyright",
+      "tags": [
+        "copyright",
+        "fill",
+        "recording",
+        "sound"
+      ],
+      "description": "Sound Recording Copyright icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSpeaker",
+      "tags": [
+        "fill",
+        "speaker"
+      ],
+      "description": "Speaker icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSportsMode",
+      "tags": [
+        "fill",
+        "mode",
+        "sports"
+      ],
+      "description": "Sports Mode icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcStackOfPhotos",
+      "tags": [
+        "fill",
+        "of",
+        "photos",
+        "stack"
+      ],
+      "description": "Stack Of Photos icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcStart",
+      "tags": [
+        "fill",
+        "start"
+      ],
+      "description": "Start icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcStatistics",
+      "tags": [
+        "fill",
+        "statistics"
+      ],
+      "description": "Statistics icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSupport",
+      "tags": [
+        "fill",
+        "support"
+      ],
+      "description": "Support icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSurvey",
+      "tags": [
+        "fill",
+        "survey"
+      ],
+      "description": "Survey icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcSwitchCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo",
+        "switch"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "FcSynchronize",
+      "tags": [
+        "fill",
+        "synchronize"
+      ],
+      "description": "Synchronize icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTabletAndroid",
+      "tags": [
+        "android",
+        "fill",
+        "tablet"
+      ],
+      "description": "Tablet Android icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTemplate",
+      "tags": [
+        "fill",
+        "template"
+      ],
+      "description": "Template icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTimeline",
+      "tags": [
+        "fill",
+        "timeline"
+      ],
+      "description": "Timeline icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTodoList",
+      "tags": [
+        "fill",
+        "list",
+        "todo"
+      ],
+      "description": "Todo List icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTouchscreenSmartphone",
+      "tags": [
+        "fill",
+        "smartphone",
+        "touchscreen"
+      ],
+      "description": "Touchscreen Smartphone icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTrademark",
+      "tags": [
+        "fill",
+        "trademark"
+      ],
+      "description": "Trademark icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTreeStructure",
+      "tags": [
+        "fill",
+        "structure",
+        "tree"
+      ],
+      "description": "Tree Structure icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcTwoSmartphones",
+      "tags": [
+        "fill",
+        "smartphones",
+        "two"
+      ],
+      "description": "Two Smartphones icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcUndo",
+      "tags": [
+        "fill",
+        "undo"
+      ],
+      "description": "Undo icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcUnlock",
+      "tags": [
+        "fill",
+        "unlock"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "FcUp",
+      "tags": [
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Up icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcUpLeft",
+      "tags": [
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Up Left icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcUpload",
+      "tags": [
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "FcUpRight",
+      "tags": [
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Up Right icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcVideoCall",
+      "tags": [
+        "call",
+        "fill",
+        "video"
+      ],
+      "description": "Video Call icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcVideoFile",
+      "tags": [
+        "file",
+        "fill",
+        "video"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "FcVideoProjector",
+      "tags": [
+        "fill",
+        "projector",
+        "video"
+      ],
+      "description": "Video Projector icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcViewDetails",
+      "tags": [
+        "details",
+        "fill",
+        "view"
+      ],
+      "description": "View Details icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcVip",
+      "tags": [
+        "fill",
+        "vip"
+      ],
+      "description": "Vip icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcVoicemail",
+      "tags": [
+        "fill",
+        "voicemail"
+      ],
+      "description": "Voicemail icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcVoicePresentation",
+      "tags": [
+        "fill",
+        "presentation",
+        "voice"
+      ],
+      "description": "Voice Presentation icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcWebcam",
+      "tags": [
+        "fill",
+        "webcam"
+      ],
+      "description": "Webcam icon — Flat Color Icons (fc) set, color style."
+    },
+    {
+      "name": "FcWorkflow",
+      "tags": [
+        "fill",
+        "workflow"
+      ],
+      "description": "Workflow icon — Flat Color Icons (fc) set, color style."
+    }
+  ]
+}

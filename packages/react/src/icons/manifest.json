@@ -7,6 +7,12 @@
       "count": 420
     },
     {
+      "id": "cg",
+      "name": "css.gg",
+      "license": "MIT",
+      "count": 704
+    },
+    {
       "id": "ci",
       "name": "Circum",
       "license": "MPL-2.0",
@@ -37,10 +43,28 @@
       "count": 163
     },
     {
+      "id": "fc",
+      "name": "Flat Color Icons",
+      "license": "CC-BY-4.0",
+      "count": 312
+    },
+    {
       "id": "fi",
       "name": "Feather",
       "license": "MIT",
       "count": 287
+    },
+    {
+      "id": "gr",
+      "name": "Grommet",
+      "license": "Apache-2.0",
+      "count": 637
+    },
+    {
+      "id": "hi",
+      "name": "Heroicons",
+      "license": "MIT",
+      "count": 324
     },
     {
       "id": "io",
@@ -61,10 +85,34 @@
       "count": 733
     },
     {
+      "id": "rx",
+      "name": "Radix Icons",
+      "license": "MIT",
+      "count": 318
+    },
+    {
+      "id": "sl",
+      "name": "Simple Line Icons",
+      "license": "MIT",
+      "count": 189
+    },
+    {
+      "id": "tf",
+      "name": "Themify",
+      "license": "OFL-1.1",
+      "count": 352
+    },
+    {
       "id": "ti",
       "name": "Typicons",
       "license": "CC-BY-SA-4.0",
       "count": 336
+    },
+    {
+      "id": "vsc",
+      "name": "Codicons",
+      "license": "CC-BY-4.0",
+      "count": 604
     },
     {
       "id": "wi",

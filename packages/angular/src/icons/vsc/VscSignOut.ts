@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-sign-out",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscSignOut {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 13.5C10 13.78 9.78 14 9.5 14H4.5C3.12 14 2 12.88 2 11.5V3.5C2 2.12 3.12 1 4.5 1H9.5C9.78 1 10 1.22 10 1.5C10 1.78 9.78 2 9.5 2H4.5C3.67 2 3 2.67 3 3.5V11.5C3 12.33 3.67 13 4.5 13H9.5C9.78 13 10 13.22 10 13.5ZM13.85 7.15L10.85 4.15C10.66 3.95 10.34 3.95 10.15 4.15C9.95 4.34 9.95 4.66 10.15 4.86L12.29 7H5.5C5.22 7 5 7.23 5 7.5C5 7.78 5.22 8 5.5 8H12.29L10.15 10.15C9.95 10.34 9.95 10.66 10.15 10.85C10.34 11.05 10.66 11.05 10.85 10.85L13.85 7.85C14.05 7.66 14.05 7.34 13.85 7.15Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscSignOut;

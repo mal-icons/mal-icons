@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-control-end",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlControlEnd {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M943.94 0c-17.66 0-32 14.34-32 32v470c-2.88-18.19-13.44-34.47-29.37-44.37L146.85 11.03a64.15 64.15 0 0 0-33.78-9.65A63.77 63.77 0 0 0 81.99 9.44c-20.32 11.28-32.91 32.7-32.91 55.94l-1.01 893.23a63.96 63.96 0 0 0 32.91 55.94 63.93 63.93 0 0 0 31.09 8.06c11.71 0 23.47-3.21 33.78-9.66l736.72-446.61c15.94-9.87 26.5-26.16 29.38-44.35V992c0 17.66 14.34 32 32 32s32-14.34 32-32V32c0-17.66-14.32-32-32-32zM112.07 958.61l0.99-893.22 735.74 446.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlControlEnd;

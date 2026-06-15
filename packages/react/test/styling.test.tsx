@@ -59,3 +59,24 @@ describe("multi-tone", () => {
     expect(html).not.toContain("--mal-icons-secondary");
   });
 });
+
+describe("multicolor", () => {
+  const FcPlain = createIcon("0 0 48 48", [["path", { d: "M0 0h48v48H0z" }]]);
+
+  test("default keeps the currentColor stroke/fill", () => {
+    const html = renderToStaticMarkup(<FcPlain />);
+    expect(html).toContain('stroke="currentColor"');
+    expect(html).toContain('fill="currentColor"');
+  });
+
+  test("multicolor omits the currentColor stroke/fill defaults", () => {
+    const html = renderToStaticMarkup(<FcPlain multicolor />);
+    expect(html).not.toContain('stroke="currentColor"');
+    expect(html).not.toContain('fill="currentColor"');
+  });
+
+  test("multicolor is not forwarded as a DOM attribute", () => {
+    const html = renderToStaticMarkup(<FcPlain multicolor />);
+    expect(html).not.toContain("multicolor");
+  });
+});

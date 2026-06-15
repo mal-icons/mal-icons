@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-agent-compact",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscAgentCompact {
+  readonly viewBox = "0 0 12 12";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.02 11H7C6.72 11 6.5 10.78 6.5 10.5C6.5 10.22 6.72 10 7 10H8.02C8.2 10 8.36 9.9 8.45 9.75L10.47 6.25C10.56 6.1 10.56 5.9 10.47 5.75L8.45 2.25C8.24 1.89 7.61 1.99 7.5 2.4L5.46 9.87C5.28 10.54 4.67 11 3.98 11C3.45 11 2.95 10.71 2.68 10.25L0.66 6.75C0.39 6.29 0.39 5.71 0.66 5.25L2.68 1.75C2.95 1.29 3.44 1 3.98 1H5C5.28 1 5.5 1.22 5.5 1.5C5.5 1.78 5.28 2 5 2H3.98C3.8 2 3.64 2.1 3.55 2.25L1.53 5.75C1.44 5.9 1.44 6.1 1.53 6.25L3.55 9.75C3.76 10.11 4.39 10.01 4.5 9.6L6.54 2.13C6.72 1.46 7.33 1 8.02 1C8.55 1 9.05 1.29 9.32 1.75L11.34 5.25C11.61 5.71 11.61 6.29 11.34 6.75L9.32 10.25C9.05 10.71 8.56 11 8.02 11Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscAgentCompact;

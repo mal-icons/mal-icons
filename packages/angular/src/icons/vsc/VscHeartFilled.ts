@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-heart-filled",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscHeartFilled {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.02 14.07C7.89 14.07 7.77 14.02 7.67 13.93L2.1 8.36C1.54 7.8 1 6.89 1 5.7C1 3.94 2.33 2 4.73 2C5.7 2 6.68 2.36 7.39 3.07L7.99 3.67L8.59 3.08C9.3 2.36 10.27 2 11.23 2C14.2 2 15 4.68 15 5.75C15 6.71 14.64 7.67 13.91 8.39L8.38 13.93C8.28 14.03 8.15 14.07 8.02 14.07V14.07Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscHeartFilled;

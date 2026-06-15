@@ -1,0 +1,3140 @@
+{
+  "set": {
+    "id": "tf",
+    "name": "Themify",
+    "prefix": "Tf",
+    "version": "9600186",
+    "license": "OFL-1.1",
+    "repo": "lykmapipo/themify-icons",
+    "style": "fill",
+    "viewBox": "0 0 17 17"
+  },
+  "count": 352,
+  "icons": [
+    {
+      "name": "TfAgenda",
+      "tags": [
+        "agenda",
+        "fill"
+      ],
+      "description": "Agenda icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAlarmClock",
+      "tags": [
+        "alarm",
+        "clock",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "TfAlert",
+      "tags": [
+        "alert",
+        "fill",
+        "warning"
+      ],
+      "description": "Alert icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAlignCenter",
+      "tags": [
+        "align",
+        "center",
+        "fill"
+      ],
+      "description": "Align Center icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAlignJustify",
+      "tags": [
+        "align",
+        "fill",
+        "justify"
+      ],
+      "description": "Align Justify icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAlignLeft",
+      "tags": [
+        "align",
+        "fill",
+        "left"
+      ],
+      "description": "Align Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAlignRight",
+      "tags": [
+        "align",
+        "fill",
+        "right"
+      ],
+      "description": "Align Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAnchor",
+      "tags": [
+        "anchor",
+        "fill"
+      ],
+      "description": "Anchor icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAndroid",
+      "tags": [
+        "android",
+        "fill"
+      ],
+      "description": "Android icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleDoubleDown",
+      "tags": [
+        "angle",
+        "double",
+        "down",
+        "fill"
+      ],
+      "description": "Angle Double Down icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleDoubleLeft",
+      "tags": [
+        "angle",
+        "double",
+        "fill",
+        "left"
+      ],
+      "description": "Angle Double Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleDoubleRight",
+      "tags": [
+        "angle",
+        "double",
+        "fill",
+        "right"
+      ],
+      "description": "Angle Double Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleDoubleUp",
+      "tags": [
+        "angle",
+        "double",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Angle Double Up icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleDown",
+      "tags": [
+        "angle",
+        "down",
+        "fill"
+      ],
+      "description": "Angle Down icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleLeft",
+      "tags": [
+        "angle",
+        "fill",
+        "left"
+      ],
+      "description": "Angle Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleRight",
+      "tags": [
+        "angle",
+        "fill",
+        "right"
+      ],
+      "description": "Angle Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAngleUp",
+      "tags": [
+        "angle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Angle Up icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfAnnouncement",
+      "tags": [
+        "announcement",
+        "fill"
+      ],
+      "description": "Announcement icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfApple",
+      "tags": [
+        "apple",
+        "fill"
+      ],
+      "description": "Apple icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfArchive",
+      "tags": [
+        "archive",
+        "fill"
+      ],
+      "description": "Archive icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfArrow",
+      "tags": [
+        "arrow",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowCircleDown",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowCircleLeft",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowCircleRight",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowCircleUp",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowsCorner",
+      "tags": [
+        "arrows",
+        "corner",
+        "fill"
+      ],
+      "description": "Arrows Corner icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfArrowsHorizontal",
+      "tags": [
+        "arrows",
+        "fill",
+        "horizontal"
+      ],
+      "description": "Arrows Horizontal icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfArrowsVertical",
+      "tags": [
+        "arrows",
+        "fill",
+        "vertical"
+      ],
+      "description": "Arrows Vertical icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfArrowTopLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowTopRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfBackLeft",
+      "tags": [
+        "back",
+        "fill",
+        "left"
+      ],
+      "description": "Back Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBackRight",
+      "tags": [
+        "back",
+        "fill",
+        "right"
+      ],
+      "description": "Back Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBag",
+      "tags": [
+        "bag",
+        "fill"
+      ],
+      "description": "Bag icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBarChart",
+      "tags": [
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Bar Chart icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBarChartAlt",
+      "tags": [
+        "alt",
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Bar Chart Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBasketball",
+      "tags": [
+        "basketball",
+        "fill"
+      ],
+      "description": "Basketball icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "TfBlackboard",
+      "tags": [
+        "blackboard",
+        "fill"
+      ],
+      "description": "Blackboard icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBolt",
+      "tags": [
+        "bolt",
+        "fill"
+      ],
+      "description": "Bolt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBoltAlt",
+      "tags": [
+        "alt",
+        "bolt",
+        "fill"
+      ],
+      "description": "Bolt Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBook",
+      "tags": [
+        "book",
+        "fill"
+      ],
+      "description": "Book icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "TfBookmarkAlt",
+      "tags": [
+        "alt",
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "TfBriefcase",
+      "tags": [
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBrush",
+      "tags": [
+        "brush",
+        "fill"
+      ],
+      "description": "Brush icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfBrushAlt",
+      "tags": [
+        "alt",
+        "brush",
+        "fill"
+      ],
+      "description": "Brush Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "TfCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "TfCar",
+      "tags": [
+        "car",
+        "fill"
+      ],
+      "description": "Car icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCheck",
+      "tags": [
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "TfCheckBox",
+      "tags": [
+        "box",
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "TfClip",
+      "tags": [
+        "clip",
+        "fill"
+      ],
+      "description": "Clip icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfClipboard",
+      "tags": [
+        "clipboard",
+        "fill"
+      ],
+      "description": "Clipboard icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfClose",
+      "tags": [
+        "close",
+        "fill"
+      ],
+      "description": "Close icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCloud",
+      "tags": [
+        "cloud",
+        "fill"
+      ],
+      "description": "Cloud icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCloudDown",
+      "tags": [
+        "cloud",
+        "down",
+        "fill"
+      ],
+      "description": "Cloud Down icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCloudUp",
+      "tags": [
+        "cloud",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Cloud Up icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfComment",
+      "tags": [
+        "comment",
+        "fill"
+      ],
+      "description": "Comment icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCommentAlt",
+      "tags": [
+        "alt",
+        "comment",
+        "fill"
+      ],
+      "description": "Comment Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfComments",
+      "tags": [
+        "comments",
+        "fill"
+      ],
+      "description": "Comments icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCommentsSmiley",
+      "tags": [
+        "comments",
+        "fill",
+        "smiley"
+      ],
+      "description": "Comments Smiley icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlBackward",
+      "tags": [
+        "backward",
+        "control",
+        "fill"
+      ],
+      "description": "Control Backward icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlEject",
+      "tags": [
+        "control",
+        "eject",
+        "fill"
+      ],
+      "description": "Control Eject icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlForward",
+      "tags": [
+        "control",
+        "fill",
+        "forward"
+      ],
+      "description": "Control Forward icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlPause",
+      "tags": [
+        "control",
+        "fill",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "TfControlPlay",
+      "tags": [
+        "control",
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "TfControlRecord",
+      "tags": [
+        "control",
+        "fill",
+        "record"
+      ],
+      "description": "Control Record icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlShuffle",
+      "tags": [
+        "control",
+        "fill",
+        "shuffle"
+      ],
+      "description": "Control Shuffle icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlSkipBackward",
+      "tags": [
+        "backward",
+        "control",
+        "fill",
+        "skip"
+      ],
+      "description": "Control Skip Backward icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlSkipForward",
+      "tags": [
+        "control",
+        "fill",
+        "forward",
+        "skip"
+      ],
+      "description": "Control Skip Forward icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfControlStop",
+      "tags": [
+        "control",
+        "fill",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "TfCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "TfCrown",
+      "tags": [
+        "crown",
+        "fill"
+      ],
+      "description": "Crown icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCss3",
+      "tags": [
+        "css3",
+        "fill"
+      ],
+      "description": "Css 3 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCup",
+      "tags": [
+        "cup",
+        "fill"
+      ],
+      "description": "Cup icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfCut",
+      "tags": [
+        "cut",
+        "fill"
+      ],
+      "description": "Cut icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDashboard",
+      "tags": [
+        "dashboard",
+        "fill"
+      ],
+      "description": "Dashboard icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDesktop",
+      "tags": [
+        "desktop",
+        "fill"
+      ],
+      "description": "Desktop icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDirection",
+      "tags": [
+        "direction",
+        "fill"
+      ],
+      "description": "Direction icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDirectionAlt",
+      "tags": [
+        "alt",
+        "direction",
+        "fill"
+      ],
+      "description": "Direction Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "TfDribbble",
+      "tags": [
+        "dribbble",
+        "fill"
+      ],
+      "description": "Dribbble icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDropbox",
+      "tags": [
+        "dropbox",
+        "fill"
+      ],
+      "description": "Dropbox icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDropboxAlt",
+      "tags": [
+        "alt",
+        "dropbox",
+        "fill"
+      ],
+      "description": "Dropbox Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfDrupal",
+      "tags": [
+        "drupal",
+        "fill"
+      ],
+      "description": "Drupal icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfEmail",
+      "tags": [
+        "email",
+        "fill"
+      ],
+      "description": "Email icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfEnvelope",
+      "tags": [
+        "envelope",
+        "fill"
+      ],
+      "description": "Envelope icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfEraser",
+      "tags": [
+        "eraser",
+        "fill"
+      ],
+      "description": "Eraser icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfExchangeVertical",
+      "tags": [
+        "exchange",
+        "fill",
+        "vertical"
+      ],
+      "description": "Exchange Vertical icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfExport",
+      "tags": [
+        "export",
+        "fill"
+      ],
+      "description": "Export icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfEye",
+      "tags": [
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "TfFacebook",
+      "tags": [
+        "facebook",
+        "fill"
+      ],
+      "description": "Facebook icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFaceSad",
+      "tags": [
+        "face",
+        "fill",
+        "sad"
+      ],
+      "description": "Face Sad icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFaceSmile",
+      "tags": [
+        "face",
+        "fill",
+        "smile"
+      ],
+      "description": "Face Smile icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "TfFiles",
+      "tags": [
+        "files",
+        "fill"
+      ],
+      "description": "Files icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFilter",
+      "tags": [
+        "fill",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "TfFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFlagAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "flag"
+      ],
+      "description": "Flag Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFlagAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "fill",
+        "flag"
+      ],
+      "description": "Flag Alt 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFlickr",
+      "tags": [
+        "fill",
+        "flickr"
+      ],
+      "description": "Flickr icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFlickrAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "flickr"
+      ],
+      "description": "Flickr Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "TfFullscreen",
+      "tags": [
+        "fill",
+        "fullscreen"
+      ],
+      "description": "Fullscreen icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfGallery",
+      "tags": [
+        "fill",
+        "gallery"
+      ],
+      "description": "Gallery icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfGame",
+      "tags": [
+        "fill",
+        "game"
+      ],
+      "description": "Game icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfGift",
+      "tags": [
+        "fill",
+        "gift"
+      ],
+      "description": "Gift icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfGithub",
+      "tags": [
+        "fill",
+        "github"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "TfGoogle",
+      "tags": [
+        "fill",
+        "google"
+      ],
+      "description": "Google icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHandDrag",
+      "tags": [
+        "drag",
+        "fill",
+        "hand"
+      ],
+      "description": "Hand Drag icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHandOpen",
+      "tags": [
+        "fill",
+        "hand",
+        "open"
+      ],
+      "description": "Hand Open icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHandPointDown",
+      "tags": [
+        "down",
+        "fill",
+        "hand",
+        "point"
+      ],
+      "description": "Hand Point Down icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHandPointLeft",
+      "tags": [
+        "fill",
+        "hand",
+        "left",
+        "point"
+      ],
+      "description": "Hand Point Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHandPointRight",
+      "tags": [
+        "fill",
+        "hand",
+        "point",
+        "right"
+      ],
+      "description": "Hand Point Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHandPointUp",
+      "tags": [
+        "fill",
+        "hand",
+        "like",
+        "point",
+        "up"
+      ],
+      "description": "Hand Point Up icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHandStop",
+      "tags": [
+        "fill",
+        "hand",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "TfHarddrive",
+      "tags": [
+        "fill",
+        "harddrive"
+      ],
+      "description": "Harddrive icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHarddrives",
+      "tags": [
+        "fill",
+        "harddrives"
+      ],
+      "description": "Harddrives icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHeadphone",
+      "tags": [
+        "fill",
+        "headphone"
+      ],
+      "description": "Headphone icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHeadphoneAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "headphone"
+      ],
+      "description": "Headphone Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "TfHeartBroken",
+      "tags": [
+        "broken",
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "TfHelp",
+      "tags": [
+        "fill",
+        "help"
+      ],
+      "description": "Question mark — help and support."
+    },
+    {
+      "name": "TfHelpAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "help"
+      ],
+      "description": "Question mark — help and support."
+    },
+    {
+      "name": "TfHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "TfHtml5",
+      "tags": [
+        "fill",
+        "html5"
+      ],
+      "description": "Html 5 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfHummer",
+      "tags": [
+        "fill",
+        "hummer"
+      ],
+      "description": "Hummer icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfIdBadge",
+      "tags": [
+        "badge",
+        "fill",
+        "id"
+      ],
+      "description": "Id Badge icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfImage",
+      "tags": [
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "TfImport",
+      "tags": [
+        "fill",
+        "import"
+      ],
+      "description": "Import icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfInfinite",
+      "tags": [
+        "fill",
+        "infinite"
+      ],
+      "description": "Infinite icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfInfo",
+      "tags": [
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "TfInfoAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "TfInkPen",
+      "tags": [
+        "edit",
+        "fill",
+        "ink",
+        "pen"
+      ],
+      "description": "Ink Pen icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfInstagram",
+      "tags": [
+        "fill",
+        "instagram"
+      ],
+      "description": "Instagram icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfItalic",
+      "tags": [
+        "fill",
+        "italic"
+      ],
+      "description": "Italic icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfJoomla",
+      "tags": [
+        "fill",
+        "joomla"
+      ],
+      "description": "Joomla icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfJsfiddle",
+      "tags": [
+        "fill",
+        "jsfiddle"
+      ],
+      "description": "Jsfiddle icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayers",
+      "tags": [
+        "fill",
+        "layers"
+      ],
+      "description": "Layers icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayersAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "layers"
+      ],
+      "description": "Layers Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayout",
+      "tags": [
+        "fill",
+        "layout"
+      ],
+      "description": "Layout icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutAccordionList",
+      "tags": [
+        "accordion",
+        "fill",
+        "layout",
+        "list"
+      ],
+      "description": "Layout Accordion List icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutAccordionMerged",
+      "tags": [
+        "accordion",
+        "fill",
+        "layout",
+        "merged"
+      ],
+      "description": "Layout Accordion Merged icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutAccordionSeparated",
+      "tags": [
+        "accordion",
+        "fill",
+        "layout",
+        "separated"
+      ],
+      "description": "Layout Accordion Separated icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutColumn2",
+      "tags": [
+        "column2",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Column 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutColumn2Alt",
+      "tags": [
+        "alt",
+        "column2",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Column 2 Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutColumn3",
+      "tags": [
+        "column3",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Column 3 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutColumn3Alt",
+      "tags": [
+        "alt",
+        "column3",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Column 3 Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutColumn4",
+      "tags": [
+        "column4",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Column 4 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutColumn4Alt",
+      "tags": [
+        "alt",
+        "column4",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Column 4 Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutCtaBtnLeft",
+      "tags": [
+        "btn",
+        "cta",
+        "fill",
+        "layout",
+        "left"
+      ],
+      "description": "Layout Cta Btn Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutCtaBtnRight",
+      "tags": [
+        "btn",
+        "cta",
+        "fill",
+        "layout",
+        "right"
+      ],
+      "description": "Layout Cta Btn Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutCtaCenter",
+      "tags": [
+        "center",
+        "cta",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Cta Center icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutCtaLeft",
+      "tags": [
+        "cta",
+        "fill",
+        "layout",
+        "left"
+      ],
+      "description": "Layout Cta Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutCtaRight",
+      "tags": [
+        "cta",
+        "fill",
+        "layout",
+        "right"
+      ],
+      "description": "Layout Cta Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutGrid2",
+      "tags": [
+        "fill",
+        "grid2",
+        "layout"
+      ],
+      "description": "Layout Grid 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutGrid2Alt",
+      "tags": [
+        "alt",
+        "fill",
+        "grid2",
+        "layout"
+      ],
+      "description": "Layout Grid 2 Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutGrid2Thumb",
+      "tags": [
+        "fill",
+        "grid2",
+        "layout",
+        "thumb"
+      ],
+      "description": "Layout Grid 2 Thumb icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutGrid3",
+      "tags": [
+        "fill",
+        "grid3",
+        "layout"
+      ],
+      "description": "Layout Grid 3 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutGrid3Alt",
+      "tags": [
+        "alt",
+        "fill",
+        "grid3",
+        "layout"
+      ],
+      "description": "Layout Grid 3 Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutGrid4",
+      "tags": [
+        "fill",
+        "grid4",
+        "layout"
+      ],
+      "description": "Layout Grid 4 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutGrid4Alt",
+      "tags": [
+        "alt",
+        "fill",
+        "grid4",
+        "layout"
+      ],
+      "description": "Layout Grid 4 Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutLineSolid",
+      "tags": [
+        "fill",
+        "layout",
+        "line",
+        "solid"
+      ],
+      "description": "Layout Line Solid icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutListLargeImage",
+      "tags": [
+        "fill",
+        "image",
+        "large",
+        "layout",
+        "list",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "TfLayoutListPost",
+      "tags": [
+        "fill",
+        "layout",
+        "list",
+        "post"
+      ],
+      "description": "Layout List Post icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutListThumb",
+      "tags": [
+        "fill",
+        "layout",
+        "list",
+        "thumb"
+      ],
+      "description": "Layout List Thumb icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutListThumbAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "layout",
+        "list",
+        "thumb"
+      ],
+      "description": "Layout List Thumb Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaCenter",
+      "tags": [
+        "center",
+        "fill",
+        "layout",
+        "media"
+      ],
+      "description": "Layout Media Center icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaCenterAlt",
+      "tags": [
+        "alt",
+        "center",
+        "fill",
+        "layout",
+        "media"
+      ],
+      "description": "Layout Media Center Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaLeft",
+      "tags": [
+        "fill",
+        "layout",
+        "left",
+        "media"
+      ],
+      "description": "Layout Media Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaLeftAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "layout",
+        "left",
+        "media"
+      ],
+      "description": "Layout Media Left Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaOverlay",
+      "tags": [
+        "fill",
+        "layout",
+        "media",
+        "overlay"
+      ],
+      "description": "Layout Media Overlay icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaOverlayAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "layout",
+        "media",
+        "overlay"
+      ],
+      "description": "Layout Media Overlay Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaOverlayAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "fill",
+        "layout",
+        "media",
+        "overlay"
+      ],
+      "description": "Layout Media Overlay Alt 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaRight",
+      "tags": [
+        "fill",
+        "layout",
+        "media",
+        "right"
+      ],
+      "description": "Layout Media Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMediaRightAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "layout",
+        "media",
+        "right"
+      ],
+      "description": "Layout Media Right Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutMenu",
+      "tags": [
+        "fill",
+        "layout",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "TfLayoutMenuFull",
+      "tags": [
+        "fill",
+        "full",
+        "layout",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "TfLayoutMenuSeparated",
+      "tags": [
+        "fill",
+        "layout",
+        "menu",
+        "separated"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "TfLayoutMenuV",
+      "tags": [
+        "fill",
+        "layout",
+        "menu",
+        "v"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "TfLayoutPlaceholder",
+      "tags": [
+        "fill",
+        "layout",
+        "placeholder"
+      ],
+      "description": "Layout Placeholder icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutSidebar2",
+      "tags": [
+        "2",
+        "fill",
+        "layout",
+        "sidebar",
+        "sidebar2"
+      ],
+      "description": "Layout Sidebar 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutSidebarLeft",
+      "tags": [
+        "fill",
+        "layout",
+        "left",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutSidebarNone",
+      "tags": [
+        "fill",
+        "layout",
+        "none",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar None icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutSidebarRight",
+      "tags": [
+        "fill",
+        "layout",
+        "right",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutSlider",
+      "tags": [
+        "fill",
+        "layout",
+        "slider"
+      ],
+      "description": "Layout Slider icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutSliderAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "layout",
+        "slider"
+      ],
+      "description": "Layout Slider Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutTab",
+      "tags": [
+        "fill",
+        "layout",
+        "tab"
+      ],
+      "description": "Layout Tab icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutTabMin",
+      "tags": [
+        "fill",
+        "layout",
+        "min",
+        "tab"
+      ],
+      "description": "Layout Tab Min icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutTabV",
+      "tags": [
+        "fill",
+        "layout",
+        "tab",
+        "v"
+      ],
+      "description": "Layout Tab V icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutTabWindow",
+      "tags": [
+        "fill",
+        "layout",
+        "tab",
+        "window"
+      ],
+      "description": "Layout Tab Window icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutWidthDefault",
+      "tags": [
+        "default",
+        "fill",
+        "layout",
+        "width"
+      ],
+      "description": "Layout Width Default icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutWidthDefaultAlt",
+      "tags": [
+        "alt",
+        "default",
+        "fill",
+        "layout",
+        "width"
+      ],
+      "description": "Layout Width Default Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLayoutWidthFull",
+      "tags": [
+        "fill",
+        "full",
+        "layout",
+        "width"
+      ],
+      "description": "Layout Width Full icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLightBulb",
+      "tags": [
+        "bulb",
+        "fill",
+        "light"
+      ],
+      "description": "Light Bulb icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLineDashed",
+      "tags": [
+        "dashed",
+        "fill",
+        "line"
+      ],
+      "description": "Line Dashed icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLineDotted",
+      "tags": [
+        "dotted",
+        "fill",
+        "line"
+      ],
+      "description": "Line Dotted icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLineDouble",
+      "tags": [
+        "double",
+        "fill",
+        "line"
+      ],
+      "description": "Line Double icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "TfLinkedin",
+      "tags": [
+        "fill",
+        "linkedin"
+      ],
+      "description": "Linkedin icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLinux",
+      "tags": [
+        "fill",
+        "linux"
+      ],
+      "description": "Linux icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfList",
+      "tags": [
+        "fill",
+        "list"
+      ],
+      "description": "List icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfListOl",
+      "tags": [
+        "fill",
+        "list",
+        "ol"
+      ],
+      "description": "List Ol icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLocationArrow",
+      "tags": [
+        "arrow",
+        "fill",
+        "location"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "TfLocationPin",
+      "tags": [
+        "fill",
+        "location",
+        "pin"
+      ],
+      "description": "Location Pin icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "TfLoop",
+      "tags": [
+        "fill",
+        "loop"
+      ],
+      "description": "Loop icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMagnet",
+      "tags": [
+        "fill",
+        "magnet"
+      ],
+      "description": "Magnet icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMap",
+      "tags": [
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "TfMapAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "TfMarker",
+      "tags": [
+        "fill",
+        "marker"
+      ],
+      "description": "Marker icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMarkerAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "marker"
+      ],
+      "description": "Marker Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMedall",
+      "tags": [
+        "fill",
+        "medall"
+      ],
+      "description": "Medall icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMedallAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "medall"
+      ],
+      "description": "Medall Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMenu",
+      "tags": [
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "TfMenuAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "TfMicrophone",
+      "tags": [
+        "fill",
+        "microphone"
+      ],
+      "description": "Microphone icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMicrophoneAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "microphone"
+      ],
+      "description": "Microphone Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMicrosoft",
+      "tags": [
+        "fill",
+        "microsoft"
+      ],
+      "description": "Microsoft icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMicrosoftAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "microsoft"
+      ],
+      "description": "Microsoft Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "TfMobile",
+      "tags": [
+        "fill",
+        "mobile"
+      ],
+      "description": "Mobile icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMoney",
+      "tags": [
+        "fill",
+        "money"
+      ],
+      "description": "Money icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMore",
+      "tags": [
+        "fill",
+        "more"
+      ],
+      "description": "More icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMoreAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "more"
+      ],
+      "description": "More Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMouse",
+      "tags": [
+        "fill",
+        "mouse"
+      ],
+      "description": "Mouse icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMouseAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "mouse"
+      ],
+      "description": "Mouse Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMusic",
+      "tags": [
+        "fill",
+        "music"
+      ],
+      "description": "Music icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfMusicAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "music"
+      ],
+      "description": "Music Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfNa",
+      "tags": [
+        "fill",
+        "na"
+      ],
+      "description": "Na icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfNewWindow",
+      "tags": [
+        "fill",
+        "new",
+        "window"
+      ],
+      "description": "New Window icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfNotepad",
+      "tags": [
+        "fill",
+        "notepad"
+      ],
+      "description": "Notepad icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPackage",
+      "tags": [
+        "fill",
+        "package"
+      ],
+      "description": "Package icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPaintBucket",
+      "tags": [
+        "bucket",
+        "fill",
+        "paint"
+      ],
+      "description": "Paint Bucket icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPaintRoller",
+      "tags": [
+        "fill",
+        "paint",
+        "roller"
+      ],
+      "description": "Paint Roller icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPalette",
+      "tags": [
+        "fill",
+        "palette"
+      ],
+      "description": "Palette icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPanel",
+      "tags": [
+        "fill",
+        "panel"
+      ],
+      "description": "Panel icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfParagraph",
+      "tags": [
+        "fill",
+        "paragraph"
+      ],
+      "description": "Paragraph icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPencil",
+      "tags": [
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPencilAlt",
+      "tags": [
+        "alt",
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPencilAlt2",
+      "tags": [
+        "alt2",
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil Alt 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPieChart",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPin",
+      "tags": [
+        "fill",
+        "pin"
+      ],
+      "description": "Pin icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPin2",
+      "tags": [
+        "fill",
+        "pin2"
+      ],
+      "description": "Pin 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPinAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "pin"
+      ],
+      "description": "Pin Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPinterest",
+      "tags": [
+        "fill",
+        "pinterest"
+      ],
+      "description": "Pinterest icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPinterestAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "pinterest"
+      ],
+      "description": "Pinterest Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPlug",
+      "tags": [
+        "fill",
+        "plug"
+      ],
+      "description": "Plug icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "TfPowerOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "power"
+      ],
+      "description": "Power Off icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPrinter",
+      "tags": [
+        "fill",
+        "printer"
+      ],
+      "description": "Printer icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfPulse",
+      "tags": [
+        "fill",
+        "pulse"
+      ],
+      "description": "Pulse icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfQuoteLeft",
+      "tags": [
+        "fill",
+        "left",
+        "quote"
+      ],
+      "description": "Quote Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfQuoteRight",
+      "tags": [
+        "fill",
+        "quote",
+        "right"
+      ],
+      "description": "Quote Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfReceipt",
+      "tags": [
+        "fill",
+        "receipt"
+      ],
+      "description": "Receipt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfReddit",
+      "tags": [
+        "fill",
+        "reddit"
+      ],
+      "description": "Reddit icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfReload",
+      "tags": [
+        "fill",
+        "reload"
+      ],
+      "description": "Reload icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfRocket",
+      "tags": [
+        "fill",
+        "rocket"
+      ],
+      "description": "Rocket icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfRss",
+      "tags": [
+        "fill",
+        "rss"
+      ],
+      "description": "Rss icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfRssAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "rss"
+      ],
+      "description": "Rss Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfRuler",
+      "tags": [
+        "fill",
+        "ruler"
+      ],
+      "description": "Ruler icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfRulerAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "ruler"
+      ],
+      "description": "Ruler Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfRulerAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "fill",
+        "ruler"
+      ],
+      "description": "Ruler Alt 2 icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfRulerPencil",
+      "tags": [
+        "edit",
+        "fill",
+        "pencil",
+        "ruler"
+      ],
+      "description": "Ruler Pencil icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSave",
+      "tags": [
+        "fill",
+        "save"
+      ],
+      "description": "Save icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSaveAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "save"
+      ],
+      "description": "Save Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSearch",
+      "tags": [
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "TfServer",
+      "tags": [
+        "fill",
+        "server"
+      ],
+      "description": "Server icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSettings",
+      "tags": [
+        "fill",
+        "gear",
+        "setting",
+        "settings"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "TfShare",
+      "tags": [
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "TfShareAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "TfSharethis",
+      "tags": [
+        "fill",
+        "sharethis"
+      ],
+      "description": "Sharethis icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSharethisAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "sharethis"
+      ],
+      "description": "Sharethis Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShield",
+      "tags": [
+        "fill",
+        "shield"
+      ],
+      "description": "Shield icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShiftLeft",
+      "tags": [
+        "fill",
+        "left",
+        "shift"
+      ],
+      "description": "Shift Left icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShiftLeftAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "left",
+        "shift"
+      ],
+      "description": "Shift Left Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShiftRight",
+      "tags": [
+        "fill",
+        "right",
+        "shift"
+      ],
+      "description": "Shift Right icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShiftRightAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "right",
+        "shift"
+      ],
+      "description": "Shift Right Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShine",
+      "tags": [
+        "fill",
+        "shine"
+      ],
+      "description": "Shine icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShoppingCart",
+      "tags": [
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping cart — carts, checkout and e-commerce."
+    },
+    {
+      "name": "TfShoppingCartFull",
+      "tags": [
+        "cart",
+        "fill",
+        "full",
+        "shopping"
+      ],
+      "description": "Shopping Cart Full icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfShortcode",
+      "tags": [
+        "fill",
+        "shortcode"
+      ],
+      "description": "Shortcode icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSignal",
+      "tags": [
+        "fill",
+        "signal"
+      ],
+      "description": "Signal icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSkype",
+      "tags": [
+        "fill",
+        "skype"
+      ],
+      "description": "Skype icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSlice",
+      "tags": [
+        "fill",
+        "slice"
+      ],
+      "description": "Slice icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSmallcap",
+      "tags": [
+        "fill",
+        "smallcap"
+      ],
+      "description": "Smallcap icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSoundcloud",
+      "tags": [
+        "fill",
+        "soundcloud"
+      ],
+      "description": "Soundcloud icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSplitH",
+      "tags": [
+        "fill",
+        "h",
+        "split"
+      ],
+      "description": "Split H icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSplitV",
+      "tags": [
+        "fill",
+        "split",
+        "v"
+      ],
+      "description": "Split V icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSplitVAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "split",
+        "v",
+        "valt"
+      ],
+      "description": "Split VAlt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSpray",
+      "tags": [
+        "fill",
+        "spray"
+      ],
+      "description": "Spray icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfStackOverflow",
+      "tags": [
+        "fill",
+        "overflow",
+        "stack"
+      ],
+      "description": "Stack Overflow icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfStamp",
+      "tags": [
+        "fill",
+        "stamp"
+      ],
+      "description": "Stamp icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "TfStatsDown",
+      "tags": [
+        "down",
+        "fill",
+        "stats"
+      ],
+      "description": "Stats Down icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfStatsUp",
+      "tags": [
+        "fill",
+        "like",
+        "stats",
+        "up"
+      ],
+      "description": "Stats Up icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfSupport",
+      "tags": [
+        "fill",
+        "support"
+      ],
+      "description": "Support icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTablet",
+      "tags": [
+        "fill",
+        "tablet"
+      ],
+      "description": "Tablet icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTag",
+      "tags": [
+        "fill",
+        "tag"
+      ],
+      "description": "Tag icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTarget",
+      "tags": [
+        "fill",
+        "target"
+      ],
+      "description": "Target icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfText",
+      "tags": [
+        "fill",
+        "text"
+      ],
+      "description": "Text icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfThemifyFavicon",
+      "tags": [
+        "favicon",
+        "fill",
+        "themify"
+      ],
+      "description": "Themify Favicon icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfThemifyFaviconAlt",
+      "tags": [
+        "alt",
+        "favicon",
+        "fill",
+        "themify"
+      ],
+      "description": "Themify Favicon Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfThemifyLogo",
+      "tags": [
+        "fill",
+        "logo",
+        "themify"
+      ],
+      "description": "Themify Logo icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfThought",
+      "tags": [
+        "fill",
+        "thought"
+      ],
+      "description": "Thought icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfThumbDown",
+      "tags": [
+        "down",
+        "fill",
+        "thumb"
+      ],
+      "description": "Thumb Down icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfThumbUp",
+      "tags": [
+        "fill",
+        "like",
+        "thumb",
+        "up"
+      ],
+      "description": "Thumb Up icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTicket",
+      "tags": [
+        "fill",
+        "ticket"
+      ],
+      "description": "Ticket icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTime",
+      "tags": [
+        "fill",
+        "time"
+      ],
+      "description": "Time icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTimer",
+      "tags": [
+        "fill",
+        "timer"
+      ],
+      "description": "Timer icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "TfTrello",
+      "tags": [
+        "fill",
+        "trello"
+      ],
+      "description": "Trello icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTruck",
+      "tags": [
+        "fill",
+        "truck"
+      ],
+      "description": "Truck icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTumblr",
+      "tags": [
+        "fill",
+        "tumblr"
+      ],
+      "description": "Tumblr icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTumblrAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "tumblr"
+      ],
+      "description": "Tumblr Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfTwitter",
+      "tags": [
+        "fill",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "TfTwitterAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "TfUnderline",
+      "tags": [
+        "fill",
+        "underline"
+      ],
+      "description": "Underline icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfUnlink",
+      "tags": [
+        "fill",
+        "unlink"
+      ],
+      "description": "Unlink icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfUnlock",
+      "tags": [
+        "fill",
+        "unlock"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "TfUpload",
+      "tags": [
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "TfUppercase",
+      "tags": [
+        "fill",
+        "uppercase"
+      ],
+      "description": "Uppercase icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "TfVector",
+      "tags": [
+        "fill",
+        "vector"
+      ],
+      "description": "Vector icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfVideoCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo",
+        "video"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "TfVideoClapper",
+      "tags": [
+        "clapper",
+        "fill",
+        "video"
+      ],
+      "description": "Video Clapper icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfViewGrid",
+      "tags": [
+        "fill",
+        "grid",
+        "view"
+      ],
+      "description": "View Grid icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfViewList",
+      "tags": [
+        "fill",
+        "list",
+        "view"
+      ],
+      "description": "View List icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfViewListAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "list",
+        "view"
+      ],
+      "description": "View List Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfVimeo",
+      "tags": [
+        "fill",
+        "vimeo"
+      ],
+      "description": "Vimeo icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfVimeoAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "vimeo"
+      ],
+      "description": "Vimeo Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfVolume",
+      "tags": [
+        "fill",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "TfWallet",
+      "tags": [
+        "fill",
+        "wallet"
+      ],
+      "description": "Wallet icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWand",
+      "tags": [
+        "fill",
+        "wand"
+      ],
+      "description": "Wand icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWheelchair",
+      "tags": [
+        "fill",
+        "wheelchair"
+      ],
+      "description": "Wheelchair icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWidget",
+      "tags": [
+        "fill",
+        "widget"
+      ],
+      "description": "Widget icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWidgetAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "widget"
+      ],
+      "description": "Widget Alt icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWidgetized",
+      "tags": [
+        "fill",
+        "widgetized"
+      ],
+      "description": "Widgetized icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWindow",
+      "tags": [
+        "fill",
+        "window"
+      ],
+      "description": "Window icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWordpress",
+      "tags": [
+        "fill",
+        "wordpress"
+      ],
+      "description": "Wordpress icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWorld",
+      "tags": [
+        "fill",
+        "world"
+      ],
+      "description": "World icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfWrite",
+      "tags": [
+        "fill",
+        "write"
+      ],
+      "description": "Write icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfYahoo",
+      "tags": [
+        "fill",
+        "yahoo"
+      ],
+      "description": "Yahoo icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfYoutube",
+      "tags": [
+        "fill",
+        "youtube"
+      ],
+      "description": "Youtube icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfZip",
+      "tags": [
+        "fill",
+        "zip"
+      ],
+      "description": "Zip icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Themify (tf) set, fill style."
+    },
+    {
+      "name": "TfZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Themify (tf) set, fill style."
+    }
+  ]
+}

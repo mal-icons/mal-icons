@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-connect",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrConnect {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M10,21 C7.5,23.5 5,23 3,21 C1,19 0.5,16.5 3,14 C5.5,11.5 6,11 6,11 L13,18 C13,18 12.5,18.5 10,21 Z M14,3 C16.5,0.5 19,1 21,3 C23,5 23.5,7.5 21,10 C18.5,12.5 18,13 18,13 L11,6 C11,6 11.5,5.5 14,3 Z M11,10 L8.5,12.5 L11,10 Z M14,13 L11.5,15.5 L14,13 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrConnect;

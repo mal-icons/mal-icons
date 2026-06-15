@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TfCss3 = createIcon("0 0 17 17", [["path",{"d":"M16.5 1.26l-2.41 12.06-7.28 2.42-6.32-2.42 0.64-3.22h2.69l-0.26 1.33 3.82 1.46 4.4-1.46 0.61-3.07h-10.93l0.52-2.69h10.94l0.35-1.73h-10.93l0.53-2.69h13.62z","fill":"currentColor"}]]);
+
+export default TfCss3;

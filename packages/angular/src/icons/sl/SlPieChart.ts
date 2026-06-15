@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-pie-chart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlPieChart {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M575.6 93.41c-17.66 0-32 14.34-32 32s14.34 32 32 32c226.45 0 384.4 165.47 384.4 391.9C960 775.78 775.78 960 549.33 960c-226.43 0-391.92-163.6-391.92-390.06 0-17.66-14.34-32-32-32s-32 14.34-32 32c0 261.74 194.19 454.06 455.92 454.06s474.67-212.94 474.67-474.69c0-261.71-186.67-455.9-448.4-455.9v0zm-95.34 354.85V32c0-17.66-14.34-32-32-32C199.0100 199.010 448.26c0 17.66 14.34 32 32 32h416.26c17.66 0 32-14.34 32-32zm-64-32H65.31C80.77 227.76 227.76 80.77 416.26 65.31v350.94z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlPieChart;

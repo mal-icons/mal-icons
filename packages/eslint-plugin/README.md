@@ -1,5 +1,6 @@
 # @mal-icons/eslint-plugin
 
+
 [![npm](https://img.shields.io/npm/v/@mal-icons/eslint-plugin.svg)](https://www.npmjs.com/package/@mal-icons/eslint-plugin)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
 

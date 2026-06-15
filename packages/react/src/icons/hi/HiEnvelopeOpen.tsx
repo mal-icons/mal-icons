@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiEnvelopeOpen = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M21.75 9v0.91a2.25 2.25 0 0 1-1.18 1.98l-6.48 3.49M2.25 9v0.91a2.25 2.25 0 0 0 1.18 1.98l6.48 3.49m8.84 2.51-4.66-2.51m0 0-1.02-0.55a2.25 2.25 0 0 0-2.13 0l-1.020.55m0 0-4.66 2.51m16.5 1.62a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V8.84a2.25 2.25 0 0 1 1.18-1.98l7.5-4.04a2.25 2.25 0 0 1 2.13 0l7.5 4.04a2.25 2.25 0 0 1 1.18 1.98V19.5Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiEnvelopeOpen;

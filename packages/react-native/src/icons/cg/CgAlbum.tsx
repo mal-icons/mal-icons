@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgAlbum = createIcon("0 0 24 24", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M2 19C2 20.66 3.34 22 5 22H19C20.66 22 22 20.66 22 19V5C22 3.34 20.66 2 19 2H5C3.34 2 2 3.34 2 5V19ZM20 19C20 19.55 19.55 20 19 20H5C4.45 20 4 19.55 4 19V5C4 4.45 4.45 4 5 4H10V12.01L12.4 12.01L14 9.86L15.61 12.01H18L18 4H19C19.55 4 20 4.45 20 5V19ZM16 4H12V9.34L14 6.66L16 9.34V4Z","fill":"currentColor"}]]);
+
+export default CgAlbum;

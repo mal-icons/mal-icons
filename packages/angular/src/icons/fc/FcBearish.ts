@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-fc-bearish",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class FcBearish {
+  readonly viewBox = "0 0 48 48";
+  readonly nodes: NodeTuple[] = [["rect",{"fill":"#F44336","x":"40","y":"34","width":"4","height":"10"}],["rect",{"fill":"#F44336","x":"34","y":"29","width":"4","height":"15"}],["rect",{"fill":"#F44336","x":"28","y":"33","width":"4","height":"11"}],["rect",{"fill":"#F44336","x":"22","y":"25","width":"4","height":"19"}],["rect",{"fill":"#F44336","x":"16","y":"28","width":"4","height":"16"}],["rect",{"fill":"#F44336","x":"10","y":"24","width":"4","height":"20"}],["rect",{"fill":"#F44336","x":"4","y":"19","width":"4","height":"25"}],["polygon",{"fill":"#D32F2F","points":"34,13.2 30,17.2 20,7.2 15,12.2 7.4,4.6 4.6,7.4 15,17.8 20,12.8 30,22.8 34,18.8 40.1,24.9 42.9,22.1"}],["polygon",{"fill":"#D32F2F","points":"44,26 35,26 44,17"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default FcBearish;

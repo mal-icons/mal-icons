@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrShare = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M19,13 L19,23 L1,23 L1,5 L1,5 L11,5 M14,1 L23,1 L23,10 M10,14 L23,1 L10,14 Z"}]], {"fill":"none"});
+
+export default GrShare;

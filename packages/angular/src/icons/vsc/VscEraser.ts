@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-eraser",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscEraser {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.5 6C14.5 5.6 14.34 5.22 14.06 4.94L11.06 1.94C10.5 1.37 9.5 1.37 8.94 1.94L1.44 9.44C1.16 9.72 1 10.1 1 10.5C1 10.9 1.16 11.28 1.44 11.56L3.44 13.56C3.72 13.84 4.1 14 4.5 14H11.5C11.78 14 12 13.78 12 13.5C12 13.22 11.78 13 11.5 13H8.12L14.06 7.06C14.34 6.78 14.5 6.4 14.5 6H14.5ZM4.15 12.85L2.15 10.85C2.05 10.76 2 10.63 2 10.5C2 10.37 2.05 10.24 2.15 10.15L4.29 8L8 11.71L6.71 13H4.5C4.37 13 4.24 12.95 4.15 12.85ZM13.35 6.35L8.71 11L5 7.29L9.65 2.65C9.74 2.55 9.87 2.5 10 2.5C10.14 2.5 10.26 2.55 10.36 2.65L13.36 5.65C13.45 5.74 13.5 5.87 13.5 6C13.5 6.13 13.45 6.26 13.35 6.35Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscEraser;

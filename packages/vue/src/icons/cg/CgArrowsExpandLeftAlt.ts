@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgArrowsExpandLeftAlt = createIcon("0 0 24 24", [["path",{"d":"M10.1 2.1V4.1H5.51L11.29 9.88L9.88 11.29L4.1 5.51L4.1 10.1H2.1L2.1 2.1H10.1Z","fill":"currentColor"}],["path",{"d":"M21.9 13.9H19.9V18.49L14.12 12.71L12.71 14.12L18.49 19.9H13.9V21.9H21.9V13.9Z","fill":"currentColor"}],["path",{"d":"M16.24 9.17L14.83 7.76L7.76 14.83L9.17 16.24L16.24 9.17Z","fill":"currentColor"}]]);
+
+export default CgArrowsExpandLeftAlt;

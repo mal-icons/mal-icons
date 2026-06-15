@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-ericsson",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgEricsson {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.72 5.72C6.72 6.19 6.28 7.38 6.75 8.38C7.22 9.38 8.41 9.82 9.41 9.35L20.28 4.28C21.28 3.81 21.72 2.62 21.25 1.62C20.78 0.62 19.59 0.18 18.59 0.65L7.72 5.72Z","fill":"currentColor"}],["path",{"d":"M4.75 15.38C4.28 14.38 4.72 13.19 5.72 12.72L16.59 7.65C17.59 7.18 18.78 7.62 19.25 8.62C19.72 9.62 19.28 10.81 18.28 11.28L7.41 16.35C6.41 16.82 5.22 16.38 4.75 15.38Z","fill":"currentColor"}],["path",{"d":"M2.75 22.38C2.28 21.38 2.72 20.19 3.72 19.72L14.59 14.65C15.59 14.18 16.78 14.62 17.25 15.62C17.72 16.62 17.28 17.81 16.28 18.28L5.41 23.35C4.41 23.82 3.22 23.38 2.75 22.38Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgEricsson;

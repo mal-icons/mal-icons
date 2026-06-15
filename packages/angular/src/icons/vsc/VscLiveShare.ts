@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-live-share",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscLiveShare {
+  readonly viewBox = "0 0 24 25";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.75 2.07C10.16 2.07 10.5 2.4 10.5 2.82C10.5 3.23 10.16 3.57 9.75 3.57H4.5C2.84 3.57 1.5 4.91 1.5 6.57V18.57C1.5 20.22 2.84 21.57 4.5 21.57H16.5C18.16 21.57 19.5 20.22 19.5 18.57V16.32C19.5 15.9 19.84 15.57 20.25 15.57C20.66 15.57 21 15.9 21 16.32V18.57C21 21.05 18.99 23.07 16.5 23.07H4.5C2.02 23.07 0 21.05 0 18.57V6.57C0 4.08 2.02 2.07 4.5 2.07H9.75ZM15.75 0.57C15.93 0.57 16.11 0.63 16.25 0.76L23.75 7.51C23.91 7.65 24 7.86 24 8.07C24 8.28 23.91 8.48 23.75 8.63L16.25 15.38C16.11 15.5 15.93 15.57 15.75 15.57C15.26 15.57 15 15.15 15 14.82V11.58C10.22 12.02 6.97 16.33 6.16 17.72L5.92 18.15C5.79 18.41 5.53 18.57 5.25 18.57C4.8 18.57 4.5 18.2 4.5 17.82C4.5 4.1 14.72 4.35 15 4.34V1.32L15.01 1.21C15.03 1.03 15.22 0.57 15.75 0.57H15.75ZM16.5 5.07C16.5 5.48 16.16 5.82 15.75 5.82C11.87 5.82 9.49 7.39 8.04 9.6C7.01 11.18 6.43 13.11 6.17 15.13C6.82 14.35 7.6 13.55 8.51 12.82C10.42 11.29 12.9 10.04 15.75 10.04C16.17 10.04 16.5 10.38 16.5 10.79V13.13L22.13 8.07L16.5 3V5.07L16.5 5.07Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscLiveShare;

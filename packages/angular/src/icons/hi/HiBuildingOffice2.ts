@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-building-office-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiBuildingOffice2 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h0.75m-0.75 3h0.75m-0.75 3h0.75m3-6h0.75m-0.75 3h0.75m-0.75 3h0.75M6.75 21v-3.37c0-0.620.5-1.12 1.13-1.12h2.25c0.62 0 1.130.5 1.13 1.13V21M3 3h12m-0.75 4.5H21m-3.75 3.75h0.01v0.01h-0.01v-0.01Zm0 3h0.01v0.01h-0.01v-0.01Zm0 3h0.01v0.01h-0.01v-0.01Z"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiBuildingOffice2;

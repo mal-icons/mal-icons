@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-crosshair-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxCrosshair2 {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.5 0C7.78 0 8 0.22 8 0.5V1.81C10.69 2.09 12.82 4.28 13.01 7H14.5C14.78 7 15 7.22 15 7.5C15 7.78 14.78 8 14.5 8H12.99C12.71 10.62 10.62 12.71 8 12.99V14.5C8 14.78 7.78 15 7.5 15C7.22 15 7 14.78 7 14.5V13.01C4.28 12.82 2.09 10.69 1.81 8H0.5C0.22 8 0 7.78 0 7.5C0 7.22 0.22 7 0.5 7H1.79C1.98 4.21 4.21 1.98 7 1.79V0.5C7 0.22 7.22 0 7.5 0ZM8 12.03V9.5C8 9.22 7.78 9 7.5 9C7.22 9 7 9.22 7 9.5V12.05C4.81 11.87 3.04 10.17 2.76 8H5.5C5.78 8 6 7.78 6 7.5C6 7.22 5.78 7 5.5 7H2.74C2.93 4.74 4.74 2.93 7 2.74V5.5C7 5.78 7.22 6 7.5 6C7.78 6 8 5.78 8 5.5V2.76C10.17 3.04 11.87 4.81 12.05 7H9.5C9.22 7 9 7.22 9 7.5C9 7.78 9.22 8 9.5 8H12.03C11.76 10.1 10.1 11.76 8 12.03Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxCrosshair2;

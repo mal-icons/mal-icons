@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-figma",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgFigma {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.5 2C6.84 2 5.5 3.34 5.5 5C5.5 6.66 6.84 8 8.5 8H15.5C17.16 8 18.5 6.66 18.5 5C18.5 3.34 17.16 2 15.5 2H8.5Z","fill":"currentColor"}],["path",{"d":"M15.5 9C13.84 9 12.5 10.34 12.5 12C12.5 13.66 13.84 15 15.5 15C17.16 15 18.5 13.66 18.5 12C18.5 10.34 17.16 9 15.5 9Z","fill":"currentColor"}],["path",{"d":"M5.5 12C5.5 10.34 6.84 9 8.5 9H11.5V15H8.5C6.84 15 5.5 13.66 5.5 12Z","fill":"currentColor"}],["path",{"d":"M8.5 16C6.84 16 5.5 17.34 5.5 19C5.5 20.66 6.84 22 8.5 22C10.16 22 11.5 20.66 11.5 19V16H8.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgFigma;

@@ -46,6 +46,16 @@
       "bun": "./src/icons/ad/*.ts",
       "import": "./dist/icons/ad/*.js"
     },
+    "./cg": {
+      "types": "./dist/icons/cg/index.d.ts",
+      "bun": "./src/icons/cg/index.ts",
+      "import": "./dist/icons/cg/index.js"
+    },
+    "./cg/*": {
+      "types": "./dist/icons/cg/*.d.ts",
+      "bun": "./src/icons/cg/*.ts",
+      "import": "./dist/icons/cg/*.js"
+    },
     "./ci": {
       "types": "./dist/icons/ci/index.d.ts",
       "bun": "./src/icons/ci/index.ts",
@@ -91,10 +101,20 @@
       "bun": "./src/icons/far/index.ts",
       "import": "./dist/icons/far/index.js"
     },
+    "./fc": {
+      "types": "./dist/icons/fc/index.d.ts",
+      "bun": "./src/icons/fc/index.ts",
+      "import": "./dist/icons/fc/index.js"
+    },
     "./far/*": {
       "types": "./dist/icons/far/*.d.ts",
       "bun": "./src/icons/far/*.ts",
       "import": "./dist/icons/far/*.js"
+    },
+    "./fc/*": {
+      "types": "./dist/icons/fc/*.d.ts",
+      "bun": "./src/icons/fc/*.ts",
+      "import": "./dist/icons/fc/*.js"
     },
     "./fi": {
       "types": "./dist/icons/fi/index.d.ts",
@@ -105,6 +125,26 @@
       "types": "./dist/icons/fi/*.d.ts",
       "bun": "./src/icons/fi/*.ts",
       "import": "./dist/icons/fi/*.js"
+    },
+    "./gr": {
+      "types": "./dist/icons/gr/index.d.ts",
+      "bun": "./src/icons/gr/index.ts",
+      "import": "./dist/icons/gr/index.js"
+    },
+    "./gr/*": {
+      "types": "./dist/icons/gr/*.d.ts",
+      "bun": "./src/icons/gr/*.ts",
+      "import": "./dist/icons/gr/*.js"
+    },
+    "./hi": {
+      "types": "./dist/icons/hi/index.d.ts",
+      "bun": "./src/icons/hi/index.ts",
+      "import": "./dist/icons/hi/index.js"
+    },
+    "./hi/*": {
+      "types": "./dist/icons/hi/*.d.ts",
+      "bun": "./src/icons/hi/*.ts",
+      "import": "./dist/icons/hi/*.js"
     },
     "./io": {
       "types": "./dist/icons/io/index.d.ts",
@@ -136,6 +176,36 @@
       "bun": "./src/icons/oc/*.ts",
       "import": "./dist/icons/oc/*.js"
     },
+    "./rx": {
+      "types": "./dist/icons/rx/index.d.ts",
+      "bun": "./src/icons/rx/index.ts",
+      "import": "./dist/icons/rx/index.js"
+    },
+    "./rx/*": {
+      "types": "./dist/icons/rx/*.d.ts",
+      "bun": "./src/icons/rx/*.ts",
+      "import": "./dist/icons/rx/*.js"
+    },
+    "./sl": {
+      "types": "./dist/icons/sl/index.d.ts",
+      "bun": "./src/icons/sl/index.ts",
+      "import": "./dist/icons/sl/index.js"
+    },
+    "./sl/*": {
+      "types": "./dist/icons/sl/*.d.ts",
+      "bun": "./src/icons/sl/*.ts",
+      "import": "./dist/icons/sl/*.js"
+    },
+    "./tf": {
+      "types": "./dist/icons/tf/index.d.ts",
+      "bun": "./src/icons/tf/index.ts",
+      "import": "./dist/icons/tf/index.js"
+    },
+    "./tf/*": {
+      "types": "./dist/icons/tf/*.d.ts",
+      "bun": "./src/icons/tf/*.ts",
+      "import": "./dist/icons/tf/*.js"
+    },
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",
       "bun": "./src/icons/ti/index.ts",
@@ -145,6 +215,16 @@
       "types": "./dist/icons/ti/*.d.ts",
       "bun": "./src/icons/ti/*.ts",
       "import": "./dist/icons/ti/*.js"
+    },
+    "./vsc": {
+      "types": "./dist/icons/vsc/index.d.ts",
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./dist/icons/vsc/index.js"
+    },
+    "./vsc/*": {
+      "types": "./dist/icons/vsc/*.d.ts",
+      "bun": "./src/icons/vsc/*.ts",
+      "import": "./dist/icons/vsc/*.js"
     },
     "./wi": {
       "types": "./dist/icons/wi/index.d.ts",

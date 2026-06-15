@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TfLayoutCtaLeft = createIcon("0 0 17 17", [["path",{"d":"M0 3v11h17v-11h-17zM16 13h-15v-9h15v9zM13 8h-10v-1h10v1zM8 11h-5v-2h5v2z","fill":"currentColor"}]]);
+
+export default TfLayoutCtaLeft;

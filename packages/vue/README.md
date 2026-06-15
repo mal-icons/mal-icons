@@ -1,5 +1,6 @@
 # @mal-icons/vue
 
+
 [![npm](https://img.shields.io/npm/v/@mal-icons/vue.svg)](https://www.npmjs.com/package/@mal-icons/vue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
 
@@ -70,6 +71,7 @@ provideIconContext({ size: 20, color: "#3366ff" });
 | ---------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- |
 | `size`           | `number \| string`                                                             | Width and height (defaults to `1em`)                 |
 | `color`          | `string`                                                                       | Overrides `currentColor`                             |
+| `multicolor` | `boolean` | Keep the icon's own colors (omits the `currentColor` `stroke`/`fill` defaults) |
 | `weight`         | `"thin" \| "light" \| "regular" \| "bold"`                                     | Stroke weight for stroke-based sets                  |
 | `animate`        | `IconAnimation` (`"spin"`, `"pulse"`, `"bounce"`, `"shake"`, `"heartbeat"`, …) | CSS animation preset                                 |
 | `secondaryColor` | `string`                                                                       | Multi-tone color, exposed as `--mal-icons-secondary` |
@@ -110,14 +112,22 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Codicons](https://microsoft.github.io/vscode-codicons/) | [CC BY 4.0 license](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE) | 0.0.46 | 604 |
+| [css.gg](https://css.gg/) | [MIT license](https://github.com/astrit/css.gg/blob/master/license) | 2.1.1 | 704 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Flat Color Icons](https://icons8.github.io/flat-color-icons/) | [CC BY 4.0 license](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md) | 1.0.2   |   312 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
+| [Grommet](https://icons.grommet.io/) | [Apache 2.0 license](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 4.14.0  |   637 |
+| [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
+| [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
+| [Themify](https://themify.me/themify-icons) | [SIL OFL 1.1 license](https://github.com/lykmapipo/themify-icons/blob/master/README.md) | 9600186 | 352 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
@@ -135,11 +145,15 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/vue/fa`            | All Font Awesome icons (named exports) |
 | `@mal-icons/vue/fab`            | All Font Awesome Brands icons (named exports) |
 | `@mal-icons/vue/far`            | All Font Awesome Regular icons (named exports) |
+| `@mal-icons/vue/fc`            | All Flat Color icons (named exports) |
 | `@mal-icons/vue/fi`            | All Feather icons (named exports) |
+| `@mal-icons/vue/gr`            | All Grommet icons (named exports) |
 | `@mal-icons/vue/fa/FaHeart` | A single icon module              |
 | `@mal-icons/vue/fab/FabGithub` | A single icon module              |
 | `@mal-icons/vue/far/FarHeart` | A single icon module              |
+| `@mal-icons/vue/fc/FcAbout` | A single icon module              |
 | `@mal-icons/vue/fi/FiActivity` | A single icon module              |
+| `@mal-icons/vue/gr/GrHome` | A single icon module              |
 | `@mal-icons/vue/io`            | All Ionicons (named exports)      |
 | `@mal-icons/vue/lu`            | All Lucide (named exports)        |
 | `@mal-icons/vue/oc`            | All Octicons (named exports)      |
@@ -150,6 +164,18 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/vue/wi`            | All Weather Icons (named exports) |
 | `@mal-icons/vue/ti/TiHeart`    | A single Typicons icon module     |
 | `@mal-icons/vue/wi/WiDaySunny` | A single Weather Icons icon module |
+| `@mal-icons/vue/hi` | All Heroicons icons (named exports) |
+| `@mal-icons/vue/hi/HiAcademicCap` | A single Heroicons icon module |
+| `@mal-icons/vue/sl` | All Simple Line Icons icons (named exports) |
+| `@mal-icons/vue/sl/SlActionRedo` | A single Simple Line Icons icon module |
+| `@mal-icons/vue/cg` | All css.gg icons (named exports) |
+| `@mal-icons/vue/cg/CgAbstract` | A single css.gg icon module |
+| `@mal-icons/vue/vsc` | All Codicons icons (named exports) |
+| `@mal-icons/vue/vsc/VscAccount` | A single Codicons icon module |
+| `@mal-icons/vue/tf` | All Themify icons (named exports) |
+| `@mal-icons/vue/tf/TfAgenda` | A single Themify icon module |
+| `@mal-icons/vue/rx` | All Radix Icons icons (named exports) |
+| `@mal-icons/vue/rx/RxAccessibility` | A single Radix Icons icon module |
 
 ## Example
 

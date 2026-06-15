@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-close",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscClose {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.71 8L12.35 4.35C12.55 4.16 12.55 3.84 12.35 3.65C12.16 3.45 11.84 3.45 11.65 3.65L8 7.29L4.35 3.65C4.16 3.45 3.84 3.45 3.65 3.65C3.45 3.84 3.45 4.16 3.65 4.35L7.29 8L3.65 11.65C3.45 11.84 3.45 12.16 3.65 12.35C3.75 12.45 3.87 12.5 4 12.5C4.13 12.5 4.26 12.45 4.36 12.35L8 8.71L11.65 12.35C11.75 12.45 11.87 12.5 12 12.5C12.13 12.5 12.26 12.45 12.36 12.35C12.55 12.16 12.55 11.84 12.36 11.65L8.71 8H8.71Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscClose;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgComment = createIcon("0 0 24 24", [["path",{"d":"M17 9H7V7H17V9Z","fill":"currentColor"}],["path",{"d":"M7 13H17V11H7V13Z","fill":"currentColor"}],["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M2 18V2H22V18H16V22H14C11.79 22 10 20.21 10 18H2ZM12 16V18C12 19.1 12.9 20 14 20V16H20V4H4V16H12Z","fill":"currentColor"}]]);
+
+export default CgComment;

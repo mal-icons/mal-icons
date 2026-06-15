@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RxRows = createIcon("0 0 15 15", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M14 12.85L1 12.85L1 14.15L14 14.15L14 12.85ZM14 8.85L1 8.85L1 10.15L14 10.15L14 8.85ZM1 4.85L14 4.85L14 6.15L1 6.15L1 4.85ZM14 0.85L1 0.85L1 2.15L14 2.15L14 0.85Z","fill":"currentColor"}]]);
+
+export default RxRows;

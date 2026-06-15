@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiArchiveBox = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"m20.25 7.5-0.62 10.63a2.25 2.25 0 0 1-2.25 2.12H6.62a2.25 2.25 0 0 1-2.25-2.12L3.75 7.5M10 11.25h4M3.38 7.5h17.25c0.62 0 1.13-0.5 1.13-1.12v-1.5c0-0.62-0.5-1.12-1.12-1.12H3.38c-0.62 0-1.120.5-1.12 1.13v1.5c0 0.620.5 1.13 1.13 1.13Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiArchiveBox;

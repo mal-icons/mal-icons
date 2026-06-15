@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-share",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfShare {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.8 13.4c-1.11-1.04-1.75-2.5-1.75-4.02 0-3.03 2.47-5.5 5.5-5.5h2.91l-2.65-2.65 0.71-0.71 3.85 3.85-3.85 3.85-0.71-0.71 2.65-2.65h-2.91c-2.48 0-4.5 2.02-4.5 4.5 0 1.26 0.51 2.43 1.43 3.29l-0.68 0.73zM16.05 9.03v6.47c0 0.28-0.22 0.5-0.5 0.5h-14c-0.28 0-0.5-0.22-0.5-0.5v-6.47h-1v6.48c0 0.83 0.67 1.5 1.5 1.5h14c0.83 0 1.5-0.67 1.5-1.5v-6.47h-1z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfShare;

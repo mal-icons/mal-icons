@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-open-in-window",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscOpenInWindow {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.5 4C11.78 4 12 4.22 12 4.5L12 8.5C12 8.78 11.78 9 11.5 9C11.22 9 11 8.78 11 8.5V5.71L3.85 12.85C3.76 12.95 3.63 13 3.5 13C3.37 13 3.24 12.95 3.15 12.85C2.95 12.66 2.95 12.34 3.15 12.15L10.29 5H7.5C7.22 5 7 4.78 7 4.5C7 4.22 7.22 4 7.5 4H11.5Z"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12.5 1C13.88 1 15 2.12 15 3.5V10.5C15 11.88 13.88 13 12.5 13H12V13.5C12 14.88 10.88 16 9.5 16H2.5C1.12 16 0 14.88 0 13.5V6.5C0 5.12 1.12 4 2.5 4H3V3.5C3 2.12 4.12 1 5.5 1H12.5ZM5.5 2C4.67 2 4 2.67 4 3.5V9.5C4 9.78 3.78 10 3.5 10C3.22 10 3 9.78 3 9.5V5H2.5C1.67 5 1 5.67 1 6.5V13.5C1 14.33 1.67 15 2.5 15H9.5C10.33 15 11 14.33 11 13.5V13H6.5C6.22 13 6 12.78 6 12.5C6 12.22 6.22 12 6.5 12H12.5C13.33 12 14 11.33 14 10.5V3.5C14 2.67 13.33 2 12.5 2H5.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscOpenInWindow;

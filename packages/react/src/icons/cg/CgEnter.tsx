@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgEnter = createIcon("0 0 24 24", [["path",{"d":"M20 5H8V9H6V3H22V21H6V15H8V19H20V5Z","fill":"currentColor"}],["path",{"d":"M13.07 16.95L11.66 15.54L14.2 13H2V11H14.2L11.66 8.46L13.07 7.05L18.02 12L13.07 16.95Z","fill":"currentColor"}]]);
+
+export default CgEnter;

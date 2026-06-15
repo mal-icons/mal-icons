@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrPowerCycle = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M20,8 C18.53,5.03 15.49,3 11.96,3 C7.01,3 3,7.03 3,12 M4,16 C5.47,18.97 8.51,21 12.04,21 C16.99,21 21,16.97 21,12 M9,16 L3,16 L3,22 M21,2 L21,8 L15,8"}]], {"fill":"none"});
+
+export default GrPowerCycle;

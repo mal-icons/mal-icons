@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrCursor = createIcon("0 0 24 24", [["polygon",{"fill":"none","stroke":"currentColor","strokeWidth":"2","points":"6 3 18 14 13 15 16 20.5 13 22 10 16 6 19"}]], {"fill":"none"});
+
+export default GrCursor;

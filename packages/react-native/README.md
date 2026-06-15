@@ -1,5 +1,6 @@
 # @mal-icons/react-native
 
+
 [![npm](https://img.shields.io/npm/v/@mal-icons/react-native.svg)](https://www.npmjs.com/package/@mal-icons/react-native)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mal-icons/mal-icons/blob/main/LICENSE)
 
@@ -74,6 +75,7 @@ Per-icon props always override context values.
 | ------- | ------------------ | ----------------------------------- |
 | `size`  | `number \| string` | Width and height                    |
 | `color` | `string`           | Overrides `currentColor`            |
+| `multicolor` | `boolean` | Keep the icon's own colors (omits the `currentColor` `stroke`/`fill` defaults) |
 | `title` | `string`           | Accessible label for screen readers |
 | `style` | `StyleProp`        | Style passed to the root `<Svg>`    |
 
@@ -99,14 +101,22 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Codicons](https://microsoft.github.io/vscode-codicons/) | [CC BY 4.0 license](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE) | 0.0.46 | 604 |
+| [css.gg](https://css.gg/) | [MIT license](https://github.com/astrit/css.gg/blob/master/license) | 2.1.1 | 704 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
+| [Flat Color Icons](https://icons8.github.io/flat-color-icons/) | [CC BY 4.0 license](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md) | 1.0.2   |   312 |
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
+| [Grommet](https://icons.grommet.io/) | [Apache 2.0 license](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 4.14.0  |   637 |
+| [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
+| [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
+| [Themify](https://themify.me/themify-icons) | [SIL OFL 1.1 license](https://github.com/lykmapipo/themify-icons/blob/master/README.md) | 9600186 | 352 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
@@ -124,11 +134,15 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react-native/fa`            | All Font Awesome icons (named exports) |
 | `@mal-icons/react-native/fab`            | All Font Awesome Brands icons (named exports) |
 | `@mal-icons/react-native/far`            | All Font Awesome Regular icons (named exports) |
+| `@mal-icons/react-native/fc`            | All Flat Color icons (named exports) |
 | `@mal-icons/react-native/fi`            | All Feather icons (named exports) |
+| `@mal-icons/react-native/gr`            | All Grommet icons (named exports) |
 | `@mal-icons/react-native/fa/FaHeart` | A single icon module              |
 | `@mal-icons/react-native/fab/FabGithub` | A single icon module              |
 | `@mal-icons/react-native/far/FarHeart` | A single icon module              |
+| `@mal-icons/react-native/fc/FcAbout` | A single icon module              |
 | `@mal-icons/react-native/fi/FiActivity` | A single icon module              |
+| `@mal-icons/react-native/gr/GrHome` | A single icon module              |
 | `@mal-icons/react-native/io`            | All Ionicons (named exports)      |
 | `@mal-icons/react-native/lu`            | All Lucide (named exports)        |
 | `@mal-icons/react-native/oc`            | All Octicons (named exports)      |
@@ -139,6 +153,18 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react-native/wi`            | All Weather Icons (named exports) |
 | `@mal-icons/react-native/ti/TiHeart`    | A single Typicons icon module     |
 | `@mal-icons/react-native/wi/WiDaySunny` | A single Weather Icons icon module |
+| `@mal-icons/react-native/hi` | All Heroicons icons (named exports) |
+| `@mal-icons/react-native/hi/HiAcademicCap` | A single Heroicons icon module |
+| `@mal-icons/react-native/sl` | All Simple Line Icons icons (named exports) |
+| `@mal-icons/react-native/sl/SlActionRedo` | A single Simple Line Icons icon module |
+| `@mal-icons/react-native/cg` | All css.gg icons (named exports) |
+| `@mal-icons/react-native/cg/CgAbstract` | A single css.gg icon module |
+| `@mal-icons/react-native/vsc` | All Codicons icons (named exports) |
+| `@mal-icons/react-native/vsc/VscAccount` | A single Codicons icon module |
+| `@mal-icons/react-native/tf` | All Themify icons (named exports) |
+| `@mal-icons/react-native/tf/TfAgenda` | A single Themify icon module |
+| `@mal-icons/react-native/rx` | All Radix Icons icons (named exports) |
+| `@mal-icons/react-native/rx/RxAccessibility` | A single Radix Icons icon module |
 
 ## Example
 

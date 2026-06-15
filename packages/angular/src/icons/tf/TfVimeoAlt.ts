@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-vimeo-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfVimeoAlt {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.13 2.3c-0.58-0.74-1.8-0.76-2.64-0.64-0.68 0.11-3 1.13-3.78 3.58 1.39-0.11 2.12 0.1 1.98 1.63-0.06 0.65-0.38 1.34-0.74 2.02-0.43 0.78-1.2 2.31-2.23 1.2-0.92-0.99-0.86-2.88-1.06-4.14-0.13-0.71-0.25-1.58-0.48-2.32-0.2-0.62-0.67-1.37-1.22-1.54-0.61-0.17-1.36 0.1-1.8 0.35-1.39 0.82-2.31 1.98-3.66 2.94v0.1c0.45 0.23 0.31 0.59 0.67 0.65 0.84 0.11 1.63-0.78 2.18 0.15 0.34 0.56 0.44 1.19 0.65 1.8 0.3 0.82 0.51 1.71 0.75 2.65 0.4 1.6 0.88 3.98 2.26 4.56 0.7 0.3 1.76-0.1 2.28-0.43 1.44-0.85 2.59-2.08 3.54-3.35 2.22-2.97 3.42-6.37 3.61-7.34 0.13-0.67 0.11-1.34-0.3-1.87z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfVimeoAlt;

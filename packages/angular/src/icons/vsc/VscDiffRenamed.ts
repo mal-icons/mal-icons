@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-diff-renamed",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscDiffRenamed {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.5 1H3.5C2.12 1 1 2.12 1 3.5V11.5C1 12.88 2.12 14 3.5 14H11.5C12.88 14 14 12.88 14 11.5V3.5C14 2.12 12.88 1 11.5 1ZM13 11.5C13 12.33 12.33 13 11.5 13H3.5C2.67 13 2 12.33 2 11.5V3.5C2 2.67 2.67 2 3.5 2H11.5C12.33 2 13 2.67 13 3.5V11.5ZM10.85 7.15C11.05 7.34 11.05 7.66 10.85 7.85L8.85 9.85C8.76 9.95 8.63 10 8.5 10C8.37 10 8.24 9.95 8.15 9.85C7.95 9.66 7.95 9.34 8.15 9.15L9.29 8H4.5C4.22 8 4 7.78 4 7.5C4 7.22 4.22 7 4.5 7H9.29L8.15 5.85C7.95 5.66 7.95 5.34 8.15 5.15C8.34 4.95 8.66 4.95 8.85 5.15L10.85 7.15L10.85 7.15Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscDiffRenamed;

@@ -30,6 +30,78 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  rx: {
+    id: "rx",
+    name: "Radix Icons",
+    prefix: "Rx",
+    version: "0.0.17",
+    license: "MIT",
+    repo: "radix-ui/icons",
+    style: "fill",
+    viewBox: "0 0 15 15",
+    blurb:
+      "Crisp 15×15 UI icons by the Radix team (`RxAccessibility`, `RxGear`). Single-color fill; theme via `color`.",
+  },
+  tf: {
+    id: "tf",
+    name: "Themify",
+    prefix: "Tf",
+    version: "9600186",
+    license: "OFL-1.1",
+    repo: "lykmapipo/themify-icons",
+    style: "fill",
+    viewBox: "0 0 17 17",
+    blurb:
+      "Hand-crafted, iOS-inspired line/solid icons (`TfHome`, `TfHeart`, `TfSettings`). Single-color fill; theme via `color`.",
+  },
+  vsc: {
+    id: "vsc",
+    name: "Codicons",
+    prefix: "Vsc",
+    version: "0.0.46",
+    license: "CC-BY-4.0",
+    repo: "microsoft/vscode-codicons",
+    style: "fill",
+    viewBox: "0 0 16 16",
+    blurb:
+      "VS Code's product icon set, 16×16 (`VscAccount`, `VscGitMerge`, `VscBug`). Single-color fill; theme via `color`.",
+  },
+  cg: {
+    id: "cg",
+    name: "css.gg",
+    prefix: "Cg",
+    version: "2.1.1",
+    license: "MIT",
+    repo: "astrit/css.gg",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Open-source, minimal 24×24 icons (`CgAdd`, `CgSearch`, `CgTrash`). Solid `currentColor` fills; theme via `color`.",
+  },
+  sl: {
+    id: "sl",
+    name: "Simple Line Icons",
+    prefix: "Sl",
+    version: "2.5.5",
+    license: "MIT",
+    repo: "thesabbir/simple-line-icons",
+    style: "fill",
+    viewBox: "0 0 1024 1024",
+    blurb:
+      "Minimal, thin line-style UI icons (`SlWrench`, `SlHeart`, `SlSettings`). Single-color 1024×1024 fill; theme via `color`.",
+  },
+  hi: {
+    id: "hi",
+    name: "Heroicons",
+    prefix: "Hi",
+    version: "2.2.0",
+    license: "MIT",
+    repo: "tailwindlabs/heroicons",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Tailwind Labs' hand-crafted 24×24 outline icons (`HiAcademicCap`, `HiBell`, `HiHome`). Stroke-based; theme via `color`, honor `strokeWidth`/`weight`.",
+  },
   ad: {
     id: "ad",
     name: "Ant Design Icons",
@@ -172,6 +244,30 @@ const SET_META = {
     viewBox: "0 0 30 30",
     blurb:
       "Weather, maritime & meteorological 30×30 fill icons (e.g. `WiDaySunny`, `WiThunderstorm`). The redundant `wi-` filename prefix is dropped. Paths paint with `currentColor`; theme via `color`.",
+  },
+  fc: {
+    id: "fc",
+    name: "Flat Color Icons",
+    prefix: "Fc",
+    version: "1.0.2",
+    license: "CC-BY-4.0",
+    repo: "icons8/flat-color-icons",
+    style: "color",
+    viewBox: "0 0 48 48",
+    blurb:
+      "Icons8's multi-color flat 48×48 icons (e.g. `FcAbout`, `FcSearch`, `FcCalendar`). Each shape keeps its own baked color, so these are NOT themed via `color`/`currentColor` — render them as-is.",
+  },
+  gr: {
+    id: "gr",
+    name: "Grommet",
+    prefix: "Gr",
+    version: "4.14.0",
+    license: "Apache-2.0",
+    repo: "grommet/grommet-icons",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Grommet's stroke-based 24×24 icons, including many brand marks (e.g. `GrHome`, `GrGithub`, `GrAmazon`). Themed via `color`; honor `strokeWidth`/`weight`. Brand icons render single-color.",
   },
 };
 

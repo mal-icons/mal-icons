@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const VscDebugBreakpointLogUnverified = createIcon("0 0 16 16", [["path",{"d":"M8 13C7.87 13 7.74 12.95 7.65 12.85L3.15 8.35C2.95 8.16 2.95 7.84 3.15 7.65L7.65 3.15C7.84 2.95 8.16 2.95 8.35 3.15L12.85 7.65C13.05 7.84 13.05 8.16 12.85 8.35L8.35 12.85C8.26 12.95 8.13 13 8 13L8 13ZM4.21 8L8 11.79L11.79 8L8 4.21L4.21 8Z"}]]);
+
+export default VscDebugBreakpointLogUnverified;

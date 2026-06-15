@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const HiMap = createIcon("0 0 24 24", [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M9 6.75V15m6-6v8.25m0.5 3.5 4.88-2.44c0.38-0.190.62-0.580.62-1.01V4.82c0-0.84-0.88-1.38-1.63-1.01l-3.87 1.93c-0.320.16-0.690.16-1.01 0L9.5 3.25a1.13 1.13 0 0 0-1.01 0L3.62 5.69C3.24 5.88 3 6.27 3 6.7V19.18c0 0.840.88 1.38 1.63 1.01l3.87-1.93c0.32-0.160.69-0.16 1.01 0l4.99 2.5c0.320.160.690.16 1.01 0Z"}]], {"fill":"none","stroke-width":1.5});
+
+export default HiMap;

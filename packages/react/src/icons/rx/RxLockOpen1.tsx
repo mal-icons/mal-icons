@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RxLockOpen1 = createIcon("0 0 15 15", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M7.5 0C6.33 0 5.36 0.39 4.74 1.19C4.24 1.84 4 2.68 4 3.63H5C5 2.84 5.2 2.23 5.53 1.81C5.92 1.31 6.55 1 7.5 1C8.36 1 8.96 1.27 9.36 1.69C9.76 2.11 10 2.76 10 3.64V6H3C2.45 6 2 6.45 2 7V13C2 13.55 2.45 14 3 14H12C12.55 14 13 13.55 13 13V7C13 6.45 12.55 6 12 6H11V3.64C11 2.58 10.71 1.66 10.09 1C9.46 0.34 8.57 0 7.5 0ZM3 7H12V13H3V7Z","fill":"currentColor"}]]);
+
+export default RxLockOpen1;

@@ -24,9 +24,11 @@ export interface IconSource {
   iconDir: string;
   /**
    * Rendering style of the set. `stroke` sets (e.g. Feather) keep
-   * `fill="none"` and rely on stroke; `fill` sets paint with currentColor.
+   * `fill="none"` and rely on stroke; `fill` sets paint with currentColor;
+   * `color` sets (e.g. Flat Color Icons) keep their original multi-color
+   * fills baked into each shape and are not themed via `currentColor`.
    */
-  style: "stroke" | "fill";
+  style: "stroke" | "fill" | "color";
   /**
    * Optional file-name prefix to drop before deriving component names. Some
    * sets ship every file already namespaced (e.g. Weather Icons uses
@@ -157,5 +159,86 @@ export const sources: Record<string, IconSource> = {
     iconDir: "svg",
     style: "fill",
     stripPrefix: "wi-",
+  },
+  fc: {
+    id: "fc",
+    prefix: "Fc",
+    name: "Flat Color Icons",
+    license: "CC-BY-4.0",
+    repo: "icons8/flat-color-icons",
+    ref: "v1.0.2",
+    iconDir: "svg",
+    style: "color",
+  },
+  gr: {
+    id: "gr",
+    prefix: "Gr",
+    name: "Grommet",
+    license: "Apache-2.0",
+    repo: "grommet/grommet-icons",
+    ref: "v4.14.0",
+    iconDir: "public/img",
+    style: "stroke",
+  },
+  hi: {
+    id: "hi",
+    prefix: "Hi",
+    name: "Heroicons",
+    license: "MIT",
+    repo: "tailwindlabs/heroicons",
+    ref: "v2.2.0",
+    iconDir: "optimized/24/outline",
+    style: "stroke",
+  },
+  sl: {
+    id: "sl",
+    prefix: "Sl",
+    name: "Simple Line Icons",
+    license: "MIT",
+    repo: "thesabbir/simple-line-icons",
+    ref: "v2.5.5",
+    iconDir: "src/svgs",
+    style: "fill",
+  },
+  cg: {
+    id: "cg",
+    prefix: "Cg",
+    name: "css.gg",
+    license: "MIT",
+    repo: "astrit/css.gg",
+    ref: "2.1.1",
+    iconDir: "icons/svg",
+    style: "fill",
+  },
+  vsc: {
+    id: "vsc",
+    prefix: "Vsc",
+    name: "Codicons",
+    license: "CC-BY-4.0",
+    repo: "microsoft/vscode-codicons",
+    ref: "v0.0.46-17",
+    iconDir: "src/icons",
+    style: "fill",
+  },
+  tf: {
+    id: "tf",
+    prefix: "Tf",
+    name: "Themify",
+    license: "OFL-1.1",
+    repo: "lykmapipo/themify-icons",
+    // The upstream fork ships no tags; pin to a commit for reproducibility.
+    ref: "9600186b24a7242f0e1e0a186983e6253301bb5d",
+    iconDir: "SVG",
+    style: "fill",
+  },
+  rx: {
+    id: "rx",
+    prefix: "Rx",
+    name: "Radix Icons",
+    license: "MIT",
+    repo: "radix-ui/icons",
+    ref: "website@0.0.17",
+    iconDir: "packages/radix-icons/icons",
+    style: "fill",
   },
 };

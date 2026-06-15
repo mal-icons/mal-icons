@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgLoupe = createIcon("0 0 24 24", [["path",{"d":"M11 11V8H13V11H16V13H13V16H11V13H8V11H11Z","fill":"currentColor"}],["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M3 12C3 16.97 7.03 21 12 21H18C19.66 21 21 19.66 21 18V12C21 7.03 16.97 3 12 3C7.03 3 3 7.03 3 12ZM12 5C15.87 5 19 8.13 19 12C19 15.87 15.87 19 12 19C8.13 19 5 15.87 5 12C5 8.13 8.13 5 12 5Z","fill":"currentColor"}]]);
+
+export default CgLoupe;

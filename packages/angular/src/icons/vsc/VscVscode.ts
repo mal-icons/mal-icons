@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-vscode",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscVscode {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.43 1.73L12.14 0.14C12 0.08 11.86 0.05 11.71 0.05C11.35 0.05 11.18 0.21 11.16 0.23C11.07 0.27 11.01 0.34 11 0.34L4.7 6.09L1.95 4C1.83 3.91 1.69 3.87 1.55 3.87C1.39 3.87 1.23 3.93 1.1 4.04L0.22 4.84C0.07 4.98 0 5.16 0 5.34C0 5.52 0.07 5.7 0.22 5.83L2.6 8L0.22 10.17C0.07 10.3 0 10.48 0 10.66C0 10.84 0.07 11.02 0.22 11.16L1.1 11.96C1.23 12.07 1.39 12.13 1.55 12.13C1.69 12.13 1.83 12.09 1.95 12L4.7 9.91L11 15.66C11 15.66 11.07 15.73 11.16 15.77C11.18 15.79 11.35 15.95 11.71 15.95C11.86 15.95 12 15.92 12.14 15.85L15.44 14.27C15.78 14.1 16 13.75 16 13.37V2.63C16 2.24 15.78 1.89 15.44 1.73L15.43 1.73ZM7.22 8L12 4.37V11.63L7.22 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscVscode;

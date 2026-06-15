@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-arrow-down-circle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlArrowDownCircle {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 512c0 282.78 229.23 512 512 512 282.78 0 512-229.22 512-512C1024 229.23 794.78 0 512 0 229.23 0 0 229.23 0 512zm961.01 0c0 247.02-201.97 448-449.01 448s-448-200.98-448-448 200.98-448 448-448 449.01 200.98 449.01 448zM479.66 287.68v360.45l-115.76-115.76c-12.5-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25l194.02 189.01 194-189.01c6.26-6.26 9.38-14.43 9.38-22.62s-3.12-16.37-9.38-22.62c-12.5-12.5-32.75-12.5-45.25 0l-117.74 117.76V287.68c0-17.68-14.34-32-32-32s-32.02 14.32-32.02 32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlArrowDownCircle;

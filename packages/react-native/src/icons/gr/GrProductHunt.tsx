@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrProductHunt = createIcon("0 0 24 24", [["path",{"fill":"currentColor","fillRule":"evenodd","d":"M13.6,8.4 L13.6,8.4 L10.2,8.4 L10.2,12 L13.6,12 C14.59,12 15.4,11.19 15.4,10.2 C15.4,9.21 14.59,8.4 13.6,8.4 M13.6,14.4 L13.6,14.4 L10.2,14.4 L10.2,18 L7.8,18 L7.8,6 L13.6,6 C15.92,6 17.8,7.88 17.8,10.2 C17.8,12.52 15.92,14.4 13.6,14.4 M12,0 C5.37,0 0,5.37 0,12 C0,18.63 5.37,24 12,24 C18.63,24 24,18.63 24,12 C24,5.37 18.63,0 12,0"}]], {"fill":"none"});
+
+export default GrProductHunt;

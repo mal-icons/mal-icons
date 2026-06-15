@@ -9,7 +9,24 @@ export interface ParsedSvg {
   nodes: IconNode[];
 }
 
-const SHAPE_TAGS = new Set([
+/** Options controlling how the parser handles `<g>` groups. */
+export interface ParseSvgOptions {
+  /**
+   * When true, presentational `<g>` wrappers are *flattened*: a group's
+   * inheritable paint attributes (e.g. `fill`) cascade onto its descendant
+   * shapes and the group element itself is dropped. Multi-color sets (e.g.
+   * Flat Color Icons) group same-colored details under `<g fill="…">`, so
+   * flattening keeps the flat runtime model while preserving per-shape colors.
+   *
+   * When false (the default), the legacy behavior is kept: `<g>` is treated
+   * as a plain shape node and no attributes cascade. This preserves
+   * byte-identical output for the existing stroke/fill sets.
+   */
+  flattenGroups?: boolean;
+}
+
+/** Leaf shape elements emitted as flat nodes. */
+const LEAF_SHAPE_TAGS = new Set([
   "path",
   "circle",
   "rect",
@@ -17,8 +34,48 @@ const SHAPE_TAGS = new Set([
   "polyline",
   "polygon",
   "ellipse",
-  "g",
 ]);
+
+/** Shape tags recognized in legacy (non-flattening) mode, including `<g>`. */
+const SHAPE_TAGS = new Set([...LEAF_SHAPE_TAGS, "g"]);
+
+/**
+ * SVG paint/presentation attributes that legitimately cascade from a `<g>`
+ * onto its child shapes. Only these inherit when flattening — structural or
+ * metadata attributes (`id`, `class`, `data-name`, namespaces, …) do not, so
+ * they never leak onto the flattened children.
+ */
+const INHERITABLE_ATTRS = new Set([
+  "fill",
+  "fill-rule",
+  "fill-opacity",
+  "stroke",
+  "stroke-width",
+  "stroke-linecap",
+  "stroke-linejoin",
+  "stroke-miterlimit",
+  "stroke-dasharray",
+  "stroke-opacity",
+  "opacity",
+  "color",
+]);
+
+/** Keep only the inheritable paint attributes from a `<g>`'s attribute map. */
+function inheritableAttrs(attr: Record<string, string>): Record<string, string> {
+  const out: Record<string, string> = {};
+  for (const [k, v] of Object.entries(attr)) {
+    if (INHERITABLE_ATTRS.has(k)) out[k] = v;
+  }
+  return out;
+}
+
+/** Merge a group's inherited paint attributes onto a child's own (child wins). */
+function withInherited(
+  inherited: Record<string, string>,
+  own: Record<string, string>,
+): Record<string, string> {
+  return { ...inherited, ...own };
+}
 
 /** Parse the attributes out of a single opening tag body (without `< >`). */
 function parseAttrs(tagBody: string): Record<string, string> {
@@ -36,13 +93,15 @@ function parseAttrs(tagBody: string): Record<string, string> {
 
 /**
  * Minimal, dependency-free SVG parser covering the subset emitted by the
- * supported icon sets (a single `<svg>` root with flat shape children).
+ * supported icon sets (a single `<svg>` root with flat shape children,
+ * optionally wrapped in presentational `<g>` groups).
  *
- * It deliberately ignores scripts, styles, and nested groups beyond one
- * level, which is sufficient for line/fill icon sets and avoids pulling in
- * a full XML/DOM dependency.
+ * It deliberately ignores scripts, styles, defs, and gradients, which is
+ * sufficient for line/fill/color icon sets and avoids pulling in a full
+ * XML/DOM dependency. See {@link ParseSvgOptions.flattenGroups} for how
+ * nested groups are handled.
  */
-export function parseSvg(svg: string): ParsedSvg {
+export function parseSvg(svg: string, options: ParseSvgOptions = {}): ParsedSvg {
   const svgOpenMatch = svg.match(/<svg\b([^>]*)>/i);
   if (!svgOpenMatch || svgOpenMatch[1] === undefined) {
     throw new Error("No <svg> root element found");
@@ -60,6 +119,17 @@ export function parseSvg(svg: string): ParsedSvg {
     svg.lastIndexOf("</svg>") === -1 ? undefined : svg.lastIndexOf("</svg>"),
   );
 
+  const nodes = options.flattenGroups ? parseFlattened(inner) : parseFlat(inner);
+
+  return { viewBox, rootAttr, nodes };
+}
+
+/**
+ * Legacy parse: every shape tag (including `<g>`) becomes a flat node with no
+ * attribute inheritance. Output is byte-identical to earlier releases for the
+ * existing stroke/fill sets.
+ */
+function parseFlat(inner: string): IconNode[] {
   const nodes: IconNode[] = [];
   const tagRe = /<([a-zA-Z][a-zA-Z0-9]*)\b([^>]*?)\/?>/g;
   let t: RegExpExecArray | null;
@@ -70,6 +140,39 @@ export function parseSvg(svg: string): ParsedSvg {
     if (t[2] === undefined) continue;
     nodes.push({ tag, attr: parseAttrs(t[2]), child: [] });
   }
+  return nodes;
+}
 
-  return { viewBox, rootAttr, nodes };
+/**
+ * Flattening parse: `<g>` wrappers are dropped and their inheritable paint
+ * attributes cascade onto descendant leaf shapes (multi-color `color` sets).
+ */
+function parseFlattened(inner: string): IconNode[] {
+  const nodes: IconNode[] = [];
+  // Stack of inherited paint attributes contributed by currently-open `<g>`.
+  const groupStack: Record<string, string>[] = [];
+  // Match an opening/self-closing tag or a closing tag, in document order.
+  const tagRe = /<(\/)?([a-zA-Z][a-zA-Z0-9]*)\b([^>]*?)(\/)?>/g;
+  let t: RegExpExecArray | null;
+  // biome-ignore lint/suspicious/noAssignInExpressions: standard regex loop
+  while ((t = tagRe.exec(inner)) !== null) {
+    const isClosing = t[1] === "/";
+    const tag = (t[2] ?? "").toLowerCase();
+    const selfClosed = t[4] === "/";
+
+    if (tag === "g") {
+      if (isClosing) {
+        groupStack.pop();
+      } else if (!selfClosed) {
+        const parent = groupStack[groupStack.length - 1] ?? {};
+        groupStack.push(withInherited(parent, inheritableAttrs(parseAttrs(t[3] ?? ""))));
+      }
+      continue;
+    }
+
+    if (isClosing || !LEAF_SHAPE_TAGS.has(tag) || t[3] === undefined) continue;
+    const inherited = groupStack[groupStack.length - 1] ?? {};
+    nodes.push({ tag, attr: withInherited(inherited, parseAttrs(t[3])), child: [] });
+  }
+  return nodes;
 }

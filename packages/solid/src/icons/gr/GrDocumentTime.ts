@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GrDocumentTime = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M5,7 L5,1 L19.5,1 L23,4.5 L23,23 L17,23 M18,1 L18,6 L23,6 M10,23 C13.87,23 17,19.87 17,16 C17,12.13 13.87,9 10,9 C6.13,9 3,12.13 3,16 C3,19.87 6.13,23 10,23 Z M10,12 L10,16 L13,19"}]], {"fill":"none"});
+
+export default GrDocumentTime;

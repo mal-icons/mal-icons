@@ -41,6 +41,14 @@
       "bun": "./src/icons/ad/*.ts",
       "import": "./src/icons/ad/*.ts"
     },
+    "./cg": {
+      "bun": "./src/icons/cg/index.ts",
+      "import": "./src/icons/cg/index.ts"
+    },
+    "./cg/*": {
+      "bun": "./src/icons/cg/*.ts",
+      "import": "./src/icons/cg/*.ts"
+    },
     "./ci": {
       "bun": "./src/icons/ci/index.ts",
       "import": "./src/icons/ci/index.ts"
@@ -77,9 +85,17 @@
       "bun": "./src/icons/far/index.ts",
       "import": "./src/icons/far/index.ts"
     },
+    "./fc": {
+      "bun": "./src/icons/fc/index.ts",
+      "import": "./src/icons/fc/index.ts"
+    },
     "./far/*": {
       "bun": "./src/icons/far/*.ts",
       "import": "./src/icons/far/*.ts"
+    },
+    "./fc/*": {
+      "bun": "./src/icons/fc/*.ts",
+      "import": "./src/icons/fc/*.ts"
     },
     "./fi": {
       "bun": "./src/icons/fi/index.ts",
@@ -88,6 +104,22 @@
     "./fi/*": {
       "bun": "./src/icons/fi/*.ts",
       "import": "./src/icons/fi/*.ts"
+    },
+    "./gr": {
+      "bun": "./src/icons/gr/index.ts",
+      "import": "./src/icons/gr/index.ts"
+    },
+    "./gr/*": {
+      "bun": "./src/icons/gr/*.ts",
+      "import": "./src/icons/gr/*.ts"
+    },
+    "./hi": {
+      "bun": "./src/icons/hi/index.ts",
+      "import": "./src/icons/hi/index.ts"
+    },
+    "./hi/*": {
+      "bun": "./src/icons/hi/*.ts",
+      "import": "./src/icons/hi/*.ts"
     },
     "./io": {
       "bun": "./src/icons/io/index.ts",
@@ -113,6 +145,30 @@
       "bun": "./src/icons/oc/*.ts",
       "import": "./src/icons/oc/*.ts"
     },
+    "./rx": {
+      "bun": "./src/icons/rx/index.ts",
+      "import": "./src/icons/rx/index.ts"
+    },
+    "./rx/*": {
+      "bun": "./src/icons/rx/*.ts",
+      "import": "./src/icons/rx/*.ts"
+    },
+    "./sl": {
+      "bun": "./src/icons/sl/index.ts",
+      "import": "./src/icons/sl/index.ts"
+    },
+    "./sl/*": {
+      "bun": "./src/icons/sl/*.ts",
+      "import": "./src/icons/sl/*.ts"
+    },
+    "./tf": {
+      "bun": "./src/icons/tf/index.ts",
+      "import": "./src/icons/tf/index.ts"
+    },
+    "./tf/*": {
+      "bun": "./src/icons/tf/*.ts",
+      "import": "./src/icons/tf/*.ts"
+    },
     "./ti": {
       "bun": "./src/icons/ti/index.ts",
       "import": "./src/icons/ti/index.ts"
@@ -120,6 +176,14 @@
     "./ti/*": {
       "bun": "./src/icons/ti/*.ts",
       "import": "./src/icons/ti/*.ts"
+    },
+    "./vsc": {
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./src/icons/vsc/index.ts"
+    },
+    "./vsc/*": {
+      "bun": "./src/icons/vsc/*.ts",
+      "import": "./src/icons/vsc/*.ts"
     },
     "./wi": {
       "bun": "./src/icons/wi/index.ts",

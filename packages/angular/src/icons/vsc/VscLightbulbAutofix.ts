@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-lightbulb-autofix",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscLightbulbAutofix {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.61 14C6.79 14.36 7.01 14.69 7.26 15H6.02C5.34 15 4.75 14.54 4.57 13.89L3.63 10.4C3.6 10.29 3.41 10.07 3.22 9.86C2.64 9.18 1.75 8.17 1.75 6.25C1.75 2.96 4.42 1 7 1C9.83 1 12.13 3.25 12.23 6.05C11.99 6.02 11.75 6 11.5 6C11.41 6 11.32 6.01 11.23 6.01C11.1 3.78 9.26 2 7 2C4.91 2 2.75 3.59 2.75 6.25C2.75 7.79 3.43 8.57 3.98 9.2C4.26 9.52 4.5 9.8 4.59 10.14L4.83 11H6.03C6.01 11.16 6 11.33 6 11.5C6 11.67 6.01 11.83 6.03 12H5.1L5.54 13.63C5.59 13.85 5.79 14 6.02 14H6.61L6.61 14ZM16 11.5C16 13.99 13.99 16 11.5 16C9.02 16 7 13.99 7 11.5C7 9.02 9.02 7 11.5 7C13.99 7 16 9.02 16 11.5ZM14 10.39H12.45L11.98 8.86C11.83 8.38 11.17 8.38 11.02 8.86L10.55 10.39H9C8.52 10.39 8.32 11.04 8.71 11.34L9.96 12.28L9.48 13.82C9.33 14.3 9.86 14.7 10.25 14.4L11.5 13.45L12.75 14.4C13.14 14.7 13.67 14.3 13.52 13.82L13.04 12.28L14.29 11.34H14.29C14.68 11.04 14.48 10.39 14 10.39Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscLightbulbAutofix;

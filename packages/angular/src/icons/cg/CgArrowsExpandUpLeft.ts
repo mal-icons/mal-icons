@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-arrows-expand-up-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgArrowsExpandUpLeft {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5 11H3L3 3L11 3V5L6.41 5L11.78 10.36C12.17 10.75 12.17 11.39 11.78 11.78C11.39 12.17 10.75 12.17 10.36 11.78L5 6.41L5 11Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M19 13C20.1 13 21 13.9 21 15V19C21 20.1 20.1 21 19 21H15C13.9 21 13 20.1 13 19V15C13 13.9 13.9 13 15 13H19ZM19 15V19H15V15H19Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgArrowsExpandUpLeft;

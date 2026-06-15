@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiShoppingCart = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M2.25 3h1.39c0.51 0 0.960.34 1.090.84l0.38 1.44M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.22c1.12-2.3 2.1-4.68 2.92-7.14a60.11 60.11 0 0 0-16.54-1.84M7.5 14.25 5.11 5.27M6 20.25a0.750.75 0 1 1-1.5 0 0.750.75 0 0 1 1.5 0Zm12.75 0a0.750.75 0 1 1-1.5 0 0.750.75 0 0 1 1.5 0Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiShoppingCart;

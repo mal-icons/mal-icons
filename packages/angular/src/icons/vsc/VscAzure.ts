@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-azure",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscAzure {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15.37 13.68L11.37 1.68C11.3 1.47 11.17 1.29 10.98 1.17C10.8 1.05 10.59 0.99 10.37 1H5.63C5.42 1 5.22 1.06 5.05 1.19C4.88 1.31 4.75 1.48 4.68 1.68L0.63 13.68C0.58 13.83 0.56 14 0.59 14.16C0.62 14.32 0.68 14.47 0.78 14.61C0.88 14.74 1.01 14.84 1.16 14.91C1.3 14.98 1.47 15.01 1.63 15H4.56C4.77 15 4.97 14.93 5.14 14.81C5.31 14.69 5.43 14.52 5.5 14.32L6.11 12.54L9.11 14.81C9.28 14.94 9.49 15 9.71 15H14.39C14.55 15.01 14.71 14.97 14.86 14.9C15 14.83 15.13 14.73 15.23 14.6C15.32 14.47 15.39 14.32 15.41 14.16C15.44 14 15.42 13.83 15.37 13.68ZM9.75 14.34C9.68 14.34 9.61 14.32 9.55 14.27L3.9 10.08L3.81 10.01H6.81L6.89 9.8L7.89 7.27L10.13 13.9C10.15 13.96 10.15 14.01 10.14 14.07C10.13 14.13 10.1 14.18 10.06 14.23C10.03 14.27 9.98 14.3 9.92 14.32C9.87 14.34 9.81 14.35 9.75 14.34ZM14.42 14.34H10.7C10.77 14.13 10.77 13.89 10.7 13.68L6.65 1.68H10.37C10.44 1.68 10.51 1.7 10.57 1.74C10.62 1.79 10.67 1.84 10.69 1.91L14.74 13.91C14.75 13.96 14.76 14.01 14.75 14.06C14.74 14.11 14.72 14.16 14.69 14.2C14.65 14.24 14.61 14.28 14.57 14.3C14.52 14.33 14.47 14.34 14.42 14.34Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscAzure;

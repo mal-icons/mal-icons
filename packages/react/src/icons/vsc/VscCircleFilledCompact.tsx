@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const VscCircleFilledCompact = createIcon("0 0 12 12", [["path",{"d":"M6 10C8.21 10 10 8.21 10 6C10 3.79 8.21 2 6 2C3.79 2 2 3.79 2 6C2 8.21 3.79 10 6 10Z"}]]);
+
+export default VscCircleFilledCompact;

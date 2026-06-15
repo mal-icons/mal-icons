@@ -1,0 +1,2888 @@
+{
+  "set": {
+    "id": "rx",
+    "name": "Radix Icons",
+    "prefix": "Rx",
+    "version": "0.0.17",
+    "license": "MIT",
+    "repo": "radix-ui/icons",
+    "style": "fill",
+    "viewBox": "0 0 15 15"
+  },
+  "count": 318,
+  "icons": [
+    {
+      "name": "RxAccessibility",
+      "tags": [
+        "accessibility",
+        "fill"
+      ],
+      "description": "Accessibility icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxActivityLog",
+      "tags": [
+        "activity",
+        "fill",
+        "log"
+      ],
+      "description": "Activity Log icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAlignBaseline",
+      "tags": [
+        "align",
+        "baseline",
+        "fill"
+      ],
+      "description": "Align Baseline icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAlignBottom",
+      "tags": [
+        "align",
+        "bottom",
+        "fill"
+      ],
+      "description": "Align Bottom icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAlignCenterHorizontally",
+      "tags": [
+        "align",
+        "center",
+        "fill",
+        "horizontally"
+      ],
+      "description": "Align Center Horizontally icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAlignCenterVertically",
+      "tags": [
+        "align",
+        "center",
+        "fill",
+        "vertically"
+      ],
+      "description": "Align Center Vertically icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAlignLeft",
+      "tags": [
+        "align",
+        "fill",
+        "left"
+      ],
+      "description": "Align Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAlignRight",
+      "tags": [
+        "align",
+        "fill",
+        "right"
+      ],
+      "description": "Align Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAlignTop",
+      "tags": [
+        "align",
+        "fill",
+        "top"
+      ],
+      "description": "Align Top icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAllSides",
+      "tags": [
+        "all",
+        "fill",
+        "sides"
+      ],
+      "description": "All Sides icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAngle",
+      "tags": [
+        "angle",
+        "fill"
+      ],
+      "description": "Angle icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxArchive",
+      "tags": [
+        "archive",
+        "fill"
+      ],
+      "description": "Archive icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxArrowBottomLeft",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxArrowBottomRight",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxArrowTopLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxArrowTopRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxAspectRatio",
+      "tags": [
+        "aspect",
+        "fill",
+        "ratio"
+      ],
+      "description": "Aspect Ratio icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxAvatar",
+      "tags": [
+        "avatar",
+        "fill"
+      ],
+      "description": "Avatar icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBackpack",
+      "tags": [
+        "backpack",
+        "fill"
+      ],
+      "description": "Backpack icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBadge",
+      "tags": [
+        "badge",
+        "fill"
+      ],
+      "description": "Badge icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBarChart",
+      "tags": [
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Bar Chart icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "RxBlendingMode",
+      "tags": [
+        "blending",
+        "fill",
+        "mode"
+      ],
+      "description": "Blending Mode icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "RxBookmarkFilled",
+      "tags": [
+        "bookmark",
+        "fill",
+        "filled"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "RxBorderAll",
+      "tags": [
+        "all",
+        "border",
+        "fill"
+      ],
+      "description": "Border All icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderBottom",
+      "tags": [
+        "border",
+        "bottom",
+        "fill"
+      ],
+      "description": "Border Bottom icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderDashed",
+      "tags": [
+        "border",
+        "dashed",
+        "fill"
+      ],
+      "description": "Border Dashed icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderDotted",
+      "tags": [
+        "border",
+        "dotted",
+        "fill"
+      ],
+      "description": "Border Dotted icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderLeft",
+      "tags": [
+        "border",
+        "fill",
+        "left"
+      ],
+      "description": "Border Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderNone",
+      "tags": [
+        "border",
+        "fill",
+        "none"
+      ],
+      "description": "Border None icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderRight",
+      "tags": [
+        "border",
+        "fill",
+        "right"
+      ],
+      "description": "Border Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderSolid",
+      "tags": [
+        "border",
+        "fill",
+        "solid"
+      ],
+      "description": "Border Solid icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderSplit",
+      "tags": [
+        "border",
+        "fill",
+        "split"
+      ],
+      "description": "Border Split icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderStyle",
+      "tags": [
+        "border",
+        "fill",
+        "style"
+      ],
+      "description": "Border Style icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderTop",
+      "tags": [
+        "border",
+        "fill",
+        "top"
+      ],
+      "description": "Border Top icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBorderWidth",
+      "tags": [
+        "border",
+        "fill",
+        "width"
+      ],
+      "description": "Border Width icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBox",
+      "tags": [
+        "box",
+        "fill"
+      ],
+      "description": "Box icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxBoxModel",
+      "tags": [
+        "box",
+        "fill",
+        "model"
+      ],
+      "description": "Box Model icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxButton",
+      "tags": [
+        "button",
+        "fill"
+      ],
+      "description": "Button icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "RxCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "RxCardStack",
+      "tags": [
+        "card",
+        "fill",
+        "stack"
+      ],
+      "description": "Card Stack icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCardStackMinus",
+      "tags": [
+        "card",
+        "fill",
+        "minus",
+        "remove",
+        "stack"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "RxCardStackPlus",
+      "tags": [
+        "add",
+        "card",
+        "fill",
+        "plus",
+        "stack"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "RxCaretDown",
+      "tags": [
+        "caret",
+        "down",
+        "fill"
+      ],
+      "description": "Caret Down icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCaretLeft",
+      "tags": [
+        "caret",
+        "fill",
+        "left"
+      ],
+      "description": "Caret Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCaretRight",
+      "tags": [
+        "caret",
+        "fill",
+        "right"
+      ],
+      "description": "Caret Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCaretSort",
+      "tags": [
+        "caret",
+        "fill",
+        "sort"
+      ],
+      "description": "Caret Sort icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCaretUp",
+      "tags": [
+        "caret",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Caret Up icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxChatBubble",
+      "tags": [
+        "bubble",
+        "chat",
+        "fill"
+      ],
+      "description": "Chat Bubble icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCheck",
+      "tags": [
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "RxCheckbox",
+      "tags": [
+        "checkbox",
+        "fill"
+      ],
+      "description": "Checkbox icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCheckCircled",
+      "tags": [
+        "check",
+        "circled",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "RxChevronDown",
+      "tags": [
+        "chevron",
+        "down",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "RxChevronLeft",
+      "tags": [
+        "chevron",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "RxChevronRight",
+      "tags": [
+        "chevron",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "RxChevronUp",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "RxCircle",
+      "tags": [
+        "circle",
+        "fill"
+      ],
+      "description": "Circle icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCircleBackslash",
+      "tags": [
+        "backslash",
+        "circle",
+        "fill"
+      ],
+      "description": "Circle Backslash icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxClipboard",
+      "tags": [
+        "clipboard",
+        "fill"
+      ],
+      "description": "Clipboard icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxClipboardCopy",
+      "tags": [
+        "clipboard",
+        "copy",
+        "fill"
+      ],
+      "description": "Clipboard Copy icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxClock",
+      "tags": [
+        "clock",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "RxCode",
+      "tags": [
+        "code",
+        "fill"
+      ],
+      "description": "Code icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCodesandboxLogo",
+      "tags": [
+        "codesandbox",
+        "fill",
+        "logo"
+      ],
+      "description": "Codesandbox Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxColorWheel",
+      "tags": [
+        "color",
+        "fill",
+        "wheel"
+      ],
+      "description": "Color Wheel icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxColumns",
+      "tags": [
+        "columns",
+        "fill"
+      ],
+      "description": "Columns icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxColumnSpacing",
+      "tags": [
+        "column",
+        "fill",
+        "spacing"
+      ],
+      "description": "Column Spacing icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCommit",
+      "tags": [
+        "commit",
+        "fill"
+      ],
+      "description": "Commit icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxComponent1",
+      "tags": [
+        "1",
+        "component",
+        "component1",
+        "fill"
+      ],
+      "description": "Component 1 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxComponent2",
+      "tags": [
+        "2",
+        "component",
+        "component2",
+        "fill"
+      ],
+      "description": "Component 2 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxComponentBoolean",
+      "tags": [
+        "boolean",
+        "component",
+        "fill"
+      ],
+      "description": "Component Boolean icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxComponentInstance",
+      "tags": [
+        "component",
+        "fill",
+        "instance"
+      ],
+      "description": "Component Instance icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxComponentNone",
+      "tags": [
+        "component",
+        "fill",
+        "none"
+      ],
+      "description": "Component None icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxComponentPlaceholder",
+      "tags": [
+        "component",
+        "fill",
+        "placeholder"
+      ],
+      "description": "Component Placeholder icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxContainer",
+      "tags": [
+        "container",
+        "fill"
+      ],
+      "description": "Container icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCookie",
+      "tags": [
+        "cookie",
+        "fill"
+      ],
+      "description": "Cookie icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCopy",
+      "tags": [
+        "copy",
+        "fill"
+      ],
+      "description": "Copy icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCornerBottomLeft",
+      "tags": [
+        "bottom",
+        "corner",
+        "fill",
+        "left"
+      ],
+      "description": "Corner Bottom Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCornerBottomRight",
+      "tags": [
+        "bottom",
+        "corner",
+        "fill",
+        "right"
+      ],
+      "description": "Corner Bottom Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCorners",
+      "tags": [
+        "corners",
+        "fill"
+      ],
+      "description": "Corners icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCornerTopLeft",
+      "tags": [
+        "corner",
+        "fill",
+        "left",
+        "top"
+      ],
+      "description": "Corner Top Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCornerTopRight",
+      "tags": [
+        "corner",
+        "fill",
+        "right",
+        "top"
+      ],
+      "description": "Corner Top Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCountdownTimer",
+      "tags": [
+        "countdown",
+        "fill",
+        "timer"
+      ],
+      "description": "Countdown Timer icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCounterClockwiseClock",
+      "tags": [
+        "clock",
+        "clockwise",
+        "counter",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "RxCrop",
+      "tags": [
+        "crop",
+        "fill"
+      ],
+      "description": "Crop icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCross1",
+      "tags": [
+        "1",
+        "cross",
+        "cross1",
+        "fill"
+      ],
+      "description": "Cross 1 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCross2",
+      "tags": [
+        "2",
+        "cross",
+        "cross2",
+        "fill"
+      ],
+      "description": "Cross 2 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCrossCircled",
+      "tags": [
+        "circled",
+        "cross",
+        "fill"
+      ],
+      "description": "Cross Circled icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCrosshair1",
+      "tags": [
+        "1",
+        "crosshair",
+        "crosshair1",
+        "fill"
+      ],
+      "description": "Crosshair 1 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCrosshair2",
+      "tags": [
+        "2",
+        "crosshair",
+        "crosshair2",
+        "fill"
+      ],
+      "description": "Crosshair 2 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCrumpledPaper",
+      "tags": [
+        "crumpled",
+        "fill",
+        "paper"
+      ],
+      "description": "Crumpled Paper icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCube",
+      "tags": [
+        "cube",
+        "fill"
+      ],
+      "description": "Cube icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxCursorArrow",
+      "tags": [
+        "arrow",
+        "cursor",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxCursorText",
+      "tags": [
+        "cursor",
+        "fill",
+        "text"
+      ],
+      "description": "Cursor Text icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDash",
+      "tags": [
+        "dash",
+        "fill"
+      ],
+      "description": "Dash icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDashboard",
+      "tags": [
+        "dashboard",
+        "fill"
+      ],
+      "description": "Dashboard icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDesktop",
+      "tags": [
+        "desktop",
+        "fill"
+      ],
+      "description": "Desktop icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDimensions",
+      "tags": [
+        "dimensions",
+        "fill"
+      ],
+      "description": "Dimensions icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDisc",
+      "tags": [
+        "disc",
+        "fill"
+      ],
+      "description": "Disc icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDiscordLogo",
+      "tags": [
+        "discord",
+        "fill",
+        "logo"
+      ],
+      "description": "Discord Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDividerHorizontal",
+      "tags": [
+        "divider",
+        "fill",
+        "horizontal"
+      ],
+      "description": "Divider Horizontal icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDividerVertical",
+      "tags": [
+        "divider",
+        "fill",
+        "vertical"
+      ],
+      "description": "Divider Vertical icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDot",
+      "tags": [
+        "dot",
+        "fill"
+      ],
+      "description": "Dot icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDotFilled",
+      "tags": [
+        "dot",
+        "fill",
+        "filled"
+      ],
+      "description": "Dot Filled icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDotsHorizontal",
+      "tags": [
+        "dots",
+        "fill",
+        "horizontal"
+      ],
+      "description": "Dots Horizontal icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDotsVertical",
+      "tags": [
+        "dots",
+        "fill",
+        "vertical"
+      ],
+      "description": "Dots Vertical icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDoubleArrowDown",
+      "tags": [
+        "arrow",
+        "double",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxDoubleArrowLeft",
+      "tags": [
+        "arrow",
+        "double",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxDoubleArrowRight",
+      "tags": [
+        "arrow",
+        "double",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxDoubleArrowUp",
+      "tags": [
+        "arrow",
+        "double",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "RxDragHandleDots1",
+      "tags": [
+        "1",
+        "dots",
+        "dots1",
+        "drag",
+        "fill",
+        "handle"
+      ],
+      "description": "Drag Handle Dots 1 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDragHandleDots2",
+      "tags": [
+        "2",
+        "dots",
+        "dots2",
+        "drag",
+        "fill",
+        "handle"
+      ],
+      "description": "Drag Handle Dots 2 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDragHandleHorizontal",
+      "tags": [
+        "drag",
+        "fill",
+        "handle",
+        "horizontal"
+      ],
+      "description": "Drag Handle Horizontal icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDragHandleVertical",
+      "tags": [
+        "drag",
+        "fill",
+        "handle",
+        "vertical"
+      ],
+      "description": "Drag Handle Vertical icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDrawingPin",
+      "tags": [
+        "drawing",
+        "fill",
+        "pin"
+      ],
+      "description": "Drawing Pin icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDrawingPinFilled",
+      "tags": [
+        "drawing",
+        "fill",
+        "filled",
+        "pin"
+      ],
+      "description": "Drawing Pin Filled icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxDropdownMenu",
+      "tags": [
+        "dropdown",
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "RxEnter",
+      "tags": [
+        "enter",
+        "fill"
+      ],
+      "description": "Enter icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxEnterFullScreen",
+      "tags": [
+        "enter",
+        "fill",
+        "full",
+        "screen"
+      ],
+      "description": "Enter Full Screen icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxEnvelopeClosed",
+      "tags": [
+        "closed",
+        "envelope",
+        "fill"
+      ],
+      "description": "Envelope Closed icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxEnvelopeOpen",
+      "tags": [
+        "envelope",
+        "fill",
+        "open"
+      ],
+      "description": "Envelope Open icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxEraser",
+      "tags": [
+        "eraser",
+        "fill"
+      ],
+      "description": "Eraser icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxExclamationTriangle",
+      "tags": [
+        "exclamation",
+        "fill",
+        "triangle",
+        "warning"
+      ],
+      "description": "Exclamation Triangle icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxExit",
+      "tags": [
+        "exit",
+        "fill"
+      ],
+      "description": "Exit icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxExitFullScreen",
+      "tags": [
+        "exit",
+        "fill",
+        "full",
+        "screen"
+      ],
+      "description": "Exit Full Screen icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxExternalLink",
+      "tags": [
+        "external",
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "RxEyeClosed",
+      "tags": [
+        "closed",
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "RxEyeNone",
+      "tags": [
+        "eye",
+        "fill",
+        "hide",
+        "none"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "RxEyeOpen",
+      "tags": [
+        "eye",
+        "fill",
+        "hide",
+        "open"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "RxFace",
+      "tags": [
+        "face",
+        "fill"
+      ],
+      "description": "Face icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFigmaLogo",
+      "tags": [
+        "figma",
+        "fill",
+        "logo"
+      ],
+      "description": "Figma Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "RxFileMinus",
+      "tags": [
+        "file",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "RxFilePlus",
+      "tags": [
+        "add",
+        "file",
+        "fill",
+        "plus"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "RxFileText",
+      "tags": [
+        "file",
+        "fill",
+        "text"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "RxFontBold",
+      "tags": [
+        "bold",
+        "fill",
+        "font"
+      ],
+      "description": "Font Bold icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFontFamily",
+      "tags": [
+        "family",
+        "fill",
+        "font"
+      ],
+      "description": "Font Family icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFontItalic",
+      "tags": [
+        "fill",
+        "font",
+        "italic"
+      ],
+      "description": "Font Italic icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFontRoman",
+      "tags": [
+        "fill",
+        "font",
+        "roman"
+      ],
+      "description": "Font Roman icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFontSize",
+      "tags": [
+        "fill",
+        "font",
+        "size"
+      ],
+      "description": "Font Size icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFontStyle",
+      "tags": [
+        "fill",
+        "font",
+        "style"
+      ],
+      "description": "Font Style icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFrame",
+      "tags": [
+        "fill",
+        "frame"
+      ],
+      "description": "Frame icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxFramerLogo",
+      "tags": [
+        "fill",
+        "framer",
+        "logo"
+      ],
+      "description": "Framer Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxGear",
+      "tags": [
+        "fill",
+        "gear"
+      ],
+      "description": "Gear icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxGithubLogo",
+      "tags": [
+        "fill",
+        "github",
+        "logo"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "RxGlobe",
+      "tags": [
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "RxGrid",
+      "tags": [
+        "fill",
+        "grid"
+      ],
+      "description": "Grid icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxGroup",
+      "tags": [
+        "fill",
+        "group"
+      ],
+      "description": "Group icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxHalf1",
+      "tags": [
+        "1",
+        "fill",
+        "half",
+        "half1"
+      ],
+      "description": "Half 1 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxHalf2",
+      "tags": [
+        "2",
+        "fill",
+        "half",
+        "half2"
+      ],
+      "description": "Half 2 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxHamburgerMenu",
+      "tags": [
+        "fill",
+        "hamburger",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "RxHand",
+      "tags": [
+        "fill",
+        "hand"
+      ],
+      "description": "Hand icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxHeading",
+      "tags": [
+        "fill",
+        "heading"
+      ],
+      "description": "Heading icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "RxHeartFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "RxHeight",
+      "tags": [
+        "fill",
+        "height"
+      ],
+      "description": "Height icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxHobbyKnife",
+      "tags": [
+        "fill",
+        "hobby",
+        "knife"
+      ],
+      "description": "Hobby Knife icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "RxIconjarLogo",
+      "tags": [
+        "fill",
+        "iconjar",
+        "logo"
+      ],
+      "description": "Iconjar Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxIdCard",
+      "tags": [
+        "card",
+        "fill",
+        "id"
+      ],
+      "description": "Id Card icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxImage",
+      "tags": [
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "RxInfoCircled",
+      "tags": [
+        "circled",
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "RxInput",
+      "tags": [
+        "fill",
+        "input"
+      ],
+      "description": "Input icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxInstagramLogo",
+      "tags": [
+        "fill",
+        "instagram",
+        "logo"
+      ],
+      "description": "Instagram Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxKeyboard",
+      "tags": [
+        "fill",
+        "keyboard"
+      ],
+      "description": "Keyboard icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLapTimer",
+      "tags": [
+        "fill",
+        "lap",
+        "timer"
+      ],
+      "description": "Lap Timer icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLaptop",
+      "tags": [
+        "fill",
+        "laptop"
+      ],
+      "description": "Laptop icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLayers",
+      "tags": [
+        "fill",
+        "layers"
+      ],
+      "description": "Layers icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLayout",
+      "tags": [
+        "fill",
+        "layout"
+      ],
+      "description": "Layout icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLetterCaseCapitalize",
+      "tags": [
+        "capitalize",
+        "case",
+        "fill",
+        "letter"
+      ],
+      "description": "Letter Case Capitalize icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLetterCaseLowercase",
+      "tags": [
+        "case",
+        "fill",
+        "letter",
+        "lowercase"
+      ],
+      "description": "Letter Case Lowercase icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLetterCaseToggle",
+      "tags": [
+        "case",
+        "fill",
+        "letter",
+        "toggle"
+      ],
+      "description": "Letter Case Toggle icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLetterCaseUppercase",
+      "tags": [
+        "case",
+        "fill",
+        "letter",
+        "uppercase"
+      ],
+      "description": "Letter Case Uppercase icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLetterSpacing",
+      "tags": [
+        "fill",
+        "letter",
+        "spacing"
+      ],
+      "description": "Letter Spacing icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLightningBolt",
+      "tags": [
+        "bolt",
+        "fill",
+        "lightning"
+      ],
+      "description": "Lightning Bolt icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLineHeight",
+      "tags": [
+        "fill",
+        "height",
+        "line"
+      ],
+      "description": "Line Height icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLink1",
+      "tags": [
+        "1",
+        "fill",
+        "link",
+        "link1"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "RxLink2",
+      "tags": [
+        "2",
+        "fill",
+        "link",
+        "link2"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "RxLinkBreak1",
+      "tags": [
+        "1",
+        "break",
+        "break1",
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "RxLinkBreak2",
+      "tags": [
+        "2",
+        "break",
+        "break2",
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "RxLinkedinLogo",
+      "tags": [
+        "fill",
+        "linkedin",
+        "logo"
+      ],
+      "description": "Linkedin Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLinkNone1",
+      "tags": [
+        "1",
+        "fill",
+        "link",
+        "none",
+        "none1"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "RxLinkNone2",
+      "tags": [
+        "2",
+        "fill",
+        "link",
+        "none",
+        "none2"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "RxListBullet",
+      "tags": [
+        "bullet",
+        "fill",
+        "list"
+      ],
+      "description": "List Bullet icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxLockClosed",
+      "tags": [
+        "closed",
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "RxLockOpen1",
+      "tags": [
+        "1",
+        "fill",
+        "lock",
+        "open",
+        "open1"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "RxLockOpen2",
+      "tags": [
+        "2",
+        "fill",
+        "lock",
+        "open",
+        "open2"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "RxLoop",
+      "tags": [
+        "fill",
+        "loop"
+      ],
+      "description": "Loop icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMagicWand",
+      "tags": [
+        "fill",
+        "magic",
+        "wand"
+      ],
+      "description": "Magic Wand icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMagnifyingGlass",
+      "tags": [
+        "fill",
+        "glass",
+        "magnifying"
+      ],
+      "description": "Magnifying Glass icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMargin",
+      "tags": [
+        "fill",
+        "margin"
+      ],
+      "description": "Margin icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMaskOff",
+      "tags": [
+        "fill",
+        "hide",
+        "mask",
+        "off"
+      ],
+      "description": "Mask Off icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMaskOn",
+      "tags": [
+        "fill",
+        "mask",
+        "on"
+      ],
+      "description": "Mask On icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "RxMinusCircled",
+      "tags": [
+        "circled",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "RxMix",
+      "tags": [
+        "fill",
+        "mix"
+      ],
+      "description": "Mix icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMixerHorizontal",
+      "tags": [
+        "fill",
+        "horizontal",
+        "mixer"
+      ],
+      "description": "Mixer Horizontal icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMixerVertical",
+      "tags": [
+        "fill",
+        "mixer",
+        "vertical"
+      ],
+      "description": "Mixer Vertical icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMobile",
+      "tags": [
+        "fill",
+        "mobile"
+      ],
+      "description": "Mobile icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxModulzLogo",
+      "tags": [
+        "fill",
+        "logo",
+        "modulz"
+      ],
+      "description": "Modulz Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxMoon",
+      "tags": [
+        "fill",
+        "moon"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "RxMove",
+      "tags": [
+        "fill",
+        "move"
+      ],
+      "description": "Move icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxNotionLogo",
+      "tags": [
+        "fill",
+        "logo",
+        "notion"
+      ],
+      "description": "Notion Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxOpacity",
+      "tags": [
+        "fill",
+        "opacity"
+      ],
+      "description": "Opacity icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxOpenInNewWindow",
+      "tags": [
+        "fill",
+        "in",
+        "new",
+        "open",
+        "window"
+      ],
+      "description": "Open In New Window icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxOverline",
+      "tags": [
+        "fill",
+        "overline"
+      ],
+      "description": "Overline icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPadding",
+      "tags": [
+        "fill",
+        "padding"
+      ],
+      "description": "Padding icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPaperPlane",
+      "tags": [
+        "fill",
+        "paper",
+        "plane"
+      ],
+      "description": "Paper Plane icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPause",
+      "tags": [
+        "fill",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "RxPencil1",
+      "tags": [
+        "1",
+        "edit",
+        "fill",
+        "pencil",
+        "pencil1"
+      ],
+      "description": "Pencil 1 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPencil2",
+      "tags": [
+        "2",
+        "edit",
+        "fill",
+        "pencil",
+        "pencil2"
+      ],
+      "description": "Pencil 2 icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPerson",
+      "tags": [
+        "fill",
+        "person"
+      ],
+      "description": "Person icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPieChart",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPilcrow",
+      "tags": [
+        "fill",
+        "pilcrow"
+      ],
+      "description": "Pilcrow icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPinBottom",
+      "tags": [
+        "bottom",
+        "fill",
+        "pin"
+      ],
+      "description": "Pin Bottom icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPinLeft",
+      "tags": [
+        "fill",
+        "left",
+        "pin"
+      ],
+      "description": "Pin Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPinRight",
+      "tags": [
+        "fill",
+        "pin",
+        "right"
+      ],
+      "description": "Pin Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPinTop",
+      "tags": [
+        "fill",
+        "pin",
+        "top"
+      ],
+      "description": "Pin Top icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxPlay",
+      "tags": [
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "RxPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "RxPlusCircled",
+      "tags": [
+        "add",
+        "circled",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "RxQuestionMark",
+      "tags": [
+        "fill",
+        "mark",
+        "question"
+      ],
+      "description": "Question Mark icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxQuestionMarkCircled",
+      "tags": [
+        "circled",
+        "fill",
+        "mark",
+        "question"
+      ],
+      "description": "Question Mark Circled icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxQuote",
+      "tags": [
+        "fill",
+        "quote"
+      ],
+      "description": "Quote icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxRadiobutton",
+      "tags": [
+        "fill",
+        "radiobutton"
+      ],
+      "description": "Radiobutton icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxReader",
+      "tags": [
+        "fill",
+        "reader"
+      ],
+      "description": "Reader icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxReload",
+      "tags": [
+        "fill",
+        "reload"
+      ],
+      "description": "Reload icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxReset",
+      "tags": [
+        "fill",
+        "reset"
+      ],
+      "description": "Reset icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxResume",
+      "tags": [
+        "fill",
+        "resume"
+      ],
+      "description": "Resume icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxRocket",
+      "tags": [
+        "fill",
+        "rocket"
+      ],
+      "description": "Rocket icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxRotateCounterClockwise",
+      "tags": [
+        "clockwise",
+        "counter",
+        "fill",
+        "rotate"
+      ],
+      "description": "Rotate Counter Clockwise icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxRows",
+      "tags": [
+        "fill",
+        "rows"
+      ],
+      "description": "Rows icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxRowSpacing",
+      "tags": [
+        "fill",
+        "row",
+        "spacing"
+      ],
+      "description": "Row Spacing icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxRulerHorizontal",
+      "tags": [
+        "fill",
+        "horizontal",
+        "ruler"
+      ],
+      "description": "Ruler Horizontal icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxRulerSquare",
+      "tags": [
+        "fill",
+        "ruler",
+        "square"
+      ],
+      "description": "Ruler Square icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxScissors",
+      "tags": [
+        "fill",
+        "scissors"
+      ],
+      "description": "Scissors icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSection",
+      "tags": [
+        "fill",
+        "section"
+      ],
+      "description": "Section icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSewingPin",
+      "tags": [
+        "fill",
+        "pin",
+        "sewing"
+      ],
+      "description": "Sewing Pin icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSewingPinFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "pin",
+        "sewing"
+      ],
+      "description": "Sewing Pin Filled icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxShadow",
+      "tags": [
+        "fill",
+        "shadow"
+      ],
+      "description": "Shadow icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxShadowInner",
+      "tags": [
+        "fill",
+        "inner",
+        "shadow"
+      ],
+      "description": "Shadow Inner icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxShadowNone",
+      "tags": [
+        "fill",
+        "none",
+        "shadow"
+      ],
+      "description": "Shadow None icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxShadowOuter",
+      "tags": [
+        "fill",
+        "outer",
+        "shadow"
+      ],
+      "description": "Shadow Outer icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxShare1",
+      "tags": [
+        "1",
+        "fill",
+        "share",
+        "share1"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "RxShare2",
+      "tags": [
+        "2",
+        "fill",
+        "share",
+        "share2"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "RxShuffle",
+      "tags": [
+        "fill",
+        "shuffle"
+      ],
+      "description": "Shuffle icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSize",
+      "tags": [
+        "fill",
+        "size"
+      ],
+      "description": "Size icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSketchLogo",
+      "tags": [
+        "fill",
+        "logo",
+        "sketch"
+      ],
+      "description": "Sketch Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSlash",
+      "tags": [
+        "fill",
+        "slash"
+      ],
+      "description": "Slash icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSlider",
+      "tags": [
+        "fill",
+        "slider"
+      ],
+      "description": "Slider icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpaceBetweenHorizontally",
+      "tags": [
+        "between",
+        "fill",
+        "horizontally",
+        "space"
+      ],
+      "description": "Space Between Horizontally icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpaceBetweenVertically",
+      "tags": [
+        "between",
+        "fill",
+        "space",
+        "vertically"
+      ],
+      "description": "Space Between Vertically icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpaceEvenlyHorizontally",
+      "tags": [
+        "evenly",
+        "fill",
+        "horizontally",
+        "space"
+      ],
+      "description": "Space Evenly Horizontally icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpaceEvenlyVertically",
+      "tags": [
+        "evenly",
+        "fill",
+        "space",
+        "vertically"
+      ],
+      "description": "Space Evenly Vertically icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpeakerLoud",
+      "tags": [
+        "fill",
+        "loud",
+        "speaker"
+      ],
+      "description": "Speaker Loud icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpeakerModerate",
+      "tags": [
+        "fill",
+        "moderate",
+        "speaker"
+      ],
+      "description": "Speaker Moderate icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpeakerOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "speaker"
+      ],
+      "description": "Speaker Off icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSpeakerQuiet",
+      "tags": [
+        "fill",
+        "quiet",
+        "speaker"
+      ],
+      "description": "Speaker Quiet icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSquare",
+      "tags": [
+        "fill",
+        "square"
+      ],
+      "description": "Square icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxStack",
+      "tags": [
+        "fill",
+        "stack"
+      ],
+      "description": "Stack icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "RxStarFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "RxStitchesLogo",
+      "tags": [
+        "fill",
+        "logo",
+        "stitches"
+      ],
+      "description": "Stitches Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxStop",
+      "tags": [
+        "fill",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "RxStopwatch",
+      "tags": [
+        "fill",
+        "stopwatch"
+      ],
+      "description": "Stopwatch icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxStretchHorizontally",
+      "tags": [
+        "fill",
+        "horizontally",
+        "stretch"
+      ],
+      "description": "Stretch Horizontally icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxStretchVertically",
+      "tags": [
+        "fill",
+        "stretch",
+        "vertically"
+      ],
+      "description": "Stretch Vertically icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxStrikethrough",
+      "tags": [
+        "fill",
+        "strikethrough"
+      ],
+      "description": "Strikethrough icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSun",
+      "tags": [
+        "fill",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "RxSwitch",
+      "tags": [
+        "fill",
+        "switch"
+      ],
+      "description": "Switch icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxSymbol",
+      "tags": [
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTable",
+      "tags": [
+        "fill",
+        "table"
+      ],
+      "description": "Table icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTarget",
+      "tags": [
+        "fill",
+        "target"
+      ],
+      "description": "Target icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxText",
+      "tags": [
+        "fill",
+        "text"
+      ],
+      "description": "Text icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextAlignBottom",
+      "tags": [
+        "align",
+        "bottom",
+        "fill",
+        "text"
+      ],
+      "description": "Text Align Bottom icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextAlignCenter",
+      "tags": [
+        "align",
+        "center",
+        "fill",
+        "text"
+      ],
+      "description": "Text Align Center icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextAlignJustify",
+      "tags": [
+        "align",
+        "fill",
+        "justify",
+        "text"
+      ],
+      "description": "Text Align Justify icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextAlignLeft",
+      "tags": [
+        "align",
+        "fill",
+        "left",
+        "text"
+      ],
+      "description": "Text Align Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextAlignMiddle",
+      "tags": [
+        "align",
+        "fill",
+        "middle",
+        "text"
+      ],
+      "description": "Text Align Middle icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextAlignRight",
+      "tags": [
+        "align",
+        "fill",
+        "right",
+        "text"
+      ],
+      "description": "Text Align Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextAlignTop",
+      "tags": [
+        "align",
+        "fill",
+        "text",
+        "top"
+      ],
+      "description": "Text Align Top icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTextNone",
+      "tags": [
+        "fill",
+        "none",
+        "text"
+      ],
+      "description": "Text None icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxThickArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "thick"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxThickArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "thick"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxThickArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "thick"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxThickArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "thick",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "RxTimer",
+      "tags": [
+        "fill",
+        "timer"
+      ],
+      "description": "Timer icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTokens",
+      "tags": [
+        "fill",
+        "tokens"
+      ],
+      "description": "Tokens icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTrackNext",
+      "tags": [
+        "fill",
+        "next",
+        "track"
+      ],
+      "description": "Track Next icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTrackPrevious",
+      "tags": [
+        "fill",
+        "previous",
+        "track"
+      ],
+      "description": "Track Previous icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTransform",
+      "tags": [
+        "fill",
+        "transform"
+      ],
+      "description": "Transform icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTransparencyGrid",
+      "tags": [
+        "fill",
+        "grid",
+        "transparency"
+      ],
+      "description": "Transparency Grid icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "RxTriangleDown",
+      "tags": [
+        "down",
+        "fill",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Down icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTriangleLeft",
+      "tags": [
+        "fill",
+        "left",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Left icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTriangleRight",
+      "tags": [
+        "fill",
+        "right",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Right icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTriangleUp",
+      "tags": [
+        "fill",
+        "like",
+        "triangle",
+        "up",
+        "warning"
+      ],
+      "description": "Triangle Up icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxTwitterLogo",
+      "tags": [
+        "fill",
+        "logo",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "RxUnderline",
+      "tags": [
+        "fill",
+        "underline"
+      ],
+      "description": "Underline icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxUpdate",
+      "tags": [
+        "fill",
+        "update"
+      ],
+      "description": "Update icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxUpload",
+      "tags": [
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "RxValue",
+      "tags": [
+        "fill",
+        "value"
+      ],
+      "description": "Value icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxValueNone",
+      "tags": [
+        "fill",
+        "none",
+        "value"
+      ],
+      "description": "Value None icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxVercelLogo",
+      "tags": [
+        "fill",
+        "logo",
+        "vercel"
+      ],
+      "description": "Vercel Logo icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxVideo",
+      "tags": [
+        "fill",
+        "video"
+      ],
+      "description": "Video icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxViewGrid",
+      "tags": [
+        "fill",
+        "grid",
+        "view"
+      ],
+      "description": "View Grid icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxViewHorizontal",
+      "tags": [
+        "fill",
+        "horizontal",
+        "view"
+      ],
+      "description": "View Horizontal icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxViewNone",
+      "tags": [
+        "fill",
+        "none",
+        "view"
+      ],
+      "description": "View None icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxViewVertical",
+      "tags": [
+        "fill",
+        "vertical",
+        "view"
+      ],
+      "description": "View Vertical icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxWidth",
+      "tags": [
+        "fill",
+        "width"
+      ],
+      "description": "Width icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Radix Icons (rx) set, fill style."
+    },
+    {
+      "name": "RxZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Radix Icons (rx) set, fill style."
+    }
+  ]
+}

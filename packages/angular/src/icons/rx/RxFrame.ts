@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-frame",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxFrame {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11 1.5C11 1.22 10.78 1 10.5 1C10.22 1 10 1.22 10 1.5V4H5V1.5C5 1.22 4.78 1 4.5 1C4.22 1 4 1.22 4 1.5V4H1.5C1.22 4 1 4.22 1 4.5C1 4.78 1.22 5 1.5 5H4V10H1.5C1.22 10 1 10.22 1 10.5C1 10.78 1.22 11 1.5 11H4V13.5C4 13.78 4.22 14 4.5 14C4.78 14 5 13.78 5 13.5V11H10V13.5C10 13.78 10.22 14 10.5 14C10.78 14 11 13.78 11 13.5V11H13.5C13.78 11 14 10.78 14 10.5C14 10.22 13.78 10 13.5 10H11V5H13.5C13.78 5 14 4.78 14 4.5C14 4.22 13.78 4 13.5 4H11V1.5ZM10 10V5H5V10H10Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxFrame;

@@ -13,14 +13,17 @@ import { gzipSync } from "node:zlib";
 
 const LIMIT_BYTES = 2800; // 2.8 KB gzipped (headroom over the largest detailed icons, e.g. IoLogoTux ~2.7 KB)
 /**
- * Per-set budget overrides. Brand marks (Font Awesome `fab`) are detailed,
- * multi-path logos (e.g. FabOldRepublic ~5.2 KB) whose geometry is irreducible,
- * so they get a larger ceiling than the icon-grade default above. Devicons
- * (`dev`) ship full developer brand artwork — some are elaborate, single-path
- * illustrations (e.g. DevLerna ~51 KB gzip) — so the set carries a much higher
- * ceiling. Every other set stays on the strict {@link LIMIT_BYTES} budget.
+ * Per-set budget overrides. Brand marks (Font Awesome `fab`, Grommet `gr`)
+ * are detailed, multi-path logos (e.g. FabOldRepublic ~5.2 KB, GrHadoop
+ * ~4.3 KB) whose geometry is irreducible, so they get a larger ceiling than
+ * the icon-grade default above. Devicons (`dev`) ship full developer brand
+ * artwork — some are elaborate, single-path illustrations (e.g. DevLerna
+ * ~51 KB gzip) — so the set carries a much higher ceiling. Codicons (`vsc`)
+ * include the dense Tux mascot (VscTerminalLinux ~3.85 KB) whose detailed
+ * geometry is irreducible. Every other set stays on the strict
+ * {@link LIMIT_BYTES} budget.
  */
-const SET_LIMIT_BYTES: Record<string, number> = { fab: 6000, dev: 52000 };
+const SET_LIMIT_BYTES: Record<string, number> = { fab: 6000, dev: 52000, gr: 5000, vsc: 4000 };
 const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");
 
 /** Resolve the set id (parent folder) and its applicable byte budget. */

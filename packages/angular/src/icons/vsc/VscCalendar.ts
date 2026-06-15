@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-calendar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscCalendar {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 1H4C2.34 1 1 2.34 1 4V12C1 13.66 2.34 15 4 15H12C13.66 15 15 13.66 15 12V4C15 2.34 13.66 1 12 1ZM14 12C14 13.11 13.11 14 12 14H4C2.9 14 2 13.11 2 12V5H14V12ZM2 4C2 2.9 2.9 2 4 2H12C13.11 2 14 2.9 14 4H2ZM4 11C4 10.45 4.45 10 5 10C5.55 10 6 10.45 6 11C6 11.55 5.55 12 5 12C4.45 12 4 11.55 4 11ZM7 11C7 10.45 7.45 10 8 10C8.55 10 9 10.45 9 11C9 11.55 8.55 12 8 12C7.45 12 7 11.55 7 11ZM4 8C4 7.45 4.45 7 5 7C5.55 7 6 7.45 6 8C6 8.55 5.55 9 5 9C4.45 9 4 8.55 4 8ZM7 8C7 7.45 7.45 7 8 7C8.55 7 9 7.45 9 8C9 8.55 8.55 9 8 9C7.45 9 7 8.55 7 8ZM10 8C10 7.45 10.45 7 11 7C11.55 7 12 7.45 12 8C12 8.55 11.55 9 11 9C10.45 9 10 8.55 10 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscCalendar;

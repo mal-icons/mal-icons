@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GrCurrency = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M1,5 L23,5 L23,19 L1,19 L1,5 Z M2,9 L2,9 C3.66,9 5,7.66 5,6 M2,15 L2,15 C3.66,15 5,16.34 5,18 M22,9 L22,9 C20.34,9 19,7.66 19,6 M22,15 L22,15 C20.34,15 19,16.34 19,18 M12,16 C13.66,16 15,14.21 15,12 C15,9.79 13.66,8 12,8 C10.34,8 9,9.79 9,12 C9,14.21 10.34,16 12,16 Z"}]], {"fill":"none"});
+
+export default GrCurrency;

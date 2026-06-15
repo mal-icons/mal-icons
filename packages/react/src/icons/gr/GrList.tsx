@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrList = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeWidth":"2","d":"M9,6 L21,6 M9,12 L21,12 M9,18 L17,18 M4,7 C4.55,7 5,6.55 5,6 C5,5.45 4.55,5 4,5 C3.45,5 3,5.45 3,6 C3,6.55 3.45,7 4,7 Z M4,13 C4.55,13 5,12.55 5,12 C5,11.45 4.55,11 4,11 C3.45,11 3,11.45 3,12 C3,12.55 3.45,13 4,13 Z M4,19 C4.55,19 5,18.55 5,18 C5,17.45 4.55,17 4,17 C3.45,17 3,17.45 3,18 C3,18.55 3.45,19 4,19 Z"}]], {"fill":"none"});
+
+export default GrList;

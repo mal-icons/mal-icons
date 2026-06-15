@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-skype",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfSkype {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.2 9.94c0.09-0.49 0.13-0.97 0.13-1.44 0-4.79-4.27-8.61-9.28-7.7-0.76-0.52-1.63-0.8-2.56-0.8-2.48 0-4.5 2.02-4.5 4.5 0 0.92 0.28 1.8 0.8 2.56-0.09 0.49-0.13 0.97-0.13 1.44 0 4.79 4.27 8.61 9.28 7.7 0.76 0.53 1.64 0.8 2.56 0.8 2.48 0 4.5-2.02 4.5-4.5 0-0.92-0.28-1.8-0.8-2.56zM12.5 16c-0.77 0-1.51-0.25-2.13-0.73l-0.18-0.14-0.22 0.05c-0.5 0.1-0.99 0.16-1.46 0.16-3.77 0-6.83-3.06-6.83-6.83 0-0.47 0.05-0.96 0.16-1.46l0.05-0.22-0.14-0.18c-0.48-0.62-0.73-1.36-0.73-2.13 0-1.93 1.57-3.5 3.5-3.5 0.78 0 1.51 0.25 2.13 0.73l0.18 0.14 0.23-0.05c0.5-0.1 0.99-0.15 1.46-0.15 3.77 0 6.83 3.07 6.83 6.83 0 0.47-0.05 0.96-0.16 1.46l-0.05 0.23 0.14 0.18c0.48 0.62 0.73 1.36 0.73 2.13 0 1.93-1.57 3.5-3.5 3.5zM12.72 10.24c0 2.12-2.04 3.09-4 3.09-2.34 0-4.3-1.04-4.3-2.32 0-0.57 0.32-1.09 1.05-1.09 1.12 0 1.22 1.6 3.15 1.6 0.92 0 1.51-0.4 1.51-0.94 0-0.67-0.57-0.77-1.5-1l-1.52-0.37c-1.52-0.36-2.69-0.99-2.69-2.74 0-2.11 2.09-2.9 3.9-2.9 1.97 0 3.96 0.78 3.96 1.98 0 0.6-0.41 1.14-1.08 1.14-1.01 0-1.04-1.2-2.68-1.2-0.92 0-1.5 0.25-1.5 0.8 0 0.61 0.59 0.74 1.39 0.93l1.08 0.25c1.48 0.33 3.24 0.96 3.24 2.77z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfSkype;

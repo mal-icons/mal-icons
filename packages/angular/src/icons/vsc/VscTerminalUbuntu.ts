@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-terminal-ubuntu",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscTerminalUbuntu {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.14 3.06C13.14 4.21 12.18 5.13 11.01 5.13C9.83 5.13 8.88 4.21 8.88 3.06C8.88 1.92 9.83 1 11.01 1C12.18 1 13.14 1.92 13.14 3.06Z"}],["path",{"d":"M4.25 7.6C4.25 8.74 3.3 9.66 2.13 9.66C0.95 9.66 0 8.74 0 7.6C0 6.46 0.95 5.53 2.13 5.53C3.3 5.53 4.25 6.46 4.25 7.6Z"}],["path",{"d":"M6.94 12.93C5.4 12.61 4.12 11.65 3.39 10.31C2.83 10.56 2.19 10.63 1.57 10.52C2.45 12.61 4.3 14.11 6.56 14.59C7.06 14.69 7.57 14.74 8.07 14.74C7.68 14.24 7.47 13.63 7.45 13.01L7.38 13C7.24 12.98 7.09 12.96 6.94 12.93Z"}],["path",{"d":"M12.65 12.93C12.65 14.08 11.7 15 10.52 15C9.35 15 8.4 14.08 8.4 12.93C8.4 11.79 9.35 10.87 10.52 10.87C11.7 10.87 12.65 11.79 12.65 12.93Z"}],["path",{"d":"M13.49 12.18C14.15 11.37 14.62 10.41 14.85 9.39C15.24 7.61 14.87 5.75 13.84 4.24C13.6 4.8 13.18 5.27 12.64 5.6C13.21 6.66 13.39 7.87 13.14 9.04C13.01 9.61 12.79 10.15 12.48 10.64C12.97 11.03 13.33 11.57 13.49 12.18Z"}],["path",{"d":"M2.04 4.63C2.01 4.63 1.99 4.63 1.96 4.63C3.29 2.36 5.9 1.02 8.57 1.22C8.28 1.57 8.08 1.99 7.99 2.43C7.96 2.58 7.94 2.74 7.93 2.9C6.25 2.93 4.71 3.73 3.74 5.07C3.45 4.89 3.12 4.77 2.77 4.69C2.56 4.65 2.34 4.62 2.13 4.62C2.1 4.62 2.07 4.63 2.04 4.63Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscTerminalUbuntu;

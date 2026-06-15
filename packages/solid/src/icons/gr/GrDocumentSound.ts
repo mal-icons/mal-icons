@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GrDocumentSound = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M3,9 L3,1 L17.5,1 L21,4.5 L21,23 L18,23 M16,1 L16,6 L21,6 M1,14.01 L1,18.01 L4,18.01 L8,21.01 L8,11 L4,14.01 L1,14.01 Z M11,18 L11,18 C12.1,18 13,17.1 13,16 C13,14.9 12.1,14 11,14 M11,22 L11,22 C14.31,22 17,19.31 17,16 C17,12.69 14.31,10 11,10"}]], {"fill":"none"});
+
+export default GrDocumentSound;

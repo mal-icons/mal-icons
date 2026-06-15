@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgPushLeft = createIcon("0 0 24 24", [["path",{"d":"M22.29 11V13H7.8L11.05 16.24L9.63 17.66L3.97 12L9.63 6.34L11.05 7.76L7.8 11H22.29Z","fill":"currentColor"}],["path",{"d":"M3 18V6H1V18H3Z","fill":"currentColor"}]]);
+
+export default CgPushLeft;

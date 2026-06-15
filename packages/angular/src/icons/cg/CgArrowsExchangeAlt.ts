@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-arrows-exchange-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgArrowsExchangeAlt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.99 11.02C4.44 11.02 3.99 10.57 3.99 10.02C3.99 9.66 4.18 9.34 4.46 9.17L7.15 6.48C7.54 6.09 8.17 6.09 8.56 6.48C8.95 6.87 8.95 7.5 8.56 7.89L7.44 9.02L14.99 9.02C15.54 9.02 15.99 9.46 15.99 10.02C15.99 10.57 15.54 11.02 14.99 11.02L5.04 11.02C5.03 11.02 5.02 11.02 5.01 11.02H4.99Z","fill":"currentColor"}],["path",{"d":"M19.01 12.98C19.56 12.98 20.01 13.43 20.01 13.98C20.01 14.34 19.82 14.66 19.54 14.83L16.85 17.52C16.46 17.91 15.83 17.91 15.44 17.52C15.05 17.13 15.05 16.5 15.44 16.11L16.56 14.98H9.01C8.46 14.98 8.01 14.54 8.01 13.98C8.01 13.43 8.46 12.98 9.01 12.98L18.96 12.98C18.97 12.98 18.98 12.98 18.99 12.98H19.01Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgArrowsExchangeAlt;

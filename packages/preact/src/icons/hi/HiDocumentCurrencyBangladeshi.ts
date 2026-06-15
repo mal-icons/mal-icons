@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const HiDocumentCurrencyBangladeshi = createIcon("0 0 24 24", [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M19.5 14.25v-2.62a3.38 3.38 0 0 0-3.37-3.37h-1.5A1.13 1.13 0 0 1 13.5 7.13v-1.5a3.38 3.38 0 0 0-3.37-3.37H8.25m0 8.250.22-0.22a0.750.75 0 0 1 1.280.53v6.44c0 0.470.210.930.64 1.14a3.75 3.75 0 0 0 4.99-1.77c0.21-0.43-0.15-0.87-0.63-0.87h-0.51m-6-2.25h7.5M10.5 2.25H5.63c-0.62 0-1.120.5-1.12 1.13v17.25c0 0.620.5 1.13 1.13 1.13h12.75c0.62 0 1.13-0.5 1.13-1.12V11.25a9 9 0 0 0-9-9Z"}]], {"fill":"none","stroke-width":1.5});
+
+export default HiDocumentCurrencyBangladeshi;

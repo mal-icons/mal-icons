@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-smiley",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscSmiley {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.25 7.75C6.66 7.75 7 7.41 7 7C7 6.59 6.66 6.25 6.25 6.25C5.84 6.25 5.5 6.59 5.5 7C5.5 7.41 5.84 7.75 6.25 7.75ZM6.14 9.67C5.95 9.46 5.64 9.44 5.43 9.63C5.22 9.81 5.21 10.13 5.39 10.33C6.03 11.05 6.96 11.5 8 11.5C9.04 11.5 9.97 11.05 10.61 10.33C10.79 10.13 10.78 9.81 10.57 9.63C10.36 9.44 10.05 9.46 9.86 9.67C9.41 10.18 8.74 10.5 8 10.5C7.26 10.5 6.59 10.18 6.14 9.67ZM10.5 7C10.5 7.41 10.16 7.75 9.75 7.75C9.34 7.75 9 7.41 9 7C9 6.59 9.34 6.25 9.75 6.25C10.16 6.25 10.5 6.59 10.5 7ZM14 8C14 4.69 11.31 2 8 2C4.69 2 2 4.69 2 8C2 11.31 4.69 14 8 14C11.31 14 14 11.31 14 8ZM3 8C3 5.24 5.24 3 8 3C10.76 3 13 5.24 13 8C13 10.76 10.76 13 8 13C5.24 13 3 10.76 3 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscSmiley;

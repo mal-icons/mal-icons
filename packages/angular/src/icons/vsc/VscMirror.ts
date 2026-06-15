@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-mirror",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscMirror {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.29 2.91L8.29 1.07C8.2 1.04 8.1 1.02 8 1.02C7.9 1.02 7.8 1.04 7.71 1.07L1.71 2.91C1.28 3.04 1 3.43 1 3.87V14C1 14.57 1.47 15 2 15C2.1 15 2.2 14.99 2.29 14.96L8 13.2L13.71 14.96C13.8 14.99 13.9 15 14 15C14.53 15 15 14.58 15 14V3.87C15 3.43 14.72 3.04 14.29 2.91ZM14 14L8.5 12.31V10.5C8.5 10.23 8.28 10 8 10C7.72 10 7.5 10.23 7.5 10.5V12.31L2 14V3.87L7.5 2.18V4.5C7.5 4.78 7.72 5 8 5C8.28 5 8.5 4.78 8.5 4.5V2.18L14 3.87V14Z"}],["path",{"d":"M10 5.5C10 5.63 10.05 5.76 10.15 5.85L11.29 7H4.71L5.85 5.85C5.95 5.76 6 5.63 6 5.5C6 5.22 5.77 5 5.5 5C5.37 5 5.24 5.05 5.14 5.15L3.14 7.15C3.05 7.24 3 7.37 3 7.5C3 7.63 3.05 7.76 3.14 7.85L5.14 9.85C5.24 9.95 5.37 10 5.5 10C5.77 10 6 9.78 6 9.5C6 9.37 5.95 9.24 5.85 9.15L4.71 8H11.29L10.15 9.15C10.05 9.24 10 9.37 10 9.5C10 9.78 10.22 10 10.5 10C10.63 10 10.76 9.95 10.85 9.85L12.85 7.85C12.95 7.76 13 7.63 13 7.5C13 7.37 12.95 7.24 12.85 7.15L10.85 5.15C10.76 5.05 10.63 5 10.5 5C10.22 5 10 5.22 10 5.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscMirror;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-editor-layout",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscEditorLayout {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.5 5H7.5C7.33 5 7.16 5.02 7 5.05V2.5C7 1.67 6.33 1 5.5 1H2.5C1.67 1 1 1.67 1 2.5V8.5C1 9.33 1.67 10 2.5 10H5V12.5C5 13.88 6.12 15 7.5 15H12.5C13.88 15 15 13.88 15 12.5V7.5C15 6.12 13.88 5 12.5 5ZM7.5 6H12.5C13.15 6 13.71 6.42 13.92 7H7V6.09C7.16 6.03 7.32 6 7.5 6ZM2.5 2H5.5C5.78 2 6 2.22 6 2.5V3H2V2.5C2 2.22 2.22 2 2.5 2ZM2 8.5V4H6V8.5C6 8.78 5.78 9 5.5 9H2.5C2.22 9 2 8.78 2 8.5ZM14 12.5C14 13.33 13.33 14 12.5 14H7.5C6.67 14 6 13.33 6 12.5V9.91C6.58 9.71 7 9.15 7 8.5V8H14V12.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscEditorLayout;

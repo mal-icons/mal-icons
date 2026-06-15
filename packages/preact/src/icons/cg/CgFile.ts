@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgFile = createIcon("0 0 24 24", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3 5C3 3.34 4.34 2 6 2H14C17.87 2 21 5.13 21 9V19C21 20.66 19.66 22 18 22H6C4.34 22 3 20.66 3 19V5ZM13 4H6C5.45 4 5 4.45 5 5V19C5 19.55 5.45 20 6 20H18C18.55 20 19 19.55 19 19V9H13V4ZM18.58 7C17.94 5.53 16.61 4.43 15 4.1V7H18.58Z","fill":"currentColor"}]]);
+
+export default CgFile;

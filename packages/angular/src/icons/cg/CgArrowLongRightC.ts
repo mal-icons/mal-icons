@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-arrow-long-right-c",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgArrowLongRightC {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M18.73 7.76L22.98 11.99L18.74 16.24L17.33 14.83L19.14 13.01L6.85 13.05C6.45 14.22 5.34 15.06 4.03 15.06C2.38 15.07 1.03 13.73 1.02 12.08C1.01 10.42 2.35 9.07 4.01 9.06C5.31 9.06 6.43 9.89 6.85 11.05L19.16 11.01L17.32 9.17L18.73 7.76ZM5.02 12.06C5.02 11.51 4.57 11.06 4.02 11.06C3.46 11.07 3.02 11.52 3.02 12.07C3.02 12.62 3.47 13.07 4.02 13.06C4.58 13.06 5.02 12.61 5.02 12.06Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgArrowLongRightC;
