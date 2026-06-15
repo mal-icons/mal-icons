@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrYoga = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":"2","d":"M12,11 L11,14 L12,17 L10.5,17 L9,14 L9.5,9.5 L12,11 Z M13,2 L9,6 L9,11 L9,14 L10,17 L6,17 L3,22 M20.5,22 L15.5,18.5 L12,17 L11,14 L12,11 L15.5,13 L15.5,18.5 M14,8.5 C13.45,8.5 13,8.05 13,7.5 C13,6.95 13.45,6.5 14,6.5 C14.55,6.5 15,6.95 15,7.5 C15,8.05 14.55,8.5 14,8.5 Z M11,10.5 L10,17 L10,13.5 L11,10.5 Z"}]], {"fill":"none"});
+
+export default GrYoga;

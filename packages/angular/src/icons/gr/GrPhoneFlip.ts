@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-phone-flip",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrPhoneFlip {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M8 1C7.59 1 7.22 1.25 7.07 1.63L3.07 11.63C2.98 11.87 2.98 12.13 3.07 12.37L7.07 22.37C7.22 22.75 7.59 23 8 23H18C18.33 23 18.64 22.84 18.83 22.56C19.01 22.29 19.05 21.94 18.93 21.63L15.08 12L18.93 2.37C19.05 2.06 19.01 1.71 18.83 1.44C18.64 1.16 18.33 1 18 1H8ZM5.48 11L8.68 3H11.47C11.47 3.53 11.9 4 12.47 4H12.53C12.95 4 13.32 3.74 13.46 3.35C13.51 3.23 13.53 3.12 13.53 3H16.52L13.32 11H5.48ZM5.48 13L8.68 21H16.52L13.32 13H5.48ZM11.04 19.77C10.79 19.12 11.27 18.42 11.97 18.42H12.03C12.45 18.42 12.82 18.68 12.96 19.07C13.21 19.72 12.73 20.42 12.03 20.42H11.97C11.55 20.42 11.18 20.16 11.04 19.77Z","fill":"currentColor"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrPhoneFlip;

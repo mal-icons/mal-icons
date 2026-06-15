@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrSend = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M22,3 L2,11 L20.5,19 L22,3 Z M10,20.5 L13,16 M15.5,9.5 L9,14 L9.86,20.01 C9.94,20.56 10.08,20.55 10.17,20.01 L11,15 L15.5,9.5 Z"}]], {"fill":"none"});
+
+export default GrSend;

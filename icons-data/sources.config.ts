@@ -170,4 +170,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "svg",
     style: "color",
   },
+  gr: {
+    id: "gr",
+    prefix: "Gr",
+    name: "Grommet",
+    license: "Apache-2.0",
+    repo: "grommet/grommet-icons",
+    ref: "v4.14.0",
+    iconDir: "public/img",
+    style: "stroke",
+  },
 };

@@ -254,6 +254,7 @@ async function buildReact(): Promise<void> {
     "far",
     "fc",
     "fi",
+    "gr",
     "io",
     "lu",
     "oc",

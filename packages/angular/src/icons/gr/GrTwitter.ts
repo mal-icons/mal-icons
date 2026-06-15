@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-twitter",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrTwitter {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M24,4.31 C23.12,4.7 22.17,4.96 21.17,5.08 C22.19,4.47 22.97,3.51 23.34,2.36 C22.39,2.92 21.33,3.33 20.21,3.56 C19.31,2.6 18.03,2 16.62,2 C13.9,2 11.69,4.2 11.69,6.92 C11.69,7.31 11.74,7.69 11.82,8.05 C7.73,7.84 4.1,5.88 1.67,2.9 C1.25,3.63 1,4.47 1,5.38 C1,7.08 1.87,8.59 3.2,9.48 C2.39,9.45 1.63,9.23 0.96,8.86 L0.96,8.92 C0.96,11.31 2.66,13.3 4.91,13.75 C4.5,13.86 4.07,13.92 3.62,13.92 C3.3,13.92 2.99,13.89 2.69,13.83 C3.32,15.79 5.14,17.21 7.29,17.25 C5.6,18.57 3.48,19.36 1.18,19.36 C0.78,19.36 0.39,19.34 0,19.29 C2.18,20.69 4.77,21.5 7.55,21.5 C16.61,21.5 21.56,14 21.56,7.49 C21.56,7.28 21.55,7.07 21.54,6.86 C22.51,6.16 23.34,5.3 24,4.31"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrTwitter;

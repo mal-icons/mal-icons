@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-bucket",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrBucket {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M4,10 L2,10 C2,4.48 2,1 12,1 C22,1 22,4.48 22,10 L20,10 M12,10 C16.42,10 20,9.1 20,8 C20,6.9 16.42,6 12,6 C7.58,6 4,6.9 4,8 C4,9.1 7.58,10 12,10 Z M4,20 C4,21.66 7.58,23 12,23 C16.42,23 20,21.66 20,20 M20,8 L20,20 L20,8 Z M4,20 L4,8 L4,20 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrBucket;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GrDown = createIcon("0 0 24 24", [["polyline",{"fill":"none","stroke":"currentColor","stroke-width":"2","points":"7.09 3.17 17.09 13.17 7.09 23.17","transform":"scale(1 -1) rotate(-89 -1.32 0)"}]], {"fill":"none"});
+
+export default GrDown;

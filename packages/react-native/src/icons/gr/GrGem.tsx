@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrGem = createIcon("0 0 24 24", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M7 1H6.59L6.29 1.29L3.29 4.29L3 4.59V5V19V19.41L3.29 19.71L6.29 22.71L6.59 23H7H17H17.41L17.71 22.71L20.71 19.71L21 19.41V19V5V4.59L20.71 4.29L17.71 1.29L17.41 1H17H7ZM5 6V18H6V6H5ZM8 21H16V20H8V21ZM19 18V6H18V18H19ZM16 3H8V4H16V3ZM16 6V18H8V6H16Z","fill":"currentColor"}]], {"fill":"none"});
+
+export default GrGem;

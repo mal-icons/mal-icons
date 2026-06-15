@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-group",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrGroup {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M12,13 C14.21,13 16,11.21 16,9 C16,6.79 14.21,5 12,5 C9.79,5 8,6.79 8,9 C8,11.21 9.79,13 12,13 Z M6,22 L6,19 C6,15.69 8.69,13 12,13 C15.31,13 18,15.69 18,19 L18,22 M13,5 C13.4,3.34 15.02,2 17,2 C19.17,2 20.98,3.79 21,6 C20.98,8.21 19.17,10 17,10 L16,10 L17,10 C20.29,10 23,12.69 23,16 L23,18 M11,5 C10.6,3.34 8.98,2 7,2 C4.83,2 3.02,3.79 3,6 C3.02,8.21 4.83,10 7,10 L8,10 L7,10 C3.71,10 1,12.69 1,16 L1,18"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrGroup;

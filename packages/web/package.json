@@ -84,6 +84,12 @@
       "import": "./dist/icons/fi/index.js"
     },
     "./fi/*.json": "./src/icons/fi/*.json",
+    "./gr": {
+      "types": "./dist/icons/gr/index.d.ts",
+      "bun": "./src/icons/gr/index.ts",
+      "import": "./dist/icons/gr/index.js"
+    },
+    "./gr/*.json": "./src/icons/gr/*.json",
     "./io": {
       "types": "./dist/icons/io/index.d.ts",
       "bun": "./src/icons/io/index.ts",

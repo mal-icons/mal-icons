@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-github",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrGithub {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M12,1 C5.93,1 1,5.92 1,12 C1,16.86 4.15,20.98 8.52,22.44 C9.07,22.54 9.27,22.2 9.27,21.91 C9.27,21.65 9.26,20.95 9.26,20.04 C6.2,20.7 5.55,18.56 5.55,18.56 C5.05,17.29 4.33,16.95 4.33,16.95 C3.33,16.27 4.41,16.28 4.41,16.28 C5.51,16.36 6.09,17.42 6.09,17.42 C7.07,19.1 8.67,18.61 9.29,18.33 C9.39,17.62 9.68,17.14 9.99,16.86 C7.55,16.58 4.98,15.64 4.98,11.42 C4.98,10.22 5.41,9.24 6.11,8.47 C6,8.2 5.62,7.08 6.22,5.56 C6.22,5.56 7.15,5.27 9.25,6.69 C10.12,6.45 11.07,6.32 12,6.32 C12.93,6.32 13.88,6.45 14.75,6.69 C16.85,5.27 17.78,5.56 17.78,5.56 C18.38,7.08 18,8.2 17.89,8.47 C18.59,9.24 19.02,10.22 19.02,11.42 C19.02,15.65 16.44,16.58 13.99,16.85 C14.39,17.19 14.74,17.86 14.74,18.89 C14.74,20.36 14.73,21.55 14.73,21.91 C14.73,22.2 14.93,22.54 15.48,22.44 C19.85,20.98 23,16.86 23,12 C23,5.92 18.07,1 12,1"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrGithub;

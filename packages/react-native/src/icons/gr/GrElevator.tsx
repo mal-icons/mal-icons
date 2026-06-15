@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrElevator = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeWidth":"2","d":"M1,2.99 C1,1.89 1.89,1 2.99,1 L21.01,1 C22.11,1 23,1.89 23,2.99 L23,21.01 C23,22.11 22.11,23 21.01,23 L2.99,23 C1.89,23 1,22.11 1,21.01 L1,2.99 Z M16.5,8 L18,10 L15,10 L16.5,8 Z M16.5,16 L18,14 L15,14 L16.5,16 Z M5,13 L6.56,9.89 C6.8,9.4 7.44,9 8,9 L8,9 C8.55,9 9.2,9.4 9.44,9.89 L11,13 M6.5,18 L7.75,10 L8,10 L8.25,10 L9.5,18 M8,7 C8.55,7 9,6.55 9,6 C9,5.45 8.55,5 8,5 C7.45,5 7,5.45 7,6 C7,6.55 7.45,7 8,7 Z"}]], {"fill":"none"});
+
+export default GrElevator;

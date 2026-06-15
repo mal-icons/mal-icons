@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrShop = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeLinecap":"round","strokeWidth":"2","d":"M4,7 L20,7 L20,23 L4,23 L4,7 Z M8,9 L8,5 C8,2.79 9.8,1 12,1 L12,1 C14.21,1 16,2.8 16,5 L16,9"}]], {"fill":"none"});
+
+export default GrShop;

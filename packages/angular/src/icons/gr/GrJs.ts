@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-js",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrJs {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["g",{"fill":"none","fill-rule":"evenodd"}],["rect",{"width":"24","height":"24","fill":"currentColor"}],["path",{"stroke":"currentColor","stroke-width":"2","d":"M12,11 C12,15.75 12,18.42 12,19 C12,19.88 11.48,21 10,21 C7.61,21 7.5,19 7.5,19 M20.79,13.52 C20.19,12.51 19.39,12 18.4,12 C16.86,12 16,13 16,14 C16,15 16.5,16 18.51,16.5 C19.79,16.82 21,17.5 21,19 C21,20.5 19.68,21 18.5,21 C16.99,21 15.99,20.33 15.5,19"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrJs;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrMemory = createIcon("0 0 24 24", [["path",{"stroke":"currentColor","strokeWidth":"2","d":"M10 18h4m-4-4h4m-4-4h4m-4-4h4m6 12h3m-3-4h3m-3-4h3m-3-4h3M1 18h3m-3-4h3m-3-4h3M1 6h3m11 14h4a1 1 0 1-1V5a1 1 0 0-1-1h-4a1 1 0 0-1 1v14a1 1 0 1 1zM5 20h4a1 1 0 1-1V5a1 1 0 0-1-1H5a1 1 0 0-1 1v14a1 1 0 1 1z"}]], {"fill":"none"});
+
+export default GrMemory;
