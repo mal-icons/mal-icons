@@ -112,6 +112,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
+| [Grommet](https://icons.grommet.io/) | [Apache 2.0 license](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 4.14.0  |   637 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
@@ -134,11 +135,13 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/solid/far`            | All Font Awesome Regular icons (named exports) |
 | `@mal-icons/solid/fc`            | All Flat Color icons (named exports) |
 | `@mal-icons/solid/fi`            | All Feather icons (named exports) |
+| `@mal-icons/solid/gr`            | All Grommet icons (named exports) |
 | `@mal-icons/solid/fa/FaHeart` | A single icon module              |
 | `@mal-icons/solid/fab/FabGithub` | A single icon module              |
 | `@mal-icons/solid/far/FarHeart` | A single icon module              |
 | `@mal-icons/solid/fc/FcAbout` | A single icon module              |
 | `@mal-icons/solid/fi/FiActivity` | A single icon module              |
+| `@mal-icons/solid/gr/GrHome` | A single icon module              |
 | `@mal-icons/solid/io`            | All Ionicons (named exports)      |
 | `@mal-icons/solid/lu`            | All Lucide (named exports)        |
 | `@mal-icons/solid/oc`            | All Octicons (named exports)      |

@@ -1,0 +1,5429 @@
+{
+  "set": {
+    "id": "gr",
+    "name": "Grommet",
+    "prefix": "Gr",
+    "version": "4.14.0",
+    "license": "Apache-2.0",
+    "repo": "grommet/grommet-icons",
+    "style": "stroke",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 637,
+  "icons": [
+    {
+      "name": "GrAccessibility",
+      "tags": [
+        "accessibility",
+        "stroke"
+      ],
+      "description": "Accessibility icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAchievement",
+      "tags": [
+        "achievement",
+        "stroke"
+      ],
+      "description": "Achievement icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAction",
+      "tags": [
+        "action",
+        "stroke"
+      ],
+      "description": "Action icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrActions",
+      "tags": [
+        "actions",
+        "stroke"
+      ],
+      "description": "Actions icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAd",
+      "tags": [
+        "ad",
+        "stroke"
+      ],
+      "description": "Ad icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAdd",
+      "tags": [
+        "add",
+        "stroke"
+      ],
+      "description": "Add icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAddCircle",
+      "tags": [
+        "add",
+        "circle",
+        "stroke"
+      ],
+      "description": "Add Circle icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAdobeCreativeCloud",
+      "tags": [
+        "adobe",
+        "cloud",
+        "creative",
+        "stroke"
+      ],
+      "description": "Adobe Creative Cloud icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAed",
+      "tags": [
+        "aed",
+        "stroke"
+      ],
+      "description": "Aed icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAggregate",
+      "tags": [
+        "aggregate",
+        "stroke"
+      ],
+      "description": "Aggregate icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAid",
+      "tags": [
+        "aid",
+        "stroke"
+      ],
+      "description": "Aid icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAidOption",
+      "tags": [
+        "aid",
+        "option",
+        "stroke"
+      ],
+      "description": "Aid Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAlarm",
+      "tags": [
+        "alarm",
+        "stroke"
+      ],
+      "description": "Alarm icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAlert",
+      "tags": [
+        "alert",
+        "stroke",
+        "warning"
+      ],
+      "description": "Alert icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAmazon",
+      "tags": [
+        "amazon",
+        "stroke"
+      ],
+      "description": "Amazon icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAmex",
+      "tags": [
+        "amex",
+        "stroke"
+      ],
+      "description": "Amex icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAnalytics",
+      "tags": [
+        "analytics",
+        "stroke"
+      ],
+      "description": "Analytics icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAnchor",
+      "tags": [
+        "anchor",
+        "stroke"
+      ],
+      "description": "Anchor icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAndroid",
+      "tags": [
+        "android",
+        "stroke"
+      ],
+      "description": "Android icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAnnounce",
+      "tags": [
+        "announce",
+        "stroke"
+      ],
+      "description": "Announce icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrApple",
+      "tags": [
+        "apple",
+        "stroke"
+      ],
+      "description": "Apple icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAppleAppStore",
+      "tags": [
+        "app",
+        "apple",
+        "store",
+        "stroke"
+      ],
+      "description": "Apple App Store icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAppleMusic",
+      "tags": [
+        "apple",
+        "music",
+        "stroke"
+      ],
+      "description": "Apple Music icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrApplePodcasts",
+      "tags": [
+        "apple",
+        "podcasts",
+        "stroke"
+      ],
+      "description": "Apple Podcasts icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrApps",
+      "tags": [
+        "apps",
+        "stroke"
+      ],
+      "description": "Apps icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAppsRounded",
+      "tags": [
+        "apps",
+        "rounded",
+        "stroke"
+      ],
+      "description": "Apps Rounded icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrArchive",
+      "tags": [
+        "archive",
+        "stroke"
+      ],
+      "description": "Archive icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrArchlinux",
+      "tags": [
+        "archlinux",
+        "stroke"
+      ],
+      "description": "Archlinux icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrArticle",
+      "tags": [
+        "article",
+        "stroke"
+      ],
+      "description": "Article icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAruba",
+      "tags": [
+        "aruba",
+        "stroke"
+      ],
+      "description": "Aruba icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAscend",
+      "tags": [
+        "ascend",
+        "stroke"
+      ],
+      "description": "Ascend icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAscending",
+      "tags": [
+        "ascending",
+        "stroke"
+      ],
+      "description": "Ascending icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAssistListening",
+      "tags": [
+        "assist",
+        "listening",
+        "stroke"
+      ],
+      "description": "Assist Listening icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAtm",
+      "tags": [
+        "atm",
+        "stroke"
+      ],
+      "description": "Atm icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAttachment",
+      "tags": [
+        "attachment",
+        "stroke"
+      ],
+      "description": "Attachment icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrAttraction",
+      "tags": [
+        "attraction",
+        "stroke"
+      ],
+      "description": "Attraction icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBaby",
+      "tags": [
+        "baby",
+        "stroke"
+      ],
+      "description": "Baby icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBackTen",
+      "tags": [
+        "back",
+        "stroke",
+        "ten"
+      ],
+      "description": "Back Ten icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBar",
+      "tags": [
+        "bar",
+        "stroke"
+      ],
+      "description": "Bar icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBarChart",
+      "tags": [
+        "bar",
+        "chart",
+        "stroke"
+      ],
+      "description": "Bar Chart icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBasket",
+      "tags": [
+        "basket",
+        "stroke"
+      ],
+      "description": "Basket icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBeacon",
+      "tags": [
+        "beacon",
+        "stroke"
+      ],
+      "description": "Beacon icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBike",
+      "tags": [
+        "bike",
+        "stroke"
+      ],
+      "description": "Bike icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBitcoin",
+      "tags": [
+        "bitcoin",
+        "stroke"
+      ],
+      "description": "Bitcoin icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBladesHorizontal",
+      "tags": [
+        "blades",
+        "horizontal",
+        "stroke"
+      ],
+      "description": "Blades Horizontal icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBladesVertical",
+      "tags": [
+        "blades",
+        "stroke",
+        "vertical"
+      ],
+      "description": "Blades Vertical icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBlockQuote",
+      "tags": [
+        "block",
+        "quote",
+        "stroke"
+      ],
+      "description": "Block Quote icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBlog",
+      "tags": [
+        "blog",
+        "stroke"
+      ],
+      "description": "Blog icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBluetooth",
+      "tags": [
+        "bluetooth",
+        "stroke"
+      ],
+      "description": "Bluetooth — device pairing and wireless links."
+    },
+    {
+      "name": "GrBold",
+      "tags": [
+        "bold",
+        "stroke"
+      ],
+      "description": "Bold icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBook",
+      "tags": [
+        "book",
+        "stroke"
+      ],
+      "description": "Book icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBookmark",
+      "tags": [
+        "bookmark",
+        "stroke"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "GrBottomCorner",
+      "tags": [
+        "bottom",
+        "corner",
+        "stroke"
+      ],
+      "description": "Bottom Corner icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBraille",
+      "tags": [
+        "braille",
+        "stroke"
+      ],
+      "description": "Braille icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBriefcase",
+      "tags": [
+        "briefcase",
+        "stroke"
+      ],
+      "description": "Briefcase icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBrush",
+      "tags": [
+        "brush",
+        "stroke"
+      ],
+      "description": "Brush icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBucket",
+      "tags": [
+        "bucket",
+        "stroke"
+      ],
+      "description": "Bucket icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBug",
+      "tags": [
+        "bug",
+        "stroke"
+      ],
+      "description": "Bug icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBundle",
+      "tags": [
+        "bundle",
+        "stroke"
+      ],
+      "description": "Bundle icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBus",
+      "tags": [
+        "bus",
+        "stroke"
+      ],
+      "description": "Bus icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrBusinessService",
+      "tags": [
+        "business",
+        "service",
+        "stroke"
+      ],
+      "description": "Business Service icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCafeteria",
+      "tags": [
+        "cafeteria",
+        "stroke"
+      ],
+      "description": "Cafeteria icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCalculator",
+      "tags": [
+        "calculator",
+        "stroke"
+      ],
+      "description": "Calculator icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCalendar",
+      "tags": [
+        "calendar",
+        "stroke"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "GrCamera",
+      "tags": [
+        "camera",
+        "photo",
+        "stroke"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "GrCapacity",
+      "tags": [
+        "capacity",
+        "stroke"
+      ],
+      "description": "Capacity icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCar",
+      "tags": [
+        "car",
+        "stroke"
+      ],
+      "description": "Car icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretDown",
+      "tags": [
+        "caret",
+        "down",
+        "stroke"
+      ],
+      "description": "Caret Down icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretDownFill",
+      "tags": [
+        "caret",
+        "down",
+        "fill",
+        "stroke"
+      ],
+      "description": "Caret Down Fill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretLeftFill",
+      "tags": [
+        "caret",
+        "fill",
+        "left",
+        "stroke"
+      ],
+      "description": "Caret Left Fill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretNext",
+      "tags": [
+        "caret",
+        "next",
+        "stroke"
+      ],
+      "description": "Caret Next icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretPrevious",
+      "tags": [
+        "caret",
+        "previous",
+        "stroke"
+      ],
+      "description": "Caret Previous icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretRightFill",
+      "tags": [
+        "caret",
+        "fill",
+        "right",
+        "stroke"
+      ],
+      "description": "Caret Right Fill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretUp",
+      "tags": [
+        "caret",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Caret Up icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCaretUpFill",
+      "tags": [
+        "caret",
+        "fill",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Caret Up Fill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCart",
+      "tags": [
+        "cart",
+        "stroke"
+      ],
+      "description": "Cart icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCatalog",
+      "tags": [
+        "catalog",
+        "stroke"
+      ],
+      "description": "Catalog icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCatalogOption",
+      "tags": [
+        "catalog",
+        "option",
+        "stroke"
+      ],
+      "description": "Catalog Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCentos",
+      "tags": [
+        "centos",
+        "stroke"
+      ],
+      "description": "Centos icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCertificate",
+      "tags": [
+        "certificate",
+        "stroke"
+      ],
+      "description": "Certificate icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrChannel",
+      "tags": [
+        "channel",
+        "stroke"
+      ],
+      "description": "Channel icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrChapterAdd",
+      "tags": [
+        "add",
+        "chapter",
+        "stroke"
+      ],
+      "description": "Chapter Add icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrChapterNext",
+      "tags": [
+        "chapter",
+        "next",
+        "stroke"
+      ],
+      "description": "Chapter Next icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrChapterPrevious",
+      "tags": [
+        "chapter",
+        "previous",
+        "stroke"
+      ],
+      "description": "Chapter Previous icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrChat",
+      "tags": [
+        "chat",
+        "stroke"
+      ],
+      "description": "Chat icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrChatOption",
+      "tags": [
+        "chat",
+        "option",
+        "stroke"
+      ],
+      "description": "Chat Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCheckbox",
+      "tags": [
+        "checkbox",
+        "stroke"
+      ],
+      "description": "Checkbox icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCheckboxSelected",
+      "tags": [
+        "checkbox",
+        "selected",
+        "stroke"
+      ],
+      "description": "Checkbox Selected icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCheckmark",
+      "tags": [
+        "checkmark",
+        "stroke"
+      ],
+      "description": "Checkmark icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrChrome",
+      "tags": [
+        "chrome",
+        "stroke"
+      ],
+      "description": "Chrome icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCircleAlert",
+      "tags": [
+        "alert",
+        "circle",
+        "stroke",
+        "warning"
+      ],
+      "description": "Circle Alert icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCircleInformation",
+      "tags": [
+        "circle",
+        "information",
+        "stroke"
+      ],
+      "description": "Circle Information icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCirclePlay",
+      "tags": [
+        "circle",
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "GrCircleQuestion",
+      "tags": [
+        "circle",
+        "question",
+        "stroke"
+      ],
+      "description": "Circle Question icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrClear",
+      "tags": [
+        "clear",
+        "stroke"
+      ],
+      "description": "Clear icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrClearOption",
+      "tags": [
+        "clear",
+        "option",
+        "stroke"
+      ],
+      "description": "Clear Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCli",
+      "tags": [
+        "cli",
+        "stroke"
+      ],
+      "description": "Cli icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrClipboard",
+      "tags": [
+        "clipboard",
+        "stroke"
+      ],
+      "description": "Clipboard icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrClock",
+      "tags": [
+        "clock",
+        "stroke"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "GrClone",
+      "tags": [
+        "clone",
+        "stroke"
+      ],
+      "description": "Clone icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrClose",
+      "tags": [
+        "close",
+        "stroke"
+      ],
+      "description": "Close icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrClosedCaption",
+      "tags": [
+        "caption",
+        "closed",
+        "stroke"
+      ],
+      "description": "Closed Caption icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCloud",
+      "tags": [
+        "cloud",
+        "stroke"
+      ],
+      "description": "Cloud icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCloudComputer",
+      "tags": [
+        "cloud",
+        "computer",
+        "stroke"
+      ],
+      "description": "Cloud Computer icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCloudDownload",
+      "tags": [
+        "cloud",
+        "download",
+        "save",
+        "stroke"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "GrCloudlinux",
+      "tags": [
+        "cloudlinux",
+        "stroke"
+      ],
+      "description": "Cloudlinux icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCloudSoftware",
+      "tags": [
+        "cloud",
+        "software",
+        "stroke"
+      ],
+      "description": "Cloud Software icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCloudUpload",
+      "tags": [
+        "cloud",
+        "stroke",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "GrCluster",
+      "tags": [
+        "cluster",
+        "stroke"
+      ],
+      "description": "Cluster icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCoatCheck",
+      "tags": [
+        "check",
+        "coat",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "GrCode",
+      "tags": [
+        "code",
+        "stroke"
+      ],
+      "description": "Code icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCodepen",
+      "tags": [
+        "codepen",
+        "stroke"
+      ],
+      "description": "Codepen icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCodeSandbox",
+      "tags": [
+        "code",
+        "sandbox",
+        "stroke"
+      ],
+      "description": "Code Sandbox icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCoffee",
+      "tags": [
+        "coffee",
+        "stroke"
+      ],
+      "description": "Coffee icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrColumns",
+      "tags": [
+        "columns",
+        "stroke"
+      ],
+      "description": "Columns icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCommand",
+      "tags": [
+        "command",
+        "stroke"
+      ],
+      "description": "Command icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCompare",
+      "tags": [
+        "compare",
+        "stroke"
+      ],
+      "description": "Compare icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCompass",
+      "tags": [
+        "compass",
+        "stroke"
+      ],
+      "description": "Compass icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCompliance",
+      "tags": [
+        "compliance",
+        "stroke"
+      ],
+      "description": "Compliance icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrConfigure",
+      "tags": [
+        "configure",
+        "stroke"
+      ],
+      "description": "Configure icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrConnect",
+      "tags": [
+        "connect",
+        "stroke"
+      ],
+      "description": "Connect icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrConnectivity",
+      "tags": [
+        "connectivity",
+        "stroke"
+      ],
+      "description": "Connectivity icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrConsole",
+      "tags": [
+        "console",
+        "stroke"
+      ],
+      "description": "Console icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrContact",
+      "tags": [
+        "contact",
+        "stroke"
+      ],
+      "description": "Contact icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrContactInfo",
+      "tags": [
+        "contact",
+        "info",
+        "stroke"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "GrContract",
+      "tags": [
+        "contract",
+        "stroke"
+      ],
+      "description": "Contract icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCopy",
+      "tags": [
+        "copy",
+        "stroke"
+      ],
+      "description": "Copy icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCpu",
+      "tags": [
+        "cpu",
+        "stroke"
+      ],
+      "description": "Cpu icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCreativeCommons",
+      "tags": [
+        "commons",
+        "creative",
+        "stroke"
+      ],
+      "description": "Creative Commons icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "stroke"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "GrCss3",
+      "tags": [
+        "css3",
+        "stroke"
+      ],
+      "description": "Css 3 icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCube",
+      "tags": [
+        "cube",
+        "stroke"
+      ],
+      "description": "Cube icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCubes",
+      "tags": [
+        "cubes",
+        "stroke"
+      ],
+      "description": "Cubes icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCurrency",
+      "tags": [
+        "currency",
+        "stroke"
+      ],
+      "description": "Currency icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCursor",
+      "tags": [
+        "cursor",
+        "stroke"
+      ],
+      "description": "Cursor icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCut",
+      "tags": [
+        "cut",
+        "stroke"
+      ],
+      "description": "Cut icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrCycle",
+      "tags": [
+        "cycle",
+        "stroke"
+      ],
+      "description": "Cycle icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDashboard",
+      "tags": [
+        "dashboard",
+        "stroke"
+      ],
+      "description": "Dashboard icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDatabase",
+      "tags": [
+        "database",
+        "stroke"
+      ],
+      "description": "Database icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDebian",
+      "tags": [
+        "debian",
+        "stroke"
+      ],
+      "description": "Debian icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDeliver",
+      "tags": [
+        "deliver",
+        "stroke"
+      ],
+      "description": "Deliver icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDeploy",
+      "tags": [
+        "deploy",
+        "stroke"
+      ],
+      "description": "Deploy icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDescend",
+      "tags": [
+        "descend",
+        "stroke"
+      ],
+      "description": "Descend icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDescending",
+      "tags": [
+        "descending",
+        "stroke"
+      ],
+      "description": "Descending icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDesktop",
+      "tags": [
+        "desktop",
+        "stroke"
+      ],
+      "description": "Desktop icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDetach",
+      "tags": [
+        "detach",
+        "stroke"
+      ],
+      "description": "Detach icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDevice",
+      "tags": [
+        "device",
+        "stroke"
+      ],
+      "description": "Device icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDiamond",
+      "tags": [
+        "diamond",
+        "stroke"
+      ],
+      "description": "Diamond icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDirections",
+      "tags": [
+        "directions",
+        "stroke"
+      ],
+      "description": "Directions icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDisabledOutline",
+      "tags": [
+        "disabled",
+        "outline",
+        "stroke"
+      ],
+      "description": "Disabled Outline icon — Grommet (gr) set, stroke style. Outline variant."
+    },
+    {
+      "name": "GrDisc",
+      "tags": [
+        "disc",
+        "stroke"
+      ],
+      "description": "Disc icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDislike",
+      "tags": [
+        "dislike",
+        "stroke"
+      ],
+      "description": "Dislike icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDislikeFill",
+      "tags": [
+        "dislike",
+        "fill",
+        "stroke"
+      ],
+      "description": "Dislike Fill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocker",
+      "tags": [
+        "docker",
+        "stroke"
+      ],
+      "description": "Docker icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocument",
+      "tags": [
+        "document",
+        "stroke"
+      ],
+      "description": "Document icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentCloud",
+      "tags": [
+        "cloud",
+        "document",
+        "stroke"
+      ],
+      "description": "Document Cloud icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentConfig",
+      "tags": [
+        "config",
+        "document",
+        "stroke"
+      ],
+      "description": "Document Config icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentCsv",
+      "tags": [
+        "csv",
+        "document",
+        "stroke"
+      ],
+      "description": "Document Csv icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentDownload",
+      "tags": [
+        "document",
+        "download",
+        "save",
+        "stroke"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "GrDocumentExcel",
+      "tags": [
+        "document",
+        "excel",
+        "stroke"
+      ],
+      "description": "Document Excel icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentImage",
+      "tags": [
+        "document",
+        "image",
+        "photo",
+        "picture",
+        "stroke"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "GrDocumentLocked",
+      "tags": [
+        "document",
+        "locked",
+        "stroke"
+      ],
+      "description": "Document Locked icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentMissing",
+      "tags": [
+        "document",
+        "missing",
+        "stroke"
+      ],
+      "description": "Document Missing icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentNotes",
+      "tags": [
+        "document",
+        "notes",
+        "stroke"
+      ],
+      "description": "Document Notes icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentOutlook",
+      "tags": [
+        "document",
+        "outlook",
+        "stroke"
+      ],
+      "description": "Document Outlook icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentPdf",
+      "tags": [
+        "document",
+        "pdf",
+        "stroke"
+      ],
+      "description": "Document Pdf icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentPerformance",
+      "tags": [
+        "document",
+        "performance",
+        "stroke"
+      ],
+      "description": "Document Performance icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentPpt",
+      "tags": [
+        "document",
+        "ppt",
+        "stroke"
+      ],
+      "description": "Document Ppt icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentRtf",
+      "tags": [
+        "document",
+        "rtf",
+        "stroke"
+      ],
+      "description": "Document Rtf icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentSound",
+      "tags": [
+        "document",
+        "sound",
+        "stroke"
+      ],
+      "description": "Document Sound icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentStore",
+      "tags": [
+        "document",
+        "store",
+        "stroke"
+      ],
+      "description": "Document Store icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentTest",
+      "tags": [
+        "document",
+        "stroke",
+        "test"
+      ],
+      "description": "Document Test icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentText",
+      "tags": [
+        "document",
+        "stroke",
+        "text"
+      ],
+      "description": "Document Text icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentThreat",
+      "tags": [
+        "document",
+        "stroke",
+        "threat"
+      ],
+      "description": "Document Threat icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentTime",
+      "tags": [
+        "document",
+        "stroke",
+        "time"
+      ],
+      "description": "Document Time icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentTransfer",
+      "tags": [
+        "document",
+        "stroke",
+        "transfer"
+      ],
+      "description": "Document Transfer icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentTxt",
+      "tags": [
+        "document",
+        "stroke",
+        "txt"
+      ],
+      "description": "Document Txt icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentUpdate",
+      "tags": [
+        "document",
+        "stroke",
+        "update"
+      ],
+      "description": "Document Update icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentUpload",
+      "tags": [
+        "document",
+        "stroke",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "GrDocumentUser",
+      "tags": [
+        "account",
+        "document",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrDocumentVerified",
+      "tags": [
+        "document",
+        "stroke",
+        "verified"
+      ],
+      "description": "Document Verified icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentVideo",
+      "tags": [
+        "document",
+        "stroke",
+        "video"
+      ],
+      "description": "Document Video icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentWindows",
+      "tags": [
+        "document",
+        "stroke",
+        "windows"
+      ],
+      "description": "Document Windows icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentWord",
+      "tags": [
+        "document",
+        "stroke",
+        "word"
+      ],
+      "description": "Document Word icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDocumentZip",
+      "tags": [
+        "document",
+        "stroke",
+        "zip"
+      ],
+      "description": "Document Zip icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDomain",
+      "tags": [
+        "domain",
+        "stroke"
+      ],
+      "description": "Domain icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDos",
+      "tags": [
+        "dos",
+        "stroke"
+      ],
+      "description": "Dos icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDown",
+      "tags": [
+        "down",
+        "stroke"
+      ],
+      "description": "Down icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDownload",
+      "tags": [
+        "download",
+        "save",
+        "stroke"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "GrDownloadOption",
+      "tags": [
+        "download",
+        "option",
+        "save",
+        "stroke"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "GrDrag",
+      "tags": [
+        "drag",
+        "stroke"
+      ],
+      "description": "Drag icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDrawer",
+      "tags": [
+        "drawer",
+        "stroke"
+      ],
+      "description": "Drawer icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDribbble",
+      "tags": [
+        "dribbble",
+        "stroke"
+      ],
+      "description": "Dribbble icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDriveCage",
+      "tags": [
+        "cage",
+        "drive",
+        "stroke"
+      ],
+      "description": "Drive Cage icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDropbox",
+      "tags": [
+        "dropbox",
+        "stroke"
+      ],
+      "description": "Dropbox icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDuplicate",
+      "tags": [
+        "duplicate",
+        "stroke"
+      ],
+      "description": "Duplicate icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrDxc",
+      "tags": [
+        "dxc",
+        "stroke"
+      ],
+      "description": "Dxc icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEbay",
+      "tags": [
+        "ebay",
+        "stroke"
+      ],
+      "description": "Ebay icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEdge",
+      "tags": [
+        "edge",
+        "stroke"
+      ],
+      "description": "Edge icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEdit",
+      "tags": [
+        "edit",
+        "stroke"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "GrEject",
+      "tags": [
+        "eject",
+        "stroke"
+      ],
+      "description": "Eject icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrElevator",
+      "tags": [
+        "elevator",
+        "stroke"
+      ],
+      "description": "Elevator icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEmergency",
+      "tags": [
+        "emergency",
+        "stroke"
+      ],
+      "description": "Emergency icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEmoji",
+      "tags": [
+        "emoji",
+        "stroke"
+      ],
+      "description": "Emoji icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEmptyCircle",
+      "tags": [
+        "circle",
+        "empty",
+        "stroke"
+      ],
+      "description": "Empty Circle icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrErase",
+      "tags": [
+        "erase",
+        "stroke"
+      ],
+      "description": "Erase icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEscalator",
+      "tags": [
+        "escalator",
+        "stroke"
+      ],
+      "description": "Escalator icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrExpand",
+      "tags": [
+        "expand",
+        "stroke"
+      ],
+      "description": "Expand icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrEzmeral",
+      "tags": [
+        "ezmeral",
+        "stroke"
+      ],
+      "description": "Ezmeral icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFacebook",
+      "tags": [
+        "facebook",
+        "stroke"
+      ],
+      "description": "Facebook icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFacebookOption",
+      "tags": [
+        "facebook",
+        "option",
+        "stroke"
+      ],
+      "description": "Facebook Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFan",
+      "tags": [
+        "fan",
+        "stroke"
+      ],
+      "description": "Fan icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFanOption",
+      "tags": [
+        "fan",
+        "option",
+        "stroke"
+      ],
+      "description": "Fan Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFastForward",
+      "tags": [
+        "fast",
+        "forward",
+        "stroke"
+      ],
+      "description": "Fast Forward icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFavorite",
+      "tags": [
+        "favorite",
+        "stroke"
+      ],
+      "description": "Favorite icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFedora",
+      "tags": [
+        "fedora",
+        "stroke"
+      ],
+      "description": "Fedora icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFigma",
+      "tags": [
+        "figma",
+        "stroke"
+      ],
+      "description": "Figma icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFilter",
+      "tags": [
+        "filter",
+        "stroke"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "GrFingerPrint",
+      "tags": [
+        "finger",
+        "print",
+        "stroke"
+      ],
+      "description": "Finger Print icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFireball",
+      "tags": [
+        "fireball",
+        "stroke"
+      ],
+      "description": "Fireball icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFirefox",
+      "tags": [
+        "firefox",
+        "stroke"
+      ],
+      "description": "Firefox icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFirewall",
+      "tags": [
+        "firewall",
+        "stroke"
+      ],
+      "description": "Firewall icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFlag",
+      "tags": [
+        "flag",
+        "stroke"
+      ],
+      "description": "Flag icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFlagFill",
+      "tags": [
+        "fill",
+        "flag",
+        "stroke"
+      ],
+      "description": "Flag Fill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFlows",
+      "tags": [
+        "flows",
+        "stroke"
+      ],
+      "description": "Flows icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFolder",
+      "tags": [
+        "folder",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "GrFolderCycle",
+      "tags": [
+        "cycle",
+        "folder",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "GrFolderOpen",
+      "tags": [
+        "folder",
+        "open",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "GrFormAdd",
+      "tags": [
+        "add",
+        "form",
+        "stroke"
+      ],
+      "description": "Form Add icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormAttachment",
+      "tags": [
+        "attachment",
+        "form",
+        "stroke"
+      ],
+      "description": "Form Attachment icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormCalendar",
+      "tags": [
+        "calendar",
+        "form",
+        "stroke"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "GrFormCheckmark",
+      "tags": [
+        "checkmark",
+        "form",
+        "stroke"
+      ],
+      "description": "Form Checkmark icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormClock",
+      "tags": [
+        "clock",
+        "form",
+        "stroke"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "GrFormClose",
+      "tags": [
+        "close",
+        "form",
+        "stroke"
+      ],
+      "description": "Form Close icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormCut",
+      "tags": [
+        "cut",
+        "form",
+        "stroke"
+      ],
+      "description": "Form Cut icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormDown",
+      "tags": [
+        "down",
+        "form",
+        "stroke"
+      ],
+      "description": "Form Down icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormEdit",
+      "tags": [
+        "edit",
+        "form",
+        "stroke"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "GrFormFilter",
+      "tags": [
+        "filter",
+        "form",
+        "stroke"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "GrFormFolder",
+      "tags": [
+        "folder",
+        "form",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "GrFormLocation",
+      "tags": [
+        "form",
+        "location",
+        "stroke"
+      ],
+      "description": "Form Location icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormLock",
+      "tags": [
+        "form",
+        "lock",
+        "stroke"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "GrFormNext",
+      "tags": [
+        "form",
+        "next",
+        "stroke"
+      ],
+      "description": "Form Next icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormNextLink",
+      "tags": [
+        "form",
+        "link",
+        "next",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrFormPin",
+      "tags": [
+        "form",
+        "pin",
+        "stroke"
+      ],
+      "description": "Form Pin icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormPrevious",
+      "tags": [
+        "form",
+        "previous",
+        "stroke"
+      ],
+      "description": "Form Previous icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormPreviousLink",
+      "tags": [
+        "form",
+        "link",
+        "previous",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrFormRefresh",
+      "tags": [
+        "form",
+        "refresh",
+        "stroke"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "GrFormSchedule",
+      "tags": [
+        "form",
+        "schedule",
+        "stroke"
+      ],
+      "description": "Form Schedule icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormSearch",
+      "tags": [
+        "find",
+        "form",
+        "search",
+        "stroke"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "GrFormSubtract",
+      "tags": [
+        "form",
+        "stroke",
+        "subtract"
+      ],
+      "description": "Form Subtract icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "form",
+        "remove",
+        "stroke",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "GrFormUp",
+      "tags": [
+        "form",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Form Up icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormUpload",
+      "tags": [
+        "form",
+        "stroke",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "GrFormView",
+      "tags": [
+        "form",
+        "stroke",
+        "view"
+      ],
+      "description": "Form View icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFormViewHide",
+      "tags": [
+        "form",
+        "hide",
+        "stroke",
+        "view"
+      ],
+      "description": "Form View Hide icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrForwardTen",
+      "tags": [
+        "forward",
+        "stroke",
+        "ten"
+      ],
+      "description": "Forward Ten icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrFreebsd",
+      "tags": [
+        "freebsd",
+        "stroke"
+      ],
+      "description": "Freebsd icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGallery",
+      "tags": [
+        "gallery",
+        "stroke"
+      ],
+      "description": "Gallery icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGamepad",
+      "tags": [
+        "gamepad",
+        "stroke"
+      ],
+      "description": "Gamepad icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGateway",
+      "tags": [
+        "gateway",
+        "stroke"
+      ],
+      "description": "Gateway icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGatsbyjs",
+      "tags": [
+        "gatsbyjs",
+        "stroke"
+      ],
+      "description": "Gatsbyjs icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGem",
+      "tags": [
+        "gem",
+        "stroke"
+      ],
+      "description": "Gem icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGenai",
+      "tags": [
+        "genai",
+        "stroke"
+      ],
+      "description": "Genai icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGenaifill",
+      "tags": [
+        "genaifill",
+        "stroke"
+      ],
+      "description": "Genaifill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGift",
+      "tags": [
+        "gift",
+        "stroke"
+      ],
+      "description": "Gift icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGithub",
+      "tags": [
+        "github",
+        "stroke"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "GrGlobe",
+      "tags": [
+        "globe",
+        "stroke"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "GrGolang",
+      "tags": [
+        "golang",
+        "stroke"
+      ],
+      "description": "Golang icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGoogle",
+      "tags": [
+        "google",
+        "stroke"
+      ],
+      "description": "Google icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGooglePay",
+      "tags": [
+        "google",
+        "pay",
+        "stroke"
+      ],
+      "description": "Google Pay icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGooglePlay",
+      "tags": [
+        "google",
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "GrGooglePlus",
+      "tags": [
+        "add",
+        "google",
+        "plus",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "GrGoogleWallet",
+      "tags": [
+        "google",
+        "stroke",
+        "wallet"
+      ],
+      "description": "Google Wallet icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGraphQl",
+      "tags": [
+        "graph",
+        "ql",
+        "stroke"
+      ],
+      "description": "Graph Ql icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGremlin",
+      "tags": [
+        "gremlin",
+        "stroke"
+      ],
+      "description": "Gremlin icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGrid",
+      "tags": [
+        "grid",
+        "stroke"
+      ],
+      "description": "Grid icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGrommet",
+      "tags": [
+        "grommet",
+        "stroke"
+      ],
+      "description": "Grommet icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGroup",
+      "tags": [
+        "group",
+        "stroke"
+      ],
+      "description": "Group icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrGrow",
+      "tags": [
+        "grow",
+        "stroke"
+      ],
+      "description": "Grow icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHadoop",
+      "tags": [
+        "hadoop",
+        "stroke"
+      ],
+      "description": "Hadoop icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHalt",
+      "tags": [
+        "halt",
+        "stroke"
+      ],
+      "description": "Halt icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHelp",
+      "tags": [
+        "help",
+        "stroke"
+      ],
+      "description": "Question mark — help and support."
+    },
+    {
+      "name": "GrHelpBook",
+      "tags": [
+        "book",
+        "help",
+        "stroke"
+      ],
+      "description": "Question mark — help and support."
+    },
+    {
+      "name": "GrHelpOption",
+      "tags": [
+        "help",
+        "option",
+        "stroke"
+      ],
+      "description": "Question mark — help and support."
+    },
+    {
+      "name": "GrHeroku",
+      "tags": [
+        "heroku",
+        "stroke"
+      ],
+      "description": "Heroku icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHide",
+      "tags": [
+        "hide",
+        "stroke"
+      ],
+      "description": "Hide icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHistory",
+      "tags": [
+        "history",
+        "stroke"
+      ],
+      "description": "History icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHome",
+      "tags": [
+        "home",
+        "house",
+        "stroke"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "GrHomeOption",
+      "tags": [
+        "home",
+        "house",
+        "option",
+        "stroke"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "GrHomeRounded",
+      "tags": [
+        "home",
+        "house",
+        "rounded",
+        "stroke"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "GrHorton",
+      "tags": [
+        "horton",
+        "stroke"
+      ],
+      "description": "Horton icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHost",
+      "tags": [
+        "host",
+        "stroke"
+      ],
+      "description": "Host icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHostMaintenance",
+      "tags": [
+        "host",
+        "maintenance",
+        "stroke"
+      ],
+      "description": "Host Maintenance icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHp",
+      "tags": [
+        "hp",
+        "stroke"
+      ],
+      "description": "Hp icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHpe",
+      "tags": [
+        "hpe",
+        "stroke"
+      ],
+      "description": "Hpe icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHpeLabs",
+      "tags": [
+        "hpe",
+        "labs",
+        "stroke"
+      ],
+      "description": "Hpe Labs icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHpi",
+      "tags": [
+        "hpi",
+        "stroke"
+      ],
+      "description": "Hpi icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrHtml5",
+      "tags": [
+        "html5",
+        "stroke"
+      ],
+      "description": "Html 5 icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrIceCream",
+      "tags": [
+        "cream",
+        "ice",
+        "stroke"
+      ],
+      "description": "Ice Cream icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrImage",
+      "tags": [
+        "image",
+        "photo",
+        "picture",
+        "stroke"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "GrImpact",
+      "tags": [
+        "impact",
+        "stroke"
+      ],
+      "description": "Impact icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInbox",
+      "tags": [
+        "inbox",
+        "stroke"
+      ],
+      "description": "Inbox icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrIndicator",
+      "tags": [
+        "indicator",
+        "stroke"
+      ],
+      "description": "Indicator icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInfo",
+      "tags": [
+        "info",
+        "stroke"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "GrInherit",
+      "tags": [
+        "inherit",
+        "stroke"
+      ],
+      "description": "Inherit icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInProgress",
+      "tags": [
+        "in",
+        "progress",
+        "stroke"
+      ],
+      "description": "In Progress icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInsecure",
+      "tags": [
+        "insecure",
+        "stroke"
+      ],
+      "description": "Insecure icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInspect",
+      "tags": [
+        "inspect",
+        "stroke"
+      ],
+      "description": "Inspect icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInstagram",
+      "tags": [
+        "instagram",
+        "stroke"
+      ],
+      "description": "Instagram icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInstall",
+      "tags": [
+        "install",
+        "stroke"
+      ],
+      "description": "Install icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInstallOption",
+      "tags": [
+        "install",
+        "option",
+        "stroke"
+      ],
+      "description": "Install Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrIntegration",
+      "tags": [
+        "integration",
+        "stroke"
+      ],
+      "description": "Integration icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrInternetExplorer",
+      "tags": [
+        "explorer",
+        "internet",
+        "stroke"
+      ],
+      "description": "Internet Explorer icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrItalic",
+      "tags": [
+        "italic",
+        "stroke"
+      ],
+      "description": "Italic icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrIteration",
+      "tags": [
+        "iteration",
+        "stroke"
+      ],
+      "description": "Iteration icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrJava",
+      "tags": [
+        "java",
+        "stroke"
+      ],
+      "description": "Java icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrJs",
+      "tags": [
+        "js",
+        "stroke"
+      ],
+      "description": "Js icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrKey",
+      "tags": [
+        "key",
+        "stroke"
+      ],
+      "description": "Key icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrKeyboard",
+      "tags": [
+        "keyboard",
+        "stroke"
+      ],
+      "description": "Keyboard icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrKubernetes",
+      "tags": [
+        "kubernetes",
+        "stroke"
+      ],
+      "description": "Kubernetes icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLanguage",
+      "tags": [
+        "language",
+        "stroke"
+      ],
+      "description": "Language icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLastfm",
+      "tags": [
+        "lastfm",
+        "stroke"
+      ],
+      "description": "Lastfm icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLaunch",
+      "tags": [
+        "launch",
+        "stroke"
+      ],
+      "description": "Launch icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLayer",
+      "tags": [
+        "layer",
+        "stroke"
+      ],
+      "description": "Layer icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLicense",
+      "tags": [
+        "license",
+        "stroke"
+      ],
+      "description": "License icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLike",
+      "tags": [
+        "like",
+        "stroke"
+      ],
+      "description": "Like icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLikeFill",
+      "tags": [
+        "fill",
+        "like",
+        "stroke"
+      ],
+      "description": "Like Fill icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLineChart",
+      "tags": [
+        "chart",
+        "line",
+        "stroke"
+      ],
+      "description": "Line Chart icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLink",
+      "tags": [
+        "link",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrLinkBottom",
+      "tags": [
+        "bottom",
+        "link",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrLinkDown",
+      "tags": [
+        "down",
+        "link",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrLinkedin",
+      "tags": [
+        "linkedin",
+        "stroke"
+      ],
+      "description": "Linkedin icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLinkedinOption",
+      "tags": [
+        "linkedin",
+        "option",
+        "stroke"
+      ],
+      "description": "Linkedin Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLinkNext",
+      "tags": [
+        "link",
+        "next",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrLinkPrevious",
+      "tags": [
+        "link",
+        "previous",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrLinkTop",
+      "tags": [
+        "link",
+        "stroke",
+        "top"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrLinkUp",
+      "tags": [
+        "like",
+        "link",
+        "stroke",
+        "up"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "GrList",
+      "tags": [
+        "list",
+        "stroke"
+      ],
+      "description": "List icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLocal",
+      "tags": [
+        "local",
+        "stroke"
+      ],
+      "description": "Local icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLocation",
+      "tags": [
+        "location",
+        "stroke"
+      ],
+      "description": "Location icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLocationPin",
+      "tags": [
+        "location",
+        "pin",
+        "stroke"
+      ],
+      "description": "Location Pin icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLock",
+      "tags": [
+        "lock",
+        "stroke"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "GrLogin",
+      "tags": [
+        "login",
+        "stroke"
+      ],
+      "description": "Login icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLogout",
+      "tags": [
+        "logout",
+        "stroke"
+      ],
+      "description": "Logout icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrLounge",
+      "tags": [
+        "lounge",
+        "stroke"
+      ],
+      "description": "Lounge icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMagic",
+      "tags": [
+        "magic",
+        "stroke"
+      ],
+      "description": "Magic icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMail",
+      "tags": [
+        "mail",
+        "stroke"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "GrMailOption",
+      "tags": [
+        "mail",
+        "option",
+        "stroke"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "GrMandriva",
+      "tags": [
+        "mandriva",
+        "stroke"
+      ],
+      "description": "Mandriva icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrManual",
+      "tags": [
+        "manual",
+        "stroke"
+      ],
+      "description": "Manual icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMap",
+      "tags": [
+        "map",
+        "stroke"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "GrMapLocation",
+      "tags": [
+        "location",
+        "map",
+        "stroke"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "GrMastercard",
+      "tags": [
+        "mastercard",
+        "stroke"
+      ],
+      "description": "Mastercard icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMedium",
+      "tags": [
+        "medium",
+        "stroke"
+      ],
+      "description": "Medium icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMemory",
+      "tags": [
+        "memory",
+        "stroke"
+      ],
+      "description": "Memory icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMenu",
+      "tags": [
+        "menu",
+        "stroke"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "GrMeta",
+      "tags": [
+        "meta",
+        "stroke"
+      ],
+      "description": "Meta icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMicrofocus",
+      "tags": [
+        "microfocus",
+        "stroke"
+      ],
+      "description": "Microfocus icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMicrophone",
+      "tags": [
+        "microphone",
+        "stroke"
+      ],
+      "description": "Microphone icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMoney",
+      "tags": [
+        "money",
+        "stroke"
+      ],
+      "description": "Money icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMonitor",
+      "tags": [
+        "monitor",
+        "stroke"
+      ],
+      "description": "Monitor icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMonospace",
+      "tags": [
+        "monospace",
+        "stroke"
+      ],
+      "description": "Monospace icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMoon",
+      "tags": [
+        "moon",
+        "stroke"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "GrMore",
+      "tags": [
+        "more",
+        "stroke"
+      ],
+      "description": "More icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMoreVertical",
+      "tags": [
+        "more",
+        "stroke",
+        "vertical"
+      ],
+      "description": "More Vertical icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMouse",
+      "tags": [
+        "mouse",
+        "stroke"
+      ],
+      "description": "Mouse icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMultimedia",
+      "tags": [
+        "multimedia",
+        "stroke"
+      ],
+      "description": "Multimedia icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMultiple",
+      "tags": [
+        "multiple",
+        "stroke"
+      ],
+      "description": "Multiple icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMusic",
+      "tags": [
+        "music",
+        "stroke"
+      ],
+      "description": "Music icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrMysql",
+      "tags": [
+        "mysql",
+        "stroke"
+      ],
+      "description": "Mysql icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNavigate",
+      "tags": [
+        "navigate",
+        "stroke"
+      ],
+      "description": "Navigate icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNetwork",
+      "tags": [
+        "network",
+        "stroke"
+      ],
+      "description": "Network icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNetworkDrive",
+      "tags": [
+        "drive",
+        "network",
+        "stroke"
+      ],
+      "description": "Network Drive icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNew",
+      "tags": [
+        "new",
+        "stroke"
+      ],
+      "description": "New icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNewWindow",
+      "tags": [
+        "new",
+        "stroke",
+        "window"
+      ],
+      "description": "New Window icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNext",
+      "tags": [
+        "next",
+        "stroke"
+      ],
+      "description": "Next icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNode",
+      "tags": [
+        "node",
+        "stroke"
+      ],
+      "description": "Node icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNodes",
+      "tags": [
+        "nodes",
+        "stroke"
+      ],
+      "description": "Nodes icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNorton",
+      "tags": [
+        "norton",
+        "stroke"
+      ],
+      "description": "Norton icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNote",
+      "tags": [
+        "note",
+        "stroke"
+      ],
+      "description": "Note icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNotes",
+      "tags": [
+        "notes",
+        "stroke"
+      ],
+      "description": "Notes icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNotification",
+      "tags": [
+        "notification",
+        "stroke"
+      ],
+      "description": "Notification icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrNpm",
+      "tags": [
+        "npm",
+        "stroke"
+      ],
+      "description": "Npm icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrObjectGroup",
+      "tags": [
+        "group",
+        "object",
+        "stroke"
+      ],
+      "description": "Object Group icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrObjectUngroup",
+      "tags": [
+        "object",
+        "stroke",
+        "ungroup"
+      ],
+      "description": "Object Ungroup icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOfflineStorage",
+      "tags": [
+        "offline",
+        "storage",
+        "stroke"
+      ],
+      "description": "Offline Storage icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOnedrive",
+      "tags": [
+        "onedrive",
+        "stroke"
+      ],
+      "description": "Onedrive icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOpera",
+      "tags": [
+        "opera",
+        "stroke"
+      ],
+      "description": "Opera icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOptimize",
+      "tags": [
+        "optimize",
+        "stroke"
+      ],
+      "description": "Optimize icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOracle",
+      "tags": [
+        "oracle",
+        "stroke"
+      ],
+      "description": "Oracle icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOrderedList",
+      "tags": [
+        "list",
+        "ordered",
+        "stroke"
+      ],
+      "description": "Ordered List icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOrganization",
+      "tags": [
+        "organization",
+        "stroke"
+      ],
+      "description": "Organization icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrOverview",
+      "tags": [
+        "overview",
+        "stroke"
+      ],
+      "description": "Overview icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPackage",
+      "tags": [
+        "package",
+        "stroke"
+      ],
+      "description": "Package icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPaint",
+      "tags": [
+        "paint",
+        "stroke"
+      ],
+      "description": "Paint icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPan",
+      "tags": [
+        "pan",
+        "stroke"
+      ],
+      "description": "Pan icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPause",
+      "tags": [
+        "pause",
+        "stroke"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "GrPauseFill",
+      "tags": [
+        "fill",
+        "pause",
+        "stroke"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "GrPaypal",
+      "tags": [
+        "paypal",
+        "stroke"
+      ],
+      "description": "Paypal icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPerformance",
+      "tags": [
+        "performance",
+        "stroke"
+      ],
+      "description": "Performance icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPersonalComputer",
+      "tags": [
+        "computer",
+        "personal",
+        "stroke"
+      ],
+      "description": "Personal Computer icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPhone",
+      "tags": [
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "GrPhoneFlip",
+      "tags": [
+        "flip",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "GrPhoneHorizontal",
+      "tags": [
+        "horizontal",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "GrPhoneVertical",
+      "tags": [
+        "phone",
+        "stroke",
+        "vertical"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "GrPieChart",
+      "tags": [
+        "chart",
+        "pie",
+        "stroke"
+      ],
+      "description": "Pie Chart icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPiedPiper",
+      "tags": [
+        "pied",
+        "piper",
+        "stroke"
+      ],
+      "description": "Pied Piper icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPin",
+      "tags": [
+        "pin",
+        "stroke"
+      ],
+      "description": "Pin icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPinterest",
+      "tags": [
+        "pinterest",
+        "stroke"
+      ],
+      "description": "Pinterest icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPlan",
+      "tags": [
+        "plan",
+        "stroke"
+      ],
+      "description": "Plan icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPlay",
+      "tags": [
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "GrPlayFill",
+      "tags": [
+        "fill",
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "GrPlug",
+      "tags": [
+        "plug",
+        "stroke"
+      ],
+      "description": "Plug icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPocket",
+      "tags": [
+        "pocket",
+        "stroke"
+      ],
+      "description": "Pocket icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPower",
+      "tags": [
+        "power",
+        "stroke"
+      ],
+      "description": "Power icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPowerCycle",
+      "tags": [
+        "cycle",
+        "power",
+        "stroke"
+      ],
+      "description": "Power Cycle icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPowerForceShutdown",
+      "tags": [
+        "force",
+        "power",
+        "shutdown",
+        "stroke"
+      ],
+      "description": "Power Force Shutdown icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPowerReset",
+      "tags": [
+        "power",
+        "reset",
+        "stroke"
+      ],
+      "description": "Power Reset icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPowerShutdown",
+      "tags": [
+        "power",
+        "shutdown",
+        "stroke"
+      ],
+      "description": "Power Shutdown icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPrevious",
+      "tags": [
+        "previous",
+        "stroke"
+      ],
+      "description": "Previous icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrPrint",
+      "tags": [
+        "print",
+        "stroke"
+      ],
+      "description": "Print icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrProductHunt",
+      "tags": [
+        "hunt",
+        "product",
+        "stroke"
+      ],
+      "description": "Product Hunt icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrProjects",
+      "tags": [
+        "projects",
+        "stroke"
+      ],
+      "description": "Projects icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrQr",
+      "tags": [
+        "qr",
+        "stroke"
+      ],
+      "description": "Qr icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRadial",
+      "tags": [
+        "radial",
+        "stroke"
+      ],
+      "description": "Radial icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRadialSelected",
+      "tags": [
+        "radial",
+        "selected",
+        "stroke"
+      ],
+      "description": "Radial Selected icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRaspberry",
+      "tags": [
+        "raspberry",
+        "stroke"
+      ],
+      "description": "Raspberry icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrReactjs",
+      "tags": [
+        "reactjs",
+        "stroke"
+      ],
+      "description": "Reactjs icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrReddit",
+      "tags": [
+        "reddit",
+        "stroke"
+      ],
+      "description": "Reddit icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRedhat",
+      "tags": [
+        "redhat",
+        "stroke"
+      ],
+      "description": "Redhat icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRedo",
+      "tags": [
+        "redo",
+        "stroke"
+      ],
+      "description": "Redo icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRefresh",
+      "tags": [
+        "refresh",
+        "stroke"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "GrResources",
+      "tags": [
+        "resources",
+        "stroke"
+      ],
+      "description": "Resources icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRestaurant",
+      "tags": [
+        "restaurant",
+        "stroke"
+      ],
+      "description": "Restaurant icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRestroom",
+      "tags": [
+        "restroom",
+        "stroke"
+      ],
+      "description": "Restroom icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRestroomMen",
+      "tags": [
+        "men",
+        "restroom",
+        "stroke"
+      ],
+      "description": "Restroom Men icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRestroomWomen",
+      "tags": [
+        "restroom",
+        "stroke",
+        "women"
+      ],
+      "description": "Restroom Women icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrResume",
+      "tags": [
+        "resume",
+        "stroke"
+      ],
+      "description": "Resume icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrReturn",
+      "tags": [
+        "return",
+        "stroke"
+      ],
+      "description": "Return icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRevert",
+      "tags": [
+        "revert",
+        "stroke"
+      ],
+      "description": "Revert icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRewind",
+      "tags": [
+        "rewind",
+        "stroke"
+      ],
+      "description": "Rewind icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRisk",
+      "tags": [
+        "risk",
+        "stroke"
+      ],
+      "description": "Risk icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRobot",
+      "tags": [
+        "robot",
+        "stroke"
+      ],
+      "description": "Robot icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRotateLeft",
+      "tags": [
+        "left",
+        "rotate",
+        "stroke"
+      ],
+      "description": "Rotate Left icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRotateRight",
+      "tags": [
+        "right",
+        "rotate",
+        "stroke"
+      ],
+      "description": "Rotate Right icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRss",
+      "tags": [
+        "rss",
+        "stroke"
+      ],
+      "description": "Rss icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrRun",
+      "tags": [
+        "run",
+        "stroke"
+      ],
+      "description": "Run icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSafariOption",
+      "tags": [
+        "option",
+        "safari",
+        "stroke"
+      ],
+      "description": "Safari Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSamsungPay",
+      "tags": [
+        "pay",
+        "samsung",
+        "stroke"
+      ],
+      "description": "Samsung Pay icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSans",
+      "tags": [
+        "sans",
+        "stroke"
+      ],
+      "description": "Sans icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSatellite",
+      "tags": [
+        "satellite",
+        "stroke"
+      ],
+      "description": "Satellite icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSave",
+      "tags": [
+        "save",
+        "stroke"
+      ],
+      "description": "Save icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrScan",
+      "tags": [
+        "scan",
+        "stroke"
+      ],
+      "description": "Scan icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSchedule",
+      "tags": [
+        "schedule",
+        "stroke"
+      ],
+      "description": "Schedule icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrScheduleNew",
+      "tags": [
+        "new",
+        "schedule",
+        "stroke"
+      ],
+      "description": "Schedule New icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSchedulePlay",
+      "tags": [
+        "play",
+        "schedule",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "GrSchedules",
+      "tags": [
+        "schedules",
+        "stroke"
+      ],
+      "description": "Schedules icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSco",
+      "tags": [
+        "sco",
+        "stroke"
+      ],
+      "description": "Sco icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrScorecard",
+      "tags": [
+        "scorecard",
+        "stroke"
+      ],
+      "description": "Scorecard icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrScript",
+      "tags": [
+        "script",
+        "stroke"
+      ],
+      "description": "Script icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSd",
+      "tags": [
+        "sd",
+        "stroke"
+      ],
+      "description": "Sd icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSearch",
+      "tags": [
+        "find",
+        "search",
+        "stroke"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "GrSearchAdvanced",
+      "tags": [
+        "advanced",
+        "find",
+        "search",
+        "stroke"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "GrSecure",
+      "tags": [
+        "secure",
+        "stroke"
+      ],
+      "description": "Secure icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSelect",
+      "tags": [
+        "select",
+        "stroke"
+      ],
+      "description": "Select icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSelection",
+      "tags": [
+        "selection",
+        "stroke"
+      ],
+      "description": "Selection icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSemantics",
+      "tags": [
+        "semantics",
+        "stroke"
+      ],
+      "description": "Semantics icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSend",
+      "tags": [
+        "send",
+        "stroke"
+      ],
+      "description": "Paper plane — send and submit actions."
+    },
+    {
+      "name": "GrServer",
+      "tags": [
+        "server",
+        "stroke"
+      ],
+      "description": "Server icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrServerCluster",
+      "tags": [
+        "cluster",
+        "server",
+        "stroke"
+      ],
+      "description": "Server Cluster icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrServers",
+      "tags": [
+        "servers",
+        "stroke"
+      ],
+      "description": "Servers icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrServicePlay",
+      "tags": [
+        "play",
+        "service",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "GrServices",
+      "tags": [
+        "services",
+        "stroke"
+      ],
+      "description": "Services icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSettingsOption",
+      "tags": [
+        "gear",
+        "option",
+        "setting",
+        "settings",
+        "stroke"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "GrShare",
+      "tags": [
+        "share",
+        "stroke"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "GrShareOption",
+      "tags": [
+        "option",
+        "share",
+        "stroke"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "GrShareRounded",
+      "tags": [
+        "rounded",
+        "share",
+        "stroke"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "GrShield",
+      "tags": [
+        "shield",
+        "stroke"
+      ],
+      "description": "Shield icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrShieldSecurity",
+      "tags": [
+        "security",
+        "shield",
+        "stroke"
+      ],
+      "description": "Shield Security icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrShift",
+      "tags": [
+        "shift",
+        "stroke"
+      ],
+      "description": "Shift icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrShop",
+      "tags": [
+        "shop",
+        "stroke"
+      ],
+      "description": "Shop icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSidebar",
+      "tags": [
+        "sidebar",
+        "stroke"
+      ],
+      "description": "Sidebar icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSign",
+      "tags": [
+        "sign",
+        "stroke"
+      ],
+      "description": "Sign icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSkype",
+      "tags": [
+        "skype",
+        "stroke"
+      ],
+      "description": "Skype icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSlack",
+      "tags": [
+        "slack",
+        "stroke"
+      ],
+      "description": "Slack icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSnapchat",
+      "tags": [
+        "snapchat",
+        "stroke"
+      ],
+      "description": "Snapchat icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSolaris",
+      "tags": [
+        "solaris",
+        "stroke"
+      ],
+      "description": "Solaris icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSort",
+      "tags": [
+        "sort",
+        "stroke"
+      ],
+      "description": "Sort icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSoundcloud",
+      "tags": [
+        "soundcloud",
+        "stroke"
+      ],
+      "description": "Soundcloud icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSpa",
+      "tags": [
+        "spa",
+        "stroke"
+      ],
+      "description": "Spa icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSpectrum",
+      "tags": [
+        "spectrum",
+        "stroke"
+      ],
+      "description": "Spectrum icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSplit",
+      "tags": [
+        "split",
+        "stroke"
+      ],
+      "description": "Split icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSplits",
+      "tags": [
+        "splits",
+        "stroke"
+      ],
+      "description": "Splits icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSpotify",
+      "tags": [
+        "spotify",
+        "stroke"
+      ],
+      "description": "Spotify icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSquare",
+      "tags": [
+        "square",
+        "stroke"
+      ],
+      "description": "Square icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStackOverflow",
+      "tags": [
+        "overflow",
+        "stack",
+        "stroke"
+      ],
+      "description": "Stack Overflow icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStakeholder",
+      "tags": [
+        "stakeholder",
+        "stroke"
+      ],
+      "description": "Stakeholder icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStar",
+      "tags": [
+        "star",
+        "stroke"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "GrStarHalf",
+      "tags": [
+        "half",
+        "star",
+        "stroke"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "GrStarOutline",
+      "tags": [
+        "outline",
+        "star",
+        "stroke"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content. Outline variant."
+    },
+    {
+      "name": "GrStatusCritical",
+      "tags": [
+        "critical",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Critical icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusCriticalSmall",
+      "tags": [
+        "critical",
+        "small",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Critical Small icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusDisabled",
+      "tags": [
+        "disabled",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Disabled icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusDisabledSmall",
+      "tags": [
+        "disabled",
+        "small",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Disabled Small icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusGood",
+      "tags": [
+        "good",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Good icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusGoodSmall",
+      "tags": [
+        "good",
+        "small",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Good Small icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusInfo",
+      "tags": [
+        "info",
+        "status",
+        "stroke"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "GrStatusInfoSmall",
+      "tags": [
+        "info",
+        "small",
+        "status",
+        "stroke"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "GrStatusPlaceholder",
+      "tags": [
+        "placeholder",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Placeholder icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusPlaceholderSmall",
+      "tags": [
+        "placeholder",
+        "small",
+        "status",
+        "stroke"
+      ],
+      "description": "Status Placeholder Small icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusUnknown",
+      "tags": [
+        "status",
+        "stroke",
+        "unknown"
+      ],
+      "description": "Status Unknown icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusUnknownSmall",
+      "tags": [
+        "small",
+        "status",
+        "stroke",
+        "unknown"
+      ],
+      "description": "Status Unknown Small icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusWarning",
+      "tags": [
+        "status",
+        "stroke",
+        "warning"
+      ],
+      "description": "Status Warning icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStatusWarningSmall",
+      "tags": [
+        "small",
+        "status",
+        "stroke",
+        "warning"
+      ],
+      "description": "Status Warning Small icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSteps",
+      "tags": [
+        "steps",
+        "stroke"
+      ],
+      "description": "Steps icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStepsOption",
+      "tags": [
+        "option",
+        "steps",
+        "stroke"
+      ],
+      "description": "Steps Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStop",
+      "tags": [
+        "stop",
+        "stroke"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "GrStopFill",
+      "tags": [
+        "fill",
+        "stop",
+        "stroke"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "GrStorage",
+      "tags": [
+        "storage",
+        "stroke"
+      ],
+      "description": "Storage icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStreetView",
+      "tags": [
+        "street",
+        "stroke",
+        "view"
+      ],
+      "description": "Street View icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStrikeThrough",
+      "tags": [
+        "strike",
+        "stroke",
+        "through"
+      ],
+      "description": "Strike Through icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrStripe",
+      "tags": [
+        "stripe",
+        "stroke"
+      ],
+      "description": "Stripe icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSubscript",
+      "tags": [
+        "stroke",
+        "subscript"
+      ],
+      "description": "Subscript icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSubtract",
+      "tags": [
+        "stroke",
+        "subtract"
+      ],
+      "description": "Subtract icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSubtractCircle",
+      "tags": [
+        "circle",
+        "stroke",
+        "subtract"
+      ],
+      "description": "Subtract Circle icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSun",
+      "tags": [
+        "stroke",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "GrSuperscript",
+      "tags": [
+        "stroke",
+        "superscript"
+      ],
+      "description": "Superscript icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSupport",
+      "tags": [
+        "stroke",
+        "support"
+      ],
+      "description": "Support icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSuse",
+      "tags": [
+        "stroke",
+        "suse"
+      ],
+      "description": "Suse icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSwift",
+      "tags": [
+        "stroke",
+        "swift"
+      ],
+      "description": "Swift icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSwim",
+      "tags": [
+        "stroke",
+        "swim"
+      ],
+      "description": "Swim icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSwitch",
+      "tags": [
+        "stroke",
+        "switch"
+      ],
+      "description": "Switch icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSync",
+      "tags": [
+        "stroke",
+        "sync"
+      ],
+      "description": "Sync icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrSystem",
+      "tags": [
+        "stroke",
+        "system"
+      ],
+      "description": "System icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTable",
+      "tags": [
+        "stroke",
+        "table"
+      ],
+      "description": "Table icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTableAdd",
+      "tags": [
+        "add",
+        "stroke",
+        "table"
+      ],
+      "description": "Table Add icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTag",
+      "tags": [
+        "stroke",
+        "tag"
+      ],
+      "description": "Tag icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTape",
+      "tags": [
+        "stroke",
+        "tape"
+      ],
+      "description": "Tape icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTapeOption",
+      "tags": [
+        "option",
+        "stroke",
+        "tape"
+      ],
+      "description": "Tape Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTarget",
+      "tags": [
+        "stroke",
+        "target"
+      ],
+      "description": "Target icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTask",
+      "tags": [
+        "stroke",
+        "task"
+      ],
+      "description": "Task icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTasks",
+      "tags": [
+        "stroke",
+        "tasks"
+      ],
+      "description": "Tasks icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTechnology",
+      "tags": [
+        "stroke",
+        "technology"
+      ],
+      "description": "Technology icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTemplate",
+      "tags": [
+        "stroke",
+        "template"
+      ],
+      "description": "Template icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTerminal",
+      "tags": [
+        "stroke",
+        "terminal"
+      ],
+      "description": "Terminal icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTest",
+      "tags": [
+        "stroke",
+        "test"
+      ],
+      "description": "Test icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTestDesktop",
+      "tags": [
+        "desktop",
+        "stroke",
+        "test"
+      ],
+      "description": "Test Desktop icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTextAlignCenter",
+      "tags": [
+        "align",
+        "center",
+        "stroke",
+        "text"
+      ],
+      "description": "Text Align Center icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTextAlignFull",
+      "tags": [
+        "align",
+        "full",
+        "stroke",
+        "text"
+      ],
+      "description": "Text Align Full icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTextAlignLeft",
+      "tags": [
+        "align",
+        "left",
+        "stroke",
+        "text"
+      ],
+      "description": "Text Align Left icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTextAlignRight",
+      "tags": [
+        "align",
+        "right",
+        "stroke",
+        "text"
+      ],
+      "description": "Text Align Right icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTextWrap",
+      "tags": [
+        "stroke",
+        "text",
+        "wrap"
+      ],
+      "description": "Text Wrap icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrThreads",
+      "tags": [
+        "stroke",
+        "threads"
+      ],
+      "description": "Threads icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrThreats",
+      "tags": [
+        "stroke",
+        "threats"
+      ],
+      "description": "Threats icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrThreeD",
+      "tags": [
+        "d",
+        "stroke",
+        "three"
+      ],
+      "description": "Three D icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrThreeDEffects",
+      "tags": [
+        "d",
+        "deffects",
+        "effects",
+        "stroke",
+        "three"
+      ],
+      "description": "Three DEffects icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTicket",
+      "tags": [
+        "stroke",
+        "ticket"
+      ],
+      "description": "Ticket icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTiktok",
+      "tags": [
+        "stroke",
+        "tiktok"
+      ],
+      "description": "Tiktok icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTime",
+      "tags": [
+        "stroke",
+        "time"
+      ],
+      "description": "Time icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTip",
+      "tags": [
+        "stroke",
+        "tip"
+      ],
+      "description": "Tip icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrToast",
+      "tags": [
+        "stroke",
+        "toast"
+      ],
+      "description": "Toast icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTools",
+      "tags": [
+        "stroke",
+        "tools"
+      ],
+      "description": "Tools icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTooltip",
+      "tags": [
+        "stroke",
+        "tooltip"
+      ],
+      "description": "Tooltip icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTopCorner",
+      "tags": [
+        "corner",
+        "stroke",
+        "top"
+      ],
+      "description": "Top Corner icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTrain",
+      "tags": [
+        "stroke",
+        "train"
+      ],
+      "description": "Train icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTransaction",
+      "tags": [
+        "stroke",
+        "transaction"
+      ],
+      "description": "Transaction icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "remove",
+        "stroke",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "GrTree",
+      "tags": [
+        "stroke",
+        "tree"
+      ],
+      "description": "Tree icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTreeOption",
+      "tags": [
+        "option",
+        "stroke",
+        "tree"
+      ],
+      "description": "Tree Option icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTrigger",
+      "tags": [
+        "stroke",
+        "trigger"
+      ],
+      "description": "Trigger icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTrophy",
+      "tags": [
+        "stroke",
+        "trophy"
+      ],
+      "description": "Trophy icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTroubleshoot",
+      "tags": [
+        "stroke",
+        "troubleshoot"
+      ],
+      "description": "Troubleshoot icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTty",
+      "tags": [
+        "stroke",
+        "tty"
+      ],
+      "description": "Tty icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTumblr",
+      "tags": [
+        "stroke",
+        "tumblr"
+      ],
+      "description": "Tumblr icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTurbolinux",
+      "tags": [
+        "stroke",
+        "turbolinux"
+      ],
+      "description": "Turbolinux icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTwitch",
+      "tags": [
+        "stroke",
+        "twitch"
+      ],
+      "description": "Twitch icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrTwitter",
+      "tags": [
+        "stroke",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "GrUbuntu",
+      "tags": [
+        "stroke",
+        "ubuntu"
+      ],
+      "description": "Ubuntu icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUnderline",
+      "tags": [
+        "stroke",
+        "underline"
+      ],
+      "description": "Underline icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUndo",
+      "tags": [
+        "stroke",
+        "undo"
+      ],
+      "description": "Undo icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUnlink",
+      "tags": [
+        "stroke",
+        "unlink"
+      ],
+      "description": "Unlink icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUnlock",
+      "tags": [
+        "stroke",
+        "unlock"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "GrUnorderedList",
+      "tags": [
+        "list",
+        "stroke",
+        "unordered"
+      ],
+      "description": "Unordered List icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUnsorted",
+      "tags": [
+        "stroke",
+        "unsorted"
+      ],
+      "description": "Unsorted icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUp",
+      "tags": [
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Up icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUpdate",
+      "tags": [
+        "stroke",
+        "update"
+      ],
+      "description": "Update icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUpgrade",
+      "tags": [
+        "stroke",
+        "upgrade"
+      ],
+      "description": "Upgrade icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUpload",
+      "tags": [
+        "stroke",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "GrUploadOption",
+      "tags": [
+        "option",
+        "stroke",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "GrUsbKey",
+      "tags": [
+        "key",
+        "stroke",
+        "usb"
+      ],
+      "description": "Usb Key icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrUser",
+      "tags": [
+        "account",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserAdd",
+      "tags": [
+        "account",
+        "add",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserAdmin",
+      "tags": [
+        "account",
+        "admin",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserExpert",
+      "tags": [
+        "account",
+        "expert",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserFemale",
+      "tags": [
+        "account",
+        "female",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserManager",
+      "tags": [
+        "account",
+        "manager",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserNew",
+      "tags": [
+        "account",
+        "new",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserPolice",
+      "tags": [
+        "account",
+        "person",
+        "police",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserSettings",
+      "tags": [
+        "account",
+        "gear",
+        "person",
+        "setting",
+        "settings",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrUserWorker",
+      "tags": [
+        "account",
+        "person",
+        "stroke",
+        "user",
+        "worker"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "GrValidate",
+      "tags": [
+        "stroke",
+        "validate"
+      ],
+      "description": "Validate icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVend",
+      "tags": [
+        "stroke",
+        "vend"
+      ],
+      "description": "Vend icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVenmo",
+      "tags": [
+        "stroke",
+        "venmo"
+      ],
+      "description": "Venmo icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVideo",
+      "tags": [
+        "stroke",
+        "video"
+      ],
+      "description": "Video icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrView",
+      "tags": [
+        "stroke",
+        "view"
+      ],
+      "description": "View icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVimeo",
+      "tags": [
+        "stroke",
+        "vimeo"
+      ],
+      "description": "Vimeo icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVirtualMachine",
+      "tags": [
+        "machine",
+        "stroke",
+        "virtual"
+      ],
+      "description": "Virtual Machine icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVirtualStorage",
+      "tags": [
+        "storage",
+        "stroke",
+        "virtual"
+      ],
+      "description": "Virtual Storage icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVisa",
+      "tags": [
+        "stroke",
+        "visa"
+      ],
+      "description": "Visa icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVmMaintenance",
+      "tags": [
+        "maintenance",
+        "stroke",
+        "vm"
+      ],
+      "description": "Vm Maintenance icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVmware",
+      "tags": [
+        "stroke",
+        "vmware"
+      ],
+      "description": "Vmware icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrVolume",
+      "tags": [
+        "stroke",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "GrVolumeControl",
+      "tags": [
+        "control",
+        "stroke",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "GrVolumeLow",
+      "tags": [
+        "low",
+        "stroke",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "GrVolumeMute",
+      "tags": [
+        "mute",
+        "stroke",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "GrVulnerability",
+      "tags": [
+        "stroke",
+        "vulnerability"
+      ],
+      "description": "Vulnerability icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWaypoint",
+      "tags": [
+        "stroke",
+        "waypoint"
+      ],
+      "description": "Waypoint icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWebcam",
+      "tags": [
+        "stroke",
+        "webcam"
+      ],
+      "description": "Webcam icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWechat",
+      "tags": [
+        "stroke",
+        "wechat"
+      ],
+      "description": "Wechat icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWhatsapp",
+      "tags": [
+        "stroke",
+        "whatsapp"
+      ],
+      "description": "Whatsapp icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWheelchair",
+      "tags": [
+        "stroke",
+        "wheelchair"
+      ],
+      "description": "Wheelchair icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWheelchairActive",
+      "tags": [
+        "active",
+        "stroke",
+        "wheelchair"
+      ],
+      "description": "Wheelchair Active icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWifi",
+      "tags": [
+        "stroke",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "GrWifiLow",
+      "tags": [
+        "low",
+        "stroke",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "GrWifiMedium",
+      "tags": [
+        "medium",
+        "stroke",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "GrWifiNone",
+      "tags": [
+        "none",
+        "stroke",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "GrWindows",
+      "tags": [
+        "stroke",
+        "windows"
+      ],
+      "description": "Windows icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWindowsLegacy",
+      "tags": [
+        "legacy",
+        "stroke",
+        "windows"
+      ],
+      "description": "Windows Legacy icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWordpress",
+      "tags": [
+        "stroke",
+        "wordpress"
+      ],
+      "description": "Wordpress icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrWorkshop",
+      "tags": [
+        "stroke",
+        "workshop"
+      ],
+      "description": "Workshop icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "remove",
+        "stroke",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "GrXing",
+      "tags": [
+        "stroke",
+        "xing"
+      ],
+      "description": "Xing icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrYoga",
+      "tags": [
+        "stroke",
+        "yoga"
+      ],
+      "description": "Yoga icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrYoutube",
+      "tags": [
+        "stroke",
+        "youtube"
+      ],
+      "description": "Youtube icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrZoom",
+      "tags": [
+        "stroke",
+        "zoom"
+      ],
+      "description": "Zoom icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrZoomIn",
+      "tags": [
+        "in",
+        "stroke",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Grommet (gr) set, stroke style."
+    },
+    {
+      "name": "GrZoomOut",
+      "tags": [
+        "out",
+        "stroke",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Grommet (gr) set, stroke style."
+    }
+  ]
+}
