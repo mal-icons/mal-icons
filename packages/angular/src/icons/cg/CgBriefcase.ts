@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-briefcase",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgBriefcase {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14 11H10V13H14V11Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7 5V4C7 2.9 7.9 2 9 2H15C16.1 2 17 2.9 17 4V5H20C21.66 5 23 6.34 23 8V18C23 19.66 21.66 21 20 21H4C2.34 21 1 19.66 1 18V8C1 6.34 2.34 5 4 5H7ZM9 4H15V5H9V4ZM4 7C3.45 7 3 7.45 3 8V14H21V8C21 7.45 20.55 7 20 7H4ZM3 18V16H21V18C21 18.55 20.55 19 20 19H4C3.45 19 3 18.55 3 18Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgBriefcase;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgPentagonTopRight = createIcon("0 0 24 24", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M10.33 15.16L5 14.39L10 5.73L15.33 6.5L18.66 10.73L13.66 19.39L10.33 15.16ZM13.41 15.83L11.41 13.29L8.21 12.83L11.06 7.9L14.25 8.37L16.25 10.9L13.41 15.83Z","fill":"currentColor"}]]);
+
+export default CgPentagonTopRight;

@@ -1,0 +1,6392 @@
+{
+  "set": {
+    "id": "cg",
+    "name": "css.gg",
+    "prefix": "Cg",
+    "version": "2.1.1",
+    "license": "MIT",
+    "repo": "astrit/css.gg",
+    "style": "fill",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 704,
+  "icons": [
+    {
+      "name": "CgAbstract",
+      "tags": [
+        "abstract",
+        "fill"
+      ],
+      "description": "Abstract icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAdd",
+      "tags": [
+        "add",
+        "fill"
+      ],
+      "description": "Add icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAddR",
+      "tags": [
+        "add",
+        "fill",
+        "r"
+      ],
+      "description": "Add R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAdidas",
+      "tags": [
+        "adidas",
+        "fill"
+      ],
+      "description": "Adidas icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAirplane",
+      "tags": [
+        "airplane",
+        "fill"
+      ],
+      "description": "Airplane icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlarm",
+      "tags": [
+        "alarm",
+        "fill"
+      ],
+      "description": "Alarm icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlbum",
+      "tags": [
+        "album",
+        "fill"
+      ],
+      "description": "Album icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlignBottom",
+      "tags": [
+        "align",
+        "bottom",
+        "fill"
+      ],
+      "description": "Align Bottom icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlignCenter",
+      "tags": [
+        "align",
+        "center",
+        "fill"
+      ],
+      "description": "Align Center icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlignLeft",
+      "tags": [
+        "align",
+        "fill",
+        "left"
+      ],
+      "description": "Align Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlignMiddle",
+      "tags": [
+        "align",
+        "fill",
+        "middle"
+      ],
+      "description": "Align Middle icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlignRight",
+      "tags": [
+        "align",
+        "fill",
+        "right"
+      ],
+      "description": "Align Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAlignTop",
+      "tags": [
+        "align",
+        "fill",
+        "top"
+      ],
+      "description": "Align Top icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAnchor",
+      "tags": [
+        "anchor",
+        "fill"
+      ],
+      "description": "Anchor icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAppleWatch",
+      "tags": [
+        "apple",
+        "fill",
+        "watch"
+      ],
+      "description": "Apple Watch icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrangeBack",
+      "tags": [
+        "arrange",
+        "back",
+        "fill"
+      ],
+      "description": "Arrange Back icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrangeFront",
+      "tags": [
+        "arrange",
+        "fill",
+        "front"
+      ],
+      "description": "Arrange Front icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowAlignH",
+      "tags": [
+        "align",
+        "arrow",
+        "fill",
+        "h"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowAlignV",
+      "tags": [
+        "align",
+        "arrow",
+        "fill",
+        "v"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowBottomLeft",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowBottomLeftO",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "left",
+        "o"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowBottomLeftR",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "left",
+        "r"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowBottomRight",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowBottomRightO",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "o",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowBottomRightR",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "r",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowDownO",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "o"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowDownR",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "r"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLeftO",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "o"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLeftR",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "r"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongDownC",
+      "tags": [
+        "arrow",
+        "c",
+        "down",
+        "fill",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongDownE",
+      "tags": [
+        "arrow",
+        "down",
+        "e",
+        "fill",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongDownL",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "l",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongDownR",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "long",
+        "r"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongLeftC",
+      "tags": [
+        "arrow",
+        "c",
+        "fill",
+        "left",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongLeftE",
+      "tags": [
+        "arrow",
+        "e",
+        "fill",
+        "left",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongLeftL",
+      "tags": [
+        "arrow",
+        "fill",
+        "l",
+        "left",
+        "long"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongLeftR",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "long",
+        "r"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "long",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongRightC",
+      "tags": [
+        "arrow",
+        "c",
+        "fill",
+        "long",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongRightE",
+      "tags": [
+        "arrow",
+        "e",
+        "fill",
+        "long",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongRightL",
+      "tags": [
+        "arrow",
+        "fill",
+        "l",
+        "long",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongRightR",
+      "tags": [
+        "arrow",
+        "fill",
+        "long",
+        "r",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "long",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongUpC",
+      "tags": [
+        "arrow",
+        "c",
+        "fill",
+        "like",
+        "long",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongUpE",
+      "tags": [
+        "arrow",
+        "e",
+        "fill",
+        "like",
+        "long",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongUpL",
+      "tags": [
+        "arrow",
+        "fill",
+        "l",
+        "like",
+        "long",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowLongUpR",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "long",
+        "r",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowRightO",
+      "tags": [
+        "arrow",
+        "fill",
+        "o",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowRightR",
+      "tags": [
+        "arrow",
+        "fill",
+        "r",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowsBreakeH",
+      "tags": [
+        "arrows",
+        "breake",
+        "fill",
+        "h"
+      ],
+      "description": "Arrows Breake H icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsBreakeV",
+      "tags": [
+        "arrows",
+        "breake",
+        "fill",
+        "v"
+      ],
+      "description": "Arrows Breake V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExchange",
+      "tags": [
+        "arrows",
+        "exchange",
+        "fill"
+      ],
+      "description": "Arrows Exchange icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExchangeAlt",
+      "tags": [
+        "alt",
+        "arrows",
+        "exchange",
+        "fill"
+      ],
+      "description": "Arrows Exchange Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExchangeAltV",
+      "tags": [
+        "alt",
+        "arrows",
+        "exchange",
+        "fill",
+        "v"
+      ],
+      "description": "Arrows Exchange Alt V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExchangeV",
+      "tags": [
+        "arrows",
+        "exchange",
+        "fill",
+        "v"
+      ],
+      "description": "Arrows Exchange V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandDownLeft",
+      "tags": [
+        "arrows",
+        "down",
+        "expand",
+        "fill",
+        "left"
+      ],
+      "description": "Arrows Expand Down Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandDownRight",
+      "tags": [
+        "arrows",
+        "down",
+        "expand",
+        "fill",
+        "right"
+      ],
+      "description": "Arrows Expand Down Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandLeft",
+      "tags": [
+        "arrows",
+        "expand",
+        "fill",
+        "left"
+      ],
+      "description": "Arrows Expand Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandLeftAlt",
+      "tags": [
+        "alt",
+        "arrows",
+        "expand",
+        "fill",
+        "left"
+      ],
+      "description": "Arrows Expand Left Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandRight",
+      "tags": [
+        "arrows",
+        "expand",
+        "fill",
+        "right"
+      ],
+      "description": "Arrows Expand Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandRightAlt",
+      "tags": [
+        "alt",
+        "arrows",
+        "expand",
+        "fill",
+        "right"
+      ],
+      "description": "Arrows Expand Right Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandUpLeft",
+      "tags": [
+        "arrows",
+        "expand",
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Arrows Expand Up Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsExpandUpRight",
+      "tags": [
+        "arrows",
+        "expand",
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Arrows Expand Up Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsH",
+      "tags": [
+        "arrows",
+        "fill",
+        "h"
+      ],
+      "description": "Arrows H icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsHAlt",
+      "tags": [
+        "alt",
+        "arrows",
+        "fill",
+        "h",
+        "halt"
+      ],
+      "description": "Arrows HAlt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsMergeAltH",
+      "tags": [
+        "alt",
+        "arrows",
+        "fill",
+        "h",
+        "merge"
+      ],
+      "description": "Arrows Merge Alt H icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsMergeAltV",
+      "tags": [
+        "alt",
+        "arrows",
+        "fill",
+        "merge",
+        "v"
+      ],
+      "description": "Arrows Merge Alt V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsScrollH",
+      "tags": [
+        "arrows",
+        "fill",
+        "h",
+        "scroll"
+      ],
+      "description": "Arrows Scroll H icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsScrollV",
+      "tags": [
+        "arrows",
+        "fill",
+        "scroll",
+        "v"
+      ],
+      "description": "Arrows Scroll V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsShrinkH",
+      "tags": [
+        "arrows",
+        "fill",
+        "h",
+        "shrink"
+      ],
+      "description": "Arrows Shrink H icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsShrinkV",
+      "tags": [
+        "arrows",
+        "fill",
+        "shrink",
+        "v"
+      ],
+      "description": "Arrows Shrink V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsV",
+      "tags": [
+        "arrows",
+        "fill",
+        "v"
+      ],
+      "description": "Arrows V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowsVAlt",
+      "tags": [
+        "alt",
+        "arrows",
+        "fill",
+        "v",
+        "valt"
+      ],
+      "description": "Arrows VAlt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgArrowTopLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowTopLeftO",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "o",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowTopLeftR",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "r",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowTopRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowTopRightO",
+      "tags": [
+        "arrow",
+        "fill",
+        "o",
+        "right",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowTopRightR",
+      "tags": [
+        "arrow",
+        "fill",
+        "r",
+        "right",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowUpO",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "o",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgArrowUpR",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "r",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "CgAssign",
+      "tags": [
+        "assign",
+        "fill"
+      ],
+      "description": "Assign icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAsterisk",
+      "tags": [
+        "asterisk",
+        "fill"
+      ],
+      "description": "Asterisk icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAtlasian",
+      "tags": [
+        "atlasian",
+        "fill"
+      ],
+      "description": "Atlasian icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAttachment",
+      "tags": [
+        "attachment",
+        "fill"
+      ],
+      "description": "Attachment icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAttribution",
+      "tags": [
+        "attribution",
+        "fill"
+      ],
+      "description": "Attribution icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgAwards",
+      "tags": [
+        "awards",
+        "fill"
+      ],
+      "description": "Awards icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBackspace",
+      "tags": [
+        "backspace",
+        "fill"
+      ],
+      "description": "Backspace icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBandAid",
+      "tags": [
+        "aid",
+        "band",
+        "fill"
+      ],
+      "description": "Band Aid icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBattery",
+      "tags": [
+        "battery",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "CgBatteryEmpty",
+      "tags": [
+        "battery",
+        "empty",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "CgBatteryFull",
+      "tags": [
+        "battery",
+        "fill",
+        "full"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "CgBee",
+      "tags": [
+        "bee",
+        "fill"
+      ],
+      "description": "Bee icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "CgBitbucket",
+      "tags": [
+        "bitbucket",
+        "fill"
+      ],
+      "description": "Bitbucket icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBlock",
+      "tags": [
+        "block",
+        "fill"
+      ],
+      "description": "Block icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBmw",
+      "tags": [
+        "bmw",
+        "fill"
+      ],
+      "description": "Bmw icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBoard",
+      "tags": [
+        "board",
+        "fill"
+      ],
+      "description": "Board icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBolt",
+      "tags": [
+        "bolt",
+        "fill"
+      ],
+      "description": "Bolt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "CgBorderAll",
+      "tags": [
+        "all",
+        "border",
+        "fill"
+      ],
+      "description": "Border All icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBorderBottom",
+      "tags": [
+        "border",
+        "bottom",
+        "fill"
+      ],
+      "description": "Border Bottom icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBorderLeft",
+      "tags": [
+        "border",
+        "fill",
+        "left"
+      ],
+      "description": "Border Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBorderRight",
+      "tags": [
+        "border",
+        "fill",
+        "right"
+      ],
+      "description": "Border Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBorderStyleDashed",
+      "tags": [
+        "border",
+        "dashed",
+        "fill",
+        "style"
+      ],
+      "description": "Border Style Dashed icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBorderStyleDotted",
+      "tags": [
+        "border",
+        "dotted",
+        "fill",
+        "style"
+      ],
+      "description": "Border Style Dotted icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBorderStyleSolid",
+      "tags": [
+        "border",
+        "fill",
+        "solid",
+        "style"
+      ],
+      "description": "Border Style Solid icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBorderTop",
+      "tags": [
+        "border",
+        "fill",
+        "top"
+      ],
+      "description": "Border Top icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBot",
+      "tags": [
+        "bot",
+        "fill"
+      ],
+      "description": "Bot icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBowl",
+      "tags": [
+        "bowl",
+        "fill"
+      ],
+      "description": "Bowl icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBox",
+      "tags": [
+        "box",
+        "fill"
+      ],
+      "description": "Box icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBoy",
+      "tags": [
+        "boy",
+        "fill"
+      ],
+      "description": "Boy icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBrackets",
+      "tags": [
+        "brackets",
+        "fill"
+      ],
+      "description": "Brackets icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBriefcase",
+      "tags": [
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBrowse",
+      "tags": [
+        "browse",
+        "fill"
+      ],
+      "description": "Browse icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBrowser",
+      "tags": [
+        "browser",
+        "fill"
+      ],
+      "description": "Browser icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBrush",
+      "tags": [
+        "brush",
+        "fill"
+      ],
+      "description": "Brush icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgBulb",
+      "tags": [
+        "bulb",
+        "fill"
+      ],
+      "description": "Bulb icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCalculator",
+      "tags": [
+        "calculator",
+        "fill"
+      ],
+      "description": "Calculator icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CgCalendarDates",
+      "tags": [
+        "calendar",
+        "dates",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CgCalendarDue",
+      "tags": [
+        "calendar",
+        "due",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CgCalendarNext",
+      "tags": [
+        "calendar",
+        "fill",
+        "next"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CgCalendarToday",
+      "tags": [
+        "calendar",
+        "fill",
+        "today"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CgCalendarTwo",
+      "tags": [
+        "calendar",
+        "fill",
+        "two"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "CgCalibrate",
+      "tags": [
+        "calibrate",
+        "fill"
+      ],
+      "description": "Calibrate icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "CgCap",
+      "tags": [
+        "cap",
+        "fill"
+      ],
+      "description": "Cap icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCaptions",
+      "tags": [
+        "captions",
+        "fill"
+      ],
+      "description": "Captions icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCardClubs",
+      "tags": [
+        "card",
+        "clubs",
+        "fill"
+      ],
+      "description": "Card Clubs icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCardDiamonds",
+      "tags": [
+        "card",
+        "diamonds",
+        "fill"
+      ],
+      "description": "Card Diamonds icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCardHearts",
+      "tags": [
+        "card",
+        "fill",
+        "hearts"
+      ],
+      "description": "Card Hearts icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCardSpades",
+      "tags": [
+        "card",
+        "fill",
+        "spades"
+      ],
+      "description": "Card Spades icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCarousel",
+      "tags": [
+        "carousel",
+        "fill"
+      ],
+      "description": "Carousel icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCast",
+      "tags": [
+        "cast",
+        "fill"
+      ],
+      "description": "Cast icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgChanel",
+      "tags": [
+        "chanel",
+        "fill"
+      ],
+      "description": "Chanel icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgChart",
+      "tags": [
+        "chart",
+        "fill"
+      ],
+      "description": "Chart icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCheck",
+      "tags": [
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "CgCheckO",
+      "tags": [
+        "check",
+        "fill",
+        "o"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "CgCheckR",
+      "tags": [
+        "check",
+        "fill",
+        "r"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "CgChevronDoubleDown",
+      "tags": [
+        "chevron",
+        "double",
+        "down",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleDownO",
+      "tags": [
+        "chevron",
+        "double",
+        "down",
+        "fill",
+        "o"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleDownR",
+      "tags": [
+        "chevron",
+        "double",
+        "down",
+        "fill",
+        "r"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleLeft",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleLeftO",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "left",
+        "o"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleLeftR",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "left",
+        "r"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleRight",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleRightO",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "o",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleRightR",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "r",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleUp",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleUpO",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "like",
+        "o",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDoubleUpR",
+      "tags": [
+        "chevron",
+        "double",
+        "fill",
+        "like",
+        "r",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDown",
+      "tags": [
+        "chevron",
+        "down",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDownO",
+      "tags": [
+        "chevron",
+        "down",
+        "fill",
+        "o"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronDownR",
+      "tags": [
+        "chevron",
+        "down",
+        "fill",
+        "r"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronLeft",
+      "tags": [
+        "chevron",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronLeftO",
+      "tags": [
+        "chevron",
+        "fill",
+        "left",
+        "o"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronLeftR",
+      "tags": [
+        "chevron",
+        "fill",
+        "left",
+        "r"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronRight",
+      "tags": [
+        "chevron",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronRightO",
+      "tags": [
+        "chevron",
+        "fill",
+        "o",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronRightR",
+      "tags": [
+        "chevron",
+        "fill",
+        "r",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronUp",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronUpO",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "o",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgChevronUpR",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "r",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgCircleci",
+      "tags": [
+        "circleci",
+        "fill"
+      ],
+      "description": "Circleci icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgClapperBoard",
+      "tags": [
+        "board",
+        "clapper",
+        "fill"
+      ],
+      "description": "Clapper Board icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgClipboard",
+      "tags": [
+        "clipboard",
+        "fill"
+      ],
+      "description": "Clipboard icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgClose",
+      "tags": [
+        "close",
+        "fill"
+      ],
+      "description": "Close icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCloseO",
+      "tags": [
+        "close",
+        "fill",
+        "o"
+      ],
+      "description": "Close O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCloseR",
+      "tags": [
+        "close",
+        "fill",
+        "r"
+      ],
+      "description": "Close R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCloud",
+      "tags": [
+        "cloud",
+        "fill"
+      ],
+      "description": "Cloud icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCode",
+      "tags": [
+        "code",
+        "fill"
+      ],
+      "description": "Code icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCodeClimate",
+      "tags": [
+        "climate",
+        "code",
+        "fill"
+      ],
+      "description": "Code Climate icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCodeSlash",
+      "tags": [
+        "code",
+        "fill",
+        "slash"
+      ],
+      "description": "Code Slash icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCoffee",
+      "tags": [
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCollage",
+      "tags": [
+        "collage",
+        "fill"
+      ],
+      "description": "Collage icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgColorBucket",
+      "tags": [
+        "bucket",
+        "color",
+        "fill"
+      ],
+      "description": "Color Bucket icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgColorPicker",
+      "tags": [
+        "color",
+        "fill",
+        "picker"
+      ],
+      "description": "Color Picker icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgComedyCentral",
+      "tags": [
+        "central",
+        "comedy",
+        "fill"
+      ],
+      "description": "Comedy Central icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgComment",
+      "tags": [
+        "comment",
+        "fill"
+      ],
+      "description": "Comment icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCommunity",
+      "tags": [
+        "community",
+        "fill"
+      ],
+      "description": "Community icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgComponents",
+      "tags": [
+        "components",
+        "fill"
+      ],
+      "description": "Components icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCompress",
+      "tags": [
+        "compress",
+        "fill"
+      ],
+      "description": "Compress icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCompressLeft",
+      "tags": [
+        "compress",
+        "fill",
+        "left"
+      ],
+      "description": "Compress Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCompressRight",
+      "tags": [
+        "compress",
+        "fill",
+        "right"
+      ],
+      "description": "Compress Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCompressV",
+      "tags": [
+        "compress",
+        "fill",
+        "v"
+      ],
+      "description": "Compress V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgController",
+      "tags": [
+        "controller",
+        "fill"
+      ],
+      "description": "Controller icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCopy",
+      "tags": [
+        "copy",
+        "fill"
+      ],
+      "description": "Copy icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCopyright",
+      "tags": [
+        "copyright",
+        "fill"
+      ],
+      "description": "Copyright icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleDownLeft",
+      "tags": [
+        "corner",
+        "double",
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Corner Double Down Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleDownRight",
+      "tags": [
+        "corner",
+        "double",
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Corner Double Down Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleLeftDown",
+      "tags": [
+        "corner",
+        "double",
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Corner Double Left Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleLeftUp",
+      "tags": [
+        "corner",
+        "double",
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Corner Double Left Up icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleRightDown",
+      "tags": [
+        "corner",
+        "double",
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Corner Double Right Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleRightUp",
+      "tags": [
+        "corner",
+        "double",
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Corner Double Right Up icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleUpLeft",
+      "tags": [
+        "corner",
+        "double",
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Corner Double Up Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDoubleUpRight",
+      "tags": [
+        "corner",
+        "double",
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Corner Double Up Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDownLeft",
+      "tags": [
+        "corner",
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Corner Down Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerDownRight",
+      "tags": [
+        "corner",
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Corner Down Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerLeftDown",
+      "tags": [
+        "corner",
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Corner Left Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerLeftUp",
+      "tags": [
+        "corner",
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Corner Left Up icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerRightDown",
+      "tags": [
+        "corner",
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Corner Right Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerRightUp",
+      "tags": [
+        "corner",
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Corner Right Up icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerUpLeft",
+      "tags": [
+        "corner",
+        "fill",
+        "left",
+        "like",
+        "up"
+      ],
+      "description": "Corner Up Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCornerUpRight",
+      "tags": [
+        "corner",
+        "fill",
+        "like",
+        "right",
+        "up"
+      ],
+      "description": "Corner Up Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCPlusPlus",
+      "tags": [
+        "add",
+        "c",
+        "cplus",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "CgCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "CgCrop",
+      "tags": [
+        "crop",
+        "fill"
+      ],
+      "description": "Crop icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCross",
+      "tags": [
+        "cross",
+        "fill"
+      ],
+      "description": "Cross icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCrowdfire",
+      "tags": [
+        "crowdfire",
+        "fill"
+      ],
+      "description": "Crowdfire icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgCrown",
+      "tags": [
+        "crown",
+        "fill"
+      ],
+      "description": "Crown icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDanger",
+      "tags": [
+        "danger",
+        "fill"
+      ],
+      "description": "Danger icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDarkMode",
+      "tags": [
+        "dark",
+        "fill",
+        "mode"
+      ],
+      "description": "Dark Mode icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgData",
+      "tags": [
+        "data",
+        "fill"
+      ],
+      "description": "Data icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDatabase",
+      "tags": [
+        "database",
+        "fill"
+      ],
+      "description": "Database icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDebug",
+      "tags": [
+        "debug",
+        "fill"
+      ],
+      "description": "Debug icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDesignmodo",
+      "tags": [
+        "designmodo",
+        "fill"
+      ],
+      "description": "Designmodo icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDesktop",
+      "tags": [
+        "desktop",
+        "fill"
+      ],
+      "description": "Desktop icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDetailsLess",
+      "tags": [
+        "details",
+        "fill",
+        "less"
+      ],
+      "description": "Details Less icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDetailsMore",
+      "tags": [
+        "details",
+        "fill",
+        "more"
+      ],
+      "description": "Details More icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDialpad",
+      "tags": [
+        "dialpad",
+        "fill"
+      ],
+      "description": "Dialpad icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDice1",
+      "tags": [
+        "1",
+        "dice",
+        "dice1",
+        "fill"
+      ],
+      "description": "Dice 1 icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDice2",
+      "tags": [
+        "2",
+        "dice",
+        "dice2",
+        "fill"
+      ],
+      "description": "Dice 2 icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDice3",
+      "tags": [
+        "3",
+        "dice",
+        "dice3",
+        "fill"
+      ],
+      "description": "Dice 3 icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDice4",
+      "tags": [
+        "4",
+        "dice",
+        "dice4",
+        "fill"
+      ],
+      "description": "Dice 4 icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDice5",
+      "tags": [
+        "5",
+        "dice",
+        "dice5",
+        "fill"
+      ],
+      "description": "Dice 5 icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDice6",
+      "tags": [
+        "6",
+        "dice",
+        "dice6",
+        "fill"
+      ],
+      "description": "Dice 6 icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDigitalocean",
+      "tags": [
+        "digitalocean",
+        "fill"
+      ],
+      "description": "Digitalocean icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDisc",
+      "tags": [
+        "disc",
+        "fill"
+      ],
+      "description": "Disc icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDisplayFlex",
+      "tags": [
+        "display",
+        "fill",
+        "flex"
+      ],
+      "description": "Display Flex icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDisplayFullwidth",
+      "tags": [
+        "display",
+        "fill",
+        "fullwidth"
+      ],
+      "description": "Display Fullwidth icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDisplayGrid",
+      "tags": [
+        "display",
+        "fill",
+        "grid"
+      ],
+      "description": "Display Grid icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDisplaySpacing",
+      "tags": [
+        "display",
+        "fill",
+        "spacing"
+      ],
+      "description": "Display Spacing icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDistributeHorizontal",
+      "tags": [
+        "distribute",
+        "fill",
+        "horizontal"
+      ],
+      "description": "Distribute Horizontal icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDistributeVertical",
+      "tags": [
+        "distribute",
+        "fill",
+        "vertical"
+      ],
+      "description": "Distribute Vertical icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDockBottom",
+      "tags": [
+        "bottom",
+        "dock",
+        "fill"
+      ],
+      "description": "Dock Bottom icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDockLeft",
+      "tags": [
+        "dock",
+        "fill",
+        "left"
+      ],
+      "description": "Dock Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDockRight",
+      "tags": [
+        "dock",
+        "fill",
+        "right"
+      ],
+      "description": "Dock Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDockWindow",
+      "tags": [
+        "dock",
+        "fill",
+        "window"
+      ],
+      "description": "Dock Window icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDolby",
+      "tags": [
+        "dolby",
+        "fill"
+      ],
+      "description": "Dolby icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDollar",
+      "tags": [
+        "dollar",
+        "fill"
+      ],
+      "description": "Dollar icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDribbble",
+      "tags": [
+        "dribbble",
+        "fill"
+      ],
+      "description": "Dribbble icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDrive",
+      "tags": [
+        "drive",
+        "fill"
+      ],
+      "description": "Drive icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDrop",
+      "tags": [
+        "drop",
+        "fill"
+      ],
+      "description": "Drop icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDropInvert",
+      "tags": [
+        "drop",
+        "fill",
+        "invert"
+      ],
+      "description": "Drop Invert icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDropOpacity",
+      "tags": [
+        "drop",
+        "fill",
+        "opacity"
+      ],
+      "description": "Drop Opacity icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgDuplicate",
+      "tags": [
+        "duplicate",
+        "fill"
+      ],
+      "description": "Duplicate icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEditBlackPoint",
+      "tags": [
+        "black",
+        "edit",
+        "fill",
+        "point"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditContrast",
+      "tags": [
+        "contrast",
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditExposure",
+      "tags": [
+        "edit",
+        "exposure",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditFade",
+      "tags": [
+        "edit",
+        "fade",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditFlipH",
+      "tags": [
+        "edit",
+        "fill",
+        "flip",
+        "h"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditFlipV",
+      "tags": [
+        "edit",
+        "fill",
+        "flip",
+        "v"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditHighlight",
+      "tags": [
+        "edit",
+        "fill",
+        "highlight"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditMarkup",
+      "tags": [
+        "edit",
+        "fill",
+        "markup"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditMask",
+      "tags": [
+        "edit",
+        "fill",
+        "mask"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditNoise",
+      "tags": [
+        "edit",
+        "fill",
+        "noise"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditShadows",
+      "tags": [
+        "edit",
+        "fill",
+        "shadows"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditStraight",
+      "tags": [
+        "edit",
+        "fill",
+        "straight"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEditUnmask",
+      "tags": [
+        "edit",
+        "fill",
+        "unmask"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "CgEject",
+      "tags": [
+        "eject",
+        "fill"
+      ],
+      "description": "Eject icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEnter",
+      "tags": [
+        "enter",
+        "fill"
+      ],
+      "description": "Enter icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgErase",
+      "tags": [
+        "erase",
+        "fill"
+      ],
+      "description": "Erase icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEreader",
+      "tags": [
+        "ereader",
+        "fill"
+      ],
+      "description": "Ereader icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEricsson",
+      "tags": [
+        "ericsson",
+        "fill"
+      ],
+      "description": "Ericsson icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEthernet",
+      "tags": [
+        "ethernet",
+        "fill"
+      ],
+      "description": "Ethernet icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEuro",
+      "tags": [
+        "euro",
+        "fill"
+      ],
+      "description": "Euro icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEventbrite",
+      "tags": [
+        "eventbrite",
+        "fill"
+      ],
+      "description": "Eventbrite icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgExpand",
+      "tags": [
+        "expand",
+        "fill"
+      ],
+      "description": "Expand icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgExport",
+      "tags": [
+        "export",
+        "fill"
+      ],
+      "description": "Export icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgExtension",
+      "tags": [
+        "extension",
+        "fill"
+      ],
+      "description": "Extension icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgExtensionAdd",
+      "tags": [
+        "add",
+        "extension",
+        "fill"
+      ],
+      "description": "Extension Add icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgExtensionAlt",
+      "tags": [
+        "alt",
+        "extension",
+        "fill"
+      ],
+      "description": "Extension Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgExtensionRemove",
+      "tags": [
+        "extension",
+        "fill",
+        "remove"
+      ],
+      "description": "Extension Remove icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgExternal",
+      "tags": [
+        "external",
+        "fill"
+      ],
+      "description": "External icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgEye",
+      "tags": [
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "CgEyeAlt",
+      "tags": [
+        "alt",
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "CgFacebook",
+      "tags": [
+        "facebook",
+        "fill"
+      ],
+      "description": "Facebook icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFeed",
+      "tags": [
+        "feed",
+        "fill"
+      ],
+      "description": "Feed icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFigma",
+      "tags": [
+        "figma",
+        "fill"
+      ],
+      "description": "Figma icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "CgFileAdd",
+      "tags": [
+        "add",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "CgFileDocument",
+      "tags": [
+        "document",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "CgFileRemove",
+      "tags": [
+        "file",
+        "fill",
+        "remove"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "CgFilm",
+      "tags": [
+        "fill",
+        "film"
+      ],
+      "description": "Film icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFilters",
+      "tags": [
+        "fill",
+        "filters"
+      ],
+      "description": "Filters icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFlagAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "flag"
+      ],
+      "description": "Flag Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "CgFolderAdd",
+      "tags": [
+        "add",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "CgFolderRemove",
+      "tags": [
+        "fill",
+        "folder",
+        "remove"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "CgFontHeight",
+      "tags": [
+        "fill",
+        "font",
+        "height"
+      ],
+      "description": "Font Height icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFontSpacing",
+      "tags": [
+        "fill",
+        "font",
+        "spacing"
+      ],
+      "description": "Font Spacing icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatBold",
+      "tags": [
+        "bold",
+        "fill",
+        "format"
+      ],
+      "description": "Format Bold icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatCenter",
+      "tags": [
+        "center",
+        "fill",
+        "format"
+      ],
+      "description": "Format Center icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatColor",
+      "tags": [
+        "color",
+        "fill",
+        "format"
+      ],
+      "description": "Format Color icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatHeading",
+      "tags": [
+        "fill",
+        "format",
+        "heading"
+      ],
+      "description": "Format Heading icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatIndentDecrease",
+      "tags": [
+        "decrease",
+        "fill",
+        "format",
+        "indent"
+      ],
+      "description": "Format Indent Decrease icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatIndentIncrease",
+      "tags": [
+        "fill",
+        "format",
+        "increase",
+        "indent"
+      ],
+      "description": "Format Indent Increase icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatItalic",
+      "tags": [
+        "fill",
+        "format",
+        "italic"
+      ],
+      "description": "Format Italic icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatJustify",
+      "tags": [
+        "fill",
+        "format",
+        "justify"
+      ],
+      "description": "Format Justify icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatLeft",
+      "tags": [
+        "fill",
+        "format",
+        "left"
+      ],
+      "description": "Format Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatLineHeight",
+      "tags": [
+        "fill",
+        "format",
+        "height",
+        "line"
+      ],
+      "description": "Format Line Height icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatRight",
+      "tags": [
+        "fill",
+        "format",
+        "right"
+      ],
+      "description": "Format Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatSeparator",
+      "tags": [
+        "fill",
+        "format",
+        "separator"
+      ],
+      "description": "Format Separator icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatSlash",
+      "tags": [
+        "fill",
+        "format",
+        "slash"
+      ],
+      "description": "Format Slash icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatStrike",
+      "tags": [
+        "fill",
+        "format",
+        "strike"
+      ],
+      "description": "Format Strike icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatText",
+      "tags": [
+        "fill",
+        "format",
+        "text"
+      ],
+      "description": "Format Text icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatUnderline",
+      "tags": [
+        "fill",
+        "format",
+        "underline"
+      ],
+      "description": "Format Underline icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFormatUppercase",
+      "tags": [
+        "fill",
+        "format",
+        "uppercase"
+      ],
+      "description": "Format Uppercase icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgFramer",
+      "tags": [
+        "fill",
+        "framer"
+      ],
+      "description": "Framer icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGames",
+      "tags": [
+        "fill",
+        "games"
+      ],
+      "description": "Games icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGenderFemale",
+      "tags": [
+        "female",
+        "fill",
+        "gender"
+      ],
+      "description": "Gender Female icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGenderMale",
+      "tags": [
+        "fill",
+        "gender",
+        "male"
+      ],
+      "description": "Gender Male icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGhost",
+      "tags": [
+        "fill",
+        "ghost"
+      ],
+      "description": "Ghost icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGhostCharacter",
+      "tags": [
+        "character",
+        "fill",
+        "ghost"
+      ],
+      "description": "Ghost Character icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGift",
+      "tags": [
+        "fill",
+        "gift"
+      ],
+      "description": "Gift icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGirl",
+      "tags": [
+        "fill",
+        "girl"
+      ],
+      "description": "Girl icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGitBranch",
+      "tags": [
+        "branch",
+        "fill",
+        "git"
+      ],
+      "description": "Git Branch icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGitCommit",
+      "tags": [
+        "commit",
+        "fill",
+        "git"
+      ],
+      "description": "Git Commit icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGitFork",
+      "tags": [
+        "fill",
+        "fork",
+        "git"
+      ],
+      "description": "Git Fork icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGitPull",
+      "tags": [
+        "fill",
+        "git",
+        "pull"
+      ],
+      "description": "Git Pull icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGitter",
+      "tags": [
+        "fill",
+        "gitter"
+      ],
+      "description": "Gitter icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGlass",
+      "tags": [
+        "fill",
+        "glass"
+      ],
+      "description": "Glass icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGlassAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "glass"
+      ],
+      "description": "Glass Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGlobe",
+      "tags": [
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "CgGlobeAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "CgGoogle",
+      "tags": [
+        "fill",
+        "google"
+      ],
+      "description": "Google icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGoogleTasks",
+      "tags": [
+        "fill",
+        "google",
+        "tasks"
+      ],
+      "description": "Google Tasks icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgGym",
+      "tags": [
+        "fill",
+        "gym"
+      ],
+      "description": "Gym icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgHashtag",
+      "tags": [
+        "fill",
+        "hashtag"
+      ],
+      "description": "Hashtag icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgHeadset",
+      "tags": [
+        "fill",
+        "headset"
+      ],
+      "description": "Headset icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "CgHello",
+      "tags": [
+        "fill",
+        "hello"
+      ],
+      "description": "Hello icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgHomeAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgHomeScreen",
+      "tags": [
+        "fill",
+        "home",
+        "house",
+        "screen"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgIcecream",
+      "tags": [
+        "fill",
+        "icecream"
+      ],
+      "description": "Icecream icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgIfDesign",
+      "tags": [
+        "design",
+        "fill",
+        "if"
+      ],
+      "description": "If Design icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgImage",
+      "tags": [
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "CgImport",
+      "tags": [
+        "fill",
+        "import"
+      ],
+      "description": "Import icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInbox",
+      "tags": [
+        "fill",
+        "inbox"
+      ],
+      "description": "Inbox icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgIndieHackers",
+      "tags": [
+        "fill",
+        "hackers",
+        "indie"
+      ],
+      "description": "Indie Hackers icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInfinity",
+      "tags": [
+        "fill",
+        "infinity"
+      ],
+      "description": "Infinity icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInfo",
+      "tags": [
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "CgInpicture",
+      "tags": [
+        "fill",
+        "inpicture"
+      ],
+      "description": "Inpicture icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInsertAfter",
+      "tags": [
+        "after",
+        "fill",
+        "insert"
+      ],
+      "description": "Insert After icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInsertAfterO",
+      "tags": [
+        "after",
+        "fill",
+        "insert",
+        "o"
+      ],
+      "description": "Insert After O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInsertAfterR",
+      "tags": [
+        "after",
+        "fill",
+        "insert",
+        "r"
+      ],
+      "description": "Insert After R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInsertBefore",
+      "tags": [
+        "before",
+        "fill",
+        "insert"
+      ],
+      "description": "Insert Before icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInsertBeforeO",
+      "tags": [
+        "before",
+        "fill",
+        "insert",
+        "o"
+      ],
+      "description": "Insert Before O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInsertBeforeR",
+      "tags": [
+        "before",
+        "fill",
+        "insert",
+        "r"
+      ],
+      "description": "Insert Before R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInsights",
+      "tags": [
+        "fill",
+        "insights"
+      ],
+      "description": "Insights icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInstagram",
+      "tags": [
+        "fill",
+        "instagram"
+      ],
+      "description": "Instagram icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgInternal",
+      "tags": [
+        "fill",
+        "internal"
+      ],
+      "description": "Internal icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgKeyboard",
+      "tags": [
+        "fill",
+        "keyboard"
+      ],
+      "description": "Keyboard icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgKeyhole",
+      "tags": [
+        "fill",
+        "keyhole"
+      ],
+      "description": "Keyhole icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLaptop",
+      "tags": [
+        "fill",
+        "laptop"
+      ],
+      "description": "Laptop icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLastpass",
+      "tags": [
+        "fill",
+        "lastpass"
+      ],
+      "description": "Lastpass icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLayoutGrid",
+      "tags": [
+        "fill",
+        "grid",
+        "layout"
+      ],
+      "description": "Layout Grid icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLayoutGridSmall",
+      "tags": [
+        "fill",
+        "grid",
+        "layout",
+        "small"
+      ],
+      "description": "Layout Grid Small icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLayoutList",
+      "tags": [
+        "fill",
+        "layout",
+        "list"
+      ],
+      "description": "Layout List icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLayoutPin",
+      "tags": [
+        "fill",
+        "layout",
+        "pin"
+      ],
+      "description": "Layout Pin icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLinear",
+      "tags": [
+        "fill",
+        "linear"
+      ],
+      "description": "Linear icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "CgList",
+      "tags": [
+        "fill",
+        "list"
+      ],
+      "description": "List icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgListTree",
+      "tags": [
+        "fill",
+        "list",
+        "tree"
+      ],
+      "description": "List Tree icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLivePhoto",
+      "tags": [
+        "fill",
+        "live",
+        "photo"
+      ],
+      "description": "Live Photo icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLoadbar",
+      "tags": [
+        "fill",
+        "loadbar"
+      ],
+      "description": "Loadbar icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLoadbarAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "loadbar"
+      ],
+      "description": "Loadbar Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLoadbarDoc",
+      "tags": [
+        "doc",
+        "fill",
+        "loadbar"
+      ],
+      "description": "Loadbar Doc icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLoadbarSound",
+      "tags": [
+        "fill",
+        "loadbar",
+        "sound"
+      ],
+      "description": "Loadbar Sound icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "CgLockUnlock",
+      "tags": [
+        "fill",
+        "lock",
+        "unlock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "CgLogIn",
+      "tags": [
+        "fill",
+        "in",
+        "log"
+      ],
+      "description": "Log In icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLogOff",
+      "tags": [
+        "fill",
+        "hide",
+        "log",
+        "off"
+      ],
+      "description": "Log Off icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLogOut",
+      "tags": [
+        "fill",
+        "log",
+        "out"
+      ],
+      "description": "Log Out icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgLoupe",
+      "tags": [
+        "fill",
+        "loupe"
+      ],
+      "description": "Loupe icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMagnet",
+      "tags": [
+        "fill",
+        "magnet"
+      ],
+      "description": "Magnet icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMail",
+      "tags": [
+        "fill",
+        "mail"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "CgMailForward",
+      "tags": [
+        "fill",
+        "forward",
+        "mail"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "CgMailOpen",
+      "tags": [
+        "fill",
+        "mail",
+        "open"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "CgMailReply",
+      "tags": [
+        "fill",
+        "mail",
+        "reply"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "CgMathDivide",
+      "tags": [
+        "divide",
+        "fill",
+        "math"
+      ],
+      "description": "Math Divide icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMathEqual",
+      "tags": [
+        "equal",
+        "fill",
+        "math"
+      ],
+      "description": "Math Equal icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMathMinus",
+      "tags": [
+        "fill",
+        "math",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "CgMathPercent",
+      "tags": [
+        "fill",
+        "math",
+        "percent"
+      ],
+      "description": "Math Percent icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMathPlus",
+      "tags": [
+        "add",
+        "fill",
+        "math",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "CgMaximize",
+      "tags": [
+        "fill",
+        "maximize"
+      ],
+      "description": "Maximize icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMaximizeAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "maximize"
+      ],
+      "description": "Maximize Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMaze",
+      "tags": [
+        "fill",
+        "maze"
+      ],
+      "description": "Maze icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMediaLive",
+      "tags": [
+        "fill",
+        "live",
+        "media"
+      ],
+      "description": "Media Live icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMediaPodcast",
+      "tags": [
+        "fill",
+        "media",
+        "podcast"
+      ],
+      "description": "Media Podcast icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMenu",
+      "tags": [
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuBoxed",
+      "tags": [
+        "boxed",
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuCake",
+      "tags": [
+        "cake",
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuCheese",
+      "tags": [
+        "cheese",
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuGridO",
+      "tags": [
+        "fill",
+        "grid",
+        "menu",
+        "o"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuGridR",
+      "tags": [
+        "fill",
+        "grid",
+        "menu",
+        "r"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuHotdog",
+      "tags": [
+        "fill",
+        "hotdog",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuLeft",
+      "tags": [
+        "fill",
+        "left",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuLeftAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "left",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuMotion",
+      "tags": [
+        "fill",
+        "menu",
+        "motion"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuOreos",
+      "tags": [
+        "fill",
+        "menu",
+        "oreos"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuRight",
+      "tags": [
+        "fill",
+        "menu",
+        "right"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuRightAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "menu",
+        "right"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMenuRound",
+      "tags": [
+        "fill",
+        "menu",
+        "round"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "CgMergeHorizontal",
+      "tags": [
+        "fill",
+        "horizontal",
+        "merge"
+      ],
+      "description": "Merge Horizontal icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMergeVertical",
+      "tags": [
+        "fill",
+        "merge",
+        "vertical"
+      ],
+      "description": "Merge Vertical icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMic",
+      "tags": [
+        "fill",
+        "mic"
+      ],
+      "description": "Mic icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMicrobit",
+      "tags": [
+        "fill",
+        "microbit"
+      ],
+      "description": "Microbit icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMicrosoft",
+      "tags": [
+        "fill",
+        "microsoft"
+      ],
+      "description": "Microsoft icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMinimize",
+      "tags": [
+        "fill",
+        "minimize"
+      ],
+      "description": "Minimize icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMinimizeAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "minimize"
+      ],
+      "description": "Minimize Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMiniPlayer",
+      "tags": [
+        "fill",
+        "mini",
+        "player"
+      ],
+      "description": "Mini Player icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgModem",
+      "tags": [
+        "fill",
+        "modem"
+      ],
+      "description": "Modem icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMonday",
+      "tags": [
+        "fill",
+        "monday"
+      ],
+      "description": "Monday icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoon",
+      "tags": [
+        "fill",
+        "moon"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "CgMore",
+      "tags": [
+        "fill",
+        "more"
+      ],
+      "description": "More icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoreAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "more"
+      ],
+      "description": "More Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoreO",
+      "tags": [
+        "fill",
+        "more",
+        "o"
+      ],
+      "description": "More O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoreR",
+      "tags": [
+        "fill",
+        "more",
+        "r"
+      ],
+      "description": "More R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoreVertical",
+      "tags": [
+        "fill",
+        "more",
+        "vertical"
+      ],
+      "description": "More Vertical icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoreVerticalAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "more",
+        "vertical"
+      ],
+      "description": "More Vertical Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoreVerticalO",
+      "tags": [
+        "fill",
+        "more",
+        "o",
+        "vertical"
+      ],
+      "description": "More Vertical O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoreVerticalR",
+      "tags": [
+        "fill",
+        "more",
+        "r",
+        "vertical"
+      ],
+      "description": "More Vertical R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMouse",
+      "tags": [
+        "fill",
+        "mouse"
+      ],
+      "description": "Mouse icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoveDown",
+      "tags": [
+        "down",
+        "fill",
+        "move"
+      ],
+      "description": "Move Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoveLeft",
+      "tags": [
+        "fill",
+        "left",
+        "move"
+      ],
+      "description": "Move Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoveRight",
+      "tags": [
+        "fill",
+        "move",
+        "right"
+      ],
+      "description": "Move Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoveTask",
+      "tags": [
+        "fill",
+        "move",
+        "task"
+      ],
+      "description": "Move Task icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMoveUp",
+      "tags": [
+        "fill",
+        "like",
+        "move",
+        "up"
+      ],
+      "description": "Move Up icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMusic",
+      "tags": [
+        "fill",
+        "music"
+      ],
+      "description": "Music icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMusicNote",
+      "tags": [
+        "fill",
+        "music",
+        "note"
+      ],
+      "description": "Music Note icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgMusicSpeaker",
+      "tags": [
+        "fill",
+        "music",
+        "speaker"
+      ],
+      "description": "Music Speaker icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgNametag",
+      "tags": [
+        "fill",
+        "nametag"
+      ],
+      "description": "Nametag icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgNotes",
+      "tags": [
+        "fill",
+        "notes"
+      ],
+      "description": "Notes icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgNotifications",
+      "tags": [
+        "fill",
+        "notifications"
+      ],
+      "description": "Notifications icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgNpm",
+      "tags": [
+        "fill",
+        "npm"
+      ],
+      "description": "Npm icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgOculus",
+      "tags": [
+        "fill",
+        "oculus"
+      ],
+      "description": "Oculus icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgOpenCollective",
+      "tags": [
+        "collective",
+        "fill",
+        "open"
+      ],
+      "description": "Open Collective icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgOptions",
+      "tags": [
+        "fill",
+        "options"
+      ],
+      "description": "Options icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgOrganisation",
+      "tags": [
+        "fill",
+        "organisation"
+      ],
+      "description": "Organisation icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgOverflow",
+      "tags": [
+        "fill",
+        "overflow"
+      ],
+      "description": "Overflow icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPacman",
+      "tags": [
+        "fill",
+        "pacman"
+      ],
+      "description": "Pacman icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPassword",
+      "tags": [
+        "fill",
+        "password"
+      ],
+      "description": "Password icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathBack",
+      "tags": [
+        "back",
+        "fill",
+        "path"
+      ],
+      "description": "Path Back icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathCrop",
+      "tags": [
+        "crop",
+        "fill",
+        "path"
+      ],
+      "description": "Path Crop icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathDivide",
+      "tags": [
+        "divide",
+        "fill",
+        "path"
+      ],
+      "description": "Path Divide icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathExclude",
+      "tags": [
+        "exclude",
+        "fill",
+        "path"
+      ],
+      "description": "Path Exclude icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathFront",
+      "tags": [
+        "fill",
+        "front",
+        "path"
+      ],
+      "description": "Path Front icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathIntersect",
+      "tags": [
+        "fill",
+        "intersect",
+        "path"
+      ],
+      "description": "Path Intersect icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "path"
+      ],
+      "description": "Path Outline icon — css.gg (cg) set, fill style. Outline variant."
+    },
+    {
+      "name": "CgPathTrim",
+      "tags": [
+        "fill",
+        "path",
+        "trim"
+      ],
+      "description": "Path Trim icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPathUnite",
+      "tags": [
+        "fill",
+        "path",
+        "unite"
+      ],
+      "description": "Path Unite icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPatreon",
+      "tags": [
+        "fill",
+        "patreon"
+      ],
+      "description": "Patreon icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPaypal",
+      "tags": [
+        "fill",
+        "paypal"
+      ],
+      "description": "Paypal icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPen",
+      "tags": [
+        "edit",
+        "fill",
+        "pen"
+      ],
+      "description": "Pen icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonBottomLeft",
+      "tags": [
+        "bottom",
+        "fill",
+        "left",
+        "pentagon"
+      ],
+      "description": "Pentagon Bottom Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonBottomRight",
+      "tags": [
+        "bottom",
+        "fill",
+        "pentagon",
+        "right"
+      ],
+      "description": "Pentagon Bottom Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonDown",
+      "tags": [
+        "down",
+        "fill",
+        "pentagon"
+      ],
+      "description": "Pentagon Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonLeft",
+      "tags": [
+        "fill",
+        "left",
+        "pentagon"
+      ],
+      "description": "Pentagon Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonRight",
+      "tags": [
+        "fill",
+        "pentagon",
+        "right"
+      ],
+      "description": "Pentagon Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonTopLeft",
+      "tags": [
+        "fill",
+        "left",
+        "pentagon",
+        "top"
+      ],
+      "description": "Pentagon Top Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonTopRight",
+      "tags": [
+        "fill",
+        "pentagon",
+        "right",
+        "top"
+      ],
+      "description": "Pentagon Top Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPentagonUp",
+      "tags": [
+        "fill",
+        "like",
+        "pentagon",
+        "up"
+      ],
+      "description": "Pentagon Up icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPerformance",
+      "tags": [
+        "fill",
+        "performance"
+      ],
+      "description": "Performance icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPexels",
+      "tags": [
+        "fill",
+        "pexels"
+      ],
+      "description": "Pexels icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPhone",
+      "tags": [
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "CgPhotoscan",
+      "tags": [
+        "fill",
+        "photoscan"
+      ],
+      "description": "Photoscan icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPiano",
+      "tags": [
+        "fill",
+        "piano"
+      ],
+      "description": "Piano icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPill",
+      "tags": [
+        "fill",
+        "pill"
+      ],
+      "description": "Pill icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPin",
+      "tags": [
+        "fill",
+        "pin"
+      ],
+      "description": "Pin icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPinAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "pin"
+      ],
+      "description": "Pin Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPinBottom",
+      "tags": [
+        "bottom",
+        "fill",
+        "pin"
+      ],
+      "description": "Pin Bottom icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPinTop",
+      "tags": [
+        "fill",
+        "pin",
+        "top"
+      ],
+      "description": "Pin Top icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPlayBackwards",
+      "tags": [
+        "backwards",
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayButton",
+      "tags": [
+        "button",
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayButtonO",
+      "tags": [
+        "button",
+        "fill",
+        "o",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayButtonR",
+      "tags": [
+        "button",
+        "fill",
+        "play",
+        "r"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayForwards",
+      "tags": [
+        "fill",
+        "forwards",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayList",
+      "tags": [
+        "fill",
+        "list",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayListAdd",
+      "tags": [
+        "add",
+        "fill",
+        "list",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayListCheck",
+      "tags": [
+        "check",
+        "fill",
+        "list",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayListRemove",
+      "tags": [
+        "fill",
+        "list",
+        "play",
+        "remove"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayListSearch",
+      "tags": [
+        "fill",
+        "find",
+        "list",
+        "play",
+        "search"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayPause",
+      "tags": [
+        "fill",
+        "pause",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayPauseO",
+      "tags": [
+        "fill",
+        "o",
+        "pause",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayPauseR",
+      "tags": [
+        "fill",
+        "pause",
+        "play",
+        "r"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayStop",
+      "tags": [
+        "fill",
+        "play",
+        "stop"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayStopO",
+      "tags": [
+        "fill",
+        "o",
+        "play",
+        "stop"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayStopR",
+      "tags": [
+        "fill",
+        "play",
+        "r",
+        "stop"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayTrackNext",
+      "tags": [
+        "fill",
+        "next",
+        "play",
+        "track"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayTrackNextO",
+      "tags": [
+        "fill",
+        "next",
+        "o",
+        "play",
+        "track"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayTrackNextR",
+      "tags": [
+        "fill",
+        "next",
+        "play",
+        "r",
+        "track"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayTrackPrev",
+      "tags": [
+        "fill",
+        "play",
+        "prev",
+        "track"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayTrackPrevO",
+      "tags": [
+        "fill",
+        "o",
+        "play",
+        "prev",
+        "track"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlayTrackPrevR",
+      "tags": [
+        "fill",
+        "play",
+        "prev",
+        "r",
+        "track"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "CgPlug",
+      "tags": [
+        "fill",
+        "plug"
+      ],
+      "description": "Plug icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPocket",
+      "tags": [
+        "fill",
+        "pocket"
+      ],
+      "description": "Pocket icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPokemon",
+      "tags": [
+        "fill",
+        "pokemon"
+      ],
+      "description": "Pokemon icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPolaroid",
+      "tags": [
+        "fill",
+        "polaroid"
+      ],
+      "description": "Polaroid icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPoll",
+      "tags": [
+        "fill",
+        "poll"
+      ],
+      "description": "Poll icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPresentation",
+      "tags": [
+        "fill",
+        "presentation"
+      ],
+      "description": "Presentation icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPrinter",
+      "tags": [
+        "fill",
+        "printer"
+      ],
+      "description": "Printer icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgProductHunt",
+      "tags": [
+        "fill",
+        "hunt",
+        "product"
+      ],
+      "description": "Product Hunt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgProfile",
+      "tags": [
+        "fill",
+        "profile"
+      ],
+      "description": "Profile icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPullClear",
+      "tags": [
+        "clear",
+        "fill",
+        "pull"
+      ],
+      "description": "Pull Clear icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPushChevronDown",
+      "tags": [
+        "chevron",
+        "down",
+        "fill",
+        "push"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronDownO",
+      "tags": [
+        "chevron",
+        "down",
+        "fill",
+        "o",
+        "push"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronDownR",
+      "tags": [
+        "chevron",
+        "down",
+        "fill",
+        "push",
+        "r"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronLeft",
+      "tags": [
+        "chevron",
+        "fill",
+        "left",
+        "push"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronLeftO",
+      "tags": [
+        "chevron",
+        "fill",
+        "left",
+        "o",
+        "push"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronLeftR",
+      "tags": [
+        "chevron",
+        "fill",
+        "left",
+        "push",
+        "r"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronRight",
+      "tags": [
+        "chevron",
+        "fill",
+        "push",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronRightO",
+      "tags": [
+        "chevron",
+        "fill",
+        "o",
+        "push",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronRightR",
+      "tags": [
+        "chevron",
+        "fill",
+        "push",
+        "r",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronUp",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "push",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronUpO",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "o",
+        "push",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushChevronUpR",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "push",
+        "r",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "CgPushDown",
+      "tags": [
+        "down",
+        "fill",
+        "push"
+      ],
+      "description": "Push Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPushLeft",
+      "tags": [
+        "fill",
+        "left",
+        "push"
+      ],
+      "description": "Push Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPushRight",
+      "tags": [
+        "fill",
+        "push",
+        "right"
+      ],
+      "description": "Push Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgPushUp",
+      "tags": [
+        "fill",
+        "like",
+        "push",
+        "up"
+      ],
+      "description": "Push Up icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgQr",
+      "tags": [
+        "fill",
+        "qr"
+      ],
+      "description": "Qr icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgQuote",
+      "tags": [
+        "fill",
+        "quote"
+      ],
+      "description": "Quote icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgQuoteO",
+      "tags": [
+        "fill",
+        "o",
+        "quote"
+      ],
+      "description": "Quote O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRadioCheck",
+      "tags": [
+        "check",
+        "fill",
+        "radio"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "CgRadioChecked",
+      "tags": [
+        "checked",
+        "fill",
+        "radio"
+      ],
+      "description": "Radio Checked icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRatio",
+      "tags": [
+        "fill",
+        "ratio"
+      ],
+      "description": "Ratio icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRead",
+      "tags": [
+        "fill",
+        "read"
+      ],
+      "description": "Read icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgReadme",
+      "tags": [
+        "fill",
+        "readme"
+      ],
+      "description": "Readme icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRecord",
+      "tags": [
+        "fill",
+        "record"
+      ],
+      "description": "Record icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRedo",
+      "tags": [
+        "fill",
+        "redo"
+      ],
+      "description": "Redo icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRemote",
+      "tags": [
+        "fill",
+        "remote"
+      ],
+      "description": "Remote icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRemove",
+      "tags": [
+        "fill",
+        "remove"
+      ],
+      "description": "Remove icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRemoveR",
+      "tags": [
+        "fill",
+        "r",
+        "remove"
+      ],
+      "description": "Remove R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRename",
+      "tags": [
+        "fill",
+        "rename"
+      ],
+      "description": "Rename icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgReorder",
+      "tags": [
+        "fill",
+        "reorder"
+      ],
+      "description": "Reorder icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRepeat",
+      "tags": [
+        "fill",
+        "repeat"
+      ],
+      "description": "Repeat icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRing",
+      "tags": [
+        "fill",
+        "ring"
+      ],
+      "description": "Ring icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRowFirst",
+      "tags": [
+        "fill",
+        "first",
+        "row"
+      ],
+      "description": "Row First icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRowLast",
+      "tags": [
+        "fill",
+        "last",
+        "row"
+      ],
+      "description": "Row Last icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgRuler",
+      "tags": [
+        "fill",
+        "ruler"
+      ],
+      "description": "Ruler icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSandClock",
+      "tags": [
+        "clock",
+        "fill",
+        "sand"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "CgScan",
+      "tags": [
+        "fill",
+        "scan"
+      ],
+      "description": "Scan icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgScreen",
+      "tags": [
+        "fill",
+        "screen"
+      ],
+      "description": "Screen icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgScreenMirror",
+      "tags": [
+        "fill",
+        "mirror",
+        "screen"
+      ],
+      "description": "Screen Mirror icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgScreenShot",
+      "tags": [
+        "fill",
+        "screen",
+        "shot"
+      ],
+      "description": "Screen Shot icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgScreenWide",
+      "tags": [
+        "fill",
+        "screen",
+        "wide"
+      ],
+      "description": "Screen Wide icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgScrollH",
+      "tags": [
+        "fill",
+        "h",
+        "scroll"
+      ],
+      "description": "Scroll H icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgScrollV",
+      "tags": [
+        "fill",
+        "scroll",
+        "v"
+      ],
+      "description": "Scroll V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSearch",
+      "tags": [
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "CgSearchFound",
+      "tags": [
+        "fill",
+        "find",
+        "found",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "CgSearchLoading",
+      "tags": [
+        "fill",
+        "find",
+        "loading",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "CgSelect",
+      "tags": [
+        "fill",
+        "select"
+      ],
+      "description": "Select icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSelectO",
+      "tags": [
+        "fill",
+        "o",
+        "select"
+      ],
+      "description": "Select O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSelectR",
+      "tags": [
+        "fill",
+        "r",
+        "select"
+      ],
+      "description": "Select R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgServer",
+      "tags": [
+        "fill",
+        "server"
+      ],
+      "description": "Server icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgServerless",
+      "tags": [
+        "fill",
+        "serverless"
+      ],
+      "description": "Serverless icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShapeCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "shape"
+      ],
+      "description": "Shape Circle icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShapeHalfCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "half",
+        "shape"
+      ],
+      "description": "Shape Half Circle icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShapeHexagon",
+      "tags": [
+        "fill",
+        "hexagon",
+        "shape"
+      ],
+      "description": "Shape Hexagon icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShapeRhombus",
+      "tags": [
+        "fill",
+        "rhombus",
+        "shape"
+      ],
+      "description": "Shape Rhombus icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShapeSquare",
+      "tags": [
+        "fill",
+        "shape",
+        "square"
+      ],
+      "description": "Shape Square icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShapeTriangle",
+      "tags": [
+        "fill",
+        "shape",
+        "triangle",
+        "warning"
+      ],
+      "description": "Shape Triangle icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShapeZigzag",
+      "tags": [
+        "fill",
+        "shape",
+        "zigzag"
+      ],
+      "description": "Shape Zigzag icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShare",
+      "tags": [
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "CgShield",
+      "tags": [
+        "fill",
+        "shield"
+      ],
+      "description": "Shield icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShoppingBag",
+      "tags": [
+        "bag",
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping Bag icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShoppingCart",
+      "tags": [
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping cart — carts, checkout and e-commerce."
+    },
+    {
+      "name": "CgShortcut",
+      "tags": [
+        "fill",
+        "shortcut"
+      ],
+      "description": "Shortcut icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgShutterstock",
+      "tags": [
+        "fill",
+        "shutterstock"
+      ],
+      "description": "Shutterstock icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSidebar",
+      "tags": [
+        "fill",
+        "sidebar"
+      ],
+      "description": "Sidebar icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSidebarOpen",
+      "tags": [
+        "fill",
+        "open",
+        "sidebar"
+      ],
+      "description": "Sidebar Open icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSidebarRight",
+      "tags": [
+        "fill",
+        "right",
+        "sidebar"
+      ],
+      "description": "Sidebar Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSignal",
+      "tags": [
+        "fill",
+        "signal"
+      ],
+      "description": "Signal icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSize",
+      "tags": [
+        "fill",
+        "size"
+      ],
+      "description": "Size icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSketch",
+      "tags": [
+        "fill",
+        "sketch"
+      ],
+      "description": "Sketch icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSlack",
+      "tags": [
+        "fill",
+        "slack"
+      ],
+      "description": "Slack icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSleep",
+      "tags": [
+        "fill",
+        "sleep"
+      ],
+      "description": "Sleep icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmartHomeBoiler",
+      "tags": [
+        "boiler",
+        "fill",
+        "home",
+        "house",
+        "smart"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgSmartHomeCooker",
+      "tags": [
+        "cooker",
+        "fill",
+        "home",
+        "house",
+        "smart"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgSmartHomeHeat",
+      "tags": [
+        "fill",
+        "heat",
+        "home",
+        "house",
+        "smart"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgSmartHomeLight",
+      "tags": [
+        "fill",
+        "home",
+        "house",
+        "light",
+        "smart"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgSmartHomeRefrigerator",
+      "tags": [
+        "fill",
+        "home",
+        "house",
+        "refrigerator",
+        "smart"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgSmartHomeWashMachine",
+      "tags": [
+        "fill",
+        "home",
+        "house",
+        "machine",
+        "smart",
+        "wash"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "CgSmartphone",
+      "tags": [
+        "fill",
+        "smartphone"
+      ],
+      "description": "Smartphone icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmartphoneChip",
+      "tags": [
+        "chip",
+        "fill",
+        "smartphone"
+      ],
+      "description": "Smartphone Chip icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmartphoneRam",
+      "tags": [
+        "fill",
+        "ram",
+        "smartphone"
+      ],
+      "description": "Smartphone Ram icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmartphoneShake",
+      "tags": [
+        "fill",
+        "shake",
+        "smartphone"
+      ],
+      "description": "Smartphone Shake icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmile",
+      "tags": [
+        "fill",
+        "smile"
+      ],
+      "description": "Smile icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmileMouthOpen",
+      "tags": [
+        "fill",
+        "mouth",
+        "open",
+        "smile"
+      ],
+      "description": "Smile Mouth Open icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmileNeutral",
+      "tags": [
+        "fill",
+        "neutral",
+        "smile"
+      ],
+      "description": "Smile Neutral icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmileNoMouth",
+      "tags": [
+        "fill",
+        "mouth",
+        "no",
+        "smile"
+      ],
+      "description": "Smile No Mouth icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmileNone",
+      "tags": [
+        "fill",
+        "none",
+        "smile"
+      ],
+      "description": "Smile None icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmileSad",
+      "tags": [
+        "fill",
+        "sad",
+        "smile"
+      ],
+      "description": "Smile Sad icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSmileUpside",
+      "tags": [
+        "fill",
+        "smile",
+        "upside"
+      ],
+      "description": "Smile Upside icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSoftwareDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save",
+        "software"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "CgSoftwareUpload",
+      "tags": [
+        "fill",
+        "software",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "CgSortAz",
+      "tags": [
+        "az",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Az icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSortZa",
+      "tags": [
+        "fill",
+        "sort",
+        "za"
+      ],
+      "description": "Sort Za icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSpaceBetween",
+      "tags": [
+        "between",
+        "fill",
+        "space"
+      ],
+      "description": "Space Between icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSpaceBetweenV",
+      "tags": [
+        "between",
+        "fill",
+        "space",
+        "v"
+      ],
+      "description": "Space Between V icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSpectrum",
+      "tags": [
+        "fill",
+        "spectrum"
+      ],
+      "description": "Spectrum icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSpinner",
+      "tags": [
+        "fill",
+        "spinner"
+      ],
+      "description": "Spinner icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSpinnerAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "spinner"
+      ],
+      "description": "Spinner Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSpinnerTwo",
+      "tags": [
+        "fill",
+        "spinner",
+        "two"
+      ],
+      "description": "Spinner Two icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSpinnerTwoAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "spinner",
+        "two"
+      ],
+      "description": "Spinner Two Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSquare",
+      "tags": [
+        "fill",
+        "square"
+      ],
+      "description": "Square icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgStack",
+      "tags": [
+        "fill",
+        "stack"
+      ],
+      "description": "Stack icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgStark",
+      "tags": [
+        "fill",
+        "stark"
+      ],
+      "description": "Stark icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgStopwatch",
+      "tags": [
+        "fill",
+        "stopwatch"
+      ],
+      "description": "Stopwatch icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgStories",
+      "tags": [
+        "fill",
+        "stories"
+      ],
+      "description": "Stories icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgStudio",
+      "tags": [
+        "fill",
+        "studio"
+      ],
+      "description": "Studio icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgStyle",
+      "tags": [
+        "fill",
+        "style"
+      ],
+      "description": "Style icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSun",
+      "tags": [
+        "fill",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "CgSupport",
+      "tags": [
+        "fill",
+        "support"
+      ],
+      "description": "Support icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSwap",
+      "tags": [
+        "fill",
+        "swap"
+      ],
+      "description": "Swap icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSwapVertical",
+      "tags": [
+        "fill",
+        "swap",
+        "vertical"
+      ],
+      "description": "Swap Vertical icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSweden",
+      "tags": [
+        "fill",
+        "sweden"
+      ],
+      "description": "Sweden icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSwiss",
+      "tags": [
+        "fill",
+        "swiss"
+      ],
+      "description": "Swiss icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgSync",
+      "tags": [
+        "fill",
+        "sync"
+      ],
+      "description": "Sync icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTab",
+      "tags": [
+        "fill",
+        "tab"
+      ],
+      "description": "Tab icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTag",
+      "tags": [
+        "fill",
+        "tag"
+      ],
+      "description": "Tag icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTally",
+      "tags": [
+        "fill",
+        "tally"
+      ],
+      "description": "Tally icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTapDouble",
+      "tags": [
+        "double",
+        "fill",
+        "tap"
+      ],
+      "description": "Tap Double icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTapSingle",
+      "tags": [
+        "fill",
+        "single",
+        "tap"
+      ],
+      "description": "Tap Single icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTemplate",
+      "tags": [
+        "fill",
+        "template"
+      ],
+      "description": "Template icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTennis",
+      "tags": [
+        "fill",
+        "tennis"
+      ],
+      "description": "Tennis icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTerminal",
+      "tags": [
+        "fill",
+        "terminal"
+      ],
+      "description": "Terminal icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTerrain",
+      "tags": [
+        "fill",
+        "terrain"
+      ],
+      "description": "Terrain icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgThermometer",
+      "tags": [
+        "fill",
+        "thermometer"
+      ],
+      "description": "Thermometer icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgThermostat",
+      "tags": [
+        "fill",
+        "thermostat"
+      ],
+      "description": "Thermostat icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTikcode",
+      "tags": [
+        "fill",
+        "tikcode"
+      ],
+      "description": "Tikcode icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTime",
+      "tags": [
+        "fill",
+        "time"
+      ],
+      "description": "Time icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTimelapse",
+      "tags": [
+        "fill",
+        "timelapse"
+      ],
+      "description": "Timelapse icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTimer",
+      "tags": [
+        "fill",
+        "timer"
+      ],
+      "description": "Timer icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToday",
+      "tags": [
+        "fill",
+        "today"
+      ],
+      "description": "Today icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToggleOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "toggle"
+      ],
+      "description": "Toggle Off icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToggleOn",
+      "tags": [
+        "fill",
+        "on",
+        "toggle"
+      ],
+      "description": "Toggle On icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToggleSquare",
+      "tags": [
+        "fill",
+        "square",
+        "toggle"
+      ],
+      "description": "Toggle Square icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToggleSquareOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "square",
+        "toggle"
+      ],
+      "description": "Toggle Square Off icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToolbarBottom",
+      "tags": [
+        "bottom",
+        "fill",
+        "toolbar"
+      ],
+      "description": "Toolbar Bottom icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToolbarLeft",
+      "tags": [
+        "fill",
+        "left",
+        "toolbar"
+      ],
+      "description": "Toolbar Left icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToolbarRight",
+      "tags": [
+        "fill",
+        "right",
+        "toolbar"
+      ],
+      "description": "Toolbar Right icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToolbarTop",
+      "tags": [
+        "fill",
+        "toolbar",
+        "top"
+      ],
+      "description": "Toolbar Top icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgToolbox",
+      "tags": [
+        "fill",
+        "toolbox"
+      ],
+      "description": "Toolbox icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTouchpad",
+      "tags": [
+        "fill",
+        "touchpad"
+      ],
+      "description": "Touchpad icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTrack",
+      "tags": [
+        "fill",
+        "track"
+      ],
+      "description": "Track icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTranscript",
+      "tags": [
+        "fill",
+        "transcript"
+      ],
+      "description": "Transcript icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "CgTrashEmpty",
+      "tags": [
+        "bin",
+        "delete",
+        "empty",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "CgTree",
+      "tags": [
+        "fill",
+        "tree"
+      ],
+      "description": "Tree icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTrees",
+      "tags": [
+        "fill",
+        "trees"
+      ],
+      "description": "Trees icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTrello",
+      "tags": [
+        "fill",
+        "trello"
+      ],
+      "description": "Trello icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTrending",
+      "tags": [
+        "fill",
+        "trending"
+      ],
+      "description": "Trending icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTrendingDown",
+      "tags": [
+        "down",
+        "fill",
+        "trending"
+      ],
+      "description": "Trending Down icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTrophy",
+      "tags": [
+        "fill",
+        "trophy"
+      ],
+      "description": "Trophy icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTv",
+      "tags": [
+        "fill",
+        "tv"
+      ],
+      "description": "Tv icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTwilio",
+      "tags": [
+        "fill",
+        "twilio"
+      ],
+      "description": "Twilio icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgTwitter",
+      "tags": [
+        "fill",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "CgUiKit",
+      "tags": [
+        "fill",
+        "kit",
+        "ui"
+      ],
+      "description": "Ui Kit icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUmbrella",
+      "tags": [
+        "fill",
+        "umbrella"
+      ],
+      "description": "Umbrella icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUnavailable",
+      "tags": [
+        "fill",
+        "unavailable"
+      ],
+      "description": "Unavailable icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUnblock",
+      "tags": [
+        "fill",
+        "unblock"
+      ],
+      "description": "Unblock icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUndo",
+      "tags": [
+        "fill",
+        "undo"
+      ],
+      "description": "Undo icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUnfold",
+      "tags": [
+        "fill",
+        "unfold"
+      ],
+      "description": "Unfold icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUnsplash",
+      "tags": [
+        "fill",
+        "unsplash"
+      ],
+      "description": "Unsplash icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUsb",
+      "tags": [
+        "fill",
+        "usb"
+      ],
+      "description": "Usb icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUsbC",
+      "tags": [
+        "c",
+        "fill",
+        "usb"
+      ],
+      "description": "Usb C icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "CgUserAdd",
+      "tags": [
+        "account",
+        "add",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "CgUserlane",
+      "tags": [
+        "fill",
+        "userlane"
+      ],
+      "description": "Userlane icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgUserList",
+      "tags": [
+        "account",
+        "fill",
+        "list",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "CgUserRemove",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "remove",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "CgVercel",
+      "tags": [
+        "fill",
+        "vercel"
+      ],
+      "description": "Vercel icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgViewCols",
+      "tags": [
+        "cols",
+        "fill",
+        "view"
+      ],
+      "description": "View Cols icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgViewComfortable",
+      "tags": [
+        "comfortable",
+        "fill",
+        "view"
+      ],
+      "description": "View Comfortable icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgViewDay",
+      "tags": [
+        "day",
+        "fill",
+        "view"
+      ],
+      "description": "View Day icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgViewGrid",
+      "tags": [
+        "fill",
+        "grid",
+        "view"
+      ],
+      "description": "View Grid icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgViewList",
+      "tags": [
+        "fill",
+        "list",
+        "view"
+      ],
+      "description": "View List icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgViewMonth",
+      "tags": [
+        "fill",
+        "month",
+        "view"
+      ],
+      "description": "View Month icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgViewSplit",
+      "tags": [
+        "fill",
+        "split",
+        "view"
+      ],
+      "description": "View Split icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgVinyl",
+      "tags": [
+        "fill",
+        "vinyl"
+      ],
+      "description": "Vinyl icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgVoicemail",
+      "tags": [
+        "fill",
+        "voicemail"
+      ],
+      "description": "Voicemail icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgVoicemailO",
+      "tags": [
+        "fill",
+        "o",
+        "voicemail"
+      ],
+      "description": "Voicemail O icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgVoicemailR",
+      "tags": [
+        "fill",
+        "r",
+        "voicemail"
+      ],
+      "description": "Voicemail R icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgVolume",
+      "tags": [
+        "fill",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "CgWebcam",
+      "tags": [
+        "fill",
+        "webcam"
+      ],
+      "description": "Webcam icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgWebsite",
+      "tags": [
+        "fill",
+        "website"
+      ],
+      "description": "Website icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgWindows",
+      "tags": [
+        "fill",
+        "windows"
+      ],
+      "description": "Windows icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgWorkAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "work"
+      ],
+      "description": "Work Alt icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgYinyang",
+      "tags": [
+        "fill",
+        "yinyang"
+      ],
+      "description": "Yinyang icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgYoutube",
+      "tags": [
+        "fill",
+        "youtube"
+      ],
+      "description": "Youtube icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — css.gg (cg) set, fill style."
+    },
+    {
+      "name": "CgZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — css.gg (cg) set, fill style."
+    }
+  ]
+}

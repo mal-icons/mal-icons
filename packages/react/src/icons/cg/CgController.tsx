@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgController = createIcon("0 0 24 24", [["path",{"d":"M14.83 6.34L16.24 4.93L12 0.69L7.76 4.93L9.17 6.34L12 3.51L14.83 6.34Z","fill":"currentColor"}],["path",{"d":"M4.93 16.24L6.34 14.83L3.51 12L6.34 9.17L4.93 7.76L0.69 12L4.93 16.24Z","fill":"currentColor"}],["path",{"d":"M7.76 19.07L12 23.31L16.24 19.07L14.83 17.66L12 20.49L9.17 17.66L7.76 19.07Z","fill":"currentColor"}],["path",{"d":"M17.66 9.17L20.49 12L17.66 14.83L19.07 16.24L23.31 12L19.07 7.76L17.66 9.17Z","fill":"currentColor"}],["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M12 8C14.21 8 16 9.79 16 12C16 14.21 14.21 16 12 16C9.79 16 8 14.21 8 12C8 9.79 9.79 8 12 8ZM12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10Z","fill":"currentColor"}]]);
+
+export default CgController;

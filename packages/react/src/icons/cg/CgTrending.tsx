@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgTrending = createIcon("0 0 24 24", [["path",{"d":"M1.41 16.43L0 15.02L7.07 7.95L13.44 14.31L17.68 10.07L15.94 8.33L22.63 6.53L20.83 13.22L19.09 11.48L13.44 17.14L7.07 10.78L1.41 16.43Z","fill":"currentColor"}]]);
+
+export default CgTrending;

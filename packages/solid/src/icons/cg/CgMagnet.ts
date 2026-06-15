@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgMagnet = createIcon("0 0 24 24", [["path",{"d":"M8 2.5H4V5.5H8V2.5Z","fill":"currentColor","fill-opacity":"0.5"}],["path",{"d":"M20 2.5H16V5.5H20V2.5Z","fill":"currentColor","fill-opacity":"0.5"}],["path",{"d":"M8 7.5H4V13.5C4 17.92 7.58 21.5 12 21.5C16.42 21.5 20 17.92 20 13.5V7.5H16V13.5C16 15.71 14.21 17.5 12 17.5C9.79 17.5 8 15.71 8 13.5V7.5Z","fill":"currentColor"}]]);
+
+export default CgMagnet;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgTwilio = createIcon("0 0 24 24", [["path",{"d":"M11 9C11 10.1 10.1 11 9 11C7.9 11 7 10.1 7 9C7 7.9 7.9 7 9 7C10.1 7 11 7.9 11 9Z","fill":"currentColor"}],["path",{"d":"M17 9C17 10.1 16.1 11 15 11C13.9 11 13 10.1 13 9C13 7.9 13.9 7 15 7C16.1 7 17 7.9 17 9Z","fill":"currentColor"}],["path",{"d":"M15 17C16.1 17 17 16.1 17 15C17 13.9 16.1 13 15 13C13.9 13 13 13.9 13 15C13 16.1 13.9 17 15 17Z","fill":"currentColor"}],["path",{"d":"M11 15C11 16.1 10.1 17 9 17C7.9 17 7 16.1 7 15C7 13.9 7.9 13 9 13C10.1 13 11 13.9 11 15Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M24 12C24 18.63 18.63 24 12 24C5.37 24 0 18.63 0 12C0 5.37 5.37 0 12 0C18.63 0 24 5.37 24 12ZM21 12C21 16.97 16.97 21 12 21C7.03 21 3 16.97 3 12C3 7.03 7.03 3 12 3C16.97 3 21 7.03 21 12Z","fill":"currentColor"}]]);
+
+export default CgTwilio;

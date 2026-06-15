@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-sun",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgSun {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 16C14.21 16 16 14.21 16 12C16 9.79 14.21 8 12 8C9.79 8 8 9.79 8 12C8 14.21 9.79 16 12 16ZM12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11 0H13V4.06C12.67 4.02 12.34 4 12 4C11.66 4 11.33 4.02 11 4.06V0ZM7.09 5.68L4.22 2.81L2.81 4.22L5.68 7.09C6.09 6.57 6.57 6.09 7.09 5.68ZM4.06 11H0V13H4.06C4.02 12.67 4 12.34 4 12C4 11.66 4.02 11.33 4.06 11ZM5.68 16.91L2.81 19.78L4.22 21.19L7.09 18.32C6.57 17.91 6.09 17.43 5.68 16.91ZM11 19.94V24H13V19.94C12.67 19.98 12.34 20 12 20C11.66 20 11.33 19.98 11 19.94ZM16.91 18.32L19.78 21.19L21.19 19.78L18.32 16.91C17.91 17.43 17.43 17.91 16.91 18.32ZM19.94 13H24V11H19.94C19.98 11.33 20 11.66 20 12C20 12.34 19.98 12.67 19.94 13ZM18.32 7.09L21.19 4.22L19.78 2.81L16.91 5.68C17.43 6.09 17.91 6.57 18.32 7.09Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgSun;

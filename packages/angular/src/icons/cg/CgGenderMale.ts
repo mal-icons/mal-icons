@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-gender-male",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgGenderMale {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12.19 7L12.19 5L19.19 5.01L19.18 12.01L17.18 12.01L17.19 8.42L14.14 11.46C15.46 13.41 15.26 16.07 13.54 17.8C11.58 19.75 8.42 19.75 6.46 17.8C4.51 15.84 4.51 12.68 6.46 10.73C8.16 9.03 10.78 8.81 12.71 10.06L15.77 7L12.19 7ZM7.88 12.14C9.05 10.97 10.95 10.97 12.12 12.14C13.29 13.31 13.29 15.21 12.12 16.38C10.95 17.55 9.05 17.55 7.88 16.38C6.71 15.21 6.71 13.31 7.88 12.14Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgGenderMale;

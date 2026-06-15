@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgSelect = createIcon("0 0 24 24", [["path",{"d":"M6 9.66L7.41 11.07L11.66 6.83L15.9 11.07L17.31 9.66L11.66 4L6 9.66Z","fill":"currentColor"}],["path",{"d":"M6 14.44L7.41 13.03L11.66 17.27L15.9 13.03L17.31 14.44L11.66 20.1L6 14.44Z","fill":"currentColor"}]]);
+
+export default CgSelect;

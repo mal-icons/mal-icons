@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgPushDown = createIcon("0 0 24 24", [["path",{"d":"M11 1H13V15.49L16.24 12.24L17.66 13.66L12 19.31L6.34 13.66L7.76 12.24L11 15.49V1Z","fill":"currentColor"}],["path",{"d":"M18 20.29H6V22.29H18V20.29Z","fill":"currentColor"}]]);
+
+export default CgPushDown;

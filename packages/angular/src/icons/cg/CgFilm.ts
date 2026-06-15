@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-film",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgFilm {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 7C5.45 7 5 7.45 5 8C5 8.55 5.45 9 6 9C6.55 9 7 8.55 7 8C7 7.45 6.55 7 6 7Z","fill":"currentColor"}],["path",{"d":"M17 8C17 7.45 17.45 7 18 7C18.55 7 19 7.45 19 8C19 8.55 18.55 9 18 9C17.45 9 17 8.55 17 8Z","fill":"currentColor"}],["path",{"d":"M6 11C5.45 11 5 11.45 5 12C5 12.55 5.45 13 6 13C6.55 13 7 12.55 7 12C7 11.45 6.55 11 6 11Z","fill":"currentColor"}],["path",{"d":"M17 12C17 11.45 17.45 11 18 11C18.55 11 19 11.45 19 12C19 12.55 18.55 13 18 13C17.45 13 17 12.55 17 12Z","fill":"currentColor"}],["path",{"d":"M6 15C5.45 15 5 15.45 5 16C5 16.55 5.45 17 6 17C6.55 17 7 16.55 7 16C7 15.45 6.55 15 6 15Z","fill":"currentColor"}],["path",{"d":"M17 16C17 15.45 17.45 15 18 15C18.55 15 19 15.45 19 16C19 16.55 18.55 17 18 17C17.45 17 17 16.55 17 16Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4 3C2.34 3 1 4.34 1 6V18C1 19.66 2.34 21 4 21H20C21.66 21 23 19.66 23 18V6C23 4.34 21.66 3 20 3H4ZM20 5H4C3.45 5 3 5.45 3 6V18C3 18.55 3.45 19 4 19H20C20.55 19 21 18.55 21 18V6C21 5.45 20.55 5 20 5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgFilm;

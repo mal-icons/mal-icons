@@ -47,6 +47,16 @@
       "bun": "./src/icons/ad/*.ts",
       "import": "./src/icons/ad/*.ts"
     },
+    "./cg": {
+      "solid": "./src/icons/cg/index.ts",
+      "bun": "./src/icons/cg/index.ts",
+      "import": "./src/icons/cg/index.ts"
+    },
+    "./cg/*": {
+      "solid": "./src/icons/cg/*.ts",
+      "bun": "./src/icons/cg/*.ts",
+      "import": "./src/icons/cg/*.ts"
+    },
     "./ci": {
       "solid": "./src/icons/ci/index.ts",
       "bun": "./src/icons/ci/index.ts",

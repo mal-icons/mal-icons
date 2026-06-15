@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgTranscript = createIcon("0 0 24 24", [["path",{"d":"M5 16C5 15.45 5.45 15 6 15H14C14.55 15 15 15.45 15 16C15 16.55 14.55 17 14 17H6C5.45 17 5 16.55 5 16Z","fill":"currentColor"}],["path",{"d":"M18 11C18.55 11 19 11.45 19 12C19 12.55 18.55 13 18 13H10C9.45 13 9 12.55 9 12C9 11.45 9.45 11 10 11H18Z","fill":"currentColor"}],["path",{"d":"M16 16C16 15.45 16.45 15 17 15H18C18.55 15 19 15.45 19 16C19 16.55 18.55 17 18 17H17C16.45 17 16 16.55 16 16Z","fill":"currentColor"}],["path",{"d":"M7 11C7.55 11 8 11.45 8 12C8 12.55 7.55 13 7 13H6C5.45 13 5 12.55 5 12C5 11.45 5.45 11 6 11H7Z","fill":"currentColor"}],["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M4 3C2.34 3 1 4.34 1 6V18C1 19.66 2.34 21 4 21H20C21.66 21 23 19.66 23 18V6C23 4.34 21.66 3 20 3H4ZM20 5H4C3.45 5 3 5.45 3 6V18C3 18.55 3.45 19 4 19H20C20.55 19 21 18.55 21 18V6C21 5.45 20.55 5 20 5Z","fill":"currentColor"}]]);
+
+export default CgTranscript;

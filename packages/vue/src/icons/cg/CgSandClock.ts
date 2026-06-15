@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgSandClock = createIcon("0 0 24 24", [["path",{"d":"M13 6H11V7C11 7.55 11.45 8 12 8C12.55 8 13 7.55 13 7V6Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M6 2V4H7V7C7 9.76 9.24 12 12 12C9.24 12 7 14.24 7 17V20H6V22H18V20H17V17C17 14.24 14.76 12 12 12C14.76 12 17 9.76 17 7V4H18V2H6ZM9 4H15V7C15 8.66 13.66 10 12 10C10.34 10 9 8.66 9 7V4ZM9 17V20H15V17C15 15.34 13.66 14 12 14C10.34 14 9 15.34 9 17Z","fill":"currentColor"}]]);
+
+export default CgSandClock;

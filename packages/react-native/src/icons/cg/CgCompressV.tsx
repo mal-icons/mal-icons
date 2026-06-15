@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgCompressV = createIcon("0 0 24 24", [["path",{"d":"M13.03 7.36L15.5 4.85L16.92 6.26L12.01 11.24L7.03 6.33L8.43 4.91L11.03 7.47L11.08 0.84L13.08 0.86L13.03 7.36Z","fill":"currentColor"}],["path",{"d":"M15.56 18.53L16.97 17.12L12.02 12.17L7.08 17.13L8.49 18.54L11.08 15.95L11.1 23.16L13.1 23.15L13.08 16.05L15.56 18.53Z","fill":"currentColor"}]]);
+
+export default CgCompressV;

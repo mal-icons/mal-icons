@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  cg: {
+    id: "cg",
+    name: "css.gg",
+    prefix: "Cg",
+    version: "2.1.1",
+    license: "MIT",
+    repo: "astrit/css.gg",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Open-source, minimal 24×24 icons (`CgAdd`, `CgSearch`, `CgTrash`). Solid `currentColor` fills; theme via `color`.",
+  },
   sl: {
     id: "sl",
     name: "Simple Line Icons",

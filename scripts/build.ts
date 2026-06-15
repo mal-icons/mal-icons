@@ -247,6 +247,7 @@ async function buildReact(): Promise<void> {
   // Copy static assets (sprites + manifest) that are referenced by exports.
   for (const set of [
     "ad",
+    "cg",
     "ci",
     "dev",
     "fa",

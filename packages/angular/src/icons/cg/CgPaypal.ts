@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-paypal",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgPaypal {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M6.47 3.54H14.47C16.11 3.54 17.41 4.32 18.1 5.51C19.32 6.39 19.94 7.91 19.61 9.65C19.09 12.37 16.43 14.56 13.66 14.56H11.66L10.53 20.46H6.4L6.63 19.26H3.45L6.47 3.54ZM8.09 5.51H14.09C15.75 5.51 16.84 6.83 16.53 8.45C16.21 10.08 14.62 11.4 12.96 11.4H8.96L7.83 17.29H5.83L8.09 5.51Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgPaypal;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-chevron-double-right-r",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgChevronDoubleRightR {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.46 7.76L7.05 9.17L9.88 12L7.05 14.83L8.46 16.24L12.71 12L8.46 7.76Z","fill":"currentColor"}],["path",{"d":"M11.29 9.17L12.71 7.76L16.95 12L12.71 16.24L11.29 14.83L14.12 12L11.29 9.17Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M23 5C23 2.79 21.21 1 19 1H5C2.79 1 1 2.79 1 5V19C1 21.21 2.79 23 5 23H19C21.21 23 23 21.21 23 19V5ZM19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgChevronDoubleRightR;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgWorkAlt = createIcon("0 0 24 24", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M17 7C17 5.34 15.66 4 14 4H10C8.34 4 7 5.34 7 7H6C4.34 7 3 8.34 3 10V18C3 19.66 4.34 21 6 21H18C19.66 21 21 19.66 21 18V10C21 8.34 19.66 7 18 7H17ZM14 6H10C9.45 6 9 6.45 9 7H15C15 6.45 14.55 6 14 6ZM6 9H18C18.55 9 19 9.45 19 10V18C19 18.55 18.55 19 18 19H6C5.45 19 5 18.55 5 18V10C5 9.45 5.45 9 6 9Z","fill":"currentColor"}]]);
+
+export default CgWorkAlt;

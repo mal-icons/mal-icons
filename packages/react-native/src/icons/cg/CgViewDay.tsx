@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgViewDay = createIcon("0 0 24 24", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M2 8C2 6.34 3.34 5 5 5H19C20.66 5 22 6.34 22 8V16C22 17.66 20.66 19 19 19H5C3.34 19 2 17.66 2 16V8ZM13 7H19C19.55 7 20 7.45 20 8V11H13V7ZM11 7H5C4.45 7 4 7.45 4 8V11H11V7ZM4 13V16C4 16.55 4.45 17 5 17H11V13H4ZM13 17H19C19.55 17 20 16.55 20 16V13H13V17Z","fill":"currentColor"}]]);
+
+export default CgViewDay;

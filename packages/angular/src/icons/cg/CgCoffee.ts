@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-coffee",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgCoffee {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 2.5C5.45 2.5 5 2.95 5 3.5V5.5C5 6.05 5.45 6.5 6 6.5C6.55 6.5 7 6.05 7 5.5V3.5C7 2.95 6.55 2.5 6 2.5Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M13 21.5C15.97 21.5 18.44 19.34 18.92 16.5H19C21.21 16.5 23 14.71 23 12.5C23 10.29 21.21 8.5 19 8.5V7.5H1V15.5C1 18.81 3.69 21.5 7 21.5H13ZM3 9.5V15.5C3 17.71 4.79 19.5 7 19.5H13C15.21 19.5 17 17.71 17 15.5V9.5H3ZM21 12.5C21 13.6 20.1 14.5 19 14.5V10.5C20.1 10.5 21 11.4 21 12.5Z","fill":"currentColor"}],["path",{"d":"M9 3.5C9 2.95 9.45 2.5 10 2.5C10.55 2.5 11 2.95 11 3.5V5.5C11 6.05 10.55 6.5 10 6.5C9.45 6.5 9 6.05 9 5.5V3.5Z","fill":"currentColor"}],["path",{"d":"M14 2.5C13.45 2.5 13 2.95 13 3.5V5.5C13 6.05 13.45 6.5 14 6.5C14.55 6.5 15 6.05 15 5.5V3.5C15 2.95 14.55 2.5 14 2.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgCoffee;

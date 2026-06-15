@@ -200,4 +200,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "src/svgs",
     style: "fill",
   },
+  cg: {
+    id: "cg",
+    prefix: "Cg",
+    name: "css.gg",
+    license: "MIT",
+    repo: "astrit/css.gg",
+    ref: "2.1.1",
+    iconDir: "icons/svg",
+    style: "fill",
+  },
 };

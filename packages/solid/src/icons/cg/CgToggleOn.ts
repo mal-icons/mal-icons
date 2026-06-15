@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgToggleOn = createIcon("0 0 24 24", [["path",{"d":"M7 15C5.34 15 4 13.66 4 12C4 10.34 5.34 9 7 9C8.66 9 10 10.34 10 12C10 13.66 8.66 15 7 15Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M24 12C24 8.13 20.87 5 17 5H7C3.13 5 0 8.13 0 12C0 15.87 3.13 19 7 19H17C20.87 19 24 15.87 24 12ZM17 7H7C4.24 7 2 9.24 2 12C2 14.76 4.24 17 7 17H17C19.76 17 22 14.76 22 12C22 9.24 19.76 7 17 7Z","fill":"currentColor"}]]);
+
+export default CgToggleOn;

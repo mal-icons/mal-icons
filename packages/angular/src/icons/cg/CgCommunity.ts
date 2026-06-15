@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-community",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgCommunity {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 17.46C11.24 17.81 10.39 18 9.5 18C6.19 18 3.5 15.31 3.5 12C3.5 8.69 6.19 6 9.5 6C10.39 6 11.24 6.19 12 6.54C12.76 6.19 13.61 6 14.5 6C17.81 6 20.5 8.69 20.5 12C20.5 15.31 17.81 18 14.5 18C13.61 18 12.76 17.81 12 17.46ZM10 15.97C9.84 15.99 9.67 16 9.5 16C7.29 16 5.5 14.21 5.5 12C5.5 9.79 7.29 8 9.5 8C9.67 8 9.84 8.01 10 8.03C9.07 9.09 8.5 10.48 8.5 12C8.5 13.52 9.07 14.91 10 15.97ZM14 8.03C14.16 8.01 14.33 8 14.5 8C16.71 8 18.5 9.79 18.5 12C18.5 14.21 16.71 16 14.5 16C14.33 16 14.16 15.99 14 15.97C14.93 14.91 15.5 13.52 15.5 12C15.5 10.48 14.93 9.09 14 8.03ZM12 8.88C12.91 9.61 13.5 10.74 13.5 12C13.5 13.26 12.91 14.39 12 15.12C11.09 14.39 10.5 13.26 10.5 12C10.5 10.74 11.09 9.61 12 8.88Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgCommunity;

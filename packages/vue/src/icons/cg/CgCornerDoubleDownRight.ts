@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgCornerDoubleDownRight = createIcon("0 0 24 24", [["path",{"d":"M12.6 7.68L7.64 2.74L2.7 7.7L4.12 9.11L6.52 6.7L6.51 12.73C6.5 15.39 8.64 17.54 11.3 17.55L17.22 17.56L14.99 19.86L16.42 21.26L21.3 16.24L16.28 11.36L14.89 12.79L17.32 15.16L11.3 15.15C9.98 15.14 8.9 14.07 8.91 12.74L8.92 6.84L11.19 9.1L12.6 7.68Z","fill":"currentColor"}]]);
+
+export default CgCornerDoubleDownRight;

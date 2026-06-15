@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgToday = createIcon("0 0 24 24", [["rect",{"opacity":"0.5","x":"7","y":"9","width":"10","height":"10","rx":"1","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M18 3H6C5.45 3 5 3.45 5 4V20C5 20.55 5.45 21 6 21H18C18.55 21 19 20.55 19 20V4C19 3.45 18.55 3 18 3ZM6 1C4.34 1 3 2.34 3 4V20C3 21.66 4.34 23 6 23H18C19.66 23 21 21.66 21 20V4C21 2.34 19.66 1 18 1H6Z","fill":"currentColor"}],["path",{"d":"M7 6C7 5.45 7.45 5 8 5H12C12.55 5 13 5.45 13 6C13 6.55 12.55 7 12 7H8C7.45 7 7 6.55 7 6Z","fill":"currentColor"}]]);
+
+export default CgToday;
