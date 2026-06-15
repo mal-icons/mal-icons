@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const VscDebugPause = createIcon("0 0 16 16", [["path",{"d":"M5.5 2.75V13.25C5.5 13.66 5.16 14 4.75 14C4.34 14 4 13.66 4 13.25V2.75C4 2.34 4.34 2 4.75 2C5.16 2 5.5 2.34 5.5 2.75ZM11.25 2C10.84 2 10.5 2.34 10.5 2.75V13.25C10.5 13.66 10.84 14 11.25 14C11.66 14 12 13.66 12 13.25V2.75C12 2.34 11.66 2 11.25 2Z"}]]);
+
+export default VscDebugPause;

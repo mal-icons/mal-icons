@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-chat-import",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscChatImport {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.04 12.12C6.08 12.5 6.16 12.87 6.28 13.23L4.63 14.68C3.99 15.24 3 14.79 3 13.94V12H2.5C1.12 12 0 10.88 0 9.5V4.5C0 3.12 1.12 2 2.5 2H11.5C12.88 2 14 3.12 14 4.5V6.61C13.68 6.44 13.35 6.31 13 6.21V4.5C13 3.67 12.33 3 11.5 3H2.5C1.67 3 1 3.67 1 4.5V9.5C1 10.33 1.67 11 2.5 11H4V13.9L6.04 12.12V12.12ZM16 11.5C16 13.99 13.99 16 11.5 16C9.02 16 7 13.99 7 11.5C7 9.01 9.02 7 11.5 7C13.99 7 16 9.01 16 11.5ZM13.85 11.15L11.85 9.15L11.85 9.14C11.8 9.1 11.75 9.06 11.69 9.04C11.63 9.01 11.57 9 11.5 9H11.5C11.43 9 11.37 9.01 11.31 9.04C11.25 9.06 11.2 9.1 11.15 9.15L9.15 11.15C8.95 11.34 8.95 11.66 9.15 11.85C9.34 12.05 9.66 12.05 9.85 11.85L11 10.71V13.5C11 13.78 11.22 14 11.5 14C11.78 14 12 13.78 12 13.5V10.71L13.15 11.85C13.34 12.05 13.66 12.05 13.85 11.85C14.05 11.66 14.05 11.34 13.85 11.15L13.85 11.15Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscChatImport;

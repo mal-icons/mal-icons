@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-debug-stackframe",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscDebugStackframe {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.88 14H5C3.9 14 3 13.1 3 12V4C3 2.9 3.9 2 5 2H8.88C9.4 2 9.92 2.21 10.29 2.59L14.51 6.8C14.83 7.12 15 7.55 15 8C15 8.45 14.83 8.88 14.51 9.2L10.29 13.41C9.92 13.79 9.4 14 8.88 14ZM5 3C4.45 3 4 3.45 4 4V12C4 12.55 4.45 13 5 13H8.88C9.14 13 9.4 12.89 9.59 12.71L13.8 8.49C13.93 8.36 14 8.19 14 8C14 7.81 13.93 7.64 13.8 7.51L9.59 3.29C9.4 3.11 9.14 3 8.88 3H5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscDebugStackframe;

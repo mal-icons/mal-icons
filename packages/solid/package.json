@@ -197,6 +197,16 @@
       "bun": "./src/icons/ti/*.ts",
       "import": "./src/icons/ti/*.ts"
     },
+    "./vsc": {
+      "solid": "./src/icons/vsc/index.ts",
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./src/icons/vsc/index.ts"
+    },
+    "./vsc/*": {
+      "solid": "./src/icons/vsc/*.ts",
+      "bun": "./src/icons/vsc/*.ts",
+      "import": "./src/icons/vsc/*.ts"
+    },
     "./wi": {
       "solid": "./src/icons/wi/index.ts",
       "bun": "./src/icons/wi/index.ts",

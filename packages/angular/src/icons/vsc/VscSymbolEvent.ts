@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-symbol-event",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscSymbolEvent {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.91 1.71C5.04 1.29 5.43 1 5.87 1H10.28C10.98 1 11.46 1.7 11.21 2.35L10.22 5H12.25C12.88 5 13.23 5.73 12.84 6.22L6.23 14.52C5.38 15.59 3.67 14.7 4.05 13.39L5.33 9H3.75C3.25 9 2.89 8.52 3.03 8.04L4.91 1.71ZM10.28 2H5.87L4.08 8H6C6.16 8 6.31 8.07 6.4 8.2C6.49 8.33 6.52 8.49 6.48 8.64L5.01 13.67C4.99 13.75 5 13.8 5.02 13.84C5.04 13.89 5.08 13.93 5.14 13.96C5.19 13.99 5.25 14 5.3 13.99C5.34 13.98 5.4 13.96 5.45 13.89L11.73 6H9.5C9.34 6 9.18 5.92 9.09 5.78C9 5.65 8.97 5.48 9.03 5.32L10.28 2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscSymbolEvent;

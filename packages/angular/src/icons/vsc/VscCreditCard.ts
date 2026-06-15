@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-credit-card",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscCreditCard {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.5 10C10.22 10 10 10.22 10 10.5C10 10.78 10.22 11 10.5 11H12.5C12.78 11 13 10.78 13 10.5C13 10.22 12.78 10 12.5 10H10.5ZM1 5.5C1 4.12 2.12 3 3.5 3H12.5C13.88 3 15 4.12 15 5.5V10.5C15 11.88 13.88 13 12.5 13H3.5C2.12 13 1 11.88 1 10.5V5.5ZM14 6V5.5C14 4.67 13.33 4 12.5 4H3.5C2.67 4 2 4.67 2 5.5V6H14ZM2 7V10.5C2 11.33 2.67 12 3.5 12H12.5C13.33 12 14 11.33 14 10.5V7H2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscCreditCard;

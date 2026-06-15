@@ -210,4 +210,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "icons/svg",
     style: "fill",
   },
+  vsc: {
+    id: "vsc",
+    prefix: "Vsc",
+    name: "Codicons",
+    license: "CC-BY-4.0",
+    repo: "microsoft/vscode-codicons",
+    ref: "v0.0.46-17",
+    iconDir: "src/icons",
+    style: "fill",
+  },
 };

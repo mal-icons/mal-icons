@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const VscCollapseAllCompact = createIcon("0 0 12 12", [["path",{"d":"M11 2.09C11.58 2.29 12 2.85 12 3.5V8.5C12 10.43 10.43 12 8.5 12H3.5C2.85 12 2.29 11.58 2.09 11H8.5C9.88 11 11 9.88 11 8.5V2.09Z"}],["path",{"d":"M7.5 4.5C7.78 4.5 8 4.72 8 5C8 5.28 7.78 5.5 7.5 5.5H2.5C2.22 5.5 2 5.28 2 5C2 4.72 2.22 4.5 2.5 4.5H7.5Z"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M8.5 0C9.33 0 10 0.67 10 1.5V8.5C10 9.33 9.33 10 8.5 10H1.5C0.67 10 0 9.33 0 8.5V1.5C0 0.67 0.67 0 1.5 0H8.5ZM1.5 1C1.22 1 1 1.22 1 1.5V8.5C1 8.78 1.22 9 1.5 9H8.5C8.78 9 9 8.78 9 8.5V1.5C9 1.22 8.78 1 8.5 1H1.5Z"}]]);
+
+export default VscCollapseAllCompact;

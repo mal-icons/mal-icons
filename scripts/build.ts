@@ -262,6 +262,7 @@ async function buildReact(): Promise<void> {
     "oc",
     "sl",
     "ti",
+    "vsc",
     "wi",
   ]) {
     await mkdir(join(REACT_OUT, "icons", set), { recursive: true });

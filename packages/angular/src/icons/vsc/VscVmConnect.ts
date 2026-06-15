@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-vm-connect",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscVmConnect {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M6.61 14C6.79 14.36 7.01 14.69 7.26 15H3.5C3.22 15 3 14.78 3 14.5C3 14.22 3.22 14 3.5 14H5V12H3C1.9 12 1 11.11 1 10V3C1 1.9 1.9 1 3 1H13C14.11 1 15 1.9 15 3V7.26C14.69 7.01 14.36 6.79 14 6.61V3C14 2.45 13.55 2 13 2H3C2.45 2 2 2.45 2 3V10C2 10.55 2.45 11 3 11H6.03C6.01 11.17 6 11.33 6 11.5C6 11.67 6.01 11.84 6.03 12H6V14H6.61ZM16 11.5C16 13.99 13.99 16 11.5 16C9.02 16 7 13.99 7 11.5C7 9.02 9.02 7 11.5 7C13.99 7 16 9.02 16 11.5ZM11.5 12.5C11.5 12.43 11.49 12.37 11.46 12.31C11.44 12.25 11.4 12.19 11.35 12.15L9.85 10.65C9.76 10.55 9.63 10.5 9.5 10.5C9.37 10.5 9.24 10.55 9.15 10.65C9.05 10.74 9 10.87 9 11C9 11.13 9.05 11.26 9.15 11.35L10.29 12.5L9.15 13.65C9.05 13.74 9 13.87 9 14C9 14.13 9.05 14.26 9.15 14.35C9.24 14.45 9.37 14.5 9.5 14.5C9.63 14.5 9.76 14.45 9.85 14.35L11.35 12.85C11.4 12.81 11.44 12.75 11.46 12.69C11.49 12.63 11.5 12.57 11.5 12.5ZM12.71 10.5L13.85 9.35C13.95 9.26 14 9.13 14 9C14 8.87 13.95 8.74 13.85 8.65C13.76 8.55 13.63 8.5 13.5 8.5C13.37 8.5 13.24 8.55 13.15 8.65L11.65 10.15C11.6 10.19 11.56 10.25 11.54 10.31C11.51 10.37 11.5 10.43 11.5 10.5C11.5 10.57 11.51 10.63 11.54 10.69C11.56 10.75 11.6 10.81 11.65 10.85L13.15 12.35C13.24 12.45 13.37 12.5 13.5 12.5C13.63 12.5 13.76 12.45 13.85 12.35C13.95 12.26 14 12.13 14 12C14 11.87 13.95 11.74 13.85 11.65L12.71 10.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscVmConnect;

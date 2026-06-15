@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-symbol-field",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscSymbolField {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.97 6.09C11.99 6.15 12 6.22 12 6.28C12 6.35 11.98 6.41 11.96 6.47C11.93 6.53 11.89 6.59 11.85 6.63C11.8 6.68 11.74 6.71 11.68 6.74L7.5 8.34V10.02C7.5 10.15 7.45 10.28 7.35 10.37C7.26 10.47 7.13 10.52 7 10.52C6.87 10.52 6.74 10.47 6.65 10.37C6.55 10.28 6.5 10.15 6.5 10.02V8.34L4.32 7.5C4.26 7.48 4.2 7.45 4.16 7.4C4.11 7.36 4.07 7.3 4.04 7.24C4.02 7.18 4 7.12 4 7.05C4 6.99 4.01 6.92 4.03 6.86C4.06 6.8 4.09 6.74 4.14 6.69C4.18 6.65 4.24 6.61 4.3 6.58C4.36 6.55 4.42 6.54 4.49 6.54C4.55 6.54 4.62 6.55 4.68 6.57L7 7.46L11.32 5.8C11.38 5.78 11.45 5.77 11.51 5.77C11.58 5.77 11.64 5.78 11.7 5.81C11.76 5.84 11.82 5.88 11.86 5.92C11.91 5.97 11.94 6.03 11.97 6.09ZM15 5.8V9.43C15 9.73 14.91 10.03 14.73 10.28C14.56 10.53 14.32 10.72 14.04 10.83L7.54 13.33C7.19 13.46 6.81 13.46 6.46 13.33L1.96 11.6C1.68 11.49 1.44 11.3 1.27 11.05C1.09 10.8 1 10.5 1 10.2V6.57C1 6.27 1.09 5.97 1.27 5.72C1.44 5.47 1.68 5.28 1.96 5.17L8.46 2.67C8.81 2.54 9.19 2.54 9.54 2.67L14.04 4.4C14.32 4.51 14.56 4.7 14.73 4.95C14.91 5.2 15 5.5 15 5.8ZM14 5.8C14 5.7 13.97 5.6 13.91 5.52C13.85 5.43 13.77 5.37 13.68 5.33L9.18 3.6C9.06 3.56 8.94 3.56 8.82 3.6L2.32 6.1C2.23 6.14 2.15 6.2 2.09 6.29C2.03 6.37 2 6.47 2 6.57V10.2C2 10.3 2.03 10.4 2.09 10.48C2.14 10.57 2.23 10.63 2.32 10.67L6.82 12.4C6.94 12.44 7.06 12.44 7.18 12.4L13.68 9.9C13.77 9.86 13.85 9.8 13.91 9.71C13.97 9.63 14 9.53 14 9.43V5.8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscSymbolField;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const VscEllipsis = createIcon("0 0 16 16", [["path",{"d":"M5 8C5 8.55 4.55 9 4 9C3.45 9 3 8.55 3 8C3 7.45 3.45 7 4 7C4.55 7 5 7.45 5 8ZM9 8C9 8.55 8.55 9 8 9C7.45 9 7 8.55 7 8C7 7.45 7.45 7 8 7C8.55 7 9 7.45 9 8ZM12 9C12.55 9 13 8.55 13 8C13 7.45 12.55 7 12 7C11.45 7 11 7.45 11 8C11 8.55 11.45 9 12 9Z"}]]);
+
+export default VscEllipsis;

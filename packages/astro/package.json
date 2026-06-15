@@ -43,6 +43,7 @@
     "./oc/*": "./src/icons/oc/*.astro",
     "./sl/*": "./src/icons/sl/*.astro",
     "./ti/*": "./src/icons/ti/*.astro",
+    "./vsc/*": "./src/icons/vsc/*.astro",
     "./wi/*": "./src/icons/wi/*.astro",
     "./package.json": "./package.json"
   },

@@ -160,6 +160,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [Codicons](https://microsoft.github.io/vscode-codicons/) | [CC BY 4.0 license](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE) | 0.0.46 | 604 |
 | [css.gg](https://css.gg/) | [MIT license](https://github.com/astrit/css.gg/blob/master/license) | 2.1.1 | 704 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
@@ -232,6 +233,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/cg` | All css.gg icons (named exports) |
 | `@mal-icons/react/cg/CgAbstract` | A single css.gg icon module |
 | `@mal-icons/react/sprite/cg.svg` | Pre-built css.gg sprite asset |
+| `@mal-icons/react/vsc` | All Codicons icons (named exports) |
+| `@mal-icons/react/vsc/VscAccount` | A single Codicons icon module |
+| `@mal-icons/react/sprite/vsc.svg` | Pre-built Codicons sprite asset |
 
 ## Example
 

@@ -195,6 +195,16 @@
       "bun": "./src/icons/ti/*.svelte",
       "import": "./src/icons/ti/*.svelte"
     },
+    "./vsc": {
+      "svelte": "./src/icons/vsc/index.ts",
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./src/icons/vsc/index.ts"
+    },
+    "./vsc/*": {
+      "svelte": "./src/icons/vsc/*.svelte",
+      "bun": "./src/icons/vsc/*.svelte",
+      "import": "./src/icons/vsc/*.svelte"
+    },
     "./wi": {
       "svelte": "./src/icons/wi/index.ts",
       "bun": "./src/icons/wi/index.ts",

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-code-review",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscCodeReview {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.5 2H3.5C2.12 2 1 3.12 1 4.5V9.5C1 10.88 2.12 12 3.5 12H4V13.94C4 14.78 4.99 15.23 5.63 14.68L8.69 12H12.5C13.88 12 15 10.88 15 9.5V4.5C15 3.12 13.88 2 12.5 2V2ZM14 9.5C14 10.33 13.33 11 12.5 11H8.31L5 13.9V11H3.5C2.67 11 2 10.33 2 9.5V4.5C2 3.67 2.67 3 3.5 3H12.5C13.33 3 14 3.67 14 4.5V9.5ZM6.85 4.85L4.71 7L6.85 9.15C7.05 9.34 7.05 9.66 6.85 9.85C6.76 9.95 6.63 10 6.5 10C6.37 10 6.24 9.95 6.15 9.85L3.65 7.35C3.45 7.16 3.45 6.84 3.65 6.65L6.15 4.15C6.34 3.95 6.66 3.95 6.85 4.15C7.05 4.34 7.05 4.66 6.85 4.85L6.85 4.85ZM12.35 6.65C12.55 6.84 12.55 7.16 12.35 7.35L9.85 9.85C9.76 9.95 9.63 10 9.5 10C9.37 10 9.24 9.95 9.15 9.85C8.95 9.66 8.95 9.34 9.15 9.15L11.29 7L9.15 4.85C8.95 4.66 8.95 4.34 9.15 4.15C9.34 3.95 9.66 3.95 9.85 4.15L12.35 6.65L12.35 6.65Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscCodeReview;

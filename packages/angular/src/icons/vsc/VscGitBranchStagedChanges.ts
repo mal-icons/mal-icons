@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-git-branch-staged-changes",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscGitBranchStagedChanges {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.22 6.5C9.08 6.19 9 5.86 9 5.5C9 4.12 10.12 3 11.5 3C12.88 3 14 4.12 14 5.5C14 5.86 13.92 6.19 13.78 6.5C13.48 6.36 13.16 6.25 12.84 6.17C12.94 5.97 13 5.74 13 5.5C13 4.67 12.33 4 11.5 4C10.67 4 10 4.67 10 5.5C10 5.74 10.06 5.97 10.17 6.17C9.84 6.25 9.52 6.36 9.22 6.5L9.22 6.5ZM6 11.52C6 12.57 6.31 13.55 6.83 14.39C6.47 15.33 5.57 16 4.5 16C3.12 16 2 14.88 2 13.5C2 12.29 2.86 11.28 4 11.05V4.95C2.86 4.72 2 3.71 2 2.5C2 1.12 3.12 0 4.5 0C5.88 0 7 1.12 7 2.5C7 3.71 6.14 4.72 5 4.95V9.51C5.42 9.2 5.94 9 6.5 9H6.61C6.44 9.33 6.3 9.68 6.2 10.05C5.66 10.16 5.23 10.55 5.07 11.07C5.41 11.15 5.73 11.31 6 11.52L6 11.52ZM4.5 4C5.33 4 6 3.33 6 2.5C6 1.67 5.33 1 4.5 1C3.67 1 3 1.67 3 2.5C3 3.33 3.67 4 4.5 4ZM6 13.5C6 12.67 5.33 12 4.5 12C3.67 12 3 12.67 3 13.5C3 14.33 3.67 15 4.5 15C5.33 15 6 14.33 6 13.5ZM16 11.5C16 13.99 13.99 16 11.5 16C9.02 16 7 13.99 7 11.5C7 9.01 9.02 7 11.5 7C13.99 7 16 9.01 16 11.5ZM14.5 11.5C14.5 11.22 14.28 11 14 11H12V9C12 8.72 11.78 8.5 11.5 8.5C11.22 8.5 11 8.72 11 9V11H9C8.72 11 8.5 11.22 8.5 11.5C8.5 11.78 8.72 12 9 12H11V13.89C11 14.17 11.22 14.39 11.5 14.39C11.78 14.39 12 14.17 12 13.89V12H14C14.28 12 14.5 11.78 14.5 11.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscGitBranchStagedChanges;

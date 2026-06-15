@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-search-stop",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscSearchStop {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M13.85 13.85C13.66 14.05 13.34 14.05 13.15 13.85L9.93 10.63C9.81 9.93 9.57 9.27 9.22 8.68C9.7 8.08 10 7.33 10 6.5C10 4.57 8.43 3 6.5 3C4.67 3 3.18 4.41 3.03 6.21C2.68 6.31 2.34 6.44 2.01 6.6C2.01 6.57 2 6.54 2 6.5C2 4.02 4.02 2 6.5 2C8.99 2 11 4.02 11 6.5C11 7.56 10.63 8.54 10.02 9.31L13.86 13.15C14.05 13.34 14.05 13.66 13.86 13.86L13.85 13.85ZM9 11.5C9 13.99 6.99 16 4.5 16C2.02 16 0 13.99 0 11.5C0 9.02 2.02 7 4.5 7C6.99 7 9 9.02 9 11.5ZM1.7 13.6L6.6 8.7C6.01 8.26 5.29 8 4.5 8C2.57 8 1 9.57 1 11.5C1 12.29 1.26 13.01 1.7 13.6ZM8 11.5C8 10.71 7.74 9.99 7.3 9.4L2.4 14.3C2.99 14.74 3.71 15 4.5 15C6.43 15 8 13.43 8 11.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscSearchStop;

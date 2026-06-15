@@ -1,0 +1,5431 @@
+{
+  "set": {
+    "id": "vsc",
+    "name": "Codicons",
+    "prefix": "Vsc",
+    "version": "0.0.46",
+    "license": "CC-BY-4.0",
+    "repo": "microsoft/vscode-codicons",
+    "style": "fill",
+    "viewBox": "0 0 16 16"
+  },
+  "count": 604,
+  "icons": [
+    {
+      "name": "VscAccount",
+      "tags": [
+        "account",
+        "fill"
+      ],
+      "description": "Account icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscActivateBreakpoints",
+      "tags": [
+        "activate",
+        "breakpoints",
+        "fill"
+      ],
+      "description": "Activate Breakpoints icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAdd",
+      "tags": [
+        "add",
+        "fill"
+      ],
+      "description": "Add icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAddCompact",
+      "tags": [
+        "add",
+        "compact",
+        "fill"
+      ],
+      "description": "Add Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAddSmall",
+      "tags": [
+        "add",
+        "fill",
+        "small"
+      ],
+      "description": "Add Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAgent",
+      "tags": [
+        "agent",
+        "fill"
+      ],
+      "description": "Agent icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAgentCompact",
+      "tags": [
+        "agent",
+        "compact",
+        "fill"
+      ],
+      "description": "Agent Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscArchive",
+      "tags": [
+        "archive",
+        "fill"
+      ],
+      "description": "Archive icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscArrowBoth",
+      "tags": [
+        "arrow",
+        "both",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowCircleDown",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowCircleLeft",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowCircleRight",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowCircleUp",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowSmallDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "small"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowSmallLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "small"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowSmallRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "small"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowSmallUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "small",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowSwap",
+      "tags": [
+        "arrow",
+        "fill",
+        "swap"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscAsk",
+      "tags": [
+        "ask",
+        "fill"
+      ],
+      "description": "Ask icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAskCompact",
+      "tags": [
+        "ask",
+        "compact",
+        "fill"
+      ],
+      "description": "Ask Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAttach",
+      "tags": [
+        "attach",
+        "fill"
+      ],
+      "description": "Attach icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAttachCompact",
+      "tags": [
+        "attach",
+        "compact",
+        "fill"
+      ],
+      "description": "Attach Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAzure",
+      "tags": [
+        "azure",
+        "fill"
+      ],
+      "description": "Azure icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscAzureDevops",
+      "tags": [
+        "azure",
+        "devops",
+        "fill"
+      ],
+      "description": "Azure Devops icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBeaker",
+      "tags": [
+        "beaker",
+        "fill"
+      ],
+      "description": "Beaker icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBeakerCompact",
+      "tags": [
+        "beaker",
+        "compact",
+        "fill"
+      ],
+      "description": "Beaker Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBeakerStop",
+      "tags": [
+        "beaker",
+        "fill",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "VscBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "VscBellDot",
+      "tags": [
+        "bell",
+        "dot",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "VscBellSlash",
+      "tags": [
+        "bell",
+        "fill",
+        "notification",
+        "slash"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "VscBellSlashDot",
+      "tags": [
+        "bell",
+        "dot",
+        "fill",
+        "notification",
+        "slash"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "VscBlank",
+      "tags": [
+        "blank",
+        "fill"
+      ],
+      "description": "Blank icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBold",
+      "tags": [
+        "bold",
+        "fill"
+      ],
+      "description": "Bold icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBook",
+      "tags": [
+        "book",
+        "fill"
+      ],
+      "description": "Book icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "VscBracketDot",
+      "tags": [
+        "bracket",
+        "dot",
+        "fill"
+      ],
+      "description": "Bracket Dot icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBracketError",
+      "tags": [
+        "bracket",
+        "error",
+        "fill"
+      ],
+      "description": "Bracket Error icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBriefcase",
+      "tags": [
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBroadcast",
+      "tags": [
+        "broadcast",
+        "fill"
+      ],
+      "description": "Broadcast icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBrowser",
+      "tags": [
+        "browser",
+        "fill"
+      ],
+      "description": "Browser icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBug",
+      "tags": [
+        "bug",
+        "fill"
+      ],
+      "description": "Bug icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscBuild",
+      "tags": [
+        "build",
+        "fill"
+      ],
+      "description": "Build icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "VscCallIncoming",
+      "tags": [
+        "call",
+        "fill",
+        "incoming"
+      ],
+      "description": "Call Incoming icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCallOutgoing",
+      "tags": [
+        "call",
+        "fill",
+        "outgoing"
+      ],
+      "description": "Call Outgoing icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCaseSensitive",
+      "tags": [
+        "case",
+        "fill",
+        "sensitive"
+      ],
+      "description": "Case Sensitive icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChatExport",
+      "tags": [
+        "chat",
+        "export",
+        "fill"
+      ],
+      "description": "Chat Export icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChatImport",
+      "tags": [
+        "chat",
+        "fill",
+        "import"
+      ],
+      "description": "Chat Import icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChatSparkle",
+      "tags": [
+        "chat",
+        "fill",
+        "sparkle"
+      ],
+      "description": "Chat Sparkle icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChatSparkleError",
+      "tags": [
+        "chat",
+        "error",
+        "fill",
+        "sparkle"
+      ],
+      "description": "Chat Sparkle Error icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChatSparkleWarning",
+      "tags": [
+        "chat",
+        "fill",
+        "sparkle",
+        "warning"
+      ],
+      "description": "Chat Sparkle Warning icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCheck",
+      "tags": [
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "VscCheckAll",
+      "tags": [
+        "all",
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "VscCheckCompact",
+      "tags": [
+        "check",
+        "compact",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "VscChecklist",
+      "tags": [
+        "checklist",
+        "fill"
+      ],
+      "description": "Checklist icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChecklistCompact",
+      "tags": [
+        "checklist",
+        "compact",
+        "fill"
+      ],
+      "description": "Checklist Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChevronDown",
+      "tags": [
+        "chevron",
+        "down",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChevronDownCompact",
+      "tags": [
+        "chevron",
+        "compact",
+        "down",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChevronLeft",
+      "tags": [
+        "chevron",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChevronLeftCompact",
+      "tags": [
+        "chevron",
+        "compact",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChevronRight",
+      "tags": [
+        "chevron",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChevronRightCompact",
+      "tags": [
+        "chevron",
+        "compact",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChevronUp",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChevronUpCompact",
+      "tags": [
+        "chevron",
+        "compact",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "VscChip",
+      "tags": [
+        "chip",
+        "fill"
+      ],
+      "description": "Chip icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChromeClose",
+      "tags": [
+        "chrome",
+        "close",
+        "fill"
+      ],
+      "description": "Chrome Close icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChromeMaximize",
+      "tags": [
+        "chrome",
+        "fill",
+        "maximize"
+      ],
+      "description": "Chrome Maximize icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChromeMinimize",
+      "tags": [
+        "chrome",
+        "fill",
+        "minimize"
+      ],
+      "description": "Chrome Minimize icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscChromeRestore",
+      "tags": [
+        "chrome",
+        "fill",
+        "restore"
+      ],
+      "description": "Chrome Restore icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircle",
+      "tags": [
+        "circle",
+        "fill"
+      ],
+      "description": "Circle icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleFilled",
+      "tags": [
+        "circle",
+        "fill",
+        "filled"
+      ],
+      "description": "Circle Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleFilledCompact",
+      "tags": [
+        "circle",
+        "compact",
+        "fill",
+        "filled"
+      ],
+      "description": "Circle Filled Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleLarge",
+      "tags": [
+        "circle",
+        "fill",
+        "large"
+      ],
+      "description": "Circle Large icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleLargeFilled",
+      "tags": [
+        "circle",
+        "fill",
+        "filled",
+        "large"
+      ],
+      "description": "Circle Large Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleSlash",
+      "tags": [
+        "circle",
+        "fill",
+        "slash"
+      ],
+      "description": "Circle Slash icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleSlashCompact",
+      "tags": [
+        "circle",
+        "compact",
+        "fill",
+        "slash"
+      ],
+      "description": "Circle Slash Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleSmall",
+      "tags": [
+        "circle",
+        "fill",
+        "small"
+      ],
+      "description": "Circle Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleSmallFilled",
+      "tags": [
+        "circle",
+        "fill",
+        "filled",
+        "small"
+      ],
+      "description": "Circle Small Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircleSmallFilledCompact",
+      "tags": [
+        "circle",
+        "compact",
+        "fill",
+        "filled",
+        "small"
+      ],
+      "description": "Circle Small Filled Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCircuitBoard",
+      "tags": [
+        "board",
+        "circuit",
+        "fill"
+      ],
+      "description": "Circuit Board icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscClaude",
+      "tags": [
+        "claude",
+        "fill"
+      ],
+      "description": "Claude icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscClearAll",
+      "tags": [
+        "all",
+        "clear",
+        "fill"
+      ],
+      "description": "Clear All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscClippy",
+      "tags": [
+        "clippy",
+        "fill"
+      ],
+      "description": "Clippy icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscClockface",
+      "tags": [
+        "clockface",
+        "fill"
+      ],
+      "description": "Clockface icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscClose",
+      "tags": [
+        "close",
+        "fill"
+      ],
+      "description": "Close icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCloseAll",
+      "tags": [
+        "all",
+        "close",
+        "fill"
+      ],
+      "description": "Close All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCloseCompact",
+      "tags": [
+        "close",
+        "compact",
+        "fill"
+      ],
+      "description": "Close Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCloud",
+      "tags": [
+        "cloud",
+        "fill"
+      ],
+      "description": "Cloud icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCloudCompact",
+      "tags": [
+        "cloud",
+        "compact",
+        "fill"
+      ],
+      "description": "Cloud Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCloudDownload",
+      "tags": [
+        "cloud",
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "VscCloudSmall",
+      "tags": [
+        "cloud",
+        "fill",
+        "small"
+      ],
+      "description": "Cloud Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCloudUpload",
+      "tags": [
+        "cloud",
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "VscCode",
+      "tags": [
+        "code",
+        "fill"
+      ],
+      "description": "Code icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCodeOss",
+      "tags": [
+        "code",
+        "fill",
+        "oss"
+      ],
+      "description": "Code Oss icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCodeReview",
+      "tags": [
+        "code",
+        "fill",
+        "review"
+      ],
+      "description": "Code Review icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCoffee",
+      "tags": [
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCollapseAll",
+      "tags": [
+        "all",
+        "collapse",
+        "fill"
+      ],
+      "description": "Collapse All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCollapseAllCompact",
+      "tags": [
+        "all",
+        "collapse",
+        "compact",
+        "fill"
+      ],
+      "description": "Collapse All Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCollection",
+      "tags": [
+        "collection",
+        "fill"
+      ],
+      "description": "Collection icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCollectionSmall",
+      "tags": [
+        "collection",
+        "fill",
+        "small"
+      ],
+      "description": "Collection Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscColorMode",
+      "tags": [
+        "color",
+        "fill",
+        "mode"
+      ],
+      "description": "Color Mode icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCombine",
+      "tags": [
+        "combine",
+        "fill"
+      ],
+      "description": "Combine icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscComment",
+      "tags": [
+        "comment",
+        "fill"
+      ],
+      "description": "Comment icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCommentCompact",
+      "tags": [
+        "comment",
+        "compact",
+        "fill"
+      ],
+      "description": "Comment Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCommentDiscussion",
+      "tags": [
+        "comment",
+        "discussion",
+        "fill"
+      ],
+      "description": "Comment Discussion icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCommentDiscussionQuote",
+      "tags": [
+        "comment",
+        "discussion",
+        "fill",
+        "quote"
+      ],
+      "description": "Comment Discussion Quote icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCommentDiscussionSparkle",
+      "tags": [
+        "comment",
+        "discussion",
+        "fill",
+        "sparkle"
+      ],
+      "description": "Comment Discussion Sparkle icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCommentDraft",
+      "tags": [
+        "comment",
+        "draft",
+        "fill"
+      ],
+      "description": "Comment Draft icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCommentUnresolved",
+      "tags": [
+        "comment",
+        "fill",
+        "unresolved"
+      ],
+      "description": "Comment Unresolved icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCommentUnresolvedCompact",
+      "tags": [
+        "comment",
+        "compact",
+        "fill",
+        "unresolved"
+      ],
+      "description": "Comment Unresolved Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCompass",
+      "tags": [
+        "compass",
+        "fill"
+      ],
+      "description": "Compass icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCompassActive",
+      "tags": [
+        "active",
+        "compass",
+        "fill"
+      ],
+      "description": "Compass Active icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCompassDot",
+      "tags": [
+        "compass",
+        "dot",
+        "fill"
+      ],
+      "description": "Compass Dot icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilot",
+      "tags": [
+        "copilot",
+        "fill"
+      ],
+      "description": "Copilot icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotBlocked",
+      "tags": [
+        "blocked",
+        "copilot",
+        "fill"
+      ],
+      "description": "Copilot Blocked icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotCompact",
+      "tags": [
+        "compact",
+        "copilot",
+        "fill"
+      ],
+      "description": "Copilot Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotError",
+      "tags": [
+        "copilot",
+        "error",
+        "fill"
+      ],
+      "description": "Copilot Error icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotInProgress",
+      "tags": [
+        "copilot",
+        "fill",
+        "in",
+        "progress"
+      ],
+      "description": "Copilot In Progress icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotLarge",
+      "tags": [
+        "copilot",
+        "fill",
+        "large"
+      ],
+      "description": "Copilot Large icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotNotConnected",
+      "tags": [
+        "connected",
+        "copilot",
+        "fill",
+        "not"
+      ],
+      "description": "Copilot Not Connected icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotSnooze",
+      "tags": [
+        "copilot",
+        "fill",
+        "snooze"
+      ],
+      "description": "Copilot Snooze icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotSuccess",
+      "tags": [
+        "copilot",
+        "fill",
+        "success"
+      ],
+      "description": "Copilot Success icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotUnavailable",
+      "tags": [
+        "copilot",
+        "fill",
+        "unavailable"
+      ],
+      "description": "Copilot Unavailable icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotWarning",
+      "tags": [
+        "copilot",
+        "fill",
+        "warning"
+      ],
+      "description": "Copilot Warning icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopilotWarningLarge",
+      "tags": [
+        "copilot",
+        "fill",
+        "large",
+        "warning"
+      ],
+      "description": "Copilot Warning Large icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCopy",
+      "tags": [
+        "copy",
+        "fill"
+      ],
+      "description": "Copy icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCoverage",
+      "tags": [
+        "coverage",
+        "fill"
+      ],
+      "description": "Coverage icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "VscCursor",
+      "tags": [
+        "cursor",
+        "fill"
+      ],
+      "description": "Cursor icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDash",
+      "tags": [
+        "dash",
+        "fill"
+      ],
+      "description": "Dash icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDashboard",
+      "tags": [
+        "dashboard",
+        "fill"
+      ],
+      "description": "Dashboard icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDatabase",
+      "tags": [
+        "database",
+        "fill"
+      ],
+      "description": "Database icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebug",
+      "tags": [
+        "debug",
+        "fill"
+      ],
+      "description": "Debug icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugAll",
+      "tags": [
+        "all",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugAlt",
+      "tags": [
+        "alt",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Alt icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugAltSmall",
+      "tags": [
+        "alt",
+        "debug",
+        "fill",
+        "small"
+      ],
+      "description": "Debug Alt Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointConditional",
+      "tags": [
+        "breakpoint",
+        "conditional",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Breakpoint Conditional icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointConditionalUnverified",
+      "tags": [
+        "breakpoint",
+        "conditional",
+        "debug",
+        "fill",
+        "unverified"
+      ],
+      "description": "Debug Breakpoint Conditional Unverified icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointData",
+      "tags": [
+        "breakpoint",
+        "data",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Breakpoint Data icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointDataUnverified",
+      "tags": [
+        "breakpoint",
+        "data",
+        "debug",
+        "fill",
+        "unverified"
+      ],
+      "description": "Debug Breakpoint Data Unverified icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointFunction",
+      "tags": [
+        "breakpoint",
+        "debug",
+        "fill",
+        "function"
+      ],
+      "description": "Debug Breakpoint Function icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointFunctionUnverified",
+      "tags": [
+        "breakpoint",
+        "debug",
+        "fill",
+        "function",
+        "unverified"
+      ],
+      "description": "Debug Breakpoint Function Unverified icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointLog",
+      "tags": [
+        "breakpoint",
+        "debug",
+        "fill",
+        "log"
+      ],
+      "description": "Debug Breakpoint Log icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointLogUnverified",
+      "tags": [
+        "breakpoint",
+        "debug",
+        "fill",
+        "log",
+        "unverified"
+      ],
+      "description": "Debug Breakpoint Log Unverified icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugBreakpointUnsupported",
+      "tags": [
+        "breakpoint",
+        "debug",
+        "fill",
+        "unsupported"
+      ],
+      "description": "Debug Breakpoint Unsupported icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugConnected",
+      "tags": [
+        "connected",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Connected icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugConnectedCompact",
+      "tags": [
+        "compact",
+        "connected",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Connected Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugConsole",
+      "tags": [
+        "console",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Console icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugContinue",
+      "tags": [
+        "continue",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Continue icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugContinueSmall",
+      "tags": [
+        "continue",
+        "debug",
+        "fill",
+        "small"
+      ],
+      "description": "Debug Continue Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugCoverage",
+      "tags": [
+        "coverage",
+        "debug",
+        "fill"
+      ],
+      "description": "Debug Coverage icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugDisconnect",
+      "tags": [
+        "debug",
+        "disconnect",
+        "fill"
+      ],
+      "description": "Debug Disconnect icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugDisconnectCompact",
+      "tags": [
+        "compact",
+        "debug",
+        "disconnect",
+        "fill"
+      ],
+      "description": "Debug Disconnect Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugLineByLine",
+      "tags": [
+        "by",
+        "debug",
+        "fill",
+        "line"
+      ],
+      "description": "Debug Line By Line icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugPause",
+      "tags": [
+        "debug",
+        "fill",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "VscDebugRerun",
+      "tags": [
+        "debug",
+        "fill",
+        "rerun"
+      ],
+      "description": "Debug Rerun icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugRestart",
+      "tags": [
+        "debug",
+        "fill",
+        "restart"
+      ],
+      "description": "Debug Restart icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugRestartFrame",
+      "tags": [
+        "debug",
+        "fill",
+        "frame",
+        "restart"
+      ],
+      "description": "Debug Restart Frame icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugReverseContinue",
+      "tags": [
+        "continue",
+        "debug",
+        "fill",
+        "reverse"
+      ],
+      "description": "Debug Reverse Continue icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStackframe",
+      "tags": [
+        "debug",
+        "fill",
+        "stackframe"
+      ],
+      "description": "Debug Stackframe icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStackframeActive",
+      "tags": [
+        "active",
+        "debug",
+        "fill",
+        "stackframe"
+      ],
+      "description": "Debug Stackframe Active icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStart",
+      "tags": [
+        "debug",
+        "fill",
+        "start"
+      ],
+      "description": "Debug Start icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStepBack",
+      "tags": [
+        "back",
+        "debug",
+        "fill",
+        "step"
+      ],
+      "description": "Debug Step Back icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStepInto",
+      "tags": [
+        "debug",
+        "fill",
+        "into",
+        "step"
+      ],
+      "description": "Debug Step Into icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStepOut",
+      "tags": [
+        "debug",
+        "fill",
+        "out",
+        "step"
+      ],
+      "description": "Debug Step Out icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStepOver",
+      "tags": [
+        "debug",
+        "fill",
+        "over",
+        "step"
+      ],
+      "description": "Debug Step Over icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDebugStop",
+      "tags": [
+        "debug",
+        "fill",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "VscDesktopDownload",
+      "tags": [
+        "desktop",
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "VscDeveloperTools",
+      "tags": [
+        "developer",
+        "fill",
+        "tools"
+      ],
+      "description": "Developer Tools icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDeviceCamera",
+      "tags": [
+        "camera",
+        "device",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "VscDeviceCameraVideo",
+      "tags": [
+        "camera",
+        "device",
+        "fill",
+        "photo",
+        "video"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "VscDeviceMobile",
+      "tags": [
+        "device",
+        "fill",
+        "mobile"
+      ],
+      "description": "Device Mobile icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiff",
+      "tags": [
+        "diff",
+        "fill"
+      ],
+      "description": "Diff icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiffAdded",
+      "tags": [
+        "added",
+        "diff",
+        "fill"
+      ],
+      "description": "Diff Added icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiffIgnored",
+      "tags": [
+        "diff",
+        "fill",
+        "ignored"
+      ],
+      "description": "Diff Ignored icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiffModified",
+      "tags": [
+        "diff",
+        "fill",
+        "modified"
+      ],
+      "description": "Diff Modified icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiffMultiple",
+      "tags": [
+        "diff",
+        "fill",
+        "multiple"
+      ],
+      "description": "Diff Multiple icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiffRemoved",
+      "tags": [
+        "diff",
+        "fill",
+        "removed"
+      ],
+      "description": "Diff Removed icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiffRenamed",
+      "tags": [
+        "diff",
+        "fill",
+        "renamed"
+      ],
+      "description": "Diff Renamed icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiffSingle",
+      "tags": [
+        "diff",
+        "fill",
+        "single"
+      ],
+      "description": "Diff Single icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDiscard",
+      "tags": [
+        "discard",
+        "fill"
+      ],
+      "description": "Discard icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "VscEdit",
+      "tags": [
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "VscEditCode",
+      "tags": [
+        "code",
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "VscEditCompact",
+      "tags": [
+        "compact",
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "VscEditorLayout",
+      "tags": [
+        "editor",
+        "fill",
+        "layout"
+      ],
+      "description": "Editor Layout icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscEditSession",
+      "tags": [
+        "edit",
+        "fill",
+        "session"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "VscEditSparkle",
+      "tags": [
+        "edit",
+        "fill",
+        "sparkle"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "VscEllipsis",
+      "tags": [
+        "ellipsis",
+        "fill"
+      ],
+      "description": "Ellipsis icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscEmptyWindow",
+      "tags": [
+        "empty",
+        "fill",
+        "window"
+      ],
+      "description": "Empty Window icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscEraser",
+      "tags": [
+        "eraser",
+        "fill"
+      ],
+      "description": "Eraser icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscError",
+      "tags": [
+        "error",
+        "fill"
+      ],
+      "description": "Error icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscErrorCompact",
+      "tags": [
+        "compact",
+        "error",
+        "fill"
+      ],
+      "description": "Error Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscErrorSmall",
+      "tags": [
+        "error",
+        "fill",
+        "small"
+      ],
+      "description": "Error Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscExclude",
+      "tags": [
+        "exclude",
+        "fill"
+      ],
+      "description": "Exclude icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscExpandAll",
+      "tags": [
+        "all",
+        "expand",
+        "fill"
+      ],
+      "description": "Expand All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscExport",
+      "tags": [
+        "export",
+        "fill"
+      ],
+      "description": "Export icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscExtensions",
+      "tags": [
+        "extensions",
+        "fill"
+      ],
+      "description": "Extensions icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscExtensionsLarge",
+      "tags": [
+        "extensions",
+        "fill",
+        "large"
+      ],
+      "description": "Extensions Large icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscEye",
+      "tags": [
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "VscEyeClosed",
+      "tags": [
+        "closed",
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "VscFeedback",
+      "tags": [
+        "feedback",
+        "fill"
+      ],
+      "description": "Feedback icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileBinary",
+      "tags": [
+        "binary",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileCode",
+      "tags": [
+        "code",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileMedia",
+      "tags": [
+        "file",
+        "fill",
+        "media"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileMediaCompact",
+      "tags": [
+        "compact",
+        "file",
+        "fill",
+        "media"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFilePdf",
+      "tags": [
+        "file",
+        "fill",
+        "pdf"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFiles",
+      "tags": [
+        "files",
+        "fill"
+      ],
+      "description": "Files icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscFileSubmodule",
+      "tags": [
+        "file",
+        "fill",
+        "submodule"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileSymlinkDirectory",
+      "tags": [
+        "directory",
+        "file",
+        "fill",
+        "symlink"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileSymlinkFile",
+      "tags": [
+        "file",
+        "fill",
+        "symlink"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileText",
+      "tags": [
+        "file",
+        "fill",
+        "text"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFileZip",
+      "tags": [
+        "file",
+        "fill",
+        "zip"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscFilter",
+      "tags": [
+        "fill",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "VscFilterFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "VscFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscFlame",
+      "tags": [
+        "fill",
+        "flame"
+      ],
+      "description": "Flame icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscFold",
+      "tags": [
+        "fill",
+        "fold"
+      ],
+      "description": "Fold icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscFoldDown",
+      "tags": [
+        "down",
+        "fill",
+        "fold"
+      ],
+      "description": "Fold Down icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscFolderActive",
+      "tags": [
+        "active",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscFolderCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscFolderLibrary",
+      "tags": [
+        "fill",
+        "folder",
+        "library"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscFolderOpened",
+      "tags": [
+        "fill",
+        "folder",
+        "opened"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscFolderOpenedCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "folder",
+        "opened"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscFoldUp",
+      "tags": [
+        "fill",
+        "fold",
+        "like",
+        "up"
+      ],
+      "description": "Fold Up icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscForward",
+      "tags": [
+        "fill",
+        "forward"
+      ],
+      "description": "Forward icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGame",
+      "tags": [
+        "fill",
+        "game"
+      ],
+      "description": "Game icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGear",
+      "tags": [
+        "fill",
+        "gear"
+      ],
+      "description": "Gear icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGearCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "gear"
+      ],
+      "description": "Gear Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGift",
+      "tags": [
+        "fill",
+        "gift"
+      ],
+      "description": "Gift icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGist",
+      "tags": [
+        "fill",
+        "gist"
+      ],
+      "description": "Gist icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGistSecret",
+      "tags": [
+        "fill",
+        "gist",
+        "secret"
+      ],
+      "description": "Gist Secret icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitBranch",
+      "tags": [
+        "branch",
+        "fill",
+        "git"
+      ],
+      "description": "Git Branch icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitBranchChanges",
+      "tags": [
+        "branch",
+        "changes",
+        "fill",
+        "git"
+      ],
+      "description": "Git Branch Changes icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitBranchCompact",
+      "tags": [
+        "branch",
+        "compact",
+        "fill",
+        "git"
+      ],
+      "description": "Git Branch Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitBranchConflicts",
+      "tags": [
+        "branch",
+        "conflicts",
+        "fill",
+        "git"
+      ],
+      "description": "Git Branch Conflicts icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitBranchStagedChanges",
+      "tags": [
+        "branch",
+        "changes",
+        "fill",
+        "git",
+        "staged"
+      ],
+      "description": "Git Branch Staged Changes icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitCommit",
+      "tags": [
+        "commit",
+        "fill",
+        "git"
+      ],
+      "description": "Git Commit icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitCompare",
+      "tags": [
+        "compare",
+        "fill",
+        "git"
+      ],
+      "description": "Git Compare icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitFetch",
+      "tags": [
+        "fetch",
+        "fill",
+        "git"
+      ],
+      "description": "Git Fetch icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGithub",
+      "tags": [
+        "fill",
+        "github"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "VscGithubAction",
+      "tags": [
+        "action",
+        "fill",
+        "github"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "VscGithubAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "github"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "VscGithubInverted",
+      "tags": [
+        "fill",
+        "github",
+        "inverted"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "VscGithubProject",
+      "tags": [
+        "fill",
+        "github",
+        "project"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "VscGitMerge",
+      "tags": [
+        "fill",
+        "git",
+        "merge"
+      ],
+      "description": "Git Merge icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitPullRequest",
+      "tags": [
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitPullRequestClosed",
+      "tags": [
+        "closed",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Closed icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitPullRequestCreate",
+      "tags": [
+        "create",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Create icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitPullRequestDone",
+      "tags": [
+        "done",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Done icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitPullRequestDraft",
+      "tags": [
+        "draft",
+        "fill",
+        "git",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request Draft icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitPullRequestGoToChanges",
+      "tags": [
+        "changes",
+        "fill",
+        "git",
+        "go",
+        "pull",
+        "request",
+        "to"
+      ],
+      "description": "Git Pull Request Go To Changes icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitPullRequestNewChanges",
+      "tags": [
+        "changes",
+        "fill",
+        "git",
+        "new",
+        "pull",
+        "request"
+      ],
+      "description": "Git Pull Request New Changes icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitStash",
+      "tags": [
+        "fill",
+        "git",
+        "stash"
+      ],
+      "description": "Git Stash icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitStashApply",
+      "tags": [
+        "apply",
+        "fill",
+        "git",
+        "stash"
+      ],
+      "description": "Git Stash Apply icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGitStashPop",
+      "tags": [
+        "fill",
+        "git",
+        "pop",
+        "stash"
+      ],
+      "description": "Git Stash Pop icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGlobe",
+      "tags": [
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "VscGoToEditingSession",
+      "tags": [
+        "editing",
+        "fill",
+        "go",
+        "session",
+        "to"
+      ],
+      "description": "Go To Editing Session icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGoToFile",
+      "tags": [
+        "file",
+        "fill",
+        "go",
+        "to"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscGoToSearch",
+      "tags": [
+        "fill",
+        "find",
+        "go",
+        "search",
+        "to"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "VscGrabber",
+      "tags": [
+        "fill",
+        "grabber"
+      ],
+      "description": "Grabber icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGraph",
+      "tags": [
+        "fill",
+        "graph"
+      ],
+      "description": "Graph icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGraphLeft",
+      "tags": [
+        "fill",
+        "graph",
+        "left"
+      ],
+      "description": "Graph Left icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGraphLine",
+      "tags": [
+        "fill",
+        "graph",
+        "line"
+      ],
+      "description": "Graph Line icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGraphScatter",
+      "tags": [
+        "fill",
+        "graph",
+        "scatter"
+      ],
+      "description": "Graph Scatter icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGripper",
+      "tags": [
+        "fill",
+        "gripper"
+      ],
+      "description": "Gripper icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscGroupByRefType",
+      "tags": [
+        "by",
+        "fill",
+        "group",
+        "ref",
+        "type"
+      ],
+      "description": "Group By Ref Type icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "VscHeartFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "VscHistory",
+      "tags": [
+        "fill",
+        "history"
+      ],
+      "description": "History icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "VscHorizontalRule",
+      "tags": [
+        "fill",
+        "horizontal",
+        "rule"
+      ],
+      "description": "Horizontal Rule icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscHubot",
+      "tags": [
+        "fill",
+        "hubot"
+      ],
+      "description": "Hubot icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscImportant",
+      "tags": [
+        "fill",
+        "important"
+      ],
+      "description": "Important icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscImportantCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "important"
+      ],
+      "description": "Important Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscInbox",
+      "tags": [
+        "fill",
+        "inbox"
+      ],
+      "description": "Inbox icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscIndent",
+      "tags": [
+        "fill",
+        "indent"
+      ],
+      "description": "Indent icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscIndexZero",
+      "tags": [
+        "fill",
+        "index",
+        "zero"
+      ],
+      "description": "Index Zero icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscInfo",
+      "tags": [
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "VscInsert",
+      "tags": [
+        "fill",
+        "insert"
+      ],
+      "description": "Insert icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscInspect",
+      "tags": [
+        "fill",
+        "inspect"
+      ],
+      "description": "Inspect icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscIssueDraft",
+      "tags": [
+        "draft",
+        "fill",
+        "issue"
+      ],
+      "description": "Issue Draft icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscIssueReopened",
+      "tags": [
+        "fill",
+        "issue",
+        "reopened"
+      ],
+      "description": "Issue Reopened icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscIssues",
+      "tags": [
+        "fill",
+        "issues"
+      ],
+      "description": "Issues icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscItalic",
+      "tags": [
+        "fill",
+        "italic"
+      ],
+      "description": "Italic icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscJersey",
+      "tags": [
+        "fill",
+        "jersey"
+      ],
+      "description": "Jersey icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscJson",
+      "tags": [
+        "fill",
+        "json"
+      ],
+      "description": "Json icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscKebabVertical",
+      "tags": [
+        "fill",
+        "kebab",
+        "vertical"
+      ],
+      "description": "Kebab Vertical icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscKeyboardTab",
+      "tags": [
+        "fill",
+        "keyboard",
+        "tab"
+      ],
+      "description": "Keyboard Tab icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscKeyboardTabAbove",
+      "tags": [
+        "above",
+        "fill",
+        "keyboard",
+        "tab"
+      ],
+      "description": "Keyboard Tab Above icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscKeyboardTabBelow",
+      "tags": [
+        "below",
+        "fill",
+        "keyboard",
+        "tab"
+      ],
+      "description": "Keyboard Tab Below icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLaw",
+      "tags": [
+        "fill",
+        "law"
+      ],
+      "description": "Law icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayers",
+      "tags": [
+        "fill",
+        "layers"
+      ],
+      "description": "Layers icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayersActive",
+      "tags": [
+        "active",
+        "fill",
+        "layers"
+      ],
+      "description": "Layers Active icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayersDot",
+      "tags": [
+        "dot",
+        "fill",
+        "layers"
+      ],
+      "description": "Layers Dot icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayout",
+      "tags": [
+        "fill",
+        "layout"
+      ],
+      "description": "Layout icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutActivitybarLeft",
+      "tags": [
+        "activitybar",
+        "fill",
+        "layout",
+        "left"
+      ],
+      "description": "Layout Activitybar Left icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutActivitybarRight",
+      "tags": [
+        "activitybar",
+        "fill",
+        "layout",
+        "right"
+      ],
+      "description": "Layout Activitybar Right icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutCentered",
+      "tags": [
+        "centered",
+        "fill",
+        "layout"
+      ],
+      "description": "Layout Centered icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutMenubar",
+      "tags": [
+        "fill",
+        "layout",
+        "menubar"
+      ],
+      "description": "Layout Menubar icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutPanel",
+      "tags": [
+        "fill",
+        "layout",
+        "panel"
+      ],
+      "description": "Layout Panel icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutPanelCenter",
+      "tags": [
+        "center",
+        "fill",
+        "layout",
+        "panel"
+      ],
+      "description": "Layout Panel Center icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutPanelDock",
+      "tags": [
+        "dock",
+        "fill",
+        "layout",
+        "panel"
+      ],
+      "description": "Layout Panel Dock icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutPanelJustify",
+      "tags": [
+        "fill",
+        "justify",
+        "layout",
+        "panel"
+      ],
+      "description": "Layout Panel Justify icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutPanelLeft",
+      "tags": [
+        "fill",
+        "layout",
+        "left",
+        "panel"
+      ],
+      "description": "Layout Panel Left icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutPanelOff",
+      "tags": [
+        "fill",
+        "hide",
+        "layout",
+        "off",
+        "panel"
+      ],
+      "description": "Layout Panel Off icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutPanelRight",
+      "tags": [
+        "fill",
+        "layout",
+        "panel",
+        "right"
+      ],
+      "description": "Layout Panel Right icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutSidebarLeft",
+      "tags": [
+        "fill",
+        "layout",
+        "left",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Left icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutSidebarLeftDock",
+      "tags": [
+        "dock",
+        "fill",
+        "layout",
+        "left",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Left Dock icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutSidebarLeftOff",
+      "tags": [
+        "fill",
+        "hide",
+        "layout",
+        "left",
+        "off",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Left Off icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutSidebarRight",
+      "tags": [
+        "fill",
+        "layout",
+        "right",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Right icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutSidebarRightDock",
+      "tags": [
+        "dock",
+        "fill",
+        "layout",
+        "right",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Right Dock icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutSidebarRightOff",
+      "tags": [
+        "fill",
+        "hide",
+        "layout",
+        "off",
+        "right",
+        "sidebar"
+      ],
+      "description": "Layout Sidebar Right Off icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLayoutStatusbar",
+      "tags": [
+        "fill",
+        "layout",
+        "statusbar"
+      ],
+      "description": "Layout Statusbar icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLibrary",
+      "tags": [
+        "fill",
+        "library"
+      ],
+      "description": "Library icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLibraryCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "library"
+      ],
+      "description": "Library Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLightbulb",
+      "tags": [
+        "fill",
+        "lightbulb"
+      ],
+      "description": "Lightbulb icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLightbulbAutofix",
+      "tags": [
+        "autofix",
+        "fill",
+        "lightbulb"
+      ],
+      "description": "Lightbulb Autofix icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLightbulbCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "lightbulb"
+      ],
+      "description": "Lightbulb Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLightbulbEmpty",
+      "tags": [
+        "empty",
+        "fill",
+        "lightbulb"
+      ],
+      "description": "Lightbulb Empty icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLightbulbSparkle",
+      "tags": [
+        "fill",
+        "lightbulb",
+        "sparkle"
+      ],
+      "description": "Lightbulb Sparkle icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "VscLinkExternal",
+      "tags": [
+        "external",
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "VscListFilter",
+      "tags": [
+        "fill",
+        "filter",
+        "list"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "VscListFlat",
+      "tags": [
+        "fill",
+        "flat",
+        "list"
+      ],
+      "description": "List Flat icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscListOrdered",
+      "tags": [
+        "fill",
+        "list",
+        "ordered"
+      ],
+      "description": "List Ordered icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscListSelection",
+      "tags": [
+        "fill",
+        "list",
+        "selection"
+      ],
+      "description": "List Selection icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscListTree",
+      "tags": [
+        "fill",
+        "list",
+        "tree"
+      ],
+      "description": "List Tree icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscListUnordered",
+      "tags": [
+        "fill",
+        "list",
+        "unordered"
+      ],
+      "description": "List Unordered icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLiveShare",
+      "tags": [
+        "fill",
+        "live",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "VscLoading",
+      "tags": [
+        "fill",
+        "loading"
+      ],
+      "description": "Loading icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLoadingCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "loading"
+      ],
+      "description": "Loading Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLocation",
+      "tags": [
+        "fill",
+        "location"
+      ],
+      "description": "Location icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "VscLockSmall",
+      "tags": [
+        "fill",
+        "lock",
+        "small"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "VscMagnet",
+      "tags": [
+        "fill",
+        "magnet"
+      ],
+      "description": "Magnet icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMail",
+      "tags": [
+        "fill",
+        "mail"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "VscMailRead",
+      "tags": [
+        "fill",
+        "mail",
+        "read"
+      ],
+      "description": "Envelope — email, messages and inboxes."
+    },
+    {
+      "name": "VscMap",
+      "tags": [
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "VscMapFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "VscMapVertical",
+      "tags": [
+        "fill",
+        "map",
+        "vertical"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "VscMapVerticalFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "map",
+        "vertical"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "VscMarkdown",
+      "tags": [
+        "fill",
+        "markdown"
+      ],
+      "description": "Markdown icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMcp",
+      "tags": [
+        "fill",
+        "mcp"
+      ],
+      "description": "Mcp icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMegaphone",
+      "tags": [
+        "fill",
+        "megaphone"
+      ],
+      "description": "Megaphone icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMention",
+      "tags": [
+        "fill",
+        "mention"
+      ],
+      "description": "Mention icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMenu",
+      "tags": [
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "VscMerge",
+      "tags": [
+        "fill",
+        "merge"
+      ],
+      "description": "Merge icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMergeInto",
+      "tags": [
+        "fill",
+        "into",
+        "merge"
+      ],
+      "description": "Merge Into icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMic",
+      "tags": [
+        "fill",
+        "mic"
+      ],
+      "description": "Mic icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMicFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "mic"
+      ],
+      "description": "Mic Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMilestone",
+      "tags": [
+        "fill",
+        "milestone"
+      ],
+      "description": "Milestone icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMirror",
+      "tags": [
+        "fill",
+        "mirror"
+      ],
+      "description": "Mirror icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMortarBoard",
+      "tags": [
+        "board",
+        "fill",
+        "mortar"
+      ],
+      "description": "Mortar Board icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMove",
+      "tags": [
+        "fill",
+        "move"
+      ],
+      "description": "Move icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMultipleWindows",
+      "tags": [
+        "fill",
+        "multiple",
+        "windows"
+      ],
+      "description": "Multiple Windows icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMusic",
+      "tags": [
+        "fill",
+        "music"
+      ],
+      "description": "Music icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscMute",
+      "tags": [
+        "fill",
+        "mute"
+      ],
+      "description": "Mute icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscNewCollection",
+      "tags": [
+        "collection",
+        "fill",
+        "new"
+      ],
+      "description": "New Collection icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscNewFile",
+      "tags": [
+        "file",
+        "fill",
+        "new"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscNewFolder",
+      "tags": [
+        "fill",
+        "folder",
+        "new"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscNewline",
+      "tags": [
+        "fill",
+        "newline"
+      ],
+      "description": "Newline icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscNewSession",
+      "tags": [
+        "fill",
+        "new",
+        "session"
+      ],
+      "description": "New Session icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscNoNewline",
+      "tags": [
+        "fill",
+        "newline",
+        "no"
+      ],
+      "description": "No Newline icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscNote",
+      "tags": [
+        "fill",
+        "note"
+      ],
+      "description": "Note icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscNotebook",
+      "tags": [
+        "fill",
+        "notebook"
+      ],
+      "description": "Notebook icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscNotebookTemplate",
+      "tags": [
+        "fill",
+        "notebook",
+        "template"
+      ],
+      "description": "Notebook Template icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscOctoface",
+      "tags": [
+        "fill",
+        "octoface"
+      ],
+      "description": "Octoface icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscOpenai",
+      "tags": [
+        "fill",
+        "openai"
+      ],
+      "description": "Openai icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscOpenInProduct",
+      "tags": [
+        "fill",
+        "in",
+        "open",
+        "product"
+      ],
+      "description": "Open In Product icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscOpenInWindow",
+      "tags": [
+        "fill",
+        "in",
+        "open",
+        "window"
+      ],
+      "description": "Open In Window icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscOpenPreview",
+      "tags": [
+        "fill",
+        "open",
+        "preview"
+      ],
+      "description": "Open Preview icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscOrganization",
+      "tags": [
+        "fill",
+        "organization"
+      ],
+      "description": "Organization icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscOutput",
+      "tags": [
+        "fill",
+        "output"
+      ],
+      "description": "Output icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPackage",
+      "tags": [
+        "fill",
+        "package"
+      ],
+      "description": "Package icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPaintcan",
+      "tags": [
+        "fill",
+        "paintcan"
+      ],
+      "description": "Paintcan icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPass",
+      "tags": [
+        "fill",
+        "pass"
+      ],
+      "description": "Pass icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPassCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "pass"
+      ],
+      "description": "Pass Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPassFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "pass"
+      ],
+      "description": "Pass Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPassFilledCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "filled",
+        "pass"
+      ],
+      "description": "Pass Filled Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPercentage",
+      "tags": [
+        "fill",
+        "percentage"
+      ],
+      "description": "Percentage icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPerson",
+      "tags": [
+        "fill",
+        "person"
+      ],
+      "description": "Person icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPersonAdd",
+      "tags": [
+        "add",
+        "fill",
+        "person"
+      ],
+      "description": "Person Add icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPiano",
+      "tags": [
+        "fill",
+        "piano"
+      ],
+      "description": "Piano icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPieChart",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPin",
+      "tags": [
+        "fill",
+        "pin"
+      ],
+      "description": "Pin icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPinned",
+      "tags": [
+        "fill",
+        "pinned"
+      ],
+      "description": "Pinned icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPinnedDirty",
+      "tags": [
+        "dirty",
+        "fill",
+        "pinned"
+      ],
+      "description": "Pinned Dirty icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPlay",
+      "tags": [
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "VscPlayCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "VscPlug",
+      "tags": [
+        "fill",
+        "plug"
+      ],
+      "description": "Plug icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPreserveCase",
+      "tags": [
+        "case",
+        "fill",
+        "preserve"
+      ],
+      "description": "Preserve Case icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPreview",
+      "tags": [
+        "fill",
+        "preview"
+      ],
+      "description": "Preview icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPrimitiveSquare",
+      "tags": [
+        "fill",
+        "primitive",
+        "square"
+      ],
+      "description": "Primitive Square icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscProject",
+      "tags": [
+        "fill",
+        "project"
+      ],
+      "description": "Project icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscProjectCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "project"
+      ],
+      "description": "Project Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPulse",
+      "tags": [
+        "fill",
+        "pulse"
+      ],
+      "description": "Pulse icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscPython",
+      "tags": [
+        "fill",
+        "python"
+      ],
+      "description": "Python icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscQuestion",
+      "tags": [
+        "fill",
+        "question"
+      ],
+      "description": "Question icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscQuote",
+      "tags": [
+        "fill",
+        "quote"
+      ],
+      "description": "Quote icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscQuotes",
+      "tags": [
+        "fill",
+        "quotes"
+      ],
+      "description": "Quotes icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRadioTower",
+      "tags": [
+        "fill",
+        "radio",
+        "tower"
+      ],
+      "description": "Radio Tower icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscReactions",
+      "tags": [
+        "fill",
+        "reactions"
+      ],
+      "description": "Reactions icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRecord",
+      "tags": [
+        "fill",
+        "record"
+      ],
+      "description": "Record icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRecordKeys",
+      "tags": [
+        "fill",
+        "keys",
+        "record"
+      ],
+      "description": "Record Keys icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRecordKeysCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "keys",
+        "record"
+      ],
+      "description": "Record Keys Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRecordSmall",
+      "tags": [
+        "fill",
+        "record",
+        "small"
+      ],
+      "description": "Record Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRedo",
+      "tags": [
+        "fill",
+        "redo"
+      ],
+      "description": "Redo icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscReferences",
+      "tags": [
+        "fill",
+        "references"
+      ],
+      "description": "References icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRefresh",
+      "tags": [
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "VscRefreshCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "VscRegex",
+      "tags": [
+        "fill",
+        "regex"
+      ],
+      "description": "Regex icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRemote",
+      "tags": [
+        "fill",
+        "remote"
+      ],
+      "description": "Remote icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRemoteCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "remote"
+      ],
+      "description": "Remote Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRemoteExplorer",
+      "tags": [
+        "explorer",
+        "fill",
+        "remote"
+      ],
+      "description": "Remote Explorer icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRemove",
+      "tags": [
+        "fill",
+        "remove"
+      ],
+      "description": "Remove icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRemoveSmall",
+      "tags": [
+        "fill",
+        "remove",
+        "small"
+      ],
+      "description": "Remove Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRename",
+      "tags": [
+        "fill",
+        "rename"
+      ],
+      "description": "Rename icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscReplace",
+      "tags": [
+        "fill",
+        "replace"
+      ],
+      "description": "Replace icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscReplaceAll",
+      "tags": [
+        "all",
+        "fill",
+        "replace"
+      ],
+      "description": "Replace All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscReply",
+      "tags": [
+        "fill",
+        "reply"
+      ],
+      "description": "Reply icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepo",
+      "tags": [
+        "fill",
+        "repo"
+      ],
+      "description": "Repo icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoClone",
+      "tags": [
+        "clone",
+        "fill",
+        "repo"
+      ],
+      "description": "Repo Clone icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "repo"
+      ],
+      "description": "Repo Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoFetch",
+      "tags": [
+        "fetch",
+        "fill",
+        "repo"
+      ],
+      "description": "Repo Fetch icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoForcePush",
+      "tags": [
+        "fill",
+        "force",
+        "push",
+        "repo"
+      ],
+      "description": "Repo Force Push icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoForked",
+      "tags": [
+        "fill",
+        "forked",
+        "repo"
+      ],
+      "description": "Repo Forked icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoForkedCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "forked",
+        "repo"
+      ],
+      "description": "Repo Forked Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoPinned",
+      "tags": [
+        "fill",
+        "pinned",
+        "repo"
+      ],
+      "description": "Repo Pinned icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoPull",
+      "tags": [
+        "fill",
+        "pull",
+        "repo"
+      ],
+      "description": "Repo Pull icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoPush",
+      "tags": [
+        "fill",
+        "push",
+        "repo"
+      ],
+      "description": "Repo Push icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscReport",
+      "tags": [
+        "fill",
+        "report"
+      ],
+      "description": "Report icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRepoSelected",
+      "tags": [
+        "fill",
+        "repo",
+        "selected"
+      ],
+      "description": "Repo Selected icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRequestChanges",
+      "tags": [
+        "changes",
+        "fill",
+        "request"
+      ],
+      "description": "Request Changes icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRobot",
+      "tags": [
+        "fill",
+        "robot"
+      ],
+      "description": "Robot icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRocket",
+      "tags": [
+        "fill",
+        "rocket"
+      ],
+      "description": "Rocket icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRocketCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "rocket"
+      ],
+      "description": "Rocket Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRootFolder",
+      "tags": [
+        "fill",
+        "folder",
+        "root"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscRootFolderOpened",
+      "tags": [
+        "fill",
+        "folder",
+        "opened",
+        "root"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "VscRss",
+      "tags": [
+        "fill",
+        "rss"
+      ],
+      "description": "Rss icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRuby",
+      "tags": [
+        "fill",
+        "ruby"
+      ],
+      "description": "Ruby icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunAbove",
+      "tags": [
+        "above",
+        "fill",
+        "run"
+      ],
+      "description": "Run Above icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunAll",
+      "tags": [
+        "all",
+        "fill",
+        "run"
+      ],
+      "description": "Run All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunAllCoverage",
+      "tags": [
+        "all",
+        "coverage",
+        "fill",
+        "run"
+      ],
+      "description": "Run All Coverage icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunBelow",
+      "tags": [
+        "below",
+        "fill",
+        "run"
+      ],
+      "description": "Run Below icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "run"
+      ],
+      "description": "Run Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunCoverage",
+      "tags": [
+        "coverage",
+        "fill",
+        "run"
+      ],
+      "description": "Run Coverage icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunErrors",
+      "tags": [
+        "errors",
+        "fill",
+        "run"
+      ],
+      "description": "Run Errors icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscRunWithDeps",
+      "tags": [
+        "deps",
+        "fill",
+        "run",
+        "with"
+      ],
+      "description": "Run With Deps icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSave",
+      "tags": [
+        "fill",
+        "save"
+      ],
+      "description": "Save icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSaveAll",
+      "tags": [
+        "all",
+        "fill",
+        "save"
+      ],
+      "description": "Save All icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSaveAs",
+      "tags": [
+        "as",
+        "fill",
+        "save"
+      ],
+      "description": "Save As icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscScreenCut",
+      "tags": [
+        "cut",
+        "fill",
+        "screen"
+      ],
+      "description": "Screen Cut icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscScreenFull",
+      "tags": [
+        "fill",
+        "full",
+        "screen"
+      ],
+      "description": "Screen Full icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscScreenNormal",
+      "tags": [
+        "fill",
+        "normal",
+        "screen"
+      ],
+      "description": "Screen Normal icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSearch",
+      "tags": [
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "VscSearchCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "VscSearchFuzzy",
+      "tags": [
+        "fill",
+        "find",
+        "fuzzy",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "VscSearchLarge",
+      "tags": [
+        "fill",
+        "find",
+        "large",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "VscSearchSparkle",
+      "tags": [
+        "fill",
+        "find",
+        "search",
+        "sparkle"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "VscSearchStop",
+      "tags": [
+        "fill",
+        "find",
+        "search",
+        "stop"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "VscSend",
+      "tags": [
+        "fill",
+        "send"
+      ],
+      "description": "Paper plane — send and submit actions."
+    },
+    {
+      "name": "VscSendToRemoteAgent",
+      "tags": [
+        "agent",
+        "fill",
+        "remote",
+        "send",
+        "to"
+      ],
+      "description": "Paper plane — send and submit actions."
+    },
+    {
+      "name": "VscServer",
+      "tags": [
+        "fill",
+        "server"
+      ],
+      "description": "Server icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscServerEnvironment",
+      "tags": [
+        "environment",
+        "fill",
+        "server"
+      ],
+      "description": "Server Environment icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscServerProcess",
+      "tags": [
+        "fill",
+        "process",
+        "server"
+      ],
+      "description": "Server Process icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSessionInProgress",
+      "tags": [
+        "fill",
+        "in",
+        "progress",
+        "session"
+      ],
+      "description": "Session In Progress icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSessionInProgressCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "in",
+        "progress",
+        "session"
+      ],
+      "description": "Session In Progress Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSettings",
+      "tags": [
+        "fill",
+        "gear",
+        "setting",
+        "settings"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "VscSettingsCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "gear",
+        "setting",
+        "settings"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "VscSettingsGear",
+      "tags": [
+        "fill",
+        "gear",
+        "setting",
+        "settings"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "VscShare",
+      "tags": [
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "VscShareWindow",
+      "tags": [
+        "fill",
+        "share",
+        "window"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "VscShield",
+      "tags": [
+        "fill",
+        "shield"
+      ],
+      "description": "Shield icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscShieldCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "shield"
+      ],
+      "description": "Shield Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSignIn",
+      "tags": [
+        "fill",
+        "in",
+        "sign"
+      ],
+      "description": "Sign In icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSignOut",
+      "tags": [
+        "fill",
+        "out",
+        "sign"
+      ],
+      "description": "Sign Out icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSkip",
+      "tags": [
+        "fill",
+        "skip"
+      ],
+      "description": "Skip icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSmiley",
+      "tags": [
+        "fill",
+        "smiley"
+      ],
+      "description": "Smiley icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSnake",
+      "tags": [
+        "fill",
+        "snake"
+      ],
+      "description": "Snake icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSortPrecedence",
+      "tags": [
+        "fill",
+        "precedence",
+        "sort"
+      ],
+      "description": "Sort Precedence icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSourceControl",
+      "tags": [
+        "control",
+        "fill",
+        "source"
+      ],
+      "description": "Source Control icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSparkle",
+      "tags": [
+        "fill",
+        "sparkle"
+      ],
+      "description": "Sparkle icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSparkleCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "sparkle"
+      ],
+      "description": "Sparkle Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSparkleFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "sparkle"
+      ],
+      "description": "Sparkle Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSplitHorizontal",
+      "tags": [
+        "fill",
+        "horizontal",
+        "split"
+      ],
+      "description": "Split Horizontal icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSplitVertical",
+      "tags": [
+        "fill",
+        "split",
+        "vertical"
+      ],
+      "description": "Split Vertical icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSquirrel",
+      "tags": [
+        "fill",
+        "squirrel"
+      ],
+      "description": "Squirrel icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscStarEmpty",
+      "tags": [
+        "empty",
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "VscStarFull",
+      "tags": [
+        "fill",
+        "full",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "VscStarHalf",
+      "tags": [
+        "fill",
+        "half",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "VscStopCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "stop"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "VscStrikethrough",
+      "tags": [
+        "fill",
+        "strikethrough"
+      ],
+      "description": "Strikethrough icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSurroundWith",
+      "tags": [
+        "fill",
+        "surround",
+        "with"
+      ],
+      "description": "Surround With icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolArray",
+      "tags": [
+        "array",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Array icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolBoolean",
+      "tags": [
+        "boolean",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Boolean icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolClass",
+      "tags": [
+        "class",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Class icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolColor",
+      "tags": [
+        "color",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Color icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolColorCompact",
+      "tags": [
+        "color",
+        "compact",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Color Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolConstant",
+      "tags": [
+        "constant",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Constant icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolEnum",
+      "tags": [
+        "enum",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Enum icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolEnumMember",
+      "tags": [
+        "enum",
+        "fill",
+        "member",
+        "symbol"
+      ],
+      "description": "Symbol Enum Member icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolEvent",
+      "tags": [
+        "event",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Event icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolField",
+      "tags": [
+        "field",
+        "fill",
+        "symbol"
+      ],
+      "description": "Symbol Field icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolFile",
+      "tags": [
+        "file",
+        "fill",
+        "symbol"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "VscSymbolInterface",
+      "tags": [
+        "fill",
+        "interface",
+        "symbol"
+      ],
+      "description": "Symbol Interface icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolKey",
+      "tags": [
+        "fill",
+        "key",
+        "symbol"
+      ],
+      "description": "Symbol Key icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolKeyword",
+      "tags": [
+        "fill",
+        "keyword",
+        "symbol"
+      ],
+      "description": "Symbol Keyword icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolMethod",
+      "tags": [
+        "fill",
+        "method",
+        "symbol"
+      ],
+      "description": "Symbol Method icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolMethodArrow",
+      "tags": [
+        "arrow",
+        "fill",
+        "method",
+        "symbol"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "VscSymbolMisc",
+      "tags": [
+        "fill",
+        "misc",
+        "symbol"
+      ],
+      "description": "Symbol Misc icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolNamespace",
+      "tags": [
+        "fill",
+        "namespace",
+        "symbol"
+      ],
+      "description": "Symbol Namespace icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolNumeric",
+      "tags": [
+        "fill",
+        "numeric",
+        "symbol"
+      ],
+      "description": "Symbol Numeric icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolOperator",
+      "tags": [
+        "fill",
+        "operator",
+        "symbol"
+      ],
+      "description": "Symbol Operator icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolParameter",
+      "tags": [
+        "fill",
+        "parameter",
+        "symbol"
+      ],
+      "description": "Symbol Parameter icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolProperty",
+      "tags": [
+        "fill",
+        "property",
+        "symbol"
+      ],
+      "description": "Symbol Property icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolRuler",
+      "tags": [
+        "fill",
+        "ruler",
+        "symbol"
+      ],
+      "description": "Symbol Ruler icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolSnippet",
+      "tags": [
+        "fill",
+        "snippet",
+        "symbol"
+      ],
+      "description": "Symbol Snippet icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolString",
+      "tags": [
+        "fill",
+        "string",
+        "symbol"
+      ],
+      "description": "Symbol String icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolStructure",
+      "tags": [
+        "fill",
+        "structure",
+        "symbol"
+      ],
+      "description": "Symbol Structure icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSymbolVariable",
+      "tags": [
+        "fill",
+        "symbol",
+        "variable"
+      ],
+      "description": "Symbol Variable icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSync",
+      "tags": [
+        "fill",
+        "sync"
+      ],
+      "description": "Sync icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSyncCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "sync"
+      ],
+      "description": "Sync Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscSyncIgnored",
+      "tags": [
+        "fill",
+        "ignored",
+        "sync"
+      ],
+      "description": "Sync Ignored icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTable",
+      "tags": [
+        "fill",
+        "table"
+      ],
+      "description": "Table icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTag",
+      "tags": [
+        "fill",
+        "tag"
+      ],
+      "description": "Tag icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTarget",
+      "tags": [
+        "fill",
+        "target"
+      ],
+      "description": "Target icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTasklist",
+      "tags": [
+        "fill",
+        "tasklist"
+      ],
+      "description": "Tasklist icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTelescope",
+      "tags": [
+        "fill",
+        "telescope"
+      ],
+      "description": "Telescope icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminal",
+      "tags": [
+        "fill",
+        "terminal"
+      ],
+      "description": "Terminal icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalBash",
+      "tags": [
+        "bash",
+        "fill",
+        "terminal"
+      ],
+      "description": "Terminal Bash icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalCmd",
+      "tags": [
+        "cmd",
+        "fill",
+        "terminal"
+      ],
+      "description": "Terminal Cmd icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "terminal"
+      ],
+      "description": "Terminal Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalDebian",
+      "tags": [
+        "debian",
+        "fill",
+        "terminal"
+      ],
+      "description": "Terminal Debian icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalGitBash",
+      "tags": [
+        "bash",
+        "fill",
+        "git",
+        "terminal"
+      ],
+      "description": "Terminal Git Bash icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalLinux",
+      "tags": [
+        "fill",
+        "linux",
+        "terminal"
+      ],
+      "description": "Terminal Linux icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalPowershell",
+      "tags": [
+        "fill",
+        "powershell",
+        "terminal"
+      ],
+      "description": "Terminal Powershell icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalSecure",
+      "tags": [
+        "fill",
+        "secure",
+        "terminal"
+      ],
+      "description": "Terminal Secure icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalTmux",
+      "tags": [
+        "fill",
+        "terminal",
+        "tmux"
+      ],
+      "description": "Terminal Tmux icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTerminalUbuntu",
+      "tags": [
+        "fill",
+        "terminal",
+        "ubuntu"
+      ],
+      "description": "Terminal Ubuntu icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTextSize",
+      "tags": [
+        "fill",
+        "size",
+        "text"
+      ],
+      "description": "Text Size icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscThinking",
+      "tags": [
+        "fill",
+        "thinking"
+      ],
+      "description": "Thinking icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscThreeBars",
+      "tags": [
+        "bars",
+        "fill",
+        "three"
+      ],
+      "description": "Three Bars icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscThumbsdown",
+      "tags": [
+        "fill",
+        "thumbsdown"
+      ],
+      "description": "Thumbsdown icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscThumbsdownFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "thumbsdown"
+      ],
+      "description": "Thumbsdown Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscThumbsup",
+      "tags": [
+        "fill",
+        "thumbsup"
+      ],
+      "description": "Thumbsup icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscThumbsupFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "thumbsup"
+      ],
+      "description": "Thumbsup Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTools",
+      "tags": [
+        "fill",
+        "tools"
+      ],
+      "description": "Tools icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "VscTriangleDown",
+      "tags": [
+        "down",
+        "fill",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Down icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTriangleLeft",
+      "tags": [
+        "fill",
+        "left",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Left icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTriangleRight",
+      "tags": [
+        "fill",
+        "right",
+        "triangle",
+        "warning"
+      ],
+      "description": "Triangle Right icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTriangleUp",
+      "tags": [
+        "fill",
+        "like",
+        "triangle",
+        "up",
+        "warning"
+      ],
+      "description": "Triangle Up icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTwitter",
+      "tags": [
+        "fill",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "VscTypeHierarchy",
+      "tags": [
+        "fill",
+        "hierarchy",
+        "type"
+      ],
+      "description": "Type Hierarchy icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTypeHierarchySub",
+      "tags": [
+        "fill",
+        "hierarchy",
+        "sub",
+        "type"
+      ],
+      "description": "Type Hierarchy Sub icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscTypeHierarchySuper",
+      "tags": [
+        "fill",
+        "hierarchy",
+        "super",
+        "type"
+      ],
+      "description": "Type Hierarchy Super icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscUnarchive",
+      "tags": [
+        "fill",
+        "unarchive"
+      ],
+      "description": "Unarchive icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscUnfold",
+      "tags": [
+        "fill",
+        "unfold"
+      ],
+      "description": "Unfold icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscUngroupByRefType",
+      "tags": [
+        "by",
+        "fill",
+        "ref",
+        "type",
+        "ungroup"
+      ],
+      "description": "Ungroup By Ref Type icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscUnlock",
+      "tags": [
+        "fill",
+        "unlock"
+      ],
+      "description": "Open padlock — unlocked or accessible content."
+    },
+    {
+      "name": "VscUnmute",
+      "tags": [
+        "fill",
+        "unmute"
+      ],
+      "description": "Unmute icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscUnpin",
+      "tags": [
+        "fill",
+        "unpin"
+      ],
+      "description": "Unpin icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscUnverified",
+      "tags": [
+        "fill",
+        "unverified"
+      ],
+      "description": "Unverified icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVariableGroup",
+      "tags": [
+        "fill",
+        "group",
+        "variable"
+      ],
+      "description": "Variable Group icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVerified",
+      "tags": [
+        "fill",
+        "verified"
+      ],
+      "description": "Verified icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVerifiedFilled",
+      "tags": [
+        "fill",
+        "filled",
+        "verified"
+      ],
+      "description": "Verified Filled icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVersions",
+      "tags": [
+        "fill",
+        "versions"
+      ],
+      "description": "Versions icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVm",
+      "tags": [
+        "fill",
+        "vm"
+      ],
+      "description": "Vm icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVmActive",
+      "tags": [
+        "active",
+        "fill",
+        "vm"
+      ],
+      "description": "Vm Active icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVmCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "vm"
+      ],
+      "description": "Vm Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVmConnect",
+      "tags": [
+        "connect",
+        "fill",
+        "vm"
+      ],
+      "description": "Vm Connect icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVmOutline",
+      "tags": [
+        "fill",
+        "outline",
+        "vm"
+      ],
+      "description": "Vm Outline icon — Codicons (vsc) set, fill style. Outline variant."
+    },
+    {
+      "name": "VscVmPending",
+      "tags": [
+        "fill",
+        "pending",
+        "vm"
+      ],
+      "description": "Vm Pending icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVmRunning",
+      "tags": [
+        "fill",
+        "running",
+        "vm"
+      ],
+      "description": "Vm Running icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVmSmall",
+      "tags": [
+        "fill",
+        "small",
+        "vm"
+      ],
+      "description": "Vm Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVr",
+      "tags": [
+        "fill",
+        "vr"
+      ],
+      "description": "Vr icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVscode",
+      "tags": [
+        "fill",
+        "vscode"
+      ],
+      "description": "Vscode icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscVscodeInsiders",
+      "tags": [
+        "fill",
+        "insiders",
+        "vscode"
+      ],
+      "description": "Vscode Insiders icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWand",
+      "tags": [
+        "fill",
+        "wand"
+      ],
+      "description": "Wand icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWarning",
+      "tags": [
+        "fill",
+        "warning"
+      ],
+      "description": "Warning icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWarningCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "warning"
+      ],
+      "description": "Warning Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWatch",
+      "tags": [
+        "fill",
+        "watch"
+      ],
+      "description": "Watch icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWhitespace",
+      "tags": [
+        "fill",
+        "whitespace"
+      ],
+      "description": "Whitespace icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWholeWord",
+      "tags": [
+        "fill",
+        "whole",
+        "word"
+      ],
+      "description": "Whole Word icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWindow",
+      "tags": [
+        "fill",
+        "window"
+      ],
+      "description": "Window icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWindowActive",
+      "tags": [
+        "active",
+        "fill",
+        "window"
+      ],
+      "description": "Window Active icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWindowCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "window"
+      ],
+      "description": "Window Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWordWrap",
+      "tags": [
+        "fill",
+        "word",
+        "wrap"
+      ],
+      "description": "Word Wrap icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWorkspaceTrusted",
+      "tags": [
+        "fill",
+        "trusted",
+        "workspace"
+      ],
+      "description": "Workspace Trusted icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWorkspaceUnknown",
+      "tags": [
+        "fill",
+        "unknown",
+        "workspace"
+      ],
+      "description": "Workspace Unknown icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWorkspaceUntrusted",
+      "tags": [
+        "fill",
+        "untrusted",
+        "workspace"
+      ],
+      "description": "Workspace Untrusted icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWorktree",
+      "tags": [
+        "fill",
+        "worktree"
+      ],
+      "description": "Worktree icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWorktreeCompact",
+      "tags": [
+        "compact",
+        "fill",
+        "worktree"
+      ],
+      "description": "Worktree Compact icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscWorktreeSmall",
+      "tags": [
+        "fill",
+        "small",
+        "worktree"
+      ],
+      "description": "Worktree Small icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Codicons (vsc) set, fill style."
+    },
+    {
+      "name": "VscZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Codicons (vsc) set, fill style."
+    }
+  ]
+}

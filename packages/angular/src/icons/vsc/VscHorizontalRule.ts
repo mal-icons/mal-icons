@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-horizontal-rule",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscHorizontalRule {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.5 13.5C14.5 13.78 14.28 14 14 14H2C1.72 14 1.5 13.78 1.5 13.5C1.5 13.22 1.72 13 2 13H14C14.28 13 14.5 13.22 14.5 13.5ZM2.5 11C2.78 11 3 10.78 3 10.5V7.5H6V10.5C6 10.78 6.22 11 6.5 11C6.78 11 7 10.78 7 10.5V3.5C7 3.22 6.78 3 6.5 3C6.22 3 6 3.22 6 3.5V6.5H3V3.5C3 3.22 2.78 3 2.5 3C2.22 3 2 3.22 2 3.5V10.5C2 10.78 2.22 11 2.5 11ZM9 10.5V3.5C9 3.22 9.22 3 9.5 3H11.75C12.99 3 14 4.01 14 5.25C14 6.14 13.47 6.91 12.72 7.27C13.33 7.94 13.62 8.88 13.81 9.51C13.87 9.7 13.94 9.94 14 10.07C14.15 10.15 14.25 10.31 14.25 10.5C14.25 10.78 14.03 11 13.75 11C13.22 11 13.06 10.47 12.85 9.8C12.49 8.59 12.07 7.5 11 7.5H10V10.5C10 10.78 9.78 11 9.5 11C9.22 11 9 10.78 9 10.5ZM10 6.5H11.75C12.44 6.5 13 5.94 13 5.25C13 4.56 12.44 4 11.75 4H10V6.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscHorizontalRule;

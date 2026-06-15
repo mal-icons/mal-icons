@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-chevron-down",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscChevronDown {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.15 5.85L7.65 10.35C7.84 10.55 8.16 10.55 8.35 10.35L12.85 5.85C13.05 5.66 13.05 5.34 12.85 5.15C12.66 4.95 12.34 4.95 12.15 5.15L8 9.29L3.85 5.15C3.66 4.95 3.34 4.95 3.15 5.15C2.95 5.34 2.95 5.66 3.15 5.85Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscChevronDown;

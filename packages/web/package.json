@@ -132,6 +132,12 @@
       "import": "./dist/icons/ti/index.js"
     },
     "./ti/*.json": "./src/icons/ti/*.json",
+    "./vsc": {
+      "types": "./dist/icons/vsc/index.d.ts",
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./dist/icons/vsc/index.js"
+    },
+    "./vsc/*.json": "./src/icons/vsc/*.json",
     "./wi": {
       "types": "./dist/icons/wi/index.d.ts",
       "bun": "./src/icons/wi/index.ts",

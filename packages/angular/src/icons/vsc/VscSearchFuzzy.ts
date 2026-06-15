@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-search-fuzzy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscSearchFuzzy {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.85 13.15L10.02 9.31C10.63 8.54 11 7.56 11 6.5C11 4.01 8.99 2 6.5 2C4.02 2 2 4.01 2 6.5C2 8.98 4.02 11 6.5 11C7.56 11 8.54 10.63 9.31 10.02L13.15 13.85C13.34 14.05 13.66 14.05 13.85 13.85C14.05 13.66 14.05 13.34 13.85 13.15ZM6.5 10C4.57 10 3 8.43 3 6.5C3 4.57 4.57 3 6.5 3C8.43 3 10 4.57 10 6.5C10 8.43 8.43 10 6.5 10ZM10.85 15.15C11.05 15.34 11.05 15.66 10.85 15.85C10.66 16.05 10.34 16.05 10.15 15.85L8.5 14.21L6.86 15.85C6.67 16.04 6.34 16.04 6.15 15.85L4.5 14.21L2.85 15.85C2.76 15.95 2.63 16 2.5 16C2.37 16 2.24 15.95 2.15 15.85L0.14 13.85C-0.05 13.66 -0.05 13.34 0.14 13.15C0.34 12.95 0.66 12.95 0.85 13.15L2.5 14.79L4.15 13.15C4.34 12.95 4.66 12.95 4.85 13.15L6.5 14.79L8.15 13.15C8.24 13.05 8.37 13 8.5 13C8.63 13 8.76 13.05 8.85 13.15L10.85 15.15Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscSearchFuzzy;

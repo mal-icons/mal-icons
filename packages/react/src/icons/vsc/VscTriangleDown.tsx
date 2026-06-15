@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const VscTriangleDown = createIcon("0 0 16 16", [["path",{"d":"M4.96 5C4.15 5 3.67 5.91 4.14 6.57L6.77 10.36C7.37 11.21 8.63 11.21 9.23 10.36L11.86 6.57C12.33 5.91 11.85 5 11.04 5H4.96Z"}]]);
+
+export default VscTriangleDown;
