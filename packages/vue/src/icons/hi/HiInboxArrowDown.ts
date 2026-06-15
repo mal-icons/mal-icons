@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const HiInboxArrowDown = createIcon("0 0 24 24", [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M9 3.75H6.91a2.25 2.25 0 0 0-2.15 1.59L2.35 13.18a2.25 2.25 0 0 0-0.10.66V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.16c0-0.22-0.03-0.45-0.1-0.66L19.24 5.34a2.25 2.25 0 0 0-2.15-1.59H15M2.25 13.5h3.86a2.25 2.25 0 0 1 2.01 1.24l0.260.51a2.25 2.25 0 0 0 2.01 1.24h3.22a2.25 2.25 0 0 0 2.01-1.24l0.26-0.51a2.25 2.25 0 0 1 2.01-1.24h3.86M12 3v8.25m0 0-3-3m3 3 3-3"}]], {"fill":"none","stroke-width":1.5});
+
+export default HiInboxArrowDown;

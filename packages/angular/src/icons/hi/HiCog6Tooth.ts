@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-cog-6-tooth",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiCog6Tooth {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M9.59 3.94c0.09-0.540.56-0.94 1.11-0.94h2.59c0.55 0 1.020.4 1.110.94l0.21 1.28c0.060.370.310.690.650.870.070.040.150.080.220.130.330.20.720.26 1.080.12l1.22-0.46a1.13 1.13 0 0 1 1.370.49l1.3 2.25a1.13 1.13 0 0 1-0.26 1.43l-10.83c-0.290.24-0.440.61-0.430.99a7.72 7.72 0 0 1 0 0.26c-0.010.380.140.750.430.99l10.83c0.420.350.530.960.26 1.43l-1.3 2.25a1.13 1.13 0 0 1-1.370.49l-1.22-0.46c-0.35-0.13-0.75-0.07-1.080.12a6.47 6.47 0 0 1-0.220.13c-0.330.18-0.580.5-0.640.87l-0.21 1.28c-0.090.54-0.560.94-1.110.94h-2.59c-0.55 0-1.02-0.4-1.11-0.94l-0.21-1.28c-0.06-0.37-0.31-0.69-0.64-0.87a6.52 6.52 0 0 1-0.22-0.13c-0.32-0.2-0.72-0.26-1.08-0.12l-1.220.46a1.13 1.13 0 0 1-1.37-0.49l-1.3-2.25a1.13 1.13 0 0 1 0.26-1.43l1-0.83c0.29-0.240.44-0.610.43-0.99a6.93 6.93 0 0 1 0-0.25c0.01-0.38-0.14-0.75-0.43-0.99l-1-0.83a1.13 1.13 0 0 1-0.26-1.43l1.3-2.25a1.13 1.13 0 0 1 1.37-0.49l1.220.46c0.360.130.750.07 1.08-0.120.07-0.040.15-0.090.22-0.130.33-0.180.58-0.490.64-0.87l0.21-1.28Z"}],["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiCog6Tooth;

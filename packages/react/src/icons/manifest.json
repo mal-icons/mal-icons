@@ -55,6 +55,12 @@
       "count": 637
     },
     {
+      "id": "hi",
+      "name": "Heroicons",
+      "license": "MIT",
+      "count": 324
+    },
+    {
       "id": "io",
       "name": "Ionicons",
       "license": "MIT",

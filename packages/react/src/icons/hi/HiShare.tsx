@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiShare = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M7.22 10.91a2.25 2.25 0 1 0 0 2.19m0-2.19c0.180.320.280.70.28 1.09s-0.10.77-0.28 1.09m0-2.19 9.57-5.31m-9.57 7.5 9.57 5.31m0 0a2.25 2.25 0 1 0 3.94 2.19 2.25 2.25 0 0 0-3.93-2.19Zm0-12.81a2.25 2.25 0 1 0 3.93-2.18 2.25 2.25 0 0 0-3.93 2.19Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiShare;

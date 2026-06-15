@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-inbox-stack",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiInboxStack {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"m7.88 14.25 1.21 1.94a2.25 2.25 0 0 0 1.91 1.06h2.01c0.78 0 1.5-0.4 1.91-1.06l1.21-1.94M2.41 9h4.64a2.25 2.25 0 0 1 1.87 1l0.160.25a2.25 2.25 0 0 0 1.87 1h2.09a2.25 2.25 0 0 0 1.87-1l0.16-0.25A2.25 2.25 0 0 1 16.95 9h4.64M2.41 9a2.25 2.25 0 0 0-0.160.83V12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 12V9.83c0-0.29-0.05-0.57-0.16-0.83M2.41 9a2.25 2.25 0 0 1 0.38-0.63l3.29-3.83a2.25 2.25 0 0 1 1.71-0.79h8.43c0.66 0 1.280.29 1.710.79l3.28 3.83c0.160.190.290.40.380.63M4.5 20.25h15A2.25 2.25 0 0 0 21.75 18v-2.62c0-0.62-0.5-1.12-1.12-1.12H3.38c-0.62 0-1.120.5-1.12 1.13V18a2.25 2.25 0 0 0 2.25 2.25Z"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiInboxStack;

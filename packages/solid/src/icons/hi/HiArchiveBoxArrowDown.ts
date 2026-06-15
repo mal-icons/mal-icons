@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const HiArchiveBoxArrowDown = createIcon("0 0 24 24", [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"m20.25 7.5-0.62 10.63a2.25 2.25 0 0 1-2.25 2.12H6.62a2.25 2.25 0 0 1-2.25-2.12L3.75 7.5m8.25 3v6.75m0 0-3-3m3 3 3-3M3.38 7.5h17.25c0.62 0 1.13-0.5 1.13-1.12v-1.5c0-0.62-0.5-1.12-1.12-1.12H3.38c-0.62 0-1.120.5-1.12 1.13v1.5c0 0.620.5 1.13 1.13 1.13Z"}]], {"fill":"none","stroke-width":1.5});
+
+export default HiArchiveBoxArrowDown;

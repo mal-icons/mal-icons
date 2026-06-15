@@ -49304,6 +49304,3009 @@
       ]
     },
     {
+      "name": "HiAcademicCap",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "academic",
+        "cap"
+      ]
+    },
+    {
+      "name": "HiAdjustmentsHorizontal",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "adjustments",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "HiAdjustmentsVertical",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "adjustments",
+        "vertical"
+      ]
+    },
+    {
+      "name": "HiArchiveBox",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "archive",
+        "box"
+      ]
+    },
+    {
+      "name": "HiArchiveBoxArrowDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "archive",
+        "box",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArchiveBoxXMark",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "archive",
+        "box",
+        "xmark",
+        "x",
+        "mark"
+      ]
+    },
+    {
+      "name": "HiArrowDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowDownCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "down",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiArrowDownLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowDownOnSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "down",
+        "on",
+        "square"
+      ]
+    },
+    {
+      "name": "HiArrowDownOnSquareStack",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "down",
+        "on",
+        "square",
+        "stack"
+      ]
+    },
+    {
+      "name": "HiArrowDownRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowDownTray",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "down",
+        "tray"
+      ]
+    },
+    {
+      "name": "HiArrowLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowLeftCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "left",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiArrowLeftEndOnRectangle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "left",
+        "end",
+        "on",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "HiArrowLeftOnRectangle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "left",
+        "on",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "HiArrowLeftStartOnRectangle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "left",
+        "start",
+        "on",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "HiArrowLongDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "long",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowLongLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "long",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowLongRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "long",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowLongUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "long",
+        "up"
+      ]
+    },
+    {
+      "name": "HiArrowPath",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "path"
+      ]
+    },
+    {
+      "name": "HiArrowPathRoundedSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "path",
+        "rounded",
+        "square"
+      ]
+    },
+    {
+      "name": "HiArrowRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowRightCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "right",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiArrowRightEndOnRectangle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "right",
+        "end",
+        "on",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "HiArrowRightOnRectangle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "right",
+        "on",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "HiArrowRightStartOnRectangle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "right",
+        "start",
+        "on",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "HiArrowSmallDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "small",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowSmallLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "small",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowSmallRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "small",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowSmallUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "small",
+        "up"
+      ]
+    },
+    {
+      "name": "HiArrowsPointingIn",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrows",
+        "pointing",
+        "in"
+      ]
+    },
+    {
+      "name": "HiArrowsPointingOut",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrows",
+        "pointing",
+        "out"
+      ]
+    },
+    {
+      "name": "HiArrowsRightLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrows",
+        "right",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowsUpDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrows",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowTopRightOnSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "top",
+        "right",
+        "on",
+        "square"
+      ]
+    },
+    {
+      "name": "HiArrowTrendingDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "trending",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowTrendingUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "trending",
+        "up"
+      ]
+    },
+    {
+      "name": "HiArrowTurnDownLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowTurnDownRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowTurnLeftDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowTurnLeftUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "name": "HiArrowTurnRightDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowTurnRightUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "name": "HiArrowTurnUpLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowTurnUpRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "turn",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "HiArrowUpCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "up",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiArrowUpLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowUpOnSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "up",
+        "on",
+        "square"
+      ]
+    },
+    {
+      "name": "HiArrowUpOnSquareStack",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "up",
+        "on",
+        "square",
+        "stack"
+      ]
+    },
+    {
+      "name": "HiArrowUpRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowUpTray",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "up",
+        "tray"
+      ]
+    },
+    {
+      "name": "HiArrowUturnDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "uturn",
+        "down"
+      ]
+    },
+    {
+      "name": "HiArrowUturnLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "uturn",
+        "left"
+      ]
+    },
+    {
+      "name": "HiArrowUturnRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "uturn",
+        "right"
+      ]
+    },
+    {
+      "name": "HiArrowUturnUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "arrow",
+        "uturn",
+        "up"
+      ]
+    },
+    {
+      "name": "HiAtSymbol",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "at",
+        "symbol"
+      ]
+    },
+    {
+      "name": "HiBackspace",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "backspace"
+      ]
+    },
+    {
+      "name": "HiBackward",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "backward"
+      ]
+    },
+    {
+      "name": "HiBanknotes",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "banknotes"
+      ]
+    },
+    {
+      "name": "HiBars2",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars2",
+        "bars",
+        "2"
+      ]
+    },
+    {
+      "name": "HiBars3",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars3",
+        "bars",
+        "3"
+      ]
+    },
+    {
+      "name": "HiBars3BottomLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars3",
+        "bottom",
+        "left",
+        "bars",
+        "3"
+      ]
+    },
+    {
+      "name": "HiBars3BottomRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars3",
+        "bottom",
+        "right",
+        "bars",
+        "3"
+      ]
+    },
+    {
+      "name": "HiBars3CenterLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars3",
+        "center",
+        "left",
+        "bars",
+        "3"
+      ]
+    },
+    {
+      "name": "HiBars4",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars4",
+        "bars",
+        "4"
+      ]
+    },
+    {
+      "name": "HiBarsArrowDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "HiBarsArrowUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bars",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "HiBattery0",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "battery0",
+        "battery",
+        "0"
+      ]
+    },
+    {
+      "name": "HiBattery100",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "battery100",
+        "battery",
+        "100"
+      ]
+    },
+    {
+      "name": "HiBattery50",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "battery50",
+        "battery",
+        "50"
+      ]
+    },
+    {
+      "name": "HiBeaker",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "beaker"
+      ]
+    },
+    {
+      "name": "HiBell",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bell"
+      ]
+    },
+    {
+      "name": "HiBellAlert",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bell",
+        "alert"
+      ]
+    },
+    {
+      "name": "HiBellSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bell",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiBellSnooze",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bell",
+        "snooze"
+      ]
+    },
+    {
+      "name": "HiBold",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bold"
+      ]
+    },
+    {
+      "name": "HiBolt",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bolt"
+      ]
+    },
+    {
+      "name": "HiBoltSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bolt",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiBookmark",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "HiBookmarkSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bookmark",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiBookmarkSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bookmark",
+        "square"
+      ]
+    },
+    {
+      "name": "HiBookOpen",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "book",
+        "open"
+      ]
+    },
+    {
+      "name": "HiBriefcase",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "HiBugAnt",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "bug",
+        "ant"
+      ]
+    },
+    {
+      "name": "HiBuildingLibrary",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "building",
+        "library"
+      ]
+    },
+    {
+      "name": "HiBuildingOffice",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "building",
+        "office"
+      ]
+    },
+    {
+      "name": "HiBuildingOffice2",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "building",
+        "office2",
+        "office",
+        "2"
+      ]
+    },
+    {
+      "name": "HiBuildingStorefront",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "building",
+        "storefront"
+      ]
+    },
+    {
+      "name": "HiCake",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cake"
+      ]
+    },
+    {
+      "name": "HiCalculator",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "calculator"
+      ]
+    },
+    {
+      "name": "HiCalendar",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "calendar"
+      ]
+    },
+    {
+      "name": "HiCalendarDateRange",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "calendar",
+        "date",
+        "range"
+      ]
+    },
+    {
+      "name": "HiCalendarDays",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "calendar",
+        "days"
+      ]
+    },
+    {
+      "name": "HiCamera",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "camera"
+      ]
+    },
+    {
+      "name": "HiChartBar",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chart",
+        "bar"
+      ]
+    },
+    {
+      "name": "HiChartBarSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chart",
+        "bar",
+        "square"
+      ]
+    },
+    {
+      "name": "HiChartPie",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chart",
+        "pie"
+      ]
+    },
+    {
+      "name": "HiChatBubbleBottomCenter",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chat",
+        "bubble",
+        "bottom",
+        "center"
+      ]
+    },
+    {
+      "name": "HiChatBubbleBottomCenterText",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chat",
+        "bubble",
+        "bottom",
+        "center",
+        "text"
+      ]
+    },
+    {
+      "name": "HiChatBubbleLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chat",
+        "bubble",
+        "left"
+      ]
+    },
+    {
+      "name": "HiChatBubbleLeftEllipsis",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chat",
+        "bubble",
+        "left",
+        "ellipsis"
+      ]
+    },
+    {
+      "name": "HiChatBubbleLeftRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chat",
+        "bubble",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "name": "HiChatBubbleOvalLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chat",
+        "bubble",
+        "oval",
+        "left"
+      ]
+    },
+    {
+      "name": "HiChatBubbleOvalLeftEllipsis",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chat",
+        "bubble",
+        "oval",
+        "left",
+        "ellipsis"
+      ]
+    },
+    {
+      "name": "HiCheck",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "check"
+      ]
+    },
+    {
+      "name": "HiCheckBadge",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "check",
+        "badge"
+      ]
+    },
+    {
+      "name": "HiCheckCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "check",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiChevronDoubleDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "double",
+        "down"
+      ]
+    },
+    {
+      "name": "HiChevronDoubleLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "double",
+        "left"
+      ]
+    },
+    {
+      "name": "HiChevronDoubleRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "double",
+        "right"
+      ]
+    },
+    {
+      "name": "HiChevronDoubleUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "double",
+        "up"
+      ]
+    },
+    {
+      "name": "HiChevronDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "down"
+      ]
+    },
+    {
+      "name": "HiChevronLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "left"
+      ]
+    },
+    {
+      "name": "HiChevronRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "right"
+      ]
+    },
+    {
+      "name": "HiChevronUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "up"
+      ]
+    },
+    {
+      "name": "HiChevronUpDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "chevron",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "name": "HiCircleStack",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "circle",
+        "stack"
+      ]
+    },
+    {
+      "name": "HiClipboard",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "HiClipboardDocument",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "clipboard",
+        "document"
+      ]
+    },
+    {
+      "name": "HiClipboardDocumentCheck",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "clipboard",
+        "document",
+        "check"
+      ]
+    },
+    {
+      "name": "HiClipboardDocumentList",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "clipboard",
+        "document",
+        "list"
+      ]
+    },
+    {
+      "name": "HiClock",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "clock"
+      ]
+    },
+    {
+      "name": "HiCloud",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cloud"
+      ]
+    },
+    {
+      "name": "HiCloudArrowDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cloud",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "HiCloudArrowUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cloud",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "HiCodeBracket",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "code",
+        "bracket"
+      ]
+    },
+    {
+      "name": "HiCodeBracketSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "code",
+        "bracket",
+        "square"
+      ]
+    },
+    {
+      "name": "HiCog",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cog"
+      ]
+    },
+    {
+      "name": "HiCog6Tooth",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cog6",
+        "tooth",
+        "cog",
+        "6"
+      ]
+    },
+    {
+      "name": "HiCog8Tooth",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cog8",
+        "tooth",
+        "cog",
+        "8"
+      ]
+    },
+    {
+      "name": "HiCommandLine",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "command",
+        "line"
+      ]
+    },
+    {
+      "name": "HiComputerDesktop",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "computer",
+        "desktop"
+      ]
+    },
+    {
+      "name": "HiCpuChip",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cpu",
+        "chip"
+      ]
+    },
+    {
+      "name": "HiCreditCard",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "HiCube",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cube"
+      ]
+    },
+    {
+      "name": "HiCubeTransparent",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cube",
+        "transparent"
+      ]
+    },
+    {
+      "name": "HiCurrencyBangladeshi",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "currency",
+        "bangladeshi"
+      ]
+    },
+    {
+      "name": "HiCurrencyDollar",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "currency",
+        "dollar"
+      ]
+    },
+    {
+      "name": "HiCurrencyEuro",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "currency",
+        "euro"
+      ]
+    },
+    {
+      "name": "HiCurrencyPound",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "currency",
+        "pound"
+      ]
+    },
+    {
+      "name": "HiCurrencyRupee",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "currency",
+        "rupee"
+      ]
+    },
+    {
+      "name": "HiCurrencyYen",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "currency",
+        "yen"
+      ]
+    },
+    {
+      "name": "HiCursorArrowRays",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cursor",
+        "arrow",
+        "rays"
+      ]
+    },
+    {
+      "name": "HiCursorArrowRipple",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "cursor",
+        "arrow",
+        "ripple"
+      ]
+    },
+    {
+      "name": "HiDevicePhoneMobile",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "device",
+        "phone",
+        "mobile"
+      ]
+    },
+    {
+      "name": "HiDeviceTablet",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "device",
+        "tablet"
+      ]
+    },
+    {
+      "name": "HiDivide",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "divide"
+      ]
+    },
+    {
+      "name": "HiDocument",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document"
+      ]
+    },
+    {
+      "name": "HiDocumentArrowDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "HiDocumentArrowUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "HiDocumentChartBar",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "chart",
+        "bar"
+      ]
+    },
+    {
+      "name": "HiDocumentCheck",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "check"
+      ]
+    },
+    {
+      "name": "HiDocumentCurrencyBangladeshi",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "currency",
+        "bangladeshi"
+      ]
+    },
+    {
+      "name": "HiDocumentCurrencyDollar",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "currency",
+        "dollar"
+      ]
+    },
+    {
+      "name": "HiDocumentCurrencyEuro",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "currency",
+        "euro"
+      ]
+    },
+    {
+      "name": "HiDocumentCurrencyPound",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "currency",
+        "pound"
+      ]
+    },
+    {
+      "name": "HiDocumentCurrencyRupee",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "currency",
+        "rupee"
+      ]
+    },
+    {
+      "name": "HiDocumentCurrencyYen",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "currency",
+        "yen"
+      ]
+    },
+    {
+      "name": "HiDocumentDuplicate",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "duplicate"
+      ]
+    },
+    {
+      "name": "HiDocumentMagnifyingGlass",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "magnifying",
+        "glass"
+      ]
+    },
+    {
+      "name": "HiDocumentMinus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "minus"
+      ]
+    },
+    {
+      "name": "HiDocumentPlus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "plus"
+      ]
+    },
+    {
+      "name": "HiDocumentText",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "document",
+        "text"
+      ]
+    },
+    {
+      "name": "HiEllipsisHorizontal",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "ellipsis",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "HiEllipsisHorizontalCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "ellipsis",
+        "horizontal",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiEllipsisVertical",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "ellipsis",
+        "vertical"
+      ]
+    },
+    {
+      "name": "HiEnvelope",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "envelope"
+      ]
+    },
+    {
+      "name": "HiEnvelopeOpen",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "envelope",
+        "open"
+      ]
+    },
+    {
+      "name": "HiEquals",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "equals"
+      ]
+    },
+    {
+      "name": "HiExclamationCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "exclamation",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiExclamationTriangle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "exclamation",
+        "triangle"
+      ]
+    },
+    {
+      "name": "HiEye",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "eye"
+      ]
+    },
+    {
+      "name": "HiEyeDropper",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "eye",
+        "dropper"
+      ]
+    },
+    {
+      "name": "HiEyeSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "eye",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiFaceFrown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "face",
+        "frown"
+      ]
+    },
+    {
+      "name": "HiFaceSmile",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "face",
+        "smile"
+      ]
+    },
+    {
+      "name": "HiFilm",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "film"
+      ]
+    },
+    {
+      "name": "HiFingerPrint",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "finger",
+        "print"
+      ]
+    },
+    {
+      "name": "HiFire",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "fire"
+      ]
+    },
+    {
+      "name": "HiFlag",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "flag"
+      ]
+    },
+    {
+      "name": "HiFolder",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "folder"
+      ]
+    },
+    {
+      "name": "HiFolderArrowDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "folder",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "HiFolderMinus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "folder",
+        "minus"
+      ]
+    },
+    {
+      "name": "HiFolderOpen",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "folder",
+        "open"
+      ]
+    },
+    {
+      "name": "HiFolderPlus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "folder",
+        "plus"
+      ]
+    },
+    {
+      "name": "HiForward",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "forward"
+      ]
+    },
+    {
+      "name": "HiFunnel",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "funnel"
+      ]
+    },
+    {
+      "name": "HiGif",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "gif"
+      ]
+    },
+    {
+      "name": "HiGift",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "gift"
+      ]
+    },
+    {
+      "name": "HiGiftTop",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "gift",
+        "top"
+      ]
+    },
+    {
+      "name": "HiGlobeAlt",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "globe",
+        "alt"
+      ]
+    },
+    {
+      "name": "HiGlobeAmericas",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "globe",
+        "americas"
+      ]
+    },
+    {
+      "name": "HiGlobeAsiaAustralia",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "globe",
+        "asia",
+        "australia"
+      ]
+    },
+    {
+      "name": "HiGlobeEuropeAfrica",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "globe",
+        "europe",
+        "africa"
+      ]
+    },
+    {
+      "name": "HiH1",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "h1"
+      ]
+    },
+    {
+      "name": "HiH2",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "h2"
+      ]
+    },
+    {
+      "name": "HiH3",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "h3"
+      ]
+    },
+    {
+      "name": "HiHandRaised",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "hand",
+        "raised"
+      ]
+    },
+    {
+      "name": "HiHandThumbDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "hand",
+        "thumb",
+        "down"
+      ]
+    },
+    {
+      "name": "HiHandThumbUp",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "hand",
+        "thumb",
+        "up"
+      ]
+    },
+    {
+      "name": "HiHashtag",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "hashtag"
+      ]
+    },
+    {
+      "name": "HiHeart",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "heart"
+      ]
+    },
+    {
+      "name": "HiHome",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "home"
+      ]
+    },
+    {
+      "name": "HiHomeModern",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "home",
+        "modern"
+      ]
+    },
+    {
+      "name": "HiIdentification",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "identification"
+      ]
+    },
+    {
+      "name": "HiInbox",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "inbox"
+      ]
+    },
+    {
+      "name": "HiInboxArrowDown",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "inbox",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "HiInboxStack",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "inbox",
+        "stack"
+      ]
+    },
+    {
+      "name": "HiInformationCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "information",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiItalic",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "italic"
+      ]
+    },
+    {
+      "name": "HiKey",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "key"
+      ]
+    },
+    {
+      "name": "HiLanguage",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "language"
+      ]
+    },
+    {
+      "name": "HiLifebuoy",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "lifebuoy"
+      ]
+    },
+    {
+      "name": "HiLightBulb",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "light",
+        "bulb"
+      ]
+    },
+    {
+      "name": "HiLink",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "link"
+      ]
+    },
+    {
+      "name": "HiLinkSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "link",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiListBullet",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "list",
+        "bullet"
+      ]
+    },
+    {
+      "name": "HiLockClosed",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "lock",
+        "closed"
+      ]
+    },
+    {
+      "name": "HiLockOpen",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "lock",
+        "open"
+      ]
+    },
+    {
+      "name": "HiMagnifyingGlass",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "magnifying",
+        "glass"
+      ]
+    },
+    {
+      "name": "HiMagnifyingGlassCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "magnifying",
+        "glass",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiMagnifyingGlassMinus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "magnifying",
+        "glass",
+        "minus"
+      ]
+    },
+    {
+      "name": "HiMagnifyingGlassPlus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "magnifying",
+        "glass",
+        "plus"
+      ]
+    },
+    {
+      "name": "HiMap",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "map"
+      ]
+    },
+    {
+      "name": "HiMapPin",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "map",
+        "pin"
+      ]
+    },
+    {
+      "name": "HiMegaphone",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "megaphone"
+      ]
+    },
+    {
+      "name": "HiMicrophone",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "microphone"
+      ]
+    },
+    {
+      "name": "HiMinus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "minus"
+      ]
+    },
+    {
+      "name": "HiMinusCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "minus",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiMinusSmall",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "minus",
+        "small"
+      ]
+    },
+    {
+      "name": "HiMoon",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "moon"
+      ]
+    },
+    {
+      "name": "HiMusicalNote",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "musical",
+        "note"
+      ]
+    },
+    {
+      "name": "HiNewspaper",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "newspaper"
+      ]
+    },
+    {
+      "name": "HiNoSymbol",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "no",
+        "symbol"
+      ]
+    },
+    {
+      "name": "HiNumberedList",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "numbered",
+        "list"
+      ]
+    },
+    {
+      "name": "HiPaintBrush",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "paint",
+        "brush"
+      ]
+    },
+    {
+      "name": "HiPaperAirplane",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "paper",
+        "airplane"
+      ]
+    },
+    {
+      "name": "HiPaperClip",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "paper",
+        "clip"
+      ]
+    },
+    {
+      "name": "HiPause",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "pause"
+      ]
+    },
+    {
+      "name": "HiPauseCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "pause",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiPencil",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "pencil"
+      ]
+    },
+    {
+      "name": "HiPencilSquare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "pencil",
+        "square"
+      ]
+    },
+    {
+      "name": "HiPercentBadge",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "percent",
+        "badge"
+      ]
+    },
+    {
+      "name": "HiPhone",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "phone"
+      ]
+    },
+    {
+      "name": "HiPhoneArrowDownLeft",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "phone",
+        "arrow",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "HiPhoneArrowUpRight",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "phone",
+        "arrow",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "HiPhoneXMark",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "phone",
+        "xmark",
+        "x",
+        "mark"
+      ]
+    },
+    {
+      "name": "HiPhoto",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "photo"
+      ]
+    },
+    {
+      "name": "HiPlay",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "play"
+      ]
+    },
+    {
+      "name": "HiPlayCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "play",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiPlayPause",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "play",
+        "pause"
+      ]
+    },
+    {
+      "name": "HiPlus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "plus"
+      ]
+    },
+    {
+      "name": "HiPlusCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "plus",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiPlusSmall",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "plus",
+        "small"
+      ]
+    },
+    {
+      "name": "HiPower",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "power"
+      ]
+    },
+    {
+      "name": "HiPresentationChartBar",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "presentation",
+        "chart",
+        "bar"
+      ]
+    },
+    {
+      "name": "HiPresentationChartLine",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "presentation",
+        "chart",
+        "line"
+      ]
+    },
+    {
+      "name": "HiPrinter",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "printer"
+      ]
+    },
+    {
+      "name": "HiPuzzlePiece",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "puzzle",
+        "piece"
+      ]
+    },
+    {
+      "name": "HiQrCode",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "qr",
+        "code"
+      ]
+    },
+    {
+      "name": "HiQuestionMarkCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "question",
+        "mark",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiQueueList",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "queue",
+        "list"
+      ]
+    },
+    {
+      "name": "HiRadio",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "radio"
+      ]
+    },
+    {
+      "name": "HiReceiptPercent",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "receipt",
+        "percent"
+      ]
+    },
+    {
+      "name": "HiReceiptRefund",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "receipt",
+        "refund"
+      ]
+    },
+    {
+      "name": "HiRectangleGroup",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "rectangle",
+        "group"
+      ]
+    },
+    {
+      "name": "HiRectangleStack",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "rectangle",
+        "stack"
+      ]
+    },
+    {
+      "name": "HiRocketLaunch",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "rocket",
+        "launch"
+      ]
+    },
+    {
+      "name": "HiRss",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "rss"
+      ]
+    },
+    {
+      "name": "HiScale",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "scale"
+      ]
+    },
+    {
+      "name": "HiScissors",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "scissors"
+      ]
+    },
+    {
+      "name": "HiServer",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "server"
+      ]
+    },
+    {
+      "name": "HiServerStack",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "server",
+        "stack"
+      ]
+    },
+    {
+      "name": "HiShare",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "share"
+      ]
+    },
+    {
+      "name": "HiShieldCheck",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "shield",
+        "check"
+      ]
+    },
+    {
+      "name": "HiShieldExclamation",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "shield",
+        "exclamation"
+      ]
+    },
+    {
+      "name": "HiShoppingBag",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "shopping",
+        "bag"
+      ]
+    },
+    {
+      "name": "HiShoppingCart",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "shopping",
+        "cart"
+      ]
+    },
+    {
+      "name": "HiSignal",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "signal"
+      ]
+    },
+    {
+      "name": "HiSignalSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "signal",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiSparkles",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "sparkles"
+      ]
+    },
+    {
+      "name": "HiSpeakerWave",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "speaker",
+        "wave"
+      ]
+    },
+    {
+      "name": "HiSpeakerXMark",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "speaker",
+        "xmark",
+        "x",
+        "mark"
+      ]
+    },
+    {
+      "name": "HiSquare2Stack",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "square2",
+        "stack",
+        "square",
+        "2"
+      ]
+    },
+    {
+      "name": "HiSquare3Stack3d",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "square3",
+        "stack3d",
+        "square",
+        "3",
+        "stack",
+        "3d"
+      ]
+    },
+    {
+      "name": "HiSquares2x2",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "squares2x2",
+        "squares",
+        "2x2"
+      ]
+    },
+    {
+      "name": "HiSquaresPlus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "squares",
+        "plus"
+      ]
+    },
+    {
+      "name": "HiStar",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "star"
+      ]
+    },
+    {
+      "name": "HiStop",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "stop"
+      ]
+    },
+    {
+      "name": "HiStopCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "stop",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiStrikethrough",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "strikethrough"
+      ]
+    },
+    {
+      "name": "HiSun",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "sun"
+      ]
+    },
+    {
+      "name": "HiSwatch",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "swatch"
+      ]
+    },
+    {
+      "name": "HiTableCells",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "table",
+        "cells"
+      ]
+    },
+    {
+      "name": "HiTag",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "tag"
+      ]
+    },
+    {
+      "name": "HiTicket",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "ticket"
+      ]
+    },
+    {
+      "name": "HiTrash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "trash"
+      ]
+    },
+    {
+      "name": "HiTrophy",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "trophy"
+      ]
+    },
+    {
+      "name": "HiTruck",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "truck"
+      ]
+    },
+    {
+      "name": "HiTv",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "tv"
+      ]
+    },
+    {
+      "name": "HiUnderline",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "underline"
+      ]
+    },
+    {
+      "name": "HiUser",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "user"
+      ]
+    },
+    {
+      "name": "HiUserCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "user",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiUserGroup",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "user",
+        "group"
+      ]
+    },
+    {
+      "name": "HiUserMinus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "user",
+        "minus"
+      ]
+    },
+    {
+      "name": "HiUserPlus",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "user",
+        "plus"
+      ]
+    },
+    {
+      "name": "HiUsers",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "users"
+      ]
+    },
+    {
+      "name": "HiVariable",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "variable"
+      ]
+    },
+    {
+      "name": "HiVideoCamera",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "video",
+        "camera"
+      ]
+    },
+    {
+      "name": "HiVideoCameraSlash",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "video",
+        "camera",
+        "slash"
+      ]
+    },
+    {
+      "name": "HiViewColumns",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "view",
+        "columns"
+      ]
+    },
+    {
+      "name": "HiViewfinderCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "viewfinder",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiWallet",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "wallet"
+      ]
+    },
+    {
+      "name": "HiWifi",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "wifi"
+      ]
+    },
+    {
+      "name": "HiWindow",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "window"
+      ]
+    },
+    {
+      "name": "HiWrench",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "wrench"
+      ]
+    },
+    {
+      "name": "HiWrenchScrewdriver",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "wrench",
+        "screwdriver"
+      ]
+    },
+    {
+      "name": "HiXCircle",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "xcircle",
+        "x",
+        "circle"
+      ]
+    },
+    {
+      "name": "HiXMark",
+      "set": "hi",
+      "terms": [
+        "hi",
+        "xmark",
+        "x",
+        "mark"
+      ]
+    },
+    {
       "name": "IoAccessibility",
       "set": "io",
       "terms": [

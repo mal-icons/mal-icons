@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-film",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiFilm {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M3.38 19.5h17.25m-17.25 0a1.13 1.13 0 0 1-1.12-1.12M3.38 19.5h1.5C5.5 19.5 6 19 6 18.38m-3.75 0V5.63m0 12.75v-1.5c0-0.620.5-1.12 1.13-1.12m18.38 2.63V5.63m0 12.75c0 0.62-0.5 1.13-1.12 1.13m1.13-1.12v-1.5c0-0.62-0.5-1.12-1.12-1.12m0 3.75h-1.5A1.13 1.13 0 0 1 18 18.38M20.63 4.5H3.38m17.25 0c0.62 0 1.130.5 1.13 1.13M20.63 4.5h-1.5C18.5 4.5 18 5 18 5.63m3.75 0v1.5c0 0.62-0.5 1.13-1.12 1.13M3.38 4.5c-0.62 0-1.120.5-1.12 1.13M3.38 4.5h1.5C5.5 4.5 6 5 6 5.63m-3.75 0v1.5c0 0.620.5 1.13 1.13 1.13m0 0h1.5m-1.5 0c-0.62 0-1.120.5-1.12 1.13v1.5c0 0.620.5 1.13 1.13 1.13m1.5-3.75C5.5 8.25 6 7.75 6 7.13v-1.5M4.88 8.25C5.5 8.25 6 8.75 6 9.38v1.5m0-5.25v5.25m0-5.25C6 5 6.5 4.5 7.13 4.5h9.75c0.62 0 1.130.5 1.13 1.13m1.13 2.63h1.5m-1.5 0A1.13 1.13 0 0 1 18 7.13v-1.5m1.13 2.63c-0.62 0-1.120.5-1.12 1.13v1.5m2.63-2.62c0.62 0 1.130.5 1.13 1.13v1.5c0 0.62-0.5 1.13-1.12 1.13M18 5.63v5.25M7.13 12h9.75m-9.75 0A1.13 1.13 0 0 1 6 10.88M7.13 12C6.5 12 6 12.5 6 13.13m0-2.25C6 11.5 5.5 12 4.88 12M18 10.88c0 0.62-0.5 1.13-1.12 1.13M18 10.88c0 0.620.5 1.13 1.13 1.13m-2.25 0c0.62 0 1.130.5 1.13 1.13m-12 5.25v-5.25m0 5.25c0 0.620.5 1.13 1.13 1.13h9.75c0.62 0 1.13-0.5 1.13-1.12m-12 0v-1.5c0-0.62-0.5-1.12-1.12-1.12M18 18.38v-5.25m0 5.25v-1.5c0-0.620.5-1.12 1.13-1.12M18 13.13v1.5c0 0.620.5 1.13 1.13 1.13M18 13.13c0-0.620.5-1.12 1.13-1.12M6 13.13v1.5c0 0.62-0.5 1.13-1.12 1.13M6 13.13C6 12.5 5.5 12 4.88 12m-1.5 0h1.5m-1.5 0c-0.62 0-1.120.5-1.12 1.13v1.5c0 0.620.5 1.13 1.13 1.13M19.13 12h1.5m0 0c0.62 0 1.130.5 1.13 1.13v1.5c0 0.62-0.5 1.13-1.12 1.13m-17.25 0h1.5m14.25 0h1.5"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiFilm;

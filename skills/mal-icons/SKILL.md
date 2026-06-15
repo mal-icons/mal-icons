@@ -4,7 +4,7 @@ description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Grommet "gr" — 10,101 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi" — 10,425 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -37,6 +37,7 @@ helps you choose icons and wire them into any supported framework correctly.
 | `ad` | Ant Design Icons | `Ad` | fill |   420 | MIT | `0 0 1024 1024` |
 | `fc` | Flat Color Icons | `Fc` | color |   312 | CC-BY-4.0 | `0 0 48 48` |
 | `gr` | Grommet  | `Gr`   | stroke |   637 | Apache-2.0 | `0 0 24 24` |
+| `hi` | Heroicons | `Hi` | stroke | 324 | MIT | `0 0 24 24` |
 
 Component names are PascalCase with the set prefix: `FiActivity`, `CiHeart`,
 `IoHeartOutline`. Ionicons ships filled, `-outline`, and `-sharp` variants
@@ -82,6 +83,7 @@ catalog (name, tags, description) lives in:
 - [references/icons/ad.json](references/icons/ad.json) · [ad.md](references/icons/ad.md) — Ant Design Icons
 - [references/icons/fc.json](references/icons/fc.json) · [fc.md](references/icons/fc.md) — Flat Color Icons
 - [references/icons/gr.json](references/icons/gr.json) · [gr.md](references/icons/gr.md) — Grommet
+- [references/icons/hi.json](references/icons/hi.json) · [hi.md](references/icons/hi.md) — Heroicons
 
 Prefer the JSON packs for programmatic lookups; the `.md` tables are for
 human browsing. Regenerate both with `node scripts/build-packs.mjs`.

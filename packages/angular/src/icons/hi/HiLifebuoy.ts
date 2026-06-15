@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-lifebuoy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiLifebuoy {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M16.71 4.33a9.03 9.03 0 0 1 1.65 1.31c0.510.510.94 1.06 1.31 1.65M16.71 4.33l-3.45 4.14m3.45-4.14a9.01 9.01 0 0 0-9.42 0M19.67 7.29l-4.14 3.45m4.14-3.45a9.01 9.01 0 0 1 0 9.42m-4.14-5.98a3.74 3.74 0 0 0-0.88-1.39 3.74 3.74 0 0 0-1.39-0.88m2.27 2.27a3.77 3.77 0 0 1 0 2.53m-2.27-4.8a3.77 3.77 0 0 0-2.53 0m4.8 4.8c-0.180.51-0.470.98-0.88 1.39a3.74 3.74 0 0 1-1.390.88m2.27-2.27 4.14 3.45m0 0a9.03 9.03 0 0 1-1.31 1.65c-0.510.51-1.060.94-1.65 1.31m0 0-3.45-4.14m3.45 4.14a9.01 9.01 0 0 1-9.42 0m5.98-4.14a3.77 3.77 0 0 1-2.53 0m0 0a3.74 3.74 0 0 1-1.39-0.88 3.74 3.74 0 0 1-0.88-1.39m2.27 2.27L7.29 19.67m0 0a9.02 9.02 0 0 1-1.65-1.31 9.03 9.03 0 0 1-1.31-1.65m0 0 4.14-3.45M4.33 16.71a9.01 9.01 0 0 1 0-9.42m4.14 5.98a3.77 3.77 0 0 1 0-2.53m0 0c0.18-0.510.48-0.980.88-1.39a3.74 3.74 0 0 1 1.39-0.88m-2.27 2.27L4.33 7.29m6.41 1.18L7.29 4.33m0 0a9.02 9.02 0 0 0-1.65 1.31A9.03 9.03 0 0 0 4.33 7.29"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiLifebuoy;

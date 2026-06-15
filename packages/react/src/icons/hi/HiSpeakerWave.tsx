@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const HiSpeakerWave = createIcon("0 0 24 24", [["path",{"strokeLinecap":"round","strokeLinejoin":"round","d":"M19.11 5.64a9 9 0 0 1 0 12.73M16.46 8.29a5.25 5.25 0 0 1 0 7.42M6.75 8.25l4.72-4.72a0.750.75 0 0 1 1.280.53v15.88a0.750.75 0 0 1-1.280.53l-4.72-4.72H4.51c-0.88 0-1.7-0.51-1.94-1.35A9.01 9.01 0 0 1 2.25 12c0-0.830.11-1.630.32-2.4C2.81 8.76 3.63 8.25 4.51 8.25H6.75Z"}]], {"fill":"none","strokeWidth":1.5});
+
+export default HiSpeakerWave;

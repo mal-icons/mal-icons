@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-clipboard-document",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiClipboardDocument {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M8.25 7.5V6.11c0-1.130.85-2.1 1.98-2.190.37-0.030.75-0.06 1.12-0.08M15.75 18H18a2.25 2.25 0 0 0 2.25-2.25V6.11c0-1.13-0.84-2.1-1.98-2.19a48.42 48.42 0 0 0-1.12-0.08M15.75 18.75v-1.87a3.38 3.38 0 0 0-3.37-3.37h-1.5a1.13 1.13 0 0 1-1.12-1.12v-1.5A3.38 3.38 0 0 0 6.38 7.5H5.25m11.9-3.66A2.25 2.25 0 0 0 15 2.25h-1.5a2.25 2.25 0 0 0-2.15 1.59m5.8 0c0.070.210.10.430.10.66v0.75h-6V4.5c0-0.230.04-0.450.1-0.66M6.75 7.5H4.88c-0.62 0-1.120.5-1.12 1.13v12c0 0.620.5 1.13 1.13 1.13h9.75c0.62 0 1.13-0.5 1.13-1.12V16.5a9 9 0 0 0-9-9Z"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiClipboardDocument;

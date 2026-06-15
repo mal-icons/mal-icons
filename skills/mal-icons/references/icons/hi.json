@@ -1,0 +1,3109 @@
+{
+  "set": {
+    "id": "hi",
+    "name": "Heroicons",
+    "prefix": "Hi",
+    "version": "2.2.0",
+    "license": "MIT",
+    "repo": "tailwindlabs/heroicons",
+    "style": "stroke",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 324,
+  "icons": [
+    {
+      "name": "HiAcademicCap",
+      "tags": [
+        "academic",
+        "cap",
+        "stroke"
+      ],
+      "description": "Academic Cap icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiAdjustmentsHorizontal",
+      "tags": [
+        "adjustments",
+        "horizontal",
+        "stroke"
+      ],
+      "description": "Adjustments Horizontal icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiAdjustmentsVertical",
+      "tags": [
+        "adjustments",
+        "stroke",
+        "vertical"
+      ],
+      "description": "Adjustments Vertical icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiArchiveBox",
+      "tags": [
+        "archive",
+        "box",
+        "stroke"
+      ],
+      "description": "Archive Box icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiArchiveBoxArrowDown",
+      "tags": [
+        "archive",
+        "arrow",
+        "box",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArchiveBoxXMark",
+      "tags": [
+        "archive",
+        "box",
+        "cancel",
+        "close",
+        "delete",
+        "mark",
+        "remove",
+        "stroke",
+        "x",
+        "xmark"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "HiArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowDownCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowDownLeft",
+      "tags": [
+        "arrow",
+        "down",
+        "left",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowDownOnSquare",
+      "tags": [
+        "arrow",
+        "down",
+        "on",
+        "square",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowDownOnSquareStack",
+      "tags": [
+        "arrow",
+        "down",
+        "on",
+        "square",
+        "stack",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowDownRight",
+      "tags": [
+        "arrow",
+        "down",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowDownTray",
+      "tags": [
+        "arrow",
+        "down",
+        "stroke",
+        "tray"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLeftCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "left",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLeftEndOnRectangle",
+      "tags": [
+        "arrow",
+        "end",
+        "left",
+        "on",
+        "rectangle",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLeftOnRectangle",
+      "tags": [
+        "arrow",
+        "left",
+        "on",
+        "rectangle",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLeftStartOnRectangle",
+      "tags": [
+        "arrow",
+        "left",
+        "on",
+        "rectangle",
+        "start",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLongDown",
+      "tags": [
+        "arrow",
+        "down",
+        "long",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLongLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "long",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLongRight",
+      "tags": [
+        "arrow",
+        "long",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowLongUp",
+      "tags": [
+        "arrow",
+        "like",
+        "long",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowPath",
+      "tags": [
+        "arrow",
+        "path",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowPathRoundedSquare",
+      "tags": [
+        "arrow",
+        "path",
+        "rounded",
+        "square",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowRight",
+      "tags": [
+        "arrow",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowRightCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowRightEndOnRectangle",
+      "tags": [
+        "arrow",
+        "end",
+        "on",
+        "rectangle",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowRightOnRectangle",
+      "tags": [
+        "arrow",
+        "on",
+        "rectangle",
+        "right",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowRightStartOnRectangle",
+      "tags": [
+        "arrow",
+        "on",
+        "rectangle",
+        "right",
+        "start",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowSmallDown",
+      "tags": [
+        "arrow",
+        "down",
+        "small",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowSmallLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "small",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowSmallRight",
+      "tags": [
+        "arrow",
+        "right",
+        "small",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowSmallUp",
+      "tags": [
+        "arrow",
+        "like",
+        "small",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowsPointingIn",
+      "tags": [
+        "arrows",
+        "in",
+        "pointing",
+        "stroke"
+      ],
+      "description": "Arrows Pointing In icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiArrowsPointingOut",
+      "tags": [
+        "arrows",
+        "out",
+        "pointing",
+        "stroke"
+      ],
+      "description": "Arrows Pointing Out icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiArrowsRightLeft",
+      "tags": [
+        "arrows",
+        "left",
+        "right",
+        "stroke"
+      ],
+      "description": "Arrows Right Left icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiArrowsUpDown",
+      "tags": [
+        "arrows",
+        "down",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Arrows Up Down icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiArrowTopRightOnSquare",
+      "tags": [
+        "arrow",
+        "on",
+        "right",
+        "square",
+        "stroke",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTrendingDown",
+      "tags": [
+        "arrow",
+        "down",
+        "stroke",
+        "trending"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTrendingUp",
+      "tags": [
+        "arrow",
+        "like",
+        "stroke",
+        "trending",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnDownLeft",
+      "tags": [
+        "arrow",
+        "down",
+        "left",
+        "stroke",
+        "turn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnDownRight",
+      "tags": [
+        "arrow",
+        "down",
+        "right",
+        "stroke",
+        "turn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnLeftDown",
+      "tags": [
+        "arrow",
+        "down",
+        "left",
+        "stroke",
+        "turn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnLeftUp",
+      "tags": [
+        "arrow",
+        "left",
+        "like",
+        "stroke",
+        "turn",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnRightDown",
+      "tags": [
+        "arrow",
+        "down",
+        "right",
+        "stroke",
+        "turn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnRightUp",
+      "tags": [
+        "arrow",
+        "like",
+        "right",
+        "stroke",
+        "turn",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnUpLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "like",
+        "stroke",
+        "turn",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowTurnUpRight",
+      "tags": [
+        "arrow",
+        "like",
+        "right",
+        "stroke",
+        "turn",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUp",
+      "tags": [
+        "arrow",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUpCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUpLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUpOnSquare",
+      "tags": [
+        "arrow",
+        "like",
+        "on",
+        "square",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUpOnSquareStack",
+      "tags": [
+        "arrow",
+        "like",
+        "on",
+        "square",
+        "stack",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUpRight",
+      "tags": [
+        "arrow",
+        "like",
+        "right",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUpTray",
+      "tags": [
+        "arrow",
+        "like",
+        "stroke",
+        "tray",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUturnDown",
+      "tags": [
+        "arrow",
+        "down",
+        "stroke",
+        "uturn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUturnLeft",
+      "tags": [
+        "arrow",
+        "left",
+        "stroke",
+        "uturn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUturnRight",
+      "tags": [
+        "arrow",
+        "right",
+        "stroke",
+        "uturn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiArrowUturnUp",
+      "tags": [
+        "arrow",
+        "like",
+        "stroke",
+        "up",
+        "uturn"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiAtSymbol",
+      "tags": [
+        "at",
+        "stroke",
+        "symbol"
+      ],
+      "description": "At Symbol icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBackspace",
+      "tags": [
+        "backspace",
+        "stroke"
+      ],
+      "description": "Backspace icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBackward",
+      "tags": [
+        "backward",
+        "stroke"
+      ],
+      "description": "Backward icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBanknotes",
+      "tags": [
+        "banknotes",
+        "stroke"
+      ],
+      "description": "Banknotes icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBars2",
+      "tags": [
+        "2",
+        "bars",
+        "bars2",
+        "stroke"
+      ],
+      "description": "Bars 2 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBars3",
+      "tags": [
+        "3",
+        "bars",
+        "bars3",
+        "stroke"
+      ],
+      "description": "Bars 3 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBars3BottomLeft",
+      "tags": [
+        "3",
+        "bars",
+        "bars3",
+        "bottom",
+        "left",
+        "stroke"
+      ],
+      "description": "Bars 3 Bottom Left icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBars3BottomRight",
+      "tags": [
+        "3",
+        "bars",
+        "bars3",
+        "bottom",
+        "right",
+        "stroke"
+      ],
+      "description": "Bars 3 Bottom Right icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBars3CenterLeft",
+      "tags": [
+        "3",
+        "bars",
+        "bars3",
+        "center",
+        "left",
+        "stroke"
+      ],
+      "description": "Bars 3 Center Left icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBars4",
+      "tags": [
+        "4",
+        "bars",
+        "bars4",
+        "stroke"
+      ],
+      "description": "Bars 4 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBarsArrowDown",
+      "tags": [
+        "arrow",
+        "bars",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiBarsArrowUp",
+      "tags": [
+        "arrow",
+        "bars",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiBattery0",
+      "tags": [
+        "0",
+        "battery",
+        "battery0",
+        "stroke"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "HiBattery100",
+      "tags": [
+        "100",
+        "battery",
+        "battery100",
+        "stroke"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "HiBattery50",
+      "tags": [
+        "50",
+        "battery",
+        "battery50",
+        "stroke"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "HiBeaker",
+      "tags": [
+        "beaker",
+        "stroke"
+      ],
+      "description": "Beaker icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBell",
+      "tags": [
+        "bell",
+        "notification",
+        "stroke"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "HiBellAlert",
+      "tags": [
+        "alert",
+        "bell",
+        "notification",
+        "stroke",
+        "warning"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "HiBellSlash",
+      "tags": [
+        "bell",
+        "notification",
+        "slash",
+        "stroke"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "HiBellSnooze",
+      "tags": [
+        "bell",
+        "notification",
+        "snooze",
+        "stroke"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "HiBold",
+      "tags": [
+        "bold",
+        "stroke"
+      ],
+      "description": "Bold icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBolt",
+      "tags": [
+        "bolt",
+        "stroke"
+      ],
+      "description": "Bolt icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBoltSlash",
+      "tags": [
+        "bolt",
+        "slash",
+        "stroke"
+      ],
+      "description": "Bolt Slash icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBookmark",
+      "tags": [
+        "bookmark",
+        "stroke"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "HiBookmarkSlash",
+      "tags": [
+        "bookmark",
+        "slash",
+        "stroke"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "HiBookmarkSquare",
+      "tags": [
+        "bookmark",
+        "square",
+        "stroke"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "HiBookOpen",
+      "tags": [
+        "book",
+        "open",
+        "stroke"
+      ],
+      "description": "Book Open icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBriefcase",
+      "tags": [
+        "briefcase",
+        "stroke"
+      ],
+      "description": "Briefcase icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBugAnt",
+      "tags": [
+        "ant",
+        "bug",
+        "stroke"
+      ],
+      "description": "Bug Ant icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBuildingLibrary",
+      "tags": [
+        "building",
+        "library",
+        "stroke"
+      ],
+      "description": "Building Library icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBuildingOffice",
+      "tags": [
+        "building",
+        "office",
+        "stroke"
+      ],
+      "description": "Building Office icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBuildingOffice2",
+      "tags": [
+        "2",
+        "building",
+        "office",
+        "office2",
+        "stroke"
+      ],
+      "description": "Building Office 2 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiBuildingStorefront",
+      "tags": [
+        "building",
+        "storefront",
+        "stroke"
+      ],
+      "description": "Building Storefront icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCake",
+      "tags": [
+        "cake",
+        "stroke"
+      ],
+      "description": "Cake icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCalculator",
+      "tags": [
+        "calculator",
+        "stroke"
+      ],
+      "description": "Calculator icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCalendar",
+      "tags": [
+        "calendar",
+        "stroke"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "HiCalendarDateRange",
+      "tags": [
+        "calendar",
+        "date",
+        "range",
+        "stroke"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "HiCalendarDays",
+      "tags": [
+        "calendar",
+        "days",
+        "stroke"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "HiCamera",
+      "tags": [
+        "camera",
+        "photo",
+        "stroke"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "HiChartBar",
+      "tags": [
+        "bar",
+        "chart",
+        "stroke"
+      ],
+      "description": "Chart Bar icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChartBarSquare",
+      "tags": [
+        "bar",
+        "chart",
+        "square",
+        "stroke"
+      ],
+      "description": "Chart Bar Square icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChartPie",
+      "tags": [
+        "chart",
+        "pie",
+        "stroke"
+      ],
+      "description": "Chart Pie icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChatBubbleBottomCenter",
+      "tags": [
+        "bottom",
+        "bubble",
+        "center",
+        "chat",
+        "stroke"
+      ],
+      "description": "Chat Bubble Bottom Center icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChatBubbleBottomCenterText",
+      "tags": [
+        "bottom",
+        "bubble",
+        "center",
+        "chat",
+        "stroke",
+        "text"
+      ],
+      "description": "Chat Bubble Bottom Center Text icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChatBubbleLeft",
+      "tags": [
+        "bubble",
+        "chat",
+        "left",
+        "stroke"
+      ],
+      "description": "Chat Bubble Left icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChatBubbleLeftEllipsis",
+      "tags": [
+        "bubble",
+        "chat",
+        "ellipsis",
+        "left",
+        "stroke"
+      ],
+      "description": "Chat Bubble Left Ellipsis icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChatBubbleLeftRight",
+      "tags": [
+        "bubble",
+        "chat",
+        "left",
+        "right",
+        "stroke"
+      ],
+      "description": "Chat Bubble Left Right icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChatBubbleOvalLeft",
+      "tags": [
+        "bubble",
+        "chat",
+        "left",
+        "oval",
+        "stroke"
+      ],
+      "description": "Chat Bubble Oval Left icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiChatBubbleOvalLeftEllipsis",
+      "tags": [
+        "bubble",
+        "chat",
+        "ellipsis",
+        "left",
+        "oval",
+        "stroke"
+      ],
+      "description": "Chat Bubble Oval Left Ellipsis icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCheck",
+      "tags": [
+        "check",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "HiCheckBadge",
+      "tags": [
+        "badge",
+        "check",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "HiCheckCircle",
+      "tags": [
+        "check",
+        "circle",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "HiChevronDoubleDown",
+      "tags": [
+        "chevron",
+        "double",
+        "down",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronDoubleLeft",
+      "tags": [
+        "chevron",
+        "double",
+        "left",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronDoubleRight",
+      "tags": [
+        "chevron",
+        "double",
+        "right",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronDoubleUp",
+      "tags": [
+        "chevron",
+        "double",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronDown",
+      "tags": [
+        "chevron",
+        "down",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronLeft",
+      "tags": [
+        "chevron",
+        "left",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronRight",
+      "tags": [
+        "chevron",
+        "right",
+        "stroke"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronUp",
+      "tags": [
+        "chevron",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiChevronUpDown",
+      "tags": [
+        "chevron",
+        "down",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "HiCircleStack",
+      "tags": [
+        "circle",
+        "stack",
+        "stroke"
+      ],
+      "description": "Circle Stack icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiClipboard",
+      "tags": [
+        "clipboard",
+        "stroke"
+      ],
+      "description": "Clipboard icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiClipboardDocument",
+      "tags": [
+        "clipboard",
+        "document",
+        "stroke"
+      ],
+      "description": "Clipboard Document icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiClipboardDocumentCheck",
+      "tags": [
+        "check",
+        "clipboard",
+        "document",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "HiClipboardDocumentList",
+      "tags": [
+        "clipboard",
+        "document",
+        "list",
+        "stroke"
+      ],
+      "description": "Clipboard Document List icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiClock",
+      "tags": [
+        "clock",
+        "stroke"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "HiCloud",
+      "tags": [
+        "cloud",
+        "stroke"
+      ],
+      "description": "Cloud icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCloudArrowDown",
+      "tags": [
+        "arrow",
+        "cloud",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiCloudArrowUp",
+      "tags": [
+        "arrow",
+        "cloud",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiCodeBracket",
+      "tags": [
+        "bracket",
+        "code",
+        "stroke"
+      ],
+      "description": "Code Bracket icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCodeBracketSquare",
+      "tags": [
+        "bracket",
+        "code",
+        "square",
+        "stroke"
+      ],
+      "description": "Code Bracket Square icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCog",
+      "tags": [
+        "cog",
+        "stroke"
+      ],
+      "description": "Cog icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCog6Tooth",
+      "tags": [
+        "6",
+        "cog",
+        "cog6",
+        "stroke",
+        "tooth"
+      ],
+      "description": "Cog 6 Tooth icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCog8Tooth",
+      "tags": [
+        "8",
+        "cog",
+        "cog8",
+        "stroke",
+        "tooth"
+      ],
+      "description": "Cog 8 Tooth icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCommandLine",
+      "tags": [
+        "command",
+        "line",
+        "stroke"
+      ],
+      "description": "Command Line icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiComputerDesktop",
+      "tags": [
+        "computer",
+        "desktop",
+        "stroke"
+      ],
+      "description": "Computer Desktop icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCpuChip",
+      "tags": [
+        "chip",
+        "cpu",
+        "stroke"
+      ],
+      "description": "Cpu Chip icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "stroke"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "HiCube",
+      "tags": [
+        "cube",
+        "stroke"
+      ],
+      "description": "Cube icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCubeTransparent",
+      "tags": [
+        "cube",
+        "stroke",
+        "transparent"
+      ],
+      "description": "Cube Transparent icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCurrencyBangladeshi",
+      "tags": [
+        "bangladeshi",
+        "currency",
+        "stroke"
+      ],
+      "description": "Currency Bangladeshi icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCurrencyDollar",
+      "tags": [
+        "currency",
+        "dollar",
+        "stroke"
+      ],
+      "description": "Currency Dollar icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCurrencyEuro",
+      "tags": [
+        "currency",
+        "euro",
+        "stroke"
+      ],
+      "description": "Currency Euro icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCurrencyPound",
+      "tags": [
+        "currency",
+        "pound",
+        "stroke"
+      ],
+      "description": "Currency Pound icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCurrencyRupee",
+      "tags": [
+        "currency",
+        "rupee",
+        "stroke"
+      ],
+      "description": "Currency Rupee icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCurrencyYen",
+      "tags": [
+        "currency",
+        "stroke",
+        "yen"
+      ],
+      "description": "Currency Yen icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiCursorArrowRays",
+      "tags": [
+        "arrow",
+        "cursor",
+        "rays",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiCursorArrowRipple",
+      "tags": [
+        "arrow",
+        "cursor",
+        "ripple",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiDevicePhoneMobile",
+      "tags": [
+        "device",
+        "mobile",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "HiDeviceTablet",
+      "tags": [
+        "device",
+        "stroke",
+        "tablet"
+      ],
+      "description": "Device Tablet icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDivide",
+      "tags": [
+        "divide",
+        "stroke"
+      ],
+      "description": "Divide icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocument",
+      "tags": [
+        "document",
+        "stroke"
+      ],
+      "description": "Document icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentArrowDown",
+      "tags": [
+        "arrow",
+        "document",
+        "down",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiDocumentArrowUp",
+      "tags": [
+        "arrow",
+        "document",
+        "like",
+        "stroke",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiDocumentChartBar",
+      "tags": [
+        "bar",
+        "chart",
+        "document",
+        "stroke"
+      ],
+      "description": "Document Chart Bar icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentCheck",
+      "tags": [
+        "check",
+        "document",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "HiDocumentCurrencyBangladeshi",
+      "tags": [
+        "bangladeshi",
+        "currency",
+        "document",
+        "stroke"
+      ],
+      "description": "Document Currency Bangladeshi icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentCurrencyDollar",
+      "tags": [
+        "currency",
+        "document",
+        "dollar",
+        "stroke"
+      ],
+      "description": "Document Currency Dollar icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentCurrencyEuro",
+      "tags": [
+        "currency",
+        "document",
+        "euro",
+        "stroke"
+      ],
+      "description": "Document Currency Euro icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentCurrencyPound",
+      "tags": [
+        "currency",
+        "document",
+        "pound",
+        "stroke"
+      ],
+      "description": "Document Currency Pound icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentCurrencyRupee",
+      "tags": [
+        "currency",
+        "document",
+        "rupee",
+        "stroke"
+      ],
+      "description": "Document Currency Rupee icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentCurrencyYen",
+      "tags": [
+        "currency",
+        "document",
+        "stroke",
+        "yen"
+      ],
+      "description": "Document Currency Yen icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentDuplicate",
+      "tags": [
+        "document",
+        "duplicate",
+        "stroke"
+      ],
+      "description": "Document Duplicate icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentMagnifyingGlass",
+      "tags": [
+        "document",
+        "glass",
+        "magnifying",
+        "stroke"
+      ],
+      "description": "Document Magnifying Glass icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiDocumentMinus",
+      "tags": [
+        "document",
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "HiDocumentPlus",
+      "tags": [
+        "add",
+        "document",
+        "plus",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "HiDocumentText",
+      "tags": [
+        "document",
+        "stroke",
+        "text"
+      ],
+      "description": "Document Text icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiEllipsisHorizontal",
+      "tags": [
+        "ellipsis",
+        "horizontal",
+        "stroke"
+      ],
+      "description": "Ellipsis Horizontal icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiEllipsisHorizontalCircle",
+      "tags": [
+        "circle",
+        "ellipsis",
+        "horizontal",
+        "stroke"
+      ],
+      "description": "Ellipsis Horizontal Circle icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiEllipsisVertical",
+      "tags": [
+        "ellipsis",
+        "stroke",
+        "vertical"
+      ],
+      "description": "Ellipsis Vertical icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiEnvelope",
+      "tags": [
+        "envelope",
+        "stroke"
+      ],
+      "description": "Envelope icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiEnvelopeOpen",
+      "tags": [
+        "envelope",
+        "open",
+        "stroke"
+      ],
+      "description": "Envelope Open icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiEquals",
+      "tags": [
+        "equals",
+        "stroke"
+      ],
+      "description": "Equals icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiExclamationCircle",
+      "tags": [
+        "circle",
+        "exclamation",
+        "stroke"
+      ],
+      "description": "Exclamation Circle icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiExclamationTriangle",
+      "tags": [
+        "exclamation",
+        "stroke",
+        "triangle",
+        "warning"
+      ],
+      "description": "Exclamation Triangle icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiEye",
+      "tags": [
+        "eye",
+        "hide",
+        "stroke"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "HiEyeDropper",
+      "tags": [
+        "dropper",
+        "eye",
+        "hide",
+        "stroke"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "HiEyeSlash",
+      "tags": [
+        "eye",
+        "hide",
+        "slash",
+        "stroke"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "HiFaceFrown",
+      "tags": [
+        "face",
+        "frown",
+        "stroke"
+      ],
+      "description": "Face Frown icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiFaceSmile",
+      "tags": [
+        "face",
+        "smile",
+        "stroke"
+      ],
+      "description": "Face Smile icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiFilm",
+      "tags": [
+        "film",
+        "stroke"
+      ],
+      "description": "Film icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiFingerPrint",
+      "tags": [
+        "finger",
+        "print",
+        "stroke"
+      ],
+      "description": "Finger Print icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiFire",
+      "tags": [
+        "fire",
+        "stroke"
+      ],
+      "description": "Fire icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiFlag",
+      "tags": [
+        "flag",
+        "stroke"
+      ],
+      "description": "Flag icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiFolder",
+      "tags": [
+        "folder",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "HiFolderArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "folder",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "HiFolderMinus",
+      "tags": [
+        "folder",
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "HiFolderOpen",
+      "tags": [
+        "folder",
+        "open",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "HiFolderPlus",
+      "tags": [
+        "add",
+        "folder",
+        "plus",
+        "stroke"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "HiForward",
+      "tags": [
+        "forward",
+        "stroke"
+      ],
+      "description": "Forward icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiFunnel",
+      "tags": [
+        "funnel",
+        "stroke"
+      ],
+      "description": "Funnel icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiGif",
+      "tags": [
+        "gif",
+        "stroke"
+      ],
+      "description": "Gif icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiGift",
+      "tags": [
+        "gift",
+        "stroke"
+      ],
+      "description": "Gift icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiGiftTop",
+      "tags": [
+        "gift",
+        "stroke",
+        "top"
+      ],
+      "description": "Gift Top icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiGlobeAlt",
+      "tags": [
+        "alt",
+        "globe",
+        "stroke"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "HiGlobeAmericas",
+      "tags": [
+        "americas",
+        "globe",
+        "stroke"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "HiGlobeAsiaAustralia",
+      "tags": [
+        "asia",
+        "australia",
+        "globe",
+        "stroke"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "HiGlobeEuropeAfrica",
+      "tags": [
+        "africa",
+        "europe",
+        "globe",
+        "stroke"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "HiH1",
+      "tags": [
+        "h1",
+        "stroke"
+      ],
+      "description": "H 1 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiH2",
+      "tags": [
+        "h2",
+        "stroke"
+      ],
+      "description": "H 2 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiH3",
+      "tags": [
+        "h3",
+        "stroke"
+      ],
+      "description": "H 3 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiHandRaised",
+      "tags": [
+        "hand",
+        "raised",
+        "stroke"
+      ],
+      "description": "Hand Raised icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiHandThumbDown",
+      "tags": [
+        "down",
+        "hand",
+        "stroke",
+        "thumb"
+      ],
+      "description": "Hand Thumb Down icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiHandThumbUp",
+      "tags": [
+        "hand",
+        "like",
+        "stroke",
+        "thumb",
+        "up"
+      ],
+      "description": "Hand Thumb Up icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiHashtag",
+      "tags": [
+        "hashtag",
+        "stroke"
+      ],
+      "description": "Hashtag icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiHeart",
+      "tags": [
+        "heart",
+        "like",
+        "love",
+        "stroke"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "HiHome",
+      "tags": [
+        "home",
+        "house",
+        "stroke"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "HiHomeModern",
+      "tags": [
+        "home",
+        "house",
+        "modern",
+        "stroke"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "HiIdentification",
+      "tags": [
+        "identification",
+        "stroke"
+      ],
+      "description": "Identification icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiInbox",
+      "tags": [
+        "inbox",
+        "stroke"
+      ],
+      "description": "Inbox icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiInboxArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "inbox",
+        "stroke"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "HiInboxStack",
+      "tags": [
+        "inbox",
+        "stack",
+        "stroke"
+      ],
+      "description": "Inbox Stack icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiInformationCircle",
+      "tags": [
+        "circle",
+        "information",
+        "stroke"
+      ],
+      "description": "Information Circle icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiItalic",
+      "tags": [
+        "italic",
+        "stroke"
+      ],
+      "description": "Italic icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiKey",
+      "tags": [
+        "key",
+        "stroke"
+      ],
+      "description": "Key icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiLanguage",
+      "tags": [
+        "language",
+        "stroke"
+      ],
+      "description": "Language icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiLifebuoy",
+      "tags": [
+        "lifebuoy",
+        "stroke"
+      ],
+      "description": "Lifebuoy icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiLightBulb",
+      "tags": [
+        "bulb",
+        "light",
+        "stroke"
+      ],
+      "description": "Light Bulb icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiLink",
+      "tags": [
+        "link",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "HiLinkSlash",
+      "tags": [
+        "link",
+        "slash",
+        "stroke"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "HiListBullet",
+      "tags": [
+        "bullet",
+        "list",
+        "stroke"
+      ],
+      "description": "List Bullet icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiLockClosed",
+      "tags": [
+        "closed",
+        "lock",
+        "stroke"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "HiLockOpen",
+      "tags": [
+        "lock",
+        "open",
+        "stroke"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "HiMagnifyingGlass",
+      "tags": [
+        "glass",
+        "magnifying",
+        "stroke"
+      ],
+      "description": "Magnifying Glass icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiMagnifyingGlassCircle",
+      "tags": [
+        "circle",
+        "glass",
+        "magnifying",
+        "stroke"
+      ],
+      "description": "Magnifying Glass Circle icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiMagnifyingGlassMinus",
+      "tags": [
+        "glass",
+        "magnifying",
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "HiMagnifyingGlassPlus",
+      "tags": [
+        "add",
+        "glass",
+        "magnifying",
+        "plus",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "HiMap",
+      "tags": [
+        "map",
+        "stroke"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "HiMapPin",
+      "tags": [
+        "map",
+        "pin",
+        "stroke"
+      ],
+      "description": "Map pin — places, markers and addresses."
+    },
+    {
+      "name": "HiMegaphone",
+      "tags": [
+        "megaphone",
+        "stroke"
+      ],
+      "description": "Megaphone icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiMicrophone",
+      "tags": [
+        "microphone",
+        "stroke"
+      ],
+      "description": "Microphone icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiMinus",
+      "tags": [
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "HiMinusCircle",
+      "tags": [
+        "circle",
+        "minus",
+        "remove",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "HiMinusSmall",
+      "tags": [
+        "minus",
+        "remove",
+        "small",
+        "stroke"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "HiMoon",
+      "tags": [
+        "moon",
+        "stroke"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "HiMusicalNote",
+      "tags": [
+        "musical",
+        "note",
+        "stroke"
+      ],
+      "description": "Musical Note icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiNewspaper",
+      "tags": [
+        "newspaper",
+        "stroke"
+      ],
+      "description": "Newspaper icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiNoSymbol",
+      "tags": [
+        "no",
+        "stroke",
+        "symbol"
+      ],
+      "description": "No Symbol icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiNumberedList",
+      "tags": [
+        "list",
+        "numbered",
+        "stroke"
+      ],
+      "description": "Numbered List icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPaintBrush",
+      "tags": [
+        "brush",
+        "paint",
+        "stroke"
+      ],
+      "description": "Paint Brush icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPaperAirplane",
+      "tags": [
+        "airplane",
+        "paper",
+        "stroke"
+      ],
+      "description": "Paper Airplane icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPaperClip",
+      "tags": [
+        "clip",
+        "paper",
+        "stroke"
+      ],
+      "description": "Paper Clip icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPause",
+      "tags": [
+        "pause",
+        "stroke"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "HiPauseCircle",
+      "tags": [
+        "circle",
+        "pause",
+        "stroke"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "HiPencil",
+      "tags": [
+        "edit",
+        "pencil",
+        "stroke"
+      ],
+      "description": "Pencil icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPencilSquare",
+      "tags": [
+        "edit",
+        "pencil",
+        "square",
+        "stroke"
+      ],
+      "description": "Pencil Square icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPercentBadge",
+      "tags": [
+        "badge",
+        "percent",
+        "stroke"
+      ],
+      "description": "Percent Badge icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPhone",
+      "tags": [
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "HiPhoneArrowDownLeft",
+      "tags": [
+        "arrow",
+        "down",
+        "left",
+        "phone",
+        "stroke"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "HiPhoneArrowUpRight",
+      "tags": [
+        "arrow",
+        "like",
+        "phone",
+        "right",
+        "stroke",
+        "up"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "HiPhoneXMark",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "mark",
+        "phone",
+        "remove",
+        "stroke",
+        "x",
+        "xmark"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "HiPhoto",
+      "tags": [
+        "photo",
+        "stroke"
+      ],
+      "description": "Photo icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPlay",
+      "tags": [
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "HiPlayCircle",
+      "tags": [
+        "circle",
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "HiPlayPause",
+      "tags": [
+        "pause",
+        "play",
+        "stroke"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "HiPlus",
+      "tags": [
+        "add",
+        "plus",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "HiPlusCircle",
+      "tags": [
+        "add",
+        "circle",
+        "plus",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "HiPlusSmall",
+      "tags": [
+        "add",
+        "plus",
+        "small",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "HiPower",
+      "tags": [
+        "power",
+        "stroke"
+      ],
+      "description": "Power icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPresentationChartBar",
+      "tags": [
+        "bar",
+        "chart",
+        "presentation",
+        "stroke"
+      ],
+      "description": "Presentation Chart Bar icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPresentationChartLine",
+      "tags": [
+        "chart",
+        "line",
+        "presentation",
+        "stroke"
+      ],
+      "description": "Presentation Chart Line icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPrinter",
+      "tags": [
+        "printer",
+        "stroke"
+      ],
+      "description": "Printer icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiPuzzlePiece",
+      "tags": [
+        "piece",
+        "puzzle",
+        "stroke"
+      ],
+      "description": "Puzzle Piece icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiQrCode",
+      "tags": [
+        "code",
+        "qr",
+        "stroke"
+      ],
+      "description": "Qr Code icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiQuestionMarkCircle",
+      "tags": [
+        "circle",
+        "mark",
+        "question",
+        "stroke"
+      ],
+      "description": "Question Mark Circle icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiQueueList",
+      "tags": [
+        "list",
+        "queue",
+        "stroke"
+      ],
+      "description": "Queue List icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiRadio",
+      "tags": [
+        "radio",
+        "stroke"
+      ],
+      "description": "Radio icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiReceiptPercent",
+      "tags": [
+        "percent",
+        "receipt",
+        "stroke"
+      ],
+      "description": "Receipt Percent icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiReceiptRefund",
+      "tags": [
+        "receipt",
+        "refund",
+        "stroke"
+      ],
+      "description": "Receipt Refund icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiRectangleGroup",
+      "tags": [
+        "group",
+        "rectangle",
+        "stroke"
+      ],
+      "description": "Rectangle Group icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiRectangleStack",
+      "tags": [
+        "rectangle",
+        "stack",
+        "stroke"
+      ],
+      "description": "Rectangle Stack icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiRocketLaunch",
+      "tags": [
+        "launch",
+        "rocket",
+        "stroke"
+      ],
+      "description": "Rocket Launch icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiRss",
+      "tags": [
+        "rss",
+        "stroke"
+      ],
+      "description": "Rss icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiScale",
+      "tags": [
+        "scale",
+        "stroke"
+      ],
+      "description": "Scale icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiScissors",
+      "tags": [
+        "scissors",
+        "stroke"
+      ],
+      "description": "Scissors icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiServer",
+      "tags": [
+        "server",
+        "stroke"
+      ],
+      "description": "Server icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiServerStack",
+      "tags": [
+        "server",
+        "stack",
+        "stroke"
+      ],
+      "description": "Server Stack icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiShare",
+      "tags": [
+        "share",
+        "stroke"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "HiShieldCheck",
+      "tags": [
+        "check",
+        "shield",
+        "stroke"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "HiShieldExclamation",
+      "tags": [
+        "exclamation",
+        "shield",
+        "stroke"
+      ],
+      "description": "Shield Exclamation icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiShoppingBag",
+      "tags": [
+        "bag",
+        "cart",
+        "shopping",
+        "stroke"
+      ],
+      "description": "Shopping Bag icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiShoppingCart",
+      "tags": [
+        "cart",
+        "shopping",
+        "stroke"
+      ],
+      "description": "Shopping cart — carts, checkout and e-commerce."
+    },
+    {
+      "name": "HiSignal",
+      "tags": [
+        "signal",
+        "stroke"
+      ],
+      "description": "Signal icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSignalSlash",
+      "tags": [
+        "signal",
+        "slash",
+        "stroke"
+      ],
+      "description": "Signal Slash icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSlash",
+      "tags": [
+        "slash",
+        "stroke"
+      ],
+      "description": "Slash icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSparkles",
+      "tags": [
+        "sparkles",
+        "stroke"
+      ],
+      "description": "Sparkles icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSpeakerWave",
+      "tags": [
+        "speaker",
+        "stroke",
+        "wave"
+      ],
+      "description": "Speaker Wave icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSpeakerXMark",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "mark",
+        "remove",
+        "speaker",
+        "stroke",
+        "x",
+        "xmark"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "HiSquare2Stack",
+      "tags": [
+        "2",
+        "square",
+        "square2",
+        "stack",
+        "stroke"
+      ],
+      "description": "Square 2 Stack icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSquare3Stack3d",
+      "tags": [
+        "3",
+        "3d",
+        "square",
+        "square3",
+        "stack",
+        "stack3d",
+        "stroke"
+      ],
+      "description": "Square 3 Stack 3 d icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSquares2x2",
+      "tags": [
+        "2x2",
+        "squares",
+        "squares2x2",
+        "stroke"
+      ],
+      "description": "Squares 2 x 2 icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSquaresPlus",
+      "tags": [
+        "add",
+        "plus",
+        "squares",
+        "stroke"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "HiStar",
+      "tags": [
+        "star",
+        "stroke"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "HiStop",
+      "tags": [
+        "stop",
+        "stroke"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "HiStopCircle",
+      "tags": [
+        "circle",
+        "stop",
+        "stroke"
+      ],
+      "description": "Stop square — stop playback or processes."
+    },
+    {
+      "name": "HiStrikethrough",
+      "tags": [
+        "strikethrough",
+        "stroke"
+      ],
+      "description": "Strikethrough icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiSun",
+      "tags": [
+        "stroke",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "HiSwatch",
+      "tags": [
+        "stroke",
+        "swatch"
+      ],
+      "description": "Swatch icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiTableCells",
+      "tags": [
+        "cells",
+        "stroke",
+        "table"
+      ],
+      "description": "Table Cells icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiTag",
+      "tags": [
+        "stroke",
+        "tag"
+      ],
+      "description": "Tag icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiTicket",
+      "tags": [
+        "stroke",
+        "ticket"
+      ],
+      "description": "Ticket icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "remove",
+        "stroke",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "HiTrophy",
+      "tags": [
+        "stroke",
+        "trophy"
+      ],
+      "description": "Trophy icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiTruck",
+      "tags": [
+        "stroke",
+        "truck"
+      ],
+      "description": "Truck icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiTv",
+      "tags": [
+        "stroke",
+        "tv"
+      ],
+      "description": "Tv icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiUnderline",
+      "tags": [
+        "stroke",
+        "underline"
+      ],
+      "description": "Underline icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiUser",
+      "tags": [
+        "account",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "HiUserCircle",
+      "tags": [
+        "account",
+        "circle",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "HiUserGroup",
+      "tags": [
+        "account",
+        "group",
+        "person",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "HiUserMinus",
+      "tags": [
+        "account",
+        "minus",
+        "person",
+        "remove",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "HiUserPlus",
+      "tags": [
+        "account",
+        "add",
+        "person",
+        "plus",
+        "stroke",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "HiUsers",
+      "tags": [
+        "stroke",
+        "users"
+      ],
+      "description": "Group of people — teams, members and audiences."
+    },
+    {
+      "name": "HiVariable",
+      "tags": [
+        "stroke",
+        "variable"
+      ],
+      "description": "Variable icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiVideoCamera",
+      "tags": [
+        "camera",
+        "photo",
+        "stroke",
+        "video"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "HiVideoCameraSlash",
+      "tags": [
+        "camera",
+        "photo",
+        "slash",
+        "stroke",
+        "video"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "HiViewColumns",
+      "tags": [
+        "columns",
+        "stroke",
+        "view"
+      ],
+      "description": "View Columns icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiViewfinderCircle",
+      "tags": [
+        "circle",
+        "stroke",
+        "viewfinder"
+      ],
+      "description": "Viewfinder Circle icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiWallet",
+      "tags": [
+        "stroke",
+        "wallet"
+      ],
+      "description": "Wallet icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiWifi",
+      "tags": [
+        "stroke",
+        "wifi"
+      ],
+      "description": "Wi-Fi waves — connectivity and network status."
+    },
+    {
+      "name": "HiWindow",
+      "tags": [
+        "stroke",
+        "window"
+      ],
+      "description": "Window icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiWrench",
+      "tags": [
+        "stroke",
+        "wrench"
+      ],
+      "description": "Wrench icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiWrenchScrewdriver",
+      "tags": [
+        "screwdriver",
+        "stroke",
+        "wrench"
+      ],
+      "description": "Wrench Screwdriver icon — Heroicons (hi) set, stroke style."
+    },
+    {
+      "name": "HiXCircle",
+      "tags": [
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "remove",
+        "stroke",
+        "x",
+        "xcircle"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "HiXMark",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "mark",
+        "remove",
+        "stroke",
+        "x",
+        "xmark"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    }
+  ]
+}

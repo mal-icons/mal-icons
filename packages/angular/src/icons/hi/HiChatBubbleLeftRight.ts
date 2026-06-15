@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-chat-bubble-left-right",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiChatBubbleLeftRight {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M20.25 8.51c0.880.28 1.5 1.13 1.5 2.1v4.29c0 1.14-0.85 2.1-1.98 2.19-0.340.03-0.680.05-1.020.07v3.09l-3-3c-1.35 0-2.69-0.05-4.02-0.16a2.12 2.12 0 0 1-0.82-0.24m9.35-8.33a2.13 2.13 0 0 0-0.48-0.09 48.64 48.64 0 0 0-8.05 0c-1.130.09-1.98 1.06-1.98 2.19v4.29c0 0.840.46 1.58 1.16 1.95m9.35-8.33V6.64c0-1.62-1.15-3.03-2.76-3.23A48.46 48.46 0 0 0 11.25 3c-2.12 0-4.20.14-6.240.4-1.610.21-2.76 1.61-2.76 3.24v6.23c0 1.62 1.15 3.03 2.76 3.240.580.08 1.160.14 1.740.19V21l4.16-4.15"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiChatBubbleLeftRight;

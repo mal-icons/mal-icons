@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-academic-cap",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiAcademicCap {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M4.26 10.15a60.44 60.44 0 0 0-0.49 6.35A48.62 48.62 0 0 1 12 20.9a48.62 48.62 0 0 1 8.23-4.41 60.46 60.46 0 0 0-0.49-6.35m-15.48 0a50.64 50.64 0 0 0-2.66-0.81A59.91 59.91 0 0 1 12 3.49a59.9 59.9 0 0 1 10.4 5.84c-0.90.25-1.780.52-2.660.81m-15.48 0A50.72 50.72 0 0 1 12 13.49a50.7 50.7 0 0 1 7.74-3.34M6.75 15a0.750.75 0 1 0 0-1.50.750.75 0 0 0 0 1.5Zm0 0v-3.67A55.38 55.38 0 0 1 12 8.44m-7.01 11.55A5.98 5.98 0 0 0 6.75 15.75v-1.5"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiAcademicCap;

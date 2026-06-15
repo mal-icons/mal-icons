@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-hi-scale",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class HiScale {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"stroke-linecap":"round","stroke-linejoin":"round","d":"M12 3v17.25m0 0c-1.47 0-2.880.27-4.180.75M12 20.25c1.47 0 2.880.27 4.180.75M18.75 4.97A48.42 48.42 0 0 0 12 4.5c-2.29 0-4.540.16-6.750.47m13.5 0c1.010.14 2.010.32 3 0.52m-3-0.52 2.62 10.73c0.120.5-0.11 1.03-0.59 1.2a5.99 5.99 0 0 1-2.030.35 5.99 5.99 0 0 1-2.03-0.35c-0.48-0.17-0.71-0.7-0.59-1.2L18.75 4.97Zm-16.50.52c0.99-0.2 1.99-0.38 3-0.52m0 0 2.62 10.73c0.120.5-0.11 1.03-0.59 1.2a5.99 5.99 0 0 1-2.030.35 5.99 5.99 0 0 1-2.03-0.35c-0.48-0.17-0.71-0.7-0.59-1.2L5.25 4.97Z"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":1.5};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default HiScale;
