@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-direction",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlDirection {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M966.91 298.16l-179.12-192A32.1 32.1 0 0 0 764.37 96h-267.12l-1.01-66c0-16.56-14.34-30-32-30s-30 13.44-30 30l-0.97 66H80.5c-17.68 0-32 14.32-32 32v384c0 17.68 14.32 32 32 32h352.34v450c0 16.56 14.34 30 32 30s32-13.44 32-30V544h267.54c8.88 0 17.34-3.68 23.41-10.16l179.12-192c11.47-12.3 11.47-31.380.02-43.68zM750.46 480H112.5V160h637.97l149.28 160z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlDirection;

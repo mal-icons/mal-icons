@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-docs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlDocs {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M768 0H416c-35.34 0-64 28.66-64 64h352v256h256v512H736v64h224c35.34 0 64-28.66 64-64V256.02zm0 256V90.5L933.47 256H768zM64 128c-35.34 0-64 28.66-64 64v768c0 35.34 28.66 64 64 64h544c35.34 0 64-28.66 64-64V384.02L416 128H64zm544 832H64V192h288v256h256v512zM416 384V218.5L581.47 384H416z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlDocs;

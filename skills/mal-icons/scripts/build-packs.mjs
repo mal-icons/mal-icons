@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  sl: {
+    id: "sl",
+    name: "Simple Line Icons",
+    prefix: "Sl",
+    version: "2.5.5",
+    license: "MIT",
+    repo: "thesabbir/simple-line-icons",
+    style: "fill",
+    viewBox: "0 0 1024 1024",
+    blurb:
+      "Minimal, thin line-style UI icons (`SlWrench`, `SlHeart`, `SlSettings`). Single-color 1024×1024 fill; theme via `color`.",
+  },
   hi: {
     id: "hi",
     name: "Heroicons",

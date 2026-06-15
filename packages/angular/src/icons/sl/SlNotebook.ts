@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-notebook",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlNotebook {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M849.15 0H211.15c-46 0-66.03 34-66.03 66v127.31h-34.93c-17.31 0-31.34 14.03-31.34 31.35 0 17.31 14.03 31.34 31.34 31.34h34.93v128.75h-31.94c-17.31 0-31.34 14.03-31.34 31.34 0 17.31 14.03 31.35 31.34 31.35h31.94v129.44h-32.62c-17.31 0-31.34 14.03-31.34 31.34s14.03 31.34 31.34 31.34h32.62v128.46h-32.62c-17.31 0-31.34 14.03-31.34 31.34s14.03 31.34 31.34 31.34h32.62V960c0 53.03 41.54 64 64.53 64h639.5c53.03 0 96-42.97 96-96V96c0-53.02-42.96-96-96-96zM209.12 960l0-129.28h33.34c17.31 0 31.34-14.03 31.34-31.34s-14.03-31.34-31.34-31.34H209.12V639.57h33.34c17.31 0 31.34-14.03 31.34-31.34s-14.03-31.34-31.34-31.34H209.12V447.44h34.03c17.31 0 31.35-14.03 31.35-31.34 0-17.31-14.03-31.34-31.34-31.34h-34.03V256h31.02c17.31 0 31.34-14.03 31.34-31.34 0-17.31-14.03-31.34-31.34-31.34h-31.02V66c0-0.750.06-1.380.16-1.94a28.23 28.23 0 0 1 1.87-0.06h510v896H209.12zm672.03-32c0 17.66-14.34 32-32 32h-64v-896h64c17.66 0 32 14.34 32 32v832z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlNotebook;

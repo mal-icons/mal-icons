@@ -1,6 +1,6 @@
 interface:
   display_name: "mal-icons"
-  short_description: "Find, import, theme, and troubleshoot @mal-icons icons (Feather, Circum, Ionicons, Lucide, Font Awesome Free (solid, brands, regular), Typicons, Octicons, Devicons, Weather Icons, Ant Design, Flat Color Icons, Grommet, Heroicons — 10,425 icons) across React, Vue, Svelte, Solid, Preact, Angular, Astro, Web, and React Native."
+  short_description: "Find, import, theme, and troubleshoot @mal-icons icons (Feather, Circum, Ionicons, Lucide, Font Awesome Free (solid, brands, regular), Typicons, Octicons, Devicons, Weather Icons, Ant Design, Flat Color Icons, Grommet, Heroicons, Simple Line Icons — 10,614 icons) across React, Vue, Svelte, Solid, Preact, Angular, Astro, Web, and React Native."
   default_prompt: "Help me find and add a mal-icons icon. If I describe a concept, search for it first, then show the correct import for my framework."
 skill:
   name: "mal-icons"

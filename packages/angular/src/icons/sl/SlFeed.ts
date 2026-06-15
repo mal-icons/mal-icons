@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-feed",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlFeed {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M101.87 330.26c-18.13 0-32.77 14.66-32.77 32.77 0 18.1 14.64 32.77 32.77 32.77 303.01 0 525.34 224.37 525.34 527.36 0 18.1 14.66 32.75 32.77 32.75s32.77-14.66 32.77-32.75c0-340.37-250.53-592.9-590.88-592.9zm0.29-327.63c-18.11 0-32.77 14.66-32.77 32.77S84.05 68.16 102.16 68.16c470.18 0 852.67 382.5 852.67 852.66 0 18.1 14.66 32.75 32.77 32.75s32.77-14.66 32.77-32.75C1020.35 414.53 608.45 2.62 102.16 2.62zm81.86 656.98c-99.47 0-180.37 81.12-180.37 180.88 0 99.71 80.91 180.91 180.37 180.91 99.46 0 180.4-81.18 180.4-180.91 0-99.76-80.93-180.88-180.4-180.88zm0 298.43c-64.61 0-117.17-52.75-117.17-117.57s52.56-117.54 117.17-117.54c64.62 0 117.22 52.72 117.22 117.54S248.64 958.03 184.01 958.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlFeed;

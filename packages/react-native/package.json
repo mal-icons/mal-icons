@@ -165,6 +165,16 @@
       "bun": "./src/icons/oc/*.tsx",
       "import": "./dist/icons/oc/*.js"
     },
+    "./sl": {
+      "types": "./dist/icons/sl/index.d.ts",
+      "bun": "./src/icons/sl/index.ts",
+      "import": "./dist/icons/sl/index.js"
+    },
+    "./sl/*": {
+      "types": "./dist/icons/sl/*.d.ts",
+      "bun": "./src/icons/sl/*.tsx",
+      "import": "./dist/icons/sl/*.js"
+    },
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",
       "bun": "./src/icons/ti/index.ts",

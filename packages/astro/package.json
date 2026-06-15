@@ -40,6 +40,7 @@
     "./io/*": "./src/icons/io/*.astro",
     "./lu/*": "./src/icons/lu/*.astro",
     "./oc/*": "./src/icons/oc/*.astro",
+    "./sl/*": "./src/icons/sl/*.astro",
     "./ti/*": "./src/icons/ti/*.astro",
     "./wi/*": "./src/icons/wi/*.astro",
     "./package.json": "./package.json"

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-calender",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlCalender {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M960 95.89l-256.220V32.11c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.34 0-64 28.66-64 64v800c0 35.34 28.66 64 64 64h896c35.34 0 64-28.66 64-64v-800c0-35.33-28.66-63.98-64-63.98zm0 863.99H64v-800h255.78v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.22h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.98zM736 511.89h64c17.66 0 32-14.34 32-32v-64c0-17.66-14.34-32-32-32h-64c-17.66 0-32 14.34-32 32v64c0 17.66 14.34 32 32 32zm0 255.98h64c17.66 0 32-14.32 32-32v-64c0-17.66-14.34-32-32-32h-64c-17.66 0-32 14.34-32 32v64c0 17.7 14.34 32 32 32zm-192-128h-64c-17.66 0-32 14.34-32 32v64c0 17.68 14.34 32 32 32h64c17.66 0 32-14.32 32-32v-64c0-17.65-14.34-32-32-32zm0-255.98h-64c-17.66 0-32 14.34-32 32v64c0 17.66 14.34 32 32 32h64c17.66 0 32-14.34 32-32v-64c0-17.68-14.34-32-32-32zm-256 0h-64c-17.66 0-32 14.34-32 32v64c0 17.66 14.34 32 32 32h64c17.66 0 32-14.34 32-32v-64c0-17.68-14.34-32-32-32zm0 255.98h-64c-17.66 0-32 14.34-32 32v64c0 17.68 14.34 32 32 32h64c17.66 0 32-14.32 32-32v-64c0-17.65-14.34-32-32-32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlCalender;

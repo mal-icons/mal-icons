@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-logout",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlLogout {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M116.83 543.66H671.28c17.7 0 32-14.34 32-32s-14.3-32-32-32H118.83l115.76-115.76c12.5-12.5 12.5-32.75 0-45.25s-32.75-12.5-45.25 0l-189.01 194 189.01 194c6.26 6.26 14.43 9.38 22.62 9.38s16.37-3.12 22.62-9.38c12.5-12.5 12.5-32.75 0-45.25zM959.66 0H415.66c-35.36 0-64 28.66-64 64v288h64.42V103.02c0-21.38 17.34-38.72 38.72-38.72h464.72c21.39 0 38.72 17.34 38.72 38.72l1.01 818.29c0 21.38-17.33 38.72-38.72 38.72H454.82c-21.38 0-38.72-17.34-38.72-38.72V670.94l-64.420.08V960c0 35.34 28.64 64 64 64h543.98c35.36 0 64.02-28.66 64.02-64V64c-0.01-35.34-28.67-64-64.01-64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlLogout;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-bubble",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlBubble {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M512 128c247.02 0 448 143.55 448 320 0 176.43-200.98 320-448 320l-26.510.1c-17.58 0-29.09-0.46-47.07-3.15l-35.86-5.12-23.01 27.84c-10.58 12.78-64.54 57.12-124.11 85.66 12.11-32.03 21.04-67.01 21.84-101.6l0.32-1.9V725.2l-34.86-17.81C129.14 649.28 64 554.75 64 448c0-176.45 200.98-320 448-320zm0-64C229.2 64 0 235.94 0 448c0 132.06 78.26 247.15 213.58 316.34 0 0.82-0.26 1.41-0.26 2.32 0 57.38-32.16 120.46-51.01 152.94h0.05C160.88 923.09 160 926.91 160 931.01c0 16.08 12.96 28.99 29.01 28.99 2.42 0 6.26-0.5 7.66-0.50.34 0 0.53 0 0.50.1 100-16.34 209.95-104.69 231.82-131.34 22.48 3.34 37.66 3.84 56.48 3.84 7.94 0 16.5-0.1 26.53-0.1 282.75 0 512-171.9 512-384 0-212.06-229.25-384-512-384z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlBubble;

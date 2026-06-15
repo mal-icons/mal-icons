@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-handbag",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlHandbag {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1022.74 942.64l-83.41-503.78c-7.44-65.31-66.98-118.43-132.72-118.43h-70.66v-85.28c0-130.16-92.85-236.03-222.98-236.03-130.1 0-224.94 105.87-224.94 236.03v85.28h-76.67c-65.74 0-125.28 53.12-132.53 117.06l-77.28 504.16c-2.98 26.56 2.22 47.5 15.41 62.29 12.43 13.9 30.53 20.98 53.74 20.98h873.57c32.91 0 51.78-13.22 61.84-24.32 9.22-10.21 19.65-28.14 16.62-57.95zM352.05 235.14c0-94.85 66.13-172.03 160.94-172.03 94.82 0 158.98 77.18 158.98 172.03v85.28h-319.92zm595.12 725.31l-872.50.45c-5.5 0-11.01-2.94-9.71-10.69l77.25-504.1c3.84-33.44 35.5-61.68 69.15-61.68h76.69v72.93c-19.07 11.07-32.05 31.49-32.05 55.14 0 35.34 28.66 64 64 64s64-28.66 64-64c0-23.62-12.93-44-31.95-55.09v-72.99H671.95v72.99c-19.01 11.09-31.95 31.49-31.95 55.09 0 35.34 28.66 64 64 64s64-28.66 64-64c0-23.65-12.98-44.06-32.05-55.15v-72.93h70.66c33.66 0 65.31 28.26 69.41 63.44l83.34 503.28c0.4 4.1-2.81 9.31-12.19 9.31z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlHandbag;

@@ -117,6 +117,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
@@ -155,6 +156,8 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/preact/wi/WiDaySunny` | A single Weather Icons icon module |
 | `@mal-icons/preact/hi` | All Heroicons icons (named exports) |
 | `@mal-icons/preact/hi/HiAcademicCap` | A single Heroicons icon module |
+| `@mal-icons/preact/sl` | All Simple Line Icons icons (named exports) |
+| `@mal-icons/preact/sl/SlActionRedo` | A single Simple Line Icons icon module |
 
 ## Example
 

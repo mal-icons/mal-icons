@@ -190,4 +190,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "optimized/24/outline",
     style: "stroke",
   },
+  sl: {
+    id: "sl",
+    prefix: "Sl",
+    name: "Simple Line Icons",
+    license: "MIT",
+    repo: "thesabbir/simple-line-icons",
+    ref: "v2.5.5",
+    iconDir: "src/svgs",
+    style: "fill",
+  },
 };
