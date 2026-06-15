@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-record-keys-compact",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscRecordKeysCompact {
+  readonly viewBox = "0 0 12 12";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.5 1H1.5C0.67 1 0 1.67 0 2.5V8.5C0 9.33 0.67 10 1.5 10H10.5C11.33 10 12 9.33 12 8.5V2.5C12 1.67 11.33 1 10.5 1ZM11 8.5C11 8.78 10.78 9 10.5 9H1.5C1.23 9 1 8.78 1 8.5V2.5C1 2.22 1.23 2 1.5 2H10.5C10.78 2 11 2.22 11 2.5V8.5ZM10 7.5C10 7.78 9.78 8 9.5 8H2.5C2.22 8 2 7.78 2 7.5C2 7.22 2.22 7 2.5 7H9.5C9.78 7 10 7.22 10 7.5ZM4.3 3.4C4.3 3.07 4.57 2.8 4.9 2.8C5.23 2.8 5.5 3.07 5.5 3.4C5.5 3.73 5.23 4 4.9 4C4.57 4 4.3 3.73 4.3 3.4ZM2.3 3.4C2.3 3.07 2.57 2.8 2.9 2.8C3.23 2.8 3.5 3.07 3.5 3.4C3.5 3.73 3.23 4 2.9 4C2.57 4 2.3 3.73 2.3 3.4ZM6.3 3.4C6.3 3.07 6.57 2.8 6.9 2.8C7.23 2.8 7.5 3.07 7.5 3.4C7.5 3.73 7.23 4 6.9 4C6.57 4 6.3 3.73 6.3 3.4ZM8.3 3.4C8.3 3.07 8.57 2.8 8.9 2.8C9.23 2.8 9.5 3.07 9.5 3.4C9.5 3.73 9.23 4 8.9 4C8.57 4 8.3 3.73 8.3 3.4ZM3.9 4.8C4.23 4.8 4.5 5.07 4.5 5.4C4.5 5.73 4.23 6 3.9 6C3.57 6 3.3 5.73 3.3 5.4C3.3 5.07 3.57 4.8 3.9 4.8ZM5.9 4.8C6.23 4.8 6.5 5.07 6.5 5.4C6.5 5.73 6.23 6 5.9 6C5.57 6 5.3 5.73 5.3 5.4C5.3 5.07 5.57 4.8 5.9 4.8ZM7.9 4.8C8.23 4.8 8.5 5.07 8.5 5.4C8.5 5.73 8.23 6 7.9 6C7.57 6 7.3 5.73 7.3 5.4C7.3 5.07 7.57 4.8 7.9 4.8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscRecordKeysCompact;

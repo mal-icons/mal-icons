@@ -195,6 +195,16 @@
       "bun": "./src/icons/ti/*.tsx",
       "import": "./dist/icons/ti/*.js"
     },
+    "./vsc": {
+      "types": "./dist/icons/vsc/index.d.ts",
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./dist/icons/vsc/index.js"
+    },
+    "./vsc/*": {
+      "types": "./dist/icons/vsc/*.d.ts",
+      "bun": "./src/icons/vsc/*.tsx",
+      "import": "./dist/icons/vsc/*.js"
+    },
     "./wi": {
       "types": "./dist/icons/wi/index.d.ts",
       "bun": "./src/icons/wi/index.ts",

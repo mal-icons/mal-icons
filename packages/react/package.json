@@ -211,6 +211,17 @@
       "bun": "./src/icons/ti/*.tsx",
       "import": "./dist/icons/ti/*.js"
     },
+    "./vsc": {
+      "types": "./dist/icons/vsc/index.d.ts",
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./dist/icons/vsc/index.js",
+      "require": "./dist/icons/vsc/index.cjs"
+    },
+    "./vsc/*": {
+      "types": "./dist/icons/vsc/*.d.ts",
+      "bun": "./src/icons/vsc/*.tsx",
+      "import": "./dist/icons/vsc/*.js"
+    },
     "./wi": {
       "types": "./dist/icons/wi/index.d.ts",
       "bun": "./src/icons/wi/index.ts",
@@ -255,6 +266,7 @@
     "./sprite/oc.svg": "./dist/icons/oc/sprite.svg",
     "./sprite/sl.svg": "./dist/icons/sl/sprite.svg",
     "./sprite/ti.svg": "./dist/icons/ti/sprite.svg",
+    "./sprite/vsc.svg": "./dist/icons/vsc/sprite.svg",
     "./sprite/wi.svg": "./dist/icons/wi/sprite.svg",
     "./manifest.json": "./dist/icons/manifest.json",
     "./package.json": "./package.json"

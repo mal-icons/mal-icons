@@ -161,6 +161,14 @@
       "bun": "./src/icons/ti/*.ts",
       "import": "./src/icons/ti/*.ts"
     },
+    "./vsc": {
+      "bun": "./src/icons/vsc/index.ts",
+      "import": "./src/icons/vsc/index.ts"
+    },
+    "./vsc/*": {
+      "bun": "./src/icons/vsc/*.ts",
+      "import": "./src/icons/vsc/*.ts"
+    },
     "./wi": {
       "bun": "./src/icons/wi/index.ts",
       "import": "./src/icons/wi/index.ts"

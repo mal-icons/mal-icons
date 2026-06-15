@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-shield-compact",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscShieldCompact {
+  readonly viewBox = "0 0 12 12";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.5 1.83C8.97 1.83 7.59 1.55 6.35 0.31C6.26 0.22 6.13 0.17 6 0.17C5.87 0.17 5.75 0.22 5.65 0.31C4.41 1.55 3.03 1.83 1.5 1.83C1.22 1.83 1 2.06 1 2.33V5.33C1 8.55 2.64 10.74 5.84 11.81C5.89 11.83 5.95 11.83 6 11.83C6.05 11.83 6.11 11.83 6.16 11.81C9.36 10.74 11 8.55 11 5.33V2.33C11 2.06 10.78 1.83 10.5 1.83ZM10 5.33C10 8.07 8.69 9.86 6 10.81C3.31 9.86 2 8.07 2 5.33V2.82C3.22 2.77 4.67 2.49 6 1.35C7.33 2.5 8.78 2.77 10 2.82V5.33ZM6 4.5C6.55 4.5 7 4.95 7 5.5C7 5.87 6.8 6.19 6.5 6.37V7C6.5 7.28 6.28 7.5 6 7.5C5.72 7.5 5.5 7.28 5.5 7V6.37C5.2 6.19 5 5.87 5 5.5C5 4.95 5.45 4.5 6 4.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscShieldCompact;

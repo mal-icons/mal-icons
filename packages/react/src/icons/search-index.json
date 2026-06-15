@@ -99102,6 +99102,5377 @@
       ]
     },
     {
+      "name": "VscAccount",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "account"
+      ]
+    },
+    {
+      "name": "VscActivateBreakpoints",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "activate",
+        "breakpoints"
+      ]
+    },
+    {
+      "name": "VscAdd",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "add"
+      ]
+    },
+    {
+      "name": "VscAddCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "add",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscAddSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "add",
+        "small"
+      ]
+    },
+    {
+      "name": "VscAgent",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "agent"
+      ]
+    },
+    {
+      "name": "VscAgentCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "agent",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscArchive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "archive"
+      ]
+    },
+    {
+      "name": "VscArrowBoth",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "both"
+      ]
+    },
+    {
+      "name": "VscArrowCircleDown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "circle",
+        "down"
+      ]
+    },
+    {
+      "name": "VscArrowCircleLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "circle",
+        "left"
+      ]
+    },
+    {
+      "name": "VscArrowCircleRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "circle",
+        "right"
+      ]
+    },
+    {
+      "name": "VscArrowCircleUp",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "circle",
+        "up"
+      ]
+    },
+    {
+      "name": "VscArrowDown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "VscArrowLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "VscArrowRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "VscArrowSmallDown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "small",
+        "down"
+      ]
+    },
+    {
+      "name": "VscArrowSmallLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "small",
+        "left"
+      ]
+    },
+    {
+      "name": "VscArrowSmallRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "small",
+        "right"
+      ]
+    },
+    {
+      "name": "VscArrowSmallUp",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "small",
+        "up"
+      ]
+    },
+    {
+      "name": "VscArrowSwap",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "swap"
+      ]
+    },
+    {
+      "name": "VscArrowUp",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "VscAsk",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "ask"
+      ]
+    },
+    {
+      "name": "VscAskCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "ask",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscAttach",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "attach"
+      ]
+    },
+    {
+      "name": "VscAttachCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "attach",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscAzure",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "azure"
+      ]
+    },
+    {
+      "name": "VscAzureDevops",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "azure",
+        "devops"
+      ]
+    },
+    {
+      "name": "VscBeaker",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "beaker"
+      ]
+    },
+    {
+      "name": "VscBeakerCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "beaker",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscBeakerStop",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "beaker",
+        "stop"
+      ]
+    },
+    {
+      "name": "VscBell",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bell"
+      ]
+    },
+    {
+      "name": "VscBellDot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bell",
+        "dot"
+      ]
+    },
+    {
+      "name": "VscBellSlash",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bell",
+        "slash"
+      ]
+    },
+    {
+      "name": "VscBellSlashDot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bell",
+        "slash",
+        "dot"
+      ]
+    },
+    {
+      "name": "VscBlank",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "blank"
+      ]
+    },
+    {
+      "name": "VscBold",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bold"
+      ]
+    },
+    {
+      "name": "VscBook",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "book"
+      ]
+    },
+    {
+      "name": "VscBookmark",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "VscBracketDot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bracket",
+        "dot"
+      ]
+    },
+    {
+      "name": "VscBracketError",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bracket",
+        "error"
+      ]
+    },
+    {
+      "name": "VscBriefcase",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "VscBroadcast",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "broadcast"
+      ]
+    },
+    {
+      "name": "VscBrowser",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "browser"
+      ]
+    },
+    {
+      "name": "VscBug",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "bug"
+      ]
+    },
+    {
+      "name": "VscBuild",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "build"
+      ]
+    },
+    {
+      "name": "VscCalendar",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "calendar"
+      ]
+    },
+    {
+      "name": "VscCallIncoming",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "call",
+        "incoming"
+      ]
+    },
+    {
+      "name": "VscCallOutgoing",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "call",
+        "outgoing"
+      ]
+    },
+    {
+      "name": "VscCaseSensitive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "case",
+        "sensitive"
+      ]
+    },
+    {
+      "name": "VscChatExport",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chat",
+        "export"
+      ]
+    },
+    {
+      "name": "VscChatImport",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chat",
+        "import"
+      ]
+    },
+    {
+      "name": "VscChatSparkle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chat",
+        "sparkle"
+      ]
+    },
+    {
+      "name": "VscChatSparkleError",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chat",
+        "sparkle",
+        "error"
+      ]
+    },
+    {
+      "name": "VscChatSparkleWarning",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chat",
+        "sparkle",
+        "warning"
+      ]
+    },
+    {
+      "name": "VscCheck",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "check"
+      ]
+    },
+    {
+      "name": "VscCheckAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "check",
+        "all"
+      ]
+    },
+    {
+      "name": "VscCheckCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "check",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscChecklist",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "checklist"
+      ]
+    },
+    {
+      "name": "VscChecklistCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "checklist",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscChevronDown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "down"
+      ]
+    },
+    {
+      "name": "VscChevronDownCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "down",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscChevronLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "left"
+      ]
+    },
+    {
+      "name": "VscChevronLeftCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "left",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscChevronRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "right"
+      ]
+    },
+    {
+      "name": "VscChevronRightCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "right",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscChevronUp",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "up"
+      ]
+    },
+    {
+      "name": "VscChevronUpCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chevron",
+        "up",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscChip",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chip"
+      ]
+    },
+    {
+      "name": "VscChromeClose",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chrome",
+        "close"
+      ]
+    },
+    {
+      "name": "VscChromeMaximize",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chrome",
+        "maximize"
+      ]
+    },
+    {
+      "name": "VscChromeMinimize",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chrome",
+        "minimize"
+      ]
+    },
+    {
+      "name": "VscChromeRestore",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "chrome",
+        "restore"
+      ]
+    },
+    {
+      "name": "VscCircle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle"
+      ]
+    },
+    {
+      "name": "VscCircleFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscCircleFilledCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "filled",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCircleLarge",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "large"
+      ]
+    },
+    {
+      "name": "VscCircleLargeFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "large",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscCircleSlash",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "slash"
+      ]
+    },
+    {
+      "name": "VscCircleSlashCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "slash",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCircleSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "small"
+      ]
+    },
+    {
+      "name": "VscCircleSmallFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "small",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscCircleSmallFilledCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circle",
+        "small",
+        "filled",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCircuitBoard",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "circuit",
+        "board"
+      ]
+    },
+    {
+      "name": "VscClaude",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "claude"
+      ]
+    },
+    {
+      "name": "VscClearAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "clear",
+        "all"
+      ]
+    },
+    {
+      "name": "VscClippy",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "clippy"
+      ]
+    },
+    {
+      "name": "VscClockface",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "clockface"
+      ]
+    },
+    {
+      "name": "VscClose",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "close"
+      ]
+    },
+    {
+      "name": "VscCloseAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "close",
+        "all"
+      ]
+    },
+    {
+      "name": "VscCloseCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "close",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCloud",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "cloud"
+      ]
+    },
+    {
+      "name": "VscCloudCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "cloud",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCloudDownload",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "cloud",
+        "download"
+      ]
+    },
+    {
+      "name": "VscCloudSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "cloud",
+        "small"
+      ]
+    },
+    {
+      "name": "VscCloudUpload",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "cloud",
+        "upload"
+      ]
+    },
+    {
+      "name": "VscCode",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "code"
+      ]
+    },
+    {
+      "name": "VscCodeOss",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "code",
+        "oss"
+      ]
+    },
+    {
+      "name": "VscCodeReview",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "code",
+        "review"
+      ]
+    },
+    {
+      "name": "VscCoffee",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "coffee"
+      ]
+    },
+    {
+      "name": "VscCollapseAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "collapse",
+        "all"
+      ]
+    },
+    {
+      "name": "VscCollapseAllCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "collapse",
+        "all",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCollection",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "collection"
+      ]
+    },
+    {
+      "name": "VscCollectionSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "collection",
+        "small"
+      ]
+    },
+    {
+      "name": "VscColorMode",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "color",
+        "mode"
+      ]
+    },
+    {
+      "name": "VscCombine",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "combine"
+      ]
+    },
+    {
+      "name": "VscComment",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment"
+      ]
+    },
+    {
+      "name": "VscCommentCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCommentDiscussion",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment",
+        "discussion"
+      ]
+    },
+    {
+      "name": "VscCommentDiscussionQuote",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment",
+        "discussion",
+        "quote"
+      ]
+    },
+    {
+      "name": "VscCommentDiscussionSparkle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment",
+        "discussion",
+        "sparkle"
+      ]
+    },
+    {
+      "name": "VscCommentDraft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment",
+        "draft"
+      ]
+    },
+    {
+      "name": "VscCommentUnresolved",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment",
+        "unresolved"
+      ]
+    },
+    {
+      "name": "VscCommentUnresolvedCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "comment",
+        "unresolved",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCompass",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "compass"
+      ]
+    },
+    {
+      "name": "VscCompassActive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "compass",
+        "active"
+      ]
+    },
+    {
+      "name": "VscCompassDot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "compass",
+        "dot"
+      ]
+    },
+    {
+      "name": "VscCopilot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot"
+      ]
+    },
+    {
+      "name": "VscCopilotBlocked",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "blocked"
+      ]
+    },
+    {
+      "name": "VscCopilotCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscCopilotError",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "error"
+      ]
+    },
+    {
+      "name": "VscCopilotInProgress",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "in",
+        "progress"
+      ]
+    },
+    {
+      "name": "VscCopilotLarge",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "large"
+      ]
+    },
+    {
+      "name": "VscCopilotNotConnected",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "not",
+        "connected"
+      ]
+    },
+    {
+      "name": "VscCopilotSnooze",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "snooze"
+      ]
+    },
+    {
+      "name": "VscCopilotSuccess",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "success"
+      ]
+    },
+    {
+      "name": "VscCopilotUnavailable",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "unavailable"
+      ]
+    },
+    {
+      "name": "VscCopilotWarning",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "warning"
+      ]
+    },
+    {
+      "name": "VscCopilotWarningLarge",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copilot",
+        "warning",
+        "large"
+      ]
+    },
+    {
+      "name": "VscCopy",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "copy"
+      ]
+    },
+    {
+      "name": "VscCoverage",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "coverage"
+      ]
+    },
+    {
+      "name": "VscCreditCard",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "VscCursor",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "cursor"
+      ]
+    },
+    {
+      "name": "VscDash",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "dash"
+      ]
+    },
+    {
+      "name": "VscDashboard",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "VscDatabase",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "database"
+      ]
+    },
+    {
+      "name": "VscDebug",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug"
+      ]
+    },
+    {
+      "name": "VscDebugAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "all"
+      ]
+    },
+    {
+      "name": "VscDebugAlt",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "alt"
+      ]
+    },
+    {
+      "name": "VscDebugAltSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "alt",
+        "small"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointConditional",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "conditional"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointConditionalUnverified",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "conditional",
+        "unverified"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointData",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "data"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointDataUnverified",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "data",
+        "unverified"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointFunction",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "function"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointFunctionUnverified",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "function",
+        "unverified"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointLog",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "log"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointLogUnverified",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "log",
+        "unverified"
+      ]
+    },
+    {
+      "name": "VscDebugBreakpointUnsupported",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "breakpoint",
+        "unsupported"
+      ]
+    },
+    {
+      "name": "VscDebugConnected",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "connected"
+      ]
+    },
+    {
+      "name": "VscDebugConnectedCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "connected",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscDebugConsole",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "console"
+      ]
+    },
+    {
+      "name": "VscDebugContinue",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "continue"
+      ]
+    },
+    {
+      "name": "VscDebugContinueSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "continue",
+        "small"
+      ]
+    },
+    {
+      "name": "VscDebugCoverage",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "coverage"
+      ]
+    },
+    {
+      "name": "VscDebugDisconnect",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "disconnect"
+      ]
+    },
+    {
+      "name": "VscDebugDisconnectCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "disconnect",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscDebugLineByLine",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "line",
+        "by"
+      ]
+    },
+    {
+      "name": "VscDebugPause",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "pause"
+      ]
+    },
+    {
+      "name": "VscDebugRerun",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "rerun"
+      ]
+    },
+    {
+      "name": "VscDebugRestart",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "restart"
+      ]
+    },
+    {
+      "name": "VscDebugRestartFrame",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "restart",
+        "frame"
+      ]
+    },
+    {
+      "name": "VscDebugReverseContinue",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "reverse",
+        "continue"
+      ]
+    },
+    {
+      "name": "VscDebugStackframe",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "stackframe"
+      ]
+    },
+    {
+      "name": "VscDebugStackframeActive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "stackframe",
+        "active"
+      ]
+    },
+    {
+      "name": "VscDebugStart",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "start"
+      ]
+    },
+    {
+      "name": "VscDebugStepBack",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "step",
+        "back"
+      ]
+    },
+    {
+      "name": "VscDebugStepInto",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "step",
+        "into"
+      ]
+    },
+    {
+      "name": "VscDebugStepOut",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "step",
+        "out"
+      ]
+    },
+    {
+      "name": "VscDebugStepOver",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "step",
+        "over"
+      ]
+    },
+    {
+      "name": "VscDebugStop",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "debug",
+        "stop"
+      ]
+    },
+    {
+      "name": "VscDesktopDownload",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "desktop",
+        "download"
+      ]
+    },
+    {
+      "name": "VscDeveloperTools",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "developer",
+        "tools"
+      ]
+    },
+    {
+      "name": "VscDeviceCamera",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "device",
+        "camera"
+      ]
+    },
+    {
+      "name": "VscDeviceCameraVideo",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "device",
+        "camera",
+        "video"
+      ]
+    },
+    {
+      "name": "VscDeviceMobile",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "device",
+        "mobile"
+      ]
+    },
+    {
+      "name": "VscDiff",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff"
+      ]
+    },
+    {
+      "name": "VscDiffAdded",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff",
+        "added"
+      ]
+    },
+    {
+      "name": "VscDiffIgnored",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff",
+        "ignored"
+      ]
+    },
+    {
+      "name": "VscDiffModified",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff",
+        "modified"
+      ]
+    },
+    {
+      "name": "VscDiffMultiple",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff",
+        "multiple"
+      ]
+    },
+    {
+      "name": "VscDiffRemoved",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff",
+        "removed"
+      ]
+    },
+    {
+      "name": "VscDiffRenamed",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff",
+        "renamed"
+      ]
+    },
+    {
+      "name": "VscDiffSingle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "diff",
+        "single"
+      ]
+    },
+    {
+      "name": "VscDiscard",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "discard"
+      ]
+    },
+    {
+      "name": "VscDownload",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "download"
+      ]
+    },
+    {
+      "name": "VscEdit",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "edit"
+      ]
+    },
+    {
+      "name": "VscEditCode",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "edit",
+        "code"
+      ]
+    },
+    {
+      "name": "VscEditCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "edit",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscEditorLayout",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "editor",
+        "layout"
+      ]
+    },
+    {
+      "name": "VscEditSession",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "edit",
+        "session"
+      ]
+    },
+    {
+      "name": "VscEditSparkle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "edit",
+        "sparkle"
+      ]
+    },
+    {
+      "name": "VscEllipsis",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "ellipsis"
+      ]
+    },
+    {
+      "name": "VscEmptyWindow",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "empty",
+        "window"
+      ]
+    },
+    {
+      "name": "VscEraser",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "eraser"
+      ]
+    },
+    {
+      "name": "VscError",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "error"
+      ]
+    },
+    {
+      "name": "VscErrorCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "error",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscErrorSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "error",
+        "small"
+      ]
+    },
+    {
+      "name": "VscExclude",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "exclude"
+      ]
+    },
+    {
+      "name": "VscExpandAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "expand",
+        "all"
+      ]
+    },
+    {
+      "name": "VscExport",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "export"
+      ]
+    },
+    {
+      "name": "VscExtensions",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "extensions"
+      ]
+    },
+    {
+      "name": "VscExtensionsLarge",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "extensions",
+        "large"
+      ]
+    },
+    {
+      "name": "VscEye",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "eye"
+      ]
+    },
+    {
+      "name": "VscEyeClosed",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "eye",
+        "closed"
+      ]
+    },
+    {
+      "name": "VscFeedback",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "feedback"
+      ]
+    },
+    {
+      "name": "VscFile",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file"
+      ]
+    },
+    {
+      "name": "VscFileBinary",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "binary"
+      ]
+    },
+    {
+      "name": "VscFileCode",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "code"
+      ]
+    },
+    {
+      "name": "VscFileMedia",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "media"
+      ]
+    },
+    {
+      "name": "VscFileMediaCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "media",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscFilePdf",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "pdf"
+      ]
+    },
+    {
+      "name": "VscFiles",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "files"
+      ]
+    },
+    {
+      "name": "VscFileSubmodule",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "submodule"
+      ]
+    },
+    {
+      "name": "VscFileSymlinkDirectory",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "symlink",
+        "directory"
+      ]
+    },
+    {
+      "name": "VscFileSymlinkFile",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "symlink"
+      ]
+    },
+    {
+      "name": "VscFileText",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "text"
+      ]
+    },
+    {
+      "name": "VscFileZip",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "file",
+        "zip"
+      ]
+    },
+    {
+      "name": "VscFilter",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "filter"
+      ]
+    },
+    {
+      "name": "VscFilterFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "filter",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscFlag",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "flag"
+      ]
+    },
+    {
+      "name": "VscFlame",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "flame"
+      ]
+    },
+    {
+      "name": "VscFold",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "fold"
+      ]
+    },
+    {
+      "name": "VscFoldDown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "fold",
+        "down"
+      ]
+    },
+    {
+      "name": "VscFolder",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "folder"
+      ]
+    },
+    {
+      "name": "VscFolderActive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "folder",
+        "active"
+      ]
+    },
+    {
+      "name": "VscFolderCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "folder",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscFolderLibrary",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "folder",
+        "library"
+      ]
+    },
+    {
+      "name": "VscFolderOpened",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "folder",
+        "opened"
+      ]
+    },
+    {
+      "name": "VscFolderOpenedCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "folder",
+        "opened",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscFoldUp",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "fold",
+        "up"
+      ]
+    },
+    {
+      "name": "VscForward",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "forward"
+      ]
+    },
+    {
+      "name": "VscGame",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "game"
+      ]
+    },
+    {
+      "name": "VscGear",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "gear"
+      ]
+    },
+    {
+      "name": "VscGearCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "gear",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscGift",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "gift"
+      ]
+    },
+    {
+      "name": "VscGist",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "gist"
+      ]
+    },
+    {
+      "name": "VscGistSecret",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "gist",
+        "secret"
+      ]
+    },
+    {
+      "name": "VscGitBranch",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "branch"
+      ]
+    },
+    {
+      "name": "VscGitBranchChanges",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "branch",
+        "changes"
+      ]
+    },
+    {
+      "name": "VscGitBranchCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "branch",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscGitBranchConflicts",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "branch",
+        "conflicts"
+      ]
+    },
+    {
+      "name": "VscGitBranchStagedChanges",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "branch",
+        "staged",
+        "changes"
+      ]
+    },
+    {
+      "name": "VscGitCommit",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "commit"
+      ]
+    },
+    {
+      "name": "VscGitCompare",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "compare"
+      ]
+    },
+    {
+      "name": "VscGitFetch",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "fetch"
+      ]
+    },
+    {
+      "name": "VscGithub",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "github"
+      ]
+    },
+    {
+      "name": "VscGithubAction",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "github",
+        "action"
+      ]
+    },
+    {
+      "name": "VscGithubAlt",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "github",
+        "alt"
+      ]
+    },
+    {
+      "name": "VscGithubInverted",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "github",
+        "inverted"
+      ]
+    },
+    {
+      "name": "VscGithubProject",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "github",
+        "project"
+      ]
+    },
+    {
+      "name": "VscGitMerge",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "merge"
+      ]
+    },
+    {
+      "name": "VscGitPullRequest",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "pull",
+        "request"
+      ]
+    },
+    {
+      "name": "VscGitPullRequestClosed",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "pull",
+        "request",
+        "closed"
+      ]
+    },
+    {
+      "name": "VscGitPullRequestCreate",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "pull",
+        "request",
+        "create"
+      ]
+    },
+    {
+      "name": "VscGitPullRequestDone",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "pull",
+        "request",
+        "done"
+      ]
+    },
+    {
+      "name": "VscGitPullRequestDraft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "pull",
+        "request",
+        "draft"
+      ]
+    },
+    {
+      "name": "VscGitPullRequestGoToChanges",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "pull",
+        "request",
+        "go",
+        "to",
+        "changes"
+      ]
+    },
+    {
+      "name": "VscGitPullRequestNewChanges",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "pull",
+        "request",
+        "new",
+        "changes"
+      ]
+    },
+    {
+      "name": "VscGitStash",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "stash"
+      ]
+    },
+    {
+      "name": "VscGitStashApply",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "stash",
+        "apply"
+      ]
+    },
+    {
+      "name": "VscGitStashPop",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "git",
+        "stash",
+        "pop"
+      ]
+    },
+    {
+      "name": "VscGlobe",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "globe"
+      ]
+    },
+    {
+      "name": "VscGoToEditingSession",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "go",
+        "to",
+        "editing",
+        "session"
+      ]
+    },
+    {
+      "name": "VscGoToFile",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "go",
+        "to",
+        "file"
+      ]
+    },
+    {
+      "name": "VscGoToSearch",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "go",
+        "to",
+        "search"
+      ]
+    },
+    {
+      "name": "VscGrabber",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "grabber"
+      ]
+    },
+    {
+      "name": "VscGraph",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "graph"
+      ]
+    },
+    {
+      "name": "VscGraphLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "graph",
+        "left"
+      ]
+    },
+    {
+      "name": "VscGraphLine",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "graph",
+        "line"
+      ]
+    },
+    {
+      "name": "VscGraphScatter",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "graph",
+        "scatter"
+      ]
+    },
+    {
+      "name": "VscGripper",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "gripper"
+      ]
+    },
+    {
+      "name": "VscGroupByRefType",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "group",
+        "by",
+        "ref",
+        "type"
+      ]
+    },
+    {
+      "name": "VscHeart",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "heart"
+      ]
+    },
+    {
+      "name": "VscHeartFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "heart",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscHistory",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "history"
+      ]
+    },
+    {
+      "name": "VscHome",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "home"
+      ]
+    },
+    {
+      "name": "VscHorizontalRule",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "horizontal",
+        "rule"
+      ]
+    },
+    {
+      "name": "VscHubot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "hubot"
+      ]
+    },
+    {
+      "name": "VscImportant",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "important"
+      ]
+    },
+    {
+      "name": "VscImportantCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "important",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscInbox",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "inbox"
+      ]
+    },
+    {
+      "name": "VscIndent",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "indent"
+      ]
+    },
+    {
+      "name": "VscIndexZero",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "index",
+        "zero"
+      ]
+    },
+    {
+      "name": "VscInfo",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "info"
+      ]
+    },
+    {
+      "name": "VscInsert",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "insert"
+      ]
+    },
+    {
+      "name": "VscInspect",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "inspect"
+      ]
+    },
+    {
+      "name": "VscIssueDraft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "issue",
+        "draft"
+      ]
+    },
+    {
+      "name": "VscIssueReopened",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "issue",
+        "reopened"
+      ]
+    },
+    {
+      "name": "VscIssues",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "issues"
+      ]
+    },
+    {
+      "name": "VscItalic",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "italic"
+      ]
+    },
+    {
+      "name": "VscJersey",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "jersey"
+      ]
+    },
+    {
+      "name": "VscJson",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "json"
+      ]
+    },
+    {
+      "name": "VscKebabVertical",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "kebab",
+        "vertical"
+      ]
+    },
+    {
+      "name": "VscKey",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "key"
+      ]
+    },
+    {
+      "name": "VscKeyboardTab",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "keyboard",
+        "tab"
+      ]
+    },
+    {
+      "name": "VscKeyboardTabAbove",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "keyboard",
+        "tab",
+        "above"
+      ]
+    },
+    {
+      "name": "VscKeyboardTabBelow",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "keyboard",
+        "tab",
+        "below"
+      ]
+    },
+    {
+      "name": "VscLaw",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "law"
+      ]
+    },
+    {
+      "name": "VscLayers",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layers"
+      ]
+    },
+    {
+      "name": "VscLayersActive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layers",
+        "active"
+      ]
+    },
+    {
+      "name": "VscLayersDot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layers",
+        "dot"
+      ]
+    },
+    {
+      "name": "VscLayout",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout"
+      ]
+    },
+    {
+      "name": "VscLayoutActivitybarLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "activitybar",
+        "left"
+      ]
+    },
+    {
+      "name": "VscLayoutActivitybarRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "activitybar",
+        "right"
+      ]
+    },
+    {
+      "name": "VscLayoutCentered",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "centered"
+      ]
+    },
+    {
+      "name": "VscLayoutMenubar",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "menubar"
+      ]
+    },
+    {
+      "name": "VscLayoutPanel",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "panel"
+      ]
+    },
+    {
+      "name": "VscLayoutPanelCenter",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "panel",
+        "center"
+      ]
+    },
+    {
+      "name": "VscLayoutPanelDock",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "panel",
+        "dock"
+      ]
+    },
+    {
+      "name": "VscLayoutPanelJustify",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "panel",
+        "justify"
+      ]
+    },
+    {
+      "name": "VscLayoutPanelLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "panel",
+        "left"
+      ]
+    },
+    {
+      "name": "VscLayoutPanelOff",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "panel",
+        "off"
+      ]
+    },
+    {
+      "name": "VscLayoutPanelRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "panel",
+        "right"
+      ]
+    },
+    {
+      "name": "VscLayoutSidebarLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "sidebar",
+        "left"
+      ]
+    },
+    {
+      "name": "VscLayoutSidebarLeftDock",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "sidebar",
+        "left",
+        "dock"
+      ]
+    },
+    {
+      "name": "VscLayoutSidebarLeftOff",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "sidebar",
+        "left",
+        "off"
+      ]
+    },
+    {
+      "name": "VscLayoutSidebarRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "sidebar",
+        "right"
+      ]
+    },
+    {
+      "name": "VscLayoutSidebarRightDock",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "sidebar",
+        "right",
+        "dock"
+      ]
+    },
+    {
+      "name": "VscLayoutSidebarRightOff",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "sidebar",
+        "right",
+        "off"
+      ]
+    },
+    {
+      "name": "VscLayoutStatusbar",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "layout",
+        "statusbar"
+      ]
+    },
+    {
+      "name": "VscLibrary",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "library"
+      ]
+    },
+    {
+      "name": "VscLibraryCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "library",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscLightbulb",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "lightbulb"
+      ]
+    },
+    {
+      "name": "VscLightbulbAutofix",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "lightbulb",
+        "autofix"
+      ]
+    },
+    {
+      "name": "VscLightbulbCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "lightbulb",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscLightbulbEmpty",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "lightbulb",
+        "empty"
+      ]
+    },
+    {
+      "name": "VscLightbulbSparkle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "lightbulb",
+        "sparkle"
+      ]
+    },
+    {
+      "name": "VscLink",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "link"
+      ]
+    },
+    {
+      "name": "VscLinkExternal",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "link",
+        "external"
+      ]
+    },
+    {
+      "name": "VscListFilter",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "list",
+        "filter"
+      ]
+    },
+    {
+      "name": "VscListFlat",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "list",
+        "flat"
+      ]
+    },
+    {
+      "name": "VscListOrdered",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "list",
+        "ordered"
+      ]
+    },
+    {
+      "name": "VscListSelection",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "list",
+        "selection"
+      ]
+    },
+    {
+      "name": "VscListTree",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "list",
+        "tree"
+      ]
+    },
+    {
+      "name": "VscListUnordered",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "list",
+        "unordered"
+      ]
+    },
+    {
+      "name": "VscLiveShare",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "live",
+        "share"
+      ]
+    },
+    {
+      "name": "VscLoading",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "loading"
+      ]
+    },
+    {
+      "name": "VscLoadingCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "loading",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscLocation",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "location"
+      ]
+    },
+    {
+      "name": "VscLock",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "lock"
+      ]
+    },
+    {
+      "name": "VscLockSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "lock",
+        "small"
+      ]
+    },
+    {
+      "name": "VscMagnet",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "magnet"
+      ]
+    },
+    {
+      "name": "VscMail",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mail"
+      ]
+    },
+    {
+      "name": "VscMailRead",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mail",
+        "read"
+      ]
+    },
+    {
+      "name": "VscMap",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "map"
+      ]
+    },
+    {
+      "name": "VscMapFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "map",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscMapVertical",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "map",
+        "vertical"
+      ]
+    },
+    {
+      "name": "VscMapVerticalFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "map",
+        "vertical",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscMarkdown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "markdown"
+      ]
+    },
+    {
+      "name": "VscMcp",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mcp"
+      ]
+    },
+    {
+      "name": "VscMegaphone",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "megaphone"
+      ]
+    },
+    {
+      "name": "VscMention",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mention"
+      ]
+    },
+    {
+      "name": "VscMenu",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "menu"
+      ]
+    },
+    {
+      "name": "VscMerge",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "merge"
+      ]
+    },
+    {
+      "name": "VscMergeInto",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "merge",
+        "into"
+      ]
+    },
+    {
+      "name": "VscMic",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mic"
+      ]
+    },
+    {
+      "name": "VscMicFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mic",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscMilestone",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "milestone"
+      ]
+    },
+    {
+      "name": "VscMirror",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mirror"
+      ]
+    },
+    {
+      "name": "VscMortarBoard",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mortar",
+        "board"
+      ]
+    },
+    {
+      "name": "VscMove",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "move"
+      ]
+    },
+    {
+      "name": "VscMultipleWindows",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "multiple",
+        "windows"
+      ]
+    },
+    {
+      "name": "VscMusic",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "music"
+      ]
+    },
+    {
+      "name": "VscMute",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "mute"
+      ]
+    },
+    {
+      "name": "VscNewCollection",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "new",
+        "collection"
+      ]
+    },
+    {
+      "name": "VscNewFile",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "new",
+        "file"
+      ]
+    },
+    {
+      "name": "VscNewFolder",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "new",
+        "folder"
+      ]
+    },
+    {
+      "name": "VscNewline",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "newline"
+      ]
+    },
+    {
+      "name": "VscNewSession",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "new",
+        "session"
+      ]
+    },
+    {
+      "name": "VscNoNewline",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "no",
+        "newline"
+      ]
+    },
+    {
+      "name": "VscNote",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "note"
+      ]
+    },
+    {
+      "name": "VscNotebook",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "notebook"
+      ]
+    },
+    {
+      "name": "VscNotebookTemplate",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "notebook",
+        "template"
+      ]
+    },
+    {
+      "name": "VscOctoface",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "octoface"
+      ]
+    },
+    {
+      "name": "VscOpenai",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "openai"
+      ]
+    },
+    {
+      "name": "VscOpenInProduct",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "open",
+        "in",
+        "product"
+      ]
+    },
+    {
+      "name": "VscOpenInWindow",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "open",
+        "in",
+        "window"
+      ]
+    },
+    {
+      "name": "VscOpenPreview",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "open",
+        "preview"
+      ]
+    },
+    {
+      "name": "VscOrganization",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "organization"
+      ]
+    },
+    {
+      "name": "VscOutput",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "output"
+      ]
+    },
+    {
+      "name": "VscPackage",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "package"
+      ]
+    },
+    {
+      "name": "VscPaintcan",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "paintcan"
+      ]
+    },
+    {
+      "name": "VscPass",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pass"
+      ]
+    },
+    {
+      "name": "VscPassCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pass",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscPassFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pass",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscPassFilledCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pass",
+        "filled",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscPercentage",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "percentage"
+      ]
+    },
+    {
+      "name": "VscPerson",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "person"
+      ]
+    },
+    {
+      "name": "VscPersonAdd",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "person",
+        "add"
+      ]
+    },
+    {
+      "name": "VscPiano",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "piano"
+      ]
+    },
+    {
+      "name": "VscPieChart",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pie",
+        "chart"
+      ]
+    },
+    {
+      "name": "VscPin",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pin"
+      ]
+    },
+    {
+      "name": "VscPinned",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pinned"
+      ]
+    },
+    {
+      "name": "VscPinnedDirty",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pinned",
+        "dirty"
+      ]
+    },
+    {
+      "name": "VscPlay",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "play"
+      ]
+    },
+    {
+      "name": "VscPlayCircle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "play",
+        "circle"
+      ]
+    },
+    {
+      "name": "VscPlug",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "plug"
+      ]
+    },
+    {
+      "name": "VscPreserveCase",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "preserve",
+        "case"
+      ]
+    },
+    {
+      "name": "VscPreview",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "preview"
+      ]
+    },
+    {
+      "name": "VscPrimitiveSquare",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "primitive",
+        "square"
+      ]
+    },
+    {
+      "name": "VscProject",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "project"
+      ]
+    },
+    {
+      "name": "VscProjectCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "project",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscPulse",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "pulse"
+      ]
+    },
+    {
+      "name": "VscPython",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "python"
+      ]
+    },
+    {
+      "name": "VscQuestion",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "question"
+      ]
+    },
+    {
+      "name": "VscQuote",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "quote"
+      ]
+    },
+    {
+      "name": "VscQuotes",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "quotes"
+      ]
+    },
+    {
+      "name": "VscRadioTower",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "radio",
+        "tower"
+      ]
+    },
+    {
+      "name": "VscReactions",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "reactions"
+      ]
+    },
+    {
+      "name": "VscRecord",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "record"
+      ]
+    },
+    {
+      "name": "VscRecordKeys",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "record",
+        "keys"
+      ]
+    },
+    {
+      "name": "VscRecordKeysCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "record",
+        "keys",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscRecordSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "record",
+        "small"
+      ]
+    },
+    {
+      "name": "VscRedo",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "redo"
+      ]
+    },
+    {
+      "name": "VscReferences",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "references"
+      ]
+    },
+    {
+      "name": "VscRefresh",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "refresh"
+      ]
+    },
+    {
+      "name": "VscRefreshCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "refresh",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscRegex",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "regex"
+      ]
+    },
+    {
+      "name": "VscRemote",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "remote"
+      ]
+    },
+    {
+      "name": "VscRemoteCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "remote",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscRemoteExplorer",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "remote",
+        "explorer"
+      ]
+    },
+    {
+      "name": "VscRemove",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "remove"
+      ]
+    },
+    {
+      "name": "VscRemoveSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "remove",
+        "small"
+      ]
+    },
+    {
+      "name": "VscRename",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "rename"
+      ]
+    },
+    {
+      "name": "VscReplace",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "replace"
+      ]
+    },
+    {
+      "name": "VscReplaceAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "replace",
+        "all"
+      ]
+    },
+    {
+      "name": "VscReply",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "reply"
+      ]
+    },
+    {
+      "name": "VscRepo",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo"
+      ]
+    },
+    {
+      "name": "VscRepoClone",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "clone"
+      ]
+    },
+    {
+      "name": "VscRepoCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscRepoFetch",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "fetch"
+      ]
+    },
+    {
+      "name": "VscRepoForcePush",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "force",
+        "push"
+      ]
+    },
+    {
+      "name": "VscRepoForked",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "forked"
+      ]
+    },
+    {
+      "name": "VscRepoForkedCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "forked",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscRepoPinned",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "pinned"
+      ]
+    },
+    {
+      "name": "VscRepoPull",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "pull"
+      ]
+    },
+    {
+      "name": "VscRepoPush",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "push"
+      ]
+    },
+    {
+      "name": "VscReport",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "report"
+      ]
+    },
+    {
+      "name": "VscRepoSelected",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "repo",
+        "selected"
+      ]
+    },
+    {
+      "name": "VscRequestChanges",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "request",
+        "changes"
+      ]
+    },
+    {
+      "name": "VscRobot",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "robot"
+      ]
+    },
+    {
+      "name": "VscRocket",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "rocket"
+      ]
+    },
+    {
+      "name": "VscRocketCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "rocket",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscRootFolder",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "root",
+        "folder"
+      ]
+    },
+    {
+      "name": "VscRootFolderOpened",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "root",
+        "folder",
+        "opened"
+      ]
+    },
+    {
+      "name": "VscRss",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "rss"
+      ]
+    },
+    {
+      "name": "VscRuby",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "ruby"
+      ]
+    },
+    {
+      "name": "VscRunAbove",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "above"
+      ]
+    },
+    {
+      "name": "VscRunAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "all"
+      ]
+    },
+    {
+      "name": "VscRunAllCoverage",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "all",
+        "coverage"
+      ]
+    },
+    {
+      "name": "VscRunBelow",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "below"
+      ]
+    },
+    {
+      "name": "VscRunCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscRunCoverage",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "coverage"
+      ]
+    },
+    {
+      "name": "VscRunErrors",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "errors"
+      ]
+    },
+    {
+      "name": "VscRunWithDeps",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "run",
+        "with",
+        "deps"
+      ]
+    },
+    {
+      "name": "VscSave",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "save"
+      ]
+    },
+    {
+      "name": "VscSaveAll",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "save",
+        "all"
+      ]
+    },
+    {
+      "name": "VscSaveAs",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "save",
+        "as"
+      ]
+    },
+    {
+      "name": "VscScreenCut",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "screen",
+        "cut"
+      ]
+    },
+    {
+      "name": "VscScreenFull",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "screen",
+        "full"
+      ]
+    },
+    {
+      "name": "VscScreenNormal",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "screen",
+        "normal"
+      ]
+    },
+    {
+      "name": "VscSearch",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "search"
+      ]
+    },
+    {
+      "name": "VscSearchCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "search",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscSearchFuzzy",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "search",
+        "fuzzy"
+      ]
+    },
+    {
+      "name": "VscSearchLarge",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "search",
+        "large"
+      ]
+    },
+    {
+      "name": "VscSearchSparkle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "search",
+        "sparkle"
+      ]
+    },
+    {
+      "name": "VscSearchStop",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "search",
+        "stop"
+      ]
+    },
+    {
+      "name": "VscSend",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "send"
+      ]
+    },
+    {
+      "name": "VscSendToRemoteAgent",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "send",
+        "to",
+        "remote",
+        "agent"
+      ]
+    },
+    {
+      "name": "VscServer",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "server"
+      ]
+    },
+    {
+      "name": "VscServerEnvironment",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "server",
+        "environment"
+      ]
+    },
+    {
+      "name": "VscServerProcess",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "server",
+        "process"
+      ]
+    },
+    {
+      "name": "VscSessionInProgress",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "session",
+        "in",
+        "progress"
+      ]
+    },
+    {
+      "name": "VscSessionInProgressCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "session",
+        "in",
+        "progress",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscSettings",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "settings"
+      ]
+    },
+    {
+      "name": "VscSettingsCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "settings",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscSettingsGear",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "settings",
+        "gear"
+      ]
+    },
+    {
+      "name": "VscShare",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "share"
+      ]
+    },
+    {
+      "name": "VscShareWindow",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "share",
+        "window"
+      ]
+    },
+    {
+      "name": "VscShield",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "shield"
+      ]
+    },
+    {
+      "name": "VscShieldCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "shield",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscSignIn",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sign",
+        "in"
+      ]
+    },
+    {
+      "name": "VscSignOut",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sign",
+        "out"
+      ]
+    },
+    {
+      "name": "VscSkip",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "skip"
+      ]
+    },
+    {
+      "name": "VscSmiley",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "smiley"
+      ]
+    },
+    {
+      "name": "VscSnake",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "snake"
+      ]
+    },
+    {
+      "name": "VscSortPrecedence",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sort",
+        "precedence"
+      ]
+    },
+    {
+      "name": "VscSourceControl",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "source",
+        "control"
+      ]
+    },
+    {
+      "name": "VscSparkle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sparkle"
+      ]
+    },
+    {
+      "name": "VscSparkleCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sparkle",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscSparkleFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sparkle",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscSplitHorizontal",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "split",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "VscSplitVertical",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "split",
+        "vertical"
+      ]
+    },
+    {
+      "name": "VscSquirrel",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "squirrel"
+      ]
+    },
+    {
+      "name": "VscStarEmpty",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "star",
+        "empty"
+      ]
+    },
+    {
+      "name": "VscStarFull",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "star",
+        "full"
+      ]
+    },
+    {
+      "name": "VscStarHalf",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "star",
+        "half"
+      ]
+    },
+    {
+      "name": "VscStopCircle",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "stop",
+        "circle"
+      ]
+    },
+    {
+      "name": "VscStrikethrough",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "strikethrough"
+      ]
+    },
+    {
+      "name": "VscSurroundWith",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "surround",
+        "with"
+      ]
+    },
+    {
+      "name": "VscSymbolArray",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "array"
+      ]
+    },
+    {
+      "name": "VscSymbolBoolean",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "boolean"
+      ]
+    },
+    {
+      "name": "VscSymbolClass",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "class"
+      ]
+    },
+    {
+      "name": "VscSymbolColor",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "color"
+      ]
+    },
+    {
+      "name": "VscSymbolColorCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "color",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscSymbolConstant",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "constant"
+      ]
+    },
+    {
+      "name": "VscSymbolEnum",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "enum"
+      ]
+    },
+    {
+      "name": "VscSymbolEnumMember",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "enum",
+        "member"
+      ]
+    },
+    {
+      "name": "VscSymbolEvent",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "event"
+      ]
+    },
+    {
+      "name": "VscSymbolField",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "field"
+      ]
+    },
+    {
+      "name": "VscSymbolFile",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "file"
+      ]
+    },
+    {
+      "name": "VscSymbolInterface",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "interface"
+      ]
+    },
+    {
+      "name": "VscSymbolKey",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "key"
+      ]
+    },
+    {
+      "name": "VscSymbolKeyword",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "keyword"
+      ]
+    },
+    {
+      "name": "VscSymbolMethod",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "method"
+      ]
+    },
+    {
+      "name": "VscSymbolMethodArrow",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "method",
+        "arrow"
+      ]
+    },
+    {
+      "name": "VscSymbolMisc",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "misc"
+      ]
+    },
+    {
+      "name": "VscSymbolNamespace",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "namespace"
+      ]
+    },
+    {
+      "name": "VscSymbolNumeric",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "numeric"
+      ]
+    },
+    {
+      "name": "VscSymbolOperator",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "operator"
+      ]
+    },
+    {
+      "name": "VscSymbolParameter",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "parameter"
+      ]
+    },
+    {
+      "name": "VscSymbolProperty",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "property"
+      ]
+    },
+    {
+      "name": "VscSymbolRuler",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "ruler"
+      ]
+    },
+    {
+      "name": "VscSymbolSnippet",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "snippet"
+      ]
+    },
+    {
+      "name": "VscSymbolString",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "string"
+      ]
+    },
+    {
+      "name": "VscSymbolStructure",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "structure"
+      ]
+    },
+    {
+      "name": "VscSymbolVariable",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "symbol",
+        "variable"
+      ]
+    },
+    {
+      "name": "VscSync",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sync"
+      ]
+    },
+    {
+      "name": "VscSyncCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sync",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscSyncIgnored",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "sync",
+        "ignored"
+      ]
+    },
+    {
+      "name": "VscTable",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "table"
+      ]
+    },
+    {
+      "name": "VscTag",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "tag"
+      ]
+    },
+    {
+      "name": "VscTarget",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "target"
+      ]
+    },
+    {
+      "name": "VscTasklist",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "tasklist"
+      ]
+    },
+    {
+      "name": "VscTelescope",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "telescope"
+      ]
+    },
+    {
+      "name": "VscTerminal",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal"
+      ]
+    },
+    {
+      "name": "VscTerminalBash",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "bash"
+      ]
+    },
+    {
+      "name": "VscTerminalCmd",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "cmd"
+      ]
+    },
+    {
+      "name": "VscTerminalCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscTerminalDebian",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "debian"
+      ]
+    },
+    {
+      "name": "VscTerminalGitBash",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "git",
+        "bash"
+      ]
+    },
+    {
+      "name": "VscTerminalLinux",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "linux"
+      ]
+    },
+    {
+      "name": "VscTerminalPowershell",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "powershell"
+      ]
+    },
+    {
+      "name": "VscTerminalSecure",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "secure"
+      ]
+    },
+    {
+      "name": "VscTerminalTmux",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "tmux"
+      ]
+    },
+    {
+      "name": "VscTerminalUbuntu",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "terminal",
+        "ubuntu"
+      ]
+    },
+    {
+      "name": "VscTextSize",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "text",
+        "size"
+      ]
+    },
+    {
+      "name": "VscThinking",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "thinking"
+      ]
+    },
+    {
+      "name": "VscThreeBars",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "three",
+        "bars"
+      ]
+    },
+    {
+      "name": "VscThumbsdown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "thumbsdown"
+      ]
+    },
+    {
+      "name": "VscThumbsdownFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "thumbsdown",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscThumbsup",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "thumbsup"
+      ]
+    },
+    {
+      "name": "VscThumbsupFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "thumbsup",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscTools",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "tools"
+      ]
+    },
+    {
+      "name": "VscTrash",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "trash"
+      ]
+    },
+    {
+      "name": "VscTriangleDown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "triangle",
+        "down"
+      ]
+    },
+    {
+      "name": "VscTriangleLeft",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "triangle",
+        "left"
+      ]
+    },
+    {
+      "name": "VscTriangleRight",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "triangle",
+        "right"
+      ]
+    },
+    {
+      "name": "VscTriangleUp",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "triangle",
+        "up"
+      ]
+    },
+    {
+      "name": "VscTwitter",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "twitter"
+      ]
+    },
+    {
+      "name": "VscTypeHierarchy",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "type",
+        "hierarchy"
+      ]
+    },
+    {
+      "name": "VscTypeHierarchySub",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "type",
+        "hierarchy",
+        "sub"
+      ]
+    },
+    {
+      "name": "VscTypeHierarchySuper",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "type",
+        "hierarchy",
+        "super"
+      ]
+    },
+    {
+      "name": "VscUnarchive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "unarchive"
+      ]
+    },
+    {
+      "name": "VscUnfold",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "unfold"
+      ]
+    },
+    {
+      "name": "VscUngroupByRefType",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "ungroup",
+        "by",
+        "ref",
+        "type"
+      ]
+    },
+    {
+      "name": "VscUnlock",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "unlock"
+      ]
+    },
+    {
+      "name": "VscUnmute",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "unmute"
+      ]
+    },
+    {
+      "name": "VscUnpin",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "unpin"
+      ]
+    },
+    {
+      "name": "VscUnverified",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "unverified"
+      ]
+    },
+    {
+      "name": "VscVariableGroup",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "variable",
+        "group"
+      ]
+    },
+    {
+      "name": "VscVerified",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "verified"
+      ]
+    },
+    {
+      "name": "VscVerifiedFilled",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "verified",
+        "filled"
+      ]
+    },
+    {
+      "name": "VscVersions",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "versions"
+      ]
+    },
+    {
+      "name": "VscVm",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm"
+      ]
+    },
+    {
+      "name": "VscVmActive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm",
+        "active"
+      ]
+    },
+    {
+      "name": "VscVmCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscVmConnect",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm",
+        "connect"
+      ]
+    },
+    {
+      "name": "VscVmOutline",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm",
+        "outline"
+      ]
+    },
+    {
+      "name": "VscVmPending",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm",
+        "pending"
+      ]
+    },
+    {
+      "name": "VscVmRunning",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm",
+        "running"
+      ]
+    },
+    {
+      "name": "VscVmSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vm",
+        "small"
+      ]
+    },
+    {
+      "name": "VscVr",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vr"
+      ]
+    },
+    {
+      "name": "VscVscode",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vscode"
+      ]
+    },
+    {
+      "name": "VscVscodeInsiders",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "vscode",
+        "insiders"
+      ]
+    },
+    {
+      "name": "VscWand",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "wand"
+      ]
+    },
+    {
+      "name": "VscWarning",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "warning"
+      ]
+    },
+    {
+      "name": "VscWarningCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "warning",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscWatch",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "watch"
+      ]
+    },
+    {
+      "name": "VscWhitespace",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "whitespace"
+      ]
+    },
+    {
+      "name": "VscWholeWord",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "whole",
+        "word"
+      ]
+    },
+    {
+      "name": "VscWindow",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "window"
+      ]
+    },
+    {
+      "name": "VscWindowActive",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "window",
+        "active"
+      ]
+    },
+    {
+      "name": "VscWindowCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "window",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscWordWrap",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "word",
+        "wrap"
+      ]
+    },
+    {
+      "name": "VscWorkspaceTrusted",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "workspace",
+        "trusted"
+      ]
+    },
+    {
+      "name": "VscWorkspaceUnknown",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "workspace",
+        "unknown"
+      ]
+    },
+    {
+      "name": "VscWorkspaceUntrusted",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "workspace",
+        "untrusted"
+      ]
+    },
+    {
+      "name": "VscWorktree",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "worktree"
+      ]
+    },
+    {
+      "name": "VscWorktreeCompact",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "worktree",
+        "compact"
+      ]
+    },
+    {
+      "name": "VscWorktreeSmall",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "worktree",
+        "small"
+      ]
+    },
+    {
+      "name": "VscZoomIn",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "VscZoomOut",
+      "set": "vsc",
+      "terms": [
+        "vsc",
+        "zoom",
+        "out"
+      ]
+    },
+    {
       "name": "WiAlien",
       "set": "wi",
       "terms": [

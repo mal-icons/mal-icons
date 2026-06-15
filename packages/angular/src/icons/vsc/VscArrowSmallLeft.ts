@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-arrow-small-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscArrowSmallLeft {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.15 9.85L4.15 7.85C3.95 7.66 3.95 7.34 4.15 7.15L6.15 5.15C6.34 4.95 6.66 4.95 6.85 5.15C7.05 5.34 7.05 5.66 6.85 5.85L5.71 7H10.5C10.78 7 11 7.22 11 7.5C11 7.78 10.78 8 10.5 8H5.71L6.85 9.15C6.95 9.24 7 9.37 7 9.5C7 9.63 6.95 9.76 6.85 9.85C6.66 10.05 6.34 10.05 6.15 9.85Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscArrowSmallLeft;

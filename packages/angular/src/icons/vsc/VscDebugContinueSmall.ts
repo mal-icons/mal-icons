@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-debug-continue-small",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscDebugContinueSmall {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 2.5C3 2.22 2.78 2 2.5 2C2.22 2 2 2.22 2 2.5V13.5C2 13.78 2.22 14 2.5 14C2.78 14 3 13.78 3 13.5V2.5ZM5 3C5 2.19 5.92 1.72 6.58 2.19L13.58 7.15C14.14 7.55 14.14 8.38 13.58 8.78L6.58 13.81C5.92 14.29 5 13.82 5 13V3ZM13 7.96L6 3L6 13L13 7.96Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscDebugContinueSmall;

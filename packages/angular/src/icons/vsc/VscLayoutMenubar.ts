@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-layout-menubar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscLayoutMenubar {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.5 3C4.78 3 5 3.22 5 3.5C5 3.78 4.78 4 4.5 4H3.5C3.22 4 3 3.78 3 3.5C3 3.22 3.22 3 3.5 3H4.5Z"}],["path",{"d":"M7.5 3C7.78 3 8 3.22 8 3.5C8 3.78 7.78 4 7.5 4H6.5C6.22 4 6 3.78 6 3.5C6 3.22 6.22 3 6.5 3H7.5Z"}],["path",{"d":"M10.5 3C10.78 3 11 3.22 11 3.5C11 3.78 10.78 4 10.5 4H9.5C9.22 4 9 3.78 9 3.5C9 3.22 9.22 3 9.5 3H10.5Z"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12.5 1C13.88 1 15 2.12 15 3.5V12.5C15 13.88 13.88 15 12.5 15H3.5C2.12 15 1 13.88 1 12.5V3.5C1 2.12 2.12 1 3.5 1H12.5ZM3.5 2C2.67 2 2 2.67 2 3.5V12.5C2 13.33 2.67 14 3.5 14H12.5C13.33 14 14 13.33 14 12.5V3.5C14 2.67 13.33 2 12.5 2H3.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscLayoutMenubar;

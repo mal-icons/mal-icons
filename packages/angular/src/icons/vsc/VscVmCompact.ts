@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-vm-compact",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscVmCompact {
+  readonly viewBox = "0 0 12 12";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 0H2C0.9 0 0 0.9 0 2V8C0 9.1 0.9 10 2 10H4V11H2.5C2.22 11 2 11.22 2 11.5C2 11.78 2.22 12 2.5 12H9.5C9.78 12 10 11.78 10 11.5C10 11.22 9.78 11 9.5 11H8V10H10C11.1 10 12 9.1 12 8V2C12 0.9 11.1 0 10 0ZM7 11H5V10H7V11ZM11 8C11 8.55 10.55 9 10 9H2C1.45 9 1 8.55 1 8V2C1 1.45 1.45 1 2 1H10C10.55 1 11 1.45 11 2V8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscVmCompact;

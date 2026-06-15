@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-layout-sidebar-left-dock",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscLayoutSidebarLeftDock {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.35 6.15C9.16 5.95 8.84 5.95 8.65 6.15L7.15 7.65L7.14 7.65C6.95 7.84 6.95 8.16 7.14 8.35L8.64 9.85C8.74 9.95 8.87 10 9 10C9.13 10 9.25 9.95 9.35 9.85C9.55 9.66 9.55 9.34 9.35 9.15L8.71 8.5H12.5C12.78 8.5 13 8.28 13 8C13 7.72 12.78 7.5 12.5 7.5H8.71L9.35 6.85C9.55 6.66 9.55 6.34 9.35 6.15Z"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.5 1C2.12 1 1 2.12 1 3.5L1 12.5C1 13.88 2.12 15 3.5 15H12.5C13.88 15 15 13.88 15 12.5L15 3.5C15 2.12 13.88 1 12.5 1L3.5 1ZM12.5 2C13.33 2 14 2.67 14 3.5L14 12.5C14 13.33 13.33 14 12.5 14H6L6 2H12.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscLayoutSidebarLeftDock;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-tag",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscTag {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11 6C10.45 6 10 5.55 10 5C10 4.45 10.45 4 11 4C11.55 4 12 4.45 12 5C12 5.55 11.55 6 11 6ZM2.59 10.14C1.8 9.36 1.8 8.09 2.59 7.31L7.33 2.6C7.7 2.23 8.21 2.02 8.74 2.01L11.99 2C13.1 2 14.01 2.9 14 4.01L13.98 7.37C13.97 7.9 13.76 8.4 13.39 8.77L8.72 13.42C7.94 14.19 6.67 14.19 5.88 13.42L2.59 10.14ZM3.3 8.02C2.9 8.41 2.9 9.04 3.3 9.43L6.59 12.71C6.98 13.1 7.62 13.1 8.01 12.71L12.68 8.06C12.87 7.88 12.97 7.63 12.97 7.37L13 4C13 3.45 12.55 3 11.99 3L8.74 3.01C8.48 3.01 8.22 3.12 8.04 3.3L3.3 8.02Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscTag;

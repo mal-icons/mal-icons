@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-git-pull-request-closed",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscGitPullRequestClosed {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13 10.05V7.5C13 7.22 12.78 7 12.5 7C12.22 7 12 7.22 12 7.5V10.05C10.86 10.28 10 11.29 10 12.5C10 13.88 11.12 15 12.5 15C13.88 15 15 13.88 15 12.5C15 11.29 14.14 10.28 13 10.05ZM12.5 14C11.67 14 11 13.33 11 12.5C11 11.67 11.67 11 12.5 11C13.33 11 14 11.67 14 12.5C14 13.33 13.33 14 12.5 14ZM6 3.5C6 2.12 4.88 1 3.5 1C2.12 1 1 2.12 1 3.5C1 4.71 1.86 5.72 3 5.95V10.05C1.86 10.28 1 11.29 1 12.5C1 13.88 2.12 15 3.5 15C4.88 15 6 13.88 6 12.5C6 11.29 5.14 10.28 4 10.05V5.95C5.14 5.72 6 4.71 6 3.5ZM5 12.5C5 13.33 4.33 14 3.5 14C2.67 14 2 13.33 2 12.5C2 11.67 2.67 11 3.5 11C4.33 11 5 11.67 5 12.5ZM3.5 5C2.67 5 2 4.33 2 3.5C2 2.67 2.67 2 3.5 2C4.33 2 5 2.67 5 3.5C5 4.33 4.33 5 3.5 5ZM10.65 4.65L11.79 3.5L10.65 2.35C10.45 2.16 10.45 1.84 10.65 1.65C10.84 1.45 11.16 1.45 11.35 1.65L12.5 2.79L13.65 1.65C13.84 1.45 14.16 1.45 14.35 1.65C14.55 1.84 14.55 2.16 14.35 2.35L13.21 3.5L14.35 4.65C14.55 4.84 14.55 5.16 14.35 5.35C14.25 5.45 14.13 5.5 14 5.5C13.87 5.5 13.74 5.45 13.64 5.35L12.5 4.21L11.35 5.35C11.25 5.45 11.13 5.5 11 5.5C10.87 5.5 10.74 5.45 10.64 5.35C10.45 5.16 10.45 4.84 10.64 4.65H10.65Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscGitPullRequestClosed;

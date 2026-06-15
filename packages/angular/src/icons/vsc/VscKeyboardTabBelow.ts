@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-keyboard-tab-below",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscKeyboardTabBelow {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.5 13C1.78 13 2 12.78 2 12.5V9.5C2 8.67 2.67 8 3.5 8H11.29L8.65 10.65C8.45 10.84 8.45 11.16 8.65 11.35C8.84 11.55 9.16 11.55 9.36 11.35L12.86 7.85C13.05 7.66 13.05 7.34 12.86 7.15L9.36 3.65C9.26 3.55 9.13 3.5 9 3.5C8.87 3.5 8.74 3.55 8.65 3.65C8.45 3.84 8.45 4.16 8.65 4.35L11.29 7H3.5C2.12 7 1 8.12 1 9.5V12.5C1 12.78 1.22 13 1.5 13L1.5 13Z"}],["path",{"d":"M14 3V12L14.01 12.09C14.03 12.21 14.1 12.32 14.2 12.4C14.3 12.48 14.42 12.51 14.55 12.5C14.67 12.49 14.79 12.43 14.87 12.34C14.95 12.25 15 12.13 15 12V3L14.99 2.91C14.97 2.79 14.9 2.68 14.8 2.6C14.7 2.53 14.58 2.49 14.45 2.5C14.33 2.51 14.21 2.57 14.13 2.66C14.05 2.76 14 2.88 14 3Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscKeyboardTabBelow;

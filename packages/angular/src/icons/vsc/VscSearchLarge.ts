@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-search-large",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscSearchLarge {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.28 21.22L16.09 15.03C17.28 13.59 18 11.75 18 9.75C18 5.2 14.3 1.5 9.75 1.5C5.2 1.5 1.5 5.2 1.5 9.75C1.5 14.3 5.2 18 9.75 18C11.76 18 13.59 17.28 15.03 16.09L21.22 22.28C21.37 22.43 21.56 22.5 21.75 22.5C21.94 22.5 22.14 22.43 22.28 22.28C22.58 21.99 22.58 21.51 22.28 21.22L22.28 21.22ZM9.75 16.5C6.03 16.5 3 13.47 3 9.75C3 6.03 6.03 3 9.75 3C13.47 3 16.5 6.03 16.5 9.75C16.5 13.47 13.47 16.5 9.75 16.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscSearchLarge;

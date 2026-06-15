@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-flag",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscFlag {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 9V3H12.03L10.09 5.71C9.97 5.88 9.97 6.12 10.09 6.29L12.03 9H4ZM4 10H13C13.41 10 13.64 9.54 13.41 9.21L11.11 6L13.41 2.79C13.64 2.46 13.41 2 13 2H3.5C3.22 2 3 2.22 3 2.5V13.5C3 13.78 3.22 14 3.5 14C3.78 14 4 13.78 4 13.5V10Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscFlag;

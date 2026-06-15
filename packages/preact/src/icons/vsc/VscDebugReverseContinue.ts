@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const VscDebugReverseContinue = createIcon("0 0 16 16", [["path",{"d":"M9 2C8.8 2 8.6 2.06 8.42 2.19L1.42 7.15C0.86 7.55 0.86 8.38 1.42 8.78L8.42 13.81C8.6 13.95 8.8 14 9 14C9.52 14 10 13.59 10 13V3C10 2.41 9.52 2 9 2H9ZM8.5 12.03L2.86 7.97L8.5 3.97V12.03ZM14 2.75V13.25C14 13.66 13.66 14 13.25 14C12.84 14 12.5 13.66 12.5 13.25V2.75C12.5 2.34 12.84 2 13.25 2C13.66 2 14 2.34 14 2.75Z"}]]);
+
+export default VscDebugReverseContinue;

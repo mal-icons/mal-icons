@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-unpin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscUnpin {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.56 10.27L14.15 14.85C14.34 15.05 14.66 15.05 14.85 14.85C15.05 14.66 15.05 14.34 14.85 14.15L1.85 1.15C1.66 0.95 1.34 0.95 1.15 1.15C0.95 1.34 0.95 1.66 1.15 1.85L5.73 6.44L5.65 6.59L2.84 7.53C2.68 7.58 2.55 7.72 2.51 7.89C2.47 8.05 2.52 8.23 2.65 8.35L4.79 10.5L2.15 13.15L2 14L2.85 13.85L5.5 11.21L7.65 13.35C7.77 13.48 7.95 13.53 8.11 13.49C8.28 13.45 8.42 13.32 8.47 13.16L9.41 10.35L9.56 10.27ZM8.82 9.53L8.76 9.56C8.65 9.62 8.57 9.72 8.53 9.84L7.78 12.07L3.93 8.22L6.16 7.47C6.28 7.43 6.38 7.35 6.44 7.24L6.47 7.18L8.82 9.53ZM12.72 7.44L10.66 8.54L11.4 9.28L13.19 8.32C14.08 7.85 14.25 6.66 13.54 5.94L10.06 2.45C9.35 1.73 8.15 1.91 7.67 2.8L6.72 4.59L7.45 5.33L8.56 3.27C8.71 2.97 9.11 2.91 9.35 3.15L12.84 6.65C13.07 6.89 13.01 7.28 12.72 7.44Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscUnpin;

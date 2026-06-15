@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-graph-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscGraphLeft {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.25 5H4.75C4.34 5 4 5.34 4 5.75V14.25C4 14.66 4.34 15 4.75 15H6.25C6.66 15 7 14.66 7 14.25V5.75C7 5.34 6.66 5 6.25 5ZM6 14H5V6H6V14Z"}],["path",{"d":"M10.25 5H8.75C8.34 5 8 5.34 8 5.75V12.25C8 12.66 8.34 13 8.75 13H10.25C10.66 13 11 12.66 11 12.25V5.75C11 5.34 10.66 5 10.25 5ZM10 12H9V6H10V12Z"}],["path",{"d":"M14.25 5H12.75C12.34 5 12 5.34 12 5.75V10.25C12 10.66 12.34 11 12.75 11H14.25C14.66 11 15 10.66 15 10.25V5.75C15 5.34 14.66 5 14.25 5ZM14 10H13V6H14V10Z"}],["path",{"d":"M2.71 3H14.5C14.78 3 15 2.78 15 2.5C15 2.22 14.78 2 14.5 2H2.71L3.35 1.35C3.55 1.16 3.55 0.84 3.35 0.65C3.16 0.45 2.84 0.45 2.65 0.65L1.15 2.15C0.95 2.34 0.95 2.66 1.15 2.85L2.65 4.35C2.74 4.45 2.87 4.5 3 4.5C3.13 4.5 3.26 4.45 3.35 4.35C3.55 4.16 3.55 3.84 3.35 3.65L2.71 3Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscGraphLeft;

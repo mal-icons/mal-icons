@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-music",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscMusic {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 5.21V10.27C11.71 10.1 11.36 10 11 10C9.9 10 9 10.9 9 12C9 13.1 9.9 14 11 14C12.1 14 13 13.1 13 12V1.93C13 1.37 12.45 0.99 11.93 1.17L5.53 3.46C5.21 3.57 5 3.87 5 4.21V11.27C4.71 11.1 4.36 11 4 11C2.9 11 2 11.9 2 13C2 14.1 2.9 15 4 15C5.1 15 6 14.1 6 13V7.35L12 5.21ZM12 4.15L6 6.29V4.35L12 2.21V4.15ZM11 11C11.55 11 12 11.45 12 12C12 12.55 11.55 13 11 13C10.45 13 10 12.55 10 12C10 11.45 10.45 11 11 11ZM4 12C4.55 12 5 12.45 5 13C5 13.55 4.55 14 4 14C3.45 14 3 13.55 3 13C3 12.45 3.45 12 4 12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscMusic;

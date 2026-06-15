@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-terminal-compact",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscTerminalCompact {
+  readonly viewBox = "0 0 12 12";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.15 3.13C2.35 2.93 2.66 2.93 2.86 3.13L5.36 5.63C5.56 5.83 5.56 6.14 5.36 6.34L2.86 8.84C2.76 8.94 2.63 8.99 2.51 8.99L2.5 9C2.37 9 2.24 8.95 2.15 8.85C1.95 8.65 1.95 8.34 2.15 8.14L4.3 5.99L2.15 3.84C1.95 3.64 1.95 3.33 2.15 3.13Z"}],["path",{"d":"M9.5 8C9.78 8 10 8.22 10 8.5C10 8.78 9.78 9 9.5 9H5.5C5.22 9 5 8.78 5 8.5C5 8.22 5.22 8 5.5 8H9.5Z"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9.5 0C10.88 0 12 1.12 12 2.5V9.5C12 10.88 10.88 12 9.5 12H2.5C1.12 12 0 10.88 0 9.5V2.5C0 1.12 1.12 0 2.5 0H9.5ZM2.5 1C1.67 1 1 1.67 1 2.5V9.5C1 10.33 1.67 11 2.5 11H9.5C10.33 11 11 10.33 11 9.5V2.5C11 1.67 10.33 1 9.5 1H2.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscTerminalCompact;

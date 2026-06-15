@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-unfold",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscUnfold {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.85 10.15C12.05 10.34 12.05 10.66 11.85 10.85L8.35 14.35C8.16 14.55 7.84 14.55 7.65 14.35L4.15 10.85C3.95 10.66 3.95 10.34 4.15 10.15C4.34 9.95 4.66 9.95 4.85 10.15L8 13.29L11.15 10.15C11.34 9.95 11.66 9.95 11.85 10.15H11.85ZM4.85 5.85L8 2.71L11.15 5.85C11.34 6.05 11.66 6.05 11.85 5.85C12.05 5.66 12.05 5.34 11.85 5.15L8.35 1.65C8.16 1.45 7.84 1.45 7.65 1.65L4.15 5.15C3.95 5.34 3.95 5.66 4.15 5.85C4.34 6.05 4.66 6.05 4.85 5.85Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscUnfold;

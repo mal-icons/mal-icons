@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-repo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscRepo {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.5 12C12.78 12 13 11.78 13 11.5V3C13 1.9 12.11 1 11 1H5C3.9 1 3 1.9 3 3V13C3 14.11 3.9 15 5 15V15.5C5 15.7 5.12 15.89 5.31 15.96C5.5 16.04 5.71 16 5.85 15.85L6.5 15.21L7.15 15.85C7.24 15.95 7.37 16 7.5 16C7.56 16 7.63 15.99 7.69 15.96C7.88 15.89 8 15.7 8 15.5V15H12.5C12.78 15 13 14.78 13 14.5C13 14.22 12.78 14 12.5 14H8V13.5C8 13.22 7.78 13 7.5 13H5.5C5.22 13 5 13.22 5 13.5V14C4.45 14 4 13.55 4 13V12H12.5ZM4 3C4 2.45 4.45 2 5 2H11C11.55 2 12 2.45 12 3V11H4V3Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscRepo;

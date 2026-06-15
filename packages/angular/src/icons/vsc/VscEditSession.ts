@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-edit-session",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscEditSession {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.62 4.66C14.82 4.86 14.82 5.18 14.62 5.37C14.34 5.66 14 5.88 13.62 6.03C13.25 6.18 12.85 6.26 12.45 6.25C12.04 6.24 11.65 6.15 11.28 5.99C11.18 5.95 11.09 5.9 11 5.85V6C11 6.28 10.78 6.5 10.5 6.5C10.22 6.5 10 6.28 10 6V4.5C10 4.22 10.22 4 10.5 4H12C12.28 4 12.5 4.22 12.5 4.5C12.5 4.78 12.28 5 12 5H11.53C11.58 5.03 11.63 5.05 11.69 5.08C11.93 5.19 12.2 5.24 12.47 5.25C12.73 5.25 13 5.2 13.25 5.1C13.5 5 13.72 4.85 13.91 4.66C14.11 4.47 14.43 4.47 14.62 4.66ZM14.5 0.5C14.22 0.5 14 0.72 14 1V1.15C13.91 1.1 13.82 1.05 13.72 1.01C13.35 0.85 12.96 0.76 12.55 0.75C12.15 0.74 11.75 0.82 11.38 0.97C11 1.12 10.66 1.34 10.38 1.63C10.18 1.82 10.18 2.14 10.38 2.34C10.57 2.53 10.89 2.53 11.09 2.34C11.28 2.15 11.5 2 11.75 1.9C12 1.8 12.27 1.75 12.53 1.75C12.8 1.76 13.07 1.81 13.31 1.92C13.37 1.95 13.42 1.97 13.47 2H13C12.72 2 12.5 2.22 12.5 2.5C12.5 2.78 12.72 3 13 3H14.5C14.78 3 15 2.78 15 2.5V1C15 0.72 14.78 0.5 14.5 0.5ZM5 11.5C5 11.78 5.22 12 5.5 12H9.5C9.78 12 10 11.78 10 11.5C10 11.22 9.78 11 9.5 11H5.5C5.22 11 5 11.22 5 11.5ZM9 6H8V4.5C8 4.22 7.78 4 7.5 4C7.22 4 7 4.22 7 4.5V6H5.5C5.22 6 5 6.22 5 6.5C5 6.78 5.22 7 5.5 7H7V8.5C7 8.78 7.22 9 7.5 9C7.78 9 8 8.78 8 8.5V7H9.39C9.15 6.73 9 6.38 9 6ZM12 7.19V13C12 13.55 11.55 14 11 14H4C3.45 14 3 13.55 3 13V3C3 2.45 3.45 2 4 2H8.59C8.72 2 8.85 2.05 8.94 2.15L9.25 2.46V1.17C9.04 1.07 8.82 1 8.59 1H4C2.9 1 2 1.9 2 3V13C2 14.1 2.9 15 4 15H11C12.1 15 13 14.1 13 13V7.2C12.84 7.22 12.67 7.25 12.5 7.25C12.32 7.25 12.17 7.21 12 7.19Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscEditSession;

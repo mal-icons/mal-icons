@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-vsc-claude",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class VscClaude {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.96 15.2L7.18 14.21L7.44 12.93L7.65 11.9L7.84 10.64L7.95 10.22L7.94 10.19L7.86 10.21L6.9 11.52L5.44 13.49L4.29 14.7L4.02 14.82L3.54 14.58L3.58 14.13L3.86 13.74L5.44 11.71L6.4 10.45L7.02 9.73L7.01 9.63H6.98L2.75 12.38L2 12.48L1.66 12.18L1.71 11.68L1.87 11.52L3.14 10.64L6.29 8.88L6.34 8.72L6.29 8.64H6.13L5.6 8.61L3.81 8.56L2.26 8.5L0.74 8.42L0.35 8.34L0 7.86L0.03 7.62L0.35 7.41L0.82 7.44L1.82 7.52L3.34 7.62L4.45 7.68L6.08 7.86H6.34L6.37 7.74L6.29 7.68L6.22 7.62L4.64 6.56L2.94 5.44L2.05 4.78L1.57 4.45L1.33 4.14L1.23 3.47L1.66 2.99L2.26 3.04L2.4 3.07L2.99 3.54L4.26 4.51L5.92 5.74L6.16 5.94L6.27 5.87V5.82L6.16 5.65L5.26 4.02L4.3 2.35L3.87 1.66L3.76 1.25C3.72 1.1 3.7 0.94 3.7 0.77L4.19 0.1L4.46 0L5.14 0.1L5.41 0.34L5.82 1.28L6.48 2.77L7.52 4.78L7.82 5.39L7.98 5.94L8.05 6.11H8.16V6.02L8.24 4.86L8.4 3.47L8.56 1.68L8.61 1.17L8.86 0.56L9.36 0.24L9.74 0.42L10.06 0.88L10.02 1.17L9.84 2.4L9.46 4.34L9.22 5.65H9.36L9.52 5.47L10.18 4.61L11.28 3.23L11.76 2.69L12.34 2.08L12.7 1.79H13.39L13.89 2.54L13.66 3.33L12.96 4.22L12.37 4.98L11.52 6.11L11.01 7.02L11.06 7.09H11.17L13.07 6.67L14.11 6.5L15.33 6.29L15.89 6.54L15.95 6.8L15.73 7.34L14.42 7.66L12.88 7.97L10.59 8.51L10.56 8.53L10.59 8.58L11.62 8.67L12.06 8.7H13.15L15.17 8.85L15.7 9.2L16 9.62L15.95 9.95L15.14 10.35L14.05 10.1L11.49 9.49L10.62 9.28H10.5V9.34L11.23 10.06L12.56 11.26L14.24 12.82L14.32 13.2L14.11 13.52L13.89 13.49L12.42 12.37L11.84 11.87L10.56 10.8H10.48V10.91L10.77 11.34L12.34 13.7L12.42 14.42L12.3 14.64L11.89 14.78L11.46 14.7L10.53 13.42L9.58 11.97L8.82 10.67L8.74 10.74L8.27 15.57L8.06 15.81L7.58 16L7.18 15.7L6.96 15.2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default VscClaude;

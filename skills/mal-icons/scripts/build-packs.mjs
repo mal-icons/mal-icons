@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  vsc: {
+    id: "vsc",
+    name: "Codicons",
+    prefix: "Vsc",
+    version: "0.0.46",
+    license: "CC-BY-4.0",
+    repo: "microsoft/vscode-codicons",
+    style: "fill",
+    viewBox: "0 0 16 16",
+    blurb:
+      "VS Code's product icon set, 16×16 (`VscAccount`, `VscGitMerge`, `VscBug`). Single-color fill; theme via `color`.",
+  },
   cg: {
     id: "cg",
     name: "css.gg",
