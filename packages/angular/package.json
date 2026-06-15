@@ -137,6 +137,14 @@
       "bun": "./src/icons/oc/*.ts",
       "import": "./src/icons/oc/*.ts"
     },
+    "./sl": {
+      "bun": "./src/icons/sl/index.ts",
+      "import": "./src/icons/sl/index.ts"
+    },
+    "./sl/*": {
+      "bun": "./src/icons/sl/*.ts",
+      "import": "./src/icons/sl/*.ts"
+    },
     "./ti": {
       "bun": "./src/icons/ti/index.ts",
       "import": "./src/icons/ti/index.ts"

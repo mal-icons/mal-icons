@@ -88205,6 +88205,1602 @@
       ]
     },
     {
+      "name": "SlActionRedo",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "action",
+        "redo"
+      ]
+    },
+    {
+      "name": "SlActionUndo",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "action",
+        "undo"
+      ]
+    },
+    {
+      "name": "SlAnchor",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "anchor"
+      ]
+    },
+    {
+      "name": "SlArrowDown",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "SlArrowDownCircle",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "down",
+        "circle"
+      ]
+    },
+    {
+      "name": "SlArrowLeft",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "SlArrowLeftCircle",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "left",
+        "circle"
+      ]
+    },
+    {
+      "name": "SlArrowRight",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "SlArrowRightCircle",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "right",
+        "circle"
+      ]
+    },
+    {
+      "name": "SlArrowUp",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "SlArrowUpCircle",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "arrow",
+        "up",
+        "circle"
+      ]
+    },
+    {
+      "name": "SlBadge",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "badge"
+      ]
+    },
+    {
+      "name": "SlBag",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "bag"
+      ]
+    },
+    {
+      "name": "SlBan",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "ban"
+      ]
+    },
+    {
+      "name": "SlBasket",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "basket"
+      ]
+    },
+    {
+      "name": "SlBasketLoaded",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "basket",
+        "loaded"
+      ]
+    },
+    {
+      "name": "SlBell",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "bell"
+      ]
+    },
+    {
+      "name": "SlBookOpen",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "book",
+        "open"
+      ]
+    },
+    {
+      "name": "SlBriefcase",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "SlBubble",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "bubble"
+      ]
+    },
+    {
+      "name": "SlBubbles",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "bubbles"
+      ]
+    },
+    {
+      "name": "SlBulb",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "bulb"
+      ]
+    },
+    {
+      "name": "SlCalculator",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "calculator"
+      ]
+    },
+    {
+      "name": "SlCalender",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "calender"
+      ]
+    },
+    {
+      "name": "SlCallEnd",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "call",
+        "end"
+      ]
+    },
+    {
+      "name": "SlCallIn",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "call",
+        "in"
+      ]
+    },
+    {
+      "name": "SlCallOut",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "call",
+        "out"
+      ]
+    },
+    {
+      "name": "SlCamera",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "camera"
+      ]
+    },
+    {
+      "name": "SlCamrecorder",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "camrecorder"
+      ]
+    },
+    {
+      "name": "SlChart",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "chart"
+      ]
+    },
+    {
+      "name": "SlCheck",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "check"
+      ]
+    },
+    {
+      "name": "SlChemistry",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "chemistry"
+      ]
+    },
+    {
+      "name": "SlClock",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "clock"
+      ]
+    },
+    {
+      "name": "SlClose",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "close"
+      ]
+    },
+    {
+      "name": "SlCloudDownload",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "cloud",
+        "download"
+      ]
+    },
+    {
+      "name": "SlCloudUpload",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "cloud",
+        "upload"
+      ]
+    },
+    {
+      "name": "SlCompass",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "compass"
+      ]
+    },
+    {
+      "name": "SlControlEnd",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "control",
+        "end"
+      ]
+    },
+    {
+      "name": "SlControlForward",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "control",
+        "forward"
+      ]
+    },
+    {
+      "name": "SlControlPause",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "control",
+        "pause"
+      ]
+    },
+    {
+      "name": "SlControlPlay",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "control",
+        "play"
+      ]
+    },
+    {
+      "name": "SlControlRewind",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "control",
+        "rewind"
+      ]
+    },
+    {
+      "name": "SlControlStart",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "control",
+        "start"
+      ]
+    },
+    {
+      "name": "SlCreditCard",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "SlCrop",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "crop"
+      ]
+    },
+    {
+      "name": "SlCup",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "cup"
+      ]
+    },
+    {
+      "name": "SlCursor",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "cursor"
+      ]
+    },
+    {
+      "name": "SlCursorMove",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "cursor",
+        "move"
+      ]
+    },
+    {
+      "name": "SlDiamond",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "diamond"
+      ]
+    },
+    {
+      "name": "SlDirection",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "direction"
+      ]
+    },
+    {
+      "name": "SlDirections",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "directions"
+      ]
+    },
+    {
+      "name": "SlDisc",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "disc"
+      ]
+    },
+    {
+      "name": "SlDislike",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "dislike"
+      ]
+    },
+    {
+      "name": "SlDoc",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "doc"
+      ]
+    },
+    {
+      "name": "SlDocs",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "docs"
+      ]
+    },
+    {
+      "name": "SlDrawer",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "drawer"
+      ]
+    },
+    {
+      "name": "SlDrop",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "drop"
+      ]
+    },
+    {
+      "name": "SlEarphones",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "earphones"
+      ]
+    },
+    {
+      "name": "SlEarphonesAlt",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "earphones",
+        "alt"
+      ]
+    },
+    {
+      "name": "SlEmotsmile",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "emotsmile"
+      ]
+    },
+    {
+      "name": "SlEnergy",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "energy"
+      ]
+    },
+    {
+      "name": "SlEnvelopeOpen",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "envelope",
+        "open"
+      ]
+    },
+    {
+      "name": "SlEnvolope",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "envolope"
+      ]
+    },
+    {
+      "name": "SlEnvolopeLetter",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "envolope",
+        "letter"
+      ]
+    },
+    {
+      "name": "SlEqualizer",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "equalizer"
+      ]
+    },
+    {
+      "name": "SlEvent",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "event"
+      ]
+    },
+    {
+      "name": "SlExclamation",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "exclamation"
+      ]
+    },
+    {
+      "name": "SlEye",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "eye"
+      ]
+    },
+    {
+      "name": "SlEyeglass",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "eyeglass"
+      ]
+    },
+    {
+      "name": "SlFeed",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "feed"
+      ]
+    },
+    {
+      "name": "SlFilm",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "film"
+      ]
+    },
+    {
+      "name": "SlFire",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "fire"
+      ]
+    },
+    {
+      "name": "SlFlag",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "flag"
+      ]
+    },
+    {
+      "name": "SlFolder",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "folder"
+      ]
+    },
+    {
+      "name": "SlFolderAlt",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "folder",
+        "alt"
+      ]
+    },
+    {
+      "name": "SlFrame",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "frame"
+      ]
+    },
+    {
+      "name": "SlGameController",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "game",
+        "controller"
+      ]
+    },
+    {
+      "name": "SlGhost",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "ghost"
+      ]
+    },
+    {
+      "name": "SlGlobe",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "globe"
+      ]
+    },
+    {
+      "name": "SlGlobeAlt",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "globe",
+        "alt"
+      ]
+    },
+    {
+      "name": "SlGraduation",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "graduation"
+      ]
+    },
+    {
+      "name": "SlGraph",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "graph"
+      ]
+    },
+    {
+      "name": "SlGrid",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "grid"
+      ]
+    },
+    {
+      "name": "SlHandbag",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "handbag"
+      ]
+    },
+    {
+      "name": "SlHeart",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "heart"
+      ]
+    },
+    {
+      "name": "SlHome",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "home"
+      ]
+    },
+    {
+      "name": "SlHourglass",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "hourglass"
+      ]
+    },
+    {
+      "name": "SlInfo",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "info"
+      ]
+    },
+    {
+      "name": "SlKey",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "key"
+      ]
+    },
+    {
+      "name": "SlLayers",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "layers"
+      ]
+    },
+    {
+      "name": "SlLike",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "like"
+      ]
+    },
+    {
+      "name": "SlLink",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "link"
+      ]
+    },
+    {
+      "name": "SlList",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "list"
+      ]
+    },
+    {
+      "name": "SlLocationPin",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "location",
+        "pin"
+      ]
+    },
+    {
+      "name": "SlLock",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "lock"
+      ]
+    },
+    {
+      "name": "SlLockOpen",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "lock",
+        "open"
+      ]
+    },
+    {
+      "name": "SlLogin",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "login"
+      ]
+    },
+    {
+      "name": "SlLogout",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "logout"
+      ]
+    },
+    {
+      "name": "SlLoop",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "loop"
+      ]
+    },
+    {
+      "name": "SlMagicWand",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "magic",
+        "wand"
+      ]
+    },
+    {
+      "name": "SlMagnet",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "magnet"
+      ]
+    },
+    {
+      "name": "SlMagnifier",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "magnifier"
+      ]
+    },
+    {
+      "name": "SlMagnifierAdd",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "magnifier",
+        "add"
+      ]
+    },
+    {
+      "name": "SlMagnifierRemove",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "magnifier",
+        "remove"
+      ]
+    },
+    {
+      "name": "SlMap",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "map"
+      ]
+    },
+    {
+      "name": "SlMenu",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "menu"
+      ]
+    },
+    {
+      "name": "SlMicrophone",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "microphone"
+      ]
+    },
+    {
+      "name": "SlMinus",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "minus"
+      ]
+    },
+    {
+      "name": "SlMouse",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "mouse"
+      ]
+    },
+    {
+      "name": "SlMusicTone",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "music",
+        "tone"
+      ]
+    },
+    {
+      "name": "SlMusicToneAlt",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "music",
+        "tone",
+        "alt"
+      ]
+    },
+    {
+      "name": "SlMustache",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "mustache"
+      ]
+    },
+    {
+      "name": "SlNote",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "note"
+      ]
+    },
+    {
+      "name": "SlNotebook",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "notebook"
+      ]
+    },
+    {
+      "name": "SlOptions",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "options"
+      ]
+    },
+    {
+      "name": "SlOptionsVertical",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "options",
+        "vertical"
+      ]
+    },
+    {
+      "name": "SlOrganization",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "organization"
+      ]
+    },
+    {
+      "name": "SlPaperClip",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "paper",
+        "clip"
+      ]
+    },
+    {
+      "name": "SlPaperPlane",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "paper",
+        "plane"
+      ]
+    },
+    {
+      "name": "SlPaypal",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "paypal"
+      ]
+    },
+    {
+      "name": "SlPencil",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "pencil"
+      ]
+    },
+    {
+      "name": "SlPeople",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "people"
+      ]
+    },
+    {
+      "name": "SlPhone",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "phone"
+      ]
+    },
+    {
+      "name": "SlPicture",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "picture"
+      ]
+    },
+    {
+      "name": "SlPieChart",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "pie",
+        "chart"
+      ]
+    },
+    {
+      "name": "SlPin",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "pin"
+      ]
+    },
+    {
+      "name": "SlPlane",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "plane"
+      ]
+    },
+    {
+      "name": "SlPlaylist",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "playlist"
+      ]
+    },
+    {
+      "name": "SlPlus",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "plus"
+      ]
+    },
+    {
+      "name": "SlPower",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "power"
+      ]
+    },
+    {
+      "name": "SlPresent",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "present"
+      ]
+    },
+    {
+      "name": "SlPrinter",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "printer"
+      ]
+    },
+    {
+      "name": "SlPuzzle",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "puzzle"
+      ]
+    },
+    {
+      "name": "SlQuestion",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "question"
+      ]
+    },
+    {
+      "name": "SlRefresh",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "refresh"
+      ]
+    },
+    {
+      "name": "SlReload",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "reload"
+      ]
+    },
+    {
+      "name": "SlRocket",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "rocket"
+      ]
+    },
+    {
+      "name": "SlScreenDesktop",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "screen",
+        "desktop"
+      ]
+    },
+    {
+      "name": "SlScreenSmartphone",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "screen",
+        "smartphone"
+      ]
+    },
+    {
+      "name": "SlScreenTablet",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "screen",
+        "tablet"
+      ]
+    },
+    {
+      "name": "SlSettings",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "settings"
+      ]
+    },
+    {
+      "name": "SlShare",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "share"
+      ]
+    },
+    {
+      "name": "SlShareAlt",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "share",
+        "alt"
+      ]
+    },
+    {
+      "name": "SlShield",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "shield"
+      ]
+    },
+    {
+      "name": "SlShuffle",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "SlSizeActual",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "size",
+        "actual"
+      ]
+    },
+    {
+      "name": "SlSizeFullscreen",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "size",
+        "fullscreen"
+      ]
+    },
+    {
+      "name": "SlSocialBehance",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "behance"
+      ]
+    },
+    {
+      "name": "SlSocialDribbble",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "dribbble"
+      ]
+    },
+    {
+      "name": "SlSocialDropbox",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "dropbox"
+      ]
+    },
+    {
+      "name": "SlSocialFacebook",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "facebook"
+      ]
+    },
+    {
+      "name": "SlSocialFoursqare",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "foursqare"
+      ]
+    },
+    {
+      "name": "SlSocialGithub",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "github"
+      ]
+    },
+    {
+      "name": "SlSocialGoogle",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "google"
+      ]
+    },
+    {
+      "name": "SlSocialInstagram",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "instagram"
+      ]
+    },
+    {
+      "name": "SlSocialLinkedin",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "linkedin"
+      ]
+    },
+    {
+      "name": "SlSocialPintarest",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "pintarest"
+      ]
+    },
+    {
+      "name": "SlSocialReddit",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "reddit"
+      ]
+    },
+    {
+      "name": "SlSocialSkype",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "skype"
+      ]
+    },
+    {
+      "name": "SlSocialSoundcloud",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "soundcloud"
+      ]
+    },
+    {
+      "name": "SlSocialSpotify",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "spotify"
+      ]
+    },
+    {
+      "name": "SlSocialSteam",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "steam"
+      ]
+    },
+    {
+      "name": "SlSocialStumbleupon",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "stumbleupon"
+      ]
+    },
+    {
+      "name": "SlSocialTumblr",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "tumblr"
+      ]
+    },
+    {
+      "name": "SlSocialTwitter",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "twitter"
+      ]
+    },
+    {
+      "name": "SlSocialVkontakte",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "vkontakte"
+      ]
+    },
+    {
+      "name": "SlSocialYoutube",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "social",
+        "youtube"
+      ]
+    },
+    {
+      "name": "SlSpeech",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "speech"
+      ]
+    },
+    {
+      "name": "SlSpeedometer",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "speedometer"
+      ]
+    },
+    {
+      "name": "SlStar",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "star"
+      ]
+    },
+    {
+      "name": "SlSupport",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "support"
+      ]
+    },
+    {
+      "name": "SlSymbleFemale",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "symble",
+        "female"
+      ]
+    },
+    {
+      "name": "SlSymbolMale",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "symbol",
+        "male"
+      ]
+    },
+    {
+      "name": "SlTag",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "tag"
+      ]
+    },
+    {
+      "name": "SlTarget",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "target"
+      ]
+    },
+    {
+      "name": "SlTrash",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "trash"
+      ]
+    },
+    {
+      "name": "SlTrophy",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "trophy"
+      ]
+    },
+    {
+      "name": "SlUmbrella",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "umbrella"
+      ]
+    },
+    {
+      "name": "SlUser",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "user"
+      ]
+    },
+    {
+      "name": "SlUserFemale",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "user",
+        "female"
+      ]
+    },
+    {
+      "name": "SlUserFollow",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "user",
+        "follow"
+      ]
+    },
+    {
+      "name": "SlUserFollowing",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "user",
+        "following"
+      ]
+    },
+    {
+      "name": "SlUserUnfollow",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "user",
+        "unfollow"
+      ]
+    },
+    {
+      "name": "SlVector",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "vector"
+      ]
+    },
+    {
+      "name": "SlVolume1",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "volume1",
+        "volume",
+        "1"
+      ]
+    },
+    {
+      "name": "SlVolume2",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "volume2",
+        "volume",
+        "2"
+      ]
+    },
+    {
+      "name": "SlVolumeOff",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "volume",
+        "off"
+      ]
+    },
+    {
+      "name": "SlWallet",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "wallet"
+      ]
+    },
+    {
+      "name": "SlWrench",
+      "set": "sl",
+      "terms": [
+        "sl",
+        "wrench"
+      ]
+    },
+    {
       "name": "TiAdjustBrightness",
       "set": "ti",
       "terms": [

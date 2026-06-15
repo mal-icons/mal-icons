@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-reload",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlReload {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M511.28 0C255.47 0 47.36 208.13 47.36 463.93c0 240.45 185.3 441.54 423.57 462.1l-91.86 46.56c-11.34 6.22-18.1 20.22-11.38 31.28l3.25 8.4c6.75 11.06 21.38 14.98 32.69 8.78l153.31-78.5c0.19-0.130.4-0.090.59-0.22l10.29-5.63c5.68-3.12 9.44-8.22 10.94-13.9 1.57-5.680.85-12-2.53-17.5l-6.1-10c-0.09-0.19-0.29-0.32-0.4-0.5L475.06 746.83c-6.72-11.06-21.31-14.98-32.69-8.78l-7.44 5.18c-11.34 6.19-12.1 22.19-5.38 33.22l55.87 86.67c-0.3-0.02-0.58-0.13-0.86-0.14-209.28-13.73-373.2-189.04-373.2-399.04C111.36 243.41 290.77 64 511.28 64c220.54 0 400.96 179.41 400.96 399.94 0 126.98-58.32 243.6-160 319.97-14.13 10.62-16.98 30.69-6.37 44.82 10.62 14.16 30.69 16.98 44.82 6.37 117.94-88.59 185.57-223.87 185.57-371.15C976.24 208.13 767.11 0 511.28 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlReload;

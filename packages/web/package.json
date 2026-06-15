@@ -114,6 +114,12 @@
     "./io/*.json": "./src/icons/io/*.json",
     "./lu/*.json": "./src/icons/lu/*.json",
     "./oc/*.json": "./src/icons/oc/*.json",
+    "./sl": {
+      "types": "./dist/icons/sl/index.d.ts",
+      "bun": "./src/icons/sl/index.ts",
+      "import": "./dist/icons/sl/index.js"
+    },
+    "./sl/*.json": "./src/icons/sl/*.json",
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",
       "bun": "./src/icons/ti/index.ts",

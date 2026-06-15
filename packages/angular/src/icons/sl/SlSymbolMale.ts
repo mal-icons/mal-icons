@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-symbol-male",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlSymbolMale {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1023.3 22.66c0.14-6.48-1.38-12.29-5.59-16.43a22.06 22.06 0 0 0-16.4-6.53l-11.70.27c-0.22 0-0.380.08-0.640.11L695.48-0.94c-12.930.29-23.62 10.99-23.92 23.92l-0.03 16.43c1.97 15.25 13.95 24.16 26.88 23.87l215.220.43-256.14 254.59c-69.49-58.24-159.01-93.36-256.77-93.36-220.93 0-400 179.07-400 400 0 220.91 179.07 400 400 400 220.91 0 400-179.09 400-400 0-100.11-36.86-191.57-97.66-261.71L959.94 107.92l-0.94 219.15c-0.3 12.93 9.95 24.18 22.9 23.89l16.42-0.03c12.96-0.3 23.65-8 23.92-20.93l0.67-295.01c0-0.24-0.88-0.4-0.88-0.62zM737.23 624.94c0 185.86-150.67 336.53-336.54 336.53-185.86 0-336.53-150.67-336.53-336.53 0-185.86 150.67-336.53 336.53-336.53 185.87-0.02 336.54 150.66 336.54 336.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlSymbolMale;

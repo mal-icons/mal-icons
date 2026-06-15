@@ -259,6 +259,7 @@ async function buildReact(): Promise<void> {
     "io",
     "lu",
     "oc",
+    "sl",
     "ti",
     "wi",
   ]) {

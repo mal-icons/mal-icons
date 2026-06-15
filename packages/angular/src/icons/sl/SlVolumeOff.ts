@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-volume-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlVolumeOff {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M575.54 65.9c-10.43-5.55-23.09-4.93-32.91 1.7L221.52 319.71l-106.620.08c-54.51 0-98.88 38.66-98.88 86.4l1.71 211.14c0 47.54 44.35 86.22 98.86 86.22l106.590.07L542.58 956.37a31.98 31.98 0 0 0 17.91 5.47c5.15 0 10.32-1.25 15.01-3.74a31.95 31.95 0 0 0 17.01-28.26V94.16a32.04 32.04 0 0 0-16.96-28.26zm-47.04 803.73l-277.6-224.53a31.97 31.97 0 0 0-17.89-5.47l-116.38-0.06c-20.54 0-34.88-11.71-34.88-22.46l-1.73-211.15c0-10.48 14.34-22.16 34.9-22.16l116.4-0.08a32.02 32.02 0 0 0 17.86-5.46l279.33-224v715.38zm365.51-357.12l104.59-105.84c12.5-12.5 12.5-32.75 0-45.25-12.46-12.5-32.75-12.5-45.25 0L849.01 466.99 744.68 361.43c-12.46-12.5-32.75-12.5-45.25 0s-12.5 32.75 0 45.25l104.59 105.84-103.6 104.82c-12.46 12.48-12.5 32.75 0 45.25s32.78 12.5 45.28 0l103.31-104.54 103.31 104.54c12.5 12.5 32.75 12.5 45.25 0s12.5-32.77 0-45.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlVolumeOff;

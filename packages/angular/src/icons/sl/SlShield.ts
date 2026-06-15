@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-shield",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlShield {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M907.95 144.48a64 64 0 0 0-43.66-17.22c-1.47 0-2.940.07-4.40.16-0.910.07-11.180.69-27.280.69-26.66 0-78.69-1.81-127.97-13.94-63.66-15.63-137.12-88.16-158.5-102.46A63.96 63.96 0 0 0 510.580.93a64.19 64.19 0 0 0-35.54 10.75c-2.59 1.74-79.5 84.03-154.75 102.5C271.04 126.31 218 128.11 191.38 128.11c-16.1 0-26.37-0.62-27.38-0.69a62.31 62.31 0 0 0-4.22-0.16A64.19 64.19 0 0 0 116 144.54c-12.94 12.1-20.32 29.01-20.32 46.72v160.03c0 591.63 387.12 667.81 403.57 670.78a65.61 65.61 0 0 0 11.31 1.01c3.78 0 7.6-0.34 11.31-1.01 16.43-2.98 406.4-79.15 406.4-670.78V191.26a63.81 63.81 0 0 0-20.32-46.78zm-43.65 206.82c0 544.91-353.71 607.78-353.71 607.78s-350.88-62.88-350.88-607.78V191.27s12.10.85 31.680.85c33.57 0 90.03-2.46 144.16-15.78C424.18 154.59 510.58 64.93 510.58 64.93s90.26 89.66 178.78 111.41c54.19 13.31 109.68 15.78 143.25 15.78 19.57 0 31.68-0.85 31.68-0.85s0.02 20.350.02 160.03h0zm-216.71-5.05c-12.5-12.5-32.77-12.5-45.25 0l-90.51 90.51-90.51-90.51c-12.5-12.5-32.77-12.5-45.26 0s-12.5 32.77 0 45.25l90.51 90.51-90.51 90.51c-12.5 12.48-12.5 32.75 0 45.25s32.77 12.5 45.27 0l90.51-90.51 90.51 90.51c12.48 12.5 32.75 12.5 45.25 0s12.5-32.77 0-45.25l-90.51-90.51L647.6 391.49c12.5-12.48 12.5-32.75 0-45.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlShield;

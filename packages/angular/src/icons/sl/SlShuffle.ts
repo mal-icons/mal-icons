@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-shuffle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlShuffle {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M402.3 505.86l39.26-55.25-134.3-183.28H2.74v64h271.49zm516.48-174.53l-77.54 69.54c-9.34 8.95-12.37 23.44-3.02 32.37l5.47 8.07c9.38 8.94 24.5 8.94 33.82 0l127.74-115.5c0.18-0.160.38-0.190.54-0.34l8.46-8.1c4.67-4.5 7.01-10.37 6.98-16.290.03-5.87-2.3-11.78-6.98-16.22l-8.46-8.1c-0.16-0.16-0.34-0.22-0.54-0.37L875.53 157.95c-9.36-8.94-24.46-8.94-33.84 0l-5.47 8.06c-9.36 8.94-6.32 23.41 3.02 32.34l76.05 68.98h-231.76l-409.31 576H2.73v64h304.51l409.33-576zm87.03 521.44c-0.16-0.16-0.34-0.23-0.55-0.37L875.54 733.97c-9.36-8.94-24.46-8.94-33.84 0l-5.47 8.06c-9.36 8.95-6.32 23.41 3.02 32.34l76.34 69.23-199.01-0.27L602.15 666.32l-39.28 55.25 120.66 185.76 234.940.29-77.22 69.25c-9.34 8.95-12.37 23.44-3.02 32.37l5.47 8.07c9.38 8.94 24.5 8.94 33.82 0l127.74-115.5c0.18-0.160.38-0.190.54-0.34l8.46-8.1c4.67-4.5 7.01-10.37 6.98-16.290.03-5.87-2.3-11.78-6.98-16.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlShuffle;

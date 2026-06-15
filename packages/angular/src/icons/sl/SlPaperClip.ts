@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-sl-paper-clip",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SlPaperClip {
+  readonly viewBox = "0 0 1024 1024";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M172.72 1007.63c-43.41 0-85.08-17.96-118.3-51.21-73.65-73.89-73.65-194.06-0.02-267.9L628.67 78.69c89.6-89.74 226.85-81.68 327.01 18.61 44.88 44.96 70.06 109.78 69.12 177.9-0.94 67.41-27.28 131.92-72.29 177.01L518.5 914.26c-12.08 12.95-32.34 13.54-45.23 1.39-12.86-12.16-13.49-32.45-1.36-45.34l434.67-462.75c34-34.06 53.5-82.38 54.22-133.250.72-50.89-17.66-98.88-50.37-131.66-61.44-61.57-161.47-93.81-235.84-19.26L100.34 733.2c-49.38 49.5-49.36 129.01-0.64 177.86 22.85 22.86 49.97 34 78.85 32.26 28.58-1.74 57.95-16.4 82.72-41.23L718.19 415.75c16.56-16.59 49.84-57.26 15.97-91.22-19.18-19.22-32.66-18.03-37.09-17.66-12.66 1.12-27.44 9.87-42.78 25.26l-343.92 365.78c-12.14 12.91-32.42 13.54-45.23 1.36-12.88-12.13-13.47-32.45-1.36-45.31L608.32 287.49c27.09-27.22 54.78-41.97 82.98-44.5 22-1.95 54.72 2.74 88.1 36.21 49.54 49.63 43.38 122.43-15.28 181.22L307.18 946.72c-36.48 36.61-80.53 57.87-124.72 60.59-3.250.22-6.50.32-9.740.32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SlPaperClip;

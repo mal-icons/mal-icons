@@ -1,0 +1,1639 @@
+{
+  "set": {
+    "id": "sl",
+    "name": "Simple Line Icons",
+    "prefix": "Sl",
+    "version": "2.5.5",
+    "license": "MIT",
+    "repo": "thesabbir/simple-line-icons",
+    "style": "fill",
+    "viewBox": "0 0 1024 1024"
+  },
+  "count": 189,
+  "icons": [
+    {
+      "name": "SlActionRedo",
+      "tags": [
+        "action",
+        "fill",
+        "redo"
+      ],
+      "description": "Action Redo icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlActionUndo",
+      "tags": [
+        "action",
+        "fill",
+        "undo"
+      ],
+      "description": "Action Undo icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlAnchor",
+      "tags": [
+        "anchor",
+        "fill"
+      ],
+      "description": "Anchor icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlArrowDown",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlArrowDownCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlArrowLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlArrowLeftCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlArrowRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlArrowRightCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlArrowUp",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlArrowUpCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "SlBadge",
+      "tags": [
+        "badge",
+        "fill"
+      ],
+      "description": "Badge icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBag",
+      "tags": [
+        "bag",
+        "fill"
+      ],
+      "description": "Bag icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBan",
+      "tags": [
+        "ban",
+        "fill"
+      ],
+      "description": "Ban icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBasket",
+      "tags": [
+        "basket",
+        "fill"
+      ],
+      "description": "Basket icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBasketLoaded",
+      "tags": [
+        "basket",
+        "fill",
+        "loaded"
+      ],
+      "description": "Basket Loaded icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "SlBookOpen",
+      "tags": [
+        "book",
+        "fill",
+        "open"
+      ],
+      "description": "Book Open icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBriefcase",
+      "tags": [
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBubble",
+      "tags": [
+        "bubble",
+        "fill"
+      ],
+      "description": "Bubble icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBubbles",
+      "tags": [
+        "bubbles",
+        "fill"
+      ],
+      "description": "Bubbles icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlBulb",
+      "tags": [
+        "bulb",
+        "fill"
+      ],
+      "description": "Bulb icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCalculator",
+      "tags": [
+        "calculator",
+        "fill"
+      ],
+      "description": "Calculator icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCalender",
+      "tags": [
+        "calender",
+        "fill"
+      ],
+      "description": "Calender icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCallEnd",
+      "tags": [
+        "call",
+        "end",
+        "fill"
+      ],
+      "description": "Call End icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCallIn",
+      "tags": [
+        "call",
+        "fill",
+        "in"
+      ],
+      "description": "Call In icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCallOut",
+      "tags": [
+        "call",
+        "fill",
+        "out"
+      ],
+      "description": "Call Out icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "SlCamrecorder",
+      "tags": [
+        "camrecorder",
+        "fill"
+      ],
+      "description": "Camrecorder icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlChart",
+      "tags": [
+        "chart",
+        "fill"
+      ],
+      "description": "Chart icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCheck",
+      "tags": [
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "SlChemistry",
+      "tags": [
+        "chemistry",
+        "fill"
+      ],
+      "description": "Chemistry icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlClock",
+      "tags": [
+        "clock",
+        "fill"
+      ],
+      "description": "Clock face — time, history and schedules."
+    },
+    {
+      "name": "SlClose",
+      "tags": [
+        "close",
+        "fill"
+      ],
+      "description": "Close icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCloudDownload",
+      "tags": [
+        "cloud",
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "SlCloudUpload",
+      "tags": [
+        "cloud",
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "SlCompass",
+      "tags": [
+        "compass",
+        "fill"
+      ],
+      "description": "Compass icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlControlEnd",
+      "tags": [
+        "control",
+        "end",
+        "fill"
+      ],
+      "description": "Control End icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlControlForward",
+      "tags": [
+        "control",
+        "fill",
+        "forward"
+      ],
+      "description": "Control Forward icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlControlPause",
+      "tags": [
+        "control",
+        "fill",
+        "pause"
+      ],
+      "description": "Pause bars — pause playback."
+    },
+    {
+      "name": "SlControlPlay",
+      "tags": [
+        "control",
+        "fill",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "SlControlRewind",
+      "tags": [
+        "control",
+        "fill",
+        "rewind"
+      ],
+      "description": "Control Rewind icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlControlStart",
+      "tags": [
+        "control",
+        "fill",
+        "start"
+      ],
+      "description": "Control Start icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "SlCrop",
+      "tags": [
+        "crop",
+        "fill"
+      ],
+      "description": "Crop icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCup",
+      "tags": [
+        "cup",
+        "fill"
+      ],
+      "description": "Cup icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCursor",
+      "tags": [
+        "cursor",
+        "fill"
+      ],
+      "description": "Cursor icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlCursorMove",
+      "tags": [
+        "cursor",
+        "fill",
+        "move"
+      ],
+      "description": "Cursor Move icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDiamond",
+      "tags": [
+        "diamond",
+        "fill"
+      ],
+      "description": "Diamond icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDirection",
+      "tags": [
+        "direction",
+        "fill"
+      ],
+      "description": "Direction icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDirections",
+      "tags": [
+        "directions",
+        "fill"
+      ],
+      "description": "Directions icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDisc",
+      "tags": [
+        "disc",
+        "fill"
+      ],
+      "description": "Disc icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDislike",
+      "tags": [
+        "dislike",
+        "fill"
+      ],
+      "description": "Dislike icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDoc",
+      "tags": [
+        "doc",
+        "fill"
+      ],
+      "description": "Doc icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDocs",
+      "tags": [
+        "docs",
+        "fill"
+      ],
+      "description": "Docs icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDrawer",
+      "tags": [
+        "drawer",
+        "fill"
+      ],
+      "description": "Drawer icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlDrop",
+      "tags": [
+        "drop",
+        "fill"
+      ],
+      "description": "Drop icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEarphones",
+      "tags": [
+        "earphones",
+        "fill"
+      ],
+      "description": "Earphones icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEarphonesAlt",
+      "tags": [
+        "alt",
+        "earphones",
+        "fill"
+      ],
+      "description": "Earphones Alt icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEmotsmile",
+      "tags": [
+        "emotsmile",
+        "fill"
+      ],
+      "description": "Emotsmile icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEnergy",
+      "tags": [
+        "energy",
+        "fill"
+      ],
+      "description": "Energy icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEnvelopeOpen",
+      "tags": [
+        "envelope",
+        "fill",
+        "open"
+      ],
+      "description": "Envelope Open icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEnvolope",
+      "tags": [
+        "envolope",
+        "fill"
+      ],
+      "description": "Envolope icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEnvolopeLetter",
+      "tags": [
+        "envolope",
+        "fill",
+        "letter"
+      ],
+      "description": "Envolope Letter icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEqualizer",
+      "tags": [
+        "equalizer",
+        "fill"
+      ],
+      "description": "Equalizer icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEvent",
+      "tags": [
+        "event",
+        "fill"
+      ],
+      "description": "Event icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlExclamation",
+      "tags": [
+        "exclamation",
+        "fill"
+      ],
+      "description": "Exclamation icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlEye",
+      "tags": [
+        "eye",
+        "fill",
+        "hide"
+      ],
+      "description": "Eye — show, view and visibility toggles."
+    },
+    {
+      "name": "SlEyeglass",
+      "tags": [
+        "eyeglass",
+        "fill"
+      ],
+      "description": "Eyeglass icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlFeed",
+      "tags": [
+        "feed",
+        "fill"
+      ],
+      "description": "Feed icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlFilm",
+      "tags": [
+        "fill",
+        "film"
+      ],
+      "description": "Film icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlFire",
+      "tags": [
+        "fill",
+        "fire"
+      ],
+      "description": "Fire icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "SlFolderAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "SlFrame",
+      "tags": [
+        "fill",
+        "frame"
+      ],
+      "description": "Frame icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlGameController",
+      "tags": [
+        "controller",
+        "fill",
+        "game"
+      ],
+      "description": "Game Controller icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlGhost",
+      "tags": [
+        "fill",
+        "ghost"
+      ],
+      "description": "Ghost icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlGlobe",
+      "tags": [
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "SlGlobeAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "globe"
+      ],
+      "description": "Globe — language, web and worldwide reach."
+    },
+    {
+      "name": "SlGraduation",
+      "tags": [
+        "fill",
+        "graduation"
+      ],
+      "description": "Graduation icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlGraph",
+      "tags": [
+        "fill",
+        "graph"
+      ],
+      "description": "Graph icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlGrid",
+      "tags": [
+        "fill",
+        "grid"
+      ],
+      "description": "Grid icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlHandbag",
+      "tags": [
+        "fill",
+        "handbag"
+      ],
+      "description": "Handbag icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "SlHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "SlHourglass",
+      "tags": [
+        "fill",
+        "hourglass"
+      ],
+      "description": "Hourglass icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlInfo",
+      "tags": [
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "SlKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlLayers",
+      "tags": [
+        "fill",
+        "layers"
+      ],
+      "description": "Layers icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlLike",
+      "tags": [
+        "fill",
+        "like"
+      ],
+      "description": "Like icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlLink",
+      "tags": [
+        "fill",
+        "link"
+      ],
+      "description": "Chain link — hyperlinks and connected items."
+    },
+    {
+      "name": "SlList",
+      "tags": [
+        "fill",
+        "list"
+      ],
+      "description": "List icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlLocationPin",
+      "tags": [
+        "fill",
+        "location",
+        "pin"
+      ],
+      "description": "Location Pin icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "SlLockOpen",
+      "tags": [
+        "fill",
+        "lock",
+        "open"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "SlLogin",
+      "tags": [
+        "fill",
+        "login"
+      ],
+      "description": "Login icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlLogout",
+      "tags": [
+        "fill",
+        "logout"
+      ],
+      "description": "Logout icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlLoop",
+      "tags": [
+        "fill",
+        "loop"
+      ],
+      "description": "Loop icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMagicWand",
+      "tags": [
+        "fill",
+        "magic",
+        "wand"
+      ],
+      "description": "Magic Wand icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMagnet",
+      "tags": [
+        "fill",
+        "magnet"
+      ],
+      "description": "Magnet icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMagnifier",
+      "tags": [
+        "fill",
+        "magnifier"
+      ],
+      "description": "Magnifier icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMagnifierAdd",
+      "tags": [
+        "add",
+        "fill",
+        "magnifier"
+      ],
+      "description": "Magnifier Add icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMagnifierRemove",
+      "tags": [
+        "fill",
+        "magnifier",
+        "remove"
+      ],
+      "description": "Magnifier Remove icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMap",
+      "tags": [
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "SlMenu",
+      "tags": [
+        "fill",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "SlMicrophone",
+      "tags": [
+        "fill",
+        "microphone"
+      ],
+      "description": "Microphone icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "SlMouse",
+      "tags": [
+        "fill",
+        "mouse"
+      ],
+      "description": "Mouse icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMusicTone",
+      "tags": [
+        "fill",
+        "music",
+        "tone"
+      ],
+      "description": "Music Tone icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMusicToneAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "music",
+        "tone"
+      ],
+      "description": "Music Tone Alt icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlMustache",
+      "tags": [
+        "fill",
+        "mustache"
+      ],
+      "description": "Mustache icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlNote",
+      "tags": [
+        "fill",
+        "note"
+      ],
+      "description": "Note icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlNotebook",
+      "tags": [
+        "fill",
+        "notebook"
+      ],
+      "description": "Notebook icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlOptions",
+      "tags": [
+        "fill",
+        "options"
+      ],
+      "description": "Options icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlOptionsVertical",
+      "tags": [
+        "fill",
+        "options",
+        "vertical"
+      ],
+      "description": "Options Vertical icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlOrganization",
+      "tags": [
+        "fill",
+        "organization"
+      ],
+      "description": "Organization icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPaperClip",
+      "tags": [
+        "clip",
+        "fill",
+        "paper"
+      ],
+      "description": "Paper Clip icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPaperPlane",
+      "tags": [
+        "fill",
+        "paper",
+        "plane"
+      ],
+      "description": "Paper Plane icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPaypal",
+      "tags": [
+        "fill",
+        "paypal"
+      ],
+      "description": "Paypal icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPencil",
+      "tags": [
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPeople",
+      "tags": [
+        "fill",
+        "people"
+      ],
+      "description": "People icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPhone",
+      "tags": [
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "SlPicture",
+      "tags": [
+        "fill",
+        "picture"
+      ],
+      "description": "Picture icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPieChart",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPin",
+      "tags": [
+        "fill",
+        "pin"
+      ],
+      "description": "Pin icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPlane",
+      "tags": [
+        "fill",
+        "plane"
+      ],
+      "description": "Plane icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPlaylist",
+      "tags": [
+        "fill",
+        "playlist"
+      ],
+      "description": "Playlist icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "SlPower",
+      "tags": [
+        "fill",
+        "power"
+      ],
+      "description": "Power icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPresent",
+      "tags": [
+        "fill",
+        "present"
+      ],
+      "description": "Present icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPrinter",
+      "tags": [
+        "fill",
+        "printer"
+      ],
+      "description": "Printer icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlPuzzle",
+      "tags": [
+        "fill",
+        "puzzle"
+      ],
+      "description": "Puzzle icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlQuestion",
+      "tags": [
+        "fill",
+        "question"
+      ],
+      "description": "Question icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlRefresh",
+      "tags": [
+        "fill",
+        "refresh"
+      ],
+      "description": "Circular arrows — refresh, reload and sync."
+    },
+    {
+      "name": "SlReload",
+      "tags": [
+        "fill",
+        "reload"
+      ],
+      "description": "Reload icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlRocket",
+      "tags": [
+        "fill",
+        "rocket"
+      ],
+      "description": "Rocket icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlScreenDesktop",
+      "tags": [
+        "desktop",
+        "fill",
+        "screen"
+      ],
+      "description": "Screen Desktop icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlScreenSmartphone",
+      "tags": [
+        "fill",
+        "screen",
+        "smartphone"
+      ],
+      "description": "Screen Smartphone icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlScreenTablet",
+      "tags": [
+        "fill",
+        "screen",
+        "tablet"
+      ],
+      "description": "Screen Tablet icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSettings",
+      "tags": [
+        "fill",
+        "gear",
+        "setting",
+        "settings"
+      ],
+      "description": "Cog/gear — settings, configuration and preferences."
+    },
+    {
+      "name": "SlShare",
+      "tags": [
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "SlShareAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "SlShield",
+      "tags": [
+        "fill",
+        "shield"
+      ],
+      "description": "Shield icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlShuffle",
+      "tags": [
+        "fill",
+        "shuffle"
+      ],
+      "description": "Shuffle icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSizeActual",
+      "tags": [
+        "actual",
+        "fill",
+        "size"
+      ],
+      "description": "Size Actual icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSizeFullscreen",
+      "tags": [
+        "fill",
+        "fullscreen",
+        "size"
+      ],
+      "description": "Size Fullscreen icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialBehance",
+      "tags": [
+        "behance",
+        "fill",
+        "social"
+      ],
+      "description": "Social Behance icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialDribbble",
+      "tags": [
+        "dribbble",
+        "fill",
+        "social"
+      ],
+      "description": "Social Dribbble icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialDropbox",
+      "tags": [
+        "dropbox",
+        "fill",
+        "social"
+      ],
+      "description": "Social Dropbox icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialFacebook",
+      "tags": [
+        "facebook",
+        "fill",
+        "social"
+      ],
+      "description": "Social Facebook icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialFoursqare",
+      "tags": [
+        "fill",
+        "foursqare",
+        "social"
+      ],
+      "description": "Social Foursqare icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialGithub",
+      "tags": [
+        "fill",
+        "github",
+        "social"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "SlSocialGoogle",
+      "tags": [
+        "fill",
+        "google",
+        "social"
+      ],
+      "description": "Social Google icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialInstagram",
+      "tags": [
+        "fill",
+        "instagram",
+        "social"
+      ],
+      "description": "Social Instagram icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialLinkedin",
+      "tags": [
+        "fill",
+        "linkedin",
+        "social"
+      ],
+      "description": "Social Linkedin icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialPintarest",
+      "tags": [
+        "fill",
+        "pintarest",
+        "social"
+      ],
+      "description": "Social Pintarest icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialReddit",
+      "tags": [
+        "fill",
+        "reddit",
+        "social"
+      ],
+      "description": "Social Reddit icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialSkype",
+      "tags": [
+        "fill",
+        "skype",
+        "social"
+      ],
+      "description": "Social Skype icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialSoundcloud",
+      "tags": [
+        "fill",
+        "social",
+        "soundcloud"
+      ],
+      "description": "Social Soundcloud icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialSpotify",
+      "tags": [
+        "fill",
+        "social",
+        "spotify"
+      ],
+      "description": "Social Spotify icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialSteam",
+      "tags": [
+        "fill",
+        "social",
+        "steam"
+      ],
+      "description": "Social Steam icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialStumbleupon",
+      "tags": [
+        "fill",
+        "social",
+        "stumbleupon"
+      ],
+      "description": "Social Stumbleupon icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialTumblr",
+      "tags": [
+        "fill",
+        "social",
+        "tumblr"
+      ],
+      "description": "Social Tumblr icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialTwitter",
+      "tags": [
+        "fill",
+        "social",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "SlSocialVkontakte",
+      "tags": [
+        "fill",
+        "social",
+        "vkontakte"
+      ],
+      "description": "Social Vkontakte icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSocialYoutube",
+      "tags": [
+        "fill",
+        "social",
+        "youtube"
+      ],
+      "description": "Social Youtube icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSpeech",
+      "tags": [
+        "fill",
+        "speech"
+      ],
+      "description": "Speech icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSpeedometer",
+      "tags": [
+        "fill",
+        "speedometer"
+      ],
+      "description": "Speedometer icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "SlSupport",
+      "tags": [
+        "fill",
+        "support"
+      ],
+      "description": "Support icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSymbleFemale",
+      "tags": [
+        "female",
+        "fill",
+        "symble"
+      ],
+      "description": "Symble Female icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlSymbolMale",
+      "tags": [
+        "fill",
+        "male",
+        "symbol"
+      ],
+      "description": "Symbol Male icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlTag",
+      "tags": [
+        "fill",
+        "tag"
+      ],
+      "description": "Tag icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlTarget",
+      "tags": [
+        "fill",
+        "target"
+      ],
+      "description": "Target icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "SlTrophy",
+      "tags": [
+        "fill",
+        "trophy"
+      ],
+      "description": "Trophy icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlUmbrella",
+      "tags": [
+        "fill",
+        "umbrella"
+      ],
+      "description": "Umbrella icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "SlUserFemale",
+      "tags": [
+        "account",
+        "female",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "SlUserFollow",
+      "tags": [
+        "account",
+        "fill",
+        "follow",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "SlUserFollowing",
+      "tags": [
+        "account",
+        "fill",
+        "following",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "SlUserUnfollow",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "unfollow",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "SlVector",
+      "tags": [
+        "fill",
+        "vector"
+      ],
+      "description": "Vector icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlVolume1",
+      "tags": [
+        "1",
+        "fill",
+        "volume",
+        "volume1"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "SlVolume2",
+      "tags": [
+        "2",
+        "fill",
+        "volume",
+        "volume2"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "SlVolumeOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "SlWallet",
+      "tags": [
+        "fill",
+        "wallet"
+      ],
+      "description": "Wallet icon — Simple Line Icons (sl) set, fill style."
+    },
+    {
+      "name": "SlWrench",
+      "tags": [
+        "fill",
+        "wrench"
+      ],
+      "description": "Wrench icon — Simple Line Icons (sl) set, fill style."
+    }
+  ]
+}
