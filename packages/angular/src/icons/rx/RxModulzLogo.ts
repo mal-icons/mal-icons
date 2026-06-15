@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-modulz-logo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxModulzLogo {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.26 3.17L4.37 5.33V1L7.26 3.17ZM1 8.22L3.89 6.06L1 3.89V8.22ZM1 14L3.89 11.83L1 9.67V14ZM7.74 8.22L10.63 6.06L7.74 3.89V8.22ZM14 3.17L11.11 5.33V1L14 3.17ZM11.11 11.11L14 8.94L11.11 6.78V11.11ZM3.89 11.11L1 8.94L3.89 6.78V11.11ZM4.37 6.06L7.26 8.22V3.89L4.37 6.06ZM3.89 5.33L1 3.17L3.89 1V5.33ZM7.74 3.17L10.63 5.33V1L7.74 3.17ZM14 8.22L11.11 6.06L14 3.89V8.22ZM11.11 11.83L14 14V9.67L11.11 11.83Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxModulzLogo;

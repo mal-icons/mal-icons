@@ -177,6 +177,16 @@
       "bun": "./src/icons/oc/*.ts",
       "import": "./src/icons/oc/*.ts"
     },
+    "./rx": {
+      "solid": "./src/icons/rx/index.ts",
+      "bun": "./src/icons/rx/index.ts",
+      "import": "./src/icons/rx/index.ts"
+    },
+    "./rx/*": {
+      "solid": "./src/icons/rx/*.ts",
+      "bun": "./src/icons/rx/*.ts",
+      "import": "./src/icons/rx/*.ts"
+    },
     "./sl": {
       "solid": "./src/icons/sl/index.ts",
       "bun": "./src/icons/sl/index.ts",

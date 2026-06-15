@@ -73,12 +73,13 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
 | [Themify](https://themify.me/themify-icons) | [SIL OFL 1.1 license](https://github.com/lykmapipo/themify-icons/blob/master/README.md) | 9600186 | 352 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
-Each set is exposed under its own subpath (`/ad`, `/cg`, `/ci`, `/dev`, `/fa`, `/fab`, `/far`, `/fc`, `/fi`, `/gr`, `/hi`, `/io`, `/lu`, `/sl`, `/tf`, `/ti`, `/vsc`, `/wi`) and at the package root.
+Each set is exposed under its own subpath (`/ad`, `/cg`, `/ci`, `/dev`, `/fa`, `/fab`, `/far`, `/fc`, `/fi`, `/gr`, `/hi`, `/io`, `/lu`, `/rx`, `/sl`, `/tf`, `/ti`, `/vsc`, `/wi`) and at the package root.
 
 ## Installation
 

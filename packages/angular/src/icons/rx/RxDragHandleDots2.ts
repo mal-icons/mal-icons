@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-drag-handle-dots-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxDragHandleDots2 {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M5.5 4.63C6.12 4.63 6.63 4.12 6.63 3.5C6.63 2.88 6.12 2.38 5.5 2.38C4.88 2.38 4.38 2.88 4.38 3.5C4.38 4.12 4.88 4.63 5.5 4.63ZM9.5 4.63C10.12 4.63 10.63 4.12 10.63 3.5C10.63 2.88 10.12 2.38 9.5 2.38C8.88 2.38 8.38 2.88 8.38 3.5C8.38 4.12 8.88 4.63 9.5 4.63ZM10.63 7.5C10.63 8.12 10.12 8.63 9.5 8.63C8.88 8.63 8.38 8.12 8.38 7.5C8.38 6.88 8.88 6.38 9.5 6.38C10.12 6.38 10.63 6.88 10.63 7.5ZM5.5 8.63C6.12 8.63 6.63 8.12 6.63 7.5C6.63 6.88 6.12 6.38 5.5 6.38C4.88 6.38 4.38 6.88 4.38 7.5C4.38 8.12 4.88 8.63 5.5 8.63ZM10.63 11.5C10.63 12.12 10.12 12.63 9.5 12.63C8.88 12.63 8.38 12.12 8.38 11.5C8.38 10.88 8.88 10.38 9.5 10.38C10.12 10.38 10.63 10.88 10.63 11.5ZM5.5 12.63C6.12 12.63 6.63 12.12 6.63 11.5C6.63 10.88 6.12 10.38 5.5 10.38C4.88 10.38 4.38 10.88 4.38 11.5C4.38 12.12 4.88 12.63 5.5 12.63Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxDragHandleDots2;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-scissors",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxScissors {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M0.95 4.48C0.95 5.34 1.64 6.03 2.5 6.03C3.36 6.03 4.05 5.34 4.05 4.48C4.05 3.63 3.36 2.93 2.5 2.93C1.64 2.93 0.95 3.63 0.95 4.48ZM2.5 6.93C1.15 6.93 0.05 5.84 0.05 4.48C0.05 3.13 1.15 2.03 2.5 2.03C3.85 2.03 4.95 3.13 4.95 4.48C4.95 4.81 4.89 5.12 4.77 5.4L5.74 6.04C5.73 6.07 5.72 6.09 5.72 6.11L5.56 6.66L5.21 6.9L4.22 6.23C3.77 6.67 3.17 6.93 2.5 6.93ZM0.95 10.5C0.95 9.64 1.64 8.95 2.5 8.95C3.36 8.95 4.05 9.64 4.05 10.5C4.05 11.36 3.36 12.05 2.5 12.05C1.64 12.05 0.95 11.36 0.95 10.5ZM2.5 8.05C1.15 8.05 0.05 9.15 0.05 10.5C0.05 11.85 1.15 12.95 2.5 12.95C3.85 12.95 4.95 11.85 4.95 10.5C4.95 10.18 4.89 9.87 4.78 9.6L15 2.76L14.05 2.86C12.71 3 11.41 3.41 10.23 4.06L7.16 5.78C6.92 5.91 6.75 6.12 6.68 6.38L6.43 7.29L4.22 8.76C3.78 8.32 3.17 8.05 2.5 8.05ZM7.14 9.21L7.16 9.22L10.23 10.93C11.41 11.59 12.71 12 14.05 12.14L15 12.24L8.81 8.1L7.14 9.21Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxScissors;

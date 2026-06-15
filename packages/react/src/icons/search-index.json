@@ -94507,6 +94507,2840 @@
       ]
     },
     {
+      "name": "RxAccessibility",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "accessibility"
+      ]
+    },
+    {
+      "name": "RxActivityLog",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "activity",
+        "log"
+      ]
+    },
+    {
+      "name": "RxAlignBaseline",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "align",
+        "baseline"
+      ]
+    },
+    {
+      "name": "RxAlignBottom",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "align",
+        "bottom"
+      ]
+    },
+    {
+      "name": "RxAlignCenterHorizontally",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "align",
+        "center",
+        "horizontally"
+      ]
+    },
+    {
+      "name": "RxAlignCenterVertically",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "align",
+        "center",
+        "vertically"
+      ]
+    },
+    {
+      "name": "RxAlignLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "RxAlignRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "RxAlignTop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "align",
+        "top"
+      ]
+    },
+    {
+      "name": "RxAllSides",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "all",
+        "sides"
+      ]
+    },
+    {
+      "name": "RxAngle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "angle"
+      ]
+    },
+    {
+      "name": "RxArchive",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "archive"
+      ]
+    },
+    {
+      "name": "RxArrowBottomLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "bottom",
+        "left"
+      ]
+    },
+    {
+      "name": "RxArrowBottomRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "bottom",
+        "right"
+      ]
+    },
+    {
+      "name": "RxArrowDown",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "RxArrowLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "RxArrowRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "RxArrowTopLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "top",
+        "left"
+      ]
+    },
+    {
+      "name": "RxArrowTopRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "top",
+        "right"
+      ]
+    },
+    {
+      "name": "RxArrowUp",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "RxAspectRatio",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "aspect",
+        "ratio"
+      ]
+    },
+    {
+      "name": "RxAvatar",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "avatar"
+      ]
+    },
+    {
+      "name": "RxBackpack",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "backpack"
+      ]
+    },
+    {
+      "name": "RxBadge",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "badge"
+      ]
+    },
+    {
+      "name": "RxBarChart",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "bar",
+        "chart"
+      ]
+    },
+    {
+      "name": "RxBell",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "bell"
+      ]
+    },
+    {
+      "name": "RxBlendingMode",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "blending",
+        "mode"
+      ]
+    },
+    {
+      "name": "RxBookmark",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "RxBookmarkFilled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "bookmark",
+        "filled"
+      ]
+    },
+    {
+      "name": "RxBorderAll",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "all"
+      ]
+    },
+    {
+      "name": "RxBorderBottom",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "bottom"
+      ]
+    },
+    {
+      "name": "RxBorderDashed",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "dashed"
+      ]
+    },
+    {
+      "name": "RxBorderDotted",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "dotted"
+      ]
+    },
+    {
+      "name": "RxBorderLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "left"
+      ]
+    },
+    {
+      "name": "RxBorderNone",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "none"
+      ]
+    },
+    {
+      "name": "RxBorderRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "right"
+      ]
+    },
+    {
+      "name": "RxBorderSolid",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "solid"
+      ]
+    },
+    {
+      "name": "RxBorderSplit",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "split"
+      ]
+    },
+    {
+      "name": "RxBorderStyle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "style"
+      ]
+    },
+    {
+      "name": "RxBorderTop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "top"
+      ]
+    },
+    {
+      "name": "RxBorderWidth",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "border",
+        "width"
+      ]
+    },
+    {
+      "name": "RxBox",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "box"
+      ]
+    },
+    {
+      "name": "RxBoxModel",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "box",
+        "model"
+      ]
+    },
+    {
+      "name": "RxButton",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "button"
+      ]
+    },
+    {
+      "name": "RxCalendar",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "calendar"
+      ]
+    },
+    {
+      "name": "RxCamera",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "camera"
+      ]
+    },
+    {
+      "name": "RxCardStack",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "card",
+        "stack"
+      ]
+    },
+    {
+      "name": "RxCardStackMinus",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "card",
+        "stack",
+        "minus"
+      ]
+    },
+    {
+      "name": "RxCardStackPlus",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "card",
+        "stack",
+        "plus"
+      ]
+    },
+    {
+      "name": "RxCaretDown",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "caret",
+        "down"
+      ]
+    },
+    {
+      "name": "RxCaretLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "caret",
+        "left"
+      ]
+    },
+    {
+      "name": "RxCaretRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "caret",
+        "right"
+      ]
+    },
+    {
+      "name": "RxCaretSort",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "caret",
+        "sort"
+      ]
+    },
+    {
+      "name": "RxCaretUp",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "caret",
+        "up"
+      ]
+    },
+    {
+      "name": "RxChatBubble",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "chat",
+        "bubble"
+      ]
+    },
+    {
+      "name": "RxCheck",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "check"
+      ]
+    },
+    {
+      "name": "RxCheckbox",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "checkbox"
+      ]
+    },
+    {
+      "name": "RxCheckCircled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "check",
+        "circled"
+      ]
+    },
+    {
+      "name": "RxChevronDown",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "chevron",
+        "down"
+      ]
+    },
+    {
+      "name": "RxChevronLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "chevron",
+        "left"
+      ]
+    },
+    {
+      "name": "RxChevronRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "chevron",
+        "right"
+      ]
+    },
+    {
+      "name": "RxChevronUp",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "chevron",
+        "up"
+      ]
+    },
+    {
+      "name": "RxCircle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "circle"
+      ]
+    },
+    {
+      "name": "RxCircleBackslash",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "circle",
+        "backslash"
+      ]
+    },
+    {
+      "name": "RxClipboard",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "RxClipboardCopy",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "clipboard",
+        "copy"
+      ]
+    },
+    {
+      "name": "RxClock",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "clock"
+      ]
+    },
+    {
+      "name": "RxCode",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "code"
+      ]
+    },
+    {
+      "name": "RxCodesandboxLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "codesandbox",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxColorWheel",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "color",
+        "wheel"
+      ]
+    },
+    {
+      "name": "RxColumns",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "columns"
+      ]
+    },
+    {
+      "name": "RxColumnSpacing",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "column",
+        "spacing"
+      ]
+    },
+    {
+      "name": "RxCommit",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "commit"
+      ]
+    },
+    {
+      "name": "RxComponent1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "component1",
+        "component",
+        "1"
+      ]
+    },
+    {
+      "name": "RxComponent2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "component2",
+        "component",
+        "2"
+      ]
+    },
+    {
+      "name": "RxComponentBoolean",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "component",
+        "boolean"
+      ]
+    },
+    {
+      "name": "RxComponentInstance",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "component",
+        "instance"
+      ]
+    },
+    {
+      "name": "RxComponentNone",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "component",
+        "none"
+      ]
+    },
+    {
+      "name": "RxComponentPlaceholder",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "component",
+        "placeholder"
+      ]
+    },
+    {
+      "name": "RxContainer",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "container"
+      ]
+    },
+    {
+      "name": "RxCookie",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "cookie"
+      ]
+    },
+    {
+      "name": "RxCopy",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "copy"
+      ]
+    },
+    {
+      "name": "RxCornerBottomLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "corner",
+        "bottom",
+        "left"
+      ]
+    },
+    {
+      "name": "RxCornerBottomRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "corner",
+        "bottom",
+        "right"
+      ]
+    },
+    {
+      "name": "RxCorners",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "corners"
+      ]
+    },
+    {
+      "name": "RxCornerTopLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "corner",
+        "top",
+        "left"
+      ]
+    },
+    {
+      "name": "RxCornerTopRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "corner",
+        "top",
+        "right"
+      ]
+    },
+    {
+      "name": "RxCountdownTimer",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "countdown",
+        "timer"
+      ]
+    },
+    {
+      "name": "RxCounterClockwiseClock",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "counter",
+        "clockwise",
+        "clock"
+      ]
+    },
+    {
+      "name": "RxCrop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "crop"
+      ]
+    },
+    {
+      "name": "RxCross1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "cross1",
+        "cross",
+        "1"
+      ]
+    },
+    {
+      "name": "RxCross2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "cross2",
+        "cross",
+        "2"
+      ]
+    },
+    {
+      "name": "RxCrossCircled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "cross",
+        "circled"
+      ]
+    },
+    {
+      "name": "RxCrosshair1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "crosshair1",
+        "crosshair",
+        "1"
+      ]
+    },
+    {
+      "name": "RxCrosshair2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "crosshair2",
+        "crosshair",
+        "2"
+      ]
+    },
+    {
+      "name": "RxCrumpledPaper",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "crumpled",
+        "paper"
+      ]
+    },
+    {
+      "name": "RxCube",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "cube"
+      ]
+    },
+    {
+      "name": "RxCursorArrow",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "cursor",
+        "arrow"
+      ]
+    },
+    {
+      "name": "RxCursorText",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "cursor",
+        "text"
+      ]
+    },
+    {
+      "name": "RxDash",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dash"
+      ]
+    },
+    {
+      "name": "RxDashboard",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "RxDesktop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "desktop"
+      ]
+    },
+    {
+      "name": "RxDimensions",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dimensions"
+      ]
+    },
+    {
+      "name": "RxDisc",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "disc"
+      ]
+    },
+    {
+      "name": "RxDiscordLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "discord",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxDividerHorizontal",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "divider",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "RxDividerVertical",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "divider",
+        "vertical"
+      ]
+    },
+    {
+      "name": "RxDot",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dot"
+      ]
+    },
+    {
+      "name": "RxDotFilled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dot",
+        "filled"
+      ]
+    },
+    {
+      "name": "RxDotsHorizontal",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dots",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "RxDotsVertical",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dots",
+        "vertical"
+      ]
+    },
+    {
+      "name": "RxDoubleArrowDown",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "double",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "RxDoubleArrowLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "double",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "RxDoubleArrowRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "double",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "RxDoubleArrowUp",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "double",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "RxDownload",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "download"
+      ]
+    },
+    {
+      "name": "RxDragHandleDots1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "drag",
+        "handle",
+        "dots1",
+        "dots",
+        "1"
+      ]
+    },
+    {
+      "name": "RxDragHandleDots2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "drag",
+        "handle",
+        "dots2",
+        "dots",
+        "2"
+      ]
+    },
+    {
+      "name": "RxDragHandleHorizontal",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "drag",
+        "handle",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "RxDragHandleVertical",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "drag",
+        "handle",
+        "vertical"
+      ]
+    },
+    {
+      "name": "RxDrawingPin",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "drawing",
+        "pin"
+      ]
+    },
+    {
+      "name": "RxDrawingPinFilled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "drawing",
+        "pin",
+        "filled"
+      ]
+    },
+    {
+      "name": "RxDropdownMenu",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "dropdown",
+        "menu"
+      ]
+    },
+    {
+      "name": "RxEnter",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "enter"
+      ]
+    },
+    {
+      "name": "RxEnterFullScreen",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "enter",
+        "full",
+        "screen"
+      ]
+    },
+    {
+      "name": "RxEnvelopeClosed",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "envelope",
+        "closed"
+      ]
+    },
+    {
+      "name": "RxEnvelopeOpen",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "envelope",
+        "open"
+      ]
+    },
+    {
+      "name": "RxEraser",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "eraser"
+      ]
+    },
+    {
+      "name": "RxExclamationTriangle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "exclamation",
+        "triangle"
+      ]
+    },
+    {
+      "name": "RxExit",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "exit"
+      ]
+    },
+    {
+      "name": "RxExitFullScreen",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "exit",
+        "full",
+        "screen"
+      ]
+    },
+    {
+      "name": "RxExternalLink",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "external",
+        "link"
+      ]
+    },
+    {
+      "name": "RxEyeClosed",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "eye",
+        "closed"
+      ]
+    },
+    {
+      "name": "RxEyeNone",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "eye",
+        "none"
+      ]
+    },
+    {
+      "name": "RxEyeOpen",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "eye",
+        "open"
+      ]
+    },
+    {
+      "name": "RxFace",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "face"
+      ]
+    },
+    {
+      "name": "RxFigmaLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "figma",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxFile",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "file"
+      ]
+    },
+    {
+      "name": "RxFileMinus",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "file",
+        "minus"
+      ]
+    },
+    {
+      "name": "RxFilePlus",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "file",
+        "plus"
+      ]
+    },
+    {
+      "name": "RxFileText",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "file",
+        "text"
+      ]
+    },
+    {
+      "name": "RxFontBold",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "font",
+        "bold"
+      ]
+    },
+    {
+      "name": "RxFontFamily",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "font",
+        "family"
+      ]
+    },
+    {
+      "name": "RxFontItalic",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "font",
+        "italic"
+      ]
+    },
+    {
+      "name": "RxFontRoman",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "font",
+        "roman"
+      ]
+    },
+    {
+      "name": "RxFontSize",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "font",
+        "size"
+      ]
+    },
+    {
+      "name": "RxFontStyle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "font",
+        "style"
+      ]
+    },
+    {
+      "name": "RxFrame",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "frame"
+      ]
+    },
+    {
+      "name": "RxFramerLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "framer",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxGear",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "gear"
+      ]
+    },
+    {
+      "name": "RxGithubLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "github",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxGlobe",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "globe"
+      ]
+    },
+    {
+      "name": "RxGrid",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "grid"
+      ]
+    },
+    {
+      "name": "RxGroup",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "group"
+      ]
+    },
+    {
+      "name": "RxHalf1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "half1",
+        "half",
+        "1"
+      ]
+    },
+    {
+      "name": "RxHalf2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "half2",
+        "half",
+        "2"
+      ]
+    },
+    {
+      "name": "RxHamburgerMenu",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "hamburger",
+        "menu"
+      ]
+    },
+    {
+      "name": "RxHand",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "hand"
+      ]
+    },
+    {
+      "name": "RxHeading",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "heading"
+      ]
+    },
+    {
+      "name": "RxHeart",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "heart"
+      ]
+    },
+    {
+      "name": "RxHeartFilled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "heart",
+        "filled"
+      ]
+    },
+    {
+      "name": "RxHeight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "height"
+      ]
+    },
+    {
+      "name": "RxHobbyKnife",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "hobby",
+        "knife"
+      ]
+    },
+    {
+      "name": "RxHome",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "home"
+      ]
+    },
+    {
+      "name": "RxIconjarLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "iconjar",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxIdCard",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "id",
+        "card"
+      ]
+    },
+    {
+      "name": "RxImage",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "image"
+      ]
+    },
+    {
+      "name": "RxInfoCircled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "info",
+        "circled"
+      ]
+    },
+    {
+      "name": "RxInput",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "input"
+      ]
+    },
+    {
+      "name": "RxInstagramLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "instagram",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxKeyboard",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "keyboard"
+      ]
+    },
+    {
+      "name": "RxLapTimer",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "lap",
+        "timer"
+      ]
+    },
+    {
+      "name": "RxLaptop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "laptop"
+      ]
+    },
+    {
+      "name": "RxLayers",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "layers"
+      ]
+    },
+    {
+      "name": "RxLayout",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "layout"
+      ]
+    },
+    {
+      "name": "RxLetterCaseCapitalize",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "letter",
+        "case",
+        "capitalize"
+      ]
+    },
+    {
+      "name": "RxLetterCaseLowercase",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "letter",
+        "case",
+        "lowercase"
+      ]
+    },
+    {
+      "name": "RxLetterCaseToggle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "letter",
+        "case",
+        "toggle"
+      ]
+    },
+    {
+      "name": "RxLetterCaseUppercase",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "letter",
+        "case",
+        "uppercase"
+      ]
+    },
+    {
+      "name": "RxLetterSpacing",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "letter",
+        "spacing"
+      ]
+    },
+    {
+      "name": "RxLightningBolt",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "lightning",
+        "bolt"
+      ]
+    },
+    {
+      "name": "RxLineHeight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "line",
+        "height"
+      ]
+    },
+    {
+      "name": "RxLink1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "link1",
+        "link",
+        "1"
+      ]
+    },
+    {
+      "name": "RxLink2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "link2",
+        "link",
+        "2"
+      ]
+    },
+    {
+      "name": "RxLinkBreak1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "link",
+        "break1",
+        "break",
+        "1"
+      ]
+    },
+    {
+      "name": "RxLinkBreak2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "link",
+        "break2",
+        "break",
+        "2"
+      ]
+    },
+    {
+      "name": "RxLinkedinLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "linkedin",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxLinkNone1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "link",
+        "none1",
+        "none",
+        "1"
+      ]
+    },
+    {
+      "name": "RxLinkNone2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "link",
+        "none2",
+        "none",
+        "2"
+      ]
+    },
+    {
+      "name": "RxListBullet",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "list",
+        "bullet"
+      ]
+    },
+    {
+      "name": "RxLockClosed",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "lock",
+        "closed"
+      ]
+    },
+    {
+      "name": "RxLockOpen1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "lock",
+        "open1",
+        "open",
+        "1"
+      ]
+    },
+    {
+      "name": "RxLockOpen2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "lock",
+        "open2",
+        "open",
+        "2"
+      ]
+    },
+    {
+      "name": "RxLoop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "loop"
+      ]
+    },
+    {
+      "name": "RxMagicWand",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "magic",
+        "wand"
+      ]
+    },
+    {
+      "name": "RxMagnifyingGlass",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "magnifying",
+        "glass"
+      ]
+    },
+    {
+      "name": "RxMargin",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "margin"
+      ]
+    },
+    {
+      "name": "RxMaskOff",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "mask",
+        "off"
+      ]
+    },
+    {
+      "name": "RxMaskOn",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "mask",
+        "on"
+      ]
+    },
+    {
+      "name": "RxMinus",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "minus"
+      ]
+    },
+    {
+      "name": "RxMinusCircled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "minus",
+        "circled"
+      ]
+    },
+    {
+      "name": "RxMix",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "mix"
+      ]
+    },
+    {
+      "name": "RxMixerHorizontal",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "mixer",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "RxMixerVertical",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "mixer",
+        "vertical"
+      ]
+    },
+    {
+      "name": "RxMobile",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "mobile"
+      ]
+    },
+    {
+      "name": "RxModulzLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "modulz",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxMoon",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "moon"
+      ]
+    },
+    {
+      "name": "RxMove",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "move"
+      ]
+    },
+    {
+      "name": "RxNotionLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "notion",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxOpacity",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "opacity"
+      ]
+    },
+    {
+      "name": "RxOpenInNewWindow",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "open",
+        "in",
+        "new",
+        "window"
+      ]
+    },
+    {
+      "name": "RxOverline",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "overline"
+      ]
+    },
+    {
+      "name": "RxPadding",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "padding"
+      ]
+    },
+    {
+      "name": "RxPaperPlane",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "paper",
+        "plane"
+      ]
+    },
+    {
+      "name": "RxPause",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pause"
+      ]
+    },
+    {
+      "name": "RxPencil1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pencil1",
+        "pencil",
+        "1"
+      ]
+    },
+    {
+      "name": "RxPencil2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pencil2",
+        "pencil",
+        "2"
+      ]
+    },
+    {
+      "name": "RxPerson",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "person"
+      ]
+    },
+    {
+      "name": "RxPieChart",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pie",
+        "chart"
+      ]
+    },
+    {
+      "name": "RxPilcrow",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pilcrow"
+      ]
+    },
+    {
+      "name": "RxPinBottom",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pin",
+        "bottom"
+      ]
+    },
+    {
+      "name": "RxPinLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pin",
+        "left"
+      ]
+    },
+    {
+      "name": "RxPinRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pin",
+        "right"
+      ]
+    },
+    {
+      "name": "RxPinTop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "pin",
+        "top"
+      ]
+    },
+    {
+      "name": "RxPlay",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "play"
+      ]
+    },
+    {
+      "name": "RxPlus",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "plus"
+      ]
+    },
+    {
+      "name": "RxPlusCircled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "plus",
+        "circled"
+      ]
+    },
+    {
+      "name": "RxQuestionMark",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "question",
+        "mark"
+      ]
+    },
+    {
+      "name": "RxQuestionMarkCircled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "question",
+        "mark",
+        "circled"
+      ]
+    },
+    {
+      "name": "RxQuote",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "quote"
+      ]
+    },
+    {
+      "name": "RxRadiobutton",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "radiobutton"
+      ]
+    },
+    {
+      "name": "RxReader",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "reader"
+      ]
+    },
+    {
+      "name": "RxReload",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "reload"
+      ]
+    },
+    {
+      "name": "RxReset",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "reset"
+      ]
+    },
+    {
+      "name": "RxResume",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "resume"
+      ]
+    },
+    {
+      "name": "RxRocket",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "rocket"
+      ]
+    },
+    {
+      "name": "RxRotateCounterClockwise",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "rotate",
+        "counter",
+        "clockwise"
+      ]
+    },
+    {
+      "name": "RxRows",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "rows"
+      ]
+    },
+    {
+      "name": "RxRowSpacing",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "row",
+        "spacing"
+      ]
+    },
+    {
+      "name": "RxRulerHorizontal",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "ruler",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "RxRulerSquare",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "ruler",
+        "square"
+      ]
+    },
+    {
+      "name": "RxScissors",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "scissors"
+      ]
+    },
+    {
+      "name": "RxSection",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "section"
+      ]
+    },
+    {
+      "name": "RxSewingPin",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "sewing",
+        "pin"
+      ]
+    },
+    {
+      "name": "RxSewingPinFilled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "sewing",
+        "pin",
+        "filled"
+      ]
+    },
+    {
+      "name": "RxShadow",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "shadow"
+      ]
+    },
+    {
+      "name": "RxShadowInner",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "shadow",
+        "inner"
+      ]
+    },
+    {
+      "name": "RxShadowNone",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "shadow",
+        "none"
+      ]
+    },
+    {
+      "name": "RxShadowOuter",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "shadow",
+        "outer"
+      ]
+    },
+    {
+      "name": "RxShare1",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "share1",
+        "share",
+        "1"
+      ]
+    },
+    {
+      "name": "RxShare2",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "share2",
+        "share",
+        "2"
+      ]
+    },
+    {
+      "name": "RxShuffle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "RxSize",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "size"
+      ]
+    },
+    {
+      "name": "RxSketchLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "sketch",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxSlash",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "slash"
+      ]
+    },
+    {
+      "name": "RxSlider",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "slider"
+      ]
+    },
+    {
+      "name": "RxSpaceBetweenHorizontally",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "space",
+        "between",
+        "horizontally"
+      ]
+    },
+    {
+      "name": "RxSpaceBetweenVertically",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "space",
+        "between",
+        "vertically"
+      ]
+    },
+    {
+      "name": "RxSpaceEvenlyHorizontally",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "space",
+        "evenly",
+        "horizontally"
+      ]
+    },
+    {
+      "name": "RxSpaceEvenlyVertically",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "space",
+        "evenly",
+        "vertically"
+      ]
+    },
+    {
+      "name": "RxSpeakerLoud",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "speaker",
+        "loud"
+      ]
+    },
+    {
+      "name": "RxSpeakerModerate",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "speaker",
+        "moderate"
+      ]
+    },
+    {
+      "name": "RxSpeakerOff",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "speaker",
+        "off"
+      ]
+    },
+    {
+      "name": "RxSpeakerQuiet",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "speaker",
+        "quiet"
+      ]
+    },
+    {
+      "name": "RxSquare",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "square"
+      ]
+    },
+    {
+      "name": "RxStack",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "stack"
+      ]
+    },
+    {
+      "name": "RxStar",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "star"
+      ]
+    },
+    {
+      "name": "RxStarFilled",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "star",
+        "filled"
+      ]
+    },
+    {
+      "name": "RxStitchesLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "stitches",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxStop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "stop"
+      ]
+    },
+    {
+      "name": "RxStopwatch",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "stopwatch"
+      ]
+    },
+    {
+      "name": "RxStretchHorizontally",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "stretch",
+        "horizontally"
+      ]
+    },
+    {
+      "name": "RxStretchVertically",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "stretch",
+        "vertically"
+      ]
+    },
+    {
+      "name": "RxStrikethrough",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "strikethrough"
+      ]
+    },
+    {
+      "name": "RxSun",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "sun"
+      ]
+    },
+    {
+      "name": "RxSwitch",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "switch"
+      ]
+    },
+    {
+      "name": "RxSymbol",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "symbol"
+      ]
+    },
+    {
+      "name": "RxTable",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "table"
+      ]
+    },
+    {
+      "name": "RxTarget",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "target"
+      ]
+    },
+    {
+      "name": "RxText",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text"
+      ]
+    },
+    {
+      "name": "RxTextAlignBottom",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "align",
+        "bottom"
+      ]
+    },
+    {
+      "name": "RxTextAlignCenter",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "align",
+        "center"
+      ]
+    },
+    {
+      "name": "RxTextAlignJustify",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "align",
+        "justify"
+      ]
+    },
+    {
+      "name": "RxTextAlignLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "RxTextAlignMiddle",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "align",
+        "middle"
+      ]
+    },
+    {
+      "name": "RxTextAlignRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "RxTextAlignTop",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "align",
+        "top"
+      ]
+    },
+    {
+      "name": "RxTextNone",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "text",
+        "none"
+      ]
+    },
+    {
+      "name": "RxThickArrowDown",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "thick",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "RxThickArrowLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "thick",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "RxThickArrowRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "thick",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "RxThickArrowUp",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "thick",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "RxTimer",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "timer"
+      ]
+    },
+    {
+      "name": "RxTokens",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "tokens"
+      ]
+    },
+    {
+      "name": "RxTrackNext",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "track",
+        "next"
+      ]
+    },
+    {
+      "name": "RxTrackPrevious",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "track",
+        "previous"
+      ]
+    },
+    {
+      "name": "RxTransform",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "transform"
+      ]
+    },
+    {
+      "name": "RxTransparencyGrid",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "transparency",
+        "grid"
+      ]
+    },
+    {
+      "name": "RxTrash",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "trash"
+      ]
+    },
+    {
+      "name": "RxTriangleDown",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "triangle",
+        "down"
+      ]
+    },
+    {
+      "name": "RxTriangleLeft",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "triangle",
+        "left"
+      ]
+    },
+    {
+      "name": "RxTriangleRight",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "triangle",
+        "right"
+      ]
+    },
+    {
+      "name": "RxTriangleUp",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "triangle",
+        "up"
+      ]
+    },
+    {
+      "name": "RxTwitterLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "twitter",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxUnderline",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "underline"
+      ]
+    },
+    {
+      "name": "RxUpdate",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "update"
+      ]
+    },
+    {
+      "name": "RxUpload",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "upload"
+      ]
+    },
+    {
+      "name": "RxValue",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "value"
+      ]
+    },
+    {
+      "name": "RxValueNone",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "value",
+        "none"
+      ]
+    },
+    {
+      "name": "RxVercelLogo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "vercel",
+        "logo"
+      ]
+    },
+    {
+      "name": "RxVideo",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "video"
+      ]
+    },
+    {
+      "name": "RxViewGrid",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "view",
+        "grid"
+      ]
+    },
+    {
+      "name": "RxViewHorizontal",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "view",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "RxViewNone",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "view",
+        "none"
+      ]
+    },
+    {
+      "name": "RxViewVertical",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "view",
+        "vertical"
+      ]
+    },
+    {
+      "name": "RxWidth",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "width"
+      ]
+    },
+    {
+      "name": "RxZoomIn",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "RxZoomOut",
+      "set": "rx",
+      "terms": [
+        "rx",
+        "zoom",
+        "out"
+      ]
+    },
+    {
       "name": "SlActionRedo",
       "set": "sl",
       "terms": [

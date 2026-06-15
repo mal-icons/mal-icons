@@ -231,4 +231,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "SVG",
     style: "fill",
   },
+  rx: {
+    id: "rx",
+    prefix: "Rx",
+    name: "Radix Icons",
+    license: "MIT",
+    repo: "radix-ui/icons",
+    ref: "website@0.0.17",
+    iconDir: "packages/radix-icons/icons",
+    style: "fill",
+  },
 };

@@ -26,6 +26,7 @@ import { fileURLToPath } from "node:url";
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ICONS_DIR = path.join(HERE, "..", "references", "icons");
 const SETS = [
+  "rx",
   "tf",
   "vsc",
   "cg",

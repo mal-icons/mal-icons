@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-sun",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxSun {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M7.5 0C7.78 0 8 0.22 8 0.5V2.5C8 2.78 7.78 3 7.5 3C7.22 3 7 2.78 7 2.5V0.5C7 0.22 7.22 0 7.5 0ZM2.2 2.2C2.39 2 2.71 2 2.9 2.2L4.32 3.61C4.51 3.81 4.51 4.12 4.32 4.32C4.12 4.51 3.81 4.51 3.61 4.32L2.2 2.9C2 2.71 2 2.39 2.2 2.2ZM0.5 7C0.22 7 0 7.22 0 7.5C0 7.78 0.22 8 0.5 8H2.5C2.78 8 3 7.78 3 7.5C3 7.22 2.78 7 2.5 7H0.5ZM2.2 12.8C2 12.61 2 12.29 2.2 12.1L3.61 10.68C3.81 10.49 4.12 10.49 4.32 10.68C4.51 10.88 4.51 11.19 4.32 11.39L2.9 12.8C2.71 13 2.39 13 2.2 12.8ZM12.5 7C12.22 7 12 7.22 12 7.5C12 7.78 12.22 8 12.5 8H14.5C14.78 8 15 7.78 15 7.5C15 7.22 14.78 7 14.5 7H12.5ZM10.68 4.32C10.49 4.12 10.49 3.81 10.68 3.61L12.1 2.2C12.29 2 12.61 2 12.8 2.2C13 2.39 13 2.71 12.8 2.9L11.39 4.32C11.19 4.51 10.88 4.51 10.68 4.32ZM8 12.5C8 12.22 7.78 12 7.5 12C7.22 12 7 12.22 7 12.5V14.5C7 14.78 7.22 15 7.5 15C7.78 15 8 14.78 8 14.5V12.5ZM10.68 10.68C10.88 10.49 11.19 10.49 11.39 10.68L12.8 12.1C13 12.29 13 12.61 12.8 12.8C12.61 13 12.29 13 12.1 12.8L10.68 11.39C10.49 11.19 10.49 10.88 10.68 10.68ZM5.5 7.5C5.5 6.4 6.4 5.5 7.5 5.5C8.6 5.5 9.5 6.4 9.5 7.5C9.5 8.6 8.6 9.5 7.5 9.5C6.4 9.5 5.5 8.6 5.5 7.5ZM7.5 4.5C5.84 4.5 4.5 5.84 4.5 7.5C4.5 9.16 5.84 10.5 7.5 10.5C9.16 10.5 10.5 9.16 10.5 7.5C10.5 5.84 9.16 4.5 7.5 4.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxSun;

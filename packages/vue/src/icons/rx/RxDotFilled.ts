@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RxDotFilled = createIcon("0 0 15 15", [["path",{"d":"M9.88 7.5C9.88 8.81 8.81 9.88 7.5 9.88C6.19 9.88 5.13 8.81 5.13 7.5C5.13 6.19 6.19 5.13 7.5 5.13C8.81 5.13 9.88 6.19 9.88 7.5Z","fill":"currentColor"}]]);
+
+export default RxDotFilled;

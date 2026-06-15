@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-shuffle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxShuffle {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12.35 1.15C12.16 0.95 11.84 0.95 11.65 1.15C11.45 1.34 11.45 1.66 11.65 1.85L12.79 3H12C10.7 3 9.71 3.58 8.87 4.39C8.2 5.03 7.59 5.86 6.99 6.67C6.86 6.85 6.73 7.02 6.6 7.2C5.11 9.19 3.49 11 0.5 11C0.22 11 0 11.22 0 11.5C0 11.78 0.22 12 0.5 12C4.01 12 5.89 9.81 7.4 7.8C7.54 7.61 7.68 7.42 7.82 7.23L7.82 7.23L7.82 7.23C8.42 6.43 8.96 5.69 9.57 5.11C10.29 4.42 11.05 4 12 4H12.79L11.65 5.15C11.45 5.34 11.45 5.66 11.65 5.85C11.84 6.05 12.16 6.05 12.35 5.85L14.35 3.85C14.55 3.66 14.55 3.34 14.35 3.15L12.35 1.15ZM0.5 3C3.35 3 5.13 4.45 6.51 6.07L6.38 6.24C6.25 6.42 6.12 6.59 6 6.75C5.96 6.8 5.93 6.85 5.89 6.89C4.57 5.29 3.03 4 0.5 4C0.22 4 0 3.78 0 3.5C0 3.22 0.22 3 0.5 3ZM8.87 10.61C8.37 10.13 7.91 9.55 7.46 8.95C7.65 8.72 7.83 8.48 8 8.25L8.09 8.13C8.58 8.79 9.05 9.4 9.57 9.89C10.29 10.58 11.05 11 12 11H12.79L11.65 9.85C11.45 9.66 11.45 9.34 11.65 9.15C11.84 8.95 12.16 8.95 12.35 9.15L14.35 11.15C14.55 11.34 14.55 11.66 14.35 11.85L12.35 13.85C12.16 14.05 11.84 14.05 11.65 13.85C11.45 13.66 11.45 13.34 11.65 13.15L12.79 12H12C10.7 12 9.71 11.42 8.87 10.61Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxShuffle;

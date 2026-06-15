@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-padding",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxPadding {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M2.86 2H12.14C12.62 2 13 2.38 13 2.86V12.14C13 12.62 12.62 13 12.14 13H2.86C2.38 13 2 12.62 2 12.14V2.86C2 2.38 2.38 2 2.86 2ZM1 2.86C1 1.83 1.83 1 2.86 1H12.14C13.17 1 14 1.83 14 2.86V12.14C14 13.17 13.17 14 12.14 14H2.86C1.83 14 1 13.17 1 12.14V2.86ZM7.5 5C7.78 5 8 4.78 8 4.5C8 4.22 7.78 4 7.5 4C7.22 4 7 4.22 7 4.5C7 4.78 7.22 5 7.5 5ZM4.5 11C4.78 11 5 10.78 5 10.5C5 10.22 4.78 10 4.5 10C4.22 10 4 10.22 4 10.5C4 10.78 4.22 11 4.5 11ZM5 7.5C5 7.78 4.78 8 4.5 8C4.22 8 4 7.78 4 7.5C4 7.22 4.22 7 4.5 7C4.78 7 5 7.22 5 7.5ZM4.5 5C4.78 5 5 4.78 5 4.5C5 4.22 4.78 4 4.5 4C4.22 4 4 4.22 4 4.5C4 4.78 4.22 5 4.5 5ZM11 10.5C11 10.78 10.78 11 10.5 11C10.22 11 10 10.78 10 10.5C10 10.22 10.22 10 10.5 10C10.78 10 11 10.22 11 10.5ZM10.5 8C10.78 8 11 7.78 11 7.5C11 7.22 10.78 7 10.5 7C10.22 7 10 7.22 10 7.5C10 7.78 10.22 8 10.5 8ZM11 4.5C11 4.78 10.78 5 10.5 5C10.22 5 10 4.78 10 4.5C10 4.22 10.22 4 10.5 4C10.78 4 11 4.22 11 4.5ZM7.5 11C7.78 11 8 10.78 8 10.5C8 10.22 7.78 10 7.5 10C7.22 10 7 10.22 7 10.5C7 10.78 7.22 11 7.5 11Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxPadding;

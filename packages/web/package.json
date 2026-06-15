@@ -120,6 +120,12 @@
     "./io/*.json": "./src/icons/io/*.json",
     "./lu/*.json": "./src/icons/lu/*.json",
     "./oc/*.json": "./src/icons/oc/*.json",
+    "./rx": {
+      "types": "./dist/icons/rx/index.d.ts",
+      "bun": "./src/icons/rx/index.ts",
+      "import": "./dist/icons/rx/index.js"
+    },
+    "./rx/*.json": "./src/icons/rx/*.json",
     "./sl": {
       "types": "./dist/icons/sl/index.d.ts",
       "bun": "./src/icons/sl/index.ts",

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-rx-magic-wand",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RxMagicWand {
+  readonly viewBox = "0 0 15 15";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M13.9 0.5C13.9 0.28 13.72 0.1 13.5 0.1C13.28 0.1 13.1 0.28 13.1 0.5V1.1H12.5C12.28 1.1 12.1 1.28 12.1 1.5C12.1 1.72 12.28 1.9 12.5 1.9H13.1V2.5C13.1 2.72 13.28 2.9 13.5 2.9C13.72 2.9 13.9 2.72 13.9 2.5V1.9H14.5C14.72 1.9 14.9 1.72 14.9 1.5C14.9 1.28 14.72 1.1 14.5 1.1H13.9V0.5ZM11.85 3.15C12.05 3.34 12.05 3.66 11.85 3.85L10.85 4.85C10.66 5.05 10.34 5.05 10.15 4.85C9.95 4.66 9.95 4.34 10.15 4.15L11.15 3.15C11.34 2.95 11.66 2.95 11.85 3.15ZM9.85 5.15C10.05 5.34 10.05 5.66 9.85 5.85L2.85 12.85C2.66 13.05 2.34 13.05 2.15 12.85C1.95 12.66 1.95 12.34 2.15 12.15L9.15 5.15C9.34 4.95 9.66 4.95 9.85 5.15ZM13.5 5.1C13.72 5.1 13.9 5.28 13.9 5.5V6.1H14.5C14.72 6.1 14.9 6.28 14.9 6.5C14.9 6.72 14.72 6.9 14.5 6.9H13.9V7.5C13.9 7.72 13.72 7.9 13.5 7.9C13.28 7.9 13.1 7.72 13.1 7.5V6.9H12.5C12.28 6.9 12.1 6.72 12.1 6.5C12.1 6.28 12.28 6.1 12.5 6.1H13.1V5.5C13.1 5.28 13.28 5.1 13.5 5.1ZM8.9 0.5C8.9 0.28 8.72 0.1 8.5 0.1C8.28 0.1 8.1 0.28 8.1 0.5V1.1H7.5C7.28 1.1 7.1 1.28 7.1 1.5C7.1 1.72 7.28 1.9 7.5 1.9H8.1V2.5C8.1 2.72 8.28 2.9 8.5 2.9C8.72 2.9 8.9 2.72 8.9 2.5V1.9H9.5C9.72 1.9 9.9 1.72 9.9 1.5C9.9 1.28 9.72 1.1 9.5 1.1H8.9V0.5Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RxMagicWand;
