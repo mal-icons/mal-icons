@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgFlagAlt = createIcon("0 0 24 24", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M12.44 7L14.84 4H7V10H14.84L12.44 7ZM19 12H7V22H5V2H19L15 7L19 12Z","fill":"currentColor"}]]);
+
+export default CgFlagAlt;

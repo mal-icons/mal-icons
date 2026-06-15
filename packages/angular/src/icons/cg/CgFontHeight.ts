@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-font-height",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgFontHeight {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 5V3H3V5H21Z","fill":"currentColor"}],["path",{"d":"M21 19V21H3V19H21Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12 7.38C11.6 7.35 11.21 7.57 11.03 7.95L7.65 15.2C7.42 15.7 7.63 16.3 8.14 16.53C8.64 16.76 9.23 16.55 9.46 16.05L9.95 15H14.05L14.54 16.05C14.77 16.55 15.36 16.76 15.86 16.53C16.37 16.3 16.58 15.7 16.35 15.2L12.97 7.95C12.79 7.57 12.4 7.35 12 7.38ZM13.11 13H10.89L12 10.61L13.11 13Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgFontHeight;

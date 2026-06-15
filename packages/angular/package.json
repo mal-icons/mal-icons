@@ -41,6 +41,14 @@
       "bun": "./src/icons/ad/*.ts",
       "import": "./src/icons/ad/*.ts"
     },
+    "./cg": {
+      "bun": "./src/icons/cg/index.ts",
+      "import": "./src/icons/cg/index.ts"
+    },
+    "./cg/*": {
+      "bun": "./src/icons/cg/*.ts",
+      "import": "./src/icons/cg/*.ts"
+    },
     "./ci": {
       "bun": "./src/icons/ci/index.ts",
       "import": "./src/icons/ci/index.ts"

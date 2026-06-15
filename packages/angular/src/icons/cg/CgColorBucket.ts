@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-color-bucket",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgColorBucket {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M8.2 2C9.46 2 10.51 3.11 10.68 4.54L19.16 13.03L11.38 20.8C10.21 21.98 8.31 21.98 7.14 20.8L2.9 16.56C1.73 15.39 1.73 13.49 2.9 12.32L5.7 9.51V4.96C5.7 3.33 6.82 2 8.2 2ZM8.7 4.96V6.51L7.7 7.51V4.96C7.7 4.63 7.93 4.37 8.2 4.37C8.48 4.37 8.7 4.63 8.7 4.96ZM8.7 10.88V9.34L4.31 13.73C3.92 14.12 3.92 14.76 4.31 15.15L8.56 19.39C8.95 19.78 9.58 19.78 9.97 19.39L16.33 13.03L10.7 7.4V10.88C10.7 10.92 10.7 10.96 10.7 11H8.69C8.7 10.96 8.7 10.92 8.7 10.88Z","fill":"currentColor"}],["path",{"d":"M16.86 16.87C15.69 18.05 15.69 19.95 16.86 21.12C18.03 22.29 19.93 22.29 21.1 21.12C22.27 19.95 22.27 18.05 21.1 16.87L18.98 14.75L16.86 16.87Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgColorBucket;

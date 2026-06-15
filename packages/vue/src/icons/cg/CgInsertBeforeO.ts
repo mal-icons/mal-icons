@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgInsertBeforeO = createIcon("0 0 24 24", [["path",{"d":"M5 3C4.45 3 4 2.55 4 2C4 1.45 4.45 1 5 1H19C19.55 1 20 1.45 20 2C20 2.55 19.55 3 19 3H5Z","fill":"currentColor"}],["path",{"d":"M9 15C8.45 15 8 14.55 8 14C8 13.45 8.45 13 9 13H11V11C11 10.45 11.45 10 12 10C12.55 10 13 10.45 13 11V13H15C15.55 13 16 13.45 16 14C16 14.55 15.55 15 15 15H13V17C13 17.55 12.55 18 12 18C11.45 18 11 17.55 11 17V15H9Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4 14C4 18.42 7.58 22 12 22C16.42 22 20 18.42 20 14C20 9.58 16.42 6 12 6C7.58 6 4 9.58 4 14ZM12 8C8.69 8 6 10.69 6 14C6 17.31 8.69 20 12 20C15.31 20 18 17.31 18 14C18 10.69 15.31 8 12 8Z","fill":"currentColor"}]]);
+
+export default CgInsertBeforeO;

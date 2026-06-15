@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-dice-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgDice2 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.2 14.94C16.1 14.94 15.2 15.84 15.2 16.94C15.2 18.05 16.1 18.94 17.2 18.94C18.3 18.94 19.2 18.05 19.2 16.94C19.2 15.84 18.3 14.94 17.2 14.94Z","fill":"currentColor"}],["path",{"d":"M5.06 7.06C5.06 5.95 5.95 5.06 7.06 5.06C8.16 5.06 9.06 5.95 9.06 7.06C9.06 8.16 8.16 9.06 7.06 9.06C5.95 9.06 5.06 8.16 5.06 7.06Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4 1C2.34 1 1 2.34 1 4V20C1 21.66 2.34 23 4 23H20C21.66 23 23 21.66 23 20V4C23 2.34 21.66 1 20 1H4ZM20 3H4C3.45 3 3 3.45 3 4V20C3 20.55 3.45 21 4 21H20C20.55 21 21 20.55 21 20V4C21 3.45 20.55 3 20 3Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgDice2;

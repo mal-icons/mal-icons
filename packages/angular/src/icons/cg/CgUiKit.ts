@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-ui-kit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgUiKit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M14 6H10C9.45 6 9 6.45 9 7V17C9 17.55 9.45 18 10 18H14C14.55 18 15 17.55 15 17V7C15 6.45 14.55 6 14 6ZM10 4C8.34 4 7 5.34 7 7V17C7 18.66 8.34 20 10 20H14C15.66 20 17 18.66 17 17V7C17 5.34 15.66 4 14 4H10Z","fill":"currentColor"}],["path",{"d":"M6 7.46L3.49 7.04C1.66 6.74 0 8.15 0 10V14.92C0 16.77 1.66 18.18 3.49 17.88L6 17.46V15.43L3.16 15.9C2.55 16.01 2 15.54 2 14.92V10C2 9.38 2.55 8.91 3.16 9.01L6 9.49V7.46Z","fill":"currentColor"}],["path",{"d":"M18 7.46L20.51 7.04C22.34 6.74 24 8.15 24 10V14.92C24 16.77 22.34 18.18 20.51 17.88L18 17.46V15.43L20.84 15.9C21.45 16.01 22 15.54 22 14.92V10C22 9.38 21.45 8.91 20.84 9.01L18 9.49V7.46Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgUiKit;

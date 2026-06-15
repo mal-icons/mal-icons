@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgWebsite = createIcon("0 0 24 24", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M14 7C13.45 7 13 7.45 13 8V16C13 16.55 13.45 17 14 17H18C18.55 17 19 16.55 19 16V8C19 7.45 18.55 7 18 7H14ZM17 9H15V15H17V9Z","fill":"currentColor"}],["path",{"d":"M6 7C5.45 7 5 7.45 5 8C5 8.55 5.45 9 6 9H10C10.55 9 11 8.55 11 8C11 7.45 10.55 7 10 7H6Z","fill":"currentColor"}],["path",{"d":"M6 11C5.45 11 5 11.45 5 12C5 12.55 5.45 13 6 13H10C10.55 13 11 12.55 11 12C11 11.45 10.55 11 10 11H6Z","fill":"currentColor"}],["path",{"d":"M5 16C5 15.45 5.45 15 6 15H10C10.55 15 11 15.45 11 16C11 16.55 10.55 17 10 17H6C5.45 17 5 16.55 5 16Z","fill":"currentColor"}],["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M4 3C2.34 3 1 4.34 1 6V18C1 19.66 2.34 21 4 21H20C21.66 21 23 19.66 23 18V6C23 4.34 21.66 3 20 3H4ZM20 5H4C3.45 5 3 5.45 3 6V18C3 18.55 3.45 19 4 19H20C20.55 19 21 18.55 21 18V6C21 5.45 20.55 5 20 5Z","fill":"currentColor"}]]);
+
+export default CgWebsite;

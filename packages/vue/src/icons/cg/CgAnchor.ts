@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgAnchor = createIcon("0 0 24 24", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M15 6C15 7.31 14.17 8.42 13 8.83V16.87C14.73 16.43 16 14.86 16 13H18C18 15.97 15.84 18.44 13 18.92V20C13 20.55 12.55 21 12 21C11.45 21 11 20.55 11 20V18.92C8.16 18.44 6 15.97 6 13H8C8 14.86 9.27 16.43 11 16.87V8.83C9.83 8.42 9 7.31 9 6C9 4.34 10.34 3 12 3C13.66 3 15 4.34 15 6ZM12 7C12.55 7 13 6.55 13 6C13 5.45 12.55 5 12 5C11.45 5 11 5.45 11 6C11 6.55 11.45 7 12 7Z","fill":"currentColor"}]]);
+
+export default CgAnchor;

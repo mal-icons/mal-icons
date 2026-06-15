@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-headset",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgHeadset {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M17 21C15.9 21 15 20.1 15 19V15C15 13.9 15.9 13 17 13H19V12C19 8.13 15.87 5 12 5C8.13 5 5 8.13 5 12V13H7C8.1 13 9 13.9 9 15V19C9 20.1 8.1 21 7 21H3V12C3 7.03 7.03 3 12 3C16.97 3 21 7.03 21 12V21H17ZM19 15H17V19H19V15ZM7 15H5V19H7V15Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgHeadset;

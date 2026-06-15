@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-arrows-exchange-v",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgArrowsExchangeV {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.98 15C12.98 15.55 13.43 16 13.98 16C14.34 16 14.66 15.81 14.83 15.53L17.52 12.84C17.91 12.45 17.91 11.82 17.52 11.43C17.13 11.04 16.5 11.04 16.11 11.43L14.98 12.55L14.98 5C14.98 4.45 14.54 4 13.98 4C13.43 4 12.98 4.45 12.98 5L12.98 14.95C12.98 14.96 12.98 14.97 12.98 14.98V15Z","fill":"currentColor"}],["path",{"d":"M11.02 9C11.02 8.45 10.57 8 10.02 8C9.66 8 9.34 8.19 9.17 8.47L6.48 11.16C6.09 11.55 6.09 12.18 6.48 12.57C6.87 12.96 7.5 12.96 7.89 12.57L9.02 11.45L9.02 19C9.02 19.55 9.46 20 10.02 20C10.57 20 11.02 19.55 11.02 19L11.02 9.05C11.02 9.04 11.02 9.03 11.02 9.02V9Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgArrowsExchangeV;

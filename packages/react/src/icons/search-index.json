@@ -3560,6 +3560,6308 @@
       ]
     },
     {
+      "name": "CgAbstract",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "abstract"
+      ]
+    },
+    {
+      "name": "CgAdd",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "add"
+      ]
+    },
+    {
+      "name": "CgAddR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "add",
+        "r"
+      ]
+    },
+    {
+      "name": "CgAdidas",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "adidas"
+      ]
+    },
+    {
+      "name": "CgAirplane",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "airplane"
+      ]
+    },
+    {
+      "name": "CgAlarm",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "alarm"
+      ]
+    },
+    {
+      "name": "CgAlbum",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "album"
+      ]
+    },
+    {
+      "name": "CgAlignBottom",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "align",
+        "bottom"
+      ]
+    },
+    {
+      "name": "CgAlignCenter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "align",
+        "center"
+      ]
+    },
+    {
+      "name": "CgAlignLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "CgAlignMiddle",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "align",
+        "middle"
+      ]
+    },
+    {
+      "name": "CgAlignRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "CgAlignTop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "align",
+        "top"
+      ]
+    },
+    {
+      "name": "CgAnchor",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "anchor"
+      ]
+    },
+    {
+      "name": "CgAppleWatch",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "apple",
+        "watch"
+      ]
+    },
+    {
+      "name": "CgArrangeBack",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrange",
+        "back"
+      ]
+    },
+    {
+      "name": "CgArrangeFront",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrange",
+        "front"
+      ]
+    },
+    {
+      "name": "CgArrowAlignH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "align",
+        "h"
+      ]
+    },
+    {
+      "name": "CgArrowAlignV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "align",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowBottomLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "bottom",
+        "left"
+      ]
+    },
+    {
+      "name": "CgArrowBottomLeftO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "bottom",
+        "left",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowBottomLeftR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "bottom",
+        "left",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowBottomRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "bottom",
+        "right"
+      ]
+    },
+    {
+      "name": "CgArrowBottomRightO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "bottom",
+        "right",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowBottomRightR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "bottom",
+        "right",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "CgArrowDownO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "down",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowDownR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "down",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "CgArrowLeftO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "left",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowLeftR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "left",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowLongDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "down"
+      ]
+    },
+    {
+      "name": "CgArrowLongDownC",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "down",
+        "c"
+      ]
+    },
+    {
+      "name": "CgArrowLongDownE",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "down",
+        "e"
+      ]
+    },
+    {
+      "name": "CgArrowLongDownL",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "down",
+        "l"
+      ]
+    },
+    {
+      "name": "CgArrowLongDownR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "down",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowLongLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "left"
+      ]
+    },
+    {
+      "name": "CgArrowLongLeftC",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "left",
+        "c"
+      ]
+    },
+    {
+      "name": "CgArrowLongLeftE",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "left",
+        "e"
+      ]
+    },
+    {
+      "name": "CgArrowLongLeftL",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "left",
+        "l"
+      ]
+    },
+    {
+      "name": "CgArrowLongLeftR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "left",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowLongRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "right"
+      ]
+    },
+    {
+      "name": "CgArrowLongRightC",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "right",
+        "c"
+      ]
+    },
+    {
+      "name": "CgArrowLongRightE",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "right",
+        "e"
+      ]
+    },
+    {
+      "name": "CgArrowLongRightL",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "right",
+        "l"
+      ]
+    },
+    {
+      "name": "CgArrowLongRightR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "right",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowLongUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "up"
+      ]
+    },
+    {
+      "name": "CgArrowLongUpC",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "up",
+        "c"
+      ]
+    },
+    {
+      "name": "CgArrowLongUpE",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "up",
+        "e"
+      ]
+    },
+    {
+      "name": "CgArrowLongUpL",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "up",
+        "l"
+      ]
+    },
+    {
+      "name": "CgArrowLongUpR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "long",
+        "up",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "CgArrowRightO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "right",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowRightR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "right",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowsBreakeH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "breake",
+        "h"
+      ]
+    },
+    {
+      "name": "CgArrowsBreakeV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "breake",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowsExchange",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "exchange"
+      ]
+    },
+    {
+      "name": "CgArrowsExchangeAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "exchange",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgArrowsExchangeAltV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "exchange",
+        "alt",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowsExchangeV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "exchange",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandDownLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandDownRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "left"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandLeftAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "left",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "right"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandRightAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "right",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandUpLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "CgArrowsExpandUpRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "expand",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "CgArrowsH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "h"
+      ]
+    },
+    {
+      "name": "CgArrowsHAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "halt",
+        "h",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgArrowsMergeAltH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "merge",
+        "alt",
+        "h"
+      ]
+    },
+    {
+      "name": "CgArrowsMergeAltV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "merge",
+        "alt",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowsScrollH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "scroll",
+        "h"
+      ]
+    },
+    {
+      "name": "CgArrowsScrollV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "scroll",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowsShrinkH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "shrink",
+        "h"
+      ]
+    },
+    {
+      "name": "CgArrowsShrinkV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "shrink",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowsV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "v"
+      ]
+    },
+    {
+      "name": "CgArrowsVAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrows",
+        "valt",
+        "v",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgArrowTopLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "top",
+        "left"
+      ]
+    },
+    {
+      "name": "CgArrowTopLeftO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "top",
+        "left",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowTopLeftR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "top",
+        "left",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowTopRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "top",
+        "right"
+      ]
+    },
+    {
+      "name": "CgArrowTopRightO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "top",
+        "right",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowTopRightR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "top",
+        "right",
+        "r"
+      ]
+    },
+    {
+      "name": "CgArrowUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "CgArrowUpO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "up",
+        "o"
+      ]
+    },
+    {
+      "name": "CgArrowUpR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "arrow",
+        "up",
+        "r"
+      ]
+    },
+    {
+      "name": "CgAssign",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "assign"
+      ]
+    },
+    {
+      "name": "CgAsterisk",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "asterisk"
+      ]
+    },
+    {
+      "name": "CgAtlasian",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "atlasian"
+      ]
+    },
+    {
+      "name": "CgAttachment",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "attachment"
+      ]
+    },
+    {
+      "name": "CgAttribution",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "attribution"
+      ]
+    },
+    {
+      "name": "CgAwards",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "awards"
+      ]
+    },
+    {
+      "name": "CgBackspace",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "backspace"
+      ]
+    },
+    {
+      "name": "CgBandAid",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "band",
+        "aid"
+      ]
+    },
+    {
+      "name": "CgBattery",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "battery"
+      ]
+    },
+    {
+      "name": "CgBatteryEmpty",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "battery",
+        "empty"
+      ]
+    },
+    {
+      "name": "CgBatteryFull",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "battery",
+        "full"
+      ]
+    },
+    {
+      "name": "CgBee",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bee"
+      ]
+    },
+    {
+      "name": "CgBell",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bell"
+      ]
+    },
+    {
+      "name": "CgBitbucket",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bitbucket"
+      ]
+    },
+    {
+      "name": "CgBlock",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "block"
+      ]
+    },
+    {
+      "name": "CgBmw",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bmw"
+      ]
+    },
+    {
+      "name": "CgBoard",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "board"
+      ]
+    },
+    {
+      "name": "CgBolt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bolt"
+      ]
+    },
+    {
+      "name": "CgBookmark",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "CgBorderAll",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "all"
+      ]
+    },
+    {
+      "name": "CgBorderBottom",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "bottom"
+      ]
+    },
+    {
+      "name": "CgBorderLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "left"
+      ]
+    },
+    {
+      "name": "CgBorderRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "right"
+      ]
+    },
+    {
+      "name": "CgBorderStyleDashed",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "style",
+        "dashed"
+      ]
+    },
+    {
+      "name": "CgBorderStyleDotted",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "style",
+        "dotted"
+      ]
+    },
+    {
+      "name": "CgBorderStyleSolid",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "style",
+        "solid"
+      ]
+    },
+    {
+      "name": "CgBorderTop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "border",
+        "top"
+      ]
+    },
+    {
+      "name": "CgBot",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bot"
+      ]
+    },
+    {
+      "name": "CgBowl",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bowl"
+      ]
+    },
+    {
+      "name": "CgBox",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "box"
+      ]
+    },
+    {
+      "name": "CgBoy",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "boy"
+      ]
+    },
+    {
+      "name": "CgBrackets",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "brackets"
+      ]
+    },
+    {
+      "name": "CgBriefcase",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "CgBrowse",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "browse"
+      ]
+    },
+    {
+      "name": "CgBrowser",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "browser"
+      ]
+    },
+    {
+      "name": "CgBrush",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "brush"
+      ]
+    },
+    {
+      "name": "CgBulb",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "bulb"
+      ]
+    },
+    {
+      "name": "CgCalculator",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calculator"
+      ]
+    },
+    {
+      "name": "CgCalendar",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calendar"
+      ]
+    },
+    {
+      "name": "CgCalendarDates",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calendar",
+        "dates"
+      ]
+    },
+    {
+      "name": "CgCalendarDue",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calendar",
+        "due"
+      ]
+    },
+    {
+      "name": "CgCalendarNext",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calendar",
+        "next"
+      ]
+    },
+    {
+      "name": "CgCalendarToday",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calendar",
+        "today"
+      ]
+    },
+    {
+      "name": "CgCalendarTwo",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calendar",
+        "two"
+      ]
+    },
+    {
+      "name": "CgCalibrate",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "calibrate"
+      ]
+    },
+    {
+      "name": "CgCamera",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "camera"
+      ]
+    },
+    {
+      "name": "CgCap",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "cap"
+      ]
+    },
+    {
+      "name": "CgCaptions",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "captions"
+      ]
+    },
+    {
+      "name": "CgCardClubs",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "card",
+        "clubs"
+      ]
+    },
+    {
+      "name": "CgCardDiamonds",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "card",
+        "diamonds"
+      ]
+    },
+    {
+      "name": "CgCardHearts",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "card",
+        "hearts"
+      ]
+    },
+    {
+      "name": "CgCardSpades",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "card",
+        "spades"
+      ]
+    },
+    {
+      "name": "CgCarousel",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "carousel"
+      ]
+    },
+    {
+      "name": "CgCast",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "cast"
+      ]
+    },
+    {
+      "name": "CgChanel",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chanel"
+      ]
+    },
+    {
+      "name": "CgChart",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chart"
+      ]
+    },
+    {
+      "name": "CgCheck",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "check"
+      ]
+    },
+    {
+      "name": "CgCheckO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "check",
+        "o"
+      ]
+    },
+    {
+      "name": "CgCheckR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "check",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "down"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleDownO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "down",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleDownR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "down",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "left"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleLeftO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "left",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleLeftR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "left",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "right"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleRightO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "right",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleRightR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "right",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "up"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleUpO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "up",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronDoubleUpR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "double",
+        "up",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "down"
+      ]
+    },
+    {
+      "name": "CgChevronDownO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "down",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronDownR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "down",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "left"
+      ]
+    },
+    {
+      "name": "CgChevronLeftO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "left",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronLeftR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "left",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "right"
+      ]
+    },
+    {
+      "name": "CgChevronRightO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "right",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronRightR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "right",
+        "r"
+      ]
+    },
+    {
+      "name": "CgChevronUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "up"
+      ]
+    },
+    {
+      "name": "CgChevronUpO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "up",
+        "o"
+      ]
+    },
+    {
+      "name": "CgChevronUpR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "chevron",
+        "up",
+        "r"
+      ]
+    },
+    {
+      "name": "CgCircleci",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "circleci"
+      ]
+    },
+    {
+      "name": "CgClapperBoard",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "clapper",
+        "board"
+      ]
+    },
+    {
+      "name": "CgClipboard",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "CgClose",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "close"
+      ]
+    },
+    {
+      "name": "CgCloseO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "close",
+        "o"
+      ]
+    },
+    {
+      "name": "CgCloseR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "close",
+        "r"
+      ]
+    },
+    {
+      "name": "CgCloud",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "cloud"
+      ]
+    },
+    {
+      "name": "CgCode",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "code"
+      ]
+    },
+    {
+      "name": "CgCodeClimate",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "code",
+        "climate"
+      ]
+    },
+    {
+      "name": "CgCodeSlash",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "code",
+        "slash"
+      ]
+    },
+    {
+      "name": "CgCoffee",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "coffee"
+      ]
+    },
+    {
+      "name": "CgCollage",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "collage"
+      ]
+    },
+    {
+      "name": "CgColorBucket",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "color",
+        "bucket"
+      ]
+    },
+    {
+      "name": "CgColorPicker",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "color",
+        "picker"
+      ]
+    },
+    {
+      "name": "CgComedyCentral",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "comedy",
+        "central"
+      ]
+    },
+    {
+      "name": "CgComment",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "comment"
+      ]
+    },
+    {
+      "name": "CgCommunity",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "community"
+      ]
+    },
+    {
+      "name": "CgComponents",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "components"
+      ]
+    },
+    {
+      "name": "CgCompress",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "compress"
+      ]
+    },
+    {
+      "name": "CgCompressLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "compress",
+        "left"
+      ]
+    },
+    {
+      "name": "CgCompressRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "compress",
+        "right"
+      ]
+    },
+    {
+      "name": "CgCompressV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "compress",
+        "v"
+      ]
+    },
+    {
+      "name": "CgController",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "controller"
+      ]
+    },
+    {
+      "name": "CgCopy",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "copy"
+      ]
+    },
+    {
+      "name": "CgCopyright",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "copyright"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleDownLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleDownRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleLeftDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleLeftUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleRightDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleRightUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleUpLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "CgCornerDoubleUpRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "double",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "CgCornerDownLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "CgCornerDownRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "CgCornerLeftDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "name": "CgCornerLeftUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "name": "CgCornerRightDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "name": "CgCornerRightUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "name": "CgCornerUpLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "CgCornerUpRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "corner",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "CgCPlusPlus",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "cplus",
+        "plus",
+        "c"
+      ]
+    },
+    {
+      "name": "CgCreditCard",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "CgCrop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "crop"
+      ]
+    },
+    {
+      "name": "CgCross",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "cross"
+      ]
+    },
+    {
+      "name": "CgCrowdfire",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "crowdfire"
+      ]
+    },
+    {
+      "name": "CgCrown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "crown"
+      ]
+    },
+    {
+      "name": "CgDanger",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "danger"
+      ]
+    },
+    {
+      "name": "CgDarkMode",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dark",
+        "mode"
+      ]
+    },
+    {
+      "name": "CgData",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "data"
+      ]
+    },
+    {
+      "name": "CgDatabase",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "database"
+      ]
+    },
+    {
+      "name": "CgDebug",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "debug"
+      ]
+    },
+    {
+      "name": "CgDesignmodo",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "designmodo"
+      ]
+    },
+    {
+      "name": "CgDesktop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "desktop"
+      ]
+    },
+    {
+      "name": "CgDetailsLess",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "details",
+        "less"
+      ]
+    },
+    {
+      "name": "CgDetailsMore",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "details",
+        "more"
+      ]
+    },
+    {
+      "name": "CgDialpad",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dialpad"
+      ]
+    },
+    {
+      "name": "CgDice1",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dice1",
+        "dice",
+        "1"
+      ]
+    },
+    {
+      "name": "CgDice2",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dice2",
+        "dice",
+        "2"
+      ]
+    },
+    {
+      "name": "CgDice3",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dice3",
+        "dice",
+        "3"
+      ]
+    },
+    {
+      "name": "CgDice4",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dice4",
+        "dice",
+        "4"
+      ]
+    },
+    {
+      "name": "CgDice5",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dice5",
+        "dice",
+        "5"
+      ]
+    },
+    {
+      "name": "CgDice6",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dice6",
+        "dice",
+        "6"
+      ]
+    },
+    {
+      "name": "CgDigitalocean",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "digitalocean"
+      ]
+    },
+    {
+      "name": "CgDisc",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "disc"
+      ]
+    },
+    {
+      "name": "CgDisplayFlex",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "display",
+        "flex"
+      ]
+    },
+    {
+      "name": "CgDisplayFullwidth",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "display",
+        "fullwidth"
+      ]
+    },
+    {
+      "name": "CgDisplayGrid",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "display",
+        "grid"
+      ]
+    },
+    {
+      "name": "CgDisplaySpacing",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "display",
+        "spacing"
+      ]
+    },
+    {
+      "name": "CgDistributeHorizontal",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "distribute",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "CgDistributeVertical",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "distribute",
+        "vertical"
+      ]
+    },
+    {
+      "name": "CgDockBottom",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dock",
+        "bottom"
+      ]
+    },
+    {
+      "name": "CgDockLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dock",
+        "left"
+      ]
+    },
+    {
+      "name": "CgDockRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dock",
+        "right"
+      ]
+    },
+    {
+      "name": "CgDockWindow",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dock",
+        "window"
+      ]
+    },
+    {
+      "name": "CgDolby",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dolby"
+      ]
+    },
+    {
+      "name": "CgDollar",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dollar"
+      ]
+    },
+    {
+      "name": "CgDribbble",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "dribbble"
+      ]
+    },
+    {
+      "name": "CgDrive",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "drive"
+      ]
+    },
+    {
+      "name": "CgDrop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "drop"
+      ]
+    },
+    {
+      "name": "CgDropInvert",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "drop",
+        "invert"
+      ]
+    },
+    {
+      "name": "CgDropOpacity",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "drop",
+        "opacity"
+      ]
+    },
+    {
+      "name": "CgDuplicate",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "duplicate"
+      ]
+    },
+    {
+      "name": "CgEditBlackPoint",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "black",
+        "point"
+      ]
+    },
+    {
+      "name": "CgEditContrast",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "contrast"
+      ]
+    },
+    {
+      "name": "CgEditExposure",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "exposure"
+      ]
+    },
+    {
+      "name": "CgEditFade",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "fade"
+      ]
+    },
+    {
+      "name": "CgEditFlipH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "flip",
+        "h"
+      ]
+    },
+    {
+      "name": "CgEditFlipV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "flip",
+        "v"
+      ]
+    },
+    {
+      "name": "CgEditHighlight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "highlight"
+      ]
+    },
+    {
+      "name": "CgEditMarkup",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "markup"
+      ]
+    },
+    {
+      "name": "CgEditMask",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "mask"
+      ]
+    },
+    {
+      "name": "CgEditNoise",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "noise"
+      ]
+    },
+    {
+      "name": "CgEditShadows",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "shadows"
+      ]
+    },
+    {
+      "name": "CgEditStraight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "straight"
+      ]
+    },
+    {
+      "name": "CgEditUnmask",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "edit",
+        "unmask"
+      ]
+    },
+    {
+      "name": "CgEject",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "eject"
+      ]
+    },
+    {
+      "name": "CgEnter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "enter"
+      ]
+    },
+    {
+      "name": "CgErase",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "erase"
+      ]
+    },
+    {
+      "name": "CgEreader",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ereader"
+      ]
+    },
+    {
+      "name": "CgEricsson",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ericsson"
+      ]
+    },
+    {
+      "name": "CgEthernet",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ethernet"
+      ]
+    },
+    {
+      "name": "CgEuro",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "euro"
+      ]
+    },
+    {
+      "name": "CgEventbrite",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "eventbrite"
+      ]
+    },
+    {
+      "name": "CgExpand",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "expand"
+      ]
+    },
+    {
+      "name": "CgExport",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "export"
+      ]
+    },
+    {
+      "name": "CgExtension",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "extension"
+      ]
+    },
+    {
+      "name": "CgExtensionAdd",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "extension",
+        "add"
+      ]
+    },
+    {
+      "name": "CgExtensionAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "extension",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgExtensionRemove",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "extension",
+        "remove"
+      ]
+    },
+    {
+      "name": "CgExternal",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "external"
+      ]
+    },
+    {
+      "name": "CgEye",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "eye"
+      ]
+    },
+    {
+      "name": "CgEyeAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "eye",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgFacebook",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "facebook"
+      ]
+    },
+    {
+      "name": "CgFeed",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "feed"
+      ]
+    },
+    {
+      "name": "CgFigma",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "figma"
+      ]
+    },
+    {
+      "name": "CgFile",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "file"
+      ]
+    },
+    {
+      "name": "CgFileAdd",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "file",
+        "add"
+      ]
+    },
+    {
+      "name": "CgFileDocument",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "file",
+        "document"
+      ]
+    },
+    {
+      "name": "CgFileRemove",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "file",
+        "remove"
+      ]
+    },
+    {
+      "name": "CgFilm",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "film"
+      ]
+    },
+    {
+      "name": "CgFilters",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "filters"
+      ]
+    },
+    {
+      "name": "CgFlag",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "flag"
+      ]
+    },
+    {
+      "name": "CgFlagAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "flag",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgFolder",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "folder"
+      ]
+    },
+    {
+      "name": "CgFolderAdd",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "folder",
+        "add"
+      ]
+    },
+    {
+      "name": "CgFolderRemove",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "folder",
+        "remove"
+      ]
+    },
+    {
+      "name": "CgFontHeight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "font",
+        "height"
+      ]
+    },
+    {
+      "name": "CgFontSpacing",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "font",
+        "spacing"
+      ]
+    },
+    {
+      "name": "CgFormatBold",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "bold"
+      ]
+    },
+    {
+      "name": "CgFormatCenter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "center"
+      ]
+    },
+    {
+      "name": "CgFormatColor",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "color"
+      ]
+    },
+    {
+      "name": "CgFormatHeading",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "heading"
+      ]
+    },
+    {
+      "name": "CgFormatIndentDecrease",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "indent",
+        "decrease"
+      ]
+    },
+    {
+      "name": "CgFormatIndentIncrease",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "indent",
+        "increase"
+      ]
+    },
+    {
+      "name": "CgFormatItalic",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "italic"
+      ]
+    },
+    {
+      "name": "CgFormatJustify",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "justify"
+      ]
+    },
+    {
+      "name": "CgFormatLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "left"
+      ]
+    },
+    {
+      "name": "CgFormatLineHeight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "line",
+        "height"
+      ]
+    },
+    {
+      "name": "CgFormatRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "right"
+      ]
+    },
+    {
+      "name": "CgFormatSeparator",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "separator"
+      ]
+    },
+    {
+      "name": "CgFormatSlash",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "slash"
+      ]
+    },
+    {
+      "name": "CgFormatStrike",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "strike"
+      ]
+    },
+    {
+      "name": "CgFormatText",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "text"
+      ]
+    },
+    {
+      "name": "CgFormatUnderline",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "underline"
+      ]
+    },
+    {
+      "name": "CgFormatUppercase",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "format",
+        "uppercase"
+      ]
+    },
+    {
+      "name": "CgFramer",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "framer"
+      ]
+    },
+    {
+      "name": "CgGames",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "games"
+      ]
+    },
+    {
+      "name": "CgGenderFemale",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "gender",
+        "female"
+      ]
+    },
+    {
+      "name": "CgGenderMale",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "gender",
+        "male"
+      ]
+    },
+    {
+      "name": "CgGhost",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ghost"
+      ]
+    },
+    {
+      "name": "CgGhostCharacter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ghost",
+        "character"
+      ]
+    },
+    {
+      "name": "CgGift",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "gift"
+      ]
+    },
+    {
+      "name": "CgGirl",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "girl"
+      ]
+    },
+    {
+      "name": "CgGitBranch",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "git",
+        "branch"
+      ]
+    },
+    {
+      "name": "CgGitCommit",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "git",
+        "commit"
+      ]
+    },
+    {
+      "name": "CgGitFork",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "git",
+        "fork"
+      ]
+    },
+    {
+      "name": "CgGitPull",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "git",
+        "pull"
+      ]
+    },
+    {
+      "name": "CgGitter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "gitter"
+      ]
+    },
+    {
+      "name": "CgGlass",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "glass"
+      ]
+    },
+    {
+      "name": "CgGlassAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "glass",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgGlobe",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "globe"
+      ]
+    },
+    {
+      "name": "CgGlobeAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "globe",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgGoogle",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "google"
+      ]
+    },
+    {
+      "name": "CgGoogleTasks",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "google",
+        "tasks"
+      ]
+    },
+    {
+      "name": "CgGym",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "gym"
+      ]
+    },
+    {
+      "name": "CgHashtag",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "hashtag"
+      ]
+    },
+    {
+      "name": "CgHeadset",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "headset"
+      ]
+    },
+    {
+      "name": "CgHeart",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "heart"
+      ]
+    },
+    {
+      "name": "CgHello",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "hello"
+      ]
+    },
+    {
+      "name": "CgHome",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "home"
+      ]
+    },
+    {
+      "name": "CgHomeAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "home",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgHomeScreen",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "home",
+        "screen"
+      ]
+    },
+    {
+      "name": "CgIcecream",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "icecream"
+      ]
+    },
+    {
+      "name": "CgIfDesign",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "if",
+        "design"
+      ]
+    },
+    {
+      "name": "CgImage",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "image"
+      ]
+    },
+    {
+      "name": "CgImport",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "import"
+      ]
+    },
+    {
+      "name": "CgInbox",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "inbox"
+      ]
+    },
+    {
+      "name": "CgIndieHackers",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "indie",
+        "hackers"
+      ]
+    },
+    {
+      "name": "CgInfinity",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "infinity"
+      ]
+    },
+    {
+      "name": "CgInfo",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "info"
+      ]
+    },
+    {
+      "name": "CgInpicture",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "inpicture"
+      ]
+    },
+    {
+      "name": "CgInsertAfter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "insert",
+        "after"
+      ]
+    },
+    {
+      "name": "CgInsertAfterO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "insert",
+        "after",
+        "o"
+      ]
+    },
+    {
+      "name": "CgInsertAfterR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "insert",
+        "after",
+        "r"
+      ]
+    },
+    {
+      "name": "CgInsertBefore",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "insert",
+        "before"
+      ]
+    },
+    {
+      "name": "CgInsertBeforeO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "insert",
+        "before",
+        "o"
+      ]
+    },
+    {
+      "name": "CgInsertBeforeR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "insert",
+        "before",
+        "r"
+      ]
+    },
+    {
+      "name": "CgInsights",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "insights"
+      ]
+    },
+    {
+      "name": "CgInstagram",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "instagram"
+      ]
+    },
+    {
+      "name": "CgInternal",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "internal"
+      ]
+    },
+    {
+      "name": "CgKey",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "key"
+      ]
+    },
+    {
+      "name": "CgKeyboard",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "keyboard"
+      ]
+    },
+    {
+      "name": "CgKeyhole",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "keyhole"
+      ]
+    },
+    {
+      "name": "CgLaptop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "laptop"
+      ]
+    },
+    {
+      "name": "CgLastpass",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "lastpass"
+      ]
+    },
+    {
+      "name": "CgLayoutGrid",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "layout",
+        "grid"
+      ]
+    },
+    {
+      "name": "CgLayoutGridSmall",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "layout",
+        "grid",
+        "small"
+      ]
+    },
+    {
+      "name": "CgLayoutList",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "layout",
+        "list"
+      ]
+    },
+    {
+      "name": "CgLayoutPin",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "layout",
+        "pin"
+      ]
+    },
+    {
+      "name": "CgLinear",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "linear"
+      ]
+    },
+    {
+      "name": "CgLink",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "link"
+      ]
+    },
+    {
+      "name": "CgList",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "list"
+      ]
+    },
+    {
+      "name": "CgListTree",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "list",
+        "tree"
+      ]
+    },
+    {
+      "name": "CgLivePhoto",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "live",
+        "photo"
+      ]
+    },
+    {
+      "name": "CgLoadbar",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "loadbar"
+      ]
+    },
+    {
+      "name": "CgLoadbarAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "loadbar",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgLoadbarDoc",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "loadbar",
+        "doc"
+      ]
+    },
+    {
+      "name": "CgLoadbarSound",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "loadbar",
+        "sound"
+      ]
+    },
+    {
+      "name": "CgLock",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "lock"
+      ]
+    },
+    {
+      "name": "CgLockUnlock",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "lock",
+        "unlock"
+      ]
+    },
+    {
+      "name": "CgLogIn",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "log",
+        "in"
+      ]
+    },
+    {
+      "name": "CgLogOff",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "log",
+        "off"
+      ]
+    },
+    {
+      "name": "CgLogOut",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "log",
+        "out"
+      ]
+    },
+    {
+      "name": "CgLoupe",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "loupe"
+      ]
+    },
+    {
+      "name": "CgMagnet",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "magnet"
+      ]
+    },
+    {
+      "name": "CgMail",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "mail"
+      ]
+    },
+    {
+      "name": "CgMailForward",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "mail",
+        "forward"
+      ]
+    },
+    {
+      "name": "CgMailOpen",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "mail",
+        "open"
+      ]
+    },
+    {
+      "name": "CgMailReply",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "mail",
+        "reply"
+      ]
+    },
+    {
+      "name": "CgMathDivide",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "math",
+        "divide"
+      ]
+    },
+    {
+      "name": "CgMathEqual",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "math",
+        "equal"
+      ]
+    },
+    {
+      "name": "CgMathMinus",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "math",
+        "minus"
+      ]
+    },
+    {
+      "name": "CgMathPercent",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "math",
+        "percent"
+      ]
+    },
+    {
+      "name": "CgMathPlus",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "math",
+        "plus"
+      ]
+    },
+    {
+      "name": "CgMaximize",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "maximize"
+      ]
+    },
+    {
+      "name": "CgMaximizeAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "maximize",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgMaze",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "maze"
+      ]
+    },
+    {
+      "name": "CgMediaLive",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "media",
+        "live"
+      ]
+    },
+    {
+      "name": "CgMediaPodcast",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "media",
+        "podcast"
+      ]
+    },
+    {
+      "name": "CgMenu",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu"
+      ]
+    },
+    {
+      "name": "CgMenuBoxed",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "boxed"
+      ]
+    },
+    {
+      "name": "CgMenuCake",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "cake"
+      ]
+    },
+    {
+      "name": "CgMenuCheese",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "cheese"
+      ]
+    },
+    {
+      "name": "CgMenuGridO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "grid",
+        "o"
+      ]
+    },
+    {
+      "name": "CgMenuGridR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "grid",
+        "r"
+      ]
+    },
+    {
+      "name": "CgMenuHotdog",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "hotdog"
+      ]
+    },
+    {
+      "name": "CgMenuLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "left"
+      ]
+    },
+    {
+      "name": "CgMenuLeftAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "left",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgMenuMotion",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "motion"
+      ]
+    },
+    {
+      "name": "CgMenuOreos",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "oreos"
+      ]
+    },
+    {
+      "name": "CgMenuRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "right"
+      ]
+    },
+    {
+      "name": "CgMenuRightAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "right",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgMenuRound",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "menu",
+        "round"
+      ]
+    },
+    {
+      "name": "CgMergeHorizontal",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "merge",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "CgMergeVertical",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "merge",
+        "vertical"
+      ]
+    },
+    {
+      "name": "CgMic",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "mic"
+      ]
+    },
+    {
+      "name": "CgMicrobit",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "microbit"
+      ]
+    },
+    {
+      "name": "CgMicrosoft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "microsoft"
+      ]
+    },
+    {
+      "name": "CgMinimize",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "minimize"
+      ]
+    },
+    {
+      "name": "CgMinimizeAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "minimize",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgMiniPlayer",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "mini",
+        "player"
+      ]
+    },
+    {
+      "name": "CgModem",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "modem"
+      ]
+    },
+    {
+      "name": "CgMonday",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "monday"
+      ]
+    },
+    {
+      "name": "CgMoon",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "moon"
+      ]
+    },
+    {
+      "name": "CgMore",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more"
+      ]
+    },
+    {
+      "name": "CgMoreAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgMoreO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more",
+        "o"
+      ]
+    },
+    {
+      "name": "CgMoreR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more",
+        "r"
+      ]
+    },
+    {
+      "name": "CgMoreVertical",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more",
+        "vertical"
+      ]
+    },
+    {
+      "name": "CgMoreVerticalAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more",
+        "vertical",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgMoreVerticalO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more",
+        "vertical",
+        "o"
+      ]
+    },
+    {
+      "name": "CgMoreVerticalR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "more",
+        "vertical",
+        "r"
+      ]
+    },
+    {
+      "name": "CgMouse",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "mouse"
+      ]
+    },
+    {
+      "name": "CgMoveDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "move",
+        "down"
+      ]
+    },
+    {
+      "name": "CgMoveLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "move",
+        "left"
+      ]
+    },
+    {
+      "name": "CgMoveRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "move",
+        "right"
+      ]
+    },
+    {
+      "name": "CgMoveTask",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "move",
+        "task"
+      ]
+    },
+    {
+      "name": "CgMoveUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "move",
+        "up"
+      ]
+    },
+    {
+      "name": "CgMusic",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "music"
+      ]
+    },
+    {
+      "name": "CgMusicNote",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "music",
+        "note"
+      ]
+    },
+    {
+      "name": "CgMusicSpeaker",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "music",
+        "speaker"
+      ]
+    },
+    {
+      "name": "CgNametag",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "nametag"
+      ]
+    },
+    {
+      "name": "CgNotes",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "notes"
+      ]
+    },
+    {
+      "name": "CgNotifications",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "notifications"
+      ]
+    },
+    {
+      "name": "CgNpm",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "npm"
+      ]
+    },
+    {
+      "name": "CgOculus",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "oculus"
+      ]
+    },
+    {
+      "name": "CgOpenCollective",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "open",
+        "collective"
+      ]
+    },
+    {
+      "name": "CgOptions",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "options"
+      ]
+    },
+    {
+      "name": "CgOrganisation",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "organisation"
+      ]
+    },
+    {
+      "name": "CgOverflow",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "overflow"
+      ]
+    },
+    {
+      "name": "CgPacman",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pacman"
+      ]
+    },
+    {
+      "name": "CgPassword",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "password"
+      ]
+    },
+    {
+      "name": "CgPathBack",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "back"
+      ]
+    },
+    {
+      "name": "CgPathCrop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "crop"
+      ]
+    },
+    {
+      "name": "CgPathDivide",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "divide"
+      ]
+    },
+    {
+      "name": "CgPathExclude",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "exclude"
+      ]
+    },
+    {
+      "name": "CgPathFront",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "front"
+      ]
+    },
+    {
+      "name": "CgPathIntersect",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "intersect"
+      ]
+    },
+    {
+      "name": "CgPathOutline",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "outline"
+      ]
+    },
+    {
+      "name": "CgPathTrim",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "trim"
+      ]
+    },
+    {
+      "name": "CgPathUnite",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "path",
+        "unite"
+      ]
+    },
+    {
+      "name": "CgPatreon",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "patreon"
+      ]
+    },
+    {
+      "name": "CgPaypal",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "paypal"
+      ]
+    },
+    {
+      "name": "CgPen",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pen"
+      ]
+    },
+    {
+      "name": "CgPentagonBottomLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "bottom",
+        "left"
+      ]
+    },
+    {
+      "name": "CgPentagonBottomRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "bottom",
+        "right"
+      ]
+    },
+    {
+      "name": "CgPentagonDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "down"
+      ]
+    },
+    {
+      "name": "CgPentagonLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "left"
+      ]
+    },
+    {
+      "name": "CgPentagonRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "right"
+      ]
+    },
+    {
+      "name": "CgPentagonTopLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "top",
+        "left"
+      ]
+    },
+    {
+      "name": "CgPentagonTopRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "top",
+        "right"
+      ]
+    },
+    {
+      "name": "CgPentagonUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pentagon",
+        "up"
+      ]
+    },
+    {
+      "name": "CgPerformance",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "performance"
+      ]
+    },
+    {
+      "name": "CgPexels",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pexels"
+      ]
+    },
+    {
+      "name": "CgPhone",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "phone"
+      ]
+    },
+    {
+      "name": "CgPhotoscan",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "photoscan"
+      ]
+    },
+    {
+      "name": "CgPiano",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "piano"
+      ]
+    },
+    {
+      "name": "CgPill",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pill"
+      ]
+    },
+    {
+      "name": "CgPin",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pin"
+      ]
+    },
+    {
+      "name": "CgPinAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pin",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgPinBottom",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pin",
+        "bottom"
+      ]
+    },
+    {
+      "name": "CgPinTop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pin",
+        "top"
+      ]
+    },
+    {
+      "name": "CgPlayBackwards",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "backwards"
+      ]
+    },
+    {
+      "name": "CgPlayButton",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "button"
+      ]
+    },
+    {
+      "name": "CgPlayButtonO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "button",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPlayButtonR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "button",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPlayForwards",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "forwards"
+      ]
+    },
+    {
+      "name": "CgPlayList",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "list"
+      ]
+    },
+    {
+      "name": "CgPlayListAdd",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "list",
+        "add"
+      ]
+    },
+    {
+      "name": "CgPlayListCheck",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "list",
+        "check"
+      ]
+    },
+    {
+      "name": "CgPlayListRemove",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "list",
+        "remove"
+      ]
+    },
+    {
+      "name": "CgPlayListSearch",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "list",
+        "search"
+      ]
+    },
+    {
+      "name": "CgPlayPause",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "pause"
+      ]
+    },
+    {
+      "name": "CgPlayPauseO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "pause",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPlayPauseR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "pause",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPlayStop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "stop"
+      ]
+    },
+    {
+      "name": "CgPlayStopO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "stop",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPlayStopR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "stop",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPlayTrackNext",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "track",
+        "next"
+      ]
+    },
+    {
+      "name": "CgPlayTrackNextO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "track",
+        "next",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPlayTrackNextR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "track",
+        "next",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPlayTrackPrev",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "track",
+        "prev"
+      ]
+    },
+    {
+      "name": "CgPlayTrackPrevO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "track",
+        "prev",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPlayTrackPrevR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "play",
+        "track",
+        "prev",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPlug",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "plug"
+      ]
+    },
+    {
+      "name": "CgPocket",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pocket"
+      ]
+    },
+    {
+      "name": "CgPokemon",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pokemon"
+      ]
+    },
+    {
+      "name": "CgPolaroid",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "polaroid"
+      ]
+    },
+    {
+      "name": "CgPoll",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "poll"
+      ]
+    },
+    {
+      "name": "CgPresentation",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "presentation"
+      ]
+    },
+    {
+      "name": "CgPrinter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "printer"
+      ]
+    },
+    {
+      "name": "CgProductHunt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "product",
+        "hunt"
+      ]
+    },
+    {
+      "name": "CgProfile",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "profile"
+      ]
+    },
+    {
+      "name": "CgPullClear",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "pull",
+        "clear"
+      ]
+    },
+    {
+      "name": "CgPushChevronDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "down"
+      ]
+    },
+    {
+      "name": "CgPushChevronDownO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "down",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPushChevronDownR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "down",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPushChevronLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "left"
+      ]
+    },
+    {
+      "name": "CgPushChevronLeftO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "left",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPushChevronLeftR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "left",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPushChevronRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "right"
+      ]
+    },
+    {
+      "name": "CgPushChevronRightO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "right",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPushChevronRightR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "right",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPushChevronUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "up"
+      ]
+    },
+    {
+      "name": "CgPushChevronUpO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "up",
+        "o"
+      ]
+    },
+    {
+      "name": "CgPushChevronUpR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "chevron",
+        "up",
+        "r"
+      ]
+    },
+    {
+      "name": "CgPushDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "down"
+      ]
+    },
+    {
+      "name": "CgPushLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "left"
+      ]
+    },
+    {
+      "name": "CgPushRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "right"
+      ]
+    },
+    {
+      "name": "CgPushUp",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "push",
+        "up"
+      ]
+    },
+    {
+      "name": "CgQr",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "qr"
+      ]
+    },
+    {
+      "name": "CgQuote",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "quote"
+      ]
+    },
+    {
+      "name": "CgQuoteO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "quote",
+        "o"
+      ]
+    },
+    {
+      "name": "CgRadioCheck",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "radio",
+        "check"
+      ]
+    },
+    {
+      "name": "CgRadioChecked",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "radio",
+        "checked"
+      ]
+    },
+    {
+      "name": "CgRatio",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ratio"
+      ]
+    },
+    {
+      "name": "CgRead",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "read"
+      ]
+    },
+    {
+      "name": "CgReadme",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "readme"
+      ]
+    },
+    {
+      "name": "CgRecord",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "record"
+      ]
+    },
+    {
+      "name": "CgRedo",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "redo"
+      ]
+    },
+    {
+      "name": "CgRemote",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "remote"
+      ]
+    },
+    {
+      "name": "CgRemove",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "remove"
+      ]
+    },
+    {
+      "name": "CgRemoveR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "remove",
+        "r"
+      ]
+    },
+    {
+      "name": "CgRename",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "rename"
+      ]
+    },
+    {
+      "name": "CgReorder",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "reorder"
+      ]
+    },
+    {
+      "name": "CgRepeat",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "repeat"
+      ]
+    },
+    {
+      "name": "CgRing",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ring"
+      ]
+    },
+    {
+      "name": "CgRowFirst",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "row",
+        "first"
+      ]
+    },
+    {
+      "name": "CgRowLast",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "row",
+        "last"
+      ]
+    },
+    {
+      "name": "CgRuler",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ruler"
+      ]
+    },
+    {
+      "name": "CgSandClock",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sand",
+        "clock"
+      ]
+    },
+    {
+      "name": "CgScan",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "scan"
+      ]
+    },
+    {
+      "name": "CgScreen",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "screen"
+      ]
+    },
+    {
+      "name": "CgScreenMirror",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "screen",
+        "mirror"
+      ]
+    },
+    {
+      "name": "CgScreenShot",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "screen",
+        "shot"
+      ]
+    },
+    {
+      "name": "CgScreenWide",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "screen",
+        "wide"
+      ]
+    },
+    {
+      "name": "CgScrollH",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "scroll",
+        "h"
+      ]
+    },
+    {
+      "name": "CgScrollV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "scroll",
+        "v"
+      ]
+    },
+    {
+      "name": "CgSearch",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "search"
+      ]
+    },
+    {
+      "name": "CgSearchFound",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "search",
+        "found"
+      ]
+    },
+    {
+      "name": "CgSearchLoading",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "search",
+        "loading"
+      ]
+    },
+    {
+      "name": "CgSelect",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "select"
+      ]
+    },
+    {
+      "name": "CgSelectO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "select",
+        "o"
+      ]
+    },
+    {
+      "name": "CgSelectR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "select",
+        "r"
+      ]
+    },
+    {
+      "name": "CgServer",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "server"
+      ]
+    },
+    {
+      "name": "CgServerless",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "serverless"
+      ]
+    },
+    {
+      "name": "CgShapeCircle",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shape",
+        "circle"
+      ]
+    },
+    {
+      "name": "CgShapeHalfCircle",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shape",
+        "half",
+        "circle"
+      ]
+    },
+    {
+      "name": "CgShapeHexagon",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shape",
+        "hexagon"
+      ]
+    },
+    {
+      "name": "CgShapeRhombus",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shape",
+        "rhombus"
+      ]
+    },
+    {
+      "name": "CgShapeSquare",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shape",
+        "square"
+      ]
+    },
+    {
+      "name": "CgShapeTriangle",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shape",
+        "triangle"
+      ]
+    },
+    {
+      "name": "CgShapeZigzag",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shape",
+        "zigzag"
+      ]
+    },
+    {
+      "name": "CgShare",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "share"
+      ]
+    },
+    {
+      "name": "CgShield",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shield"
+      ]
+    },
+    {
+      "name": "CgShoppingBag",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shopping",
+        "bag"
+      ]
+    },
+    {
+      "name": "CgShoppingCart",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shopping",
+        "cart"
+      ]
+    },
+    {
+      "name": "CgShortcut",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shortcut"
+      ]
+    },
+    {
+      "name": "CgShutterstock",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "shutterstock"
+      ]
+    },
+    {
+      "name": "CgSidebar",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sidebar"
+      ]
+    },
+    {
+      "name": "CgSidebarOpen",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sidebar",
+        "open"
+      ]
+    },
+    {
+      "name": "CgSidebarRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sidebar",
+        "right"
+      ]
+    },
+    {
+      "name": "CgSignal",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "signal"
+      ]
+    },
+    {
+      "name": "CgSize",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "size"
+      ]
+    },
+    {
+      "name": "CgSketch",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sketch"
+      ]
+    },
+    {
+      "name": "CgSlack",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "slack"
+      ]
+    },
+    {
+      "name": "CgSleep",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sleep"
+      ]
+    },
+    {
+      "name": "CgSmartHomeBoiler",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smart",
+        "home",
+        "boiler"
+      ]
+    },
+    {
+      "name": "CgSmartHomeCooker",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smart",
+        "home",
+        "cooker"
+      ]
+    },
+    {
+      "name": "CgSmartHomeHeat",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smart",
+        "home",
+        "heat"
+      ]
+    },
+    {
+      "name": "CgSmartHomeLight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smart",
+        "home",
+        "light"
+      ]
+    },
+    {
+      "name": "CgSmartHomeRefrigerator",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smart",
+        "home",
+        "refrigerator"
+      ]
+    },
+    {
+      "name": "CgSmartHomeWashMachine",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smart",
+        "home",
+        "wash",
+        "machine"
+      ]
+    },
+    {
+      "name": "CgSmartphone",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smartphone"
+      ]
+    },
+    {
+      "name": "CgSmartphoneChip",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smartphone",
+        "chip"
+      ]
+    },
+    {
+      "name": "CgSmartphoneRam",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smartphone",
+        "ram"
+      ]
+    },
+    {
+      "name": "CgSmartphoneShake",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smartphone",
+        "shake"
+      ]
+    },
+    {
+      "name": "CgSmile",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smile"
+      ]
+    },
+    {
+      "name": "CgSmileMouthOpen",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smile",
+        "mouth",
+        "open"
+      ]
+    },
+    {
+      "name": "CgSmileNeutral",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smile",
+        "neutral"
+      ]
+    },
+    {
+      "name": "CgSmileNoMouth",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smile",
+        "no",
+        "mouth"
+      ]
+    },
+    {
+      "name": "CgSmileNone",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smile",
+        "none"
+      ]
+    },
+    {
+      "name": "CgSmileSad",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smile",
+        "sad"
+      ]
+    },
+    {
+      "name": "CgSmileUpside",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "smile",
+        "upside"
+      ]
+    },
+    {
+      "name": "CgSoftwareDownload",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "software",
+        "download"
+      ]
+    },
+    {
+      "name": "CgSoftwareUpload",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "software",
+        "upload"
+      ]
+    },
+    {
+      "name": "CgSortAz",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sort",
+        "az"
+      ]
+    },
+    {
+      "name": "CgSortZa",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sort",
+        "za"
+      ]
+    },
+    {
+      "name": "CgSpaceBetween",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "space",
+        "between"
+      ]
+    },
+    {
+      "name": "CgSpaceBetweenV",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "space",
+        "between",
+        "v"
+      ]
+    },
+    {
+      "name": "CgSpectrum",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "spectrum"
+      ]
+    },
+    {
+      "name": "CgSpinner",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "spinner"
+      ]
+    },
+    {
+      "name": "CgSpinnerAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "spinner",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgSpinnerTwo",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "spinner",
+        "two"
+      ]
+    },
+    {
+      "name": "CgSpinnerTwoAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "spinner",
+        "two",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgSquare",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "square"
+      ]
+    },
+    {
+      "name": "CgStack",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "stack"
+      ]
+    },
+    {
+      "name": "CgStark",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "stark"
+      ]
+    },
+    {
+      "name": "CgStopwatch",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "stopwatch"
+      ]
+    },
+    {
+      "name": "CgStories",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "stories"
+      ]
+    },
+    {
+      "name": "CgStudio",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "studio"
+      ]
+    },
+    {
+      "name": "CgStyle",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "style"
+      ]
+    },
+    {
+      "name": "CgSun",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sun"
+      ]
+    },
+    {
+      "name": "CgSupport",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "support"
+      ]
+    },
+    {
+      "name": "CgSwap",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "swap"
+      ]
+    },
+    {
+      "name": "CgSwapVertical",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "swap",
+        "vertical"
+      ]
+    },
+    {
+      "name": "CgSweden",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sweden"
+      ]
+    },
+    {
+      "name": "CgSwiss",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "swiss"
+      ]
+    },
+    {
+      "name": "CgSync",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "sync"
+      ]
+    },
+    {
+      "name": "CgTab",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tab"
+      ]
+    },
+    {
+      "name": "CgTag",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tag"
+      ]
+    },
+    {
+      "name": "CgTally",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tally"
+      ]
+    },
+    {
+      "name": "CgTapDouble",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tap",
+        "double"
+      ]
+    },
+    {
+      "name": "CgTapSingle",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tap",
+        "single"
+      ]
+    },
+    {
+      "name": "CgTemplate",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "template"
+      ]
+    },
+    {
+      "name": "CgTennis",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tennis"
+      ]
+    },
+    {
+      "name": "CgTerminal",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "terminal"
+      ]
+    },
+    {
+      "name": "CgTerrain",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "terrain"
+      ]
+    },
+    {
+      "name": "CgThermometer",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "thermometer"
+      ]
+    },
+    {
+      "name": "CgThermostat",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "thermostat"
+      ]
+    },
+    {
+      "name": "CgTikcode",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tikcode"
+      ]
+    },
+    {
+      "name": "CgTime",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "time"
+      ]
+    },
+    {
+      "name": "CgTimelapse",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "timelapse"
+      ]
+    },
+    {
+      "name": "CgTimer",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "timer"
+      ]
+    },
+    {
+      "name": "CgToday",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "today"
+      ]
+    },
+    {
+      "name": "CgToggleOff",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toggle",
+        "off"
+      ]
+    },
+    {
+      "name": "CgToggleOn",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toggle",
+        "on"
+      ]
+    },
+    {
+      "name": "CgToggleSquare",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toggle",
+        "square"
+      ]
+    },
+    {
+      "name": "CgToggleSquareOff",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toggle",
+        "square",
+        "off"
+      ]
+    },
+    {
+      "name": "CgToolbarBottom",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toolbar",
+        "bottom"
+      ]
+    },
+    {
+      "name": "CgToolbarLeft",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toolbar",
+        "left"
+      ]
+    },
+    {
+      "name": "CgToolbarRight",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toolbar",
+        "right"
+      ]
+    },
+    {
+      "name": "CgToolbarTop",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toolbar",
+        "top"
+      ]
+    },
+    {
+      "name": "CgToolbox",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "toolbox"
+      ]
+    },
+    {
+      "name": "CgTouchpad",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "touchpad"
+      ]
+    },
+    {
+      "name": "CgTrack",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "track"
+      ]
+    },
+    {
+      "name": "CgTranscript",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "transcript"
+      ]
+    },
+    {
+      "name": "CgTrash",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "trash"
+      ]
+    },
+    {
+      "name": "CgTrashEmpty",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "trash",
+        "empty"
+      ]
+    },
+    {
+      "name": "CgTree",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tree"
+      ]
+    },
+    {
+      "name": "CgTrees",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "trees"
+      ]
+    },
+    {
+      "name": "CgTrello",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "trello"
+      ]
+    },
+    {
+      "name": "CgTrending",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "trending"
+      ]
+    },
+    {
+      "name": "CgTrendingDown",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "trending",
+        "down"
+      ]
+    },
+    {
+      "name": "CgTrophy",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "trophy"
+      ]
+    },
+    {
+      "name": "CgTv",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "tv"
+      ]
+    },
+    {
+      "name": "CgTwilio",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "twilio"
+      ]
+    },
+    {
+      "name": "CgTwitter",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "twitter"
+      ]
+    },
+    {
+      "name": "CgUiKit",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "ui",
+        "kit"
+      ]
+    },
+    {
+      "name": "CgUmbrella",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "umbrella"
+      ]
+    },
+    {
+      "name": "CgUnavailable",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "unavailable"
+      ]
+    },
+    {
+      "name": "CgUnblock",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "unblock"
+      ]
+    },
+    {
+      "name": "CgUndo",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "undo"
+      ]
+    },
+    {
+      "name": "CgUnfold",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "unfold"
+      ]
+    },
+    {
+      "name": "CgUnsplash",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "unsplash"
+      ]
+    },
+    {
+      "name": "CgUsb",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "usb"
+      ]
+    },
+    {
+      "name": "CgUsbC",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "usb",
+        "c"
+      ]
+    },
+    {
+      "name": "CgUser",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "user"
+      ]
+    },
+    {
+      "name": "CgUserAdd",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "user",
+        "add"
+      ]
+    },
+    {
+      "name": "CgUserlane",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "userlane"
+      ]
+    },
+    {
+      "name": "CgUserList",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "user",
+        "list"
+      ]
+    },
+    {
+      "name": "CgUserRemove",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "user",
+        "remove"
+      ]
+    },
+    {
+      "name": "CgVercel",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "vercel"
+      ]
+    },
+    {
+      "name": "CgViewCols",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "view",
+        "cols"
+      ]
+    },
+    {
+      "name": "CgViewComfortable",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "view",
+        "comfortable"
+      ]
+    },
+    {
+      "name": "CgViewDay",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "view",
+        "day"
+      ]
+    },
+    {
+      "name": "CgViewGrid",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "view",
+        "grid"
+      ]
+    },
+    {
+      "name": "CgViewList",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "view",
+        "list"
+      ]
+    },
+    {
+      "name": "CgViewMonth",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "view",
+        "month"
+      ]
+    },
+    {
+      "name": "CgViewSplit",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "view",
+        "split"
+      ]
+    },
+    {
+      "name": "CgVinyl",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "vinyl"
+      ]
+    },
+    {
+      "name": "CgVoicemail",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "voicemail"
+      ]
+    },
+    {
+      "name": "CgVoicemailO",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "voicemail",
+        "o"
+      ]
+    },
+    {
+      "name": "CgVoicemailR",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "voicemail",
+        "r"
+      ]
+    },
+    {
+      "name": "CgVolume",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "volume"
+      ]
+    },
+    {
+      "name": "CgWebcam",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "webcam"
+      ]
+    },
+    {
+      "name": "CgWebsite",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "website"
+      ]
+    },
+    {
+      "name": "CgWindows",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "windows"
+      ]
+    },
+    {
+      "name": "CgWorkAlt",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "work",
+        "alt"
+      ]
+    },
+    {
+      "name": "CgYinyang",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "yinyang"
+      ]
+    },
+    {
+      "name": "CgYoutube",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "youtube"
+      ]
+    },
+    {
+      "name": "CgZoomIn",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "zoom",
+        "in"
+      ]
+    },
+    {
+      "name": "CgZoomOut",
+      "set": "cg",
+      "terms": [
+        "cg",
+        "zoom",
+        "out"
+      ]
+    },
+    {
       "name": "CiAirportSign1",
       "set": "ci",
       "terms": [

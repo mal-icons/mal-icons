@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-mail-open",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgMailOpen {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M3.05 10.02C2.79 9.31 2.95 8.48 3.51 7.91L9.88 1.55C11.05 0.38 12.95 0.38 14.12 1.55L20.49 7.91C21.05 8.48 21.21 9.31 20.95 10.02C20.98 10.11 21 10.22 21 10.33V21.33C21 22.43 20.1 23.33 19 23.33H5C3.9 23.33 3 22.43 3 21.33V10.33C3 10.22 3.02 10.11 3.05 10.02ZM4.93 9.33L11.29 2.96C11.68 2.57 12.32 2.57 12.71 2.96L19.07 9.33H19.04V9.36L12.71 15.69C12.32 16.08 11.68 16.08 11.29 15.69L4.93 9.33ZM19 12.23L14.12 17.11C12.95 18.28 11.05 18.28 9.88 17.11L5 12.23L5 21.33H19V12.23Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgMailOpen;

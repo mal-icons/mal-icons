@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-menu",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgMenu {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 6C2 5.45 2.45 5 3 5H21C21.55 5 22 5.45 22 6C22 6.55 21.55 7 21 7H3C2.45 7 2 6.55 2 6Z","fill":"currentColor"}],["path",{"d":"M2 12.03C2 11.48 2.45 11.03 3 11.03H21C21.55 11.03 22 11.48 22 12.03C22 12.58 21.55 13.03 21 13.03H3C2.45 13.03 2 12.58 2 12.03Z","fill":"currentColor"}],["path",{"d":"M3 17.06C2.45 17.06 2 17.51 2 18.06C2 18.62 2.45 19.06 3 19.06H21C21.55 19.06 22 18.62 22 18.06C22 17.51 21.55 17.06 21 17.06H3Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgMenu;

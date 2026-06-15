@@ -28,6 +28,7 @@
   "exports": {
     "./IconBase.astro": "./src/IconBase.astro",
     "./ad/*": "./src/icons/ad/*.astro",
+    "./cg/*": "./src/icons/cg/*.astro",
     "./ci/*": "./src/icons/ci/*.astro",
     "./dev/*": "./src/icons/dev/*.astro",
     "./fa/*": "./src/icons/fa/*.astro",

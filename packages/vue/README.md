@@ -112,6 +112,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
+| [css.gg](https://css.gg/) | [MIT license](https://github.com/astrit/css.gg/blob/master/license) | 2.1.1 | 704 |
 | [Devicons](https://devicons.io/)         | [MIT license](https://github.com/vorillaz/devicons/blob/main/LICENSE)             | 2.0.1   |  1725 |
 | [Feather](https://feathericons.com/)     | [MIT license](https://github.com/feathericons/feather/blob/main/LICENSE)          | 4.29.0  |   287 |
 | [Flat Color Icons](https://icons8.github.io/flat-color-icons/) | [CC BY 4.0 license](https://github.com/icons8/flat-color-icons/blob/master/LICENSE.md) | 1.0.2   |   312 |
@@ -164,6 +165,8 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/vue/hi/HiAcademicCap` | A single Heroicons icon module |
 | `@mal-icons/vue/sl` | All Simple Line Icons icons (named exports) |
 | `@mal-icons/vue/sl/SlActionRedo` | A single Simple Line Icons icon module |
+| `@mal-icons/vue/cg` | All css.gg icons (named exports) |
+| `@mal-icons/vue/cg/CgAbstract` | A single css.gg icon module |
 
 ## Example
 

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgEditFlipH = createIcon("0 0 24 24", [["path",{"d":"M18 7C18.55 7 19 7.45 19 8V16C19 16.55 18.55 17 18 17H15V19H18C19.66 19 21 17.66 21 16V8C21 6.34 19.66 5 18 5H15V7H18Z","fill":"currentColor","fillOpacity":"0.5"}],["path",{"d":"M13 3H11V21H13V3Z","fill":"currentColor"}],["path",{"d":"M5 8C5 7.45 5.45 7 6 7H9V5H6C4.34 5 3 6.34 3 8V16C3 17.66 4.34 19 6 19H9V17H6C5.45 17 5 16.55 5 16V8Z","fill":"currentColor"}]]);
+
+export default CgEditFlipH;

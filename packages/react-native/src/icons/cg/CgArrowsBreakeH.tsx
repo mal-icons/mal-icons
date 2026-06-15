@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgArrowsBreakeH = createIcon("0 0 24 24", [["path",{"d":"M9.24 7H11.24V11H11.25V13H11.24V17H9.24V13L4.83 13L6.66 14.83L5.24 16.24L1 12L5.24 7.76L6.66 9.17L4.83 11H9.24L9.24 7Z","fill":"currentColor"}],["path",{"d":"M15.25 7H13.25V11H13.25V13H13.25V17H15.25V13L19.67 13L17.84 14.83L19.25 16.24L23.5 12L19.25 7.76L17.84 9.17L19.67 11H15.25L15.25 7Z","fill":"currentColor"}]]);
+
+export default CgArrowsBreakeH;

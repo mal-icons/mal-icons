@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const CgMic = createIcon("0 0 24 24", [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M9 4C9 2.34 10.34 1 12 1C13.66 1 15 2.34 15 4V12C15 13.66 13.66 15 12 15C10.34 15 9 13.66 9 12V4ZM13 4V12C13 12.55 12.55 13 12 13C11.45 13 11 12.55 11 12V4C11 3.45 11.45 3 12 3C12.55 3 13 3.45 13 4Z","fill":"currentColor"}],["path",{"d":"M18 12C18 14.97 15.84 17.44 13 17.92V21H17V23H7V21H11V17.92C8.16 17.44 6 14.97 6 12V9H8V12C8 14.21 9.79 16 12 16C14.21 16 16 14.21 16 12V9H18V12Z","fill":"currentColor"}]]);
+
+export default CgMic;

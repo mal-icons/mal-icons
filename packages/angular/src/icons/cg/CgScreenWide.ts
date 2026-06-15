@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-cg-screen-wide",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class CgScreenWide {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M11 16H3C1.34 16 0 14.66 0 13V8C0 6.34 1.34 5 3 5H21C22.66 5 24 6.34 24 8V13C24 14.66 22.66 16 21 16H13V17H15C15.55 17 16 17.45 16 18C16 18.55 15.55 19 15 19H9C8.45 19 8 18.55 8 18C8 17.45 8.45 17 9 17H11V16ZM3 7H21C21.55 7 22 7.45 22 8V13C22 13.55 21.55 14 21 14H3C2.45 14 2 13.55 2 13V8C2 7.45 2.45 7 3 7Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default CgScreenWide;

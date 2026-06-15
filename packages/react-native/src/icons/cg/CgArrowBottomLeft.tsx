@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgArrowBottomLeft = createIcon("0 0 24 24", [["path",{"d":"M18.24 7.17L16.83 5.76L7.76 14.83L7.76 10.24H5.76L5.76 18.24H13.76V16.24L9.17 16.24L18.24 7.17Z","fill":"currentColor"}]]);
+
+export default CgArrowBottomLeft;

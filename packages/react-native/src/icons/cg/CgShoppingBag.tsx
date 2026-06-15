@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const CgShoppingBag = createIcon("0 0 24 24", [["path",{"fillRule":"evenodd","clipRule":"evenodd","d":"M5 4H19C19.55 4 20 4.45 20 5V19C20 19.55 19.55 20 19 20H5C4.45 20 4 19.55 4 19V5C4 4.45 4.45 4 5 4ZM2 5C2 3.34 3.34 2 5 2H19C20.66 2 22 3.34 22 5V19C22 20.66 20.66 22 19 22H5C3.34 22 2 20.66 2 19V5ZM12 12C9.24 12 7 9.31 7 6H9C9 8.57 10.67 10 12 10C13.33 10 15 8.57 15 6H17C17 9.31 14.76 12 12 12Z","fill":"currentColor"}]]);
+
+export default CgShoppingBag;
