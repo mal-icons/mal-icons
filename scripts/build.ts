@@ -1,4 +1,23 @@
 #!/usr/bin/env bun
+// Force the production automatic JSX runtime BEFORE anything else runs.
+//
+// Bun's JSX transform picks the dev runtime (`jsxDEV` from
+// `react/jsx-dev-runtime`) unless `NODE_ENV === "production"`, and it reads
+// `NODE_ENV` once at process startup — mutating `process.env.NODE_ENV` or
+// passing `production: true` to `Bun.build()` does NOT change the decision.
+// Shipping the dev runtime breaks React Server Component prerendering in
+// consumers (e.g. Next.js), whose production react-ssr runtime omits `jsxDEV`
+// ("(0, d.jsxDEV) is not a function"). If the build was started without it,
+// re-exec this script once with `NODE_ENV=production` so every bundle emits
+// the production runtime (`jsx`/`jsxs` from `react/jsx-runtime`).
+if (process.env.NODE_ENV !== "production") {
+  const child = Bun.spawn(["bun", "run", import.meta.path, ...Bun.argv.slice(2)], {
+    env: { ...process.env, NODE_ENV: "production" },
+    stdio: ["inherit", "inherit", "inherit"],
+  });
+  process.exit(await child.exited);
+}
+
 import { cp, mkdir, rm } from "node:fs/promises";
 import { join } from "node:path";
 /**
