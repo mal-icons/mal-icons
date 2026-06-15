@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { resolveIconAttrs } from "../src/index.ts";
+import { resolveIconAttrs, resolveRootPaint } from "../src/index.ts";
 
 describe("resolveIconAttrs", () => {
   test("defaults size to 1em when nothing provided", () => {
@@ -42,5 +42,16 @@ describe("resolveIconAttrs", () => {
   test("className uses only props when context empty", () => {
     const r = resolveIconAttrs({ className: "only" }, {});
     expect(r.className).toBe("only");
+  });
+});
+
+describe("resolveRootPaint", () => {
+  test("defaults stroke and fill to currentColor", () => {
+    expect(resolveRootPaint()).toEqual({ stroke: "currentColor", fill: "currentColor" });
+    expect(resolveRootPaint(false)).toEqual({ stroke: "currentColor", fill: "currentColor" });
+  });
+
+  test("omits the currentColor defaults when multicolor is true", () => {
+    expect(resolveRootPaint(true)).toEqual({});
   });
 });

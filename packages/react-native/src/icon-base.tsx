@@ -1,3 +1,4 @@
+import { resolveRootPaint } from "@mal-icons/core";
 import type { ReactNode } from "react";
 import { useContext } from "react";
 import type { SvgProps } from "react-native-svg";
@@ -13,6 +14,11 @@ export interface IconBaseProps extends Omit<SvgProps, "color" | "width" | "heigh
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
+  /**
+   * Render the icon's own colors instead of theming via `currentColor`. When
+   * `true`, the root `<Svg>` omits its `stroke`/`fill` `currentColor` defaults.
+   */
+  multicolor?: boolean;
   /** Accessible label; sets `title`/`accessibilityLabel` and `role="image"`. */
   title?: string;
 }
@@ -35,6 +41,7 @@ export function IconBase({
   viewBox,
   size,
   color,
+  multicolor,
   title,
   style,
   children,
@@ -51,8 +58,7 @@ export function IconBase({
       width={computedSize}
       height={computedSize}
       color={computedColor}
-      stroke="currentColor"
-      fill="currentColor"
+      {...resolveRootPaint(multicolor)}
       strokeWidth={0}
       title={title}
       accessibilityRole={title ? "image" : undefined}

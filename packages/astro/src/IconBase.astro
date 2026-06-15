@@ -1,6 +1,6 @@
 ---
 import type { NodeTuple } from "@mal-icons/core";
-import { resolveIconAttrs } from "@mal-icons/core";
+import { resolveIconAttrs, resolveRootPaint } from "@mal-icons/core";
 
 /**
  * Shared SVG wrapper for Astro. Astro has no runtime theming context, so
@@ -12,6 +12,7 @@ export interface Props {
   defaultAttr?: Record<string, string | number>;
   size?: string | number;
   color?: string;
+  multicolor?: boolean;
   title?: string;
   class?: string;
 }
@@ -22,18 +23,19 @@ const {
   defaultAttr = {},
   size,
   color,
+  multicolor,
   title,
   class: className,
 } = Astro.props;
 
 const resolved = resolveIconAttrs({ size, color, className }, {});
+const paint = resolveRootPaint(multicolor);
 const style = resolved.color ? `color:${resolved.color}` : undefined;
 ---
 
 <svg
   viewBox={viewBox}
-  stroke="currentColor"
-  fill="currentColor"
+  {...paint}
   stroke-width="0"
   width={resolved.size}
   height={resolved.size}

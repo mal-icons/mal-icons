@@ -3,6 +3,7 @@ import {
   type IconAnimation,
   type IconWeight,
   resolveIconAttrs,
+  resolveRootPaint,
   WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";
 import type { JSX } from "solid-js";
@@ -22,6 +23,11 @@ export interface IconBaseProps {
   weight?: IconWeight;
   /** CSS-driven animation preset; requires `ICON_ANIMATIONS_CSS` on the page. */
   animate?: IconAnimation;
+  /**
+   * Render the icon's own colors instead of theming via `currentColor`. When
+   * `true`, the root `<svg>` omits its `stroke`/`fill` `currentColor` defaults.
+   */
+  multicolor?: boolean;
   /** Accessible label; renders a `<title>` element and sets `role="img"`. */
   title?: string;
   /** Additional class name(s), concatenated after the context className. */
@@ -71,8 +77,7 @@ export function IconBase(props: IconBaseInternalProps): JSX.Element {
     "svg",
     {
       viewBox: props.viewBox,
-      stroke: "currentColor",
-      fill: "currentColor",
+      ...resolveRootPaint(props.multicolor),
       "stroke-width": "0",
       width: computedSize,
       height: computedSize,

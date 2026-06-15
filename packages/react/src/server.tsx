@@ -1,5 +1,10 @@
 import type { NodeTuple } from "@mal-icons/core";
-import { animationClass, resolveIconAttrs, WEIGHT_STROKE_WIDTH } from "@mal-icons/core";
+import {
+  animationClass,
+  resolveIconAttrs,
+  resolveRootPaint,
+  WEIGHT_STROKE_WIDTH,
+} from "@mal-icons/core";
 import { createElement, type ReactElement } from "react";
 import type { IconBaseProps } from "./icon-base.tsx";
 
@@ -27,6 +32,7 @@ export function IconBaseServer({
   secondaryColor,
   weight,
   animate,
+  multicolor,
   title,
   className,
   style,
@@ -58,8 +64,7 @@ export function IconBaseServer({
   return (
     <svg
       viewBox={viewBox}
-      stroke="currentColor"
-      fill="currentColor"
+      {...resolveRootPaint(multicolor)}
       width={computedSize}
       height={computedSize}
       className={fullClassName}

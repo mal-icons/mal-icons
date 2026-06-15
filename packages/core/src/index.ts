@@ -103,6 +103,19 @@ export interface ResolvedIconAttrs {
   className: string | undefined;
 }
 
+/**
+ * Root `stroke`/`fill` for the `<svg>` wrapper.
+ *
+ * Single-tone icons default both to `currentColor` so they theme via the
+ * `color` prop. Multicolor icons (e.g. Flat Color Icons) carry their own
+ * per-shape paint; when `multicolor` is set we omit the `currentColor`
+ * defaults so the icon's original colors show through instead of being
+ * overridden.
+ */
+export function resolveRootPaint(multicolor?: boolean): Record<string, string> {
+  return multicolor ? {} : { stroke: "currentColor", fill: "currentColor" };
+}
+
 /** Stroke weight presets for stroke-based icon sets. */
 export type IconWeight = "thin" | "light" | "regular" | "bold";
 

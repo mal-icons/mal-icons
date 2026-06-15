@@ -75,6 +75,7 @@ Per-icon props always override context values.
 | ------- | ------------------ | ----------------------------------- |
 | `size`  | `number \| string` | Width and height                    |
 | `color` | `string`           | Overrides `currentColor`            |
+| `multicolor` | `boolean` | Keep the icon's own colors (omits the `currentColor` `stroke`/`fill` defaults) |
 | `title` | `string`           | Accessible label for screen readers |
 | `style` | `StyleProp`        | Style passed to the root `<Svg>`    |
 

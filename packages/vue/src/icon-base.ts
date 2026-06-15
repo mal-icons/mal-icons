@@ -1,4 +1,4 @@
-import { resolveIconAttrs } from "@mal-icons/core";
+import { resolveIconAttrs, resolveRootPaint } from "@mal-icons/core";
 import type { CSSProperties, PropType, VNode } from "vue";
 import { defineComponent, h, inject } from "vue";
 import { DefaultIconContext, IconContextKey } from "./context.ts";
@@ -9,6 +9,11 @@ export interface IconBaseProps {
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
+  /**
+   * Render the icon's own colors instead of theming via `currentColor`. When
+   * `true`, the root `<svg>` omits its `stroke`/`fill` `currentColor` defaults.
+   */
+  multicolor?: boolean;
   /** Accessible label; renders a `<title>` element and sets `role="img"`. */
   title?: string;
   /** Additional class name(s), concatenated after the context className. */
@@ -29,6 +34,7 @@ export const IconBase = defineComponent({
     viewBox: { type: String, required: true },
     size: { type: [String, Number] as PropType<string | number>, default: undefined },
     color: { type: String, default: undefined },
+    multicolor: { type: Boolean, default: undefined },
     title: { type: String, default: undefined },
     className: { type: String, default: undefined },
     style: { type: Object as PropType<CSSProperties>, default: undefined },
@@ -63,8 +69,7 @@ export const IconBase = defineComponent({
         "svg",
         {
           viewBox: props.viewBox,
-          stroke: "currentColor",
-          fill: "currentColor",
+          ...resolveRootPaint(props.multicolor),
           "stroke-width": "0",
           width: computedSize,
           height: computedSize,

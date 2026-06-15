@@ -5,6 +5,7 @@ import {
   type IconAnimation,
   type IconWeight,
   resolveIconAttrs,
+  resolveRootPaint,
   WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";
 import type { CSSProperties, ReactNode, SVGAttributes } from "react";
@@ -23,6 +24,12 @@ export interface IconBaseProps extends Omit<SVGAttributes<SVGSVGElement>, "color
   weight?: IconWeight;
   /** CSS-driven animation preset; requires `ICON_ANIMATIONS_CSS` on the page. */
   animate?: IconAnimation;
+  /**
+   * Render the icon's own colors instead of theming via `currentColor`. When
+   * `true`, the root `<svg>` omits its `stroke`/`fill` `currentColor` defaults
+   * so multicolor icons keep their original paint.
+   */
+  multicolor?: boolean;
   /** Accessible label; renders a `<title>` element and sets `role="img"`. */
   title?: string;
   /** Additional class name(s), concatenated after the context className. */
@@ -48,6 +55,7 @@ export function IconBase({
   secondaryColor,
   weight,
   animate,
+  multicolor,
   title,
   className,
   style,
@@ -81,8 +89,7 @@ export function IconBase({
   return (
     <svg
       viewBox={viewBox}
-      stroke="currentColor"
-      fill="currentColor"
+      {...resolveRootPaint(multicolor)}
       width={computedSize}
       height={computedSize}
       className={fullClassName}
