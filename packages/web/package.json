@@ -126,6 +126,12 @@
       "import": "./dist/icons/sl/index.js"
     },
     "./sl/*.json": "./src/icons/sl/*.json",
+    "./tf": {
+      "types": "./dist/icons/tf/index.d.ts",
+      "bun": "./src/icons/tf/index.ts",
+      "import": "./dist/icons/tf/index.js"
+    },
+    "./tf/*.json": "./src/icons/tf/*.json",
     "./ti": {
       "types": "./dist/icons/ti/index.d.ts",
       "bun": "./src/icons/ti/index.ts",

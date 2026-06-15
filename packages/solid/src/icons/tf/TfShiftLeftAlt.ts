@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TfShiftLeftAlt = createIcon("0 0 17 17", [["path",{"d":"M5.85 5.85l-2.65 2.65 2.65 2.65-0.71 0.71-3.35-3.35 3.35-3.35 0.71 0.71zM9 0v17h1v-17h-1z","fill":"currentColor"}]]);
+
+export default TfShiftLeftAlt;

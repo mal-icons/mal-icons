@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-android",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfAndroid {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.81 5.7h9.38v6.81c0 0.62-0.5 1.13-1.11 1.13h-0.77v2.32c0 0.58-0.47 1.05-1.05 1.05-0.58 0-1.05-0.47-1.05-1.05v-2.32h-1.41v2.32c0 0.58-0.47 1.05-1.05 1.05-0.57 0-1.04-0.47-1.04-1.05l-0.01-2.32h-0.76c-0.62 0-1.12-0.5-1.12-1.12v-6.81zM2.36 5.5c-0.58 0-1.05 0.47-1.05 1.04v4.4c0 0.58 0.47 1.05 1.05 1.05s1.04-0.47 1.04-1.05v-4.4c0-0.57-0.47-1.04-1.04-1.04zM13.22 5.33h-9.45c0-1.62 0.97-3.04 2.41-3.77l-0.73-1.34c-0.04-0.07-0.02-0.16 0.05-0.2 0.07-0.03 0.16-0.01 0.21 0.06l0.74 1.35c0.63-0.28 1.32-0.43 2.06-0.43s1.43 0.15 2.06 0.43l0.74-1.35c0.04-0.07 0.13-0.09 0.21-0.06 0.07 0.04 0.09 0.13 0.05 0.21l-0.73 1.34c1.43 0.74 2.4 2.15 2.4 3.77zM6.74 3.22c0-0.21-0.17-0.4-0.4-0.4-0.22 0-0.39 0.18-0.39 0.4 0 0.21 0.17 0.4 0.39 0.4 0.22 0 0.4-0.18 0.4-0.4zM11.05 3.22c0-0.21-0.17-0.4-0.39-0.4-0.22 0-0.4 0.18-0.4 0.4 0 0.21 0.17 0.4 0.4 0.4 0.22 0 0.39-0.18 0.39-0.4zM14.64 5.5c-0.57 0-1.04 0.46-1.04 1.04v4.4c0 0.58 0.47 1.05 1.04 1.05 0.58 0 1.05-0.47 1.05-1.05v-4.4c0-0.58-0.47-1.04-1.05-1.04z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfAndroid;

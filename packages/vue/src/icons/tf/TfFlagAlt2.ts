@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TfFlagAlt2 = createIcon("0 0 17 17", [["path",{"d":"M15 0v17h-1v-17h1zM4.98 1h8v8h-4.98v2h-7v-8h3.98v-2zM7 9h-2v-5h-3v6h5v-1zM5.98 2v1h0.02v5h5.98v-6h-6z","fill":"currentColor"}]]);
+
+export default TfFlagAlt2;

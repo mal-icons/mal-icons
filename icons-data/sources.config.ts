@@ -220,4 +220,15 @@ export const sources: Record<string, IconSource> = {
     iconDir: "src/icons",
     style: "fill",
   },
+  tf: {
+    id: "tf",
+    prefix: "Tf",
+    name: "Themify",
+    license: "OFL-1.1",
+    repo: "lykmapipo/themify-icons",
+    // The upstream fork ships no tags; pin to a commit for reproducibility.
+    ref: "9600186b24a7242f0e1e0a186983e6253301bb5d",
+    iconDir: "SVG",
+    style: "fill",
+  },
 };

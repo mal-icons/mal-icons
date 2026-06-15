@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-exchange-vertical",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfExchangeVertical {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 15.04v-7.04h-1v7.04l-3.65-3.65-0.71 0.71 4.85 4.85 4.85-4.85-0.71-0.71-3.65 3.65zM5.49 15.53h0.02l-0.01 0.01-0.01-0.01zM15.65 5.6l-3.65-3.65v7.1h-1v-7.1l-3.65 3.65-0.71-0.71 4.85-4.85 4.85 4.85-0.71 0.71z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfExchangeVertical;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-package",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfPackage {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.52-0.04l-8.52 3.22v10.69l8.5 3.19 8.5-3.19v-10.69l-8.48-3.22zM15.08 3.53l-2.59 0.97-6.56-2.49 2.58-0.97 6.57 2.49zM8.5 6l-6.58-2.47 2.61-0.99 6.55 2.49-2.58 0.97zM1 4.25l7 2.63v8.93l-7-2.62v-8.93zM9 15.81v-8.93l7-2.62v8.93l-7 2.63z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfPackage;

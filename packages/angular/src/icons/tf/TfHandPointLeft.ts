@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-hand-point-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfHandPointLeft {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.42 13.5c0 0.28-0.22 0.5-0.5 0.5h-0.85c-0.23 0-0.8 0.21-1.31 0.39-0.78 0.28-1.67 0.61-2.34 0.61h-3.18c-0.85 0-1.54-0.68-1.54-1.52 0-0.16 0.03-0.32 0.08-0.46h-0.13c-0.85 0-1.54-0.68-1.54-1.51 0-0.18 0.03-0.35 0.09-0.5-0.79-0.05-1.42-0.7-1.42-1.49 0-0.18 0.03-0.35 0.09-0.52h-2.33c-0.85 0-1.53-0.67-1.53-1.5 0-0.83 0.69-1.51 1.54-1.51h4.9l-0.27-0.24c-0.3-0.29-1.04-1.04-0.47-2 0.42-0.71 1.36-0.95 2.09-0.55l7.03 3.25c0.27 0.15 0.47 0.35 0.61 0.58h0.5c0.28 0 0.5 0.22 0.5 0.5s-0.22 0.5-0.5 0.5h-0.83c-0.23 0-0.43-0.15-0.48-0.38-0.03-0.13-0.12-0.24-0.24-0.31l-7.03-3.25c-0.29-0.16-0.63-0.08-0.77 0.17-0.09 0.14-0.17 0.29 0.3 0.76l1.2 1.1c0.15 0.14 0.2 0.36 0.13 0.55s-0.26 0.32-0.47 0.32h-6.18c-0.29 0-0.53 0.23-0.53 0.51 0 0.28 0.24 0.5 0.54 0.5h3.63c0.26 0 0.48 0.2 0.5 0.47 0.02 0.26-0.17 0.49-0.43 0.53-0.26 0.03-0.46 0.26-0.46 0.52 0 0.28 0.24 0.5 0.54 0.5h1.27c0.27 0 0.49 0.22 0.5 0.48 0.01 0.27-0.2 0.5-0.47 0.52-0.28 0.02-0.5 0.24-0.5 0.5 0 0.28 0.24 0.51 0.54 0.51h1.56c0.27 0 0.5 0.22 0.5 0.49s-0.21 0.5-0.48 0.51c-0.26 0.01-0.52 0.17-0.52 0.46 0 0.28 0.25 0.52 0.54 0.52h3.19c0.49 0 1.29-0.29 1.99-0.55 0.7-0.25 1.25-0.45 1.65-0.45h0.86c0.28 0 0.5 0.22 0.5 0.5z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfHandPointLeft;

@@ -261,6 +261,7 @@ async function buildReact(): Promise<void> {
     "lu",
     "oc",
     "sl",
+    "tf",
     "ti",
     "vsc",
     "wi",

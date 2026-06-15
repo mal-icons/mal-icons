@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-list-ol",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfListOl {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 4v1h-12v-1h12zM5 9h12v-1h-12v1zM5 13h12v-1h-12v1zM2.08 3.48h0.01v2.38h0.36v-2.73h-0.31l-0.6 0.32 0.07 0.28 0.47-0.26zM1.64 9.57l0.22-0.2c0.57-0.55 0.94-0.96 0.94-1.46 0-0.39-0.25-0.79-0.84-0.79-0.31 0-0.58 0.12-0.77 0.28l0.12 0.26c0.13-0.1 0.33-0.23 0.58-0.23 0.41 0 0.54 0.26 0.54 0.530 0.41-0.32 0.76-1.02 1.43l-0.29 0.28v0.23h1.74v-0.31h-1.22v-0.01zM2.24 12.39v-0.01c0.34-0.12 0.5-0.36 0.5-0.64 0-0.33-0.24-0.65-0.78-0.65-0.29 0-0.57 0.1-0.71 0.21l0.1 0.27c0.12-0.08 0.33-0.18 0.55-0.18 0.34 0 0.48 0.19 0.48 0.41 0 0.32-0.34 0.46-0.61 0.46h-0.21v0.28h0.21c0.36 0 0.7 0.16 0.71 0.55 0.01 0.23-0.14 0.53-0.62 0.53-0.26 0-0.5-0.1-0.6-0.17l-0.1 0.28c0.13 0.09 0.4 0.19 0.71 0.19 0.65 0 0.99-0.38 0.99-0.82 0-0.38-0.27-0.63-0.61-0.7z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfListOl;

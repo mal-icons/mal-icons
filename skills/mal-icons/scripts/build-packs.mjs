@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  tf: {
+    id: "tf",
+    name: "Themify",
+    prefix: "Tf",
+    version: "9600186",
+    license: "OFL-1.1",
+    repo: "lykmapipo/themify-icons",
+    style: "fill",
+    viewBox: "0 0 17 17",
+    blurb:
+      "Hand-crafted, iOS-inspired line/solid icons (`TfHome`, `TfHeart`, `TfSettings`). Single-color fill; theme via `color`.",
+  },
   vsc: {
     id: "vsc",
     name: "Codicons",

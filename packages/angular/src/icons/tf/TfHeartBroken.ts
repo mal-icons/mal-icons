@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-heart-broken",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfHeartBroken {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.15 6.28c-0.1-0.42-0.15-0.77-0.15-1.12 0-2.48 2.02-4.5 4.5-4.5 1.74 0 3.25 0.99 4 2.44 0.75-1.45 2.26-2.44 4-2.44 2.48 0 4.5 2.02 4.5 4.5 0 0.34-0.05 0.69-0.15 1.09l-0.11 0.37c-0.08 0.33-0.23 0.72-0.45 1.2l-0.9-0.43c0.2-0.42 0.32-0.75 0.4-1.04l0.11-0.37c0.07-0.29 0.11-0.56 0.11-0.82 0-1.93-1.57-3.5-3.5-3.5s-3.5 1.57-3.5 3.5h-1c0-1.93-1.57-3.5-3.5-3.5s-3.5 1.57-3.5 3.5c0 0.26 0.04 0.54 0.12 0.85l0.1 0.32c0.09 0.29 0.24 0.62 0.44 1.03l-0.9 0.45c-0.23-0.46-0.39-0.83-0.5-1.17l-0.11-0.35zM8.5 15.21c-0.81-0.63-3.1-2.53-4.98-5.01l-0.8 0.6c2.39 3.17 5.35 5.35 5.48 5.44l0.3 0.22 0.3-0.22c0.13-0.09 3.19-2.37 5.54-5.44l-0.79-0.61c-1.85 2.41-4.22 4.37-5.04 5.01zM14.17 7.42l-2.83 2-2.83-2-2.83 2-2.84-2-3.13 2.2 0.58 0.82 2.55-1.8 2.84 2 2.83-2 2.83 2 2.83-2 2.54 1.8 0.58-0.82-3.12-2.2z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfHeartBroken;

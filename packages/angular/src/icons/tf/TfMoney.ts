@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tf-money",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TfMoney {
+  readonly viewBox = "0 0 17 17";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.72 9.58v0l-0.01-0.01c-0.01-0.01-0.02-0.02-0.04-0.03l0 0-1.67-1.28v-5.71c1.14 0.22 2 1.16 2 2.3l0.5 0.06 0.5-0.06c0-1.68-1.31-3.06-3-3.3v-1.55h-1v1.55c-1.69 0.23-3 1.62-3 3.3 0 0.94 0.42 1.84 1.15 2.47l0 0.01 0.04 0.03c0 0 0 0 0 0v0l1.81 1.39v5.71c-1.14-0.22-2-1.16-2-2.3h-1c0 1.68 1.31 3.06 3 3.3v1.55h1v-1.55c1.69-0.23 3-1.62 3-3.3 0-1.01-0.47-1.94-1.28-2.58zM6.82 6.58c-0.52-0.45-0.82-1.08-0.82-1.74 0-1.13 0.86-2.08 2-2.3v4.94l-1.18-0.9zM9 14.45v-4.94l1.1 0.85c0.57 0.45 0.9 1.1 0.9 1.79 0 1.13-0.86 2.08-2 2.3z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TfMoney;
