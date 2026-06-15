@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-amex",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrAmex {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M4.31,11.97 L3.49,9.97 L2.68,11.97 L4.31,11.97 Z M12.17,14.13 L12.17,10.2 L10.43,14.13 L9.38,14.13 L7.64,10.2 L7.64,14.13 L5.21,14.13 L4.75,13.01 L2.25,13.01 L1.79,14.13 L0.49,14.13 L2.63,9.12 L4.41,9.12 L6.45,13.86 L6.45,9.12 L8.4,9.12 L9.97,12.52 L11.41,9.12 L13.4,9.12 L13.4,14.13 L12.17,14.13 Z M15.31,13.1 L15.31,12.1 L17.93,12.1 L17.93,11.08 L15.31,11.08 L15.31,10.17 L18.31,10.17 L19.62,11.63 L18.25,13.1 L15.31,13.1 Z M23.42,14.15 L21.86,14.15 L20.39,12.49 L18.86,14.15 L14.11,14.15 L14.11,9.14 L18.93,9.14 L20.4,10.78 L21.92,9.14 L23.49,9.14 L21.16,11.64 L23.42,14.15 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrAmex;

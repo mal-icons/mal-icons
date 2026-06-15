@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GrLogin = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M9,15 L9,22 L22,22 L22,2 L9,2 L9,9 M18,12 L0,12 M13,7 L18,12 L13,17"}]], {"fill":"none"});
+
+export default GrLogin;

@@ -115,6 +115,16 @@
       "bun": "./src/icons/fi/*.svelte",
       "import": "./src/icons/fi/*.svelte"
     },
+    "./gr": {
+      "svelte": "./src/icons/gr/index.ts",
+      "bun": "./src/icons/gr/index.ts",
+      "import": "./src/icons/gr/index.ts"
+    },
+    "./gr/*": {
+      "svelte": "./src/icons/gr/*.svelte",
+      "bun": "./src/icons/gr/*.svelte",
+      "import": "./src/icons/gr/*.svelte"
+    },
     "./io": {
       "svelte": "./src/icons/io/index.ts",
       "bun": "./src/icons/io/index.ts",

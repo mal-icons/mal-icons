@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GrUser = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M8,24 L8,19 M16,24 L16,19 M3,24 L3,19 C3,14.03 7.03,11 12,11 C16.97,11 21,14.03 21,19 L21,24 M12,11 C14.76,11 17,8.76 17,6 C17,3.24 14.76,1 12,1 C9.24,1 7,3.24 7,6 C7,8.76 9.24,11 12,11 Z"}]], {"fill":"none"});
+
+export default GrUser;

@@ -97,6 +97,14 @@
       "bun": "./src/icons/fi/*.ts",
       "import": "./src/icons/fi/*.ts"
     },
+    "./gr": {
+      "bun": "./src/icons/gr/index.ts",
+      "import": "./src/icons/gr/index.ts"
+    },
+    "./gr/*": {
+      "bun": "./src/icons/gr/*.ts",
+      "import": "./src/icons/gr/*.ts"
+    },
     "./io": {
       "bun": "./src/icons/io/index.ts",
       "import": "./src/icons/io/index.ts"

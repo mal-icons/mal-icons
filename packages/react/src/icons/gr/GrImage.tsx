@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrImage = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M1,3 L23,3 L23,21 L1,21 L1,3 Z M6,9 C6.55,9 7,8.55 7,8 C7,7.45 6.55,7 6,7 C5.45,7 5,7.45 5,8 C5,8.55 5.45,9 6,9 Z M23,15 L18,9 L12,16 L9,13 L1,21"}]], {"fill":"none"});
+
+export default GrImage;

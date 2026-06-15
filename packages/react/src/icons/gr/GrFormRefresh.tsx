@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrFormRefresh = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M17.33,9.33 C16.4,7.36 14.36,6 12,6 C8.69,6 6,8.69 6,12 C6,15.31 8.69,18 12,18 C15.31,18 18,15.31 18,12 M18.5,6 L18.5,10 L14.5,10"}]], {"fill":"none"});
+
+export default GrFormRefresh;

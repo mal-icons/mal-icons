@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrDocumentCloud = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M5,7 L5,1 L19.5,1 L23,4.5 L23,23 L19,23 M18,1 L18,6 L23,6 M11,13 L6,13 C4.34,13 3,14.35 3,16 L3,16 C3,17.66 4.34,19 5.99,19 L7,19 L7,20.01 C7,21.66 8.34,23 10,23 L12,23 C13.66,23 15,21.66 15,20.01 L15,19 M11,19 L16,19 C17.66,19 19,17.65 19,16 L19,16 C19,14.34 17.66,13 16.01,13 L15,13 L15,11.99 C15,10.34 13.66,9 12,9 L10,9 C8.34,9 7,10.34 7,11.99 L7,13"}]], {"fill":"none"});
+
+export default GrDocumentCloud;

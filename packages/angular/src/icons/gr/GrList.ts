@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-list",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrList {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-width":"2","d":"M9,6 L21,6 M9,12 L21,12 M9,18 L17,18 M4,7 C4.55,7 5,6.55 5,6 C5,5.45 4.55,5 4,5 C3.45,5 3,5.45 3,6 C3,6.55 3.45,7 4,7 Z M4,13 C4.55,13 5,12.55 5,12 C5,11.45 4.55,11 4,11 C3.45,11 3,11.45 3,12 C3,12.55 3.45,13 4,13 Z M4,19 C4.55,19 5,18.55 5,18 C5,17.45 4.55,17 4,17 C3.45,17 3,17.45 3,18 C3,18.55 3.45,19 4,19 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrList;

@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-wordpress",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrWordpress {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M0,12 C0,16.75 2.76,20.85 6.76,22.8 L1.04,7.12 C0.37,8.61 0,10.26 0,12 M20.1,11.39 C20.1,9.91 19.57,8.88 19.11,8.09 C18.5,7.1 17.93,6.26 17.93,5.27 C17.93,4.17 18.77,3.14 19.95,3.14 C20,3.14 20.05,3.15 20.1,3.15 C17.97,1.19 15.12,0 12,0 C7.81,0 4.12,2.15 1.97,5.41 C2.26,5.42 2.52,5.42 2.75,5.42 C4,5.42 5.94,5.27 5.94,5.27 C6.59,5.23 6.67,6.18 6.02,6.26 C6.02,6.26 5.37,6.34 4.65,6.37 L9.02,19.37 L11.64,11.5 L9.77,6.37 C9.13,6.34 8.51,6.26 8.51,6.26 C7.87,6.22 7.94,5.23 8.59,5.27 C8.59,5.27 10.57,5.42 11.75,5.42 C13.01,5.42 14.95,5.27 14.95,5.27 C15.6,5.23 15.67,6.18 15.03,6.26 C15.03,6.26 14.38,6.34 13.65,6.37 L17.99,19.27 L19.19,15.27 C19.7,13.61 20.1,12.42 20.1,11.39 M12.21,13.05 L8.61,23.51 C9.68,23.83 10.82,24 12,24 C13.4,24 14.74,23.76 15.98,23.32 C15.95,23.27 15.92,23.21 15.9,23.15 L12.21,13.05 Z M22.53,6.24 C22.58,6.62 22.61,7.03 22.61,7.48 C22.61,8.69 22.38,10.06 21.7,11.77 L18.03,22.37 C21.6,20.29 24,16.43 24,12 C24,9.91 23.47,7.95 22.53,6.24"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrWordpress;

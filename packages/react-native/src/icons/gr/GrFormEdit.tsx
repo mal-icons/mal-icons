@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrFormEdit = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M12,8.34 L15.49,11.83 L12,8.34 Z M17.54,7.8 C17.93,8.19 17.93,8.81 17.53,9.21 L10.08,16.66 L6,17.83 L7.17,13.75 L14.62,6.3 C15.01,5.9 15.64,5.9 16.03,6.29 L17.54,7.8 Z"}]], {"fill":"none"});
+
+export default GrFormEdit;

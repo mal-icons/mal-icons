@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GrSatellite = createIcon("0 0 24 24", [["path",{"fill":"none","stroke":"currentColor","strokeWidth":"2","d":"M7,17 C2.97,12.79 2.97,6.12 7,2 L22,17 C17.88,21.03 11.21,21.03 7,17 Z M7,17 C3.71,17 1,19.95 1,23 L13,23 C13,21.86 12.63,20.97 12,20 M15,9 L19,5 L15,9 Z M20.5,1 C19.12,1 18,2.12 18,3.5 C18,4.88 19.12,6 20.5,6 C21.88,6 23,4.88 23,3.5 C23,2.12 21.88,1 20.5,1 L20.5,1 Z"}]], {"fill":"none"});
+
+export default GrSatellite;

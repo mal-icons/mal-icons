@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-elevator",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrElevator {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"none","stroke":"currentColor","stroke-linecap":"round","stroke-width":"2","d":"M1,2.99 C1,1.89 1.89,1 2.99,1 L21.01,1 C22.11,1 23,1.89 23,2.99 L23,21.01 C23,22.11 22.11,23 21.01,23 L2.99,23 C1.89,23 1,22.11 1,21.01 L1,2.99 Z M16.5,8 L18,10 L15,10 L16.5,8 Z M16.5,16 L18,14 L15,14 L16.5,16 Z M5,13 L6.56,9.89 C6.8,9.4 7.44,9 8,9 L8,9 C8.55,9 9.2,9.4 9.44,9.89 L11,13 M6.5,18 L7.75,10 L8,10 L8.25,10 L9.5,18 M8,7 C8.55,7 9,6.55 9,6 C9,5.45 8.55,5 8,5 C7.45,5 7,5.45 7,6 C7,6.55 7.45,7 8,7 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrElevator;

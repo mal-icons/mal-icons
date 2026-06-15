@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-paypal",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrPaypal {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M21.49,7.05 C20.43,12.03 17.02,14.66 11.61,14.66 L9.64,14.66 L8.18,24 L11.36,24 C11.82,24 12.21,23.67 12.28,23.21 L12.32,23.01 L13.05,18.38 L13.1,18.12 C13.17,17.67 13.56,17.33 14.02,17.33 L14.6,17.33 C18.36,17.33 21.31,15.81 22.17,11.39 C22.51,9.62 22.35,8.13 21.49,7.05 M19.32,1.81 C18.21,0.54 16.2,0 13.63,0 L6.17,0 C5.64,0 5.2,0.38 5.11,0.9 L2.01,20.6 C1.95,20.99 2.25,21.34 2.64,21.34 L7.25,21.34 L8.4,14 L8.37,14.23 C8.45,13.71 8.89,13.33 9.42,13.33 L11.61,13.33 C15.9,13.33 19.27,11.59 20.25,6.53 C20.28,6.38 20.33,6.1 20.33,6.1 C20.61,4.23 20.33,2.96 19.32,1.81"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrPaypal;

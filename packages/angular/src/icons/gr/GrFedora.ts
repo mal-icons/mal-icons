@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-fedora",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrFedora {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M12,0 C5.38,0 0,5.37 0,11.99 L0,21.28 C0,22.78 1.22,24 2.73,24 L12,24 C18.63,24 24,18.63 24,12 C24,5.37 18.63,0 12,0 L12,0 Z M16.6,5.58 C16.22,5.58 16.08,5.5 15.52,5.5 C13.88,5.5 12.55,6.83 12.55,8.47 L12.55,11.05 C12.55,11.29 12.74,11.47 12.97,11.47 L14.92,11.47 C15.65,11.47 16.24,12.05 16.24,12.78 C16.24,13.52 15.64,14.1 14.91,14.1 L12.55,14.1 L12.55,17.08 C12.55,20.19 10.03,22.71 6.92,22.71 C6.45,22.71 6.11,22.66 5.67,22.55 C5.04,22.38 4.52,21.86 4.52,21.25 C4.52,20.52 5.05,19.98 5.85,19.98 C6.23,19.98 6.36,20.05 6.92,20.05 C8.56,20.05 9.89,18.73 9.89,17.09 L9.89,14.5 C9.89,14.27 9.7,14.08 9.47,14.08 L7.52,14.08 C6.79,14.08 6.2,13.5 6.2,12.77 C6.2,12.04 6.8,11.46 7.53,11.46 L9.89,11.46 L9.89,8.48 C9.89,5.37 12.41,2.84 15.52,2.84 C15.99,2.84 16.33,2.9 16.77,3.01 C17.4,3.18 17.92,3.7 17.92,4.31 C17.92,5.04 17.39,5.58 16.6,5.58 L16.6,5.58 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrFedora;

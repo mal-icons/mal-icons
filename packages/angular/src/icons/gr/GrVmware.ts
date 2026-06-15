@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-vmware",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrVmware {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","fill-rule":"evenodd","d":"M5.57,0 C4.62,0 3.85,0.75 3.85,1.68 L3.85,7.42 L1.73,7.42 C0.77,7.42 0,8.18 0,9.1 L0,21.54 C0,22.47 0.77,23.22 1.73,23.22 L14.58,23.22 C15.54,23.22 16.33,22.47 16.33,21.54 L16.33,19.5 L22.27,19.5 C23.23,19.5 24,18.74 24,17.82 L24,5.38 C24,4.46 23.23,3.72 22.27,3.72 L20.15,3.72 L20.15,1.68 C20.15,0.75 19.38,0 18.43,0 L5.57,0 L5.57,0 Z M5.57,0.95 L18.43,0.95 C18.85,0.95 19.18,1.27 19.18,1.68 L19.18,3.72 L9.42,3.72 C8.46,3.72 7.67,4.46 7.67,5.38 L7.67,7.42 L4.82,7.42 L4.82,1.68 C4.82,1.27 5.15,0.95 5.57,0.95 L5.57,0.95 Z M9.42,4.65 L19.18,4.65 L19.18,14.09 C19.18,14.5 18.85,14.85 18.43,14.85 L16.33,14.85 L16.33,9.1 C16.33,8.18 15.54,7.42 14.58,7.42 L8.64,7.42 L8.64,5.38 C8.64,4.97 9,4.65 9.42,4.65 L9.42,4.65 Z M20.15,4.65 L22.27,4.65 C22.69,4.65 23.03,4.97 23.03,5.38 L23.03,17.82 C23.03,18.22 22.69,18.55 22.27,18.55 L16.33,18.55 L16.33,15.8 L18.43,15.8 C19.38,15.8 20.15,15.02 20.15,14.09 L20.15,4.65 L20.15,4.65 Z M1.73,8.37 L3.85,8.37 L3.85,14.09 C3.85,15.02 4.62,15.8 5.57,15.8 L7.67,15.8 L7.67,17.82 C7.67,18.74 8.46,19.5 9.42,19.5 L15.36,19.5 L15.36,21.54 C15.36,21.95 15,22.27 14.58,22.27 L1.73,22.27 C1.3,22.27 0.97,21.95 0.97,21.54 L0.97,9.1 C0.97,8.7 1.3,8.37 1.73,8.37 L1.73,8.37 Z M4.82,8.37 L7.67,8.37 L7.67,14.85 L5.57,14.85 C5.15,14.85 4.82,14.5 4.82,14.09 L4.82,8.37 L4.82,8.37 Z M8.64,8.37 L14.58,8.37 C15,8.37 15.36,8.7 15.36,9.1 L15.36,14.85 L8.64,14.85 L8.64,8.37 L8.64,8.37 Z M8.64,15.8 L15.36,15.8 L15.36,18.55 L9.42,18.55 C9,18.55 8.64,18.22 8.64,17.82 L8.64,15.8 L8.64,15.8 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrVmware;

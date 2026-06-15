@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gr-forward-ten",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GrForwardTen {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"none","stroke":"currentColor","stroke-width":"2","d":"M20.89,7.56 C19.33,4.27 15.93,2 12,2 C6.48,2 2,6.48 2,12 C2,17.52 6.48,22 12,22 L12,22 C17.52,22 22,17.52 22,12 M22,4 L22,8 L18,8 M9,16 L9,9 L7,9.53 M17,12 C17,10 16,8.5 14.5,8.5 C13,8.5 12,10 12,12 C12,14 13,15.5 14.5,15.5 C16,15.5 17,14 17,12 Z M14.5,8.5 C16.93,8.5 17,11 17,12 C17,13 17,15.5 14.5,15.5 C12,15.5 12,13 12,12 C12,11 12.06,8.5 14.5,8.5 Z"}]];
+  readonly defaultAttr = {"fill":"none"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GrForwardTen;

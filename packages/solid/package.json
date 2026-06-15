@@ -117,6 +117,16 @@
       "bun": "./src/icons/fi/*.ts",
       "import": "./src/icons/fi/*.ts"
     },
+    "./gr": {
+      "solid": "./src/icons/gr/index.ts",
+      "bun": "./src/icons/gr/index.ts",
+      "import": "./src/icons/gr/index.ts"
+    },
+    "./gr/*": {
+      "solid": "./src/icons/gr/*.ts",
+      "bun": "./src/icons/gr/*.ts",
+      "import": "./src/icons/gr/*.ts"
+    },
     "./io": {
       "solid": "./src/icons/io/index.ts",
       "bun": "./src/icons/io/index.ts",
