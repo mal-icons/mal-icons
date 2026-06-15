@@ -114,6 +114,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
+| [Grommet](https://icons.grommet.io/) | [Apache 2.0 license](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 4.14.0  |   637 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
@@ -136,11 +137,13 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/angular/far`            | All Font Awesome Regular icon components    |
 | `@mal-icons/angular/fc`            | All Flat Color icon components    |
 | `@mal-icons/angular/fi`            | All Feather icon components    |
+| `@mal-icons/angular/gr`            | All Grommet icon components    |
 | `@mal-icons/angular/fa/FaHeart` | A single icon component        |
 | `@mal-icons/angular/fab/FabGithub` | A single icon component        |
 | `@mal-icons/angular/far/FarHeart` | A single icon component        |
 | `@mal-icons/angular/fc/FcAbout` | A single icon component        |
 | `@mal-icons/angular/fi/FiActivity` | A single icon component        |
+| `@mal-icons/angular/gr/GrHome` | A single icon component        |
 | `@mal-icons/angular/io`            | All Ionicons components        |
 | `@mal-icons/angular/lu`            | All Lucide components          |
 | `@mal-icons/angular/oc`            | All Octicons components        |

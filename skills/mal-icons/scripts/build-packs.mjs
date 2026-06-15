@@ -185,6 +185,18 @@ const SET_META = {
     blurb:
       "Icons8's multi-color flat 48×48 icons (e.g. `FcAbout`, `FcSearch`, `FcCalendar`). Each shape keeps its own baked color, so these are NOT themed via `color`/`currentColor` — render them as-is.",
   },
+  gr: {
+    id: "gr",
+    name: "Grommet",
+    prefix: "Gr",
+    version: "4.14.0",
+    license: "Apache-2.0",
+    repo: "grommet/grommet-icons",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Grommet's stroke-based 24×24 icons, including many brand marks (e.g. `GrHome`, `GrGithub`, `GrAmazon`). Themed via `color`; honor `strokeWidth`/`weight`. Brand icons render single-color.",
+  },
 };
 
 /**

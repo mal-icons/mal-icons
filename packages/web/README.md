@@ -131,6 +131,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
+| [Grommet](https://icons.grommet.io/) | [Apache 2.0 license](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 4.14.0  |   637 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
@@ -153,11 +154,13 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/web/far`                 | The Font Awesome Regular set as a `{ name: IconData }` object  |
 | `@mal-icons/web/fc`                 | The Flat Color set as a `{ name: IconData }` object  |
 | `@mal-icons/web/fi`                 | The Feather set as a `{ name: IconData }` object  |
+| `@mal-icons/web/gr`                 | The Grommet set as a `{ name: IconData }` object  |
 | `@mal-icons/web/fa/FaHeart.json` | A single icon's JSON data                         |
 | `@mal-icons/web/fab/FabGithub.json` | A single icon's JSON data                         |
 | `@mal-icons/web/far/FarHeart.json` | A single icon's JSON data                         |
 | `@mal-icons/web/fc/FcAbout.json` | A single icon's JSON data                         |
 | `@mal-icons/web/fi/FiActivity.json` | A single icon's JSON data                         |
+| `@mal-icons/web/gr/GrHome.json` | A single icon's JSON data                         |
 | `@mal-icons/web/io`                 | The Ionicons set as a `{ name: IconData }` object |
 | `@mal-icons/web/lu`                 | The Lucide set as a `{ name: IconData }` object   |
 | `@mal-icons/web/oc`                 | The Octicons set as a `{ name: IconData }` object |

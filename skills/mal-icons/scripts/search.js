@@ -9,7 +9,7 @@
  * "gear" finds FiSettings, "house" finds FiHome).
  *
  * Usage:
- *   node search.js <query> [--set fi|ci|io|lu|fa|fab|far|ti|oc|dev|wi|ad|fc] [--limit N] [--json]
+ *   node search.js <query> [--set fi|ci|io|lu|fa|fab|far|ti|oc|dev|wi|ad|fc|gr] [--limit N] [--json]
  *
  * Examples:
  *   node search.js trash
@@ -25,7 +25,22 @@ import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ICONS_DIR = path.join(HERE, "..", "references", "icons");
-const SETS = ["fi", "ci", "io", "lu", "fa", "fab", "far", "ti", "oc", "dev", "wi", "ad", "fc"];
+const SETS = [
+  "fi",
+  "ci",
+  "io",
+  "lu",
+  "fa",
+  "fab",
+  "far",
+  "ti",
+  "oc",
+  "dev",
+  "wi",
+  "ad",
+  "fc",
+  "gr",
+];
 
 /** Everyday word -> icon terms (lock-step with packages/cli/src/search.ts). */
 const SYNONYMS = {
@@ -152,12 +167,12 @@ function search(query, icons, limit) {
 function printHelp() {
   process.stdout.write(
     [
-      "Usage: node search.js <query> [--set fi|ci|io|lu|fa|fab|far|ti|oc|dev|wi|ad|fc] [--limit N] [--json]",
+      "Usage: node search.js <query> [--set fi|ci|io|lu|fa|fab|far|ti|oc|dev|wi|ad|fc|gr] [--limit N] [--json]",
       "",
       "Search mal-icons by name, tags, or description.",
       "",
       "Options:",
-      "  -s, --set <id>     Limit to one set (fi, ci, io, lu, fa, fab, far, ti, oc, dev, wi, ad, fc).",
+      "  -s, --set <id>     Limit to one set (fi, ci, io, lu, fa, fab, far, ti, oc, dev, wi, ad, fc, gr).",
       "  -n, --limit <N>    Max results (default 20).",
       "      --json         Output JSON instead of a table.",
       "  -h, --help         Show this help.",
