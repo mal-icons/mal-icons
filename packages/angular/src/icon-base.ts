@@ -7,7 +7,7 @@ import {
   type OnChanges,
   Renderer2,
 } from "@angular/core";
-import { type NodeTuple, resolveIconAttrs } from "@mal-icons/core";
+import { type NodeTuple, resolveIconAttrs, resolveRootPaint } from "@mal-icons/core";
 import { type AngularIconContextValue, ICON_CONTEXT } from "./context.ts";
 
 const SVG_NS = "http://www.w3.org/2000/svg";
@@ -29,6 +29,11 @@ export class IconBaseComponent implements OnChanges {
   @Input() defaultAttr: Record<string, unknown> = {};
   @Input() size?: string | number;
   @Input() color?: string;
+  /**
+   * Render the icon's own colors instead of theming via `currentColor`. When
+   * `true`, the root `<svg>` omits its `stroke`/`fill` `currentColor` defaults.
+   */
+  @Input() multicolor?: boolean;
   @Input() title?: string;
   @Input() className?: string;
 
@@ -55,8 +60,9 @@ export class IconBaseComponent implements OnChanges {
 
     const svg = this.renderer.createElement("svg", SVG_NS) as SVGSVGElement;
     this.renderer.setAttribute(svg, "viewBox", this.viewBox);
-    this.renderer.setAttribute(svg, "stroke", "currentColor");
-    this.renderer.setAttribute(svg, "fill", "currentColor");
+    for (const [k, v] of Object.entries(resolveRootPaint(this.multicolor))) {
+      this.renderer.setAttribute(svg, k, v);
+    }
     this.renderer.setAttribute(svg, "stroke-width", "0");
     for (const [k, v] of Object.entries(this.defaultAttr)) {
       this.renderer.setAttribute(svg, k, String(v));

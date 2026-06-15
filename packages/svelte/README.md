@@ -72,6 +72,7 @@ per-icon props override them:
 | -------- | ------------------------------------------ | ------------------------------------ |
 | `size`   | `number \| string`                         | Width and height (defaults to `1em`) |
 | `color`  | `string`                                   | Overrides `currentColor`             |
+| `multicolor` | `boolean` | Keep the icon's own colors (omits the `currentColor` `stroke`/`fill` defaults) |
 | `weight` | `"thin" \| "light" \| "regular" \| "bold"` | Stroke weight for stroke-based sets  |
 | `title`  | `string`                                   | Accessible label                     |
 | `class`  | `string`                                   | Additional class names               |

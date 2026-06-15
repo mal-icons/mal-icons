@@ -14,7 +14,7 @@ imperatively, or lazy-load them from a CDN — no framework, no bundler required
 - **Safe by construction** — every shape is built with `document.createElementNS`; **never** `innerHTML`, so CDN-loaded data is safe.
 - **`<mal-icons>` custom element** — declarative, re-renders on attribute changes.
 - **Serializable data** — icons ship as tiny tree-shakeable JSON payloads.
-- **Theming + animations** — `size`, `color`, `weight`, `animate`, `secondaryColor`, plus the shared CSS animation presets.
+- **Theming + animations** — `size`, `color`, `multicolor`, `weight`, `animate`, `secondaryColor`, plus the shared CSS animation presets.
 
 ## Installation
 
@@ -100,7 +100,7 @@ defineMalIcon("mal-icons", load);
 
 ### `<mal-icons>` attributes
 
-`name`, `src`, `size`, `color`, `weight`, `animate`, `title`, `class`.
+`name`, `src`, `size`, `color`, `multicolor`, `weight`, `animate`, `title`, `class`.
 
 ## Animations
 

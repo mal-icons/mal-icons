@@ -83,6 +83,7 @@ bootstrapApplication(AppComponent, {
 | ----------- | ------------------ | ------------------------------------ |
 | `size`      | `number \| string` | Width and height (defaults to `1em`) |
 | `color`     | `string`           | Overrides `currentColor`             |
+| `multicolor` | `boolean` | Keep the icon's own colors (omits the `currentColor` `stroke`/`fill` defaults) |
 | `title`     | `string`           | Accessible label                     |
 | `className` | `string`           | Additional class names               |
 

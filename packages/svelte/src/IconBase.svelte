@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { NodeTuple } from "@mal-icons/core";
-  import { resolveIconAttrs } from "@mal-icons/core";
+  import { resolveIconAttrs, resolveRootPaint } from "@mal-icons/core";
   import { getIconContext } from "./context.ts";
 
   interface Props {
@@ -9,6 +9,7 @@
     defaultAttr?: Record<string, unknown>;
     size?: string | number;
     color?: string;
+    multicolor?: boolean;
     title?: string;
     className?: string;
     style?: string;
@@ -21,6 +22,7 @@
     defaultAttr = {},
     size = undefined,
     color = undefined,
+    multicolor = undefined,
     title = undefined,
     className = undefined,
     style = undefined,
@@ -29,6 +31,7 @@
 
   const conf = getIconContext();
   const resolved = resolveIconAttrs({ size, color, className }, conf);
+  const paint = resolveRootPaint(multicolor);
 
   const mergedStyle = [
     resolved.color ? `color:${resolved.color}` : undefined,
@@ -41,8 +44,7 @@
 
 <svg
   {viewBox}
-  stroke="currentColor"
-  fill="currentColor"
+  {...paint}
   stroke-width="0"
   width={resolved.size}
   height={resolved.size}

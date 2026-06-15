@@ -71,6 +71,7 @@ provideIconContext({ size: 20, color: "#3366ff" });
 | ---------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- |
 | `size`           | `number \| string`                                                             | Width and height (defaults to `1em`)                 |
 | `color`          | `string`                                                                       | Overrides `currentColor`                             |
+| `multicolor` | `boolean` | Keep the icon's own colors (omits the `currentColor` `stroke`/`fill` defaults) |
 | `weight`         | `"thin" \| "light" \| "regular" \| "bold"`                                     | Stroke weight for stroke-based sets                  |
 | `animate`        | `IconAnimation` (`"spin"`, `"pulse"`, `"bounce"`, `"shake"`, `"heartbeat"`, …) | CSS animation preset                                 |
 | `secondaryColor` | `string`                                                                       | Multi-tone color, exposed as `--mal-icons-secondary` |

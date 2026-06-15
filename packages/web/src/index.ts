@@ -3,6 +3,7 @@ import {
   type IconAnimation,
   type IconData,
   resolveIconAttrs,
+  resolveRootPaint,
   WEIGHT_STROKE_WIDTH,
 } from "@mal-icons/core";
 
@@ -16,6 +17,11 @@ export interface RenderIconProps {
   size?: string | number;
   /** Overrides `currentColor`. */
   color?: string;
+  /**
+   * Render the icon's own colors instead of theming via `currentColor`. When
+   * `true`, the root `<svg>` omits its `stroke`/`fill` `currentColor` defaults.
+   */
+  multicolor?: boolean;
   /** Secondary color for multi-tone icons, exposed as `--mal-icons-secondary`. */
   secondaryColor?: string;
   /** CSS-driven animation preset; requires {@link ICON_ANIMATIONS_CSS} on the page. */
@@ -41,8 +47,9 @@ export function renderIcon(data: IconData, props: RenderIconProps = {}): SVGSVGE
 
   const svg = document.createElementNS(SVG_NS, "svg");
   svg.setAttribute("viewBox", data.viewBox);
-  svg.setAttribute("stroke", "currentColor");
-  svg.setAttribute("fill", "currentColor");
+  for (const [k, v] of Object.entries(resolveRootPaint(props.multicolor))) {
+    svg.setAttribute(k, v);
+  }
   svg.setAttribute("stroke-width", "0");
   if (data.defaultAttr) {
     for (const [k, v] of Object.entries(data.defaultAttr)) svg.setAttribute(k, String(v));
@@ -121,7 +128,7 @@ export function clearRegistry(): void {
   registry.clear();
 }
 
-const NAME_ATTRS = ["size", "color", "title", "class", "weight", "animate"];
+const NAME_ATTRS = ["size", "color", "multicolor", "title", "class", "weight", "animate"];
 
 function readProps(el: Element): RenderIconProps {
   const props: RenderIconProps = {};
@@ -129,6 +136,10 @@ function readProps(el: Element): RenderIconProps {
   if (size !== null) props.size = size;
   const color = el.getAttribute("color");
   if (color !== null) props.color = color;
+  if (el.hasAttribute("multicolor")) {
+    const multicolor = el.getAttribute("multicolor");
+    props.multicolor = multicolor !== "false";
+  }
   const title = el.getAttribute("title");
   if (title !== null) props.title = title;
   const className = el.getAttribute("class");
