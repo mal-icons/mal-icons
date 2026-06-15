@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/react",
-  "version": "0.6.10",
+  "version": "0.7.11",
   "description": "React components and dynamic icon rendering for mal-icons.",
   "type": "module",
   "license": "MIT",

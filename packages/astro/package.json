@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/astro",
-  "version": "0.6.10",
+  "version": "0.7.11",
   "description": "Astro components for mal-icons.",
   "type": "module",
   "license": "MIT",
