@@ -4,7 +4,7 @@ description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Material Icons "md" and its Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt" variants, Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 32,214 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 30,092 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -43,7 +43,6 @@ helps you choose icons and wire them into any supported framework correctly.
 | `cg` | css.gg | `Cg` | fill | 704 | MIT | `0 0 24 24` |
 | `sl` | Simple Line Icons | `Sl` | fill | 189 | MIT | `0 0 1024 1024` |
 | `hi` | Heroicons | `Hi` | stroke | 324 | MIT | `0 0 24 24` |
-| `md` | Material Icons | `Md` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
 | `mdf` | Material Icons Filled | `Mdf` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
 | `mdr` | Material Icons Rounded | `Mdr` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
 | `mds` | Material Icons Sharp | `Mds` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
@@ -66,10 +65,9 @@ Icons (`fc`) are multi-color flat glyphs (`FcAbout`, `FcSearch`): each shape kee
 its own baked color, so they render as-is and are **not** themed via `color`.
 Grommet (`gr`) is a stroke-based 24×24 set that also bundles brand marks
 (`GrHome`, `GrGithub`, `GrAmazon`); brand icons render single-color via `color`.
-Material Icons (`md`) are Google's Material Icons from fonts.google.com/icons —
-the outlined 24×24 variant (`MdHome`, `MdSearch`, `MdSettings`, `MdFace`); paths
-paint with `currentColor`, theme via `color`. The same Material Icons set ships in
-four more styles under their own prefixes: Filled (`mdf`/`MdfHome`), Rounded
+Material Icons are Google's Material Icons from fonts.google.com/icons — 24×24
+glyphs that paint with `currentColor` and theme via `color`. They ship in four
+styles under their own prefixes: Filled (`mdf`/`MdfHome`), Rounded
 (`mdr`/`MdrHome`), Sharp (`mds`/`MdsHome`), and Two Tone (`mdt`/`MdtHome`, a solid
 layer plus a 30%-opacity layer). Material Symbols are the newer, larger Google set
 (weight 400) in Outlined (`mso`/`MsoHome`), Rounded (`msr`/`MsrHome`), and Sharp
@@ -110,7 +108,6 @@ catalog (name, tags, description) lives in:
 - [references/icons/cg.json](references/icons/cg.json) · [cg.md](references/icons/cg.md) — css.gg
 - [references/icons/sl.json](references/icons/sl.json) · [sl.md](references/icons/sl.md) — Simple Line Icons
 - [references/icons/hi.json](references/icons/hi.json) · [hi.md](references/icons/hi.md) — Heroicons
-- [references/icons/md.json](references/icons/md.json) · [md.md](references/icons/md.md) — Material Icons
 - [references/icons/mdf.json](references/icons/mdf.json) · [mdf.md](references/icons/mdf.md) — Material Icons Filled
 - [references/icons/mdr.json](references/icons/mdr.json) · [mdr.md](references/icons/mdr.md) — Material Icons Rounded
 - [references/icons/mds.json](references/icons/mds.json) · [mds.md](references/icons/mds.md) — Material Icons Sharp

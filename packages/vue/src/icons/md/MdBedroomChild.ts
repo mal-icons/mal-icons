@@ -1,5 +1,0 @@
-import { createIcon } from "../../create-icon.ts";
-
-const MdBedroomChild = createIcon("0 0 24 24", [["path",{"d":"M20 4v16H4V4h16m0-2H4c-1.1 0-2 0.9-2 2v16c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm-3.5 8.67V9c0-1.1-0.9-2-2-2h-5c-1.1 0-2 0.9-2 2v1.67c-0.880.35-1.5 1.2-1.5 2.2V17h1.5v-1.5h9V17H18v-4.13c0-1-0.62-1.85-1.5-2.2zM15 8.5v2H9v-2h6zm-7.5 4.37c0-0.480.39-0.870.87-0.87h7.27c0.48 0 0.870.390.870.87V14h-9v-1.13H7.5z"}]]);
-
-export default MdBedroomChild;

@@ -20,7 +20,6 @@ export * from "./icons/gr/index.ts";
 export * from "./icons/hi/index.ts";
 export * from "./icons/io/index.ts";
 export * from "./icons/lu/index.ts";
-export * from "./icons/md/index.ts";
 export * from "./icons/mdf/index.ts";
 export * from "./icons/mdr/index.ts";
 export * from "./icons/mds/index.ts";

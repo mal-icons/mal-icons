@@ -112,11 +112,6 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./dist/icons/lu/index.js"
     },
-    "./md": {
-      "types": "./dist/icons/md/index.d.ts",
-      "bun": "./src/icons/md/index.ts",
-      "import": "./dist/icons/md/index.js"
-    },
     "./mdf": {
       "types": "./dist/icons/mdf/index.d.ts",
       "bun": "./src/icons/mdf/index.ts",
@@ -159,7 +154,6 @@
     },
     "./io/*.json": "./src/icons/io/*.json",
     "./lu/*.json": "./src/icons/lu/*.json",
-    "./md/*.json": "./src/icons/md/*.json",
     "./mdf/*.json": "./src/icons/mdf/*.json",
     "./mdr/*.json": "./src/icons/mdr/*.json",
     "./mds/*.json": "./src/icons/mds/*.json",

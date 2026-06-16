@@ -1,5 +1,0 @@
-import { createIcon } from "../../create-icon.ts";
-
-const MdScheduleSend = createIcon("0 0 24 24", [["path",{"d":"M17 12c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm1.65 7.35L16.5 17.2V14h1v2.79l1.85 1.85-0.70.71z"}],["path",{"d":"m11 12-6-1.5V7.01l8.87 3.74c0.94-0.47 2-0.75 3.13-0.750.1 0 0.190.010.280.01L3 4v16l7-2.95V17c0-0.80.14-1.560.39-2.28L5 16.99V13.5l6-1.5z"}]]);
-
-export default MdScheduleSend;

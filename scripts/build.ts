@@ -278,7 +278,6 @@ async function buildReact(): Promise<void> {
     "hi",
     "io",
     "lu",
-    "md",
     "mdf",
     "mdr",
     "mds",

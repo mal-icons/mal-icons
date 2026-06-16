@@ -40,7 +40,6 @@
     "./hi/*": "./src/icons/hi/*.astro",
     "./io/*": "./src/icons/io/*.astro",
     "./lu/*": "./src/icons/lu/*.astro",
-    "./md/*": "./src/icons/md/*.astro",
     "./mdf/*": "./src/icons/mdf/*.astro",
     "./mdr/*": "./src/icons/mdr/*.astro",
     "./mds/*": "./src/icons/mds/*.astro",

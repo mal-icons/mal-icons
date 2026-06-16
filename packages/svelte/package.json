@@ -155,11 +155,6 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./src/icons/lu/index.ts"
     },
-    "./md": {
-      "svelte": "./src/icons/md/index.ts",
-      "bun": "./src/icons/md/index.ts",
-      "import": "./src/icons/md/index.ts"
-    },
     "./mdf": {
       "svelte": "./src/icons/mdf/index.ts",
       "bun": "./src/icons/mdf/index.ts",
@@ -209,11 +204,6 @@
       "svelte": "./src/icons/lu/*.svelte",
       "bun": "./src/icons/lu/*.svelte",
       "import": "./src/icons/lu/*.svelte"
-    },
-    "./md/*": {
-      "svelte": "./src/icons/md/*.svelte",
-      "bun": "./src/icons/md/*.svelte",
-      "import": "./src/icons/md/*.svelte"
     },
     "./mdf/*": {
       "svelte": "./src/icons/mdf/*.svelte",

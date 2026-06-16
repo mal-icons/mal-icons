@@ -269,18 +269,6 @@ const SET_META = {
     blurb:
       "Grommet's stroke-based 24×24 icons, including many brand marks (e.g. `GrHome`, `GrGithub`, `GrAmazon`). Themed via `color`; honor `strokeWidth`/`weight`. Brand icons render single-color.",
   },
-  md: {
-    id: "md",
-    name: "Material Icons",
-    prefix: "Md",
-    version: "0.14.15",
-    license: "Apache-2.0",
-    repo: "marella/material-design-icons",
-    style: "fill",
-    viewBox: "0 0 24 24",
-    blurb:
-      "Google's Material Icons from fonts.google.com/icons — the outlined 24×24 variant (e.g. `MdHome`, `MdSearch`, `MdSettings`, `MdFace`). Paths paint with `currentColor`; theme via `color`.",
-  },
   mdf: {
     id: "mdf",
     name: "Material Icons Filled",
