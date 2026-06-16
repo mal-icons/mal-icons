@@ -155,11 +155,6 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./dist/icons/lu/index.js"
     },
-    "./md": {
-      "types": "./dist/icons/md/index.d.ts",
-      "bun": "./src/icons/md/index.ts",
-      "import": "./dist/icons/md/index.js"
-    },
     "./mdf": {
       "types": "./dist/icons/mdf/index.d.ts",
       "bun": "./src/icons/mdf/index.ts",
@@ -209,11 +204,6 @@
       "types": "./dist/icons/lu/*.d.ts",
       "bun": "./src/icons/lu/*.tsx",
       "import": "./dist/icons/lu/*.js"
-    },
-    "./md/*": {
-      "types": "./dist/icons/md/*.d.ts",
-      "bun": "./src/icons/md/*.tsx",
-      "import": "./dist/icons/md/*.js"
     },
     "./mdf/*": {
       "types": "./dist/icons/mdf/*.d.ts",

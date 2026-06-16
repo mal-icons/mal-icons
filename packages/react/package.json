@@ -168,12 +168,6 @@
       "import": "./dist/icons/lu/index.js",
       "require": "./dist/icons/lu/index.cjs"
     },
-    "./md": {
-      "types": "./dist/icons/md/index.d.ts",
-      "bun": "./src/icons/md/index.ts",
-      "import": "./dist/icons/md/index.js",
-      "require": "./dist/icons/md/index.cjs"
-    },
     "./mdf": {
       "types": "./dist/icons/mdf/index.d.ts",
       "bun": "./src/icons/mdf/index.ts",
@@ -231,11 +225,6 @@
       "types": "./dist/icons/lu/*.d.ts",
       "bun": "./src/icons/lu/*.tsx",
       "import": "./dist/icons/lu/*.js"
-    },
-    "./md/*": {
-      "types": "./dist/icons/md/*.d.ts",
-      "bun": "./src/icons/md/*.tsx",
-      "import": "./dist/icons/md/*.js"
     },
     "./mdf/*": {
       "types": "./dist/icons/mdf/*.d.ts",
@@ -373,7 +362,6 @@
     "./sprite/hi.svg": "./dist/icons/hi/sprite.svg",
     "./sprite/io.svg": "./dist/icons/io/sprite.svg",
     "./sprite/lu.svg": "./dist/icons/lu/sprite.svg",
-    "./sprite/md.svg": "./dist/icons/md/sprite.svg",
     "./sprite/mdf.svg": "./dist/icons/mdf/sprite.svg",
     "./sprite/mdr.svg": "./dist/icons/mdr/sprite.svg",
     "./sprite/mds.svg": "./dist/icons/mds/sprite.svg",

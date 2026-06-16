@@ -113,7 +113,6 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
-| [Material Icons](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Outlined) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
 | [Material Icons Filled](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Filled) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
 | [Material Icons Rounded](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Rounded) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
 | [Material Icons Sharp](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Sharp) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
@@ -154,7 +153,6 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react-native/gr/GrHome` | A single icon module              |
 | `@mal-icons/react-native/io`            | All Ionicons (named exports)      |
 | `@mal-icons/react-native/lu`            | All Lucide (named exports)        |
-| `@mal-icons/react-native/md`            | All Material Icons (named exports)        |
 | `@mal-icons/react-native/mdf` | All Material Icons Filled (named exports) |
 | `@mal-icons/react-native/mdr` | All Material Icons Rounded (named exports) |
 | `@mal-icons/react-native/mds` | All Material Icons Sharp (named exports) |
@@ -165,7 +163,6 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react-native/oc`            | All Octicons (named exports)      |
 | `@mal-icons/react-native/io/IoHeart`    | A single Ionicons icon module     |
 | `@mal-icons/react-native/lu/LuHeart`    | A single Lucide icon module       |
-| `@mal-icons/react-native/md/MdFace`    | A single Material Icons icon module       |
 | `@mal-icons/react-native/oc/OcHeart16`    | A single Octicons icon module     |
 | `@mal-icons/react-native/ti`            | All Typicons (named exports)      |
 | `@mal-icons/react-native/wi`            | All Weather Icons (named exports) |

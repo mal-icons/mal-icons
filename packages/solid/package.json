@@ -157,11 +157,6 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./src/icons/lu/index.ts"
     },
-    "./md": {
-      "solid": "./src/icons/md/index.ts",
-      "bun": "./src/icons/md/index.ts",
-      "import": "./src/icons/md/index.ts"
-    },
     "./mdf": {
       "solid": "./src/icons/mdf/index.ts",
       "bun": "./src/icons/mdf/index.ts",
@@ -211,11 +206,6 @@
       "solid": "./src/icons/lu/*.ts",
       "bun": "./src/icons/lu/*.ts",
       "import": "./src/icons/lu/*.ts"
-    },
-    "./md/*": {
-      "solid": "./src/icons/md/*.ts",
-      "bun": "./src/icons/md/*.ts",
-      "import": "./src/icons/md/*.ts"
     },
     "./mdf/*": {
       "solid": "./src/icons/mdf/*.ts",
