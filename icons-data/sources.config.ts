@@ -241,4 +241,14 @@ export const sources: Record<string, IconSource> = {
     iconDir: "packages/radix-icons/icons",
     style: "fill",
   },
+  md: {
+    id: "md",
+    prefix: "Md",
+    name: "Material Icons",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    ref: "v0.14.15",
+    iconDir: "svg/outlined",
+    style: "fill",
+  },
 };
