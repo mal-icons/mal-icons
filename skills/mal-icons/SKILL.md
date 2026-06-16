@@ -4,7 +4,7 @@ description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Material Icons "md" — 14,714 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Material Icons "md" and its Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt" variants, Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 32,214 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -44,6 +44,13 @@ helps you choose icons and wire them into any supported framework correctly.
 | `sl` | Simple Line Icons | `Sl` | fill | 189 | MIT | `0 0 1024 1024` |
 | `hi` | Heroicons | `Hi` | stroke | 324 | MIT | `0 0 24 24` |
 | `md` | Material Icons | `Md` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
+| `mdf` | Material Icons Filled | `Mdf` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
+| `mdr` | Material Icons Rounded | `Mdr` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
+| `mds` | Material Icons Sharp | `Mds` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
+| `mdt` | Material Icons Two Tone | `Mdt` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
+| `mso` | Material Symbols Outlined | `Mso` | fill | 3004 | Apache-2.0 | `0 -960 960 960` |
+| `msr` | Material Symbols Rounded | `Msr` | fill | 3004 | Apache-2.0 | `0 -960 960 960` |
+| `mss` | Material Symbols Sharp | `Mss` | fill | 3004 | Apache-2.0 | `0 -960 960 960` |
 
 Component names are PascalCase with the set prefix: `FiActivity`, `CiHeart`,
 `IoHeartOutline`. Ionicons ships filled, `-outline`, and `-sharp` variants
@@ -61,7 +68,12 @@ Grommet (`gr`) is a stroke-based 24×24 set that also bundles brand marks
 (`GrHome`, `GrGithub`, `GrAmazon`); brand icons render single-color via `color`.
 Material Icons (`md`) are Google's Material Icons from fonts.google.com/icons —
 the outlined 24×24 variant (`MdHome`, `MdSearch`, `MdSettings`, `MdFace`); paths
-paint with `currentColor`, theme via `color`.
+paint with `currentColor`, theme via `color`. The same Material Icons set ships in
+four more styles under their own prefixes: Filled (`mdf`/`MdfHome`), Rounded
+(`mdr`/`MdrHome`), Sharp (`mds`/`MdsHome`), and Two Tone (`mdt`/`MdtHome`, a solid
+layer plus a 30%-opacity layer). Material Symbols are the newer, larger Google set
+(weight 400) in Outlined (`mso`/`MsoHome`), Rounded (`msr`/`MsrHome`), and Sharp
+(`mss`/`MssHome`); they use a `0 -960 960 960` viewBox and theme via `color`.
 
 ## Finding an icon
 
@@ -99,6 +111,13 @@ catalog (name, tags, description) lives in:
 - [references/icons/sl.json](references/icons/sl.json) · [sl.md](references/icons/sl.md) — Simple Line Icons
 - [references/icons/hi.json](references/icons/hi.json) · [hi.md](references/icons/hi.md) — Heroicons
 - [references/icons/md.json](references/icons/md.json) · [md.md](references/icons/md.md) — Material Icons
+- [references/icons/mdf.json](references/icons/mdf.json) · [mdf.md](references/icons/mdf.md) — Material Icons Filled
+- [references/icons/mdr.json](references/icons/mdr.json) · [mdr.md](references/icons/mdr.md) — Material Icons Rounded
+- [references/icons/mds.json](references/icons/mds.json) · [mds.md](references/icons/mds.md) — Material Icons Sharp
+- [references/icons/mdt.json](references/icons/mdt.json) · [mdt.md](references/icons/mdt.md) — Material Icons Two Tone
+- [references/icons/mso.json](references/icons/mso.json) · [mso.md](references/icons/mso.md) — Material Symbols Outlined
+- [references/icons/msr.json](references/icons/msr.json) · [msr.md](references/icons/msr.md) — Material Symbols Rounded
+- [references/icons/mss.json](references/icons/mss.json) · [mss.md](references/icons/mss.md) — Material Symbols Sharp
 
 Prefer the JSON packs for programmatic lookups; the `.md` tables are for
 human browsing. Regenerate both with `node scripts/build-packs.mjs`.
@@ -164,4 +183,4 @@ Swap `react` for any package: `vue`, `svelte`, `solid`, `preact`, `angular`,
 2. Use the package that matches their framework; default to per-icon or set
    barrel imports for tree-shaking.
 3. Open the relevant `references/setup/<framework>.md` for the exact API.
-4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) are CC-BY-4.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`) are Apache-2.0; Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`) are MIT; Lucide (`lu`) is ISC.
+4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) are CC-BY-4.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) are Apache-2.0; Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`) are MIT; Lucide (`lu`) is ISC.
