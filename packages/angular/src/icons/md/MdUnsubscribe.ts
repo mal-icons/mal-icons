@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-unsubscribe",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdUnsubscribe {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.99 14.04V5c0-1.1-0.9-2-2-2H5c-1.1 0-2 0.9-2 2v10c0 1.10.9 2 2 2h10.05c0.28 1.92 2.1 3.35 4.18 2.93 1.34-0.27 2.43-1.37 2.7-2.710.25-1.24-0.16-2.39-0.94-3.18zm-2-9.04L12 8.5 5 5h13.99zm-3.64 10H5V7l7 3.5L19 7v6.05c-0.16-0.02-0.33-0.05-0.5-0.05-1.39 0-2.590.82-3.15 2zm5.15 2h-4v-1h4v1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdUnsubscribe;

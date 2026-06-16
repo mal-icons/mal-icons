@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-no-backpack",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdNoBackpack {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.98 4.15c0.01 0 0.01-0.010.02-0.01V2h3v2h4V2h3v2.14c1.720.45 3 2 3 3.86v9.17l-2-2V8c0-1.1-0.9-2-2-2H8.83L6.98 4.15zM14.83 12l1.67 1.67V12h-1.67zm4.95 10.61-0.85-0.85c-0.280.15-0.590.24-0.930.24H6c-1.1 0-2-0.9-2-2V8c0-0.360.06-0.690.15-1.02L1.39 4.22 2.8 2.81l18.38 18.38-1.4 1.42zM17.17 20l-6-6H7.5v-2h1.67L6 8.83V20h11.17z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdNoBackpack;

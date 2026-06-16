@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-microwave",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdMicrowave {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 4H4c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V6c0-1.1-0.9-2-2-2zM4 6h10v12H4V6zm16 12h-4V6h4v12zm-1-9h-2V7h2v2zm-1 4c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm0 4c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm-7.75-1c-0.79 0-1.37-0.38-1.79-0.66-0.33-0.22-0.52-0.34-0.71-0.34-0.37 0-0.80.41-0.950.61l-1.42-1.42c0.35-0.4 1.21-1.19 2.37-1.190.8 0 1.390.39 1.810.670.310.210.510.330.690.330.37 0 0.8-0.410.95-0.61l1.42 1.42c-0.360.4-1.21 1.19-2.37 1.19zm0-5c-0.79 0-1.37-0.38-1.79-0.66-0.33-0.22-0.52-0.34-0.71-0.34-0.37 0-0.80.41-0.950.61L5.37 9.19C5.73 8.79 6.59 8 7.75 8c0.8 0 1.390.39 1.810.670.310.210.510.330.690.330.37 0 0.8-0.410.95-0.61l1.42 1.42c-0.360.4-1.21 1.19-2.37 1.19z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdMicrowave;

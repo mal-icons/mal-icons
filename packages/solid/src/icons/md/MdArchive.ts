@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdArchive = createIcon("0 0 24 24", [["path",{"d":"m20.54 5.23-1.39-1.68C18.88 3.21 18.47 3 18 3H6c-0.47 0-0.880.21-1.160.55L3.46 5.23C3.17 5.57 3 6.02 3 6.5V19c0 1.10.9 2 2 2h14c1.1 0 2-0.9 2-2V6.5c0-0.48-0.17-0.93-0.46-1.27zM6.24 5h11.52l0.810.97H5.44l0.8-0.97zM5 19V8h14v11H5zm8.45-9h-2.9v3H8l4 4 4-4h-2.55z"}]]);
+
+export default MdArchive;

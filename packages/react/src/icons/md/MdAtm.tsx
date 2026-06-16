@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdAtm = createIcon("0 0 24 24", [["path",{"d":"M8 9v1.5h2.25V15h1.5v-4.5H14V9H8zM6 9H3c-0.55 0-1 0.45-1 1v5h1.5v-1.5h2V15H7v-5c0-0.55-0.45-1-1-1zm-0.5 3h-2v-1.5h2V12zM21 9h-4.5c-0.55 0-1 0.45-1 1v5H17v-4.5h1V14h1.5v-3.51h1V15H22v-5c0-0.55-0.45-1-1-1z"}]]);
+
+export default MdAtm;

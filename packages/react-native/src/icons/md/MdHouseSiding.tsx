@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdHouseSiding = createIcon("0 0 24 24", [["path",{"d":"M19 12h3L12 3 2 12h3v8h2v-2h10v2h2v-8zM7.21 10h9.58l0.210.19V12H7v-1.81l0.21-0.19zm7.36-2H9.43L12 5.69 14.57 8zM7 16v-2h10v2H7z"}]]);
+
+export default MdHouseSiding;

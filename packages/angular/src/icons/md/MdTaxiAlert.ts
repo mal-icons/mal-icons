@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-taxi-alert",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdTaxiAlert {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"6.5","cy":"15.5","r":"1.5"}],["circle",{"cx":"15.5","cy":"15.5","r":"1.5"}],["path",{"d":"M18 13v5H4v-5h14c-1.91 0-3.63-0.76-4.89-2h-8.3l1.04-3h5.44C11.1 7.37 11 6.7 11 6s0.1-1.370.29-2H8v2H5.5c-0.66 0-1.210.42-1.42 1.01L2 13v8c0 0.550.45 1 1 1h1c0.55 0 1-0.45 1-1v-1h12v1c0 0.550.45 1 1 1h1c0.55 0 1-0.45 1-1v-8l-0.09-0.27c-0.610.17-1.250.27-1.910.27z"}],["path",{"d":"M18 1c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0.5 8h-1V8h1v1zm0-2h-1V3h1v4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdTaxiAlert;

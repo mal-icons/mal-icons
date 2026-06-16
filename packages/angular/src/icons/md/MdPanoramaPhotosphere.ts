@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-panorama-photosphere",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdPanoramaPhotosphere {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.95 8.15c-0.29-0.16-0.61-0.31-0.93-0.46C19.4 4.33 15.98 2 12 2 8.02 2 4.6 4.33 2.99 7.68c-0.330.15-0.640.3-0.930.46C1.41 8.5 1 9.17 1 9.91v4.18c0 0.740.41 1.41 1.05 1.770.290.160.610.310.930.46C4.6 19.67 8.02 22 12 22c3.98 0 7.4-2.33 9.01-5.680.33-0.150.64-0.30.93-0.460.65-0.36 1.06-1.03 1.06-1.77V9.91c0-0.74-0.41-1.41-1.05-1.76zM21 9.91v4.19c-2.19 1.21-5.47 1.9-9 1.9-3.53 0-6.81-0.7-9-1.91V9.91C5.2 8.69 8.47 8 12 8c3.53 0 6.810.7 9 1.91zM12 4c2.37 0 4.49 1.04 5.95 2.68C16.17 6.25 14.15 6 12 6c-2.15 0-4.170.25-5.950.68A7.94 7.94 0 0 1 12 4zm0 16c-2.37 0-4.49-1.04-5.95-2.68 1.780.43 3.80.68 5.950.68s4.17-0.25 5.95-0.68A7.94 7.94 0 0 1 12 20z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdPanoramaPhotosphere;
