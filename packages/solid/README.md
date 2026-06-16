@@ -118,6 +118,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
+| [Material Icons](https://fonts.google.com/icons) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
@@ -150,9 +151,11 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/solid/gr/GrHome` | A single icon module              |
 | `@mal-icons/solid/io`            | All Ionicons (named exports)      |
 | `@mal-icons/solid/lu`            | All Lucide (named exports)        |
+| `@mal-icons/solid/md`            | All Material Icons (named exports)        |
 | `@mal-icons/solid/oc`            | All Octicons (named exports)      |
 | `@mal-icons/solid/io/IoHeart`    | A single Ionicons icon module     |
 | `@mal-icons/solid/lu/LuHeart`    | A single Lucide icon module       |
+| `@mal-icons/solid/md/MdFace`    | A single Material Icons icon module       |
 | `@mal-icons/solid/oc/OcHeart16`    | A single Octicons icon module     |
 | `@mal-icons/solid/ti`            | All Typicons (named exports)      |
 | `@mal-icons/solid/wi`            | All Weather Icons (named exports) |

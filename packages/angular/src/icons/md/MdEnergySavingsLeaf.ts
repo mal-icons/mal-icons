@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-energy-savings-leaf",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdEnergySavingsLeaf {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 3c-4.8 0-9 3.86-9 9 0 2.120.74 4.07 1.97 5.61L3 19.59 4.41 21l1.97-1.97A9.01 9.01 0 0 0 12 21c2.3 0 4.61-0.88 6.36-2.64A8.95 8.95 0 0 0 21 12V3h-9zm7 9c0 1.87-0.73 3.63-2.05 4.95A6.96 6.96 0 0 1 12 19c-3.86 0-7-3.14-7-7 0-1.90.74-3.68 2.1-4.99A6.94 6.94 0 0 1 12 5h7v7z"}],["path",{"d":"m8.46 12.63 4.050.4-2.44 3.33c-0.110.16-0.10.380.040.520.150.150.40.160.560.01l5.16-4.63c0.33-0.30.15-0.85-0.3-0.89l-4.05-0.4 2.44-3.33c0.11-0.160.1-0.38-0.04-0.52a0.410.41 0 0 0-0.56-0.01l-5.16 4.63c-0.320.3-0.140.850.30.89z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdEnergySavingsLeaf;

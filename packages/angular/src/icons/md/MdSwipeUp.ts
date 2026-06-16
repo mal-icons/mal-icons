@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-swipe-up",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdSwipeUp {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m20.22 10-4.150.01a0.980.98 0 0 0-0.450.08l-0.590.26-1.83-4.1c-0.56-1.26-2.04-1.83-3.3-1.27s-1.83 2.04-1.27 3.3l3.3 7.45-1.870.39c-0.190.05-0.990.27-1.36 1.21L8 19.19l6.78 2.67c0.490.19 1.050.18 1.53-0.04l5.99-2.65c0.89-0.4 1.37-1.38 1.13-2.32l-1.36-5.34c-0.22-0.86-0.97-1.47-1.85-1.51zm1.27 7.34L15.5 20l-4.92-1.96 4.18-0.88-4.3-9.7c-0.11-0.25 0-0.550.25-0.660.25-0.110.55 0 0.660.25l2.5 5.65 1.61-0.71 4.650.01 1.36 5.34zM2.06 5.56 1 4.5 4.5 1 8 4.5 6.94 5.56 5.32 3.94a10.46 10.46 0 0 0 1.88 8.99L6.13 14A11.97 11.97 0 0 1 3.5 6.5c0-0.920.1-1.820.3-2.68L2.06 5.56z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdSwipeUp;

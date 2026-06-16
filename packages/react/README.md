@@ -172,6 +172,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
+| [Material Icons](https://fonts.google.com/icons) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
@@ -204,9 +205,11 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/gr/GrHome` | A single icon module                     |
 | `@mal-icons/react/io`            | All Ionicons (named exports)             |
 | `@mal-icons/react/lu`            | All Lucide (named exports)               |
+| `@mal-icons/react/md`            | All Material Icons (named exports)               |
 | `@mal-icons/react/oc`            | All Octicons (named exports)             |
 | `@mal-icons/react/io/IoHeart`    | A single Ionicons icon module            |
 | `@mal-icons/react/lu/LuHeart`    | A single Lucide icon module              |
+| `@mal-icons/react/md/MdFace`    | A single Material Icons icon module              |
 | `@mal-icons/react/oc/OcHeart16`    | A single Octicons icon module            |
 | `@mal-icons/react/ti`            | All Typicons (named exports)             |
 | `@mal-icons/react/wi`            | All Weather Icons (named exports)        |
@@ -223,6 +226,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/sprite/gr.svg` | Pre-built Grommet sprite asset           |
 | `@mal-icons/react/sprite/io.svg` | Pre-built Ionicons sprite asset          |
 | `@mal-icons/react/sprite/lu.svg` | Pre-built Lucide sprite asset            |
+| `@mal-icons/react/sprite/md.svg` | Pre-built Material Icons sprite asset            |
 | `@mal-icons/react/sprite/oc.svg` | Pre-built Octicons sprite asset          |
 | `@mal-icons/react/sprite/ti.svg` | Pre-built Typicons sprite asset          |
 | `@mal-icons/react/sprite/wi.svg` | Pre-built Weather Icons sprite asset     |

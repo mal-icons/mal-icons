@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-pin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdPin {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 4H4c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V6c0-1.1-0.9-2-2-2zm0 14H4V6h16v12z"}],["path",{"d":"M6.49 10.5V15h1.15V9h-0.87l-1.76 1.270.580.89zm4.98-0.45c0.5 0 0.810.320.810.72 0 0.37-0.140.64-0.54 1.06-0.360.38-1.06 1.08-2.13 2.15V15h3.89v-0.99h-2.37l-0.03-0.05c0.68-0.68 1.15-1.14 1.4-1.390.61-0.60.92-1.220.92-1.86 0-0.24-0.05-1.04-0.91-1.48-0.47-0.23-1.26-0.36-1.95-0.03-0.820.39-0.99 1.13-1 1.15l1.010.42c0.1-0.330.38-0.720.9-0.72zm5.52 3.89c-0.83 0-0.99-0.76-1.02-0.86l-1.030.41c0.45 1.59 2.01 1.51 2.05 1.51 1.2 0 1.68-0.72 1.76-0.850.32-0.490.36-1.24-0.01-1.76-0.17-0.24-0.4-0.41-0.68-0.52v-0.07c0.2-0.10.37-0.260.52-0.480.26-0.410.31-1.07-0.02-1.57-0.08-0.11-0.53-0.75-1.62-0.75-1.26 0-1.740.9-1.85 1.24l0.990.41c0.11-0.320.35-0.640.85-0.640.44 0 0.750.260.750.65 0 0.58-0.550.72-0.880.72h-0.46v1h0.5c0.56 0 1.040.24 1.040.79 0 0.49-0.480.77-0.890.77z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdPin;

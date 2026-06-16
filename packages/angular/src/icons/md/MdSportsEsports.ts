@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-md-sports-esports",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdSportsEsports {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m21.58 16.09-1.09-7.66A4 4 0 0 0 16.53 5H7.47C5.48 5 3.79 6.46 3.51 8.43l-1.09 7.66a2.55 2.55 0 0 0 4.32 2.16L9 16h6l2.25 2.25c0.480.48 1.130.75 1.80.75 1.56 0 2.75-1.37 2.53-2.91zm-2.10.72a0.540.54 0 0 1-0.420.19c-0.15 0-0.29-0.06-0.39-0.16L15.83 14H8.17l-2.84 2.84c-0.10.1-0.240.16-0.390.16a0.540.54 0 0 1-0.42-0.190.520.52 0 0 1-0.13-0.44l1.09-7.66C5.63 7.74 6.48 7 7.47 7h9.06c0.99 0 1.840.74 1.98 1.72l1.09 7.66c0.030.2-0.050.34-0.120.43z"}],["path",{"d":"M9 8H8v2H6v1h2v2h1v-2h2v-1H9z"}],["circle",{"cx":"17","cy":"12","r":"1"}],["circle",{"cx":"15","cy":"9","r":"1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdSportsEsports;

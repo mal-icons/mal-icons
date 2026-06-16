@@ -214,6 +214,25 @@ export async function generateSet(
   });
   icons.sort((a, b) => a.componentName.localeCompare(b.componentName));
 
+  // Some sets contain raw names that collapse to the same component name when
+  // compared case-insensitively (e.g. Material's "add_chart" → MdAddChart and
+  // "addchart" → MdAddchart). These are distinct glyphs, but identifiers that
+  // differ only in case clash on case-insensitive filesystems and are rejected
+  // by TypeScript. Deterministically suffix later collisions so every emitted
+  // module name is unique regardless of filesystem casing.
+  const seenNames = new Set<string>();
+  for (const icon of icons) {
+    let unique = icon.componentName;
+    let suffix = 2;
+    while (seenNames.has(unique.toLowerCase())) {
+      unique = `${icon.componentName}${suffix}`;
+      suffix++;
+    }
+    icon.componentName = unique;
+    seenNames.add(unique.toLowerCase());
+  }
+  icons.sort((a, b) => a.componentName.localeCompare(b.componentName));
+
   const setDir = join(ICONS_ROOT, source.id);
   await rm(setDir, { recursive: true, force: true });
   await mkdir(setDir, { recursive: true });

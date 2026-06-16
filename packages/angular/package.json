@@ -129,6 +129,10 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./src/icons/lu/index.ts"
     },
+    "./md": {
+      "bun": "./src/icons/md/index.ts",
+      "import": "./src/icons/md/index.ts"
+    },
     "./oc": {
       "bun": "./src/icons/oc/index.ts",
       "import": "./src/icons/oc/index.ts"
@@ -140,6 +144,10 @@
     "./lu/*": {
       "bun": "./src/icons/lu/*.ts",
       "import": "./src/icons/lu/*.ts"
+    },
+    "./md/*": {
+      "bun": "./src/icons/md/*.ts",
+      "import": "./src/icons/md/*.ts"
     },
     "./oc/*": {
       "bun": "./src/icons/oc/*.ts",
