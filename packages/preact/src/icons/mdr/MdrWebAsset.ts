@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrWebAsset = createIcon("0 0 24 24", [["path",{"d":"M19 4H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14c1.1 0 2-0.9 2-2V6a2 2 0 0 0-2-2zm-1 14H6c-0.55 0-1-0.45-1-1V8h14v9c0 0.55-0.45 1-1 1z"}]]);
+
+export default MdrWebAsset;

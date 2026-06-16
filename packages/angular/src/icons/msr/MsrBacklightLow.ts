@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-backlight-low",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBacklightLow {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M110-370q-12.75 0-21.37-8.68Q80-387.35 80-400.17 80-413 88.63-421.5T110-430h50q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T160-370h-50Zm172-228q-9 9-21 9t-21-9l-43-43q-9-9-9-21t9-21q9-9 21-9t21 9l43 43q9 9 9 21t-9 21Zm48 358q-20.83 0-35.42-14.62Q280-269.23 280-290.12 280-311 294.58-325.5 309.17-340 330-340h300q20.83 0 35.42 14.62Q680-310.76 680-289.88 680-269 665.42-254.5 650.83-240 630-240H330Zm149.82-440Q467-680 458.5-688.62T450-710v-60q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T510-770v60q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm196.78 82Q668-607 668-619t9-21l43-43q9-9 21-8.5t21.39 9.5Q771-673 771-661t-9 21l-43 43q-9 9-21 8.5t-21.39-9.5ZM800-370q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T800-430h50q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T850-370h-50Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBacklightLow;

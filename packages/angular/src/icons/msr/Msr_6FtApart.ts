@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-6-ft-apart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Msr_6FtApart {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M229.96-730Q199-730 177-752.04q-22-22.04-22-53Q155-836 177.04-858q22.05-22 53-22Q261-880 283-857.96q22 22.05 22 53Q305-774 282.96-752q-22.04 22-53 22ZM80-575v-13q0-21.08 11.41-38.65Q102.82-644.22 123-653q25.08-10.52 51.6-16.26Q201.13-675 230.06-675t55.42 5.74Q311.96-663.52 337-653q20.18 8.78 31.59 26.35Q380-609.08 380-588v13H80Zm649.96-155Q699-730 677-752.04q-22-22.04-22-53Q655-836 677.04-858q22.05-22 53-22Q761-880 783-857.96q22 22.05 22 53Q805-774 782.96-752q-22.04 22-53 22ZM580-575v-13q0-21.08 11.41-38.65Q602.82-644.22 623-653q25.08-10.52 51.6-16.26Q701.13-675 730.06-675t55.42 5.74Q811.96-663.52 837-653q20.18 8.78 31.59 26.35Q880-609.08 880-588v13H580ZM300-80q-6 0-10.5-4.5T285-95v-120q0-6 4.5-10.5T300-230h80q6 0 10.5 4.5T395-215q0 6-4.5 10.5T380-200h-65v30h65q6 0 10.5 4.5T395-155v60q0 6-4.5 10.5T380-80h-80Zm15-30h50v-30h-50v30Zm325 30q-6 0-10.5-4.5T625-95v-105h-25q-6 0-10.5-4.5T585-215q0-6 4.5-10.5T600-230h80q6 0 10.5 4.5T695-215q0 6-4.5 10.5T680-200h-25v105q0 6-4.5 10.5T640-80Zm-160 0q-6 0-10.5-4.5T465-95v-120q0-6 4.5-10.5T480-230h60q6 0 10.5 4.5T555-215q0 6-4.5 10.5T540-200h-45v30h25q6 0 10.5 4.5T535-155q0 6-4.5 10.5T520-140h-25v45q0 6-4.5 10.5T480-80ZM183-300l-82-81q-5-5-6.5-10.13-1.5-5.13-1.5-11Q93-408 94.5-413q1.5-5 6.5-10l82-81q8-8 17-8t17 8q8 8 8 17t-8 17l-37 38h600l-38-38q-8-8-7.5-17t8.5-17q8-8 17-8t17 8l82 81q5 5 6.5 10.13 1.5 5.13 1.5 11Q867-396 865.5-391q-1.5 5-6.5 10l-82 81q-8 8-17 8t-17-8q-8-8-8-17t8-17l37-38H180l38 38q8 8 7.5 17t-8.5 17q-8 8-17 8t-17-8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Msr_6FtApart;

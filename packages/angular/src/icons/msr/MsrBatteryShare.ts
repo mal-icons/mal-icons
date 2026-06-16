@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-battery-share",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBatteryShare {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M310-80q-13 0-21.5-8.5T280-110v-676q0-12 8.5-21t21.5-9h90v-34q0-12 8.5-21t21.5-9h100q12 0 21 9t9 21v34h90q12 0 21 9t9 21v111q0 12-9 21t-21 9q-13 0-21.5-9t-8.5-21v-81H340v616h280v-64q0-12 8.5-21t21.5-9q12 0 21 9t9 21v94q0 13-9 21.5T650-80H310Zm120-210q-13 0-21.5-8.5T400-320v-90q0-25 17-42.5t43-17.5h220l-52-52q-8-9-8-21.5t8-20.5q9-9 21.5-9t21.5 9l103 103q9 9 9 21.5t-9 21.5L671-315q-9 9-21.5 9t-21.5-9q-9-9-9-21.5t9-21.5l53-52H460v91q0 12-9 20.5t-21 8.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBatteryShare;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-settings-input-hdmi",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSettingsInputHdmi {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M320-200 200-439v-201.84q0-17.07 11.5-28.12T240-680v-140q0-23 18.5-41.5T300-880h360q23 0 41.5 18.5T720-820v140q17 0 28.5 11.05t11.5 28.12V-439L640-200v90q0 12.75-8.62 21.38T610-80H350q-12.75 0-21.37-8.62T320-110v-90Zm-20-480h98v-66q0-6.74 5.14-11.37 5.14-4.63 12-4.63T427-756.9q5 5.1 5 11.9v65h96v-66q0-6.74 5.14-11.37 5.14-4.63 12-4.63T557-756.9q5 5.1 5 11.9v65h98v-140H300v140Zm80 540h200v-75l120-241v-164H260v164l120 241v75Zm100-240Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSettingsInputHdmi;

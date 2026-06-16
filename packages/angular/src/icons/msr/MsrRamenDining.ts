@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-ramen-dining",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRamenDining {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M375-140h207v-56l36-15q74-31 121-81t67-109H151q20 59 68 109.5T339-211l36 15v56Zm-30 60q-12.75 0-21.37-8.62T315-110v-48q-97-38-158-109.5T82-430q-2-11.74 6.22-20.87Q96.44-460 109-460h42v-312q0-11.05 8-19.53Q167-800 178-802l674-75q11.46-2 19.23 6Q879-863 879-852q0 10-6 16.5t-16 7.5l-456 51v87h453q10.83 0 17.92 7.12 7.08 7.12 7.08 18Q879-654 871.92-647q-7.08 7-17.92 7H401v180h447q12.56 0 20.78 9.13Q877-441.74 875-430q-14 91-75 162.5T642-158v48q0 12.75-8.62 21.38T612-80H345Zm-44-610h50v-82l-50 6v76Zm-100 0h50v-71l-50 5.68V-690Zm100 230h50v-180h-50v180Zm-100 0h50v-180h-50v180Zm278 320Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRamenDining;

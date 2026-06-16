@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-auto-awesome",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrAutoAwesome {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m19.46 8 0.79-1.75L22 5.46a0.50.5 0 0 0 0-0.91l-1.75-0.79L19.46 2a0.50.5 0 0 0-0.91 0l-0.79 1.75-1.760.79a0.50.5 0 0 0 0 0.91l1.750.790.79 1.76c0.180.390.740.390.92 0zM11.5 9.5 9.91 6c-0.35-0.78-1.47-0.78-1.82 0L6.5 9.5 3 11.09c-0.780.36-0.78 1.47 0 1.82l3.5 1.59L8.09 18c0.360.78 1.470.78 1.82 0l1.59-3.5 3.5-1.59c0.78-0.360.78-1.47 0-1.82L11.5 9.5zm7.04 6.5-0.79 1.75-1.750.79a0.50.5 0 0 0 0 0.91l1.750.790.79 1.76a0.50.5 0 0 0 0.91 0l0.79-1.75 1.76-0.79a0.50.5 0 0 0 0-0.91l-1.75-0.79-0.79-1.76a0.510.51 0 0 0-0.92 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrAutoAwesome;

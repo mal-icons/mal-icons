@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-pedal-bike",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsPedalBike {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.18 10 16 4h-4v2h2.6l1.46 4h-4.81l-0.36-1H12V7H7v2h1.75l1.82 5H9.9c-0.44-2.23-2.31-3.88-4.65-3.99C2.45 9.87 0 12.2 0 15c0 2.8 2.2 5 5 5 2.46 0 4.45-1.69 4.9-4h4.2c0.44 2.23 2.31 3.88 4.65 3.99 2.80.13 5.25-2.19 5.25-5 0-2.8-2.2-5-5-5h-0.82zM7.82 16c-0.4 1.17-1.49 2-2.82 2-1.68 0-3-1.32-3-3s1.32-3 3-3c1.33 0 2.420.83 2.82 2H5v2h2.82zm6.28-2h-1.4l-0.73-2H15c-0.440.58-0.76 1.25-0.9 2zm4.9 4c-1.68 0-3-1.32-3-3 0-0.930.41-1.73 1.05-2.28l0.96 2.64 1.88-0.68-0.97-2.67c0.03 0 0.06-0.010.09-0.01 1.68 0 3 1.32 3 3s-1.33 3-3.01 3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsPedalBike;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-bedtime-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrBedtimeOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.65 3.46c0.27-0.71-0.36-1.45-1.12-1.34-1.480.21-2.850.76-4.04 1.54l4.59 4.59c-0.2-1.56-0.04-3.20.57-4.79zm-9.550.05a11 0 0 0 0 1.41l1.56 1.56c-1.4 2.11-2.02 4.77-1.46 7.560.79 3.94 3.99 7.07 7.94 7.78 2.740.49 5.3-0.15 7.35-1.51l1.57 1.57a11 0 1 0 1.41-1.41L3.51 3.51a11 0 0 0-1.41 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrBedtimeOff;

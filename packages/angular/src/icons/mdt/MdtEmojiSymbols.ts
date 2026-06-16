@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-emoji-symbols",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtEmojiSymbols {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 2h8v2H3zm3 9h2V7h3V5H3v2h3zm6.4 9.18 7.78-7.78 1.41 1.41-7.78 7.78z"}],["circle",{"cx":"14.5","cy":"14.5","r":"1.5"}],["circle",{"cx":"19.5","cy":"19.5","r":"1.5"}],["path",{"d":"M15.5 11A2.5 2.5 0 0 0 18 8.5V4h3V2h-4v4.51c-0.42-0.32-0.93-0.51-1.5-0.51a2.5 2.5 0 0 0 0 5zm-5.76 4.96-1.41 1.41-0.71-0.710.35-0.35a2.5 2.5 0 0 0-1.77-4.27 2.5 2.5 0 0 0-1.77 4.27l0.350.35-1.06 1.06c-0.980.98-0.98 2.56 0 3.540.50.5 1.140.74 1.780.74s1.28-0.24 1.77-0.73l1.06-1.06 1.41 1.41 1.41-1.41-1.41-1.41 1.41-1.41-1.41-1.43zM5.85 14.2c0.12-0.120.26-0.150.35-0.15s0.230.030.350.15c0.190.20.190.51 0 0.71l-0.350.35-0.35-0.36a0.50.5 0 0 1 0-0.7zm0 5.65c-0.120.12-0.260.15-0.350.15s-0.23-0.03-0.35-0.15a0.510.51 0 0 1 0-0.71l1.06-1.060.710.71-1.07 1.06z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtEmojiSymbols;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-sync-disabled",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSyncDisabled {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 5.74v-0.19c0-0.68-0.71-1.11-1.32-0.82-0.190.09-0.360.2-0.540.3L9.6 6.49c0.24-0.180.4-0.450.4-0.75zM20 12c0-2.21-0.91-4.2-2.36-5.64l1.51-1.51a0.50.5 0 0 0-0.36-0.85H14v4.79c0 0.450.540.670.850.35l1.39-1.39C17.32 8.85 18 10.34 18 12c0 0.85-0.18 1.66-0.5 2.39l1.48 1.48A7.92 7.92 0 0 0 20 12zM3.57 4.7a11 0 0 0 0 1.41l1.65 1.65A7.99 7.99 0 0 0 4 12c0 2.210.91 4.2 2.36 5.64l-1.51 1.51a0.50.5 0 0 0 0.360.85H9.5c0.28 0 0.5-0.220.5-0.5v-4.29c0-0.45-0.54-0.67-0.85-0.35l-1.39 1.39C6.68 15.15 6 13.66 6 12c0-1 0.26-1.930.69-2.76l8.07 8.07c-0.010.02-0.010.02-0.010.04-0.430.12-0.750.48-0.750.91v0.18c0 0.680.71 1.11 1.320.820.31-0.140.61-0.310.9-0.49l1.87 1.87a11 0 1 0 1.41-1.41L4.98 4.7a11 0 0 0-1.41 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSyncDisabled;

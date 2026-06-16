@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-screen-rotation",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsScreenRotation {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.48 2.52c3.27 1.55 5.61 4.72 5.97 8.48h1.5C23.44 4.84 18.29 0 12 0l-0.660.03 3.81 3.81 1.33-1.32zM7.52 21.48A10.49 10.49 0 0 1 1.55 13H0.05C0.56 19.16 5.71 24 12 24l0.66-0.03-3.81-3.81-1.33 1.32zM9.170.690.69 9.17l14.14 14.14 8.48-8.48L9.170.69zm5.66 20.5L2.81 9.17l6.36-6.36 12.02 12.02-6.36 6.36z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsScreenRotation;

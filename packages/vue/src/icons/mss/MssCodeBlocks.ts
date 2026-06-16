@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssCodeBlocks = createIcon("0 -960 960 960", [["path",{"d":"m379-343 44-44-93-93 92-92-44-44-136 136 137 137Zm202 0 137-137-137-137-44 44 93 93-93 93 44 44ZM120-120v-720h720v720H120Zm60-60h600v-600H180v600Zm0 0v-600 600Z"}]]);
+
+export default MssCodeBlocks;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsOutbox = createIcon("0 0 24 24", [["path",{"d":"M11 14h2v-3h3l-4-4-4 4h3z"}],["path",{"d":"M3 3v18h18V3H3zm16 11h-4.18c-0.41 1.16-1.51 2-2.82 2s-2.4-0.84-2.82-2H5V5h14v9z"}]]);
+
+export default MdsOutbox;

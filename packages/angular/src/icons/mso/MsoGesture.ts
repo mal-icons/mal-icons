@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-gesture",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoGesture {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M561-118q-51 0-85.5-35.5T441-246q0-50 23.5-86t58.5-60q35-24 74.5-36.5T669-444q-3-57-24.5-82T584-551q-39 0-73 23.5T420-426q-63 84-101.5 113T234-284q-43 0-78.5-29T120-412q0-32 22.5-82.5T220-634q26-38 37.5-63t11.5-42q0-11-6-17.5t-18-6.5q-14 0-31 10.5T177-717l-49-51q29-34 58-50t59-16q42 0 68.5 28t26.5 70q0 35-18.5 70T263-570q-45 67-58.5 99T191-407q0 32 16.5 42t34.5 10q24 0 49-23t77-91q68-88 118-120.5T593-622q66 0 104 48.5T740-447h100v71H740q-10 155-69 206.5T561-118Zm3-71q31 0 66.5-40T671-374q-49 5-104 40t-55 95q0 23 13.5 36.5T564-189Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoGesture;

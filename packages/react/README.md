@@ -172,6 +172,14 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
+| [Material Icons Filled](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Filled) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Icons Rounded](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Rounded) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Icons Sharp](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Sharp) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Icons Two Tone](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Two+tone) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Symbols Outlined](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Outlined) | [Apache 2.0 license](https://github.com/marella/material-symbols/blob/main/LICENSE) | 0.9.0 |  3004 |
+| [Material Symbols Rounded](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Rounded) | [Apache 2.0 license](https://github.com/marella/material-symbols/blob/main/LICENSE) | 0.9.0 |  3004 |
+| [Material Symbols Sharp](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Sharp) | [Apache 2.0 license](https://github.com/marella/material-symbols/blob/main/LICENSE) | 0.9.0 |  3004 |
+
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
@@ -204,6 +212,13 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/gr/GrHome` | A single icon module                     |
 | `@mal-icons/react/io`            | All Ionicons (named exports)             |
 | `@mal-icons/react/lu`            | All Lucide (named exports)               |
+| `@mal-icons/react/mdf` | All Material Icons Filled (named exports) |
+| `@mal-icons/react/mdr` | All Material Icons Rounded (named exports) |
+| `@mal-icons/react/mds` | All Material Icons Sharp (named exports) |
+| `@mal-icons/react/mdt` | All Material Icons Two Tone (named exports) |
+| `@mal-icons/react/mso` | All Material Symbols Outlined (named exports) |
+| `@mal-icons/react/msr` | All Material Symbols Rounded (named exports) |
+| `@mal-icons/react/mss` | All Material Symbols Sharp (named exports) |
 | `@mal-icons/react/oc`            | All Octicons (named exports)             |
 | `@mal-icons/react/io/IoHeart`    | A single Ionicons icon module            |
 | `@mal-icons/react/lu/LuHeart`    | A single Lucide icon module              |

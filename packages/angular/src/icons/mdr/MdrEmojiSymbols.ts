@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-emoji-symbols",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrEmojiSymbols {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 5H4c-0.55 0-1 0.45-1 1s0.45 1 1 1h2v3c0 0.550.45 1 1 1s1-0.45 1-1V7h2c0.55 0 1-0.45 1-1s-0.45-1-1-1zm0-3H4c-0.55 0-1 0.45-1 1s0.45 1 1 1h6c0.55 0 1-0.45 1-1s-0.45-1-1-1zm10.89 11.11a11 0 0 0-1.41 0l-6.36 6.36a11 0 1 0 1.41 1.41l6.36-6.36a11 0 0 0 0-1.41z"}],["circle",{"cx":"14.5","cy":"14.5","r":"1.5"}],["circle",{"cx":"19.5","cy":"19.5","r":"1.5"}],["path",{"d":"M15.5 11A2.5 2.5 0 0 0 18 8.5V4h2c0.55 0 1-0.45 1-1s-0.45-1-1-1h-2c-0.55 0-1 0.45-1 1v3.51c-0.42-0.32-0.93-0.51-1.5-0.51a2.5 2.5 0 0 0 0 5zm-5.05 7.09a11 0 1 0-1.41-1.41l-0.710.71-0.71-0.710.35-0.35c0.98-0.980.98-2.56 0-3.54a2.49 2.49 0 0 0-1.77-0.73 2.5 2.5 0 0 0-1.77 4.27l0.350.35-1.06 1.06c-0.980.98-0.98 2.56 0 3.540.50.48 1.140.72 1.780.720.64 0 1.28-0.24 1.77-0.73l1.06-1.060.710.71a11 0 1 0 1.41-1.41l-0.71-0.710.71-0.71zm-4.6-3.89c0.12-0.120.26-0.150.35-0.15s0.230.030.350.15c0.190.20.190.51 0 0.71l-0.350.35-0.35-0.36c-0.12-0.12-0.15-0.26-0.15-0.35s0.03-0.230.15-0.35zm0 5.65c-0.120.12-0.260.15-0.350.15s-0.23-0.03-0.35-0.15c-0.12-0.12-0.15-0.26-0.15-0.35s0.03-0.230.15-0.35l1.06-1.060.710.71-1.07 1.05z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrEmojiSymbols;

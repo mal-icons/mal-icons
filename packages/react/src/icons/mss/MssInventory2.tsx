@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssInventory2 = createIcon("0 -960 960 960", [["path",{"d":"M120-80v-554H80v-246h800v246h-40v554H120Zm60-60h600v-493H180v493Zm-40-553h680v-127H140v127Zm220 270h240v-60H360v60ZM180-140v-493 493Z"}]]);
+
+export default MssInventory2;

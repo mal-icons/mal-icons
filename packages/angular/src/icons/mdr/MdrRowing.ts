@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-rowing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrRowing {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.75 18.25c-0.410.41-0.41 1.09 0 1.50.410.41 1.090.41 1.5 0L9 17h2l-2.5-2.5-3.75 3.75zM15 5c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm5.29 15.3-2-2.01c-0.18-0.18-0.44-0.29-0.71-0.29H16.5l-6.29-6.29a9.79 9.79 0 0 0 2.29-1.39v2.27l3.58 3.58c0.57-0.550.92-1.320.92-2.16V8.26A2.27 2.27 0 0 0 14.74 6h-0.02c-0.34 0-0.670.09-0.960.23-0.260.12-0.50.29-0.690.5l-1.4 1.55C10.61 9.45 8.66 10.35 7 10.32c-0.6 0-1.080.48-1.08 1.08 0 0.60.48 1.08 1.08 1.080.31 0 0.61-0.030.9-0.07l7.11 7.09v1.08c0 0.260.10.520.290.7l1.99 2.01c0.390.39 1.020.39 1.42 0l1.58-1.58a11 0 0 0 0-1.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrRowing;

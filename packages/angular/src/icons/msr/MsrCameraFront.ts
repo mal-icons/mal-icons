@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-camera-front",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrCameraFront {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M415-160H230q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T230-220h187l-38-38q-9-9-8.5-21.5T380-301q9-9 21.5-9t21.5 9l88 89q9 9 9 21t-9 21l-89 89q-9 9-21 8.5T380-82q-9-9-9-21.5t9-21.5l35-35ZM200-820q0-23 18.5-41.5T260-880h440q23 0 41.5 18.5T760-820v548h-60v-81q-44-26-97.5-39.5T480-406q-69 0-122 13.5T260-353v81h-60v-548Zm60 398q52-23 107.5-34.5T480-468q57 0 112.25 11.5Q647.49-445 700-422v-398H260v398Zm470 262H590q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T590-220h140q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T730-160ZM479.77-526Q433-526 400.5-558.73q-32.5-32.74-32.5-79.5Q368-685 400.74-717.5q32.74-32.5 79.5-32.5Q527-750 559.5-717.26q32.5 32.74 32.5 79.5Q592-591 559.27-558.5q-32.74 32.5-79.5 32.5Zm0.17-60Q502-586 517-600.93t15-37Q532-660 517.07-675t-37-15Q458-690 443-675.07t-15 37Q428-616 442.93-601t37 15Zm0.07 180Zm0-232Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrCameraFront;

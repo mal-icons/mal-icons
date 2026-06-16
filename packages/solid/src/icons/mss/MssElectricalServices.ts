@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssElectricalServices = createIcon("0 -960 960 960", [["path",{"d":"M715-360v-60h125v60H715Zm0 160v-60h125v60H715Zm-225 40v-80h-95v-140h95v-80h195v300H490ZM120-280v-310h295v-150H160v-60h315v270H180v190h185v60H120Z"}]]);
+
+export default MssElectricalServices;

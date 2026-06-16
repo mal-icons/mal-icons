@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-brunch-dining",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssBrunchDining {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M80-80v-80h570v80H80Zm0-144v-80h212v-73h146v73h212v80H80ZM744-80v-264q-31-26-53.5-69T668-510v-370h212v370q0 54-22.5 97T804-344v204h76v60H744Zm-16-561h92v-179h-92v179Zm46 244q23-20 34.5-50.25T820-510v-71h-92v71q0 32.49 11.5 62.75T774-397Zm0 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssBrunchDining;

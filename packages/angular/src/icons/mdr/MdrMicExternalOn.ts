@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-mic-external-on",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrMicExternalOn {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.22 7H4.78C4.3 6.47 4 5.77 4 5c0-1.66 1.34-3 3-3s3 1.34 3 3c0 0.77-0.3 1.47-0.78 2zm7.02-4.99C18.32 2.13 20 4.08 20 6.16V21c0 0.55-0.45 1-1 1s-1-0.45-1-1V6.09c0-0.96-0.64-1.86-1.58-2.05A2.01 2.01 0 0 0 14 6v11.84c0 2.08-1.68 4.03-3.76 4.15C7.92 22.13 6 20.29 6 18h-0.55a0.50.5 0 0 1-0.5-0.45L4.11 9.1c-0.06-0.590.4-1.10.99-1.1h3.8c0.59 0 1.050.51 1 1.1l-0.85 8.45c-0.030.26-0.250.45-0.50.45H8a2.01 2.01 0 0 0 2.42 1.96c0.94-0.19 1.58-1.09 1.58-2.05V6c0-2.29 1.92-4.13 4.24-3.99z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrMicExternalOn;

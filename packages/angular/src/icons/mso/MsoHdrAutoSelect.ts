@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-hdr-auto-select",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoHdrAutoSelect {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m436-643 42-116h6l41 116h-89Zm44 221q-95.42 0-162.21-66.79Q251-555.58 251-651t66.79-162.21Q384.58-880 480-880t162.21 66.79Q709-746.42 709-651t-66.79 162.21Q575.42-422 480-422ZM356-536h43l25.81-73H536l26 73h43L500-812h-40L356-536ZM831-97v-80h-80v-49h80v-80h49v80h80v49h-80v80h-49ZM527-80v-251h143q22 0 35.5 13t13.5 35v52q0 22-11.5 35T676-175l39 95h-53l-35-89h-52v89h-48Zm48-137h96v-66h-96v66ZM0-80v-251h48v87h93v-87h48v251h-48v-116H48v116H0Zm263 0v-251h140q22 0 35 13t13 35v155q0 22-13 35t-35 13H263Zm48-48h92v-155h-92v155Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoHdrAutoSelect;

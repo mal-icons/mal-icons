@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-shape-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssShapeLine {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M240-520q-83 0-141.5-58.5T40-720q0-84 58.5-142T240-920q84 0 142 58t58 142q0 83-58 141.5T240-520Zm0-60q59.5 0 99.75-40.83Q380-661.67 380-720q0-59.5-40.25-99.75T240-860q-58.33 0-99.17 40.25Q100-779.5 100-720q0 58.33 40.83 99.17Q181.67-580 240-580ZM560-40v-360h360v360H560Zm60-60h240v-240H620v240ZM240-720Zm475 48L288-246q7 12 10.5 25.65Q302-206.7 302-192q0 45-32 77.5T192.05-82Q147-82 114.5-114.5 82-147 82-192.05 82-238 114.5-270q32.5-32 77.5-32 14.7 0 28.35 3.5Q234-295 246-288l426-427q-7-12-10.5-25.5T658-768q0-46 32.5-78t77.55-32Q814-878 846-846q32 32 32 77.95Q878-723 846-690.5 814-658 768-658q-14 0-27.5-3.5T715-672Zm25 452Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssShapeLine;

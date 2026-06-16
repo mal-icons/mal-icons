@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsThumbDown = createIcon("0 0 24 24", [["path",{"d":"M9.83 23 17 15.82V3H4.69L1 11.6V16h8.31l-1.12 5.38zM19 3h4v12h-4z"}]]);
+
+export default MdsThumbDown;

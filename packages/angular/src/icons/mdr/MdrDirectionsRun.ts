@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-directions-run",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrDirectionsRun {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.49 5.48c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm-3.17 12 0.57-2.5 2.1 2v5c0 0.550.45 1 1 1s1-0.45 1-1v-5.64c0-0.55-0.22-1.07-0.62-1.45l-1.48-1.410.6-3a7.32 7.32 0 0 0 4.36 2.41c0.60.09 1.14-0.39 1.14-1 0-0.49-0.36-0.9-0.85-0.98-1.52-0.25-2.78-1.15-3.45-2.33l-1-1.6c-0.4-0.6-1-1-1.7-1-0.3 0-0.50.1-0.80.1L7.21 7.76a2.01 2.01 0 0 0-1.22 1.85v2.37c0 0.550.45 1 1 1s1-0.45 1-1v-2.4l1.8-0.7-1.6 8.1-3.92-0.8c-0.54-0.11-1.070.24-1.180.78V17c-0.110.540.24 1.070.78 1.18l4.110.82a2 2 0 0 0 2.34-1.52z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrDirectionsRun;

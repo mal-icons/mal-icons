@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-fireplace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFireplace {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 2H4c-1.1 0-2 0.9-2 2v16c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm0 17c0 0.55-0.45 1-1 1h-1v-1c0-0.55-0.45-1-1-1h-1.15c0.71-0.85 1.15-1.89 1.15-3 0-1.89-1.09-2.84-1.85-3.36-1.86-1.27-2.23-2.78-2.25-3.72a0.510.51 0 0 0-0.77-0.43c-5.8 3.43-5.15 7-5.13 7.510.030.960.49 2.07 1.24 3H7c-0.55 0-1 0.45-1 1v1H5c-0.55 0-1-0.45-1-1V5c0-0.550.45-1 1-1h14c0.55 0 1 0.45 1 1v14zm-6.8-5.26c-0.08-0.46-0.07-0.850.08-1.280.54 1.21 2.15 1.64 1.98 3.18-0.19 1.69-2.11 2.37-3.39 1.320.76-0.24 1.4-1.04 1.53-1.630.12-0.55-0.11-1.04-0.2-1.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFireplace;

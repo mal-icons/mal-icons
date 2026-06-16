@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-moved-location",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssMovedLocation {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m734-454-42-42 93-93q-101-17-188.5 13T435-474q45-103 141.5-159.5T786-690l-94-94 42-42 186 186-186 186ZM480-80Q325-214 242.5-330T160-552q0-136 93-232t227-96q46 0 90.5 12t82.5 38l-43 43q-29-17-62.5-25t-67.5-8q-109 0-184.5 78.5T220-552q0 83 66 179.5T480-159q60-55 111-119.5T689-414l43 43q-56 83-116.5 155T480-80Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssMovedLocation;

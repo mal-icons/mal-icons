@@ -269,6 +269,90 @@ const SET_META = {
     blurb:
       "Grommet's stroke-based 24×24 icons, including many brand marks (e.g. `GrHome`, `GrGithub`, `GrAmazon`). Themed via `color`; honor `strokeWidth`/`weight`. Brand icons render single-color.",
   },
+  mdf: {
+    id: "mdf",
+    name: "Material Icons Filled",
+    prefix: "Mdf",
+    version: "0.14.15",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Google's Material Icons — the filled (default) 24×24 variant (e.g. `MdfHome`, `MdfSearch`, `MdfFace`). Solid `currentColor` fills; theme via `color`.",
+  },
+  mdr: {
+    id: "mdr",
+    name: "Material Icons Rounded",
+    prefix: "Mdr",
+    version: "0.14.15",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Google's Material Icons — the rounded 24×24 variant with softened corners (e.g. `MdrHome`, `MdrSearch`, `MdrFace`). Solid `currentColor` fills; theme via `color`.",
+  },
+  mds: {
+    id: "mds",
+    name: "Material Icons Sharp",
+    prefix: "Mds",
+    version: "0.14.15",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Google's Material Icons — the sharp 24×24 variant with square corners (e.g. `MdsHome`, `MdsSearch`, `MdsFace`). Solid `currentColor` fills; theme via `color`.",
+  },
+  mdt: {
+    id: "mdt",
+    name: "Material Icons Two Tone",
+    prefix: "Mdt",
+    version: "0.14.15",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Google's Material Icons — the two-tone 24×24 variant (a solid layer plus a 30%-opacity layer, e.g. `MdtHome`, `MdtSearch`, `MdtFace`). Single `currentColor` hue with built-in opacity; theme via `color`.",
+  },
+  mso: {
+    id: "mso",
+    name: "Material Symbols Outlined",
+    prefix: "Mso",
+    version: "0.9.0",
+    license: "Apache-2.0",
+    repo: "marella/material-symbols",
+    style: "fill",
+    viewBox: "0 -960 960 960",
+    blurb:
+      "Google's Material Symbols — the outlined weight-400 variant (e.g. `MsoHome`, `MsoSearch`, `MsoFace`). 960×960 viewBox; paths paint with `currentColor`; theme via `color`.",
+  },
+  msr: {
+    id: "msr",
+    name: "Material Symbols Rounded",
+    prefix: "Msr",
+    version: "0.9.0",
+    license: "Apache-2.0",
+    repo: "marella/material-symbols",
+    style: "fill",
+    viewBox: "0 -960 960 960",
+    blurb:
+      "Google's Material Symbols — the rounded weight-400 variant (e.g. `MsrHome`, `MsrSearch`, `MsrFace`). 960×960 viewBox; paths paint with `currentColor`; theme via `color`.",
+  },
+  mss: {
+    id: "mss",
+    name: "Material Symbols Sharp",
+    prefix: "Mss",
+    version: "0.9.0",
+    license: "Apache-2.0",
+    repo: "marella/material-symbols",
+    style: "fill",
+    viewBox: "0 -960 960 960",
+    blurb:
+      "Google's Material Symbols — the sharp weight-400 variant (e.g. `MssHome`, `MssSearch`, `MssFace`). 960×960 viewBox; paths paint with `currentColor`; theme via `color`.",
+  },
 };
 
 /**

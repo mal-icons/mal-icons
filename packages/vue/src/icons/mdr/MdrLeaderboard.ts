@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrLeaderboard = createIcon("0 0 24 24", [["path",{"d":"M6.5 21H3c-0.55 0-1-0.45-1-1V10c0-0.550.45-1 1-1h3.5c0.55 0 1 0.45 1 1v10c0 0.55-0.45 1-1 1zm7.25-18h-3.5c-0.55 0-1 0.45-1 1v16c0 0.550.45 1 1 1h3.5c0.55 0 1-0.45 1-1V4c0-0.55-0.45-1-1-1zM21 11h-3.5c-0.55 0-1 0.45-1 1v8c0 0.550.45 1 1 1H21c0.55 0 1-0.45 1-1v-8c0-0.55-0.45-1-1-1z"}]]);
+
+export default MdrLeaderboard;

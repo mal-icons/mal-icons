@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-generating-tokens",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrGeneratingTokens {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8zm0 11.5c-0.55 0-1-0.45-1-1v-4H6.75c-0.41 0-0.75-0.34-0.75-0.75S6.34 9 6.75 9h4.5c0.41 0 0.750.340.750.75s-0.340.75-0.750.75H10v4c0 0.55-0.45 1-1 1zM20.25 3.75l1.750.79a0.50.5 0 0 1 0 0.91l-1.750.79L19.46 8a0.50.5 0 0 1-0.91 0l-0.79-1.75L16 5.46a0.50.5 0 0 1 0-0.91l1.75-0.790.79-1.76a0.50.5 0 0 1 0.91 0l0.8 1.75zm0 14 1.750.79a0.50.5 0 0 1 0 0.91l-1.750.79-0.79 1.76a0.50.5 0 0 1-0.91 0l-0.79-1.75-1.76-0.79a0.50.5 0 0 1 0-0.91l1.75-0.790.79-1.76a0.50.5 0 0 1 0.91 0l0.8 1.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrGeneratingTokens;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrQuestionAnswer = createIcon("0 0 24 24", [["path",{"d":"M20 6h-1v8c0 0.55-0.45 1-1 1H6v1c0 1.10.9 2 2 2h10l4 4V8c0-1.1-0.9-2-2-2zm-3 5V4c0-1.1-0.9-2-2-2H4c-1.1 0-2 0.9-2 2v13l4-4h9c1.1 0 2-0.9 2-2z"}]]);
+
+export default MdrQuestionAnswer;

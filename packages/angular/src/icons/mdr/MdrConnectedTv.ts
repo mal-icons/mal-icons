@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-connected-tv",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrConnectedTv {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 3H4c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h4v1c0 0.550.45 1 1 1h6c0.55 0 1-0.45 1-1v-1h4c1.1 0 1.99-0.9 1.99-2L22 5c0-1.1-0.9-2-2-2zm0 14H4V5h16v12zM7 15.97A2.01 2.01 0 0 0 5.03 14H5v2h2v-0.03zm-1.38-3.42c1.440.26 2.58 1.4 2.83 2.840.060.360.370.610.730.610.46 0 0.82-0.410.75-0.86a5 5 0 0 0-4.06-4.060.750.75 0 0 0-0.870.74c0 0.370.260.670.620.73zm0.02-3.02c3.070.3 5.52 2.75 5.83 5.820.040.370.370.650.740.650.45 0 0.79-0.40.75-0.85a8 8 0 0 0-7.11-7.10.760.76 0 0 0-0.850.74c0 0.370.270.710.640.74z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrConnectedTv;

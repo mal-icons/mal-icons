@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssFormatColorFill = createIcon("0 -960 960 960", [["path",{"d":"M414-267 126-556l245-245-116-116 43-43 405 404-289 289Zm0-491L215-559h398L414-758Zm337.79 477Q722-281 701-302.15 680-323.3 680-353q0-17.35 8-37.17T710-431q8-13 19.5-28t22.5-28q11 13 22.5 28t19.5 28q14 21 22 40.83T824-353q0 29.7-21.21 50.85-21.21 21.15-51 21.15ZM80 1v-121h800V1H80Z"}]]);
+
+export default MssFormatColorFill;

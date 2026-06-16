@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-text-select-move-back-character",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrTextSelectMoveBackCharacter {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M438-780v-60h83v60h-83Zm0 660v-60h83v60h-83ZM268-780v-60h83v60h-83Zm0 660v-60h83v60h-83Zm-23-235L141-459q-9-9-9-21t9-21l104-104q9-9 21-9t21 9q9 9 8.5 21t-8.5 21l-52 53h281q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T516-450H235l52 53q8 9 8.5 21t-8.5 21q-9 9-21 9t-21-9Zm394 235q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T639-180h55v-600h-55q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T639-840h171q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T810-780h-56v600h56q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T810-120H639ZM120-780q0-24 18-42t42-18v60h-60Zm60 660q-24 0-42-18t-18-42h60v60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrTextSelectMoveBackCharacter;

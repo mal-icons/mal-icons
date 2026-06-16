@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-spoke",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSpoke {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480.5-540Q418-540 374-584.06 330-628.12 330-690q0-63 44.06-106.5Q418.13-840 480-840q63 0 106.5 43.5t43.5 106q0 62.5-43.5 106.5t-106 44Zm-0.5-60q38 0 64-26.44 26-26.44 26-63.56 0-38-26-64t-63.5-26q-37.5 0-64 26T390-690.5q0 37.5 26.44 64Q442.88-600 480-600ZM270.5-120Q208-120 164-164.06 120-208.12 120-270q0-63 44.06-106.5Q208.13-420 270-420q63 0 106.5 43.5t43.5 106q0 62.5-43.5 106.5t-106 44Zm-0.5-60q38 0 64-26.44 26-26.44 26-63.56 0-38-26-64t-63.5-26q-37.5 0-64 26T180-270.5q0 37.5 26.44 64Q232.88-180 270-180Zm420.5 60Q628-120 584-164.06 540-208.12 540-270q0-63 44.06-106.5Q628.13-420 690-420q63 0 106.5 43.5t43.5 106q0 62.5-43.5 106.5t-106 44Zm-0.5-60q38 0 64-26.44 26-26.44 26-63.56 0-38-26-64t-63.5-26q-37.5 0-64 26T600-270.5q0 37.5 26.44 64Q652.88-180 690-180ZM480-690ZM270-270Zm420 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSpoke;

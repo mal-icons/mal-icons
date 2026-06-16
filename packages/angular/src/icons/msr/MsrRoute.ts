@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-route",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRoute {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M355-120q-65 0-110-45.53T200-275v-349q-35-13-57.5-41.26-22.5-28.26-22.5-64.4Q120-776 152.5-808t78-32q45.5 0 77.5 32.14 32 32.14 32 78.05Q340-694 317.5-665.5 295-637 260-624v349q0 39.19 27.5 67.09Q315-180 355.5-180t67.5-27.91q27-27.91 27-67.09v-410q0-65 45-110t110-45q65 0 110 45t45 110v349q35 13 57.5 41.37Q840-266.27 840-230q0 45-32.08 77.5Q775.83-120 730-120q-45 0-77.5-32.5T620-230q0-36.3 22.5-65.15Q665-324 700-336v-349q0-40-27.5-67.5T605-780q-40 0-67.5 27.5T510-685v410q0 63.94-45 109.47Q420-120 355-120ZM230.5-680q20.5 0 35-15t14.5-35.5q0-20.5-14.37-35T230-780q-20 0-35 14.38T180-730q0 20 15 35t35.5 15Zm500 500q20.5 0 35-15t14.5-35.5q0-20.5-14.37-35T730-280q-20 0-35 14.38T680-230q0 20 15 35t35.5 15ZM230-730Zm500 500Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRoute;

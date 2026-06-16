@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-settings-remote",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssSettingsRemote {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M320-40v-560h320v560H320Zm159.75-358q17.75 0 30-12.25 12.25-12.25 12.25-30Q522-458 509.82-471T480-484q-18.48 0-31.24 12.76Q436-458.48 436-440q0 17.64 13 29.82T479.75-398ZM324-676l-42-42q38-38 88.5-60T480-800q59 0 109.5 22t88.5 60l-42 42q-30-29-69.99-46.5-39.99-17.5-86-17.5Q434-740 394-722.5 354-705 324-676ZM210-789l-42-43q60-59 140-93.5T480-960q92 0 171.5 35T790-830l-43 42q-51-52-119.5-82t-147.77-30q-79.27 0-148.5 30Q262-840 210-789Zm170 689h200v-440H380v440Zm0 0h200-200Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssSettingsRemote;

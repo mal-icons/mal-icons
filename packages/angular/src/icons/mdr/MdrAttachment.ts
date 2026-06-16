@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-attachment",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrAttachment {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.75 16H7.17c-2.09 0-3.95-1.53-4.15-3.61A4 4 0 0 1 7 8h12.36c1.31 0 2.50.94 2.63 2.24A2.5 2.5 0 0 1 19.5 13H9c-0.55 0-1-0.45-1-1s0.45-1 1-1h8.75c0.41 0 0.75-0.340.75-0.75s-0.34-0.75-0.75-0.75H9.14c-1.31 0-2.50.94-2.63 2.24A2.5 2.5 0 0 0 9 14.5h10.33c2.09 0 3.95-1.53 4.15-3.61A3.99 3.99 0 0 0 19.5 6.5H7.23c-2.87 0-5.44 2.1-5.71 4.96A5.51 5.51 0 0 0 7 17.5h10.75c0.41 0 0.75-0.340.75-0.75s-0.34-0.75-0.75-0.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrAttachment;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-lock-open-right",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssLockOpenRight {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M220-140h520v-434H220v434Zm260.17-140Q512-280 534.5-302.03T557-355q0-30-22.67-54.5t-54.5-24.5Q448-434 425.5-409.5t-22.5 55q0 30.5 22.67 52.5t54.5 22ZM220-140v-434 434Zm-60 60v-554h390v-96q0-78.85 55.61-134.43Q661.21-920 740.11-920T874.5-864.42Q930-808.85 930-730h-60q0-54-37.88-92-37.88-38-92-38Q686-860 648-822.08 610-784.17 610-730v96h190v554H160Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssLockOpenRight;

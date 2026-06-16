@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-landslide",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrLandslide {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m15.47 13.79-2.58-1.03L6 15.05l-4-1.54v2.1l4 1.34zm-4.9-2.37L8.6 8.8C8.22 8.3 7.63 8 7 8H4c-1.1 0-2 0.9-2 2v1.61l4 1.33 4.57-1.52zM6 19.05l-4-1.33V20c0 1.10.9 2 2 2h14c1.65 0 2.59-1.88 1.6-3.2l-2.57-3.42L6 19.05zm11-14.4V2.64A2 2 0 0 0 15.390.68L12.810.16c-0.52-0.1-1.06 0-1.50.3l-1.420.95C9.33 1.78 9 2.4 9 3.07v1.86c0 0.670.33 1.290.89 1.66l1.230.82c0.550.37 1.240.44 1.850.19l2.77-1.11C16.5 6.2 17 5.46 17 4.65zm0.75 2.95-1 0.8c-0.470.38-0.750.95-0.75 1.56v1.08c0 0.610.28 1.180.75 1.56l0.80.64c0.580.47 1.380.57 2.060.27l2.2-0.98c0.72-0.32 1.19-1.04 1.19-1.83V9.6c0-0.94-0.65-1.75-1.57-1.95l-2-0.44a1.99 1.99 0 0 0-1.680.39z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrLandslide;

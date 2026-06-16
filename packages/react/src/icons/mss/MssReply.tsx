@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssReply = createIcon("0 -960 960 960", [["path",{"d":"M780-200v-174q0-54-38-92t-92-38H234l154 154-42 42-226-226 226-226 42 42-154 154h416q78 0 134 55.5T840-374v174h-60Z"}]]);
+
+export default MssReply;

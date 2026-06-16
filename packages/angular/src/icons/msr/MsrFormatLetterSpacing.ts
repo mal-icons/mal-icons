@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-format-letter-spacing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrFormatLetterSpacing {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m276-196 52 54q8 8 8 20t-8 21q-8.07 9-20.53 9Q295-92 286-101L182-205q-9-9-9-21t9-21l104-103q9-8 21-8.5t21 8.11q9 9.39 9 21.49t-9 20.9l-53 52h410l-51-52q-8-9-8.5-21t8.5-21q9-9 21-9t21 9l103 103q9 9 9 21t-9 21L675-101q-9 9-21.16 9-12.16 0-21-8.61Q624-110 624-122.1t9-20.9l53-53H276Zm-46.17-284Q217-480 208.5-488.62T200-510v-340q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T260-850v340q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm250 0Q467-480 458.5-488.62T450-510v-340q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T510-850v340q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm250 0Q717-480 708.5-488.62T700-510v-340q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T760-850v340q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrFormatLetterSpacing;

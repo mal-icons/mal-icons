@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-cast-connected",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrCastConnected {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 16V8c0-0.55-0.45-1-1-1H6c-0.55 0-1 0.45-1 1v0.63c3.96 1.28 7.09 4.41 8.37 8.37H18c0.55 0 1-0.45 1-1zm2-13H3c-1.1 0-2 0.9-2 2v2c0 0.550.45 1 1 1s1-0.45 1-1V6c0-0.550.45-1 1-1h16c0.55 0 1 0.45 1 1v12c0 0.55-0.45 1-1 1h-5c-0.55 0-1 0.45-1 1s0.45 1 1 1h6c1.1 0 2-0.9 2-2V5c0-1.1-0.9-2-2-2zM1 18v3h3a2.99 2.99 0 0 0-3-3zm1.14-3.91c-0.6-0.1-1.140.39-1.14 1 0 0.490.360.90.850.98 2.080.36 3.72 2 4.08 4.080.080.490.490.850.980.850.61 0 1.09-0.54 1-1.14a7 7 0 0 0-5.77-5.77zm-0.04-4.04c-0.59-0.05-1.10.41-1.1 1 0 0.510.380.940.880.99 4.270.41 7.67 3.81 8.08 8.080.050.50.480.870.990.870.6 0 1.06-0.52 1-1.11-0.53-5.19-4.66-9.31-9.85-9.83z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrCastConnected;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-surround-sound",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSurroundSound {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 4H4c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V6c0-1.1-0.9-2-2-2zM7.11 16.89c-0.430.43-1.140.39-1.51-0.09C4.53 15.39 4 13.69 4 12s0.53-3.38 1.59-4.8c0.37-0.48 1.08-0.53 1.51-0.10.350.350.390.90.1 1.29a6.02 6.02 0 0 0 0 7.21c0.30.390.260.94-0.09 1.29zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm4.90.9a0.980.98 0 0 1-0.09-1.29C17.6 14.54 18 13.27 18 12s-0.4-2.53-1.2-3.6c-0.3-0.39-0.26-0.950.09-1.30.43-0.43 1.14-0.39 1.510.09 1.07 1.41 1.6 3.1 1.6 4.8 0 1.69-0.53 3.38-1.59 4.8-0.370.49-1.080.54-1.510.11zM12 10c-1.1 0-2 0.9-2 2s0.9 2 2 2 2-0.9 2-2-0.9-2-2-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSurroundSound;

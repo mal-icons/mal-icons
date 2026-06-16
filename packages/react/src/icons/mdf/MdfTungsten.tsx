@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdfTungsten = createIcon("0 0 24 24", [["path",{"d":"M11 19h2v3h-2zm-9-8h3v2H2zm17 0h3v2h-3zm-3.11 6.8 1.41-1.41 2.12 2.12-1.41 1.41zm-11.310.71 2.12-2.12 1.41 1.41-2.12 2.12zM15 8.02V3H9v5.02c-1.210.92-2 2.35-2 3.98 0 2.76 2.24 5 5 5s5-2.24 5-5c0-1.63-0.79-3.06-2-3.98zM11 5h2v2.1c-0.32-0.06-0.66-0.1-1-0.1s-0.680.04-1 0.1V5z"}]]);
+
+export default MdfTungsten;

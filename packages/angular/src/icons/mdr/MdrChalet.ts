@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-chalet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrChalet {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 15c-0.55 0-1 0.45-1 1v4H6c-0.55 0-1-0.45-1-1v-3.67l-0.380.38a11 0 1 1-1.41-1.41L9.3 8.21a11 0 0 1 1.41 0l6.09 6.09a11 0 1 1-1.41 1.41l-0.39-0.38V19c0 0.55-0.45 1-1 1h-3v-4c0-0.55-0.45-1-1-1zm7.5-7.5v0.89l-1.08 1.08c-0.180.18-0.210.48-0.050.690.190.230.530.240.740.04l0.39-0.39v0.69c0 0.280.220.50.50.5s0.5-0.220.5-0.5v-0.69l0.390.39c0.210.210.550.190.74-0.040.17-0.20.14-0.5-0.05-0.69L18.5 8.39V7.5h0.89l1.08 1.08c0.180.180.480.210.690.050.23-0.190.24-0.530.04-0.74l-0.39-0.39h0.69c0.28 0 0.5-0.220.5-0.5s-0.22-0.5-0.5-0.5h-0.69l0.39-0.39c0.21-0.210.19-0.55-0.04-0.74-0.2-0.17-0.5-0.14-0.690.05L19.39 6.5h-0.89v-0.89l1.08-1.08c0.18-0.180.21-0.480.05-0.69a0.510.51 0 0 0-0.74-0.04l-0.390.39V3.5c0-0.28-0.22-0.5-0.5-0.5s-0.50.22-0.50.5v0.69l-0.39-0.39a0.50.5 0 0 0-0.740.04c-0.170.2-0.140.50.050.69l1.08 1.08v0.89h-0.89l-1.08-1.08a0.530.53 0 0 0-0.69-0.05c-0.230.19-0.240.53-0.040.74l0.390.39h-0.69c-0.28 0-0.50.22-0.50.5s0.220.50.50.5h0.69l-0.390.39c-0.210.21-0.190.550.040.740.20.170.50.140.69-0.05l1.08-1.08h0.89z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrChalet;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoRoofing = createIcon("0 -960 960 960", [["path",{"d":"m80-480 400-360 200 180v-120h80v192l120 108h-89L480-759 169-480H80Zm290 320v-220h220v220H370Zm60-60h100v-100H430v100Zm50-50Z"}]]);
+
+export default MsoRoofing;

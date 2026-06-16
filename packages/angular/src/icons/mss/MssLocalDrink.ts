@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-local-drink",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssLocalDrink {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m209-80-89-800h720L751-80H209Zm53-60h436l48-440H214l48 440Zm-55-500h546l20-180H187l20 180Zm273 447q45 0 76.5-30.5T588-299q0-47-28.5-100T480-500q-51 48-79.5 101T372-299q0 45 31.5 75.5T480-193Zm0-60q-20 0-34-14t-14-34q0-21 11.5-50t36.5-61q25 33 36.5 62t11.5 49q0 20-14 34t-34 14ZM214-580h532-532Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssLocalDrink;

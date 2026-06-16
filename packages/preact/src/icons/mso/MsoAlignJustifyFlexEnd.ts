@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoAlignJustifyFlexEnd = createIcon("0 -960 960 960", [["path",{"d":"M820-80v-800h60v800h-60ZM570-290v-380h100v380H570Zm-240 0v-380h100v380H330Z"}]]);
+
+export default MsoAlignJustifyFlexEnd;

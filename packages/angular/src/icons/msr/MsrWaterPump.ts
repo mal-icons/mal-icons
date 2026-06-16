@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-water-pump",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrWaterPump {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.91-376Q451-376 430.5-396.56 410-417.12 410-446q0-23 7-39t31-52l20-29q5-7 12-7t12 7l20 29q24 36 31 52t7 39q0 28.88-20.59 49.44Q508.82-376 479.91-376ZM100-260h207q-29-23-52-53.5T218-380H100v120Zm379.79 0Q571-260 635.5-324.29q64.5-64.29 64.5-155.5T635.71-635.5q-64.29-64.5-155.5-64.5T324.5-635.71q-64.5 64.29-64.5 155.5T324.29-324.5q64.29 64.5 155.5 64.5ZM742-580h118v-120H653q29 23 52 53.5t37 66.5ZM100-200v10q0 12.75-8.68 21.38Q82.65-160 69.83-160 57-160 48.5-168.62T40-190v-260q0-12.75 8.68-21.37Q57.35-480 70.18-480 83-480 91.5-471.37T100-450v10h103q-2-10-2.5-19.5T200-480q0-117 81.5-198.5T480-760h380v-10q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T920-770v260q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T860-510v-10H757q2 10 2.5 19.5t0.5 20.5q0 117-81.5 198.5T480-200H100Zm0-60v-120 120Zm760-320v-120 120ZM480-480Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrWaterPump;

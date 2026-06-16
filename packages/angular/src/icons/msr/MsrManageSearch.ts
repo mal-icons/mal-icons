@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-manage-search",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrManageSearch {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M110-620q-12.75 0-21.37-8.68Q80-637.35 80-650.17 80-663 88.63-671.5T110-680h140q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T250-620H110Zm0 210q-12.75 0-21.37-8.68Q80-427.35 80-440.17 80-453 88.63-461.5T110-470h140q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T250-410H110Zm707 189L678-360q-26 20-56 30t-62 10q-83 0-141.5-58.5T360-520q0-83 58.5-141.5T560-720q83 0 141.5 58.5T760-520q0 32-10 62t-30 56l139 139q9 9 9 21t-9 21q-9 9-21 9t-21-9ZM559.77-380Q618-380 659-420.76q41-40.76 41-99Q700-578 659.24-619q-40.76-41-99-41Q502-660 461-619.23q-41 40.76-41 99Q420-462 460.77-421q40.76 41 99 41ZM110-200q-12.75 0-21.37-8.68Q80-217.35 80-230.17 80-243 88.63-251.5T110-260h340q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T450-200H110Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrManageSearch;

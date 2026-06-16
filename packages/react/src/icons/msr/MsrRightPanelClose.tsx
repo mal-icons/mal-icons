@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrRightPanelClose = createIcon("0 -960 960 960", [["path",{"d":"M297-380q0 9.92 9.5 13.46Q316-363 323-370l89-89q9-9 9-21t-9-21l-89-89q-7-7-16.5-3.46Q297-589.92 297-580v200ZM180-120q-24.75 0-42.37-17.62T120-180v-600q0-24.75 17.63-42.37T180-840h600q24.75 0 42.38 17.63T840-780v600q0 24.75-17.62 42.38T780-120H180Zm453-60h147v-600H633v600Zm-60 0v-600H180v600h393Zm60 0h147-147Z"}]]);
+
+export default MsrRightPanelClose;

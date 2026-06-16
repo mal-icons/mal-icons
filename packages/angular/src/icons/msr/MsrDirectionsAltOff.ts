@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-directions-alt-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrDirectionsAltOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M812-63 652-222 523-93q-8 8-19.55 12-11.55 4-23.5 4T456.5-81Q445-85 437-93L93-437q-8-8-12-19.55-4-11.55-4-23.5t4-23.45Q85-515 93-523l129-129L47-827q-9-9.07-8.5-21.53Q39-861 48.05-870q9.05-9 21.5-9Q82-879 91-870l764 765q9 9 9 21t-9.05 21q-9.05 9-21.5 9Q821-54 812-63ZM609-265l-73-74-35 35q-9 9-21 8.5t-21-9.5q-9-9-9-21.5t9-21.5l34-34-69-68H313q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T313-510h51l-99-99-129 129 344 344 129-129Zm129-43-43-43 129-129-344-344-129 129-43-43 129-129q8-8 19.55-12 11.55-4 23.5-4t23.45 4q11.5 4 19.5 12l344 344q8 8 12 19.55 4 11.55 4 23.5t-4 23.45q-4 11.5-12 19.5L738-308ZM609-437l22-22q9-9 9-21t-9-21L476-656q-9-9-21-9t-21 9q-9 9-9 21.5t9 21.5l175 176Zm-86-86Zm-86 86Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrDirectionsAltOff;

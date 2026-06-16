@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-traffic",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrTraffic {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-234q24 0 41-17t17-41q0-24-17-41t-41-17q-24 0-41 17t-17 41q0 24 17 41t41 17Zm0-188q24 0 41-17t17-41q0-24-17-41t-41-17q-24 0-41 17t-17 41q0 24 17 41t41 17Zm0-188q24 0 41-17t17-41q0-24-17-41t-41-17q-24 0-41 17t-17 41q0 24 17 41t41 17ZM335-120q-26 0-43-17t-17-43v-41q-42-9-71.5-35T164-317q-3-11 5-20.5t21-9.5h85v-80q-42-9-71.5-35.5T164-524q-3-11 5-20.5t21-9.5h85v-77q-42-9-71.5-35.5T164-727q-3-11 5-20.5t21-9.5h85v-24q0-26 17-42.5t43-16.5h290q26 0 43 16.5t17 42.5v24h85q13 0 21 9.5t5 20.5q-10 34-39.5 60.5T685-631v77h85q13 0 21 9.5t5 20.5q-10 35-39.5 61.5T685-427v80h85q13 0 21 9.5t5 20.5q-10 35-39.5 61T685-221v41q0 26-17 43t-43 17H335Zm0-60h290v-600H335v600Zm0 0v-600 600Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrTraffic;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-unsubscribe",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrUnsubscribe {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M140-160q-24 0-42-18.5T80-220v-520q0-23 18-41.5t42-18.5h680q23 0 41.5 18.5T880-740v291q-11-6-28.5-11.5T820-469v-211L496-473q-4 2-7.5 3t-8.5 1q-5 0-8.5-1t-7.5-3L140-680v460h386q0 14 2.5 30.5T535-160H140Zm340-367 340-213H140l340 213ZM773-40q-77.6 0-132.3-54Q586-148 586-226.01q0-78.01 54.7-133Q695.4-414 773-414q77.61 0 132.3 54.99Q960-304.03 960-226.01 960-148 905.3-94 850.61-40 773-40Zm-93-170h186q8 0 14-6t6-14q0-8-6-14t-14-6H680q-8 0-14 6t-6 14q0 8 6 14t14 6Zm-540-10v-254 5-211 7-43.50.5-24 24.09-0.38V-673v-7 460Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrUnsubscribe;

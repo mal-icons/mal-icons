@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-maps-ugc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMapsUgc {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M112-295q-20-43-29-88.63-9-45.63-9-93.37 0-84 31.5-157T192-762q55-55 128-86.5T477-880q84 0 157 31.5T762-762q55 55 86.5 128T880-477q0 84-31.5 157T762-192q-55 55-128 86.5T477-74q-47.75 0-93.37-9T295-112L92-55q-17 5-29.5-7.5T55-92l57-203Zm19 164 138-38q16-5 30-3.5t29 7.5q36 14 73.33 22.5 37.33 8.5 75.73 8.5Q620-134 720-234t100-243q0-143-100-243T477-820q-143 0-243 99.79T134-476.63Q134-438 139.5-400q5.5 38 25.5 72 7 13.7 7.5 28.97T169-269l-38 138Zm316-312v97q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63 12.83 0 21.33-8.62T507-346v-97h98q12.75 0 21.38-8.68 8.63-8.68 8.63-21.5 0-12.82-8.62-21.32T605-503h-98v-98q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T447-601v98h-98q-12.75 0-21.37 8.68-8.62 8.68-8.62 21.5 0 12.83 8.63 21.33T349-443h98Zm29-33Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMapsUgc;

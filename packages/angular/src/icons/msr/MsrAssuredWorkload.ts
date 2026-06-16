@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-assured-workload",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAssuredWorkload {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M241.83-241Q229-241 220.5-249.62T212-271v-279q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T272-550v279q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm242 0Q471-241 462.5-249.62T454-271v-279q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T514-550v279q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM113-640q-13.75 0-23.37-9.62T80-673q0-8 5-17t12-13l353-201q7-4 14.5-6t15.5-2q8 0 15.5 2t14.5 6l353 201q7 4 12 13t5 17q0 13.75-9.62 23.38T847-640H113Zm101-60h532L480-852 214-700ZM110-121q-12.75 0-21.37-8.68Q80-138.35 80-151.18 80-164 88.63-172.5T110-181h469.87q2.13 14 3.63 28.5T591-121H110Zm578-291v-138q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T748-550v108l-60 30ZM800 0q-69-17-114.5-79.5T640-218v-83q0-8.16 4.5-15.58Q649-324 657-328l130-65q5.71-3 12.86-3Q807-396 813-393l130 65q8 4 12.5 11.42 4.5 7.42 4.5 15.58v83q0 76-45.5 138.5T800 0Zm107-248q6-6 6-14t-6-14q-6-6-14-6t-14 6L779-176l-45-45q-6-6-14-6t-14 6q-6 6-6 14t6 14l52 52q5 5 10.13 7 5.13 2 11 2Q785-132 790-134q5-2 10-7l107-107ZM214-700h532-532Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAssuredWorkload;

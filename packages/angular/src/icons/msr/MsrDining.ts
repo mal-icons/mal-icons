@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-dining",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrDining {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M343.12-193Q354-193 361-200.08q7-7.08 7-17.92v-253q29-4 49.5-26.5t20.5-51.82V-703q0-10-7.2-16.5T414-726q-10 0-16.5 6.5t-6.5 16.13V-583h-22v-120.37q0-9.63-6.5-16.13Q356-726 346-726t-16.5 6.5q-6.5 6.5-6.5 16.13V-583h-29v-120.37q0-9.63-6.5-16.13Q281-726 271-726t-16.5 6.5Q248-713 248-703v153.68q0 29.32 20 51.82t50 26.5v253q0 10.83 7.12 17.92 7.12 7.08 18 7.08Zm253 0Q607-193 614-200.08q7-7.08 7-17.92v-241q35-14 55-49.9 20-35.9 20-84.1 0-57-27.7-95t-69.5-38Q557-726 530-688t-27 95q0 51 18 86t50 48v241q0 10.83 7.12 17.92 7.12 7.08 18 7.08ZM140-80q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h680q24 0 42 18t18 42v680q0 24-18 42t-42 18H140Zm0-60h680v-680H140v680Zm0 0v-680 680Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrDining;

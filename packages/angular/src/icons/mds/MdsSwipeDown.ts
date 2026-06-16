@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-swipe-down",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsSwipeDown {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.8 12.18c-0.2-0.86-0.3-1.76-0.3-2.68 0-2.840.99-5.45 2.63-7.5L7.2 3.07a10.46 10.46 0 0 0-1.88 8.99l1.62-1.62L8 11.5 4.5 15 1 11.5l1.06-1.06 1.74 1.74zm17.91-1 2.09 7.39-8.23 3.65-6.84-2.850.61-1.62 3.8-0.75-4.35-9.83c-0.34-0.76 0-1.640.76-1.980.76-0.34 1.64 0 1.980.76l2.43 5.49 1.26-0.56 6.490.3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsSwipeDown;

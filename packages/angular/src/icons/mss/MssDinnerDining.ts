@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-dinner-dining",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssDinnerDining {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m140-120-60-60h800l-60 60H140Zm-13-121q7-16 13.5-29t20.5-27v-325h-41v-50h41v-34h-41v-50h41v-34h-41v-50h350v84h370v50H470v84H315v271q20 2 39 10t36 22q16-63 71.5-106.5T593-469q93 0 151.5 61T803-254v13H127Zm323-60h286q-9-45-49-76.5T593-409q-54 0-94 31.5T450-301ZM315-756h105v-34H315v34Zm0 84h105v-34H315v34Zm-105-84h55v-34h-55v34Zm0 84h55v-34h-55v34Zm0 340q8-6 24-12.5t31-7.5v-270h-55v290Zm240 31h286-286Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssDinnerDining;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssShelfPosition = createIcon("0 -960 960 960", [["path",{"d":"M120-121v-719h760v719H120Zm60-201v141h640v-141H180Zm490-60h150v-398H670v398Zm-490 0h150v-398H180v398Zm210 0h220v-398H390v398Z"}]]);
+
+export default MssShelfPosition;

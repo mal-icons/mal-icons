@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-quiz",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrQuiz {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 20H4V7c0-0.55-0.45-1-1-1s-1 0.45-1 1v13c0 1.10.9 2 2 2h13c0.55 0 1-0.45 1-1s-0.45-1-1-1z"}],["path",{"d":"M20 2H8c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h12c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm-5.99 13c-0.59 0-1.05-0.47-1.05-1.05 0-0.590.47-1.04 1.05-1.040.59 0 1.040.45 1.04 1.04-0.010.58-0.45 1.05-1.04 1.05zm2.5-6.17c-0.630.93-1.23 1.21-1.56 1.81-0.080.14-0.130.26-0.160.49-0.050.39-0.360.68-0.750.68h-0.03c-0.44 0-0.79-0.38-0.75-0.820.03-0.280.09-0.570.25-0.840.41-0.73 1.18-1.16 1.63-1.80.48-0.680.21-1.94-1.14-1.94-0.61 0-1.010.32-1.260.7-0.190.29-0.570.39-0.890.25-0.42-0.18-0.6-0.7-0.34-1.070.51-0.74 1.36-1.29 2.48-1.29 1.23 0 2.080.56 2.51 1.260.370.610.58 1.730.01 2.57z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrQuiz;

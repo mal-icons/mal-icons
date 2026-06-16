@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssHumidityHigh = createIcon("0 -960 960 960", [["path",{"d":"M480-100q-133 0-226.5-91.71T160-415q0-63.14 24.5-120.77Q209-593.4 254-637.5L480-860l226 222.5q45 44.1 69.5 101.73Q800-478.14 800-415q0 131.58-93.5 223.29T480-100Z"}]]);
+
+export default MssHumidityHigh;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssEmojiFoodBeverage = createIcon("0 -960 960 960", [["path",{"d":"M160-120v-60h639v60H160Zm0-120v-600h660q24 0 42 18t18 42v160q0 24-18 42t-42 18h-96v320H160Zm564-380h96v-160h-96v160ZM220-300h444v-480H397v33l80 65v185H276v-185l81-65v-33H220v480Zm137-480h40-40Zm85 240Z"}]]);
+
+export default MssEmojiFoodBeverage;

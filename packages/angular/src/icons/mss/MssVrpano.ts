@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-vrpano",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssVrpano {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M226-342q59-8 122.5-13t131.5-5q67 0 131 5t123 13L568-555 444-396l-87-112-131 166Zm-86 115q82-29 167.5-41T480-280q87 0 172.5 12T820-227v-505q-82 28-167.5 40T480-680q-87 0-172.5-12T140-732v505Zm340-253ZM80-140v-680q47 23 155 51.5T480-740q137 0 245-28.5T880-820v680q-47-23-155-51.5T480-220q-137 0-245 28.5T80-140Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssVrpano;

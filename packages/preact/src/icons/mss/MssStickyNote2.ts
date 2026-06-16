@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssStickyNote2 = createIcon("0 -960 960 960", [["path",{"d":"M180-180h400v-200h200v-400H180v600Zm-60 60v-720h720v480L600-120H120Zm180-300v-60h170v60H300Zm0-160v-60h360v60H300ZM180-180v-600 600Z"}]]);
+
+export default MssStickyNote2;

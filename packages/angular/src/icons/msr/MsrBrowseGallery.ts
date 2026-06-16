@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-browse-gallery",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBrowseGallery {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M390-491.87V-640q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T330-640v160q0 5.57 2 10.78Q334-464 339-459l112 112q9 9 21 9t21-9q9-9 9-21t-9-21L390-491.87ZM900-480.5q0-79.5-39.5-147T754-735q-11.08-6.58-15.04-18.29Q735-765 740-777t18-16q13-4 24 3 81 49 129.5 130.5T960-481q0 97-48.5 179T782-171q-11 7-24 3t-18-16q-5-12-1.04-24.1Q742.92-220.19 754-227q67-40 106.5-107T900-480.5ZM360-121q-75 0-140.5-28.5t-114-77q-48.5-48.5-77-114T0-481q0-75 28.5-140.5t77-114q48.5-48.5 114-77T360-841q75 0 140.5 28.5t114 77q48.5 48.5 77 114T720-481q0 75-28.5 140.5t-77 114q-48.5 48.5-114 77T360-121Zm0-60q124 0 212-87.32Q660-355.64 660-481q0-124-88-212t-212-88q-125.36 0-212.68 88Q60-605 60-481q0 125.36 87.32 212.68Q234.64-181 360-181Zm0-300Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBrowseGallery;

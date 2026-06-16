@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-keyboard-external-input",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrKeyboardExternalInput {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M140-260v-440 440Zm0 60q-24 0-42-18.5T80-260v-440q0-24 18-42t42-18h680q24 0 42 18t18 42v267q-14-10-28.6-18.16Q836.79-459.32 820-465v-235H140v440h346q-1 8-1 14.95V-215q0 7 1 15H140Zm190-125h173q7-17 16-31.5t20-28.5H330q-12.75 0-21.37 8.68-8.62 8.68-8.62 21.5 0 12.83 8.63 21.33T330-325ZM203-510v60h60v-60h-60Zm124 0v60h60v-60h-60Zm123 0v60h60v-60h-60Zm124 0v60h42q5-2 9.23-4.53Q629.45-457.06 634-459v-51h-60Zm123 0v33q9-2 17.87-2.5 8.87-0.5 19.13-0.5h12q6 0 11 1v-31h-60ZM203-635v60h60v-60h-60Zm124 0v60h60v-60h-60Zm123 0v60h60v-60h-60Zm124 0v60h60v-60h-60Zm123 0v60h60v-60h-60Zm68 435H614q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T614-260h151l-52-53q-8-9-8.5-21t8.5-21q9-9 21-9t21 9l104 104q9 9 9 21t-9 21L755-105q-9 9-21 9t-21-9q-9-9-8.5-21t8.5-21l52-53Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrKeyboardExternalInput;

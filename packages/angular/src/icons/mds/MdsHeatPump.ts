@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-heat-pump",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsHeatPump {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 3H3v18h18V3zm-8.25 4.08c0.820.12 1.570.44 2.20.91l-2.2 2.2V7.08zm-1.5 0v3.11l-2.2-2.2c0.63-0.47 1.38-0.79 2.2-0.91zM7.99 9.05l2.2 2.2H7.08c0.12-0.820.44-1.570.91-2.2zm-0.91 3.7h3.11l-2.2 2.2c-0.47-0.63-0.79-1.38-0.91-2.2zm4.17 4.17c-0.82-0.12-1.57-0.44-2.2-0.91l2.2-2.2v3.11zM12 13c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm0.75 3.92v-3.11l2.2 2.2c-0.630.47-1.380.79-2.20.91zm3.26-1.97-2.2-2.2h3.11c-0.120.82-0.44 1.57-0.91 2.2zm-2.2-3.7 2.2-2.2c0.470.640.79 1.390.91 2.2h-3.11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsHeatPump;

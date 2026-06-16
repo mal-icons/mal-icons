@@ -155,6 +155,41 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./dist/icons/lu/index.js"
     },
+    "./mdf": {
+      "types": "./dist/icons/mdf/index.d.ts",
+      "bun": "./src/icons/mdf/index.ts",
+      "import": "./dist/icons/mdf/index.js"
+    },
+    "./mdr": {
+      "types": "./dist/icons/mdr/index.d.ts",
+      "bun": "./src/icons/mdr/index.ts",
+      "import": "./dist/icons/mdr/index.js"
+    },
+    "./mds": {
+      "types": "./dist/icons/mds/index.d.ts",
+      "bun": "./src/icons/mds/index.ts",
+      "import": "./dist/icons/mds/index.js"
+    },
+    "./mdt": {
+      "types": "./dist/icons/mdt/index.d.ts",
+      "bun": "./src/icons/mdt/index.ts",
+      "import": "./dist/icons/mdt/index.js"
+    },
+    "./mso": {
+      "types": "./dist/icons/mso/index.d.ts",
+      "bun": "./src/icons/mso/index.ts",
+      "import": "./dist/icons/mso/index.js"
+    },
+    "./msr": {
+      "types": "./dist/icons/msr/index.d.ts",
+      "bun": "./src/icons/msr/index.ts",
+      "import": "./dist/icons/msr/index.js"
+    },
+    "./mss": {
+      "types": "./dist/icons/mss/index.d.ts",
+      "bun": "./src/icons/mss/index.ts",
+      "import": "./dist/icons/mss/index.js"
+    },
     "./oc": {
       "types": "./dist/icons/oc/index.d.ts",
       "bun": "./src/icons/oc/index.ts",
@@ -169,6 +204,41 @@
       "types": "./dist/icons/lu/*.d.ts",
       "bun": "./src/icons/lu/*.tsx",
       "import": "./dist/icons/lu/*.js"
+    },
+    "./mdf/*": {
+      "types": "./dist/icons/mdf/*.d.ts",
+      "bun": "./src/icons/mdf/*.tsx",
+      "import": "./dist/icons/mdf/*.js"
+    },
+    "./mdr/*": {
+      "types": "./dist/icons/mdr/*.d.ts",
+      "bun": "./src/icons/mdr/*.tsx",
+      "import": "./dist/icons/mdr/*.js"
+    },
+    "./mds/*": {
+      "types": "./dist/icons/mds/*.d.ts",
+      "bun": "./src/icons/mds/*.tsx",
+      "import": "./dist/icons/mds/*.js"
+    },
+    "./mdt/*": {
+      "types": "./dist/icons/mdt/*.d.ts",
+      "bun": "./src/icons/mdt/*.tsx",
+      "import": "./dist/icons/mdt/*.js"
+    },
+    "./mso/*": {
+      "types": "./dist/icons/mso/*.d.ts",
+      "bun": "./src/icons/mso/*.tsx",
+      "import": "./dist/icons/mso/*.js"
+    },
+    "./msr/*": {
+      "types": "./dist/icons/msr/*.d.ts",
+      "bun": "./src/icons/msr/*.tsx",
+      "import": "./dist/icons/msr/*.js"
+    },
+    "./mss/*": {
+      "types": "./dist/icons/mss/*.d.ts",
+      "bun": "./src/icons/mss/*.tsx",
+      "import": "./dist/icons/mss/*.js"
     },
     "./oc/*": {
       "types": "./dist/icons/oc/*.d.ts",

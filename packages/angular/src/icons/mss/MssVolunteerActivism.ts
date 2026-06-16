@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-volunteer-activism",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssVolunteerActivism {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M646-458q-94-84-164-159.76Q412-693.52 412-760q0-51.76 35.22-86.88Q482.44-882 534.34-882 564-882 593.5-865.5T646-821q23-28 52.5-44.5t59.16-16.5q51.9 0 87.12 35.12Q880-811.76 880-760q0 66.47-70 142.24Q740-542 646-458Zm0-83q66-60 120-119t54-100q0-27.42-17.36-44.71Q785.29-822 757.76-822 741-822 724.5-814q-16.5 8-33.5 30l-45 55-45-55q-17-22-33.5-30t-33.26-8q-27.53 0-44.89 17.29Q472-787.42 472-760q0 41 54 100t120 119Zm0-141ZM566-62l-311-89v57H40v-394h309l319 120v73h212v137L566-62Zm-466-92h94v-274h-94v274Zm462 30 256-78v-33H519l-129-40 22-58 115 38h77v-32L339-428h-84v214l307 90Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssVolunteerActivism;

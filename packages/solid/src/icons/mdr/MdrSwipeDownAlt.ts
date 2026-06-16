@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrSwipeDownAlt = createIcon("0 0 24 24", [["path",{"d":"M13 13.9a5 5 0 1 0-2 0v4.27l-0.88-0.88a11 0 1 0-1.41 1.41l2.59 2.59c0.390.39 1.020.39 1.41 0l2.59-2.59a11 0 1 0-1.41-1.41l-0.890.88V13.9z"}]]);
+
+export default MdrSwipeDownAlt;

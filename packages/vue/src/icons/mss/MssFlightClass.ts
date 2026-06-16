@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssFlightClass = createIcon("0 -960 960 960", [["path",{"d":"M480-440v-360h240v360H480Zm60-60h120v-240H540v240ZM320-240 200-643v-157h60v163l104.55 337H720v60H320Zm0 120v-60h400v60H320Zm220-620h120-120Z"}]]);
+
+export default MssFlightClass;

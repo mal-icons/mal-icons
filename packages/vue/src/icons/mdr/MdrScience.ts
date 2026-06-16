@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrScience = createIcon("0 0 24 24", [["path",{"d":"M20.54 17.73 15 11V5h1c0.55 0 1-0.45 1-1s-0.45-1-1-1H8c-0.55 0-1 0.45-1 1s0.45 1 1 1h1v6l-5.54 6.73c-0.320.39-0.460.83-0.46 1.270.01 1.030.82 2 2 2h14c1.19 0 2-0.97 2-2 0-0.44-0.14-0.88-0.46-1.27z"}]]);
+
+export default MdrScience;

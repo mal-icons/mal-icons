@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrUnfoldLess = createIcon("0 -960 960 960", [["path",{"d":"M480-589q-5 0-10.5-2t-10.5-7L322-735q-9-9-9-22t9-22q9-9 21-9t21 9l116 116 116-116q9-9 21.5-9t21.5 9q9 9 9 21.5t-9 21.5L501-598q-5 5-10 7t-11 2ZM322-182q-9-9-9-21.5t9-21.5l137-137q5-5 10.5-7t10.5-2q6 0 11 2t10 7l138 138q9 9 9 21t-9 21q-9 9-22 9t-22-9L480-297 365-182q-9 9-21.5 9t-21.5-9Z"}]]);
+
+export default MsrUnfoldLess;

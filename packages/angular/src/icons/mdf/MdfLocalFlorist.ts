@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-local-florist",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfLocalFlorist {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 22a9 9 0 0 0 9-9 9 9 0 0 0-9 9zM5.6 10.25a2.5 2.5 0 0 0 3.92 2.06l-0.020.19a2.5 2.5 0 0 0 5 0l-0.02-0.19c0.40.280.890.44 1.420.44a2.5 2.5 0 0 0 2.5-2.5c0-1-0.59-1.85-1.43-2.250.84-0.4 1.43-1.25 1.43-2.25a2.5 2.5 0 0 0-3.92-2.06l0.02-0.19a2.5 2.5 0 0 0-5 0l0.020.19c-0.4-0.28-0.89-0.44-1.42-0.44a2.5 2.5 0 0 0-2.5 2.5c0 1 0.59 1.85 1.43 2.25-0.840.4-1.43 1.25-1.43 2.25zM12 5.5a2.5 2.5 0 0 1 0 5 2.5 2.5 0 0 1 0-5zM3 13a9 9 0 0 0 9 9 9 9 0 0 0-9-9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfLocalFlorist;

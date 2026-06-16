@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrWidth = createIcon("0 -960 960 960", [["path",{"d":"m236-449 66 66q9 9 9 21t-9 21q-9 9-21 9t-21-9L142-459q-9-9-9-21t9-21l118-118q9-9 21-9t21 9q9 9 9 21.5t-9 21.5l-66 66h489l-66-67q-8-9-8.5-21t8.5-21q9-9 21-9t21 9l118 118q9 9 9 21t-9 21L701-341q-9 9-21 9t-21-9q-9-9-8.5-21t8.5-21l66-67-489 1Z"}]]);
+
+export default MsrWidth;

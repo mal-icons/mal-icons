@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssFilterList = createIcon("0 -960 960 960", [["path",{"d":"M400-240v-60h160v60H400ZM240-450v-60h480v60H240ZM120-660v-60h720v60H120Z"}]]);
+
+export default MssFilterList;

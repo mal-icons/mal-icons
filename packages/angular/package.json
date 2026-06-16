@@ -129,6 +129,34 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./src/icons/lu/index.ts"
     },
+    "./mdf": {
+      "bun": "./src/icons/mdf/index.ts",
+      "import": "./src/icons/mdf/index.ts"
+    },
+    "./mdr": {
+      "bun": "./src/icons/mdr/index.ts",
+      "import": "./src/icons/mdr/index.ts"
+    },
+    "./mds": {
+      "bun": "./src/icons/mds/index.ts",
+      "import": "./src/icons/mds/index.ts"
+    },
+    "./mdt": {
+      "bun": "./src/icons/mdt/index.ts",
+      "import": "./src/icons/mdt/index.ts"
+    },
+    "./mso": {
+      "bun": "./src/icons/mso/index.ts",
+      "import": "./src/icons/mso/index.ts"
+    },
+    "./msr": {
+      "bun": "./src/icons/msr/index.ts",
+      "import": "./src/icons/msr/index.ts"
+    },
+    "./mss": {
+      "bun": "./src/icons/mss/index.ts",
+      "import": "./src/icons/mss/index.ts"
+    },
     "./oc": {
       "bun": "./src/icons/oc/index.ts",
       "import": "./src/icons/oc/index.ts"
@@ -140,6 +168,34 @@
     "./lu/*": {
       "bun": "./src/icons/lu/*.ts",
       "import": "./src/icons/lu/*.ts"
+    },
+    "./mdf/*": {
+      "bun": "./src/icons/mdf/*.ts",
+      "import": "./src/icons/mdf/*.ts"
+    },
+    "./mdr/*": {
+      "bun": "./src/icons/mdr/*.ts",
+      "import": "./src/icons/mdr/*.ts"
+    },
+    "./mds/*": {
+      "bun": "./src/icons/mds/*.ts",
+      "import": "./src/icons/mds/*.ts"
+    },
+    "./mdt/*": {
+      "bun": "./src/icons/mdt/*.ts",
+      "import": "./src/icons/mdt/*.ts"
+    },
+    "./mso/*": {
+      "bun": "./src/icons/mso/*.ts",
+      "import": "./src/icons/mso/*.ts"
+    },
+    "./msr/*": {
+      "bun": "./src/icons/msr/*.ts",
+      "import": "./src/icons/msr/*.ts"
+    },
+    "./mss/*": {
+      "bun": "./src/icons/mss/*.ts",
+      "import": "./src/icons/mss/*.ts"
     },
     "./oc/*": {
       "bun": "./src/icons/oc/*.ts",

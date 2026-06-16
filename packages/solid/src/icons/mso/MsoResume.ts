@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoResume = createIcon("0 -960 960 960", [["path",{"d":"M240-240v-480h60v480h-60Zm174 0 385-240-385-240v480Zm60-115v-250l201 125-201 125Zm0-125Z"}]]);
+
+export default MsoResume;

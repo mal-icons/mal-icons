@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrSwitchRight = createIcon("0 -960 960 960", [["path",{"d":"m615-333 147-147-147-147v294Zm-4 82q-14 14-32.5 6.5T560-272v-416q0-20 18.5-27.5T611-709l208 208q5 5 7 10t2 11q0 6-2 11t-7 10L611-251Zm-262 0L141-459q-5-5-7-10t-2-11q0-6 2-11t7-10l208-208q14-14 32.5-6.5T400-688v416q0 20-18.5 27.5T349-251Z"}]]);
+
+export default MsrSwitchRight;

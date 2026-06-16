@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-wifi-tethering-error",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrWifiTetheringError {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.66 7.14c-2.240.48-4.04 2.3-4.52 4.54-0.37 1.750.02 3.380.89 4.660.340.51 1.080.55 1.510.110.35-0.350.37-0.880.1-1.28-0.5-0.76-0.75-1.71-0.61-2.730.23-1.74 1.67-3.17 3.41-3.4A4 4 0 0 1 16 13c0 0.8-0.24 1.54-0.64 2.16-0.270.41-0.250.950.1 1.290.430.43 1.170.4 1.51-0.11C17.62 15.4 18 14.25 18 13c0-3.75-3.45-6.7-7.34-5.86zm-0.41-3.99c-4.050.69-7.19 3.69-8.03 7.72-0.66 3.170.2 6.16 1.97 8.380.370.46 1.070.49 1.490.070.36-0.360.39-0.930.07-1.32a8 8 0 0 1-1.66-6.28c0.55-3.47 3.42-6.24 6.92-6.65 2.76-0.33 5.270.74 6.93 2.590.20.210.470.340.760.340.85 0 1.34-1.010.77-1.65-2.19-2.45-5.56-3.82-9.22-3.2zM12 11c-1.1 0-2 0.9-2 2 0 0.550.23 1.050.59 1.410.360.360.860.59 1.410.59s1.05-0.23 1.41-0.59c0.36-0.360.59-0.860.59-1.41 0-1.1-0.9-2-2-2zm9-1c0.55 0 1 0.45 1 1v4c0 0.55-0.45 1-1 1s-1-0.45-1-1v-4c0-0.550.45-1 1-1zm0 8c0.55 0 1 0.45 1 1s-0.45 1-1 1-1-0.45-1-1 0.45-1 1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrWifiTetheringError;

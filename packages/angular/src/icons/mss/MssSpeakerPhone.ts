@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-speaker-phone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssSpeakerPhone {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m295-673-43-43q44-39 102.5-62T480-801q67 0 125.5 23T708-716l-43 43q-39-35-87-51.5T480-741q-50 0-98 16.5T295-673Zm-82-83-43-43q58-54 140-88t170-34q88 0 170 34t140 88l-43 43q-54-49-121.5-77T480-861q-78 0-145.5 28T213-756Zm96 676v-499h341v499H309Zm60-60h221v-379H369v379Zm0 0h221-221Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssSpeakerPhone;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoUniversalCurrencyAlt = createIcon("0 -960 960 960", [["path",{"d":"M140-200q-24 0-42-18t-18-42v-440q0-24 18-42t42-18h680q24 0 42 18t18 42v440q0 24-18 42t-42 18H140Zm0-60h680v-440H140v440Zm470-50h160v-160h-50v110H610v50Zm-129.94-55Q528-365 561.5-398.56t33.5-81.5Q595-528 561.44-561.5t-81.5-33.5Q432-595 398.5-561.44t-33.5 81.5Q365-432 398.56-398.5t81.5 33.5ZM190-485h50v-110h110v-50H190v160Zm-50 225v-440 440Z"}]]);
+
+export default MsoUniversalCurrencyAlt;

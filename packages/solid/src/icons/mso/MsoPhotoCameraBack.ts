@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoPhotoCameraBack = createIcon("0 -960 960 960", [["path",{"d":"M253-266h460L571-453 445-286l-92-114-100 134ZM140-120q-24 0-42-18t-18-42v-513q0-23 18-41.5t42-18.5h147l73-87h240l73 87h147q23 0 41.5 18.5T880-693v513q0 24-18.5 42T820-120H140Zm680-60v-513H645l-73-87H388l-73 87H140v513h680ZM480-480Z"}]]);
+
+export default MsoPhotoCameraBack;

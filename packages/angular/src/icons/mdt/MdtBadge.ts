@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-badge",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtBadge {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14 13.5h4V12h-4v1.5zm0 3h4V15h-4v1.5zM20 7h-5V4c0-1.1-0.9-2-2-2h-2c-1.1 0-2 0.9-2 2v3H4c-1.1 0-2 0.9-2 2v11c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V9c0-1.1-0.9-2-2-2zm-9-3h2v5h-2V4zm9 16H4V9h5c0 1.10.9 2 2 2h2c1.1 0 2-0.9 2-2h5v11zM9 15c0.83 0 1.5-0.67 1.5-1.5S9.83 12 9 12s-1.50.67-1.5 1.5S8.17 15 9 15zm2.08 1.18c-0.64-0.28-1.34-0.43-2.08-0.43s-1.440.15-2.080.43c-0.560.24-0.920.78-0.92 1.39V18h6v-0.43c0-0.61-0.36-1.15-0.92-1.39z"}],["path",{"d":"M13 11h-2c-1.1 0-2-0.9-2-2H4v11h16V9h-5c0 1.1-0.9 2-2 2zm-4 1c0.83 0 1.50.67 1.5 1.5S9.83 15 9 15s-1.5-0.67-1.5-1.5S8.17 12 9 12zm3 6H6v-0.43c0-0.60.36-1.150.92-1.390.64-0.28 1.34-0.43 2.08-0.43s1.440.15 2.080.43c0.550.240.920.780.92 1.39V18zm6-1.5h-4V15h4v1.5zm0-3h-4V12h4v1.5z","opacity":".3"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtBadge;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-wind-power",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssWindPower {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M430-40q0-25 17.63-42.5T490-100v-225q-15-4-28-10.5T438-353l-117 73-281-80v-160h392q10-11 22-19t26-13v-172l214-199 136 85-207 338q8 13 11.5 27t4.5 29l141 34 142 254L809-43 550-301v201q25 0 42.5 17.63T610-40H430ZM160-770v-60h240v60H160Zm380 72v141q11 2 21.5 6t19.5 9l166-278-46-29-161 151ZM40-610v-60h200v60H40Zm480 230q25.5 0 42.75-17.25T580-440q0-25.5-17.25-42.75T520-500q-25.5 0-42.75 17.25T460-440q0 25.5 17.25 42.75T520-380Zm-208 36 95-58q-5-14-5.5-29t1.5-29H100v55l212 61Zm429-15-115-26q-6 12-15 22.5T591-344l218 217 39-39-107-193ZM120-130v-60h200v60H120Zm400-310Zm20-117Zm-137 97Zm188 116Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssWindPower;

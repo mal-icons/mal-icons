@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-interactive-space",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoInteractiveSpace {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m281-625 75-75-75-75-75 75 75 75Zm199-35ZM140-400q-24 0-42-18t-18-42v-400q0-24 18-42t42-18h680q24 0 42 18t18 42v400q0 24-18 42t-42 18H671q5-14 7-29t2-31h140v-400H140v400h140q0 16 2 31t7 29H140Zm520.06-285Q683-685 699-701.06q16-16.06 16-39T698.94-779q-16.06-16-39-16T621-778.94q-16 16.06-16 39T621.06-701q16.06 16 39 16ZM200-40v-84q0-35 19.5-65t51.5-45q49-23 102-34.5T480-280q54 0 107 11.5T689-234q32 15 51.5 45t19.5 65v84H200Zm60-60h440v-24q0-17.62-10-32.31Q680-171 663-179q-43-20-89-30.5T480-220q-48 0-94 10.5T297-179q-17 8-27 22.69-10 14.69-10 32.31v24Zm220-220q-58 0-99-41t-41-99q0-58 41-99t99-41q58 0 99 41t41 99q0 58-41 99t-99 41Zm-0.23-60Q513-380 536.5-403.26q23.5-23.26 23.5-56.5Q560-493 536.74-516.5q-23.26-23.5-56.5-23.5Q447-540 423.5-516.73q-23.5 23.26-23.5 56.5Q400-427 423.27-403.5q23.26 23.5 56.5 23.5Zm0.24-80Zm0 360Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoInteractiveSpace;

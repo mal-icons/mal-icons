@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoSplitscreen = createIcon("0 -960 960 960", [["path",{"d":"M220-570h520v-250H220v250Zm0 60q-24 0-42-18t-18-42v-250q0-24 18-42t42-18h520q24 0 42 18t18 42v250q0 24-18 42t-42 18H220Zm0 370h520v-250H220v250Zm0 60q-24 0-42-18t-18-42v-250q0-24 18-42t42-18h520q24 0 42 18t18 42v250q0 24-18 42t-42 18H220Zm0-490v-250 250Zm0 430v-250 250Z"}]]);
+
+export default MsoSplitscreen;

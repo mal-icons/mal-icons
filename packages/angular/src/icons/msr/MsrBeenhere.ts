@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-beenhere",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBeenhere {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.8-55q-9.8 0-18.72-3-8.91-3-17.09-9L184-262q-11.25-8.25-17.62-21T160-310v-510q0-24 18-42t42-18h520q24 0 42 18t18 42v510q0 14.25-6.37 27T776-262L516-67q-8.29 6-17.34 9-9.05 3-18.85 3Zm0.2-60 260-200v-505H220v505l260 200Zm-43-329-78-78q-9-9-21-9t-21 8.61Q308-513 308-501q0 12 9 21l100 99q9 9 21 9t21-9l184-184q9-9 8.5-21t-9.11-21Q633-616 621-616q-12 0-21 9L437-444Zm43-376H220h520-260Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBeenhere;

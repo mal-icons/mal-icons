@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-body-fat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBodyFat {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M713-113 88-425q-17.25-8.25-25.12-22.87T55-478.25q0-15.75 7.88-30.65Q70.75-523.8 88-532l625-312q15.08-8 30.54-6.5T772-841q13 8 20.5 20.83Q800-807.35 800-790v170h10q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T810-560h-80q-12 0-21-8.68-9-8.68-9-21.5 0-12.82 8.63-21.32T730-620h10v-168L521-680q32 44 50.5 94.94Q590-534.12 590-480q0 56-19 107t-52 96l220 109v-171h-9q-13.08 0-21.54-8.88-8.46-8.88-8.46-22t8.63-21.62Q717.25-400 730-400h80q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5Q840-357 831.09-348q-8.91 9-22.09 9h-9v172q0 17.35-7.5 30.18Q785-124 772-116t-28.5 9.5Q728-105 713-113ZM464-305q29-38 47.5-82.72T530-480q0-48-18-91t-47-81L115-479l349 174Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBodyFat;

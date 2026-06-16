@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoMergeType = createIcon("0 -960 960 960", [["path",{"d":"M678-163 452-389v-332L330-599l-43-43 195-195 195 195-43 43-122-122v307l208 208-42 43Zm-395 6-43-43 158-158 43 43-158 158Z"}]]);
+
+export default MsoMergeType;

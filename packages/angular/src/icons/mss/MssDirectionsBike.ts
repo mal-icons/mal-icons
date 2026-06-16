@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-directions-bike",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssDirectionsBike {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M619.08-754q-30.08 0-51.58-21.42-21.5-21.42-21.5-51.5 0-30.08 21.42-51.58 21.42-21.5 51.5-21.5 30.08 0 51.58 21.42 21.5 21.42 21.5 51.5 0 30.08-21.42 51.58-21.42 21.5-51.5 21.5ZM422-548l89 95v247h-60v-200L263-570l171-171q8-8 22.5-14.5T487-762q16 0 30.5 6.5T540-741l78 78q27 27 64.54 46.5Q720.08-597 767-597v60q-59.56 0-107.78-22.5Q611-582 573-620l-40-40-111 112ZM199.91-80Q117-80 61-136.09q-56-56.09-56-139Q5-358 61.09-414q56.09-56 139-56Q283-470 339-413.91q56 56.09 56 139Q395-192 338.91-136q-56.09 56-139 56Zm0.09-49q62 0 104-42t42-104q0-62-42-104t-104-42q-62 0-104 42T54-275q0 62 42 104t104 42Zm559.91 49Q677-80 621-136.09q-56-56.09-56-139Q565-358 621.09-414q56.09-56 139-56Q843-470 899-413.91q56 56.09 56 139Q955-192 898.91-136q-56.09 56-139 56Zm0.09-49q62 0 104-42t42-104q0-62-42-104t-104-42q-62 0-104 42t-42 104q0 62 42 104t104 42Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssDirectionsBike;

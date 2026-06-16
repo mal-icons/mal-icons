@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssFlightLand = createIcon("0 -960 960 960", [["path",{"d":"M119-120v-60h721v60H119Zm648-211L120-511v-209l38 13 32 96 219 61v-330l58 14 115 364 215 61q19 5 31 20.5t12 35.5q0 28-22.5 45t-50.5 9Z"}]]);
+
+export default MssFlightLand;

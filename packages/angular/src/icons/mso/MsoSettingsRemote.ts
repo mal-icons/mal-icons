@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-settings-remote",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoSettingsRemote {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M358-40q-16.15 0-27.07-10.92T320-78v-484q0-16.15 10.93-27.07T358-600h244q16.15 0 27.08 10.93T640-562v484q0 16.15-10.92 27.08T602-40H358Zm121.75-358q17.75 0 30-12.25 12.25-12.25 12.25-30Q522-458 509.82-471T480-484q-18.48 0-31.24 12.76Q436-458.48 436-440q0 17.64 13 29.82T479.75-398ZM324-676l-42-42q40-40 91-61t107-21q56 0 107 21t91 61l-42 42q-32-31-72.08-47.5-40.08-16.5-84-16.5Q436-740 396-723.5T324-676ZM210-789l-42-43q63-61 143.5-94.5T480-960q88 0 168.5 33.5T790-830l-43 42q-53-54-122.35-83t-145-29Q404-900 334-871.5 264-843 210-789Zm170 689h200v-440H380v440Zm0 0h200-200Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoSettingsRemote;

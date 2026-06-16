@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-panorama-photosphere-select",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfPanoramaPhotosphereSelect {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.49 8.51c-0.47-0.23-0.93-0.44-1.4-0.64C19.52 4.41 16.05 2 12 2S4.47 4.41 2.9 7.88c-0.470.2-0.930.41-1.40.63-0.310.15-0.50.48-0.50.83v5.32c0 0.350.190.680.510.830.470.230.930.44 1.390.64 3.55 7.83 14.65 7.82 18.2 0 0.47-0.20.93-0.41 1.39-0.630.31-0.170.51-0.490.51-0.84V9.34a0.910.91 0 0 0-0.51-0.83zM12 3.8c2.6 0 4.91 1.23 6.41 3.12-4.1-1.19-8.48-1.26-12.830.01C7.08 5.03 9.4 3.8 12 3.8zM5.6 17.08c4.19 1.22 8.57 1.23 12.82-0.01a8.14 8.14 0 0 1-12.820.01z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfPanoramaPhotosphereSelect;

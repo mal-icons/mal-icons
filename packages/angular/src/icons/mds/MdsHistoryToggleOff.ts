@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-history-toggle-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsHistoryToggleOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m15.1 19.37 1 1.74c-0.960.44-2.010.73-3.10.84v-2.02c0.74-0.09 1.44-0.28 2.1-0.56zM4.07 13H2.05c0.11 1.10.4 2.140.84 3.1l1.74-1c-0.28-0.66-0.47-1.36-0.56-2.1zM15.1 4.63l1-1.74c-0.96-0.44-2-0.73-3.1-0.84v2.02c0.740.09 1.440.28 2.10.56zM19.93 11h2.02c-0.11-1.1-0.4-2.14-0.84-3.1l-1.74 1c0.280.660.47 1.360.56 2.1zM8.9 19.37l-1 1.74c0.960.44 2.010.73 3.10.84v-2.02c-0.74-0.09-1.44-0.28-2.1-0.56zM11 4.07V2.05c-1.10.11-2.140.4-3.10.84l1 1.74c0.66-0.28 1.36-0.47 2.1-0.56zm7.36 3.1 1.74-1.01c-0.63-0.87-1.4-1.64-2.27-2.27l-1.01 1.74c0.590.45 1.10.96 1.54 1.54zM4.63 8.9l-1.74-1c-0.440.96-0.73 2-0.84 3.1h2.02c0.09-0.740.28-1.440.56-2.1zm15.3 4.1c-0.090.74-0.28 1.44-0.56 2.1l1.74 1c0.44-0.960.73-2.010.84-3.1h-2.02zm-3.1 5.36 1.01 1.74c0.87-0.63 1.64-1.4 2.27-2.27l-1.74-1.01c-0.450.59-0.96 1.1-1.54 1.54zM7.17 5.64l-1-1.75c-0.880.64-1.64 1.4-2.27 2.28l1.74 1.01a7.7 7.7 0 0 1 1.53-1.54zM5.64 16.83l-1.74 1c0.630.87 1.4 1.64 2.27 2.27l1.01-1.74a7.7 7.7 0 0 1-1.54-1.53zM13 7h-2v5.41l4.29 4.29 1.41-1.41-3.7-3.7V7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsHistoryToggleOff;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-unsubscribe",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssUnsubscribe {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M80-160v-640h800v351q-11-6-28.5-11.5T820-469v-211L480-463 140-680v460h386q0 14 2.5 30.5T535-160H80Zm400-367 340-213H140l340 213ZM773-40q-77.6 0-132.3-54Q586-148 586-226.01q0-78.01 54.7-133Q695.4-414 773-414q77.61 0 132.3 54.99Q960-304.03 960-226.01 960-148 905.3-94 850.61-40 773-40ZM660-210h226v-40H660v40Zm-520-10Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssUnsubscribe;

@@ -155,6 +155,41 @@
       "bun": "./src/icons/lu/index.ts",
       "import": "./src/icons/lu/index.ts"
     },
+    "./mdf": {
+      "svelte": "./src/icons/mdf/index.ts",
+      "bun": "./src/icons/mdf/index.ts",
+      "import": "./src/icons/mdf/index.ts"
+    },
+    "./mdr": {
+      "svelte": "./src/icons/mdr/index.ts",
+      "bun": "./src/icons/mdr/index.ts",
+      "import": "./src/icons/mdr/index.ts"
+    },
+    "./mds": {
+      "svelte": "./src/icons/mds/index.ts",
+      "bun": "./src/icons/mds/index.ts",
+      "import": "./src/icons/mds/index.ts"
+    },
+    "./mdt": {
+      "svelte": "./src/icons/mdt/index.ts",
+      "bun": "./src/icons/mdt/index.ts",
+      "import": "./src/icons/mdt/index.ts"
+    },
+    "./mso": {
+      "svelte": "./src/icons/mso/index.ts",
+      "bun": "./src/icons/mso/index.ts",
+      "import": "./src/icons/mso/index.ts"
+    },
+    "./msr": {
+      "svelte": "./src/icons/msr/index.ts",
+      "bun": "./src/icons/msr/index.ts",
+      "import": "./src/icons/msr/index.ts"
+    },
+    "./mss": {
+      "svelte": "./src/icons/mss/index.ts",
+      "bun": "./src/icons/mss/index.ts",
+      "import": "./src/icons/mss/index.ts"
+    },
     "./oc": {
       "svelte": "./src/icons/oc/index.ts",
       "bun": "./src/icons/oc/index.ts",
@@ -169,6 +204,41 @@
       "svelte": "./src/icons/lu/*.svelte",
       "bun": "./src/icons/lu/*.svelte",
       "import": "./src/icons/lu/*.svelte"
+    },
+    "./mdf/*": {
+      "svelte": "./src/icons/mdf/*.svelte",
+      "bun": "./src/icons/mdf/*.svelte",
+      "import": "./src/icons/mdf/*.svelte"
+    },
+    "./mdr/*": {
+      "svelte": "./src/icons/mdr/*.svelte",
+      "bun": "./src/icons/mdr/*.svelte",
+      "import": "./src/icons/mdr/*.svelte"
+    },
+    "./mds/*": {
+      "svelte": "./src/icons/mds/*.svelte",
+      "bun": "./src/icons/mds/*.svelte",
+      "import": "./src/icons/mds/*.svelte"
+    },
+    "./mdt/*": {
+      "svelte": "./src/icons/mdt/*.svelte",
+      "bun": "./src/icons/mdt/*.svelte",
+      "import": "./src/icons/mdt/*.svelte"
+    },
+    "./mso/*": {
+      "svelte": "./src/icons/mso/*.svelte",
+      "bun": "./src/icons/mso/*.svelte",
+      "import": "./src/icons/mso/*.svelte"
+    },
+    "./msr/*": {
+      "svelte": "./src/icons/msr/*.svelte",
+      "bun": "./src/icons/msr/*.svelte",
+      "import": "./src/icons/msr/*.svelte"
+    },
+    "./mss/*": {
+      "svelte": "./src/icons/mss/*.svelte",
+      "bun": "./src/icons/mss/*.svelte",
+      "import": "./src/icons/mss/*.svelte"
     },
     "./oc/*": {
       "svelte": "./src/icons/oc/*.svelte",

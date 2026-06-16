@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-price-change",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPriceChange {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M140-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60h680v-520H140v520Zm0 0v-520 520Zm267-159H267q-12.75 0-21.37 8.68-8.62 8.68-8.62 21.5 0 12.83 8.63 21.33T267-319h57v15q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63 12.83 0 21.33-8.62T384-304v-15h48q16 0 25.5-12t9.5-27v-114.74q0-16.25-9.5-27.75T432-512H297v-69h140q12.75 0 21.38-8.68 8.63-8.68 8.63-21.5 0-12.82-8.62-21.32T437-641h-53v-15q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T324-656v15h-48q-16 0-27.5 12T237-600.88v113.77Q237-471 248.5-461.5T276-452h131v73Zm248.25 64.75 42-42q3.75-3.75 1.88-8.25t-7.11-4.5h-83.79Q603-369 601-364.5t1.75 8.25l42 42Q647-312 650-312t5.25-2.25ZM607.98-581h83.79q5.24 0 7.24-4.5t-1.75-8.25l-42-42Q653-638 650-638t-5.25 2.25l-42 42q-3.75 3.75-1.88 8.25t7.11 4.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPriceChange;

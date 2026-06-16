@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-vpn-key-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssVpnKeyOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M813-61 497-377h-6q-26 60-78 98.5T280-240q-100 0-170-70T40-480q0-66 35-125t102-92L61-813l43-43 752 752-43 43ZM692-353l-84-84h84v84Zm113 113-60-60h9v-136.82h106V-523H522l-60-60h458v206H814v137h-9Zm-525-60q56 0 103.5-36t63.5-90L223-651q-60 20-91.5 67.5T100-480q0 75 52.5 127.5T280-300Zm0-112q-29 0-48.5-19.5T212-480q0-29 19.5-48.5T280-548q29 0 48.5 19.5T348-480q0 29-19.5 48.5T280-412Zm281-72Zm-287 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssVpnKeyOff;

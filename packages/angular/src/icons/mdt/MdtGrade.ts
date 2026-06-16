@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-grade",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtGrade {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m17.11 10.83-2.47-0.21-1.2-0.1-0.47-1.11L12 7.13l-0.97 2.28-0.47 1.11-1.20.1-2.470.21 1.88 1.630.910.79-0.27 1.17-0.57 2.42 2.13-1.28 1.03-0.63 1.030.63 2.13 1.28-0.57-2.42-0.27-1.170.91-0.79z","opacity":".3"}],["path",{"d":"m22 9.24-7.19-0.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.64-7.03L22 9.24zm-7.41 5.180.56 2.41-2.12-1.28-1.03-0.62-1.030.62-2.12 1.280.56-2.410.27-1.18-0.91-0.79-1.88-1.63 2.47-0.21 1.2-0.10.47-1.110.97-2.270.97 2.290.47 1.11 1.20.1 2.470.21-1.88 1.63-0.910.790.27 1.16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtGrade;

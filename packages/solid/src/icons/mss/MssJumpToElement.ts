@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssJumpToElement = createIcon("0 -960 960 960", [["path",{"d":"M448-448v-140h60v80h80v60H448Zm280 0v-60h80v-80h60v140H728ZM448-728v-140h140v60h-80v80h-60Zm360 0v-80h-80v-60h140v140h-60ZM134-92l-42-42 234-234H128v-60h300v300h-60v-198L134-92Z"}]]);
+
+export default MssJumpToElement;

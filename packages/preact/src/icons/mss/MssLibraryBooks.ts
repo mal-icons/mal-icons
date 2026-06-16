@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssLibraryBooks = createIcon("0 -960 960 960", [["path",{"d":"M343-420h225v-60H343v60Zm0-90h395v-60H343v60Zm0-90h395v-60H343v60ZM200-200v-680h680v680H200Zm60-60h560v-560H260v560ZM80-80v-680h60v620h620v60H80Zm180-740v560-560Z"}]]);
+
+export default MssLibraryBooks;

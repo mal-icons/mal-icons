@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-zoom-in-map",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrZoomInMap {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 8c0 0.550.45 1 1 1h4c0.55 0 1-0.45 1-1V4c0-0.55-0.45-1-1-1s-1 0.45-1 1v1.59L4.62 3.21a11 0 1 0-1.41 1.41L5.59 7H4c-0.55 0-1 0.45-1 1zm17-1h-1.59l2.38-2.38a11 0 1 0-1.41-1.41L17 5.59V4c0-0.55-0.45-1-1-1s-1 0.45-1 1v4c0 0.550.45 1 1 1h4c0.55 0 1-0.45 1-1s-0.45-1-1-1zM4 17h1.59l-2.38 2.38a11 0 1 0 1.41 1.41L7 18.41V20c0 0.550.45 1 1 1s1-0.45 1-1v-4c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1s0.45 1 1 1zm17-1c0-0.55-0.45-1-1-1h-4c-0.55 0-1 0.45-1 1v4c0 0.550.45 1 1 1s1-0.45 1-1v-1.59l2.38 2.38a11 0 1 0 1.41-1.41L18.41 17H20c0.55 0 1-0.45 1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrZoomInMap;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-text-rotate-up",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrTextRotateUp {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.35 4.35c-0.2-0.2-0.51-0.2-0.71 0l-1.79 1.79c-0.310.32-0.090.860.360.86H17v12c0 0.550.45 1 1 1s1-0.45 1-1V7h0.79c0.45 0 0.67-0.540.35-0.85l-1.79-1.8zM11.8 15.5v-5l1.6-0.66c0.36-0.140.6-0.490.6-0.88 0-0.69-0.71-1.15-1.34-0.88l-8.97 3.88c-0.420.17-0.690.58-0.69 1.04 0 0.460.270.870.69 1.05l8.97 3.88c0.630.27 1.34-0.2 1.34-0.89 0-0.39-0.24-0.74-0.6-0.89l-1.6-0.65zM4.98 13 10 11.13v3.74L4.98 13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrTextRotateUp;

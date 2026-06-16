@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-personal-injury",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfPersonalInjury {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 6c0-2.21 1.79-4 4-4s4 1.79 4 4-1.79 4-4 4-4-1.79-4-4zm9 16h1c1.1 0 2-0.9 2-2v-4.78c0-1.12-0.61-2.15-1.61-2.66-0.43-0.22-0.9-0.43-1.39-0.62V22zm-4.66-5L15 11.33c-0.93-0.21-1.93-0.33-3-0.33-2.53 0-4.710.7-6.39 1.56A2.97 2.97 0 0 0 4 15.22V22h2.34c-0.22-0.45-0.34-0.96-0.34-1.5C6 18.57 7.57 17 9.5 17h2.84zM10 22l1.41-3H9.5c-0.83 0-1.50.67-1.5 1.5S8.67 22 9.5 22h0.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfPersonalInjury;

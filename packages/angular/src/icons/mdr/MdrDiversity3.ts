@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-diversity-3",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrDiversity3 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.32 13.01c0.960.02 1.850.5 2.45 1.34A3.96 3.96 0 0 0 12 16c1.29 0 2.5-0.62 3.23-1.660.6-0.84 1.49-1.32 2.45-1.34-0.72-1.22-3.6-2-5.68-2-2.07 0-4.960.78-5.68 2.01zM4 13c1.66 0 3-1.34 3-3S5.66 7 4 7s-3 1.34-3 3 1.34 3 3 3zm16 0c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-8-3c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3z"}],["path",{"d":"M21 14h-3.27c-0.77 0-1.350.45-1.680.92-0.040.06-1.36 2.08-4.05 2.08-1.43 0-3.03-0.64-4.05-2.08-0.39-0.55-1-0.92-1.68-0.92H3c-1.1 0-2 0.9-2 2v3c0 0.550.45 1 1 1h5c0.55 0 1-0.45 1-1v-1.26c1.150.8 2.54 1.26 4 1.26s2.85-0.46 4-1.26V19c0 0.550.45 1 1 1h5c0.55 0 1-0.45 1-1v-3c0-1.1-0.9-2-2-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrDiversity3;

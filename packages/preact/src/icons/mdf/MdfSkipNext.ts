@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdfSkipNext = createIcon("0 0 24 24", [["path",{"d":"m6 18 8.5-6L6 6v12zM16 6v12h2V6h-2z"}]]);
+
+export default MdfSkipNext;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-new-releases",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtNewReleases {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m18.49 9.890.26-2.79-2.74-0.62-1.43-2.41L12 5.18 9.42 4.07 7.99 6.48l-2.740.620.26 2.78L3.66 12l1.85 2.11-0.26 2.8 2.740.62 1.43 2.41L12 18.82l2.58 1.11 1.43-2.41 2.74-0.62-0.26-2.79L20.34 12l-1.85-2.11zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z","opacity":".3"}],["path",{"d":"m20.9 5.54-3.61-0.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.610.810.34 3.68L1 12l2.44 2.78-0.34 3.69 3.610.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-0.82-0.34-3.68L23 12l-2.44-2.780.34-3.68zM18.75 16.9l-2.740.62-1.43 2.41L12 18.82l-2.58 1.11-1.43-2.41-2.74-0.620.26-2.8L3.66 12l1.85-2.12-0.26-2.78 2.74-0.61 1.43-2.41L12 5.18l2.58-1.11 1.43 2.41 2.740.62-0.26 2.79L20.34 12l-1.85 2.110.26 2.79zM11 15h2v2h-2zm0-8h2v6h-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtNewReleases;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-eda",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrEda {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M287-490v-360q0-13 8.68-21.5 8.68-8.5 21.5-8.5 12.83 0 21.33 8.63T347-850v360h-60Zm166 0v-400q0-13 8.68-21.5 8.68-8.5 21.5-8.5 12.83 0 21.33 8.63T513-890v400h-60Zm167 188v-508q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T680-810v473l-60 35ZM270-100h287q9.82 0 18.41-4T592-115l235-236-344 201-128-170H180v130q0 38 26 64t64 26Zm0 60q-63 0-106.5-43.5T120-189.77V-380h265l112 150 183-107 110-64q16-9 34.5-8t32.5 12l59 44L635-72q-16 16-36.06 24-20.06 8-41.94 8H270Zm-90-340h-60v-390q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T180-770v390Zm0-110h440-440Zm90 390h-90 412-322Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrEda;

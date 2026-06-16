@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-severe-cold",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSevereCold {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 2c-0.55 0-1 0.45-1 1v3c0 0.550.45 1 1 1s1-0.45 1-1V3c0-0.55-0.45-1-1-1z"}],["circle",{"cx":"20","cy":"9","r":"1"}],["path",{"d":"m12 10.41 3.29-3.29a11 0 1 0-1.41-1.41L12 7.59V5c0-0.55-0.45-1-1-1s-1 0.45-1 1v2.59L8.12 5.71a11 0 1 0-1.41 1.41L10 10.41V12H8.41L5.12 8.71a11 0 1 0-1.41 1.41L5.59 12H3c-0.55 0-1 0.45-1 1s0.45 1 1 1h2.59l-1.88 1.88a11 0 1 0 1.41 1.41L8.41 14H10v1.59l-3.29 3.29a11 0 1 0 1.41 1.41L10 18.41V21c0 0.550.45 1 1 1s1-0.45 1-1v-2.59l1.88 1.88a11 0 1 0 1.41-1.41L12 15.59V14h1.59l3.29 3.29a11 0 1 0 1.41-1.41L16.41 14H19c0.55 0 1-0.45 1-1s-0.45-1-1-1h-7v-1.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSevereCold;

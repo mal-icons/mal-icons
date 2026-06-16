@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-autofps-select",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoAutofpsSelect {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m434-601 43-117h6l44 117h-93Zm46 219q-97 0-163-66t-66-163q0-97 66-163t163-66q97 0 163 66t66 163q0 97-66 163t-163 66ZM352-494h43l27-73h116l27 73h43L500-772h-40L352-494ZM120-80v-188h60v188h-60Zm120 0v-188h60v188h-60Zm120 0v-188h60v188h-60Zm120 0v-188h360v188H480Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoAutofpsSelect;

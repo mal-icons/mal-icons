@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrDirectionsTransitFilled = createIcon("0 0 24 24", [["path",{"d":"M12 2c-4 0-8 0.5-8 4v9.5C4 17.43 5.57 19 7.5 19l-1.210.81A0.650.65 0 0 0 6.65 21h10.7a0.650.65 0 0 0 0.36-1.19L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-3.58-4-8-4zM8.5 16c-0.83 0-1.5-0.67-1.5-1.5S7.67 13 8.5 13s1.50.67 1.5 1.5S9.33 16 8.5 16zm2.5-6H6V7h5v3zm4.5 6c-0.83 0-1.5-0.67-1.5-1.5s0.67-1.5 1.5-1.5 1.50.67 1.5 1.5-0.67 1.5-1.5 1.5zm2.5-6h-5V7h5v3z"}]]);
+
+export default MdrDirectionsTransitFilled;

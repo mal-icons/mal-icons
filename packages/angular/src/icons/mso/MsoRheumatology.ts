@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-rheumatology",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoRheumatology {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M411-338Zm332 3q-11.61-3.71-17.81-14.86Q719-361 722.64-371.78 727-384 738-390q11-6 23-2l138 47q11.87 3.82 17.43 14.91Q922-319 918-307q-4 12-15 17.5t-22 1.5l-138-47Zm7-115q-12 0-21-9t-9-21.5q0-12.5 9-21t21-8.5h140q12.75 0 21.38 8.63T920-480q0 12-8.62 21T890-450H750Zm13-119q-12 4-23.57-1.37Q727.86-575.73 724-588q-4-12 1.81-23.09Q731.61-622.18 744-626l137-46q11-4 22.09 1.81Q914.18-664.39 918-652q4 11-1.37 22.14Q911.27-618.71 899-615l-136 46ZM285-400q-52 0-88.5-36.5T160-525q0-26 10-48.5t27-39.5l83-84v-183h60v183q0 12.17-4.5 23.59T323-654l-84 83q-8.77 8.94-13.88 20.86Q220-538.22 220-524.82 220-498 239.42-479q19.42 19 45.32 19 17.26 0 27.76-6t23.5-17q14-11 32.5-21t41.5-10q17 0 35.5 7t39.5 24q13 11 22.96 17 9.96 6 27.02 6Q562-460 581-479t19-46.33q0-13.67-4.85-25.86Q590.31-563.39 582-572l-84-83q-8-8-13-19.5t-5-23.5v-182h60v182l84 84q17 17 26.5 40t9.5 49q0 52-36 88.5T535-400q-33 0-53.5-12.5T447-437q-15-12-23.5-14.5T410-454q-9 0-18.5 6T374-437q-15 12-35 24.5T285-400ZM480-80v-174q0-12.17 5-23.59T498-297l84-83q8.31-8.63 13.15-20.15Q600-411.66 600-424.61q0-14.39-4.85-26.39T582-472l42-42q17 17 26.5 40t9.5 49q0 26-9.5 48T624-338l-84 84v174h-60Zm-200 0v-174l-83-84q-17-17-27-39t-10-48q0-26 10-49t27-40l42 42q-9 10-14 21.43-5 11.43-5 25.71 0 12.86 5.5 24.36T239-380l84 83q8 8 12.5 19.41T340-254v174h-60Zm130-575Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoRheumatology;

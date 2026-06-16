@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-single-bed",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSingleBed {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M160-280v-214q0-25.9 17-43.95Q194-556 220-556h26v-144q0-24.75 17.63-42.37T306-760h347q24.75 0 42.38 17.63T713-700v144h27q24.75 0 42.38 17.63T800-496v216h-46l-15 61q-2 8-7 13.5t-12.58 5.5q-8.42 0-13.36-5.91Q701.12-211.82 699-220l-15-60H277l-16 61q-2 8-7 13.5t-12.58 5.5q-8.42 0-13.36-5.91Q223.12-211.82 221-220l-15-60h-46Zm350-276h143v-144H510v144Zm-204 0h144v-144H306v144Zm-86 216h520v-156H220v156Zm520 0H220h520Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSingleBed;

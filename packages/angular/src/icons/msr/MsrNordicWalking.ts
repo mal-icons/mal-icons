@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-nordic-walking",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNordicWalking {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M733-40q-8 0-14-6t-6-14v-330h40v330q0 8-6 14t-14 6Zm-539.68 0Q182-40 176.5-47T173-64l75-326h41L213-56q-2 7-7.66 11.5-5.66 4.5-12.02 4.5ZM540.08-747q-30.08 0-51.58-21.42-21.5-21.42-21.5-51.5 0-30.08 21.42-51.58 21.42-21.5 51.5-21.5 30.08 0 51.58 21.42 21.5 21.42 21.5 51.5 0 30.08-21.42 51.58-21.42 21.5-51.5 21.5ZM315-40q-15.12 0-24.06-10.5Q282-61 285-76l110-553-102 46v103q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T233-480v-103q0-18.37 10-33.69Q253-632 270-639l154-65q26-11 59.5-6t50.5 31l42 66q23 37 62 65t88 36q11.91 1.58 19.46 10.26Q753-493.05 753-482q0 14.22-9.5 23.11Q734-450 721-452q-57-7-102.5-37T536-572l-41 156 72 65q10 9 15 20.35 5 11.35 5 24.65v236q0 12.75-8.68 21.38Q569.65-40 556.83-40 544-40 535.5-48.62T527-70v-210l-108-98-73 314q-2 10-11 17t-20 7Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNordicWalking;

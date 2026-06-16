@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-decimal-decrease",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrDecimalDecrease {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m586-210 52 52q9 9 9 21.5t-9.05 21.5q-9.05 9-21.5 9Q604-106 595-115L492-219q-9-9-9-21t9-21l103-104q9.07-9 21.53-9Q629-374 638-365q9 9 9 21t-9 21l-52 53h254q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T840-210H586ZM150-440h-40q-12.75 0-21.37-8.62T80-470v-40q0-12.75 8.63-21.37T110-540h40q12.75 0 21.38 8.63T180-510v40q0 12.75-8.62 21.38T150-440Zm230 0q-58 0-99-41t-41-99v-160q0-58 41-99t99-41q58 0 99 41t41 99v160q0 58-41 99t-99 41Zm-0.23-60Q413-500 436.5-523.33 460-546.67 460-580v-160q0-33.33-23.26-56.67Q413.47-820 380.24-820 347-820 323.5-796.67 300-773.33 300-740v160q0 33.33 23.27 56.67Q346.53-500 379.77-500Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrDecimalDecrease;

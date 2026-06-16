@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssNewWindow = createIcon("0 -960 960 960", [["path",{"d":"M120-120v-720h360v60H180v600h600v-300h60v360H120Zm540-420v-120H540v-60h120v-120h60v120h120v60H720v120h-60Z"}]]);
+
+export default MssNewWindow;

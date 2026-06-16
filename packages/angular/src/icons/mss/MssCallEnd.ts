@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-call-end",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssCallEnd {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m161-365 83-61v-100q-39 19-73.5 45.5T104-424l57 59Zm637-1 58-58q-32-33-68.5-58.5T711-530v98l87 66Zm-87-164Zm-467 4Zm-86 242L22-420q84-109 205.5-164.5T480-640q131 0 252.5 55.5T938-420L802-284 651-397v-154q-42-16-85.5-22.5T480-580q-42 0-85.5 6.5T309-551v154L158-284Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssCallEnd;

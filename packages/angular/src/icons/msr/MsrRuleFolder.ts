@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-rule-folder",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRuleFolder {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m312-424-36-36q-9-9-21-9t-21.39 9Q225-451 225-439t9 21l58 58q9 9 21 9t21-9l142-142q9-9.27 9-21.64Q485-536 475.95-545q-9.05-9-21.5-9Q442-554 433-545L312-424Zm328-63-43-43q-9-9-21-9t-21 9q-9 9-9 21t9 21l43 43-43 43q-9 9-9 21t9 21q9 9 21 9t21-9l43-43 43 43q9 9 21 9t21-9q9-9 9-21t-9-21l-43-43 43-43q9-9 9-21t-9-21q-9-9-21-9t-21 9l-43 43ZM140-160q-24 0-42-18.5T80-220v-520q0-23 18-41.5t42-18.5h256q12.44 0 23.72 5t19.37 13.09L481-740h339q23 0 41.5 18.5T880-680v460q0 23-18.5 41.5T820-160H140Zm0-60h680v-460H456l-60-60H140v520Zm0 0v-520 520Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRuleFolder;

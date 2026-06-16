@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-settings-suggest",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsSettingsSuggest {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.41 6.59 15 5.5l2.41-1.09L18.5 2l1.09 2.41L22 5.5l-2.41 1.09L18.5 9l-1.09-2.41zm3.87 6.13L20.5 11l-0.78 1.72-1.720.78 1.720.780.78 1.720.78-1.72L23 13.5l-1.72-0.78zm-5.04 1.65 1.94 1.47-2.5 4.33-2.24-0.94c-0.20.13-0.420.26-0.640.37l-0.3 2.4h-5l-0.3-2.41c-0.22-0.11-0.43-0.23-0.64-0.37l-2.240.94-2.5-4.33 1.94-1.47c-0.01-0.11-0.01-0.24-0.01-0.36s0-0.250.01-0.37l-1.94-1.47 2.5-4.33 2.240.94c0.2-0.130.42-0.260.64-0.37L7.5 6h5l0.3 2.41c0.220.110.430.230.640.37l2.24-0.94 2.5 4.33-1.94 1.47c0.010.120.010.240.010.37s0 0.24-0.010.36zM13 14c0-1.66-1.34-3-3-3s-3 1.34-3 3 1.34 3 3 3 3-1.34 3-3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsSettingsSuggest;

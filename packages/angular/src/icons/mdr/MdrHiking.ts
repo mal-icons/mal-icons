@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-hiking",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrHiking {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.5 5.5c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zM18.25 9c-0.41 0-0.750.34-0.750.75v1.03c-1.23-0.37-2.22-1.17-2.8-2.18l-1-1.6c-0.41-0.65-1.11-1-1.84-1-0.78 0-1.590.5-1.78 1.44L7.25 21.76c-0.130.640.36 1.24 1.02 1.240.49 0 0.91-0.34 1.02-0.81L10.9 15l2.1 2v5c0 0.550.45 1 1 1s1-0.45 1-1v-5.64c0-0.55-0.22-1.07-0.62-1.45L12.9 13.5l0.6-3c1 1.15 2.41 2.01 4 2.34v9.41c0 0.410.340.750.750.75s0.75-0.340.75-0.75V9.75c0-0.41-0.34-0.75-0.75-0.75zM7.43 13.13l-2.12-0.41a11 0 0 1-0.79-1.17l0.76-3.93a2 2 0 0 1 2.34-1.58l1.160.23-1.35 6.86z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrHiking;

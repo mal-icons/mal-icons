@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-hourglass-disabled",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoHourglassDisabled {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m833-41-39-39H160v-60h96v-127q0-70 36.5-128.5T394-480q-41-17-71.5-47.5T275-599L26-848l43-43L876-84l-43 43ZM566-480l-47-47q57-14 91-61t34-106v-126H316v90l-60-60v-30h-30l-60-60h634v60h-96v126q0 70-36.5 129T566-480ZM316-140h328v-90L441-433q-57 14-91 60.5T316-267v127Zm388 0h30l-30-30v30Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoHourglassDisabled;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoKeyboardReturn = createIcon("0 -960 960 960", [["path",{"d":"M360-240 121-479l239-239 43 43-167 167h544v-172h60v231H237l166 166-43 43Z"}]]);
+
+export default MsoKeyboardReturn;

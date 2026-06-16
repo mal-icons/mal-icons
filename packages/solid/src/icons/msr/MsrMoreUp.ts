@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrMoreUp = createIcon("0 -960 960 960", [["path",{"d":"M700-320v-380H320v-60h440v440h-60ZM500-120v-380H120v-60h440v440h-60Z"}]]);
+
+export default MsrMoreUp;

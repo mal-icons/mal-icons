@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-cell-wifi",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoCellWifi {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m240-80 640-640v640H240Zm487-60h93v-435l-93 93v342ZM294-588l-42-42q34-41 83.5-65.5T442-720q57 0 106.5 24.5T632-630l-42 42q-28-31-65-51.5T442-660q-46 0-83 20.5T294-588Zm-88-88-42-42q51-57 125.5-89.5T442-840q78 0 152.5 32.5T720-718l-42 42q-47-49-108-76.5T442-780q-67 0-128 27.5T206-676Zm236 236L334-548q23-25 51-38.5t57-13.5q29 0 57 13t51 39L442-440Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoCellWifi;

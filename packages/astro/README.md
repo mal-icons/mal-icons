@@ -81,6 +81,14 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
+| [Material Icons Filled](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Filled) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Icons Rounded](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Rounded) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Icons Sharp](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Sharp) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Icons Two Tone](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Two+tone) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
+| [Material Symbols Outlined](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Outlined) | [Apache 2.0 license](https://github.com/marella/material-symbols/blob/main/LICENSE) | 0.9.0 |  3004 |
+| [Material Symbols Rounded](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Rounded) | [Apache 2.0 license](https://github.com/marella/material-symbols/blob/main/LICENSE) | 0.9.0 |  3004 |
+| [Material Symbols Sharp](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Sharp) | [Apache 2.0 license](https://github.com/marella/material-symbols/blob/main/LICENSE) | 0.9.0 |  3004 |
+
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
@@ -101,6 +109,13 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/astro/fc/FcAbout.astro` | A single Flat Color icon component |
 | `@mal-icons/astro/io/IoHeart.astro`    | A single Ionicons component    |
 | `@mal-icons/astro/lu/LuHeart.astro`    | A single Lucide component      |
+| `@mal-icons/astro/mdf/MdfFace.astro`    | A single Material Icons Filled component |
+| `@mal-icons/astro/mdr/MdrFace.astro`    | A single Material Icons Rounded component |
+| `@mal-icons/astro/mds/MdsFace.astro`    | A single Material Icons Sharp component |
+| `@mal-icons/astro/mdt/MdtFace.astro`    | A single Material Icons Two Tone component |
+| `@mal-icons/astro/mso/MsoHome.astro`    | A single Material Symbols Outlined component |
+| `@mal-icons/astro/msr/MsrHome.astro`    | A single Material Symbols Rounded component |
+| `@mal-icons/astro/mss/MssHome.astro`    | A single Material Symbols Sharp component |
 | `@mal-icons/astro/oc/OcHeart16.astro`    | A single Octicons component    |
 | `@mal-icons/astro/ti/TiHeart.astro`    | A single Typicons component    |
 | `@mal-icons/astro/wi/WiDaySunny.astro` | A single Weather Icons component |

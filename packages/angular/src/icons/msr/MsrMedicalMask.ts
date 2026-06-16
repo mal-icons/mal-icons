@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-medical-mask",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMedicalMask {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-200q-64 0-127-5.5t-126-14.79Q198-224 179-246.8T160-300v-23q-54-16-87-59t-33-98q0-54 33.5-96t86.5-59v-45.41Q160-712 182.5-736q22.5-24 55.5-24 29 0 58 5.5t59 7.5q31 2 62 3.5t63 1.5q31 0 62-1.5t63-3.9q29-1.6 57.5-7.1T720-760q33 0 56.5 23.5T800-680v45q52 17 86 59t34 96q0 55-34 97t-86 59v24q0 30-19 52.5t-48 26.88Q670-211 606.67-205.5 543.33-200 480-200Zm0-60q65 0 130-5.75T740-283l-0.540.57L740-283v-420q-65 10-129.5 15.5T480-682q-66.08 0-131.08-5.29T220-703q-1 0-0.50.5t0.5-0.5v419.95Q285-272 349.46-266q64.46 6 130.54 6Zm0.5-90q42.5 0 84-5t83.5-16q12-3 18-14t3-23q-3-12-14-18t-23-3q-38 10-76 14.5t-76 4.5q-38 0-76.5-4T328-429q-12-4-23 2.5T291-408q-3 12 3.5 22t17.5 14q41 12 83.01 17t85.49 5ZM160-384v-190q-28 12-44 37.9-16 25.89-16 56.11 0 31.48 16 57.24Q132-397 160-384Zm640-1q27-13 43.5-38.52t16.5-56.71Q860-510 843-535.5T800-575v190ZM480.49-510q42.16 0 83.84-5T648-531q12-3 18-14t3-23q-3-12-14-18t-23-3q-38 10-76 14.5t-76 4.5q-38 0-76-4.5T328-589q-12-3-22.61 2.82Q294.79-580.36 291-568q-3 12 3 23t18 14q42 11 83.67 16t84.82 5ZM220-282v-421 421Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMedicalMask;

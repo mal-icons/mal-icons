@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-flood",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFlood {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.67 19c-1.95 0-2.09 1-3.33 1-1.19 0-1.42-1-3.33-1-1.95 0-2.1 1-3.34 1-1.24 0-1.38-1-3.33-1-1.54 0-1.960.62-2.670.88-0.40.15-0.670.52-0.670.95 0 0.710.72 1.19 1.380.940.77-0.29 1.11-0.77 1.96-0.77 1.24 0 1.38 1 3.33 1 1.95 0 2.1-1 3.34-1 1.22 0 1.4 1 3.33 1 1.93 0 2.1-1 3.33-1 0.84 0 1.180.47 1.950.770.660.26 1.38-0.23 1.38-0.94v-0.01c0-0.42-0.27-0.8-0.67-0.94-0.71-0.26-1.12-0.88-2.66-0.88zm-9.99-1.5c1.95 0 2.09-1 3.33-1 1.19 0 1.42 1 3.33 1 1.95 0 2.09-1 3.33-1 0.82 0 1.170.46 1.930.760.660.26 1.38-0.23 1.38-0.94 0-0.42-0.26-0.79-0.65-0.94-0.29-0.11-0.54-0.27-0.83-0.43l-2.02-7.53 1.170.47a0.980.98 0 0 0 1.29-0.550.980.98 0 0 0-0.57-1.29l-9.24-3.54c-0.81-0.31-1.72-0.06-2.270.61l-6.23 7.7a0.980.98 0 0 0 0.16 1.4c0.430.34 1.060.26 1.39-0.17l0.78-1 0.93 3.48c-0.18-0.02-0.35-0.05-0.56-0.05-1.54 0-1.950.62-2.660.88-0.40.17-0.670.55-0.670.97 0 0.70.69 1.19 1.350.950.8-0.29 1.18-0.78 2-0.78 1.19 0 1.42 1 3.33 1zm5.36-7.32 1.42 5.31c-1.340.09-1.47-0.99-3.47-0.99-0.36 0-0.650.04-0.910.1l-0.91-3.39 3.87-1.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFlood;

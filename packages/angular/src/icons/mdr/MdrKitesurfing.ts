@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-kitesurfing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrKitesurfing {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 3c0-1.10.9-2 2-2s2 0.9 2 2-0.9 2-2 2-2-0.9-2-2zm10.030.97c0.290.290.770.29 1.06 0L20.06 1h-2.12l-1.91 1.91c-0.290.29-0.290.77 0 1.06zM19.15 12c-1.29 0-3.110.53-5.06 1.38L13 12.16c-0.38-0.42-0.92-0.66-1.49-0.66H9.6V8H11c1.52 0 2.94-0.49 4.09-1.320.49-0.350.52-1.070.09-1.5-0.35-0.35-0.9-0.38-1.3-0.09-0.820.57-1.810.91-2.880.91H8c-1.1 0-2 0.9-2 2v4.04c0 0.640.15 1.270.45 1.83L8 16.84c-0.530.38-1.030.78-1.49 1.170.680.58 1.550.99 2.490.99 1.2 0 2.27-0.66 3-1.50.730.84 1.8 1.5 3 1.50.33 0 0.65-0.050.96-0.14C18.81 16.9 21 14.72 21 13.28c0-1.03-1.01-1.28-1.85-1.28zm-9.32 3.61L9 13.6l2.5-0.10.70.77c-0.560.28-1.780.96-2.37 1.34zM22 22c0-0.55-0.45-1-1-1-0.87 0-1.73-0.24-2.53-0.7a0.950.95 0 0 0-0.94 0c-1.590.9-3.470.9-5.06 0a0.980.98 0 0 0-0.94 0c-1.590.9-3.470.9-5.06 0a0.980.98 0 0 0-0.94 0c-0.80.46-1.660.7-2.530.7-0.55 0-1 0.45-1 1s0.45 1 1 1c1.15 0 2.3-0.31 3.33-0.94 1.66 1.11 3.78 1.01 5.580.14a6.36 6.36 0 0 0 6.090.05c0.950.5 1.970.75 3 0.750.55 0 1-0.45 1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrKitesurfing;

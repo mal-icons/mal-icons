@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoViewModule = createIcon("0 -960 960 960", [["path",{"d":"M121-200v-560h719v560H121Zm500-310h159v-190H621v190Zm-221 0h161v-190H400v190Zm-219 0h159v-190H181v190Zm0 250h159v-190H181v190Zm219 0h161v-190H400v190Zm221 0h159v-190H621v190Z"}]]);
+
+export default MsoViewModule;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-south-america",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSouthAmerica {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM4 12c0-1.950.7-3.74 1.87-5.13L9 10v1c0 1.10.9 2 2 2v5.59c0 0.270.110.520.290.71l0.710.7c-4.42 0-8-3.58-8-8zm9 7.94V18l3.75-5.62c0.16-0.250.25-0.540.25-0.83V10.5c0-0.55-0.45-1-1-1h-1.5l-1.4-1.75c-0.38-0.47-0.95-0.75-1.56-0.75H8V5.07A7.97 7.97 0 0 1 12 4c4.41 0 8 3.59 8 8 0 4.07-3.06 7.44-7 7.94z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSouthAmerica;

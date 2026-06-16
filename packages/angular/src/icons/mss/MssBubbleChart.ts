@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-bubble-chart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssBubbleChart {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M275-237q-65 0-110-45t-45-110q0-65 45-110t110-45q65 0 110 45t45 110q0 65-45 110t-110 45Zm0-60q40 0 67.5-27.5T370-392q0-40-27.5-67.5T275-487q-40 0-67.5 27.5T180-392q0 40 27.5 67.5T275-297Zm389.94-113Q575-410 512.5-472.56t-62.5-152.5Q450-715 512.56-777.5t152.5-62.5Q755-840 817.5-777.44t62.5 152.5Q880-535 817.44-472.5t-152.5 62.5Zm-80.05 290Q539-120 507-152.12q-32-32.12-32-78Q475-276 507.12-308q32.12-32 78-32Q631-340 663-307.88q32 32.12 32 78Q695-184 662.88-152q-32.12 32-78 32Zm79.89-350Q730-470 775-514.77t45-110Q820-690 775.23-735t-110-45Q600-780 555-735.23t-45 110Q510-560 554.77-515t110 45Zm-79.95 290Q606-180 620.5-194.32q14.5-14.32 14.5-35.5Q635-251 620.67-265.5q-14.32-14.5-35.5-14.5Q564-280 549.5-265.67q-14.5 14.32-14.5 35.5Q535-209 549.33-194.5q14.32 14.5 35.5 14.5ZM665-625ZM275-392Zm310 162Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssBubbleChart;

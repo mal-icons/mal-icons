@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-add-home",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAddHome {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M718-290v94q0 7 5.14 11.5t12 4.5q6.86 0 11.36-5.1 4.5-5.1 4.5-11.9v-93h94q7 0 11.5-5.14t4.5-12q0-6.86-4.5-11.36Q852-323 845-323h-94v-94q0-7-4.5-11.5t-11.36-4.5q-6.86 0-12 4.5T718-417v94h-94q-7 0-11.5 4.5t-4.5 11.36q0 6.86 5.1 12T625-290h93Zm14.5 170Q655-120 600-175.5T545-307q0-78.43 54.99-133.72Q654.98-496 733-496q77 0 132.5 55.28Q921-385.43 921-307q0 76-55.5 131.5t-133 55.5ZM220-200q-24.75 0-42.37-17.62T160-260v-390q0-14.25 6.38-27T184-698l260-195q15.68-12 35.84-12Q500-905 516-893l260 195q11.25 8.25 17.63 21T800-650v104q-14-5-29-7t-31-3v-94L480-845 220-650v390h270q2.6 15.84 7.8 30.92Q503-214 510-200H220Zm260-353Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAddHome;

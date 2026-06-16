@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-6-ft-apart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Mso_6FtApart {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M300-80q-6 0-10.5-4.5T285-95v-120q0-6 4.5-10.5T300-230h95v30h-80v30h65q6 0 10.5 4.5T395-155v60q0 6-4.5 10.5T380-80h-80Zm165 0v-150h90v30h-60v30h40v30h-40v60h-30Zm160 0v-120h-40v-30h110v30h-40v120h-30Zm-310-30h50v-30h-50v30ZM200-282 80-402l120-120 35 35-55 55h600l-55-55 35-35 120 120-120 120-35-35 55-55H180l55 55-35 35ZM80-575v-13q0-21.08 11.41-38.65Q102.82-644.22 123-653q25.08-10.52 51.6-16.26Q201.13-675 230.06-675t55.42 5.74Q311.96-663.52 337-653q20.18 8.78 31.59 26.35Q380-609.08 380-588v13H80Zm500 0v-13q0-21.08 11.41-38.65Q602.82-644.22 623-653q25.08-10.52 51.6-16.26Q701.13-675 730.06-675t55.42 5.74Q811.96-663.52 837-653q20.18 8.78 31.59 26.35Q880-609.08 880-588v13H580ZM229.96-730Q199-730 177-752.04q-22-22.04-22-53Q155-836 177.04-858q22.05-22 53-22Q261-880 283-857.96q22 22.05 22 53Q305-774 282.96-752q-22.04 22-53 22Zm500 0Q699-730 677-752.04q-22-22.04-22-53Q655-836 677.04-858q22.05-22 53-22Q761-880 783-857.96q22 22.05 22 53Q805-774 782.96-752q-22.04 22-53 22Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Mso_6FtApart;

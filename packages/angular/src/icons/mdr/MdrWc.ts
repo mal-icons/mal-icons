@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-wc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrWc {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.5 21v-6.5H5c-0.55 0-1-0.45-1-1V9c0-1.10.9-2 2-2h3c1.1 0 2 0.9 2 2v4.5c0 0.55-0.45 1-1 1h-0.5V21c0 0.55-0.45 1-1 1h-2c-0.55 0-1-0.45-1-1zM18 21v-5h1.61c0.68 0 1.16-0.670.95-1.32l-2.1-6.31A2.01 2.01 0 0 0 16.56 7h-0.12a2 2 0 0 0-1.9 1.37l-2.1 6.31c-0.220.650.26 1.320.95 1.32H15v5c0 0.550.45 1 1 1h1c0.55 0 1-0.45 1-1zM7.5 6c1.11 0 2-0.89 2-2s-0.89-2-2-2-2 0.89-2 2 0.89 2 2 2zm9 0c1.11 0 2-0.89 2-2s-0.89-2-2-2-2 0.89-2 2 0.89 2 2 2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrWc;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-face-3",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsFace3 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"9","cy":"13","r":"1.25"}],["circle",{"cx":"15","cy":"13","r":"1.25"}],["path",{"d":"M22.91 11.96c-0.54-5.93-5.75-10.41-11.8-9.92-5.380.42-9.56 4.9-10.05 10.28L0 24h24l-1.09-12.04zM4.54 9.13c0.870.55 1.890.87 2.960.87 1.86 0 3.5-0.93 4.5-2.35C13 9.07 14.64 10 16.5 10c1.07 0 2.09-0.32 2.96-0.870.340.890.54 1.860.54 2.87 0 4.41-3.59 8-8 8s-8-3.59-8-8c0-1.010.2-1.980.54-2.87z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsFace3;

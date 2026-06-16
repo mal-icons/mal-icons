@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-avg-time",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAvgTime {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M181-470h139q8.25 0 15.75 4T347-454l53 107 133-267q8.3-17 27.15-17Q579-631 587-614l72 144h120q-11-115-96-193t-203-78q-118 0-203 78t-96 193Zm299 329q118 0 202.5-77.5T778-410H640q-8.25 0-15.75-4T613-426l-53-107-133 267q-8.29 17-27.15 17Q381-249 373-266l-72-144H182q11 114 95.5 191.5T480-141Zm0 60q-74 0-139.5-28.5T226-187q-49-49-77.5-114.5T120-441h60q0 125 87.5 212.5T480-141q125 0 212.5-87.5T780-441h60q0 74-28.5 139.5T734-187q-49 49-114.5 77.5T480-81ZM120-441q0-74 28.5-139.5T226-695q49-49 114.5-77.5T480-801q67 0 126 22.5T711-716l30-30q9-9 21-9t21 9q9 9 9 21t-9 21l-30 30q36 40 61.5 97T840-441h-60q0-125-87.5-212.5T480-741q-125 0-212.5 87.5T180-441h-60Zm270-419q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T390-920h180q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T570-860H390Zm90 719q-125 0-212.5-87.5T180-441q0-125 87.5-212.5T480-741q125 0 212.5 87.5T780-441q0 125-87.5 212.5T480-141Zm0-299Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAvgTime;

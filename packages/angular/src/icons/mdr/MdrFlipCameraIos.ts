@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-flip-camera-ios",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFlipCameraIos {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 5h-3.17l-1.24-1.35A1.99 1.99 0 0 0 14.12 3H9.88c-0.56 0-1.10.24-1.480.65L7.17 5H4c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V7c0-1.1-0.9-2-2-2zm-6.33 12.7c-0.520.19-1.080.3-1.670.3-2.76 0-5-2.24-5-5H5l2.5-2.5L10 13H8c0 2.21 1.79 4 4 4 0.46 0 0.91-0.08 1.32-0.23a0.50.5 0 1 1 0.350.93zm2.83-2.2L14 13h2c0-2.21-1.79-4-4-4-0.46 0-0.910.08-1.320.23a0.50.5 0 1 1-0.35-0.93c0.52-0.19 1.08-0.3 1.67-0.3 2.76 0 5 2.24 5 5h2l-2.5 2.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFlipCameraIos;

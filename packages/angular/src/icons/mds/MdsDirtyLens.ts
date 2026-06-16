@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-dirty-lens",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsDirtyLens {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22 5h-5.17L15 3H9L7.17 5H2v16h20V5zm-5.34 11.58c-1.14 1.86-3-1.03-3.810.09-0.390.57-0.09 1.490.13 2.33 0 0.47-0.380.85-0.850.85s-0.86-0.38-0.86-0.85c0.14-0.980.42-2.05-0.16-2.43-0.89-0.59-1.27 2.06-2.8 1.35-1.39-1.12 1.05-1.290.5-3.27-0.22-0.79-2.280.36-2.4-1.24-0.08-1 1.49-0.74 1.51-1.490.03-0.75-1.03-1.05-0.25-1.910.22-0.240.71-0.260.91-0.190.790.27 1.55 1.82 2.51 1.19 1.03-0.66-1.88-2.35 0-2.86 1.64-0.44 1.31 2.08 2.65 2.44 1.940.52 2.65-4.55 4.41-2.33 1.85 2.33-3.43 2.27-2.85 4.010.34 1.01 2.15-1.2 2.760.530.64 1.83-3.090.82-3.04 1.660.060.83 2.410.55 1.64 2.12zm1.48 1.43c-0.47 0-0.86-0.38-0.86-0.86s0.38-0.860.86-0.86c0.47 0 0.860.380.860.86s-0.380.86-0.860.86z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsDirtyLens;

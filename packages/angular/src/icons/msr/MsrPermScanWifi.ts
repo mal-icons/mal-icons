@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-perm-scan-wifi",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPermScanWifi {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480.25-145q-11.25 0-22.75-4.5T438-162L43-557q-18-17.67-17.5-42.33T45-640q93-76 203-118t232-42q122 0 232 42t203 118q19 16 19.5 40.67T917-557L522-162q-8 8-19.25 12.5t-22.5 4.5Zm-0.25-57 392-392q-87-68-184.5-107T480-740q-110 0-207.5 39T88-594l392 392Zm0.18-143q12.83 0 21.33-8.62T510-375v-160q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T450-535v160q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63ZM480-615q12 0 21-9t9-21q0-12-9-21t-21-9q-12 0-21 9t-9 21q0 12 9 21t21 9Zm0 413Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPermScanWifi;

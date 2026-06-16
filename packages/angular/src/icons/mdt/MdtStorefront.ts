@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-storefront",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtStorefront {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.44 9.86 7.02 5H5.05L4.04 9.36c-0.10.42-0.010.840.25 1.170.140.180.440.470.940.470.61 0 1.13-0.49 1.21-1.14zM9.71 11c0.74 0 1.29-0.59 1.29-1.31V5H9.04l-0.55 4.52c-0.050.390.070.780.33 1.070.230.260.550.410.890.41zm4.51 0c0.41 0 0.72-0.150.96-0.410.25-0.290.37-0.680.33-1.07L14.96 5H13v4.69c0 0.720.55 1.31 1.22 1.31zm4.69-6.01L16.98 5l0.58 4.86c0.080.650.6 1.14 1.21 1.140.49 0 0.8-0.290.93-0.470.26-0.330.35-0.760.25-1.17l-1.04-4.37z","opacity":".3"}],["path",{"d":"m21.9 8.89-1.05-4.37c-0.22-0.9-1-1.52-1.91-1.52H5.05c-0.9 0-1.690.63-1.9 1.52L2.1 8.89c-0.24 1.02-0.02 2.060.62 2.880.080.110.190.190.280.29V19c0 1.10.9 2 2 2h14c1.1 0 2-0.9 2-2v-6.94c0.09-0.090.2-0.180.28-0.280.64-0.820.87-1.870.62-2.89zM13 5h1.96l0.54 4.52c0.050.39-0.070.78-0.33 1.07-0.220.26-0.540.41-0.950.41-0.67 0-1.22-0.59-1.22-1.31V5zM8.49 9.52 9.04 5H11v4.69c0 0.72-0.55 1.31-1.29 1.31-0.34 0-0.65-0.15-0.89-0.41a1.42 1.42 0 0 1-0.33-1.07zm-4.2 1.01c-0.26-0.33-0.35-0.76-0.25-1.17L5.05 5h1.97l-0.58 4.86c-0.080.65-0.6 1.14-1.21 1.14-0.5 0-0.8-0.29-0.94-0.47zM19 19H5v-6.03c0.080.010.150.030.230.030.87 0 1.66-0.36 2.24-0.950.60.6 1.40.95 2.310.950.87 0 1.65-0.36 2.23-0.930.590.57 1.390.93 2.290.930.84 0 1.64-0.35 2.24-0.950.580.59 1.370.95 2.240.950.08 0 0.15-0.020.23-0.03V19zm0.71-8.47c-0.140.18-0.440.47-0.940.47-0.61 0-1.14-0.49-1.21-1.14L16.98 5l1.93-0.01 1.05 4.37c0.10.420.010.85-0.25 1.17z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtStorefront;

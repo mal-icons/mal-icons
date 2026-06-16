@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-redeem",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrRedeem {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 6h-2.18c0.11-0.310.18-0.650.18-1a3 3 0 0 0-5.5-1.65l-0.50.67-0.5-0.68C10.96 2.54 10.05 2 9 2 7.34 2 6 3.34 6 5c0 0.350.070.690.18 1H4c-1.11 0-1.990.89-1.99 2L2 19c0 1.110.89 2 2 2h16c1.11 0 2-0.89 2-2V8c0-1.11-0.89-2-2-2zm-5-2c0.55 0 1 0.45 1 1s-0.45 1-1 1-1-0.45-1-1 0.45-1 1-1zM9 4c0.55 0 1 0.45 1 1s-0.45 1-1 1-1-0.45-1-1 0.45-1 1-1zm10 15H5c-0.55 0-1-0.45-1-1v-1h16v1c0 0.55-0.45 1-1 1zm1-5H4V9c0-0.550.45-1 1-1h4.08L7.6 10.02a11 0 0 0 0.22 1.4c0.440.32 1.070.22 1.39-0.22L12 7.4l2.79 3.8c0.320.440.950.54 1.390.220.45-0.320.55-0.950.22-1.4L14.92 8H19c0.55 0 1 0.45 1 1v5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrRedeem;

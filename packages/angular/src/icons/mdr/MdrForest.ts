@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-forest",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrForest {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.14 12h-0.06c0.81 0 1.28-0.910.82-1.57L9.82 3.17a1 1 0 0 0-1.64 0L3.1 10.43c-0.460.660.01 1.570.82 1.57h-0.06L0.99 16.46c-0.430.660.05 1.540.84 1.54H7v2c0 1.10.9 2 2 2s2-0.9 2-2v-2h5.17c0.79 0 1.27-0.880.84-1.54L14.14 12z"}],["path",{"d":"M23.01 16.46 20.14 12h-0.06c0.81 0 1.28-0.910.82-1.57l-5.08-7.26a1 1 0 0 0-1.64 0l-1.57 2.24 3.11 4.44a2 2 0 0 1-0.16 2.5l2.29 3.57c0.40.620.42 1.40.07 2.04-0.010.02-0.020.03-0.030.04h4.28c0.79 0 1.27-0.880.84-1.54zM13 20c0 1.10.9 2 2 2s2-0.9 2-2v-1h-4v1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrForest;

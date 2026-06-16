@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-text-fields",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrTextFields {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M339.88-160Q319-160 304.5-174.58 290-189.17 290-210v-490H130q-20.83 0-35.42-14.62Q80-729.23 80-750.12 80-771 94.58-785.5 109.17-800 130-800h420q20.83 0 35.42 14.62Q600-770.76 600-749.88 600-729 585.42-714.5 570.83-700 550-700H390v490q0 20.83-14.62 35.42Q360.77-160 339.88-160Zm360 0Q679-160 664.5-174.58 650-189.17 650-210v-290h-80q-20.83 0-35.42-14.62Q520-529.23 520-550.12 520-571 534.58-585.5 549.17-600 570-600h260q20.83 0 35.42 14.62Q880-570.76 880-549.88 880-529 865.42-514.5 850.83-500 830-500h-80v290q0 20.83-14.62 35.42Q720.77-160 699.88-160Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrTextFields;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-wifi-channel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrWifiChannel {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M152-120q-14 0-22-9.5t-6-22.5q28-226 80.5-357T320-640q48 0 87.5 91T467-356q23-210 72-347t101-137q67 0 120.5 185.5T837-154q1 14-8.5 24T805-120q-11 0-21.5-7T769-145q-30-81-66-143.5T640-370q-23 17-54.5 75.5T522-148q-5 11-16 19.5t-24 8.5q-14 0-24.5-9.5T445-153q-20-148-57-271t-68-156q-35 24-74 134t-63 299q-2 11-10.5 19t-20.5 8Zm370-187q29-66 60-94.5t58-28.5q26 0 60 28.5t63 94.5q-18-192-53.5-311.5T640-781q-34 43-66 164t-52 310Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrWifiChannel;

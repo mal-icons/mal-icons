@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-unknown-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrUnknown2 {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm-0.19-60Q622-140 721-238.81 820-337.62 820-480q0-68-25.5-130T721-720L240-240q47.75 47.87 109.83 73.94Q411.9-140 479.81-140ZM514-319q-10.83 0-17.92-7.12-7.08-7.12-7.08-18Q489-355 496.08-362q7.08-7 17.92-7h146q10.83 0 17.92 7.12 7.08 7.12 7.08 18Q685-333 677.92-326q-7.08 7-17.92 7H514ZM324-587v62q0 10.83 7.12 17.92 7.12 7.08 18 7.08Q360-500 367-507.08q7-7.08 7-17.92v-62h63q10.83 0 17.92-7.12 7.08-7.12 7.08-18Q462-623 454.92-630q-7.08-7-17.92-7h-63v-62q0-10.83-7.12-17.92-7.12-7.08-18-7.08Q338-724 331-716.92q-7 7.08-7 17.92v62h-62q-10.83 0-17.92 7.12-7.08 7.12-7.08 18Q237-601 244.08-594q7.08 7 17.92 7h62Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrUnknown2;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-body-fat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoBodyFat {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M840-339h-40v172q0 17.35-7.5 30.18Q785-124 772-116t-28.5 9.5Q728-105 713-113L88-425q-17.25-8.25-25.12-22.87T55-478.25q0-15.75 7.88-30.65Q70.75-523.8 88-532l625-312q15.08-8 30.54-6.5T772-841q13 8 20.5 20.83Q800-807.35 800-790v170h40v60H700v-60h40v-168L521-680q32 44 50.5 94.94Q590-534.12 590-480q0 56-19 107t-52 96l220 109v-171h-39v-61h140v61Zm-376 34q29-38 47.5-82.72T530-480q0-48-18-91t-47-81L115-479l349 174Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoBodyFat;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-av-timer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtAvTimer {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 21a9 9 0 0 0 0-18h-1v4h2V5.08c3.390.49 6 3.39 6 6.92 0 3.87-3.13 7-7 7s-7-3.13-7-7c0-1.680.59-3.22 1.58-4.42L12 13l1.41-1.41-6.8-6.8v0.02C4.42 6.45 3 9.05 3 12c0 4.97 4.02 9 9 9z"}],["circle",{"cx":"12","cy":"17","r":"1"}],["circle",{"cx":"17","cy":"12","r":"1"}],["circle",{"cx":"7","cy":"12","r":"1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtAvTimer;

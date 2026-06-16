@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssKeyboardTabRtl = createIcon("0 -960 960 960", [["path",{"d":"M480-239 239-480l241-241 42 42-168 169h526v60H354l169 169-43 42Zm-400-1v-480h60v480H80Z"}]]);
+
+export default MssKeyboardTabRtl;
