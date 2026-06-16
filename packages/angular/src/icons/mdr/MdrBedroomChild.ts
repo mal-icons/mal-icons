@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-bedroom-child",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrBedroomChild {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 8.5h6v2H9zm6.64 3.5H8.37a0.870.87 0 0 0-0.870.87h0.01V14h9v-1.13a0.870.87 0 0 0-0.87-0.87z"}],["path",{"d":"M20 2H4c-1.1 0-2 0.9-2 2v16c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm-2.75 15c-0.41 0-0.75-0.34-0.75-0.75v-0.75h-9v0.75c0 0.41-0.340.75-0.750.75S6 16.66 6 16.25v-3.38c0-1 0.62-1.85 1.5-2.2V9c0-1.10.9-2 2-2h5c1.1 0 2 0.9 2 2v1.67c0.880.35 1.5 1.2 1.5 2.2v3.38c0 0.41-0.340.75-0.750.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrBedroomChild;

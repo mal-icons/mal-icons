@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-photo-album",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPhotoAlbum {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M220-80q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h520q24 0 42 18t18 42v680q0 24-18 42t-42 18H220Zm0-60h520v-680h-60v241q0 8-7.5 12.5t-15.50.5l-60-35q-7.1-4-14.55-4Q575-605 568-601l-60 35q-8 4-15-0.5t-7-12.5v-241H220v680Zm228-132-59-72q-5-6-11.5-6t-11.5 6l-64 83q-6 8-2 16t14 8h337q8.5 0 12.75-8t-0.75-15l-99-132q-5-6-12-6t-12 6l-92 120ZM220-140v-680 680Zm266-439q0 8 7 12.5t15 0.5l60-35q7.1-4 14.55-4Q590-605 598-601l59 35q8 4 15.5-0.5T680-579q0 9.39-7.5 13.7Q665-561 657-566l-60-34q-7.1-5-14.55-5Q575-605 568-600l-60 34q-8 5-15 0.7-7-4.3-7-13.7Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPhotoAlbum;

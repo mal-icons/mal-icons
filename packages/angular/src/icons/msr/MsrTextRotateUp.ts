@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-text-rotate-up",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrTextRotateUp {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M734-160q-13 0-21.5-8.5T704-190v-536l-31 31q-9 9-21 9t-21-9q-9-9-9-21t9-21l82-82q5-5 10-7t11-2q6 0 11 2t10 7l83 81q11 11 10 22t-11 21q-9 9-21 9t-21-9l-31-31v536q0 13-8.5 21.5T734-160ZM524-296 151-436q-13-5-22-17.5t-9-26.5q0-14 9-26.5t22-17.5l373-140q15-5 25.5 2t10.5 24q0 7-4.5 13.5T545-616l-93 33v206l93 33q6 2 10.5 9t4.5 14q0 16-10.5 23t-25.5 2Zm-119-98v-172l-233 84v4l233 84Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrTextRotateUp;

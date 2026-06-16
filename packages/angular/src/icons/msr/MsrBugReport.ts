@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-bug-report",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBugReport {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-120q-65 0-121-31t-83-89h-87q-12 0-20.5-9t-8.5-21q0-13 8.5-21.5T190-300h62q-7-26-7-52.5V-406h-57q-12 0-20.5-9t-8.5-21q0-13 8.5-21.5T189-466h56q0-29 0.5-57.5T254-580h-65q-12 0-20.5-9t-8.5-21q0-13 8.5-21.5T190-640h90q14-28 37-49t51-35l-58-57q-8-8-7.5-19.5T311-820q8-8 20-8t20 8l74 74q28-10 56.5-10t56.5 10l75-75q8-8 19.5-7.5T652-820q8 8 8 20t-8 20l-56 56q28 14 49.5 35.5T683-640h89q12 0 20.5 9t8.5 21q0 13-8.5 21.5T771-580h-65q9 28 8.5 56.5T714-466h58q12 0 20.5 9t8.5 21q0 13-8.5 21.5T771-406h-57q0 27 0.5 53.5T708-300h64q12 0 20.5 9t8.5 21q0 13-8.5 21.5T771-240h-86q-26 59-82.5 89.5T480-120Zm0-60q72 0 123-50.5T654-353v-167q0-72-51-122.5T480-693q-72 0-123 50.5T306-520v167q0 72 51 122.5T480-180Zm-50-140h101q12 0 20.5-8.5T560-350q0-13-8.5-21.5T530-380H429q-12 0-20.5 8.5T400-350q0 13 8.5 21.5T430-320Zm0-173h101q12 0 20.5-8.5T560-523q0-13-8.5-21.5T530-553H429q-12 0-20.5 8.5T400-523q0 13 8.5 21.5T430-493Zm50 57h0.5-0.50.5-0.50.5-0.50.5-0.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBugReport;

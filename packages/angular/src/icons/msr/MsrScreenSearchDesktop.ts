@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-screen-search-desktop",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrScreenSearchDesktop {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M458-420q22.09 0 41.54-7.5T538-446l69 69q7 7 16 7t16-6.59Q646-384 646-393t-7-16l-72-72q11-17 18.5-35.36T593-555q0-57-39-96t-96-39q-57 0-96 39.08-39 39.08-39 96Q323-498 362-459t96 39Zm0.04-50Q423-470 398-494.96q-25-24.95-25-60Q373-590 397.97-615T458-640q35 0 60 24.96 25 24.96 25 60Q543-520 518.04-495q-24.95 25-60 25ZM70-120q-12.75 0-21.37-8.68Q40-137.35 40-150.18 40-163 48.63-171.5T70-180h820q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T890-120H70Zm70-120q-24 0-42-18t-18-42v-480q0-24 18-42t42-18h680q24 0 42 18t18 42v480q0 24-18 42t-42 18H140Zm0-60h680v-480H140v480Zm0 0v-480 480Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrScreenSearchDesktop;

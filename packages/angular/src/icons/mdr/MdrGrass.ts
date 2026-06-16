@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-grass",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrGrass {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.64 11.02a10.02 10.02 0 0 1 2.56-3.83c0.38-0.360.04-1-0.46-0.85-3.320.98-5.75 4.05-5.74 7.690.95-1.28 2.2-2.31 3.64-3.01zm-4.22-2.17a8.56 8.56 0 0 0-2.96-3.87c-0.42-0.3-0.960.19-0.720.65C8.54 7.15 9 8.88 9 10.71c0 0.21-0.030.41-0.040.610.430.240.830.52 1.220.82a9.91 9.91 0 0 1 1.24-3.29zM12 20H3c-0.55 0-1-0.45-1-1s0.45-1 1-1h4.75a8.03 8.03 0 0 0-4-5.060.490.49 0 0 1-0.26-0.44c0-0.270.22-0.490.49-0.5H4c4.42 0 8 3.58 8 8zm8.26-7.06a8 8 0 0 0-4 5.06H21c0.55 0 1 0.45 1 1s-0.45 1-1 1h-7c0-0.68-0.07-1.35-0.2-2-0.15-0.72-0.38-1.42-0.67-2.07A7.97 7.97 0 0 1 20 12h0.02a0.50.5 0 0 1 0.490.5c0.010.19-0.10.35-0.250.44z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrGrass;

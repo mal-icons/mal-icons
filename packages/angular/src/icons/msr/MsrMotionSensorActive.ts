@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-motion-sensor-active",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMotionSensorActive {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M234-450q-13.74 0-21.37 12.5Q205-425 209-411q19 75 73 128.5T411-210q14 4 26-3.5t12-21.89Q449-246 441.5-255q-7.5-9-18.5-12-58-15-100-57t-57-100q-3-11-11.84-18.5Q245.32-450 234-450Zm1-60q-13.74 0-21.37-12.5Q206-535 210-549q19-75 73-128.5T412-750q14-4 26 3.5t12 21.89Q450-714 442.5-705q-7.5 9-18.5 12-58 15-100 57t-57 100q-3 11-11.84 18.5Q246.32-510 235-510Zm245-40q29 0 49.5 20.5t20.5 49.93Q550-451 529.5-430.5T479.57-410Q451-410 430.5-430.56 410-451.12 410-480q0-29 20.56-49.5Q451.13-550 480-550Zm246 100q13.74 0 21.37 12.5Q755-425 751-411q-19 75-73 128.5T549-210q-14 4-26-3.5t-12-21.89Q511-246 518.5-255q7.5-9 18.5-12 58-15 100-57t57-100q3-11 11.84-18.5Q714.68-450 726-450Zm0-60q13.74 0 21.37-12.5Q755-535 751-549q-19-75-73-128.5T549-750q-14-4-26 3.5t-12 21.89Q511-714 518.5-705q7.5 9 18.5 12 58 15 100 57t57 100q3 11 11.84 18.5Q714.68-510 726-510ZM282-820H140v142q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Q97-648 88.5-656.62T80-678v-142q0-24 18-42t42-18h142q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T282-820ZM140-80q-24 0-42-18t-18-42v-142q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T140-282v142h142q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5Q312-97 303.38-88.5T282-80H140Zm680 0H678q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T678-140h142v-142q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T880-282v142q0 24-18 42t-42 18ZM678-820q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T678-880h142q24 0 42 18t18 42v142q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T820-678v-142H678Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMotionSensorActive;

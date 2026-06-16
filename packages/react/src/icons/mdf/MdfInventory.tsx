@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdfInventory = createIcon("0 0 24 24", [["path",{"d":"M20 2H4c-1 0-2 0.9-2 2v3.01c0 0.720.43 1.34 1 1.69V20c0 1.1 1.1 2 2 2h14c0.9 0 2-0.9 2-2V8.7c0.57-0.35 1-0.97 1-1.69V4c0-1.1-1-2-2-2zm-5 12H9v-2h6v2zm5-7H4V4l16-0.02V7z"}]]);
+
+export default MdfInventory;

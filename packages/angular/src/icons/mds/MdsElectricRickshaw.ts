@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-electric-rickshaw",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsElectricRickshaw {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 11.18V9l-5-6H1v12h2.18C3.6 16.16 4.7 17 6 17s2.4-0.84 2.82-2h8.37c0.48 1.34 1.86 2.25 3.42 1.94 1.16-0.23 2.11-1.17 2.33-2.330.31-1.56-0.6-2.95-1.94-3.43zM18.4 9H16V6.12L18.4 9zM3 5h4v4H3V5zm3 10c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm3-2v-2h3V9H9V5h5v8H9zm11 2c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zM7 20h4v-2l6 3h-4v2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsElectricRickshaw;

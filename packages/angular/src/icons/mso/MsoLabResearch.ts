@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-lab-research",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoLabResearch {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M320-80q-83 0-141.5-58.5T120-280v-360q-33 0-56.5-23.5T40-720v-80q0-33 23.5-56.5T120-880h400q33 0 56.5 23.5T600-800v80q0 33-23.5 56.5T520-640v157q-28 21-48 50t-31 63H320v-60h140v-60H320v-60h140v-90H180v360q0 58.33 40.83 99.17Q261.67-140 320-140q42 0 75-21t50-56q6 16 14.5 30.5T479-158q-28 36-69 57t-90 21Zm0-170v-60h110q-1 15 0.5 30t4.5 30H320ZM100-700h440v-120H100v120Zm0 0v-120 120Zm559.86 510Q706-190 738-221.86q32-31.86 32-78T738.14-378q-31.86-32-78-32T582-378.14q-32 31.86-32 78T581.86-222q31.86 32 78 32ZM864-54 757-161q-22 15-46.32 23-24.32 8-50.68 8-70.83 0-120.42-49.62Q490-229.23 490-300.12 490-371 539.62-420.5q49.62-49.5 120.5-49.5Q731-470 780.5-420.42 830-370.83 830-300q0 26.35-8 50.68Q814-225 799-203L906-96l-42 42Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoLabResearch;

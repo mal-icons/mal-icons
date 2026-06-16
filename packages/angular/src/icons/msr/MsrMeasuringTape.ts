@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-measuring-tape",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMeasuringTape {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M540-160H260q-24.75 0-42.37-17.62T200-220v-280q0-142 99-241t241-99q142 0 241 99t99 241q0 142-99 241t-241 99Zm0-60q116.31 0 198.15-81.78Q820-383.56 820-499.78 820-616 738.22-698q-81.78-82-198-82Q424-780 342-698.15 260-616.31 260-500v280h280Zm0-140q58 0 99-41t41-99q0-58-41-99t-99-41q-58 0-99 41t-41 99q0 58 41 99t99 41Zm0.24-60Q507-420 483.5-443.26q-23.5-23.26-23.5-56.5Q460-533 483.27-556.5q23.26-23.5 56.5-23.5Q573-580 596.5-556.73q23.5 23.26 23.5 56.5Q620-467 596.74-443.5q-23.26 23.5-56.5 23.5Zm-430.41 260Q97-160 88.5-168.62T80-190v-140q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T140-330v140q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM540-500Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMeasuringTape;

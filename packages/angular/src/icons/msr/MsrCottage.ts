@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-cottage",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrCottage {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M190-120q-13 0-21.5-8.5T160-150v-371l-60 46q-10 8-22 6t-20-12q-8-10-6-22t12-20l96-73v-84q0-13 8.5-21.5T190-710q13 0 21.5 8.5T220-680v38l242-184q4-3 8.5-4.5t9.5-1.5q5 0 9.5 1.5t8.5 4.5l399 304q10 8 11.5 20t-6.5 22q-8 10-19.5 11.5T861-475l-61-46v371q0 13-8.5 21.5T770-120H190Zm30-60h230v-130q0-13 8.5-21.5T480-340q13 0 21.5 8.5T510-310v130h230v-387L480-765 220-567v387Zm-25-580q-16 0-25-11t-4-24q11-33 39.5-54t64.5-21q14 0 26-7.5t18-19.5q6-11 14-17t17-6q16 0 25 11t4 24q-11 32-39 53.5T270-810q-14 0-25.5 7.5T226-783q-6 11-14 17t-17 6Zm25 580h520-520Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrCottage;

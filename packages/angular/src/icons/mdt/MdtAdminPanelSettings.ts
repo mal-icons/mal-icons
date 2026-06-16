@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-admin-panel-settings",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtAdminPanelSettings {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m16 7.58-5.5-2.4L5 7.58v3.6c0 3.5 2.33 6.74 5.5 7.740.25-0.080.49-0.20.73-0.3-0.15-0.51-0.23-1.06-0.23-1.62 0-2.97 2.16-5.43 5-5.91V7.58z","opacity":".3"}],["path",{"d":"M17 13c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 1.38c0.62 0 1.120.51 1.12 1.12s-0.51 1.12-1.12 1.12-1.12-0.51-1.12-1.120.5-1.12 1.12-1.12zm0 5.37c-0.93 0-1.74-0.46-2.24-1.170.05-0.72 1.51-1.08 2.24-1.08s2.190.36 2.24 1.08c-0.50.71-1.31 1.17-2.24 1.17z","opacity":".3"}],["circle",{"cx":"17","cy":"15.5","r":"1.12"}],["path",{"d":"M18 11.09V6.27L10.5 3 3 6.27v4.91c0 4.54 3.2 8.79 7.5 9.820.55-0.13 1.08-0.32 1.6-0.55A5.97 5.97 0 0 0 17 23c3.31 0 6-2.69 6-6 0-2.97-2.16-5.43-5-5.91zM11 17c0 0.560.08 1.110.23 1.62-0.240.11-0.480.22-0.730.3-3.17-1-5.5-4.24-5.5-7.74v-3.6l5.5-2.4 5.5 2.4v3.51c-2.840.48-5 2.94-5 5.91zm6 4c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"}],["path",{"d":"M17 17.5c-0.73 0-2.190.36-2.24 1.080.50.71 1.32 1.17 2.24 1.17s1.74-0.46 2.24-1.17c-0.05-0.72-1.51-1.08-2.24-1.08z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtAdminPanelSettings;

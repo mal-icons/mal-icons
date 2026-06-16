@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssLooksTwo = createIcon("0 -960 960 960", [["path",{"d":"M365-277h230v-60H425v-115h170v-231H365v60h170v111H365v235ZM120-120v-720h720v720H120Zm60-60h600v-600H180v600Zm0 0v-600 600Z"}]]);
+
+export default MssLooksTwo;

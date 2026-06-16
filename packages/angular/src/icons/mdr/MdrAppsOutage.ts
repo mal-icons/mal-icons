@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-apps-outage",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrAppsOutage {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 8c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm6 12c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm-6 0c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm0-6c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm6 0c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm0.07-10H12c-1.1 0-2 0.9-2 2s0.9 2 2 2c0.22 0 0.43-0.040.63-0.1A6.9 6.9 0 0 1 12 5c0-0.340.02-0.670.07-1zM19 12a6.9 6.9 0 0 1-2.9-0.63c-0.060.2-0.10.41-0.10.63 0 1.10.9 2 2 2s2-0.9 2-2v-0.07c-0.330.05-0.660.07-1 0.07zm-1 8c1.1 0 2-0.9 2-2s-0.9-2-2-2-2 0.9-2 2 0.9 2 2 2zm1-20c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0.5 7.5c0 0.28-0.220.5-0.50.5-0.27 0-0.5-0.22-0.5-0.5s0.22-0.50.5-0.50.50.220.50.5zM19 6c-0.28 0-0.5-0.22-0.5-0.5v-3c0-0.280.22-0.50.5-0.5s0.50.220.50.5v3c0 0.28-0.220.5-0.50.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrAppsOutage;

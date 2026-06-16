@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-hardware",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrHardware {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M394-120q-16 0-25-13.5t-9-30.36V-640H160q0-83 58.5-141.5T360-840h180q24.75 0 42.38 17.63T600-780v82l125-127q6.32-6.18 17.16-10.59Q753-840 762-840q15.89 0 26.95 11.06Q800-817.89 800-802v268q0 15.89-11 26.95Q778-496 761-496q-8.78 0-19.32-4.41Q731.15-504.82 725-511L600-638v474q0 18-13 31t-31 13H394Zm146-327ZM420-180h120v-237H420v237Zm0-297h120v-303H360q-39 0-75 22t-51 58h186v223Zm120 0v-303 303Zm0 297v-237 237Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrHardware;

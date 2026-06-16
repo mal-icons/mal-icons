@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssExplicit = createIcon("0 -960 960 960", [["path",{"d":"M366-280h227v-60H426v-106h167v-60H426v-107h167v-60H366v393ZM120-120v-720h720v720H120Zm60-60h600v-600H180v600Zm0 0v-600 600Z"}]]);
+
+export default MssExplicit;

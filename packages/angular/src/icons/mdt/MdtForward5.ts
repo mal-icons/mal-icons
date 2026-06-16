@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-forward-5",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtForward5 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.95 13c0 3.31-2.69 6-6 6s-6-2.69-6-6 2.69-6 6-6v4l5-5-5-5v4c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8h-2zm-5.52 2.15c-0.050.07-0.110.13-0.180.17s-0.170.06-0.270.06c-0.17 0-0.31-0.05-0.42-0.15s-0.17-0.24-0.19-0.41h-0.84c0.010.20.050.370.130.53s0.190.280.320.390.290.190.460.240.350.080.530.08c0.24 0 0.46-0.040.64-0.12s0.33-0.180.45-0.310.21-0.280.27-0.450.09-0.350.09-0.54c0-0.22-0.03-0.43-0.09-0.6s-0.14-0.33-0.25-0.45-0.25-0.22-0.41-0.28-0.34-0.1-0.55-0.1c-0.07 0-0.140.01-0.20.02s-0.130.02-0.180.04-0.10.03-0.150.05-0.080.04-0.110.05l0.11-0.92h1.7v-0.71H10.9l-0.25 2.170.670.17c0.03-0.030.06-0.060.1-0.09s0.07-0.050.12-0.070.1-0.040.15-0.050.13-0.020.2-0.02c0.12 0 0.220.020.30.05s0.160.090.210.150.10.140.130.240.040.190.040.31-0.010.22-0.030.31-0.060.17-0.110.24z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtForward5;

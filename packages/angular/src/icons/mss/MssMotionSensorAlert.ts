@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-motion-sensor-alert",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssMotionSensorAlert {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M729-120q-79 0-135-56t-56-135q0-80 56-135.5T729-502q80 0 135.5 55.5T920-311q0 79-55.5 135T729-120Zm-15-161h35v-143h-35v143Zm18 85q9 0 15.5-6t6.5-16q0-10-6.5-16t-15.5-6q-10 0-16 6t-6 16q0 10 6 16t16 6ZM203-530h59q10 74 62.5 126T450-342v59q-98-11-167-80t-80-167Zm247-307v59q-74 10-126 62t-62 126h-59q11-98 80-167t167-80Zm30 207q29 0 49.5 20.5T550-560q0 29-20.5 49.5T480-490q-29 0-49.5-20.5T410-560q0-29 20.5-49.5T480-630Zm30-207q98 11 167 80t80 167h-59q-10-74-62-126t-126-62v-59ZM80-728v-232h232v60H140v172H80Zm232 568H80v-232h60v172h172v60Zm508-568v-172H648v-60h232v232h-60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssMotionSensorAlert;

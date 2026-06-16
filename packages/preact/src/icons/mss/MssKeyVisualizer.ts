@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssKeyVisualizer = createIcon("0 -960 960 960", [["path",{"d":"M120-120v-60h120v60H120Zm0-170v-60h320v60H120Zm0-160v-60h720v60H120Zm0-160v-60h320v60H120Zm0-170v-60h120v60H120Zm200 660v-60h120v60H320Zm0-660v-60h120v60H320Zm205 660v-60h115v60H525Zm0-170v-60h315v60H525Zm-5-320v-60h320v60H520Zm0-170v-60h120v60H520Zm200 660v-60h120v60H720Zm0-660v-60h120v60H720Z"}]]);
+
+export default MssKeyVisualizer;

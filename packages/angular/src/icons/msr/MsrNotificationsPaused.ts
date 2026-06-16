@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-notifications-paused",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNotificationsPaused {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M419.39-341H555q11.67 0 19.83-8.03 8.17-8.03 8.17-19.5 0-11.47-8.5-19.97T555-397h-96l115-147q4.85-5.68 6.92-12.43Q583-563.18 583-571q0-20-10.5-30.5T541.61-612H406q-11.67 0-19.83 8.03-8.17 8.03-8.17 19.5 0 11.47 8.5 19.97T406-556h95L387-409q-4.85 5.68-6.92 12.43Q378-389.82 378-382q0 20 10.5 30.5t30.89 10.5ZM190-200q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T190-260h54v-306q0-82 49.5-148.5T424-798v-29q0-23 16.27-38 16.26-15 39.5-15Q503-880 519.5-865t16.5 38v29q81 17 131 83.5T717-566v306h53q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T770-200H190ZM480-80q-32 0-56-23.5T400-160h160q0 33-23.5 56.5T480-80ZM304-260h353v-306q0-75-51-126.5T480.5-744Q406-744 355-692.5T304-566v306Zm177-242Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNotificationsPaused;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-tty",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssTty {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M600-720q-17 0-28.5-11.5T560-760q0-17 11.5-28.5T600-800q17 0 28.5 11.5T640-760q0 17-11.5 28.5T600-720Zm120 0q-17 0-28.5-11.5T680-760q0-17 11.5-28.5T720-800q17 0 28.5 11.5T760-760q0 17-11.5 28.5T720-720Zm-240 0q-17 0-28.5-11.5T440-760q0-17 11.5-28.5T480-800q17 0 28.5 11.5T520-760q0 17-11.5 28.5T480-720Zm360 0q-17 0-28.5-11.5T800-760q0-17 11.5-28.5T840-800q17 0 28.5 11.5T880-760q0 17-11.5 28.5T840-720ZM680-600q-17 0-28.5-11.5T640-640q0-17 11.5-28.5T680-680q17 0 28.5 11.5T720-640q0 17-11.5 28.5T680-600Zm120 0q-17 0-28.5-11.5T760-640q0-17 11.5-28.5T800-680q17 0 28.5 11.5T840-640q0 17-11.5 28.5T800-600Zm-240 0q-17 0-28.5-11.5T520-640q0-17 11.5-28.5T560-680q17 0 28.5 11.5T600-640q0 17-11.5 28.5T560-600Zm160 120q-17 0-28.5-11.5T680-520q0-17 11.5-28.5T720-560q17 0 28.5 11.5T760-520q0 17-11.5 28.5T720-480Zm-120 0q-17 0-28.5-11.5T560-520q0-17 11.5-28.5T600-560q17 0 28.5 11.5T640-520q0 17-11.5 28.5T600-480Zm240 0q-17 0-28.5-11.5T800-520q0-17 11.5-28.5T840-560q17 0 28.5 11.5T880-520q0 17-11.5 28.5T840-480Zm-360 0q-17 0-28.5-11.5T440-520q0-17 11.5-28.5T480-560q17 0 28.5 11.5T520-520q0 17-11.5 28.5T480-480Zm275 360q-122 0-242.5-59.5T296-335q-96-96-156-217T80-795q0-10.94 1-22.97T83.81-840H296l40 189-117 118q56 93 125.5 162T502-254l117-121 181 40v212.09Q790-122 777.97-121q-12.03 1-22.97 1ZM189-588l81-82-23-110H140q0 39 12 85.5T189-588Zm369 363q41 19 89 31t93 14v-107l-103-21-79 83ZM189-588Zm369 363Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssTty;

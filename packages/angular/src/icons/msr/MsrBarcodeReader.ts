@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-barcode-reader",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBarcodeReader {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M240-120q-60 0-95.5-46.5T124-270l72-272q-33-21-54.5-57T120-680q0-66 47-113t113-47h352q34.12 0 51.56 28.5Q701-783 686-753L586-553q-8.37 15-22.44 24-14.07 9-31.56 9h-93.33L426-470h14q12.75 0 21.38 8.63T470-440v80q0 12.75-8.62 21.38T440-330h-52l-32 122q-11 39-43 63.5T240-120Zm0-60q20 0 36-12t21-32l81-296H253l-71 265q-8 29 10 52t48 23Zm40-400h252l100-200H280q-42 0-71 29t-29 71q0 42 29 71t71 29Zm593-242-90 41q-8 3-15 0.5T757-791q-4-8-1.5-15t10.5-11l91-41q8-4 15.41-0.81 7.41 3.19 10.5 11Q886-840 883.5-833q-2.5 7-10.5 11ZM766-542q-8-3-10.5-10.5t0.5-15.15Q759-576 767-579t16 1l90 41q8 3 10.5 10.5T883-511q-3 8-10.5 10.5T857-501l-91-41Zm124-118H790q-8 0-14-6t-6-14q0-8 6-14t14-6h100q8 0 14 6t6 14q0 8-6 14t-14 6Zm-484-20Zm-90 160Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBarcodeReader;

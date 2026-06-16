@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-control-camera",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrControlCamera {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.65 9.35 2.7 11.3a11 0 0 0 0 1.41l1.95 1.95c0.490.49 1.280.49 1.77 0 0.48-0.490.48-1.27 0-1.76l-0.88-0.90.88-0.89c0.48-0.490.48-1.27 0-1.76s-1.28-0.49-1.77 0zm12.93 0c-0.480.49-0.48 1.27 0 1.76l0.880.89-0.880.89c-0.480.49-0.48 1.27 0 1.760.490.49 1.280.49 1.77 0l1.95-1.95a11 0 0 0 0-1.41l-1.95-1.95c-0.49-0.48-1.29-0.48-1.770.01zM12 18.46l-0.89-0.88c-0.49-0.48-1.27-0.48-1.76 0a1.25 1.25 0 0 0 0 1.77l1.95 1.95c0.390.39 1.020.39 1.41 0l1.95-1.95c0.49-0.490.49-1.28 0-1.77-0.49-0.48-1.27-0.48-1.76 0l-0.90.88zM9.35 6.42c0.490.48 1.270.48 1.76 0l0.89-0.880.890.88c0.490.48 1.270.48 1.76 0 0.49-0.490.49-1.28 0-1.77L12.7 2.7a11 0 0 0-1.41 0L9.35 4.65a1.25 1.25 0 0 0 0 1.77z"}],["circle",{"cx":"12","cy":"12","r":"3"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrControlCamera;

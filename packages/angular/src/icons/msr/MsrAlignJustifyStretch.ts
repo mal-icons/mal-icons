@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-align-justify-stretch",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAlignJustifyStretch {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M849.83-80Q837-80 828.5-88.62T820-110v-740q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T880-850v740q0 12.75-8.68 21.38Q862.65-80 849.83-80Zm-740 0Q97-80 88.5-88.62T80-110v-740q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T140-850v740q0 12.75-8.68 21.38Q122.65-80 109.83-80ZM540-570q-12.75 0-21.37-8.62T510-600v-40q0-12.75 8.63-21.37T540-670h140q12.75 0 21.38 8.63T710-640v40q0 12.75-8.62 21.38T680-570H540Zm-260 0q-12.75 0-21.37-8.62T250-600v-40q0-12.75 8.63-21.37T280-670h140q12.75 0 21.38 8.63T450-640v40q0 12.75-8.62 21.38T420-570H280Zm260 280q-12.75 0-21.37-8.62T510-320v-40q0-12.75 8.63-21.37T540-390h140q12.75 0 21.38 8.63T710-360v40q0 12.75-8.62 21.38T680-290H540Zm-260 0q-12.75 0-21.37-8.62T250-320v-40q0-12.75 8.63-21.37T280-390h140q12.75 0 21.38 8.63T450-360v40q0 12.75-8.62 21.38T420-290H280Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAlignJustifyStretch;

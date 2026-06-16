@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-photo-size-select-large",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPhotoSizeSelectLarge {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M180-120q-24 0-42-18t-18-42v-512h512q24.75 0 42.38 17.63T692-632v512H180Zm67-103h323q10 0 14-8t-2-16L481-380q-5-6-12-6t-12 6l-88 121-49-69q-5-6-12-6t-12 6l-61 81q-6 8-1.87 16T247-223ZM120-780q0-24 18-42t42-18v60h-60Zm319 0v-60h83v60h-83Zm341 0v-60q24 0 42 18t18 42h-60Zm-512 0v-60h83v60h-83Zm512 341v-83h60v83h-60Zm0 319v-60h60q0 24-18 42t-42 18Zm0-489v-83h60v83h-60Zm0 341v-83h60v83h-60ZM609-780v-60h83v60h-83Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPhotoSizeSelectLarge;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-horizontal-split",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrHorizontalSplit {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M149-700q-12 0-20.5-8.68-8.5-8.68-8.5-21.5 0-12.82 8.63-21.32T150-760h661q12 0 20.5 8.68 8.5 8.68 8.5 21.5 0 12.83-8.62 21.33T810-700H149Zm0 120q-12 0-20.5-8.68-8.5-8.68-8.5-21.5 0-12.82 8.63-21.32T150-640h661q12 0 20.5 8.68 8.5 8.68 8.5 21.5 0 12.83-8.62 21.33T810-580H149Zm1 380q-12.75 0-21.37-8.62T120-230v-260q0-12.75 8.63-21.37T150-520h660q12.75 0 21.38 8.63T840-490v260q0 12.75-8.62 21.38T810-200H150Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrHorizontalSplit;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-coronavirus",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsCoronavirus {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.5 10.5v0.75h-1.54a6.98 6.98 0 0 0-1.52-3.65l1.09-1.090.010.010.530.53 1.06-1.06-2.12-2.12-1.06 1.060.520.52-1.09 1.09a7.02 7.02 0 0 0-3.64-1.51V3.5h0.76V2h-3v1.5h0.74v1.54c-1.370.15-2.620.7-3.64 1.52L6.51 5.47l0.01-0.010.53-0.53-1.06-1.06-2.12 2.12 1.06 1.060.52-0.52 1.09 1.09a6.89 6.89 0 0 0-1.5 3.63H3.5v-0.75H2v3h1.5v-0.75h1.54c0.15 1.370.69 2.61 1.5 3.63l-1.09 1.09-0.52-0.52-1.06 1.06 2.12 2.12 1.06-1.06-0.53-0.53-0.01-0.01 1.09-1.09c1.020.82 2.26 1.36 3.63 1.51v1.54h-0.73V22h3v-1.5h-0.76v-1.54c1.37-0.14 2.62-0.69 3.64-1.51l1.09 1.09-0.520.52 1.06 1.06L20.13 18l-1.06-1.06-0.530.53-0.010.01-1.09-1.09a7.03 7.03 0 0 0 1.52-3.65h1.54v0.75H22v-3h-1.5zM13.75 8c0.55 0 1 0.45 1 1s-0.45 1-1 1-1-0.45-1-1 0.45-1 1-1zm-3.5 0c0.55 0 1 0.45 1 1s-0.45 1-1 1-1-0.45-1-1 0.45-1 1-1zM8.5 13c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm1.75 3c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zM12 13c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm1.75 3c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm1.75-3c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsCoronavirus;

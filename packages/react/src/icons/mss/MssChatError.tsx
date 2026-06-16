@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssChatError = createIcon("0 -960 960 960", [["path",{"d":"M80-80v-800h800v640H240L80-80Zm60-220h680v-520H140v520Zm0 0v-520 520Zm236-114 104-104 104 104 42-42-104-104 104-104-42-42-104 104-104-104-42 42 104 104-104 104 42 42Z"}]]);
+
+export default MssChatError;

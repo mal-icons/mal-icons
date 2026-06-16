@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-no-drinks",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNoDrinks {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M270-120q-13 0-21.5-8.5T240-150q0-13 8.5-21.5T270-180h180v-244L82-792q-9-9-8.5-21t9.5-21q9-9 21.5-9t21.5 9l709 709q9 9 9 21t-9 21q-9 9-21.5 9T792-83L510-364v184h180q13 0 21.5 8.5T720-150q0 13-8.5 21.5T690-120H270Zm-64-720h594q17 0 28.5 11.5T840-800q0 10-3 19t-10 16L564-482l-42-42 102-111H411l-60-60h328l83-81H270l-64-64Zm260 260Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNoDrinks;

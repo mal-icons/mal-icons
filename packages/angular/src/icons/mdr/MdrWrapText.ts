@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-wrap-text",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrWrapText {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5 7h14c0.55 0 1-0.45 1-1s-0.45-1-1-1H5c-0.55 0-1 0.45-1 1s0.45 1 1 1zm11.83 4H5c-0.55 0-1 0.45-1 1s0.45 1 1 1h12.13c1 0 1.930.67 2.09 1.660.21 1.25-0.76 2.34-1.97 2.34H15v-0.79c0-0.45-0.54-0.67-0.85-0.35l-1.79 1.79c-0.20.2-0.20.51 0 0.71l1.79 1.79c0.320.320.850.090.85-0.35V19h2c2.34 0 4.21-2.01 3.98-4.39-0.2-2.08-2.06-3.61-4.15-3.61zM9 17H5c-0.55 0-1 0.45-1 1s0.45 1 1 1h4c0.55 0 1-0.45 1-1s-0.45-1-1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrWrapText;

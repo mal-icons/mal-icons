@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-cast-warning",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssCastWarning {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M481-480ZM81-264q41.67 0 70.83 30.33Q181-203.33 181-160H81v-104Zm0-160q108.64 0 184.32 77.5Q341-269 341-160h-60q0-84.66-58-144.33Q165-364 81-364v-60Zm0-160q87 0 163.5 33.5t133.5 91q57 57.5 90 135T501-160h-60q0-75-28-141.5t-77-116q-49-49.5-114.5-78T81-524v-60Zm800 424H601q0-15-1-30t-3-30h224v-278q17-7 31.5-15t28.5-19v372ZM81-684v-116h409q-5 14-7 29t-3 31H141v60q-15-2-30-3t-30-1Zm649 144q-78 0-134-55.4-56-55.4-56-134Q540-808 596-864t134-56q78 0 134 55.87Q920-808.26 920-729q0 78.44-56 133.72Q808-540 730-540Zm17-76v-44h-35v44h35Zm-35-85h35v-143h-35v143Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssCastWarning;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-restore",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrRestore {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.25 3a9 9 0 0 0-9.26 9H2.2c-0.45 0-0.670.54-0.350.85l2.79 2.8c0.20.20.510.20.71 0l2.79-2.8c0.32-0.310.09-0.85-0.35-0.85h-1.8c0-3.9 3.18-7.05 7.1-7 3.720.05 6.85 3.18 6.9 6.90.05 3.91-3.1 7.1-7 7.1-1.61 0-3.1-0.55-4.28-1.48a0.990.99 0 0 0-1.320.08c-0.420.43-0.39 1.130.08 1.5a8.93 8.93 0 0 0 5.52 1.9c5.05 0 9.14-4.17 9-9.26-0.13-4.69-4.05-8.61-8.74-8.74zm-0.51 5c-0.41 0-0.750.34-0.750.75v3.68c0 0.350.190.680.490.86l3.12 1.85c0.360.210.820.09 1.03-0.260.21-0.360.09-0.82-0.26-1.03l-2.88-1.71v-3.4c0-0.4-0.33-0.74-0.75-0.74z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrRestore;

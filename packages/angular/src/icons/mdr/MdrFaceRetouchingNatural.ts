@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-face-retouching-natural",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFaceRetouchingNatural {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.01 4.05 20.6 3.4l-0.65-1.41a0.50.5 0 0 0-0.91 0L18.4 3.4l-1.410.65a0.50.5 0 0 0 0 0.91l1.410.640.65 1.41a0.50.5 0 0 0 0.91 0l0.64-1.41 1.41-0.65c0.39-0.170.39-0.73 0-0.9z"}],["circle",{"cx":"9","cy":"13","r":"1.25"}],["circle",{"cx":"15","cy":"13","r":"1.25"}],["path",{"d":"M19.5 8.8c-0.78 0-1.49-0.46-1.82-1.17l-0.41-0.9-0.9-0.41A2.01 2.01 0 0 1 15.2 4.5c0-0.660.34-1.260.87-1.63C14.83 2.32 13.45 2 12 2 6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10c0-1.45-0.32-2.83-0.87-4.07-0.370.53-0.970.87-1.630.87zM12 20c-4.41 0-8-3.59-8-8 0-0.050.01-0.1 0-0.14 2.6-0.98 4.69-2.99 5.74-5.55A10 10 0 0 0 17.5 10c0.75 0 1.47-0.09 2.17-0.240.210.710.33 1.460.33 2.24 0 4.41-3.59 8-8 8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFaceRetouchingNatural;

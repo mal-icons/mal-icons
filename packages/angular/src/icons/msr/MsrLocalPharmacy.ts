@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-local-pharmacy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrLocalPharmacy {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M165-120q-18.69 0-31.85-13.15T120-165q0-6 1.5-14.5T125-194l82-241-81.82-240.61Q123-682 121.5-690t-1.5-15q0-18.69 13.15-31.85T165-750h482l49-135q5-14 19.5-20t28.5-1q14 5 20 18.5t1 27.5l-40 110h70q18.69 0 31.85 13.15T840-705q0 6-1.5 14.5T835-676l-83 241 82.79 240.61Q837-188 838.5-180t1.5 15q0 18.69-13.15 31.85T795-120H165Zm317.18-161q12.83 0 21.33-8.62T512-311v-94h94q12.75 0 21.38-8.68 8.63-8.68 8.63-21.5 0-12.82-8.62-21.32T606-465h-94v-94q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T452-559v94h-94q-12.75 0-21.37 8.68-8.62 8.68-8.62 21.5 0 12.83 8.63 21.33T358-405h94v94q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63ZM182-180h596l-88-255 88-255H182l88 255-88 255Zm298-255Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrLocalPharmacy;

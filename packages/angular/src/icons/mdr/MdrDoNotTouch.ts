@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-do-not-touch",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrDoNotTouch {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m13 10.17-2.5-2.5V2.25a1.25 1.25 0 0 1 2.5 0v7.92zm7-4.85c0-0.65-0.47-1.25-1.12-1.32-0.75-0.08-1.380.51-1.38 1.24v5.25c0 0.28-0.220.5-0.50.5s-0.5-0.22-0.5-0.5V3.31c0-0.65-0.47-1.25-1.12-1.32-0.75-0.06-1.380.53-1.38 1.26v7.92l6 6V5.32zM9.5 4.25C9.5 3.56 8.94 3 8.25 3c-0.67 0-1.20.53-1.24 1.18L9.5 6.67V4.25zM17 22c0.62 0 1.18-0.19 1.65-0.52l-0.02-0.020.440.44a11 0 1 0 1.41-1.41L3.51 3.51A11 0 1 0 2.1 4.92l4.92 4.92L7 9.83v4.3l-2.6-1.48c-0.17-0.09-0.34-0.14-0.54-0.14-0.26 0-0.50.09-0.70.26L2 13.88l6.8 7.18c0.570.6 1.350.94 2.180.94H17z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrDoNotTouch;

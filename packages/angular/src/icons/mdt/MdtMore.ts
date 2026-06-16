@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-more",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtMore {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.06 5 2.4 12l4.67 7H22V5H7.06c0.01 0 0.01 0 0 0zM19 10.5c0.83 0 1.50.67 1.5 1.5s-0.67 1.5-1.5 1.5-1.5-0.67-1.5-1.50.67-1.5 1.5-1.5zm-5 0c0.83 0 1.50.67 1.5 1.5s-0.67 1.5-1.5 1.5-1.5-0.67-1.5-1.50.67-1.5 1.5-1.5zm-5 0c0.83 0 1.50.67 1.5 1.5s-0.67 1.5-1.5 1.5-1.5-0.67-1.5-1.50.67-1.5 1.5-1.5z","opacity":".3"}],["path",{"d":"M22 3H7c-0.69 0-1.230.35-1.590.88L0 12l5.41 8.11c0.360.530.970.89 1.660.89H22c1.1 0 2-0.9 2-2V5c0-1.1-0.9-2-2-2zm0 16H7.07L2.4 12l4.66-7H22v14z"}],["circle",{"cx":"9","cy":"12","r":"1.5"}],["circle",{"cx":"14","cy":"12","r":"1.5"}],["circle",{"cx":"19","cy":"12","r":"1.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtMore;

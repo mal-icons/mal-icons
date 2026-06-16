@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-domain-verification",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrDomainVerification {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.23 15.83c0.390.39 1.020.39 1.41 0l4.24-4.24c0.39-0.390.39-1.02 0-1.42a11 0 0 0-1.41 0l-3.54 3.53-1.41-1.41c-0.39-0.39-1.02-0.39-1.42 0s-0.39 1.02 0 1.41l2.13 2.13z"}],["path",{"d":"M19 4H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14c1.1 0 2-0.9 2-2V6a2 2 0 0 0-2-2zm0 13c0 0.55-0.45 1-1 1H6c-0.55 0-1-0.45-1-1V8h14v9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrDomainVerification;

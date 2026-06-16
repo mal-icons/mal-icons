@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdsAirplaneTicket = createIcon("0 0 24 24", [["path",{"d":"M22 4H2.01v6c1.1 0 1.990.9 1.99 2s-0.89 2-2 2v6h20V4zm-4.27 9.3-8.86 2.36-1.66-2.880.93-0.25 1.260.99 2.39-0.64-2.4-4.16 1.4-0.38 4.01 3.74 2.44-0.65a0.970.97 0 0 1 1.180.680.990.99 0 0 1-0.69 1.19z"}]]);
+
+export default MdsAirplaneTicket;

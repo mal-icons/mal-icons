@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-nest-tag",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssNestTag {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.87-80Q367-80 288.5-158.67t-78.5-191.6q0-90.73 55-163.46Q320-586.45 410-612v-238q0-12 8.63-21T440-880h80q12 0 21 9t9 21v238q89 25.55 144.5 98.28Q750-441 750-350.27q0 112.93-79.11 191.6Q591.78-80 479.87-80Zm0.02-60Q567-140 628.5-200.87q61.5-60.87 61.5-149.02Q690-437 628.62-498.5T480.14-560Q392-560 331-498.62q-61 61.38-61 148.48Q270-262 330.87-201q60.87 61 149.03 61Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssNestTag;

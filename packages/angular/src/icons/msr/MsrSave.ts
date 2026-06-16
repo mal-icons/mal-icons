@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-save",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSave {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h478q12.44 0 23.72 5T701-822l121 121q8 8 13 19.28 5 11.28 5 23.72v478q0 24-18 42t-42 18H180Zm600-536L656-780H180v600h600v-476ZM479.77-245Q523-245 553.5-275.26q30.5-30.26 30.5-73.5Q584-392 553.74-422.5q-30.26-30.5-73.5-30.5Q437-453 406.5-422.73q-30.5 30.26-30.5 73.5Q376-306 406.27-275.5q30.26 30.5 73.5 30.5ZM263-584h298q12.75 0 21.38-8.62T591-614v-83q0-12.75-8.62-21.37T561-727H263q-12.75 0-21.37 8.63T233-697v83q0 12.75 8.63 21.38T263-584Zm-83-72v476-600 124Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSave;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-priority-high",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPriorityHigh {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.91-120Q451-120 430.5-140.59q-20.5-20.59-20.5-49.5Q410-219 430.59-239.5q20.59-20.5 49.5-20.5Q509-260 529.5-239.41q20.5 20.59 20.5 49.5Q550-161 529.41-140.5q-20.59 20.5-49.5 20.5Zm0-240Q451-360 430.5-380.56 410-401.12 410-430v-340q0-28.87 20.59-49.44Q451.18-840 480.09-840 509-840 529.5-819.44 550-798.87 550-770v340q0 28.88-20.59 49.44Q508.82-360 479.91-360Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPriorityHigh;

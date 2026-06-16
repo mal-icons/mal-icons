@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-playlist-remove",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrPlaylistRemove {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.71 21.3c0.390.39 1.020.39 1.41 0L17 19.41l1.89 1.89a11 0 1 0 1.41-1.41L18.41 18l1.89-1.89a11 0 1 0-1.41-1.41L17 16.59l-1.89-1.89a11 0 1 0-1.41 1.41L15.59 18l-1.89 1.89c-0.380.38-0.38 1.020.01 1.41zM14 11c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1s0.45 1 1 1h9c0.55 0 1-0.45 1-1zm0-4c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1s0.45 1 1 1h9c0.55 0 1-0.45 1-1zM3 15c0 0.550.45 1 1 1h5c0.55 0 1-0.45 1-1s-0.45-1-1-1H4c-0.55 0-1 0.45-1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrPlaylistRemove;

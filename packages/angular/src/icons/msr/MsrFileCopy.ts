@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-file-copy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrFileCopy {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M780-160H260q-24 0-42-18t-18-42v-640q0-24 18-42t42-18h323q12.44 0 23.72 5T626-902l196 196q8 8 13 19.28 5 11.28 5 23.72v443q0 24-18 42t-42 18Zm0-502H623q-18.75 0-31.87-13.12T578-707v-153H260v640h520v-442ZM140-40q-24 0-42-18t-18-42v-589q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T140-689v589h468q12.75 0 21.38 8.68Q638-82.65 638-69.82 638-57 629.38-48.5T608-40H140Zm120-820v198-198 640-640Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrFileCopy;

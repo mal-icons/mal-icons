@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-request-quote",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRequestQuote {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M450-241v25q0 6 4.5 10.5T465-201h30q6 0 10.5-4.5T510-216v-25h60q12.75 0 21.38-8.62T600-271v-130q0-12.75-8.62-21.37T570-431H420v-70h150q12.75 0 21.38-8.68 8.63-8.68 8.63-21.5 0-12.82-8.62-21.32T570-561h-60v-25q0-6-4.5-10.5T495-601h-30q-6 0-10.5 4.5T450-586v25h-60q-12.75 0-21.37 8.63T360-531v130q0 12.75 8.63 21.38T390-371h150v70H390q-12.75 0-21.37 8.68-8.62 8.68-8.62 21.5 0 12.83 8.63 21.33T390-241h60ZM220-80q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h361l219 219v521q0 24-18 42t-42 18H220Zm0-60h520v-494H584q-12.75 0-21.37-8.62T554-664v-156H220v680Zm0-680v186-186 680-680Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRequestQuote;

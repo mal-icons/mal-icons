@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-stop-screen-share",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfStopScreenShare {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m21.22 18.02 2 2H24v-2h-2.78zm0.77-2 0.01-10a2 2 0 0 0-2-2H7.22l5.23 5.23c0.18-0.040.36-0.070.55-0.1V7.02l4 3.73-1.58 1.47 5.54 5.54c0.61-0.33 1.03-0.99 1.03-1.74zM2.39 1.73 1.11 3l1.54 1.54c-0.40.36-0.650.89-0.65 1.48v10a2 2 0 0 0 2 2H0v2h18.13l2.71 2.71 1.27-1.27L2.39 1.73zM7 15.02c0.31-1.480.92-2.95 2.07-4.06l1.59 1.59c-1.540.38-2.7 1.18-3.66 2.47z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfStopScreenShare;

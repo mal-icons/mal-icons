@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoSideNavigation = createIcon("0 -960 960 960", [["path",{"d":"M180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm300-60h300v-600H480v600Z"}]]);
+
+export default MsoSideNavigation;

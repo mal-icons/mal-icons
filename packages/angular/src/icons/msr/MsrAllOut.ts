@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-all-out",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAllOut {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M150-120q-12.75 0-21.37-8.62T120-150v-115q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T180-265v85h85q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T265-120H150Zm545 0q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T695-180h85v-85q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T840-265v115q0 12.75-8.62 21.38T810-120H695Zm-215-60q-125 0-212.5-87.5T180-480q0-125 87.5-212.5T480-780q125 0 212.5 87.5T780-480q0 125-87.5 212.5T480-180Zm0-60q99.6 0 169.8-70.2Q720-380.4 720-480q0-99.6-70.2-169.8Q579.6-720 480-720q-99.6 0-169.8 70.2Q240-579.6 240-480q0 99.6 70.2 169.8Q380.4-240 480-240ZM149.82-665Q137-665 128.5-673.62T120-695v-115q0-12.75 8.63-21.37T150-840h115q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T265-780h-85v85q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm660 0Q797-665 788.5-673.62T780-695v-85h-85q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T695-840h115q12.75 0 21.38 8.63T840-810v115q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM480-480Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAllOut;

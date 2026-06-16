@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-auto-fix-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrAutoFixOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m22 3.55-1.06-0.49L20.45 2a0.50.5 0 0 0-0.91 0l-0.49 1.06-1.050.49a0.50.5 0 0 0 0 0.91l1.060.490.49 1.05a0.50.5 0 0 0 0.91 0l0.49-1.06L22 4.45c0.39-0.170.39-0.73 0-0.9zm-7.83 4.87 1.41 1.41-1.46 1.46 1.41 1.41 2.17-2.17a11 0 0 0 0-1.41l-2.83-2.83a11 0 0 0-1.41 0l-2.17 2.17 1.41 1.41 1.47-1.45zM2.1 4.93l6.36 6.36-6.17 6.17a11 0 0 0 0 1.41l2.83 2.83c0.390.39 1.020.39 1.41 0l6.17-6.17 6.36 6.36a11 0 1 0 1.41-1.41L3.51 3.51a11 0 0 0-1.41 0c-0.390.4-0.39 1.03 0 1.42z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrAutoFixOff;

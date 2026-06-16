@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-nest-thermostat-sensor",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssNestThermostatSensor {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-140q24.73 0 48.86-3.5T576-154q-27-30-41.5-67T520-299q0-16.18 2-31.09Q524-345 528-359q-26-15-39-46.82-13-31.82-13-74.24Q476-537 500-574.5t73.34-37.5Q615-612 639-583t30 74q17-5 34.35-8 17.35-3 35.66-3 20.45 0 40.23 3.5Q799-513 819-506q-5-66-33.5-123.5t-74-100Q666-772 606.52-796 547.05-820 480-820q-69.97 0-131.98 26.5Q286-767 239.5-720.5q-46.5 46.5-73 108t-26.5 132q0 70.5 26.56 132.69 26.56 62.19 72.78 108.43 46.22 46.24 108.38 72.82Q409.88-140 480-140Zm59-249q16-35 41.5-62.5T640-496q-3-39-20-62.5T572.59-582Q540-582 523-554t-17 74q0 35 9 57.5t24 33.5ZM740-80q-29 0-57-7.5T630-110q-36 15-74 22.5T480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q84 0 158 32.5t128.5 88Q821-704 851.5-629T880-470q38 32 59 76t21 94q0 92-64 156T740-80Zm-0.2-60Q806-140 853-186.8t47-113Q900-366 853.2-413t-113-47Q674-460 627-413.2t-47 113Q580-234 626.8-187t113 47ZM326-348l-28-16 118-208-2-3H279v-29h171v35L326-348Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssNestThermostatSensor;

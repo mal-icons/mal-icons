@@ -55,8 +55,10 @@ export async function fetchSet(source: IconSource, noFetch: boolean): Promise<Ra
   }
 
   const files = (await readdir(cacheDir)).filter((f) => f.endsWith(".svg")).sort();
+  const exclude = source.excludePattern ? new RegExp(source.excludePattern, "i") : null;
   const icons: RawIcon[] = [];
   for (const file of files) {
+    if (exclude?.test(file)) continue;
     const svg = await readFile(join(cacheDir, file), "utf8");
     icons.push({ name: normalizeName(file), svg });
   }

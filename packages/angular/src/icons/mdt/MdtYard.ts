@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-yard",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtYard {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 20h16V4H4v16zM8 8.22a1.56 1.56 0 0 1 2.45-1.28l-0.01-0.12c0-0.860.7-1.56 1.56-1.56s1.560.7 1.56 1.56l-0.010.12A1.56 1.56 0 0 1 16 8.22c0 0.62-0.37 1.16-0.89 1.40.520.250.890.790.89 1.41 0 0.86-0.7 1.56-1.56 1.56-0.33 0-0.64-0.11-0.89-0.28l0.010.12c0 0.86-0.7 1.56-1.56 1.56s-1.56-0.7-1.56-1.56l0.01-0.12A1.56 1.56 0 0 1 8 11.03c0-0.620.37-1.160.89-1.4C8.37 9.38 8 8.84 8 8.22zM12 19c0-3.31 2.69-6 6-6 0 3.31-2.69 6-6 6s-6-2.69-6-6c3.31 0 6 2.69 6 6z","opacity":".3"}],["path",{"d":"M8 11.03a1.56 1.56 0 0 0 2.45 1.28l-0.010.12c0 0.860.7 1.56 1.56 1.56s1.56-0.7 1.56-1.56l-0.01-0.12c0.250.170.560.280.890.280.86 0 1.56-0.7 1.56-1.56 0-0.62-0.37-1.16-0.89-1.410.52-0.240.89-0.780.89-1.4a1.56 1.56 0 0 0-2.45-1.28l0.01-0.12c0-0.86-0.7-1.56-1.56-1.56s-1.560.7-1.56 1.56l0.010.12A1.56 1.56 0 0 0 8 8.22c0 0.620.37 1.160.89 1.41-0.520.24-0.890.78-0.89 1.4zm4-2.97c0.86 0 1.560.7 1.56 1.56s-0.7 1.56-1.56 1.56-1.56-0.7-1.56-1.560.7-1.56 1.56-1.56zM18 13c-3.31 0-6 2.69-6 6 3.31 0 6-2.69 6-6zm-6 6c0-3.31-2.69-6-6-6 0 3.31 2.69 6 6 6z"}],["path",{"d":"M20 2H4c-1.1 0-2 0.9-2 2v16c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm0 18H4V4h16v16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtYard;

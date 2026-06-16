@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsFlipCameraIos = createIcon("0 0 24 24", [["path",{"d":"M16.83 5 15 3H9L7.17 5H2v16h20V5h-5.17zM12 18c-2.76 0-5-2.24-5-5H5l2.5-2.5L10 13H8c0 2.21 1.79 4 4 4 0.58 0 1.13-0.13 1.62-0.35l0.740.74c-0.710.37-1.50.61-2.360.61zm4.5-2.5L14 13h2c0-2.21-1.79-4-4-4-0.58 0-1.130.13-1.620.35l-0.74-0.73C10.35 8.24 11.14 8 12 8c2.76 0 5 2.24 5 5h2l-2.5 2.5z"}]]);
+
+export default MdsFlipCameraIos;

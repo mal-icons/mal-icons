@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-find-in-page",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFindInPage {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 19.59V8.83c0-0.53-0.21-1.04-0.59-1.41l-4.83-4.83c-0.37-0.38-0.88-0.59-1.41-0.59H6c-1.1 0-1.990.9-1.99 2L4 20c0 1.10.89 2 1.99 2H18c0.45 0 0.85-0.15 1.19-0.4l-4.43-4.43c-0.860.56-1.890.88-3 0.82-2.37-0.11-4.4-1.96-4.72-4.31a5.01 5.01 0 0 1 5.83-5.61c1.950.33 3.57 1.85 4 3.780.33 1.460.01 2.82-0.7 3.9L20 19.59zM9 13c0 1.66 1.34 3 3 3s3-1.34 3-3-1.34-3-3-3-3 1.34-3 3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFindInPage;

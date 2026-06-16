@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoWindowSensor = createIcon("0 -960 960 960", [["path",{"d":"M889.83-620Q877-620 868.5-628.62T860-650v-160q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T920-810v160q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM120-120v-720h640v720H120Zm60-390h220v-40h80v40h220v-270H180v270Zm0 330h520v-270H180v270Zm0 0h520-520Z"}]]);
+
+export default MsoWindowSensor;

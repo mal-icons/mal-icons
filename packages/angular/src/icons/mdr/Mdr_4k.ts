@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-4k",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Mdr_4k {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 3H5c-1.1 0-2 0.9-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-0.9 2-2V5a2 2 0 0 0-2-2zm-7 9.76c0 0.41-0.340.75-0.750.75H11v0.74c0 0.41-0.340.75-0.750.75s-0.75-0.34-0.75-0.75v-0.75h-2c-0.55 0-1-0.45-1-1V9.75c0-0.410.34-0.750.75-0.75s0.750.340.750.75V12h1.5V9.75c0-0.410.34-0.750.75-0.75s0.750.340.750.75V12h0.25c0.41 0 0.750.340.750.75v0.01zm5.47 1.14c0.220.330.130.77-0.20.98a0.70.7 0 0 1-0.98-0.2L14.5 12v2.24c0 0.41-0.340.75-0.750.75a0.740.74 0 0 1-0.75-0.74v-4.5c0-0.410.34-0.750.75-0.75s0.750.340.750.75v2.24l1.79-2.68a0.710.71 0 0 1 0.98-0.2c0.330.220.410.660.20.98L16.2 12l1.27 1.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Mdr_4k;

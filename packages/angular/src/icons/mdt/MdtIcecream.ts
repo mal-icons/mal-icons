@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-icecream",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtIcecream {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m9.32 13.42 2.73 5.21 2.67-5.23a6.47 6.47 0 0 1-5.40.02zm7.99-5.4-0.77-0.12-0.06-0.78C16.29 4.8 14.34 3 12 3S7.71 4.8 7.51 7.12l-0.060.78-0.770.13A2 2 0 0 0 7 12c0.52 0 1.01-0.21 1.39-0.56l0.56-0.540.660.41a4.52 4.52 0 0 0 4.780.01l0.66-0.420.560.54c0.380.360.870.56 1.390.56 1.1 0 2-0.9 2-2 0-0.99-0.72-1.82-1.69-1.98z","opacity":".3"}],["path",{"d":"M18.38 6.24C17.79 3.24 15.14 1 12 1S6.21 3.24 5.62 6.24A4.01 4.01 0 0 0 3 10c0 2.21 1.79 4 4 4 0.12 0 0.23-0.020.34-0.02L12.07 23l4.61-9.03c0.110.010.210.030.320.03 2.21 0 4-1.79 4-4 0-1.71-1.08-3.19-2.62-3.76zm-6.33 12.39-2.73-5.21a6.47 6.47 0 0 0 5.4-0.02l-2.67 5.23zM17 12c-0.52 0-1.01-0.2-1.39-0.56l-0.56-0.54-0.660.42a4.52 4.52 0 0 1-4.78-0.01l-0.66-0.41-0.560.54c-0.380.35-0.870.56-1.390.56a2 2 0 0 1-0.32-3.97l0.77-0.130.06-0.78C7.71 4.8 9.66 3 12 3s4.29 1.8 4.48 4.12l0.060.780.770.12c0.970.16 1.690.99 1.69 1.98 0 1.1-0.9 2-2 2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtIcecream;

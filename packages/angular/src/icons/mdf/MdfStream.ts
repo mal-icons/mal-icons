@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-stream",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfStream {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"20","cy":"12","r":"2"}],["circle",{"cx":"4","cy":"12","r":"2"}],["circle",{"cx":"12","cy":"20","r":"2"}],["path",{"d":"M10.05 8.59 6.03 4.55h-0.01l-0.31-0.32-1.42 1.41 4.02 4.050.01-0.010.310.32zm3.890.03 4.41-4.39L19.76 5.64l-4.4 4.39zM10.01 15.36l-1.42-1.41-4.03 4.01-0.320.33 1.41 1.41 4.03-4.02zm9.75 2.94-3.99-4.01-0.36-0.35L14 15.35l3.99 4.010.350.35z"}],["circle",{"cx":"12","cy":"4","r":"2"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfStream;

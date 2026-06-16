@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-home-storage",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrHomeStorage {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M251-120q-21.66 0-38.46-14.18Q195.73-148.36 192-170l-66-395q-2-14 6.49-24.5T155-600h650q14.02 0 22.51 10.5Q836-579 834-565l-66 395q-3.73 21.64-20.54 35.82Q730.66-120 709-120H251Zm-58-420 57 360h460l57-360H193Zm207 160h160q12.75 0 21.38-9T590-410.5q0-12.5-8.62-21T560-440H400q-12 0-21 8.63T370-410q0 12 9 21t21 9ZM240-660q-12 0-21-9t-9-21.5q0-12.5 9-21t21-8.5h480q12.75 0 21.38 8.63T750-690q0 12-8.62 21T720-660H240Zm80-120q-12 0-21-9t-9-21.5q0-12.5 9-21t21-8.5h320q12.75 0 21.38 8.63T670-810q0 12-8.62 21T640-780H320Zm-70 600h460-460Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrHomeStorage;

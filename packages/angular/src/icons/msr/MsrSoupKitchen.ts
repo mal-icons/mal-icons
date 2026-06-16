@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-soup-kitchen",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSoupKitchen {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M245-420q-14 0-19.5-8.5T223-452q2-6 2-13v-15q0-35-20-75.5T185-625q0-9 1-19.5t6-21.5q2-5 8.5-9.5T215-680q14 0 20 9t3 23q-1 4-3 23 0 34 20 72t20 73q0 14-1.5 25t-5.5 21q-2 5-9 9.5t-14 4.5Zm260 0q-14 0-19.5-8.5T483-452q2-6 2-13v-15q0-35-20-75.5T445-625q0-9 1-19.5t6-21.5q2-5 8.5-9.5T475-680q14 0 20 9t3 23q-1 4-3 23 0 34 20 72t20 73q0 14-1.5 25t-5.5 21q-2 5-9 9.5t-14 4.5Zm-130 0q-14 0-19.5-8.5T353-452q2-6 2-13v-15q0-35-20-75.5T315-625q0-9 1-19.5t6-21.5q2-5 8.5-9.5T345-680q14 0 20 9t3 23q-1 4-3 23 0 34 20 72t20 73q0 14-1.5 25t-5.5 21q-2 5-9 9.5t-14 4.5Zm15 340q-100 0-178-68.5T120-316q-2-14 6.5-24t23.5-10h450l45-433q5-41 36-69t73-28q46 0 78 32t32 78l-1 18q-1 13-11 21t-23 6q-12-2-19.5-11t-6.5-21l1-13q0-21-14.5-35.5T754-820q-20 0-34 13t-16 32l-46 445q-11 106-87.5 178T390-80Zm0-60q65 0 119-39t80-111H188q26 72 81.5 111T390-140Zm0-150Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSoupKitchen;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-rv-hookup",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssRvHookup {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m784-101-43-43 63-63H470q-10 39-42.5 62.5T356-121q-39 0-71.5-23.5T242-207H80v-356h241v-137H80v-60h580v493h144l-63-63 43-43 136 136-136 136ZM381-563h219v-137H381v137Zm-24.75 382Q381-181 397.5-197.75q16.5-16.74 16.5-41.5Q414-264 397.25-280.5q-16.74-16.5-41.5-16.5Q331-297 314.5-280.25q-16.5 16.75-16.5 41.5Q298-214 314.75-197.5q16.75 16.5 41.5 16.5ZM242-267q10-39 42.5-64.5T356-357q39 0 71.5 25.5T470-267h130v-236H140v236h102Zm0-236H140h460-358Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssRvHookup;

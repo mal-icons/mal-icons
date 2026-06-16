@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-ev-charger",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoEvCharger {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m337-214 88-140h-53v-105l-87 140h52v105ZM220-552h269v-228H220v228Zm0 372h269v-312H220v312Zm-60 60v-660q0-24 18-42t42-18h269q24 0 42 18t18 42v288h65q20.71 0 35.36 14.64T664-442v219q0 22 17.5 36.5T722-172q23 0 43-14.5t20-36.5v-387h-15q-12.75 0-21.37-8.62T740-640v-90h20v-50h30v50h40v-50h30v50h20v90q0 12.75-8.62 21.38T850-610h-15v386.69Q835-180 801-150t-79.18 30q-44.15 0-75.99-30Q614-180 614-223v-219h-65v322H160Zm329-60H220h269Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoEvCharger;

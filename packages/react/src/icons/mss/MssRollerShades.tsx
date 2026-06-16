@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssRollerShades = createIcon("0 -960 960 960", [["path",{"d":"M80-120v-60h80v-660h640v660h80v60H80Zm140-390h520v-270H220v270Zm0 330h520v-270H510v88q14 8 22 21.75t8 30.25q0 24.86-17.6 42.43Q504.8-250 479.9-250T437.5-267.57Q420-285.14 420-310q0-16.85 8-30.43Q436-354 450-362v-88H220v270Zm0-600h520-520Z"}]]);
+
+export default MssRollerShades;

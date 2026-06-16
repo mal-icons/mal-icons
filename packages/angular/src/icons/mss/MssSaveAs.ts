@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-save-as",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssSaveAs {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M120-120v-720h563l157 157v258l-60 60v-291L656-780H180v600h416l-60 60H120Zm359.77-125Q523-245 553.5-275.26q30.5-30.26 30.5-73.5Q584-392 553.74-422.5q-30.26-30.5-73.5-30.5Q437-453 406.5-422.73q-30.5 30.26-30.5 73.5Q376-306 406.27-275.5q30.26 30.5 73.5 30.5ZM233-584h358v-143H233v143ZM590-40v-50l228-228 50 50L640-40h-50Zm304-254-50-50 50-50 50 50-50 50ZM180-180v-600 600Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssSaveAs;

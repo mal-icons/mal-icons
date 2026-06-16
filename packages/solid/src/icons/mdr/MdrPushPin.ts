@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrPushPin = createIcon("0 0 24 24", [["path",{"fill-rule":"evenodd","d":"M19 12.87c0-0.47-0.34-0.85-0.8-0.98A3 3 0 0 1 16 9V4h1c0.55 0 1-0.45 1-1s-0.45-1-1-1H7c-0.55 0-1 0.45-1 1s0.45 1 1 1h1v5c0 1.38-0.93 2.54-2.2 2.89-0.460.13-0.80.51-0.80.98V13c0 0.550.45 1 1 1h4.98l0.02 7c0 0.550.45 1 1 1s1-0.45 1-1l-0.02-7H18c0.55 0 1-0.45 1-1v-0.13z"}]]);
+
+export default MdrPushPin;

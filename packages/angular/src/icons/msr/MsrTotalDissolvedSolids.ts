@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-total-dissolved-solids",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrTotalDissolvedSolids {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M167-468q26-115 117-218t176-177q8-8 20-8t20 8q85 74 176 177t117 218h-62q-20-72-83.5-156.5T480-800q-104 91-167.5 175.5T229-468h-62Zm632 60q0 25-3 50t-10 49L568-91q-24 6-48.5 9T470-80l329-328Zm-213 0h86L364-100q-15-6-29.5-13T306-129l280-279Zm-213 0h86L238-188q-10-11-18.5-23.5T203-238l170-170Zm-213 1 86-1-78 78q-5-19-6.5-38t-1.5-39Zm320-61Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrTotalDissolvedSolids;

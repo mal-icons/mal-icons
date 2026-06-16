@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-tv-remote",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoTvRemote {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M340-100h280v-237q-27 26-62.5 41.5T480-280q-42 0-77.5-15.5T340-337v237Zm139.76-240Q538-340 579-380.76q41-40.76 41-99Q620-538 579.24-579q-40.76-41-99-41Q422-620 381-579.23q-41 40.76-41 99Q340-422 380.77-381q40.76 41 99 41ZM340-623q27-26 62.5-41.5T480-680q42 0 77.5 15.5T620-623v-237H340v237Zm0 583q-24 0-42-18t-18-42v-760q0-24 18-42t42-18h280q24 0 42 18t18 42v760q0 24-18 42t-42 18H340Zm139.94-385Q457-425 441-441.06q-16-16.06-16-39T441.06-519q16.06-16 39-16T519-518.94q16 16.06 16 39T518.94-441q-16.06 16-39 16Zm0.23-305q12.83 0 21.33-8.68 8.5-8.68 8.5-21.5 0-12.82-8.68-21.32-8.68-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.68-8.5 21.5 0 12.83 8.68 21.33 8.68 8.5 21.5 8.5ZM480-280Zm0-400Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoTvRemote;

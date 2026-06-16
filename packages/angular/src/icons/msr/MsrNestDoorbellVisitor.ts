@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-nest-doorbell-visitor",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNestDoorbellVisitor {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M729.91-240Q701-240 680.5-260.59q-20.5-20.59-20.5-49.5Q660-339 680.59-359.5q20.59-20.5 49.5-20.5Q759-380 779.5-359.41q20.5 20.59 20.5 49.5Q800-281 779.41-260.5q-20.59 20.5-49.5 20.5ZM580-80v-13q0-40 40.5-63.5T730-180q69 0 109.5 23.5T880-93v13H580ZM480-560q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0 80Zm-80 160q0 33 23.5 56.5T480-240q33 0 56.5-23.5T560-320q0-33-23.5-56.5T480-400q-33 0-56.5 23.5T400-320Zm80.09 45Q461-275 448-287.91q-13-12.91-13-32Q435-339 447.91-352q12.91-13 32-13Q499-365 512-352.09q13 12.91 13 32Q525-301 512.09-288q-12.91 13-32 13ZM280-680q0-85 57.5-142.5T480-880q85 0 142.5 57.5T680-680v170q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T620-510v-170q0-59.5-41.5-99.75T480-820q-57 0-98.5 40.25T340-680v400q0 48 31 86.5t77 49.5q10.61 2.29 17.8 10.68 7.2 8.39 7.2 19.07Q473-99 461-90.5 449-82 435-85q-68-16-111.5-69.2T280-280v-400Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNestDoorbellVisitor;

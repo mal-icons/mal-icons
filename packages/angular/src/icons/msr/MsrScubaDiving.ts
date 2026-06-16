@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-scuba-diving",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrScubaDiving {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M113-367q-30 0-51.5-21.5T40-440q0-30 21.5-51.5T113-513q30 0 51.5 21.5T186-440q0 30-21.5 51.5T113-367Zm220-166q-20 6-37.5-4.5T272-568q-5-20 4.5-37.5T306-629l153-46q12-4 23.5 2.5T497-654l10 39q3 12-2.5 22T487-579l-154 46ZM120-58q-10-8-12-20t6-22l91-122 46-195q5-21 18-36t35-22l383-117 84-176 94-94q8-8 18.5-7.5T902-861q8 8 8.5 18t-7.5 18l-84 92-61 169q-3 9-8.5 16.5T736-535L563-414q-4 2-7.5 4t-8.5 4l-229 72-61 143-95 127q-8 10-20 12t-22-6Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrScubaDiving;

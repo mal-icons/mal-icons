@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-night-sight-auto-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNightSightAutoOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M392-567 263-694q29-20 63-32t69-17q14.21-2 22.11 9.5Q425-722 418-710q-14 26-21 53.33-7 27.33-7 56.68 0 8 0.5 16.5T392-567Zm305 300-86-85q20 2 38.5 1.5T687-356q17-5 29.5 8t7.5 30q-6 14-12.68 26.33Q704.64-279.33 697-267Zm-136 43L224-561q-17 28.43-25.5 58.72Q190-472 190-440q0 104.17 72.92 177.08Q335.83-190 440-190q32 0 62.5-9t58.5-25Zm-121 94q-129 0-219.5-90.5T130-440q0-45.15 12.5-87.07Q155-569 179-607L50-736q-9-8.8-9-20.9 0-12.1 9-21.1 9-9 21.83-9 12.83 0 22.17 9l676 677q9 9 9 21t-9.05 21q-9.05 9-21.5 9Q736-50 727-59L607-179q-38 24-79.92 36.5T440-130Zm-47-263Zm265-211-20 56.84Q634-536 625.31-530q-8.69 6-19.31 6-17 0-27.5-14t-4.55-31l101.09-287q3.96-11 13.65-17.5Q698.38-880 710-880h26q12 0 21.58 6.72Q767.17-866.56 771-856l101.06 287q5.94 17-4.56 31T840-524q-10.67 0-19.39-6.23Q811.88-536.46 808-547l-20.27-57H658Zm16-50h98l-49-155-49 155Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNightSightAutoOff;

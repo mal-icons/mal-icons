@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrOutboxAlt = createIcon("0 -960 960 960", [["path",{"d":"M642-455q17-8.29 17-27.15Q659-501 642-509L288-682q-15-8-29 0.75T245-655v346q0 17.5 14 26.25t29 0.75l354-173ZM305-351v-74l132-57-132-57v-74l283 131-283 131ZM180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z"}]]);
+
+export default MsrOutboxAlt;

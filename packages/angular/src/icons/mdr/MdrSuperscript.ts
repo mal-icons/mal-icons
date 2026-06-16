@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-superscript",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSuperscript {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.51 12.73 7.3 7.72a1.11 1.11 0 1 1 1.88-1.19l2.76 4.46h0.12l2.74-4.45c0.2-0.340.56-0.540.95-0.540.88 0 1.420.980.94 1.72l-3.23 5 3.55 5.55c0.490.75-0.05 1.73-0.93 1.73-0.38 0-0.74-0.2-0.95-0.52l-3.07-4.89h-0.12l-3.07 4.89c-0.210.32-0.560.52-0.950.52-0.88 0-1.42-0.97-0.94-1.72l3.53-5.55zM23 8.5c0-0.28-0.22-0.5-0.5-0.5H20V7h2c0.55 0 1-0.45 1-1V5c0-0.55-0.45-1-1-1h-2.5c-0.28 0-0.50.22-0.50.5s0.220.50.50.5H22v1h-2c-0.55 0-1 0.45-1 1v1c0 0.550.45 1 1 1h2.5c0.28 0 0.5-0.220.5-0.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSuperscript;

@@ -162,6 +162,41 @@
       "bun": "./src/icons/md/index.ts",
       "import": "./src/icons/md/index.ts"
     },
+    "./mdf": {
+      "solid": "./src/icons/mdf/index.ts",
+      "bun": "./src/icons/mdf/index.ts",
+      "import": "./src/icons/mdf/index.ts"
+    },
+    "./mdr": {
+      "solid": "./src/icons/mdr/index.ts",
+      "bun": "./src/icons/mdr/index.ts",
+      "import": "./src/icons/mdr/index.ts"
+    },
+    "./mds": {
+      "solid": "./src/icons/mds/index.ts",
+      "bun": "./src/icons/mds/index.ts",
+      "import": "./src/icons/mds/index.ts"
+    },
+    "./mdt": {
+      "solid": "./src/icons/mdt/index.ts",
+      "bun": "./src/icons/mdt/index.ts",
+      "import": "./src/icons/mdt/index.ts"
+    },
+    "./mso": {
+      "solid": "./src/icons/mso/index.ts",
+      "bun": "./src/icons/mso/index.ts",
+      "import": "./src/icons/mso/index.ts"
+    },
+    "./msr": {
+      "solid": "./src/icons/msr/index.ts",
+      "bun": "./src/icons/msr/index.ts",
+      "import": "./src/icons/msr/index.ts"
+    },
+    "./mss": {
+      "solid": "./src/icons/mss/index.ts",
+      "bun": "./src/icons/mss/index.ts",
+      "import": "./src/icons/mss/index.ts"
+    },
     "./oc": {
       "solid": "./src/icons/oc/index.ts",
       "bun": "./src/icons/oc/index.ts",
@@ -181,6 +216,41 @@
       "solid": "./src/icons/md/*.ts",
       "bun": "./src/icons/md/*.ts",
       "import": "./src/icons/md/*.ts"
+    },
+    "./mdf/*": {
+      "solid": "./src/icons/mdf/*.ts",
+      "bun": "./src/icons/mdf/*.ts",
+      "import": "./src/icons/mdf/*.ts"
+    },
+    "./mdr/*": {
+      "solid": "./src/icons/mdr/*.ts",
+      "bun": "./src/icons/mdr/*.ts",
+      "import": "./src/icons/mdr/*.ts"
+    },
+    "./mds/*": {
+      "solid": "./src/icons/mds/*.ts",
+      "bun": "./src/icons/mds/*.ts",
+      "import": "./src/icons/mds/*.ts"
+    },
+    "./mdt/*": {
+      "solid": "./src/icons/mdt/*.ts",
+      "bun": "./src/icons/mdt/*.ts",
+      "import": "./src/icons/mdt/*.ts"
+    },
+    "./mso/*": {
+      "solid": "./src/icons/mso/*.ts",
+      "bun": "./src/icons/mso/*.ts",
+      "import": "./src/icons/mso/*.ts"
+    },
+    "./msr/*": {
+      "solid": "./src/icons/msr/*.ts",
+      "bun": "./src/icons/msr/*.ts",
+      "import": "./src/icons/msr/*.ts"
+    },
+    "./mss/*": {
+      "solid": "./src/icons/mss/*.ts",
+      "bun": "./src/icons/mss/*.ts",
+      "import": "./src/icons/mss/*.ts"
     },
     "./oc/*": {
       "solid": "./src/icons/oc/*.ts",

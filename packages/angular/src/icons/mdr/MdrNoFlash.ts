@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-no-flash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrNoFlash {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.16 3.16a11 0 1 0-1.41 1.41l4.6 4.6-0.210.23H3.6c-0.88 0-1.60.72-1.6 1.6v9.4c0 0.880.72 1.6 1.6 1.6h12.8c0.75 0 1.38-0.52 1.55-1.22l1.47 1.47a11 0 1 0 1.41-1.41L3.16 3.16zM10 20c-2.21 0-4-1.79-4-4 0-1.95 1.4-3.57 3.25-3.92l1.57 1.57c-0.26-0.09-0.53-0.15-0.82-0.15a2.5 2.5 0 0 0 0 5 2.5 2.5 0 0 0 2.5-2.5c0-0.29-0.06-0.56-0.15-0.82l1.57 1.57A3.99 3.99 0 0 1 10 20zm8-4.83L10.83 8h0.87c0.56 0 1.10.24 1.480.65l0.690.75h2.54c0.88 0 1.60.72 1.6 1.6v4.17zm2.4-9.57h0.75c0.38 0 0.620.410.440.74L19 11V7h-0.5c-0.28 0-0.5-0.22-0.5-0.5v-4c0-0.280.22-0.50.5-0.5h2.73c0.36 0 0.60.370.460.7L20.4 5.6z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrNoFlash;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-add-a-photo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssAddAPhoto {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M433.5-226q72.5 0 121.5-49t49-121.5q0-72.5-49-121T433.5-566q-72.5 0-121 48.5t-48.5 121q0 72.5 48.5 121.5t121 49ZM34-74v-633h207l73-87h240l40 47v100H94v513h680v-393h60v453H34Zm740-547v-86h-86v-60h86v-87h60v87h87v60h-87v86h-60ZM94-134v-513 513Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssAddAPhoto;

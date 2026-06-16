@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-flip",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoFlip {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M392-120H180q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h212v60H180v600h212v60Zm60 80v-880h60v880h-60Zm328-740h-14v-60h14q24 0 42 18t18 42v14h-60v-14Zm0 355v-110h60v110h-60Zm0 305h-14v-60h14v-14h60v14q0 24-18 42t-42 18Zm0-475v-111h60v111h-60Zm0 341v-111h60v111h-60ZM572-120v-60h134v60H572Zm0-660v-60h134v60H572Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoFlip;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-shuffle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrShuffle {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.59 9.17 6.12 4.7a11 0 1 0-1.41 1.41l4.46 4.46 1.42-1.4zm4.76-4.32 1.19 1.19L4.7 17.88a11 0 1 0 1.41 1.41L17.96 7.46l1.19 1.19a0.50.5 0 0 0 0.85-0.36V4.5c0-0.28-0.22-0.5-0.5-0.5h-3.79a0.50.5 0 0 0-0.360.85zm-0.52 8.56-1.41 1.41 3.13 3.13-1.2 1.2a0.50.5 0 0 0 0.360.85h3.79c0.28 0 0.5-0.220.5-0.5v-3.79c0-0.45-0.54-0.67-0.85-0.35l-1.19 1.19-3.13-3.14z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrShuffle;

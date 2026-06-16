@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoHourglassFull = createIcon("0 -960 960 960", [["path",{"d":"M160-80v-60h96v-127q0-70 36.5-128.5T394-480q-65-26-101.5-85T256-694v-126h-96v-60h640v60h-96v126q0 70-36.5 129T566-480q65 26 101.5 84.5T704-267v127h96v60H160Z"}]]);
+
+export default MsoHourglassFull;

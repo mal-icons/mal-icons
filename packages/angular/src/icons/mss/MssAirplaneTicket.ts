@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-airplane-ticket",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssAirplaneTicket {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M80-160v-213q37-8 61.5-37.5T166-480q0-40-24.5-70T80-587v-213h800v640H80Zm60-60h680v-520H140v109q39 26 62.5 65t23.5 86q0 47-23.5 86T140-329v109Zm208-105 368-101q17-5 25-16t3-28q-5-17-18-23.5t-29-2.5l-103 27-166-162-52 12 103 181-111 31-52-43-29 10 61 115Zm132-155Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssAirplaneTicket;

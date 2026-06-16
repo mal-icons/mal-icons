@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-nest-audio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNestAudio {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M360-120q-66 0-113-47t-47-113v-360q0-83 58.5-141.5T400-840h160q83 0 141.5 58.5T760-640v360q0 66-47 113t-113 47H360Zm0-60h240q42 0 71-29t29-71v-360q0-58-41-99t-99-41H400q-58 0-99 41t-41 99v360q0 42 29 71t71 29Zm0-270q13 0 21.5-9t8.5-21q0-13-8.5-21.5T360-510q-12 0-21 8.5t-9 21.5q0 12 9 21t21 9Zm120 0q13 0 21.5-9t8.5-21q0-13-8.5-21.5T480-510q-12 0-21 8.5t-9 21.5q0 12 9 21t21 9Zm120 0q13 0 21.5-9t8.5-21q0-13-8.5-21.5T600-510q-12 0-21 8.5t-9 21.5q0 12 9 21t21 9Zm-120-30Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNestAudio;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-thumb-up",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrThumbUp {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M272-120v-512l225-238q13.6-14 32.19-16.5Q547.77-889 565-879q17 10 25.5 27.5t4.2 36.5L556-632h299q24 0 42 18t18 42v81.84q0 7.16 1.5 14.66T915-461L789-171q-8.88 21.25-29.59 36.13Q738.69-120 716-120H272Zm60-487v427h397l126-299v-93H482l53-249-203 214ZM139-120q-24.75 0-42.37-17.62T79-180v-392q0-24.75 17.63-42.37T139-632h133v60H139v392h133v60H139Zm193-60v-427 427Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrThumbUp;

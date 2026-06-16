@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-yard",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrYard {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-180q0-47-18.5-90T410-346q-30-30-68-47.5T262-415q-7.29-1-12.64 4.36Q244-405.29 245-398q4 42 21.5 80t47.5 68q33 33 75.86 51.5Q432.71-180 480-180Zm0-220q27 0 43.5-16.5T540-460v-8q8 7 18 9t19 2q27 0 43.5-16.5t16.5-43.06Q637-537 628-550q-9-13-24-24 15-6 24-21.39 9-15.39 9-35.92Q637-658 620.5-674.5 604-691 577-691q-9 0-19 2t-18 9v-8q0-27-16.5-43.5T480-748q-27 0-43.5 16.5T420-688v8q-8-7-18-9t-19-2q-27 0-43.5 16.5T323-631.43q0 20.43 8.5 33.94Q340-584 356-574q-16 7-24.5 22t-8.5 35q0 27 16.5 43.5T383-457q9 0 19.5-2t17.5-9v8q0 27 16.5 43.5T480-400Zm-0.2-96Q447-496 424.5-518.5T402-574q0-32.71 22.71-55.35Q447.41-652 480.21-652 513-652 535.5-629.35T558-574q0 33-22.7 55.5-22.7 22.5-55.5 22.5ZM480-180q47 0 90-18.5t76-51.5q30-30 47.5-68t21.5-80q1-7.29-4.36-12.64Q705.29-416 698-415q-42 4-80 21.5T550-346q-33 33-51.5 76.03Q480-226.94 480-180ZM140-80q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h680q24 0 42 18t18 42v680q0 24-18 42t-42 18H140Zm0-60h680v-680H140v680Zm0 0v-680 680Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrYard;

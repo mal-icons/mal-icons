@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-mobiledata-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMobiledataOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m631-404-60-60v-260l-58 58q-8 8-20.5 8t-21.5-9q-9-9-9-21.5t9-21.5l109-109q5-5 10-7t11-2q6 0 11 2t10 7l110 110q8 8 8.5 20.5T732-667q-9 9-21.5 9t-21.5-9l-58-57v320ZM786-78 378-486v250l58-58q8-8 21-8.5t22 8.5q9 9 9 21.5t-9 21.5L369-141q-5 5-10 7t-11 2q-6 0-11-2t-10-7L217-251q-8-8-8-21t9-22q9-9 21.5-9t21.5 9l57 58v-309L77-786q-8-8-8-20t9-21q9-9 21-9t21 9l709 708q8 8 8 20t-9 21q-9 9-21 9t-21-9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMobiledataOff;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-wb-cloudy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtWbCloudy {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m19.23 12.04-1.52-0.11-0.3-1.5C16.89 7.86 14.62 6 12.01 6 9.95 6 8.08 7.14 7.13 8.96l-0.50.95-1.070.11A3.99 3.99 0 0 0 2.01 14c0 2.21 1.79 4 4 4h13c1.65 0 3-1.35 3-3 0-1.55-1.23-2.86-2.78-2.96z","opacity":".3"}],["path",{"d":"M19.36 10.04C18.67 6.59 15.65 4 12.01 4a7.5 7.5 0 0 0-6.66 4.04C2.35 8.360.01 10.910.01 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM19.01 18h-13c-2.21 0-4-1.79-4-4 0-2.05 1.53-3.76 3.56-3.97l1.07-0.110.5-0.95A5.46 5.46 0 0 1 12.01 6c2.61 0 4.89 1.86 5.4 4.43l0.3 1.5 1.520.11c1.560.11 2.78 1.41 2.78 2.96 0 1.65-1.35 3-3 3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtWbCloudy;

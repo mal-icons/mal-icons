@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssHPlusMobiledata = createIcon("0 -960 960 960", [["path",{"d":"M160-280v-400h60v170h272v-170h60v400h-60v-170H220v170h-60Zm575-85v-85h-85v-60h85v-85h60v85h85v60h-85v85h-60Z"}]]);
+
+export default MssHPlusMobiledata;

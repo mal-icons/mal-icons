@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdfUpload = createIcon("0 0 24 24", [["path",{"d":"M5 20h14v-2H5v2zm0-10h4v6h6v-6h4l-7-7-7 7z"}]]);
+
+export default MdfUpload;

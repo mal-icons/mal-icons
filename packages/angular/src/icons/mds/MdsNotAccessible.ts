@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-not-accessible",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsNotAccessible {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2c1.1 0 2 0.9 2 2s-0.9 2-2 2-2-0.9-2-2 0.9-2 2-2zm-2 18c-1.66 0-3-1.34-3-3 0-1.310.84-2.41 2-2.83V12.1a5 5 0 1 0 5.9 5.9h-2.07c-0.41 1.16-1.52 2-2.83 2zm11.19 1.19L2.81 2.81 1.39 4.22 10 12.83V17h4.17l5.61 5.61 1.41-1.42zM19 11c-1.540.02-3.09-0.75-4.07-1.83l-1.29-1.43c-0.24-0.24-0.44-0.36-0.63-0.46-0.36-0.19-0.72-0.3-1.2-0.26-0.490.04-0.910.27-1.230.61L14 11.05c1.29 1.07 3.25 1.94 5 1.95v-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsNotAccessible;

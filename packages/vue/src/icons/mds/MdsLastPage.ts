@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsLastPage = createIcon("0 0 24 24", [["path",{"d":"M5.59 7.41 10.18 12l-4.59 4.59L7 18l6-6-6-6-1.41 1.41zM16 6h2v12h-2V6z"}]]);
+
+export default MdsLastPage;

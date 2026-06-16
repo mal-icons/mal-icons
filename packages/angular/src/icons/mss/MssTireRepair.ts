@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-tire-repair",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssTireRepair {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M770-650q-17 0-28.5-11.5T730-690q0-8 3.5-15.5T742-718q12-12 55-27l43-15q-8 23-15 43-6 17-13.5 33T798-662q-5 5-12.5 8.5T770-650ZM140-120q-24.75 0-42.37-17.62T80-180v-600q0-24.75 17.63-42.37T140-840h270q24.75 0 42.38 17.63T470-780v350h160v250h110v-280h-40v-54q-54-23-87-69.78t-33-105.97Q580-769 636-824.5T770.5-880q78.5 0 134 55.6Q960-768.8 960-689.92 960-631 927-584q-33 47-87 70v54h-40v340H570v-250H470v190q0 24.75-17.62 42.38T410-120H140Zm629.88-440Q824-560 862-597.88q38-37.88 38-92Q900-744 862.12-782q-37.88-38-92-38Q716-820 678-782.12q-38 37.88-38 92Q640-636 677.88-598q37.88 38 92 38ZM140-180h270v-124l-80 80v-85l80-80v-115l-80 80v-85l80-80v-125l-80 80v-85l61-61H159l61 61v85l-80-80v125l80 80v85l-80-80v115l80 80v85l-80-80v124Zm135-300Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssTireRepair;

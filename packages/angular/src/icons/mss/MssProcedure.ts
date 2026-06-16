@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-procedure",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssProcedure {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M760-520q-38 0-81-21.5T599-601q-37-38-58.5-81T519-761q0-17.21 5-31.38 5-14.17 15-24.3Q565-843 644.5-862.5 724-882 794-879q24 1 41 5.5t25 12.5q7 7 11.09 21.5Q875.18-825 877-803q5 70-14 153t-45.27 109.27Q808-531 792.5-525.5T760-520Zm43-143q8-32 12-70.5t5-85.37Q772-821 732-817t-75 14q23 14 44 29.67 21 15.67 39 31.33 22 20 37.5 39.5T803-663Zm-32 84q-4-31-21.5-59T696-698q-36-32-64.5-50T580-771q2 32 19.5 68t41.5 60q30 30 61 45.5t69 18.5Zm81 353L668-410H268L66-612l42-42 184 184h400l202 202-42 42ZM330-90v-160q0-25 17.63-42.5T390-310h180q24.75 0 42.38 17.63T630-250v160H330Zm60-60h180v-100H390v100Zm0 0v-100 100Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssProcedure;

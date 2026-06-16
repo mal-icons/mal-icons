@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-edit-road",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrEditRoad {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M719-443v-327q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T779-770v267l-60 60ZM189.83-160Q177-160 168.5-168.62T160-190v-580q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T220-770v580q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm280-484Q457-644 448.5-652.62T440-674v-96q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T500-770v96q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm0 242Q457-402 448.5-410.62T440-432v-96q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T500-528v96q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Zm0 242Q457-160 448.5-168.62T440-190v-96q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T500-286v96q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM883-372l26.1-26.1q9.9-9.9 9.9-24.63 0-14.73-10-24.27l-26.1-26.1q-9.9-9.9-24.63-9.9-14.73 0-24.27 10l-26 26 75 75ZM611-160q-6 0-10.5-4.5T596-175v-54q0-1 4-11l187-186 75 75-186.19 187.18Q674-162 665-160h-54Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrEditRoad;

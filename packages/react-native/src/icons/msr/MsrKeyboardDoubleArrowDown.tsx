@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrKeyboardDoubleArrowDown = createIcon("0 -960 960 960", [["path",{"d":"M480-465q-6 0-11-2t-10-7L261-672q-9-9-9-21t9-21q9-9 21-9t21 9l177 177 177-177q9-9 21-9t21 9q9 9 9 21t-9 21L501-474q-5 5-10 7t-11 2Zm0 253q-6 0-11-2t-10-7L261-419q-9-9-9-21t9-21q9-9 21-9t21 9l177 177 177-177q9-9 21-9t21 9q9 9 9 21t-9 21L501-221q-5 5-10 7t-11 2Z"}]]);
+
+export default MsrKeyboardDoubleArrowDown;

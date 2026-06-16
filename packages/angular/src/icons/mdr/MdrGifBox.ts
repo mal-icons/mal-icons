@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-gif-box",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrGifBox {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 3H5c-1.1 0-2 0.9-2 2v14c0 1.10.9 2 2 2h14c1.1 0 2-0.9 2-2V5c0-1.1-0.9-2-2-2zm-8.5 7.5c0 0.28-0.220.5-0.50.5H8.5v2h1v-0.5c0-0.290.25-0.530.55-0.50.260.020.450.260.450.52V13c0 0.55-0.45 1-1 1h-1c-0.55 0-1-0.45-1-1v-2c0-0.550.45-1 1-1H10c0.28 0 0.50.220.50.5zM12 10c0.28 0 0.50.220.50.5v3c0 0.28-0.220.5-0.50.5s-0.5-0.22-0.5-0.5v-3c0-0.280.22-0.50.5-0.5zm2 4c-0.28 0-0.5-0.22-0.5-0.5v-3c0-0.280.22-0.50.5-0.5h2c0.28 0 0.50.220.50.5s-0.220.5-0.50.5h-1.5v0.5h1c0.28 0 0.50.220.50.5s-0.220.5-0.50.5h-1v1c0 0.28-0.220.5-0.50.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrGifBox;

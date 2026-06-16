@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-blind",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBlind {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M458-774q-30 0-51.5-21.5T385-847q0-31 21.5-52t51.5-21q31 0 52 21t21 52q0 30-21 51.5T458-774Zm27 714q-12 0-21-9t-9-21v-189l-85-95-8 136q-1 8-4 16t-8 16L258-84q-7 10-19 11.5T216-79q-10-7-11.5-19t5.5-22l86-115-8-191q-2-52 6-110t23-101l-97 56v81q0 12-8.5 21t-21.5 9q-12 0-21-9t-9-21v-82q0-16 8.5-30t22.5-22l136-78q17-11 33-15.5t31-4.5q25 0 43 11.5t27 33.5l26 59q19 43 67.5 70.5T654-529q11 0 18.5 9t7.5 20q0 13-8.5 21.5T650-470h-15L856-88q3 5 1.5 11t-7.5 9q-5 3-11 1.5t-9-6.5L595-479q-42-9-86-39.5T441-585q-11 33-17.5 73t-5.5 72l86 121q6 8 8.5 16.5T515-284v194q0 12-8.5 21T485-60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBlind;

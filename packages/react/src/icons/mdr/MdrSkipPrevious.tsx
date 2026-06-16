@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrSkipPrevious = createIcon("0 0 24 24", [["path",{"d":"M7 6c0.55 0 1 0.45 1 1v10c0 0.55-0.45 1-1 1s-1-0.45-1-1V7c0-0.550.45-1 1-1zm3.66 6.82 5.77 4.07c0.660.47 1.58-0.01 1.58-0.82V7.93c0-0.81-0.91-1.28-1.58-0.82l-5.77 4.07a1 1 0 0 0 0 1.64z"}]]);
+
+export default MdrSkipPrevious;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-fastfood",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFastfood {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.9 5H18V2c0-0.55-0.45-1-1-1s-1 0.45-1 1v3h-3.9c-0.59 0-1.050.51-1 1.1l0.12 1.21C14.9 8.16 18 10.77 18 15l0.02 8h1.7c0.84 0 1.53-0.65 1.63-1.47L22.89 6.1c0.06-0.59-0.4-1.1-0.99-1.1zM15 21H2c-0.55 0-1 0.45-1 1s0.45 1 1 1h13c0.55 0 1-0.45 1-1s-0.45-1-1-1zM2.1 15h12.8c0.62 0 1.11-0.560.99-1.16-0.65-3.23-4.02-4.85-7.39-4.85s-6.73 1.62-7.39 4.85c-0.120.60.38 1.160.99 1.16zM15 17H2c-0.55 0-1 0.45-1 1s0.45 1 1 1h13c0.55 0 1-0.45 1-1s-0.45-1-1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFastfood;

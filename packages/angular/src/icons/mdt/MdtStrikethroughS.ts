@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-strikethrough-s",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtStrikethroughS {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.44 5.88c0.19-0.150.43-0.270.72-0.360.29-0.090.64-0.13 1.03-0.130.4 0 0.760.06 1.060.160.30.110.550.250.750.44s0.350.410.440.68c0.10.260.150.540.150.85h3.01c0-0.66-0.13-1.26-0.38-1.81s-0.61-1.03-1.08-1.43a4.94 4.94 0 0 0-1.69-0.94c-0.67-0.23-1.4-0.34-2.21-0.34-0.79 0-1.520.1-2.180.29-0.650.2-1.220.48-1.70.83-0.480.36-0.850.79-1.11 1.29-0.270.51-0.4 1.06-0.4 1.67 0 0.640.13 1.190.39 1.670.040.080.10.170.150.25H12c-0.64-0.22-1.03-0.45-1.41-0.7-0.49-0.33-0.74-0.73-0.74-1.21 0-0.230.05-0.450.15-0.66s0.25-0.390.44-0.55zM3 12h9.62c0.180.070.40.140.550.20.370.170.660.340.870.510.210.170.350.360.430.570.070.20.110.430.110.69 0 0.23-0.050.45-0.140.66-0.090.2-0.230.38-0.420.53-0.190.15-0.420.26-0.710.35-0.290.08-0.630.13-1.010.13-0.43 0-0.83-0.04-1.18-0.13s-0.66-0.23-0.91-0.42-0.45-0.44-0.59-0.75-0.25-0.76-0.25-1.21H6.4c0 0.550.08 1.130.24 1.580.160.450.370.850.65 1.210.280.350.60.660.980.920.370.260.780.48 1.220.65s0.90.3 1.380.39c0.480.080.960.13 1.440.130.8 0 1.53-0.09 2.18-0.280.65-0.19 1.21-0.45 1.67-0.790.46-0.340.82-0.77 1.07-1.27s0.38-1.070.38-1.71c0-0.6-0.1-1.14-0.31-1.61-0.05-0.11-0.11-0.23-0.17-0.33H21V10H3v2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtStrikethroughS;

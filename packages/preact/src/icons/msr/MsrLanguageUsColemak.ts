@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrLanguageUsColemak = createIcon("0 -960 960 960", [["path",{"d":"M570-340h170v-280H570v280Zm-350 60q-24 0-42-18t-18-42v-280q0-24 18-42t42-18h170q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T390-620H220v280h170q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T390-280H220Zm350 0q-24 0-42-18t-18-42v-280q0-24 18-42t42-18h170q24 0 42 18t18 42v280q0 24-18 42t-42 18H570Z"}]]);
+
+export default MsrLanguageUsColemak;

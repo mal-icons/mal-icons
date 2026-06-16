@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-page-info",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoPageInfo {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M700-130q-58 0-99-41t-41-99q0-58 41-99t99-41q58 0 99 41t41 99q0 58-41 99t-99 41Zm-0.23-60Q733-190 756.5-213.26q23.5-23.26 23.5-56.5Q780-303 756.74-326.5q-23.26-23.5-56.5-23.5Q667-350 643.5-326.73q-23.5 23.26-23.5 56.5Q620-237 643.27-213.5q23.26 23.5 56.5 23.5ZM120-240v-60h360v60H120Zm140-310q-58 0-99-41t-41-99q0-58 41-99t99-41q58 0 99 41t41 99q0 58-41 99t-99 41Zm-0.23-60Q293-610 316.5-633.26q23.5-23.26 23.5-56.5Q340-723 316.74-746.5q-23.26-23.5-56.5-23.5Q227-770 203.5-746.73q-23.5 23.26-23.5 56.5Q180-657 203.27-633.5q23.26 23.5 56.5 23.5ZM480-660v-60h360v60H480Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoPageInfo;

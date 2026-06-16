@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrTab = createIcon("0 -960 960 960", [["path",{"d":"M140-220h680v-347H554q-12.75 0-21.37-8.62T524-597v-143H140v520Zm0 60q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H140Zm0-60v-520 520Z"}]]);
+
+export default MsrTab;

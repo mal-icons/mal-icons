@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-sledding",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsSledding {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14 4.5c0 1.1-0.9 2-2 2s-2-0.9-2-2 0.9-2 2-2 2 0.9 2 2zm3.22 13.4 1.930.63-0.46 1.43-3.32-1.08-0.47 1.42 3.32 1.08c1.310.43 2.72-0.29 3.15-1.610.43-1.31-0.29-2.72-1.61-3.15l0.46-1.43c2.10.68 3.25 2.94 2.57 5.04a4 4 0 0 1-5.04 2.57L1 17.36l0.46-1.43 3.93 1.280.46-1.43-3.92-1.280.46-1.43L4 13.6V9.5l5.47-2.35c0.39-0.170.84-0.21 1.28-0.070.950.31 1.46 1.32 1.16 2.27l-1.05 3.24L14.5 12l2.72 5.9zM6 14.25l0.480.160.75-2.310.69-2.1-1.920.82v3.43zm7.94 4.16-6.66-2.16-0.46 1.43 6.66 2.160.46-1.43zm0.69-1.36-1.18-2.56-3.970.89 5.15 1.67z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsSledding;

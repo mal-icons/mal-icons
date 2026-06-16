@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-scene",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssScene {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M820-80v-610q0-38-26-64t-64-26h-50v62q0 7.71-5.14 12.86Q669.71-700 662-700H438q-10 0-14.5-11t-0.5-19l76-164q5-12 16.4-19 11.4-7 26.6-7h92q19.71 0 32.86 15T680-870v30h50q63 0 106.5 43.5T880-690v610h-60ZM503-760h117v-100h-72l-45 100ZM190-80q-46.75 0-78.37-31.62T80-190v-100q0-29 22-55.69 22-26.69 58-32.31v-102q0-24.75 17.63-42.37T220-540h340q24.75 0 42.38 17.63T620-480v102q36 5.6 58 30.8 22 25.2 22 57.2v100q0 46.75-31.62 78.38T590-80H190Zm30-400v115q18 15 29 33.92 11 18.92 11 41.08v30h260v-30q0-22.15 11-41.08T560-365v-115H220Zm-30 340h400q22.5 0 36.25-15.62T640-190v-100q0-13.5-8.25-21.75T610-320q-13.5 0-21.75 8.25T580-290v90H200v-90q0-13.5-8.25-21.75T170-320q-13.5 0-21.75 8.25T140-290v100q0 18.75 13.75 34.38T190-140Zm330-120H260h260ZM220-480h340-340Zm-20 340h380-380Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssScene;

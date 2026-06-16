@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-stream",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrStream {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"20","cy":"12","r":"2"}],["circle",{"cx":"4","cy":"12","r":"2"}],["circle",{"cx":"12","cy":"20","r":"2"}],["path",{"d":"m7.89 14.65-2.94 2.93a11 0 1 0 1.41 1.41l2.94-2.93a11 0 1 0-1.41-1.41zM6.41 4.94A11 0 1 0 5 6.35l2.93 2.94c0.390.39 1.020.39 1.42 0 0.38-0.390.38-1.02-0.01-1.41L6.41 4.94zm9.71 9.71c-0.39-0.39-1.02-0.39-1.42 0a11 0 0 0 0 1.41L17.64 19a11 0 1 0 1.41-1.41l-2.93-2.94zm-0.06-5.32 2.99-2.98c0.39-0.40.39-1.03 0-1.42a11 0 0 0-1.41 0l-2.99 2.98c-0.390.39-0.39 1.02 0 1.420.390.39 1.020.39 1.41 0z"}],["circle",{"cx":"12","cy":"4","r":"2"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrStream;

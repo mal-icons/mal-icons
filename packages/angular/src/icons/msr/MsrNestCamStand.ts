@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-nest-cam-stand",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNestCamStand {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M360-668q-50 29-81 78t-35 109l-25 301h523l-26-302q-4-60-35-108.5T600-668v108q0 50-35 85t-85 35q-50 0-85-35t-35-85v-108Zm120 168q25.5 0 42.75-17.25T540-560v-160q0-25.5-17.25-42.75T480-780q-25.5 0-42.75 17.25T420-720v160q0 25.5 17.25 42.75T480-500ZM218-120q-26.14 0-44.07-19.5Q156-159 158-185l26-303q6-85 54.27-150 48.27-65 122.69-97Q367-780 400.5-810t79.5-30q46 0 79.5 29.78Q593-780.43 599-735q74 31.87 122.5 97.11T776-488l26 303q2 26-15.93 45.5Q768.15-120 742-120H218Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNestCamStand;

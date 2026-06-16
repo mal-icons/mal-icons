@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssDisabledByDefault = createIcon("0 -960 960 960", [["path",{"d":"M180-180h600v-600H180v600Zm-60 60v-720h720v720H120Zm216-174 144-144 144 144 42-42-144-144 144-144-42-42-144 144-144-144-42 42 144 144-144 144 42 42ZM180-180v-600 600Z"}]]);
+
+export default MssDisabledByDefault;

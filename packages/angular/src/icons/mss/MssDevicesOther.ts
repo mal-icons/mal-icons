@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-devices-other",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssDevicesOther {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M280-160H80v-640h720v60H140v520h140v60Zm100 0v-66q-18-17-29-37.76-11-20.76-11-46.24 0-25.48 11-46.24Q362-377 380-394v-66h140v66q18 17 29 37.76 11 20.76 11 46.24 0 25.48-11 46.24Q538-243 520-226v66H380Zm69.77-80Q480-240 500-259.77q20-19.77 20-50Q520-340 500.23-360q-19.77-20-50-20Q420-380 400-360.23q-20 19.77-20 50Q380-280 399.77-260q19.77 20 50 20ZM620-160v-420h260v420H620Zm60-60h140v-300H680v300Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssDevicesOther;

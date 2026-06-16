@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-accessible-forward",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoAccessibleForward {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M393.19-82Q314-82 257-139q-57-57-57-136t57-136q57-57 136-57v60q-54 0-93.5 39.5T260-275q0 54 39.5 93.5T393-142q54 0 92.5-37.5T524-286h60q0 93-55.81 148.5-55.81 55.5-135 55.5ZM727-112v-204H510q-49 0-73.5-38t-4.5-81l86-189h-94l-27 73-60-20 28-75q5-18 18.5-28t35.64-10H611q40 0 62.5 32t6.5 66l-90 191h122q30.94 0 52.97 22.17Q787-350.66 787-319.53V-112h-60Zm-14.92-604q-30.08 0-51.58-21.42-21.5-21.42-21.5-51.5 0-30.08 21.42-51.58 21.42-21.5 51.5-21.5 30.08 0 51.58 21.42 21.5 21.42 21.5 51.5 0 30.08-21.42 51.58-21.42 21.5-51.5 21.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoAccessibleForward;

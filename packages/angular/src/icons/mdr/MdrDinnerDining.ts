@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-dinner-dining",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrDinnerDining {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m2.85 19.85 1 1c0.10.10.220.150.360.15H19.8c0.13 0 0.26-0.050.35-0.15l1-1a0.50.5 0 0 0-0.35-0.85H3.21a0.50.5 0 0 0-0.360.85zM3 18h16.97c0.29-3.26-2.28-6-5.48-6-2.35 0-4.35 1.48-5.14 3.55-0.41-0.23-0.87-0.38-1.35-0.47V9h1.75C10.99 9 12 7.99 12 6.75h8.25c0.41 0 0.75-0.340.75-0.75s-0.34-0.75-0.75-0.75H12C12 4.01 10.99 3 9.75 3h-6c-0.41 0-0.750.34-0.750.75s0.340.750.750.75H4v0.75h-0.25c-0.41 0-0.750.34-0.750.75s0.340.750.750.75H4v0.75h-0.25c-0.41 0-0.750.34-0.750.75s0.340.750.750.75H4v7.39c-0.440.46-0.78 1-1 1.61zM8 4.5h2v0.75H8V4.5zm0 2.25h2v0.75H8v-0.75zM5.5 4.5h1v0.75h-1V4.5zm0 2.25h1v0.75h-1v-0.75zM5.5 9h1v6.06c-0.350.06-0.680.17-1 0.3V9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrDinnerDining;

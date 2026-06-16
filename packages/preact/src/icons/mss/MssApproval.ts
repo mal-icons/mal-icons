@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssApproval = createIcon("0 -960 960 960", [["path",{"d":"M160-80v-320h640v320H160Zm60-160h520v-100H220v100Zm260-160L281-680q0-83 58.21-141.5Q397.42-880 480-880q82.59 0 140.79 58.5Q679-763 679-680L480-400Zm0-78 139-196v-6q0-58.33-40.56-99.17Q537.88-820 479.94-820T381.5-779.17Q341-738.33 341-680v6l139 196Zm0 0Z"}]]);
+
+export default MssApproval;

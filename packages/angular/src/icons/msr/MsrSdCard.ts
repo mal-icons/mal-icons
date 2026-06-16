@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-sd-card",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSdCard {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M413.18-528q12.83 0 21.33-8.62T443-558v-97q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T383-655v97q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63Zm119 0q12.83 0 21.33-8.62T562-558v-97q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T502-655v97q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63Zm119 0q12.83 0 21.33-8.62T681-558v-97q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T621-655v97q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63ZM220-80q-24 0-42-18t-18-42v-476q0-12.44 5-23.72T178-659l203-203q8-8 19.28-13 11.28-5 23.72-5h316q24 0 42 18t18 42v680q0 24-18 42t-42 18H220Zm0-60h520v-680H426L220-613.87V-140Zm0 0h520-520Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSdCard;

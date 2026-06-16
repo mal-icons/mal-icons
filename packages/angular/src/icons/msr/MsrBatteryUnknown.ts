@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-battery-unknown",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBatteryUnknown {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M320-80q-17 0-28.5-11.5T280-120v-640q0-17 11.5-28.5T320-800h80v-50q0-12.75 8.63-21.37T430-880h100q12.75 0 21.38 8.63T560-850v50h80q17 0 28.5 11.5T680-760v640q0 17-11.5 28.5T640-80H320Zm152.88-165Q487-245 497.5-255.38q10.5-10.38 10.5-24.5Q508-294 497.62-304.5q-10.38-10.5-24.5-10.5Q459-315 448.5-304.62q-10.5 10.38-10.5 24.5Q438-266 448.38-255.5q10.38 10.5 24.5 10.5ZM475-367q8.43 0 15.72-6Q498-379 500-389q10-48 47-71t37-74q0-48.17-30-75.08Q524-636 473-636q-31 0-56.5 14T375-582q-5 9-0.91 18.82 4.09 9.82 14.73 13.91Q397-546 405-549.5q8-3.5 14-11.5 9-14 23-21t31-7q29 0 45.5 14t16.5 40q0 21-11.44 34.5t-26 27Q483-460 469.5-442 456-424 451-393.45 449-382 456.37-374.5 463.73-367 475-367Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBatteryUnknown;

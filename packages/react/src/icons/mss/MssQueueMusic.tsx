@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssQueueMusic = createIcon("0 -960 960 960", [["path",{"d":"M640.12-160Q591-160 556-193.56q-35-33.56-35-81.5t33.54-81.44Q588.08-390 636-390q16 0 31.5 3t30.5 10v-343h182v71H758v375q0 47.5-34.38 80.75-34.38 33.25-83.5 33.25ZM120-330v-60h306v60H120Zm0-165v-60h473v60H120Zm0-165v-60h473v60H120Z"}]]);
+
+export default MssQueueMusic;

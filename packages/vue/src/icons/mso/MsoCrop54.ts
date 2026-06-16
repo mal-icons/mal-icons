@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoCrop54 = createIcon("0 -960 960 960", [["path",{"d":"M180-160q-24 0-42-18t-18-42v-520q0-24 18-42t42-18h600q24 0 42 18t18 42v520q0 24-18 42t-42 18H180Zm0-60h600v-520H180v520Zm0 0v-520 520Z"}]]);
+
+export default MsoCrop54;

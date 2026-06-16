@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-production-quantity-limits",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrProductionQuantityLimits {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M289.79-80Q260-80 239-101.21q-21-21.21-21-51Q218-182 239.21-203q21.21-21 51-21Q320-224 341-202.79q21 21.21 21 51Q362-122 340.79-101q-21.21 21-51 21Zm404 0Q664-80 643-101.21q-21-21.21-21-51Q622-182 643.21-203q21.21-21 51-21Q724-224 745-202.79q21 21.21 21 51Q766-122 744.79-101q-21.21 21-51 21ZM480-584q-14.45 0-24.22-9.77Q446-603.55 446-618q0-14.45 9.78-24.22Q465.55-652 480-652q14.45 0 24.23 9.78Q514-632.45 514-618q0 14.45-9.77 24.23Q494.45-584 480-584Zm-30-136v-200h60v200h-60ZM290-287q-40.06 0-60.53-34Q209-355 229-390l61-111-150-319H92q-12.75 0-21.37-8.68Q62-837.35 62-850.17 62-863 70.63-871.5T92-880h67q9 0 16.2 4.43Q182.4-871.13 186-863l162 347h292l148-265q3.68-6.75 10.32-10.87Q804.95-796 813.05-796 830-796 838.5-781.5t0.5 29.5L695-491q-9.17 16.67-24.58 25.83Q655-456 634-456H334l-62 109h464q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T736-287H290Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrProductionQuantityLimits;

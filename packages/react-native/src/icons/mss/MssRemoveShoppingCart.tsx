@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssRemoveShoppingCart = createIcon("0 -960 960 960", [["path",{"d":"M858-800 667-452h-62l-59-60h85l126-228H316l-60-60h602ZM287-81q-30 0-51-21t-21-51q0-30 21-51t51-21q30 0 51 21t21 51q0 30-21 51t-51 21Zm564 46L595-289H170l122-204-86-187L46-840l43-43L894-78l-43 43ZM535-349 434-453h-95l-63 104h259Zm11-163h85-85ZM688-81q-29 0-50.5-21T616-153q0-30 21.5-51t50.5-21q29 0 50.5 21t21.5 51q0 30-21.5 51T688-81Z"}]]);
+
+export default MssRemoveShoppingCart;

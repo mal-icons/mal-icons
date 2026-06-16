@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-phonelink-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPhonelinkOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m318-740-60-60h541q13 0 21.5 8.5T829-770q0 13-8.5 21.5T799-740H318Zm545 546-60-60v-366H563v125l-60-60v-86q0-17 11-28t28-11h272q19 0 34 10.5t15 27.5v448Zm-136 34H542q-17 0-28-13.5T503-204v-180L209-678v428h189q19 0 32 13t13 32q0 19-13 32t-32 13H108q-19 0-32-13t-13-32q0-19 13-32t32-13h41v-488l-47-46q-3-3 2-15t9.5-23q4.5-11 3.5-15t-15 10q9-9 21-9t21 9l708 707q3 3-2 15.5t-9.5 23Q836-71 837-67.5T852-78q-9 9-21.5 9T809-78l-82-82Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPhonelinkOff;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssFinance = createIcon("0 -960 960 960", [["path",{"d":"M120-120v-720h60v660h660v60H120Zm135-135v-334h119v334H255Zm198 0v-540h119v540H453Zm194 0v-170h119v170H647Z"}]]);
+
+export default MssFinance;

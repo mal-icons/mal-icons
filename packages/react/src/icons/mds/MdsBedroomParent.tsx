@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdsBedroomParent = createIcon("0 0 24 24", [["path",{"d":"M6.5 12h11v2h-11zm0.75-3.5h4v2h-4zm5.5 0h4v2h-4z"}],["path",{"d":"M22 2H2v20h20V2zm-3 15h-1.5v-1.5h-11V17H5v-5l0.65-0.55V7H11c0.37 0 0.720.12 1 0.320.28-0.20.63-0.32 1-0.32h5.35v4.45L19 12v5z"}]]);
+
+export default MdsBedroomParent;

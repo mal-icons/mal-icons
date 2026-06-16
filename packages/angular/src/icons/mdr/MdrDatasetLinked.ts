@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-dataset-linked",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrDatasetLinked {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.09 17H7v-4h3.69c0.95-0.63 2.09-1 3.31-1h6c0.34 0 0.670.04 1 0.09V5c0-1.1-0.9-2-2-2H5c-1.1 0-2 0.9-2 2v14c0 1.10.9 2 2 2h3.81C8.3 20.12 8 19.09 8 18c0-0.340.04-0.670.09-1zM13 7h4v4h-4V7zM7 7h4v4H7V7z"}],["path",{"d":"M12.03 17.66c0.16-0.98 1.09-1.66 2.08-1.66H15c0.55 0 1-0.45 1-1s-0.45-1-1-1h-0.83c-2.09 0-3.95 1.53-4.15 3.61A4 4 0 0 0 14 22h1c0.55 0 1-0.45 1-1s-0.45-1-1-1h-1c-1.21 0-2.18-1.09-1.97-2.34zm7.8-3.66H19c-0.55 0-1 0.45-1 1s0.45 1 1 1h0.89c1 0 1.920.68 2.08 1.660.21 1.25-0.76 2.34-1.97 2.34h-1c-0.55 0-1 0.45-1 1s0.45 1 1 1h1c2.34 0 4.21-2.01 3.98-4.39-0.2-2.08-2.06-3.61-4.15-3.61z"}],["path",{"d":"M15 19h4c0.55 0 1-0.45 1-1s-0.45-1-1-1h-4c-0.55 0-1 0.45-1 1s0.45 1 1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrDatasetLinked;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssPublish = createIcon("0 -960 960 960", [["path",{"d":"M450-160v-371L330-411l-43-43 193-193 193 193-43 43-120-120v371h-60ZM160-597v-203h640v203h-60v-143H220v143h-60Z"}]]);
+
+export default MssPublish;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-view-in-ar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfViewInAr {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m18.25 7.6-5.5-3.18a1.49 1.49 0 0 0-1.5 0L5.75 7.6c-0.460.27-0.750.76-0.75 1.3v6.35c0 0.540.29 1.030.75 1.3l5.5 3.18c0.460.27 1.040.27 1.5 0l5.5-3.18c0.46-0.270.75-0.760.75-1.3V8.9c0-0.54-0.29-1.03-0.75-1.3zM7 14.96v-4.62l4 2.32v4.61l-4-2.31zm5-4.03L8 8.61l4-2.31 4 2.31-4 2.32zm1 6.34v-4.61l4-2.32v4.62l-4 2.31zM7 2H3.5C2.67 2 2 2.67 2 3.5V7h2V4h3V2zm10 0h3.5c0.83 0 1.50.67 1.5 1.5V7h-2V4h-3V2zM7 22H3.5c-0.83 0-1.5-0.67-1.5-1.5V17h2v3h3v2zm10 0h3.5c0.83 0 1.5-0.67 1.5-1.5V17h-2v3h-3v2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfViewInAr;

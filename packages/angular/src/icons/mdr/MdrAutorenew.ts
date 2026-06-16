@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-autorenew",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrAutorenew {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 6v1.79c0 0.450.540.670.850.35l2.79-2.79c0.2-0.20.2-0.51 0-0.71l-2.79-2.79a0.50.5 0 0 0-0.850.36V4c-4.42 0-8 3.58-8 8 0 1.040.2 2.040.57 2.950.270.67 1.130.85 1.640.340.27-0.270.38-0.680.23-1.04C6.15 13.56 6 12.79 6 12c0-3.31 2.69-6 6-6zm5.79 2.71c-0.270.27-0.380.69-0.23 1.040.280.70.44 1.460.44 2.25 0 3.31-2.69 6-6 6v-1.79c0-0.45-0.54-0.67-0.85-0.35l-2.79 2.79c-0.20.2-0.20.51 0 0.71l2.79 2.79a0.50.5 0 0 0 0.85-0.35V20c4.42 0 8-3.58 8-8 0-1.04-0.2-2.04-0.57-2.95-0.27-0.67-1.13-0.85-1.64-0.34z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrAutorenew;

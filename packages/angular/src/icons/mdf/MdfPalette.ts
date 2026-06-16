@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-palette",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfPalette {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10a2.5 2.5 0 0 0 2.5-2.5c0-0.61-0.23-1.2-0.64-1.67a0.530.53 0 0 1-0.13-0.33c0-0.280.22-0.50.5-0.5H16c3.31 0 6-2.69 6-6 0-4.96-4.49-9-10-9zm5.5 11c-0.83 0-1.5-0.67-1.5-1.5s0.67-1.5 1.5-1.5 1.50.67 1.5 1.5-0.67 1.5-1.5 1.5zm-3-4c-0.83 0-1.5-0.67-1.5-1.5S13.67 6 14.5 6s1.50.67 1.5 1.5S15.33 9 14.5 9zM5 11.5c0-0.830.67-1.5 1.5-1.5s1.50.67 1.5 1.5S7.33 13 6.5 13 5 12.33 5 11.5zm6-4c0 0.83-0.67 1.5-1.5 1.5S8 8.33 8 7.5 8.67 6 9.5 6s1.50.67 1.5 1.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfPalette;

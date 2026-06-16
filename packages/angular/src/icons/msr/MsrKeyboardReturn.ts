@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-keyboard-return",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrKeyboardReturn {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M338-262 142-458q-5-5-7-10.5t-2-10.5q0-6 2-11t7-10l196-196q9-9 22-9.5t22 8.5q9 9 9 21.5t-9 21.5L236-508h544v-142q0-13 8.5-21.5T810-680q13 0 21.5 8.5T840-650v171q0 13-8.5 21.5T810-449H237l145 145q9 9 9 21t-9 21q-9 9-22 9t-22-9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrKeyboardReturn;

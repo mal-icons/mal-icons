@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-ring-volume",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrRingVolume {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.98 7h0.03c0.55 0 0.99-0.440.99-0.98V2.98c0-0.54-0.44-0.98-0.98-0.98h-0.03c-0.55 0-0.990.44-0.990.98v3.03c0 0.550.440.990.980.99zm4.92 2.11c0.390.39 1.010.39 1.4 0 0.62-0.63 1.52-1.54 2.15-2.17a0.970.97 0 0 0 0-1.390.990.99 0 0 0-1.39 0L16.89 7.7a0.970.97 0 0 0 0 1.39l0.010.02zM5.71 9.1c0.380.39 1.010.39 1.4 0a0.990.99 0 0 0 0-1.39L4.96 5.54a0.970.97 0 0 0-1.39 0l-0.020.01a0.970.97 0 0 0 0 1.39c0.630.62 1.54 1.53 2.16 2.16zm17.58 7.13c-6.41-5.66-16.07-5.66-22.48 0-0.850.75-0.85 2.08-0.05 2.88l1.22 1.22c0.720.72 1.860.78 2.660.15l2-1.59c0.48-0.380.76-0.960.76-1.57v-2.6c3.02-0.98 6.29-0.99 9.32 0v2.61c0 0.610.28 1.190.76 1.57l1.99 1.58c0.80.63 1.940.57 2.66-0.15l1.22-1.22c0.79-0.80.79-2.13-0.06-2.88z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrRingVolume;

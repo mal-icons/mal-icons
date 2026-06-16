@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-more-time",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrMoreTime {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.75 8c-0.41 0-0.750.34-0.750.75v4.69c0 0.350.180.670.470.85l3.64 2.24a0.710.71 0 1 0 0.74-1.22L11.5 13.3V8.75c0-0.41-0.34-0.75-0.75-0.75z"}],["path",{"d":"M17.92 12A6.96 6.96 0 0 1 11 20c-3.9 0-7-3.1-7-7s3.1-7 7-7c0.7 0 1.370.1 2 0.29V4.23c-0.64-0.15-1.31-0.23-2-0.23-5 0-9 4-9 9s4 9 9 9a8.96 8.96 0 0 0 8.94-10h-2.02z"}],["path",{"d":"M22 5h-2V3c0-0.55-0.45-1-1-1s-1 0.45-1 1v2h-2c-0.55 0-1 0.45-1 1s0.45 1 1 1h2v2c0 0.550.45 1 1 1s1-0.45 1-1V7h2c0.55 0 1-0.45 1-1s-0.45-1-1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrMoreTime;

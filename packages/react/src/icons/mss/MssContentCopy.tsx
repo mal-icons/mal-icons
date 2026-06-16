@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssContentCopy = createIcon("0 -960 960 960", [["path",{"d":"M120-81v-663h60v603h474v60H120Zm120-120v-680h560v680H240Zm60-60h440v-560H300v560Zm0 0v-560 560Z"}]]);
+
+export default MssContentCopy;

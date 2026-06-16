@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-child-care",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrChildCare {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"14.5","cy":"10.5","r":"1.25"}],["circle",{"cx":"9.5","cy":"10.5","r":"1.25"}],["path",{"d":"M16.1 14H7.9c-0.19 0-0.320.2-0.230.37C8.5 15.94 10.13 17 12 17s3.5-1.06 4.33-2.63a0.260.26 0 0 0-0.23-0.37zm6.84-2.66a4.01 4.01 0 0 0-2.81-3.17 9.11 9.11 0 0 0-2.19-2.91C16.36 3.85 14.28 3 12 3s-4.360.85-5.94 2.26c-0.920.81-1.67 1.8-2.19 2.91a3.99 3.99 0 0 0-2.81 3.17c-0.040.21-0.060.43-0.060.66 0 0.230.020.450.060.66a4.01 4.01 0 0 0 2.81 3.17 8.98 8.98 0 0 0 2.17 2.89C7.62 20.14 9.71 21 12 21s4.38-0.86 5.97-2.28c0.9-0.8 1.65-1.79 2.17-2.89a4 4 0 0 0 2.8-3.17c0.04-0.210.06-0.430.06-0.66 0-0.23-0.02-0.45-0.06-0.66zM19 14c-0.1 0-0.19-0.02-0.29-0.03-0.20.67-0.49 1.29-0.86 1.86C16.6 17.74 14.45 19 12 19s-4.6-1.26-5.85-3.17c-0.37-0.57-0.66-1.19-0.86-1.86-0.10.01-0.190.03-0.290.03-1.1 0-2-0.9-2-2s0.9-2 2-2c0.1 0 0.190.020.290.030.2-0.670.49-1.290.86-1.86C7.4 6.26 9.55 5 12 5s4.6 1.26 5.85 3.17c0.370.570.66 1.190.86 1.860.1-0.010.19-0.030.29-0.03 1.1 0 2 0.9 2 2s-0.9 2-2 2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrChildCare;

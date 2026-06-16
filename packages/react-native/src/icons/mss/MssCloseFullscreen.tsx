@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssCloseFullscreen = createIcon("0 -960 960 960", [["path",{"d":"m122-80-42-42 298-298H180v-60h300v300h-60v-198L122-80Zm358-400v-300h60v198l298-298 42 42-298 298h198v60H480Z"}]]);
+
+export default MssCloseFullscreen;

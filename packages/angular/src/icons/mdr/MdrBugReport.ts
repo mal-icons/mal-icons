@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-bug-report",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrBugReport {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 8h-1.81a5.99 5.99 0 0 0-1.82-1.96l0.93-0.93a11 0 1 0-1.41-1.41l-1.47 1.47C12.96 5.06 12.49 5 12 5s-0.960.06-1.410.17L9.11 3.7A11 0 1 0 7.7 5.11l0.920.93C7.88 6.55 7.26 7.22 6.81 8H5c-0.55 0-1 0.45-1 1s0.45 1 1 1h1.09c-0.050.33-0.090.66-0.09 1v1H5c-0.55 0-1 0.45-1 1s0.45 1 1 1h1v1c0 0.340.040.670.09 1H5c-0.55 0-1 0.45-1 1s0.45 1 1 1h1.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H19c0.55 0 1-0.45 1-1s-0.45-1-1-1h-1.09c0.05-0.330.09-0.660.09-1v-1h1c0.55 0 1-0.45 1-1s-0.45-1-1-1h-1v-1c0-0.34-0.04-0.67-0.09-1H19c0.55 0 1-0.45 1-1s-0.45-1-1-1zm-6 8h-2c-0.55 0-1-0.45-1-1s0.45-1 1-1h2c0.55 0 1 0.45 1 1s-0.45 1-1 1zm0-4h-2c-0.55 0-1-0.45-1-1s0.45-1 1-1h2c0.55 0 1 0.45 1 1s-0.45 1-1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrBugReport;

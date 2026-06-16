@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-leak-add",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoLeakAdd {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M120-404v-60q78 0 146.36-29.6 68.36-29.6 119.5-80.5Q437-625 466.5-693.69T496-840h60q0 90.17-34.19 169.45-34.19 79.27-93.64 138.73-59.45 59.45-138.73 93.64Q210.17-404 120-404Zm0-120v-60q106.24 0 181.12-74.88Q376-733.76 376-840h60q0 132-92 224t-224 92Zm0-120v-196h196q0 81-57.5 138.5T120-644Zm284 524q0-90.17 34.19-169.44 34.19-79.27 93.64-138.73 59.46-59.45 138.73-93.64Q749.83-556 840-556v60q-78 0-146.36 29.6-68.36 29.6-119.5 80.5Q523-335 493.5-266.3T464-120h-60Zm120 0q0-132 92-224t224-92v60q-106.24 0-181.12 74.88Q584-226.24 584-120h-60Zm120 0q0-81 57.5-138.5T840-316v196H644Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoLeakAdd;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-sanitizer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssSanitizer {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M680-650q-20 0-35-15t-15-35.24Q630-714 643.5-737.5T680-785q23 24 36.5 47.4T730-700q0 20-14.58 35-14.58 15-35.42 15Zm110 280q-37 0-63.5-26.5T700-460.09Q700-491 727.5-537.5 755-584 790-625q34 41 62 87.28 28 46.28 28 77.72 0 37-26.1 63.5T790-370ZM360-250h60v-80h80v-60h-80v-80h-60v80h-80v60h80v80ZM220-80q-24 0-42-18t-18-42v-350q0-86 57-150.19Q274-704.38 360-718v-102h-90v-60h240q29.3 0 55.15 8Q591-864 614-849l-44 45q-14-8-28.5-12t-31.5-4h-90v102q86 13.62 143 77.81Q620-576 620-490v350q0 24-18 42t-42 18H220Zm0-60h340v-350q0-71-49.5-120.5t-120-49.5Q320-660 270-610.5T220-490v350Zm0 0h340-340Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssSanitizer;

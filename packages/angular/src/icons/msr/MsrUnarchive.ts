@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-unarchive",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrUnarchive {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M180-120q-24 0-42-18t-18-42v-523q0-12.92 3-24.46Q126-739 134-748l56-76q8-9 19.5-12.5T233-840h494q12 0 23 3.5t19 12.5l57 76q8 9 11 20.54 3 11.54 3 24.46v523q0 24-18 42t-42 18H180Zm17-614h565l-36.41-46H233l-36 46Zm-17 554h600v-494H180v494Zm300.18-98q12.83 0 21.33-8.62T510-308v-165l62 62q9 9 21.5 8.5T615-412q9-9 9-21.5t-9-21.5L501-568q-5-5-10.13-7-5.13-2-11-2Q474-577 469-575q-5 2-10 7L345-454q-9 9-8.5 21t9.5 21q9 9 21.5 9t21.5-9l61-61v165q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63ZM180-180v-494 494Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrUnarchive;

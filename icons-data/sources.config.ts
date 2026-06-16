@@ -36,6 +36,14 @@ export interface IconSource {
    * component names like `WiWiDaySunny`.
    */
   stripPrefix?: string;
+  /**
+   * Optional regular-expression source (matched against the raw `.svg` file
+   * name, case-insensitively) for files to skip. Some sets ship several axes in
+   * a single directory (e.g. Material Symbols stores both the base glyph and a
+   * `-fill` variant side by side); excluding the unwanted axis keeps a set
+   * scoped to a single visual style.
+   */
+  excludePattern?: string;
 }
 
 export const sources: Record<string, IconSource> = {
@@ -250,5 +258,80 @@ export const sources: Record<string, IconSource> = {
     ref: "v0.14.15",
     iconDir: "svg/outlined",
     style: "fill",
+  },
+  mdf: {
+    id: "mdf",
+    prefix: "Mdf",
+    name: "Material Icons Filled",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    ref: "v0.14.15",
+    iconDir: "svg/filled",
+    style: "fill",
+  },
+  mdr: {
+    id: "mdr",
+    prefix: "Mdr",
+    name: "Material Icons Rounded",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    ref: "v0.14.15",
+    iconDir: "svg/round",
+    style: "fill",
+  },
+  mds: {
+    id: "mds",
+    prefix: "Mds",
+    name: "Material Icons Sharp",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    ref: "v0.14.15",
+    iconDir: "svg/sharp",
+    style: "fill",
+  },
+  mdt: {
+    id: "mdt",
+    prefix: "Mdt",
+    name: "Material Icons Two Tone",
+    license: "Apache-2.0",
+    repo: "marella/material-design-icons",
+    ref: "v0.14.15",
+    iconDir: "svg/two-tone",
+    style: "fill",
+  },
+  mso: {
+    id: "mso",
+    prefix: "Mso",
+    name: "Material Symbols Outlined",
+    license: "Apache-2.0",
+    repo: "marella/material-symbols",
+    ref: "v0.9.0",
+    iconDir: "svg/400/outlined",
+    style: "fill",
+    // The directory ships both the base glyph and its `-fill` axis; keep only
+    // the outlined (non-fill) style the user asked for.
+    excludePattern: "-fill\\.svg$",
+  },
+  msr: {
+    id: "msr",
+    prefix: "Msr",
+    name: "Material Symbols Rounded",
+    license: "Apache-2.0",
+    repo: "marella/material-symbols",
+    ref: "v0.9.0",
+    iconDir: "svg/400/rounded",
+    style: "fill",
+    excludePattern: "-fill\\.svg$",
+  },
+  mss: {
+    id: "mss",
+    prefix: "Mss",
+    name: "Material Symbols Sharp",
+    license: "Apache-2.0",
+    repo: "marella/material-symbols",
+    ref: "v0.9.0",
+    iconDir: "svg/400/sharp",
+    style: "fill",
+    excludePattern: "-fill\\.svg$",
   },
 };

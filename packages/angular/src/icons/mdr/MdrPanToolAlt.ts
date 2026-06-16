@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-pan-tool-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrPanToolAlt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.2 15.43c0-0.650.6-1.13 1.24-0.99l3.560.8V4.5c0-0.830.67-1.5 1.5-1.5s1.50.67 1.5 1.5v6h0.91c0.31 0 0.620.070.890.21l4.09 2.04c0.770.38 1.21 1.22 1.09 2.07l-0.63 4.46c-0.140.99-0.99 1.72-1.98 1.72h-6.16c-0.53 0-1.29-0.21-1.66-0.59l-4.07-4.29a0.980.98 0 0 1-0.28-0.69z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrPanToolAlt;

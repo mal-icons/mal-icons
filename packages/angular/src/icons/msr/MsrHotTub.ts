@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-hot-tub",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrHotTub {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M266-627q-29 0-49-20t-20-49q0-29 20-49t49-20q29 0 49 20t20 49q0 29-20 49t-49 20ZM140-80q-24.75 0-42.37-17.62T80-140v-283q0-12.75 8.63-21.37T110-453h92v-56q0-31 21.38-53T276-584q19 0 34.5 8t28.69 22.37L396-490q8 9 18.5 18t25.5 19h410q12.75 0 21.38 8.63T880-423v283q0 24.75-17.62 42.38T820-80H140Zm631-480q-12 0-19.5-8.13T744-589q0-31-11.5-52T702-688q-22-31-32.5-64t-9.5-65q0-9 7.43-16 7.43-7 17.57-7 12 0 20.5 9t8.5 22q0 27 8 46.5t28 45.5q23 29 35.5 65t12.5 68q0 9.88-8.17 16.94Q781.66-560 771-560Zm-158.13 0Q601-560 592.5-568.7 584-577.39 584-591q-1-30-12.5-50.5T542-688q-22-31-32.5-64t-9.5-65q0-9 7.43-16 7.43-7 17.57-7 12 0 20.5 9t8.5 22q0 27 8 46.5t28 45.5q23 29 35.5 65t12.5 69q0 9.47-7 16.24Q624-560 612.87-560ZM710-140h50q12.75 0 21.38-8.62T790-170v-193q0-12.75-8.62-21.37T760-393h-50q-12.75 0-21.37 8.63T680-363v193q0 12.75 8.63 21.38T710-140Zm-170 0h50q12.75 0 21.38-8.62T620-170v-193q0-12.75-8.62-21.37T590-393h-50q-12.75 0-21.37 8.63T510-363v193q0 12.75 8.63 21.38T540-140Zm-170 0h50q12.75 0 21.38-8.62T450-170v-193q0-12.75-8.62-21.37T420-393h-50q-12.75 0-21.37 8.63T340-363v193q0 12.75 8.63 21.38T370-140Zm-170 0h50q12.75 0 21.38-8.62T280-170v-193q0-12.75-8.62-21.37T250-393h-50q-12.75 0-21.37 8.63T170-363v193q0 12.75 8.63 21.38T200-140Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrHotTub;

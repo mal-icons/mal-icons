@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-wifi-calling-1",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrWifiCalling1 {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M660-541q-17 0-28.5-11.5T620-581q0-17 11.5-28.5T660-621q17 0 28.5 11.5T700-581q0 17-11.5 28.5T660-541ZM550.89-654.11Q542-663 542.5-675.5t10.31-19.61Q576-712 603.34-721.5q27.34-9.5 56.5-9.5 29.16 0 56.66 9.5t50.69 26.39Q777-688 777.5-675.5t-8.39 21.39Q762-647 752-647t-19-6q-17-11-35.09-17t-38-6Q640-676 622-670t-35 17q-9 6-19 6t-17.11-7.11Zm-77-79Q465-742 465.5-754t9.5-20q39.18-32.12 86.56-49.56Q608.95-841 659.97-841q51.03 0 98.43 17.44Q805.8-806.12 845-774q9 8 9.5 20t-8.5 20.95q-7.2 7.16-17.1 7.61-9.90.45-18.13-6.95-31.99-25.88-70.38-39.74Q702-786 660-786q-42 0-80.47 13.97Q541.06-758.07 509-732q-8 6-18 6t-17.11-7.11ZM795-120q-122 0-242.5-60T336-336q-96-96-156-216.5T120-795q0-19.29 12.86-32.14T165-840h140q13.61 0 24.31 9.5Q340-821 343-805l27 126q2 14-0.5 25.5T359-634L259-533q56 93 125.5 162T542-254l95-98q10-11 23-15.5t26-1.5l119 26q15.31 3.38 25.16 15.19Q840-316 840-300v135q0 19.29-12.86 32.14T795-120ZM229-588l81-82-23-110H180q0 39 12 85.5T229-588Zm551 408v-107l-103-21-79 83q41 19 89 31t93 14Zm-182-45ZM229-588Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrWifiCalling1;

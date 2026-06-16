@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-mic-double",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMicDouble {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M339.83-120Q327-120 318.5-128.62T310-150v-106q-97-11-165.5-76.5T63-492q-2-14 5.5-25.5T90-529q14 0 22.5 10.5T123-494q13 78 74.2 129T340-314h9.39q4.7 0 9.39-1 12.21 14 25.62 26.95Q397.81-275.1 413-264q-11.03 3-21.52 4.5Q381-258 370-256v106q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM620-423q-43 0-72-30.92-29-30.92-29-75.08v-251q0-41.67 29.44-70.83Q577.88-880 619.94-880t71.56 29.17Q721-821.67 721-780v251q0 44.17-29 75.08Q663-423 620-423Zm0-60q18 0 29.5-13.5T661-529v-251q0-17-11.79-28.5Q637.42-820 620-820t-29.21 11.5Q579-797 579-780v251q0 19 11.5 32.5T620-483Zm-326 48q-26-14-40.5-39.5T239-529v-251q0-41.67 29.44-70.83Q297.88-880 339.94-880t71.56 29.17Q441-821.67 441-780v227q-13-17-31.37-26.5Q391.27-589 370-589q-36.85 0-62.43 27Q282-535 282-496.65q0 15.65 3.53 30.99Q289.06-450.33 294-435Zm326 121q81.6 0 142.8-51Q824-416 837-494q2-14 10.5-24.5T870-529q14 0 21.5 11.5T897-492q-13 94-81.5 159.5T650-256v106q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T590-150v-106q-97-11-165.5-76.5T343-492q-2-14 5.5-25.5T370-529q14 0 22.5 10.5T403-494q13 78 74.2 129T620-314Zm0-338Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMicDouble;

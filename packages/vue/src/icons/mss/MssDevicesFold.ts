@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssDevicesFold = createIcon("0 -960 960 960", [["path",{"d":"M410-120v-725l260-112v117h210v720H410Zm60-96v-589 589Zm67 36h283v-600H670v544l-133 56ZM80-780v-60h60v60H80Zm0 660v-60h60v60H80Zm0-165v-60h60v60H80Zm0-165v-60h60v60H80Zm0-165v-60h60v60H80Zm165-165v-60h60v60h-60Zm0 660v-60h60v60h-60Zm225-96 140-60v-589l-140 60v589Z"}]]);
+
+export default MssDevicesFold;

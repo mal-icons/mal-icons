@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-format-color-text",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFormatColorText {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 20H4c-1.1 0-2 0.9-2 2s0.9 2 2 2h16c1.1 0 2-0.9 2-2s-0.9-2-2-2zM7.11 17c0.48 0 0.91-0.3 1.06-0.75l1.01-2.83h5.65l0.99 2.82c0.160.460.590.76 1.070.760.79 0 1.33-0.79 1.05-1.52L13.69 4.17C13.43 3.47 12.75 3 12 3s-1.430.47-1.69 1.17L6.06 15.48c-0.280.730.27 1.52 1.05 1.52zm4.83-11.4h0.12l2.03 5.79H9.91l2.03-5.79z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFormatColorText;

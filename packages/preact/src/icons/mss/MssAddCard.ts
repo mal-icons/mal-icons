@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssAddCard = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-640h800v299H140v281h399v60H80Zm60-480h680v-100H140v100ZM780-80v-120H660v-60h120v-120h60v120h120v60H840v120h-60ZM140-220v-520 520Z"}]]);
+
+export default MssAddCard;

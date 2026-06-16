@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-cookie",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssCookie {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M420.12-558Q446-558 464-576.12q18-18.12 18-44Q482-646 463.88-664q-18.12-18-44-18Q394-682 376-663.88q-18 18.12-18 44Q358-594 376.12-576q18.12 18 44 18Zm-80 200Q366-358 384-376.12q18-18.12 18-44Q402-446 383.88-464q-18.12-18-44-18Q314-482 296-463.88q-18 18.12-18 44Q278-394 296.12-376q18.12 18 44 18ZM600-320q17 0 28.5-11.5T640-360q0-17-11.5-28.5T600-400q-17 0-28.5 11.5T560-360q0 17 11.5 28.5T600-320ZM480.23-80Q398-80 325-111.5q-73-31.5-127.5-86t-86-127.5Q80-398 80-480q0-92 39-172t104.5-135.5q65.5-55.5 151-80T552-874q-6 45 8 85t42.5 68q28.5 28 68.5 41t84 6q-20 61 22 109.5T879-511q8 87-20.5 165T775-209q-55 59-130.79 94-75.79 35-163.97 35ZM480-140q142 0 236-93.5T821-464q-54-20-87.5-59.5T692-614q-81-11-136.5-70T492-821q-74-3-138.5 24t-112 74Q194-676 167-612.5T140-480q0 142 99 241t241 99Zm1-345Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssCookie;

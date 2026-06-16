@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssToolsLadder = createIcon("0 -960 960 960", [["path",{"d":"m188-120 200-720h58l-36 130h266l37-130h58L572-120h-58l35-130H283l-37 130h-58Zm167-390h266l39-140H394l-39 140Zm-56 200h267l39-140H338l-39 140Z"}]]);
+
+export default MssToolsLadder;

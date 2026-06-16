@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-wheelchair-pickup",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrWheelchairPickup {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.5 4c0-1.110.89-2 2-2s2 0.89 2 2-0.89 2-2 2-2-0.89-2-2zm5.5 6.95V9c0-1.1-0.9-2-2-2H5c-1.1 0-2 0.9-2 2v5c0 0.550.45 1 1 1h1v6c0 0.550.45 1 1 1h2.5v-0.11c-1.24-1.26-2-2.99-2-4.89 0-2.58 1.41-4.84 3.5-6.05zM16.5 17c0 1.65-1.35 3-3 3s-3-1.35-3-3c0-1.110.61-2.06 1.5-2.58v-2.16c-2.020.64-3.5 2.51-3.5 4.74 0 2.76 2.24 5 5 5s5-2.24 5-5h-2zm2.5-3h-4V9c0-0.55-0.45-1-1-1s-1 0.45-1 1v6c0 0.550.45 1 1 1h4.46l1.92 2.88c0.310.460.930.58 1.390.280.46-0.310.58-0.930.28-1.39l-2.21-3.32c-0.19-0.28-0.51-0.45-0.84-0.45z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrWheelchairPickup;

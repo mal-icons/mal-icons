@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-sports-martial-arts",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSportsMartialArts {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.06 2.6 11.6 8.7l-1.21-1.04 2.48-1.43a1 1 0 0 0 0.21-1.57l-2.95-2.95a11 0 1 0-1.41 1.41l2.03 2.03-5.4 3.11a0.990.99 0 0 0-0.460.6l-0.96 3.49c-0.070.26-0.040.530.10.77l1.74 3.02c0.280.480.890.64 1.370.370.48-0.280.64-0.890.37-1.37l-1.53-2.660.36-1.29L9.5 13l0.44 8c0.030.560.49 1 1.05 1s1.02-0.44 1.05-1l0.45-9 7.87-7.96a0.970.97 0 0 0-1.3-1.44z"}],["circle",{"cx":"5","cy":"5","r":"2"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSportsMartialArts;

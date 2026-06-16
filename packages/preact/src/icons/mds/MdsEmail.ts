@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsEmail = createIcon("0 0 24 24", [["path",{"d":"M22 4H2v16h20V4zm-2 4-8 5-8-5V6l8 5 8-5v2z"}]]);
+
+export default MdsEmail;

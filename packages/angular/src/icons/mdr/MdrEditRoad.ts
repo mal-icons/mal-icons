@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-edit-road",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrEditRoad {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 4c-0.55 0-1 0.45-1 1v6.9l2-2V5c0-0.55-0.45-1-1-1zM5 20c0.55 0 1-0.45 1-1V5c0-0.55-0.45-1-1-1s-1 0.45-1 1v14c0 0.550.45 1 1 1zm6-12c0.55 0 1-0.45 1-1V5c0-0.55-0.45-1-1-1s-1 0.45-1 1v2c0 0.550.45 1 1 1zm0 6c0.55 0 1-0.45 1-1v-2c0-0.55-0.45-1-1-1s-1 0.45-1 1v2c0 0.550.45 1 1 1zm0 6c0.55 0 1-0.45 1-1v-2c0-0.55-0.45-1-1-1s-1 0.45-1 1v2c0 0.550.45 1 1 1zm11.56-7.41-1.15-1.15a1.49 1.49 0 0 0-2.12 0L14 16.73v2.77c0 0.280.220.50.50.5h2.77l5.29-5.29c0.59-0.590.59-1.54 0-2.12zm-5.98 5.86h-1.03v-1.03L19 13.97 20.03 15l-3.45 3.45z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrEditRoad;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-person-celebrate",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoPersonCelebrate {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M373-120v-212.68Q309-338 246-346.5T120-370l15-60q85 20 171.14 28.5 86.14 8.5 174.31 8.5 87.15 0 173.29-8.5T825-430l15 60q-63 15-125.81 23.61Q651.39-337.78 587-333v213H373Zm107-334q-30 0-51.5-21.5T407-527.45Q407-557 428.5-578.5t51.95-21.5Q510-600 531.5-578.56T553-527q0 30-21.44 51.5T480-454ZM169.9-570Q149-570 134.5-584.5T120-619.9Q120-640 134.5-655t35.4-15Q190-670 205-655t15 35.1Q220-599 205-584.5T169.9-570Zm620 0Q769-570 754.5-584.5T740-619.9Q740-640 754.5-655t35.4-15Q810-670 825-655t15 35.1Q840-599 825-584.5T789.9-570Zm-500-150Q269-720 254.5-734.5T240-769.9Q240-790 254.5-805t35.4-15Q310-820 325-805t15 35.1Q340-749 325-734.5T289.9-720Zm380 0Q649-720 634.5-734.5T620-769.9Q620-790 634.5-805t35.4-15Q690-820 705-805t15 35.1Q720-749 705-734.5T669.9-720Zm-190-60Q459-780 444.5-794.5T430-829.9Q430-850 444.5-865t35.4-15Q500-880 515-865t15 35.1Q530-809 515-794.5T479.9-780Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoPersonCelebrate;

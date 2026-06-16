@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssMagnifyDocked = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-640h800v640H80Zm60-149h680v-431H140v431Zm430-96h60v-90h90v-60h-90v-90h-60v90h-90v60h90v90Z"}]]);
+
+export default MssMagnifyDocked;

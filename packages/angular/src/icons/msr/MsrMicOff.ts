@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-mic-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMicOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m686-361-43-43q17-21 26.5-46t12.5-52q2.24-11.25 10.81-19.12Q701.39-529 711.83-529 726-529 735-519.5t7 22.5q-5 37-19 72t-37 64ZM558-489l-53-52v-238q0-17.42-11.79-29.21Q481.43-820 464-820q-17.42 0-29.21 11.79Q423-796.42 423-779v155l-60-60v-95q0-42.08 29.44-71.54Q421.88-880 463.94-880t71.56 29.46Q565-821.08 565-779v250q0 8-1.5 20t-5.5 20Zm-97-97ZM811-74 55-830q-8-7.58-8-19.29Q47-861 55-869q8-8 19-8t19 8l757 757q8 8 8 19t-8 19q-8 8-19.71 8-11.71 0-19.29-8Zm-377-76v-106q-98-11-167.5-78.5T186-497q-2-13 7.5-22.5T217-529q10.5 0 18.75 8T246-502q11 81 72.81 134.5T463.79-314q38.21 0 73.32-12.34Q572.22-338.67 601-361l43 43q-31 26-69.01 41.57Q536.97-260.86 494-256v106q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T434-150Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMicOff;

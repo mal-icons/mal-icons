@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdsCalendarToday = createIcon("0 0 24 24", [["path",{"d":"M22 3h-3V1h-2v2H7V1H5v2H2v20h20V3zm-2 18H4V8h16v13z"}]]);
+
+export default MdsCalendarToday;

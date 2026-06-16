@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsMan = createIcon("0 0 24 24", [["path",{"d":"M16 7H8v8h2v7h4v-7h2z"}],["circle",{"cx":"12","cy":"4","r":"2"}]]);
+
+export default MdsMan;

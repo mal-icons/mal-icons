@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-location-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssLocationOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M550-560q0-28.87-20.56-49.44Q508.88-630 480-630q-14 0-25.5 5T434-612l98 98q8-9 13-20.5t5-25.5Zm167 231-44-44q34-51 50.5-96t16.5-83q0-117.79-75.29-192.89Q589.42-820 480-820q-54 0-100.5 18.5T298-748l-42-42q45-44 103.23-67T480-880q127 0 223.5 89T800-552q0 51-20.5 106.5T717-329Zm-120 52L233-641q-7 20-10 42.5t-3 46.5q0 75 65 173.5T480-159q34-31 63-60.5t54-57.5ZM833-41 640-234q-33 37-72.5 75.5T480-80Q319-217 239.5-334.5T160-552q0-37.69 6.5-71.84Q173-658 186-688L26-848l43-43L876-84l-43 43ZM415-459Zm71-101Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssLocationOff;

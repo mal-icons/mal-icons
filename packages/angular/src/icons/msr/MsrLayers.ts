@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-layers",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrLayers {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.86-146q-9.85 0-19.23-3.44T443-159L151-386q-12-8.94-11.5-23.47Q140-424 152.07-433q8.3-6 18.11-6Q180-439 188-433l292 227 292-227q8.32-6 18.16-6t18.09 5.97q12 8.95 12.38 23.49Q821-395 809-386L517-159q-8.34 6.12-17.82 9.56Q489.71-146 479.86-146Zm0-152q-9.85 0-19.23-3.44T443-311L150-538q-6-5-8.5-11.21Q139-555.42 139-562t2.5-12.79Q144-581 150-586l293-227q8.34-6.12 17.82-9.56Q470.29-826 480.15-826q9.86 0 19.23 3.44T517-813l293 227q6 5 8.5 11.21Q821-568.58 821-562t-2.5 12.79Q816-543 810-538L517-311q-8.34 6.12-17.82 9.56Q489.71-298 479.86-298Zm0.14-60 262-204-262-204-262 204 262 204Zm0-204Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrLayers;

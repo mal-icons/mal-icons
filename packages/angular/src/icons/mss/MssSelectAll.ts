@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-select-all",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssSelectAll {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M120-780v-60h60v60h-60Zm0 341v-83h60v83h-60Zm148 319v-60h83v60h-83ZM120-609v-83h60v83h-60Zm319-171v-60h83v60h-83Zm341 0v-60h60v60h-60ZM120-120v-60h60v60h-60Zm0-148v-83h60v83h-60Zm148-512v-60h83v60h-83Zm171 660v-60h83v60h-83Zm341-319v-83h60v83h-60Zm0 319v-60h60v60h-60Zm0-489v-83h60v83h-60Zm0 341v-83h60v83h-60ZM609-120v-60h83v60h-83Zm0-660v-60h83v60h-83ZM268-268v-424h424v424H268Zm60-60h304v-304H328v304Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssSelectAll;

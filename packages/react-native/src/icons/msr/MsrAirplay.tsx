@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrAirplay = createIcon("0 -960 960 960", [["path",{"d":"M80-260v-520q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24.75-17.62 42.38T820-200H700v-60h120v-520H140v520h119v60H140q-24.75 0-42.37-17.62T80-260Zm400-230ZM312-158l147-147q9-9 21-9t21 9l147 147q11 11 5.21 24.5Q647.43-120 632-120l-304 1q-15.43 0-21.21-14Q301-147 312-158Z"}]]);
+
+export default MsrAirplay;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-car-rental",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoCarRental {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M321-678q-51 0-86-35t-35-86q0-51 35-86t86-35q42 0 74 27t44 68h321v60h-40v87h-60v-87H439q-11 39-44.17 63T321-678Zm0.05-60Q347-738 364.5-755.55q17.5-17.55 17.5-43.5Q382-825 364.45-842.5q-17.55-17.5-43.5-17.5Q295-860 277.5-842.45q-17.5 17.55-17.5 43.5Q260-773 277.55-755.5q17.55 17.5 43.5 17.5Zm4.12 475q12.83 0 21.33-8.68 8.5-8.68 8.5-21.5 0-12.82-8.68-21.32-8.68-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.68-8.5 21.5 0 12.83 8.68 21.33 8.68 8.5 21.5 8.5Zm310 0q12.83 0 21.33-8.68 8.5-8.68 8.5-21.5 0-12.82-8.68-21.32-8.68-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.68-8.5 21.5 0 12.83 8.68 21.33 8.68 8.5 21.5 8.5ZM200-376l66-192q5-14 16.5-23t25.5-9h344q14 0 25.5 9t16.5 23l66 192v272q0 10.5-6.75 17.25T736-80h-12q-10.5 0-17.25-6.75T700-104v-64H260v64q0 10.5-6.75 17.25T236-80h-12q-10.5 0-17.25-6.75T200-104v-272Zm77-42h407l-41-122H317l-40 122Zm-17 60v130-130Zm0 130h440v-130H260v130Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoCarRental;

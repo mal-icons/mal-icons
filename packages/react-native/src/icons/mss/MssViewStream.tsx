@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssViewStream = createIcon("0 -960 960 960", [["path",{"d":"M780-260v-190H180v190h600Zm0-250v-190H180v190h600ZM180-200q-24 0-42-18t-18-42v-440q0-24 18-42t42-18h600q24 0 42 18t18 42v440q0 24-18 42t-42 18H180Z"}]]);
+
+export default MssViewStream;

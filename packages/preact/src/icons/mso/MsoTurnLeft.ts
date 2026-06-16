@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoTurnLeft = createIcon("0 -960 960 960", [["path",{"d":"M620-160v-368H234l90 90-42 42-162-162 162-162 42 42-90 90h386q24.75 0 42.38 17.63T680-528v368h-60Z"}]]);
+
+export default MsoTurnLeft;

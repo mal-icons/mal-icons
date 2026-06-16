@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-closed-caption-disabled",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrClosedCaptionDisabled {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M246-800h534q23 0 41.5 18.5T840-740v534l-60-60v-474H306l-60-60Zm425 389v-7q0-6 4.5-10.5T686-433h20q6 0 10.5 4.5T721-418v24q0 13-8.5 21.5T691-364h-9l-47-47h36ZM555-599h136q12 0 21 9t9 21v30q0 6-4.5 10.5T706-524h-20q-6 0-10.5-4.5T671-539v-10h-96v78l-50-50v-48q0-12.75 8.63-21.37T555-599Zm-12 96Zm-126 46Zm-56-142 50 50H290v138h102v-10q0-6 4.5-10.5T407-436h20q6 0 10.5 4.5T442-421v30q0 12.75-8.62 21.38T412-361H270q-12 0-21-9t-9-21v-178q0-12 9-21t21-9h91ZM163-797l57 57h-40v520h474L47-827q-9-9.07-9-21.53Q38-861 47.05-870q9.05-9 21.5-9Q81-879 90-870l765 765q9 9 9 21t-9.05 21q-9.05 9-21.5 9Q821-54 812-63l-98-97H180q-24 0-42-18t-18-42v-520q0-19.92 12.5-35.46Q145-791 163-797Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrClosedCaptionDisabled;
