@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssCreditCard = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-640h800v640H80Zm60-471h680v-109H140v109Zm0 411h680v-282H140v282Zm0 0v-520 520Z"}]]);
+
+export default MssCreditCard;

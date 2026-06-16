@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssMimoDisconnect = createIcon("0 -960 960 960", [["path",{"d":"M260-120v-73l47-47H80v-600h59l59 60h-58v480h455L28-866l43-43 781 789-32 43-168-163 48 46v74H260Zm565-120-60-60h55v-480H285l-60-60h655v600h-55ZM525-540Zm-158 13Z"}]]);
+
+export default MssMimoDisconnect;

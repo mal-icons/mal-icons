@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssArrowTopLeft = createIcon("0 -960 960 960", [["path",{"d":"M700-160v-410H275l153 153-42 43-226-226 226-226 42 42-153 154h485v470h-60Z"}]]);
+
+export default MssArrowTopLeft;

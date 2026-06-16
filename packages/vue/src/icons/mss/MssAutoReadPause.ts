@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssAutoReadPause = createIcon("0 -960 960 960", [["path",{"d":"M370-400h60v-320h-60v320Zm160 0h60v-320h-60v320ZM80-80v-800h800v640H240L80-80Zm60-220h680v-520H140v520Zm0 0v-520 520Z"}]]);
+
+export default MssAutoReadPause;

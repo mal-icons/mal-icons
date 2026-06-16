@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-flashlight-on",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoFlashlightOn {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M330-80v-443l-90-132v-225h480v225l-90 132v443H330Zm150.18-246Q459-326 444-340.82q-15-14.82-15-36Q429-398 443.82-413q14.82-15 36-15Q501-428 516-413.18q15 14.82 15 36Q531-356 516.18-341q-14.82 15-36 15ZM300-764h360v-56H300v56Zm360 60H300v35l90 131v398h180v-398l90-131v-35ZM480-467Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoFlashlightOn;

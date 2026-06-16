@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssInsertChart = createIcon("0 -960 960 960", [["path",{"d":"M284-277h60v-275h-60v275Zm166 0h60v-406h-60v406Zm166 0h60v-148h-60v148ZM120-120v-720h720v720H120Zm60-60h600v-600H180v600Zm0 0v-600 600Z"}]]);
+
+export default MssInsertChart;

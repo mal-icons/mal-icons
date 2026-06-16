@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-sensors-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsSensorsOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.14 10.96c-0.090.33-0.140.68-0.14 1.04 0 1.10.45 2.1 1.17 2.83l-1.42 1.42A6.02 6.02 0 0 1 6 12c0-0.930.21-1.80.58-2.59L5.11 7.94A7.9 7.9 0 0 0 4 12c0 2.210.9 4.21 2.35 5.65l-1.42 1.42A9.97 9.97 0 0 1 2 12c0-2.040.61-3.93 1.66-5.51L1.39 4.22 2.8 2.81l18.38 18.38-1.41 1.41L8.14 10.96zm9.28 3.63c0.37-0.790.58-1.660.58-2.59 0-1.66-0.67-3.16-1.76-4.24l-1.42 1.42a3.95 3.95 0 0 1 1.04 3.86l1.56 1.55zM20 12c0 1.48-0.4 2.87-1.11 4.06l1.45 1.45A9.91 9.91 0 0 0 22 12c0-2.76-1.12-5.26-2.93-7.07l-1.42 1.42A7.94 7.94 0 0 1 20 12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsSensorsOff;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssBlender = createIcon("0 -960 960 960", [["path",{"d":"M240-80v-165l88-88-41-200H120v-297h292v-50h126v50h182l-88 497 88 88v165H240Zm-60-513h96l-35-177h-61v177Zm300 410q17 0 28.5-11.5T520-223q0-17-11.5-28.5T480-263q-17 0-28.5 11.5T440-223q0 17 11.5 28.5T480-183Zm-98-187h196l70-400H302l80 400Zm-82 230h360v-80l-90-90H390l-90 90v80Zm180-170Z"}]]);
+
+export default MssBlender;

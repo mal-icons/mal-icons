@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-thermometer-loss",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssThermometerLoss {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M880-650H560v-60h320v60ZM320-120q-75.53 0-128.76-53.23Q138-226.47 138-302q0-49.1 24-91.55Q186-436 228-462v-286q0-38.33 26.77-65.17 26.76-26.83 65-26.83Q358-840 385-813.17q27 26.83 27 65.17v286q42 26 66 68.45 24 42.45 24 91.55 0 75.53-53.23 128.76Q395.53-120 320-120Zm0.12-59Q371-179 406.5-214.87 442-250.75 442-302q0-37.81-18-70.4T372-420l-20-9v-319q0-13.6-9.2-22.8-9.2-9.2-22.8-9.2-13.6 0-22.8 9.2-9.2 9.2-9.2 22.8v319l-20 9q-34 15-52 47.6T198-302q0 51.25 35.62 87.13Q269.24-179 320.12-179ZM320-302Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssThermometerLoss;

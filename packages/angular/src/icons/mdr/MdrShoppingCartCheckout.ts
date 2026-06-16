@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-shopping-cart-checkout",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrShoppingCartCheckout {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7 18c-1.1 0-1.990.9-1.99 2S5.9 22 7 22s2-0.9 2-2-0.9-2-2-2zm10 0c-1.1 0-1.990.9-1.99 2s0.89 2 1.99 2 2-0.9 2-2-0.9-2-2-2zm2-2c0-0.55-0.45-1-1-1H7l1.1-2h7.45c0.75 0 1.41-0.41 1.75-1.03l3.24-6.14a11 0 0 0-0.4-1.3411 0 0 0-1.360.41L15.55 11H8.53L4.54 2.57a0.990.99 0 0 0-0.9-0.57H2c-0.55 0-1 0.45-1 1s0.45 1 1 1h1l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h11c0.55 0 1-0.45 1-1zM11.29 2.71a11 0 0 1 1.41 0l2.59 2.59c0.390.390.39 1.02 0 1.41L12.7 9.3a11 0 1 1-1.41-1.41l0.88-0.89H9c-0.55 0-1-0.45-1-1s0.45-1 1-1h3.17l-0.88-0.88a11 0 0 1 0-1.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrShoppingCartCheckout;

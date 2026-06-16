@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-phonelink-ring-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPhonelinkRingOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M829-49 49-843q-8-9-8.5-21t8.5-21q9-9 21-9t21 9L872-91q9 9 8.5 21T871-49q-9 9-21 9t-21-9ZM200-732l60 61v481h433l66 67v23q1 25-16.92 42.5T699-40H260q-24.75 0-42.37-17.62T200-100v-632Zm60 602v30h440v-30H260Zm0-668v-32h440v-30H260v62l-60-60v-2q0-25 17.5-42.5T260-920h440q24.75 0 42.38 18T760-860v146h-60v-56H288l-28-28Zm0 668v30-30Zm660-350.55Q920-429 902.5-381T852-295q-8 10-20 10t-20.87-9.39Q803-303 802.5-315.04 802-327.08 810-337q24.36-31.07 37.18-67.91Q860-441.74 860-480.87 860-520 847-556q-13-36-39-65-9-10-10-23.5t8.09-22.59Q816-677 829.5-677t22.5 11q33 38 50.5 85.95 17.5 47.95 17.5 99.5ZM700-860v30-30Zm100 377q0 35.37-14.1 67.97Q771.81-382.42 747-357q-3.59 3.75-9.33 6.38Q731.94-348 726.2-348 714-348 705-356.82q-9-8.82-9-21.31 0-5.88 2.5-11.38T706-400q17-17 25.5-38t8.5-44q0-23-8.5-45T706-566q-5-4-7-9.66-2-5.66-2-11.32 0-12.02 8.82-20.52 8.82-8.5 21.31-8.5 5.88 0 11.38 2t9.5 7q25 25 38.5 57.09Q800-517.81 800-483Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPhonelinkRingOff;

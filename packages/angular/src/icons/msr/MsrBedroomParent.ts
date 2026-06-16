@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-bedroom-parent",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBedroomParent {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M244-345h472v31.4Q716-300 725.09-291t23 9Q762-282 771-291.07q9-9.07 9-22.93v-144q0-18-13.5-38.5T732-528v-68q0-32-18.5-50.5T663-665H527q-16 0-28 5t-20 15q-8-10-20-15t-28-5H297q-32 0-50.5 18.5T228-596v68q-21 11-34.5 31.5T180-458v144q0 13.87 9.09 22.93 9.09 9.07 23 9.07T235-290.92q9-8.93 9-22.57V-345Zm0-50v-42q0-19 10.5-29.5t29.05-10.5h392.89Q695-477 705.5-466.5T716-437v42H244Zm34-132v-88h177v88H278Zm227 0v-88h177v88H505ZM140-80q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h680q24 0 42 18t18 42v680q0 24-18 42t-42 18H140Zm0-60h680v-680H140v680Zm0 0v-680 680Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBedroomParent;

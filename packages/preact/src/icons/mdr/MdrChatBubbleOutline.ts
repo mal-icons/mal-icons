@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrChatBubbleOutline = createIcon("0 0 24 24", [["path",{"d":"M20 4v12H5.17L4 17.17V4h16m0-2H4c-1.1 0-2 0.9-2 2v15.59c0 0.89 1.08 1.34 1.710.71L6 18h14c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2z"}]]);
+
+export default MdrChatBubbleOutline;

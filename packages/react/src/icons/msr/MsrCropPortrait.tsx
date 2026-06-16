@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrCropPortrait = createIcon("0 -960 960 960", [["path",{"d":"M740-80H220q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h520q24 0 42 18t18 42v680q0 24-18 42t-42 18Zm-520-60h520v-680H220v680Zm0 0v-680 680Z"}]]);
+
+export default MsrCropPortrait;

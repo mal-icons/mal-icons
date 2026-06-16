@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-voice-chat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrVoiceChat {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M270-530q8 0 14-6t6-14v-20q0-8-6-14t-14-6q-8 0-14 6t-6 14v20q0 8 6 14t14 6Zm100 80q8 0 14-6t6-14v-180q0-8-6-14t-14-6q-8 0-14 6t-6 14v180q0 8 6 14t14 6Zm110 80q8 0 14-6t6-14v-340q0-8-6-14t-14-6q-8 0-14 6t-6 14v340q0 8 6 14t14 6Zm110-80q8 0 14-6t6-14v-180q0-8-6-14t-14-6q-8 0-14 6t-6 14v180q0 8 6 14t14 6Zm100-80q8 0 14-6t6-14v-20q0-8-6-14t-14-6q-8 0-14 6t-6 14v20q0 8 6 14t14 6ZM240-240 131-131q-14 14-32.5 6.5T80-152v-668q0-24 18-42t42-18h680q24 0 42 18t18 42v520q0 24-18 42t-42 18H240Zm-100-60h680v-520H140v520Zm0 0v-520 520Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrVoiceChat;

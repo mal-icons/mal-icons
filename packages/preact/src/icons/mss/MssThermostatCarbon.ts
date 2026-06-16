@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssThermostatCarbon = createIcon("0 -960 960 960", [["path",{"d":"M480-50 50-480l430-430 430 430L480-50Zm0-86 344-344-344-344-344 344 344 344Zm0-344Z"}]]);
+
+export default MssThermostatCarbon;

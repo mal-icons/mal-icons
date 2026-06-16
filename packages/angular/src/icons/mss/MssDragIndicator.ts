@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-drag-indicator",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssDragIndicator {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M349.91-160Q321-160 300.5-180.59q-20.5-20.59-20.5-49.5Q280-259 300.59-279.5q20.59-20.5 49.5-20.5Q379-300 399.5-279.41q20.5 20.59 20.5 49.5Q420-201 399.41-180.5q-20.59 20.5-49.5 20.5Zm260 0Q581-160 560.5-180.59q-20.5-20.59-20.5-49.5Q540-259 560.59-279.5q20.59-20.5 49.5-20.5Q639-300 659.5-279.41q20.5 20.59 20.5 49.5Q680-201 659.41-180.5q-20.59 20.5-49.5 20.5Zm-260-250Q321-410 300.5-430.59q-20.5-20.59-20.5-49.5Q280-509 300.59-529.5q20.59-20.5 49.5-20.5Q379-550 399.5-529.41q20.5 20.59 20.5 49.5Q420-451 399.41-430.5q-20.59 20.5-49.5 20.5Zm260 0Q581-410 560.5-430.59q-20.5-20.59-20.5-49.5Q540-509 560.59-529.5q20.59-20.5 49.5-20.5Q639-550 659.5-529.41q20.5 20.59 20.5 49.5Q680-451 659.41-430.5q-20.59 20.5-49.5 20.5Zm-260-250Q321-660 300.5-680.59q-20.5-20.59-20.5-49.5Q280-759 300.59-779.5q20.59-20.5 49.5-20.5Q379-800 399.5-779.41q20.5 20.59 20.5 49.5Q420-701 399.41-680.5q-20.59 20.5-49.5 20.5Zm260 0Q581-660 560.5-680.59q-20.5-20.59-20.5-49.5Q540-759 560.59-779.5q20.59-20.5 49.5-20.5Q639-800 659.5-779.41q20.5 20.59 20.5 49.5Q680-701 659.41-680.5q-20.59 20.5-49.5 20.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssDragIndicator;

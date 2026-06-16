@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-dynamic-form",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrDynamicForm {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M140-510q-24.75 0-42.37-17.62T80-570v-170q0-24.75 17.63-42.37T140-800h370q12.75 0 21.38 8.63T540-770v230q0 12.75-8.62 21.38T510-510H140Zm0-60h340v-170H140v170Zm0 410q-24.75 0-42.37-17.62T80-220v-170q0-24.75 17.63-42.37T140-450h450q12.75 0 21.38 8.63T620-420v230q0 12.75-8.62 21.38T590-160H140Zm0-60h420v-170H140v170Zm540-290h-50q-12.75 0-21.37-8.62T600-540v-230q0-12.75 8.63-21.37T630-800h207q16 0 24.5 12.5T865-760l-65 180h32q17.5 0 26.25 14t1.75 29L709-170q-2 5-7 7.5t-10 1.5q-5-1-8.5-4.89Q680-169.78 680-176v-334Zm-540-60v-170 170Zm0 350v-170 170Zm115-435q0-13-8.5-21.5T225-685q-13 0-21.5 8.5T195-655q0 13 8.5 21.5T225-625q13 0 21.5-8.5T255-655Zm-30 380q13 0 21.5-8.5T255-305q0-13-8.5-21.5T225-335q-13 0-21.5 8.5T195-305q0 13 8.5 21.5T225-275Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrDynamicForm;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-watch",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrWatch {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 12c0-2.54-1.19-4.81-3.04-6.27l-0.68-4.06C16.120.71 15.28 0 14.31 0H9.7c-0.98 0-1.820.71-1.98 1.67l-0.67 4.06C5.19 7.19 4 9.45 4 12s1.19 4.81 3.05 6.27l0.67 4.06c0.160.96 1 1.67 1.98 1.67h4.61c0.98 0 1.81-0.71 1.97-1.67l0.68-4.06A7.98 7.98 0 0 0 20 12zM6 12c0-3.31 2.69-6 6-6s6 2.69 6 6-2.69 6-6 6-6-2.69-6-6z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrWatch;

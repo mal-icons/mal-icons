@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssPictureInPictureAlt = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-640h800v640H80Zm60-60h680v-520H140v520Zm0 0v-520 520Zm306-45h335v-257H446v257Zm60-60v-137h215v137H506Z"}]]);
+
+export default MssPictureInPictureAlt;

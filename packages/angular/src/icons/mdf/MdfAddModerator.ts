@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdf-add-moderator",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdfAddModerator {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.22 22.61c-0.40.15-0.80.29-1.220.39-5.16-1.26-9-6.45-9-12V5l9-4 9 4v6c0 0.9-0.11 1.78-0.3 2.65-0.81-0.41-1.73-0.65-2.7-0.65-3.31 0-6 2.69-6 6 0 1.360.46 2.61 1.22 3.61zM19 20v2.99s-1.990.01-2 0V20h-3v-2h3v-3h2v3h3v2h-3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdfAddModerator;

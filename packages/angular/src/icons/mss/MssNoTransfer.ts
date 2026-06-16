@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-no-transfer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssNoTransfer {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M833-41 659-215h86v95h-87v-82H302v82h-86v-111q-29-16-42.5-46T160-341v-373L26-848l43-43L876-84l-43 43ZM302-262h310L403-471H220v120q0 35 23.5 62t58.5 27Zm478-4-40-40v-165H575l-60-60h225v-173H342l-60-60h458q-24-26-92-41t-167-15q-85 0-140.5 7T254-792l-41-41q38-24 104-35.5T481-880q166 0 242.5 34T800-738v397q0 20-5 39t-15 36Zm-454-46q23 0 39-16t16-39q0-23-16-39t-39-16q-23 0-39 16t-16 39q0 23 16 39t39 16ZM220-531h123L220-654v123Zm62-233h458-458Zm121 293Zm172 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssNoTransfer;

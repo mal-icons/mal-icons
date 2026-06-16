@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-storm",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrStorm {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.93 8C16.72 4.18 11.82 2.87 8 5.07c-1.410.82-2.48 2-3.16 3.37-0.1-1.750.1-3.50.59-5.17A0.990.99 0 0 0 4.48 2h-0.01c-0.43 0-0.830.28-0.950.7-1.28 4.31-0.87 9.11 1.55 13.3a7.96 7.96 0 0 0 4.86 3.72c1.980.53 4.160.31 6.07-0.79 1.41-0.82 2.48-2 3.16-3.370.1 1.75-0.09 3.5-0.58 5.18-0.180.630.29 1.260.95 1.260.44 0 0.83-0.280.95-0.7 1.27-4.310.87-9.11-1.55-13.3zM15 17.2A6.01 6.01 0 0 1 6.8 15c-0.11-0.2-0.21-0.4-0.3-0.6-1.2-2.76-0.17-6.06 2.5-7.6 2.86-1.65 6.54-0.67 8.2 2.20.110.20.210.40.30.6 1.2 2.760.17 6.06-2.5 7.6zM12 10c1.1 0 2 0.9 2 2s-0.9 2-2 2-2-0.9-2-2 0.9-2 2-2m0-2c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrStorm;

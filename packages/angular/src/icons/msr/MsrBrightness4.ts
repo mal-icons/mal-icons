@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-brightness-4",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBrightness4 {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M346.27-160H220q-24.75 0-42.37-17.62T160-220v-126.27L68-438q-17-16.93-17-41.97Q51-505 68-522l92-91.73V-740q0-24.75 17.63-42.37T220-800h126.27L438-892q17-18 42-17t43 18l91.31 91H740q24.75 0 42.38 17.63T800-740v126.27L892-522q17 16.93 17 41.97Q909-455 892-438l-92 91.73V-220q0 24.75-17.62 42.38T740-160H614l-90 89q-18 17-43 17t-43-17l-91.73-89ZM481-481Zm0 368 107.92-107H740v-151l109-109-109-109v-151H589L481-849 371-740H220v151L111-480l109 109v151h150l111 107Zm10-174q81.23 0 137.62-56.43Q685-399.87 685-479.93 685-560 628.49-616q-56.51-56-137.92-56-12.45 0-22.51 1.5-10.06 1.5-18.65 3.4-5.73 1.9-9.07 6.18Q437-656.65 437-651.9q0 1.9 9 15.9 38 26 58.5 67.5t20.5 88.05q0 49.46-20.96 90.94-20.96 41.49-59.08 66.57-2.95 1.93-8.95 14.47 0 5.79 4 10.13 4 4.34 9 6.34 12.7 3 22.95 4 10.26 1 19.05 1Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBrightness4;

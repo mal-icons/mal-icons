@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdsSettingsSystemDaydream = createIcon("0 0 24 24", [["path",{"d":"M9 16h6.5a2.5 2.5 0 0 0 0-5h-0.05c-0.24-1.69-1.69-3-3.45-3-1.4 0-2.60.83-3.16 2.02h-0.16A2.99 2.99 0 0 0 6 13c0 1.66 1.34 3 3 3zM23 3H1v18h22V3zm-2 16.01H3V4.99h18v14.02z"}]]);
+
+export default MdsSettingsSystemDaydream;

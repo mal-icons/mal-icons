@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdsImagesearchRoller = createIcon("0 0 24 24", [["path",{"d":"M20 2v6H6V6H4v4h10v5h2v8h-6v-8h2v-3H2V4h4V2h14z"}]]);
+
+export default MdsImagesearchRoller;

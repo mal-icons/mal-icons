@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-record-voice-over",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrRecordVoiceOver {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"9","cy":"9","r":"4"}],["path",{"d":"M9 15c-2.67 0-8 1.34-8 4v1c0 0.550.45 1 1 1h14c0.55 0 1-0.45 1-1v-1c0-2.66-5.33-4-8-4zm6.47-7.23c0.320.790.32 1.67 0 2.46-0.190.47-0.11 1 0.25 1.36l0.030.03c0.580.58 1.570.46 1.95-0.270.76-1.450.76-3.15-0.02-4.66-0.38-0.74-1.38-0.88-1.97-0.29l-0.010.01c-0.340.35-0.420.89-0.23 1.36zm3.71-4.88c-0.40.4-0.46 1.02-0.13 1.48 1.97 2.74 1.96 6.41-0.03 9.25-0.320.45-0.25 1.070.14 1.46l0.030.03c0.490.49 1.320.45 1.74-0.1 2.75-3.54 2.76-8.37 0-12.02-0.42-0.55-1.26-0.59-1.75-0.1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrRecordVoiceOver;

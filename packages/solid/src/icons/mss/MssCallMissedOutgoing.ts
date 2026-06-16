@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssCallMissedOutgoing = createIcon("0 -960 960 960", [["path",{"d":"M475-266 119-622l42-43 314 314 267-267H530v-60h311v318h-60v-212L475-266Z"}]]);
+
+export default MssCallMissedOutgoing;

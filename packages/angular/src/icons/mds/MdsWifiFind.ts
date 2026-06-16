@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-wifi-find",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsWifiFind {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11 14c0-3.36 2.64-6 6-6 2.2 0 4.08 1.13 5.13 2.86L24 8.98A16.88 16.88 0 0 0 12 4C7.31 4 3.07 5.9 0 8.98L12 21l1.86-1.87C12.14 18.09 11 16.2 11 14z"}],["path",{"d":"M21 14c0-2.24-1.76-4-4-4s-4 1.76-4 4 1.76 4 4 4c0.75 0 1.44-0.21 2.03-0.56L21.59 20 23 18.59l-2.56-2.56c0.35-0.590.56-1.280.56-2.03zm-6 0c0-1.120.88-2 2-2s2 0.88 2 2-0.88 2-2 2-2-0.88-2-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsWifiFind;

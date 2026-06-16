@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-miscellaneous-services",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsMiscellaneousServices {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m14.02 13.97 1.7-2.94s-0.09-0.08-0.23-0.18l-1.47-1.16-0.010.02c0.03-0.240.05-0.470.05-0.71s-0.02-0.47-0.06-0.69l0.010.01 1.71-1.34-1.7-2.95-2.010.81v0.01c-0.37-0.28-0.77-0.52-1.2-0.7h0.01L10.52 2H7.11L6.8 4.15h0.01c-0.430.18-0.830.42-1.20.7v-0.01L3.6 4.03 1.9 6.98l1.7 1.340.01-0.01c-0.030.22-0.050.45-0.050.69s0.020.470.050.71l-0.01-0.02-1.47 1.16c-0.130.1-0.230.18-0.230.18l1.7 2.94 2.02-0.8-0.02-0.03c0.370.290.770.53 1.210.71H6.8L7.11 16h3.4s0.02-0.130.04-0.3l0.27-1.85h-0.01c0.44-0.180.84-0.42 1.21-0.71l-0.020.03 2.020.8zM8.81 11c-1.1 0-2-0.9-2-2s0.9-2 2-2 2 0.9 2 2-0.9 2-2 2zm12.17 6.94-0.010.01c0.02-0.150.03-0.30.03-0.45 0-0.15-0.01-0.3-0.04-0.44l0.010.01 1.1-0.86-1.09-1.9-1.290.52v0.01c-0.24-0.18-0.49-0.33-0.77-0.45h0.01l-0.2-1.39h-2.19l-0.2 1.38h0.01c-0.280.12-0.530.27-0.770.45v-0.01l-1.29-0.52-1.09 1.9 1.090.860.01-0.01c-0.020.14-0.030.29-0.030.44 0 0.150.010.30.030.46l-0.01-0.01-0.940.75c-0.080.06-0.150.12-0.150.12l1.09 1.89 1.3-0.51-0.01-0.02c0.240.190.50.340.780.46h-0.01l0.2 1.38h2.19s0.01-0.080.03-0.19l0.17-1.19h-0.01c0.28-0.120.54-0.270.78-0.46l-0.010.02 1.30.51 1.09-1.89s-0.06-0.05-0.15-0.12l-0.96-0.75zm-3.350.85c-0.71 0-1.29-0.58-1.29-1.29s0.58-1.29 1.29-1.29 1.290.58 1.29 1.29-0.58 1.29-1.29 1.29z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsMiscellaneousServices;

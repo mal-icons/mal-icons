@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-edit-location-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrEditLocationAlt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.54 13H10c-0.55 0-1-0.45-1-1V8.46c0-0.260.11-0.520.29-0.7l5.32-5.32A8.17 8.17 0 0 0 12 2c-4.2 0-8 3.22-8 8.2 0 3.18 2.44 6.92 7.33 11.220.380.330.960.33 1.34 0C17.56 17.12 20 13.37 20 10.2c0-1.01-0.16-1.94-0.45-2.8l-5.31 5.31c-0.180.18-0.440.29-0.70.29z"}],["path",{"d":"M11 11h2.12l6.16-6.16-2.12-2.12L11 8.88zm9.71-9L20 1.29a11 0 0 0-1.41 0l-0.720.72 2.12 2.120.72-0.72a11 0 0 0 0-1.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrEditLocationAlt;

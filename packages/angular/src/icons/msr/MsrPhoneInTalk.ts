@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-phone-in-talk",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPhoneInTalk {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M804-487q-10.93 0-19.46-8Q776-503 774-515q-14-103-87.5-176.5T510-779q-12-2-20-10.49T482-810q0-13.17 9-22.09Q500-841 513-839q127.19 14.13 217.03 103.97Q819.87-645.19 834-518q2 13-7.2 22t-22.8 9Zm-172.15 0q-9.85 0-18.35-6.5T602-511q-10-35-35.5-60.5T506-607q-11-3-17.5-10.59-6.5-7.59-6.5-18.22Q482-651 492-660q10-9 24-6 53.96 12.59 92.98 51.79Q648-575 662-521q3 14-6 24t-24.15 10ZM795-120q-122 0-242.5-60T336-336q-96-96-156-216.5T120-795q0-19.29 12.86-32.14T165-840h140q13.61 0 24.31 9.5Q340-821 343-805l27 126q2 14-0.5 25.5T359-634L259-533q56 93 125.5 162T542-254l95-98q10-11 23-15.5t26-1.5l119 26q15.31 3.38 25.16 15.19Q840-316 840-300v135q0 19.29-12.86 32.14T795-120ZM229-588l81-82-23-110H180q0 39 12 85.5T229-588Zm551 408v-107l-103-21-79 83q41 19 89 31t93 14Zm-182-45ZM229-588Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPhoneInTalk;

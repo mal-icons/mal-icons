@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrSwitchCamera = createIcon("0 0 24 24", [["path",{"d":"M20 4h-3.17l-1.24-1.35A1.99 1.99 0 0 0 14.12 2H9.88c-0.56 0-1.10.24-1.480.65L7.17 4H4c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V6c0-1.1-0.9-2-2-2zm-5 11.5V13H9v2.5l-3.15-3.15c-0.2-0.2-0.2-0.51 0-0.71L9 8.5V11h6V8.5l3.15 3.15c0.20.20.20.51 0 0.71L15 15.5z"}]]);
+
+export default MdrSwitchCamera;

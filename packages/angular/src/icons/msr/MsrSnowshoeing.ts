@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-snowshoeing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSnowshoeing {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M582-754q30 0 51.5-21.5T655-827q0-30-21.5-51.5T582-900q-30 0-51.5 21.5T509-827q0 30 21.5 51.5T582-754ZM355-40q-15 0-35.5-14T278-94L165-233l31-26 60 74 109-81 72-363-102 46v103q0 12-9 21t-21 9q-13 0-22-9t-9-22v-102q0-18 10-33.5t27-22.5l140-59q18-8 30.5-11t29.5-3q18 0 36.5 8.5T576-679l42 66q28 44 66 69.5t85 31.5q11 2 18.5 10t7.5 19q0 14-9.5 23.5T762-452q-56-7-98.5-35.5T578-572l-41 156 72 65q10 9 15 20.5t5 24.5v227q29-2 50-9t34-14q3-2 6-2.5t5-0.5q10 0 15.5 6t5.5 14q0 5-2.5 10t-7.5 8q-18 11-41 19t-54 8H495v-40h74v-200l-108-98-29 122q-2 11-8 20t-15 15l-115 84 19 22q11 12 23.5 21T363-79q6 3 9.5 8t3.5 12q0 8-6.5 13.5T355-40Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSnowshoeing;

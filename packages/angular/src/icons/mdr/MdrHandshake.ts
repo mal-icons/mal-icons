@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-handshake",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrHandshake {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.48 10.41c-0.390.39-1.040.39-1.43 0l-4.47-4.46-7.05 7.04-0.66-0.63a3 3 0 0 1 0-4.24l4.24-4.24a3 3 0 0 1 4.24 0L16.48 9c0.390.390.39 1.02 0 1.41zm0.7-2.12c0.780.780.78 2.05 0 2.83-1.27 1.27-2.610.22-2.83 0l-3.76-3.76-5.57 5.57a11 0 0 0 0 1.41c0.390.39 1.020.39 1.42 0l4.62-4.620.710.71-4.62 4.62a11 0 0 0 0 1.41c0.390.39 1.020.39 1.42 0l4.62-4.620.710.71-4.62 4.62a11 0 1 0 1.41 1.41l4.62-4.620.710.71-4.62 4.62a11 0 1 0 1.41 1.41l8.32-8.34a3 3 0 0 0 0-4.24l-4.24-4.24a3 3 0 0 0-4.18-0.06l4.47 4.47z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrHandshake;

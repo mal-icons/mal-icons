@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsPrint = createIcon("0 0 24 24", [["path",{"d":"M22 8H2v9h4v4h12v-4h4V8zm-6 11H8v-5h8v5zm3-7c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1-0.45 1-1 1zm-1-9H6v4h12V3z"}]]);
+
+export default MdsPrint;

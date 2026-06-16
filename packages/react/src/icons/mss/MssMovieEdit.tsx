@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssMovieEdit = createIcon("0 -960 960 960", [["path",{"d":"M80-200v-640h60l74 152h130l-74-152h89l74 152h130l-74-152h89l74 152h130l-74-152h172v268h-60v-56H140v368h368v60H80Zm664-243 28 28-164 164v51h51l164-164 28 28-176 176H568v-107l176-176Zm107 107L744-443l82-82 107 107-82 82Z"}]]);
+
+export default MssMovieEdit;

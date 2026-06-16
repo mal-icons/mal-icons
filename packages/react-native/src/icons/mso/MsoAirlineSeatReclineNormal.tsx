@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoAirlineSeatReclineNormal = createIcon("0 -960 960 960", [["path",{"d":"M620-171H300q-24.75 0-42.37-17.62T240-231v-461h60v461h320v60ZM438-718q-34 0-57.5-23.5T357-799q0-34 23.5-57.5T438-880q34 0 57.5 23.5T519-799q0 34-23.5 57.5T438-718ZM660-80v-191H415q-30.94 0-52.97-21.74Q340-314.48 340-345v-228q0-40.74 28.39-68.87 28.39-28.13 69.5-28.13Q479-670 507.5-641.87T536-573v202h109q30.94 0 52.97 21.74Q720-327.52 720-297v217h-60Z"}]]);
+
+export default MsoAirlineSeatReclineNormal;

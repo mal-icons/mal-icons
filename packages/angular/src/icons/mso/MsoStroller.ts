@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-stroller",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoStroller {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M629.82-80Q605-80 587.5-97.68t-17.5-42.5Q570-165 587.68-182.5t42.5-17.5Q655-200 672.5-182.32t17.5 42.5Q690-115 672.32-97.5t-42.5 17.5Zm-390 0Q215-80 197.5-97.68t-17.5-42.5Q180-165 197.68-182.5t42.5-17.5Q265-200 282.5-182.32t17.5 42.5Q300-115 282.32-97.5t-42.5 17.5ZM325-320h275v-323L325-320Zm-44 60q-26 0-36.5-23t6.5-43l397-467q17-20 43.5-33.5T746-840q56 0 95 39t39 95v26h-60v-26q0-31-21.5-52.5T746-780q-16.89 0-29.95 8Q703-764 689-748l-29 33v395q0 24.75-17.62 42.38T600-260H281Zm127-405 81-96q-19-7-39.5-10t-43.5-3q-23 0-46.5 3.5T314-760l94 95Zm4 88L213-776q36-27 88-42.5T407-834q47 0 93.5 12.5T590-786L412-577Zm51 95Zm-55-183Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoStroller;

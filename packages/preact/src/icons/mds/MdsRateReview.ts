@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsRateReview = createIcon("0 0 24 24", [["path",{"d":"M22 2H2v20l4-4h16V2zM6 14v-2.47l6.88-6.88c0.2-0.20.51-0.20.71 0l1.77 1.77c0.20.20.20.51 0 0.71L8.47 14H6zm12 0h-7.5l2-2H18v2z"}]]);
+
+export default MdsRateReview;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-add-home-work",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrAddHomeWork {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.96 11.7a1.98 1.98 0 0 0-0.8-1.3l-5-3.57c-0.7-0.5-1.63-0.5-2.32 0l-5 3.57c-0.530.38-0.840.98-0.84 1.63V19c0 1.10.9 2 2 2h3v-6h4v6h1.68c-0.43-0.91-0.68-1.92-0.68-3a6.99 6.99 0 0 1 3.96-6.3zM23 13.11V4.97C23 3.88 22.12 3 21.03 3h-9.06C10.88 3 10 3.88 10 4.97l0.020.05c0.10.060.210.110.30.18l5 3.57c0.790.56 1.34 1.4 1.56 2.320.37-0.050.74-0.09 1.12-0.09 1.96 0 3.730.81 5 2.11zM17 7h2v2h-2V7z"}],["path",{"d":"M23 18c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5 5-2.24 5-5zm-5.5 3v-2.5H15v-1h2.5V15h1v2.5H21v1h-2.5V21h-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrAddHomeWork;

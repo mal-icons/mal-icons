@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssMoveItem = createIcon("0 -960 960 960", [["path",{"d":"M323-450v-60h521l-89-89 43-43 162 162-162 162-43-43 89-89H323ZM120-120v-720h560v270h-60v-210H180v600h440v-210h60v270H120Z"}]]);
+
+export default MssMoveItem;

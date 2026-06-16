@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsoSignalCellularPause = createIcon("0 -960 960 960", [["path",{"d":"m80-80 800-800v490h-60v-345L224-140h346v60H80Zm570 0v-230h60v230h-60Zm140 0v-230h60v230h-60ZM522-438Z"}]]);
+
+export default MsoSignalCellularPause;

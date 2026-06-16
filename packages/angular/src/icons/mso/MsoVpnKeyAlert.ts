@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-vpn-key-alert",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoVpnKeyAlert {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M628-240v-137H491q-26 62-79.5 99.5T280-240q-100 0-170-70T40-480q0-100 70-170t170-70q78 0 131.5 37.5T491-583h263v60H450q-8-43-53.5-90T280-660q-75 0-127.5 52.5T100-480q0 75 52.5 127.5T280-300q71 0 116.5-47t53.37-90H692v137h62v60H628ZM280-412q29 0 48.5-19.5T348-480q0-29-19.5-48.5T280-548q-29 0-48.5 19.5T212-480q0 29 19.5 48.5T280-412Zm0-68Zm599.83 240Q867-240 858.5-248.67q-8.5-8.68-8.5-21.5 0-12.82 8.68-21.32 8.68-8.5 21.5-8.5 12.83 0 21.33 8.68 8.5 8.68 8.5 21.5 0 12.83-8.68 21.33-8.68 8.5-21.5 8.5ZM850-360v-223h60v223h-60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoVpnKeyAlert;

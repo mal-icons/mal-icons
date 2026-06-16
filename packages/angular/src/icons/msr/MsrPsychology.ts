@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-psychology",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPsychology {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m446-418 2 30q0.74 6.22 4.79 10.11 4.05 3.89 9.94 3.89h32.39q5.89 0 10.01-3.89Q509.25-381.78 510-388l2-30q12-2 22.47-8.46Q544.94-432.92 553-441l30 10q5 2 10 0t7.8-6.85l15.4-26.31Q619-469 618.5-474t-5.19-9.17L593-499q5-14 5-29t-5-29l20.31-15.83Q618-577 618.5-582t-2.3-9.85l-15.4-26.31Q598-623 593-625t-10 0l-30 10q-8.33-7.69-19.17-13.85Q523-635 512-638l-2-30q-0.74-6.22-4.78-10.11-4.05-3.89-9.94-3.89h-32.39q-5.89 0-10.01 3.89Q448.75-674.22 448-668l-2 30q-11 3-21.83 9.15Q413.33-622.69 405-615l-30-10q-5-2-10 0t-7.8 6.85l-15.4 26.31Q339-587 339.5-582t5.19 9.17L365-557q-5 14-5 29t5 29l-20.31 15.83Q340-479 339.5-474t2.3 9.85l15.4 26.31Q360-433 365-431t10 0l30-10q8.06 8.08 18.53 14.54Q434-420 446-418Zm33.12-40Q450-458 429.5-478.38q-20.5-20.38-20.5-49.5Q409-557 429.38-577.5q20.38-20.5 49.5-20.5Q508-598 528.5-577.62q20.5 20.38 20.5 49.5Q549-499 528.62-478.5q-20.38 20.5-49.5 20.5ZM240-252q-57-52-88.5-121.5T120-520q0-150 105-255t255-105q125 0 221.5 73.5T827-615l55 218q4 14-5 25.5T853-360h-93v140q0 24.75-17.62 42.38T700-160H600v50q0 12.75-8.68 21.38Q582.65-80 569.83-80 557-80 548.5-88.62T540-110v-80q0-12.75 8.63-21.37T570-220h130v-170q0-12.75 8.63-21.37T730-420h84l-45-180q-24-97-105-158.5T480-820q-125 0-212.5 86.5T180-522.46q0 64.42 26.32 122.39Q232.65-342.09 281-297l19 18v169q0 12.75-8.68 21.38Q282.65-80 269.83-80 257-80 248.5-88.62T240-110v-142Zm257-198Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPsychology;

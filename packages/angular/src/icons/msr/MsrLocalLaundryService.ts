@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-local-laundry-service",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrLocalLaundryService {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M220-80q-24.75 0-42.37-17.62T160-140v-680q0-24.75 17.63-42.37T220-880h520q24.75 0 42.38 17.63T800-820v680q0 24.75-17.62 42.38T740-80H220Zm0-60h520v-680H220v680Zm260-59q80.51 0 137.26-56.74Q674-312.49 674-393q0-80.51-56.74-137.25Q560.51-587 480-587q-80.51 0-137.25 56.75Q286-473.51 286-393q0 80.51 56.75 137.26Q399.49-199 480-199Zm0-84q-22.68 0-44.05-8-21.37-8-37.95-24l159-159q17 15 25 36.56 8 21.56 8 44.44 0 45.83-32.08 77.92Q525.83-283 480-283ZM304.18-708q12.83 0 21.33-8.68 8.5-8.68 8.5-21.5 0-12.82-8.68-21.32-8.68-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.68-8.5 21.5 0 12.83 8.68 21.33 8.68 8.5 21.5 8.5Zm134 0q12.83 0 21.33-8.68 8.5-8.68 8.5-21.5 0-12.82-8.68-21.32-8.68-8.5-21.5-8.5-12.82 0-21.32 8.68-8.5 8.68-8.5 21.5 0 12.83 8.68 21.33 8.68 8.5 21.5 8.5ZM220-140v-680 680Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrLocalLaundryService;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrBrightness3 = createIcon("0 0 24 24", [["path",{"d":"M8.93 2h-0.14c-0.830.02-1.09 1.12-0.39 1.56A9.99 9.99 0 0 1 13.03 12c0 3.55-1.84 6.66-4.62 8.43-0.710.46-0.43 1.550.41 1.57h0.21c6.05 0 10.86-5.39 9.87-11.63-0.76-4.84-5.07-8.42-9.97-8.37z"}]]);
+
+export default MdrBrightness3;

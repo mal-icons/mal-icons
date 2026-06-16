@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-wind-power",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsWindPower {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 3h6v2H4zM1 7h5v2H1zm2 12h5v2H3zm12.32-6.91 5.42-9.04L17.32 1 12 5.97v4.74a2.49 2.49 0 0 1 3.32 1.38zM10.5 13c0-0.820.4-1.54 1.01-2H1v4l7 2 3.44-2.06A2.48 2.48 0 0 1 10.5 13zm9.67 10L23 20.17l-3.54-6.36-3.98-1c0 0.060.020.120.020.19a2.5 2.5 0 0 1-2.5 2.5c-0.36 0-0.69-0.08-1-0.21V21c-1.1 0-2 0.9-2 2h6c0-1.1-0.9-2-2-2v-4.17L20.17 23z"}],["circle",{"cx":"13","cy":"13","r":"1.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsWindPower;

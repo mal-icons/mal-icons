@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-wallpaper-slideshow",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoWallpaperSlideshow {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M679.83-650Q667-650 658.5-658.67q-8.5-8.68-8.5-21.5 0-12.82 8.68-21.32 8.68-8.5 21.5-8.5 12.83 0 21.33 8.68 8.5 8.68 8.5 21.5 0 12.83-8.68 21.33-8.68 8.5-21.5 8.5ZM345-377l93-123 68 87 103-135 127 171H345ZM140-80q-24 0-42-18t-18-42v-620h60v620h620v60H140Zm60-475v-265q0-24 18-42t42-18h250v60H260v265h-60Zm60 355q-24 0-42-18t-18-42v-235h60v235h250v60H260Zm310 0v-60h250v-235h60v235q0 24-18 42t-42 18H570Zm250-355v-265H570v-60h250q24 0 42 18t18 42v265h-60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoWallpaperSlideshow;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoHomeRepairService = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-420q0-24 18-42t42-18h140v-100q0-24 18-42t42-18h280q24 0 42 18t18 42v100h140q24 0 42 18t18 42v420H80Zm60-60h680v-150H710v40h-60v-40H310v40h-60v-40H140v150Zm0-360v150h110v-40h60v40h340v-40h60v40h110v-150H140Zm200-60h280v-100H340v100Z"}]]);
+
+export default MsoHomeRepairService;

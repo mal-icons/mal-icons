@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-punch-clock",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrPunchClock {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 6h-1V3c0-1.1-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v3H5c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h14c1.1 0 2-0.9 2-2V8c0-1.1-0.9-2-2-2zM8 3h8v3H8V3zm4 16c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"}],["path",{"d":"M12.5 13.79V12c0-0.28-0.22-0.5-0.5-0.5s-0.50.22-0.50.5v2c0 0.130.050.260.150.35l1.14 1.14c0.20.20.510.20.71 0 0.2-0.20.2-0.51 0-0.71l-1-0.99z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrPunchClock;

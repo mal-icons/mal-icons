@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssTablet = createIcon("0 -960 960 960", [["path",{"d":"M40-160v-640h880v640H40Zm150-60h580v-520H190v520Zm-90 0h30v-520h-30v520Zm730 0h30v-520h-30v520ZM100-740h30-30Zm730 0h30-30Z"}]]);
+
+export default MssTablet;

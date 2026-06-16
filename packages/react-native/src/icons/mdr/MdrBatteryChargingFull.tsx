@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrBatteryChargingFull = createIcon("0 0 24 24", [["path",{"d":"M15.67 4H14V3c0-0.55-0.45-1-1-1h-2c-0.55 0-1 0.45-1 1v1H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.34 22h7.32c0.74 0 1.34-0.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zm-1.06 9.24-2.67 5c-0.240.45-0.940.28-0.94-0.24v-3.5H9.83a0.50.5 0 0 1-0.44-0.74l2.67-5c0.24-0.450.94-0.280.940.24v3.5h1.17c0.37 0 0.620.40.440.74z"}]]);
+
+export default MdrBatteryChargingFull;

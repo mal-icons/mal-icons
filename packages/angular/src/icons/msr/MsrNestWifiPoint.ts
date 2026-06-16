@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-nest-wifi-point",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNestWifiPoint {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M190-300h580l10-300q0-75-52.5-127.5T600-780H360q-75 0-127.5 52.5T180-600v240q0 17 3 31.5t7 28.5Zm170 180q-100 0-170-70t-70-170v-240q0-100 70-170t170-70h240q100 0 170 70t70 170v240q0 100-70 170t-170 70H360Zm120-180ZM370-180q0-14 8-22t22-8q14 0 22 8t8 22h100q0-14 8-22t22-8q14 0 22 8t8 22q45 0 81-15t62-45h-63q0 14-8 22t-22 8q-14 0-22-8t-8-22H510q0 14-8 22t-22 8q-14 0-22-8t-8-22H350q0 14-8 22t-22 8q-14 0-22-8t-8-22h-63q26 30 62 45t81 15Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNestWifiPoint;

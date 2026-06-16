@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-switch-right",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSwitchRight {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.5 15.38V8.62L18.88 12l-3.38 3.38m4.79-2.67a11 0 0 0 0-1.41L15.7 6.71c-0.62-0.63-1.7-0.19-1.70.7v9.17c0 0.89 1.08 1.34 1.710.71l4.58-4.58zM10 16.59V7.41c0-0.89-1.08-1.34-1.71-0.71L3.7 11.29a11 0 0 0 0 1.41l4.59 4.59c0.630.63 1.710.19 1.71-0.7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSwitchRight;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-stacked-inbox",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrStackedInbox {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M210-240q-24 0-42-18t-18-42v-480q0-24 18-42t42-18h660q24 0 42 18t18 42v480q0 24-18 42t-42 18H210Zm0-214v154h660v-154H680q-19 45-55.5 71.5T540-356q-48 0-84.5-26.5T400-454H210Zm330 38q29 0 58-22t34-51q2-11 10-18t19-7h209v-266H210v266h209q11 0 19 7t10 18q5 29 34 51t58 22ZM90-120q-24 0-42-18t-18-42v-439q0-12.75 8.68-21.37Q47.35-649 60.18-649 73-649 81.5-640.37T90-619v439h619q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T709-120H90Zm120-180h660-660Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrStackedInbox;

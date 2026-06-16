@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-cognition",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrCognition {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M490.74-349Q557-349 603-391.08T649-493q0-52-33.58-89T534-619q-42 0-72 27.5t-30 66.61Q432-508 438-491q6 17 20 29 11 11 23.51 9.15 12.51-1.85 20.33-10.01 7.82-8.15 8.99-19.65Q512-494 502-504q-5-5-7.5-9.5T492-524q0-14 11-24t31-10q23 0 39.5 18.5T590-492q0 35.19-28 59.6Q534-408 492-408q-51.2 0-86.6-40.5T370-549q0-23.01 6.5-44.82T396-635q7-11 6.5-23t-9.5-21q-9-9-21-9t-20 10q-21 27-32 60t-11 68q0 83.83 53.01 142.42Q415.02-349 490.74-349ZM240-252q-57-52-88.5-121.5T120-520q0-150 105-255t255-105q125 0 221.5 73.5T827-615l55 218q4 14-5 25.5T853-360h-93v140q0 24.75-17.62 42.38T700-160H600v50q0 12.75-8.68 21.38Q582.65-80 569.83-80 557-80 548.5-88.62T540-110v-80q0-12.75 8.63-21.37T570-220h130v-170q0-12.75 8.63-21.37T730-420h84l-45-180q-24-97-105-158.5T480-820q-125 0-212.5 86.5T180-522.46q0 64.42 26.32 122.39Q232.65-342.09 281-297l19 18v169q0 12.75-8.68 21.38Q282.65-80 269.83-80 257-80 248.5-88.62T240-110v-142Zm257-198Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrCognition;

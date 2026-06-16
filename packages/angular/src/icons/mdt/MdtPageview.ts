@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-pageview",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtPageview {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 18h16V6H4v12zm7.5-11c2.49 0 4.5 2.01 4.5 4.5 0 0.88-0.26 1.69-0.7 2.39l2.44 2.43-1.42 1.42-2.44-2.44c-0.690.44-1.510.7-2.390.7C9.01 16 7 13.99 7 11.5S9.01 7 11.5 7z","opacity":".3"}],["path",{"d":"M11.49 16c0.88 0 1.7-0.26 2.39-0.7l2.44 2.44 1.42-1.42-2.44-2.43c0.44-0.70.7-1.510.7-2.39C16 9.01 13.99 7 11.5 7S7 9.01 7 11.5 9.01 16 11.49 16zm0.01-7a2.5 2.5 0 0 1 0 5 2.5 2.5 0 0 1 0-5zM20 4H4c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V6c0-1.1-0.9-2-2-2zm0 14H4V6h16v12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtPageview;

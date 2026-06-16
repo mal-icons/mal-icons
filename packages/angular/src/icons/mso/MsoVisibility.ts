@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-visibility",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoVisibility {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480.12-330Q551-330 600.5-379.62q49.5-49.62 49.5-120.5Q650-571 600.38-620.5q-49.62-49.5-120.5-49.5Q409-670 359.5-620.38q-49.5 49.62-49.5 120.5Q310-429 359.62-379.5q49.62 49.5 120.5 49.5Zm-0.35-58Q433-388 400.5-420.73q-32.5-32.74-32.5-79.5Q368-547 400.74-579.5q32.74-32.5 79.5-32.5Q527-612 559.5-579.26q32.5 32.74 32.5 79.5Q592-453 559.27-420.5q-32.74 32.5-79.5 32.5ZM480-200q-146 0-264-83T40-500q58-134 176-217t264-83q146 0 264 83t176 217q-58 134-176 217t-264 83Zm0-300Zm-0.17 240Q601-260 702.5-325.5 804-391 857-500q-53-109-154.33-174.5-101.33-65.5-222.5-65.5Q359-740 257.5-674.5 156-609 102-500q54 109 155.33 174.5 101.33 65.5 222.5 65.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoVisibility;

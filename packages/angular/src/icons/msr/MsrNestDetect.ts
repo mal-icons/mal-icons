@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-nest-detect",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrNestDetect {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M369.9-80Q316-80 278-118.07 240-156.14 240-210v-610q0-24.75 17.63-42.37T300-880h140q24.75 0 42.38 17.63T500-820v610q0 53.86-38.1 91.93Q423.8-80 369.9-80ZM300-320q20-12 37.5-16t32.5-4q15 0 32.5 4t37.5 16v-500H300v500Zm69.88 180Q399-140 419.5-160.38q20.5-20.38 20.5-49.5Q440-239 419.62-259.5q-20.38-20.5-49.5-20.5Q341-280 320.5-259.62q-20.5 20.38-20.5 49.5Q300-181 320.38-160.5q20.38 20.5 49.5 20.5ZM660-240q-24.75 0-42.37-17.62T600-300v-360q0-24.75 17.63-42.37T660-720h80q24.75 0 42.38 17.63T800-660v360q0 24.75-17.62 42.38T740-240h-80Zm0-60h80v-360h-80v360ZM300-820h140-140Zm360 520h80-80Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrNestDetect;

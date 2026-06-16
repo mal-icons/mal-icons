@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-headset-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtHeadsetOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5 14h2v4H5zm11.83 0L19 16.17V14z","opacity":".3"}],["path",{"d":"M12 4c3.87 0 7 3.13 7 7v1h-4v0.17L16.83 14H19v2.17l2 2V11a9 9 0 0 0-9-9c-2.02 0-3.880.67-5.38 1.8l1.43 1.43A6.88 6.88 0 0 1 12 4zM2.1 2.10.69 3.51l3.33 3.33A8.98 8.98 0 0 0 3 11v7c0 1.10.9 2 2 2h4v-8H5v-1c0-0.940.19-1.830.52-2.65L15 17.83V20h2.17l1 1H12v2h7c0.34 0 0.65-0.090.93-0.24l0.550.55 1.41-1.41L2.1 2.1zM7 14v4H5v-4h2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtHeadsetOff;

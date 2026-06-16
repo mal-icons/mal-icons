@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-trail-length-short",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoTrailLengthShort {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M600-280q-73 0-129-46.5T402-450H160v-60h242.04Q407-542 422-571.5t37-48.5H240v-60h360q83 0 141.5 58.5T800-480q0 83-58.5 141.5T600-280Zm-0.23-60Q658-340 699-380.76q41-40.76 41-99Q740-538 699.24-579q-40.76-41-99-41Q542-620 501-579.23q-41 40.76-41 99Q460-422 500.77-381q40.76 41 99 41ZM280-280v-60h120v60H280Zm320-200Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoTrailLengthShort;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-roofing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRoofing {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M119-480q-11 0-14.5-9.5T109-506l351-316q8-8 20-8t20 8l180 162v-90q0-13 8.5-21.5T710-780h20q13 0 21.5 8.5T760-750v162l91 82q8 7 4.5 16.5T841-480h-38q-5 0-10-2t-10-6L480-759 177-488q-5 4-10 6t-10 2h-38Zm281 320q-13 0-21.5-8.5T370-190v-160q0-13 8.5-21.5T400-380h160q13 0 21.5 8.5T590-350v160q0 13-8.5 21.5T560-160H400Zm30-60h100v-100H430v100Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRoofing;

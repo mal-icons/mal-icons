@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-arrow-upward",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrArrowUpward {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.83-160Q467-160 458.5-168.62T450-190v-496L223-459q-8.8 9-20.9 9-12.1 0-21.1-9-9-9-9-21t9-21l278-278q4.8-4.91 10.4-6.95Q475-788 480.42-788q5.42 0 10.5 2Q496-784 501-779l278 278q9 9 9 21t-8.84 21q-8.84 9-21 9T737-459L510-686v496q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrArrowUpward;

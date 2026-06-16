@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-language-korean-latin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrLanguageKoreanLatin {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M215.96-455Q244-455 264-467.75T284-506q0-26-19.95-39t-48-13Q188-558 168-544.8t-20 38.5q0 25.3 19.95 38.3 19.95 13 48 13ZM96-616q-6.55 0-11.27-5.03-4.73-5.03-4.73-12Q80-640 85.02-644.5T97-649h97v-36q0-8.88 6.08-14.94 6.08-6.06 15-6.06T230-699.94q6 6.06 6 14.94v36h99q6.55 0 11.27 4.73Q351-639.54 351-633q0 6.96-4.73 11.98Q341.55-616 335-616H96Zm119.53 195Q171-421 139-443.19 107-465.39 107-506q0-41.56 32.03-63.28Q171.06-591 216-591q45 0 77.5 21.72T326-506q0 41.56-32.5 63.28T215.53-421ZM178-260q-12.75 0-21.37-8.62T148-290v-79q0-8.88 6.53-14.94 6.53-6.06 15.5-6.06Q179-390 185-383.94q6 6.06 6 14.94v75h247q6.96 0 11.98 5.03 5.02 5.03 5.02 12Q455-270 449.98-265q-5.02 5-11.98 5H178Zm235.92-105Q405-365 399-371.06q-6-6.06-6-14.94v-300q0-8 6.5-14t14.5-6q8 0 14 6t6 14v130h52q6.96 0 11.98 5.03 5.02 5.03 5.02 12Q503-532 497.98-527q-5.02 5-11.98 5h-51v136q0 8.89-6.08 14.94-6.08 6.06-15 6.06ZM704-320q32.49 0 63.25-15T824-377.51V-499q-29 4-51 8.5T731-480q-50 15.78-75 39.46-25 23.67-25 55.24Q631-356 650.91-338q19.91 18 53.09 18Zm-14 51q-54 0-86.5-31T571-383q0-50 34-83.5T709.72-520Q732-526 760.5-531.5T824-542q0-56-18.5-82.5T739-651q-22 0-44 6.5T644-622q-10 5-19.85 2.67Q614.3-621.67 609-631q-5-10-2.5-20t12.5-15q31-17 64.5-27t67.5-10q69 0 101 42.5T884-540v237q0 10.61-7.08 17.8-7.08 7.2-17.51 7.2h-3.73q-9.69 0-16.19-6.5T831-300l-3-27q-30 28-66.5 43T690-269Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrLanguageKoreanLatin;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-grass",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsGrass {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 20H2v-2h5.75A8.03 8.03 0 0 0 2 12.26c0.64-0.16 1.31-0.26 2-0.26 4.42 0 8 3.58 8 8zm10-7.74c-0.64-0.16-1.31-0.26-2-0.26-2.93 0-5.48 1.58-6.88 3.93a9.82 9.82 0 0 1 0.87 4.07h8v-2h-5.75A8.06 8.06 0 0 1 22 12.26zm-6.36-1.24a10.03 10.03 0 0 1 4.09-5C15.44 6.16 12 9.67 12 14v0.02c0.95-1.27 2.2-2.3 3.64-3zm-4.22-2.17A8.53 8.53 0 0 0 6.7 4C8.14 5.86 9 8.18 9 10.71c0 0.21-0.030.41-0.040.610.430.240.830.52 1.220.82a9.91 9.91 0 0 1 1.24-3.29z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsGrass;

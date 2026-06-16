@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssMemory = createIcon("0 -960 960 960", [["path",{"d":"M360-120v-80H200v-160h-80v-60h80v-124h-80v-60h80v-160h160v-76h60v76h124v-76h60v76h160v160h76v60h-76v124h76v60h-76v160H604v80h-60v-80H420v80h-60ZM260-260h444v-444H260v444Zm117-117v-205h205v205H377Zm60-60h85v-85h-85v85Zm43-43Z"}]]);
+
+export default MssMemory;

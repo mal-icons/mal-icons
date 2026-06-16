@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrStat1 = createIcon("0 -960 960 960", [["path",{"d":"M480-551 303-374q-9 9-21 9t-21-9q-9-9-9-21t9-21l177-177q17-17 42-17t42 17l177 177q9 9 9 21t-9 21q-9 9-21 9t-21-9L480-551Z"}]]);
+
+export default MsrStat1;

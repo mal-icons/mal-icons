@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-sailing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtSailing {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 11.5H6.83L9 8.38v3.12zm6.38-6.26c1.42 1.52 2.88 3.72 3.41 6.26h-3.68c0.21-1.10.39-2.460.39-4 0-0.79-0.05-1.55-0.12-2.26z","opacity":".3"}],["path",{"d":"M11 13.5V2L3 13.5h8zm-2-2H6.83L9 8.38v3.12zm12 2C21 6.5 14.5 1 12.5 1c0 0 1 3 1 6.5s-1 6-1 6H21zm-5.62-8.26c1.42 1.52 2.88 3.72 3.41 6.26h-3.68c0.21-1.10.39-2.460.39-4 0-0.79-0.05-1.55-0.12-2.26zM22 15H2a6.23 6.23 0 0 0 2.33 3.73c0.65-0.27 1.22-0.72 1.67-1.230.730.84 1.8 1.5 3 1.5s2.27-0.66 3-1.5c0.730.84 1.8 1.5 3 1.5s2.26-0.66 3-1.5c0.450.51 1.020.96 1.67 1.23 1.17-0.89 2.02-2.2 2.33-3.73zm0 8v-2h-1c-1.04 0-2.08-0.35-3-1-1.83 1.3-4.17 1.3-6 0-1.83 1.3-4.17 1.3-6 0-0.910.65-1.96 1-3 1H2v2h1c1.03 0 2.05-0.25 3-0.75 1.89 1 4.11 1 6 0 1.89 1 4.11 1 6 0 0.950.5 1.970.75 3 0.75h1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtSailing;

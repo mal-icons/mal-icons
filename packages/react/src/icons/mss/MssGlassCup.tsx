@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssGlassCup = createIcon("0 -960 960 960", [["path",{"d":"m208-80-88-800h720L752-80H208Zm54-60h436l12-110H250l12 110Zm-19-170h474l56-510H187l56 510Zm19 170h436-436Z"}]]);
+
+export default MssGlassCup;

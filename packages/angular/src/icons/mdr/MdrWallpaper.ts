@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-wallpaper",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrWallpaper {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 5c0-0.550.45-1 1-1h5c0.55 0 1-0.45 1-1s-0.45-1-1-1H4c-1.1 0-2 0.9-2 2v6c0 0.550.45 1 1 1s1-0.45 1-1V5zm5.61 8.49-2.96 3.7c-0.260.33-0.030.810.390.81H17a0.50.5 0 0 0 0.4-0.8l-2-2.67c-0.2-0.27-0.6-0.27-0.8 0l-1.63 2.18-2.58-3.22a0.50.5 0 0 0-0.78 0zM17 8.5c0-0.83-0.67-1.5-1.5-1.5S14 7.67 14 8.5s0.67 1.5 1.5 1.5S17 9.33 17 8.5zM20 2h-6c-0.55 0-1 0.45-1 1s0.45 1 1 1h5c0.55 0 1 0.45 1 1v5c0 0.550.45 1 1 1s1-0.45 1-1V4c0-1.1-0.9-2-2-2zm0 17c0 0.55-0.45 1-1 1h-5c-0.55 0-1 0.45-1 1s0.45 1 1 1h6c1.1 0 2-0.9 2-2v-6c0-0.55-0.45-1-1-1s-1 0.45-1 1v5zM3 13c-0.55 0-1 0.45-1 1v6c0 1.10.9 2 2 2h6c0.55 0 1-0.45 1-1s-0.45-1-1-1H5c-0.55 0-1-0.45-1-1v-5c0-0.55-0.45-1-1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrWallpaper;

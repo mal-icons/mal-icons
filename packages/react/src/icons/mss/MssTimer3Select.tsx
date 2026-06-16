@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssTimer3Select = createIcon("0 -960 960 960", [["path",{"d":"M160-200v-80h261v-160H162v-80h259v-160H160v-80h341v560H160Zm440 0v-60h180v-70H600v-190h240v60H660v70h180v190H600Z"}]]);
+
+export default MssTimer3Select;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-supervised-user-circle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsSupervisedUserCircle {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.61 6.34c1.07 0 1.930.86 1.93 1.93s-0.86 1.93-1.93 1.93-1.93-0.86-1.93-1.93c-0.01-1.070.86-1.93 1.93-1.93zm-6-1.58c1.3 0 2.36 1.06 2.36 2.36s-1.06 2.36-2.36 2.36-2.36-1.06-2.36-2.36c0-1.31 1.05-2.36 2.36-2.36zm0 9.13v3.75c-2.4-0.75-4.3-2.6-5.14-4.96 1.05-1.12 3.67-1.69 5.14-1.690.53 0 1.20.08 1.90.22-1.640.87-1.9 2.02-1.9 2.68zM12 20c-0.27 0-0.53-0.01-0.79-0.04v-4.07c0-1.42 2.94-2.13 4.4-2.13 1.07 0 2.920.39 3.84 1.15C18.28 17.88 15.39 20 12 20z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsSupervisedUserCircle;

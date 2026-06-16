@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-blender",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBlender {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M300-80q-24 0-42-18t-18-42v-39q0-45 22.5-85.5T328-333l-41-200H180q-24 0-42-18t-18-42v-177q0-24 18-42t42-18h232v-20q0-13 8.5-21.5T442-880h66q13 0 21.5 8.5T538-850v20h146q14 0 23 10.5t7 24.5l-82 462q43 28 65.5 68.5T720-179v39q0 24-18 42t-42 18H300Zm-24-513-35-177h-61v177h96Zm204 410q17 0 28.5-11.5T520-223q0-17-11.5-28.5T480-263q-17 0-28.5 11.5T440-223q0 17 11.5 28.5T480-183Zm-98-187h196l70-400H302l80 400Zm-82 230h360v-39q0-54-40-92.5T521-310h-82q-59 0-99 38.5T300-179v39Zm180-170Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBlender;

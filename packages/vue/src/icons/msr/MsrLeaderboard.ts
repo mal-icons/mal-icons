@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrLeaderboard = createIcon("0 -960 960 960", [["path",{"d":"M150-530v340h180v-340H150Zm240-240v580h180v-580H390Zm240 320v260h180v-260H630Zm180 320H150q-24.75 0-42.37-17.62T90-190v-340q0-24.75 17.63-42.37T150-590h180v-180q0-24.75 17.63-42.37T390-830h180q24.75 0 42.38 17.63T630-770v260h180q24.75 0 42.38 17.63T870-450v260q0 24.75-17.62 42.38T810-130Z"}]]);
+
+export default MsrLeaderboard;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-queue-play-next",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrQueuePlayNext {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 3H3c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h5v1c0 0.550.45 1 1 1h6c0.55 0 1-0.45 1-1v-1h1c0.55 0 1-0.45 1-1s-0.45-1-1-1H4c-0.55 0-1-0.45-1-1V6c0-0.550.45-1 1-1h16c0.55 0 1 0.45 1 1v6c0 0.550.45 1 1 1s1-0.45 1-1V5c0-1.1-0.9-2-2-2zm-8 7V8c0-0.55-0.45-1-1-1s-1 0.45-1 1v2H9c-0.55 0-1 0.45-1 1s0.45 1 1 1h2v2c0 0.550.45 1 1 1s1-0.45 1-1v-2h2c0.55 0 1-0.45 1-1s-0.45-1-1-1h-2zm10.29 8.71-3.04 3.04c-0.410.41-1.090.41-1.5 0-0.41-0.41-0.41-1.09 0-1.5L21 18l-2.25-2.25c-0.41-0.41-0.41-1.09 0-1.50.41-0.41 1.09-0.41 1.5 0l3.04 3.04c0.390.390.39 1.03 0 1.42z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrQueuePlayNext;

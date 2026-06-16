@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdsAddBox = createIcon("0 0 24 24", [["path",{"d":"M21 3H3v18h18V3zm-4 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"}]]);
+
+export default MdsAddBox;

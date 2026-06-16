@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-colorize",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtColorize {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m15.9 9.02-0.92-0.92L17.67 5.41l0.920.92z","opacity":".3"}],["path",{"d":"m20.71 5.63-2.34-2.34c-0.2-0.2-0.45-0.29-0.71-0.29s-0.510.1-0.70.29l-3.12 3.12-1.93-1.91-1.41 1.41 1.42 1.42L3 16.25V21h4.75l8.92-8.92 1.42 1.42 1.41-1.41-1.92-1.92 3.12-3.12c0.4-0.40.4-1.030.01-1.42zM6.92 19 5 17.08l8.06-8.06 1.92 1.92L6.92 19zm8.98-9.97-0.93-0.93 2.69-2.690.920.92-2.68 2.7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtColorize;

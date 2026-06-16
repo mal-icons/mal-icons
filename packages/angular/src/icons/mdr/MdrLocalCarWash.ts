@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-local-car-wash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrLocalCarWash {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 5c0.83 0 1.5-0.67 1.5-1.5 0-0.66-0.66-1.64-1.11-2.22a0.50.5 0 0 0-0.79 0c-0.440.58-1.1 1.56-1.1 2.22 0 0.830.67 1.5 1.5 1.5zm-5 0c0.83 0 1.5-0.67 1.5-1.5 0-0.66-0.66-1.64-1.11-2.22a0.50.5 0 0 0-0.79 0c-0.440.58-1.1 1.56-1.1 2.22 0 0.830.67 1.5 1.5 1.5zM7 5c0.83 0 1.5-0.67 1.5-1.5 0-0.66-0.66-1.64-1.11-2.22a0.50.5 0 0 0-0.79 0c-0.440.58-1.1 1.56-1.1 2.22C5.5 4.33 6.17 5 7 5zm11.92 3.01C18.72 7.42 18.16 7 17.5 7h-11c-0.66 0-1.210.42-1.42 1.01l-1.97 5.67c-0.070.21-0.110.43-0.110.66v7.16c0 0.830.67 1.5 1.5 1.5S6 22.33 6 21.5V21h12v0.5c0 0.820.67 1.5 1.5 1.50.82 0 1.5-0.67 1.5-1.5v-7.16c0-0.22-0.04-0.45-0.11-0.66l-1.97-5.67zM6.5 18c-0.83 0-1.5-0.67-1.5-1.5S5.67 15 6.5 15s1.50.67 1.5 1.5S7.33 18 6.5 18zm11 0c-0.83 0-1.5-0.67-1.5-1.5s0.67-1.5 1.5-1.5 1.50.67 1.5 1.5-0.67 1.5-1.5 1.5zM5 13l1.27-3.82c0.14-0.40.52-0.680.95-0.68h9.56c0.43 0 0.810.280.950.68L19 13H5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrLocalCarWash;

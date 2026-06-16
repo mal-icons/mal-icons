@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-airplanemode-inactive",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAirplanemodeInactive {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m843-341-222-68-191-191v-230q0-21 14.5-35.5T480-880q21 0 35.5 14.5T530-830v236l334 196q7 4 11.5 13t4.5 17q0 16-11 24t-26 3ZM785-77 530-332v147l69 52q5 4 8 10t3 12q0 11-8 17t-19 3l-103-29-103 29q-11 3-19-2.5t-8-17.5q0-6 3-12t8-10l69-52v-248l-313 92q-15 5-26-3t-11-25q0-8 4.5-16.5T96-398l230-136L77-785q-8-9-8.5-21t8.5-21q9-9 21-9t21 9l708 709q9 9 9 21.5T827-76q-8 8-21 7.5T785-77Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAirplanemodeInactive;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-sync-problem",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrSyncProblem {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 12c0 2.210.91 4.2 2.36 5.64l-1.51 1.51a0.50.5 0 0 0 0.360.85H8.5c0.28 0 0.5-0.220.5-0.5v-4.29c0-0.45-0.54-0.67-0.85-0.35l-1.39 1.39C5.68 15.15 5 13.66 5 12c0-2.39 1.4-4.46 3.43-5.420.34-0.160.57-0.470.57-0.84v-0.19c0-0.68-0.71-1.11-1.32-0.82A7.99 7.99 0 0 0 3 12zm8 5h2v-2h-2v2zm8.79-13H15.5c-0.28 0-0.50.22-0.50.5v4.29c0 0.450.540.670.850.35l1.39-1.39C18.32 8.85 19 10.34 19 12c0 2.39-1.4 4.46-3.43 5.42-0.340.16-0.570.47-0.570.84v0.18c0 0.680.71 1.11 1.320.82A7.97 7.97 0 0 0 21 12c0-2.21-0.91-4.2-2.36-5.64l1.51-1.51a0.50.5 0 0 0-0.36-0.85zM12 13c0.55 0 1-0.45 1-1V8c0-0.55-0.45-1-1-1s-1 0.45-1 1v4c0 0.550.45 1 1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrSyncProblem;

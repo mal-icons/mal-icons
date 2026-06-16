@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-volunteer-activism",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrVolunteerActivism {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M645.89-470q-6.69 0-12.9-2T622-479q-87-78-148.5-148.76T412-760q0-51.76 35.22-86.88Q482.44-882 534.34-882 564-882 593.5-865.5T646-821q23-28 52.5-44.5t59.16-16.5q51.9 0 87.12 35.12Q880-811.76 880-760q0 61.49-61.5 132.24T670.06-479q-5.05 5-11.27 7t-12.9 2Zm0.11-71q66-60 120-119t54-100q0-27.42-17.36-44.71Q785.29-822 757.76-822 741-822 724.5-814q-16.5 8-33.5 30l-45 55-45-55q-17-22-33.5-30t-33.26-8q-27.53 0-44.89 17.29Q472-787.42 472-760q0 41 54 100t120 119Zm-84 417 248-78q-6-8-15.19-20.5Q785.61-235 774-235H536q-2 0-18-1.5t-31-8.5l-66-20q-12-4-18-16t-2-24q4-12 15.28-18T440-324l93 31q-2 0 14.5-1t47.33-1H604q0-12.42-4.5-23.71Q595-330 584-335l-245-93h-84v214l307 90Zm-13 57-294-84q-2 27-22.5 42T195-94h-95q-24.75 0-42.37-17.62T40-154v-274q0-24.75 17.63-42.37T100-488h238q5.33 0 10.67 1Q354-486 359-484l245 92q27 10 45.5 32.5T668-295h114q42 0 70 30t28 81q0 11-5 19.5T859-152L583-67q-8.17 2-17.09 2Q557-65 549-67Zm97-615ZM100-154h94v-274h-94v274Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrVolunteerActivism;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrPausePresentation = createIcon("0 0 24 24", [["path",{"d":"M21 3H3c-1.1 0-2 0.9-2 2v14c0 1.10.9 2 2 2h18c1.1 0 2-0.9 2-2V5c0-1.1-0.9-2-2-2zm0 15c0 0.55-0.45 1-1 1H4c-0.55 0-1-0.45-1-1V6c0-0.550.45-1 1-1h16c0.55 0 1 0.45 1 1v12zM10 8c-0.55 0-1 0.45-1 1v6c0 0.550.45 1 1 1s1-0.45 1-1V9c0-0.55-0.45-1-1-1zm4 0c-0.55 0-1 0.45-1 1v6c0 0.550.45 1 1 1s1-0.45 1-1V9c0-0.55-0.45-1-1-1z"}]]);
+
+export default MdrPausePresentation;

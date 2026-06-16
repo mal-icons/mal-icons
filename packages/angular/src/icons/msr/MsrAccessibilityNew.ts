@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-accessibility-new",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAccessibilityNew {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480.08-734q-30.08 0-51.58-21.42-21.5-21.42-21.5-51.5 0-30.08 21.42-51.58 21.42-21.5 51.5-21.5 30.08 0 51.58 21.42 21.5 21.42 21.5 51.5 0 30.08-21.42 51.58-21.42 21.5-51.5 21.5ZM810-643q-52.16 10.58-107.58 17.79Q647-618 587-613v504q0 12-8.68 20.5-8.68 8.5-21.5 8.5Q544-80 535.5-88.62T527-110v-230h-94v231q0 12-8.68 20.5-8.68 8.5-21.5 8.5Q390-80 381.5-88.62T373-110v-503q-60-5-115.42-12.21Q202.16-632.42 150-643q-12.14-2.91-18.57-13.45Q125-667 128-680q3-12 13.5-19t23.5-4q77 17 154 23.5t161 6.5q84 0 161-6.5T795-703q13-3 24 3.5t14 19.5q3 12-4 23t-19 14Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAccessibilityNew;

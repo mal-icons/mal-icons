@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdrUTurnLeft = createIcon("0 0 24 24", [["path",{"d":"M3.71 12.29a11 0 0 1 1.41 0l0.880.88V9c0-3.31 2.69-6 6-6s6 2.69 6 6v11c0 0.55-0.45 1-1 1s-1-0.45-1-1V9c0-2.21-1.79-4-4-4S8 6.79 8 9v4.17l0.88-0.88a11 0 1 1 1.41 1.41L7.7 16.29a11 0 0 1-1.41 0L3.7 13.7c-0.38-0.38-0.38-1.020.01-1.41z"}]]);
+
+export default MdrUTurnLeft;

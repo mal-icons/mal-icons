@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssFlipToBack = createIcon("0 -960 960 960", [["path",{"d":"M264-596v-96h60v96h-60Zm0 184v-96h60v96h-60Zm0-368v-60h60v60h-60Zm148 516v-60h96v60h-96Zm368-516v-60h60v60h-60Zm-368 0v-60h96v60h-96ZM264-264v-60h60v60h-60Zm516-148v-96h60v96h-60Zm0-184v-96h60v96h-60Zm0 332v-60h60v60h-60ZM120-120v-572h60v512h512v60H120Zm476-660v-60h96v60h-96Zm0 516v-60h96v60h-96Z"}]]);
+
+export default MssFlipToBack;

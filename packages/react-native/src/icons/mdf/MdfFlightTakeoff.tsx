@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdfFlightTakeoff = createIcon("0 0 24 24", [["path",{"d":"M2.5 19h19v2h-19v-2zm19.57-9.36c-0.21-0.8-1.04-1.28-1.84-1.06L14.92 10l-6.9-6.43-1.930.51 4.14 7.17-4.97 1.33-1.97-1.54-1.450.39 2.59 4.49s7.12-1.9 16.57-4.43c0.81-0.23 1.28-1.05 1.07-1.85z"}]]);
+
+export default MdfFlightTakeoff;

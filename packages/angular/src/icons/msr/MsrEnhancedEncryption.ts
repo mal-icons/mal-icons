@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-enhanced-encryption",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrEnhancedEncryption {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M450-332v105q0 12.75 8.68 21.38 8.68 8.63 21.5 8.63 12.83 0 21.33-8.62T510-227v-105h105q12.75 0 21.38-8.68 8.63-8.68 8.63-21.5 0-12.82-8.62-21.32T615-392H510v-105q0-12.75-8.68-21.37-8.68-8.62-21.5-8.62-12.82 0-21.32 8.63T450-497v105H345q-12.75 0-21.37 8.68-8.62 8.68-8.62 21.5 0 12.83 8.63 21.33T345-332h105ZM220-80q-24.75 0-42.37-17.62T160-140v-434q0-24.75 17.63-42.37T220-634h70v-96q0-78.85 55.61-134.43Q401.21-920 480.11-920T614.5-864.42Q670-808.85 670-730v96h70q24.75 0 42.38 17.63T800-574v434q0 24.75-17.62 42.38T740-80H220Zm0-60h520v-434H220v434Zm130-494h260v-96q0-54.17-37.88-92.08-37.88-37.92-92-37.92Q426-860 388-822.08 350-784.17 350-730v96ZM220-140v-434 434Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrEnhancedEncryption;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-align-space-around",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAlignSpaceAround {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M320-250q-12.75 0-21.37-8.62T290-280v-40q0-12.75 8.63-21.37T320-350h320q12.75 0 21.38 8.63T670-320v40q0 12.75-8.62 21.38T640-250H320Zm0-360q-12.75 0-21.37-8.62T290-640v-40q0-12.75 8.63-21.37T320-710h320q12.75 0 21.38 8.63T670-680v40q0 12.75-8.62 21.38T640-610H320ZM110-80q-12.75 0-21.37-8.68Q80-97.35 80-110.17 80-123 88.63-131.5T110-140h740q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5Q880-97 871.38-88.5T850-80H110Zm0-740q-12.75 0-21.37-8.68Q80-837.35 80-850.17 80-863 88.63-871.5T110-880h740q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T850-820H110Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAlignSpaceAround;

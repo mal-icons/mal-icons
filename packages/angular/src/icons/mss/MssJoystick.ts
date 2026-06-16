@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-joystick",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssJoystick {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M450-635v-28q-43-11-71.5-45.99Q350-743.98 350-790q0-53.86 38.1-91.93 38.1-38.07 92-38.07T572-881.93q38 38.07 38 91.93 0 46.02-28.5 81.01Q553-674 510-663v28l330 190v170L510-85q-14.33 8-30.16 8Q464-77 450-85L120-275v-170l330-190ZM180-393v83l300 173 300-173v-84L480-220 180-393Zm270-27v-146L225-436l255 147 254-148-224-129v146h-60Zm29.88-300Q509-720 529.5-740.38q20.5-20.38 20.5-49.5Q550-819 529.62-839.5q-20.38-20.5-49.5-20.5Q451-860 430.5-839.62q-20.5 20.38-20.5 49.5Q410-761 430.38-740.5q20.38 20.5 49.5 20.5ZM480-137Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssJoystick;

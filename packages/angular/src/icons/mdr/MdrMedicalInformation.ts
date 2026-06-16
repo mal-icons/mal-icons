@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-medical-information",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrMedicalInformation {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 7h-5V4c0-1.1-0.9-2-2-2h-2c-1.1 0-2 0.9-2 2v3H4c-1.1 0-2 0.9-2 2v11c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V9c0-1.1-0.9-2-2-2zm-9-3h2v5h-2V4zM7 16H6c-0.55 0-1-0.45-1-1s0.45-1 1-1h1v-1c0-0.550.45-1 1-1s1 0.45 1 1v1h1c0.55 0 1 0.45 1 1s-0.45 1-1 1H9v1c0 0.55-0.45 1-1 1s-1-0.45-1-1v-1zm6.75-1.5c-0.41 0-0.75-0.34-0.75-0.75s0.34-0.750.75-0.75h4.5c0.41 0 0.750.340.750.75s-0.340.75-0.750.75h-4.5zm0 3c-0.41 0-0.75-0.34-0.75-0.75s0.34-0.750.75-0.75h2.5c0.41 0 0.750.340.750.75s-0.340.75-0.750.75h-2.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrMedicalInformation;

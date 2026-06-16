@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsBreakfastDining = createIcon("0 0 24 24", [["path",{"d":"M17.85 3H6.14C4.15 3 2.36 4.39 2.05 6.36c-0.27 1.750.59 3.29 1.95 4.09V21h16V10.45a4 4 0 0 0 1.95-4.11C21.63 4.38 19.83 3 17.85 3zm-1.44 10L12 17.42 7.59 13 12 8.59 16.41 13z"}]]);
+
+export default MdsBreakfastDining;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-restaurant",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRestaurant {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M729.83-80Q717-80 708.5-88.62T700-110v-290h-55q-24.75 0-42.37-17.62T585-460v-245q0-79 48-127t127-48v770q0 12.75-8.68 21.38Q742.65-80 729.83-80Zm-415 0Q302-80 293.5-88.62T285-110v-338q-52-11-88.5-52.5T160-600.27V-850q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T220-850v250h65v-250q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T345-850v250h65v-250q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T470-850v249.73q0 58.27-36.5 99.77Q397-459 345-448v338q0 12.75-8.68 21.38Q327.65-80 314.83-80Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRestaurant;

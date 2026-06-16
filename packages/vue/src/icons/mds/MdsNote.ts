@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsNote = createIcon("0 0 24 24", [["path",{"d":"m22 10-6-6H2v16h20V10zm-7-4.5 5.5 5.5H15V5.5z"}]]);
+
+export default MdsNote;

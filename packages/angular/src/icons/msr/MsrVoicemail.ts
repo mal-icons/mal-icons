@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-voicemail",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrVoicemail {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M251-320q-75 0-127.5-52.5T71-500q0-75 52.5-127.5T251-680q75 0 127.5 52.5T431-500q0 33.66-13.5 64.83Q404-404 381-380h199q-23-25-36.5-55.5T530-500q0-75 52.5-127.5T710-680q75 0 128 52.5T891-500q0 75-52.79 127.5Q785.42-320 710-320H251Zm0-60q50.4 0 85.2-34.8Q371-449.6 371-500q0-50.4-34.8-85.2Q301.4-620 251-620q-50.4 0-85.2 34.8Q131-550.4 131-500q0 50.4 34.8 85.2Q200.6-380 251-380Zm459 0q50.4 0 85.2-34.8Q830-449.6 830-500q0-50.4-34.8-85.2Q760.4-620 710-620q-50.4 0-85.2 34.8Q590-550.4 590-500q0 50.4 34.8 85.2Q659.6-380 710-380Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrVoicemail;

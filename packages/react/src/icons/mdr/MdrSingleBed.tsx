@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrSingleBed = createIcon("0 0 24 24", [["path",{"d":"M18 10V7c0-1.1-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v3c-1.1 0-2 0.9-2 2v5h1.33l0.51 1.53c0.10.280.360.470.660.47a0.70.7 0 0 0 0.66-0.47L7.67 17h8.67l0.51 1.53c0.090.280.350.470.650.47a0.70.7 0 0 0 0.66-0.47l0.51-1.53H20v-5c0-1.1-0.9-2-2-2zm-7 0H8V8c0-0.550.45-1 1-1h2v3zm5 0h-3V7h2c0.55 0 1 0.45 1 1v2z"}]]);
+
+export default MdrSingleBed;

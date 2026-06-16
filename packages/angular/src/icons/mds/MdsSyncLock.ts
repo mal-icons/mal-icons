@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-sync-lock",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsSyncLock {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 4.26v2.09C7.67 7.18 6 9.39 6 12c0 1.770.78 3.34 2 4.44V14h2v6H4v-2h2.73A7.94 7.94 0 0 1 4 12c0-3.73 2.55-6.85 6-7.74zM20 4h-6v6h2V7.56c1.22 1.1 2 2.67 2 4.44h2c0-2.4-1.06-4.54-2.73-6H20V4zm0 13v-1c0-1.1-0.9-2-2-2s-2 0.9-2 2v1c-0.55 0-1 0.45-1 1v3c0 0.550.45 1 1 1h4c0.55 0 1-0.45 1-1v-3c0-0.55-0.45-1-1-1zm-1 0h-2v-1c0-0.550.45-1 1-1s1 0.45 1 1v1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsSyncLock;

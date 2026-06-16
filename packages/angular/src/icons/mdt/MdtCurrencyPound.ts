@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-currency-pound",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtCurrencyPound {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14 21c1.93 0 3.62-1.17 4-3l-1.75-0.88C16 18.21 15.33 19 14 19H9.1c0.83-1 1.5-2.34 1.5-4 0-0.35-0.03-0.69-0.08-1H14v-2H9.82C9 10.42 8 9.6 8 8a3.5 3.5 0 0 1 6.78-1.22L16.63 6c-0.8-2.05-2.79-3.5-5.13-3.5C8.46 2.5 6 4.96 6 8c0 1.780.79 2.9 1.49 4H6v2h2.47c0.080.310.130.640.13 1 0 2.7-2.6 4-2.6 4v2h8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtCurrencyPound;

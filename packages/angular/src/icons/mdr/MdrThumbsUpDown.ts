@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-thumbs-up-down",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrThumbsUpDown {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.06 5H5.82l0.66-3.18c0.08-0.37-0.04-0.75-0.3-1.02A1.11 1.11 0 0 0 4.60.8l-4 4c-0.390.37-0.60.88-0.6 1.41V12c0 1.10.9 2 2 2h5.92c0.8 0 1.52-0.48 1.84-1.21l2.14-5C12.46 6.47 11.49 5 10.06 5zM22 10h-5.92c-0.8 0-1.520.48-1.84 1.21l-2.14 5c-0.56 1.320.4 2.79 1.84 2.79h4.24l-0.66 3.18c-0.080.370.040.750.3 1.020.440.44 1.150.44 1.58 0l4-4c0.38-0.380.59-0.880.59-1.41V12c0.01-1.1-0.89-2-1.99-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrThumbsUpDown;

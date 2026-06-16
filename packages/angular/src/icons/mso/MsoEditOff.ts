@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-edit-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoEditOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M796-76 500-372 248-120H120v-128l252-252L76-796l42-42 720 720-42 42ZM436-436l-22-22 22 22 22 22-22-22Zm148-20-42-42 125-125-44-44-125 125-42-42 168-168 128 128-168 168Zm210-210L666-794l42-42q17-17 42.5-16.5T793-835l43 43q17 17 17.5 41.5T836-708l-42 42ZM520-520ZM180-180h44l234-234-44-44-234 234v44Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoEditOff;

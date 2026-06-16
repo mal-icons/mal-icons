@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-near-me",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtNearMe {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m11.39 12.610.320.83 1.32 3.42 4.24-10.13-10.13 4.24 3.42 1.33z","opacity":".3"}],["path",{"d":"m3 11.51 6.84 2.65L12.48 21h0.98L21 3 3 10.53v0.98zm14.27-4.78-4.24 10.13-1.32-3.42-0.32-0.83-0.82-0.32-3.43-1.33 10.13-4.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtNearMe;

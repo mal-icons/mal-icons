@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-compress",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrCompress {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479-80q-13 0-21.5-8.5T449-110v-128l-57 56q-8 8-20 8t-21-9q-9-9-9-21t9-21l107-106q9-8 21.5-8.5T500-331l106 107q8 8 8 20t-9 21q-9 9-21.5 9t-20.5-9l-54-55v129q0 12-8.5 20.5T479-80ZM190-410q-12 0-20.5-8.5T161-440q0-13 8.5-21.5T191-470h580q12 0 20.5 8.5T800-440q0 13-8.5 21.5T770-410H190Zm0-121q-12 0-20.5-8.5T161-561q0-13 8.5-21.5T191-591h580q12 0 20.5 8.5T800-561q0 13-8.5 21.5T770-531H190Zm268-138L351-776q-8-8-8-20t9-21q9-9 21.5-9t20.5 9l54 55v-129q0-12 8.5-20.5T478-920q13 0 21.5 8.5T508-890v128l57-56q8-8 20-8t21 9q9 9 9 21t-9 21L500-669q-9 9-21 9t-21-9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrCompress;

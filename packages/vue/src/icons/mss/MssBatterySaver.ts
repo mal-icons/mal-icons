@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssBatterySaver = createIcon("0 -960 960 960", [["path",{"d":"M280-80v-720h120v-80h160v80h120v720H280Zm170-244h60v-84h84v-60h-84v-84h-60v84h-84v60h84v84Z"}]]);
+
+export default MssBatterySaver;

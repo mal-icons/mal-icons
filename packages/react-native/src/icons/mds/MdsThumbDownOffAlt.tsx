@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdsThumbDownOffAlt = createIcon("0 0 24 24", [["path",{"d":"M19 3h4v12h-4zM1 11.6V16h8.31l-1.12 5.38L9.83 23 17 15.82V3H4.69L1 11.6zM15 5v9.99l-4.34 4.350.61-2.930.5-2.41H3v-1.99L6.01 5H15z"}]]);
+
+export default MdsThumbDownOffAlt;

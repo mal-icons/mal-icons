@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrExposureNeg1 = createIcon("0 -960 960 960", [["path",{"d":"M150-410q-13 0-21.5-8.5T120-440q0-13 8.5-21.5T150-470h220q13 0 21.5 8.5T400-440q0 13-8.5 21.5T370-410H150Zm535 210q-14 0-24.5-10.5T650-235v-432l-73 53q-11 8-23.5 5T533-623q-8-11-5.5-23.5T541-667l103-75q11-8 26-9t26 6q10 6 17 18.5t7 23.5v468q0 14-10.5 24.5T685-200Z"}]]);
+
+export default MsrExposureNeg1;

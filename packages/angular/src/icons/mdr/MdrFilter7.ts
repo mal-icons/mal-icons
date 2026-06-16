@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-filter-7",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrFilter7 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 5c-0.55 0-1 0.45-1 1v15c0 1.10.9 2 2 2h15c0.55 0 1-0.45 1-1s-0.45-1-1-1H4c-0.55 0-1-0.45-1-1V6c0-0.55-0.45-1-1-1zm19-4H7c-1.1 0-2 0.9-2 2v14c0 1.10.9 2 2 2h14c1.1 0 2-0.9 2-2V3c0-1.1-0.9-2-2-2zm-1 16H8c-0.55 0-1-0.45-1-1V4c0-0.550.45-1 1-1h12c0.55 0 1 0.45 1 1v12c0 0.55-0.45 1-1 1zm-6.75-2.49 3.58-7.17c0.11-0.220.17-0.470.17-0.72 0-0.9-0.72-1.62-1.62-1.62H12c-0.55 0-1 0.45-1 1s0.45 1 1 1h3l-3.36 6.71a0.890.89 0 0 0 0.8 1.29h0.01c0.34 0 0.65-0.190.8-0.49z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrFilter7;

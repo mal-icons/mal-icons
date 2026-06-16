@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoSouth = createIcon("0 -960 960 960", [["path",{"d":"M480-80 200-360l42-42 208 208v-686h60v686l208-208 42 42L480-80Z"}]]);
+
+export default MsoSouth;

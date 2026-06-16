@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssAmbientScreen = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-640h800v362h-60v-302H140v520h462v60H80Zm710 40-42-88-88-42 88-42 42-88 42 88 88 42-88 42-42 88ZM140-220v-520 520-30 30Zm340-124 42-94 94-42-94-42-42-94-42 94-94 42 94 42 42 94Z"}]]);
+
+export default MssAmbientScreen;

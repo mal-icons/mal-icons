@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-20mp",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Mdr_20mp {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 3H5c-1.1 0-2 0.9-2 2v14c0 1.10.9 2 2 2h14c1.1 0 2-0.9 2-2V5c0-1.1-0.9-2-2-2zM6.5 9c0-0.550.45-1 1-1h2V7H7.25c-0.41 0-0.75-0.34-0.75-0.75s0.34-0.750.75-0.75H10c0.55 0 1 0.45 1 1V8c0 0.55-0.45 1-1 1H8v1h2.25c0.41 0 0.750.340.750.75s-0.340.75-0.750.75H7.5c-0.55 0-1-0.45-1-1V9zm6 8.75c0 0.41-0.340.75-0.750.75s-0.75-0.34-0.75-0.75V14h-1v2.25c0 0.41-0.340.75-0.750.75s-0.75-0.34-0.75-0.75V14h-1v3.75c0 0.41-0.340.75-0.750.75S6 18.16 6 17.75V13.5c0-0.550.45-1 1-1h4.5c0.55 0 1 0.45 1 1v4.25zm0.5-7.25v-4c0-0.550.45-1 1-1h2.5c0.55 0 1 0.45 1 1v4c0 0.55-0.45 1-1 1H14c-0.55 0-1-0.45-1-1zm5 5.5c0 0.55-0.45 1-1 1h-2v0.75c0 0.41-0.340.75-0.750.75s-0.75-0.34-0.75-0.75V13.5c0-0.550.45-1 1-1H17c0.55 0 1 0.45 1 1V16z"}],["path",{"d":"M15 14h1.5v1.5H15zm-0.5-7H16v3h-1.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Mdr_20mp;

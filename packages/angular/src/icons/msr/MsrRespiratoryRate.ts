@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-respiratory-rate",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRespiratoryRate {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-480ZM80-570v-170q0-24 18-42t42-18h680q24 0 42 18t18 42v230q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T820-510v-230H140v170H80Zm60 410q-24 0-42-18t-18-42v-170h60v170h230q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T370-160H140Zm140-130q-9 0-16-4t-12-12l-71-144h-71q-12.75 0-21.37-8.68Q80-467.35 80-480.17 80-493 88.63-501.5T110-510h90q8.17 0 15.23 4.64Q222.29-500.73 226-493l54 106 133-266q4-8 11.38-11.5t15.5-3.5q8.12 0 15.62 3.5T467-653l87 176q-15.93 1.88-29.97 8.44Q510-462 497-452l-57-120-134 266q-3.61 8-10.83 12-7.22 4-15.17 4ZM510-40q-20.83 0-35.42-14.58Q460-69.17 460-90v-134q0-5 1-10.5t3-10.5l48-129q7.8-20.35 25.57-33.17Q555.33-420 577-420h83v-50q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T720-470v50h82q21.67 0 39.43 12.83Q859.2-394.35 867-374l49 129q2 5 3 10.5t1 10.5v134q0 20.83-15 35.42Q890-40 870-40h-80q-20.83 0-35.42-14.58Q740-69.17 740-90v-20q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T800-110v10h60v-124l-51-136h-89v52l40 41q8 9 8.5 21t-8.5 21q-9 9-21 9t-21-9l-28-28-29 29q-9 9-21.5 8.5T618-225q-9-9-8.5-21t9.5-21l41-41v-52h-90l-50 136v124h60v-10q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T640-110v20q0 20.83-15 35.42Q610-40 590-40h-80Zm180-190Zm-71-37 41-41v-52 52l-41 41Zm141 0-40-41v-52 52l40 41Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRespiratoryRate;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssRsvp = createIcon("0 -960 960 960", [["path",{"d":"M563.5-360 497-600h51l44 164 44-164h51l-66.5 240h-57ZM40-360v-240h194v154h-37l34 86h-52l-34-86H88v86H40Zm48-134h98v-58H88v58Zm638 134v-240h194v154H774v86h-48Zm48-134h98v-58h-98v58ZM286-360v-48h120v-48H286v-144h168v48H334v48h120v144H286Z"}]]);
+
+export default MssRsvp;

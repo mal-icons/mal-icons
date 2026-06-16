@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsMediaBluetoothOn = createIcon("0 0 24 24", [["path",{"d":"m9 3 0.01 10.55c-0.6-0.34-1.28-0.55-2-0.55a4 4 0 1 0 0 8C9.23 21 11 19.21 11 17V7h4V3H9zm12 9.43L17.57 9h-0.6v4.55l-2.75-2.75-0.850.85L16.73 15l-3.35 3.350.850.85 2.75-2.75V21h0.6L21 17.57 18.42 15 21 12.43zm-2.83-1.13 1.13 1.13-1.13 1.13V11.3zm1.13 6.27-1.13 1.13v-2.26l1.13 1.13z"}]]);
+
+export default MdsMediaBluetoothOn;

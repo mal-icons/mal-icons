@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssOpenInNewDown = createIcon("0 -960 960 960", [["path",{"d":"M120-120v-720h720v400h-60v-340H180v600h340v60H120Zm460 0v-60h158L356-562l42-42 382 381v-157h60v260H580Z"}]]);
+
+export default MssOpenInNewDown;

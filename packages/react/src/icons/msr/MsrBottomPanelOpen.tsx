@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrBottomPanelOpen = createIcon("0 -960 960 960", [["path",{"d":"M380-527h200q9.92 0 13.46-9.5Q597-546 590-553l-89-89q-9-9-21-9t-21 9l-89 89q-7 7-3.46 16.5Q370.08-527 380-527ZM180-120q-24.75 0-42.37-17.62T120-180v-600q0-24.75 17.63-42.37T180-840h600q24.75 0 42.38 17.63T840-780v600q0 24.75-17.62 42.38T780-120H180Zm0-207v147h600v-147H180Zm0-60h600v-393H180v393Zm0 60v147-147Z"}]]);
+
+export default MsrBottomPanelOpen;

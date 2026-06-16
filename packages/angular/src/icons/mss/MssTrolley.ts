@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-trolley",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssTrolley {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M160-260v-520H80v-60h140v520h620v60H160Zm59.12 180Q194-80 177-97.68q-17-17.68-17-42.5t17-42.32q17-17.5 42.12-17.5 25.12 0 43 17.68t17.89 42.5Q280-115 262.12-97.5t-43 17.5ZM290-390v-220h220v220H290Zm60-60h100v-100H350v100Zm220 60v-220h220v220H570Zm60-60h100v-100H630v100ZM779.82-80Q755-80 737.5-97.68t-17.5-42.5Q720-165 737.68-182.5t42.5-17.5Q805-200 822.5-182.32t17.5 42.5Q840-115 822.32-97.5t-42.5 17.5ZM350-450h100-100Zm280 0h100-100Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssTrolley;

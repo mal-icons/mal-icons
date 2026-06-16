@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssAddComment = createIcon("0 -960 960 960", [["path",{"d":"M450-400h60v-130h130v-60H510v-130h-60v130H320v60h130v130ZM80-80v-800h800v640H240L80-80Zm60-220h680v-520H140v520Zm0 0v-520 520Z"}]]);
+
+export default MssAddComment;

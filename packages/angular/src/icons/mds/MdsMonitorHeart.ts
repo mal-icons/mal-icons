@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-monitor-heart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsMonitorHeart {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.11 12.45 14 10.24l-3.11 6.21c-0.160.34-0.510.55-0.890.55s-0.73-0.21-0.89-0.55L7.38 13H2v7h20v-7h-6c-0.38 0-0.73-0.21-0.89-0.55z"}],["path",{"d":"M22 4H2v7h6c0.38 0 0.730.210.890.55L10 13.76l3.11-6.21a1 1 0 0 1 1.79 0L16.62 11H22V4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsMonitorHeart;

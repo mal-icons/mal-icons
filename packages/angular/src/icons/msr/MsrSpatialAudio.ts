@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-spatial-audio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSpatialAudio {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M664.5-664Q618-710 589-773q-29-63-30-118 0-12.08 8.78-20.54Q576.56-920 589.54-920q11.46 0 19.95 8.5Q618-903 620-889q5 52 27.5 98.5T707-707q37 37 83.5 59t98.5 27q14 2 22.5 10.78t8.5 20.24q0 12.98-8.29 21.48Q903.43-560 891-560q-54.09 0-117.55-29Q710-618 664.5-664ZM792-791q-23-23-37-51.5T741-894q0-11.03 8.2-18.51Q757.39-920 769-920q11 0 20.5 8.5T802-890q4 16 12 30t20 26q12 12 26.5 20t31.5 12q13 3 21 13t8 21q0 11.2-7.48 19.1Q906.03-741 895-741q-23.81 0-51.9-13.5Q815-768 792-791ZM400-441q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM140-120q-24.75 0-42.37-17.62T80-180v-34q0-38 19-64.5t49-41.5q51-26 120.5-43T400-380q62 0 131 17t120 43q30 15 49.5 41.5T720-214v34q0 24.75-17.62 42.38T660-120H140Zm0-60h520v-34q0-16.31-8.5-29.65Q643-257 627-266q-48-27-109-40.5T400-320q-57 0-118.5 14.5T172-266q-14 7-23 21.5t-9 30.5v34Zm260-321q39 0 64.5-25.5T490-591q0-39-25.5-64.5T400-681q-39 0-64.5 25.5T310-591q0 39 25.5 64.5T400-501Zm0-90Zm0 411Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSpatialAudio;

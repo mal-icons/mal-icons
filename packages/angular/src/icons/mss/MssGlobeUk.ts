@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-globe-uk",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssGlobeUk {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.91-141Q499-141 517-143q18-2 35-6.26L501-226H353v-42.33L437.5-353H522v-127h-84l-43-42.67V-608h-93v-73l85-125q-107 30-176.5 119.44T141-480h42v-85h169.66v84.8l-42.42 42.4v127.2H186.18q44.54 76.32 121.95 122.96Q385.54-141 479.91-141ZM802-376q8-25 12.5-50.94 4.5-25.94 4.5-53.47 0-118.59-71.97-209.27Q675.07-780.36 565-809v116.52l85 84.74V-523h49l103 147ZM480.27-80q-82.73 0-155.5-31.5t-127.27-86q-54.5-54.5-86-127.34Q80-397.68 80-480.5q0-82.82 31.5-155.66Q143-709 197.5-763t127.34-85.5Q397.68-880 480.5-880q82.82 0 155.66 31.5Q709-817 763-763t85.5 127Q880-563 880-480.27q0 82.73-31.5 155.5T763-197.68q-54 54.32-127 86Q563-80 480.27-80Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssGlobeUk;

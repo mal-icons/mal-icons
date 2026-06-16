@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-luggage",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoLuggage {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M260-120q-24.75 0-42.37-17.62T200-180v-470q0-28.87 20.56-49.44Q241.13-720 270-720h90v-120q0-16.67 11.67-28.33Q383.33-880 400-880h160q16.67 0 28.33 11.67Q600-856.67 600-840v120h100q24.75 0 42.38 17.63T760-660v480q0 24.75-17.62 42.38T700-120q0 17-11.5 28.5T660-80q-17 0-28.5-11.5T620-120H340q0 17-11.5 28.5T300-80q-17 0-28.5-11.5T260-120Zm140-600h160v323H400v-323ZM260-180h440v-480H260v480Zm70-60h40v-360h-40v360Zm130 0h40v-360h-40v360Zm130 0h40v-360h-40v360ZM480-420Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoLuggage;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdfCircle = createIcon("0 0 24 24", [["path",{"d":"M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2z"}]]);
+
+export default MdfCircle;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-deselect",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoDeselect {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M843-28 603-268H268v-335L38-833l43-43L886-71l-43 43Zm-663-92q-24-1-42-18.33-18-17.33-18-41.67h60v60Zm-60-148v-83h60v83h-60Zm0-171v-83h60v83h-60Zm0-170v-83h60v83h-60Zm148 489v-60h83v60h-83Zm8-660-8-8v-52h83v60h-75Zm52 452h215L328-543v215Zm364-22-60-60v-222H410l-60-60h342v342ZM439-120v-60h83v60h-83Zm0-660v-60h83v60h-83Zm170 660v-60h83v60h-83Zm0-660v-60h83v60h-83Zm179 512-8-8v-75h60v83h-52Zm-8-171v-83h60v83h-60Zm0-170v-83h60v83h-60Zm0-171v-60q24 1 42 18.33T840-780h-60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoDeselect;

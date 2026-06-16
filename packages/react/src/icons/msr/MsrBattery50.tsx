@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrBattery50 = createIcon("0 -960 960 960", [["path",{"d":"M320-80q-17 0-28.5-11.5T280-120v-640q0-17 11.5-28.5T320-800h80v-50q0-13 8.5-21.5T430-880h100q13 0 21.5 8.5T560-850v50h80q17 0 28.5 11.5T680-760v640q0 17-11.5 28.5T640-80H320Z"}]]);
+
+export default MsrBattery50;

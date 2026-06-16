@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-camera-indoor",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtCameraIndoor {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 10v9h12v-9l-6-4.5L6 10zm8 2v1l2-1.06v4.12L14 15v1c0 0.55-0.45 1-1 1H9c-0.55 0-1-0.45-1-1v-4c0-0.550.45-1 1-1h4c0.55 0 1 0.45 1 1z","opacity":".3"}],["path",{"d":"M8 12v4c0 0.550.45 1 1 1h4c0.55 0 1-0.45 1-1v-1l2 1.06v-4.12L14 13v-1c0-0.55-0.45-1-1-1H9c-0.55 0-1 0.45-1 1z"}],["path",{"d":"M12 3 4 9v12h16V9l-8-6zm6 16H6v-9l6-4.5 6 4.5v9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtCameraIndoor;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-hevc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrHevc {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M144-360q-10.4 0-17.2-6.8-6.8-6.8-6.8-17.2v-192q0-10.4 6.8-17.2 6.8-6.8 17.2-6.8 10.4 0 17.2 6.8 6.8 6.8 6.8 17.2v63h55v-63q0-10.4 6.8-17.2 6.8-6.8 17.2-6.8 10.4 0 17.2 6.8 6.8 6.8 6.8 17.2v192q0 10.4-6.8 17.2-6.8 6.8-17.2 6.8-10.4 0-17.2-6.8-6.8-6.8-6.8-17.2v-81h-55v81q0 10.4-6.8 17.2-6.8 6.8-17.2 6.8Zm579 0q-15 0-24.5-9.5T689-394v-172q0-15 9.5-24.5T723-600h83q15 0 24.5 9.5T840-566v17q0 10.4-6.8 17.2-6.8 6.8-17.2 6.8-10 0-17-7t-7-17v-3h-55v144h55q2-9 9-14.5t15.25-5.5q9.75 0 16.75 6.8t7 17.2v10q0 15-9.5 24.5T806-360h-83Zm-167 0q-11.05 0-19.53-6.5Q528-373 526-384l-35-187q-2-12.3 5.47-20.65Q503.93-600 516-600q8.43 0 14.95 5.48 6.52 5.48 8.05 13.52l32 172 31-172q1.6-8.04 8.8-13.52Q618-600 626-600q12 0 19 8.35 7 8.35 5 20.65l-35 187q-2 11-10.47 17.5Q596.05-360 585-360h-29Zm-202 0q-12.75 0-21.37-8.62T324-390v-180q0-12.75 8.63-21.37T354-600h74q10.4 0 17.2 6.8 6.8 6.8 6.8 17.2 0 10.4-6.8 17.2-6.8 6.8-17.2 6.8h-56v39h56q10.4 0 17.2 6.8 6.8 6.8 6.8 17.2 0 10.4-6.8 17.2-6.8 6.8-17.2 6.8h-56v57h56q10.4 0 17.2 6.8 6.8 6.8 6.8 17.2 0 10.4-6.8 17.2-6.8 6.8-17.2 6.8h-74Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrHevc;

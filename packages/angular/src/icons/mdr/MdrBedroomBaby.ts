@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-bedroom-baby",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrBedroomBaby {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 2H4c-1.1 0-2 0.9-2 2v16c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm-8 15.99a9.83 9.83 0 0 1-6.4-2.350.760.76 0 0 1-0.04-1.11c0.27-0.270.71-0.29 1.01-0.040.190.160.390.310.60.46L8 13.49V9.5l-1 0.65c-0.320.21-0.730.16-0.99-0.12L6 10.01a0.80.8 0 0 1-0.03-1.08c0.3-0.330.65-0.740.86-0.980.09-0.110.07-0.28-0.04-0.36 0 0-0.81-0.31-0.79-0.57 0-0.11 3.36-0.03 3.36-0.030.18 0 0.340.10.430.25l1.44 2.5c0.090.150.250.250.430.25h4.83c0.28 0 0.50.220.50.5s-0.220.5-0.50.5H16v2.5l0.84 1.46c0.2-0.150.4-0.30.6-0.460.3-0.250.73-0.23 1.010.040.310.310.290.82-0.04 1.11A9.88 9.88 0 0 1 12 17.99z"}],["path",{"d":"M14.69 14.24a7.72 7.72 0 0 1-5.4 0l-0.81 1.41-0.030.06c1.10.52 2.280.79 3.530.79s2.45-0.28 3.55-0.79l-0.03-0.06-0.81-1.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrBedroomBaby;

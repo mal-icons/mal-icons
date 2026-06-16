@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-sports-gymnastics",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSportsGymnastics {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M240.08-647q-30.08 0-51.58-21.42-21.5-21.42-21.5-51.5 0-30.08 21.42-51.58 21.42-21.5 51.5-21.5 30.08 0 51.58 21.42 21.5 21.42 21.5 51.5 0 30.08-21.42 51.58-21.42 21.5-51.5 21.5ZM517.83-80q-11.93 0-20.51-8.39T488-109l-18-369-149-52H70q-12.75 0-21.37-8.68Q40-547.35 40-560.17 40-573 48.63-581.5T70-590h213l253-181q10-7 20.96-5.53 10.96 1.47 19 10.27Q584-756 583-743t-12 21l-123 88 97 34 320-188q8-5 17.92-2.87 9.92 2.13 18 11.36Q909-771 907.5-759q-1.5 12-11.5 19L574-507l-22 398q-0.8 12.21-10.4 20.61T517.83-80Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSportsGymnastics;

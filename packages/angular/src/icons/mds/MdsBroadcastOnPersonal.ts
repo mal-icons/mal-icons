@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-broadcast-on-personal",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsBroadcastOnPersonal {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 8c0.7 0 1.380.1 2.020.27L12 3 4 9v12h6.76A8 8 0 0 1 17 8zm0 6.75c-0.69 0-1.250.56-1.25 1.25 0 0.40.20.750.50.97V22h1.5v-5.03c0.3-0.230.5-0.570.5-0.97 0-0.69-0.56-1.25-1.25-1.25z"}],["path",{"d":"M17 12c-2.21 0-4 1.79-4 4 0 1.10.45 2.1 1.17 2.83l1.06-1.06A2.5 2.5 0 1 1 19.5 16c0 0.69-0.28 1.31-0.73 1.76l1.06 1.06C20.55 18.1 21 17.1 21 16c0-2.21-1.79-4-4-4z"}],["path",{"d":"M17 9.5a6.5 6.5 0 0 0-6.5 6.5c0 1.790.73 3.42 1.9 4.6l1.06-1.06C12.56 18.63 12 17.38 12 16c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.37-0.56 2.62-1.46 3.52l1.07 1.06A6.5 6.5 0 0 0 17 9.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsBroadcastOnPersonal;

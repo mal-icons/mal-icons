@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-add-shopping-cart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrAddShoppingCart {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M494.83-613Q482-613 473.5-621.62T465-643v-93h-94q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T371-796h94v-93q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T525-889v93h93q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T618-736h-93v93q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM289.79-80Q260-80 239-101.21q-21-21.21-21-51Q218-182 239.21-203q21.21-21 51-21Q320-224 341-202.79q21 21.21 21 51Q362-122 340.79-101q-21.21 21-51 21Zm404 0Q664-80 643-101.21q-21-21.21-21-51Q622-182 643.21-203q21.21-21 51-21Q724-224 745-202.79q21 21.21 21 51Q766-122 744.79-101q-21.21 21-51 21ZM290-287q-40.06 0-60.53-34Q209-355 229-390l61-111-150-319H92q-12.75 0-21.37-8.68Q62-837.35 62-850.17 62-863 70.63-871.5T92-880h67q9 0 16.2 4.43Q182.4-871.13 186-863l162 347h292l148-265q3.68-6.75 10.32-10.87Q804.95-796 813.05-796 830-796 838.5-781.5t0.5 29.5L695-491q-9.17 16.67-24.58 25.83Q655-456 634-456H334l-62 109h464q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T736-287H290Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrAddShoppingCart;

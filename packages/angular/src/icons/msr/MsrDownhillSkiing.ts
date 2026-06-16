@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-downhill-skiing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrDownhillSkiing {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M667-714q-30 0-51.5-21.5T594-787q0-30 21.5-51.5T667-860q30 0 51.5 21.5T740-787q0 30-21.5 51.5T667-714Zm73 674q-24 0-48-4t-47-11L98-254q-8-3-11.5-10.5T86-280q3-8 10.5-11.5t15.5-0.5l270 98 70-181-159-166q-9-11-14-23.5t-5-25.5q0-17 9-33.5t26-26.5l155-90q8-5 18-7.5t19-2.5q21 1 39.5 13.5T566-702l13 43q17 54 49.5 87t79.5 49l15-46q3-8 10-11.5t15-1.5q8 2 12 9t1 16l-25 78q-3 11-13 16t-20 2q-59-17-103-55.5T531-617l-132 76 101 118q11 12 13.5 28.5T510-363l-72 189 143 52 94-292q10 3 19 5.5t19 4.5l-95 296 41 14q19 7 39 10.5t42 3.5q26 0 50.5-4.5T838-99q5-2 10.5-1t9.5 5q9 9 7 19t-13 15q-27 11-54.5 16T740-40Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrDownhillSkiing;

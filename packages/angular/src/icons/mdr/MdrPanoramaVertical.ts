@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-panorama-vertical",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrPanoramaVertical {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.94 21.12c-1.1-2.94-1.64-6.03-1.64-9.12s0.55-6.18 1.64-9.12a0.940.94 0 0 0 0.06-0.31c0-0.34-0.23-0.57-0.63-0.57H4.63c-0.4 0-0.630.23-0.630.57 0 0.10.020.20.060.31C5.16 5.82 5.71 8.91 5.71 12s-0.55 6.18-1.64 9.12c-0.050.11-0.070.22-0.070.31 0 0.330.230.570.630.57h14.75c0.39 0 0.63-0.240.63-0.57-0.01-0.1-0.03-0.2-0.07-0.31zM6.54 20c0.77-2.6 1.16-5.28 1.16-8s-0.39-5.4-1.16-8h10.91c-0.77 2.6-1.16 5.28-1.16 8s0.39 5.4 1.16 8H6.54z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrPanoramaVertical;

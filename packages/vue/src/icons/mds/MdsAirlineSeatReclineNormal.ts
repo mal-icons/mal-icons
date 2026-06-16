@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsAirlineSeatReclineNormal = createIcon("0 0 24 24", [["path",{"d":"M7.59 5.41c-0.78-0.78-0.78-2.05 0-2.83s2.05-0.78 2.83 0 0.78 2.05 0 2.83c-0.790.79-2.050.79-2.83 0zM6 19V7H4v14h11v-2H6zm14 1.07L14.93 15H11.5v-3.68c1.4 1.15 3.6 2.16 5.5 2.16v-2.16c-1.660.02-3.61-0.87-4.67-2.04l-1.4-1.55c-0.19-0.21-0.43-0.38-0.69-0.5-0.29-0.14-0.62-0.23-0.96-0.23h-0.03C8.01 7 7 8.01 7 9.25V18h8.07l3.5 3.5L20 20.07z"}]]);
+
+export default MdsAirlineSeatReclineNormal;

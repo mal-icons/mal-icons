@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoDesk = createIcon("0 -960 960 960", [["path",{"d":"M80-240v-480h800v480h-60v-100H630v100h-60v-420H140v420H80Zm550-320h190v-100H630v100Zm0 160h190v-100H630v100Z"}]]);
+
+export default MsoDesk;

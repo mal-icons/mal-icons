@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-distance",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoDistance {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-80q-106 0-173-31t-67-79q0-27 24.5-51t67.5-39l18 58q-16 5-29.5 14T299-190q17 20 70.5 35T480-140q57 0 111-15t71-35q-8-8-21-17t-30-15l17-58q43 15 67.5 39t24.5 51q0 48-67 79T480-80Zm0-215q21.1-39 44.55-71.5Q548-399 571-428q44-57 69.5-98T666-634.07q0-77.67-54.21-131.8-54.21-54.13-132-54.13Q402-820 348-765.87t-54 131.8Q294-567 319.5-526t69.5 98q23 29 46.45 61.5Q458.9-334 480-295Zm0 109q-12 0-21-6.77T446-211q-24-73-60.02-121-36.02-48-69.98-92-34-44-58-91.5t-24-118.54Q234-737 305.32-808.5 376.64-880 480-880q103.36 0 174.68 71.32Q726-737.36 726-634q0 71-23.87 118.34Q678.25-468.32 644-424q-34 44-70 92t-59.85 120.73Q510-200 501-193t-21 7Zm0.21-388Q505-574 522.5-591.71q17.5-17.71 17.5-42.5Q540-659 522.29-676.5q-17.71-17.5-42.5-17.5Q455-694 437.5-676.29q-17.5 17.71-17.5 42.5Q420-609 437.71-591.5q17.71 17.5 42.5 17.5ZM480-634Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoDistance;

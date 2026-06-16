@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-logo-dev",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoLogoDev {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M216-357h100q20.65 0 35.33-14.67T366-407v-146q0-20.65-14.67-35.33T316-603H216v246Zm50-50v-146h50v146h-50Zm166 50 102-1.09V-407h-82v-52h52v-43h-52v-51h82v-50H432.47Q419-603 410.5-594.5T402-573v185.6q0 13.4 8.5 21.9T432-357Zm231-1q14.22 0 24.61-8.5Q698-375 702-388l66-215h-52l-53 170-53-170h-52l66 215q4 13 14.39 21.5Q648.78-358 663-358ZM180-120q-24 0-42-18t-18-42v-600q0-24 18-42t42-18h600q24 0 42 18t18 42v600q0 24-18 42t-42 18H180Zm0-60h600v-600H180v600Zm0-600v600-600Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoLogoDev;

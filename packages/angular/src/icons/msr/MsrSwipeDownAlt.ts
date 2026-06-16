@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-swipe-down-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrSwipeDownAlt {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M479.87-92Q474-92 469-94q-5-2-10-7L340-220q-9-9-9-21.16 0-12.16 8.61-21Q349-271 361.1-271t20.9 9l68 68v-207q-69-14-119.5-65.5T280-600q0-83 58.5-141.5T480-800q83 0 141.5 58.5T680-600q0 82-50.5 133.5T510-401v207l68-68q9-9 21.1-9 12.1 0 20.9 9 9 9 9 21t-9 21L501-101q-5 5-10.13 7-5.13 2-11 2Zm-0.1-368Q538-460 579-500.76q41-40.76 41-99Q620-658 579.24-699q-40.76-41-99-41Q422-740 381-699.23q-41 40.76-41 99Q340-542 380.77-501q40.76 41 99 41ZM480-600Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrSwipeDownAlt;

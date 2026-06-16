@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrEject = createIcon("0 0 24 24", [["path",{"d":"M6 17h12c0.55 0 1 0.45 1 1s-0.45 1-1 1H6c-0.55 0-1-0.45-1-1s0.45-1 1-1zm5.17-10.75-4.8 7.2c-0.450.660.03 1.550.83 1.55h9.6c0.8 0 1.28-0.890.83-1.55l-4.8-7.2a0.990.99 0 0 0-1.66 0z"}]]);
+
+export default MdrEject;

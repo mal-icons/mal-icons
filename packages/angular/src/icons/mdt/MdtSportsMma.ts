@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-sports-mma",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtSportsMma {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15 5H7v5.6c0 0.140.64 3.40.64 3.4h8.72s0.64-3.260.64-3.4V10h-2V5zm-1 5H8V7h6v3z","opacity":".3"}],["path",{"d":"M7 20c0 0.550.45 1 1 1h8c0.55 0 1-0.45 1-1v-3H7v3zM18 7c-0.55 0-1 0.45-1 1V5c0-1.1-0.9-2-2-2H7c-1.1 0-2 0.9-2 2v5.8c0 0.130.010.260.040.39l0.8 4c0.090.470.50.80.980.8H17c0.55 0 1.09-0.44 1.2-0.98l0.77-3.83c0.02-0.120.03-0.250.03-0.38V8c0-0.55-0.45-1-1-1zm-1 3.6c0 0.13-0.64 3.4-0.64 3.4H7.64S7 10.74 7 10.6V5h8v5h2v0.6z"}],["path",{"d":"M8 7h6v3H8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtSportsMma;

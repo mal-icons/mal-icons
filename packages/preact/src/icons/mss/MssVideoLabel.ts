@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssVideoLabel = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-640h800v640H80Zm60-189h680v-391H140v391Z"}]]);
+
+export default MssVideoLabel;

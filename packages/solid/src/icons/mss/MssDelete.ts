@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssDelete = createIcon("0 -960 960 960", [["path",{"d":"M201-120v-630h-41v-60h188v-30h264v30h188v60h-41v630H201Zm60-60h438v-570H261v570Zm106-86h60v-399h-60v399Zm166 0h60v-399h-60v399ZM261-750v570-570Z"}]]);
+
+export default MssDelete;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrPhotoCameraBack = createIcon("0 -960 960 960", [["path",{"d":"M283-266h400q10 0 14-8t-2-16L583-437q-5-6-12-6t-12 6L445-286l-80-99q-5-6-12-6t-12 6l-70 95q-6 8-2 16t14 8ZM140-120q-24 0-42-18t-18-42v-513q0-23 18-41.5t42-18.5h147l55-66q8-11 20-16t26-5h184q14 0 26 5t20 16l55 66h147q23 0 41.5 18.5T880-693v513q0 24-18.5 42T820-120H140Zm680-60v-513H140v513h680ZM480-437Z"}]]);
+
+export default MsrPhotoCameraBack;

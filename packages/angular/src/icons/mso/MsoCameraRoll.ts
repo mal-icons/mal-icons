@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-camera-roll",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoCameraRoll {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M880-160H560v20q0 24.75-17.62 42.38T500-80H140q-24.75 0-42.37-17.62T80-140v-640q0-24.75 17.63-42.37T140-840h60v-40q0-17 11.5-28.5T240-920h160q17 0 28.5 11.5T440-880v40h60q24.75 0 42.38 17.63T560-780v20h320v600Zm-60-60v-480H500v-80H380v-80H260v80H140v640h360v-80h320Zm-440-60h60v-60h-60v60Zm0-300h60v-60h-60v60Zm160 300h60v-60h-60v60Zm0-300h60v-60h-60v60Zm160 300h60v-60h-60v60Zm0-300h60v-60h-60v60Zm-220 80Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoCameraRoll;

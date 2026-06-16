@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-cooking",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssCooking {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M390-120v-130H80v-60h310q24.75 0 42.38 17.63T450-250v130h-60Zm120 0v-130q0-24.75 17.63-42.37T570-310h310v60H570v130h-60ZM230-370q-45.83 0-77.92-32.08Q120-434.17 120-480v-180h720v180q0 45.83-32.08 77.92Q775.83-370 730-370H230Zm0-60h500q21.25 0 35.63-14.37T780-480v-120H180v120q0 21.25 14.38 35.63T230-430ZM120-700v-60h250v-50q0-12.75 8.63-21.37T400-840h160q12.75 0 21.38 8.63T590-810v50h250v60H120Zm60 270v-170 170Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssCooking;

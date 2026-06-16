@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssAirlineSeatLegroomExtra = createIcon("0 -960 960 960", [["path",{"d":"M80-280v-560h60v500h380v60H80Zm667 160L606-410H230v-430h220v250h130q20 0 37 11t26 29l146 300 105-47 46 90-193 87Z"}]]);
+
+export default MssAirlineSeatLegroomExtra;

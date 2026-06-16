@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-voice-over-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrVoiceOverOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.72 6.41c-0.350.35-0.440.88-0.25 1.350.30.750.32 1.580.05 2.34-0.160.46-0.060.980.29 1.320.60.6 1.660.47 2.02-0.310.64-1.390.6-2.99-0.12-4.41a1.25 1.25 0 0 0-1.99-0.29zm3.46-3.52c-0.40.4-0.46 1.02-0.13 1.48 1.93 2.68 1.95 6.250.09 9.07-0.310.46-0.23 1.080.16 1.470.510.51 1.380.46 1.81-0.13 2.57-3.51 2.52-8.2-0.17-11.77-0.43-0.56-1.26-0.62-1.76-0.12zM9.43 5.04l3.53 3.53a3.98 3.98 0 0 0-3.53-3.53zM3.71 3.56a11 0 0 0 0 1.41l1.91 1.91a3.98 3.98 0 0 0-0.47 3.2c0.36 1.33 1.44 2.4 2.77 2.77 1.190.33 2.310.09 3.2-0.47l4.4 4.4C13.74 15.6 10.78 15 9 15c-2.67 0-8 1.34-8 4v1c0 0.550.45 1 1 1h14c0.55 0 1-0.45 1-1v-1c0-0.37-0.11-0.7-0.29-1.02l2.31 2.31a11 0 1 0 1.41-1.41L5.12 3.56a11 0 0 0-1.41 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrVoiceOverOff;

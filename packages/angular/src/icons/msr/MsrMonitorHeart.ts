@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-monitor-heart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrMonitorHeart {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M109.83-570Q97-570 88.5-578.62T80-600v-140q0-24 18-42t42-18h680q24 0 42 18t18 42v140q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T820-600v-140H140v140q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63ZM140-160q-24 0-42-18t-18-42v-140q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T140-360v140h680v-140q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T880-360v140q0 24-18 42t-42 18H140Zm259.81-130q8.19 0 15.79-4t11.4-12l133-266 53 106q3.75 8 11.25 12t15.75 4h210q12.75 0 21.38-8.68 8.63-8.68 8.63-21.5 0-12.82-8.62-21.32T850-510H659l-72-143q-8.29-15-27.15-15Q541-668 533-653L400-388l-53-106q-3.75-8-11.25-12T320-510H110q-12.75 0-21.37 8.68Q80-492.65 80-479.82 80-467 88.63-458.5T110-450h191l72 144q3.72 8 11.17 12t15.64 4ZM480-480Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrMonitorHeart;

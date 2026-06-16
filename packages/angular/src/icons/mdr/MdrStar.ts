@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-star",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrStar {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m12 17.27 4.15 2.51c0.760.46 1.69-0.22 1.49-1.08l-1.1-4.72 3.67-3.18c0.67-0.580.31-1.68-0.57-1.75l-4.83-0.41-1.89-4.46c-0.34-0.81-1.5-0.81-1.84 0L9.19 8.63l-4.830.41c-0.880.07-1.24 1.17-0.57 1.75l3.67 3.18-1.1 4.72c-0.20.860.73 1.54 1.49 1.08l4.15-2.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrStar;

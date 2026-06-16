@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-more",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssMore {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M318-200 120-480l198-280h522v560H318Zm31-60h431v-440H349L195-480l154 220Zm431 0v-440 440ZM375-439q17.43 0 29.21-11.79Q416-462.57 416-480q0-17.42-11.79-29.21Q392.43-521 375-521q-17.42 0-29.21 11.79Q334-497.42 334-480q0 17.43 11.79 29.21Q357.58-439 375-439Zm152 0q17.43 0 29.21-11.79Q568-462.57 568-480q0-17.42-11.79-29.21Q544.42-521 527-521t-29.21 11.79Q486-497.42 486-480q0 17.43 11.79 29.21Q509.58-439 527-439Zm152 0q17.43 0 29.21-11.79Q720-462.57 720-480q0-17.42-11.79-29.21Q696.43-521 679-521t-29.21 11.79Q638-497.42 638-480q0 17.43 11.79 29.21Q661.58-439 679-439Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssMore;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-currency-pound",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrCurrencyPound {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M279-120q-16 0-27.5-11.5T240-159q0-10 6-21.5t14-17.5q43-32 68.5-72.5T354-360q0-13-1.5-25t-4.5-25h-78q-13 0-21.5-8.5T240-440q0-13 8.5-21.5T270-470h48q-39-54-53.5-95.5T250-650q0-88 61-149t149-61q57 0 104 24.5t76 67.5q7 11 2.5 23T625-728q-10 4-20.5 1T586-740q-21-28-54.5-44T460-800q-62 0-106 43.5T310-650q0 39 16 76.5T390-470h140q13 0 21.5 8.5T560-440q0 13-8.5 21.5T530-410H409q3 13 4 26t1 24q0 53-23 99t-58 81h227q31 0 56-13t41-42q7-13 18.5-17t23.5 2q10 5 14.5 15.5t0.5 19.5q-19 48-62.5 71.5T560-120H279Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrCurrencyPound;

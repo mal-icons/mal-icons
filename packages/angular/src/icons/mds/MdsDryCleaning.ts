@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-dry-cleaning",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsDryCleaning {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m21 12-8-3.56V6h-1c-0.55 0-1-0.45-1-1s0.45-1 1-1 1 0.45 1 1h2c0-1.84-1.66-3.3-3.56-2.95-1.180.22-2.15 1.17-2.38 2.35-0.3 1.560.6 2.94 1.94 3.42v0.63l-8 3.56V16h4v6h10v-6h4v-4zm-2 2h-2v-1H7v1H5v-0.7l7-3.11 7 3.11v0.7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsDryCleaning;

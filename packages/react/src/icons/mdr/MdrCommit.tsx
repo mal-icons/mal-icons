@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrCommit = createIcon("0 0 24 24", [["path",{"d":"M21 13c0.55 0 1-0.45 1-1s-0.45-1-1-1h-4.1a5 5 0 0 0-9.8 0H3c-0.55 0-1 0.45-1 1s0.45 1 1 1h4.1a5 5 0 0 0 9.8 0H21zm-9 2c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"}]]);
+
+export default MdrCommit;

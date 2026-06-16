@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-format-strikethrough",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrFormatStrikethrough {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M110-410q-12.75 0-21.37-8.68Q80-427.35 80-440.17 80-453 88.63-461.5T110-470h740q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T850-410H110Zm320-120v-170H250q-20.83 0-35.42-14.62Q200-729.23 200-750.12 200-771 214.58-785.5 229.17-800 250-800h460q20.83 0 35.42 14.62Q760-770.76 760-749.88 760-729 745.42-714.5 730.83-700 710-700H530v170H430Zm49.88 370Q459-160 444.5-174.58 430-189.17 430-210v-140h100v140q0 20.83-14.62 35.42Q500.77-160 479.88-160Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrFormatStrikethrough;

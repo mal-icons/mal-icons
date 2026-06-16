@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const Mss_1xMobiledata = createIcon("0 -960 960 960", [["path",{"d":"M242-280v-340h-82v-60h142v400h-60Zm195 0 127-213-113-187h70l79 130 75-130h69L636-493l124 213h-69l-91-156-93 156h-70Z"}]]);
+
+export default Mss_1xMobiledata;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mss-motion-sensor-active",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MssMotionSensorActive {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M203-450h59q10 74 62.5 126T450-262v59q-98-11-167-80t-80-167Zm247-307v59q-74 10-126 62t-62 126h-59q11-98 80-167t167-80Zm30 207q29 0 49.5 20.5T550-480q0 29-20.5 49.5T480-410q-29 0-49.5-20.5T410-480q0-29 20.5-49.5T480-550Zm218 100h59q-11 98-80 167t-167 80v-59q74-10 126-62.5T698-450ZM510-757q98 11 167 80t80 167h-59q-10-74-62-126t-126-62v-59ZM80-648v-232h232v60H140v172H80ZM312-80H80v-232h60v172h172v60Zm336 0v-60h172v-172h60v232H648Zm172-568v-172H648v-60h232v232h-60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MssMotionSensorActive;

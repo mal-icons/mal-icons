@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-prayer-times",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrPrayerTimes {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-280q83 0 141.5-58T680-480q0-8-0.5-16t-2.5-16q-11 47-49 77.5T539-404q-60 0-101-41t-41-101q0-46 26-82.5t68-51.5h-11q-84 0-142 58.5T280-480q0 84 58 142t142 58Zm41-220 59-43 58 43-23-68 59-43-72 1-22-70-22 70-73-1 59 43-23 68ZM346.27-160H220q-24.75 0-42.37-17.62T160-220v-126.27L68-438q-17-16.93-17-41.97Q51-505 68-522l92-91.73V-740q0-24.75 17.63-42.37T220-800h126.27L438-892q17-18 42-17t43 18l91.31 91H740q24.75 0 42.38 17.63T800-740v126.27L892-522q17 16.93 17 41.97Q909-455 892-438l-92 91.73V-220q0 24.75-17.62 42.38T740-160H614l-90 89q-18 17-43 17t-43-17l-91.73-89ZM481-481Zm0 368 107.92-107H740v-151l109-109-109-109v-151H589L481-849 371-740H220v151L111-480l109 109v151h150l111 107Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrPrayerTimes;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-repeat-on",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrRepeatOn {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M120-40q-33 0-56.5-23.5T40-120v-720q0-33 23.5-56.5T120-920h720q33 0 56.5 23.5T920-840v720q0 33-23.5 56.5T840-40H120Zm580-230H236l65-65q9-9 9-21.5t-9-21.5q-9-9-21.5-9t-21.5 9L141-261q-9 9-9 21t9 21l118 118q9 9 21 8.5t21-9.5q9-9 9-21.5T300-146l-64-64h494q13 0 21.5-8.5T760-240v-161q0-12-8.5-20.5T730-430q-13 0-21.5 8.5T700-400v130ZM260-690h464l-65 65q-9 9-9 21.5t9 21.5q9 9 21.5 9t21.5-9l117-117q9-9 9-21t-9-21L701-859q-9-9-21-8.5t-21 9.5q-9 9-8.5 22t9.5 22l64 64H230q-13 0-21.5 8.5T200-720v161q0 12 8.5 20.5T230-530q13 0 21.5-8.5T260-560v-130Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrRepeatOn;

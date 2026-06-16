@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdt-perm-phone-msg",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdtPermPhoneMsg {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.2 18.21c1.210.41 2.480.67 3.80.76v-1.5c-0.88-0.07-1.75-0.22-2.6-0.45l-1.2 1.19zM6.54 5h-1.5c0.09 1.320.35 2.590.75 3.79l1.2-1.21c-0.24-0.83-0.39-1.7-0.45-2.58zM14 8h5V5h-5z","opacity":".3"}],["path",{"d":"M20 15.5c-1.25 0-2.45-0.2-3.57-0.57-0.1-0.03-0.21-0.05-0.31-0.05-0.26 0-0.510.1-0.710.29l-2.2 2.2a15.07 15.07 0 0 1-6.59-6.58l2.2-2.21c0.28-0.270.36-0.660.25-1.01A11.36 11.36 0 0 1 8.5 4c0-0.55-0.45-1-1-1H4c-0.55 0-1 0.45-1 1 0 9.39 7.61 17 17 17 0.55 0 1-0.45 1-1v-3.5c0-0.55-0.45-1-1-1zM5.03 5h1.5c0.070.880.22 1.750.46 2.59L5.79 8.8c-0.41-1.21-0.67-2.48-0.76-3.8zM19 18.97c-1.32-0.09-2.6-0.35-3.8-0.76l1.2-1.2c0.850.24 1.720.39 2.60.45v1.51zM12 3v10l3-3h6V3h-9zm7 5h-5V5h5v3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdtPermPhoneMsg;

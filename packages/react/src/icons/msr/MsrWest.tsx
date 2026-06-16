@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MsrWest = createIcon("0 -960 960 960", [["path",{"d":"M339-221 101-459q-5-5-6.5-10T93-480q0-6 1.5-11t6.5-10l238-238q9-9 21-9t21 9q8 9 8.5 21t-8.5 21L194-510h656q13 0 21.5 8.5T880-480q0 13-8.5 21.5T850-450H194l187 187q9 9 9 21t-9 21q-9 9-21 9t-21-9Z"}]]);
+
+export default MsrWest;

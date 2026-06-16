@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssHexagon = createIcon("0 -960 960 960", [["path",{"d":"M272-120 64-480l208-360h416l208 360-208 360H272Zm34-60h348l172-300-172-300H306L133-480l173 300Zm174-300Z"}]]);
+
+export default MssHexagon;

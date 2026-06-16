@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-bluetooth-disabled",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrBluetoothDisabled {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M785-77 624-238 510-124q-9 9-17 13t-16 4q-12 0-19.5-7.5T450-135v-273L277-235q-9 9-21 9t-21-9q-9-9-9-21t9-21l175-175L77-785q-9-9-9-21t9-21q9-9 21-9t21 9l708 708q9 9 9 21t-9 21q-9 9-21 9t-21-9ZM510-210l70-70-70-70v140Zm26-284-42-43 116-115-100-98v229l-60-60v-244q0-13 7.5-20.5T477-853q8 0 16 4t17 13l163 163q5 5 7 10t2 11q0 6-2 11t-7 10L536-494Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrBluetoothDisabled;

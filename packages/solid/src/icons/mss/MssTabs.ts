@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssTabs = createIcon("0 -960 960 960", [["path",{"d":"M120-120v-720h720v720H120Zm60-60h600v-313H180v313Zm0-373h600v-227H180v227Zm381-137h189v-60H561v60ZM180-553v-227 227Z"}]]);
+
+export default MssTabs;

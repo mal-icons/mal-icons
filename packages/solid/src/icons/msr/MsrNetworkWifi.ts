@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsrNetworkWifi = createIcon("0 -960 960 960", [["path",{"d":"M480-132q-6 0-11-2t-10-7L21-579q-9-9-8.5-21t9.5-20q95-84 211.5-132T480-800q130 0 246.5 48T938-620q9 8 9.5 20t-8.5 21L501-141q-5 5-10 7t-11 2ZM130-552q76-60 163-94t187-34q100 0 187 34t163 94l42-42q-87-68-184.5-107T480-740q-110 0-207.5 39T88-594l42 42Z"}]]);
+
+export default MsrNetworkWifi;

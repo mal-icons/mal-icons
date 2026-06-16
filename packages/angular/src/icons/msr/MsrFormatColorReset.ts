@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-format-color-reset",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrFormatColorReset {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m757-276-45-45q12-24 20-57t8-57q0-50-22-99t-57-83L480-796 359-674l-43-43 143-142q5-5 10-7t11-2q6 0 11 2t10 7l204 201q44 44 69.5 102T800-435q0 39-12 81.5T757-276Zm28 198L676-186q-39 32-90.5 49T480-120q-132 0-226-91.5T160-435q0-57 17-106t53-91L78-784q-9-9-9-21.5t9-21.5q9-9 21.5-9t21.5 9l707 707q9 9 9 21t-9 21q-9 9-21.5 9T785-78ZM480-180q46 0 85.5-12t68.5-37L273-590q-24 29-38.5 67.5T220-435q0 107 76.5 181T480-180Zm-26-242Zm102-96Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrFormatColorReset;

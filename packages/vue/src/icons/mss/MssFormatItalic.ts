@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssFormatItalic = createIcon("0 -960 960 960", [["path",{"d":"M224-199v-80h134l139-409H338v-80h380v80H584L445-279h159v80H224Z"}]]);
+
+export default MssFormatItalic;

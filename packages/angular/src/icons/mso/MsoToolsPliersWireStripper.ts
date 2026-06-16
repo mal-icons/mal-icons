@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-tools-pliers-wire-stripper",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoToolsPliersWireStripper {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M281-42q-17-37-25.5-91.5T246-252q0-88 18.5-154.5T320-520v-200l120-200h80l120 200v200q38 47 56 112.5T714-257q0 62-9 118.5T679-42q-35-14-57.5-47T598-160q-1-28 7.5-57.5T614-287q0-58-31-116.5T480-500q-71 38-102.5 96.5T346-286q0 38 8.5 68t8.5 57q0 39-23.5 73.5T281-42Zm199-598q-17 0-28.5-11.5T440-680q0-11 5.5-20t14.5-14v-123l-80 133v124h200v-124l-80-133v123q10 5 15 14t5 20q0 17-11.5 28.5T480-640Zm20-197h-40 40Zm-40 0h40-40Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoToolsPliersWireStripper;

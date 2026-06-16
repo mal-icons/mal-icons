@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrArrowCircleRight = createIcon("0 0 24 24", [["path",{"d":"M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zm-10 2.79V13H9c-0.55 0-1-0.45-1-1s0.45-1 1-1h3V9.21c0-0.450.54-0.670.85-0.35l2.79 2.79c0.20.20.20.51 0 0.71l-2.79 2.79a0.50.5 0 0 1-0.85-0.36z"}]]);
+
+export default MdrArrowCircleRight;

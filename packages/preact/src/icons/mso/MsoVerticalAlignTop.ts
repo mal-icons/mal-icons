@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoVerticalAlignTop = createIcon("0 -960 960 960", [["path",{"d":"M450-122v-484L332-488l-42-42 190-190 190 190-42 42-118-118v484h-60ZM160-780v-60h640v60H160Z"}]]);
+
+export default MsoVerticalAlignTop;

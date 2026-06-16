@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-code-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrCodeOff {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M792-83 279-595 166-482l176 176q8 8 8.5 20.5T342-264q-9 9-21.5 9t-21.5-9L101-461q-9-9-9-21t9-21l135-135L82-792q-8-8-8-20.5t9-21.5q9-9 21.5-9t21.5 9l709 709q8 8 8.5 20.5T835-83q-9 9-21.5 9T792-83Zm-70-241-43-43 115-115-176-176q-8-8-8-20.5t9-21.5q9-9 21.5-9t21.5 9l197 197q9 9 9 21t-9 21L722-324Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrCodeOff;

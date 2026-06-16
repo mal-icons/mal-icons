@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrSignalCellular4Bar = createIcon("0 0 24 24", [["path",{"d":"M4.41 22H20c1.1 0 2-0.9 2-2V4.41c0-0.89-1.08-1.34-1.71-0.71L3.71 20.29c-0.630.63-0.19 1.710.7 1.71z"}]]);
+
+export default MdrSignalCellular4Bar;

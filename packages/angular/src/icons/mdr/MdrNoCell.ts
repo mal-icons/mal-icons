@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-no-cell",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrNoCell {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m8.83 6-3.7-3.7C5.42 1.55 6.15 1 7 1l10 0.01c1.1 0 2 0.89 2 1.99v13.17l-2-2V6H8.83zm11.66 15.9a11 0 0 1-1.41 0l-0.2-0.2c-0.30.75-1.03 1.3-1.88 1.3H7c-1.1 0-2-0.9-2-2V7.83l-2.9-2.9a11 0 1 1 1.41-1.41l16.97 16.97c0.40.390.4 1.020.01 1.41zM15.17 18 7 9.83V18h8.17z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrNoCell;

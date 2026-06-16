@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-nightlight",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrNightlight {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.57 2.3c2.38-0.59 4.68-0.27 6.630.640.350.160.410.640.10.86C15.7 5.6 14 8.6 14 12s1.7 6.4 4.3 8.2c0.320.220.260.7-0.090.86-1.280.6-2.710.94-4.210.94-6.05 0-10.85-5.38-9.87-11.60.61-3.92 3.59-7.16 7.44-8.1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrNightlight;

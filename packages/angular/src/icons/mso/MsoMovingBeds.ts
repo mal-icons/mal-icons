@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-moving-beds",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoMovingBeds {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M140-80q-24.75 0-42.37-17.62T80-140v-680q0-24.75 17.63-42.37T140-880h400q24.75 0 42.38 17.63T600-820v680q0 24.75-17.62 42.38T540-80H140Zm0-445q20-17 45.5-26t54.5-9h200q29 0 54.5 9t45.5 26v-295H140v295Zm199.91-85Q311-610 290.5-630.59q-20.5-20.59-20.5-49.5Q270-709 290.59-729.5q20.59-20.5 49.5-20.5Q369-750 389.5-729.41q20.5 20.59 20.5 49.5Q410-651 389.41-630.5q-20.59 20.5-49.5 20.5ZM780-340l-42-42 67-68H640v-60h165l-67-68 42-42 140 140-140 140ZM140-140h400v-260q0-42-29-71t-71-29H240q-42 0-71 29t-29 71v260Zm170-70h60v-80h80v-60h-80v-80h-60v80h-80v60h80v80Zm-170 70h400-400Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoMovingBeds;

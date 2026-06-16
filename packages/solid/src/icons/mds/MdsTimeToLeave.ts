@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MdsTimeToLeave = createIcon("0 0 24 24", [["path",{"d":"M18.57 4H5.43L3 11v9h3v-2h12v2h3v-9l-2.43-7zM6.5 15c-0.83 0-1.5-0.67-1.5-1.5S5.67 12 6.5 12s1.50.67 1.5 1.5S7.33 15 6.5 15zm11 0c-0.83 0-1.5-0.67-1.5-1.5s0.67-1.5 1.5-1.5 1.50.67 1.5 1.5-0.67 1.5-1.5 1.5zM5 10l1.5-4.5h11L19 10H5z"}]]);
+
+export default MdsTimeToLeave;

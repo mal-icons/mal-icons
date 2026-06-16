@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssDevices = createIcon("0 -960 960 960", [["path",{"d":"M80-160v-90h86v-550h680v60H226v490h234v90H80Zm440 0v-520h360v520H520Zm60-90h240v-370H580v370Z"}]]);
+
+export default MssDevices;

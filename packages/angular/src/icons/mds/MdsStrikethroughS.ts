@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-strikethrough-s",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsStrikethroughS {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.24 8.75c-0.26-0.48-0.39-1.03-0.39-1.67 0-0.610.13-1.160.4-1.670.26-0.50.63-0.93 1.11-1.29a5.73 5.73 0 0 1 1.7-0.83c0.66-0.19 1.39-0.29 2.18-0.290.81 0 1.540.11 2.210.340.660.22 1.230.54 1.690.940.470.40.830.88 1.08 1.43s0.38 1.150.38 1.81h-3.01c0-0.31-0.05-0.59-0.15-0.85-0.09-0.27-0.24-0.49-0.44-0.68-0.2-0.19-0.45-0.33-0.75-0.44-0.3-0.1-0.66-0.16-1.06-0.16-0.39 0-0.740.04-1.030.13s-0.530.21-0.720.36c-0.190.16-0.340.34-0.440.55-0.10.21-0.150.43-0.150.66 0 0.480.250.880.74 1.210.380.250.770.48 1.410.7H7.39c-0.05-0.08-0.11-0.17-0.15-0.25zM21 12v-2H3v2h9.62c0.180.070.40.140.550.20.370.170.660.340.870.51s0.350.360.430.57c0.070.20.110.430.110.69 0 0.23-0.050.45-0.140.66-0.090.2-0.230.38-0.420.53-0.190.15-0.420.26-0.710.35-0.290.08-0.630.13-1.010.13-0.43 0-0.83-0.04-1.18-0.13s-0.66-0.23-0.91-0.42c-0.25-0.19-0.45-0.44-0.59-0.75s-0.25-0.76-0.25-1.21H6.4c0 0.550.08 1.130.24 1.58s0.370.850.65 1.21c0.280.350.60.660.980.920.370.260.780.48 1.220.650.440.170.90.3 1.380.390.480.080.960.13 1.440.130.8 0 1.53-0.09 2.18-0.28s1.21-0.45 1.67-0.79c0.46-0.340.82-0.77 1.07-1.27s0.38-1.070.38-1.71c0-0.6-0.1-1.14-0.31-1.61-0.05-0.11-0.11-0.23-0.17-0.33H21V12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsStrikethroughS;

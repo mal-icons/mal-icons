@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const Mso_4gMobiledata = createIcon("0 -960 960 960", [["path",{"d":"M284-280v-130H120v-270h60v210h104v-210h60v210h85v60h-85v130h-60Zm556-232v172q0 24.75-17 42.38T781-280H550q-24.75 0-42.37-17.62T490-340v-280q0-24.75 17.63-42.37T550-680h231q23.1 0 39.55 18Q837-644 840-620H550v280h231v-112H678v-60h162Z"}]]);
+
+export default Mso_4gMobiledata;

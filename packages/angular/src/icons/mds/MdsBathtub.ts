@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mds-bathtub",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdsBathtub {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"7","cy":"7","r":"2"}],["path",{"d":"M20 13V4.83C20 3.27 18.73 2 17.17 2c-0.75 0-1.470.3-2 0.83l-1.25 1.25c-0.16-0.05-0.33-0.08-0.51-0.08-0.4 0-0.770.12-1.080.32l2.76 2.76c0.2-0.310.32-0.680.32-1.08 0-0.18-0.03-0.34-0.07-0.51l1.25-1.25a0.830.83 0 0 1 1.410.59V13h-6.85c-0.3-0.21-0.57-0.45-0.82-0.72l-1.4-1.55c-0.19-0.21-0.43-0.38-0.69-0.5A2.25 2.25 0 0 0 5 12.25V13H2v8h2v1h16v-1h2v-8h-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdsBathtub;

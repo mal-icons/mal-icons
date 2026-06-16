@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-airline-seat-legroom-extra",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoAirlineSeatLegroomExtra {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M520-280H140q-25 0-42.5-17.5T80-340v-500h60v500h380v60Zm227 160L606-410H340q-45 0-77.5-32.5T230-520v-320h220v250h130q20 0 37 11t26 29l146 300 58-26q19-8 38.5-3t30.5 25q11 19 4 39t-27 29l-146 66Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoAirlineSeatLegroomExtra;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-live-tv",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrLiveTv {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m10.5 17.15 3.98-2.28c0.67-0.380.67-1.35 0-1.74l-3.98-2.28c-0.67-0.38-1.50.11-1.50.87v4.55c0 0.770.83 1.26 1.50.88zM21 6h-7.59l2.94-2.94c0.2-0.20.2-0.51 0-0.71s-0.51-0.2-0.71 0L12 5.99 8.36 2.35c-0.2-0.2-0.51-0.2-0.71 0s-0.20.51 0 0.71L10.59 6H3a2 2 0 0 0-2 2v12c0 1.10.9 2 2 2h18c1.1 0 2-0.9 2-2V8a2 2 0 0 0-2-2zm-1 14H4c-0.55 0-1-0.45-1-1V9c0-0.550.45-1 1-1h16c0.55 0 1 0.45 1 1v10c0 0.55-0.45 1-1 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrLiveTv;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdrFileDownloadDone = createIcon("0 0 24 24", [["path",{"d":"M19.42 4.71a11 0 0 0-1.41 0L9.53 13.2 5.99 9.66a11 0 1 0-1.41 1.41l4.24 4.24c0.390.39 1.020.39 1.41 0l9.19-9.19c0.4-0.390.4-1.02 0-1.41zM6 20h12c0.55 0 1-0.45 1-1s-0.45-1-1-1H6c-0.55 0-1 0.45-1 1s0.45 1 1 1z"}]]);
+
+export default MdrFileDownloadDone;

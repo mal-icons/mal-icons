@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-file-open",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrFileOpen {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M220-80q-24 0-42-18t-18-42v-680q0-24 18-42t42-18h315q12.44 0 23.72 5T578-862l204 204q8 8 13 19.28 5 11.28 5 23.72v215q0 12.75-8.68 21.38-8.68 8.63-21.5 8.63-12.82 0-21.32-8.62T740-400v-200H550q-12.75 0-21.37-8.62T520-630v-190H220v680h380q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5Q630-97 621.38-88.5T600-80H220Zm530-127v95q0 12.75-8.68 21.38Q732.65-82 719.83-82 707-82 698.5-90.62T690-112v-168q0-12.75 8.63-21.37T720-310h168q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T888-250h-96l107 107q9 9 9 21.16 0 12.16-8.61 21Q890-92 877.53-92q-12.47 0-21.53-9L750-207Zm-530 67v-680 680Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrFileOpen;

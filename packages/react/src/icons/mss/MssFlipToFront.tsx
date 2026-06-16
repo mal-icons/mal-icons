@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MssFlipToFront = createIcon("0 -960 960 960", [["path",{"d":"M120-432v-84h60v84h-60Zm0 168v-84h60v84h-60Zm0 144v-60h60v60h-60Zm0-479v-84h60v84h-60Zm480 479v-60h84v60h-84ZM264-264v-576h576v576H264Zm60-60h456v-456H324v456Zm108 204v-60h84v60h-84Zm-168 0v-60h84v60h-84Z"}]]);
+
+export default MssFlipToFront;

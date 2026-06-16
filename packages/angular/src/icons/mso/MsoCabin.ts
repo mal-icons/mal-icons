@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mso-cabin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsoCabin {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M220-180h520v-100H220v100Zm0-160h520v-100H220v100Zm0-160h520v-67l-43-33H264l-44 33v67Zm123-160h275L480-765 343-660ZM160-120v-401l-84 64-36-48 120-91v-124h60v78l260-198 440 336-36 47-84-64v401H160Zm0-640q0-46 32.5-78t77.5-32q21 0 35.5-15t14.5-35h60q0 45-32 77.5T270-810q-20 0-35 14.5T220-760h-60Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsoCabin;

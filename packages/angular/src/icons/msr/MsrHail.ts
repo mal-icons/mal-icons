@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-hail",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrHail {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M482.08-734q-30.08 0-51.58-21.42-21.5-21.42-21.5-51.5 0-30.08 21.42-51.58 21.42-21.5 51.5-21.5 30.08 0 51.58 21.42 21.5 21.42 21.5 51.5 0 30.08-21.42 51.58-21.42 21.5-51.5 21.5ZM408.83-80Q396-80 387.5-88.62T379-110v-485q-48 21-75 57t-32 92q-2 13-10.62 21.5Q252.76-416 241-416q-12.56 0-21.28-9T212-446q9-109 80.5-167.5T482-672q101 0 158.5-34.5T706-826q2-13 10.47-21.5 8.47-8.5 21-8.5 12.53 0 21.03 9t7.5 21q-7 82-50.5 132.5T590-623v513q0 12.75-8.68 21.38Q572.65-80 559.83-80 547-80 538.5-88.62T530-110v-225h-91v225q0 12.75-8.68 21.38Q421.65-80 408.83-80ZM197-80q-12.75 0-21.37-8.62T167-110v-163q0-12.75 8.63-21.37T197-303h44q12.75 0 21.38 8.63T271-273v163q0 12.75-8.62 21.38T241-80h-44Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrHail;

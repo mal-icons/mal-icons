@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-faucet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrFaucet {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M280-430v-70h-90q-12.75 0-21.37-8.68-8.62-8.68-8.62-21.5 0-12.82 8.63-21.32T190-560h90q24.75 0 42.38 17.63T340-500v70h110v-296q0-64 45.5-109T605-880q44 0 80 22.5t56 61.5l28 57q6 11 1.5 23.5T755-698q-11 5-23.5 1T714-712l-27-56q-12-23-34.45-37.5-22.45-14.5-48.26-14.5Q565-820 537.5-792.58 510-765.17 510-726v296h110v-70q0-24.75 17.63-42.37T680-560h90q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T770-500h-90v70h170q12.75 0 21.38 8.68 8.63 8.68 8.63 21.5 0 12.83-8.62 21.33T850-370H110q-12.75 0-21.37-8.68Q80-387.35 80-400.17 80-413 88.63-421.5T110-430h170Zm-60 310q-24.75 0-42.37-17.62T160-180v-190h60v190h520v-190h60v180q0 28.88-20.56 49.44Q758.88-120 730-120H220Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrFaucet;

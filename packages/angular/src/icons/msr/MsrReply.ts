@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-reply",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrReply {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M810-200q-13 0-21.5-8.5T780-230v-144q0-54-38-92t-92-38H234l134 134q8 8 8 20t-9 21q-9 9-21 9t-21-9L141-513q-5-5-7-10t-2-11q0-6 2-11t7-10l185-185q8-8 20-8t21 9q9 9 9 21t-9 21L234-564h416q78 0 134 55.5T840-374v144q0 13-8.5 21.5T810-200Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrReply;

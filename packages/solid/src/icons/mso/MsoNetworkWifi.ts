@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MsoNetworkWifi = createIcon("0 -960 960 960", [["path",{"d":"M480-120 0-600q97-93 220-146.5T480-800q137 0 260 53.5T960-600L480-120ZM130-552q76-60 163-94t187-34q100 0 187 34t163 94l42-42q-87-68-184.5-107T480-740q-110 0-207.5 39T88-594l42 42Z"}]]);
+
+export default MsoNetworkWifi;

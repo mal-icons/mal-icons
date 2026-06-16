@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssEmojiFlags = createIcon("0 -960 960 960", [["path",{"d":"M200-120v-680h343l19 86h238v370H544l-18.93-85H260v309h-60Zm300-452Zm95 168h145v-250H511l-19-86H260v251h316l19 85Z"}]]);
+
+export default MssEmojiFlags;

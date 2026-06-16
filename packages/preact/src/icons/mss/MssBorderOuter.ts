@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssBorderOuter = createIcon("0 -960 960 960", [["path",{"d":"M120-120v-720h720v720H120Zm60-60h600v-600H180v600Zm105-270v-60h60v60h-60Zm165 165v-60h60v60h-60Zm0-165v-60h60v60h-60Zm0-165v-60h60v60h-60Zm165 165v-60h60v60h-60Z"}]]);
+
+export default MssBorderOuter;

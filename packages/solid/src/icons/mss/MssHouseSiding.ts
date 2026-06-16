@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const MssHouseSiding = createIcon("0 -960 960 960", [["path",{"d":"M200-160v-320H80l400-360 400 360H760v320h-60v-90H260v90h-60Zm136-470h288L480-759 336-630Zm-76 160h440v-92l-9-8H269l-9 8v92Zm0 160h440v-100H260v100Z"}]]);
+
+export default MssHouseSiding;

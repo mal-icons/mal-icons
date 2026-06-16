@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-format-text-wrap",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrFormatTextWrap {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M189.83-170Q177-170 168.5-178.62T160-200v-560q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T220-760v560q0 12-8.68 21-8.68 9-21.5 9Zm580 0Q757-170 748.5-178.62T740-200v-560q0-12.75 8.68-21.37 8.68-8.62 21.5-8.62 12.83 0 21.33 8.63T800-760v560q0 12-8.68 21-8.68 9-21.5 9ZM362-284l-85-85q-9-9-9-21t9-21l86-85q8.8-9 20.9-9 12.1 0 21.1 9 9 9 9 21t-9 21l-34 34h179q42 0 71-29t29-71q0-42-29-71t-71-29H280q-12 0-21-8.68-9-8.68-9-21.5 0-12.82 8.63-21.32T280-680h270q66 0 113 47t47 113q0 66-47 113t-113 47H371l34 34q9 9 9 21t-9.05 21q-9.05 9-21.5 9Q371-275 362-284Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrFormatTextWrap;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-msr-doorbell",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MsrDoorbell {
+  readonly viewBox = "0 -960 960 960";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M480-270q13 0 23-8.5t12-21.5h-70q2 13 12 21.5t23 8.5Zm-140-50h280q6 0 10.5-4.5T635-335q0-6-4.5-10.5T620-350h-25v-99q0-42.6-24-77.46-24-34.86-66-44.54v-14q0-10.83-7.12-17.92-7.12-7.08-18-7.08Q469-610 462-602.92q-7 7.08-7 17.92v14q-42 9.68-66 44.54T365-449v99h-25q-6 0-10.5 4.5T325-335q0 6 4.5 10.5T340-320ZM220-120q-24.75 0-42.37-17.62T160-180v-390q0-14.25 6.38-27T184-618l260-195q8.3-6 17.34-9 9.05-3 18.85-3 9.8 0 18.72 3 8.91 3 17.09 9l260 195q11.25 8.25 17.63 21T800-570v390q0 24.75-17.62 42.38T740-120H220Zm0-60h520v-394L480-763 220-574v394Zm260-296Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MsrDoorbell;

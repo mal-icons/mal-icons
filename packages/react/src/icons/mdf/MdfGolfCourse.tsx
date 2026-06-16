@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const MdfGolfCourse = createIcon("0 0 24 24", [["circle",{"cx":"19.5","cy":"19.5","r":"1.5"}],["path",{"d":"M17 5.92 9 2v18H7v-1.73c-1.790.35-3 0.99-3 1.73 0 1.1 2.69 2 6 2s6-0.9 6-2c0-0.99-2.16-1.81-5-1.97V8.98l6-3.06z"}]]);
+
+export default MdfGolfCourse;

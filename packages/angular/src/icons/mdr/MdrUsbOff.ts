@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-mdr-usb-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class MdrUsbOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m9.6 5.2 2-2.67c0.2-0.270.6-0.270.8 0l2 2.67a0.50.5 0 0 1-0.40.8h-1v4.17l-2-2V6h-1a0.50.5 0 0 1-0.4-0.8zm5.9 6.8h0.5v1.17l1.77 1.77c0.14-0.280.23-0.60.23-0.94v-2h0.5c0.28 0 0.5-0.220.5-0.5v-3c0-0.28-0.22-0.5-0.5-0.5h-3c-0.28 0-0.50.22-0.50.5v3c0 0.280.220.50.50.5zm4.99 9.9a11 0 0 1-1.41 0l-5.9-5.9H13v2.28c0.60.34 1 0.98 1 1.72 0 1.2-1.07 2.16-2.31 1.98-0.88-0.13-1.59-0.88-1.68-1.77-0.08-0.830.33-1.550.99-1.93V16H8c-1.1 0-2-0.9-2-2v-2.28c-0.6-0.34-1-0.98-1-1.72 0-0.590.26-1.130.68-1.5L2.1 4.93a11 0 1 1 1.41-1.41l16.97 16.97c0.40.390.4 1.020.01 1.41zM11 13.83l-2.51-2.51c-0.140.16-0.310.29-0.490.4V14h3v-0.17z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default MdrUsbOff;
