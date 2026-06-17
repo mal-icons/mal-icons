@@ -59,6 +59,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | Icon Library                             | License                                                                           | Version | Count |
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
+| [Bootstrap Icons](https://icons.getbootstrap.com/) | [MIT license](https://github.com/twbs/icons/blob/main/LICENSE) | 1.13.1  |  2078 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Codicons](https://microsoft.github.io/vscode-codicons/) | [CC BY 4.0 license](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE) | 0.0.46 | 604 |
 | [css.gg](https://css.gg/) | [MIT license](https://github.com/astrit/css.gg/blob/master/license) | 2.1.1 | 704 |
@@ -87,7 +88,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
 
-Each set is exposed under its own subpath (`/ad`, `/cg`, `/ci`, `/dev`, `/fa`, `/fab`, `/far`, `/fc`, `/fi`, `/gi`, `/gr`, `/hi`, `/io`, `/lu`, `/mdf`, `/mdr`, `/mds`, `/mdt`, `/mso`, `/msr`, `/mss`, `/rx`, `/sl`, `/tf`, `/ti`, `/vsc`, `/wi`) and at the package root.
+Each set is exposed under its own subpath (`/ad`, `/bs`, `/cg`, `/ci`, `/dev`, `/fa`, `/fab`, `/far`, `/fc`, `/fi`, `/gi`, `/gr`, `/hi`, `/io`, `/lu`, `/mdf`, `/mdr`, `/mds`, `/mdt`, `/mso`, `/msr`, `/mss`, `/rx`, `/sl`, `/tf`, `/ti`, `/vsc`, `/wi`) and at the package root.
 
 ## Installation
 
@@ -129,7 +130,7 @@ npx skills add mal-icons/mal-icons --skill mal-icons -a claude-code -g
 
 Once installed, ask your agent naturally — "add a trash icon to this button" or
 "which icon should I use for notifications?" — and it searches the bundled
-catalog (Ant Design, Feather, Circum, Devicons, Flat Color Icons, Font Awesome, Grommet, Ionicons, Lucide, Material Symbols, Octicons, Typicons, Weather Icons) and wires the icon into your code. You can
+catalog (Ant Design, Bootstrap Icons, Feather, Circum, Devicons, Flat Color Icons, Font Awesome, Grommet, Ionicons, Lucide, Material Symbols, Octicons, Typicons, Weather Icons) and wires the icon into your code. You can
 also run the search helper directly:
 
 ```bash
