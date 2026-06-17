@@ -75,6 +75,29 @@ async function collect(glob: string, base: string): Promise<string[]> {
   return out.sort();
 }
 
+/**
+ * Group per-icon source files by their set id (the directory name directly
+ * under `<base>/icons/`).  Returns a Map so callers can iterate one set at a
+ * time and keep each Bun.build call's entrypoint count well below the memory
+ * limit (~3 k files per call vs. the previous ~30 k single-call approach).
+ */
+function groupBySet(files: string[], iconsRoot: string): Map<string, string[]> {
+  const prefix = iconsRoot.endsWith("/") ? iconsRoot : `${iconsRoot}/`;
+  const map = new Map<string, string[]>();
+  for (const f of files) {
+    const rel = f.startsWith(prefix) ? f.slice(prefix.length) : f;
+    const setId = rel.split("/")[0];
+    if (!setId) continue;
+    let arr = map.get(setId);
+    if (!arr) {
+      arr = [];
+      map.set(setId, arr);
+    }
+    arr.push(f);
+  }
+  return map;
+}
+
 async function buildCore(): Promise<void> {
   const entry = join(CORE_SRC, "index.ts");
   for (const format of ["esm", "cjs"] as const) {
@@ -92,10 +115,12 @@ async function buildCore(): Promise<void> {
 async function buildVue(): Promise<void> {
   const iconFiles = await collect("icons/**/*.ts", VUE_SRC);
   const barrels = await collect("icons/**/index.ts", VUE_SRC);
-  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts") && !f.endsWith("/names.ts"));
+  const iconsRoot = join(VUE_SRC, "icons");
 
-  const esm = await Bun.build({
-    entrypoints: [join(VUE_SRC, "index.ts"), ...barrels, ...perIcon],
+  // ESM phase 1: root index + set barrels (small entrypoint count, no OOM).
+  const esm1 = await Bun.build({
+    entrypoints: [join(VUE_SRC, "index.ts"), ...barrels],
     outdir: VUE_OUT,
     root: VUE_SRC,
     target: "browser",
@@ -103,7 +128,21 @@ async function buildVue(): Promise<void> {
     splitting: true,
     external: VUE_EXTERNAL,
   });
-  if (!esm.success) throw new AggregateError(esm.logs, "vue ESM build failed");
+  if (!esm1.success) throw new AggregateError(esm1.logs, "vue ESM build failed");
+
+  // ESM phase 2: per-icon files, one set at a time to keep memory bounded.
+  for (const [setId, setIcons] of groupBySet(perIcon, iconsRoot)) {
+    const esm2 = await Bun.build({
+      entrypoints: setIcons,
+      outdir: VUE_OUT,
+      root: VUE_SRC,
+      target: "browser",
+      format: "esm",
+      splitting: true,
+      external: VUE_EXTERNAL,
+    });
+    if (!esm2.success) throw new AggregateError(esm2.logs, `vue ESM build failed for set ${setId}`);
+  }
 
   const cjs = await Bun.build({
     entrypoints: [join(VUE_SRC, "index.ts")],
@@ -120,10 +159,12 @@ async function buildVue(): Promise<void> {
 async function buildPreact(): Promise<void> {
   const iconFiles = await collect("icons/**/*.ts", PREACT_SRC);
   const barrels = await collect("icons/**/index.ts", PREACT_SRC);
-  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts") && !f.endsWith("/names.ts"));
+  const iconsRoot = join(PREACT_SRC, "icons");
 
-  const esm = await Bun.build({
-    entrypoints: [join(PREACT_SRC, "index.ts"), ...barrels, ...perIcon],
+  // ESM phase 1: root index + set barrels (small entrypoint count, no OOM).
+  const esm1 = await Bun.build({
+    entrypoints: [join(PREACT_SRC, "index.ts"), ...barrels],
     outdir: PREACT_OUT,
     root: PREACT_SRC,
     target: "browser",
@@ -131,7 +172,22 @@ async function buildPreact(): Promise<void> {
     splitting: true,
     external: PREACT_EXTERNAL,
   });
-  if (!esm.success) throw new AggregateError(esm.logs, "preact ESM build failed");
+  if (!esm1.success) throw new AggregateError(esm1.logs, "preact ESM build failed");
+
+  // ESM phase 2: per-icon files, one set at a time to keep memory bounded.
+  for (const [setId, setIcons] of groupBySet(perIcon, iconsRoot)) {
+    const esm2 = await Bun.build({
+      entrypoints: setIcons,
+      outdir: PREACT_OUT,
+      root: PREACT_SRC,
+      target: "browser",
+      format: "esm",
+      splitting: true,
+      external: PREACT_EXTERNAL,
+    });
+    if (!esm2.success)
+      throw new AggregateError(esm2.logs, `preact ESM build failed for set ${setId}`);
+  }
 
   const cjs = await Bun.build({
     entrypoints: [join(PREACT_SRC, "index.ts")],
@@ -148,10 +204,12 @@ async function buildPreact(): Promise<void> {
 async function buildSolid(): Promise<void> {
   const iconFiles = await collect("icons/**/*.ts", SOLID_SRC);
   const barrels = await collect("icons/**/index.ts", SOLID_SRC);
-  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts") && !f.endsWith("/names.ts"));
+  const iconsRoot = join(SOLID_SRC, "icons");
 
-  const esm = await Bun.build({
-    entrypoints: [join(SOLID_SRC, "index.ts"), ...barrels, ...perIcon],
+  // ESM phase 1: root index + set barrels (small entrypoint count, no OOM).
+  const esm1 = await Bun.build({
+    entrypoints: [join(SOLID_SRC, "index.ts"), ...barrels],
     outdir: SOLID_OUT,
     root: SOLID_SRC,
     target: "browser",
@@ -159,7 +217,22 @@ async function buildSolid(): Promise<void> {
     splitting: true,
     external: SOLID_EXTERNAL,
   });
-  if (!esm.success) throw new AggregateError(esm.logs, "solid ESM build failed");
+  if (!esm1.success) throw new AggregateError(esm1.logs, "solid ESM build failed");
+
+  // ESM phase 2: per-icon files, one set at a time to keep memory bounded.
+  for (const [setId, setIcons] of groupBySet(perIcon, iconsRoot)) {
+    const esm2 = await Bun.build({
+      entrypoints: setIcons,
+      outdir: SOLID_OUT,
+      root: SOLID_SRC,
+      target: "browser",
+      format: "esm",
+      splitting: true,
+      external: SOLID_EXTERNAL,
+    });
+    if (!esm2.success)
+      throw new AggregateError(esm2.logs, `solid ESM build failed for set ${setId}`);
+  }
 
   const cjs = await Bun.build({
     entrypoints: [join(SOLID_SRC, "index.ts")],
@@ -205,6 +278,7 @@ async function buildReact(): Promise<void> {
   const iconFiles = await collect("icons/**/*.tsx", REACT_SRC);
   const barrels = await collect("icons/**/index.ts", REACT_SRC);
   const serverEntry = join(REACT_SRC, "server.tsx");
+  const iconsRoot = join(REACT_SRC, "icons");
 
   // The default entry and every generated icon read theming through React
   // context/hooks, so they are Client Components. They must carry a top-level
@@ -215,10 +289,12 @@ async function buildReact(): Promise<void> {
   // emitted client chunk. The hook-free `server.tsx` entry is built
   // separately, WITHOUT the banner, so it stays a Server Component.
   const USE_CLIENT = '"use client";';
-  const clientEntrypoints = [join(REACT_SRC, "index.ts"), ...barrels, ...iconFiles];
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
 
-  const esm = await Bun.build({
-    entrypoints: clientEntrypoints,
+  // ESM phase 1: root index + set barrels (small entrypoint count, no OOM).
+  // Each barrel becomes a self-contained module inlining its set's icon data.
+  const esm1 = await Bun.build({
+    entrypoints: [join(REACT_SRC, "index.ts"), ...barrels],
     outdir: REACT_OUT,
     root: REACT_SRC,
     target: "browser",
@@ -227,7 +303,27 @@ async function buildReact(): Promise<void> {
     external: REACT_EXTERNAL,
     banner: USE_CLIENT,
   });
-  if (!esm.success) throw new AggregateError(esm.logs, "react ESM build failed");
+  if (!esm1.success) throw new AggregateError(esm1.logs, "react ESM build failed");
+
+  // ESM phase 2: per-icon files, one set at a time to keep memory bounded.
+  // The per-icon deep-import path (e.g. `@mal-icons/react/fi/FiActivity`) is
+  // ESM-only; each set's icons share a small runtime chunk placed at the dist
+  // root.  Peak memory is proportional to the largest set (~3 k icons) rather
+  // than the entire 30 k catalog.
+  for (const [setId, setIcons] of groupBySet(perIcon, iconsRoot)) {
+    const esm2 = await Bun.build({
+      entrypoints: setIcons,
+      outdir: REACT_OUT,
+      root: REACT_SRC,
+      target: "browser",
+      format: "esm",
+      splitting: true,
+      external: REACT_EXTERNAL,
+      banner: USE_CLIENT,
+    });
+    if (!esm2.success)
+      throw new AggregateError(esm2.logs, `react ESM build failed for set ${setId}`);
+  }
 
   const serverEsm = await Bun.build({
     entrypoints: [serverEntry],
@@ -311,10 +407,12 @@ async function buildReact(): Promise<void> {
 async function buildReactNative(): Promise<void> {
   const iconFiles = await collect("icons/**/*.tsx", RN_SRC);
   const barrels = await collect("icons/**/index.ts", RN_SRC);
-  const esmEntrypoints = [join(RN_SRC, "index.ts"), ...barrels, ...iconFiles];
+  const perIcon = iconFiles.filter((f) => !f.endsWith("/index.ts"));
+  const iconsRoot = join(RN_SRC, "icons");
 
-  const esm = await Bun.build({
-    entrypoints: esmEntrypoints,
+  // ESM phase 1: root index + set barrels (small entrypoint count, no OOM).
+  const esm1 = await Bun.build({
+    entrypoints: [join(RN_SRC, "index.ts"), ...barrels],
     outdir: RN_OUT,
     root: RN_SRC,
     target: "node",
@@ -322,7 +420,22 @@ async function buildReactNative(): Promise<void> {
     splitting: true,
     external: RN_EXTERNAL,
   });
-  if (!esm.success) throw new AggregateError(esm.logs, "react-native ESM build failed");
+  if (!esm1.success) throw new AggregateError(esm1.logs, "react-native ESM build failed");
+
+  // ESM phase 2: per-icon files, one set at a time to keep memory bounded.
+  for (const [setId, setIcons] of groupBySet(perIcon, iconsRoot)) {
+    const esm2 = await Bun.build({
+      entrypoints: setIcons,
+      outdir: RN_OUT,
+      root: RN_SRC,
+      target: "node",
+      format: "esm",
+      splitting: true,
+      external: RN_EXTERNAL,
+    });
+    if (!esm2.success)
+      throw new AggregateError(esm2.logs, `react-native ESM build failed for set ${setId}`);
+  }
 
   // CJS: bundle the public entry points (no splitting in CJS).
   const cjs = await Bun.build({
