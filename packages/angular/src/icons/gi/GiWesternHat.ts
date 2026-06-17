@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-western-hat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiWesternHat {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M199.12 111.27c-2.430.01-4.820.52-7.12 1.68-18.36 9.19-38.59 129.65-50.16 164.99 45.64 13.26 87.11 16.56 115.31 16.43 28.21-0.13 68.65-3.63 112.97-16.49C358.53 242.48 338.34 122.12 320 112.94c-21.06-10.53-48.73 32-64 32-13.60-37.05-33.73-56.88-33.67zM224 160c11.53 40.5 9.11 74.72 0 96-9.11 21.28-32 11.24-32 0 25.33-6.93 26.21-35.5 32-96zm64 0c5.79 60.5 6.67 89.07 32 96 0 11.24-22.89 21.28-32 0s-11.53-55.5 0-96zM46.79 263.13c-17.50.4-24.14 17.83-14.79 40.87 11.09 30.35 58.97 96.77 112 96 24.1-0.35 31.44-15.48 112-16 80.56-0.52 87.88 15.65 112 16 53.020.77 100.91-65.65 112-96 13.01-32.07-4.93-53.25-40.02-32.84-21.85 11.93-44.06 17.9-65.98 24.48-0.02 0-0.040.02-0.060.02v-0.01c-45.8 13.76-87.92 17.49-116.75 17.61-28.830.13-72.03-3.36-119.14-17.55-21.9-6.62-44.09-12.59-66.03-24.56-9.87-5.74-18.37-8.19-25.22-8.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiWesternHat;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-joystick",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiJoystick {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M307.72 39.62c-25.63-0.29-48.63 17.36-54.25 43.44-6.42 29.8 12.39 58.93 42.19 65.35 29.8 6.42 58.93-12.39 65.35-42.19 6.42-29.8-12.39-58.93-42.19-65.34-3.72-0.8-7.44-1.21-11.1-1.25zm-37.54 117.88L237.12 311h47.06l30.97-143.81c-7.580.84-15.420.51-23.27-1.18-7.85-1.69-15.13-4.62-21.7-8.5zM198.49 329l-10 30h135.03l-10-30H198.49zM73 377v30h30v-30H73zm93.49 0l-10 30h199.03l-10-30H166.49zM409 377v30h30v-30h-30zM57 425v62h398v-62H57z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiJoystick;

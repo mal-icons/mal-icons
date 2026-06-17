@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-poison-cloud",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPoisonCloud {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 106c-33.81 0-61.89 22.69-71.25 53.44C174.53 154.22 163.26 151 151 151c-41.42 0-75 33.58-75 75 0 1.780.35 3.410.47 5.16C41.28 243.39 16 276.65 16 316c0 49.71 40.29 90 90 90h300c49.71 0 90-40.29 90-90 0-39.35-25.28-72.61-60.47-84.840.12-1.750.47-3.370.47-5.16 0-41.42-33.58-75-75-75-12.26 0-23.53 3.22-33.75 8.44C317.89 128.69 289.81 106 256 106zm-60 90l60 60 60-60 30 30-60 60 60 60-30 30-60-60-60 60-30-30 60-60-60-60z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPoisonCloud;

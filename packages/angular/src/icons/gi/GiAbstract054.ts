@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-abstract-054",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAbstract054 {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m250.76,21c-95.09,0-171.66,97.14-171.66,217.67v193.14h-27.65v-341.07c8.5-3.38 14.53-11.91 14.53-22.03 0-13.05-10.07-23.65-22.49-23.65s-22.49,10.59-22.49,23.65c0,10.28 6.37,18.92 15.08,22.18v400.11h1.54 13.83 27.65 353.93 27.66 13.83 1.54v-400.11c8.72-3.26 14.95-11.9 14.95-22.18 0-13.05-10.07-23.65-22.49-23.65s-22.49,10.59-22.49,23.65c0,10.12 6.16,18.66 14.67,22.03v341.07h-27.66v-193.14c0-120.53-76.56-217.67-171.66-217.67zm0.84,39.07h8.94c79.26,0 143.02,80.93 143.02,181.39v190.35h-294.99v-190.35c0-100.46 63.76-181.39 143.03-181.39zm0.84,32.9c-65.99,0-119.14,67.35-119.14,150.99v158.92h245.54v-158.92c0-83.63-53.15-150.99-119.14-150.99zm3.63,65.21c47.77,0 86.6,43.83 86.6,97.82s-38.83,97.82-86.6,97.82-86.6-43.83-86.6-97.82 38.83-97.82 86.6-97.82zm0,33.34c-31.5,0-56.99,28.88-56.99,64.48s25.49,64.48 56.99,64.48 56.99-28.88 56.99-64.48-25.49-64.48-56.99-64.48zm0,37.6c13.12,0 23.74,12.05 23.74,26.88s-10.62,26.88-23.74,26.88-23.74-12.05-23.74-26.88 10.62-26.88 23.74-26.88zm-204.62,240.29h409.24v9.69h-409.24z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAbstract054;

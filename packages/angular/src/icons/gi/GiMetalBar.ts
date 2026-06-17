@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-metal-bar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMetalBar {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M322.25 85.68L61.43 224.72l-41.14 109.94 7.23 3.85 153.67 81.8 308.5-164.21-37.75-99.9-129.69-70.51zm119.04 95.19l25.11 66.45-102.56 54.59L430.39 186.64l10.89-5.77zm-89.58 47.42L284.96 343.9l-41.67 22.18 72.19-118.62 36.23-19.17zM72.38 248.78l28.21 14.93-54.01 54.01L72.38 248.78zm210.83 15.77L211.19 382.87l0.260.16-17.21 9.16 5.8-83.62 83.17-44.02zm-165.33 8.31l16.96 8.98-60.44 60.45-16.93-9.01 60.41-60.41zM181.42 306.9l-6.17 89.07-54.1-28.8 60.27-60.27z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMetalBar;

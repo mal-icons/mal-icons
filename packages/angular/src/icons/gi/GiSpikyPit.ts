@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-spiky-pit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSpikyPit {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M85.37 46.97L65.95 137.57l8.75 40.84c14.6 4.12 35.13-0.73 35.71-14.56zm68.25 0l-14.94 71.14 17.52 61.64c11.38-0.7 22.05-5.99 22.46-15.91zm68.25 0l-15.24 71.14 30.16 58.76c5.76-2.61 9.87-6.95 10.13-13.03zm68.25 0l-25.04 116.87c0.26 6.08 4.37 10.42 10.13 13.03l30.16-58.76zm68.25 0l-25.04 116.87c0.42 9.91 11.08 15.21 22.47 15.91l17.52-61.64zm68.26 0L401.59 163.85c0.58 13.84 21.11 18.68 35.71 14.56l8.75-40.84zM18 51.12V179.81c4.79-0.1 9.54-1.01 13.55-2.74l6.72-31.37zm476 0l-20.27 94.59 6.72 31.37c4 1.73 8.75 2.63 13.55 2.74zM52.98 162.96L30.84 266.29l13.69 63.9c17.79 3.01 39.45-3.69 39.97-20.14zm81.21 0l-16.75 75.16 23.16 92.38c13.14-1.66 24.73-8.46 25.12-20.43zm81.21 0l-16.1 75.16 36.41 88.21c6.49-3.46 10.98-8.88 11.22-16.26zm81.21 0L265.08 310.06c0.24 7.38 4.73 12.8 11.22 16.26l36.41-88.2zm81.21 0L346.29 310.06c0.38 11.97 11.98 18.77 25.11 20.43l23.16-92.37zm81.21 0L427.5 310.06c0.52 16.44 22.19 23.15 39.97 20.14l13.69-63.9zM112 282.96L73.08 464.58c0.88 35.18 76.96 35.18 77.84 0zm96 0l-38.92 181.63c0.88 35.18 76.96 35.18 77.84 0zm96 0l-38.92 181.63c0.88 35.18 76.96 35.18 77.84 0zm96 0l-38.92 181.63c0.88 35.18 76.96 35.18 77.84 0zM18 292.29v198.64c18.55-0.59 36.49-9.37 36.92-26.35zm476 0l-36.92 172.29c0.43 16.98 18.37 25.76 36.92 26.35z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSpikyPit;

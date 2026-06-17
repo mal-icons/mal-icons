@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-mirror-mirror",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMirrorMirror {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M257.69 20.38c-38.53 0-74.83 12.49-107.28 34.81h-54.25V460.5H150.06c32.56 22.45 69.04 35.06 107.63 35.06 38.59 0 75.04-12.61 107.59-35.06h53.91V55.19h-54.22c-32.45-22.32-68.75-34.81-107.28-34.81zM123.16 84.28H392.28V432.16H123.16V84.28zm18.69 18.69v108.72l126.84-108.72H141.84zm200.44 0L141.85 274.78v56.63l231.75-198.69v-29.75H342.28zm31.31 140.09L174.53 413.47h46.53l152.53-128.38v-42.03zm0 66.47l-123.5 103.94h123.5V309.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMirrorMirror;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-pan-flute",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPanFlute {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M25 49v38h30V49H25zm48 0v38h30V49H73zm48 0v38h30V49h-30zm48 0v38h30V49h-30zm48 0v38h30V49h-30zm48 0v38h30V49h-30zm48 0v38h30V49h-30zm48 0v38h30V49h-30zm48 0v38h30V49h-30zm48 0v38h30V49h-30zM25 105v30h462v-30H25zm0 48v264.82c7.76-8.74 17.86-18.92 30-30.2V153H25zm48 0v218.4c9.23-8.09 19.29-16.57 30-25.29V153H73zm48 0v178.73c9.6-7.52 19.61-15.16 30-22.84V153h-30zm48 0v142.79c5.22-3.73 10.51-7.47 15.87-11.19 4.66-3.23 9.38-6.45 14.13-9.67V153h-30zm48 0v109.98c9.87-6.44 19.88-12.79 30-19V153h-30zm48 0v80.16c9.94-5.84 19.95-11.51 30-16.97V153h-30zm48 0v53.67c10-5.14 20.01-10.03 30-14.63V153h-30zm48 0v31.08c10.07-4.28 20.08-8.24 30-11.8V153h-30zm48 0v13.2c10.14-3.19 20.16-5.93 30-8.18V153h-30zm78 16.24c-9.60.49-19.63 1.73-30 3.65V191h30v-21.76zm-48 7.56c-9.78 2.42-19.79 5.36-30 8.76V207h30v-30.2zm-48 15.17c-9.88 3.73-19.9 7.84-30 12.28V223h30v-31.03zm-48 20.51c-9.97 4.72-19.98 9.72-30 14.97V255h30v-42.52zm-48 24.66c-10.05 5.55-20.06 11.3-30 17.22V287h30v-49.87zm-48 28.18c-10.14 6.3-20.15 12.74-30 19.26V319h30v-53.69zm-48 31.42c-1.290.89-2.59 1.77-3.87 2.66-8.91 6.18-17.63 12.4-26.13 18.6V351h30v-54.27zm-48 34.62c-10.45 7.9-20.47 15.71-30 23.35V383h30v-51.65zm-48 38.09c-10.92 9.13-20.98 17.89-30 26.09V431h30v-61.56zm-48 43.08c-7.53 7.41-13.88 14.1-18.77 19.79-4.14 4.81-7.25 8.93-9.14 11.95-1.89 3.02-2.09 5.3-2.09 3.74v15h30v-50.48z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPanFlute;

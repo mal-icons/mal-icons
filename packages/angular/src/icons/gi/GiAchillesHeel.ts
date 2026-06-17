@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-achilles-heel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAchillesHeel {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M362.19 18c-12.9 65.83-49.79 140.51-98.62 197.37L352 224l-89.38 19.41 52.2 75.27-71.11-56.36L224 336l-8.58-73.18 2.81-2.78c-45.22 40.71-35.89 74.860.7 96.49 6.78 4.01 16.26 9.05 27.38 8.7 58.24-1.81 93.26 35.01 126.58 76.2 18.23 22.54 48.35 30.06 73.53 44.25 52.44 29.55 67.89-32.67 14.77-53.44l-70.68-111.04c-11.42-53.08 52.19-171.82 103.49-248.37V18zM92.45 23.42v32.17l32.8 32.79 8.04-24.13zM78.58 67.35c-0.23-0.03-0.570.04-1.220.2-1.310.32-3.41 1.48-5.07 3.15-1.66 1.66-2.82 3.76-3.15 5.07-0.27 1.07-0.21 1.30.01 1.61l120.23 120.21 3.28-6.55 6.55-3.27L78.97 67.56c-0.12-0.09-0.24-0.19-0.39-0.21zM21.16 87.03L62 127.86l24.13-8.04-30.33-30.33-0.4-0.4-0.34-0.44a17.99 17.99 0 0 1-1.11-1.62zm213.56 103.1l-28.66 14.33-14.33 28.65 38.26 15.3 20.1-19.87z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAchillesHeel;

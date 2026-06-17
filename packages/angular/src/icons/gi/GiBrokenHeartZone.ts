@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-broken-heart-zone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBrokenHeartZone {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M160.45 21.79c-50.20.1-98.18 39.4-99.67 103.26h0C58.09 239.69 207.68 268.72 254.8 383.16c42.85-114.44 187.95-150.36 190.53-258.11 2.29-95.77-96.36-127-160.04-80.74l39.53 114.55-44.94-11.26 26.8 109.96-89.32-149.01 52.3 5.85-50.92-73.1c-17.91-13.36-38.27-19.56-58.29-19.52zM105.3 331.24c-51.47 16.67-84.68 41.94-84.68 69.96 0 50.17 104.81 91.11 234.19 91.11 129.37 0 234.19-40.94 234.19-91.1 0-28.02-33.22-53.28-84.68-69.95 27.15 12.92 43.8 29.23 43.8 47.18 0 41.41-86.5 74.84-193.31 74.84-106.8 0-193.31-33.42-193.31-74.84 0-17.95 16.66-34.26 43.8-47.18zm68.92 13.83c-28.25 9.05-46.72 22.11-46.72 37.42 0 27.24 57.07 49.62 127.31 49.62 70.25 0 127.32-22.38 127.32-49.62 0-15.31-18.47-28.36-46.72-37.42 14.94 7.04 24.53 15.4 24.53 25.22 0 22.49-47.13 40.67-105.12 40.67-57.99 0-105.12-18.19-105.12-40.67 0-9.82 9.59-18.18 24.53-25.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBrokenHeartZone;

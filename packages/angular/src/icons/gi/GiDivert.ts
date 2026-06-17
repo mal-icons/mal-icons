@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-divert",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDivert {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M237.69 20.25L18.34 288.34l174.63 63.09c-8.22 8.15-18.07 15.15-29.88 20.78L276.5 399.28c-10.97 11.89-24.46 22.08-41 30.22l125.56 12.41c-16.88 21.16-38.8 38.8-67.06 52.03l204.69-29.62L412.5 273.13c-1.63 34.21-5.99 66.51-14.69 95.81L320 270.03c-1.03 21.62-3.57 42.19-8.44 61.22l-80.84-72.47c-1.36 11.97-3.38 23.5-6.25 34.41l-45.94-28.66L496.69 20.25h-90.75l-284.72 250.84 158.31 87.03-211.65-76.78L318.5 20.25h-80.81z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDivert;

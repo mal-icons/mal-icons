@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-orange",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiOrange {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M254.36 16c-93.510.73-182.06 56.41-220.07 148.17-50.68 122.35 7.53 262.87 129.87 313.55 122.35 50.68 262.87-7.53 313.55-129.87 50.68-122.35-7.52-262.87-129.87-313.55-30.59-12.67-62.31-18.53-93.48-18.29zm1.33 24.34c33.25 0 66.5 14.25 57 42.75L270.82 218.74 338.23 93.17c13.43-26.87 47.02-13.43 70.53 10.08 23.51 23.51 36.95 57.1 10.08 70.53l-126.7 66.57L428.91 199.43c3.56-1.19 6.9-1.71 10.02-1.64 21.820.46 32.73 29.55 32.73 58.64 0 33.25-14.25 66.5-42.75 57l-135.38-42.27 125.23 67.07c3.36 1.68 6.09 3.67 8.25 5.92 15.11 15.75 2.25 44.03-18.32 64.61-23.51 23.51-57.09 36.95-70.53 10.08l-67.59-127.22c9.51-3.88 17.07-11.4 21-20.88 8.14-19.64-1.19-42.16-20.83-50.3-19.64-8.14-42.16 1.19-50.3 20.84-8.14 19.64 1.19 42.16 20.83 50.3 9.32 3.85 19.78 3.9 29.130.13L311.93 428.91c19 57-132.99 57-113.99 0l43.61-137.63-67.77 126.5c-26.87 53.74-134.34-53.74-80.61-80.61l124.16-66.24-134.23 41.75c-53.43 17.81-56.77-114.66-10.02-115.64 3.12-0.06 6.460.46 10.02 1.64l135.91 41.19L94.15 173.77C43.77 148.58 135.08 52.55 168.83 84.92c2.25 2.16 4.25 4.89 5.92 8.24L239.54 217.95 198.68 83.09c-9.5-28.5 23.75-42.75 57-42.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiOrange;

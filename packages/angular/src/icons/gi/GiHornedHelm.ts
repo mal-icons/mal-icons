@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-horned-helm",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHornedHelm {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M69.31 18.75c-1.57 2.35-3.38 4.51-4.81 7C29.19 86.9 50.18 165.19 111.34 200.5c0.820.48 1.640.92 2.47 1.38 6.94-20.22 16.3-38.75 27.59-54.84-46.97-27.41-73.09-77.42-72.09-128.28zm366.22 0c1 51.07-25.34 101.29-72.69 128.63-0.060.04-0.130.06-0.190.09 11.25 16.13 20.54 34.67 27.44 54.91 1.14-0.61 2.28-1.22 3.41-1.87 61.16-35.31 82.15-113.6 46.84-174.75-1.44-2.49-3.24-4.65-4.81-7zm-183.65 83.06c-49.75 0-94.34 38.94-117.19 97.69 34.87-8.74 76.5-12.77 118.28-12.78 40.78-0.01 81.44 3.81 115.84 12.12-22.93-58.38-67.38-97.03-116.94-97.03zm1.09 103.59c-61.10.02-122.17 10.17-156.44 27.88v59.69c38.84-8.85 89.38-13.42 140.63-14.16L219.28 395h59.97l-17.87-116.22c55.230.51 109.26 5.38 148.25 14.16V233.28c-34.38-17.77-95.54-27.89-156.66-27.87zm-61.06 94.78c-11.580-20.09 8.33-20.09 18 0 9.67 8.51 18 20.09 18 11.58 0 20.13-8.33 20.13-18 0-9.67-8.54-18-20.12-18zm114.690c-11.58 0-20.09 8.33-20.09 18 0 9.67 8.51 18 20.09 18 11.58 0 20.13-8.33 20.13-18 0-9.67-8.54-18-20.13-18zm44.63 2.63L300.06 493.94l81.84-21.25V306.75c-9.6-1.5-19.89-2.81-30.69-3.94zm-203.250.59c-10.82 1.25-21.17 2.73-30.84 4.44v164.84l81.84 21.25-51-190.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHornedHelm;

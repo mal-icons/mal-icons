@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-dwarf-king",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDwarfKing {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M66.08 96l-21.25 10.63v212.5h42.5v-212.5L66.08 96zm95.63 0l-21.25 10.63v38.58c12.96-5 27.49-10.09 42.5-13.45v-25.12L161.7 96zM256 96l-19.92 10.63v167.34h42.5V106.63L256 96zm96.95 0l-21.25 10.63v25.12c15.01 3.36 29.54 8.45 42.5 13.45v-38.58L352.95 96zm92.97 0l-21.25 10.63v212.5h42.5v-212.5L445.92 96zm-231.09 53.13c-41.47 0-106.05 33.2-106.05 33.2l-0.2 136.8h56.57l-4.97-5.59 54.65-30.74V149.13zm82.34 0v132.47l53.46 32.08-4.55 5.46h57.34l-0.2-136.8s-64.58-33.2-106.05-33.2zm-61.09 146.09l-42.5 23.91 42.5 47.81h42.5l39.84-47.81-39.84-23.91h-42.5zm12.41 8.35L256 311.08l7.51-7.51 7.52 7.51-7.51 7.52 5.64 5.63 7.51 7.51-7.51 7.51-5.64 5.64 7.52 7.52-7.51 7.51-7.51-7.51-7.51 7.51-7.51-7.51 7.52-7.51-5.64-5.63-7.51-7.51 7.51-7.51 5.64-5.63-7.51-7.52 7.52-7.51zM256 326.11l-5.63 5.64 5.64 5.64 5.64-5.63-5.63-5.63zM23.58 340.38v42.5H86l-41.17-42.5h-21.25zm51.8 0l42.5 42.5h42.5l-42.5-42.5h-42.5zm73.05 0l42.5 42.5h23.91V372.25l-31.87-31.87h-34.53zm180.63 0l-31.87 31.88v10.63h23.91l42.5-42.5h-34.53zm65.08 0l-42.5 42.5h42.5l42.5-42.5h-42.5zm73.05 0L426 382.88h62.42v-42.5h-21.25zm-231.09 47.81v37.19L258.66 436l19.92-10.62v-37.19h-42.5zm-191.25 15.94v21.25L67.41 436l19.92-10.62v-21.25h-42.5zm379.84 0v21.25L447.25 436l19.92-10.62v-21.25h-42.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDwarfKing;

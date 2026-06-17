@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GiLuciferCannon = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M376 76c30 60-120 30-210 75 150 0 270 15 270 105S316 361 166 361c90 45 240 15 210 75 90-15 120-120 120-180S466 91 376 76zm-95.62 105.94C216.01 182.58 127.56 203.5 16 256c255 120 390 75 390 0 0-42.19-42.86-74.89-125.62-74.06z"}]]);
+
+export default GiLuciferCannon;

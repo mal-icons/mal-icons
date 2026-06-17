@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-paint-roller",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPaintRoller {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M87 20v130h8.6c-0.2 2.52-0.09 4.890.4 7 1.73 7.34 8.46 16 16 16s14.27-8.66 16-16c0.5-2.110.6-4.480.4-7h101.27c-2.74 5.91-6.99 16.49-5.67 23 0.85 4.19 4.13 9.13 7.81 9.13s6.97-4.94 7.81-9.13c1.32-6.51-2.94-17.09-5.67-23h102.14c1.85 7.27 8.48 15.67 15.91 15.67s14.06-8.4 15.91-15.67H425V94h14v85.99s0.42 10.56-9.99 15.13c-0.870.22-33.66 8.69-69.08 18.15-17.94 4.79-36.34 9.78-51.18 13.98-14.84 4.19-25.12 7.08-30.66 9.51-6.74 2.95-14.24 6.83-20.42 13.25C251.49 256.43 247 265.75 247 277v103h18V277c0-6.9 2.1-10.83 5.64-14.5 3.54-3.67 8.89-6.72 14.69-9.26 1.55-0.68 13.63-4.52 28.32-8.67 14.7-4.15 33.03-9.13 50.93-13.91 35.8-9.56 69.84-18.35 69.84-18.35l0.62-0.160.59-0.25C456.53 203.19 457 179.99 457 179.99V76h-32V20zm18 18h302v47.37c-7.21 4.04-14.65 14.71-23 15.63-21.86 2.4-42.03-16.84-64-16-16.850.65-32.42 22.45-48 16-11.02-4.56-4.69-28.23-16-32-22.63-7.54-40.21 30.31-64 32-16.82 1.2-31.13-16-48-16-12.76 0-28.04 1.33-39 7.91zm39 159s-19.87 31.59-16 48c1.73 7.34 8.46 16 16 16s14.27-8.66 16-16c3.88-16.41-16-48-16-48zm89 201v94h46v-94z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPaintRoller;

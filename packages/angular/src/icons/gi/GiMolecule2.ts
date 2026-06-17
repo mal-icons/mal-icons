@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-molecule",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMolecule2 {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M132.17 157.5a155.15 155.15 0 0 0-18.3 21.7 99.27 99.27 0 1 1 186.29-53.83 153.45 153.45 0 0 0-58.13-12.14h-1.98a152.77 152.77 0 0 0-107.88 44.27zm105.97 263.02A153.88 153.88 0 0 1 93.01 311.58a99.29 99.29 0 1 0 162.84 108.15 155.97 155.97 0 0 1-15.720.8h-1.98zm125.1-231.26h-1.1a84.64 84.64 0 0 0-1.05 169.27h1.1a84.64 84.64 0 0 0 1.05-169.27zm-104.8 83.32a103.83 103.83 0 0 1 78.32-99.29 134.14 134.14 0 0 0-94.94-40.96h-1.74a134.57 134.57 0 0 0-1.67 269.11h1.74a133.99 133.99 0 0 0 85.31-30.53 103.92 103.92 0 0 1-67.01-98.33z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMolecule2;

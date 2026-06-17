@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-belt-buckles",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBeltBuckles {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M174.06 42.59v22.97h143.84V107.1c16.17 1.71 26.84 14.54 26.72 27.5-0.12 12.95-10.77 25.61-26.72 27.31v40.63H174.06v23.63H360.97V42.59H174.06zM20.22 84.19v18.69h279V84.25H155.37v-0.06H20.22zm359.44 0v18.69h116.47V84.19h-116.47zm37.09 37.22c-6.57 0-11.72 5.11-11.72 11.69 0 6.57 5.15 11.72 11.72 11.72s11.69-5.15 11.69-11.72c0-6.57-5.11-11.69-11.69-11.69zm66.03 0c-6.57 0-11.69 5.11-11.69 11.69 0 6.57 5.11 11.72 11.69 11.72 6.58 0 11.72-5.15 11.72-11.72 0-6.57-5.14-11.69-11.72-11.69zm-240.53 4.19c-11.12 0-13.17 4.98-13.19 8.97-0.02 3.99 1.82 8.84 13.19 8.84h71.97c9.79 0 11.68-4.68 11.72-9 0.04-4.32-1.49-8.81-11.72-8.81h-71.97zM20.22 164.97v18.69h279V164.97h-279zm359.44 0v18.69h116.47V164.97h-116.47zm-262.25 118.44v22.97H261.25v40.59c15.55 2.17 25.75 14.72 25.63 27.37-0.12 12.64-10.3 24.96-25.62 27.13v41.87H117.41v23.63h186.91V283.4H117.41zm-94.78 42.5v97.66H242.56v-21.75H184.5c-18.88 0-31.95-13.37-31.87-27.620.08-14.25 13.14-27.53 31.88-27.53h58.06v-20.75H22.63zm300.37 0v97.66h172.34v-97.66H323zm44.09 31.84c9.36 0 16.94 7.61 16.94 16.97s-7.57 16.94-16.94 16.94c-9.36 0-16.97-7.58-16.97-16.94 0-9.36 7.61-16.97 16.97-16.97zm77.28 0c9.36 0 16.94 7.61 16.94 16.97s-7.57 16.94-16.94 16.94c-9.36 0-16.97-7.58-16.97-16.94 0-9.36 7.61-16.97 16.97-16.97zM184.5 365.34c-11.12 0-13.17 4.95-13.19 8.94-0.02 3.99 1.82 8.85 13.19 8.85h71.94c9.79 0 11.71-4.65 11.75-8.970.04-4.32-1.52-8.81-11.75-8.81H184.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBeltBuckles;

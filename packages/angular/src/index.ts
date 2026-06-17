@@ -22,6 +22,7 @@ export * from "./icons/fab/index.ts";
 export * from "./icons/far/index.ts";
 export * from "./icons/fc/index.ts";
 export * from "./icons/fi/index.ts";
+export * from "./icons/gi/index.ts";
 export * from "./icons/gr/index.ts";
 export * from "./icons/hi/index.ts";
 export * from "./icons/io/index.ts";

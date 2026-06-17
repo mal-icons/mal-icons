@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-coffin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCoffin {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M312.09 21.97l59.09 119.69h52.09L362.6 22l-50.5-0.03zM173 22.69l-63.59 127.22 65.84 345.75 114.690.09L354.47 150 291.63 22.75 173 22.69zm16.06 76.28h88.78v18.69h-88.78V98.97zm0 36.22h88.78v18.69h-88.78v-18.69zm182.5 25.16L309 495.44l47.250.03 68.31-335.12h-53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCoffin;

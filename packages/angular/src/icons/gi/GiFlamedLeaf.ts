@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-flamed-leaf",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFlamedLeaf {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M407.47 20.85c10.26 16.75 17.46 36.09 19.86 56.65-32.4-44.64-58-40.28-96.36-25.7 65.99 9.78 101.33 67.38 96.36 140.75 48.85-61.72 34.92-160.81-19.86-171.7zm-276.17 2.9c-0.990-1.980.01-2.990.02h0c-34.520.6-107.76 26.21-104.54 101.04 21.08-55.64 65.89-58.68 104.54-32.12 46.41 31.89 22.08 98.35-16.94 100.45 11.64-17.33 17.04-40.65 2.97-55.29-24.89-25.91-54.78 4.49-55.53 29.59-1.4 46.62 45.44 68.12 75.34 60.74 30.19-7.45 50.09 12.42 36.8 51.98-15.06 44.8-121.11 75.95-133.15-8.17 1.7 88.73 43.25 129.87 104.54 98.11 41.47-21.49 78.87 18.96 74.17 54.9-32.79-37.75-82.1 17.99-38.54 40.88 78.98 41.52 199.4 40.19 265.73-23.94 64.74-62.6 60.83-175.21 12.26-259.89-5.61 26.61-28.43 52.37-74.17 67.16 59.26-77.48 2.57-206.85-129.65-174.04 84.2 4.68 73.57 108.25 5.26 105.12-62.26-2.85-0.79-156.3-126.07-156.54zM277.51 230.22c-56.68 51.45 15.91 153.65 88.95 141.84-33.54-9.43-64.74-51.99-54.83-100.05 31.56 66.13 129.92 66.13 137.49-16.85 29.98 68.67 13.33 147.84-36.48 182.18-58.45 40.3-156.12 24.47-181.95-58.83 19.53 19.77 58.78 32.23 82.65 28.72-92.91-26.93-106.55-145.14-35.83-177.01zM24.68 355.77c-16.49 116.72 99.14 117.28 130.43 29.31-48.32 24.54-100.24 29.99-130.43-29.3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFlamedLeaf;

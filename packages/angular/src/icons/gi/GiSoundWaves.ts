@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sound-waves",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSoundWaves {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M468.53 236.03H486v39.94h-17.47v-39.94zm-34.43 51.63h17.47v-63.33h-17.47v63.33zm-33.85 32.76h17.47V191.58h-17.47v128.84zm-32.18 25.28h17.47V167.48h-17.47v178.17zm-34.45-43.52h17.47v-92.35h-17.47v92.35zm-34.99 69.88h17.47v-236.06h-17.52v236.06zM264.2 405.9h17.47V106.1H264.2V405.9zm-33.85-46.28h17.47V152.38h-17.47v207.23zm-35.02-58.85h17.47v-87.35h-17.47v87.35zm-33.85-20.82h17.47V231.98h-17.47v48.04zm-33.85 25.66h17.47v-99.24h-17.47v99.27zm-33.3 48.04h17.47V152.68H94.34v201zm-33.85-30.7h17.47V187.33h-17.47v135.64zM26 287.66h17.47v-63.33H26v63.33z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSoundWaves;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-overmind",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiOvermind {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 25.06c-61.58 61.58-76.97 107.77-76.97 138.56 0 30.79 46.18 46.19 76.97 46.19 30.79 0 76.97-15.4 76.97-46.19S317.58 86.65 256 25.06zM132.72 204.13c-9.21-0.11-20.95 1.46-36.72 5.69 11.27 42.06 24.6 49.77 37.94 57.47C147.27 274.98 168.3 269.33 176 256c7.7-13.33 2.05-34.36-11.28-42.06-8.33-4.81-16.65-9.63-32-9.81zm246.56 0c-15.350.18-23.67 5-32 9.81-13.33 7.7-18.98 28.73-11.28 42.06 7.7 13.33 28.73 18.98 42.06 11.28 13.33-7.7 26.67-15.4 37.94-57.47-15.77-4.23-27.51-5.8-36.72-5.69zM256 240.6c-34.01 0-61.59 27.58-61.59 61.59 0 34.01 27.58 61.59 61.59 61.59 34.01 0 61.59-27.58 61.59-61.59S290.01 240.59 256 240.59zm-144.03 60.22c-50.1-9.89 1.35-14.47 4C70.83 320.21 38.54 356.63 16 440.75c84.13 22.54 131.83 12.77 158.5-2.62 26.67-15.4 16.9-63.08 1.5-89.75-12.75-22.08-39.92-48.04-64.03-47.56zm286.69 0c-23.760.5-50.15 25.9-62.66 47.56-15.4 26.67-25.17 74.35 1.5 89.75s74.38 25.17 158.5 2.63c-22.54-84.13-54.83-120.54-81.5-135.94-5-2.89-10.36-4.11-15.84-4zM256 394.56c-15.4 0-30.78 15.39-30.78 30.78 0 15.4-0.01 30.8 30.78 61.59 30.79-30.79 30.78-46.2 30.78-61.59 0-15.4-15.38-30.78-30.78-30.78z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiOvermind;

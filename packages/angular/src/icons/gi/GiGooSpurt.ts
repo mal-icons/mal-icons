@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-goo-spurt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiGooSpurt {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M164.22 19.97c-55.870.78-107.15 22.6-138.34 76.25 70.75-35.6 126.14-16.29 156.97 39-9.19-32.18-15.55-61.18 15.34-43.34 99.63 57.52 82.72 175.18 93.16 288.13 6.47 69.99 73.38 113.89 126.63 100.53 51.76-12.98 89.91-78.05 62.75-136.4-39.48-84.82-106.24-150.31-169.59-223.84-26.82-31.13 37.58-16.98 87.72 6.31C348.42 68.75 254.34 20.82 169.62 19.97c-1.81-0.02-3.6-0.03-5.41 0zm113.97 134.84c39.97 42.61 64.19 101.62 63.03 177.97-0.43 27.78 12.71 60.51 31.41 77.19 29.71 26.51 65.72 27.14 92.78-4.75-20.67 36.03-59.66 68.92-112.59 35.94-23.88-14.88-41.38-51.67-40.12-83 1.71-42.56 9.19-146.96-34.5-203.34zm-77.72 13.03c-12.770.38-21.4 16.1-19.59 36.81 1.93 22.1 15.01 41.52 29.19 43.34 14.18 1.83 24.11-14.62 22.19-36.72-1.93-22.1-15.01-41.49-29.19-43.31-0.89-0.11-1.74-0.15-2.59-0.13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiGooSpurt;

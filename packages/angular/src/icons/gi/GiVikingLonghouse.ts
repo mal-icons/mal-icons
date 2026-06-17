@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-viking-longhouse",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiVikingLonghouse {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 123.1c-20.52 15.09-38.26 36.84-53.77 59.9h107.53c-15.5-23.06-33.25-44.81-53.77-59.9zm-176.88 3.42l-7.16 41.72c-0.140.02-13.15 77.66-13.15 77.66 30.43-3.21 60.18-5.7 89.4-7.47 13.23-23.58 28.99-53.1 48.95-80.14-33.29 1.45-68.19 4.1-106.41 7.99l6.13-36.79-17.75-2.96zm337.580.43l-17.76 2.96 6.01 36.03c-31.24-3.48-60.8-5.96-89.93-7.41 20.03 27.17 35.82 56.82 49.07 80.42a1554.48 1554.48 0 0 1 73.08 6.82L423.9 168.14c-0.23-0.03-7.2-41.19-7.2-41.19zM190.69 201c-7.62 12.39-14.61 24.69-21.13 36.24 59.37-2.91 116.64-2.79 173.080.36-6.58-11.66-13.63-24.08-21.33-36.6H190.69zm64.01 52c-7.230.01-14.460.06-21.70.16V279h46v-25.81c-8.07-0.12-16.17-0.19-24.3-0.19zm-39.70.5c-36.220.88-72.69 2.9-110 6.05V279h110v-25.5zm82 0.08V279h110v-18.52a1538.76 1538.76 0 0 0-110-6.89zm-210 7.57c-9.930.93-19.92 1.92-30 3V279h30v-17.85zm338 1.21V279h30v-13.05l-8.12-1.01A1555.67 1555.67 0 0 0 425 262.36zM51.73 297l-30 30h468.55l-30-30H51.73zM23 345l-0.5 94-0.5 18h468l-0.5-18-0.5-94h-18v94h-26.8v-94h-18v94h-26.8v-94h-18v94h-26.8v-94h-18v94h-26.8v-94h-18v94H265v-94h-18v94h-26.8v-94h-18v94h-26.8v-94h-18v94h-26.8v-94h-18v94H85.8v-94h-18v94H41v-94H23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiVikingLonghouse;

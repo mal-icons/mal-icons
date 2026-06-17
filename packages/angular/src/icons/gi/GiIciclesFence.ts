@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-icicles-fence",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiIciclesFence {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M310.4 18.27l0.58 30.95 61.32 113.3-4.09-128.49-8.76-15.77h-49.05zm134.71 2.47l-40.81 171.74c-16.33 2.13-32.17 5.83-47.37 10.94L235.45 74.83l49.75 166.52c-14.27 10.8-27.37 23.06-39.06 36.59L77.19 227.48l126.46 119.46c-6.74 16.35-11.82 33.55-15 51.39l-169.62 40.31L202.3 482.2l183.1-43.51-153.56-36.49c2.49-12.73 6.12-25.05 10.8-36.84l152.01 45.41-113.68-107.39c8.69-9.74 18.29-18.65 28.65-26.62L418.66 392.21l-44.53-149.08c11.26-3.54 22.93-6.14 34.92-7.74l36.03 151.62 43.53-183.17-43.51-183.09zM66.04 66.91l67.24 109.16 109.19 67.26-67.24-109.16-109.19-67.26zm-47.66 234.62v47.88l19.27 10.51 128.49 3.51-112.71-60.74-35.04-1.16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiIciclesFence;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-thumb-down",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiThumbDown {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M283.2 35.12c24.560.2 57.19 6.16 86.34 17.69 13.42 5.31 24.17 9.77 30.62 14.06 6.46 4.29 8.2 6.85 8.27 11.730.05 4-0.28 6.73-2.26 9.89-1.97 3.16-6.12 7.24-15.42 11.72l-26.51 12.78 29.12 4.24c28.6 4.16 33.41 21.21 33.6 23.850.69 9.88-2.58 16.77-15.88 22.27l-23.95 9.91 24.94 7.07c14.35 4.07 24.49 16.48 24.49 24.73 0 7.6-7.05 18.7-24.22 24.04l-27.63 8.58 27.63 8.61c10.35 3.22 18.28 5.95 22.32 8.79 4.04 2.85 5.32 4.47 5.11 11.64-0.3 10.14-5.69 15.01-15.66 19.5-9.96 4.49-23.66 6.73-34.93 8.31-35.8 5.02-71.03 6.97-105.870.08l-20.33-4.01 10.95 17.6c25.89 41.61 54.19 90.91 59.11 130.43l0.040.350.070.35c5.13 24.97-6.35 36.19-16.97 37.46-5.310.64-11-1.04-16.32-6.72-5.31-5.68-10.13-15.73-11.44-31.54l-0.12-1.45-0.57-1.34c-7.72-18.12-25.87-39.64-46.34-61.16-20.1-21.12-42.31-41.51-58.81-55.33-35.53-49.79-45.97-71.5-53.83-85.07-3.96-6.83-7.77-12.2-13.52-16.87-5.75-4.67-12.8-8.49-24.1-14.3l-0.02-0.01-0.02-0.01c-3.51-1.78-10.93-13.61-14.72-31.09-3.79-17.48-5.16-39.72-3.44-60.71 1.72-21 6.7-40.81 14.19-53.26 3.75-6.22 7.98-10.5 12.39-12.85 4.24-2.25 8.79-3.02 14.91-1.77 10.3 4.84 19.69 9.67 30.18 12.62 10.87 3.05 22.94 3.76 36.70.15l0.58-0.150.56-0.23c28.5-11.73 71.54-20.78 100.74-20.55z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiThumbDown;

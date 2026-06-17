@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-3d-stairs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Gi_3dStairs {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M325.94 61.82l-98.26 24.57 147.16 66.89 98.26-24.57zM209.79 97.69v43.49l155.35 70.62v-43.49zM491 142.48l-108.16 27.04v62.93c-20.98 5.24-41.95 10.49-62.93 15.73v62.93c-20.98 5.24-41.95 10.49-62.93 15.73v62.93c-20.98 5.24-41.95 10.49-62.93 15.73v44.69L491 375.95zm-290.91 13.73l-35.33 8.83 147.16 66.89 35.33-8.83zm-53.23 20.14v43.49l155.35 70.62v-43.49zm-9.7 58.52l-35.33 8.83 147.16 66.89 35.33-8.83zm-53.23 20.14v43.49l155.36 70.62v-43.49zm-9.7 58.52l-35.33 8.83 147.16 66.89 35.33-8.83zM21 333.67v43.49l155.36 70.62v-43.49z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Gi_3dStairs;

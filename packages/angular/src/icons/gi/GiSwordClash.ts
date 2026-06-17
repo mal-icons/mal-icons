@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sword-clash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSwordClash {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M311.31 25.63l-23 10.66-29.53 123.03 60.81-111.97-8.28-21.72zM59.63 50.03c11.45 76.94 48.43 141.42 100.19 195.75 14.13-9.56 28.41-19.38 42.72-29.4-22.16-27.31-37.85-56.2-43.59-86.28-34.21-26.49-67.61-53.38-99.31-80.06zm390.470.03C419.18 76.1 386.64 102.33 353.31 128.22c-10.33 58.23-58.09 112.07-118.22 158.62-65.43 50.65-146.56 92.93-215.28 121.41l0 32.78c93.65-34.13 195.55-81.38 276.88-146.59C375.72 231.06 435.01 151.38 450.1 50.06zm-236.16 9.34l-8.5 27.81 40.69 73.06-6.87-85.31-25.31-15.56zm114.69 87.81C223.39 227.47 112.26 302.86 19.81 355.91V388c65.92-27.91 142.58-68.51 203.84-115.94 49.83-38.57 88.82-81.51 104.97-124.84zm-144.56 2.15c7.35 18.89 19.03 37.68 34 56.06 7.03-4.98 14.06-10.03 21.09-15.09-18.44-13.46-36.86-27.12-55.09-40.97zM352.66 269.72c-9.57 9.47-19.58 18.59-29.91 27.41 54.91 37.29 117.23 69.16 171.91 92.16V358.19c-43.86-24.99-92.1-55.13-142-88.47zm-44.91 39.81c-11.65 9.32-23.7 18.25-36.03 26.85C342.05 381.51 421.05 416.15 494.66 442.75v-33.22c-58.86-24.22-127.1-58.73-186.91-100zm-58.62 52.03l-46.19 78.25 7.81 23.59 27.75-11.34 10.63-90.5zm15.840.81L316.34 467l36.47 10.28-3.53-31.97-84.31-82.94z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSwordClash;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-person",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPerson {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M250.88 22.8c-23.37 3.04-44.55 30.44-44.55 65.94 0 19.56 6.77 36.86 16.7 48.82l11.84 14.26-18.22 3.42c-12.9 2.42-22.36 9.24-30.44 20.34-8.09 11.1-14.27 26.56-18.6 44.38-7.84 32.28-9.57 71.69-9.84 106.44h42.87l11.77 157.84c29.89 6.75 61.81 6.51 90.60.03l10.41-157.86h40.82c-0.03-35.17-0.48-75.13-7.58-107.65-3.92-17.93-9.86-33.37-18.04-44.34-8.18-10.97-18.08-17.74-32.56-19.99l-18.59-2.88 11.74-14.7c9.49-11.9 15.93-29 15.93-48.08 0-37.84-23.65-65.84-49.4-65.84z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPerson;

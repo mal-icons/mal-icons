@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-cable-stayed-bridge",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCableStayedBridge {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M113 41v446h30V41h-30zM95 60.35L18 114.9v22l77-54.5V60.35zm66 0V82.4L483.8 311H494v-14.7L161 60.35zM95 98.59L18 170.8v24.7l77-72.2V98.59zm66 0v24.71L361.2 311h26.4L161 98.59zm0 49.81v34.4L239.9 311h21.2L161 148.4zm-66 0.1L18 273.6v34.3l77-125.1v-34.3zM18 329v30h77v-30H18zm143 0v30h333v-30H161z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCableStayedBridge;

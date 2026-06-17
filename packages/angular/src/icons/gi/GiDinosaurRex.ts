@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-dinosaur-rex",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDinosaurRex {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M249.03 20.84c-15.320.04-30.76 3.48-44 9.19-7.74-0.59-15.25-0.91-22.5-0.9-90.620.07-143.08 46.57-163.97 126.31v340.22h189.31c-5.18-54.53 5.24-114.07 27.28-154.62-28.88-4.97-57.91-8.2-85.84-9.22l-7.66-0.28-1.22-7.59c-9.48-58.97-10.13-119.04 22.06-176.47l16.31 9.13c-28.18 50.27-29 102.56-20.97 157.06 81.76 4.08 170.21 25.27 239.38 54.84 22.73-5.73 33.82-29.69 41.84-65.5l-31.97 21.63-10.03-44.44-45.69 30.91-10.78-47.72-43.25 29.22-10.69-47.31-43.81 29.63-15-66.41 70.84-47.91 10.69 47.34 43.81-29.62 10.78 47.72 43.25-29.25 10.03 44.41 45.66-30.87 7.69 34.06c20.85-26.98 35.22-66.53 14.41-85.28-25.45-22.91-52.26-43.34-79.41-60.56-6.57-24.93-61.03-77.11-93.75-47.87-14.44-21.41-38.47-29.88-62.81-29.81zm2.19 21.63c18.1 0 32.59 14.55 32.59 32.78 0 3.19-0.45 6.25-1.28 9.16-3.08-6.24-9.5-10.56-16.94-10.56-10.44 0-18.91 8.47-18.91 18.91 0 6.22 3.02 11.71 7.66 15.16-1.030.1-2.070.13-3.120.13-18.1 0-32.63-14.55-32.63-32.78s14.52-32.78 32.63-32.78z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDinosaurRex;

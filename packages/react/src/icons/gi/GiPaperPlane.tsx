@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GiPaperPlane = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M480 40L32 296l112.15 37.38L448 72 209.4 355.14 320 392 480 40zM208 376l-16 96 49.93-83.86L208 376z"}]]);
+
+export default GiPaperPlane;

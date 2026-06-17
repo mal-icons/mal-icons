@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-cracked-disc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCrackedDisc {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M257.34 20.06c-10.24 0-20.320.65-30.22 1.91l28.53 69.09 44.84 33.12 68.25-11.53-42.62 30.47 42.94 31.75-84.31-13.34 27.13 65.66 70.84 36.25-66.09-1.28-50.660.84 10.34 21.91 45.03 32.19-32.41-5.47 59.84 126.72-84.81-88.53-50.13 22.94 33.31-40.5-49-51.16-76.87 35.16 51.1-62.09-61.22-63.91 90.91 5.72L114.19 68C56.94 111.31 20 180 20 257.41c0 131.19 106.15 237.34 237.34 237.34s237.34-106.15 237.34-237.34S388.53 20.06 257.34 20.06z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCrackedDisc;

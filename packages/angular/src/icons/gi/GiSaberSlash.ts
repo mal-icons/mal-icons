@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-saber-slash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSaberSlash {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M275.03 20c35.22 49.56 53.59 113.64 55.69 173.47C315.15 143 289.09 88.42 250.81 48.75c40.29 79.53 51.15 172.31 37.94 256.09-12.29-75.78-40.56-159.52-92.37-227.16 29.6 70.94 36.64 149.79 24.81 221.84-8.74-51.8-25.41-107.4-52.59-158.81 13.02 54.32 12.85 107.64 3.44 159.28l21.66 6.81 15 4.72-11.28 10.91c-10.68 10.33-19.87 21.91-27.34 34.34 93.61 35.49 232.95 64.53 298.03 41.38-41.02 56.47-210.33 13.82-309.31-18.69-1.51 3.78-2.92 7.59-4.12 11.47-3.01 9.69-5.02 19.61-6.06 29.66l176.47 66.38c98.5 31.1 150.5-24.62 158.66-81.72C505.25 254.47 485.02 105.66 426.06 20h-22.19c40.09 65.52 66.67 154.22 60.47 255.34-8.15-79.83-42.8-157.21-98.44-219.5 38.68 85.09 56.57 185.75 34.38 288.630.06-118.82-33.1-225.86-105.09-324.47H275.03zm-110.19 1.59c41.26 29.18 74.33 74.09 97.5 120.66-7.7-46.15-21.3-86.79-44-120.66h-53.5zm176.38 0c28.88 15.14 52.1 36.61 71.28 66.78-7.14-27.79-17.22-49.85-31.44-66.78H341.22zM123.69 304.41c2.53 21.65 1.07 43.31-4.06 64L18.81 336.34V366l91.94 29.09c-7.38 17.44-17.56 33.77-30.31 48.28l50.09 15.75c-3.04-24.9-1.14-49.88 6.28-73.72 7.45-23.92 20.22-46.11 37.03-65.22l-50.16-15.78z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSaberSlash;

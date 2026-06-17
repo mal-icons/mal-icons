@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-falling",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFalling {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M221.31 16a23.68 23.7 0 0 0-23.69 23.69v106.41a23.68 23.7 0 0 0 2.16 9.72 23.68 23.7 0 0 0 3.16 13.81l41.75 71.63-79 55.44 6.09-48.62a23.68 23.7 0 0 0-8.19-20.97l-66.28-81.94a23.68 23.7 0 0 0-33.31-3.5l-9.19 7.44a23.68 23.7 0 0 0-3.53 33.34l59.78 73.91-11.25 89.94a23.68 23.7 0 0 0 12.47 23.88l37.47 53.47a23.7 23.68 1.57 0 0 2.34 2.81 23.68 23.7 0 0 0 13.59 20.06L262 491.53a23.68 23.7 0 0 0 9.97 2.22 23.68 23.7 0 0 0 23.53-2.06l87.16-60.94a23.68 23.7 0 0 0 5.84-33l-6.78-9.69a23.68 23.7 0 0 0-32.97-5.87l-72.41 50.66-59.06-27.62 120.6-84.63a23.7 23.68 1.57 0 0 5.53-5.5 23.68 23.7 0 0 0 14.63-13.59l37.22-91.53 87.81-44.84a23.69 23.68 1.18 0 0 10.31-31.87L488 122.69a23.69 23.68 1.18 0 0-31.87-10.34l-94.69 48.38a23.69 23.68 1.18 0 0-9.84 9.44 23.68 23.7 0 0 0-8.34 10.47l-27.37 67.31-5.22-7.44a23.68 23.7 0 0 0-3-8.84l-50.81-87.09V39.69A23.68 23.7 0 0 0 233.15 16h-11.84zM77.75 376A59.99 60 0 0 0 16 436a59.99 60 0 1 0 120 0 59.99 60 0 0 0-58.25-60z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFalling;

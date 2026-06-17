@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sea-creature",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSeaCreature {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M421.06 120.47c-8.18-0.15-16.18 1.82-24.8 5.48-16.37 7-29 34.22-36.61 56.13-12.19 41.13-18.54 174.72-38.79 209.46h71.64c2.74-26.73 2.38-147.44 3.93-171.830.93-14.65 7.38-37.13 17.05-41.24 6.21-2.64 14.69-4.3 38 13.78 8.17 6.29 61.02-13.88 23.94-44.76-22.46-18.72-38.74-26.73-54.36-27.02zm20.01 18.03a9 9 0 1 1 0 18 9 9 0 0 1 0-18zM216.05 321.12c-55 0-77 69.35-77 69.350.010.340.040.670.09 1h148.61c0.04-0.310.08-0.660.08-1 0-5.82-24.25-69.35-71.78-69.35zm-153.03 29.32c-21.82 0-39.5 41.07-39.5 41.07h79c0.04-4.76-17.65-41.07-39.5-41.07z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSeaCreature;

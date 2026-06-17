@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-return-arrow",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiReturnArrow {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M19.83 18.26l00.02c249.64 36.99 371.9 169.98 397.32 278.01-2.09 5.98-4.5 11.04-7.07 14.97-17.29 26.38-62.52 40.08-101.65 28.6 5.98-19.75 10.13-39.83 12.07-59.12-95.46 8.18-212.54 8.42-301.21-22.64 41.73 95.32 99.33 164.47 164.98 230.08 18.3-2.16 35.81-11.35 51.84-25.37 85.22 34.67 188.07-2.56 226.75-60.68 46.92-70.5 74.07-317.52-167.46-383.86H232.81c160.33 54.87 195.73 167.74 191.57 239.03-37.15-93.63-137.68-191.85-312.38-239.03H19.83z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiReturnArrow;

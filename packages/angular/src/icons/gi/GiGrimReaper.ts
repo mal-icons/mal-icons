@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-grim-reaper",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiGrimReaper {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M246.53 21.03c-62.330.34-123.51 15.68-165 39.44l-6.15 2.06c19.53 58.27 48.16 98.69 80.94 132.38l-1.72 67.47 64.5 30.44c-19 58.99-34.51 128.89-50.4 197.66h191.13c-10.31-47.13-20.52-94.49-32.16-138.72 23.77 28.11 46.51 61.63 67.06 104.31l16.84-8.09c-22.57-46.87-47.94-83.34-74.31-113.63l31.13-24.28-47.47-104.38 48.22-33.75c-18.96-35.46-37.45-71.31-72.28-92.66-32.51 19.99-52 56.71-72.22 92.5l-29.22 34.69c-28.89-25.67-54.97-53.34-76.09-90.53C192.2 60.42 315.86 47.17 419.66 72.56 373.43 35.6 309.39 20.69 246.53 21.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiGrimReaper;

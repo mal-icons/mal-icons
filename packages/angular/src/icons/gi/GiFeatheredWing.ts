@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-feathered-wing",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFeatheredWing {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M22.47 28.76c107.55 68.11 207.02 121.53 322.01 133.68 40.71 4.3 47.81 34.94 31.68 70.1-26.52 57.77 16.43 143.55 112.34 195.47-5.98 27.99-46.32 51.55-71.16 43.27-20.68-43.17-52.9-88.74-87.81-76.38-71.39 25.29-144.91 30.66-194.84 3.45 66.23-8.99 129.27-26.59 184.8-54.34C219.18 359.01 100.41 359.4 55.4 309.04c91.06 3.64 164.86-5.6 247.26-26.22C192.91 272.71 72.25 252.64 38.28 185.35c80.98 25.25 189.57 34.65 263.03 35.16C186.86 191.68 32.94 112.72 22.47 28.76z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFeatheredWing;

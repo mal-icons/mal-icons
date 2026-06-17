@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-lightning-trio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLightningTrio {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M292.53 20.5l19 40.59L66.31 28.75 362.03 158.13l-18.97-40.59 149.22 15.28L292.53 20.5zm-252 23.38L318.31 413.97 312.91 348l184.97 146.5L294 186.66l5.41 65.97L40.53 43.88zM20.91 76.22l36.5 316.4L83.03 351.75l68.1 139.34-9.59-241.12-25.62 40.84-95-214.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLightningTrio;

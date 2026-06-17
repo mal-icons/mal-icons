@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-detour",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDetour {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M486.95 25.06L347.49 52.95l23.78 23.78L390.54 96l-56.79 56.8c-27.39-22.7-57.98-32.84-86.97-32.06-33.840.92-64.92 15.95-87.86 38.89-22.94 22.94-38.08 54.11-39.41 88.18-1.14 29.31 8.49 60.41 30.74 88.49L19.27 467.27l25.46 25.46 155.48-155.48-12.48-12.73c-24.72-25.22-33.18-51.12-32.25-75.320.94-24.2 11.9-47.13 28.89-64.12 16.99-16.99 39.66-27.71 63.38-28.35 23.72-0.64 49.04 8.15 73.63 33.5l12.73 13.12L416 121.46l43.06 43.05 27.89-139.46zM256 192a64 64 0 0 0-64 64 64 64 0 0 0 64 64 64 64 0 0 0 64-64 64 64 0 0 0-64-64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDetour;

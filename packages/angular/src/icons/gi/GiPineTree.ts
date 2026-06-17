@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-pine-tree",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPineTree {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M249.28 19.19v0.25c-18.11 38.63-45.06 72.36-77.69 102.94l37.72-3.94-51.34 65.03 24.81-7.91-33.62 54.88 16.53 9.84-65.25 92.16 36.10.19-51.69 83.59 63.56-8.13 12 32.09 66.44-25.28L215.5 493.28h52.94l-6.53-68.22 38.19 16.41 10.19-24.78 44.28 20.97 56.41-20.75-37.06-64.09-12.44-2.28 6.78 17.19 7.84 19.91-19.94-7.78-50.91-19.91V395.69l-14.16-8.59-69.37-42-21.59 21.25-18.03 17.75 2.15-25.22 2.13-24.65 18.19 1.56 9.22-9.09 5.19-5.09 6.22 3.75 61.38 37.16v-29.91l12.75 4.97 43.72 17.09-5.09-12.91-6.16-15.66 16.53 3.03 45.47 8.35-34.53-38.94-23.62 14.03-6.69 3.97-5.12-5.87-14.28-16.440.22 1.22-18.41 3.22-5.97-34.31-5.75-33.06 22 25.35 31.19 35.88 43.91-26.03c-24.67-19.54-39.51-33.87-49.66-48.81l0.81 12.66 1.97 31-18.75-24.75-34.47-45.44-22.25 46.81-13.84 29.13-3.84-32.03-3.5-28.84 16.53-1.97 16.62-34.97 6.59-13.87 9.28 12.22 25 32.94-0.75-11.53-0.91-14.28 13.47 4.94L341.81 188l-26.12-35.16-55.84-28.87-8.94 20.22-9.66 21.94-7.72-22.69-7.47-21.87 16.97-5.78 3.72-8.44 4-9.12 8.84 4.59 49.38 25.53 16.47-5.56c-43.42-34.31-64.63-68.89-76.16-103.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPineTree;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-bugle-call",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBugleCall {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M340.53 16.47l-19.25 89.37L391.94 16.47H340.53zm151.28 18.69L372.06 167.75l119.75-47.91V35.16zM185.38 80.25c-0.650.01-1.290.03-1.940.06-9.510.42-18.37 2.64-25.69 7.59-16.96 11.49-11.29 37.16-22.78 63.09C95.73 239.62 56.09 303.89 21.06 351.31v103.38c61.58-21.34 153.3-43.46 287.34-47.91 28.13-0.93 49.73 12.58 66.59 1.16 41.64-28.21 26.56-122.47-33.28-210.81-3.74-5.52-7.22-11.14-11.13-16.34-46.8-62.43-104.12-101.08-145.22-100.53zM180 104.75c-6.76 13.89-0.41 43.86 15.94 80.75-5.16-18.63-4.69-32.14 2.69-36.62 16.13-9.8 59.05 27.18 95.88 82.59 36.82 55.42 53.59 108.29 37.47 118.09-6.63 4.03-17.810.14-31.22-9.69 27.72 28.09 52.73 44.51 68.09 43.66-1.78 3.17-3.67 6.24-6.5 8.16-26.9 18.23-91.75-30.25-144.66-108.34-52.9-78.09-73.87-156.34-46.97-174.56 2.76-1.87 5.78-3.52 9.28-4.03zm311.81 115.56l-84.69 27.44 84.69 12.84v-40.28z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBugleCall;

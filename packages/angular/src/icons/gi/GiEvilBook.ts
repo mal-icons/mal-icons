@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-evil-book",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiEvilBook {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M94 27.8c-24-0.13-42.94 15.27-54.73 32.78C27.09 78.65 20.66 98.82 24.68 115.1l0.010.04 81.48 318.19c0.11-9.53 2.29-19.38 6.22-28.6 4.24-9.95 10.73-19.41 19.25-27.21 7.48-7.44 17.4-13.34 29.23-16.570 0 0 0 0.010 4.36-1.29 8.96-2.22 13.79-2.74l0.66-0.07 323.2 11.25-126.97-328.56-275.21-12.96c-0.79-0.04-1.56-0.06-2.34-0.06zm-0.11 18.69c0.520 1.040.02 1.570.04L358.5 58.92l112.41 290.87-299.46-9.77-0.650.07c-26.13 2.81-47.68 15.8-60.55 33.82l-67.42-263.29v0c-1.57-6.36 2.12-25.01 11.94-39.6 9.52-14.13 23.03-24.6 39.12-24.52zm17.43 17.4L93.35 69.04l73.06 255.19 17.97-5.14-73.06-255.19zm52.48 19.2c3.22 62.57 46.11 84.67 81.54 87.51l9.07-16.85-43.87-19.94 15.91-8.95c-24.73-2.39-42.9-24.44-62.65-41.76zm180.16 2.95c-10.86 18.29-18.59 40.61-39.37 46.13l10.31 13.84-24.81 16.07 14.94 13.84c30-7.38 59.37-33.12 38.93-89.88zm44.41 88.26l-33.43 59.07-18.18-40.08-25.45 50.63-50.07-37.27-8.28 35.16-76.94-59.77 46.06 99.15 13.43-21.8 45.86 59.07 19.86-46.41 41.2 47.11 17.79-52.03 20.13 28.83 8.04-121.64zM176.21 376.87c-23.56 2.69-39.21 17.77-46.63 35.19-6.86 16.11-5.66 33.01 1.8 42.7l315.01 10.86c-2.51-13.55-1.82-27.43 2.32-41.2l-21.55-6.82 34.25-20.05c2.31-3.52 4.85-7.02 7.66-10.48l-292.86-10.19z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiEvilBook;

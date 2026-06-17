@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-razor-blade",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiRazorBlade {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M385.59 45.16L13.03 260.25l20.35 35.25L405.94 80.41l-20.34-35.25zm29.69 51.44L42.72 311.69l8.15 14.13c16.17-5.23 33.86-0.59 45.25 11.94l28.53-16.47L134 337.47l-28.53 16.47c5.14 16.120.32 33.77-12.28 45.16l8.16 14.13 372.56-215.09L465.75 184c-16.16 5.21-33.860.56-45.25-11.94l-28.53 16.47-9.35-16.19 28.53-16.47c-5.15-16.13-0.35-33.8 12.28-45.19l-8.16-14.09zm-83.12 90.81c8.68-0.22 17.2 4.21 21.84 12.25 6.76 11.7 2.76 26.65-8.94 33.41-8.83 5.1-19.48 4.03-27.09-1.81l-22.28 12.84c4.87 16.8-2.11 35.36-17.94 44.5-15.83 9.14-35.39 5.9-47.5-6.72l-22.22 12.85c1.25 9.52-3.2 19.27-12.03 24.37-11.7 6.76-26.65 2.76-33.41-8.94-6.75-11.7-2.73-26.65 8.97-33.41 3.66-2.11 7.62-3.18 11.56-3.28 5.58-0.15 11.1 1.64 15.56 5.06l22.22-12.81c-4.87-16.81 2.11-35.39 17.94-44.53 5.82-3.36 12.13-5.05 18.41-5.22 10.8-0.28 21.43 3.98 29.09 11.97l22.25-12.84c-1.27-9.53 3.16-19.3 12-24.41 3.66-2.11 7.62-3.18 11.56-3.28zm151.09 26.91L110.69 429.41l20.34 35.25 372.56-215.09-20.34-35.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiRazorBlade;

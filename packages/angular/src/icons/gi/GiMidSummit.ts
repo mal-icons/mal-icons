@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-mid-summit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMidSummit {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m454 34.46-56.3 168.9-79.83 63.87-33.49 117.22-82.77-16.55-61.95 77.43L32.41 493H493V151.46zM204.36 175.64l-12.25 12.25 100.67 101.62 5.66-19.8zm-25.04 24.91c-9.31 5.89-17.04 18.93-25.05 36.31-7.18 15.57-14.53 33.78-25.21 50.6 3.76-0.89 7.48-2.26 11.34-4.24 9-4.59 18.34-11.96 28.48-19.44 10.14-7.48 21.16-15.13 34.28-19.5 5.25-1.75 10.93-2.69 16.82-3.07z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMidSummit;

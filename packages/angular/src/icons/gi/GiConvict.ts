@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-convict",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiConvict {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M185 25v14h142V25H185zm0 32v14h142V57H185zm2.51 32c-1.63 7.3-2.51 15-2.51 23 0 48.97 32.65 87 71 87s71-38.03 71-87c0-8-0.89-15.7-2.51-23H187.51zm21.03 118.72c-22.12 6.85-39.91 18.6-54.61 33.58-0.140.14-0.280.29-0.420.44 30.32 4.35 58.94 6.99 86.48 7.91l-31.45-41.93zm94.92 0l-31.67 42.22c29.8-0.46 58.58-3.03 87.19-7.7-0.3-0.31-0.6-0.63-0.91-0.94-14.7-14.99-32.49-26.73-54.61-33.58zm-67.44 6.65L256 241l19.98-26.64A76.84 76.84 0 0 1 256 217a76.84 76.84 0 0 1-19.98-2.63zm-106.91 60.05c-3.84 6.63-7.32 13.56-10.49 20.69l28.81 7.2c110.47 15.79 106.68 15.79 217.15 0l28.81-7.2c-3.15-7.08-6.61-13.97-10.42-20.56-79.61 15.33-159.82 15.18-253.85-0.12zm-22.9 54.69a326.24 326.24 0 0 0-1.53 5.3 362.76 362.76 0 0 0-4.93 19.98L135 363.2v-26.89l-28.79-7.2zm299.59 0l-28.79 7.2v26.37l34.86-10.05a360.24 360.24 0 0 0-4.53-18.22 326.34 326.34 0 0 0-1.53-5.3zM153 339.46v27.95c73.74 14.2 132.26 14.2 2060V339.46c-96.87 13.75-109.12 13.75-206 0zm265.19 48.81L377 400.14v27.06l44.23-11.06a528.94 528.94 0 0 0-3.04-27.87zM93.59 389.95a531.61 531.61 0 0 0-2.82 26.19L135 427.19v-26.89L93.59 389.95zM153 404.04v27.17c88.6 14.45 132.46 14.51 206 0.21v-27.38c-72.12 13.16-133.88 13.16-206 0zm-64.15 48.73c-0.36 14.78-0.12 26.060.03 34.23H135v-22.69l-46.15-11.54zm334.3 0L377 464.31V487h46.13c0.15-8.180.38-19.450.03-34.23zM153 467.7V487h206v-18.94c-71.1 13.19-121.48 13.04-206-0.36z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiConvict;

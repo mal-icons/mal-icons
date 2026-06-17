@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-toy-mallet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiToyMallet {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M233.56 26.01l-24.54 11.15-67.33 67.33-11.15 24.54 24.54-11.15 67.33-67.33zm26.12 26.11l-24.54 11.16-67.33 67.33-11.15 24.54 24.54-11.15 67.33-67.33zm26.11 26.12L261.25 89.39l-67.32 67.32-11.16 24.54 24.54-11.15 67.33-67.33zm26.11 26.11l-24.54 11.16-67.32 67.32-11.16 24.54 24.54-11.15 67.33-67.33zm-3.64 42.48l-56.91 56.91 56.91 56.91 56.91-56.91zm99.39 53.27l-24.54 11.16-67.33 67.33-11.15 24.54 24.54-11.16 67.32-67.32zm26.11 26.11l-24.54 11.16-67.33 67.33-11.15 24.54 24.54-11.16 67.32-67.32zm-183.53 1.86l-50.62 50.62c8.14 1.45 15.92 5.28 22.17 11.53v0c6.25 6.25 10.09 14.03 11.53 22.16l50.62-50.62zm209.65 24.26l-24.54 11.15-67.33 67.33-11.15 24.54 24.54-11.15 67.33-67.33zm26.11 26.12l-24.54 11.15-67.33 67.33-11.15 24.54 24.54-11.15 67.33-67.33zM192.21 295.91c-6.08 0-12.16 2.34-16.85 7.03-9.38 9.38-9.38 24.32 0 33.7 9.38 9.38 24.32 9.38 33.7 0 9.38-9.38 9.38-24.31 0-33.69-4.69-4.69-10.77-7.03-16.85-7.04zm-46.42 46.42c-6.08 0-12.16 2.35-16.85 7.04-9.38 9.38-9.38 24.32 0 33.7 9.38 9.38 24.32 9.38 33.7 0 9.38-9.38 9.38-24.310-33.7-4.69-4.69-10.77-7.03-16.85-7.03zm-41.11 31.29l-68.59 68.59c-14.58 14.58-11.32 28.17-2.9 36.6s22.02 11.68 36.6-2.9l68.59-68.59c-8.13-1.45-15.92-5.28-22.17-11.53-6.25-6.25-10.09-14.03-11.53-22.17z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiToyMallet;

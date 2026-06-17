@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-candlebright",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCandlebright {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M182.5 20.56c24.23 185.95-94.27 281.19-69.69 372.94 3.67 13.69 10.22 26.2 18.91 37.38-2.57-7.14-4.05-14.66-4.22-22.5-1.05-49.33 50.49-92.22 87.34-161.25 11.53 31.27 23.8 68.7 16.75 116.28 62.93-18.27 110.75-66.52 121.19-117.65 37 66.22 41.69 141.460.88 196.78-0.13-3.02-0.61-6.1-1.53-9.19-7-23.46-39.65-36.49-72.69-28.03-61.14 15.66-69.61 98.66 16.63 85.220.44-0.070.9-0.14 1.34-0.22 24.45-3.72 47.13-12.84 64.91-28.06C510.78 335.1 388.19 103.57 182.5 20.56z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCandlebright;

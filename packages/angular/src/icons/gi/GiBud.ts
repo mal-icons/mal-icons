@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-bud",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBud {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M384.13 18.97c-70.01 129.28-252.07 74.71-332.5 193.76l38.88 103.67c22.01-21.79 47.78-40.79 79.57-54.06l9.26-3.87 3.2 9.51c12.58 37.39 23.49 94.57 26.86 147.51l102.62-30.89c22.35-120.72 64.36-227.22 179.24-188.4-0.59-0.9-1.22-1.8-1.84-2.69-25.24-32.43-76.74-57.15-126.56-53.34-7.05 6.68-14.54 13.15-22.16 19.75-41.63 36.1-88 75.32-100.37 170.75l-18.56-2.41c13.07-100.84 65.1-146.4 106.69-182.47 20.8-18.03 38.7-33.91 49.13-53 10.15-18.58 14.12-40.51 6.56-73.81zm99.91 61.97c-25.51 2.27-52.79 3.07-82.03 1.62-2.06 6.82-4.76 13.2-8.03 19.19-3.81 6.97-8.29 13.37-13.25 19.44 22.370.91 44.23 6.32 63.91 15.12l39.41-55.37zM92.97 112.69c-24.01 18.62-41.33 40.01-55.32 62.77l6.19 16.51c15.57-19.71 34.12-34.56 54.7-46.66l-5.57-32.62zm-65.36 89.22c-9.83 47.09-12.01 104.67-2.27 155.69 11.81 61.86 40.11 112.43 90.15 127.28 34.53 10.25 83.65 10.54 126.72-5 38.26-13.8 71.6-39.36 88.54-81.42l-120.47 36.27c0.24 8.670.25 17.140 25.29l-18.68-0.59c1.74-55.24-9.87-129.09-23.74-175.46-39.45 18.77-68.73 47.25-94.04 79.54l-14.71-11.53c5.46-6.97 11.15-13.82 17.11-20.5l-48.6-129.58z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBud;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-boxing-glove",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBoxingGlove {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M141.98 56.94c-0.630-1.270.02-1.90.05-2.90.14-5.80.58-8.7 1.33-28.33 7.29-56.42 29.25-77.06 57.84-20.63 28.6-33.67 63.59-33.55 95.460.06 16.53 6.94 27.84 18.89 36.93 7.29 5.54 16.59 9.97 27.03 13.23-1.02-14.32-0.48-29.78 3.96-42.71l16.84 5.78c-15.89 57.86 18.71 102.13 69.65 142.01-2.31-28.87 2.36-59.99 15.7-91.34-1.26-7.76-1.14-16.390.57-25.66 4.65-25.21 20.01-56.11 49.88-93.41l14.59 11.68c-28.65 35.78-42.3 64.58-46.09 85.12-3.79 20.55 1.34 31.85 10.05 38.18 8.71 6.33 23.24 8.05 40.32 2.53 17.07-5.52 36.13-18.14 52.42-38.4 40.15-49.96 56.8-91.03 58.06-120.48 1.26-29.46-11.11-47.41-32.75-56.94C276.6 59.07 191.21 80.82 119.7 162.94l-14.09-12.27c26.81-30.79 55.63-54.11 84.14-70.29-15.18-14.58-31.46-23.54-47.77-23.43zm230.76 85.89c-0.650-1.30.01-1.960.01-3.55 34.28-22.66 75.89-61.65 124.4-18.36 22.84-40.16 37.67-61.24 44.48-21.07 6.82-41.97 5.77-57.05-5.19-2.74-1.99-5.2-4.3-7.39-6.89-20.75 63.81-2.12 122.79 34.91 158.59 25.61 24.76 60.01 38.35 97.47 34.73 37.47-3.63 78.5-24.53 116.94-71 84.46-102.1 71.21-199.61 19.82-247.65-21.08-19.7-48.7-31.3-79.86-31.48z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBoxingGlove;
