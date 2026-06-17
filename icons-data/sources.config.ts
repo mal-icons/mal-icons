@@ -325,6 +325,16 @@ export const sources: Record<string, IconSource> = {
     iconDir: "svg/two-tone",
     style: "fill",
   },
+  bs: {
+    id: "bs",
+    prefix: "Bs",
+    name: "Bootstrap Icons",
+    license: "MIT",
+    repo: "twbs/icons",
+    ref: "v1.13.1",
+    iconDir: "icons",
+    style: "fill",
+  },
   mso: {
     id: "mso",
     prefix: "Mso",
