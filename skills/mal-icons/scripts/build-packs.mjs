@@ -269,6 +269,18 @@ const SET_META = {
     blurb:
       "Grommet's stroke-based 24×24 icons, including many brand marks (e.g. `GrHome`, `GrGithub`, `GrAmazon`). Themed via `color`; honor `strokeWidth`/`weight`. Brand icons render single-color.",
   },
+  gi: {
+    id: "gi",
+    name: "Game Icons",
+    prefix: "Gi",
+    version: "82d9488",
+    license: "CC-BY-3.0",
+    repo: "game-icons/icons",
+    style: "fill",
+    viewBox: "0 0 512 512",
+    blurb:
+      "4180 detailed game/fantasy/RPG icons from game-icons.net (e.g. `GiSwordWound`, `GiDragonHead`, `GiHealthPotion`, `GiShield`). Single-color `currentColor` fill on a 512×512 canvas; theme via `color`.",
+  },
   mdf: {
     id: "mdf",
     name: "Material Icons Filled",
