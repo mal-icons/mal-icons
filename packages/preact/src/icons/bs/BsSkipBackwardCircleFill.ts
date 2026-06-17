@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsSkipBackwardCircleFill = createIcon("0 0 16 16", [["path",{"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.79-2.91L8.5 7.03V5.5a0.50.5 0 0 0-0.79-0.41L5 7.03V5.5a0.50.5 0 0 0-1 0v5a0.50.5 0 0 0 1 0V8.97l2.71 1.94a0.50.5 0 0 0 0.79-0.41V8.97l2.71 1.94A0.50.5 0 0 0 12 10.5v-5a0.50.5 0 0 0-0.79-0.41"}]]);
+
+export default BsSkipBackwardCircleFill;

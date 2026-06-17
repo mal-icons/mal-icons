@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsBookmarkHeartFill = createIcon("0 0 16 16", [["path",{"d":"M2 15.5a0.50.5 0 0 0 0.740.44L8 13.07l5.26 2.87A0.50.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2zM8 4.41c1.39-1.42 4.85 1.07 0 4.28C3.15 5.48 6.61 2.99 8 4.41z"}]]);
+
+export default BsBookmarkHeartFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-moisture",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsMoisture {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.5 0a0.50.5 0 0 0 0 1H15v2.75h-0.5a0.50.5 0 0 0 0 1h0.5V7.5h-1.5a0.50.5 0 0 0 0 1H15v2.75h-0.5a0.50.5 0 0 0 0 1h0.5V15h-1.5a0.50.5 0 0 0 0 1h2a0.50.5 0 0 0 0.5-0.5V0.5a0.50.5 0 0 0-0.5-0.5zM7 1.5l0.36-0.34a0.50.5 0 0 0-0.73 0l00-0.010.01-0.020.02-0.080.09a29 29 0 0 0-1.27 1.52c-0.770.98-1.71 2.33-2.38 3.73C2.37 7.56 2 8.68 2 9.73 2 12.61 4.21 15 7 15s5-2.39 5-5.27c0-1.05-0.37-2.17-0.87-3.21-0.67-1.4-1.62-2.74-2.38-3.73a29 29 0 0 0-1.35-1.6l-0.02-0.02-0.01-0.0100zm0 0-0.36-0.34zm-0.020.77L7 2.25l0.020.02c0.240.270.570.670.94 1.140.610.78 1.32 1.78 1.9 2.83H4.14c0.58-1.05 1.29-2.05 1.9-2.830.37-0.480.71-0.870.95-1.14zM3 9.73c0-0.750.24-1.610.64-2.5h6.72c0.40.880.64 1.740.64 2.5C11 12.12 9.18 14 7 14s-4-1.88-4-4.27"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsMoisture;

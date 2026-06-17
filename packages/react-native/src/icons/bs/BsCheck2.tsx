@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsCheck2 = createIcon("0 0 16 16", [["path",{"d":"M13.85 3.65a0.50.5 0 0 1 0 0.71l-7 7a0.50.5 0 0 1-0.71 0l-3.5-3.5a0.50.5 0 1 1 0.71-0.71L6.5 10.29l6.65-6.65a0.50.5 0 0 1 0.71 0"}]]);
+
+export default BsCheck2;

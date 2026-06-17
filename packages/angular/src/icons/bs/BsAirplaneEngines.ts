@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-airplane-engines",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsAirplaneEngines {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 0c-0.79 0-1.290.59-1.57 1.15A4.35 4.35 0 0 0 6 3v3.69l-2 1V7.5a0.50.5 0 0 0-0.5-0.5h-1a0.50.5 0 0 0-0.50.5v1.19l-1.170.59A1.5 1.5 0 0 0 0 10.62V12a0.50.5 0 0 0 0.580.49l1.63-0.270.310.94a0.50.5 0 0 0 0.95 0l0.41-1.21 2.21-0.370.38 2.25-1.32 1.32A0.50.5 0 0 0 5.5 16h5a0.50.5 0 0 0 0.35-0.85l-1.32-1.320.38-2.25 2.210.370.41 1.21a0.50.5 0 0 0 0.95 0l0.31-0.94 1.630.27A0.50.5 0 0 0 16 12v-1.38a1.5 1.5 0 0 0-0.83-1.34L14 8.69V7.5a0.50.5 0 0 0-0.5-0.5h-1a0.50.5 0 0 0-0.50.5v0.19l-2-1V3c0-0.57-0.14-1.27-0.43-1.85C9.290.59 8.79 0 8 0M7 3c0-0.430.11-0.980.32-1.4C7.54 1.16 7.79 1 8 1s0.460.160.680.6C8.89 2.02 9 2.57 9 3v4a0.50.5 0 0 0 0.280.45l5.45 2.72a0.50.5 0 0 1 0.280.45v0.79l-5.42-0.9a0.50.5 0 0 0-0.570.41l-0.5 3a0.50.5 0 0 0 0.140.44l0.650.65H6.71l0.65-0.65a0.50.5 0 0 0 0.14-0.44l-0.5-3a0.50.5 0 0 0-0.58-0.41L1 11.41v-0.79a0.50.5 0 0 1 0.28-0.45l5.45-2.72A0.50.5 0 0 0 7 7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsAirplaneEngines;

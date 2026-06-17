@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-blockquote-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBlockquoteLeft {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.5 3a0.50.5 0 0 0 0 1h11a0.50.5 0 0 0 0-1zm5 3a0.50.5 0 0 0 0 1h6a0.50.5 0 0 0 0-1zm0 3a0.50.5 0 0 0 0 1h6a0.50.5 0 0 0 0-1zm-5 3a0.50.5 0 0 0 0 1h11a0.50.5 0 0 0 0-1zm0.79-5.37q0.17-0.120.44-0.28L3.52 6q-0.180.11-0.450.29-0.270.18-0.510.43a2.4 2.4 0 0 0-0.40.56Q2 7.59 2 7.97q0 0.540.220.870.220.330.720.330.32 0 0.5-0.21a0.70.7 0 0 0 0.19-0.46q0-0.34-0.21-0.52-0.2-0.18-0.57-0.18h-0.28q0.04-0.30.12-0.5a1.4 1.4 0 0 1 0.25-0.37 2 2 0 0 1 0.35-0.3zm2.17 0q0.17-0.120.45-0.28L5.69 6q-0.180.11-0.450.29-0.270.18-0.510.43a2.4 2.4 0 0 0-0.40.56q-0.160.31-0.160.69 0 0.540.220.870.220.330.720.330.32 0 0.5-0.21a0.70.7 0 0 0 0.19-0.46q0-0.34-0.21-0.52-0.2-0.18-0.57-0.18h-0.28a1.8 1.8 0 0 1 0.12-0.49q0.09-0.190.26-0.37a2 2 0 0 1 0.35-0.3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBlockquoteLeft;

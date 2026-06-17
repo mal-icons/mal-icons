@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsCaretRightSquareFill = createIcon("0 0 16 16", [["path",{"d":"M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.5 10a0.50.5 0 0 0 0.830.37l4.5-4a0.50.5 0 0 0 0-0.75l-4.5-4A0.50.5 0 0 0 5.5 4z"}]]);
+
+export default BsCaretRightSquareFill;

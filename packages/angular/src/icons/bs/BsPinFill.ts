@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-pin-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsPinFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.150.15A0.50.5 0 0 1 4.5 0h7a0.50.5 0 0 1 0.50.5c0 0.68-0.34 1.17-0.65 1.48-0.130.13-0.250.22-0.350.3v4.43l0.080.05c0.20.130.480.310.750.56C12.36 7.78 13 8.53 13 9.5a0.50.5 0 0 1-0.50.5h-4v4.5c0 0.28-0.22 1.5-0.5 1.5s-0.5-1.22-0.5-1.5V10h-4a0.50.5 0 0 1-0.5-0.5c0-0.970.64-1.72 1.17-2.19A6 6 0 0 1 5 6.71V2.28a3 3 0 0 1-0.35-0.3C4.34 1.67 4 1.18 4 0.5a0.50.5 0 0 1 0.15-0.35"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsPinFill;

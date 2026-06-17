@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-stripe",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsStripe {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.23 5.39c-0.58 0-0.940.16-0.940.59 0 0.470.610.67 1.360.93 1.230.42 2.840.96 2.85 2.99C11.5 11.87 9.92 13 7.63 13a7.7 7.7 0 0 1-3.01-0.63V9.76c0.930.51 2.10.88 3.010.880.62 0 1.06-0.16 1.06-0.67 0-0.52-0.66-0.75-1.45-1.04C6.03 8.49 4.5 7.94 4.5 6.11 4.5 4.17 5.99 3 8.23 3a7.3 7.3 0 0 1 2.730.51v2.58c-0.84-0.45-1.9-0.7-2.73-0.7"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsStripe;

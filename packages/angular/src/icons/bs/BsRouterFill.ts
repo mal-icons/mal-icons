@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-router-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsRouterFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.53 3.03a3.5 3.5 0 0 1 4.95 0 0.50.5 0 1 0 0.71-0.71 4.5 4.5 0 0 0-6.36 0 0.50.5 0 0 0 0.710.71"}],["path",{"d":"M6.94 4.44a1.5 1.5 0 0 1 2.12 0 0.50.5 0 0 0 0.71-0.71 2.5 2.5 0 0 0-3.54 0 0.50.5 0 0 0 0.710.71Z"}],["path",{"d":"M2.97 2.34a0.50.5 0 1 0-0.950.32L3.81 8H1.5A1.5 1.5 0 0 0 0 9.5v2A1.5 1.5 0 0 0 1.5 13H2a0.50.5 0 0 0 0.50.5h2A0.50.5 0 0 0 5 13h6a0.50.5 0 0 0 0.50.5h2a0.50.5 0 0 0 0.5-0.5h0.5a1.5 1.5 0 0 0 1.5-1.5v-2A1.5 1.5 0 0 0 14.5 8h-2.31l1.78-5.34a0.50.5 0 1 0-0.95-0.32L11.14 8H4.86zM2.5 11a0.50.5 0 1 1 0-1 0.50.5 0 0 1 0 1m4.5-0.5a0.50.5 0 1 1 1 0 0.50.5 0 0 1-1 0m2.50.5a0.50.5 0 1 1 0-1 0.50.5 0 0 1 0 1m1.5-0.5a0.50.5 0 1 1 1 0 0.50.5 0 0 1-1 0m2 0a0.50.5 0 1 1 1 0 0.50.5 0 0 1-1 0"}],["path",{"d":"M8.5 5.5a0.50.5 0 1 1-1 0 0.50.5 0 0 1 1 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsRouterFill;

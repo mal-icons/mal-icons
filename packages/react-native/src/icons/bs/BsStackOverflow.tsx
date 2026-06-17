@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsStackOverflow = createIcon("0 0 16 16", [["path",{"d":"M12.41 14.57V10.29h1.43V16H1v-5.71h1.43v4.28z"}],["path",{"d":"M3.86 13.15h7.14v-1.43H3.86zM10.25 0 9.110.85l4.26 5.73 1.15-0.85zm-3.54 3.38 5.48 4.570.91-1.1L7.63 2.28l-0.91 1.1zM4.92 6.55l6.47 3.010.6-1.29-6.47-3.01zm-0.92 3.34 6.99 1.470.29-1.4-6.98-1.47z"}]]);
+
+export default BsStackOverflow;

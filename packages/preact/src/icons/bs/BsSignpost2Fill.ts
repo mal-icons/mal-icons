@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsSignpost2Fill = createIcon("0 0 16 16", [["path",{"d":"M7.290.71A1 1 0 0 0 7 1.41V2H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h5v1H2.5a1 1 0 0 0-0.80.4L0.73 8.7a0.50.5 0 0 0 0 0.6l0.98 1.3a1 1 0 0 0 0.80.4H7v5h2v-5h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H9V6h4.5a1 1 0 0 0 0.8-0.4l0.98-1.3a0.50.5 0 0 0 0-0.6L14.3 2.4a1 1 0 0 0-0.8-0.4H9v-0.59A1 1 0 0 0 7.290.71"}]]);
+
+export default BsSignpost2Fill;

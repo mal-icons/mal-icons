@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsBadge4k = createIcon("0 0 16 16", [["path",{"d":"M4.81 5C4.02 6.3 3.2 7.6 2.5 8.92v0.97h2.91V11h1.11V9.89h0.73V8.93h-0.73V5zm-1.23 3.93v-0.03a47 47 0 0 1 1.77-3h0.06V8.93zm9.83-3.93h-1.31L9.84 7.69h-0.06V5H8.59v6h1.19V9.07l0.62-0.7L12.07 11H13.5l-2.23-3.41z"}],["path",{"d":"M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"}]]);
+
+export default BsBadge4k;

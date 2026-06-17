@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsXCircleFill = createIcon("0 0 16 16", [["path",{"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.35 4.65a0.50.5 0 1 0-0.710.71L7.29 8l-2.65 2.65a0.50.5 0 0 0 0.710.71L8 8.71l2.65 2.65a0.50.5 0 0 0 0.71-0.71L8.71 8l2.65-2.65a0.50.5 0 0 0-0.71-0.71L8 7.29z"}]]);
+
+export default BsXCircleFill;

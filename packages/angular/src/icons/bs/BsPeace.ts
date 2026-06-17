@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-peace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsPeace {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.5 1.02a7 7 0 0 0-4.79 11.57L7.5 7.79zm1 0v6.78l4.79 4.79A7 7 0 0 0 8.5 1.02m4.08 12.27L8.5 9.21v5.78a6.97 6.97 0 0 0 4.08-1.69M7.5 14.98V9.21l-4.08 4.08A6.97 6.97 0 0 0 7.5 14.98M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsPeace;

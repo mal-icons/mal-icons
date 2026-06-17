@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsBuildingsFill = createIcon("0 0 16 16", [["path",{"d":"M15 0.5a0.50.5 0 0 0-0.72-0.45l-8 4A0.50.5 0 0 0 6 4.5v3.14L0.34 9.53A0.50.5 0 0 0 0 10v5.5a0.50.5 0 0 0 0.50.5h9a0.50.5 0 0 0 0.5-0.5V14h1v1.5a0.50.5 0 0 0 0.50.5h3a0.50.5 0 0 0 0.5-0.5zM2 11h1v1H2zm2 0h1v1H4zm-1 2v1H2v-1zm1 0h1v1H4zm9-10v1h-1V3zM8 5h1v1H8zm1 2v1H8V7zM8 9h1v1H8zm2 0h1v1h-1zm-1 2v1H8v-1zm1 0h1v1h-1zm3-2v1h-1V9zm-1 2h1v1h-1zm-2-4h1v1h-1zm3 0v1h-1V7zm-2-2v1h-1V5zm1 0h1v1h-1z"}]]);
+
+export default BsBuildingsFill;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsStop = createIcon("0 0 16 16", [["path",{"d":"M3.5 5A1.5 1.5 0 0 1 5 3.5h6A1.5 1.5 0 0 1 12.5 5v6a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 11zM5 4.5a0.50.5 0 0 0-0.50.5v6a0.50.5 0 0 0 0.50.5h6a0.50.5 0 0 0 0.5-0.5V5a0.50.5 0 0 0-0.5-0.5z"}]]);
+
+export default BsStop;

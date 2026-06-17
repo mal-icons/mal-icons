@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsBluetooth = createIcon("0 0 16 16", [["path",{"fillRule":"evenodd","d":"m8.54 3.95 1.32 1.32L8.54 6.58zm0 8.1 1.32-1.32L8.54 9.42zm-1.41-4.04L4.28 5.13l0.83-0.83L7.38 6.58V1.13l4.14 4.14L8.79 8.01l2.75 2.75-4.14 4.14V9.42l-2.29 2.27-0.83-0.83zM7.9 16c3.5 0 5.9-1.65 5.9-8.01 0-6.33-2.41-7.99-5.9-7.99S2 1.66 2 8.01C2 14.34 4.41 16 7.9 16Z"}]]);
+
+export default BsBluetooth;

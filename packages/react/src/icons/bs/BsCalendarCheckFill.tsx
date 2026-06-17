@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsCalendarCheckFill = createIcon("0 0 16 16", [["path",{"d":"M4 0.5a0.50.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V0.5a0.50.5 0 0 0-1 0V1H4zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2m-5.15-5.15-3 3a0.50.5 0 0 1-0.71 0l-1.5-1.5a0.50.5 0 0 1 0.71-0.71L7.5 10.79l2.65-2.65a0.50.5 0 0 1 0.710.71"}]]);
+
+export default BsCalendarCheckFill;

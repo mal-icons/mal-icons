@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-suit-club-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSuitClubFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.5 12.5a3.5 3.5 0 0 1-2.68-1.25 20 20 0 0 0 1.58 2.91c0.230.35-0.020.85-0.440.85H6.04c-0.42 0-0.67-0.5-0.44-0.85a20 20 0 0 0 1.58-2.91 3.5 3.5 0 1 1-2.54-5.74 3.5 3.5 0 1 1 6.71 0A3.5 3.5 0 1 1 11.5 12.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSuitClubFill;

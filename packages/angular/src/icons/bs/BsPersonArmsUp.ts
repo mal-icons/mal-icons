@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-person-arms-up",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsPersonArmsUp {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"}],["path",{"d":"m5.93 6.7-0.85 8.45a0.770.77 0 0 0 1.520.2l0.81-4.86a0.590.59 0 0 1 1.17 0l0.81 4.87a0.770.77 0 0 0 1.52-0.2l-0.84-8.45A1.5 1.5 0 0 1 10.5 5.5L13 2.28a0.80.8 0 0 0-1.24-1L9.63 3.84a0.70.7 0 0 1-0.330.24c-0.230.07-0.660.18-1.30.18-0.64 0-1.07-0.1-1.3-0.18a0.70.7 0 0 1-0.33-0.23L4.24 1.29a0.80.8 0 0 0-1.241l2.5 3.22c0.320.320.480.760.43 1.2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsPersonArmsUp;

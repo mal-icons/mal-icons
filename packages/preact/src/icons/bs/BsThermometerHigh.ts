@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsThermometerHigh = createIcon("0 0 16 16", [["path",{"d":"M9.5 12.5a1.5 1.5 0 1 1-2-1.41V2.5a0.50.5 0 0 1 1 0v8.59a1.5 1.5 0 0 1 1 1.42"}],["path",{"d":"M5.5 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0zM8 1a1.5 1.5 0 0 0-1.5 1.5v7.99l-0.170.15a2.5 2.5 0 1 0 3.33 0l-0.17-0.15V2.5A1.5 1.5 0 0 0 8 1"}]]);
+
+export default BsThermometerHigh;

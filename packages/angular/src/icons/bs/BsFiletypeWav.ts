@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-filetype-wav",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFiletypeWav {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M14 4.5V14a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.78 15.85l0.74-2.79h0.03l0.74 2.79h0.73l1.06-4h-0.86l-0.59 2.9h-0.04l-0.71-2.9H2.2l-0.71 2.9h-0.04l-0.6-2.9H0l1.06 4zm3.72 0 0.31-1.03h1.34l0.31 1.03h0.84L6.97 11.85h-0.93L4.7 15.85h0.8Zm1-3.230.49 1.62H5.98l0.49-1.62H6.5Zm3.6 3.23h-0.95L7.81 11.85h0.92l0.9 3.14h0.04l0.89-3.14h0.88z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFiletypeWav;

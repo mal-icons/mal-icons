@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsArrowLeftRight = createIcon("0 0 16 16", [["path",{"fillRule":"evenodd","d":"M1 11.5a0.50.5 0 0 0 0.50.5h11.79l-3.15 3.15a0.50.5 0 0 0 0.710.71l4-4a0.50.5 0 0 0 0-0.71l-4-4a0.50.5 0 0 0-0.710.71L13.29 11H1.5a0.50.5 0 0 0-0.50.5m14-7a0.50.5 0 0 1-0.50.5H2.71l3.15 3.15a0.50.5 0 1 1-0.710.71l-4-4a0.50.5 0 0 1 0-0.71l4-4a0.50.5 0 1 1 0.710.71L2.71 4H14.5a0.50.5 0 0 1 0.50.5"}]]);
+
+export default BsArrowLeftRight;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-wikipedia",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsWikipedia {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.84 3c0.83-0.01 2.69 0 2.69 0l0.030.03v0.29q0 0.12-0.130.12c-0.430.02-0.520.06-0.680.29-0.090.13-0.260.39-0.430.69l-1.52 2.84-0.040.09 1.86 3.80.110.03 2.93-6.95q0.15-0.42-0.04-0.59c-0.13-0.11-0.22-0.18-0.56-0.19l-0.28-0.01a0.160.16 0 0 1-0.1-0.040.10.1 0 0 1-0.05-0.08v-0.29l0.04-0.03h3.31l0.030.03v0.29q0 0.12-0.130.12-0.650.03-0.960.28a1.64 1.64 0 0 0-0.490.7s-2.69 6.16-3.61 8.21c-0.350.67-0.70.61-1-0.02A224 224 0 0 1 8.04 8.81c-0.62 1.29-1.47 3.03-1.9 3.81-0.410.72-0.750.62-1.020.02-0.45-1.06-1.13-2.52-1.82-3.98-0.73-1.57-1.47-3.15-1.94-4.27-0.17-0.4-0.29-0.66-0.41-0.76q-0.18-0.15-0.75-0.18Q0 3.42 0 3.34v-0.3l0.03-0.03c0.620 3.59 0 3.59 0l0.030.03v0.29q0 0.12-0.150.12l-0.370.02q-0.480.02-0.480.2900.130.110.4c0.72 1.75 3.21 7 3.21 7l0.090.02 1.6-3.2-0.32-0.71L6.24 5.1s-0.21-0.43-0.29-0.58l-0.1-0.2c-0.39-0.77-0.41-0.82-0.86-0.88-0.14-0.02-0.21-0.04-0.21-0.1v-0.3l0.04-0.03h2.85l0.080.02v0.3q0 0.1-0.150.1l-0.210.03c-0.520.04-0.440.25-0.090.95l1.06 2.16 1.17-2.33c0.2-0.430.16-0.530.07-0.63-0.05-0.05-0.2-0.14-0.54-0.16l-0.13-0.01a0.160.16 0 0 1-0.1-0.030.10.1 0 0 1-0.04-0.08v-0.29l0.04-0.03Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsWikipedia;

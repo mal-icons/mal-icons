@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-fork-knife",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsForkKnife {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13 0.5c0-0.28-0.23-0.51-0.5-0.46-1.70.26-2.94 2.01-3 8.46a0.50.5 0 0 0 0.50.5c0.560.01 1 0.13 1 1v5.5a0.50.5 0 0 0 0.50.5h1a0.50.5 0 0 0 0.5-0.5zM4.25 0a0.250.25 0 0 1 0.250.25v5.12a0.130.13 0 0 0 0.260.01l0.23-5.14A0.250.25 0 0 1 5.24 0h0.52a0.250.25 0 0 1 0.250.24l0.23 5.14a0.130.13 0 0 0 0.26-0.01V0.25A0.250.25 0 0 1 6.75 0h0.29a0.50.5 0 0 1 0.50.46l0.42 5.07a1.69 1.69 0 0 1-1.06 1.71l-0.050.02a0.920.92 0 0 0-0.580.88L6.47 15a0.970.97 0 1 1-1.94 0l0.2-6.85a0.920.92 0 0 0-0.58-0.88l-0.05-0.02a1.69 1.69 0 0 1-1.06-1.71L3.460.46A0.50.5 0 0 1 3.96 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsForkKnife;

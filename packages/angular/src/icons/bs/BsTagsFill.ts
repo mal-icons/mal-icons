@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-tags-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsTagsFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 2a1 1 0 0 1 1-1h4.59a1 1 0 0 1 0.710.29l7 7a1 1 0 0 1 0 1.41l-4.59 4.59a1 1 0 0 1-1.41 0l-7-7A1 1 0 0 1 2 6.59zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"}],["path",{"d":"M1.29 7.79A1 1 0 0 1 1 7.09V2a1 1 0 0 0-1 1v4.59a1 1 0 0 0 0.290.71l7 7a1 1 0 0 0 1.41 0l0.04-0.04z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsTagsFill;

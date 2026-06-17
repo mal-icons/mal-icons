@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-mouse3-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsMouse3Fill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.50.07A15 15 0 0 0 7 0q-0.890-1.530.46c-0.420.3-0.720.73-0.93 1.21-0.390.87-0.52 2.01-0.54 3.21l4.5 1zM3.71 5.84 3.38 6A2.5 2.5 0 0 0 2 8.24v2.58C2 13.66 4.22 16 7 16h2c2.78 0 5-2.34 5-5.19V8.12l-9-2v0l0.010.35c0.010.30.020.720.05 1.180.060.940.19 2.010.41 2.69a0.50.5 0 1 1-0.950.32c-0.27-0.82-0.4-2-0.46-2.94A30 30 0 0 1 4 6q0-0.050.01-0.1zM14 7.1V5.19c0-1.13-0.27-2.04-0.75-2.77-0.47-0.73-1.13-1.24-1.85-1.59A7.5 7.5 0 0 0 9.50.21v5.89l4.5 1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsMouse3Fill;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsGenderMale = createIcon("0 0 16 16", [["path",{"fillRule":"evenodd","d":"M9.5 2a0.50.5 0 0 1 0-1h5a0.50.5 0 0 1 0.50.5v5a0.50.5 0 0 1-1 0V2.71L9.87 6.84a5 5 0 1 1-0.71-0.71L13.29 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"}]]);
+
+export default BsGenderMale;

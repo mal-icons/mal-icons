@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-sign-turn-slight-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSignTurnSlightLeft {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m7.67 6.98-0.8 1.39a0.250.25 0 0 1-0.45-0.04l-1.06-2.88a0.250.25 0 0 1 0.19-0.33l3.03-0.52a0.250.25 0 0 1 0.260.37l-0.67 1.150.620.37A2.5 2.5 0 0 1 10 8.63V11H9V8.63a1.5 1.5 0 0 0-0.73-1.29z"}],["path",{"fill-rule":"evenodd","d":"M6.950.44c0.58-0.58 1.52-0.58 2.1 0l6.52 6.52c0.580.580.58 1.52 0 2.1L9.05 15.57c-0.580.58-1.520.58-2.1 0L0.44 9.05a1.48 1.48 0 0 1 0-2.1zm1.40.7a0.50.5 0 0 0-0.7 0L1.13 7.65a0.50.5 0 0 0 0 0.7l6.52 6.52a0.50.5 0 0 0 0.7 0l6.52-6.52a0.50.5 0 0 0 0-0.7L8.35 1.13Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSignTurnSlightLeft;

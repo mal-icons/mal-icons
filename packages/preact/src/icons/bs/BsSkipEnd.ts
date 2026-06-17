@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsSkipEnd = createIcon("0 0 16 16", [["path",{"d":"M12.5 4a0.50.5 0 0 0-1 0v3.25L5.23 3.61C4.71 3.31 4 3.66 4 4.31v7.38c0 0.650.711 1.230.7L11.5 8.75V12a0.50.5 0 0 0 1 0zM5 4.63 10.8 8 5 11.37z"}]]);
+
+export default BsSkipEnd;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-radioactive",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsRadioactive {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8"}],["path",{"d":"M9.65 5.5A3 3 0 0 0 8 5c-0.61 0-1.180.18-1.650.5L4.69 2.99A5.97 5.97 0 0 1 8 2c1.22 0 2.360.37 3.310.99zm1.34 2.32a3 3 0 0 1-0.88 2.31 3 3 0 0 1-0.770.55l1.34 2.68c0.57-0.29 1.09-0.66 1.54-1.1a6 6 0 0 0 1.77-4.62zm-5.68 5.55 1.34-2.68A3 3 0 0 1 5.01 7.82l-2.99-0.18a6 6 0 0 0 3.31 5.73ZM10 8a2 2 0 1 1-4 0 2 2 0 0 1 4 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsRadioactive;

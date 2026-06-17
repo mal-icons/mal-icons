@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-filetype-woff",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFiletypeWoff {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-5.46 9.69v-0.52q0-0.39-0.12-0.64a0.860.86 0 0 0-0.32-0.390.860.86 0 0 0-0.47-0.130.870.87 0 0 0-0.470.130.870.87 0 0 0-0.320.39q-0.120.26-0.120.64v0.52q0 0.380.120.64a0.870.87 0 0 0 0.320.390.90.9 0 0 0 0.470.130.90.9 0 0 0 0.47-0.130.860.86 0 0 0 0.32-0.39 1.55 1.55 0 0 0 0.12-0.64m0.8-0.52v0.51q0 0.56-0.20.97-0.20.41-0.590.63-0.380.22-0.920.22-0.53 0-0.92-0.22a1.46 1.46 0 0 1-0.59-0.63 2.15 2.15 0 0 1-0.2-0.97v-0.51q0-0.570.21-0.970.21-0.410.59-0.630.39-0.220.92-0.220.54 0 0.920.220.380.220.590.630.20.410.210.97m-6.06-0.54-0.74 2.79h-0.73l-1.05-4h0.86l0.6 2.9h0.04l0.71-2.9h0.68l0.71 2.9h0.04l0.6-2.9h0.86l-1.05 4h-0.73l-0.74-2.79zm7.4 2.79v-1.59h1.61v-0.64h-1.61v-1.12h1.76v-0.65H9.88v4zm2.99-1.59v1.59h-0.79v-4h2.55v0.65h-1.76v1.12h1.61v0.64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFiletypeWoff;

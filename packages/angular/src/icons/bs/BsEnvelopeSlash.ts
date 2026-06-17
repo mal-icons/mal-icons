@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-envelope-slash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEnvelopeSlash {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a0.50.5 0 0 0 0-1H2a1 1 0 0 1-0.97-0.74l5.64-3.47L8 9.58l7-4.2V8.5a0.50.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.71 6.21L1 11.11V5.38zM1 4.22V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v0.22l-7 4.2z"}],["path",{"d":"M14.98 10.03a3.5 3.5 0 1 0-4.95 4.95 3.5 3.5 0 0 0 4.95-4.95m-4.240.71a2.5 2.5 0 0 1 3.15-0.32l-3.46 3.47a2.5 2.5 0 0 1 0.32-3.15m0.39 3.85 3.46-3.46a2.5 2.5 0 0 1-3.46 3.47Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEnvelopeSlash;

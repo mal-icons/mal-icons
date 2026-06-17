@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-slack",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSlack {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.36 10.11c0 0.93-0.76 1.68-1.68 1.68S0 11.04 0 10.110.76 8.43 1.68 8.43h1.68zm0.85 0c0-0.920.76-1.68 1.68-1.68s1.680.76 1.68 1.68v4.21c0 0.92-0.76 1.68-1.68 1.68a1.69 1.69 0 0 1-1.68-1.68zM5.89 3.36c-0.93 0-1.68-0.76-1.68-1.68S4.96 0 5.89 0s1.680.76 1.68 1.68v1.68zm0 0.85c0.92 0 1.680.76 1.68 1.68S6.81 7.57 5.89 7.57H1.68C0.76 7.57 0 6.81 0 5.89c0-0.930.76-1.68 1.68-1.68zm6.75 1.68c0-0.930.76-1.68 1.68-1.68S16 4.96 16 5.89s-0.76 1.68-1.68 1.68h-1.68zm-0.85 0c0 0.92-0.75 1.68-1.68 1.68A1.69 1.69 0 0 1 8.43 5.89V1.68C8.430.76 9.19 0 10.11 0c0.93 0 1.680.76 1.68 1.68zm-1.68 6.75c0.93 0 1.680.76 1.68 1.68S11.04 16 10.11 16s-1.68-0.76-1.68-1.68v-1.68h1.68zm0-0.85c-0.92 0-1.68-0.75-1.68-1.68s0.76-1.68 1.68-1.68h4.21c0.92 0 1.680.76 1.68 1.68 0 0.93-0.76 1.68-1.68 1.68z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSlack;

@@ -46,6 +46,16 @@
       "bun": "./src/icons/ad/*.ts",
       "import": "./dist/icons/ad/*.js"
     },
+    "./bs": {
+      "types": "./dist/icons/bs/index.d.ts",
+      "bun": "./src/icons/bs/index.ts",
+      "import": "./dist/icons/bs/index.js"
+    },
+    "./bs/*": {
+      "types": "./dist/icons/bs/*.d.ts",
+      "bun": "./src/icons/bs/*.ts",
+      "import": "./dist/icons/bs/*.js"
+    },
     "./cg": {
       "types": "./dist/icons/cg/index.d.ts",
       "bun": "./src/icons/cg/index.ts",

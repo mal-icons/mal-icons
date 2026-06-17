@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-clipboard2-heart-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsClipboard2HeartFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M10.060.5a0.50.5 0 0 0-0.5-0.5h-2.98c-0.28 0-0.50.23-0.50.5A0.50.5 0 0 1 5.58 1a0.50.5 0 0 0-0.50.5V2a0.50.5 0 0 0 0.50.5h4.97a0.50.5 0 0 0 0.5-0.5v-0.5A0.50.5 0 0 0 10.56 1a0.50.5 0 0 1-0.5-0.5"}],["path",{"fill-rule":"evenodd","d":"M4.17 1h-0.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-0.64q0.080.240.090.5V2c0 0.83-0.67 1.5-1.49 1.5H5.58A1.5 1.5 0 0 1 4.09 2v-0.5q0-0.260.09-0.5Zm3.89 5.48c1.66-1.67 5.8 1.25 0 5.02-5.79-3.76-1.66-6.69 0-5.02"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsClipboard2HeartFill;

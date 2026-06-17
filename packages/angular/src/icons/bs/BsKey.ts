@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-key",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsKey {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 8a4 4 0 0 1 7.47-2H14a0.50.5 0 0 1 0.350.15l1.5 1.5a0.50.5 0 0 1 0 0.71l-1.5 1.5a0.50.5 0 0 1-0.71 0L13 9.21l-0.650.65a0.50.5 0 0 1-0.71 0L11 9.21l-0.650.65a0.50.5 0 0 1-0.71 0L9 9.21l-0.650.65A0.50.5 0 0 1 8 10h-0.53A4 4 0 0 1 0 8m4-3a3 3 0 1 0 2.71 4.29A0.50.5 0 0 1 7.16 9h0.63l0.85-0.85a0.50.5 0 0 1 0.71 0l0.650.650.65-0.65a0.50.5 0 0 1 0.71 0l0.650.650.65-0.65a0.50.5 0 0 1 0.71 0l0.650.650.79-0.79-1-1h-6.63a0.50.5 0 0 1-0.45-0.28A3 3 0 0 0 4 5"}],["path",{"d":"M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsKey;

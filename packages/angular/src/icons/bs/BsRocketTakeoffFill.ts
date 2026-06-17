@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-rocket-takeoff-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsRocketTakeoffFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.17 9.53c2.31-2.59 3.28-4.68 3.64-6.220.21-0.890.21-1.580.16-2.06a3.6 3.6 0 0 0-0.11-0.56 2 2 0 0 0-0.08-0.23V0.45c-0.07-0.16-0.17-0.23-0.35-0.29a2 2 0 0 0-0.16-0.04 4 4 0 0 0-0.57-0.09c-0.49-0.04-1.19-0.03-2.080.19-1.540.37-3.62 1.34-6.16 3.6l-2.40.24h-0.01a2.55 2.55 0 0 0-1.520.73L0.15 7.17a0.510.51 0 0 0 0.430.87l1.9-0.27c0.28-0.040.590.010.960.130.230.080.440.160.660.25l0.20.08c0.20.820.66 1.58 1.27 2.190.610.61 1.38 1.08 2.19 1.28l0.080.2c0.090.220.170.420.250.660.120.360.170.680.130.96l-0.27 1.9a0.510.51 0 0 0 0.870.43l2.38-2.39c0.41-0.410.67-0.950.73-1.53zm0.11-3.7c-0.80.8-1.930.96-2.530.36-0.6-0.6-0.44-1.730.36-2.530.8-0.8 1.93-0.96 2.53-0.36s0.44 1.73-0.36 2.53Z"}],["path",{"d":"M5.21 10.79a7.6 7.6 0 0 0 1.8 1.35c-1.12 1.01-4.93 2.03-5.05 1.9-0.13-0.130.74-4.19 1.84-5.180.350.690.84 1.35 1.41 1.93"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsRocketTakeoffFill;

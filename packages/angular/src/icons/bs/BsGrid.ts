@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-grid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsGrid {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zM2.5 2a0.50.5 0 0 0-0.50.5v3a0.50.5 0 0 0 0.50.5h3a0.50.5 0 0 0 0.5-0.5v-3a0.50.5 0 0 0-0.5-0.5zm6.50.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm1.5-0.5a0.50.5 0 0 0-0.50.5v3a0.50.5 0 0 0 0.50.5h3a0.50.5 0 0 0 0.5-0.5v-3a0.50.5 0 0 0-0.5-0.5zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm1.5-0.5a0.50.5 0 0 0-0.50.5v3a0.50.5 0 0 0 0.50.5h3a0.50.5 0 0 0 0.5-0.5v-3a0.50.5 0 0 0-0.5-0.5zm6.50.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5zm1.5-0.5a0.50.5 0 0 0-0.50.5v3a0.50.5 0 0 0 0.50.5h3a0.50.5 0 0 0 0.5-0.5v-3a0.50.5 0 0 0-0.5-0.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsGrid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-badge-vo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBadgeVo {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.51 11h1.43l1.99-6H6.61L5.28 9.71H5.22L3.88 5H2.5zM13.5 8.39v-0.77c0-1.7-0.96-2.73-2.57-2.73S8.36 5.92 8.36 7.62v0.77c0 1.690.97 2.72 2.57 2.72 1.61 0 2.57-1.03 2.57-2.72m-1.2-0.78v0.78c0 1.16-0.57 1.73-1.36 1.73-0.8 0-1.36-0.58-1.36-1.73v-0.78c0-1.160.57-1.74 1.36-1.740.79 0 1.360.58 1.36 1.74"}],["path",{"d":"M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBadgeVo;

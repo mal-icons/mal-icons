@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-chevron-double-down",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsChevronDoubleDown {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M1.65 6.65a0.50.5 0 0 1 0.71 0L8 12.29l5.65-5.65a0.50.5 0 0 1 0.710.71l-6 6a0.50.5 0 0 1-0.71 0l-6-6a0.50.5 0 0 1 0-0.71"}],["path",{"fill-rule":"evenodd","d":"M1.65 2.65a0.50.5 0 0 1 0.71 0L8 8.29l5.65-5.65a0.50.5 0 0 1 0.710.71l-6 6a0.50.5 0 0 1-0.71 0l-6-6a0.50.5 0 0 1 0-0.71"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsChevronDoubleDown;

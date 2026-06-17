@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsCameraVideoFill = createIcon("0 0 16 16", [["path",{"fillRule":"evenodd","d":"M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.98 1.74l3.11-1.38A1 1 0 0 1 16 4.27v7.46a1 1 0 0 1-1.410.91l-3.11-1.38A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2z"}]]);
+
+export default BsCameraVideoFill;

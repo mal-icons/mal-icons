@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-suit-club",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSuitClub {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 1a3.25 3.25 0 0 0-3.25 3.25c0 0.19 0 0.290.020.410.010.120.050.270.120.53l0.190.67-0.69-0.03a3.25 3.25 0 1 0 2.36 5.330.50.5 0 0 1 0.840.52l00.01-0.010.02-0.020.06a22 22 0 0 1-0.440.92 22 22 0 0 1-1.27 2.2c-0.010.02-0.020.0500.09q0.020.030.030.04A0.040.04 0 0 0 5.9 15h4.2q0.01 0 0.02-0.01a0.10.1 0 0 0 0.03-0.04c0.02-0.040.01-0.070-0.09a23 23 0 0 1-1.7-3.12l-0.02-0.05-0.01-0.0100a0.50.5 0 0 1 0.84-0.52c0.60.7 1.52 1.17 2.5 1.17a3.25 3.25 0 1 0-0.14-6.5l-0.70.030.2-0.67c0.14-0.470.14-0.740.14-0.93V4.25A3.25 3.25 0 0 0 8 1m2.21 12.02c0.230.410.490.850.78 1.29C11.44 15 10.98 16 10.1 16H5.9c-0.88 0-1.34-1-0.89-1.680.29-0.440.55-0.880.78-1.28a4.25 4.25 0 1 1-2.01-8.19l-0.01-0.06c-0.02-0.19-0.02-0.35-0.02-0.52V4.25a4.25 4.25 0 0 1 8.5 0c0 0.14 0 0.33-0.040.6a4.25 4.25 0 0 1-0.46 8.48 4.2 4.2 0 0 1-1.54-0.3"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSuitClub;

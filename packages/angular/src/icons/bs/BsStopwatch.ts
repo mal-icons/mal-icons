@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-stopwatch",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsStopwatch {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.5 5.6a0.50.5 0 1 0-1 0v2.9h-3a0.50.5 0 0 0 0 1H8a0.50.5 0 0 0 0.5-0.5z"}],["path",{"d":"M6.5 1A0.50.5 0 0 1 7 0.5h2a0.50.5 0 0 1 0 1v0.57c1.360.2 2.590.78 3.58 1.64l0.01-0.010.35-0.35-0.35-0.35a0.50.5 0 0 1 0.71-0.71l1.41 1.42a0.50.5 0 1 1-0.710.71l-0.35-0.35-0.350.35-0.010.01A7 7 0 1 1 7 2.07V1.5a0.50.5 0 0 1-0.5-0.5M8 3a6 6 0 1 0 0 12A6 6 0 0 0 8 3"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsStopwatch;

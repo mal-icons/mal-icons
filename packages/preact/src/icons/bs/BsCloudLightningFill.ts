@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsCloudLightningFill = createIcon("0 0 16 16", [["path",{"d":"M7.05 11.28A0.50.5 0 0 1 7.5 11h1a0.50.5 0 0 1 0.470.66l-0.280.84H9.5a0.50.5 0 0 1 0.390.81l-2 2.5a0.50.5 0 0 1-0.87-0.43L7.36 14H6.5a0.50.5 0 0 1-0.45-0.72zm6.35-7.25a5 5 0 0 0-9.5-1A3.5 3.5 0 1 0 3.5 10H13a3 3 0 0 0 0.41-5.97"}]]);
+
+export default BsCloudLightningFill;

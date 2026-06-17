@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-emoji-angry",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEmojiAngry {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"}],["path",{"d":"M4.29 12.43a0.50.5 0 0 0 0.68-0.18A3.5 3.5 0 0 1 8 10.5c1.3 0 2.430.7 3.03 1.75a0.50.5 0 0 0 0.87-0.5A4.5 4.5 0 0 0 8 9.5a4.5 4.5 0 0 0-3.9 2.250.50.5 0 0 0 0.180.68m6.99-8.38a0.50.5 0 1 1 0.450.89l-1.010.5c0.180.270.280.640.28 1.05 0 0.83-0.45 1.5-1 1.5s-1-0.67-1-1.5c0-0.250.04-0.480.11-0.69a0.50.5 0 0 1 0.17-0.76zm-6.55 0a0.50.5 0 0 0-0.450.89l1.010.5A1.94 1.94 0 0 0 5 6.5C5 7.33 5.45 8 6 8s1-0.67 1-1.5c0-0.25-0.04-0.48-0.11-0.69a0.50.5 0 0 0-0.17-0.76z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEmojiAngry;

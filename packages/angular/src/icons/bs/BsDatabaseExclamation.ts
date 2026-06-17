@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-database-exclamation",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsDatabaseExclamation {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.1 6.22A5 5 0 0 0 13 5.7V7c0 0.29-0.210.65-0.75 1.01a4.5 4.5 0 0 1 1.750.25V4c0-1.01-0.87-1.75-1.9-2.22C11.02 1.29 9.57 1 8 1s-3.020.29-4.10.78C2.88 2.25 2 2.99 2 4v9c0 1.010.88 1.76 1.9 2.22C4.98 15.71 6.43 16 8 16c0.54 0 1.06-0.03 1.56-0.1a4.5 4.5 0 0 1-0.81-0.93Q8.38 15 8 15c-1.46 0-2.77-0.27-3.68-0.69C3.36 13.88 3 13.37 3 13v-1.3c0.270.20.580.380.90.53C4.98 12.71 6.43 13 8 13h0.03a4.6 4.6 0 0 1 0-1H8c-1.46 0-2.77-0.27-3.68-0.69C3.36 10.88 3 10.37 3 10V8.7c0.270.20.580.380.90.53C4.98 9.71 6.43 10 8 10q0.39 0 0.77-0.02a4.5 4.5 0 0 1 1.1-1.13C9.3 8.94 8.67 9 8 9c-1.46 0-2.77-0.27-3.68-0.69C3.36 7.88 3 7.37 3 7V5.7c0.270.20.580.380.90.53C4.98 6.71 6.43 7 8 7s3.02-0.29 4.1-0.78M3 4c0-0.370.36-0.87 1.32-1.31C5.23 2.27 6.54 2 8 2s2.770.27 3.680.69C12.64 3.13 13 3.63 13 4c0 0.37-0.360.88-1.32 1.31C10.77 5.73 9.46 6 8 6s-2.77-0.27-3.68-0.69C3.36 4.88 3 4.37 3 4"}],["path",{"d":"M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-3.5-2a0.50.5 0 0 0-0.50.5v1.5a0.50.5 0 0 0 1 0V11a0.50.5 0 0 0-0.5-0.5m0 4a0.50.5 0 1 0 0-1 0.50.5 0 0 0 0 1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsDatabaseExclamation;

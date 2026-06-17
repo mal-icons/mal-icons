@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-train-lightrail-front-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsTrainLightrailFrontFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.5 0a0.50.5 0 0 0 0 1h1v1.01c-1.520.06-3.350.39-4.590.66C1.78 2.9 1 3.92 1 5.06V13.5A2.5 2.5 0 0 0 3.5 16h9a2.5 2.5 0 0 0 2.5-2.5V5.06c0-1.14-0.77-2.15-1.91-2.39-1.24-0.26-3.06-0.59-4.59-0.65V1h1a0.50.5 0 0 0 0-1zM8 4c1.14 0 2.650.2 3.60.350.830.13 1.360.9 1.24 1.7q-0.030.24-0.070.52C12.64 7.6 12.5 8.95 12.5 10c0 0.430.020.930.06 1.460.070.930.17 1.920.27 2.680.040.340.080.630.110.85h-1.01a63 63 0 0 1-0.33-3H9.35c-0.36 0-0.7-0.14-0.96-0.4a0.350.35 0 0 0-0.25-0.1h-0.29a0.350.35 0 0 0-0.250.1 1.35 1.35 0 0 1-0.960.4H4.4a63 63 0 0 1-0.33 3H3.06c0.03-0.220.07-0.510.11-0.850.09-0.760.2-1.750.27-2.680.04-0.530.06-1.040.06-1.46 0-1.05-0.14-2.4-0.28-3.43l-0.07-0.52c-0.11-0.80.42-1.57 1.24-1.7C5.36 4.2 6.86 4 8 4m-1.35 7H4.47c0.02-0.350.03-0.690.03-1 0-0.93-0.1-2.05-0.22-3h7.43c-0.110.95-0.22 2.07-0.22 3 0 0.310.010.650.03 1H9.35a0.350.35 0 0 1-0.25-0.1 1.35 1.35 0 0 0-0.96-0.4h-0.29c-0.36 0-0.70.14-0.960.4a0.350.35 0 0 1-0.250.1m5.2-5h-7.69l-0.01-0.1a0.50.5 0 0 1 0.41-0.57C5.51 5.19 6.95 5 8 5s2.50.19 3.450.33a0.50.5 0 0 1 0.410.57zM6 13.5a0.50.5 0 1 1-1 0 0.50.5 0 0 1 1 0m0 0a0.50.5 0 1 1 1 0 0.50.5 0 0 1-1 0m4 0a0.50.5 0 1 1-1 0 0.50.5 0 0 1 1 0m0 0a0.50.5 0 1 1 1 0 0.50.5 0 0 1-1 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsTrainLightrailFrontFill;

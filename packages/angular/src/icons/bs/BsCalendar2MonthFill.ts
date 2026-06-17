@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-calendar2-month-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsCalendar2MonthFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.1 7.81 4.9 10.18H3.28l0.8-2.37zm9.07 2.3c0-0.83-0.41-1.36-1.06-1.36-0.69 0-1.10.49-1.1 1.36v0.25c0 0.850.41 1.36 1.1 1.360.67 0 1.06-0.52 1.06-1.36z"}],["path",{"d":"M3.5 0a0.50.5 0 0 1 0.50.5V1h8V0.5a0.50.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V0.5a0.50.5 0 0 1 0.5-0.5m9.95 3H2.55c-0.3 0-0.550.22-0.550.5v1c0 0.280.240.50.550.5h10.91c0.3 0 0.55-0.220.55-0.5v-1c0-0.28-0.24-0.5-0.55-0.5M2.56 12.33 3.1 10.73h1.98l0.54 1.6h0.72L4.44 7h-0.7L1.85 12.33zM9.85 8.23h-0.68v2.54c0 0.65-0.41 1.02-1 1.02-0.54 0-0.98-0.25-0.98-1.01V8.23h-0.68v2.75c0 0.940.61 1.43 1.45 1.430.66 0 1.04-0.28 1.19-0.6h0.03v0.54h0.67zm1.27 4.41h-0.69c0.090.680.63 1.2 1.67 1.20.93 0 1.75-0.53 1.75-1.58V8.23h-0.65v0.58h-0.02c-0.19-0.35-0.64-0.64-1.19-0.64-0.96 0-1.640.68-1.64 1.89v0.34c0 1.230.68 1.9 1.64 1.90.56 0 1.01-0.29 1.17-0.65h0.02v0.61c0 0.65-0.42 1.02-1.07 1.02-0.56 0-0.91-0.3-0.98-0.64"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsCalendar2MonthFill;

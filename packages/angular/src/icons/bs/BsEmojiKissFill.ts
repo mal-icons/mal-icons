@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-emoji-kiss-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEmojiKissFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M16 8a8 8 0 1 0-2.7 5.99c-0.97-0.66-1.63-1.36-1.99-2.06-0.39-0.77-0.42-1.56-0.07-2.230.5-0.97 1.73-1.47 2.76-1.050.65-0.26 1.38-0.16 1.960.19Q16 8.43 16 8M7 6.5C7 7.33 6.55 8 6 8s-1-0.67-1-1.5S5.45 5 6 5s1 0.67 1 1.5m1.51 3.65c-0.350.08-0.740.2-1.110.32a0.50.5 0 1 1-0.31-0.95c0.38-0.120.8-0.25 1.19-0.340.37-0.090.78-0.15 1.1-0.110.160.020.390.090.560.290.190.230.190.50.130.71a1.9 1.9 0 0 1-0.310.59q-0.110.16-0.280.340.160.190.280.35c0.140.20.260.40.310.60.060.210.060.48-0.130.71-0.170.2-0.40.26-0.560.28-0.320.04-0.73-0.03-1.1-0.11a15 15 0 0 1-1.19-0.340.50.5 0 1 1 0.31-0.95c0.370.120.760.24 1.110.32q0.260.060.450.08a6 6 0 0 0-0.5-0.580.50.5 0 0 1 0-0.69 5.5 5.5 0 0 0 0.5-0.58 5 5 0 0 0-0.450.08m0.77-0.09-0.010zm0 1.87000.010Zm0.16-4.68a0.50.5 0 0 1-0.87-0.49A1.93 1.93 0 0 1 10.25 5.75c0.73 0 1.360.41 1.69 1.01a0.50.5 0 1 1-0.870.490.930.93 0 0 0-0.81-0.490.930.93 0 0 0-0.810.49M14 9.83c1.11-1.14 3.880.86 0 3.42-3.88-2.57-1.11-4.56 0-3.42Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEmojiKissFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-sliders2-vertical",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSliders2Vertical {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M0 10.5a0.50.5 0 0 0 0.50.5h4a0.50.5 0 0 0 0-1H3V1.5a0.50.5 0 0 0-1 0V10H0.5a0.50.5 0 0 0-0.50.5M2.5 12a0.50.5 0 0 0-0.50.5v2a0.50.5 0 0 0 1 0v-2a0.50.5 0 0 0-0.5-0.5m3-6.5A0.50.5 0 0 0 6 6h1.5v8.5a0.50.5 0 0 0 1 0V6H10a0.50.5 0 0 0 0-1H6a0.50.5 0 0 0-0.50.5M8 1a0.50.5 0 0 0-0.50.5v2a0.50.5 0 0 0 1 0v-2A0.50.5 0 0 0 8 1m3 9.5a0.50.5 0 0 0 0.50.5h4a0.50.5 0 0 0 0-1H14V1.5a0.50.5 0 0 0-1 0V10h-1.5a0.50.5 0 0 0-0.50.5m2.5 1.5a0.50.5 0 0 0-0.50.5v2a0.50.5 0 0 0 1 0v-2a0.50.5 0 0 0-0.5-0.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSliders2Vertical;

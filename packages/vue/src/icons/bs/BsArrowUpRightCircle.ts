@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsArrowUpRightCircle = createIcon("0 0 16 16", [["path",{"fill-rule":"evenodd","d":"M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.85 10.8a0.50.5 0 1 1-0.71-0.71L9.24 6H6.48a0.50.5 0 1 1 0-1h3.98a0.50.5 0 0 1 0.50.5v3.98a0.50.5 0 1 1-1 0V6.71z"}]]);
+
+export default BsArrowUpRightCircle;

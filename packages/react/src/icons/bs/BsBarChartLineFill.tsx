@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsBarChartLineFill = createIcon("0 0 16 16", [["path",{"d":"M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h0.5a0.50.5 0 0 1 0 1H0.5a0.50.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z"}]]);
+
+export default BsBarChartLineFill;

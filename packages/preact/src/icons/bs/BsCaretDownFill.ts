@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsCaretDownFill = createIcon("0 0 16 16", [["path",{"d":"M7.25 11.14 2.45 5.66C1.89 5.01 2.35 4 3.2 4h9.59a1 1 0 0 1 0.75 1.66l-4.8 5.48a1 1 0 0 1-1.51 0z"}]]);
+
+export default BsCaretDownFill;

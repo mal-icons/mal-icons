@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-hourglass-bottom",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsHourglassBottom {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 1.5a0.50.5 0 0 1 0.5-0.5h11a0.50.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.56 4.06c-0.290.14-0.440.38-0.440.59v0.7c0 0.210.150.450.440.59A4.5 4.5 0 0 1 12.5 13v1h1a0.50.5 0 0 1 0 1h-11a0.50.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.56-4.06c0.29-0.140.44-0.380.44-0.59v-0.7c0-0.21-0.15-0.45-0.44-0.59A4.5 4.5 0 0 1 3.5 3V2h-1a0.50.5 0 0 1-0.5-0.5m2.50.5v1a3.5 3.5 0 0 0 1.99 3.16c0.530.26 1.010.79 1.01 1.49v0.7s0.180.150.50.150.5-0.150.5-0.15v-0.7c0-0.70.48-1.24 1.01-1.49A3.5 3.5 0 0 0 11.5 3V2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsHourglassBottom;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsEscape = createIcon("0 0 16 16", [["path",{"d":"M8.54 1.02a0.50.5 0 1 0-0.081 6 6 0 1 1-6.44 6.440.50.5 0 0 0-10.08A7 7 0 1 0 8.54 1.02"}],["path",{"d":"M7.1 7.83a0.50.5 0 0 0 0.71-0.71L2.71 2.03h2.77a0.50.5 0 1 0 0-1H1.5a0.50.5 0 0 0-0.50.5V5.5a0.50.5 0 0 0 1 0V2.73z"}]]);
+
+export default BsEscape;

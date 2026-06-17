@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsCaretRight = createIcon("0 0 16 16", [["path",{"d":"M6 12.8V3.2L11.48 8zm0.660.75 5.48-4.8a1 1 0 0 0 0-1.51L6.66 2.45C6.01 1.89 5 2.35 5 3.2v9.59a1 1 0 0 0 1.660.75"}]]);
+
+export default BsCaretRight;

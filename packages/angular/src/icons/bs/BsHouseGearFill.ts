@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-house-gear-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsHouseGearFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.29 1.5a1 1 0 0 1 1.41 0L11 3.79V2.5a0.50.5 0 0 1 0.5-0.5h1a0.50.5 0 0 1 0.50.5v3.29l2.35 2.35a0.50.5 0 0 1-0.710.71L8 2.21 1.35 8.85a0.50.5 0 1 1-0.71-0.71z"}],["path",{"d":"M11.07 9.05a1.5 1.5 0 0 0-1.740.26l-0.020.02a1.5 1.5 0 0 0-0.26 1.74 1.5 1.5 0 0 0 0 2.86 1.5 1.5 0 0 0-0.12 1.07H3.5A1.5 1.5 0 0 1 2 13.5V9.29l6-6 4.72 4.72a1.5 1.5 0 0 0-1.65 1.03"}],["path",{"d":"m13.16 9.61-0.04-0.15c-0.18-0.61-1.05-0.61-1.23 0l-0.040.15a0.640.64 0 0 1-0.920.38l-0.14-0.07c-0.56-0.31-1.170.31-0.870.87l0.080.14a0.640.64 0 0 1-0.380.92l-0.150.05c-0.610.18-0.61 1.05 0 1.23l0.150.04a0.640.64 0 0 1 0.380.92l-0.070.14c-0.310.560.31 1.180.870.87l0.14-0.07a0.640.64 0 0 1 0.920.38l0.050.15c0.180.61 1.050.61 1.23 0l0.04-0.15a0.640.64 0 0 1 0.92-0.38l0.140.07c0.560.31 1.18-0.310.87-0.87l-0.07-0.14a0.640.64 0 0 1 0.38-0.92l0.15-0.04c0.61-0.180.61-1.05 0-1.23l-0.15-0.04a0.640.64 0 0 1-0.38-0.92l0.07-0.14c0.31-0.56-0.31-1.17-0.87-0.87l-0.140.08a0.640.64 0 0 1-0.92-0.38ZM12.5 14a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsHouseGearFill;

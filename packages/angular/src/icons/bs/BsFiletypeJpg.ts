@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-filetype-jpg",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFiletypeJpg {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-4.34 8.13q0.110.230.140.49h-0.78a0.80.8 0 0 0-0.1-0.250.70.7 0 0 0-0.17-0.190.70.7 0 0 0-0.24-0.13 1 1 0 0 0-0.3-0.04q-0.43 0-0.660.3-0.230.3-0.230.85v0.5q0 0.350.10.62a0.90.9 0 0 0 0.30.410.870.87 0 0 0 0.520.15 1 1 0 0 0 0.46-0.10.670.67 0 0 0 0.27-0.26q0.09-0.160.09-0.36v-0.25H8.24v-0.59h1.58v0.8q0 0.29-0.10.55a1.3 1.3 0 0 1-0.290.46 1.4 1.4 0 0 1-0.490.31q-0.30.11-0.70.11a2 2 0 0 1-0.75-0.13 1.45 1.45 0 0 1-0.53-0.38 1.6 1.6 0 0 1-0.32-0.58 2.5 2.5 0 0 1-0.1-0.74v-0.51q0-0.540.2-0.950.2-0.410.58-0.630.38-0.230.93-0.230.36 0 0.640.10.280.10.480.28t0.310.41ZM0 14.79q0 0.250.080.470.080.220.240.390.170.170.410.270.250.090.570.090.63 0 0.98-0.340.36-0.350.36-1v-2.72h-0.79v2.75q0 0.3-0.140.47t-0.420.16a0.50.5 0 0 1-0.45-0.250.60.6 0 0 1-0.07-0.27H0Zm4.92-2.86H3.32v4h0.79v-1.34h0.8q0.43 0 0.73-0.170.31-0.180.46-0.470.16-0.30.16-0.68 0-0.37-0.16-0.68a1.2 1.2 0 0 0-0.46-0.48q-0.3-0.18-0.73-0.18Zm0.55 1.33a0.80.8 0 0 1-0.080.380.570.57 0 0 1-0.240.240.80.8 0 0 1-0.370.08H4.11v-1.41h0.66q0.33 0 0.510.180.190.180.190.52Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFiletypeJpg;

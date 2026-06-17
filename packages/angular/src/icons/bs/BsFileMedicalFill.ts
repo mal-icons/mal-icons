@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-file-medical-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFileMedicalFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2M8.5 4.5v0.63l0.55-0.32a0.50.5 0 1 1 0.50.87L9 6l0.550.32a0.50.5 0 1 1-0.50.87L8.5 6.87V7.5a0.50.5 0 0 1-1 0v-0.63l-0.550.32a0.50.5 0 1 1-0.5-0.87L7 6l-0.55-0.32a0.50.5 0 0 1 0.5-0.87l0.550.32V4.5a0.50.5 0 1 1 1 0M5.5 9h5a0.50.5 0 0 1 0 1h-5a0.50.5 0 0 1 0-1m0 2h5a0.50.5 0 0 1 0 1h-5a0.50.5 0 0 1 0-1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFileMedicalFill;

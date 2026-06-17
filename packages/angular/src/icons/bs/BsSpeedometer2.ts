@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-speedometer2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSpeedometer2 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 4a0.50.5 0 0 1 0.50.5V6a0.50.5 0 0 1-1 0V4.5A0.50.5 0 0 1 8 4M3.73 5.73a0.50.5 0 0 1 0.71 0l0.920.91a0.50.5 0 1 1-0.710.71l-0.91-0.91a0.50.5 0 0 1 0-0.71M2 10a0.50.5 0 0 1 0.5-0.5h1.59a0.50.5 0 0 1 0 1H2.5A0.50.5 0 0 1 2 10m9.5 0a0.50.5 0 0 1 0.5-0.5h1.5a0.50.5 0 0 1 0 1H12a0.50.5 0 0 1-0.5-0.5m0.75-4.25a0.390.39 0 0 0-0.53-0.02L7.55 9.31a0.910.91 0 1 0 1.3 1.26l3.43-4.3a0.390.39 0 0 0-0.03-0.52z"}],["path",{"fill-rule":"evenodd","d":"M0 10a8 8 0 1 1 15.55 2.66c-0.44 1.25-1.84 1.6-2.93 1.25C11.31 13.49 9.48 13 8 13c-1.47 0-3.310.49-4.610.91-1.090.35-2.490-2.93-1.25A8 8 0 0 1 0 10m8-7a7 7 0 0 0-6.6 9.33c0.20.570.920.88 1.680.63C4.4 12.53 6.36 12 8 12s3.60.53 4.920.96c0.760.25 1.48-0.06 1.68-0.63A7 7 0 0 0 8 3"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSpeedometer2;

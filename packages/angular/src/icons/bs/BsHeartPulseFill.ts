@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-heart-pulse-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsHeartPulseFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.48 9C2.7 10.84 4.78 12.87 8 15c3.22-2.13 5.3-4.16 6.53-6H12a0.50.5 0 0 1-0.46-0.31l-1.46-3.64-1.6 5.59a0.50.5 0 0 1-0.940.05L5.89 6.57l-1.47 2.21A0.50.5 0 0 1 4 9z"}],["path",{"d":"M0.88 8C-2.43 1.68 4.41-2 7.82 1.14q0.090.080.180.17a3 3 0 0 1 0.18-0.17C11.59-2 18.43 1.68 15.12 8h-2.78l-1.87-4.69a0.50.5 0 0 0-0.940.05L7.92 8.96 6.46 5.31a0.50.5 0 0 0-0.88-0.09L3.73 8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsHeartPulseFill;

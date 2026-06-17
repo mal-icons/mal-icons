@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-sim-slash-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSimSlashFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m11.650.440.90.9-1.7 1.7A1.5 1.5 0 0 0 10.5 3h-5A1.5 1.5 0 0 0 4 4.5v5.38l-2 2V1.5A1.5 1.5 0 0 1 3.5 0h7.09a1.5 1.5 0 0 1 1.060.44M8.5 5.38 9.88 4H8.5zM5 8.88 6.88 7H5zm6-1.76L9.12 9H11zm-3.5 3.5L6.12 12H7.5zM5.5 13q-0.17 0-0.34-0.04L2.5 15.62c0.270.240.620.3810.38h9a1.5 1.5 0 0 0 1.5-1.5V4.12l-2 2V11.5a1.5 1.5 0 0 1-1.5 1.5zM5 4.5a0.50.5 0 0 1 0.5-0.5h2v2H5zM8.5 10H11v1.5a0.50.5 0 0 1-0.50.5h-2zm6.35-8.15a0.50.5 0 0 0-0.71-0.71l-13 13a0.50.5 0 0 0 0.710.71z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSimSlashFill;

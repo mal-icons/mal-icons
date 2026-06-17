@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-emoji-astonished-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEmojiAstonishedFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.88-3.98a2.1 2.1 0 0 1 0.530.330.50.5 0 0 0 0.71-0.71h0v0a2 2 0 0 0-0.24-0.2 3 3 0 0 0-0.61-0.34 3 3 0 0 0-2.17-0.080.50.5 0 1 0 0.320.95 2 2 0 0 1 1.460.05m-4.77-0.05a0.50.5 0 0 0 0.32-0.95 3 3 0 0 0-2.170.08 3.1 3.1 0 0 0-0.770.48q-0.040.03-0.070.06l00a0.50.5 0 1 0 0.730.69 2 2 0 0 1 0.51-0.31 2 2 0 0 1 1.46-0.05M7 6.5C7 5.67 6.55 5 6 5s-1 0.67-1 1.5S5.45 8 6 8s1-0.67 1-1.5m4 0c0-0.83-0.45-1.5-1-1.5s-1 0.67-1 1.5S9.45 8 10 8s1-0.67 1-1.5m-5.25 4.75c-0.380.480.08 1.060.690.98q1.56-0.2 3.12 0c0.610.08 1.07-0.50.69-0.98C9.75 10.62 9 10 8 10s-1.750.62-2.25 1.25"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEmojiAstonishedFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-google",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsGoogle {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.55 6.56a9.4 9.4 0 0 1 0.14 1.63c0 2.43-0.87 4.49-2.38 5.89h0C11.98 15.29 10.16 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.35 2.08l-2.28 2.28A4.35 4.35 0 0 0 8 3.17c-2.09 0-3.86 1.41-4.49 3.3a4.8 4.8 0 0 0 0 3.06h0c0.64 1.89 2.4 3.3 4.49 3.3 1.08 0 2-0.28 2.72-0.76h0a3.7 3.7 0 0 0 1.6-2.43H8v-3.08z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsGoogle;

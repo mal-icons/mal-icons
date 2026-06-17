@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-type-strikethrough",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsTypeStrikethrough {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.33 5.69c0 0.310.080.580.270.81H5.17a2.8 2.8 0 0 1-0.1-0.76c0-1.63 1.44-2.77 3.48-2.77 1.97 0 3.39 1.18 3.45 2.85h-1.23c-0.11-1.08-0.96-1.74-2.25-1.74-1.23 0-2.180.6-2.18 1.61zm2.19 7.48c-2.15 0-3.59-1.11-3.7-2.81h1.23c0.14 1.06 1.13 1.7 2.54 1.7 1.34 0 2.31-0.7 2.31-1.67 0-0.83-0.55-1.37-1.91-1.67L8.05 8.5H1v-1h14v1h-3.5c0.470.440.680.990.68 1.7 0 1.83-1.44 2.97-3.64 2.97"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsTypeStrikethrough;

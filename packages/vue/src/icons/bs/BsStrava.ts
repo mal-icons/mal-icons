@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsStrava = createIcon("0 0 16 16", [["path",{"d":"M6.73 0 2 9.13h2.79L6.73 5.5l1.93 3.63h2.77zm4.69 9.13-1.37 2.76L8.66 9.13H6.55L10.05 16l3.48-6.87z"}]]);
+
+export default BsStrava;

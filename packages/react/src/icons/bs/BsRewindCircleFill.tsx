@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsRewindCircleFill = createIcon("0 0 16 16", [["path",{"d":"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M7.73 5.06A0.50.5 0 0 1 8 5.5v1.89l3.21-2.29A0.50.5 0 0 1 12 5.5v5a0.50.5 0 0 1-0.790.41L8 8.61V10.5a0.50.5 0 0 1-0.790.41l-3.5-2.5a0.50.5 0 0 1 0-0.81l3.5-2.5a0.50.5 0 0 1 0.52-0.04"}]]);
+
+export default BsRewindCircleFill;

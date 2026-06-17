@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-6-circle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Bs_6Circle {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.21 3.86c1.61 0 2.520.99 2.57 1.9H9.49c-0.1-0.36-0.51-0.81-1.31-0.81-1.08 0-1.82 1.09-1.8 3.04h0.08c0.23-0.550.86-1.15 1.98-1.15 1.25 0 2.510.88 2.51 2.56 0 1.77-1.22 2.78-2.85 2.78-0.93 0-1.84-0.33-2.41-1.25-0.37-0.6-0.6-1.46-0.6-2.64 0-3.01 1.25-4.41 3.12-4.41Zm-0.1 4.01c-0.92 0-1.560.65-1.56 1.58 0 1.030.7 1.64 1.56 1.640.87 0 1.55-0.53 1.55-1.63 0-1.06-0.74-1.58-1.55-1.58"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Bs_6Circle;

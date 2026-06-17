@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsUsbPlugFill = createIcon("0 0 16 16", [["path",{"d":"M6 0.5a0.50.5 0 0 1 0.5-0.5h4a0.50.5 0 0 1 0.50.5v4H6zM7 1v1h1V1zm2 0v1h1V1zM5.5 5a0.50.5 0 0 0-0.50.5v4.89a2 2 0 0 0 0.34 1.11l0.83 1.25c0.540.820.83 1.770.83 2.75 0 0.280.220.50.50.5h2.01a0.50.5 0 0 0 0.5-0.5c0-0.980.29-1.940.83-2.75l0.83-1.25a2 2 0 0 0 0.34-1.11V5.5a0.50.5 0 0 0-0.5-0.5z"}]]);
+
+export default BsUsbPlugFill;

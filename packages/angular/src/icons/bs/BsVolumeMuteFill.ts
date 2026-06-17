@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-volume-mute-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsVolumeMuteFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.72 3.55A0.50.5 0 0 1 7 4v8a0.50.5 0 0 1-0.810.39L3.83 10.5H1.5A0.50.5 0 0 1 1 10V6a0.50.5 0 0 1 0.5-0.5h2.33l2.36-1.89a0.50.5 0 0 1 0.53-0.06m7.14 2.1a0.50.5 0 0 1 0 0.71L12.21 8l1.65 1.65a0.50.5 0 0 1-0.710.71L11.5 8.71l-1.65 1.65a0.50.5 0 0 1-0.71-0.71L10.79 8 9.15 6.35a0.50.5 0 1 1 0.71-0.71L11.5 7.29l1.65-1.65a0.50.5 0 0 1 0.71 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsVolumeMuteFill;

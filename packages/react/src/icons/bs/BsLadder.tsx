@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsLadder = createIcon("0 0 16 16", [["path",{"d":"M4.5 1a0.50.5 0 0 1 0.50.5V2h6v-0.5a0.50.5 0 0 1 1 0v14a0.50.5 0 0 1-1 0V15H5v0.5a0.50.5 0 0 1-1 0v-14a0.50.5 0 0 1 0.5-0.5M5 14h6v-2H5zm0-3h6V9H5zm0-3h6V6H5zm0-3h6V3H5z"}]]);
+
+export default BsLadder;

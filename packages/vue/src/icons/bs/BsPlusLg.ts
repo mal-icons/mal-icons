@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsPlusLg = createIcon("0 0 16 16", [["path",{"fill-rule":"evenodd","d":"M8 2a0.50.5 0 0 1 0.50.5v5h5a0.50.5 0 0 1 0 1h-5v5a0.50.5 0 0 1-1 0v-5h-5a0.50.5 0 0 1 0-1h5v-5A0.50.5 0 0 1 8 2"}]]);
+
+export default BsPlusLg;

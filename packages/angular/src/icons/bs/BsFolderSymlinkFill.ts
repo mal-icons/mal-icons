@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-folder-symlink-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFolderSymlinkFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.81 3H9.83a2 2 0 0 1-1.41-0.59l-0.83-0.83A2 2 0 0 0 6.17 1H2.5a2 2 0 0 0-2 2l0.040.87a2 2 0 0 0-0.34 1.31l0.64 7A2 2 0 0 0 2.83 14h10.35a2 2 0 0 0 1.99-1.82l0.64-7A2 2 0 0 0 13.81 3M2.19 3q-0.360-0.680.12L1.5 2.98a1 1 0 0 1 1-0.98h3.67a1 1 0 0 1 0.710.29L7.59 3zm9.61 5.27-3.18 1.97c-0.270.17-0.62-0.04-0.62-0.37V9.1s-2.57-0.3-4 2.4c0.57-4.8 3.14-4.8 4-4.8v-0.77c0-0.340.35-0.540.62-0.37l3.18 1.97c0.270.170.270.58 0 0.74"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFolderSymlinkFill;

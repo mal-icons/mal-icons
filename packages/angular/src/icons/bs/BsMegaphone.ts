@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-megaphone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsMegaphone {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-0.21c-2.16-1.24-4.49-1.84-6.91-2.08l0.41 2.71A1 1 0 0 1 5.51 15.1h-0.55a1 1 0 0 1-0.92-0.6l-1.85-3.49-0.20A2.01 2.01 0 0 1 0 9V7a2.02 2.02 0 0 1 1.99-2.01 75 75 0 0 0 2.48-0.07c3.04-0.15 6.15-0.85 8.53-2.2zm1 0v11a0.50.5 0 0 0 1 0v-11a0.50.5 0 0 0-1 0m-1 1.35c-2.34 1.21-5.21 1.84-8 2.03v4.23q0.270.020.540.04c2.570.19 5.090.74 7.46 1.99zm-9 6.22v-4.13a95 95 0 0 1-1.990.05A1.02 1.02 0 0 0 1 7v2c0 0.550.45 1 1.01 1.01A61 61 0 0 1 4 10.07m-0.660.98 1.61 3.040.010.02h0.55l0-0.01-0.44-2.97a68 68 0 0 0-1.72-0.08z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsMegaphone;
