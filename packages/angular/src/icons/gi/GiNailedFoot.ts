@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-nailed-foot",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiNailedFoot {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M296.86 16.45c17.48 71.11 24.22 245.1-34.8 319.09l11.26 19.450.130.28c1.7 3.44 2.23 7 1.98 10.47l0.15-0.08-15.76 95.8-19.42-52.46v81.33h7.07c55.25-17.22 98.09-24.15 174.5-3.68 55.49 14.87 95.82-25.91 67.13-107.34-39.19-111.24-35.71-258.27 1.85-362.86H296.86zm-128.21 146.95c-13.20.01-30.01 4.5-46.2 13.81-16.19 9.3-28.5 21.53-35.09 32.88-6.59 11.35-7.23 20.67-3.63 26.89 3.61 6.22 12.11 10.36 25.3 10.36 13.20 30.01-4.5 46.2-13.8 16.19-9.3 28.5-21.53 35.09-32.88 6.59-11.35 7.24-20.67 3.63-26.89-3.61-6.22-12.11-10.36-25.3-10.36zm14.63 73.37c-5.64 4.68-11.91 9.04-18.74 12.97-5.56 3.2-11.19 5.92-16.81 8.18l73.6 126.650.130.25c0.69 1.370.93 1.63 4.81 1.4 3.88-0.23 9.92-2.24 15.39-5.45 5.47-3.21 10.42-7.62 12.99-11.31 2.54-3.64 2.42-5.13 2.07-5.86L183.28 236.77zm12.2 140.51c-5.56 3.4-11.23 6.89-16.99 10.53-33.78 21.3-68.21 38.48-93.94 45.15-64.52-14.67-91.22 57.35-28.68 57.35l0.010.02h165.84v-84.83l-14.1 35.77-4.73-51.25-7.4-12.73z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiNailedFoot;

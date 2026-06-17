@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-skull-staff",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSkullStaff {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M294.52 25.71C180.13 26.86-4.98 170.06 93.08 346.96l37.77-37.77 3.33-3.33C83.77 134.28 237.56 38.98 324.77 29.29c-8.48-2.31-17.75-3.48-27.57-3.58a136.22 136.22 0 0 0-2.69 0zm9.37 68.08c-26.8-0.23-53.08 9.47-72.89 29.27-22.42 22.48-24.68 64.16-4.93 83.91l-69.1 49.36 98.71 98.71 49.36-69.1c19.74 19.74 61.43 17.53 83.91-4.93C429.82 240.12 427.61 171.61 384 128c-22.49-22.49-51.59-33.97-80.12-34.21zm-42.74 39.77c12.120.02 26.3 10.85 31.55 21.59 7.37 15.07 3.1 38.72-9.87 49.36-10.18 8.34-30.86 9.94-39.48 0-15.24-17.58-10.74-58.3 9.87-69.1 2.44-1.28 5.13-1.85 7.93-1.85zm221.58 53.67c-9.69 87.21-104.99 241-276.57 190.59l-41.1 41.1c193.63 107.34 346.88-124.59 317.67-231.69zm-143.56 28.49c6.33-0.1 12.53 1.06 17.71 3.6 13.22 6.47 26.57 26.45 19.74 39.48-10.8 20.61-51.52 25.12-69.1 9.87-9.94-8.62-8.34-29.31 0-39.48 6.98-8.51 19.56-13.28 31.65-13.47zm-43.99 1.13l-19.74 39.49-19.74-19.74zm-85.33 13.38l12.73 12.73-3.51 3.51 16.89 16.89 3.51-3.51 12.73 12.73-3.51 3.51 16.89 16.89 3.51-3.51 12.73 12.73-29.61 29.61-12.73-12.73 13.38-13.38-16.89-16.89-13.38 13.38-12.73-12.73 13.38-13.38-16.89-16.89-13.38 13.38-12.73-12.73zm-42.99 68.45l-16.89 16.89 46.5 46.5 16.89-16.89zm-29.61 29.61L18 447.5v33.77l136.1-136.1zm29.61 29.61L30.73 494H64.5l119.22-119.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSkullStaff;

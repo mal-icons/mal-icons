@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-archery-target",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiArcheryTarget {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M226.06 24.22l-9.78 32.62c12.99-2.65 26.42-4.03 40.19-4.03 10.48 0 20.770.82 30.81 2.38l-9.4-30.97h-51.81zm30.41 48.84c-99.63 0-180.19 80.53-180.19 180.16 0 99.62 80.56 180.16 180.19 180.16 99.62 0 180.16-80.53 180.16-180.16 0-99.63-80.53-180.16-180.16-180.16zm0 41.69c76.48 0 138.47 61.99 138.47 138.47 0 76.48-61.98 138.5-138.47 138.5-76.48 0-138.5-62.02-138.5-138.5 0-76.48 62.02-138.47 138.5-138.47zm-0.03 38.94c-54.96 0-99.53 44.54-99.53 99.5s44.57 99.5 99.53 99.5 99.5-44.54 99.5-99.5-44.54-99.5-99.5-99.5zm0.03 39.69c33.05 0 59.84 26.79 59.84 59.84 0 33.05-26.79 59.84-59.84 59.84-33.05 0-59.84-26.79-59.84-59.84 0-33.05 26.79-59.84 59.84-59.84zm0 30.91c-15.99 0-28.97 12.95-28.97 28.94 0 15.99 12.98 28.97 28.97 28.97 15.99 0 28.94-12.98 28.94-28.97 0-15.99-12.94-28.94-28.94-28.94zM114.91 395l-27.84 92.88h46.88l20.28-62.31c-14.35-8.54-27.56-18.83-39.31-30.56zm277.19 5.69c-11.98 11.03-25.32 20.6-39.72 28.47l19.25 58.72h46.91l-26.44-87.19zm-165.03 50.78v36.41h52.09v-35.53c-7.450.84-15.01 1.28-22.69 1.28-9.99 0-19.81-0.74-29.41-2.16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiArcheryTarget;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-dead-head",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDeadHead {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 19.31c-44.4 0-85.1 25.43-115.25 68.12C110.6 130.13 91.59 189.85 91.59 256c0 66.15 19.01 125.87 49.16 168.56 30.15 42.69 70.85 68.13 115.25 68.13 44.4 0 85.07-25.43 115.22-68.12 30.15-42.69 49.19-102.41 49.19-168.56 0-66.15-19.04-125.87-49.19-168.56-30.15-42.69-70.81-68.12-115.21-68.12H256zM204.23 213.88l14.99 9.97-20.07 30.19 30.19 20.07-9.96 14.99-30.19-20.07-20.07 30.19-14.99-9.97 20.07-30.19L144 238.99l9.97-14.99 30.19 20.07 20.07-30.19zm103.54 0l20.07 30.19L358.03 224 368 238.99l-30.19 20.07 20.07 30.19-14.99 9.97-20.07-30.19-30.19 20.07-9.97-14.99 30.19-20.07-20.07-30.19 14.99-9.97zM256 367c26 0 52.24 8.52 70.36 26.64l-12.73 12.73c-3.28-3.28-7.01-6.2-11.07-8.75-0.06 1.55-0.14 3.13-0.27 4.74-0.46 5.69-1.33 11.65-3.57 17.26-2.24 5.6-6.65 11.88-14.23 13.49-8.5 1.81-15.98-2.58-21.13-7.59-5.15-5.01-9.12-11.24-12.49-17.42-4.78-8.75-8.21-17.49-9.83-21.9-16.58 2.6-31.98 9.48-42.69 20.18l-12.73-12.73C203.76 375.52 230 367 256 367zm3.95 18.08c1.67 4.1 3.97 9.31 6.74 14.37 2.89 5.29 6.3 10.28 9.25 13.15 2.8 2.72 4.11 2.98 4.73 2.90.06-0.070.54-0.52 1.36-2.56 1.1-2.75 1.97-7.35 2.34-12.030.33-4.110.34-8.190.26-11.52-7.83-2.49-16.19-3.95-24.67-4.3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDeadHead;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-barbed-star",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBarbedStar {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M253.35 19.62l-52.18 115.48 27.20-24.26 74.12-65.640.16 6.18-19.02L18.69 204.29l93.72 85.32 7.63-23.48 53.02 38.71-21.05 65.28-15.73-11.43-25.65 124.1 110.1-62.74-21.95-15.94 55.58-40.21 60.47 43.75-17.08 12.41 110.1 62.75-25.65-124.1-23.64 17.17-22.9-71.02 53.02-38.71 7.63 23.48 93.72-85.32-125.97-13.93 6.18 19.02-65.64-0.15-24.26-74.12 25.210-52.2-115.48zm-5.32 115.48h12.65l30.37 92.75 85.250.22 6.29 19.35-68.85 50.29 28.91 89.71-11.94 8.67-76.36-55.23-71.47 51.7-14.98-10.88 27.07-83.97-68.86-50.29 6.29-19.35 85.26-0.22 30.38-92.75zm6.34 41.76l-13.69 41.81c4.38-1.02 8.93-1.57 13.61-1.57 4.74 0 9.350.57 13.78 1.62l-13.7-41.85zm-0.08 58.93c-23.1 0-41.62 18.52-41.62 41.62 0 23.1 18.52 41.62 41.62 41.62 23.1 0 41.62-18.52 41.62-41.62s-18.52-41.62-41.62-41.62zm-51.52 10.34l-43.880.1 35.34 25.79c0.84-9.41 3.85-18.21 8.54-25.9zm103.03 0c4.71 7.71 7.72 16.56 8.55 26.01l35.48-25.9-44.03-0.1zm-5.89 70.61c-5.97 6.91-13.46 12.47-21.96 16.12l35.41 25.61-13.45-41.73zm-91.140.13l-13.41 41.6 35.35-25.56c-8.48-3.63-15.97-9.15-21.94-16.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBarbedStar;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-honeycomb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHoneycomb {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M451.47 49.25l-70.220.13-5.47-0.03L373.06 54l-34.34 58.88-58.880.13-31.19-53.37-2.62-4.72-5.47-0.06-70.220.12-5.5-0.03-2.69 4.66-34 58.31-65.560.13-5.47-0.03-2.72 4.66-35.09 60.19-2.69 4.66 2.78 4.69 31.13 53.28-33.75 57.94-2.72 4.66 2.78 4.69 35.13 60.09 2.59 4.75 5.50.03 67.81-0.12 31.03 53.03 2.6 4.75 5.50.03 67.59-0.12 31.19 53.38 2.63 4.72 5.470.06 70.22-0.12 5.310.09 2.72-4.66 34.16-58.37 65.56-0.12 5.310.09 2.69-4.66 35.28-60.25 2.69-4.66-2.78-4.69-35.13-60.09-2.59-4.72-5.5-0.06-67.590.12-27.19-46.5 32.94-56.34 61.53-0.12 5.310.1 2.69-4.66 35.25-60.25 2.72-4.66-2.78-4.69-35.12-60.09-2.59-4.72-5.5-0.06zm-5.34 18.66l29.5 51.09-29.53 50.69-59.470.09L357 118.88l29.66-50.91 59.47-0.06zM127.47 136.56l29.5 51.09-29.53 50.69-59.470.09-29.62-50.91L68 136.63l59.47-0.06zm106.91 58l28.53 49.5-30.37 52.13-57.780.09-29.5-50.72 29.66-50.91 59.47-0.09zm105.31 57.34l29.38 50.94-29.53 50.72-59.470.06-28.72-49.34L281.91 252l57.78-0.09zm106.78 57.88l29.5 51.1-29.53 50.69-59.470.06-29.62-50.87L387 309.84l59.47-0.06zm-214.53 5.19l29.41 50.97-29.53 50.69-59.470.06-29.62-50.91 29.56-50.72 59.66-0.09z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHoneycomb;

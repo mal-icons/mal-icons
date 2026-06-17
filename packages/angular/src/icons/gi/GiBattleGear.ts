@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-battle-gear",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBattleGear {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M262.41 17.19c-27.22 8.82-54.02 28.01-72.37 55.53 17.54 47.9 17.54 57.26 0 105.16 19.92 15.46 40.3 24.76 60.78 27.47-2.06-25.56-3.63-51.13 1.13-76.69-13.62-1.48-23.37-5.99-37-13.87V82.56c35.87 19.1 61.84 18.78 98.81 0v32.22c-13.36 6.5-21.89 11.16-35.25 13.22 3.61 25.57 3.48 51.15 1.38 76.72 18.64-3.26 37.24-12.11 55.5-26.84-14.35-47.9-14.35-57.26 0-105.16-16.98-28.01-47.45-46.63-72.97-55.53zm-129.59 8.22c-25.91 110.41-27.35 215.33-27.4 330.92-18.84-1.54-37.58-5.12-56.03-11.12v28.55h69.07c8.72 35.03 6.47 70.05-1.04 105.08h28.13c-7.19-35.03-8.24-70.05-0.87-105.08h68.9v-28.55c-18.49 4.94-37.26 8.55-56.1 10.460.08-114.94 2.5-223.07-24.67-330.26zm89.47 202.38c0 117.27 25.52 233.34 120.16 257.97C446.62 464.72 462.72 345.37 462.72 227.78H222.28z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBattleGear;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-egg-defense",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiEggDefense {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M187.53 19.81c-7.490.11-15.64 1.3-24.34 3.66C107.48 38.57 50.07 95.98 34.97 151.69c-15.1 55.71 17.82 88.63 73.53 73.53C164.21 210.12 221.62 152.71 236.72 97c12.74-47-8.71-77.79-49.19-77.19zm106.060.25c17.37 69.21-3.74 149.31-61.81 207.38-57.89 57.89-137.62 78.9-206.69 61.81 75.07 36.3 167.67 23.74 229.94-38.53 62.39-62.39 75.13-155.5 38.56-230.66zm75.78 17.41c15.67 62.43 5.62 132.14-29.4 192.81l46.94 46.66-66-17.87c-5.57 7.41-11.57 14.61-17.97 21.59l33.38 57.44-57.87-33.62c-4.86 4.2-9.85 8.19-14.91 12l19.13 70.56-50-50.28C172.69 370.7 104.12 380.33 42.53 365.09c58.39 28.23 125.51 32.17 186.13 11.56l110.25 110.88-35.16-129.62 117.69 68.38-74.12-127.56 141.94 38.47L379.63 228.22c22.28-61.9 18.83-130.98-10.25-190.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiEggDefense;

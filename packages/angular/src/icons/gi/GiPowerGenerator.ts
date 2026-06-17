@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-power-generator",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPowerGenerator {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M239.28 27.16l-29.61 59.23-12.41-37.23L153 71.28v20.13l33.74-16.87 19.59 58.77 34.39-68.77 48 80 35.31-70.61L359 91.41V71.28l-43.02-21.51-28.69 57.38zM89 70.85v46h46v-46zm288 0v46h46v-46zm-304 64v302h94v-112h178v112h94v-302h-79.97l-32 128H184.97l-32-128zm101.03 10l4.5 18h154.95l4.5-18zm8.5 34l4.5 18h137.95l4.5-18zm208.47 27c13.7 0 25 11.3 25 25s-11.3 25-25 25-25-11.3-25-25 11.3-25 25-25zm-336 0.82l-30 20v146.18h30zm136.03 6.18l4.5 18h120.95l4.5-18zm199.97 57c13.7 0 25 11.3 25 25s-11.3 25-25 25-25-11.3-25-25 11.3-25 25-25zm66 57v46h30v-46zm-66 7c13.7 0 25 11.3 25 25s-11.3 25-25 25-25-11.3-25-25 11.3-25 25-25zm-206 9v46h17.44L224 345.72l34.47 68.93 9.8-9.81H327v-62zm39 43.13l-10.44 20.87H185v46h142v-30h-51.27l-22.19 22.19zm233 4.87v46h30v-46zm-390 64l-40 30h108v-30zm310 0v30h108l-40-30z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPowerGenerator;

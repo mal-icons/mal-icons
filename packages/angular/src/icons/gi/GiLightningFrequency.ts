@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-lightning-frequency",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLightningFrequency {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M33.13 19.41L135.5 128.22l81-23.16 18.72-5.34-7.56 17.94-46.12 109.78 134.28-70 26.16-13.65L328.44 170 256.5 309.25l91.25-57.12 22.97-14.37-9.22 25.47-34.62 95.62 71-36.37 21.19-10.84L410.91 334l-33.94 93.06 45.12-6.69 4.53-0.66 3.31 3.16 64.31 61.47-30.5-80.5 23.31-46.91-72.5 39.53 51.06-141.16-91.19 47.47 72.34-142.81-128.22 82.81L421.88 70.06 239.03 168.69l30.44-99.56-103.84 25.25-132.5-74.97zM18.16 30.78l77.88 108.25-31.12 75.53 94.13-46.78-98.9 166.81 190.25-99.66-101.03 185.41 140.25-79.06-46.94 102.22 106.5-53-45.65 92.28 86.5-14.47 93.47 31.56-63.16-60.34-56.12 8.31-15.53 2.31 5.37-14.75 31.16-85.44-70.91 36.31-21.12 10.81 8.09-22.31 33.47-92.44-97.22 60.88-28.94 18.09L224.22 331l74.06-143.34-131.06 68.31-22.97 12 10.03-23.91 48.63-115.69-67.75 19.38-5.5 1.56-3.87-4.16L18.16 30.78z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLightningFrequency;

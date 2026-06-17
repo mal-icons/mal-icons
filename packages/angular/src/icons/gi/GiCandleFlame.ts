@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-candle-flame",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCandleFlame {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M334.66 17.13c-39.67 10.85-74.78 27.46-100.75 51.97-0.7-12.52-4.5-25.15-13.28-38.03-0.99 44.91-50.31 103.93-30.5 153.5300.0100.02 0 0.03 7.68 30.36 37.27 53.54 65.47 58.31-2.05-19.67-7.09-37.71-14.47-54.72l17.16-7.44c8.37 19.29 13.92 39.99 16 62.47 23.25-3.66 41.33-23.62 38.28-67.59-3.66-52.79-0.63-114.8 22.09-158.53zM209.53 258.72c-31.370.18-59.65 7.37-81.81 19.94-22.91 13-39.44 32.52-44.38 55.5-2.56 8.94-4.03 19.33-4.03 30.41 0 32.55 12.64 59.1 28.5 60.53V489.5h301.15v-18.47c1.20.15 2.440.22 3.690.22 16.48 0 29.84-13.36 29.84-29.84 0-15.46-11.78-28.17-26.84-29.69-2.63-46.51-15.85-80.1-41.87-103.47-23.49-21.09-56.09-33.43-98.59-41.78-0.3 21.73-3.71 45.06-10.75 70.28l-18.03-5.03c7.01-25.11 10.21-47.74 10.22-68.53-4.84-0.78-9.75-1.54-14.81-2.25-11.03-1.55-21.82-2.28-32.28-2.22zm-103.19 79.19h18.69c0 5.59 2.56 11.31 8.69 17.5 6.13 6.19 15.74 12.4 28.06 17.66 24.64 10.52 59.83 17.38 98.75 17.38 49.15 0 92.44-11.2 115.85-26.31l10.13 15.72c-28.44 18.37-74.1 29.28-125.97 29.28-41.08 0-78.3-7-106.09-18.87-13.9-5.94-25.47-13.07-34-21.69-8.53-8.61-14.09-19.16-14.09-30.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCandleFlame;

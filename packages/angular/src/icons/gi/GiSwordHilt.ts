@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sword-hilt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSwordHilt {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M410.2 19.49l-18.60.41L244.7 150.8c8.6 8.94 16.95 18.8 24.52 29.24L434.83 19.49h-24.63zm51.48 0L279.73 195.87c6.69 11.06 12.29 22.58 16.16 34.25L492.19 26.51v-7.02h-30.51zm-266.72 82.51c-16.90.33-31.25 5.71-41.54 16-5.62 5.62-8.06 12.2-8.15 20.96-0.1 8.75 2.58 19.5 7.79 31.15 10.43 23.29 30.82 49.88 54.68 72.93 5.8 5.6 11.82 11 17.93 16.12 28.7 27.65 48.86 66.37-1.43 89.62-45.22 20.91-100.61 70.32-85.19 136.08 36.26-132.4 187.67-69.93 208.5-213.75l-0.29-0.17c2.51-11.1 2.36-23.8-0.53-37.53-1.51-7.17-3.78-14.56-6.78-22.03l-54.79 56.84-3.21-18.03c-5.52-30.95-30.95-67.59-57.26-93.14l-7.2-7 36.37-32.41c-12.25-6.4-24.53-10.88-36.23-13.34-6.68-1.4-13.11-2.16-19.24-2.29-1.15-0.02-2.28-0.02-3.41 0zm-16.42 137.75c-54.74 29.31-99.17 79.72-120.05 137.88l-1.17 3.26c1.24 2.3 2.8 4.56 4.64 6.55 2.32 2.52 4.95 4.58 7.77 6.03l7.07-2.64c57.14-21.32 106.07-65.23 134.51-119.34-5.64-4.81-11.17-9.83-16.55-15.02-5.61-5.42-11.02-11.01-16.21-16.72zM38.2 384.39c-4.32 1.08-8.31 3.25-11.69 6.63-10.68 10.68-10.68 27.5 0 38.18 10.68 10.68 27.5 10.68 38.18 0 4.4-4.4 6.85-9.71 7.52-15.29-9.64-1.79-17.9-7.17-24-13.79-4.34-4.7-7.77-10.05-10.01-15.73z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSwordHilt;

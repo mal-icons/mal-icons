@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-rake",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiRake {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M93.69 18l110.41 254.68c3.59-2.91 7.82-5.23 12.5-6.85 3.46-1.19 7.19-1.99 11.06-2.19 1.15-0.06 2.32-0.05 3.490.01L124.81 18zm136.28 263.63c-0.49-0.01-0.98-0.01-1.470.02-1.980.1-4.030.51-6.02 1.2-3.98 1.37-7.57 3.94-9.3 5.99-0.95 1.14-1.19 1.65-1.27 1.77l21.09 44.46 5.99-0.43 23.93-3.27-19.39-40.34c-2.84-5.53-5.96-7.66-9.42-8.74-1.3-0.4-2.7-0.62-4.15-0.66zm-18.06 8.98l-0.19-0.39c0.160.340.120.490.190.39zm246.42 34.09c-0.990-2.050.1-3.160.33L26.7 381.85c-9.59 1.73-7.95 25.960.23 29.8 24.03 15.5 22.98 79.76 38.9 79.76 6.29 0 2.06-75.12-7.08-84.11l21.99-3.01c22.61 17.03 21.91 78.79 37.51 78.79 6.09 0 2.32-70.45-6.23-83.07l20.42-2.79c23.04 16.58 22.23 79.1 37.93 79.1 6.15 0 2.25-71.78-6.47-83.4l21.25-2.91c21.78 17.89 21.28 78.15 36.7 78.15 5.99 0 2.44-68.09-5.8-82.37l20.85-2.85c22.17 17.49 21.57 78.46 37.08 78.46 6.04 0 2.39-69.2-6-82.72l22.75-3.11c21.1 18.56 20.77 77.58 36.02 77.58 5.91 0 2.53-66.3-5.49-81.76l21.21-2.9c21.48 18.19 21.06 77.9 36.4 77.9 5.95 0 2.48-67.29-5.67-82.1l21.83-2.99c20.38 19.25 20.23 76.93 35.31 76.93 5.82 0 2.63-64.34-5.13-81.06l21.59-2.95c20.73 18.92 20.49 77.25 35.66 77.25 10.89-34.01-1.78-72.33-15.3-101.99-1.35-2.71-4.49-4.75-8.81-4.76z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiRake;

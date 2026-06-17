@@ -42,8 +42,26 @@ export interface IconSource {
    * a single directory (e.g. Material Symbols stores both the base glyph and a
    * `-fill` variant side by side); excluding the unwanted axis keeps a set
    * scoped to a single visual style.
+   *
+   * When {@link recursive} is set the pattern is matched against the file's
+   * path relative to {@link iconDir} (e.g. `badges/blank.svg`) so whole
+   * sub-directories can be excluded.
    */
   excludePattern?: string;
+  /**
+   * Collect `.svg` files recursively from every sub-directory of
+   * {@link iconDir} rather than just its top level. Some sets (e.g. Game Icons)
+   * shard their artwork across many author folders instead of a single flat
+   * directory.
+   */
+  recursive?: boolean;
+  /**
+   * Optional exact `d` attribute of a background shape to drop from every icon
+   * in the set. Game Icons bake a full-canvas black backdrop
+   * (`<path d="M0 0h512v512H0z"/>`) behind each white foreground glyph; dropping
+   * it leaves a single themeable `currentColor` path.
+   */
+  backgroundPath?: string;
 }
 
 export const sources: Record<string, IconSource> = {
@@ -177,6 +195,24 @@ export const sources: Record<string, IconSource> = {
     ref: "v1.0.2",
     iconDir: "svg",
     style: "color",
+  },
+  gi: {
+    id: "gi",
+    prefix: "Gi",
+    name: "Game Icons",
+    license: "CC-BY-3.0",
+    repo: "game-icons/icons",
+    // Upstream ships no release tags; pin to a commit for reproducibility.
+    ref: "82d948812bfe3f269ef8f731dcdb07b08160edc4",
+    // SVGs are sharded across per-author folders at the repo root; collect them
+    // all recursively and drop the non-icon contributor `badges/` directory.
+    iconDir: "",
+    style: "fill",
+    recursive: true,
+    excludePattern: "^badges/",
+    // Each icon bakes a full-canvas black backdrop behind a white foreground;
+    // drop it so the glyph themes via `currentColor`.
+    backgroundPath: "M0 0h512v512H0z",
   },
   gr: {
     id: "gr",

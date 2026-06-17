@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-android-mask",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAndroidMask {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M265.34 18.56v302.86h-18.69V18.59c-61.4 3.01-115.44 34.41-149.24 81.34l35.02 60.66c3.86-1.04 7.92-1.6 12.11-1.6 25.75 0 46.62 20.87 46.62 46.62 0 22.56-16.02 41.37-37.3 45.69v174.08c13.71 21.43 27.6 41.98 40.71 60.75V369.01h122.84v117.12c13.11-18.77 27-39.32 40.71-60.75V251.29c-21.28-4.32-37.3-23.13-37.3-45.69 0-25.75 20.87-46.62 46.62-46.62 4.19 0 8.250.56 12.11 1.6l35.13-60.85c-33.74-47-87.76-78.37-149.35-81.17zM426.03 117.47l-29.74 51.52c10.82 8.54 17.78 21.76 17.78 36.62 0 22.54-15.99 41.34-37.25 45.68V395.38c9.83-16.24 19.31-32.68 28.01-48.93 27.3-50.98 46.56-100.37 46.56-132.36 0-35.13-9.22-68.1-25.36-96.62zm-339.970.16c-16.2 28.49-25.46 61.41-25.46 96.47 0 31.99 19.27 81.39 46.57 132.36 8.7 16.25 18.18 32.69 28.02 48.93v-144.1c-21.26-4.34-37.25-23.14-37.25-45.68 0-14.86 6.96-28.08 17.78-36.62l-29.65-51.36zm127.21 270.07V488.98h85.46V387.7h-85.46z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAndroidMask;

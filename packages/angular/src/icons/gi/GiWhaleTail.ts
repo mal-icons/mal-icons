@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-whale-tail",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiWhaleTail {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M453 35.12c-65.31 46.61-189.75 41.02-213.56 125.43C184.41 101.41 98.63 83.03 21.77 63.21c6.53 139.1 71.38 147.44 192.44 194.55 23.71 25.79 29.79 49.93 19.25 82.71 46.4 5.1 71.5 15.47 106.75 27.74-0.71-71.67-25.14-108.93-75.52-175.03 11.06 4.23 44.98 37.02 56.58 58.61 109.42-42.42 147.64-112.07 131.73-216.66zM180.18 353.9c-60.89-0.24-114.03 19.49-158.43 74.22 167.08-48.84 292-13.21 471.89 7.9-118.94-38.75-224.47-81.76-313.47-82.12zm98.04 77.84c-99.280.26-206.34 18.74-256.87 63.14 168-26.61 356.8-28.41 470.8-4.97 1.1-35.34-101.42-58.46-213.93-58.17z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiWhaleTail;

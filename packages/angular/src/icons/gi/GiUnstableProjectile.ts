@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-unstable-projectile",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiUnstableProjectile {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M120.38 22.47c88.55 42.68 157.7 88.84 211.44 154.78C247.84 102.89 134.44 59.96 21.97 28.53v95.1c66.06 28.36 165.73 98.25 191.25 144.75-51.64-51.89-122.18-81.19-191.25-102.41v87.53c75.43 22.99 148.44 61.79 191.91 148.06 19.75 55.94 73.15 96.13 135.78 96.13 79.39 0 143.94-64.55 143.94-143.94 0-45.59-21.31-86.29-54.47-112.69-7.82-10.44-15.6-20.43-23.34-30.03 5.69-5.65 9.22-13.47 9.22-22.13 0-17.24-13.98-31.22-31.22-31.22-6.98 0-13.42 2.32-18.62 6.19-64.35-69.56-125.73-112.21-184.5-141.41h-70.28zM369.97 68.12c-11.59 0-21 9.38-21 20.97 0 11.59 9.41 21 21 21 11.59 0 20.97-9.41 20.97-21 0-11.59-9.38-20.97-20.97-20.97zm97.22 125.47c-10.17 0-18.41 8.26-18.41 18.44 0 10.18 8.23 18.41 18.41 18.41 10.17 0 18.44-8.23 18.44-18.41s-8.26-18.44-18.44-18.44zM335.56 229.28l4.69 24.78-51.37 13 61.5 79.63-8.66-60.78 49.91-3.63 3.41-45.31c32.24 12.5 57.96 37.92 70.85 69.97l-5.5 19.47-49.19-15.19L474.38 365c-1.43 16.14-5.9 31.38-12.84 45.16l-32.22-14.5-82.75 58.53 66.66-25.25 25 13.44C415.57 465.01 384.28 479 349.66 479c-61.74 0-112.93-44.45-123.34-103.16l45.63 39.81 23.53-30.72 26.62 33.78 93.63-58.34-39.91-42.970.5 41.44-47.06 16.91-43.5-54.78-9.72 37.37-44.87-45.31c15.4-44.97 55.63-78.31 104.41-83.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiUnstableProjectile;

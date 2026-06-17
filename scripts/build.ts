@@ -370,6 +370,7 @@ async function buildReact(): Promise<void> {
     "far",
     "fc",
     "fi",
+    "gi",
     "gr",
     "hi",
     "io",

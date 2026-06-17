@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-medal",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMedal {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M140.5 19.16V192.28l21.81 28.53h15.53V19.16H140.5zm56.03 0v201.66h122.06V19.16H196.53zm140.75 0v201.66h12.35l22.09-28.53V19.16h-34.44zM173.94 239.5v18.13H338.03V239.5H173.94zm30.78 36.81l8.03 10.53c-25.26 12.01-45.13 33.46-55.09 59.81l65.03 47.47 5.47 3.97-2.09 6.44-17.31 53.69 45.66-33.06 5.5-3.97 5.47 3.97 62.47 45.22c24.87-19.96 40.78-50.6 40.78-85.06 0-6.49-0.57-12.85-1.65-19.03l-58.84 42.94-11-15.09L361.69 347c-10.68-28.55-32.93-51.39-61.12-62.78l6.13-7.91h-38.81l-25.5 78-17.75-5.81 23.59-72.19h-43.5zm-52.37 89.63c-1.12 6.29-1.72 12.76-1.72 19.38 0 32.16 13.84 61.01 35.91 80.94l19.69-61.03-53.88-39.28zm107.56 78.34l-51.53 37.31c15.27 8.12 32.71 12.72 51.25 12.72 18.670 36.22-4.68 51.56-12.91l-51.28-37.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMedal;

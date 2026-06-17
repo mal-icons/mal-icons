@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-heart-key",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHeartKey {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M190.4 39.83c-14.40.16-28.1 4.81-39.9 12.2-26.9 17.04-42.2 48.27-30.8 74.77l6.8 15.9-15.9-6.8c-21.54-9.3-46.22-0.9-63.82 17-4.03 4.2-7.78 8.8-10.96 13.8-16.97 27-19.45 63.9 13.15 96.5C72.23 286.4 118 291.5 164 290.4c23.1-0.6 45.9-2.5 65.9-3.7 5-0.3 9.8-0.6 14.4-0.8l186.3 186.3 25.4-25.4-0.1-0.1 32.6-32.5-25.4-25.4-32.6 32.5-18.4-18.4 21.2-21.2-25.4-25.4-21.2 21.2-17-17 55.1-55.2-25.4-25.4-55.1 55.2-74.6-74.6c0.2-4.60.5-9.40.8-14.4 1.2-20 3.1-42.8 3.7-65.9 1-45.9-4-91.75-27.2-115.02-18.3-18.34-38.1-25.55-56.6-25.35z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHeartKey;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sheikah-eye",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSheikahEye {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M260.47 99.72c-91.05 0-192.52 75.17-240.97 34.19L53.59 212c66.5-49.55 134.42-74.81 203.22-74.81 68.090 136.5 24.72 204.81 73.19l37.97-86.72C413.75 169.89 353.17 99.72 260.47 99.72zm-0.91 61.78c-40.49 0-73.09 32.6-73.09 73.09 0 40.49 32.6 73.09 73.09 73.09 40.49 0 73.09-32.6 73.09-73.09 0-40.49-32.6-73.09-73.09-73.09zm-59.410.47c-48.48 10.5-96.81 34.61-145.25 72.62 47.25 34.59 94 57.44 140.53 68.47-18.29-17.15-29.75-41.51-29.75-68.47 0-29.21 13.45-55.39 34.47-72.62zm120.75 1.66c19.9 17.23 32.53 42.67 32.53 70.970 27.2-11.67 51.74-30.25 68.91 46.29-10.72 92.89-33.37 140.13-68.66-48.15-36.3-95.56-59.94-142.41-71.22zM259.56 202.5c18.21 0 32.97 14.73 32.97 32.94 0 18.21-14.76 32.97-32.97 32.97-18.21 0-32.97-14.76-32.97-32.97 0-18.2 14.76-32.94 32.97-32.94zM53.5 256.59l-34 77.88c48.45-40.98 208.34-10.16 240.97 137.41C294.3 329.59 413.75 298.49 499.59 344.72L462 258.9c-56.18 39.47-112.57 62.36-169.03 68.72l-33.94 58.75-34.12-59.06c-57.47-7-114.59-30.95-171.41-70.72z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSheikahEye;

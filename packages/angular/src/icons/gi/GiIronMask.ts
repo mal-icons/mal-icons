@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-iron-mask",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiIronMask {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256.25 18.25c-31.81 0-61.71 14.25-86.91 39.44L191 246.91h35.13c19.94 0 19.7 37.850.69 38.75v64.16h59.22v-64.19c-20.04-1.64-19.33-38.72 1.38-38.72h34.75L343.78 58.31C318.46 32.74 288.32 18.25 256.25 18.25zM152.69 76.81c-2.37 3.12-4.68 6.35-6.94 9.69-29.02 42.87-47.37 102.89-47.37 169.38s18.35 126.54 47.38 169.41c26.88 39.7 62.35 64.38 101.16 67.81v-63.97H212.53c-21.46 0-21.18-38.78 0-38.78h88.5c20.18 0 19.7 38.78 0 38.78h-35.44v63.97c38.81-3.43 74.28-28.12 101.16-67.81 29.03-42.86 47.38-102.92 47.38-169.4S395.78 129.37 366.75 86.5c-2.08-3.07-4.2-6.05-6.37-8.94L340.97 246.91h34.94c20.18 0 19.7 38.78 0 38.78l-71.190V368.5h-96.6v-82.81l-70.50c-21.46 0-21.18-38.78 0-38.78h34.56l-19.5-170.09z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiIronMask;

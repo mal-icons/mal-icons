@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-baseball-bat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBaseballBat {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M429.73 54.54c-3.020.09-5.84 1.16-8.16 3.48l-0.050.06-0.060.06s-115.29 111.29-169.37 169.36c-28.28 30.37-56.8 65.69-88.45 102.92l17.73 17.73c37.02-31.78 72.29-60.39 103.39-88.24 58.86-52.7 169.17-169.19 169.17-169.19l0.08-0.090.09-0.09c11.49-11.49-7.83-35.12-23.06-35.99-0.44-0.02-0.87-0.03-1.3-0.02zM151.89 344.13c-17.6 20.41-36.21 41.27-56.33 62.11l10.33 10.25c20.79-20.14 41.52-38.85 61.83-56.54l-15.82-15.82zm-80.21 63.78l-9.9 9.9 32.65 32.4 9.9-9.9-32.65-32.4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBaseballBat;

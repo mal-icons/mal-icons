@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-spiked-halo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSpikedHalo {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M257.65 19.03l-47.55 85.6c-51.53 16.02-91.8 57.68-105.88 110.03L33.41 252.25l69.28 38.49c5.94 26.33 18.46 50.18 35.72 69.74 5.63-7.95 12.44-15.05 20.55-21.16-19.19-22.51-30.79-51.68-30.79-83.51 0-71.07 57.84-128.49 128.91-128.49 71.08 0 128.49 57.41 128.49 128.49 0 30.01-10.23 57.65-27.41 79.58 8.53 5.88 15.61 12.8 21.41 20.59 15.18-18.53 26.24-40.56 31.77-64.69l70.26-39.03-71.83-38.13c-14.31-52.47-54.97-94.12-106.86-109.82L257.65 19.03zm0.27 150.33c-17.56 0-33.69 9.02-45.9 24.65-12.22 15.63-20.09 37.75-20.09 62.37 0 26.12 9.22 49.34 22.85 65.15l10.14 11.76-15.14 3.45c-38.03 8.67-55.96 26.4-66.48 54.27-9.79 25.93-11.75 61.67-11.99 104.24h254.47c-0.05-42.74-0.66-79.35-9.68-105.81-9.69-28.43-27.11-46.38-67.99-54.38l-15.27-2.99 9.82-12.08c12.78-15.72 21.27-38.4 21.27-63.6 0-24.62-7.87-46.75-20.09-62.37-12.22-15.63-28.34-24.65-45.9-24.65h0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSpikedHalo;

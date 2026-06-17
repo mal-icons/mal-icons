@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-shower",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiShower {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M54.42 18l21.6 37.41 39.84-23-8.32-14.41H54.42zm70.44 30l-39.84 23 8 13.86 39.84-23-8-13.86zm97.01 3.81c-1.940.01-3.880.07-5.820.19-32.72 1.96-66.39 20.96-94.1 36.96-27.71 16-60.99 35.67-79.06 63.02-17.15 25.98-22.48 58.62 3.46 107.64L307.53 108.81c-27.64-44.04-56.55-57.08-85.66-57zm94.84 72.49l-261.54 151 8 13.86 261.54-151-8-13.85zm19.39 28.07l-17.93 10.36L494 265.68v-20.86l-157.91-92.46zm-58.18 33.59l-16.04 9.26L494 438.95V412.85L277.91 185.95zm67.46 17.11l-11.34 13.97 107.53 87.31 11.35-13.97-107.53-87.3zm-124.99 16.1l-15.59 9 84.19 148.13 15.65-8.89-84.25-148.24zm-28.59 34.24l-16.24 7.76L286.83 494h19.95L191.79 253.41zm96.53 5.92l-14.46 10.72L439.8 494h22.4L288.32 259.32zm-162.1 14.21l-16.1 9.29L168.84 494h18.68l-61.3-220.47zM90.28 294.28l-16.56 9.56 12.42 68.68 17.71-3.2L90.28 294.28zm91.19 27.75l-16.87 6.27L226.13 494h19.2l-63.86-171.97zm140.93 80.07l-15.52 9.12L355.54 494h20.88l-54.01-91.91zm-210.96 11.68l-17.81 2.61L105.02 494h18.19l-11.76-80.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiShower;

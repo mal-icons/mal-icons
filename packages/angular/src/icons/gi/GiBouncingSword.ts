@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-bouncing-sword",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBouncingSword {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M414.67 22.57L19.91 114.15l251.8 266.03-59.66 59.69 282.6 53.44-53.41-282.75-31.54 31.56 36.83 84.86-79.25-87.51-80.64-79.22 41.03 80.38-135.38-114.78L414.67 22.57zM232.48 215.77c11.48 0 20.79 9.31 20.79 20.79 0 2.46-0.43 4.82-1.22 7.02l35.55 34.21 33.06-30.81 12.74 13.67-17.37 16.19 138.29 133.64L473.24 471l-60.51-17.45-140.55-135.84-18.1 16.86-12.74-13.67 32.58-30.36-35.42-34.08c-1.90.57-3.920.89-6.010.89-11.48 0-20.79-9.31-20.79-20.79 0-11.48 9.31-20.79 20.79-20.79zm68.88 75.62l-12.96 13.46L426.96 438.26l12.96-13.46-138.56-133.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBouncingSword;

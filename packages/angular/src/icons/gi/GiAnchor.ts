@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-anchor",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAnchor {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M90.53 23c-18.34 0-36.69 7-50.69 21-28 28-27.99 73.38 0 101.38 21.78 21.78 54.08 26.6 80.53 14.5l53.69 53.69c-21.42 19.7-44 38.26-67.44 55.94l30.13 30.13c18.73-22.54 37.95-44.47 57.84-65.53l169.59 169.59c-51.84 40.44-120.87 53.84-192.81 42.56L173 424.91 72.47 404.47l95.41 88.41 1.97-26c86.59 36.97 177.6 34.61 241.34-11.75l63.06 21.31-21.47-63.59c44.61-63.62 46.41-153.41 9.91-238.87l26.03-1.97-88.41-95.37 20.44 100.53 21.34-1.62c11.28 71.98-2.17 141.02-42.66 192.88l-169.78-169.75c21.08-20.34 42.93-39.66 65.78-57.72l-30.12-30.12c-17.01 24.15-35.67 46.66-55.69 67.81l-53.97-53.97C167.83 98.18 163.03 65.81 141.22 44c-14-14-32.34-21-50.69-21zm0 27.03c11.430 22.87 4.34 31.6 13.06 17.45 17.45 17.45 45.74 0 63.19-17.45 17.45-45.71 17.45-63.16 0-17.45-17.44-17.45-45.74 0-63.19C67.69 54.37 79.1 50.03 90.53 50.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAnchor;

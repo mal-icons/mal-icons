@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-frayed-arrow",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFrayedArrow {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M20.8 22.31v146.88c55.8 46.49 119.15 83.37 184.63 117.05-68.9-9.21-127.42-27.28-176.08-56.65 25.43 36.31 76.9 75.69 123.05 93.11 5.34-0.26 10.69-0.38 16.04-0.36 59.220.29 118.98 18.03 182.59 51.01-73.04-10.31-146.08-16.4-219.12-9.02l-31.84 8.11c137.86 15.98 273.4 44.77 399.2 127.38L330.69 117.4c4.49 88.07 27.07 170.91 59.79 252.35C310.6 277.09 276.61 167.96 273.13 63.37c-9.61 54.18-6.77 117.06 5.51 180.73-42.7-79.1-60.54-156.68-54.91-221.79H118.29c20.59 101.51 94.97 212.6 191.64 303.28C177.52 247.21 109.7 132.92 64.52 22.31H20.8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFrayedArrow;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-card-2-diamonds",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCard2Diamonds {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M119.44 36c-16.13 0-29.2 17.24-29.2 38.5v363c0 21.26 13.07 38.5 29.2 38.5h275.3c16.13 0 29.2-17.24 29.2-38.5v-363c0-21.26-13.07-38.5-29.2-38.5H119.44zm26.88 3.72l47.39 58.27-47.39 58.29-47.37-58.29 47.38-58.27zm100.54 136.82c9.59 0 18.47 2.06 26.63 6.18 8.24 4.12 14.42 9.55 18.55 16.29 4.12 6.66 6.18 13.95 6.18 21.87 0 5.47-1.03 11.02-3.09 16.64-2.06 5.63-5.07 10.9-9.03 15.81-6.81 8.48-13.83 15.73-21.04 21.75l-31.38 26.39c-7.92 6.66-13.71 12.32-17.35 17-3.65 4.68 14.34 7.01 53.97 7.01 5.94 0 10.18-1.54 12.72-4.63 2.54-3.09 5.43-11.65 8.68-25.68h8.08l-3.8 49.33h-106.51v-6.42l34.59-39.35c19.26-20.92 30.83-34.08 34.71-39.46 5.55-7.69 9.59-15.1 12.13-22.23 2.54-7.21 3.81-13.75 3.81-19.61 0-9.75-2.69-17.39-8.08-22.94-5.39-5.63-12.88-8.44-22.47-8.44-10.78 0-19.57 2.58-26.39 7.73-6.81 5.15-10.22 10.62-10.22 16.4 0 1.980.52 3.49 1.55 4.520.95 1.03 3.01 1.94 6.18 2.74 8 1.9 12.01 6.58 12.01 14.03 0 4.04-1.35 7.41-4.04 10.1-2.69 2.62-6.14 3.92-10.34 3.92-4.83 0-9.07-2.22-12.72-6.66-3.65-4.52-5.47-10.38-5.47-17.59 0-8.08 2.06-15.41 6.18-21.99 4.2-6.66 10.5-12.08 18.9-16.28 8.4-4.28 17.44-6.42 27.1-6.42zm118.8 175.99l47.39 58.27-47.39 58.29-47.37-58.29 47.38-58.27z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCard2Diamonds;

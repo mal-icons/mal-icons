@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-falling-blob",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFallingBlob {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M227.54 25.87l129 177.28-219.59-169.19L259.07 198.92 20.78 26.13h0l180.06 232.19L35.88 129.19l169.19 225.43L20.17 219.05l210.7 228.22c59.99 56.81 154.88 55.82 213.66-2.96 58.78-58.78 59.77-153.67 2.96-213.66L227.54 25.87zm128.45 222.86c27.39 0 54.79 10.45 75.69 31.35 41.8 41.8 41.8 109.57 0 151.37s-109.57 41.8-151.37 0c-41.8-41.8-41.8-109.57 0-151.38 20.9-20.9 48.3-31.35 75.69-31.35zm-6.73 20.73c-17.070.06-36.98 7.25-52.58 20.87-13.13 11.47-20.46 25.02-22.22 36.9-1.75 11.88 1.44 21.78 10.22 29.11 17.56 14.67 55.23 11.19 81.5-11.75 13.13-11.47 20.46-25.01 22.22-36.9 1.75-11.88-1.44-21.78-10.21-29.11-7.13-5.96-17.25-9.16-28.92-9.12zm47.57 124.37c-8.60.03-19.06 3.71-27.14 10.65-6.8 5.85-10.36 12.6-11.17 18.01-0.81 5.410.45 9.19 4.31 12.36 7.73 6.36 27.34 5.21 40.94-6.49 6.8-5.85 10.36-12.6 11.17-18.010.81-5.41-0.45-9.19-4.31-12.37-3.14-2.58-7.92-4.18-13.8-4.16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFallingBlob;

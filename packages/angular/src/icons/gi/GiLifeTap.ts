@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-life-tap",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLifeTap {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M345.69 65.84c-35.620.5-72.53 18.19-98.81 55.59 10.07 20.2 14.32 42.84 11.06 66.16L239.41 185c6.58-47.07-22.98-91.61-72.97-112.28-69.36-23.26-149.8 17.77-146.84 110.5 4.33 135.74 198.59 214.87 219.5 292.9 7.42-27.68 42.63-58.4 82.69-93.19-2.850.51-5.780.78-8.780.78-33.26 0-58.16-32.54-58.16-70.19 0-37.65 24.9-70.15 58.16-70.15 15.44 0 29.07 7.03 39.25 18.31H380.31v-19.06H353.72v-18.69h71.91v18.69H399.03v19.06h34.44v3.84c15.72-25.61 25.39-52.98 24.47-82.31-2.33-74.11-53.54-116.43-108.81-117.38-1.15-0.02-2.29-0.02-3.44 0zM313 262.06c-20.680-39.47 21.93-39.47 51.47 0 29.54 18.79 51.5 39.47 51.5 11.58 0 22.6-6.88 30.03-18.12h-16.22c-11.09 0-20.5-4.16-26.34-10.91-5.85-6.74-8.05-15.39-7.53-23.590.52-8.2 3.65-16.23 9.41-22.56 5.76-6.33 14.48-10.75 24.47-10.75h15.47c-7.41-10.6-18.08-17.03-29.28-17.03zm51.56 18.31v62.91h50.22v-62.9h-50.22zm-37.75 17.41c-4.82 0-8.01 1.75-10.62 4.63-2.62 2.88-4.34 7.11-4.59 11.19-0.26 4.080.86 7.72 3 10.19 2.14 2.47 5.4 4.44 12.22 4.44h19.06v-30.44h-19.06zm106.660.16V328.5c10.47 1.27 15.37 7.18 15.37 18.75v34.25h30.44v-34.25c0-27.41-13.77-47.27-45.81-49.31zm29.97 103.22c-5.23 43.36-24.52 37.68-24.91 65-0.17 12.38 11.43 22.63 25.81 22.63 14.38 0 26.25-10.24 26.25-22.62 0-27.45-21.38-21.81-27.16-65z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLifeTap;

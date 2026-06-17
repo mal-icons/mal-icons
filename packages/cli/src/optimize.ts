@@ -105,12 +105,17 @@ export interface OptimizedIcon {
  */
 export function optimize(parsed: ParsedSvg, source: IconSource): OptimizedIcon {
   const preserveColor = source.style === "color";
+  // Some sets (e.g. Game Icons) bake a full-canvas background shape behind the
+  // glyph; drop any path whose geometry matches it so only the themeable
+  // foreground remains. Compare on rounded coordinates to match optimizeNode.
+  const backgroundD = source.backgroundPath ? roundNumbers(source.backgroundPath) : null;
   const nodes = parsed.nodes
     .map((n) => optimizeNode(n, preserveColor))
     // Fill sets (e.g. Circum) wrap paths in a presentational `<g id="…">`.
     // Once the id is stripped the group carries nothing, so drop the empty
     // wrapper rather than emit a useless `<g></g>` element.
-    .filter((n) => !(n.tag === "g" && Object.keys(n.attr).length === 0));
+    .filter((n) => !(n.tag === "g" && Object.keys(n.attr).length === 0))
+    .filter((n) => !(backgroundD !== null && n.tag === "path" && n.attr.d === backgroundD));
 
   const defaultAttr: Record<string, string | number> = {};
   if (source.style === "stroke") {

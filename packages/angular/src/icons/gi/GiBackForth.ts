@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-back-forth",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBackForth {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M241.84 28.63l-21.19 5.06L33.25 78.53l-9.59 2.28 2.81 9.47 54.72 184.03 6.16 20.78 10.88-18.75 36.62-63.12 39.34 22.66 9.38-16.19-47.47-27.31L128 187.72l-4.66 8.06-30.41 52.47-45.75-153.84 156.63-37.47-30.34 52.35-4.69 8.13 8.13 4.66L332.75 211.75l-17.59 30.34 16.22 9.31 22.25-38.37 4.69-8.12-8.12-4.66-155.84-89.69 36.59-63.09 10.91-18.84zm-28.25 176.47l-57.44 99.31 155.22 89.5 8.09 4.66-4.69 8.09-44.06 76.25 218.81-52.5-63.87-215.47-44.09 76.25-4.66 8.06-8.09-4.66-155.22-89.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBackForth;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GiPaperTray = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M87.9 41L42.25 391h138.57l32 48h86.37l32-48h138.57L424.1 41h-98.54l-16 32H202.59l-16.97-32H87.9zm-46.9 368v78h430v-78H340.82l-32 48H203.18l-32-48H41z"}]]);
+
+export default GiPaperTray;

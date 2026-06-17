@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-jupiter",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiJupiter {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256.18 32A224 224 0 0 0 156.11 55.68h199.71A224 224 0 0 0 256.17 32zM104.25 91.68a224 224 0 0 0-30.67 34.84l355.48-12.69a224 224 0 0 0-21.06-22.15h-303.75zM54.09 160a224 224 0 0 0-6.99 16.3l420.8 7.41a224 224 0 0 0-9.59-23.71H54.09zm-13.04 34.2a224 224 0 0 0-6.17 28.89l441.39-8.02a224 224 0 0 0-2.98-13.26L41.06 194.2zm437.69 38.83L32.92 241.13a224 224 0 0 0-0.74 14.87 224 224 0 0 0 1.43 23h251.5c-3.19 1.41-6.21 3.02-9.02 4.82-5.58 3.57-10.42 8.04-14 13.18H36.09a224 224 0 0 0 7.93 30H257.46c3.1 9.02 10 16.67 18.62 22.18 3.16 2.02 6.59 3.8 10.24 5.34l-225.2 11.06a224 224 0 0 0 11.02 17.67l359.79 11.24a224 224 0 0 0 29.27-48.56l-99.65 4.89c0.93-0.53 1.84-1.07 2.73-1.64 8.62-5.51 15.52-13.16 18.62-22.18h85.53a224 224 0 0 0 7.82-30h-97.96c-3.58-5.15-8.43-9.62-14-13.18-2.81-1.8-5.83-3.4-9.03-4.82H478.96a224 224 0 0 0 0.87-15.94l-75.81-10.92s48.45-4.13 75.54-6.34a224 224 0 0 0-0.81-12.77zM320.17 290c13.77 0 26.1 3.67 34.39 8.98 8.29 5.3 12.11 11.52 12.11 17.52s-3.81 12.22-12.11 17.52c-8.29 5.31-20.62 8.98-34.4 8.98-13.77 0-26.1-3.67-34.4-8.98-8.29-5.3-12.1-11.52-12.1-17.52s3.81-12.22 12.11-17.52c8.29-5.31 20.62-8.98 34.4-8.98zM96.49 413a224 224 0 0 0 18.9 17h281.69a224 224 0 0 0 18.59-17H96.49zm82.54 53a224 224 0 0 0 77.15 14 224 224 0 0 0 77.49-14H179.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiJupiter;

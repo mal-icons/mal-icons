@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-arrows-shield",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiArrowsShield {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M17.47 26.56v20.88L84.81 81.06l-14.5 30.47 155.97 24.03L109.31 29.63 92.88 64.19 17.47 26.56zm354.84 32.5c-4.430.02-8.840.14-13.220.34-45.09 2.14-86.24 14.54-113.28 38.780.17 77.19 5.06 152.54 23.12 213.69 17.98 60.87 48.33 106.97 99.69 129.91 45.97-20.27 76.84-71.63 95.97-138.56 19.07-66.71 26.21-147.74 26.59-224.13-34.77-12.21-75.27-19.68-114.44-20.03-1.48-0.01-2.96-0.01-4.440zm-6.5 27.97c1.05-0.01 2.11-0.01 3.16 0 29.380.27 59.39 6.71 85.03 17.44l5.72 2.4v6.22c0 58.44-4.57 121.11-18.06 173.78-13.49 52.68-35.84 96.5-74.37 113.69l-3.9 1.72-3.84-1.78c-40.63-18.93-63.79-58.79-76.59-107.16-12.8-48.37-15.81-106.07-15.81-164.5v-3.69l2.5-2.69c21.54-23.15 53.54-33.4 86.81-35.16 3.12-0.17 6.24-0.26 9.38-0.28zm3 18.69c-3.82-0.04-7.620.05-11.370.25-28.65 1.51-54.43 10.13-71.56 26.810.14 56.38 3.36 111.34 15.13 155.78 11.57 43.7 30.84 76.44 62.5 93 27.89-14.77 47.74-51.3 60.03-99.31 12.38-48.35 17.05-107.17 17.38-162.78-22.04-8.36-47.53-13.5-72.09-13.75zM91.88 162.16l-2.84 33.78-71.56-6.59v18.75l69.97 6.47-2.84 33.62 146.97-30.87-139.69-55.16zm9.97 128.16l8.03 27.53L17.47 344.47v19.47l97.62-28.19 9.44 32.34 118.25-76.69-140.94-1.09zm171.44 85.09l-145.15 44.44 19.03 28.5-70.09 46.780.380.56h32.47l47.63-31.78 19.03 28.53 96.72-117.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiArrowsShield;

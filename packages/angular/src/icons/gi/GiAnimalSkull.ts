@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-animal-skull",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAnimalSkull {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M187.41 22.22l-41.56 41.84 62.88 29.84-8 16.88-68.84-32.65L59.97 150.53l33.31 96.97 56.88-7.16 10.53-42.47 18.13 4.47-45.84 185.25 55.31-49.66 10-9 4.94 12.5 14.81 37.53 31.25-41.62 8.13-10.84 7.25 11.47 30.41 48.22 22.66-46.75 5.09-10.5 9.13 7.25 62.53 49.78-62.81-182.22 17.66-6.09 12.78 37.06 60.56-0.94 26.47-101.87-72.72-62.34-70.12 38.84-9.06-16.37 64.03-35.47-29.75-25.53-144.09-8.81zm190.69 85.5l13.28 67.22-107.28-16.25 94-50.97zm-246.190.94L229.97 160l-116.25 13.47 18.19-64.81zm123.19 122.5l55.84 64.75-36.25 12.88-17.41-42.65-15.37 43.34-35.34-13.56 48.53-64.75zm74.34 126.94L304.53 409.47l-7.34 15.16-8.97-14.25-32.12-50.97-33.16 44.19-10.06 13.34-6.12-15.53-15.97-40.59-30.44 27.31 25.53 66.41 61.41 35.22 98.81-39.56 16.94-65.34-33.59-26.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAnimalSkull;

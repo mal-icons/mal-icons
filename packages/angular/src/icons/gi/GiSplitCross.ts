@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-split-cross",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSplitCross {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M96.38 20.09l30.81 40.75 130.28 130.28L375.31 73.28l40.22-53.19-159.59 108.09L96.38 20.09zM452.22 59.53l-113.56 76.85-74.56 74.56-6.59 6.63-6.62-6.62L176.94 137 62.59 59.63l80.84 119.47 69.66 69.66 6.59 6.59-6.59 6.63-74.81 74.81L61.56 450.19l120.75-81.69 68.66-68.66 6.59-6.62 6.63 6.62 69.56 69.56 119.53 80.91-77.37-114.34-73.94-73.94-6.59-6.59 6.59-6.62 68.56-68.56 81.69-120.72zm-430 34.69l108.12 159.59L22.22 413.38l53.47-40.44L193.25 255.38 62.81 124.94 22.22 94.22zm470.62 3.16l-53.22 40.22-117.81 117.84 130.47 130.47 40.53 30.66L384.72 256.97 492.84 97.37zm-235.28 222.28l-117.69 117.69-40.34 53.34 159.6-108.09 159.56 108.09L388 450.09 257.56 319.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSplitCross;

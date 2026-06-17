@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-air-force",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAirForce {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M331.39 211.86c5.81 31.19-14.57 81.19-37.25 108.32-13.36 15.98-26.97 24.09-40.44 24.09h-0.22c-12.73-0.09-25.43-7.31-37.79-21.5-24.87-28.57-43.22-80.1-39.18-110.24l1.5-11.29 11.37-0.11a77.07 77.07 0 0 0 55.04-23.62l9.44-9.76 9.44 9.76a77.02 77.02 0 0 0 55.25 23.64l10.840.07zm-173.54 6.3H16l18.78 18.83h124.09a116.02 116.02 0 0 1-1.02-18.81zm191.9 18.83H477.22L496 218.17H350.41a105.57 105.57 0 0 1-0.66 18.81zm-187.25 18.83H53.6l18.81 18.82h95.82l-0.1-0.28a209.05 209.05 0 0 1-5.63-18.54zM340.24 274.63h99.34l18.83-18.82H346.15c-1.43 5.58-3.26 11.57-5.6 17.97zM91.24 293.45l18.82 18.82H185.9a203.6 203.6 0 0 1-9.93-18.82H91.24zm310.69 18.82l18.82-18.82h-88.55a211.69 211.69 0 0 1-10.24 18.82h79.96z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAirForce;

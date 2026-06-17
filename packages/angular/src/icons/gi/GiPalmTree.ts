@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-palm-tree",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPalmTree {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M179.13 20.63c-28.050.12-54.05 5.81-66.72 9.78 0 0 114.97 19.51 124.53 98.88C149.57 3.32 54.28 155.66 54.28 155.66c19.87-5.21 76.76-20.68 114.75-14.16 25.99 4.47 51.33 28.03 50.24 27.73-61.94 15.24-160.35 290.92-143.64 313.31 14.9 17.12 29.82 11.28 44.72 2.6 7.38-58.42 64.94-314.76 135.38-294.070.0100.0200.03 0 5.93 2.03 11.54 5.59 11.84 11.030.58 10.36-6.11 27.3-4.53 39.06 3.66 27.3 9.01 36.79 16.78 46.31 18.56-10.43 36.33-48.06 40-67.56 16.63 7.28 43.37 24.16 65.19 86.81 11.4-58.72-5.04-105.03-59.03-125.59 23.38-10.1 125.14 41.03 137.56 69.53C475.65 199.26 390.17 136.38 319 139.72c13.64-3.56 28.640.6 42.91-9.91 19.15-14.1 41.47-26.24 62.28-39.28-69.97-30.43-134.54-15.41-139.09 16.1-3.57-69.92-57.83-86.2-105.97-86z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPalmTree;

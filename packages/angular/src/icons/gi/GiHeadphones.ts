@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-headphones",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHeadphones {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 51c-54.99 0-107.32 25.05-148.22 66.83l16.52 8.26C163.22 88.01 210.56 65 256 65c45.45 0 92.8 23 131.73 61.07l16.5-8.25C363.32 76.05 311 51 256 51zM95.18 131.65C54.13 180.02 27.22 246.51 25.2 321h14.02c2.23-70.65 30.33-133.29 69.99-178.910.7-0.8 1.4-1.58 2.11-2.37l-16.14-8.07zm321.64 0l-16.11 8.06c0.690.78 1.39 1.55 2.08 2.34C442.46 187.65 470.56 250.29 472.78 321h14.02c-2.02-74.49-28.93-140.98-69.98-189.35zM128.04 262.8c-3.48-0.01-6.98 1.08-7.04 3.42V458c0 4 14 4 14 0V266c0-2.07-3.47-3.19-6.96-3.2zm255.92 0c-3.490.01-6.96 1.13-6.96 3.2v192c0 4 14 4 14 0V266.21c-0.06-2.34-3.56-3.43-7.04-3.42zM103 275.73c-15.62 2.39-25.64 11.16-33.13 24.64C61.02 316.29 57 339 57 362s4.02 45.71 12.87 61.63c7.49 13.48 17.51 22.25 33.13 24.64V275.73zm306 0v172.54c15.62-2.39 25.64-11.16 33.13-24.64C450.98 407.71 455 385 455 362s-4.02-45.71-12.87-61.63c-7.49-13.48-17.51-22.25-33.13-24.64zM25 339v46h14v-46H25zm448 0v46h14v-46h-14z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHeadphones;

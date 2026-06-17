@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-cursed-star",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCursedStar {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M259.13 16.94L216.22 128.09 97.34 164.25l106.53-4.22-36.44 94.41L270.16 106.25l50.22 64.41-61.25-153.72zm50.41 63.69l36.38 102.28-102.34-6.75 172.06 53.88-46.5 67.13 128.47-104.28-116.94-7.69-71.12-104.56zm-123.47 98.97L20.97 190.44l87.94 71.38-0.37 127.13 27.75-104.91 82.35 66.85L109.35 207.5l76.72-27.91zm71.16 18.97c-22.4 0-44.82 25.94-67.22 77.88 43.46 77.53 88.13 86.37 134.44 0-22.4-51.93-44.82-77.87-67.22-77.87zm0.41 15.69c11.05 8.62 19 30.54 19 56.44 0 25.9-7.95 47.82-19 56.44-11.05-8.62-19-30.54-19-56.44 0-25.9 7.95-47.82 19-56.44zm82.53 10.59l5.19 180.22-78.59-22.06 140.47 87.44-30.41-111.31 73.56-103.47-82.87 69.38-27.34-100.19zM152.94 309.03l-43.59 159.6 98.91-61.53 120.66 39.44-90.5-58.22 87.09-54.19-171.22 56.53-1.34-81.62z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCursedStar;

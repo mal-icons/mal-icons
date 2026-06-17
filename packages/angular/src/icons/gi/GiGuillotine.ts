@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-guillotine",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiGuillotine {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M159.38 30.72v94.19l205.25-51.06V30.72h-205.25zm-45.120.06v448.47h27.78V30.78h-27.78zm266.53 0v448.47h27.78V30.78H380.78zm-16.15 61.25l-205.25 51.06v45.06l205.25-51.66V92.03zm-205.25 279.69v45.22h67.72c3.82-17.58 18.53-30.69 36.09-30.69 17.56 0 32.24 13.11 36.06 30.69h65.38v-44.22l-205.25-1zm0 62.87v43.88h205.25v-43.88h-65.25c-3.67 17.8-18.48 31.13-36.19 31.13-17.71 0-32.52-13.33-36.19-31.13h-67.62z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiGuillotine;

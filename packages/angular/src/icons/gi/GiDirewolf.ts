@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-direwolf",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDirewolf {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M145.14 22.19c9.51 36.6 15.32 71.89 14.22 108.31 21.73 18.5 44.07 28.21 68.04 38.93 11.81 5.29 23.99 10.82 36.37 17.69-24.7-70.61-62.68-117.77-118.63-164.93zM27.12 25.89C24.96 45.21 27.53 71.24 34.12 97.38c6.96 18.72 16.94 37.97 27.6 54.67 15 23.52 32.42 42.28 40.48 46.87l-9.27 16.24c-14.91-8.5-31.08-28.12-46.98-53.04-9.38-14.71-18.27-31.14-25.33-47.94v196.58l43.17 1.76c-2.8-23.05-4.25-45.88-2.73-66.52l18.61 1.38c-2.31 31.47 3.16 71.29 9.66 108.65 110.62 90.67 195.36 124.52 260.7 131.18l-95.11-66.8 40.05-15.88L152.44 332.58l38.51-1.74c-28.38-14.03-48.9-32.89-63.14-55.63l1.46-22.96c35.81 41.62 89.82 73.71 151.37 98.1l-43.16 6.07 112.77 52.19-22.39 25.52 119.7 42.32c16.61-5.68 31.06-12.68 43.66-19.46-97.36-69.61-123.58-131.64-168.03-193.96l-0.01-0.01c-34.93-45.65-68.47-60.9-103.4-76.53-33.72-15.09-68.97-30.61-101.79-72.56L27.12 25.89zm156.34 175.59l89.89 46.75-24.03 17.57c18.66 30.46 55.13 55.83 91.12 72.86-50.83-7.88-103.33-32.25-148.21-69.43l29.82-20.22-38.58-47.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDirewolf;

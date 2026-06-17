@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-acrobatic",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAcrobatic {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M140.49 19.31s-26.73 65.58-24.57 75.73c1.88 9.19 9.310.32 12.46 7.06 5.59 11.8 55.34 93.66 49.18 98.63-1.56 1.36-39.38-0.4-67.96-5.84-52.49-10-94.82 2.35-77.04 42.21 26.18 58.65 133.15 154.14 97.89 183.6-40.84 34.16 19.82 117.25 79.28 40.31 10.89-14.08 29.36-73.2-1.61-69.58-37.45 4.38-14.13-30.49-14.13-30.49l23.35-29.92c12.96-1.9 134.53-21.45 134.53-21.45l-4.23-27-174.47 20.25s-24.16-32.45-35.96-50.69c-9.37-11.47 62.01 4.88 76.39-10.52 19.97-21.28 7.6-43.88 7.6-43.88L155.35 69.2zm114.62 43.98l-62.76 39.42 16.08 28.9 114.93-58.86zm-124.74 78.84l-46.69 31.61 48.22 10.44 17.42-12.13zm175.08 24.5l-52.17 34.37 51.97 32.460.06-21.93c51.87 12.43 140.22 48.13 126.47 191.26l23.91-73.89 27.88 33.39c-5.5-166.9-150.54-170.59-178.19-171.61zm-74.38 175.95l-19.91 25.87 110.89 14.7s18.64-17.84 15.04-18.98c-27.71-8.62-79.89-16.97-106.01-21.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAcrobatic;

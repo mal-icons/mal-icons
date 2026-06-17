@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GiHorizontalFlip = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M387.02 278.63v67.88L477.53 256l-90.51-90.51v67.88H124.98V165.49L34.47 256l90.51 90.51v-67.88h262.04z"}]]);
+
+export default GiHorizontalFlip;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-abstract-086",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAbstract086 {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"m256,21c-31.9,0-57.57,25.68-57.57,57.58v38.48l-27.17-27.17c-22.56-22.55-58.81-22.55-81.37,0s-22.55,58.81 0,81.37l27.17,27.17h-38.48c-31.9,0-57.58,25.68-57.58,57.58s25.68,57.58 57.58,57.58h38.48l-27.17,27.17c-22.55,22.55-22.55,58.81 0,81.37s58.81,22.55 81.37,0l27.17-27.17v38.48c0,31.9 25.68,57.58 57.57,57.58s57.58-25.68 57.58-57.57v-38.48l27.17,27.17c22.56,22.55 58.81,22.55 81.37,0s22.55-58.81 0-81.37l-27.17-27.17h38.48c31.9,0 57.57-25.68 57.57-57.57s-25.68-57.57-57.57-57.57h-38.48l27.17-27.17c22.55-22.55 22.55-58.81 0-81.37s-58.81-22.55-81.37,0l-27.17,27.17v-38.48c0-31.9-25.68-57.58-57.58-57.58zm0,33.05c16.52,0 29.96,13.44 29.96,29.96s-13.44,29.96-29.96,29.96-29.96-13.44-29.96-29.96 13.44-29.96 29.96-29.96zm0,147.9c29.85,0 54.05,24.2 54.05,54.05s-24.2,54.05-54.05,54.05-54.05-24.2-54.05-54.05 24.2-54.05 54.05-54.05zm-171.99,24.09c16.52,0 29.82,13.44 29.82,29.96s-13.3,29.96-29.82,29.96-29.96-13.44-29.96-29.96 13.44-29.96 29.96-29.96zm343.83,0c16.52,0 29.96,13.44 29.96,29.96s-13.44,29.96-29.96,29.96-29.82-13.44-29.82-29.96 13.3-29.96 29.82-29.96zm-171.84,171.99c16.52,0 29.96,13.44 29.96,29.96s-13.44,29.96-29.96,29.96-29.96-13.44-29.96-29.96 13.44-29.96 29.96-29.96z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAbstract086;

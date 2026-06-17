@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-podium-winner",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPodiumWinner {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 25c-11.59 0-23 12.8-23 31s11.41 31 23 31 23-12.8 23-31-11.41-31-23-31zm-103.95 2.98l-16.1 8.05c15.09 30.19 51.37 56.81 82.19 74.44L232.33 295H247V192h18v103h14.67l14.2-184.53c30.82-17.63 67.1-44.26 82.19-74.44l-16.1-8.05c-19.91 29.9-44.89 49.15-71.33 57.77C281.31 97.28 269.75 105 256 105c-13.75 0-25.31-7.72-32.62-19.26-26.44-8.62-51.42-27.87-71.33-57.77zM169 313v96H25v78h462v-30H343V313H169z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPodiumWinner;

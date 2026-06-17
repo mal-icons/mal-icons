@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-bridge",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBridge {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M255.06 18.25L209.97 140c-49.03 13.39-90.27 48.12-114.88 94.59h-56.25v93.13h112.5c3.17-59.34 48.31-106.44 103.72-106.44 55.4 0 100.55 47.1 103.72 106.44h112.5v-93.13h-56.25c-24.6-46.47-65.85-81.2-114.87-94.59L255.06 18.25zM38.84 344.31v150.25H151.47v-150.25H38.84zm319.81 0v150.25H471.28v-150.25H358.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBridge;

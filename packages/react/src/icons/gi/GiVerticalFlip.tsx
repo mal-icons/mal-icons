@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GiVerticalFlip = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M233.37 387.02H165.49L256 477.53l90.51-90.51h-67.88V124.98h67.88L256 34.47l-90.51 90.51h67.88v262.04z"}]]);
+
+export default GiVerticalFlip;

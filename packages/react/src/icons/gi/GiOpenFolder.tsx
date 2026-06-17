@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GiOpenFolder = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M41 73v304.56L88.7 151H423v-30H185.51l-16-48H41zm62.3 96L43.09 455h381.61l60.21-286H103.3z"}]]);
+
+export default GiOpenFolder;

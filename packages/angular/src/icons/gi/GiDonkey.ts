@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-donkey",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDonkey {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M363.43 18.52s-43.17 34.89-62 89.74c-7.55 22.02-12.52 43.05-14.77 60.69-25 5.23-70.76 33.85-70.76 33.85l-35-3.79 12.08 18.29-36.08 5.71 15.83 14.89-30.37-1.35 3.37 12.82-27-0.68 2.7 20.8-23.63-4.55 2.7 23.62-18.9-3.77-0.67 19.29-29.7-4.72 2.7 22.27L18 332.09V494h178.46l67.6-115.73-36-45.78 12.63-9.82 44.43 56.53c4.5 4.47 9.25 8.63 12.5 10 17.69 7.47 53.25 8.35 69.69 18.21 9.25 5.52 20.38 26.83 30.52 30.52 1.760.52 3.60.74 5.430.67 8.88 0 22.65-3.11 22.65-3.11l12.49 12.16 11.66-10-30.59-31.32 11.44-11.19 32.38 33.09 2.19-1.55s9.76-54.13 3.2-70.51c-7.79-19.47-45.73-43.81-57.23-61.35-9.47-14.4-17-49.51-27.47-63.18-10.17-13.32-31.17-33.62-52.17-47.62 8.99-15.24 17.91-34.76 25.41-56.62 18.83-54.88 6.21-108.88 6.21-108.88zm65.79 21.7s-22 11.37-45.94 33.8a214.08 214.08 0 0 1-10.92 58.61c-5.43 16.02-12 31.63-19.66 46.71 3.28 2.51 6.47 5.1 9.58 7.71a357.57 357.57 0 0 0 32.94-43.89c31.32-48.77 34-102.94 34-102.94zm-86.43 214.01c13.6 0 20.4 16.44 10.79 26.05-9.61 9.61-26.05 2.81-26.05-10.79 0-8.43 6.83-15.26 15.26-15.26zm106.98 101.92c2.69 0 4.88 7 4.88 15.7s-2.19 15.7-4.88 15.7-4.88-7.03-4.88-15.7c0-8.67 2.19-15.7 4.88-15.7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDonkey;

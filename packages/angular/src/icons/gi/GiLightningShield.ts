@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-lightning-shield",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLightningShield {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M464.19 21.84l-10.97 1.94C322.7 46.84 193.83 49.9 62.38 25.19c-17.85-0.33-4.41-0.28-19.06-0.28l0.38 8.06c0 20.070.37 39.72 1.19 58.81l0.31 7.5 7.41 1.28c23.82 4.14 41.91 24.69 41.91 49.78 0 21.53-12.81 39.36-31.5 46.81L55.88 200l1.41 7.53C79.42 327.95 134.21 423.74 249.25 490.16l4.69 2.72 4.66-2.72C371.38 425.04 426.94 328.47 450 207l1.41-7.41-6.94-2.94c-18.25-7.72-31.09-25.29-31.09-46.31 0-25.05 18.13-45.62 41.91-49.78l7.38-1.280.34-7.47c0.89-19.21 1.19-38.74 1.19-58.84V21.84zm-18.78 22.06c-0.08 13.62-0.34 26.97-0.84 40.06-28.78 8.43-49.87 34.95-49.87 66.37 0 25.89 14.48 48.12 35.53 59.94C407.48 323.11 356.8 410 253.91 471.13 148.81 408.77 98.95 322.77 77.06 211.03c21.64-11.7 36.13-34.47 36.13-60.69 0-31.43-21.08-57.96-49.88-66.37-0.48-13-0.75-26.28-0.84-39.78C138.19 58.14 213.08 62.99 287.81 60.28L196.03 182.25h51.69l-91.88 159.97 93.72-96.06h39.44l-95.53 147.16 183.09-184.62h-90.47l60.25-61.75H290l75.94-92.19c26.47-2.76 52.96-6.38 79.47-10.84z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLightningShield;

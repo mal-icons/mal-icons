@@ -4,7 +4,7 @@ description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 30,092 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Game Icons "gi", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 34,272 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -36,6 +36,7 @@ helps you choose icons and wire them into any supported framework correctly.
 | `wi` | Weather Icons | `Wi` | fill |   219 | OFL-1.1 | `0 0 30 30`   |
 | `ad` | Ant Design Icons | `Ad` | fill |   420 | MIT | `0 0 1024 1024` |
 | `fc` | Flat Color Icons | `Fc` | color |   312 | CC-BY-4.0 | `0 0 48 48` |
+| `gi` | Game Icons | `Gi` | fill | 4180 | CC-BY-3.0 | `0 0 512 512` |
 | `gr` | Grommet  | `Gr`   | stroke |   637 | Apache-2.0 | `0 0 24 24` |
 | `rx` | Radix Icons | `Rx` | fill | 318 | MIT | `0 0 15 15` |
 | `tf` | Themify | `Tf` | fill | 352 | OFL-1.1 | `0 0 17 17` |
@@ -65,6 +66,10 @@ Icons (`fc`) are multi-color flat glyphs (`FcAbout`, `FcSearch`): each shape kee
 its own baked color, so they render as-is and are **not** themed via `color`.
 Grommet (`gr`) is a stroke-based 24×24 set that also bundles brand marks
 (`GrHome`, `GrGithub`, `GrAmazon`); brand icons render single-color via `color`.
+Game Icons (`gi`) are 4180 detailed game/fantasy/RPG glyphs from game-icons.net
+(`GiSwordWound`, `GiDragonHead`, `GiHealthPotion`, `GiShield`); each is a single
+`currentColor` fill on a 512×512 canvas (the original black backdrop is stripped),
+themed via `color`.
 Material Icons are Google's Material Icons from fonts.google.com/icons — 24×24
 glyphs that paint with `currentColor` and theme via `color`. They ship in four
 styles under their own prefixes: Filled (`mdf`/`MdfHome`), Rounded
@@ -101,6 +106,7 @@ catalog (name, tags, description) lives in:
 - [references/icons/wi.json](references/icons/wi.json) · [wi.md](references/icons/wi.md) — Weather Icons
 - [references/icons/ad.json](references/icons/ad.json) · [ad.md](references/icons/ad.md) — Ant Design Icons
 - [references/icons/fc.json](references/icons/fc.json) · [fc.md](references/icons/fc.md) — Flat Color Icons
+- [references/icons/gi.json](references/icons/gi.json) · [gi.md](references/icons/gi.md) — Game Icons
 - [references/icons/gr.json](references/icons/gr.json) · [gr.md](references/icons/gr.md) — Grommet
 - [references/icons/rx.json](references/icons/rx.json) · [rx.md](references/icons/rx.md) — Radix Icons
 - [references/icons/tf.json](references/icons/tf.json) · [tf.md](references/icons/tf.md) — Themify
@@ -180,4 +186,4 @@ Swap `react` for any package: `vue`, `svelte`, `solid`, `preact`, `angular`,
 2. Use the package that matches their framework; default to per-icon or set
    barrel imports for tree-shaking.
 3. Open the relevant `references/setup/<framework>.md` for the exact API.
-4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) are CC-BY-4.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) are Apache-2.0; Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`) are MIT; Lucide (`lu`) is ISC.
+4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) are CC-BY-4.0; Game Icons (`gi`) is CC-BY-3.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) are Apache-2.0; Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`) are MIT; Lucide (`lu`) is ISC.

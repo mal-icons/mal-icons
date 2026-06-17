@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-evil-moon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiEvilMoon {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M255.94 19.94C124.51 19.94 17.78 126.67 17.78 258.09c0 131.42 106.74 238.16 238.16 238.16 131.42 0 238.16-106.73 238.16-238.16 0-131.42-106.73-238.16-238.16-238.16zm0 18.69c121.32 0 219.47 98.15 219.47 219.47 0 26.08-4.55 51.09-12.87 74.28-20.99 8.19-43.69 12.75-67.62 12.75-22.24 0-43.58-3.85-63.41-10.94l12.09 44.59-71.75-12.47 18.84 51.56c-57.85 7.1-108.19-15.43-130.47-49.28l81.31 1.78-23.56-48.44 72.44-8.060.690.06c-16.83-11.13-31.78-24.88-44.22-40.69 30.67-18.01 66.44-28.81 102.78-22.84-43.23-49.45-95.71-64.09-139.44-57.44-2.19-11.44-3.34-23.24-3.34-35.31 0-45.29 16.2-86.56 42.94-118.94 2.04-0.06 4.07-0.09 6.13-0.09zM139.19 180.78c0.64-0.01 1.27-0.01 1.91 0 19.470.44 38.24 10.75 48.69 28.85 15.92 27.58 6.48 62.83-21.09 78.75-27.57 15.92-62.83 6.48-78.75-21.09-15.92-27.58-6.48-62.86 21.09-78.78 8.89-5.13 18.58-7.61 28.16-7.72zm-0.06 21.06c-20.26 0-36.91 16.64-36.91 36.91 0 20.26 16.64 36.88 36.91 36.88 20.26 0 36.88-16.61 36.88-36.87s-16.61-36.91-36.87-36.91zm0 18.69c10.16 0 18.19 8.06 18.19 18.22 0 10.16-8.03 18.19-18.19 18.19-10.16 0-18.22-8.03-18.22-18.19 0-10.16 8.06-18.22 18.22-18.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiEvilMoon;

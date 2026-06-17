@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-ram",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiRam2 {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M223.13 24.94L205.06 43l-5.87-5.87-6.62-6.59-6.59 6.6-132.31 132.28L47.03 176l6.63 6.59 5.91 5.91-18.03 18.06-2.75 2.72v38.97h18.69V217l15.31-15.28 35.66 35.62-18.06 18.06-2.72 2.75v38.94h18.69v-31.22l15.31-15.31 35.16 35.16-18.06 18.06-2.75 2.72v38.97h18.69v-31.19l15.34-15.34 36.66 36.66-18.06 18.06-2.75 2.72v38.97h18.69v-31.25l15.31-15.31 35.66 35.66-18.06 18.06-2.72 2.75v38.94h18.69v-31.22l15.31-15.31 35.16 35.16-18.06 18.06-2.75 2.72v38.97h18.69v-31.19l15.35-15.34 5.78 5.78 6.6 6.63 6.59-6.62 132.31-132.25 6.63-6.62-6.62-6.59-5.81-5.81 18.06-18.06-13.22-13.19-18.06 18.03-35.13-35.12 18.03-18.06-13.22-13.22L401 238.94l-35.62-35.62 18.06-18.06-13.22-13.22-18.06 18.06-36.66-36.66 18.06-18.06-13.22-13.19-18.03 18.06-35.19-35.19 18.06-18.03-13.22-13.22-18.03 18.06L218.28 56.22l18.06-18.06-13.22-13.22zm-29.22 67l209.38 209.72-73.5 73.5L120.38 165.75l73.53-73.81zm-32.5 64.97l-13.19 13.25 173.97 172.72 6.56 6.53 6.59-6.53 34.5-34.25-13.16-13.28-27.94 27.75-167.34-166.19zM102.5 174.31L320.94 392.75v30.69L74 176.53l28.5-2.22zm319.69 134.88l25.88 3.250.50.5-108.94 108.94V391.78l82.56-82.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiRam2;
