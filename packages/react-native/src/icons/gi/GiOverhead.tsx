@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GiOverhead = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M37.37 144.56c97.19 0 101.13 1.31 101.13 1.31C263.84-57.84 363.08 219.34 375.95 319.62l-36.720.16 71.83 125.39 68.98-125.01-35.72-1.47c-82.41-287.54-303.28-300.21-406.95-174.13z"}]]);
+
+export default GiOverhead;

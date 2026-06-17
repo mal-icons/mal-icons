@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-level-four-advanced",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLevelFourAdvanced {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M16 16c48 96 24 120 72 168 0 0 48 0 72-24s24-72 24-72c-48-48-72-24-168-72zm144 144c-24.57 24.57-39.75 58.51-39.75 96s15.18 71.43 39.75 96c24.57 24.57 58.51 39.75 96 39.75s71.43-15.18 96-39.75c24.57-24.57 39.78-58.51 39.78-96s-15.21-71.43-39.78-96c-24.57-24.57-58.51-39.75-96-39.75s-71.43 15.18-96 39.75zm192 0c24 24 72 24 72 24 48-48 24-72 72-168-96 48-120 24-168 72 0 0 0 48 24 72zm0 192c-24 24-24 72-24 72 48 48 72 24 168 72-48-96-24-120-72-168 0 0-48 0-72 24zm-192 0c-24-24-72-24-72-24-48 48-24 72-72 168 96-48 120-24 168-72 0 0 0-48-24-72zm62.06-197.81h67.88v67.88h67.88v67.88h-67.87v67.88h-67.87v-67.87h-67.87v-67.87h67.88v-67.87z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLevelFourAdvanced;

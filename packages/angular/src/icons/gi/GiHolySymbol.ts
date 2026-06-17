@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-holy-symbol",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHolySymbol {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M257.47 23.41c-66.35 0-120.16 53.42-120.16 119.31 0 18.87 4.43 36.7 12.28 52.56h-0.09l1.94 3.56c0.210.40.410.80.63 1.19l45.34 84.19-89.53-47.59v214.5l61.34-32.62 77.41-162.12c-17.12-32.79-48.56-96.2-48.56-119.94 0-32.59 26.59-59 59.41-59 32.82 0 59.44 26.41 59.44 59 0 30.66-51.99 126.67-58.22 138.06L196.97 403.78l0.44-0.25-2.91 5.38-39.87 83.56h210.81l-47.91-88.94 89.56 47.6v-214.5l-61.69 32.78-96.59 166.66h41.91v18.69h-74.35l8.13-14.03 122.72-211.63 15.87-29.5 2.34-4.31h-0.09c7.85-15.86 12.25-33.69 12.25-52.56 0-65.9-53.77-119.31-120.12-119.31zm0 72.78c-22.19 0-39.91 17.66-39.91 39.6 0 21.94 17.72 39.56 39.91 39.56 22.19 0 39.94-17.62 39.94-39.56 0-21.94-17.75-39.59-39.94-39.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHolySymbol;

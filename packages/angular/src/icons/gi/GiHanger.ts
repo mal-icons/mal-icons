@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-hanger",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHanger {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M254.51 28c-5.220.02-14.480.38-23.54 4.98-10.35 5.26-19.54 17.5-19.54 36.03h18c0-13.47 4.29-17.23 9.69-19.97C244.53 46.28 251.94 46 256.49 46c10 0 15.38 3.01 18.74 6.89 3.36 3.89 4.9 9.37 4.41 15.39-0.97 12.02-9.74 20.74-23.16 23.72h-9v33.83a30.75 30.75 0 0 1 9-1.35c3.22 0 6.20.5 9 1.35v-16.88c18.77-4.34 30.7-21.88 32.1-39.220.81-9.99-1.72-20.5-8.74-28.61C281.82 33 270.49 28 256.49 28c-0.57 0-1.230-1.980zm1.98 114.47c-6.26 0-11.58 4.42-18.39 12.4-6.8 7.98-13.78 18.64-24.74 25.7-28.99 18.65-62.68 28.16-93.98 39.1-31.3 10.94-59.94 23.17-80.25 45.41-2.82 3.09-7.22 13.04-9.81 21.67-0.10.32-0.130.52-0.220.84 5.8-2.23 12.63-5.03 20.77-8.49 17.7-7.51 40.06-17.32 64.1-27.02 48.08-19.4 102.27-38.73 142.67-38.06 44.690.74 104.79 20.66 154.66 40.14 32.96 12.87 56.17 23.38 71.6 30.58-2.63-8.1-6.46-16.8-9.06-19.65-20.31-22.23-48.95-34.47-80.25-45.41-31.3-10.94-64.99-20.44-93.98-39.09-10.96-7.05-17.94-17.72-24.74-25.7-6.8-7.98-12.12-12.4-18.39-12.4zm-87 121.53v220h158v-220zm-66.41 12c-15.55 6.49-29.73 12.64-42.3 18h90.71v-18zm242.41 0v18h114.42a1313.7 1313.7 0 0 0-42.36-18z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHanger;

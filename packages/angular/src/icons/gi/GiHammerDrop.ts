@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-hammer-drop",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHammerDrop {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M19.5 12.28c88.72 14.19 164.13 68.85 216.78 159.31C191.74 127.06 146.12 88.34 94.63 61.75c32.85 23.08 62.38 54.87 90.84 94.66C134.24 105.18 81.96 62.76 18.19 41.28v35.31c60.13 16.64 118.4 62.56 163.97 129.31l-0.120.06 22.19 38.41 157.94-91.19-22.19-38.41-0.060.03c-38.38-69.37-83.04-95.12-106.72-102.53H190.47c62.75 22.53 105.37 69.7 133.78 142.28-50.12-70.19-122.52-123.54-202.66-142.28H19.5zm153.97 40.47c52.19 21.55 97.93 66.56 110.84 121.59L173.47 52.75zM348.5 182.66l-111.97 64.66L321.25 394l111.97-64.66-84.72-146.69zm72.97 33.56l-24 13.84 19.78 34.28 24-13.87-19.78-34.25zm-168.34 97.19L83.47 411.34l19.81 34.31 169.63-97.97-19.78-34.28zM465.53 332.22l-157.94 91.19 22.22 38.47 157.94-91.19-22.22-38.47zM62.72 412.81l-35.94 20.75 28.91 50.06 35.94-20.75-28.91-50.06z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHammerDrop;

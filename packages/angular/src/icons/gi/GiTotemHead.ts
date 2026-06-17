@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-totem-head",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiTotemHead {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M252.91 20.72c-53.86 0-91.12 11.68-115.91 29.34-24.79 17.66-37.66 41.37-42.47 67.84l-3.19 17.53c21.17-10.36 42.33-18.99 63.5-19.4 22.7-0.44 45.39 8.58 68.09 35.1-47.05 58.97-110.67 73.47-138.97 24.94L55.56 332.44c-4.67 25.740.14 68.28 12.19 102.88 6.02 17.3 13.84 32.69 22.38 43.16 8.54 10.46 17.08 15.53 25.5 15.53h275.22c8.42 0 17.13-5.13 25.84-15.62 8.72-10.5 16.75-25.88 22.97-43.19 12.44-34.61 17.57-77.15 12.69-102.69L423.28 180.59c-29.54 43.04-90.6 27.59-136.12-29.47 21.92-25.6 43.83-34.88 65.75-35.09 20.45-0.2 40.9 7.51 61.34 17.25l-2.94-15.31c-5.03-26.34-17.94-50.07-42.69-67.78-24.74-17.71-61.87-29.47-115.72-29.47zm-10.78 163.31v60.85c-32.84-5.42-27.66-33.51 0-60.84zm22.91 0c27.66 27.33 32.84 55.42 0 60.85V184.03zm-163.28 79.6H405.22l2.4 5.66c24.57 57.58 37.62 119.14-0.59 181.91l-2.75 4.47H102.22l-2.66-4.84C66.48 390.34 72.22 328.58 99.25 269.1l2.5-5.47zm14.78 18.69l27.81 65.56h38.94l-8.94-65.56H116.53zm76.69 0l8.94 65.56h42.47v-65.56h-51.41zm70.09 0v65.56h42.47l8.94-65.56H263.31zm70.28 0l-8.94 65.56h42.13l25.6-65.56h-58.78zm-188.22 84.25l-29.84 70.41h58.13l9.56-70.41h-37.84zm56.72 0l-9.6 70.41h52.13V366.56h-42.53zm61.22 0v70.41h52.13l-9.59-70.41h-42.53zm61.41 0l9.59 70.41h59.03l-27.5-70.41H324.72z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiTotemHead;

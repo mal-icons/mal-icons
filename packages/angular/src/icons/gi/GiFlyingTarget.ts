@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-flying-target",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFlyingTarget {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M32 26c2.04 58.97 24.71 113.86 55.37 152.71-25.02-8.54-47.91-18.19-67.29-30.54C38.29 221.2 81.45 252.41 124.76 260.38c-18.35 2.8-41.63 3.99-71.83 2.8 54.49 34.36 101.99 41.92 137.12 32.97C160.41 275.33 141 240.89 141 202c0-25.29 8.22-48.7 22.11-67.7C116.37 116.03 72.22 75.91 32 26zm448 0c-40.22 49.91-84.37 90.02-131.11 108.3C362.79 153.3 371 176.71 371 202c0 38.89-19.41 73.33-49.05 94.16 35.13 8.94 82.63 1.39 137.12-32.97-30.2 1.18-53.470-71.83-2.8 43.31-7.97 86.47-39.18 104.68-112.21-19.38 12.35-42.27 22-67.29 30.54C455.29 139.87 477.96 84.97 480 26zm-224 79c-53.68 0-97 43.32-97 97 0 53.35 42.79 96.46 96.01 96.99L208 346v16h28.8L224 490h64l-12.8-128H304v-16l-47.01-47.01C310.21 298.46 353 255.35 353 202c0-53.68-43.32-97-97-97zm0 17.33c43.89 0 79.67 35.77 79.67 79.67 0 43.89-35.77 79.67-79.67 79.67-43.89 0-79.67-35.77-79.67-79.67 0-43.89 35.77-79.67 79.67-79.67zm0 18c-34.16 0-61.67 27.5-61.67 61.67s27.5 61.67 61.67 61.67 61.67-27.5 61.67-61.67-27.5-61.67-61.67-61.67zm0 17.34c24.38 0 44.33 19.95 44.33 44.33S280.38 246.33 256 246.33 211.67 226.38 211.67 202s19.95-44.33 44.33-44.33zm0 18c-14.65 0-26.33 11.68-26.33 26.33 0 14.65 11.68 26.33 26.33 26.33 14.65 0 26.33-11.68 26.33-26.33 0-14.65-11.68-26.33-26.33-26.33z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFlyingTarget;

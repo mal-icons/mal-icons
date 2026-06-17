@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sword-break",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSwordBreak {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M162.47 17.48c32.96 78.96 43.31 192.89 35.18 285.14-0.34 2.72-0.7 5.43-1.09 8.13-0.1-0.29-0.2-0.58-0.31-0.87h0c-10.73 62.47-55.73 130.07-108.04 183.39h55.48l0.02-0.03H165l-0.030.03h55.48c39.53-57.09 70.65-135.46 52.56-183.38h0c-4.65 27.07-15.74 55.1-31.07 82.52 19.13-89.55 11.02-187.79-24.67-273.47-13.91-42.51-32.34-79.6-54.8-101.45zm234.39 89.87l-38.99 10.45 4.84 18.05 12.63-3.38 30.92 115.41-12.63 3.38 4.84 18.05 38.99-10.45-4.84-18.05-14.44 3.87c7.45-22.41 8.27-43.95 2.98-63.7-5.11-19.07-16-36.74-32.64-52.05l13.17-3.53-4.84-18.05zM16.95 135.08l39.43 67.55 96.22 54.99 6.55-41.67 16.08 7.21 5.3-29.8-89.11-51.58-74.47-6.7zm475.44 20.55l-54.93 14.63c0.63 1.95 1.22 3.91 1.75 5.88 1.61 6.01 2.73 12.14 3.38 18.35l49.8-13.27v-25.6zm-127.33 10.71L260.4 193.91c4.9 22.99 8.12 46.34 9.65 69.77l113.12-29.79-18.1-67.56zm-191.08 102.87l-46.05 44.01 30.71 12.28 15.35-56.29zm105.8 4.46L295.6 309.73l15.640.350.03-15.78-31.48-20.64zm47.55 39.14l27.6 40.2 29.37-10.77-24.13-18.32-32.84-11.1zM117.74 337.54l-48.62 3.8-5.35 30.82 27.93-11.73 26.04-22.88zm198.91 1.07l0.21 35.19 21.38 15.8 12.47-12.83-34.05-38.15zm-156.32 6.94l-42.77 28.040.04 21.44 21.25-0.49 21.48-48.99zM88.07 407.61L64.22 423.78l5.97 20.4 26.86-5.18-8.97-31.39z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSwordBreak;

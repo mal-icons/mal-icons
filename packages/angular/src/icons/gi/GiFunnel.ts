@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-funnel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFunnel {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 23c-62.38 0-118.82 5.38-160.28 14.26-20.73 4.44-37.67 9.69-50.19 16.03-26.54 16.09-31.14 53.2-21.92 77.99C69.92 217.44 138.57 281.38 215 340.32V489c25.85-0.6 80.09-14.04 82-41V340.32c67.64-60.82 155.48-122.16 191.38-209.04 5.48-17.03 3.5-55.85-6.42-67.17-4.04-4.23-9.24-7.65-15.49-10.82-12.51-6.34-29.46-11.59-50.19-16.03C374.82 28.38 318.38 23 256 23zm0 18c61.34 0 116.89 5.37 156.51 13.86C422.35 57.71 470.83 69.63 471 80c0.18 10.46-46.09 22.44-58.49 25.14C372.89 113.63 317.33 119 256 119c-61.33 0-116.89-5.37-156.51-13.86C89.65 102.29 40.89 89.06 41 80c0.12-9.68 46.09-22.44 58.49-25.14C139.11 46.37 194.67 41 256 41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFunnel;

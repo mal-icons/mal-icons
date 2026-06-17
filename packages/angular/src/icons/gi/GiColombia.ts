@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-colombia",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiColombia {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M300.29 18.63l16.06 11.57c-61.8 55.45-66.37 51.93-35.51 133.25l140.12 32.45c-15.19 70.07-3.26 87.45 13.24 129.33l-74.320.29c1.58 53.79 13.36 101.91-6.95 167.86l-24.83-8.94 6.95-46.68-70.35 6.09c-51.27-68.65-121.67-90.65-186.9-125.28 29.96-14.76 57.87-31.29 67.54-63.57L126.47 143.75c41.01-47.54 75.07-92.92 173.82-125.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiColombia;

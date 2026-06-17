@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-traffic-cone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiTrafficCone {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 16.46c-3.94 0-7.950.71-9.98 1.51-0.50.2-0.40.17-0.620.3l00.02s-9.85 37.48-22.8 87.3c18.28 13.22 47.39 13.42 65.990.6l-21.98-87.91c-0.22-0.13-0.12-0.11-0.62-0.3-2.04-0.8-6.04-1.51-9.98-1.51zm-52.87 164.38c-2.03 7.88-3.96 15.32-6 23.29-4.58 17.89-9.12 35.69-13.54 53.13 53.05 17 90.25 17.2 142.920.61l-19.09-76.36c-34.76 15.42-69.52 15.2-104.28-0.66zm-39.16 155.01l-0.010.05c-4.52 18.53-8.28 34.41-10.9 46.18-1.31 5.89-2.33 10.75-3.01 14.34-0.68 3.59-0.93 6.52-0.93 5.85 0 7.41 2.56 13.51 7.73 19.42 5.17 5.91 13.12 11.36 23.14 15.81 20.03 8.9 48.04 13.71 76.01 13.71s55.98-4.81 76.01-13.71c10.02-4.45 17.97-9.9 23.14-15.81 4.97-5.69 7.47-11.58 7.66-18.61l-16.54-66.15c-55.62 33.65-127.02 33.29-182.3-1.08zm212.25 46.65l4.67 18.66v1.11c0 11.91-4.68 22.7-12.19 31.28-7.5 8.57-17.66 15.2-29.37 20.4-23.42 10.41-53.35 15.26-83.32 15.26-29.97 0-59.9-4.85-83.32-15.26-11.71-5.2-21.87-11.83-29.37-20.4-7.5-8.57-12.19-19.37-12.19-31.28 0-3.080.5-5.28 1.24-9.190.53-2.78 1.26-6.29 2.09-10.14l-84.56 28.19L256 497l206.11-85.88-85.9-28.63z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiTrafficCone;

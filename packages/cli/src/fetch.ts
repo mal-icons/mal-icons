@@ -2,7 +2,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync } from "node:fs";
 import { mkdir, mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { join, relative } from "node:path";
 import type { IconSource } from "../../../icons-data/sources.config";
 
 /** A raw source SVG: its base name (without extension) and file contents. */
@@ -35,6 +35,28 @@ function cacheDirFor(source: IconSource): string {
 }
 
 /**
+ * Recursively collect every `.svg` file under `dir`, returning paths relative
+ * to `dir` (POSIX-separated, sorted) so the result is deterministic across
+ * platforms. Used by sets that shard artwork across sub-directories.
+ */
+async function collectSvgsRecursive(dir: string): Promise<string[]> {
+  const out: string[] = [];
+  async function walk(current: string): Promise<void> {
+    const entries = await readdir(current, { withFileTypes: true });
+    for (const entry of entries) {
+      const full = join(current, entry.name);
+      if (entry.isDirectory()) {
+        await walk(full);
+      } else if (entry.name.endsWith(".svg")) {
+        out.push(relative(dir, full).split("\\").join("/"));
+      }
+    }
+  }
+  await walk(dir);
+  return out.sort();
+}
+
+/**
  * Ensure raw SVGs for a set are available locally.
  *
  * When `noFetch` is false the set's pinned archive is downloaded from
@@ -54,13 +76,18 @@ export async function fetchSet(source: IconSource, noFetch: boolean): Promise<Ra
     );
   }
 
-  const files = (await readdir(cacheDir)).filter((f) => f.endsWith(".svg")).sort();
+  const files = source.recursive
+    ? await collectSvgsRecursive(cacheDir)
+    : (await readdir(cacheDir)).filter((f) => f.endsWith(".svg")).sort();
   const exclude = source.excludePattern ? new RegExp(source.excludePattern, "i") : null;
   const icons: RawIcon[] = [];
   for (const file of files) {
     if (exclude?.test(file)) continue;
     const svg = await readFile(join(cacheDir, file), "utf8");
-    icons.push({ name: normalizeName(file), svg });
+    // Recursive sets carry a sub-path (e.g. `lorc/ace.svg`); the component name
+    // derives from the file's own base name only, never its author folder.
+    const base = file.slice(file.lastIndexOf("/") + 1);
+    icons.push({ name: normalizeName(base), svg });
   }
   return icons;
 }
@@ -90,10 +117,16 @@ async function downloadAndExtract(source: IconSource, cacheDir: string): Promise
 
     await rm(cacheDir, { recursive: true, force: true });
     await mkdir(cacheDir, { recursive: true });
-    const svgFiles = (await readdir(iconDir)).filter((f) => f.endsWith(".svg"));
-    for (const file of svgFiles) {
-      const content = await readFile(join(iconDir, file), "utf8");
-      await writeFile(join(cacheDir, file), content);
+    // Recursive sets (e.g. Game Icons) keep their sub-directory structure so
+    // identically-named glyphs from different author folders don't collide in
+    // the flat cache; flat sets copy `.svg` files straight into the cache root.
+    const relPaths = source.recursive
+      ? await collectSvgsRecursive(iconDir)
+      : (await readdir(iconDir)).filter((f) => f.endsWith(".svg"));
+    for (const rel of relPaths) {
+      const dest = join(cacheDir, rel);
+      await mkdir(join(dest, ".."), { recursive: true });
+      await writeFile(dest, await readFile(join(iconDir, rel), "utf8"));
     }
   } finally {
     await rm(work, { recursive: true, force: true });

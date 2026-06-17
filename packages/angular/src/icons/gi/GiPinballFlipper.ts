@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-pinball-flipper",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPinballFlipper {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M99.16 35.82a78.03 78.03 0 0 0-78.03 78.03 78.03 78.03 0 0 0 78.03 78.03 78.03 78.03 0 0 0 78.03-78.03 78.03 78.03 0 0 0-78.03-78.03zM95.26 47.53a62.42 62.42 0 0 1 30.79 8.17 78.03 78.03 0 0 0-7.38-0.37 78.03 78.03 0 0 0-78.03 78.03 78.03 78.03 0 0 0 0.42 7.41 62.42 62.42 0 0 1-8.22-30.82A62.42 62.42 0 0 1 95.26 47.52zm52.05 228.46c-20.2-0.23-31.68 32.78-12.65 43.39 87.04 50.53 175.91 102.78 261.92 152.03 35.52 13.91 75.6-3.6 89.51-39.12 13.91-35.52-3.61-75.6-39.13-89.51-103.56-22.99-199.01-43.76-295.5-66.28-1.42-0.33-2.8-0.49-4.15-0.51zm273.49 107.94a24.02 22.95 21.39 0 1 9.37 1.72 24.02 22.95 21.39 0 1 14 30.13 24.02 22.95 21.39 0 1-30.73 12.61 24.02 22.95 21.39 0 1-14-30.13 24.02 22.95 21.39 0 1 21.36-14.33z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPinballFlipper;

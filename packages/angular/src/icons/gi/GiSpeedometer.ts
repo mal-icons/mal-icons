@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-speedometer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSpeedometer {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 54.28c-124.6 0-226 101.4-226 226 0 47.86 14.98 92.29 40.47 128.88l29.79-19.86c-17.19-24.54-28.71-53.36-32.7-84.58H96v-18H66.11c-0.07-2.14-0.11-4.28-0.11-6.44 0-45.38 15.82-86.97 42.24-119.6l17.4 17.4 12.73-12.73-18.13-18.13C152.74 114.06 197.34 92.8 247 90.5v29.22h18V90.5c49.67 2.3 94.27 23.56 126.77 56.73l-18.13 18.13 12.73 12.73 17.4-17.4c26.42 32.63 42.24 74.22 42.24 119.6 0 2.15-0.04 4.3-0.11 6.44H416v18h28.44c-3.99 31.21-15.51 60.03-32.69 84.58l29.79 19.86C467.03 372.57 482 328.15 482 280.28c0-124.6-101.4-226-226-226zm15.83 66.23a144 160 0 0 1 74.61 100.06l49.97-17.57a160 160 0 0 0-4.3-7.01l-5.13 5.15-30.37-30.29-5.76-5.75 7.85-7.87a160 160 0 0 0-86.86-36.73zm156.15 89.84l-175.33 60.6C240.51 272.62 231 283.15 231 295.72c0 13.7 11.3 25 25 25 6.77 0 12.95-2.76 17.47-7.21L427.98 210.35zm-16.51 32.32l-60.71 40.72a144 160 0 0 1-56.6 108.32h76.06a160 160 0 0 0 39.76-68.57H398.48v-52.51h17.02a160 160 0 0 0-4.03-27.96zM128 421.72v36h256v-36H128z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSpeedometer;

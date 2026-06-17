@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-brodie-helmet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBrodieHelmet {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 74.25c-87.89 0-159.15 61.24-159.15 136.79 0 33.82 88.22 54.08 171.77 54.08 75.16 0 146.49-16.39 146.49-54.070.05-70.7-71.21-136.79-159.1-136.79zm172.12 107.03a124.91 124.91 0 0 1 3.66 29.7c0 17.66-9.82 41.86-56.59 56.98-27.35 8.84-65.19 13.72-106.56 13.72-44.06 0-88.44-5.47-121.78-15-18.7-5.34-33.6-11.84-44.38-19.33-10.14-7.04-22.22-19.07-22.22-36.36a135.41 135.41 0 0 1 3.26-29.59C50.74 195.4 31 213.28 31 232.8c0 44.22 100.78 80.07 225 80.07 124.23 0 225-35.81 225-80.07 0-19.6-19.89-37.59-52.88-51.52zM118.61 313.46c20.18 64.75 73.62 111.17 136.21 111.17 62.34 0 115.68-46.07 136.01-110.46a416.83 416.83 0 0 1-19.1 4.38c-20.14 52.66-64.96 89.42-116.91 89.42-52.13 0-97.1-37.02-117.11-90a413.87 413.87 0 0 1-19.1-4.51z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBrodieHelmet;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-barbute",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBarbute {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M255.41 17.75C189.31 39.42 124.54 85.12 79.03 150.34c21.24 57.44 32.72 94.31 32.72 131.38 0 36.49-11.52 73.72-32.12 129.66 49.72 36.73 100.08 58.95 150.31 64.94-5.05-60.38-9.83-120.75 1.59-181.12-30.64-3.28-61.38-13.29-92.03-30.72v-71.31c80.67 42.26 158.91 41.55 242.06 0v71.31c-30.06 14.38-60.19 24.72-90.25 29.28 8.68 60.46 7.72 120.92 2.03 181.38 46.39-7.33 92.89-28.82 139.03-64.31-33.97-112.95-34.03-145.930.59-260.47C391.16 84.84 317.92 39.89 255.41 17.75zm-75.12 212c-11.16-0.13-19.65 3.17-21.25 9.16-2.33 8.7 10.78 19.76 29.28 24.72 18.51 4.96 35.39 1.92 37.72-6.78 2.33-8.7-10.77-19.76-29.28-24.72-5.78-1.55-11.4-2.31-16.47-2.37zm160.69 0c-5.070.06-10.690.83-16.47 2.38-18.51 4.96-31.61 16.02-29.28 24.72 2.33 8.7 19.21 11.74 37.72 6.78 18.51-4.96 31.61-16.02 29.28-24.72-1.6-5.98-10.09-9.29-21.25-9.15z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBarbute;

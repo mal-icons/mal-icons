@@ -90,6 +90,12 @@
       "import": "./dist/icons/fi/index.js"
     },
     "./fi/*.json": "./src/icons/fi/*.json",
+    "./gi": {
+      "types": "./dist/icons/gi/index.d.ts",
+      "bun": "./src/icons/gi/index.ts",
+      "import": "./dist/icons/gi/index.js"
+    },
+    "./gi/*.json": "./src/icons/gi/*.json",
     "./gr": {
       "types": "./dist/icons/gr/index.d.ts",
       "bun": "./src/icons/gr/index.ts",

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-oat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiOat {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M253.79 24.67c-19.460.19-39.21 2.82-58.88 8.09C69.03 66.49-5.66 195.87 28.06 321.74 54.3 419.65 138.41 486.59 233.73 495.62c-2.96-41.58-1.01-83.51 3.91-125.89l18.56 2.15c-4.92 42.36-6.77 83.89-3.67 124.77 21.270.3 42.94-2.29 64.51-8.07 125.87-33.73 200.57-163.11 166.84-288.98-28.46-106.21-125.01-175.98-230.1-174.93zm16.27 20.44c14.34 29.82 20.8 57.25 20.02 78.46l-28.49 33.6-24.11-39.1c2.94-20.56 14.04-45.81 32.58-72.96zm-70.88 64.34c6.72 4.12 13 8.33 18.85 12.6l-0.040.02 33.69 54.65-3.01 38.92-42.42-44.93c-4.54-17.19-7.11-37.92-7.07-61.25zm132.89 10.05c-3.32 22.09-8.65 41.48-15.3 57.4l-49.34 38.55 3.09-39.92 37.99-44.8c7.29-3.92 15.14-7.68 23.56-11.22zm-146.58 68.08c6.23 2.28 12.15 4.67 17.75 7.16L246.73 240.8l-3.17 41.01-37.19-20.93c-10.98-15.84-18.87-40.41-20.87-73.29zm152.74 11.47c-6.61 29.93-17.33 51.98-29.8 66.18l-46.22 17.69 3.27-42.23 44.45-34.73c8.73-2.62 18.18-4.95 28.3-6.91zM179.1 275.4c6.880.68 13.44 1.58 19.7 2.66l43.17 24.3-3.89 50.24c-21.09-5.57-43.69-30.97-58.98-77.19zm139.24 9.96c3.84-0.02 7.780.04 11.810.19-22.9 46.97-50.93 69.05-73.46 68.89l3.94-50.89 46.72-17.88c3.57-0.18 7.24-0.28 11-0.3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiOat;

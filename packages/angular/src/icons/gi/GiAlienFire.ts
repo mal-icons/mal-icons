@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-alien-fire",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiAlienFire {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M260.28 21.66c-15.21 146.58-91.15 112.62-109.75 212.91-42.2-38.57-53.43-86.51 10.81-148.94-142.44 81.37-91.17 186.01 13.31 271.81 26.89 32.33 66.16 57.98 85.63 132.78 19.47-74.8 58.73-100.45 85.63-132.78C450.39 271.63 501.66 167 359.22 85.63c64.26 62.44 53.03 110.4 10.81 148.97C351.44 134.27 275.5 168.25 260.28 21.65zm0 73.03c5.48 52.79 24.24 66.03 40.6 81.66 21.9 13.69 36.53 38.02 36.53 65.66 0 30.13-17.38 56.31-42.62 69.06-12.9 13.74-26.51 30.44-34.5 61.13-7.88-30.3-21.24-46.98-34-60.62-25.78-12.56-43.59-39.03-43.59-69.56 0-28.21 15.22-52.98 37.88-66.5 16.14-15.28 34.34-28.97 39.72-80.81zm-0.25 88.66c-32.51 0-58.65 26.15-58.65 58.66 0 32.51 26.14 58.66 58.66 58.66 32.51 0 58.69-26.14 58.69-58.66 0-32.51-26.18-58.66-58.69-58.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiAlienFire;

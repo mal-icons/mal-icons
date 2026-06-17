@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-monster-grasp",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMonsterGrasp {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M108.78 256.06c0.29 56.57 13.98 101.83 24.94 133.59C85.56 317.75 30.9 187.79 120.5 112.15c-42.56-4.31-92.37 25.8-95.78 71.21h-0.19c-1.07 14.05 2.58 29.76 11.75 46.13C16.31 284.78 15.33 345.71 49.6 433.39c19.18 49.05 70.85 62.7 120.75 53.94 36.35-6.4 70.19-22.67 93.29-59.75 40.16-64.48 59.99-105.42 101.79-135.42 46.53-19.78 97.54-3.25 123.88 22.45-7.48-57.55-70.4-111.51-120.46-56.76-41.32 7.66-69.03 17.52-115.72 51.24 19.65-38.76 56.33-84.91 79.13-112.41 33.69-41.61 102.85-56.82 138.52-48.11-31.99-45.34-127.92-59.59-149.61 12.53-42.01 19.26-94.9 60.85-129.91 103 11.58-52.75 33.18-117.79 54.35-155.21 33.83-36.55 83.77-35.93 114.62-26.56-28.9-46.6-121.24-70.12-138.49 12.99-43.11 33.08-87.25 100.11-112.96 160.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMonsterGrasp;

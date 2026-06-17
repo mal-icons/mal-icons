@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-microphone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMicrophone {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M388.94 29.47c-23.01 0-46.15 9.4-62.69 25.41 5.74 46.14 21.33 75.59 43.75 94.28 22.25 18.54 52.08 26.88 87.75 28.35 13.43-16.07 21.19-37.08 21.19-58 0-23.47-9.75-47.06-26.34-63.66C436 39.25 412.4 29.47 388.94 29.47zm-76.28 42.37c-8.81 14.24-13.75 30.99-13.75 47.66 0 23.47 9.78 47.06 26.38 63.66 16.6 16.59 40.19 26.38 63.66 26.38 18.68 0 37.44-6.2 52.69-17.09-31.55-3.2-59.63-12.46-81.87-31-23.28-19.4-39.55-48.64-47.09-89.59zm-27.78 67.72l-64.47 83.78c2.9 19.6 10.46 35.1 22.09 46.19 11.69 11.14 27.71 18.12 48.59 19.63l79.31-65.28c-21.2-3.83-41.14-14.11-56.44-29.41-14.93-14.93-25.06-34.29-29.09-54.91zM300 201.47a8 8 0 0 1 0.03 0 8 8 0 0 1 0.53 0 8 8 0 0 1 5.88 13.37l-34.31 38.78a8 8 0 1 1-12-10.59l34.31-38.78a8 8 0 0 1 5.56-2.78zM207.59 240L103 375.91c3.49 13.33 7.33 20.94 12.5 26.03 5.03 4.95 12.39 8.46 23.56 12.41l135.31-111.44c-17.07-3.61-31.59-11-42.91-21.78-11.35-10.81-19.32-24.83-23.88-41.13zM95.97 402.38c-9.12 5.38-17.37 14.08-23.13 24.41-9.66 17.32-11.52 37.24-2.25 50.47 6.67 4.34 10.57 4.81 13.84 4.34 1.79-0.26 3.62-0.95 5.62-1.87-3.18-9.57-6.3-20.93-2.5-33.31 3.03-9.87 10.32-19.04 23.47-27.5-2.41-1.65-4.64-3.49-6.75-5.56-3.22-3.16-5.94-6.78-8.31-10.97z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMicrophone;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-white-tower",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiWhiteTower {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M97.81 23.38v92.88l46.22 51.72V351h-25.84L94.59 491.91H414.53L390.94 351h-25.87V167.97l46.22-51.72V23.38h-53.94v43.97H324.5v-43.97h-53.94v43.97h-32.44v-43.97h-53.94v43.97H151.75v-43.97H97.81zm73.75 152.88h18.69v50.22h-18.69v-50.22zm73.59 0h18.69v50.22h-18.69v-50.22zm74.16 0H338v50.22h-18.69v-50.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiWhiteTower;

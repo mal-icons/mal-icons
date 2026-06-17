@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-feather-wound",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFeatherWound {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M15.26 23.99C28.83 47.05 58.63 88.46 89.65 116.95l92.84 62.82-119.47-50.46-1.92-0.31c24.34 38.85 55.54 70.03 92.01 93.28l127.3 60.38L155.9 253.24c40.5 39.53 100.61 75.72 151.4 98.7l63.93 24.37-82.89-11.07-0.210.02c52.34 51.69 149.04 110.42 207.45 131-1.58-13.49-4.59-28.01-8.82-42.76-16.24-34.37-48.9-49.71-83.41-61.43 2.36-0.09 4.7-0.14 7.02-0.13 22.760.12 43.14 5.6 60.71 18.6-13.84-30.9-32.51-59.16-54.25-76.75l0.390.04c-26.09-21.57-56.34-40.94-89.81-58.67 46.75 9.34 102.14 38.66 136.29 63.16l0.120.01c-34.19-46.3-90.76-97.42-140.1-130.97L208.53 148.02l136.18 37.75c-41.77-26.2-80.66-45.64-123.83-61.58L108.19 87.82l122.27 13.18C176.47 68.61 75.36 38.79 15.26 23.99h0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFeatherWound;

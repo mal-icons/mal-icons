@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-charm",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCharm {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M146.47 21.59c-19.840.39-40.26 13.99-46.94 38.94-36.28-36.28-90.65-8.07-79 41.6 11.83 50.4 99.55 64.54 114.25 90 0-32.13 66.5-82.52 54.19-135.12-5.73-24.47-23.86-35.77-42.5-35.41zM237 154.47c-35.240.73-68.83 22.93-79.69 69.31C133.2 326.81 263.44 425.5 263.44 488.44c28.8-49.88 200.59-77.56 223.75-176.28 22.82-97.27-83.62-152.5-154.69-81.44-13.49-50.34-55.56-77.08-95.5-76.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCharm;

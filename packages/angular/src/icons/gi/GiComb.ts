@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-comb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiComb {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M447.25 113.53c-0.70.02-1.40.07-2.120.13C299.13 126.03 155.7 158.49 36.47 223.28c-10.36 5.63-15.2 13.98-16.84 26.35-1.64 12.370.83 28.47 6.72 45.84 11.22 33.12 34.59 70.5 59.37 98.12l17.59-4.72L66.37 251l18.03-4.81 36.94 137.84 21.03-5.65-36.94-137.81 18.03-4.84 36.94 137.81 18.78-5.03-36.9-137.81 18.06-4.84 36.91 137.78 20.28-5.44-36.94-137.78 18.06-4.84 36.91 137.78 21.03-5.66-36.91-137.75 18.03-4.84 36.91 137.75 21.03-5.62-36.9-137.75 18.03-4.84 36.94 137.72 19.53-5.22-36.91-137.72 18.03-4.84 36.91 137.69 22.47-6.03-36.87-137.69 18.06-4.84 36.88 137.69 21-5.62-36.87-137.69L394 163.22l36.88 137.66 20.28-5.44-36.87-137.62 18.03-4.84 36.88 137.62 17.69-4.75c7.68-36.4 9.24-81.31 2.41-116.03-3.59-18.22-9.55-33.5-17.06-43.16-6.57-8.45-13.48-12.83-22.91-13.12-0.67-0.02-1.36-0.02-2.06 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiComb;

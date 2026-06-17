@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-revolver",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiRevolver {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M481.14 125.36c-18.78 5.48-34.91 14.49-46.95 32.97h46.95v-32.97zm-188.91 50.01l-13.120-0.12 35.74H491.47l-0.34-35.74H292.23v0zm-29.120l-33.070-97.30.01c-16.02 27.97-16.89 57.78 1.04 94.07H262.8l0.06-20.22H168.09a8 8 0 1 1 0-16h94.8v-22.68h-95.15a8 8 0 1 1 0-16h95.3l0.06-19.18zm-161.380.01c-7.83 28.72-12.35 45.61-18.73 58.69-6.78 13.89-15.75 23.88-32.3 41.7C11.08 351.2 17.48 389.42 20.46 432.08c12.07 14.13 29.67 21.28 48.72 23.54 17.7 2.1 36.14-0.29 50.82-4.6-0.27-47.02 8.21-93.3 40.84-139.84l5.26-7.51 6.72 6.23c18.24 16.9 40.92 21.27 63.21 17.72 22.28-3.55 43.76-15.46 57.25-30.28 9.92-10.89 12.49-23.07 11.66-37.93h-26.11l-0.08 26.04h-0.69c-9.56 10.99-33.9 24.08-47.8 24.15-13.560.06-35.84-13.2-47.9-24.14H123.88l-2.25-4.27c-20.28-38.43-21.83-74.21-7.06-105.8h-12.84zm-74.88 2.47c7.33 23.55 19.13 43.55 34.83 60.8 2.73-3.82 4.95-7.51 6.95-11.59 2.33-4.77 4.44-10.37 6.72-17.44-0.22-0.14-0.4-0.25-0.63-0.39-7.68-4.85-17.46-11.23-27.12-17.58-10.51-6.92-13.48-8.94-20.73-13.79zm252.09 49.26l-0.04 13.66v2.64h82.72V227.11h-82.68zM88.64 293.9c16.47 0 30 13.53 30 30 0 16.47-13.53 30-30 30-16.47 0-30-13.53-30-30 0-16.47 13.53-30 30-30zm0 16c-7.83 0-14 6.17-14 14 0 7.83 6.17 14 14 14 7.83 0 14-6.17 14-14 0-7.83-6.17-14-14-14zm-18.02 67.68a13 13 0 0 1 12.63 13 13 13 0 1 1-26 0 13 13 0 0 1 13.38-13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiRevolver;

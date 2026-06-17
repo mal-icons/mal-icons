@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-first-aid-kit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFirstAidKit {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 73c-62.87 0-91.91 11.95-105.27 26.98-11.63 13.09-13.32 30.85-13.59 51.02h30.44c1.63-13.96 7.31-26.44 19.44-34.52C201.7 106.7 223.25 103 256 103c32.75 0 54.31 3.74 69 13.54 12.12 8.08 17.79 20.55 19.43 34.46h30.44c-0.27-20.17-1.96-37.93-13.59-51.02C347.91 84.95 318.88 73 256 73zm-135 94v16h62v-16h-62zm208 0v16h62v-16h-62zM81.47 201c-13.87 0-28.23 6.84-38.97 17.41C31.76 228.99 25 243 25 256v192c0 14.5 3.49 23.75 9.37 29.63C40.25 483.51 49.53 487 64.06 487h384.39c14.25 0 23.38-3.46 29.22-9.34C483.51 471.78 487 462.5 487 448V256c0-13-6.78-27.05-17.36-37.64C459.05 207.78 445 201 432 201H81.47zM224 256h64v64h64v64h-64v64h-64v-64h-64v-64h64v-64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFirstAidKit;

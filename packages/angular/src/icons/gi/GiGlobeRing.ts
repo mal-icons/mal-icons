@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-globe-ring",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiGlobeRing {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 18.5c-35 0-61.75 17.78-79.03 39.38-14.67 18.34-23.13 39.13-25.35 56.62h18.35c2.35-13.12 9.3-30.67 21.06-45.38C205.75 50.72 227 36.5 256 36.5s50.25 14.22 64.97 32.62c11.76 14.71 18.71 32.25 21.06 45.38h18.35c-2.23-17.49-10.68-38.28-25.35-56.62C317.75 36.28 291 18.5 256 18.5zm13.89 35.03c14.41 12.58 31.53 37.29 18.65 60.97h34.84c-1.09-12.5-24.59-55.76-53.49-60.97zm-125.32 78.97c-0.220.22-0.770.85-1.35 2.15C141.98 137.46 141 142.5 141 147.5s0.98 10.04 2.23 12.85c0.58 1.3 1.13 1.94 1.35 2.15h222.86c0.22-0.220.77-0.85 1.35-2.15C370.02 157.54 371 152.5 371 147.5s-0.98-10.04-2.22-12.85c-0.58-1.3-1.13-1.93-1.35-2.15zm3.98 48C107.48 212.56 81 262.52 81 318.5c0 96.44 78.56 175 175 175s175-78.56 175-175c0-55.98-26.48-105.94-67.56-138h-90.69C341.78 188.73 395 247.19 395 318.5c0 76.98-62.02 139-139 139-76.98 0-139-62.02-139-139 0-71.31 53.22-129.77 122.25-138z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiGlobeRing;

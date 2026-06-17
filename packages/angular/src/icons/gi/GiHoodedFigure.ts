@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-hooded-figure",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHoodedFigure {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M355.1 21.1c-33.680.16-64.17 18.59-74.61 50.5 21.36-0.79 23.2 53.92 23.2 53.92l41.62 6.26c-13.41 12.96-50.02 5.97-50.02 5.97-17.14 19.18-33.12 40.97-47.76 57.58-15.95 18.13-35.2 38.1-57.02 60.09-6.79 6.82 41.59-9.82 34.34-2.6-24.57 12.75-42.3 16.1-61.76 32.07-31.31 25.67-62.85 60.71-81.15 79.43-7.71 7.91-44.36 37.67 20.47 34.74 2.4 7.52-1.62 9.46-7.49 15.29-4.33 4.3-18.080.28-22.26 2.83-22.17 35.06-17.25 37.98-27.43 58.05-4.25 11.64 41.68-14.4 64.31-34.18 13.97-7.58 25.15-21.65 35-17.2 43.11 18.98 129.83 35.53 141.33 27.62 18.37-12.65-10.32-46.34 3.83-97.91 23.47 5.82 43.83 13.66 66.77 11.46-1.58 49.31 3.56 55.31-3.89 104.78l59.13 21.13 1.91-13.81-33.81-22.48c14.57-50.66 16.81-72.58 15.23-121.72-0.16-5.37-45.17-24.32-74.49-33.13l18.59-30.41c30.39-44.79 124.14-62.05 127.93-88.26-13.02-19.68 3.02-27.38-25.09-21.91-6.29 1.32-13.77 24.35-18.02 27.21-7.84 5.28-40.65 24.48-51.95 18.38-1.9-1.03 7.25-33.44 6.85-44.78-0.12-3.2-1.19-6.62-2.87-100.19-0.64 15.24-52.48 54.81-94.02-43.98 25.13-65.33 79.93-65.35 79.98-2.21-2.13-4.48-3.98-6.64-5.42-1.92-14.7-4.82-73.02 68.6-78.78-21.43-21.18-47.7-30.78-72.28-30.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHoodedFigure;

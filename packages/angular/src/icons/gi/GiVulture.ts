@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-vulture",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiVulture {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M363.19 28.06c-34.37 0-62.25 27.86-62.25 62.22 0 2.920.2 5.780.59 8.6-17.07 3.96-33.29 12.58-46.59 25.88-12.05 12.05-30.82 44.71-50.81 83.63L120.25 272.28l32.030.72-84.72 43.41 74.03-3.56-38.44 25.66L143 336.13c-1.84 4.05-3.69 8.16-5.41 11.97l-121.69 66.25 46.75-1.28L19 461.09l46.75-17.03-3.62 32.87 126.94-104.28c5.69 16.43 15.31 28.11 27.16 32.62l32.12 59.47c-20.13 2.94-39.95 12.05-55.06 26.47h129.5c-13.09-17.01-32.67-25.77-53.62-27.28l-31.41-58.16c21.75-6.57 46.64-34.23 67.88-92.28 19.03-10.78 34.32-20.79 42.38-28.84 33.67-33.66 72.28-103.9 53.84-145.690.01-0.010.0300.03 0 38.31-5.09 66.07-7.91 86.44 21.53 5.48-46.96-25.07-65.86-57.41-74.53-1.62-6.13-4.74-11.66-8.97-16.16-8.47-24.3-31.55-41.75-58.75-41.75zm31.53 48.59c10.48 0 18.75 8.3 18.75 18.78 0 10.48-8.27 18.78-18.75 18.78-10.48 0-18.78-8.3-18.78-18.78s8.3-18.78 18.78-18.78z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiVulture;

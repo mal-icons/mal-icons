@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-window-bars",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiWindowBars {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M247 25.15c-15.570.5-31.05 2.31-46 5.42V55h46V25.15zm18 0V55h46V30.57c-14.94-3.11-30.43-4.92-46-5.42zm-82 9.9c-16.51 4.78-32.07 11.27-46 19.47V55h46V35.05zm146 0V55h46v-0.48c-13.93-8.2-29.49-14.69-46-19.47zM111.73 73C87.92 94.67 73 123.66 73 160v23h46V73h-7.27zM137 73v110h46V73h-46zm64 0v110h46V73h-46zm64 0v110h46V73h-46zm64 0v110h46V73h-46zm64 0v110h46v-23c0-36.34-14.92-65.33-38.73-87H393zM73 201v110h46V201H73zm64 0v110h46V201h-46zm64 0v110h46V201h-46zm64 0v110h46V201h-46zm64 0v110h46V201h-46zm64 0v110h46V201h-46zM73 329v110h46V329H73zm64 0v110h46V329h-46zm64 0v110h46V329h-46zm64 0v110h46V329h-46zm64 0v110h46V329h-46zm64 0v110h46V329h-46zM41 457v30h430v-30H41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiWindowBars;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-plain-dagger",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPlainDagger {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M43.53 15.75c-15.73 0-28.31 12.58-28.31 28.31 0 14.09 10.09 25.64 23.5 27.91L42.69 68 68.81 41.91l2.63-2.62C69.19 25.86 57.63 15.75 43.53 15.75zm33.72 44.13l-17 17c15.89 39.37 43.45 66.68 78.75 87.41 8.17-8.59 16.65-16.9 25.44-24.94-22.49-35.1-51.53-62.29-87.19-79.47zM322.59 79.03l-51.25 4.31c-79.36 48.13-143.88 108.1-186.72 186.53l-4.31 51.47 44.16-18.66-2.94-34.09-0.25-3.06 1.63-2.62c35.94-58.47 79.93-109.41 141.5-141.25l2.41-1.25 2.690.25 34.13 2.91 18.97-44.53zm-62.44 66.38c-10.01 5.89-19.5 12.34-28.56 19.31 46.69 47.93 87.21 108.59 114.72 166.5l11.25 23.72-23.72-11.28c-57.99-27.55-117.92-67.57-165.69-113.91-7.15 9.4-14.03 19.17-20.62 29.28 101.92 94.91 227.05 177.3 347.85 234.69-57.06-120.12-140.04-246.18-235.22-348.31zm-43.03 31.22c-13.37 11.7-25.72 24.58-37.28 38.44 39.36 38.45 88.09 72.83 136.69 98.84-26.05-48.63-60.75-97.85-99.4-137.28z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPlainDagger;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-bull-horns",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBullHorns {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M73.81 39.28c70.52 36.34 49.05 103.82 8.37 138.22-88.59 74.93-82.78 199.22 48.25 244.56-10.52-32.92-9.55-66.27 2.06-99.06-30.19-25.72-38.38-63.25 11.91-135.66 30.39-43.76 23.92-140.87-70.59-148.06zm361.5 0c-94.52 7.19-100.98 104.31-70.59 148.06 47.77 68.8 42.74 106.11 16.22 131.72 7.03 17.74 12.06 35.84 13.28 54.470.96 14.7-0.57 29.68-5.25 44.72 120.97-48.17 124.15-167.84 37.94-240.75-40.68-34.4-62.11-101.88 8.41-138.22zm-79.87 268.35c-66.12 9.62-131.4 17.49-196.220.69-23.46 45.56-24.19 89.260.47 134.66 65.57-6.13 131.11-5.8 196.590.06 15.8-23.5 20.76-45.73 19.28-68.28-1.44-21.96-9.35-44.36-20.12-67.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBullHorns;

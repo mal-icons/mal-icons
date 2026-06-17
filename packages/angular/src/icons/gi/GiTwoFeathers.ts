@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-two-feathers",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiTwoFeathers {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M177.44 17.63c-36.36 63.13-6.56 132.46 51.59 167.91 73.34 44.71 85.25 182.34 197.44 180.03 18.77 37 32.44 74.43 42 113.84L486.62 475c-7.39-30.44-17.18-59.83-29.75-88.72 19.49-32.14 28.49-64.44 35.94-96.75L477.5 306.66c1.21-13.490.88-26.89-0.69-41l-13.62 26.94c2.42-20.61 3.05-39.98 3.88-59.5l-19.53 33.97c-2.88-17.03-6.58-33.07-10.19-49.25l-8.25 30.97C371.36 118 210.67 101.48 177.44 17.62zM33.78 106c-83.37 187.22 151.31 342.73 292.44 323.47 29.15 16.72 54.98 35.96 78.91 58.44l12.78-13.62c-18.92-17.77-39.09-33.68-61-47.94-1.57-28.97-9.56-53.88-18.56-78.16l-6.22 42.84c-10.21-27.47-23.1-48.37-35.81-69.72l3.22 51.97c-9.04-24.73-22.19-45.01-36.03-64.53l5.09 42.97c-16.98-23.89-34.85-40.73-52.66-58.06l12.63 37.59C144.1 263.97 78.55 196.54 33.78 106z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiTwoFeathers;

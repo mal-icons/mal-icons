@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-wolf-howl",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiWolfHowl {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M255.56 22.09c-126.81 0-229.59 102.78-229.59 229.59 0 25.4 4.13 49.85 11.75 72.69 40.15-24.2 76.02-41.17 107.56-52.03-35.75 5.62-66.4 23.66-109.84 4 31.55-27.76 87.68-65.84 138.53-71.66 26.58-21.61 68.11-43.96 89.66-37.28 30.49-26.87 67.98-61.09 108.13-85.75 10.67 16.16 17.12 35.94 12.56 57.87-80.37 20.2-61.69 148.93 13.47 67.44 6.35 13.06 9.41 26.67 9.1 41.44-32.67 33.83-66.97 63.03-101.94 87.910.47 23.99-5.6 52.92-19 84.81-5.63 13.42-7.33 36.41 22.88 53.97 101.14-24.01 176.38-114.92 176.38-223.41 0-126.81-102.81-229.59-229.62-229.59zm3.31 164.38c-17.83 2.22-32.79 9.05-45.84 18.97 12.08-0.04 25.61 2.88 37.5 6.16 6.21-6.7 10.24-18.52 8.35-25.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiWolfHowl;

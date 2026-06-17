@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-splashy-stream",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSplashyStream {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M26.88 21.83C102.82 75.45 177.28 165.46 199.53 258.05 160.38 175.25 85.28 94.86 23.06 68.24v35.36c199.38 131.08 141.66 248.82 332.31 393.04h57.33C350.65 457.5 294.07 404.05 257.27 324.38l-0.01-0.01v-0.01l0.010.02c60.61 77.35 142.26 138.53 237.13 172.26h0.56V362.32c-105.79-32.63-179.01-83.11-223.68-139 55.38 48.51 146.28 89.87 223.68 102.79V275.3C401.51 267 302.38 216.88 233.89 153.82c-41.93-38.61-76.7-89.9-141.33-131.99H26.88zM379.75 124.93c-13.29 0-24.06 10.77-24.06 24.06 0 13.29 10.77 24.07 24.06 24.07 13.29 0 24.06-10.77 24.06-24.06 0-13.29-10.77-24.06-24.06-24.06zM28.88 159.02c57.2 45.02 125.82 141.28 113.43 200.08-2.22-0.82-4.62-1.3-7.13-1.3-11.35 0-20.55 9.2-20.55 20.55 0 11.35 9.2 20.55 20.55 20.55 8.03 0 14.97-4.62 18.35-11.33 6.74-9.86 8.02-29.06 6.88-48.65-4.17-71.81-54.24-147.98-131.53-179.9zm420.65 6.11c-17.79 0-32.63 12.62-36.05 29.4-29.74 7.17-71.18-0.14-102.95-15.38 41.36 34.55 87.11 53.46 131.75 58.85 2.340.47 4.760.72 7.250.72 20.32 0 36.79-16.48 36.79-36.79s-16.47-36.79-36.79-36.79zM170.42 287.96c11.66 34.13 16.56 79.61 9.85 114.38-8.13 5.78-13.45 15.28-13.45 26.02 0 17.63 14.29 31.91 31.91 31.91s31.91-14.29 31.91-31.91c0-6.31-1.84-12.19-5-17.15l-55.23-123.24z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSplashyStream;

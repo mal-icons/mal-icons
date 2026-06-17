@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-flat-star",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFlatStar {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M16.08 67.54L144.82 235.37l-45.33 130.8L277.96 341.92l215.02 107.28L364.24 281.36l46.18-130.62-177.95 24.67L16.08 67.54zm149.23 100.42l62.15 13.11c-11.690.53-22.45 3.49-31.32 9.64-9.89 6.85-15.33 17.18-16.6 28.44l-14.23-51.19zm116.85 24.65l54.97 11.6 13.04 46.92c-6.8-12.76-17.55-25.25-31.71-36.58-11.34-9.08-23.71-16.44-36.3-21.94zm-49.17 7.2c5.380.07 11.190.72 17.27 2 18.53 3.91 39.11 13.39 56.52 27.33 17.41 13.93 28.06 29.58 31.57 42.19 3.5 12.61 1.27 20.91-7.63 27.08-8.9 6.17-24.95 8.17-43.48 4.26-18.53-3.91-39.11-13.39-56.52-27.33-17.41-13.93-28.06-29.58-31.57-42.19-3.5-12.6-1.27-20.91 7.63-27.08 5.57-3.85 13.92-6.08 23.93-6.250.75-0.01 1.51-0.01 2.280zm-42.37 59.21c6.78 10.78 16.37 21.27 28.42 30.92 8.68 6.95 17.97 12.89 27.49 17.77l-45.02-9.5-10.89-39.18zM358.26 280.24l15.07 54.22-55.75-11.76c8.77-1.27 16.85-4.12 23.78-8.92 11.37-7.87 16.85-20.33 16.9-33.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFlatStar;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-viking-church",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiVikingChurch {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M231.03 25l-5.5 22h60.95l-5.5-22h-49.95zm-43 32.95l-8.05 16.1 30.92 15.46-7.37 29.49h104.95l-7.37-29.49 30.92-15.46-8.05-16.1L293.87 73H289v24h-66V73h-4.87l-30.1-15.05zM241 65v14h30V65h-30zm-24 72v62h30v-39h18v39h30v-62h-78zm-84.97 16.95l-8.05 16.1 25.36 12.68L138.62 247h234.75l-10.71-64.27 25.36-12.68-8.05-16.1L349.87 169H313v48H199v-48h-36.87l-30.1-15.05zM68 244v32h0.32c-1.97 4.18-3.78 9.21-5.24 14.34-2.11 7.43-3.55 14.93-4.49 20.66h37.6c-0.77-5.7-2.02-13.21-3.92-20.65-1.65-6.43-3.84-12.73-6.27-17.36V244H68zm357 0v31.6c-1.92 4.26-3.66 9.45-5.01 14.75-1.91 7.44-3.15 14.96-3.92 20.65h37.6c-0.93-5.73-2.38-13.23-4.49-20.66-1.69-5.94-3.84-11.74-6.18-16.23V244h-18zm-288 21v14h46v-14h-46zm64 0v14h110v-14H201zm128 0v14h46v-14h-46zm-73 31.23l-23 57.5V375h46v-21.27l-23-57.5zm-138.440.77l-23 46h123.34l18.4-46H117.56zm158.13 0l18.4 46h123.34l-23-46H275.69zM57 329v46h158v-14H65.44l16-32H57zm373.56 0l16 32H297v14h158v-46h-24.44zM55.03 393l-11.5 46h13.45l11.5-46H55.03zm32 0l-11.5 46H183v-46H87.03zM201 393v46h18.18l30.67-46H201zm61.15 0l30.67 46H311v-46h-48.85zm66.85 0v46h107.47l-11.5-46H329zm114.53 0l11.5 46h13.45l-11.5-46h-13.45zM256 416.23l-23 34.5V487h46v-36.27l-23-34.5zM41 457v30h14v-30H41zm32 0v30h46v-30H73zm64 0v30h78v-30h-78zm160 0v30h78v-30h-78zm96 0v30h46v-30h-46zm64 0v30h14v-30h-14z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiVikingChurch;

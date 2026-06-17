@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-cycle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCycle {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M252.31 19.96c-72.040.36-142.99 33.53-189.18 95.97-69.83 94.39-59.12 223.32 19.85 304.99l-37.24 50.33 151.22-22.61L174.35 297.42l-43.14 58.31c-44.08-54.38-47.72-133.65-4.16-192.53 30.68-41.47 77.86-63.5 125.76-63.75 16.34-0.08 32.77 2.38 48.65 7.47l-6.96-46.55c-23.86-4.86-47.91-5.03-71.02-1-59.23 7.32-113.99 39.92-148.16 91.22 35.65-65.89 103.77-105.92 176.04-107.74 1.67-0.04 3.35-0.06 5.02-0.06 14.8-0.01 29.75 1.6 44.6 4.91l48.61-7.27c-31.14-13.91-64.32-20.62-97.27-20.45zm212.93 22.06l-151.22 22.61 22.61 151.22 41.13-55.59c42.2 54.29 45.09 132.05 2.19 190.04-40.22 54.37-108.82 75.32-170.19 57.57l6.52 43.6c28.73 5.53 58.24 4.41 86.2-3.07 37.45-5.96 73.34-22.05 103.16-47.73-49.2 54.65-122.61 77.51-191.74 64.34l-55.8 8.34c99.03 43.7 218.4 14.77 285.51-75.94 69.13-93.44 59.34-220.74-17.48-302.53l39.11-52.87z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCycle;

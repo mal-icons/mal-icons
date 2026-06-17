@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-laser-precision",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLaserPrecision {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M20.13 52.8v58.99L250.46 245.15c26.37-28.82 70.09-36.53 105.31-16.19 35.29 20.37 50.47 62.21 38.57 99.5l101.65 58.86-64.73-74.65 35.64-37.35-57.27-7.69 84.72-86.92-125.71 33.19 13-120.21-66.58 96.36-27.45-80.59-16.35 88.77L20.13 52.8zm0 105.12l-0.010.020.010.01v-0.02zm0 0.02l0 87.58 155.34 89.95-89.94 33.29h135.49l-63.66 99.87 116.22-70.08 15.77 85.85 38.54-80.01 63.66 87.02-5.85-87.05 90.54 17.27-102.4-59.2c-26.55 26.96-68.89 33.74-103.18 13.95-34.32-19.82-49.62-59.93-39.49-96.42L20.13 157.95zm316.6 119.44c-0.940-1.870.03-2.80.09-12.420.86-24.16 7.71-30.9 19.38-10.78 18.67-4.45 42.27 14.21 53.05 18.67 10.78 42.27 4.46 53.05-14.21 10.78-18.67 4.45-42.27-14.21-53.05-6.12-3.54-12.78-5.23-19.34-5.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLaserPrecision;

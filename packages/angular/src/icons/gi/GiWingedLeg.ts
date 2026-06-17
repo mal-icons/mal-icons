@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-winged-leg",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiWingedLeg {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M24.93 23.11c8.03 58.99 116.65 113.32 197.39 132.7-51.690.28-128.26-5.56-185.43-22.68 24.43 47.07 109.81 60.78 187.11 67.03-57.81 15.16-109.87 21.8-173.96 19.96C82.1 255.19 166.16 254.14 236.62 242.79c-38.85 19.96-83.11 32.74-129.64 39.59 40.91 20.36 106.8 1.76 147.45-4.43-19.04 16.43-41.84 28.65-66.86 37.93 25.08 10.61 64.64 2.65 92.17-11.41-3.48 11.99-15.64 25.65-31.72 35.1 20.82 4.43 46.640.67 66.82-6.83 27.21 10.52 36.24 23.73 37.97 38.06-41.97 13.17-57.81 106.55 29.83 105.43-41.21-17.46-48.91-61.13-19.81-76.85 44.16-23.86 65.38 48.02 55.51 86.11 33.64-12.11 36.52-88.94-7.63-108.17 46.840.5 67.13 32.15 54.33 72.51 53.77-63.7 9.18-103.04-46.53-99.11-82.71-5.96-156.81-121.43-127.11-150.47 22.79-19.82 22.54-51.31-6.26-65.66-72.81-36.3-120.06-22.37-260.2-111.47z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiWingedLeg;

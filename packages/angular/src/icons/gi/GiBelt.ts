@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-belt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBelt {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 126.97c-86.36 0-225.56 39.1-234.6 109.96-9.83 90.82 77.99 124.37 144.88 128.81v-78.59c-52.13 0-70.27-22.63-66.67-50.22 7.28-55.81 100.12-63.61 156.4-63.61s149.13 7.81 156.4 63.61c3.6 27.59-14.54 50.22-66.67 50.22v78.59c66.89-4.45 154.7-38 144.88-128.81-5.6-78.75-148.24-109.96-234.6-109.96zm71.66 152.26l-143.310.02V384.87l143.310.16V279.23zm-17.64 21.51v23.61h-82.29v19.59h82.29v21.52h-104.12V300.8h32.33l71.79-0.07z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBelt;

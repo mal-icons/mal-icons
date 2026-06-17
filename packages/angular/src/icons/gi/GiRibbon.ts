@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-ribbon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiRibbon {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M249.94 18.53c-2.33-0.01-4.650.04-7 0.16v-0.03c-18.720.97-37.35 4.84-53.78 11.5-5.89 9.74-7 18.63-3.22 31.66 2.54 8.75 7.7 19.18 15.69 31.59 9.7-6.75 25.94-10.26 42.47-10.5 17.92-0.26 36.14 3.24 46.53 10.59 7.04-11.94 11.68-22.14 14.06-30.84C308.81 47.62 307.18 37.39 300 26l0.47-0.28c-13.5-4.3-28.38-6.64-43.53-7.03-2.34-0.09-4.67-0.15-7-0.16zM324 36.16c2.1 9.89 1.75 20.44-1.28 31.47-4.99 18.17-16.32 38.01-34 62.66l-32.28 47.56-76.84 114.19-0.31-0.22-67.15 98.88 24.53-1.16-16.94 47.88 45.53-26.28-29.78 65.44 36.22-22.78 7 37.38 52.28-110.09-0.4-0.19L295.5 244.69l4.31-9 47.06-98.44C370.19 88.16 354.93 54.71 324 36.16zM165.72 42.78c-30.64 21.47-44.76 56.84-18.56 104.97L195 235.69l42.72-63.47-38-47.25c-2.67-3.34-4.54-6.49-5.69-9.44C180.9 97.14 172.23 81.58 168 67.03c-2.43-8.37-3.14-16.5-2.28-24.25zm142.75 218.13l-46.59 97.72 71.59 131.94 4.84-36.16 37.91 7.41-25.47-47.37 58.88 24.78-32.66-57.41 23.66-5.72-92.16-115.19z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiRibbon;

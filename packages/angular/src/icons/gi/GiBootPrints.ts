@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-boot-prints",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBootPrints {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M111.51 21.18c-6.650.09-13.7 1.09-21.16 3.09-87.62 23.48-77.96 222.75-9.3 310.98l00 99.51-26.66c-3.27-35.580-76.04 19.31-113.95 2.61-89.97-24.09-174.31-88.37-173.46zm294.38 0c-64.27-0.85-90.97 83.49-88.37 173.46 19.31 37.91 22.59 78.37 19.31 113.95l99.51 26.6600c68.66-88.23 78.33-287.5-9.3-310.98-7.46-2-14.51-3-21.16-3.09zM188.88 350.06l-101.26 27.13c5.5 191.9 200.51 104.13 101.26-27.13zm139.65 0c-99.25 131.26 95.77 219.03 101.26 27.13l-101.26-27.13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBootPrints;

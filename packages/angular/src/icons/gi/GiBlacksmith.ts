@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-blacksmith",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiBlacksmith {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M210 25c-10.01 0-19.37 5.32-26.74 15.15C175.89 49.97 171 64.15 171 80c0 15.85 4.89 30.03 12.26 39.85C190.63 129.68 199.99 135 210 135c10.01 0 19.37-5.32 26.74-15.14C244.11 110.03 249 95.85 249 80c0-15.85-4.89-30.03-12.26-39.85C229.37 30.32 220.01 25 210 25zm219.75 17.51l-18.7 15.21-22.76-9.21-7.72 15.27 85.86 36.31 16.81-34.53-53.49-23.06zm-5.26 59.39l-54.7 116.15 17.37 7.98L441.69 109.18l-17.21-7.28zM153 122.52c-5.860.76-11.17 1.81-16 3.09V253h146V125.6c-4.83-1.28-10.14-2.32-16-3.09v59.04l-4.97 2.49c-34.15 17.07-69.9 17.07-104.05 0L153 181.56v-59.04zm-34 9.98a61.31 61.31 0 0 0-5.01 2.99c-13 8.67-19.65 20.24-23.26 34.7-5.9 23.61-2.04 54.16-0.42 82.82H119V132.5zm182 0V253h28.69c1.63-28.66 5.49-59.21-0.42-82.82-3.61-14.46-10.26-26.03-23.26-34.7A61.31 61.31 0 0 0 301 132.5zm-130 0.85v36.79c26.37 11.78 51.64 11.78 78 0v-36.79C239.1 145.19 225.36 153 210 153s-29.1-7.81-39-19.65zm-16.95 137.06l00v20.34H65.11c16 38.81 51.26 65.43 88.94 74.28V398h58.56c-12.11 30.53-33.53 55.68-58.5 77.59h-25.43v18.72h284.34v-18.72h-27.44c-28.73-21.89-50.02-47.02-61.59-77.59h63.66v-29.16c19.75-6.99 39.5-19.54 59.25-36.72-19.81-17.52-39.23-27.25-59.25-31.94v-29.78H154.05z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiBlacksmith;

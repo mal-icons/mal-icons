@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-cut-lemon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCutLemon {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M126.13 57.86c-40.17 32.88-74.24 84.11-93.63 146.23-19.39 62.12-20.49 123.63-6.16 173.51 14.34 49.88 44.66 88.69 88.08 102.24 106.06 24.78 226.48 8.18 305.42-28.5 24.29-1.03 68.94 3.34 74.59-6.82 3.93-7.07-4.58-74.09-25.14-88.84C445.47 182.72 422.6 59.65 256.74 23.84c-42.84-11.97-98.77 9.11-130.6 34.02zm97.3-21.07c9.490.01 18.85 1.39 27.94 4.23 36.37 11.35 62.96 44.19 76.14 90.03 13.18 45.84 12.39 104.12-6.04 163.18-18.43 59.06-50.94 107.44-87.85 137.66-36.91 30.22-77.46 42.11-113.84 30.76-36.37-11.35-62.97-44.19-76.14-90.03-13.17-45.84-12.39-104.12 6.04-163.18C68.12 150.38 100.63 102 137.54 71.79c27.68-22.66 57.42-35.02 85.9-34.99zM153.01 90.35l30.11 142.85 50.1-176.69c-27.710.49-64.49 13.89-80.21 33.84zm104.44-25.86c-4.21-0.7-57.04 171.71-57.04 171.71l110.49-81.07c-0.62-20.61-27.34-82.68-53.44-90.64zm-125.16 46.58c-24.49 18.99-43.87 58.25-51.62 86.39l85.66 42.03zm184.47 70.63l-110.73 74.24 95.6 25.57c7.19-27.97 15.55-73.33 15.13-99.81zm-244.52 38.58c-9.37 25.66-16.36 50.83-16.85 75.5l106.76-35.82zm130.98 51.83l65.8 80c15.4-16.99 22.6-34.69 28.52-50.98zm-40.02 5.14L57.16 322.51c-0.67 29.09 8.75 58.47 21.25 80.53zm27.39 5.53l2.81 151c36.41-15.04 56.47-44.4 67.95-62.57zm-16.5 2.46L91.42 424.74c18.59 17.41 57.63 22.59 83.51 17.07z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCutLemon;

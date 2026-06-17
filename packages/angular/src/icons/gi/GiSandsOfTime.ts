@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sands-of-time",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSandsOfTime {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M115.06 21.97v9.34c0 101.95 38.16 189.65 96.34 222.09v6.09c-58.19 32.45-96.34 120.14-96.34 222.09v9.34H401.81v-9.34c0-102.55-38.8-190.27-97.53-222.19V253.5c58.72-31.92 97.53-119.64 97.53-222.19V21.97H115.06zM134 40.66h248.88c-2.48 96.45-42.74 175.52-91.94 198.91l-5.34 2.53V270.84l5.34 2.53c49.19 23.38 89.46 102.44 91.94 198.88H134c2.46-95.9 42.13-175.08 90.88-198.94l5.25-2.56v-28.59l-5.25-2.56c-48.75-23.86-88.42-103.04-90.87-198.94zm213.66 86.13c-57.61 27.81-124.53 27.84-177.56 4.1C184.75 181.78 213.91 218.01 248.22 224c-1.54 2.05-2.47 4.59-2.47 7.34 0 6.76 5.49 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-2.72-0.91-5.22-2.41-7.25 35.43-5.88 65.49-44.07 79.81-97.31zM258 258.63c-6.76 0-12.25 5.49-12.25 12.25s5.49 12.25 12.25 12.25 12.25-5.49 12.25-12.25-5.49-12.25-12.25-12.25zm0 39.28c-6.76 0-12.25 5.49-12.25 12.25 0 6.76 5.49 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-6.76-5.49-12.25-12.25-12.25zm0 39.53c-6.76 0-12.25 5.49-12.25 12.25 0 6.76 5.49 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-6.76-5.49-12.25-12.25-12.25zm0.13 39.91c-23.210.28-46.19 25.77-75.81 75.66h153c-30.52-51-53.98-75.94-77.19-75.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSandsOfTime;

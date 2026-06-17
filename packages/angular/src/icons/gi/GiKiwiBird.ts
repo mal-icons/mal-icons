@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-kiwi-bird",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiKiwiBird {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M251.62 74.23c-77.060.06-152.46 51.77-181.7 89.02C1.47 250.43-36.96 427.19 244.21 381.21c82.99-13.57 135.48-92.93 146.56-163.43 39.38 13.81 99.23-2.42 100.5-38.24 1.71-48.03-82.63-99.39-130.76-60.74-33.24-32.31-71.27-44.6-108.9-44.57zm189.38 101.54a9 9 0 0 1 9 9 9 9 0 0 1-9 9 9 9 0 0 1-9-9 9 9 0 0 1 9-9zm27.28 56.15c-8.91 4.55-18.74 7.69-29.06 9.24 21.96 44.05 29.43 92.59 45.61 138.43 2.76-32.5 2.59-94.97-16.55-147.67zM238.49 401.43a239.16 239.16 0 0 1-18.14 3.78l21.89 45.8c-18.37-0.05-38.020.35-58.95 1.39l-11.84-44.21c-6.45-0.31-12.83-0.9-19.1-1.76l12.6 47.04c-7.10.46-14.30.97-21.66 1.58l1.48 17.94c76.27-6.31 137.96-4.22 183.4-0.01l1.66-17.92c-19.61-1.82-42.19-3.24-67.53-3.79z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiKiwiBird;
