@@ -30,6 +30,18 @@ const OUT_DIR = join(SKILL_ROOT, "references", "icons");
 
 /** Per-set metadata (pinned versions mirror icons-data/sources.config.ts). */
 const SET_META = {
+  bs: {
+    id: "bs",
+    name: "Bootstrap Icons",
+    prefix: "Bs",
+    version: "1.13.1",
+    license: "MIT",
+    repo: "twbs/icons",
+    style: "fill",
+    viewBox: "0 0 16 16",
+    blurb:
+      "Bootstrap's official 16×16 icon set, outline + solid variants (`BsAlarm`, `BsHeartFill`, `BsGear`). Single-color fill; theme via `color`.",
+  },
   rx: {
     id: "rx",
     name: "Radix Icons",
