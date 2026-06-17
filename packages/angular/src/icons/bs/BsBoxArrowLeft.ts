@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-box-arrow-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBoxArrowLeft {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M6 12.5a0.50.5 0 0 0 0.50.5h8a0.50.5 0 0 0 0.5-0.5v-9a0.50.5 0 0 0-0.5-0.5h-8a0.50.5 0 0 0-0.50.5v2a0.50.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a0.50.5 0 0 1 1 0z"}],["path",{"fill-rule":"evenodd","d":"M0.15 8.35a0.50.5 0 0 1 0-0.71l3-3a0.50.5 0 1 1 0.710.71L1.71 7.5H10.5a0.50.5 0 0 1 0 1H1.71l2.15 2.15a0.50.5 0 0 1-0.710.71z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBoxArrowLeft;

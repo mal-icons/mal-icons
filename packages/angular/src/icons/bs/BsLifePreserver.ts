@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-life-preserver",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsLifePreserver {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m6.43-5.23a7.03 7.03 0 0 1-3.66 3.66l-1.11-2.79a4 4 0 0 0 1.99-1.98zM5.23 14.43a7.03 7.03 0 0 1-3.66-3.66l2.79-1.11a4 4 0 0 0 1.99 1.99zm9.2-9.2-2.79 1.12a4 4 0 0 0-1.98-1.98l1.12-2.79a7.03 7.03 0 0 1 3.66 3.66m-8.09-0.87a4 4 0 0 0-1.98 1.99L1.57 5.23A7.03 7.03 0 0 1 5.23 1.57zM8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsLifePreserver;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsForwardFill = createIcon("0 0 16 16", [["path",{"d":"m9.77 12.11 4.01-2.95a0.650.65 0 0 0 0-1.11L9.77 5.09a0.640.64 0 0 0-0.970.56V6.65H2v3.9h6.8v1c0 0.510.550.810.970.56"}]]);
+
+export default BsForwardFill;

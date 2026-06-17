@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-trophy-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsTrophyFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.50.5A0.50.5 0 0 1 3 0h10a0.50.5 0 0 1 0.50.5q0 0.81-0.03 1.54a3 3 0 1 1-1.13 5.89c-0.79 1.87-1.88 2.78-2.83 3.01v2.17l1.430.36c0.190.050.380.140.540.26L13.3 15.1a0.50.5 0 0 1-0.30.9H3a0.50.5 0 0 1-0.3-0.9l1.84-1.38c0.16-0.120.34-0.210.54-0.25L6.5 13.11v-2.17c-0.95-0.23-2.04-1.15-2.83-3.01a3 3 0 1 1-1.13-5.89A33 33 0 0 1 2.50.5m0.1 2.54a2 2 0 0 0 0.72 3.94c-0.33-1.05-0.59-2.35-0.72-3.93m10.08 3.94a2 2 0 0 0 0.72-3.93c-0.13 1.59-0.39 2.89-0.72 3.94"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsTrophyFill;

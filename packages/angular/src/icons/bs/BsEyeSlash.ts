@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-eye-slash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEyeSlash {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.36 11.24C15.06 9.72 16 8 16 8s-3-5.5-8-5.5a7 7 0 0 0-2.790.59l0.770.77A6 6 0 0 1 8 3.5c2.12 0 3.88 1.17 5.17 2.46A13 13 0 0 1 14.83 8q-0.090.13-0.190.29c-0.330.48-0.83 1.12-1.46 1.76q-0.250.25-0.520.49z"}],["path",{"d":"M11.3 9.18a3.5 3.5 0 0 0-4.47-4.47l0.820.82a2.5 2.5 0 0 1 2.83 2.83zm-2.94 1.30.820.82a3.5 3.5 0 0 1-4.47-4.47l0.820.82a2.5 2.5 0 0 0 2.83 2.83"}],["path",{"d":"M3.35 5.47q-0.270.24-0.520.49A13 13 0 0 0 1.17 8l0.20.29c0.340.480.83 1.12 1.47 1.76C4.12 11.33 5.88 12.5 8 12.5c0.72 0 1.39-0.13 2.02-0.36l0.770.77A7 7 0 0 1 8 13.5C3 13.5 0 8 0 8s0.94-1.72 2.64-3.24l0.710.71zm10.3 8.88-12-12 0.71-0.71 12 12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEyeSlash;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-basket2-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBasket2Fill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.93 1.76a0.50.5 0 1 0-0.86-0.51L2.22 6H0.5a0.50.5 0 0 0-0.50.5v1a0.50.5 0 0 0 0.50.5h0.62l1.84 6.46A0.750.75 0 0 0 3.69 15h8.62a0.750.75 0 0 0 0.72-0.54L14.88 8h0.62a0.50.5 0 0 0 0.5-0.5v-1a0.50.5 0 0 0-0.5-0.5h-1.72L10.93 1.24a0.50.5 0 1 0-0.860.51L12.62 6H3.38zM4 10a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm3 0a1 1 0 0 1 2 0v2a1 1 0 1 1-2 0zm4-1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBasket2Fill;

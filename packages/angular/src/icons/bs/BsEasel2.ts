@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-easel2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEasel2 {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M8 0a0.50.5 0 0 1 0.450.28L8.81 1h4.69A1.5 1.5 0 0 1 15 2.5V11h0.5a0.50.5 0 0 1 0 1h-2.86l0.85 3.38a0.50.5 0 0 1-0.970.24L12.11 14H3.89l-0.4 1.62a0.50.5 0 0 1-0.97-0.24L3.36 12H0.5a0.50.5 0 0 1 0-1H1V2.5A1.5 1.5 0 0 1 2.5 1h4.69l0.36-0.72A0.50.5 0 0 1 8 0M2 11h12V2.5a0.50.5 0 0 0-0.5-0.5h-11a0.50.5 0 0 0-0.50.5zm9.61 1H4.39l-0.25 1h7.72z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEasel2;

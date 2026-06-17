@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsTagFill = createIcon("0 0 16 16", [["path",{"d":"M2 1a1 1 0 0 0-1 1v4.59a1 1 0 0 0 0.290.71l7 7a1 1 0 0 0 1.41 0l4.59-4.59a1 1 0 0 0 0-1.41l-7-7A1 1 0 0 0 6.59 1zm4 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"}]]);
+
+export default BsTagFill;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsSuitcaseFill = createIcon("0 0 16 16", [["path",{"d":"M6 0.5a0.50.5 0 0 1 0.5-0.5h3a0.50.5 0 0 1 0.50.5V3h1.5A1.5 1.5 0 0 1 13 4.5v9a1.5 1.5 0 0 1-1 1.42A1 1 0 1 1 10 15H6a1 1 0 1 1-2-0.08A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3H6zM9 1H7v2h2zM6 5.5a0.50.5 0 0 0-1 0v7a0.50.5 0 0 0 1 0zm2.5 0a0.50.5 0 0 0-1 0v7a0.50.5 0 0 0 1 0zm2.5 0a0.50.5 0 0 0-1 0v7a0.50.5 0 0 0 1 0z"}]]);
+
+export default BsSuitcaseFill;

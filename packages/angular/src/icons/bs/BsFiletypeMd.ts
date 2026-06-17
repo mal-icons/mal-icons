@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-filetype-md",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFiletypeMd {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M14 4.5V14a2 2 0 0 1-2 2H9v-1h3a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM0.71 13.19v2.66H0V11.85h0.81l1.14 2.6h0.03l1.14-2.6h0.8v4h-0.72v-2.66h-0.04l-0.95 2.16h-0.52l-0.95-2.16H0.71Zm3.92 2.66V11.85h1.46q0.61 0 10.23t0.590.68q0.20.450.2 1.08 0 0.63-0.2 1.08-0.20.45-0.590.69-0.40.24-1 0.24H4.63Zm1.35-3.35h-0.56v2.71h0.56q0.28 0 0.48-0.08a0.80.8 0 0 0 0.33-0.25 1.1 1.1 0 0 0 0.2-0.42q0.07-0.250.07-0.59a2.1 2.1 0 0 0-0.12-0.750.90.9 0 0 0-0.35-0.45q-0.24-0.15-0.61-0.15"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFiletypeMd;

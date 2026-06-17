@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsNodePlusFill = createIcon("0 0 16 16", [["path",{"d":"M11 13a5 5 0 1 0-4.97-5.5H4A1.5 1.5 0 0 0 2.5 6h-1A1.5 1.5 0 0 0 0 7.5v1A1.5 1.5 0 0 0 1.5 10h1A1.5 1.5 0 0 0 4 8.5h2.03A5 5 0 0 0 11 13m0.5-7.5v2h2a0.50.5 0 0 1 0 1h-2v2a0.50.5 0 0 1-1 0v-2h-2a0.50.5 0 0 1 0-1h2v-2a0.50.5 0 0 1 1 0"}]]);
+
+export default BsNodePlusFill;

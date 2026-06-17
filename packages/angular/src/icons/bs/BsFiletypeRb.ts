@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-filetype-rb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFiletypeRb {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M14 4.5V14a2 2 0 0 1-2 2H8v-1h4a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM0 11.85h1.6q0.45 0 0.760.160.320.160.480.440.170.280.170.67a1.18 1.18 0 0 1-0.73 1.12l0.8 1.61h-0.88l-0.7-1.49H0.78v1.49H0zm0.780.62v1.29h0.69q0.33 0 0.52-0.160.2-0.160.19-0.47 0-0.32-0.19-0.49a0.740.74 0 0 0-0.51-0.17zm4.43 3.38H3.54V11.85h1.67q0.54 0 0.860.260.320.260.320.72a0.940.94 0 0 1-0.090.420.80.8 0 0 1-0.240.29 1 1 0 0 1-0.350.16v0.04q0.240.020.450.14a0.850.85 0 0 1 0.320.33 1 1 0 0 1 0.120.51q0 0.36-0.180.61-0.180.25-0.490.39a1.9 1.9 0 0 1-0.720.13m-0.18-3.4h-0.7v1.07h0.52q0.27 0 0.43-0.06a0.50.5 0 0 0 0.25-0.180.50.5 0 0 0 0.08-0.30.490.49 0 0 0-0.15-0.38q-0.15-0.14-0.43-0.14Zm0.05 1.62h-0.75v1.19h0.59q0.47 0 0.67-0.15a0.50.5 0 0 0 0.21-0.430.60.6 0 0 0-0.08-0.320.50.5 0 0 0-0.24-0.210.950.95 0 0 0-0.39-0.07"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFiletypeRb;

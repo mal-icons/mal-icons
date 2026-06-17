@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-browser-edge",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBrowserEdge {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.48 9.34c-0.070.06-0.170.15-0.170.31 0 0.160.110.330.30.460.880.61 2.520.54 2.590.54h0c0.67 0 1.32-0.18 1.89-0.52A3.84 3.84 0 0 0 16 6.82c0.02-1.32-0.44-2.22-0.67-2.66l-0.04-0.08C13.96 1.49 11.11 0 8 0A8 8 0 0 0 0.47 5.29C1.49 4.05 3.18 3.26 5 3.26c2.83 0 5.01 1.89 5.01 4.8h0v0c0 0.34-0.170.83-0.49 1.24l0.01-0.01z"}],["path",{"d":"M0.01 7.75a8.14 8.14 0 0 0 0.75 3.64 8 8 0 0 0 6.5 4.56 5 5 0 0 1-0.78-0.38h-0.01l-0.12-0.07a5.5 5.5 0 0 1-1.56-1.46A5.54 5.54 0 0 1 6.81 5.8l0.0100.03-0.01c0.21-0.10.62-0.29 1.17-0.28q0.1900.380.03a4 4 0 0 0-0.99-0.7l-0.010C6.35 4.28 5.2 4.26 5 4.26c-2.44 0-4.82 1.63-4.99 3.49m10.26 7.91q0.13-0.040.27-0.08-0.150.05-0.310.09z"}],["path",{"d":"M10.23 15.67a5 5 0 0 0 0.3-0.09l0.08-0.02a8.02 8.02 0 0 0 4.16-3.30.250.25 0 0 0-0.33-0.35q-0.320.17-0.660.29a6.4 6.4 0 0 1-2.240.4c-2.96 0-5.53-2.03-5.53-4.64q0-0.20.05-0.4a4.54 4.54 0 0 0-0.46 5.9l00.01c0.320.440.710.82 1.16 1.12h0l0.140.09c0.880.55 1.72 1.08 3.331"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBrowserEdge;

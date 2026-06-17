@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsPersonXFill = createIcon("0 0 16 16", [["path",{"fill-rule":"evenodd","d":"M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m6.15-2.85a0.50.5 0 0 1 0.71 0L14 6.29l1.15-1.15a0.50.5 0 0 1 0.710.71L14.71 7l1.15 1.15a0.50.5 0 0 1-0.710.71L14 7.71l-1.15 1.15a0.50.5 0 0 1-0.71-0.71L13.29 7l-1.15-1.15a0.50.5 0 0 1 0-0.71"}]]);
+
+export default BsPersonXFill;

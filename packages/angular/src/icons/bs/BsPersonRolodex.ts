@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-person-rolodex",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsPersonRolodex {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"}],["path",{"d":"M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h0.5a0.50.5 0 0 0 0.5-0.50.50.5 0 0 1 1 0 0.50.5 0 0 0 0.50.5h9a0.50.5 0 0 0 0.5-0.50.50.5 0 0 1 1 0 0.50.5 0 0 0 0.50.5h0.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.71L6 1.29A1 1 0 0 0 5.29 1zm0 1h4.29L6 2.71A1 1 0 0 0 6.71 3H15v10h-0.08a1.5 1.5 0 0 0-2.4-0.63C11.89 11.22 10.55 10 8 10c-2.56 0-3.89 1.22-4.51 2.37a1.5 1.5 0 0 0-2.40.63H1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsPersonRolodex;

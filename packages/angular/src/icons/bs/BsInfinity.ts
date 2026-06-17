@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-infinity",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsInfinity {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.68 5.79 7.35 7.75 5.68 9.71a2.75 2.75 0 1 1 0-3.92ZM8 6.98 6.42 5.11l-0.01-0.01a3.75 3.75 0 1 0 0 5.3l0.01-0.01L8 8.52l1.58 1.870.010.02a3.75 3.75 0 1 0 0-5.3l-0.010.02zm0.660.77 1.66-1.96a2.75 2.75 0 1 1 0 3.92z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsInfinity;

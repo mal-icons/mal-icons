@@ -14,6 +14,7 @@ export { IconBaseComponent } from "./icon-base.ts";
 // Re-export every generated icon set so consumers can also import named icons
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/angular"`).
 export * from "./icons/ad/index.ts";
+export * from "./icons/bs/index.ts";
 export * from "./icons/cg/index.ts";
 export * from "./icons/ci/index.ts";
 export * from "./icons/dev/index.ts";

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsChevronBarDown = createIcon("0 0 16 16", [["path",{"fillRule":"evenodd","d":"M3.65 4.15a0.50.5 0 0 1 0.71 0L8 7.79l3.65-3.65a0.50.5 0 0 1 0.710.71l-4 4a0.50.5 0 0 1-0.71 0l-4-4a0.50.5 0 0 1 0-0.71M1 11.5a0.50.5 0 0 1 0.5-0.5h13a0.50.5 0 0 1 0 1h-13a0.50.5 0 0 1-0.5-0.5"}]]);
+
+export default BsChevronBarDown;

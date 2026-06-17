@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-database-fill-x",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsDatabaseFillX {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 1c-1.57 0-3.020.29-4.10.78C2.88 2.25 2 2.99 2 4s0.88 1.76 1.9 2.22C4.98 6.71 6.43 7 8 7s3.02-0.29 4.1-0.78C13.13 5.76 14 5.01 14 4s-0.87-1.75-1.9-2.22C11.02 1.29 9.57 1 8 1"}],["path",{"d":"M2 7v-0.84c0.460.43 10.75 1.490.97C4.72 7.69 6.32 8 8 8s3.28-0.31 4.51-0.87c0.49-0.22 1.03-0.54 1.49-0.97V7c0 0.42-0.150.8-0.41 1.13a4.51 4.51 0 0 0-4.82 1.84A12 12 0 0 1 8 10c-1.57 0-3.02-0.29-4.1-0.78C2.88 8.76 2 8.01 2 7m6.26 4L8 11c-1.68 0-3.28-0.31-4.51-0.87-0.49-0.22-1.03-0.54-1.49-0.97V10c0 1.010.88 1.76 1.9 2.22C4.98 12.71 6.43 13 8 13h0.03a4.55 4.55 0 0 1 0.23-2m0 3L8 14c-1.68 0-3.28-0.31-4.51-0.87-0.49-0.22-1.03-0.54-1.49-0.97V13c0 1.010.88 1.76 1.9 2.22C4.98 15.71 6.43 16 8 16c0.54 0 1.06-0.03 1.56-0.1a4.5 4.5 0 0 1-1.3-1.9"}],["path",{"d":"M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m-0.65-4.850.650.650.65-0.65a0.50.5 0 0 1 0.710.71l-0.650.650.650.65a0.50.5 0 0 1-0.710.71l-0.65-0.65-0.650.65a0.50.5 0 0 1-0.71-0.71l0.65-0.65-0.65-0.65a0.50.5 0 0 1 0.71-0.71"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsDatabaseFillX;

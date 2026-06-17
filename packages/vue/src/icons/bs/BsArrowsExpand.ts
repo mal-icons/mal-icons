@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsArrowsExpand = createIcon("0 0 16 16", [["path",{"fill-rule":"evenodd","d":"M1 8a0.50.5 0 0 1 0.5-0.5h13a0.50.5 0 0 1 0 1h-13A0.50.5 0 0 1 1 8M7.650.15a0.50.5 0 0 1 0.71 0l2 2a0.50.5 0 0 1-0.710.71L8.5 1.71V5.5a0.50.5 0 0 1-1 0V1.71L6.35 2.85a0.50.5 0 1 1-0.71-0.71zM8 10a0.50.5 0 0 1 0.50.5v3.79l1.15-1.15a0.50.5 0 0 1 0.710.71l-2 2a0.50.5 0 0 1-0.71 0l-2-2a0.50.5 0 0 1 0.71-0.71L7.5 14.29V10.5A0.50.5 0 0 1 8 10"}]]);
+
+export default BsArrowsExpand;

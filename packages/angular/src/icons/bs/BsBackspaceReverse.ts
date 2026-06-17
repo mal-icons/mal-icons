@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-backspace-reverse",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBackspaceReverse {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.85 5.15a0.50.5 0 0 1 0 0.71L7.71 8l2.15 2.15a0.50.5 0 0 1-0.710.71L7 8.71l-2.15 2.15a0.50.5 0 0 1-0.71-0.71L6.29 8 4.15 5.85a0.50.5 0 1 1 0.71-0.71L7 7.29l2.15-2.15a0.50.5 0 0 1 0.71 0"}],["path",{"d":"M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7.08a2 2 0 0 0 1.52-0.7l4.84-5.65a1 1 0 0 0 0-1.3L10.6 1.7A2 2 0 0 0 9.08 1zm7.08 1a1 1 0 0 1 0.760.35L14.68 8l-4.84 5.65a1 1 0 0 1-0.760.35H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBackspaceReverse;

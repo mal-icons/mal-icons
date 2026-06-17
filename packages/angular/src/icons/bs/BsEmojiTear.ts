@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-emoji-tear",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEmojiTear {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"}],["path",{"d":"M6.83 11.43A3.1 3.1 0 0 1 8 11.2c0.92 0 1.610.41 2.250.830.210.140.42-0.070.28-0.28-0.56-0.83-1.56-2.05-2.53-2.05-0.53 0-1.070.36-1.540.82q0.130.270.230.540.070.170.140.37ZM6 11.33C6 12.25 5.33 13 4.5 13S3 12.25 3 11.33c0-0.710.88-2.29 1.29-2.99a0.240.24 0 0 1 0.41 0c0.410.7 1.29 2.28 1.29 2.99M7 6.5C7 7.33 6.55 8 6 8s-1-0.67-1-1.5S5.45 5 6 5s1 0.67 1 1.5m4 0c0 0.83-0.45 1.5-1 1.5s-1-0.67-1-1.5S9.45 5 10 5s1 0.67 1 1.5m-1.5-3A0.50.5 0 0 1 10 3c1.16 0 2.350.58 2.95 1.78a0.50.5 0 1 1-0.890.45C11.65 4.42 10.84 4 10 4a0.50.5 0 0 1-0.5-0.5M7 3.5a0.50.5 0 0 0-0.5-0.5c-1.16 0-2.350.58-2.95 1.78a0.50.5 0 1 0 0.890.45C4.85 4.42 5.66 4 6.5 4a0.50.5 0 0 0 0.5-0.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEmojiTear;

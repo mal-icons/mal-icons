@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-download",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsDownload {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.5 9.9a0.50.5 0 0 1 0.50.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a0.50.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a0.50.5 0 0 1 0.5-0.5"}],["path",{"d":"M7.65 11.85a0.50.5 0 0 0 0.71 0l3-3a0.50.5 0 0 0-0.71-0.71L8.5 10.29V1.5a0.50.5 0 0 0-1 0v8.79L5.35 8.15a0.50.5 0 1 0-0.710.71z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsDownload;

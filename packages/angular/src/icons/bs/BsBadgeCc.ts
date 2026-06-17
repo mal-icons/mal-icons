@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-badge-cc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBadgeCc {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.71 7.76c0-1.110.49-1.75 1.32-1.750.68 0 1.140.47 1.19 1.11H7.36V7c-0.05-1.19-1.02-2-2.34-2C3.41 5 2.5 6.05 2.5 7.75v0.75c0 1.70.91 2.73 2.52 2.73 1.31 0 2.29-0.79 2.34-1.94v-0.11H6.21c-0.050.62-0.5 1.05-1.19 1.05-0.84 0-1.32-0.62-1.32-1.73zm6.14 0c0-1.110.49-1.75 1.32-1.750.68 0 1.140.47 1.19 1.11H13.5V7c-0.05-1.19-1.02-2-2.34-2C9.55 5 8.64 6.05 8.64 7.75v0.75c0 1.70.91 2.73 2.52 2.73 1.31 0 2.29-0.79 2.34-1.94v-0.11h-1.15c-0.050.62-0.5 1.05-1.19 1.05-0.84 0-1.32-0.62-1.32-1.73z"}],["path",{"d":"M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBadgeCc;

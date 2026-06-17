@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsCupFill = createIcon("0 0 16 16", [["path",{"fillRule":"evenodd","d":"M0.11 3.19A0.50.5 0 0 1 0.5 3h13a0.50.5 0 0 1 0.490.61l-0.220.99a3 3 0 0 1-1.3 5.85l-0.130.59A2.5 2.5 0 0 1 9.9 13H4.1a2.5 2.5 0 0 1-2.44-1.96L0.01 3.61a0.50.5 0 0 1 0.1-0.42Zm12.57 6.29a2 2 0 0 0 0.87-3.9z"}]]);
+
+export default BsCupFill;

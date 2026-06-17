@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-sina-weibo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsSinaWeibo {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.88 1.09a4.23 4.23 0 0 1 4.03 1.31 4.22 4.22 0 0 1 0.89 4.14v0a0.610.61 0 0 1-1.17-0.38 3.01 3.01 0 0 0-3.49-3.870.610.61 0 1 1-0.26-1.2M3.75 9.47c0.55-1.11 1.97-1.74 3.23-1.41 1.30.34 1.97 1.57 1.44 2.76-0.54 1.22-2.1 1.88-3.42 1.45-1.27-0.41-1.81-1.67-1.25-2.8m2.660.57c0.160.070.37-0.010.46-0.170.09-0.160.03-0.34-0.13-0.4-0.16-0.06-0.350.01-0.450.17-0.090.15-0.040.330.120.4m-1.61 1.31c0.410.190.960.01 1.22-0.40.25-0.410.12-0.88-0.3-1.06-0.41-0.17-0.940.01-1.190.4-0.260.4-0.130.870.27 1.06"}],["path",{"d":"m12.01 7.240.010c0.920.28 1.940.97 1.94 2.19 0 2.01-2.89 4.54-7.25 4.54C3.39 13.96 0 12.35 0 9.71c0-1.380.88-2.98 2.38-4.49C4.4 3.2 6.75 2.28 7.63 3.17c0.390.390.43 1.070.18 1.87-0.130.410.380.180.380.18 1.63-0.68 3.05-0.72 3.570.020.280.40.250.950 1.59-0.120.290.040.340.260.41m-10.4 3.1c0.17 1.74 2.46 2.94 5.11 2.67 2.65-0.26 4.66-1.88 4.48-3.62-0.17-1.74-2.46-2.94-5.11-2.67-2.650.26-4.66 1.88-4.48 3.62m11.68-6.48a2.06 2.06 0 0 0-1.96-0.630.530.53 0 1 0 0.22 1.03 1.01 1.01 0 0 1 1.17 1.30.530.53 0 0 0 10.33 2.06 2.06 0 0 0-0.43-2.02"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsSinaWeibo;

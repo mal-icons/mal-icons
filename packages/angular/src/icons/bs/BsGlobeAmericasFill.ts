@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-globe-americas-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsGlobeAmericasFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"m8 0 0.410.01A7.97 7.97 0 0 1 13.29 2a8.04 8.04 0 0 1 2.55 4.38 8 8 0 1 1-15.67 0 8 8 0 0 1 1.36-3.08A8 8 0 0 1 2.71 2 7.96 7.96 0 0 1 8 0m0 1a7 7 0 0 0-5.96 3.32C2.5 6.19 6.67 7.83 6.5 8c-0.50.5-1.030.88-1 1.50.07 1.25 2.260.77 2.5 2 0.2 1.03-1.05 3 0 3 1.5-0.5 3.8-3.19 4-5 0.14-1.24-2-2-3.5-2.5-0.83-0.28-1.050.65-1.50.5S4.5 5.5 5.5 5s1 0 1.50.5c1 0.50.5-1 1-1.50.84-0.84 3.16-1.39 3.61-2A6.97 6.97 0 0 0 8 1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsGlobeAmericasFill;

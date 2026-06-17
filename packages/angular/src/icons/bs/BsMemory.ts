@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-memory",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsMemory {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.59a1 1 0 0 0 0.71-0.29l0.35-0.35a0.50.5 0 0 1 0.71 0l0.350.35a1 1 0 0 0 0.710.29H15a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zm0.5 1h3a0.50.5 0 0 1 0.50.5v4a0.50.5 0 0 1-0.50.5h-3a0.50.5 0 0 1-0.5-0.5v-4a0.50.5 0 0 1 0.5-0.5m5 0h3a0.50.5 0 0 1 0.50.5v4a0.50.5 0 0 1-0.50.5h-3a0.50.5 0 0 1-0.5-0.5v-4a0.50.5 0 0 1 0.5-0.5m4.50.5a0.50.5 0 0 1 0.5-0.5h3a0.50.5 0 0 1 0.50.5v4a0.50.5 0 0 1-0.50.5h-3a0.50.5 0 0 1-0.5-0.5zM2 10v2H1v-2zm2 0v2H3v-2zm2 0v2H5v-2zm3 0v2H8v-2zm2 0v2h-1v-2zm2 0v2h-1v-2zm2 0v2h-1v-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsMemory;

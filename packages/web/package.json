@@ -42,6 +42,12 @@
       "import": "./dist/icons/ad/index.js"
     },
     "./ad/*.json": "./src/icons/ad/*.json",
+    "./bs": {
+      "types": "./dist/icons/bs/index.d.ts",
+      "bun": "./src/icons/bs/index.ts",
+      "import": "./dist/icons/bs/index.js"
+    },
+    "./bs/*.json": "./src/icons/bs/*.json",
     "./cg": {
       "types": "./dist/icons/cg/index.d.ts",
       "bun": "./src/icons/cg/index.ts",

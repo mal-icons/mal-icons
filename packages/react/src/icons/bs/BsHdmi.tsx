@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsHdmi = createIcon("0 0 16 16", [["path",{"d":"M2.5 7a0.50.5 0 0 0 0 1h11a0.50.5 0 0 0 0-1z"}],["path",{"d":"M1 5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h0.29l0.710.71a1 1 0 0 0 0.710.29h10.59a1 1 0 0 0 0.71-0.29l0.71-0.71H15a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1zm0 1h14v3h-0.29a1 1 0 0 0-0.710.29l-0.710.71H2.71L2 9.29A1 1 0 0 0 1.29 9H1z"}]]);
+
+export default BsHdmi;

@@ -46,6 +46,17 @@
       "bun": "./src/icons/ad/*.tsx",
       "import": "./dist/icons/ad/*.js"
     },
+    "./bs": {
+      "types": "./dist/icons/bs/index.d.ts",
+      "bun": "./src/icons/bs/index.ts",
+      "import": "./dist/icons/bs/index.js",
+      "require": "./dist/icons/bs/index.cjs"
+    },
+    "./bs/*": {
+      "types": "./dist/icons/bs/*.d.ts",
+      "bun": "./src/icons/bs/*.tsx",
+      "import": "./dist/icons/bs/*.js"
+    },
     "./cg": {
       "types": "./dist/icons/cg/index.d.ts",
       "bun": "./src/icons/cg/index.ts",
@@ -361,6 +372,7 @@
       "require": "./dist/server.cjs"
     },
     "./sprite/ad.svg": "./dist/icons/ad/sprite.svg",
+    "./sprite/bs.svg": "./dist/icons/bs/sprite.svg",
     "./sprite/cg.svg": "./dist/icons/cg/sprite.svg",
     "./sprite/ci.svg": "./dist/icons/ci/sprite.svg",
     "./sprite/dev.svg": "./dist/icons/dev/sprite.svg",

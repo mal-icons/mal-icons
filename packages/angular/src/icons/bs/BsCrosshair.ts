@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-crosshair",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsCrosshair {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.50.5a0.50.5 0 0 0-1 0v0.52A7 7 0 0 0 1.02 7.5H0.5a0.50.5 0 0 0 0 1h0.52A7 7 0 0 0 7.5 14.98v0.52a0.50.5 0 0 0 1 0v-0.52A7 7 0 0 0 14.98 8.5h0.52a0.50.5 0 0 0 0-1h-0.52A7 7 0 0 0 8.5 1.02zm-6.48 7A6 6 0 0 1 7.5 2.02v0.48a0.50.5 0 0 0 1 0v-0.48a6 6 0 0 1 5.48 5.48h-0.48a0.50.5 0 0 0 0 1h0.48a6 6 0 0 1-5.48 5.48v-0.48a0.50.5 0 0 0-1 0v0.48A6 6 0 0 1 2.02 8.5h0.48a0.50.5 0 0 0 0-1zM8 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsCrosshair;

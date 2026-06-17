@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-badge-ar-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBadgeArFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m6.03 8.57-0.73-2.43h-0.05L4.51 8.57h1.52zm3.64-2.64v1.94h1.03c0.66 0 1.07-0.32 1.07-0.95 0-0.64-0.42-0.99-1.05-0.99z"}],["path",{"d":"M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm4.26 5.46h2L6.74 11H8L6 5H4.61L2.6 11h1.2zM8.5 5v6h1.17V8.76h1.06L11.79 11h1.33L11.91 8.58C12.46 8.37 13 7.78 13 6.9c0-1.15-0.77-1.9-2.1-1.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBadgeArFill;

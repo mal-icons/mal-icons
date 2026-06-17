@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-cloud-minus-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsCloudMinusFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 2a5.53 5.53 0 0 0-3.59 1.34c-0.770.66-1.32 1.52-1.46 2.38C1.27 6.1 0 7.56 0 9.32 0 11.37 1.71 13 3.78 13h8.91C14.5 13 16 11.57 16 9.77c0-1.64-1.24-2.97-2.83-3.19C12.92 4 10.69 2 8 2M6 7.5h4a0.50.5 0 0 1 0 1H6a0.50.5 0 0 1 0-1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsCloudMinusFill;

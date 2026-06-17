@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-fuel-pump-diesel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFuelPumpDiesel {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.5 2a0.50.5 0 0 0-0.50.5v5a0.50.5 0 0 0 0.50.5h5a0.50.5 0 0 0 0.5-0.5v-5a0.50.5 0 0 0-0.5-0.5zM4 14V9h1.8q0.75 0 1.240.29t0.730.85Q8 10.7 8 11.49q0 0.79-0.24 1.36a1.8 1.8 0 0 1-0.730.86Q6.54 14 5.8 14zm1.67-4.19h-0.69v3.39h0.69q0.34 0 0.6-0.1a1 1 0 0 0 0.41-0.31q0.16-0.210.24-0.530.08-0.310.08-0.74 0-0.56-0.14-0.94a1.1 1.1 0 0 0-0.44-0.57q-0.29-0.19-0.75-0.19Z"}],["path",{"d":"M3 0a2 2 0 0 0-2 2v13H0.5a0.50.5 0 0 0 0 1h11a0.50.5 0 0 0 0-1H11v-4a1 1 0 0 1 1 1v0.5a1.5 1.5 0 0 0 3 0V8h0.5a0.50.5 0 0 0 0.5-0.5V4.32c0-0.62 0-1.43-0.29-2.08a1.97 1.97 0 0 0-0.79-0.91Q14.351 13.5 1a0.50.5 0 0 0 0 1c0.44 0 0.720.090.90.2a0.970.97 0 0 1 0.390.46c0.150.330.190.750.2 1.22H13.5a0.50.5 0 0 0-0.50.5V7.5a0.50.5 0 0 0 0.50.5h0.5v4.5a0.50.5 0 0 1-1 0V12a2 2 0 0 0-2-2V2a2 2 0 0 0-2-2zm7 2v13H2V2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFuelPumpDiesel;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-messenger",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsMessenger {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 7.76C0 3.3 3.49 0 8 0s8 3.3 8 7.76-3.49 7.76-8 7.76c-0.81 0-1.59-0.11-2.32-0.31a0.640.64 0 0 0-0.430.03l-1.590.7a0.640.64 0 0 1-0.9-0.57l-0.04-1.42a0.640.64 0 0 0-0.21-0.46C0.96 12.11 0 10.09 0 7.76m5.55-1.46-2.35 3.73c-0.220.360.210.760.550.51l2.53-1.92a0.480.48 0 0 1 0.580l1.87 1.4a1.2 1.2 0 0 0 1.74-0.32l2.35-3.73c0.23-0.36-0.21-0.76-0.55-0.51L9.73 7.38a0.480.48 0 0 1-0.580L7.28 5.98a1.2 1.2 0 0 0-1.730.32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsMessenger;

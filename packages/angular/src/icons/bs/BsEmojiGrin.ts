@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-emoji-grin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsEmojiGrin {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.95 11.4A6 6 0 0 1 2.11 9.14c-0.11-0.590.43-1.07 1.03-1C4.41 8.29 6.48 8.5 8 8.5s3.6-0.21 4.86-0.36c0.6-0.07 1.140.4 1.031a5.95 5.95 0 0 1-0.95 2.26m-0.08-2.25C11.59 9.3 9.54 9.5 8 9.5s-3.59-0.2-4.87-0.35c0.110.470.290.910.52 1.32A37 37 0 0 0 8 10.75a37 37 0 0 0 4.35-0.28c0.23-0.410.41-0.850.52-1.32m-1.36 2.42c-1.020.1-2.250.19-3.510.19s-2.49-0.09-3.51-0.19A5 5 0 0 0 8 13a5 5 0 0 0 3.51-1.44ZM6.49 7c0.11-0.290.18-0.640.18-1 0-1.1-0.6-2-1.33-2C4.6 4 4 4.89 4 6c0 0.360.070.710.18 1 0.23-0.60.66-1 1.16-1 0.49 0 0.930.4 1.16 1M12 6c0 0.36-0.060.71-0.18 1-0.23-0.6-0.66-1-1.15-1-0.49 0-0.920.4-1.15 1a2.8 2.8 0 0 1-0.18-1c0-1.10.6-2 1.33-2C11.4 4 12 4.89 12 6"}],["path",{"d":"M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m0-1A7 7 0 1 1 8 1a7 7 0 0 1 0 14"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsEmojiGrin;

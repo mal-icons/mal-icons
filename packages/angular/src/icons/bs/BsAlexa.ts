@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-alexa",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsAlexa {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 0A8 8 0 0 0 0 8a8 8 0 0 0 6.93 7.93v-1.61a1.06 1.06 0 0 0-0.72-1.01A5.6 5.6 0 0 1 2.4 7.87 5.58 5.58 0 0 1 8.05 2.4a5.6 5.6 0 0 1 5.54 5.81l00.05-0.010.1900.06a5 5 0 0 1-0.030.28l-0.010.07c-0.68 4.52-6.56 7.05-6.6 7.07A8 8 0 0 0 15.99 8 8 8 0 0 0 80Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsAlexa;

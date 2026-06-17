@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-receipt-cutoff",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsReceiptCutoff {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 4.5a0.50.5 0 0 1 0.5-0.5h6a0.50.5 0 1 1 0 1h-6a0.50.5 0 0 1-0.5-0.5m0 2a0.50.5 0 0 1 0.5-0.5h6a0.50.5 0 1 1 0 1h-6a0.50.5 0 0 1-0.5-0.5m0 2a0.50.5 0 0 1 0.5-0.5h6a0.50.5 0 1 1 0 1h-6a0.50.5 0 0 1-0.5-0.5m0 2a0.50.5 0 0 1 0.5-0.5h6a0.50.5 0 0 1 0 1h-6a0.50.5 0 0 1-0.5-0.5m0 2a0.50.5 0 0 1 0.5-0.5h6a0.50.5 0 0 1 0 1h-6a0.50.5 0 0 1-0.5-0.5M11.5 4a0.50.5 0 0 0 0 1h1a0.50.5 0 0 0 0-1zm0 2a0.50.5 0 0 0 0 1h1a0.50.5 0 0 0 0-1zm0 2a0.50.5 0 0 0 0 1h1a0.50.5 0 0 0 0-1zm0 2a0.50.5 0 0 0 0 1h1a0.50.5 0 0 0 0-1zm0 2a0.50.5 0 0 0 0 1h1a0.50.5 0 0 0 0-1z"}],["path",{"d":"M2.350.65a0.50.5 0 0 0-0.80.13l-0.5 1A0.50.5 0 0 0 1 2v13H0.5a0.50.5 0 0 0 0 1h15a0.50.5 0 0 0 0-1H15V2a0.50.5 0 0 0-0.05-0.22l-0.5-1a0.50.5 0 0 0-0.8-0.13L13 1.29l-0.65-0.65a0.50.5 0 0 0-0.71 0L11 1.29l-0.65-0.65a0.50.5 0 0 0-0.71 0L9 1.29 8.350.65a0.50.5 0 0 0-0.71 0L7 1.29 6.350.65a0.50.5 0 0 0-0.71 0L5 1.29 4.350.65a0.50.5 0 0 0-0.71 0L3 1.29zm-0.22 1.20.510.51a0.50.5 0 0 0 0.71 0L4 1.71l0.650.65a0.50.5 0 0 0 0.71 0L6 1.71l0.650.65a0.50.5 0 0 0 0.71 0L8 1.71l0.650.65a0.50.5 0 0 0 0.71 0L10 1.71l0.650.65a0.50.5 0 0 0 0.71 0L12 1.71l0.650.65a0.50.5 0 0 0 0.71 0l0.51-0.510.140.27V15H2V2.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsReceiptCutoff;

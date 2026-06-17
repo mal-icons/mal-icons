@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-train-freight-front",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsTrainFreightFront {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.070.16A1.5 1.5 0 0 1 5.74 0h4.53a1.5 1.5 0 0 1 0.670.16l3.24 1.62a1.5 1.5 0 0 1 0.83 1.34V13.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V3.12a1.5 1.5 0 0 1 0.83-1.34zM2 9.37V13.5A1.5 1.5 0 0 0 3.5 15h4V8h-0.85a0.50.5 0 0 0-0.140.02zM8.5 15h4a1.5 1.5 0 0 0 1.5-1.5V9.37l-4.5-1.35A0.50.5 0 0 0 9.35 8H8.5zM14 8.33v-5.21a0.50.5 0 0 0-0.28-0.45l-3.24-1.62A0.50.5 0 0 0 10.26 1H5.74a0.50.5 0 0 0-0.220.05L2.28 2.67A0.50.5 0 0 0 2 3.12v5.21l1-0.3V5a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v3.03zm-2-0.6V5H8.5v2h0.85a1.5 1.5 0 0 1 0.430.06zM7.5 7V5H4v2.73l2.22-0.66A1.5 1.5 0 0 1 6.65 7zm-1-5a0.50.5 0 0 0 0 1h3a0.50.5 0 0 0 0-1zm-3 8a0.50.5 0 1 0 0 1 0.50.5 0 0 0 0-1m9 0a0.50.5 0 1 0 0 1 0.50.5 0 0 0 0-1M5 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsTrainFreightFront;

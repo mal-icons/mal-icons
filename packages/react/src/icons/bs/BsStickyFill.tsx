@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsStickyFill = createIcon("0 0 16 16", [["path",{"d":"M2.5 1A1.5 1.5 0 0 0 1 2.5v11A1.5 1.5 0 0 0 2.5 15h6.09a1.5 1.5 0 0 0 1.06-0.44l4.92-4.91A1.5 1.5 0 0 0 15 8.59V2.5A1.5 1.5 0 0 0 13.5 1zm6 8.5a1 1 0 0 1 1-1h4.4a0.250.25 0 0 1 0.180.43l-5.15 5.15a0.250.25 0 0 1-0.43-0.18z"}]]);
+
+export default BsStickyFill;

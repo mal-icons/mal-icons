@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-palette",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsPalette {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3M5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"}],["path",{"d":"M16 8c0 3.15-1.87 2.59-3.57 2.07C11.42 9.76 10.47 9.47 10 10c-0.60.68-0.47 1.82-0.35 2.92C9.83 14.5 10 16 8 16a8 8 0 1 1 8-8m-8 7c0.61 0 0.65-0.170.66-0.180.08-0.150.12-0.460.07-1.12-0.01-0.17-0.04-0.37-0.06-0.59-0.05-0.46-0.11-1-0.12-1.46-0.01-0.710.08-1.610.7-2.310.37-0.420.85-0.58 1.27-0.620.4-0.040.810.03 1.160.10.340.080.70.19 1.020.28l0.030.01c0.350.110.660.20.950.270.650.150.90.080.990.02C14.72 9.38 15 9.16 15 8a7 7 0 1 0-7 7"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsPalette;

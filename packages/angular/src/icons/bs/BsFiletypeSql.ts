@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-filetype-sql",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFiletypeSql {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M14 4.5V14a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM0 14.84a1.13 1.13 0 0 0 0.40.82q0.190.160.480.25c0.280.090.410.090.670.09q0.51 0 0.86-0.160.36-0.160.54-0.44a1.17 1.17 0 0 0 0.19-0.66q0-0.34-0.13-0.56a1 1 0 0 0-0.37-0.36 2 2 0 0 0-0.56-0.21l-0.62-0.14a1 1 0 0 1-0.4-0.180.370.37 0 0 1-0.14-0.3q0-0.230.18-0.380.19-0.150.51-0.150.21 0 0.370.07a0.60.6 0 0 1 0.250.180.560.56 0 0 1 0.120.26h0.75a1.1 1.1 0 0 0-0.2-0.57 1.2 1.2 0 0 0-0.5-0.41 1.8 1.8 0 0 0-0.78-0.15q-0.44 0-0.780.15-0.340.15-0.530.42-0.190.27-0.190.64 0 0.30.120.52t0.350.37q0.230.140.540.21l0.620.14q0.310.070.460.19a0.390.39 0 0 1 0.150.33q0 0.17-0.080.29A0.560.56 0 0 1 2 15.31q-0.170.07-0.410.07-0.18 0-0.32-0.04a0.80.8 0 0 1-0.25-0.110.580.58 0 0 1-0.25-0.38zm6.88 1.49-0.51-0.74q0.26-0.240.4-0.60.14-0.360.14-0.81v-0.5q0-0.56-0.21-0.97a1.5 1.5 0 0 0-0.59-0.64q-0.38-0.22-0.92-0.22-0.53 0-0.910.23-0.380.22-0.590.64a2.14 2.14 0 0 0-0.20.97v0.5q0 0.550.210.970.210.410.590.64a1.8 1.8 0 0 0 0.910.22 1.8 1.8 0 0 0 0.6-0.1l0.290.42h0.79ZM4.26 14.2v-0.52q0-0.370.11-0.63a0.90.9 0 0 1 0.33-0.40.90.9 0 0 1 0.5-0.14q0.29 0 0.50.14a0.90.9 0 0 1 0.330.4q0.120.260.120.63v0.52q0 0.25-0.050.45-0.050.2-0.150.34l-0.11-0.14-0.1-0.15h-0.73l0.450.65a0.60.6 0 0 1-0.250.050.870.87 0 0 1-0.49-0.150.90.9 0 0 1-0.32-0.4 1.7 1.7 0 0 1-0.11-0.64m3.99 1.06h1.7v0.67H7.46v-4h0.79z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFiletypeSql;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsSkipForwardBtn = createIcon("0 0 16 16", [["path",{"d":"M4.79 5.09A0.50.5 0 0 0 4 5.5v5a0.50.5 0 0 0 0.790.41L7.5 8.97V10.5a0.50.5 0 0 0 0.790.41L11 8.97V10.5a0.50.5 0 0 0 1 0v-5a0.50.5 0 0 0-1 0v1.53L8.29 5.09a0.50.5 0 0 0-0.790.41v1.53z"}],["path",{"d":"M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"}]]);
+
+export default BsSkipForwardBtn;

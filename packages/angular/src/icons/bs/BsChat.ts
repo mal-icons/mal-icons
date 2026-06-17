@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-chat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsChat {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.68 11.89a1 1 0 0 1 0.290.8 11 11 0 0 1-0.4 2c1.4-0.32 2.25-0.7 2.63-0.89a1 1 0 0 1 0.71-0.07A8 8 0 0 0 8 14c4 0 7-2.81 7-6s-3-6-7-6-7 2.81-7 6c0 1.470.62 2.83 1.68 3.89m-0.49 3.91a22 22 0 0 1-0.710.13c-0.20.03-0.35-0.18-0.27-0.36a10 10 0 0 0 0.24-0.64l0-0.01c0.25-0.720.45-1.550.52-2.32C0.74 11.37 0 9.76 0 8c0-3.87 3.58-7 8-7s8 3.13 8 7-3.58 7-8 7a9 9 0 0 1-2.35-0.31c-0.520.26-1.640.74-3.47 1.11"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsChat;

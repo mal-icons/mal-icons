@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-filetype-pdf",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsFiletypePdf {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zM1.6 11.85H0v4h0.79v-1.34h0.8q0.43 0 0.73-0.170.31-0.170.46-0.47a1.4 1.4 0 0 0 0.16-0.68q0-0.37-0.16-0.68a1.2 1.2 0 0 0-0.46-0.48q-0.3-0.18-0.73-0.18m0.55 1.33a0.80.8 0 0 1-0.080.380.570.57 0 0 1-0.240.240.80.8 0 0 1-0.370.08H0.79V12.48h0.66q0.33 0 0.510.180.190.180.190.52m1.22-1.33v4h1.46q0.6 0 1-0.24a1.45 1.45 0 0 0 0.6-0.69q0.2-0.450.2-1.08 0-0.63-0.2-1.07a1.43 1.43 0 0 0-0.59-0.68q-0.4-0.23-1-0.23zm0.790.65h0.56q0.37 0 0.610.15a0.90.9 0 0 1 0.350.45q0.120.30.120.75a2.3 2.3 0 0 1-0.070.59 1.1 1.1 0 0 1-0.20.420.80.8 0 0 1-0.330.25 1.3 1.3 0 0 1-0.480.08h-0.56zm3.74 1.76v1.59h-0.79V11.85h2.55v0.65H7.9v1.12h1.61v0.64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsFiletypePdf;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-basket",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBasket {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.76 1.07a0.50.5 0 0 1 0.170.69L3.38 6h9.23L10.07 1.76a0.50.5 0 1 1 0.86-0.51L13.78 6H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1v4.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 13.5V9a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h1.22L5.07 1.24a0.50.5 0 0 1 0.69-0.17zM2 9v4.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9zM1 7v1h14V7zm3 3a0.50.5 0 0 1 0.50.5v3a0.50.5 0 0 1-1 0v-3A0.50.5 0 0 1 4 10m2 0a0.50.5 0 0 1 0.50.5v3a0.50.5 0 0 1-1 0v-3A0.50.5 0 0 1 6 10m2 0a0.50.5 0 0 1 0.50.5v3a0.50.5 0 0 1-1 0v-3A0.50.5 0 0 1 8 10m2 0a0.50.5 0 0 1 0.50.5v3a0.50.5 0 0 1-1 0v-3a0.50.5 0 0 1 0.5-0.5m2 0a0.50.5 0 0 1 0.50.5v3a0.50.5 0 0 1-1 0v-3a0.50.5 0 0 1 0.5-0.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBasket;

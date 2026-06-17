@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-valentine",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsValentine {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 5.99c1.66-1.71 5.83 1.28 0 5.13-5.82-3.85-1.66-6.84 0-5.13M2.25 4a0.250.25 0 0 0-0.250.25v1.5a0.250.25 0 0 0 0.5 0V4.5h1.25a0.250.25 0 0 0 0-0.5zm10 0a0.250.25 0 1 0 0 0.5h1.25v1.25a0.250.25 0 1 0 0.5 0v-1.5a0.250.25 0 0 0-0.25-0.25zM2.5 10.25a0.250.25 0 1 0-0.5 0v1.5c0 0.140.110.250.250.25h1.5a0.250.25 0 1 0 0-0.5H2.5zm11.5 0a0.250.25 0 1 0-0.5 0v1.25h-1.25a0.250.25 0 1 0 0 0.5h1.5a0.250.25 0 0 0 0.25-0.25z"}],["path",{"fill-rule":"evenodd","d":"M0 2.99v-0.06a1 1 0 0 1 0.86-0.99l13-1.86a1 1 0 0 1 1.140.99V2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zM1 3v10h14V3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsValentine;

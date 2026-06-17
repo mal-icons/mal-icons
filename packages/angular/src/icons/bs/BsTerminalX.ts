@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-terminal-x",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsTerminalX {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h5.5a0.50.5 0 0 1 0 1H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v4a0.50.5 0 0 1-1 0V4a1 1 0 0 0-1-1z"}],["path",{"d":"M3.15 5.15a0.50.5 0 0 1 0.71 0L5.18 6.47a0.750.75 0 0 1 0 1.06L3.85 8.85a0.50.5 0 1 1-0.71-0.71L4.29 7 3.15 5.85a0.50.5 0 0 1 0-0.71M5.5 9a0.50.5 0 0 1 0.5-0.5h2a0.50.5 0 0 1 0 1H6a0.50.5 0 0 1-0.5-0.5M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-4.85-1.35a0.50.5 0 0 0 0 0.71l0.650.65-0.650.65a0.50.5 0 0 0 0.710.71l0.65-0.650.650.65a0.50.5 0 0 0 0.71-0.71l-0.65-0.650.65-0.65a0.50.5 0 0 0-0.71-0.71l-0.650.65-0.65-0.65a0.50.5 0 0 0-0.71 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsTerminalX;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsDisplayportFill = createIcon("0 0 16 16", [["path",{"d":"M1 5a1 1 0 0 0-1 1v3.19a1 1 0 0 0 0.550.89l1.620.81a1 1 0 0 0 0.450.11H15a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1zm1.5 2h11a0.50.5 0 0 1 0.50.5v1a0.50.5 0 0 1-1 0V8H3v0.5a0.50.5 0 0 1-1 0v-1a0.50.5 0 0 1 0.5-0.5"}]]);
+
+export default BsDisplayportFill;

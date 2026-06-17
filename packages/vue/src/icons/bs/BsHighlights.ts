@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsHighlights = createIcon("0 0 16 16", [["path",{"d":"M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-8 5v1H4.5a0.50.5 0 0 0-0.090.01A7 7 0 0 1 3.1 13zm0-1H2.26a7 7 0 0 1-0.58-1H8zm-6.71-2a7 7 0 0 1-0.22-1H8v1zM1 8q0-0.510.07-1H8v1zm0.29-2q0.16-0.520.38-1H8v1zm0.97-2q0.38-0.540.85-1H8v1zm2.14-2A6.97 6.97 0 0 1 8 1v1z"}]]);
+
+export default BsHighlights;

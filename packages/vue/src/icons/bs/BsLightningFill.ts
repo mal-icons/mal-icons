@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BsLightningFill = createIcon("0 0 16 16", [["path",{"d":"M5.520.36A0.50.5 0 0 1 6 0h4a0.50.5 0 0 1 0.470.66L8.69 6H12.5a0.50.5 0 0 1 0.40.81l-7 9a0.50.5 0 0 1-0.87-0.45L6.82 9.5H3.5a0.50.5 0 0 1-0.48-0.64z"}]]);
+
+export default BsLightningFill;

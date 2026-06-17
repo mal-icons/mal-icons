@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-box-arrow-down-left",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsBoxArrowDownLeft {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","d":"M7.36 12.5a0.50.5 0 0 0 0.50.5H14.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 14.5 0h-10A1.5 1.5 0 0 0 3 1.5v6.64a0.50.5 0 1 0 1 0V1.5a0.50.5 0 0 1 0.5-0.5h10a0.50.5 0 0 1 0.50.5v10a0.50.5 0 0 1-0.50.5H7.86a0.50.5 0 0 0-0.50.5"}],["path",{"fill-rule":"evenodd","d":"M0 15.5a0.50.5 0 0 0 0.50.5h5a0.50.5 0 0 0 0-1H1.71l8.15-8.15a0.50.5 0 0 0-0.71-0.71L1 14.29V10.5a0.50.5 0 0 0-1 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsBoxArrowDownLeft;

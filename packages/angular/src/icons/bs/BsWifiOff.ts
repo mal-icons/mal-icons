@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-wifi-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsWifiOff {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.71 3.29A12.6 12.6 0 0 0 8 3C5.26 3 2.72 3.880.66 5.38a0.490.49 0 0 0-0.050.740.520.52 0 0 0 0.670.05A11.45 11.45 0 0 1 8 4q0.95 0 1.850.15zM8 6c-1.9 0-3.680.56-5.17 1.53a0.480.48 0 0 0-0.060.750.530.53 0 0 0 0.650.07 8.45 8.45 0 0 1 3.51-1.27zm2.6 1.40.79-0.78q0.950.36 1.790.91a0.480.48 0 0 1 0.060.750.530.53 0 0 1-0.650.07 8.5 8.5 0 0 0-1.98-0.93zM8 10l0.93-0.93a6.5 6.5 0 0 1 2.010.64c0.280.140.330.520.10.75l-0.010.02a0.530.53 0 0 1-0.610.09A5.5 5.5 0 0 0 8 10m4.91-4.90.75-0.75q0.890.45 1.69 1.03a0.490.49 0 0 1 0.050.740.520.52 0 0 1-0.670.05 11.5 11.5 0 0 0-1.81-1.07M9.02 11.78c0.240.140.240.460.040.66l-0.710.71a0.50.5 0 0 1-0.71 0l-0.71-0.71c-0.19-0.19-0.2-0.520.04-0.66A2 2 0 0 1 8 11.5c0.37 0 0.720.1 1.020.28zm4.36-9.9a0.530.53 0 0 1 0.750.75l-10.75 10.75a0.530.53 0 0 1-0.75-0.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsWifiOff;

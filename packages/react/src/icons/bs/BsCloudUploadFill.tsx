@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsCloudUploadFill = createIcon("0 0 16 16", [["path",{"fillRule":"evenodd","d":"M8 0a5.53 5.53 0 0 0-3.59 1.34c-0.770.66-1.32 1.52-1.46 2.38C1.27 4.1 0 5.56 0 7.32 0 9.37 1.71 11 3.78 11H7.5V5.71L5.35 7.85a0.50.5 0 1 1-0.71-0.71l3-3a0.50.5 0 0 1 0.71 0l3 3a0.50.5 0 0 1-0.710.71L8.5 5.71V11h4.19C14.5 11 16 9.57 16 7.77c0-1.64-1.24-2.97-2.83-3.19C12.92 2 10.69 0 8 0m-0.5 14.5V11h1v3.5a0.50.5 0 0 1-1 0"}]]);
+
+export default BsCloudUploadFill;

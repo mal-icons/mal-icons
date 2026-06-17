@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-chat-right-quote-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsChatRightQuoteFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16 2a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h9.59a1 1 0 0 1 0.710.29l2.85 2.85a0.50.5 0 0 0 0.85-0.35zM7.19 4.77q0.130.190.230.4c0.430.950.39 2.38-0.94 3.71a0.450.45 0 0 1-0.610.010.410.41 0 0 1-0.01-0.59c0.42-0.420.67-0.830.81-1.22-0.270.17-0.590.26-0.930.26C4.78 7.33 4 6.59 4 5.67S4.78 4 5.73 4c0.27 0 0.530.060.760.17l0.010c0.170.070.330.180.470.32q0.130.130.230.27M11 7.07c-0.270.17-0.590.26-0.930.26-0.96 0-1.73-0.75-1.73-1.67S9.11 4 10.07 4c0.27 0 0.530.060.760.17l0.010c0.170.070.330.180.470.32q0.130.130.230.270.130.190.230.4c0.430.950.39 2.38-0.94 3.71a0.450.45 0 0 1-0.610.010.410.41 0 0 1-0.01-0.59c0.42-0.420.67-0.830.81-1.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsChatRightQuoteFill;

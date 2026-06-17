@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-tv",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsTv {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.5 13.5A0.50.5 0 0 1 3 13h10a0.50.5 0 0 1 0 1H3a0.50.5 0 0 1-0.5-0.5M13.99 3l0.020a1.5 1.5 0 0 1 0.540.140.760.76 0 0 1 0.30.25c0.070.10.140.280.140.6v5.99l00.02a1.5 1.5 0 0 1-0.140.540.760.76 0 0 1-0.250.3c-0.10.07-0.280.14-0.60.14H2.01l-0.020a1.5 1.5 0 0 1-0.54-0.140.760.76 0 0 1-0.3-0.25C1.08 10.5 1 10.33 1 10V4.01l0-0.02a1.5 1.5 0 0 1 0.14-0.540.760.76 0 0 1 0.25-0.3C1.5 3.08 1.68 3 2 3zM14 2H2C0 2 0 4 0 4v6c0 2 2 2 2 2h12c2 0 2-2 2-2V4c0-2-2-2-2-2"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsTv;

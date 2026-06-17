@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-paint-bucket",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsPaintBucket {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.19 2.78c-0.46-0.68-0.93-1.25-1.35-1.64a3 3 0 0 0-0.71-0.51c-0.22-0.1-0.56-0.2-0.88-0.02-0.370.21-0.430.63-0.430.900.30.060.660.17 1.040.20.690.56 1.53 1.03 2.4L0.75 8.22c-0.280.28-0.270.66-0.220.920.060.280.190.590.360.90.350.630.92 1.36 1.63 2.070.710.71 1.44 1.28 2.07 1.630.310.170.620.310.90.360.260.050.640.060.92-0.22l5.62-5.61c0.120.260.090.510.050.94-0.030.29-0.070.67-0.07 1.18v0.12h0a1 1 0 0 0 1.99 0H14v-0.06a1 1 0 0 00-0.12c-0.05-1.25-0.7-2.74-1.86-3.49a4 4 0 0 0-0.21-0.43c-0.35-0.63-0.92-1.36-1.63-2.07S8.86 3.05 8.23 2.7c-0.31-0.17-0.62-0.3-0.9-0.36-0.26-0.05-0.64-0.06-0.920.22zM4.16 1.87c0.380.360.840.92 1.31 1.63l-0.70.71c-0.38-0.73-0.66-1.4-0.81-1.94a3.3 3.3 0 0 1-0.13-0.67q0.140.090.340.27m0.39 3.97c0.540.85 1.11 1.57 1.61 2.03a0.50.5 0 1 0 0.68-0.73c-0.45-0.42-1.02-1.14-1.56-2.03l1.09-1.09q0.080.180.180.37c0.350.630.92 1.36 1.63 2.070.710.71 1.44 1.28 2.07 1.63q0.180.10.370.18l-4.86 4.86-0.07-0.01c-0.14-0.03-0.34-0.1-0.61-0.25-0.52-0.29-1.19-0.8-1.85-1.46s-1.17-1.32-1.46-1.85c-0.15-0.26-0.22-0.47-0.25-0.61l-0.01-0.07zm2.87-1.93a2.4 2.4 0 0 1-0.24-0.56c0.140.030.320.110.560.240.520.29 1.190.8 1.85 1.460.450.450.830.9 1.12 1.31a3.5 3.5 0 0 0-1.070.09 11 11 0 0 1-0.76-0.69c-0.66-0.66-1.17-1.32-1.46-1.85z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsPaintBucket;

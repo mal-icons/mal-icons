@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-pencil-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsPencilFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.850.15a0.50.5 0 0 0-0.71 0L10.5 1.79 14.21 5.5l1.65-1.65a0.50.5 0 0 0 0-0.71zm0.65 6.06L9.79 2.5 3.29 9H3.5a0.50.5 0 0 1 0.50.5v0.5h0.5a0.50.5 0 0 1 0.50.5v0.5h0.5a0.50.5 0 0 1 0.50.5v0.5h0.5a0.50.5 0 0 1 0.50.5v0.21zm-7.47 7.47A0.50.5 0 0 1 6 13.5V13h-0.5a0.50.5 0 0 1-0.5-0.5V12h-0.5a0.50.5 0 0 1-0.5-0.5V11h-0.5a0.50.5 0 0 1-0.5-0.5V10h-0.5a0.50.5 0 0 1-0.17-0.03l-0.180.18a0.50.5 0 0 0-0.110.17l-2 5a0.50.5 0 0 0 0.650.65l5-2a0.50.5 0 0 0 0.17-0.11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsPencilFill;

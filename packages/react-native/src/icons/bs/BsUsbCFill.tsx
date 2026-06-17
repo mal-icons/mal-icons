@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsUsbCFill = createIcon("0 0 16 16", [["path",{"d":"M3 5a3 3 0 0 0 0 6h10a3 3 0 1 0 0-6zm0.5 2.5h9a0.50.5 0 0 1 0 1h-9a0.50.5 0 0 1 0-1"}]]);
+
+export default BsUsbCFill;

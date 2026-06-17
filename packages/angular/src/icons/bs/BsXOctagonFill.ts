@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bs-x-octagon-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BsXOctagonFill {
+  readonly viewBox = "0 0 16 16";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.460.15A0.50.5 0 0 0 11.11 0H4.89a0.50.5 0 0 0-0.350.15L0.15 4.54A0.50.5 0 0 0 0 4.89v6.21a0.50.5 0 0 0 0.150.35l4.39 4.39a0.50.5 0 0 0 0.350.15h6.21a0.50.5 0 0 0 0.35-0.15l4.39-4.39a0.50.5 0 0 0 0.15-0.35V4.89a0.50.5 0 0 0-0.15-0.35zm-6.11 4.5L8 7.29l2.65-2.65a0.50.5 0 0 1 0.710.71L8.71 8l2.65 2.65a0.50.5 0 0 1-0.710.71L8 8.71l-2.65 2.65a0.50.5 0 0 1-0.71-0.71L7.29 8 4.65 5.35a0.50.5 0 1 1 0.71-0.71"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BsXOctagonFill;

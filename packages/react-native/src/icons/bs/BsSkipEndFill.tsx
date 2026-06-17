@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BsSkipEndFill = createIcon("0 0 16 16", [["path",{"d":"M12.5 4a0.50.5 0 0 0-1 0v3.25L5.23 3.61C4.69 3.3 4 3.68 4 4.31v7.38c0 0.630.69 1.01 1.230.7L11.5 8.75V12a0.50.5 0 0 0 1 0z"}]]);
+
+export default BsSkipEndFill;
