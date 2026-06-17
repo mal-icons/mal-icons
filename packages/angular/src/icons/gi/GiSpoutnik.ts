@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-spoutnik",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSpoutnik {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M399.22 15.03c-15.48 0-28.03 12.55-28.03 28.03 0 14.46 10.97 26.34 25.03 27.84l60.37 248.53c-18.18-15.35-40.6-23.03-63-23.03-25.02 0-50.05 9.58-69.19 28.72-36.18 36.18-38.15 93.36-5.94 131.84L73.81 397.53c-1.2-14.37-13.22-25.65-27.91-25.65-15.48 0-28.03 12.55-28.03 28.03 0 15.48 12.55 28.03 28.03 28.03 9.65 0 18.18-4.89 23.22-12.31l291.15 70.72c34.57 12.52 74.73 4.9 102.5-22.88 27.09-27.09 35.01-65.94 23.75-99.91L414.41 66.63c7.74-4.99 12.88-13.67 12.88-23.56 0-15.48-12.58-28.03-28.06-28.03zM110.16 96.22c-15.48 0-28.03 12.55-28.03 28.03 0 15.48 12.55 28.03 28.03 28.03 4.65 0 9.02-1.15 12.88-3.15l180.06 171.75c2.51-3.09 5.22-6.09 8.09-8.97 1.56-1.56 3.15-3.07 4.78-4.53L135.81 135.5c1.52-3.45 2.38-7.24 2.38-11.25 0-15.48-12.55-28.03-28.03-28.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSpoutnik;

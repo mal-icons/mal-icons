@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-screen-impact",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiScreenImpact {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M340.63 18.44l-42.44 104.66-39.56-99.94L213.25 157l-75.97-54.78 14.22 92.53L24.53 27l108.1 202.03-72.09-36.34 59.53 171.19-88.91-12.53 55.25 72.06-52.47-12.03 103.63 78.75 1.88 2.47h240.19l110.28-151.38-52.03 5.47 56.41-67.56-71.72 36.03L459.97 203.22l-54.78 24.63-88.75 67.84 54.28-78.25 18.94-116.34-57.75 37.56 8.72-120.22zM310.31 204.25L296.72 317.13l82.53-21.5-59.47 57.63L376.91 395l-77.44-12.9 36.09 75.75-67-39.31-40.59 50.38-3.72-57.97-70.06 5.78 70.06-37.31-77.53-79.28 75.12 18.56-8.37-84.75 51.41 87.5 45.44-117.19z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiScreenImpact;

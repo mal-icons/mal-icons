@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-footprint",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFootprint {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M246.63 18.38c-11.82-0.15-23.92 8.61-29.37 22.44-6.72 17.02-0.85 35.28 13.09 40.78 13.94 5.5 30.69-3.82 37.41-20.84 6.72-17.020.85-35.28-13.09-40.78-2.61-1.03-5.3-1.56-8.03-1.59zm74.75 15.94c-10.970.01-22.74 6.02-30.78 16.87-12.25 16.53-11.2 38.06 2.34 48.09 13.54 10.04 34.44 4.75 46.69-11.78 12.25-16.53 11.2-38.06-2.34-48.09-4.65-3.45-10.16-5.1-15.9-5.09zm67.25 37.53c-10.34-0.13-21.54 4.26-30.47 12.91-15.87 15.37-18.52 38.34-5.94 51.34 12.59 13 35.66 11.09 51.53-4.28 15.87-15.37 18.53-38.34 5.94-51.34-5.51-5.69-13.02-8.53-21.06-8.63zm-156.44 32.06c-22.51-0.28-44.38 6.89-63.5 24C107.65 182.51 48.19 261.01 28.28 386.97 5.02 534.1 186.26 507.52 168.31 428.94c-22.92-100.39 34.13-141.11 108-124.16 32.84 7.54 66.54-4.9 86-40.44 23.4-42.73-7.43-106.82-62.87-139.62-21.61-12.79-44.74-20.53-67.25-20.81zM449.44 134c-10.520.02-21.65 2.82-32.09 8.63-27.84 15.48-40.15 46.51-27.47 69.31 12.68 22.8 45.54 28.73 73.38 13.25 27.84-15.48 40.12-46.51 27.44-69.31-7.93-14.25-23.72-21.91-41.25-21.87z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFootprint;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-lunar-wand",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLunarWand {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M373 20c-46.74 0-87.09 26.81-106.56 65.91L206 98l48.11 36.08c-0.07 1.63-0.11 3.27-0.11 4.92 0 20.94 5.39 40.59 14.84 57.67l8.8-22.01 6.17-5.39 16.44-4.11C295.59 154.37 293 142.48 293 130c0-46.01 35.16-84.02 80-88.55L414 34zm105 94l-7.45 25c-4.53 44.84-42.54 80-88.55 80-12.48 0-24.37-2.59-35.16-7.26l-4.11 16.44-5.39 6.17-22.01 8.8C332.41 252.61 352.06 258 373 258c1.65 0 3.29-0.04 4.92-0.11L414 306l12.09-60.44C465.19 226.09 492 185.74 492 139zm-140.37 60.37l-44.98 11.25-22.49 56.23 56.23-22.49zm-84.98 30.05l-16.5 16.5 16.43 16.43 8.04-20.09c-2.88-4.12-5.54-8.41-7.96-12.84zm-44.05 14.41c-7.610.52-12.52 2.56-15.58 5.63-3.07 3.07-5.11 7.98-5.63 15.58l84.8 84.8c7.61-0.51 12.52-2.56 15.58-5.63 3.07-3.07 5.11-7.98 5.63-15.58zm86.15 32.57l-20.09 8.04 16.65 16.64 16.57-16.57c-4.53-2.46-8.91-5.18-13.12-8.11zm-105.27 16.2l-21.21 21.21 55.15 55.15 21.21-21.21zm-45.25 22.63l-21.21 21.21 77.78 77.78L222 368zm-22.63 45.25L18 439.06V494h55.37l103.37-103.37z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLunarWand;

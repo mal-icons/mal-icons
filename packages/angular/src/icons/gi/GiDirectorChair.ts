@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-director-chair",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDirectorChair {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M157 21.23v16h18v-16zm180 0v16h18v-16zM153 55.23v62h206V55.23zm-3.89 80c-26.57 5.32-53.13 10.63-79.7 15.94l3.53 17.65L87 166.01v80.22h18V162.41l52-10.4v45.22h18v-62zm187.89 0v62h18V152.01l52 10.4v83.82h18V166.01l14.06 2.81 3.53-17.65c-26.56-5.31-53.13-10.63-79.7-15.94zm-174 80l-40 30h266.01L349 215.23zm-69.84 48l118.36 82.85c-37.37 27.41-74.74 54.81-112.1 82.21l10.64 14.51 18.74-13.74-8.01 20.82-37.33 26.13 10.32 14.75L256 377.22c54.07 37.85 108.14 75.7 162.21 113.55l10.32-14.74-37.33-26.13-8.01-20.82 18.74 13.75 10.64-14.51c-37.37-27.41-74.74-54.81-112.1-82.21l118.36-82.85h-31.38l-102.31 71.62-13.93-10.21 83.73-61.4H324.51L256 313.47l-68.51-50.24h-30.44l83.73 61.4-13.93 10.22-102.31-71.62zM256 335.79l13.57 9.96L256 355.25l-13.57-9.5zm-28.9 21.19l13.21 9.25-93.12 65.19 8.48-22.05zm57.8 0l71.44 52.39 8.48 22.05-93.12-65.19z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDirectorChair;

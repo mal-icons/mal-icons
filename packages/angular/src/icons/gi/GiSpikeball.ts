@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-spikeball",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSpikeball {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 16c-7.39 0-15.07 25.16-22.5 56.97a184.62 184.62 0 0 0-90.86 37.79C114.86 93.5 91.47 81.01 86.24 86.24c-5.22 5.23 7.29 28.52 24.52 56.25a184.62 184.62 0 0 0-37.93 91.01C41.08 240.92 16 248.62 16 256c0 7.4 25.16 15.07 56.97 22.5a184.62 184.62 0 0 0 37.79 90.87c-17.27 27.78-29.75 51.16-24.52 56.39 5.23 5.23 28.52-7.29 56.25-24.52a184.62 184.62 0 0 0 91.01 37.93c7.42 31.75 15.12 56.83 22.5 56.83 7.4 0 15.07-25.16 22.5-56.97a184.62 184.62 0 0 0 90.87-37.79c27.78 17.26 51.16 29.75 56.39 24.52 5.23-5.23-7.29-28.52-24.52-56.25a184.62 184.62 0 0 0 37.93-91.01C470.92 271.08 496 263.39 496 256c0-7.39-25.16-15.07-56.97-22.5a184.62 184.62 0 0 0-37.79-90.87c17.27-27.77 29.75-51.16 24.52-56.39-5.23-5.23-28.52 7.29-56.25 24.52a184.62 184.62 0 0 0-91.01-37.93C271.08 41.08 263.39 16 256 16zm3.17 129.23A110.77 110.77 0 0 1 366.77 256a110.77 110.77 0 0 1-221.54 0 110.77 110.77 0 0 1 113.94-110.77z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSpikeball;

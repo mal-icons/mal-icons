@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-compact-disc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCompactDisc {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M336.77 30.56A240 240 0 0 0 137.15 48 240 240 0 0 0 20.16 298.94l142.41-25.66c-6.87-38.47 10.6-78.89 46.42-99.32 25.06-14.3 53.98-15.88 79.23-6.81L336.77 30.56zm52.94 26.91l-80.56 120.25c11.77 7.9 21.94 18.56 29.43 31.68 25.94 45.48 10.03 103.65-35.45 129.59-43.75 24.96-99.24 11.18-126.49-30.39L55.64 388a240 240 0 0 0 319.32 76.94 240 240 0 0 0 89.56-327.38 240 240 0 0 0-74.82-80.09zM290.19 187.39c-22.15-10.94-49.14-11-72.29 2.2-30.09 17.16-44.19 51.33-37.1 83.4 1.64 7.4 4.4 14.69 8.36 21.63 21.12 37.03 68 49.86 105.04 28.74s49.86-68 28.74-105.03c-7.92-13.89-19.46-24.37-32.75-30.93zm-15.61 33.64a40 40 0 0 1 16.22 15.63 40 40 0 0 1-14.93 54.56 40 40 0 0 1-54.56-14.93 40 40 0 0 1-4.31-11.15 40 40 0 0 1 19.23-43.41 40 40 0 0 1 38.35-0.7zm-109.21 63.76L27.33 327.97a240 240 0 0 0 13.3 34.15L170.77 298.3c-2.17-4.42-3.96-8.94-5.39-13.51z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCompactDisc;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sharp-halberd",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSharpHalberd {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M355.41 37.06l-72.86 34.96 38.51 38.51zM76.8 60.02c5.94 22.94 6.84 41.02 6.97 57.7 12.27 1.81 26.09 6.84 40.99 12.57 12.25 4.71 24.66 9.69 36.61 14.31-4.61-11.96-9.59-24.36-14.3-36.62-5.73-14.9-10.77-28.72-12.57-40.99-16.68-0.13-34.76-1.03-57.7-6.97zm201.71 33.42l-47.21 47.21c9.54 4.89 19.1 9.5 28.66 13.77l39.76-39.76zM175.18 130.02c3.66 9.26 7.18 18.43 10.05 27.04l5.69 17.08-17.08-5.69c-8.61-2.87-17.79-6.39-27.04-10.05 20.6 34.5 39.18 70 52.47 105.87 19.01 51.33 26.69 103.91 12.99 153.96 108.61-34.56 188.19-114.14 222.75-222.75-50.06 13.7-102.64 6.03-153.96-12.98-35.87-13.28-71.37-31.87-105.87-52.47zm316.55 39.39c-11.71 7.82-23.67 14.1-35.81 19-35.13 124.33-126.39 215.59-250.72 250.72-4.9 12.14-11.18 24.1-19 35.81 69.38-15.54 138.23-56.89 193.43-112.1 55.21-55.21 96.56-124.06 112.1-193.43zm-334.3 45.11l-47.21 47.21 21.21 21.21L171.2 243.18c-4.26-9.56-8.87-19.12-13.77-28.66zm-59.94 59.94l-12.21 12.22h24.43zm-30.21 30.21L51.34 320.61h42.43l15.94-15.94zM51.34 338.61l12.21 12.21L75.77 338.61zm-21.73 3.73L18 353.95v42.43l32.83-32.83z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSharpHalberd;

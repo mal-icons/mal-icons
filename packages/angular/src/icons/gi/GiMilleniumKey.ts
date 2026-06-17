@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-millenium-key",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiMilleniumKey {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M458.89 51.7c-16.69-16.69-36.67-26.1-57-26.91-20.33-0.81-40.03 6.73-57.09 19.63-24.84 18.79-45.25 48.74-59.13 86.72 9.75 11.12 18.96 21.28 28.08 30.93 12.1-42.18 32.32-73.48 52.77-88.93 11.93-9.02 23.34-12.79 33.95-12.37 10.610.42 21.39 4.8 32.98 16.4 11.6 11.6 15.97 22.37 16.4 32.980.42 10.61-3.35 22.01-12.37 33.95-15.46 20.45-46.75 40.67-88.94 52.77 9.65 9.12 19.8 18.33 30.93 28.08 37.98-13.88 67.94-34.29 86.72-59.13 12.9-17.06 20.44-36.77 19.63-57.09-0.81-20.33-10.22-40.31-26.91-57zM207.93 66.48l-42.56 42.56c114.63 93.99 142.19 121.54 236.17 236.17l42.56-42.56C329.48 208.66 301.92 181.11 207.93 66.48zM278.6 231.99a868.66 868.66 0 0 0-16.49-16.04L150.11 327.95c0.98 7.42 4.94 15.28 11.09 21.44 6.15 6.15 14.01 10.12 21.44 11.09l112.01-112.01a868.66 868.66 0 0 0-16.04-16.49zm-137.23 121.67L26.14 468.89l15.56 15.56 115.23-115.23a63.2 63.2 0 0 1-8.46-7.1 63.2 63.2 0 0 1-7.1-8.46zm-31.79 88.36L77.05 474.55l12.73 12.73 32.53-32.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiMilleniumKey;

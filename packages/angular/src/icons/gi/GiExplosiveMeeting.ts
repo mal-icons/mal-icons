@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-explosive-meeting",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiExplosiveMeeting {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M313.73 3.55l-60.17 157.62-58.42-48.45 9.84 78.96c-47.68-32.87-93.9-83.84-135.06-172.41H18.57v119.3c41.34 41.93 97.15 66.44 156.83 90.96L23.98 287.33l132.66 9.65-55.25 85.65 116.94-57.48L224.8 462.93l66.71-144.63 65.75 84.56-5.15-83.67c51.68 38.82 96.87 92.81 126.01 175.47h15.84v-149.33c-33.08-36.71-68.22-57.79-104.75-73.65l66.9-29.57-91.67-15.91 113.02-117.99-152.67 47.26-11.05-151.92zM258.6 198.81c5.41-0.05 11.040.27 16.830.99 23.15 2.91 44.13 11.76 58.84 23.2 14.7 11.44 22.66 25.01 22.66 37.3 0 12.29-7.2 22.39-21.28 29.81-14.08 7.42-34.73 11.08-57.89 8.17-23.15-2.9-44.13-11.76-58.83-23.2-14.7-11.44-22.66-25.01-22.66-37.29 0-0.660.03-1.320.07-1.97l42.64 11.11-8.52 12.11 87.56 13.27-38.8-26.67 15.82-14.78-68.96-26.61c9.24-3.33 20.32-5.31 32.52-5.42z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiExplosiveMeeting;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-torpedo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiTorpedo {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M40 47c-9.28 0-17 7.72-17 17s7.72 17 17 17 17-7.72 17-17-7.72-17-17-17zm0 16c0.45 0 1 0.55 1 1 0 0.45-0.55 1-1 1-0.45 0-1-0.55-1-1 0-0.450.55-1 1-1zm48 48c-9.28 0-17 7.72-17 17s7.72 17 17 17 17-7.72 17-17-7.72-17-17-17zm0 16c0.45 0 1 0.55 1 1 0 0.45-0.55 1-1 1-0.45 0-1-0.55-1-1 0-0.450.55-1 1-1zm-40 40c-13.7 0-25 11.3-25 25s11.3 25 25 25 25-11.3 25-25-11.3-25-25-25zm0 18c3.97 0 7 3.03 7 7s-3.03 7-7 7-7-3.03-7-7 3.03-7 7-7zm52.23 32l13 39-13 39h26.51v-78H100.23zm164.62 0l-120.11 30.03v17.95L264.85 295h117.89v-78H264.85zm135.89 0v78h30v-78h-30zm48 0v78h5.68c28.58-7.43 40.32-23.96 40.32-39s-11.73-31.56-40.32-39h-5.68z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiTorpedo;

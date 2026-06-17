@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-ursa-major",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiUrsaMajor {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M416.13 47.83L410.1 62.02l-30.91-0.44 23.56 11.23-35.04 18.39 24.84-3.82-95.91 128.76-1.24-18.57-7.26 29.98-1.16 1.57-30.75-4.3 20.91 12.93-78.22 36.72-13.89-21.11-0.16 27.71-3.37 1.58-0.020.01-19.28-7.17 5.89 12.31-56.31 21.59-6.73-24.35-7.2 23.88-27.74 5.8 20.18 8.72-55.07 96.5-5.84-11.64-1.76 22.39-12.290.09 11.94 9.66-10.89 15.14 14.54-4.02 3.1 12.66 5.9-14.82 28.91-12.27-19.3-5.93 51.55-90.35 14.34 16.95-3.85-29.03 1.8-0.69 20.14 7.2-9.94-11.11 44.91-17.21-3.69 15.31 19.52-21.06 11.98 25.460.88-29.38 20.37 4.21-8.3-11.94 67.87-31.86-6.81 19.74 19.16-19.79 11.99 15.70.17-13.77 55.03 27.51-12.38 19.3 20.48-8.82 15.52 30.05 2.61-34.39 28.31 4.47-24.49-15.8 96.5-104.29 12.74 10.77-3.86-19.9-0.24-0.21 4.89-5.28-5.4-7.04 1.99-2.39-3.69-24.05-5.77 16.72-51.15-66.66 14.3-19.69-25.22 5.45-1.79-2.34zm-5.13 44.93l8.04 21.81 4.6-17.23 41.45 54.01-16.78-3.81 18.06 13.44-19.07 10.08 16.930.45-89.52 96.75-8.52-18.4-1.65 21.05-54.07-27.04 32.32-9.95-36.13-1.08z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiUrsaMajor;

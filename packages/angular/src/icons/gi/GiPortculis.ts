@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-portculis",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPortculis {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M98.16 22.66V438.53H79.72l30.53 58.06 30.53-58.06h-17.22v-63.47H152.5v-36.34h-28.94V269.06H152.5V232.75h-28.94v-69.62H152.5V126.78h-28.94V58.85H152.5V22.66H98.16zm73.03 0V438.53h-15.62l30.53 58.06 30.53-58.06h-17.72v-63.47h26.63v-36.34h-26.62V269.06h26.63V232.75h-26.62v-69.62h26.63V126.78h-26.62V58.85h26.63V22.66h-54.34zm73.03 0V438.53H230l30.53 58.06 30.53-58.06H272.5v-63.47h29.59v-36.34H272.5V269.06h29.59V232.75H272.5v-69.62h29.59V126.78H272.5V58.85h29.59V22.66H244.22zm76.56 0V438.53h-15.56l30.53 58.06 30.56-58.06h-17.91v-63.47h27.25v-36.34h-27.25V269.06h27.25V232.75h-27.25v-69.62h27.25V126.78h-27.25V58.85h27.25V22.66H320.78zm73.56 0V438.53h-14.69l30.56 58.06 30.53-58.06H422V22.66h-27.65z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPortculis;

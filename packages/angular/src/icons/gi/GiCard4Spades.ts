@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-card-4-spades",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCard4Spades {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M119.43 36c-16.13 0-29.2 17.24-29.2 38.5v363c0 21.26 13.07 38.5 29.2 38.5h275.3c16.13 0 29.2-17.24 29.2-38.5v-363c0-21.26-13.07-38.5-29.2-38.5h-275.3zm26.65 8.05s46.34 33.84 47.27 63.07c0.78 24.29-25.02 32.12-40.77 18.59l13.63 32.65H126.1l13.61-32.63c-15.53 13.88-40 5.35-40.76-18.6-0.88-28.01 47.13-63.07 47.13-63.07zM269.67 179.63h7.73v112.45h27.34v10.11h-27.34v25.32c0 2.220.87 4 2.62 5.35 2.54 1.82 5.47 2.73 8.8 2.73h10.1v8.92h-65.97v-8.92h12.24c4.12 0 7.13-0.87 9.04-2.61 1.98-1.74 2.97-4.28 2.97-7.61v-23.18h-67.28v-11.41l79.76-111.15zm-12.48 32.22l-57.42 80.24h57.42V211.84zm88.59 141.81h40.12l-13.63 32.65c15.75-13.54 41.55-5.7 40.78 18.59-0.93 29.23-47.27 63.07-47.27 63.07s-48.01-35.06-47.13-63.07c0.75-23.95 25.22-32.48 40.76-18.6l-13.61-32.63z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCard4Spades;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-lock-picking",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiLockPicking {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M494 12.97L208.54 169.98 35.65 97.94a121.17 121.17 0 0 0-1.72 14.1l174.3 101.68L494 64.21zm-68.22 6.12S346.25 35.15 320 48c-45.02 22.04-98.65 84.7-98.65 84.7C288.43 88.47 344.92 48 425.78 19.09zm-319.95 6.06c-19.3 0-36.98 9.9-50.3 26.92-6.27 8.02-11.47 17.61-15.23 28.3l137.87 57.44c1.29-35.48-7.34-63.64-20.73-82.76-13.84-19.76-32.4-29.9-51.6-29.9zm-71.42 108c3.35 30.32 17.91 56.83 38.37 70.74l4.68 3.18L62.23 309.14l99.25 19.83-17.54-117.66a81.96 81.96 0 0 0 10.15-8.34zm300.9 57.03c-50.01 39.16-126.72 78.67-165.05 43.55 11.57 23.1 24.99 42.55 51.31 38.32 37.69-6.05 92.4-52.36 113.74-81.86zM59.57 326.96l-2.03 13.65L494 430.65v-16.89zm-4.7 31.51l-2.04 13.69L494 489.97v-17.55zm-4.71 31.61l-15.05 100.98H185.64l-10.06-67.49z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiLockPicking;

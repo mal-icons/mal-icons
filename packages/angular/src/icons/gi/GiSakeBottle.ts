@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sake-bottle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSakeBottle {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M163.34 30.55c-3.4 0-6.1 2.7-6.1 6 0.10.6-1.6 28-1.5 28.50.2 3 2.9 5.5 5.9 5.5h34.1c0.6 0 1.2-0.1 1.8-0.3 2.5-0.8 4.2-3.2 4.2-5.8l-1.6-27.8c0-3.4-2.8-6.1-6.1-6.1zm-4.4 55.8c0.6 44.5-4.1 74.4-10 89.7-5.9 18.6-8.1 30.1-21.1 62.7-13 32.6-13 59.6-13 59.6v13.3H242.74v-13.3s0-27-13.2-59.6c-13-32.6-15.2-44.1-21.1-62.7-5.9-15.2-10.6-45.1-10-89.7-0.90.1-1.80.2-2.80.2H161.74c-0.9 0-1.9-0.1-2.8-0.2zm-44.1 241.3v118.3H242.74v-118.3zm17.5 18.9c0.20.1 15.4 8.5 46.4 8.5 31 0 46.2-8.4 46.4-8.5l8 13.8c-0.40.2-4.9 2.8-13.8 5.4h4.6v16h-9.7v53h-16v-53h-11.4v11.1h-16v-11.1h-12.8v53h-16v-53h-8.5v-16h4.6c-8.8-2.6-13.4-5.2-13.8-5.4l4-6.9zm222.7 70.3c-9.8 0-19 0.6-26 1.7-3.70.6-6.7 1.3-8.9 2.1-6 2.2-7.3 5.9-7.3 8.6v0.4c-0.2 2.3-0.9 22.9 40 27.3 1.20.1 3.10.2 4.40.1 41-3.4 40.1-25.1 40-27.4v-0.4c0-2.7-1.3-6.4-7.3-8.6-2.2-0.8-5.2-1.5-8.9-2.1-7-1.1-16.2-1.7-26-1.7zm0.1 6.9c19.5 0 35.2 2.4 35.2 5.5 0 0.4-0.40.9-1.2 1.4-2.8 1.6-10.4 3-20.3 3.6-4.20.3-8.90.4-13.70.4-4.9 0-9.5-0.2-13.7-0.4-5-0.3-9.3-0.8-12.8-1.4-3.5-0.6-6.1-1.4-7.5-2.2-0.8-0.4-1.2-0.9-1.2-1.4 0-3 15.8-5.5 35.2-5.5zm-240.4 38.2v6.2c0 7.3 6 13.3 13.4 13.3h101.2c7.4 0 13.4-5.9 13.4-13.3v-6.2zm220.2 7.5c-2.9 1.2-4.6 2.8-4.6 4.4 0 4.2 11.1 7.6 24.8 7.6 13.7 0 24.8-3.4 24.8-7.6 0-1.5-1.5-3-4-4.2-5.1 1.2-11 2.1-17.8 2.6-0.70.1-1.60.1-2.50.1-1.2 0-2.6 0-3.6-0.1-6.3-0.6-12-1.6-17.1-2.8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSakeBottle;

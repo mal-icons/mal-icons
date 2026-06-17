@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-flag-objective",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFlagObjective {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M247 26v163.2c-15 0.8-28.5 3.3-39.4 7.4-6.5 2.4-12.1 5.4-16.5 9.3-4.5 4-8.1 9.5-8.1 16.1 0 6.6 3.6 12.1 8.1 16.1 4.4 3.9 10 6.9 16.5 9.3 13 4.9 29.8 7.6 48.4 7.6 18.6 0 35.4-2.7 48.4-7.6 6.5-2.4 12.1-5.4 16.5-9.3 4.5-4 8.1-9.5 8.1-16.1 0-6.6-3.6-12.1-8.1-16.1-4.4-3.9-10-6.9-16.5-9.3-10.9-4.1-24.4-6.6-39.4-7.4V26zm38 0.99v70.02L378.4 62zM247 207.3v29.4c-13.1-0.7-24.8-3-33.1-6.2-5.1-1.9-8.9-4.1-10.9-5.9-2-1.8-2-2.5-2-2.6 0-0.1 0-0.8 2-2.6s5.8-4 10.9-5.9c8.3-3.2 20-5.5 33.1-6.2zm18 0c13.10.7 24.8 3 33.1 6.2 5.1 1.9 8.9 4.1 10.9 5.9 2 1.8 2 2.5 2 2.6 0 0.1 0 0.8-2 2.6s-5.8 4-10.9 5.9c-8.3 3.2-20 5.5-33.1 6.2zm-9 70.7L96 358l128-16-32 144h128l-32-144 128 16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFlagObjective;

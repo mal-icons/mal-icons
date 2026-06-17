@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-earth-america",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiEarthAmerica {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 32c-37.760.09-74.89 9.72-107.94 28l27.52 19.36 40.03-13.69 24.58 5.62 8.78 49.86 15.1-11.59 41.09-14.05 18.26 27.74-35.82 18.96-22.47 16.15-2.46 22.48-24.93 21.07-7.02 34.06-14.05 1.05 7.02-38.63-53.03-2.81-12.64 18.61-0.1-0.01v26.64l25.82 1.99 23.84 16.89-1.99 25.33 33.77 5.96-0.360.76 53-30.56 90.88 59.1-20.51 48.55-32.68 20.16-61.14 77.97-13.5-3.84L262.22 365l-42.21-42.21 7.85-13.86-25.73-9.48-25.33-30.79-21.85-4.97L116.42 208H112l-5.12 26.75-3.64-39.15 5.27-29.15-0.7-23.18L97.25 98.2C55.52 140.12 32.06 196.85 32 256c0 123.71 100.29 224 224 224 82.41-0.03 158.16-45.31 197.2-117.89L442.82 298.14l-5.62-36.17-34.06-27.39 6.67-37.93 15.8-20.37 37.56-5.05C428.77 87.09 346.91 32.07 256 32zm89.05 48H368v48l-32 16v-23.84zm-122.76 166.52l29.85 4.92-4.21 6.32-24.23-4.92z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiEarthAmerica;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-shield-reflect",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiShieldReflect {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M19.36 19.46l-0.38 27.84 267.13 154.75-58.7 19.92 57.6 19.36L142.12 383.55l-19.21-19.21-51.47 114.32 123.13-43.48-17.49-18.95 151.87-151.87 12.43 43.08 22.98-68.5 56.68-16.57-57.47-15.49-22.93-79.83-14.14 48.27-268.65-155.41-38.45-0.45zM370.61 81.94c-4.530.02-9.030.12-13.510.3-3.270.13-6.530.32-9.760.55l31.25 108.79 104.05 28.05c6.2-39.08 8.9-80.28 9.18-120.07C456.37 88.82 415.1 82.26 375.15 81.95c-1.51-0.01-3.03-0.01-4.54-0.01zm-36.87 2.1c-31.99 3.65-61.01 12.15-83.01 25.87l64.49 37.31 18.52-63.18zm148.18 140L378.96 254.13l-38.93 116.05-20.27-70.22-39.07 39.07c18.81 35.36 46.1 62.29 86.18 77.6 47.47-17.83 78.57-62.79 98.01-121.6 7.32-22.14 12.91-46.11 17.04-70.99z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiShieldReflect;

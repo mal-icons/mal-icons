@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GiAbstract058 = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"m21,21v228.57h168.17v115.56h-21v-94.15h-147.17v220.02h470v-220.02h-147.17v94.15h-21v-115.56h168.17v-228.57h-35.1v145.11h-108.83v-145.11h-36.57v145.11h-108.83v-145.11h-36.72v145.11h-108.83v-145.11z"}]]);
+
+export default GiAbstract058;

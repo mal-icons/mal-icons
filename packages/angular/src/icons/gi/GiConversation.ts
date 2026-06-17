@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-conversation",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiConversation {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M211.31 21.09c-51.78 0-98.75 12.25-133.5 32.72C43.07 74.28 19.87 103.78 19.87 137.69c0 33.54 22.69 62.81 56.81 83.25L48.16 327.09l96.97-79.84c20.65 4.58 42.92 7.06 66.19 7.06 51.78 0 98.79-12.25 133.53-32.72 34.75-20.47 57.94-50 57.94-83.9s-23.19-63.41-57.94-83.87c-34.75-20.47-81.76-32.72-133.53-32.72zm0 18.69c48.8 0 92.87 11.77 124.03 30.13 31.17 18.36 48.75 42.45 48.75 67.78 0 25.34-17.58 49.46-48.75 67.81-31.16 18.36-75.23 30.13-124.03 30.13S118.45 223.86 87.28 205.5c-31.16-18.36-48.72-42.48-48.72-67.81 0-25.34 17.56-49.42 48.72-67.78C118.45 51.55 162.51 39.78 211.31 39.78zM96.53 89.94v18.69h93.13V89.94H96.53zm111.81 0v18.69h28.09V89.94h-28.09zm46.78 0v18.69h71.97V89.94h-71.97zM96.53 129.84v18.72h29.66v-18.72H96.53zm48.35 0v18.72h65.94v-18.72h-65.94zm84.66 0v18.72h38.1v-18.72H229.53zm56.78 0v18.72h40.78v-18.72h-40.78zM96.53 166.78v18.69h70.87v-18.69H96.53zm89.56 0v18.69h57.03v-18.69h-57.03zm75.72 0l0 18.69h65.28v-18.69h-65.28zm92.34 90.25c-74.88 0-135.59 41.76-135.59 93.28 0 51.52 60.72 93.28 135.59 93.28 18.23 0 35.62-2.48 51.5-6.97l68.53 51.16-24.87-71.03c24.95-16.92 40.44-40.43 40.44-66.44 0-51.52-60.71-93.28-135.59-93.28zm-70.34 42.35h32.91v18.69H283.81v-18.69zm51.59 0h90.34v18.69h-90.34v-18.69zm-78.97 41.75h78.31v18.69h-78.31v-18.69zm97 0h20.97v18.69h-20.97l0-18.69zm39.66 0h51v18.69h-51v-18.69zm-109.28 39h79.06v18.69h-79.06v-18.69zm97.75 0h44.19v18.69h-44.19v-18.69z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiConversation;

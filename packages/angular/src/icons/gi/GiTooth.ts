@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-tooth",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiTooth {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M246.75 23.08c-11.68-0.2-23.03 4.26-30.95 15.19-29.26 40.35-39.48 78.66-44.38 111.55-4.51 30.24-13.51 59.72-30.95 87.02-31.79 49.75-65.86 124.74-73.59 167.61-5.86 32.39 17.91 42.05 32.71 7.01 20.25-47.94 65.49-125.77 122.06-103.95 51.25 19.76 8.92 122.17-22.19 152.43-25.11 24.42-7.2 51.47 23.94 22.19 33.05-31.06 78.6-92.26 94.61-147.17 6.23-21.38 15.79-43.78 34.46-54.31 39.81-22.48 81.83-58.99 98.12-133.16 10.9-49.63-50.52-70.42-85.27-37.38-5.3-50.4-46.49-62.34-76.51-35.62 10.07-27.63-16.36-50.94-42.05-51.39z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiTooth;

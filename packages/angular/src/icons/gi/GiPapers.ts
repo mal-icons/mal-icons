@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-papers",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiPapers {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M18.91 18.06v369.23C112.4 252.62 269.43 157.82 430.37 133.76L228.42 18.06H18.91zM325.72 179.33C200.38 223.95 86.41 311.05 18.16 422.57v33.6c113.07-111.49 277-176.38 434.37-175.25L325.72 179.33zm25.56 128.68c-125.22 21.64-246.97 83.6-333.12 174.81v10.3h58.92c113.9-65.58 251.17-95.32 379.49-80.81L351.28 308.01zm-2.25 120.96c-80.12 5.88-160.43 27.96-232.61 64.15h266.42l-33.81-64.15z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiPapers;

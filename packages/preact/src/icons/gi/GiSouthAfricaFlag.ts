@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const GiSouthAfricaFlag = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M18 18v104.32L222.45 256 18 389.68V494h55.55l273.77-179H494V197H347.32L73.55 18zm88.45 0l246.24 161H494V18zm246.24 315L106.45 494H494V333z"}]]);
+
+export default GiSouthAfricaFlag;

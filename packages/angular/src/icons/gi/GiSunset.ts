@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-sunset",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiSunset {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M247 27v80h18V27h-18zm-63.99 53.6l-16.63 6.89 15.31 36.96 16.63-6.89-15.31-36.95zm145.98 0l-15.31 36.96 16.63 6.89 15.31-36.95-16.63-6.89zM77.8 92.07l-12.73 12.73 56.57 56.57 12.73-12.73-56.57-56.57zm356.41 0l-56.57 56.57 12.73 12.73 56.57-56.57-12.73-12.73zM256 145.99a118.92 118.92 0 0 0-59.5 15.95c-34.22 19.75-56.18 55.05-59.13 94.06H374.63c-2.95-39.01-24.91-74.3-59.13-94.06a118.92 118.92 0 0 0-59.5-15.95zM66.49 195.38l-6.89 16.63 36.96 15.31 6.89-16.63-36.95-15.31zm379.02 0l-36.95 15.31 6.89 16.63 36.96-15.31-6.89-16.63zM24 274v18h464v-18H24zm200 62v64h-32l64 80 64-80h-32v-64h-64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiSunset;

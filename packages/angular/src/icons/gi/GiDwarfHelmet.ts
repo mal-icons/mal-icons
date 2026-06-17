@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-dwarf-helmet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDwarfHelmet {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M240.03 26v221.48L257.07 256l17.04-8.52V26h-34.07zM222.99 60.07c-80.22 0-136.3 56.08-136.3 136.3h119.26l17.04 17.04V60.07zm66.02 0v153.33l17.04-17.04h119.26c0-80.22-56.08-136.3-136.3-136.3zM69.66 213.41v34.07h50.05l-33.01-34.07H69.66zm41.53 0l34.07 34.07h34.07l-34.07-34.07h-34.07zm58.57 0l34.07 34.07h19.17v-8.52l-25.56-25.56H169.75zm144.82 0l-25.56 25.56v8.52h19.17l34.07-34.07h-27.68zm52.18 0l-34.07 34.07h34.07l34.07-34.07H366.74zm58.57 0l-33.01 34.07h50.05v-34.07h-17.04zM86.69 264.52v34.07l120.33 60.69 5.68-36.5-100.45-41.23-8.52-17.04H86.69zm321.58 0l-8.52 17.04-100.45 41.23 5.68 36.5 120.32-60.69v-34.07h-17.04zm-168.24 2.13L222.99 366.74l34.07 17.04 34.07-17.04-17.04-100.09-17.04 8.52-17.04-8.52zM78.18 314.56l-46.85 41.53v59.63l61.76-93.7-14.91-7.45zm355.65 0l-14.91 7.45 61.76 93.7v-59.63l-46.85-41.53zm-324.77 15.97L40.91 432.76l64.95 44.72 58.57-119.26-55.37-27.68zm293.89 0l-55.37 27.69 58.57 119.26 64.95-44.72-68.15-102.22zm-222.55 35.14L120.77 486h89.45l12.78-51.11h25.56v-36.2l-68.15-33.01zm151.2 0l-68.15 33.01v36.2h25.56L301.79 486h89.44l-59.63-120.32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDwarfHelmet;

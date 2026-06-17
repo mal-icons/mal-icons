@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-dripping-stone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiDrippingStone {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M344.88 19.84l-155.78 7.34-33.97 88.03-1.94 5-5.280.84-43.56 7.09L59.44 230l40.22 31 252.690.72 69.59-34.22-17.72-146.28-11-0.03v0.03l-73.87 1.06-43.41 63.5-15.44-10.53 46.13-67.53 2.75-4 4.84-0.06 49.16-0.69-18.5-43.13zm69.88 232l-48.44 23.84c12.5 17.01 19.98 47.16 13.34 69.59-2.45 8.28-14.73 29.75-14.94 39.69-0.28 13.39 15.33 29.37 28.72 29.37 13.390 25.41-15.98 25.69-29.370.21-9.88-11.45-31.61-14.03-39.69-8.56-26.84-1.97-63.27 9.65-93.44zm-351.12 5c13.52 36.22 8.29 83.59 22.19 83.59 14.32 0 13.96-49.78 35.41-60.69l-24.78-0.06-3.19-0.03-2.5-1.91-27.12-20.91zm84.88 23c27.78 7.3 54.07 75.82 40.88 94.09-2.84 3.94-14.16 15.01-14.47 25.91-0.31 11.11 9.11 23.47 23.38 23.47 13.320 24.36-10.57 24.72-23.470.36-12.69-11.54-21.87-13.69-25.91-8.03-18.99-4.63-73.68 20.88-75.06 29.21-1.58 39.94 83.25 22.19 107.84-4.72 6.53-24.14 27.11-24.69 46.56-0.56 19.87 14.25 41.28 38.72 41.28 24.95 0 40.51-23.9 41-41.280.48-16.96-19.18-39.87-22.75-46.56-14.32-26.88-7.27-105.23 23.69-126.44l-159.84-0.44zm-60.81 101.03c-12.47 0-22.56 10.13-22.56 22.6 0 12.47 10.1 22.56 22.56 22.56 12.47 0 22.56-10.1 22.56-22.56 0-12.47-10.1-22.59-22.56-22.59z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiDrippingStone;

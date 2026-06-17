@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-crested-helmet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCrestedHelmet {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M207.47 18.88l35.97 162.25c0.29 1.090.86 1.86 2.56 2.81 1.70.95 4.43 1.66 7.22 1.66 2.790 5.54-0.7 7.25-1.66 1.7-0.95 2.28-1.75 2.56-2.81L299 18.88h-91.53zm88.94 98.03l-15.22 68.66-0.060.22-0.030.19c-1.75 6.52-6.4 11.43-11.5 14.28-5.1 2.85-10.74 4.03-16.34 4.03-5.610.01-11.24-1.15-16.34-4-5.1-2.85-9.78-7.78-11.53-14.31l-0.03-0.19-0.06-0.22-14.69-66.22C175 133.82 147.16 164.56 135.53 202.97c8.04 4.25 19.25 9.84 32.31 15.47 26.53 11.43 60.51 22.55 88.5 22.41 28-0.14 61.81-11.56 88.16-23.22 13.47-5.96 24.91-11.87 32.94-16.25-12.62-39.97-42.85-71.4-81.03-84.47zm88.97 101.38c-8.36 4.54-19.86 10.49-33.31 16.44-27.52 12.18-62.8 24.67-95.62 24.84-32.840.17-68.29-12-96-23.94-13.61-5.87-25.28-11.74-33.72-16.22-0.51 70.49-3.65 138.64 9.63 188.38 7.14 26.74 18.68 47.87 37.38 62.6 12.09 9.53 27.44 16.58 47.25 20.38V330.13c-28.65 16.12-67.85 2.81-81.06-30.62 8.82-22.32 30.13-33.07 50.78-33 24.580.09 48.22 15.53 48.88 45.09h0.09v89h36.03l0-87.72c-0.01-0.01-0.02-0.02-0.03-0.03 0-0.420.02-0.830.03-1.250.66-29.56 24.33-45.01 48.91-45.09 20.65-0.07 41.93 10.68 50.75 33-13.2 33.4-52.32 46.7-80.97 30.66v160.47c19.54-3.87 34.6-11 46.44-20.59 18.4-14.91 29.6-36.34 36.38-63.34 12.59-50.18 8.8-118.53 8.19-188.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCrestedHelmet;

@@ -168,6 +168,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Font Awesome Free](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  1402 |
 | [Font Awesome Free Brands](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  495 |
 | [Font Awesome Free Regular](https://fontawesome.com/) | [CC BY 4.0 license](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt) | 6.7.2   |  163 |
+| [Game Icons](https://game-icons.net/) | [CC BY 3.0 license](https://github.com/game-icons/icons/blob/master/license.txt) | 82d9488 | 4180 |
 | [Grommet](https://icons.grommet.io/) | [Apache 2.0 license](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 4.14.0  |   637 |
 | [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
@@ -203,12 +204,14 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/far`            | All Font Awesome Regular icons (named exports)        |
 | `@mal-icons/react/fc`            | All Flat Color icons (named exports)        |
 | `@mal-icons/react/fi`            | All Feather icons (named exports)        |
+| `@mal-icons/react/gi`            | All Game Icons icons (named exports)        |
 | `@mal-icons/react/gr`            | All Grommet icons (named exports)        |
 | `@mal-icons/react/fa/FaHeart` | A single icon module                     |
 | `@mal-icons/react/fab/FabGithub` | A single icon module                     |
 | `@mal-icons/react/far/FarHeart` | A single icon module                     |
 | `@mal-icons/react/fc/FcAbout` | A single icon module                     |
 | `@mal-icons/react/fi/FiActivity` | A single icon module                     |
+| `@mal-icons/react/gi/GiAce` | A single icon module                     |
 | `@mal-icons/react/gr/GrHome` | A single icon module                     |
 | `@mal-icons/react/io`            | All Ionicons (named exports)             |
 | `@mal-icons/react/lu`            | All Lucide (named exports)               |
@@ -235,6 +238,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react/sprite/fab.svg` | Pre-built Font Awesome Brands sprite asset           |
 | `@mal-icons/react/sprite/far.svg` | Pre-built Font Awesome Regular sprite asset           |
 | `@mal-icons/react/sprite/fi.svg` | Pre-built Feather sprite asset           |
+| `@mal-icons/react/sprite/gi.svg` | Pre-built Game Icons sprite asset           |
 | `@mal-icons/react/sprite/gr.svg` | Pre-built Grommet sprite asset           |
 | `@mal-icons/react/sprite/io.svg` | Pre-built Ionicons sprite asset          |
 | `@mal-icons/react/sprite/lu.svg` | Pre-built Lucide sprite asset            |

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-habitat-dome",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiHabitatDome {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 32.95l116.93 35.67 83.19 88.81 30.06 112.33-24.83 8.84-87.74-66.91-25.07 107.06-14.08 5.01H319.15L256 229.37l-63.15 94.39h-15.3l-14.08-5.01-25.07-107.06-87.74 66.91-24.83-8.84 30.06-112.33 83.19-88.81zm0 18.82l-71.54 21.82 24.51 3.740.16-0.250.140.29L256 84.5l46.73-7.130.14-0.290.160.25 24.51-3.74zm108.67 34.37L313.6 93.93l51.02 80.11 18.4-68.31zm-217.34 0l-18.35 19.6 18.4 68.31L198.4 93.93zm146.03 10.88L256 102.71l-37.35-5.7L256 175.22zm11.77 17.11l-42.48 88.93 90.34-13.78zm-98.25 0l-47.86 75.15 90.34 13.78zm190.63 7.06l-15.99 59.35 51.13-21.84zm-283.01 0l-35.14 37.52 51.13 21.84zm327.49 53.1l-56.25 24.02 78.75 60.05zm-371.98 0L47.51 258.36l78.75-60.05zM356.2 207l-84.85 12.94 60.61 90.59zm-200.41 0l24.24 103.53 60.61-90.59zM487 288.26v32.14L334.45 375H177.55L25 320.4v-32.14l149.45 53.49h163.11zM328.19 393l13.43 94H170.38l13.43-94z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiHabitatDome;

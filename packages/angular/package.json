@@ -105,6 +105,14 @@
       "bun": "./src/icons/fi/*.ts",
       "import": "./src/icons/fi/*.ts"
     },
+    "./gi": {
+      "bun": "./src/icons/gi/index.ts",
+      "import": "./src/icons/gi/index.ts"
+    },
+    "./gi/*": {
+      "bun": "./src/icons/gi/*.ts",
+      "import": "./src/icons/gi/*.ts"
+    },
     "./gr": {
       "bun": "./src/icons/gr/index.ts",
       "import": "./src/icons/gr/index.ts"

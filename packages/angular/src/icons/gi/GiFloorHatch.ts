@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-floor-hatch",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiFloorHatch {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M110.3 71.82l-46.71 12.94c35.32 100.34 82.12 195.39 131.65 297.3L328.66 395.7c-0.38-33.58-4.51-74.92-15.43-113.04 33.89-49.69 60.61-111.01 92.48-176.2l-38.86-27.77c-23.01 55.26-46.32 111.08-81.99 163.83-9.01 11.14-91.22 8.96-99.01 1.81-29.93-62.74-58.22-112.58-75.56-172.51zm115.46 42.62a27.02 27.02 0 0 0-3.810.24c-10.15 1.36-19.01 8.39-25.21 20.2-6.2 11.81-9.2 28.11-6.87 45.53 2.33 17.42 9.52 32.35 18.6 42.11 9.09 9.76 19.49 14.21 29.64 12.85 10.15-1.36 19.01-8.38 25.21-20.2 6.2-11.81 9.2-28.11 6.86-45.52-2.33-17.42-9.51-32.35-18.6-42.11-7.95-8.54-16.91-13.02-25.82-13.09zM136.01 292.35L19.03 400.78l19.78 2.04 363.03 37.37 91.13-143.53-158.05-3.52c1.58 6.02 2.94 12.05 4.15 18.1l121.6 2.71-68.07 107.2-332.17-34.19 82.84-76.78c-2.46-5.93-4.88-11.87-7.26-17.81z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiFloorHatch;

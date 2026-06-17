@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-umbrella-bayonet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiUmbrellaBayonet {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M455.49 12.68c-1.34-0.01-2.70.04-4.060.16-10.870.95-22.05 6.23-31.1 16.91l-38.93 46c1.24-0.1 2.39-0.19 3.71-0.3l8.97-0.750.75 8.97c0.11 1.320.21 2.470.32 3.71l38.93-46c12.92-15.27 26.22-13.18 35-5.75 8.78 7.43 13.04 20.20.12 35.47l13.74 11.63c18.09-21.37 13.42-47.59-2.23-60.84-6.84-5.79-15.79-9.1-25.21-9.2zM283.64 35.19l-146.74 343.42 314.42-201.52c-5.01-0.68-9.62-2.19-13.49-5.46-5.34-4.52-7.66-10.97-9.07-18.12-0.99-5.03-1.61-11.19-2.22-18.08-6.890.54-13.080.94-18.20.8-7.28-0.2-14.02-1.42-19.37-5.95-5.34-4.52-7.66-10.97-9.06-18.11-0.99-5.03-1.61-11.19-2.22-18.08-6.890.54-13.080.94-18.20.8-7.28-0.2-14.02-1.42-19.36-5.94-5.34-4.52-7.66-10.97-9.07-18.12-0.99-5.03-1.61-11.19-2.22-18.08-6.890.54-13.080.94-18.20.8-7.28-0.2-14.02-1.42-19.37-5.95-3.87-3.27-6.12-7.57-7.62-12.4zm14.48 40.17l15.76 8.71-165.74 281.26L347.98 115.24l13.74 11.63-213.58 238.46 249.97-209.98 11.19 14.1-261.17 195.88 149.98-289.97zM120.5 383.31L25.9 491.29s31.42-12.38 44.53-22.64c18.82-14.72 52.03-52.56 70.88-76.07l-16.74 2-4.08-11.27z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiUmbrellaBayonet;

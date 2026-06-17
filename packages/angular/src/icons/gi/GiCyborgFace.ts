@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-cyborg-face",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiCyborgFace {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M218.2 28.5l13.75 110h48.11l13.75-110zm93.07 5.46L295.95 156.5h-79.89L200.75 34.08c-17.39 9.19-33.55 22.69-47.75 39.9V220.5H97.62a334.69 334.69 0 0 0-1.62 31c0 128.13 71.63 232 160 232 71.07-0.06 133.59-68.08 153.5-167h-7.37l-32 16h-69.69L263 297.3v-62.8h136v16h16.97c-0.33-96.78-42.07-183.09-104.7-216.54zM256 42.5c13.7 0 25 11.3 25 25s-11.3 25-25 25-25-11.3-25-25 11.3-25 25-25zm0 18c-3.97 0-7 3.03-7 7s3.03 7 7 7 7-3.03 7-7-3.03-7-7-7zm-121 39.64c-17.44 29.33-29.54 64.52-35.19 102.37H135zm185 149.38l-32 48 14.98 9.99 32-48zm48 0l-32 48 14.98 9.99 32-48zM144 266.5h80v18h-7.04c-0.46 6.48-5.3 10.55-9.62 12.71-4.53 2.27-9.7 3.29-15.34 3.29-5.63 0-10.8-1.03-15.34-3.29-4.31-2.16-9.16-6.22-9.62-12.71H144zm265 2v30h30v-30zm-217 126h128v18H192zm48 32h32v18h-32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiCyborgFace;

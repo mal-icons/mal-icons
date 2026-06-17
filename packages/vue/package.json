@@ -126,6 +126,16 @@
       "bun": "./src/icons/fi/*.ts",
       "import": "./dist/icons/fi/*.js"
     },
+    "./gi": {
+      "types": "./dist/icons/gi/index.d.ts",
+      "bun": "./src/icons/gi/index.ts",
+      "import": "./dist/icons/gi/index.js"
+    },
+    "./gi/*": {
+      "types": "./dist/icons/gi/*.d.ts",
+      "bun": "./src/icons/gi/*.ts",
+      "import": "./dist/icons/gi/*.js"
+    },
     "./gr": {
       "types": "./dist/icons/gr/index.d.ts",
       "bun": "./src/icons/gr/index.ts",

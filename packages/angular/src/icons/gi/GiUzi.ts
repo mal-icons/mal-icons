@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-uzi",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiUzi {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M400.29 24v32h10v35.67h24.63c0.19 18.42-0.06 35.84 0 52.85H410.29V152h-45.94l5.99-11.97L376.85 127H70.62v17.36L88.06 152H26.29V56h16V40l16-16h32v32h224c8.47-7.11 5.74-20.71 6-32h10v32h22c10.13-11.12 18.67-31.84 32-32zM336 81H112v18h224zm149.53 23l0.18 27.52h-32.71V104zM347.73 145l-7 14H140.02l-35-14zm3.79 32c-0.08 2.74-0.21 5.81-0.45 9.1-0.79 10.73-2.02 23.15-7.87 33-6.42 10.81-17.17 17.78-28.05 21.43-14.33 4.8-31.26 6.01-46.3-0.22-7.23-2.99-13.28-8.29-18.55-13.86V344h-120c2.11-46.59 6.85-96 32.83-144-6.87-7.31-12.83-15.08-18.5-23h105.67v21.45c1.64 2.23 4.08 5.43 7.6 9.52 5.91 6.88 14.06 14.15 17.84 15.72 9.59 3.97 22.74 3.45 33.7-0.22 7.47-2.5 14.83-7.72 18.3-13.55 2.37-3.99 4.68-15.44 5.39-25.130.22-2.990.27-5.40.32-7.79zm-59.25 0c-8.87 15.220.87 22.81 13.97 33.29-26.75-6.71-34.98-15.37-30.56-33.29zM230 231h-48v18h48zm0 40h-64v18h64zm0 40h-73.48v18H230zm20.29 51v126h-64V362z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiUzi;

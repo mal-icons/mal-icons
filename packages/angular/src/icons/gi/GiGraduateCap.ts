@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-graduate-cap",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiGraduateCap {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M256 89.61L22.49 177.18 256 293.94l111.22-55.61-104.34-31.9A16 16 0 0 1 256 208a16 16 0 0 1-16-16 16 16 0 0 1 16-16l-2.65 8.6 18.54 5.7a16 16 0 0 1 0.010.06l27.35 8.37L455 246.65v12.15a16 16 0 0 0-7 13.21 16 16 0 0 0 7.29 13.41C448.01 312.93 448 375.38 448 400c16 10.4 16 10.78 32 0 0-24.61-0.01-87.05-7.29-114.58A16 16 0 0 0 480 272a16 16 0 0 0-7-13.23v-25.42L413.68 215.1l75.84-37.92L256 89.61zM119.62 249L106.5 327.74c26.18 3.42 57.49 18.64 86.27 36.63 16.37 10.23 31.7 21.46 44.16 32.36 7.61 6.66 13.98 13.05 19.07 19.34 5.1-6.29 11.46-12.68 19.07-19.34 12.45-10.9 27.79-22.13 44.16-32.36 28.78-17.99 60.1-33.2 86.27-36.63L392.38 249h-6.25L256 314.06 125.87 249h-6.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiGraduateCap;

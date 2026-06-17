@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-unlocking",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiUnlocking {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M78.53 157.19c-23.84 0-43.93 21.36-50.28 50.59-4.22 5.54-6.75 12.44-6.75 19.88 0 7.51 2.56 14.47 6.84 20.03 6.48 28.96 26.49 50.06 50.19 50.06 24.29 0 44.72-22.17 50.66-52.25H234.97v65.59h19.31v-44.22h18.69v44.22h20.09V286h18.69v25.09h15.13V245.5h17.97v-33.47h-215.19c-5.25-31.38-26.14-54.84-51.12-54.84zM424.44 169.28c-31.78 0-57.81 26.04-57.81 57.81 0 17.65 7.84 33.67 20.47 44.31l-25.22 72.94-4.28 12.41h133.12l-4.31-12.41-25.19-72.94c12.63-10.64 20.47-26.66 20.47-44.31 0-31.64-25.47-57.81-57.25-57.81zm0 18.69c21.62 0 38.56 17.37 38.56 39.12 0 14-7.06 26.12-17.87 33l-6.22 3.97 2.41 6.97 23.16 67.03H383.81L407 271.03l2.41-6.97-6.22-3.97c-10.82-6.88-17.87-19-17.87-33 0-21.61 17.51-39.12 39.13-39.12zm-369.97 25.41c8 0 14.31 6.28 14.31 14.28 0 8-6.31 14.28-14.31 14.28-8 0-14.28-6.28-14.28-14.28 0-8 6.28-14.28 14.28-14.28z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiUnlocking;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-edged-shield",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiEdgedShield {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M460.41 22.13l-10.47 1.25c-132 15.76-263.72 19.22-395.250.03L54 23.28H44v9.35c0 103.06 10.5 205.85 41.25 289.22 30.75 83.37 82.67 147.96 164.34 170.41l2.220.59 2.22-0.47c89.59-19.1 142.17-83.93 171-168.15 28.84-84.22 35.38-188.49 35.38-291.6v-10.5zm-18.78 20.91c-0.26 56.58-2.75 113.05-9.81 165.6l-97.28 41.28L417.22 285c-2.96 11.41-6.22 22.48-9.88 33.16-22.21 64.89-57.02 114.96-112.97 141.19l-41.84-98.37-40.75 95.84c-50.81-28.12-85.58-77.93-109-141.44-3.89-10.54-7.41-21.46-10.65-32.69l77.19-32.78-93.66-41.38c-8.6-52.26-12.39-108.49-12.81-165.19 49.12 6.71 98.22 10.33 147.28 11.41l42.6 100.19 42.84-100.78c48.72-1.68 97.41-5.56 146.06-11.12zM86.22 66.78c0 43.91 2.32 87.7 7.97 129.16l122.94 54.31-101.34 43.03c18.37 55.7 46.71 101.44 88.75 129.03l48.19-113.37 49.47 116.38c46.04-26.18 74.48-72.53 91.75-129.56l-107.22-45.5 126.31-53.62c4.58-41.82 6.06-85.91 6.06-129.84-36.63 4.37-73.27 7.63-109.91 9.44l-56.47 132.87L196.5 76.87c-36.77-1.48-73.51-4.73-110.28-10.09z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiEdgedShield;

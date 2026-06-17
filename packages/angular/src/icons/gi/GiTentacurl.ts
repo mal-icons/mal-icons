@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-tentacurl",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiTentacurl {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M218.28 24.75c-2.17-0.01-4.330.01-6.50.03-20.790.22-41.28 2.13-60.9 6.19-51.55 10.67-96.95 35.72-128.69 84.69v381.53h127.38c-38.76-38.58-54.37-84.18-55.19-126.56-0.94-48.66 16.79-93.02 40.34-120.56 43.64-51.02 91.08-74.8 135.16-78.22 44.08-3.41 84.22 13.5 113.09 41.59 28.87 28.09 46.75 67.41 46.69 109.28-0.05 32.95-11.65 67.29-36.97 98.34 30.57-11.35 52.99-30.86 68.69-55.5 20.62-32.36 29.4-73.84 27.44-116.25-4.69-101.07-74.37-194.06-173.06-213.84-31.7-6.36-64.89-10.53-97.47-10.72zm91.47 168.66c33.82 51.78 33.24 110.22 9.91 155.28-18 34.77-49.19 61.84-87.47 72.03-29.61 7.88-63.31 5.26-97.5-10.94 18.15 26.34 41.48 42.92 67.47 51.97 34.49 12.01 74.06 10.45 111.78-1.69 6.49-2.09 12.85-4.49 19.06-7.19l-0.750.13 24.69-21.53c38.51-33.66 53.98-72.27 54.03-108.780.06-36.51-15.65-71.15-41.03-95.84-16.58-16.13-37.17-27.99-60.19-33.44z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiTentacurl;

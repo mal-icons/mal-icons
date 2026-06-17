@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-radioactive",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiRadioactive {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M253.78 17.19c-130.73 0-236.9 106.18-236.9 236.91C16.88 384.82 123.05 491 253.78 491c130.73 0 236.91-106.18 236.91-236.91 0-130.73-106.18-236.91-236.91-236.91zm0 18.69c120.63 0 218.22 97.59 218.22 218.22 0 120.63-97.59 218.22-218.22 218.22-120.63 0-218.22-97.59-218.22-218.22s97.59-218.22 218.22-218.22zm101.19 46.31L278.56 215.06c15.92 9.64 25.18 26.33 26.13 43.78h148.41c1.64-70.01-33.49-138.87-98.12-176.66zm-205.13 2.47c-27.1 16.73-50.68 40.15-67.72 69.66-19.01 32.93-26.93 69.12-26 104.53H196c0.41-8.35 2.74-16.73 7.19-24.44 5.21-9.02 12.64-16 21.22-20.62L149.84 84.66zm100.59 141.16c-0.860-1.740.04-2.590.09-11.450.79-22.29 7.08-28.5 17.84-9.94 17.22-4.09 38.97 13.13 48.91 17.21 9.94 38.94 4.12 48.87-13.09 9.94-17.21 4.12-38.97-13.09-48.91-5.65-3.26-11.77-4.82-17.81-4.84zm28.22 82.38c-16.13 9.75-36.86 10.85-54.41 1.25l-68.03 117.22c29.45 16.79 61.04 25.18 92.75 26 34.570.9 68.72-7.79 99.12-24.03l-69.44-120.44z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiRadioactive;

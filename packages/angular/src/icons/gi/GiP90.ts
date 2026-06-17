@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-p90",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiP90 {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M427.43 75.53l18.1-18.1-13.7-13.7-18.1 18.1zm-182.45 57.6l16.3-16.29-8.94-19.09 61.44-61.44 19.09 8.94L352.11 26l23.15 23.15-118.17 118.17zM227.92 396.95l-85.34 85.34c-4.95 4.95-12.97 4.95-17.92 0l-39.1-39.1 94.29-94.29 48.06 48.06zm-155.24 33.33l-17.41-17.41c-4.95-4.95-4.95-12.97 0-17.92L388.15 62.05l26.38 26.38-341.87 341.87zM427.43 101.31L192.76 335.98l49.76 49.76 54.28-29.12a25.81 25.81 0 0 0 6.08-4.46l35.76-35.76c10.48-10.48 17-29.63 19.07-49.190.51-4.740.75-9.510.73-14.27-0.04-7.94 2.72-13.68 6.56-17.52 7.79-7.78 20-7.8 22.37-2.530.260.58 4.04 9.28 7 16.09 1.71 3.91 6.81 4.88 9.82 1.86l25.71-25.71c10.01-10.01 9.55-23.59 5.75-35.87-4.08-13.19-12-24.89-15.88-30.34-3.88-5.45-3.23-12.42 1.2-16.86l5.41-5.41c5.1-5.1 13.36-5.1 18.45 0l5.3 5.3a4.84 4.84 0 0 0 6.8-0.05l2.12-2.12a4.84 4.84 0 0 0 0-6.85l-31.61-31.61zM303.27 302.16c-12.82 16.19-32.4 22.13-43.66 13.2-11.27-8.93-9.98-29.32 2.84-45.51 12.82-16.19 32.4-22.13 43.66-13.2 11.27 8.93 9.99 29.3-2.85 45.52zm91.9-127.99c8.78 8.78 8.24 23.58-1.23 33.04-9.46 9.46-24.26 10.01-33.04 1.23-8.78-8.78-8.24-23.58 1.22-33.04 9.46-9.46 24.26-10.01 33.04-1.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiP90;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-gi-unlit-bomb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class GiUnlitBomb {
+  readonly viewBox = "0 0 512 512";
+  readonly nodes: NodeTuple[] = [["path",{"fill":"currentColor","d":"M135.25 38.16c-16.080.46-32.34 7.24-46.47 17.41-17.22 12.4-31.53 30.2-37.31 50.69-5.78 20.49-1.95 44.03 16.16 63.41 14.57 15.6 20 29.33 20.56 40.50.57 11.17-3.55 20.3-10.38 27.41-13.64 14.21-37.28 18-50.5 6.09l-12.5 13.91c22.22 20.01 56.61 13.65 76.47-7.03 9.93-10.34 16.43-24.84 15.59-41.31-0.84-16.48-8.83-34.41-25.59-52.34C67.18 141.78 65.16 126.6 69.47 111.31 73.78 96.03 85.48 80.97 99.72 70.72c14.23-10.25 30.7-15.36 43.22-13.44 9.57 1.47 17.57 6.06 23.06 17.44l15.94-9.19c-8.36-15.43-21.59-24.48-36.16-26.72-2.42-0.37-4.87-0.6-7.31-0.66-1.07-0.03-2.15-0.03-3.22 0zM243.5 51.56l-120.12 69.37 24.91 43.16c15.03-18.11 33.45-33.9 55-46.34 20.62-11.9 42.44-19.8 64.6-23.94L243.5 51.56zm60.03 57.41c-1.030.01-2.060.03-3.090.06-29.890.8-60.05 8.88-87.81 24.91-88.84 51.3-119.25 164.55-68.03 253.28 51.22 88.73 164.51 119.01 253.34 67.72 88.84-51.29 119.22-164.55 68-253.28-34.67-60.05-97.71-93.35-162.41-92.69z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default GiUnlitBomb;

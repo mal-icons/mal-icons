@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const GiPlayButton = createIcon("0 0 512 512", [["path",{"fill":"currentColor","d":"M106.85 106a26 26 0 0 0-25.64 29.33c16 124 16 117.34 0 241.34a26 26 0 0 0 35.78 27.33l298-124a26 26 0 0 0 0-48.01l-298-124a26 26 0 0 0-10.14-1.99z"}]]);
+
+export default GiPlayButton;
