@@ -125,6 +125,8 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
 | [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
+| [Remix Icon](https://remixicon.com/) | [Apache 2.0 license](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 4.6.0 | 3058 |
+| [Simple Icons](https://simpleicons.org/) | [CC0 1.0 license](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) | 16.23.0 | 3442 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
 | [Themify](https://themify.me/themify-icons) | [SIL OFL 1.1 license](https://github.com/lykmapipo/themify-icons/blob/master/README.md) | 9600186 | 352 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
@@ -186,6 +188,10 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/react-native/rx/RxAccessibility` | A single Radix Icons icon module |
 | `@mal-icons/react-native/bs` | All Bootstrap Icons icons (named exports) |
 | `@mal-icons/react-native/bs/BsAlarm` | A single Bootstrap Icons icon module |
+| `@mal-icons/react-native/ri` | All Remix Icon icons (named exports) |
+| `@mal-icons/react-native/ri/RiHome2Line` | A single Remix Icon icon module |
+| `@mal-icons/react-native/si` | All Simple Icons icons (named exports) |
+| `@mal-icons/react-native/si/SiGithub` | A single Simple Icons icon module |
 
 ## Example
 
