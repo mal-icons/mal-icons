@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-citrix",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCitrix {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.98 0a1.78 1.78 0 0 0-1.78 1.78 1.78 1.78 0 0 0 1.78 1.78 1.78 1.78 0 0 0 1.78-1.78A1.78 1.78 0 0 0 11.98 0zM5.17 5.99a1.03 1.03 0 0 0-1.09 1.03c0 0.310.140.620.380.82l6.16 7.09-6.4 7.26a1.08 1.08 0 0 0-0.310.79c0 0.580.48 1.03 1.06 1.030.34 0 0.68-0.170.89-0.44l6.13-7.19 6.16 7.19c0.210.270.550.440.890.440.580.04 1.06-0.44 1.06-1.03a1.14 1.14 0 0 0-0.31-0.79l-6.4-7.26 6.16-7.09c0.24-0.210.38-0.510.38-0.82v-0.03c0-0.58-0.51-1.03-1.09-0.99-0.34 0-0.650.17-0.860.45l-5.96 7.02L6.06 6.44a1.07 1.07 0 0 0-0.85-0.44z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCitrix;

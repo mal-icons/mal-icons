@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-vala",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiVala {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m9.38 24-0.52-21.86q-2.250.84-3.52 2.64-1.25 1.8-1.25 4.47 0 0.610.06 10.080.370.160.610.080.220.140.340.080.120.080.22-0.83 0-1.47-0.16-0.64-0.17-1.08-0.53-0.42-0.36-0.66-0.95-0.22-0.59-0.22-1.47 0-1.060.45-2.090.47-1.03 1.27-1.950.81-0.92 1.89-1.7 1.09-0.78 2.33-1.34Q8.30.64 9.650.33 11.01 0 12.35 0q0.36 0 0.660.020.310.020.620.05l0.28 19.69L20.650.16h2.23L13.99 24H9.38Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiVala;

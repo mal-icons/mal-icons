@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-internetcomputer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiInternetcomputer {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.26 6.24c-2.52 0-5.38 3.02-6.26 3.98-0.72-0.79-3.7-3.98-6.26-3.98C2.57 6.24 0 8.83 0 12c0 3.17 2.57 5.76 5.74 5.76 2.52 0 5.38-3.02 6.26-3.980.720.79 3.7 3.98 6.26 3.98C21.43 17.76 24 15.17 24 12c0-3.17-2.57-5.76-5.74-5.76ZM5.74 15.38A3.38 3.38 0 0 1 2.35 12a3.4 3.4 0 0 1 3.38-3.38c1.18 0 3.24 1.8 4.68 3.38-0.410.46-3.14 3.38-4.68 3.38zm12.53 0c-1.18 0-3.24-1.8-4.68-3.380.41-0.46 3.17-3.38 4.68-3.38A3.38 3.38 0 0 1 21.65 12c-0.02 1.87-1.54 3.38-3.38 3.38z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiInternetcomputer;

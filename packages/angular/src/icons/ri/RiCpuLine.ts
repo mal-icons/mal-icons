@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-cpu-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCpuLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 18H18V6H6V18ZM14 20H10V22H8V20H5C4.45 20 4 19.55 4 19V16H2V14H4V10H2V8H4V5C4 4.45 4.45 4 5 4H8V2H10V4H14V2H16V4H19C19.55 4 20 4.45 20 5V8H22V10H20V14H22V16H20V19C20 19.55 19.55 20 19 20H16V22H14V20ZM8 8H16V16H8V8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCpuLine;

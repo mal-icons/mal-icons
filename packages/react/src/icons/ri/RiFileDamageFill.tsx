@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiFileDamageFill = createIcon("0 0 24 24", [["path",{"d":"M3 14L7 16.5L10 13L13 17L15 14.5L18 15L15 12L13 14.5L10 9.5L6.5 13.25L3 10V2.99C3 2.46 3.45 2 4 2H14V8C14 8.55 14.45 9 15 9H21V20.99C21 21.55 20.56 22 20.01 22H3.99C3.44 22 3 21.56 3 21.01V14ZM21 7H16V2L21 7Z"}]]);
+
+export default RiFileDamageFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-emby",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiEmby {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.04 0c-0.01 0-1.46 1.43-3.22 3.18L4.62 6.35l0.510.510.510.51-2.82 2.79L0 12.96l1.83 1.85c1.01 1.02 2.44 2.46 3.18 3.21l1.35 1.360.51-0.5c0.28-0.270.52-0.50.52-0.50.01 0 1.27 1.26 2.79 2.81L12.97 24l0.19-0.18c0.23-0.22 5.01-4.95 5.72-5.66l0.52-0.52-0.5-0.51c-0.28-0.28-0.5-0.52-0.5-0.530-0.01 1.26-1.26 2.8-2.78 1.54-1.52 2.8-2.78 2.8-2.780.01-0.01-3.62-3.68-6.11-6.19L17.65 4.6l-0.50.51c-0.280.28-0.520.5-0.530.5-0.010-1.27-1.27-2.79-2.8A449.66 449.66 0 11.04 0zM9.22 7.37c0.090.04 7.95 4.61 7.96 4.6300.01-1.78 1.06-3.96 2.32a999.9 999.9 0 1-4 2.31c-0.020.01-0.03-1.27-0.03-4.63 0-3.70.01-4.630.03-4.62Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiEmby;

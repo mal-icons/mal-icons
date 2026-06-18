@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-mongodb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMongodb {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.19 9.56c-1.26-5.58-4.25-7.41-4.57-8.11-0.28-0.39-0.53-0.95-0.73-1.44-0.040.5-0.050.69-0.52 1.18-0.720.57-4.44 3.68-4.74 10.02-0.28 5.91 4.27 9.44 4.89 9.88l0.070.05A73.49 73.49 0 111.91 24h0.48c0.11-1.030.28-2.060.51-3.070.42-0.30.6-0.460.85-0.69a11.34 11.34 0 3.64-8.46c0.01-0.81-0.1-1.66-0.2-2.22zm-5.34 8.2s0-8.290.28-8.29c0.21 0 0.49 10.70.49 10.7-0.38-0.04-0.76-1.76-0.76-2.4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMongodb;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-creative-commons-zero-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCreativeCommonsZeroFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 6C9.24 6 7 8.69 7 12C7 15.31 9.24 18 12 18C14.76 18 17 15.31 17 12C17 8.69 14.76 6 12 6ZM14.33 9.47C14.75 10.16 15 11.04 15 12C15 14.21 13.66 16 12 16C11.56 16 11.14 15.87 10.76 15.65L14.33 9.47ZM12 8C12.44 8 12.86 8.13 13.24 8.35L9.67 14.53C9.25 13.84 9 12.96 9 12C9 9.79 10.34 8 12 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCreativeCommonsZeroFill;

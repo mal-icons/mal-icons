@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-smrt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSmrt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.65 13.75c0.81 4.44 4.68 7.81 9.34 7.81 4.68 0 8.62-4.09 9.4-8.54h-2.56c-0.75 3.06-3.55 6.04-6.83 6.04-2.37 0-4.45-1.2-5.73-3h5.29c0.44 0 0.85-0.23 1.21-0.7l1.29-1.86c0.12-0.230.34-0.360.61-0.36h7.54L24 10.83H13.61c-0.25 0-0.480.14-0.610.33l-1.71 2.29c-0.10.17-0.290.29-0.490.29zm18.68-3.51c-0.81-4.44-4.65-7.81-9.32-7.81-4.68 0-8.5 3.98-9.28 8.43h2.56c0.75-3.06 3.43-5.93 6.73-5.93 2.37 0 4.45 1.2 5.73 3h-5.31c-0.43 0-0.850.23-1.210.71l-1.29 1.86c-0.120.23-0.340.36-0.610.36h-7.54L0 13.14h10.39c0.25 0 0.48-0.140.61-0.33l1.71-2.31c0.1-0.170.29-0.290.49-0.29z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSmrt;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-stylelint",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiStylelint {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.420.55L0 3.71 2.24 5.650.55 7.48l11.18 15.91h0.11c-2.62-9.39-2.55-9.43-4.45-16.12l-0.460.26c-0.250.14-0.450.03-0.45-0.26V4.08C5.98 2.32 5.590.96 5.470.55zm15.12 0c-0.120.41-0.51 1.77-1.01 3.54v3.19c0 0.29-0.20.4-0.450.26l-0.46-0.26c-1.9 6.69-1.82 6.74-4.45 16.12-0.020.070.060.090.11 0L23.45 7.48 21.76 5.65 24 3.71 20.590.55zm-11.50.75c-0.120.01-0.20.11-0.20.27v5.13c0 0.240.170.340.380.22l3.07-1.77a0.340.34 0 1-0.09-0.22V3.29c0-0.070.02-0.130.06-0.18L7.22 1.35a0.330.33 0 0-0.18-0.05zm9.94 0a0.330.33 0 0-0.180.05l-3.04 1.75a0.330.33 0 1.060.18v1.64a0.340.34 0 1-0.090.22l3.07 1.77c0.210.120.380.020.38-0.22V1.57c0-0.17-0.08-0.26-0.2-0.27zm-6.35 1.86c-0.1 0-0.180.06-0.180.13v1.64c0 0.070.080.130.180.13h2.76c0.1 0 0.18-0.060.18-0.12V3.29c0-0.07-0.08-0.12-0.18-0.12zm1.29 3.64a0.830.83 0 0-0.830.830.830.83 0 0.830.830.830.83 0 0.83-0.830.830.83 0 0-0.83-0.83zm-0.01 4.93a0.830.83 0 0-0.820.830.830.83 0 0.830.830.830.83 0 0.83-0.830.830.83 0 0-0.83-0.830.830.83 0 0-0.01 0zm0.01 4.93a0.830.83 0 0-0.830.830.830.83 0 0.830.830.830.83 0 0.83-0.830.830.83 0 0-0.83-0.83z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiStylelint;

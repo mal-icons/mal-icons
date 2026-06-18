@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-plane",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPlane {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 5.36a0.850.85 0 0 1 1.24-0.77L6.13 7.05v5.77c0 0.810.46 1.55 1.18 1.92l4.42 2.22v1.69a0.850.85 0 0 1-1.240.77L1.18 14.73A2.14 2.14 0 0 1 0 12.82zm6.13 0a0.850.85 0 0 1 1.24-0.77l4.9 2.46v5.77c0 0.810.46 1.55 1.18 1.92l4.42 2.22v1.69a0.850.85 0 0 1-1.240.77l-4.9-2.46v-5.77a2.14 2.14 0 0 0-1.18-1.91L6.13 7.05zm6.13 0a0.850.85 0 0 1 1.24-0.77l9.32 4.68A2.14 2.14 0 0 1 24 11.18v7.46a0.850.85 0 0 1-1.240.77l-4.9-2.46v-5.77a2.14 2.14 0 0 0-1.18-1.91l-4.42-2.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPlane;

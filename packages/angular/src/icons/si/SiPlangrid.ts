@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-plangrid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPlangrid {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.6 0c2.6 0 4.260.01 5.83 1.57C23.99 3.14 24 4.79 24 7.4v9.2c0 2.6-0.01 4.26-1.57 5.83C20.86 23.99 19.21 24 16.6 24h-9.2c-2.6 0-4.26-0.01-5.83-1.57C0.01 20.86 0 19.21 0 16.6v-9.2C0 4.80.01 3.14 1.57 1.57 3.140.01 4.79 0 7.4 0h9.20zm4.4 11.15C20.57 6.58 16.68 3 12 3c-4.97 0-9 4.03-9 9 0 4.8 3.75 8.73 8.49 9h7.14c1.310 2.38-1.07 2.38-2.38v-7.47l00zm-2.28 8.59c-0.56 0-1.02-0.46-1.02-1.02 0-0.570.46-1.02 1.02-1.020.57 0 1.020.46 1.02 1.02 0 0.56-0.46 1.02-1.02 1.02zM12 18.95C8.16 18.95 5.06 15.84 5.05 12 5.06 8.16 8.16 5.06 12 5.05c3.840 6.95 3.11 6.95 6.950 3.84-3.11 6.95-6.95 6.95z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPlangrid;

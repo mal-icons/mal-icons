@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-heroui",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHeroui {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.35 0h11.29A6.35 6.35 0 0 1 24 6.35v11.29A6.35 6.35 0 0 1 17.65 24H6.35A6.35 6.35 0 0 1 0 17.65V6.35A6.35 6.35 0 0 1 6.35 0Zm7.76 6.91h-0.93v6.7a2.88 2.88 0 0 1-0.36 1.45c-0.240.42-0.60.77-1.02 1-0.440.24-0.960.37-1.550.37-0.59 0-1.11-0.12-1.55-0.36a2.6 2.6 0 0 1-1.02-1 2.87 2.87 0 0 1-0.36-1.45V6.91h-0.93v6.77a3.56 3.56 0 0 0 0.49 1.86c0.330.550.80.99 1.36 1.290.580.32 1.260.47 2.020.470.77 0 1.44-0.16 2.02-0.47a3.47 3.47 0 0 0 1.36-1.29c0.33-0.560.5-1.210.49-1.86V6.91Zm3.65 10.22V6.91h-0.93v10.22h0.93Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHeroui;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-opensourceinitiative",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiOpensourceinitiative {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.960.45A11.94 11.94 0 0 12.41c0 5.58 3.87 10.1 7.78 11.110.190.050.39-0.050.47-0.23l2.77-6.82a0.40.4 0 0-0.25-0.53C9.37 15.47 8.53 14.32 8.48 12.4c-0.02-1.83 1.5-3.45 3.56-3.45 1.930 3.48 1.63 3.48 3.45 0 0.97-0.2 1.69-0.57 2.24-0.370.55-0.920.95-1.69 1.24a0.40.4 0 0-0.230.52l2.69 6.9a0.40.4 0 0.470.24C20.16 22.53 24 18.06 24 12.41 24 5.8 18.60.45 11.960.45zm0 0.79c6.22 0 11.25 5 11.25 11.17 0 5.14-3.42 9.21-6.89 10.27L13.9 16.47c0.7-0.31 1.3-0.79 1.7-1.380.48-0.710.71-1.60.71-2.68 0-2.27-1.9-4.24-4.27-4.24-2.480-4.38 1.98-4.35 4.250.02 20.93 3.49 2.45 4.13L7.65 22.66C4.25 21.590.79 17.460.79 12.41A11.13 11.13 0 111.96 1.24zm10.62 20.15a1.03 1.03 0 0 2.06 1.03 1.03 0 0-2.06zm0 0.16c0.48 0 0.870.390.870.87a0.860.86 0 1-0.270.62l-0.17-0.34a0.850.85 0 0-0.11-0.180.260.26 0 0-0.11-0.080.30.3 0 0.17-0.120.360.36 0 0.06-0.21c0-0.13-0.04-0.23-0.11-0.29-0.08-0.06-0.19-0.09-0.35-0.09h-0.41v1.34h0.18v-0.57h0.2c0.07 0 0.130.020.170.05a0.480.48 0 1.130.18l0.170.340.160a0.880.88 0 1-0.570.220.870.87 0 10-1.73zm-0.260.32h0.23c0.09 0 0.160.020.20.060.040.040.070.10.070.18 0 0.08-0.020.14-0.070.18-0.040.04-0.110.06-0.20.06h-0.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiOpensourceinitiative;

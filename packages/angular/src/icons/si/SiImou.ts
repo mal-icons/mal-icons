@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-imou",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiImou {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.64 9.15c-1.57 0-2.86 1.28-2.86 2.85 0 1.57 1.28 2.85 2.86 2.85 1.57 0 2.86-1.28 2.86-2.85 0-1.57-1.28-2.85-2.86-2.85zm-9.820.01c-1.38 0-2.5 1.12-2.5 2.5v2.95c0 0.090.070.160.160.16h0.97a0.160.16 0 0 0 0.16-0.16v-2.95c0-0.670.54-1.21 1.21-1.210.67 0 1.210.54 1.21 1.21v2.95c0 0.090.070.160.160.16h0.97a0.160.16 0 0 0 0.16-0.16v-2.95c0-0.670.54-1.21 1.21-1.210.67 0 1.210.54 1.21 1.21v2.95c0 0.090.070.160.160.16h0.97a0.160.16 0 0 0 0.16-0.16v-2.95c0-1.38-1.12-2.5-2.5-2.5-0.74 0-1.40.32-1.860.83-0.46-0.51-1.12-0.83-1.86-0.83zm-4.660.13A0.160.16 0 0 0 0 9.45v5.16c0 0.090.070.160.160.16h0.96a0.160.16 0 0 0 0.16-0.16V9.45a0.160.16 0 0 0-0.16-0.16H0.16zm18.29 0a0.160.16 0 0 0-0.160.16v1.45c0 0.090.070.160.160.16h0.96a0.160.16 0 0 0 0.16-0.16V9.45a0.160.16 0 0 0-0.16-0.16h-0.96zm4.43 0a0.160.16 0 0 0-0.160.16v1.45c0 0.090.070.160.160.16h0.96A0.160.16 0 0 0 24 10.89V9.45a0.160.16 0 0 0-0.16-0.16h-0.96zm-8.23 1.15c0.87 0 1.570.7 1.57 1.57 0 0.87-0.7 1.57-1.57 1.57-0.87 0-1.57-0.7-1.57-1.57 0-0.860.71-1.57 1.57-1.57zm3.81 1.26a0.160.16 0 0 0-0.160.16v0.08c0 1.54 1.2 2.86 2.75 2.92C22.66 14.91 24 13.61 24 12v-0.15a0.160.16 0 0 0-0.16-0.16h-0.96a0.160.16 0 0 0-0.160.16V12c0 0.87-0.7 1.57-1.57 1.57-0.87 0-1.57-0.7-1.57-1.57v-0.15a0.160.16 0 0 0-0.16-0.16h-0.96Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiImou;

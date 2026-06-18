@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiTricentis = createIcon("0 0 24 24", [["path",{"d":"M14.27 10.42 6.86 3.01 9.830.03l4.44 4.44L18.74 0l2.97 2.97ZM9.82 24l-2.97-2.97 7.45-7.44 7.41 7.41-2.97 2.97-4.44-4.44zm-4.57-4.57-2.97-2.97 4.47-4.47-4.44-4.44 2.97-2.97 7.41 7.41Z"}]]);
+
+export default SiTricentis;

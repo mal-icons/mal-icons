@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiTask = createIcon("0 0 24 24", [["path",{"d":"M1.86 18.01 11.74 24V12.46L1.86 6.47Zm20.29 0V6.47l-9.88 5.99V24Zm-0.25-12.01L12 0 2.1 6 12 12Z"}]]);
+
+export default SiTask;

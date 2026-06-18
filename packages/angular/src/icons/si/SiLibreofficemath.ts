@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-libreofficemath",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLibreofficemath {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22 0v7l-7-7h7zm-9 0 9 9v12c0 1.66-1.34 3-3 3H5c-1.66 0-3-1.34-3-3V3c0-1.66 1.34-3 3-3h8zM8 17H6v1h2v-1zm5 0h-2v1h2v-1zm2.29-1.29a1 1 0 0 0 1.41-1.41l-0.79-0.790.79-0.79a1 1 0 0 0-1.41-1.41l-0.790.79-0.79-0.79a1 1 0 1 0-1.41 1.41l0.790.79-0.790.79a1 1 0 0 0 1.41 1.41l0.79-0.790.790.79zM18 17h-2v1h2v-1zm0-8H9.86L8 13.65 7.34 12H6v1h0.66L8 16.35 10.54 10H18V9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLibreofficemath;

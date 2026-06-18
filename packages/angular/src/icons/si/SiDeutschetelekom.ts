@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-deutschetelekom",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDeutschetelekom {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.72 15.84h-4.8v-4.8h4.79v4.8zM1.92 0v8.16H3.36v-0.24c0-3.84 2.16-6.24 6.24-6.24h0.24v17.28c0 2.4-0.96 3.36-3.36 3.36h-0.72V24h12.48v-1.68h-0.72c-2.39 0-3.36-0.96-3.36-3.36V1.68h0.24c4.08 0 6.24 2.4 6.24 6.24v0.24h1.44V0Zm15.36 15.84h4.8v-4.8h-4.79v4.8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDeutschetelekom;

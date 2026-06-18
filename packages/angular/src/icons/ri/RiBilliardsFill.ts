@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-billiards-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBilliardsFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6ZM12 7.75C13.38 7.75 14.5 8.87 14.5 10.25C14.5 10.88 14.27 11.46 13.88 11.9C14.44 12.35 14.8 13.01 14.8 13.75C14.8 15.13 13.55 16.25 12 16.25C10.45 16.25 9.2 15.13 9.2 13.75C9.2 13.01 9.56 12.35 10.12 11.9C9.73 11.46 9.5 10.88 9.5 10.25C9.5 8.87 10.62 7.75 12 7.75ZM12 12.75C11.25 12.75 10.7 13.24 10.7 13.75C10.7 14.26 11.25 14.75 12 14.75C12.75 14.75 13.3 14.26 13.3 13.75C13.3 13.24 12.75 12.75 12 12.75ZM12 9.25C11.45 9.25 11 9.7 11 10.25C11 10.8 11.45 11.25 12 11.25C12.55 11.25 13 10.8 13 10.25C13 9.7 12.55 9.25 12 9.25Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBilliardsFill;

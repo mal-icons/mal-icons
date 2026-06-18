@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-skip-back-mini-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSkipBackMiniFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7 6C7.55 6 8 6.45 8 7V17C8 17.55 7.55 18 7 18C6.45 18 6 17.55 6 17V7C6 6.45 6.45 6 7 6ZM9.08 12.41C9.03 12.38 8.99 12.33 8.96 12.29C8.8 12.06 8.85 11.75 9.08 11.59L16.21 6.56C16.3 6.5 16.4 6.46 16.5 6.46C16.78 6.46 17 6.69 17 6.96V17.04C17 17.14 16.97 17.24 16.91 17.32C16.75 17.55 16.44 17.6 16.21 17.44L9.08 12.41Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSkipBackMiniFill;

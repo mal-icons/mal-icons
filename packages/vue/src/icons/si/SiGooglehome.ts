@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiGooglehome = createIcon("0 0 24 24", [["path",{"d":"M12 0a1.44 1.44 0 0 0-0.950.4L0.55 10.76a1.26 1.26 0 0 0-0.340.81v11.14c0 0.770.53 1.29 1.31 1.29h20.97c0.78 0 1.31-0.52 1.31-1.29V11.57a1.25 1.25 0 0 0-0.34-0.8L15.68 3.1h0L12.950.4A1.45 1.45 0 0 0 12 0Zm0 6.73 6.55 6.46v5.65H5.45v-5.65z"}]]);
+
+export default SiGooglehome;

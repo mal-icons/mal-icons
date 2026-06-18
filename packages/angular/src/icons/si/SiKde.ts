@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-kde",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiKde {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.88 0L9.890.38v16.43l3.95-0.59V9.22l5.31 7.77 4.16-1.32-5.44-7.47 5.48-7.05L19.110.17 13.84 7.22zM4.83 4.01a0.20.2 0 0 0-0.120.06L3.15 5.63a0.20.2 0 0 0-0.030.25L4.95 8.9a7.84 7.84 0 0 0-0.77 1.76l-3.370.7a0.20.2 0 0 0-0.160.2v2.22c0 0.090.060.170.160.2l3.270.8a7.83 7.83 0 0 0 0.8 2.03L2.98 19.68a0.20.2 0 0 0 0.030.25l1.57 1.57a0.20.2 0 0 0 0.250.03l2.96-1.8c0.580.34 1.210.6 1.870.78l0.69 3.33c0.020.090.10.160.20.16h2.22a0.20.2 0 0 0 0.2-0.15l0.82-3.33a7.81 7.81 0 0 0 1.93-0.81l2.92 1.92c0.080.050.190.040.25-0.03l1.57-1.57a0.20.2 0 0 0 0.03-0.25l-1.07-1.76-0.340.11a0.120.12 0 0 1-0.13-0.05L17.37 15.8a6.35 6.35 0 1 1-8.26-8.67V5.49c-0.40.14-0.790.31-1.160.51l00-2.99-1.96a0.20.2 0 0 0-0.13-0.03Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiKde;

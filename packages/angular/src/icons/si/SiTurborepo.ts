@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-turborepo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTurborepo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.99 4.2c-4.3 0-7.8 3.5-7.8 7.8s3.5 7.8 7.8 7.8c4.3 0 7.8-3.5 7.8-7.8s-3.5-7.8-7.8-7.8m0 11.84c-2.23 0-4.04-1.81-4.04-4.04s1.81-4.04 4.04-4.04S16.03 9.77 16.03 12s-1.81 4.04-4.04 4.04m0.65-13.12V0C18.970.34 24 5.58 24 12s-5.03 11.66-11.36 12v-2.91c4.72-0.34 8.45-4.28 8.45-9.09s-3.73-8.75-8.45-9.09M5.11 17.96c-1.25-1.44-2.06-3.28-2.2-5.3H0c0.15 2.83 1.28 5.39 3.05 7.37l2.06-2.06zM11.34 24v-2.91c-2.02-0.14-3.86-0.95-5.3-2.2l-2.06 2.06c1.98 1.77 4.54 2.9 7.36 3.05z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTurborepo;

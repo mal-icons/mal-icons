@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-quasar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiQuasar {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.74 12c0 0.96-0.78 1.74-1.74 1.74s-1.74-0.78-1.74-1.74c0-0.960.78-1.74 1.74-1.740.96 0 1.740.78 1.74 1.74zm5.59-1.65 1.27-0.73a8.93 8.93 0 0 0-0.86-2.08 8.93 8.93 0 0 0-1.37-1.79l-2.01 1.16a6.71 6.71 0 0 0-2.1-1.22c-0.690.7-1.23 1.48-1.63 2.32 2.24-0.15 4.560.66 6.71 2.34zm-9.56 8.82v1.46a8.93 8.93 0 0 0 2.240.3 8.93 8.93 0 0 0 2.23-0.29v-2.33a6.71 6.71 0 0 0 2.11-1.21c-0.26-0.94-0.66-1.81-1.2-2.57-0.99 2.02-2.85 3.62-5.38 4.64zM5.41 13.21c0.950.25 1.890.33 2.820.25-1.25-1.87-1.71-4.28-1.33-6.98l-1.27-0.73a8.92 8.92 0 0 0-1.37 1.79 8.93 8.93 0 0 0-0.86 2.08l2.01 1.16a6.71 6.71 0 0 00 2.43zm13.170.01a6.71 6.71 0 0 0 0-2.43c-0.95-0.25-1.89-0.33-2.82-0.25 1.25 1.87 1.71 4.28 1.33 6.98l1.270.73a8.93 8.93 0 0 0 1.37-1.79 8.93 8.93 0 0 0 0.87-2.08l-2.01-1.16zm-13.910.43-1.270.73c0.20.730.49 1.430.86 2.08a8.93 8.93 0 0 0 1.37 1.79l2.01-1.16A6.71 6.71 0 0 0 9.75 18.31c0.69-0.7 1.23-1.48 1.63-2.32-2.240.15-4.56-0.66-6.71-2.34zm9.56-8.82V3.37A8.93 8.93 0 0 0 12 3.07a8.93 8.93 0 0 0-2.230.29V5.69a6.71 6.71 0 0 0-2.11 1.21c0.260.940.66 1.81 1.2 2.570.99-2.02 2.85-3.62 5.38-4.64zM24 12c0 6.63-5.37 12-12 12S0 18.63 0 12 5.37 0 12 0s12 5.37 12 12zm-1.53 0c0-5.77-4.69-10.46-10.46-10.46S1.54 6.23 1.54 12 6.23 22.46 12 22.46 22.47 17.77 22.47 12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiQuasar;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-bread-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBreadLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5 3C2.79 3 1 4.79 1 7C1 8.48 1.81 9.77 3 10.46V19C3 20.66 4.34 22 6 22H18C19.66 22 21 20.66 21 19V10.46C22.19 9.77 23 8.48 23 7C23 4.79 21.21 3 19 3H5ZM7 20C6.45 20 6 19.55 6 19V9.12L5.33 8.89C4.56 8.61 4 7.87 4 7C4 5.9 4.9 5 6 5H19C20.1 5 21 5.9 21 7C21 7.87 20.44 8.61 19.67 8.89L19 9.12V19C19 19.55 18.55 20 18 20H7Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBreadLine;

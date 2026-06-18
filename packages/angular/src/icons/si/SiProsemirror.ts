@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-prosemirror",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiProsemirror {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.47 10.47c0 2.83-1.12 5.4-2.95 7.280.66 1.65 1.14 3.29 2.18 6.25-2.69-1.97-4.4-2.74-5.88-3.55h0c-1.01-0.55-1.92-1.11-2.95-2.07-1.02-0.95-2.19-2.22-2.79-3.39 1.45 3.26 4.86 5.53 4.86 5.53l00A10.5 10.5 0 0 1 12 20.94c-5.78 0-10.47-4.69-10.47-10.47S6.22 0 12 0s10.47 4.69 10.47 10.47M12 1.53a8.94 8.94 0 0 0-8.94 8.94 8.94 8.94 0 0 0 7.52 8.83 6.5 6.5 0 0 1-1.53-0.75c-3.13-2.14-2.67-6.93-2.66-9.710.01-2.92 2.63-4.7 5.12-4.65 2.990.05 5.15 2.22 4.92 5.12a49 49 0 0 0-0.14 2.49c0.340.350.660.780.95 1.31a48 48 0 0 1 1.62 3.1A8.94 8.94 0 0 0 12 1.53m0.39 10.22c4.07-0.01 4.02-5.07 1.65-5.09-1.05-0.02-1.540.93-1.540.93s-0.41-1.19-1.85-1.18c-3.080.02-2.96 5.35 1.74 5.34m0.16-2.21c1.11 0 0.21 1.53-0.06 2.15-0.18-0.86-1.05-2.140.06-2.14m-0.63-0.48c0 0.59-0.47 1.05-1.05 1.05a1.05 1.05 0 0 1-1.05-1.05c0-0.580.47-1.05 1.05-1.050.59 0 1.050.47 1.05 1.05m2.99-0.01c0 0.59-0.41 1.05-0.9 1.05-0.5 0-0.9-0.47-0.9-1.05 0-0.580.41-1.050.9-1.050.5 0 0.90.470.9 1.05"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiProsemirror;

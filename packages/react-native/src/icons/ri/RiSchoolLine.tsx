@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiSchoolLine = createIcon("0 0 24 24", [["path",{"d":"M12 0.59L18 6.59V9H22V19H23V21H1V19H2V9H6V6.59L12 0.59ZM18 19H20V11H18V19ZM6 11H4V19H6V11ZM8 7.41V19H11V12H13V19H16V7.41L12 3.41L8 7.41Z"}]]);
+
+export default RiSchoolLine;

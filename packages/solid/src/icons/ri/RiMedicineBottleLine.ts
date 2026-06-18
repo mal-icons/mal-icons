@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiMedicineBottleLine = createIcon("0 0 24 24", [["path",{"d":"M19 2V4H17V7C18.66 7 20 8.34 20 10V21C20 21.55 19.55 22 19 22H5C4.45 22 4 21.55 4 21V10C4 8.34 5.34 7 7 7V4H5V2H19ZM17 9H7C6.45 9 6 9.45 6 10V20H18V10C18 9.45 17.55 9 17 9ZM13 11V13H15V15H13L13 17H11L11 15H9V13H11V11H13ZM15 4H9V7H15V4Z"}]]);
+
+export default RiMedicineBottleLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-messenger",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMessenger {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.24 0 0 4.95 0 11.64c0 3.5 1.43 6.52 3.77 8.61a0.960.96 0 0 1 0.320.68l0.07 2.13a0.960.96 0 0 0 1.350.85l2.38-1.05a0.960.96 0 0 1 0.64-0.05A13 13 0 0 0 12 23.28c6.76 0 12-4.95 12-11.64S18.76 0 12 0m6.81 7.44c0.52-0.030.970.570.63 1.09l-4.18 6.46a0.710.71 0 0 1-0.980.21l-3.87-2.5a0.440.44 0 0 0-0.490.01l-4.36 3.01c-0.640.44-1.41-0.32-0.99-0.97l4.18-6.46a0.710.71 0 0 1 0.98-0.21l3.87 2.51c0.150.10.340.090.49-0.01l4.36-3.01a0.70.7 0 0 1 0.36-0.13"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMessenger;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-moon-clear-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiMoonClearLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 6C10 10.42 13.58 14 18 14C19.44 14 20.79 13.62 21.95 12.96C21.47 18.03 17.2 22 12 22C6.48 22 2 17.52 2 12C2 6.8 5.97 2.53 11.04 2.05C10.38 3.21 10 4.56 10 6ZM4 12C4 16.42 7.58 20 12 20C14.97 20 17.58 18.38 18.96 15.95C18.64 15.98 18.32 16 18 16C12.48 16 8 11.52 8 6C8 5.68 8.02 5.36 8.05 5.04C5.62 6.42 4 9.03 4 12ZM18.16 2.29L19 2.5V3.5L18.16 3.71C17.45 3.89 16.89 4.45 16.71 5.16L16.5 6H15.5L15.29 5.16C15.11 4.45 14.55 3.89 13.84 3.71L13 3.5V2.5L13.84 2.29C14.55 2.11 15.11 1.55 15.29 0.84L15.5 0H16.5L16.71 0.84C16.89 1.55 17.45 2.11 18.16 2.29ZM23.16 7.29L24 7.5V8.5L23.16 8.71C22.45 8.89 21.89 9.45 21.71 10.16L21.5 11H20.5L20.29 10.16C20.11 9.45 19.55 8.89 18.84 8.71L18 8.5V7.5L18.84 7.29C19.55 7.11 20.11 6.55 20.29 5.84L20.5 5H21.5L21.71 5.84C21.89 6.55 22.45 7.11 23.16 7.29Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiMoonClearLine;

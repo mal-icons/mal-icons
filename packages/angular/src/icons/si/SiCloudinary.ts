@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-cloudinary",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCloudinary {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M24 14.86c0 2.17-1.38 3.97-3.59 4.7l-0.10.03V17.99c1.38-0.58 2.19-1.73 2.19-3.13-0.01-2-1.61-3.63-3.61-3.67h-0.6l-0.14-0.57c-0.7-2.9-3.29-4.95-6.27-4.97a6.39 6.39 0 0 0-5.81 3.66l-0.180.38-0.420.04a4.43 4.43 0 0 0-3.31 2.09c-1.28 2.09-0.63 4.81 1.46 6.09v1.69h-0.01l-0.15-0.07a5.94 5.94 0 0 1-3.37-4.35c-0.58-3.23 1.57-6.32 4.8-6.89a7.88 7.88 0 0 1 6.98-4.15c3.470.03 6.54 2.28 7.59 5.59 2.580.34 4.51 2.52 4.53 5.13zm-15.32-1.32h0.56a0.070.07 0 0 0 0.05-0.11L7.08 11.22l00a0.070.07 0 0 0-0.090L4.78 13.43a0.070.07 0 0 0 0.050.11h0.56a0.070.07 0 0 1 0.070.07v5.06c0 0.660.53 1.19 1.19 1.19H9.25a0.070.07 0 0 0 0.05-0.11l-0.33-0.33a1.19 1.19 0 0 1-0.35-0.84v-4.97a0.070.07 0 0 1 0.07-0.07zm9.77 2.55h0.57a0.070.07 0 0 0 0.05-0.11l-2.21-2.2100a0.060.06 0 0 0-0.090L14.55 15.97a0.070.07 0 0 0 0.050.11h0.56a0.070.07 0 0 1 0.070.07v2.51c0 0.660.53 1.19 1.19 1.19h2.61a0.070.07 0 0 0 0.05-0.11l-0.33-0.33a1.19 1.19 0 0 1-0.35-0.84V16.15a0.070.07 0 0 1 0.07-0.07zm-4.88-1.27h0.56a0.070.07 0 0 0 0.05-0.11l-2.21-2.200a0.070.07 0 0 0-0.090l-2.21 2.21a0.070.07 0 0 0 0.050.11h0.56a0.070.07 0 0 1 0.070.07v3.78c0 0.660.53 1.19 1.19 1.19h2.6a0.070.07 0 0 0 0.05-0.11l-0.33-0.33a1.19 1.19 0 0 1-0.35-0.84v-3.7c0-0.040.03-0.070.07-0.07z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCloudinary;

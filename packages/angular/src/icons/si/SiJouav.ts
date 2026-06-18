@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-jouav",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiJouav {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m4.82 13.110.11-0.07a1.36 1.36 0 0 1-0.48-1.04 1.37 1.37 0 0 1 1.37-1.36c0.41 0 0.780.18 1.030.46l0.02-0.03c0.12-0.20.23-0.40.31-0.60.04-0.080.07-0.160.1-0.23a2.28 2.28 0 0 0-1.45-0.52 2.29 2.29 0 0 0-2.29 2.28c0 0.560.2 1.080.54 1.47a2.49 2.49 0 0 0 0.14-0.06c0.2-0.090.4-0.190.6-0.31zm2.7-2.64a4.83 4.83 0 0 1-0.310.79 6.71 6.71 0 0 1-0.120.22 1.36 1.36 0 0 1 0.110.53 1.37 1.37 0 0 1-1.88 1.27 5.83 5.83 0 0 1-0.320.18 4.86 4.86 0 0 1-0.670.27l-0.010a2.29 2.29 0 0 0 1.510.56 2.29 2.29 0 0 0 2.29-2.28 2.26 2.26 0 0 0-0.6-1.53zm-6.2-0.67H2.72v2.75c0 0.59-0.15 1.03-0.44 1.31-0.290.28-0.740.42-1.360.42A3.71 3.71 0 0 1 0 14.16v-0.96a1.42 1.42 0 0 0 0.450.08c0.32 0 0.54-0.080.67-0.230.14-0.150.2-0.420.2-0.79v-2.46zm7.55 0h1.4v2.55c0 0.370.070.640.20.810.130.170.350.250.640.250.3 0 0.53-0.090.68-0.270.15-0.180.23-0.440.23-0.79v-2.55h1.33v2.55c0 0.65-0.19 1.13-0.56 1.45-0.370.32-0.930.48-1.680.48-0.74 0-1.3-0.16-1.67-0.49-0.38-0.32-0.56-0.81-0.56-1.45v-2.55zm6.91 0h1.69l1.98 4.38h-1.49l-0.37-0.93h-2.02l-0.390.93h-1.38zm0.810.98-0.68 1.64h1.34zm2.17-0.98h1.46l1.17 3.41 1.16-3.41H24l-1.78 4.38h-1.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiJouav;

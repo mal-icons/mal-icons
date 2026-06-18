@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-cactus-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCactusFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C14.21 2 16 3.79 16 6V15H17C17.55 15 18 14.55 18 14V8C18 7.45 18.45 7 19 7C19.55 7 20 7.45 20 8V14C20 15.66 18.65 17 17 17H16V20H18V22H6V20H8V14H7C5.34 14 4 12.66 4 11V9C4 8.45 4.45 8 5 8C5.55 8 6 8.45 6 9V11C6 11.55 6.45 12 7 12C7.36 12 7.7 12 8 12V6C8 3.79 9.79 2 12 2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCactusFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-immersivetranslate",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiImmersivetranslate {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.61 4.01h-1.75v1.75H3.54v5.85h3.32v2.53h1.75v-2.53h3.32V5.76H8.61Zm-1.75 3.5H5.29V9.86h1.57Zm1.75 2.35V7.51h1.57V9.86Zm12.07 10.13-3.68-9.23h-1.75l-3.68 9.23h1.87l0.95-2.47h3.46l0.95 2.47zm-3.5-4.22-1.06-2.74-1.06 2.74zm-9.47 4.22h2.59v-1.75H7.7a1.57 1.57 0 0 1-1.57-1.57v-1.75h-1.75v1.75a3.32 3.32 0 0 0 3.32 3.32m5.85-15.14v1.75h2.59c0.87 0 1.570.7 1.57 1.57v1.81h1.75V8.17a3.32 3.32 0 0 0-3.32-3.32zM0 3.75A3.75 3.75 0 0 1 3.75 0h16.5A3.75 3.75 0 0 1 24 3.75v16.5A3.75 3.75 0 0 1 20.25 24H3.75A3.75 3.75 0 0 1 0 20.25Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiImmersivetranslate;

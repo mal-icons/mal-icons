@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-alipay",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAlipay {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.7 15.07c3.43 1.16 4.2 1.22 4.2 1.22V3.85c0-2.12-1.7-3.84-3.81-3.84H3.91C1.8100.1 1.720.1 3.85v16.31c0 2.12 1.71 3.85 3.81 3.85h16.17c2.11 0 3.81-1.72 3.81-3.84v-0.16s-6.19-2.6-9.31-4.12c-2.1 2.6-4.8 4.18-7.61 4.18-4.75 0-6.36-4.19-4.11-6.950.49-0.6 1.32-1.17 2.62-1.5 2.03-0.5 5.250.31 8.27 1.32a16.8 16.8 0 0 0 1.34-3.3H5.78v-0.95h4.8V6.98H4.77v-0.95h5.81V3.59s0-0.410.41-0.41h2.35v2.84h5.74v0.95h-5.74v1.7h4.69a19.45 19.45 0 0 1-1.99 5.06c1.420.52 2.7 1.01 3.65 1.33m-13.81-2.03c-0.60.06-1.710.33-2.320.87-1.83 1.61-0.73 4.55 2.97 4.55 2.15 0 4.3-1.39 5.99-3.61-2.4-1.18-4.44-2.03-6.64-1.81"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAlipay;

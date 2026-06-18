@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-flydotio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFlydotio {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.99 0c-2.45-0.01-50.93-6.54 2.9-1.17 1.5-1.66 3.47-1.49 5.360.29 2.11 1.48 3.96 2.68 5.67a41.5 41.5 0 0 0 4.22 4.83c-1.060.83-1.94 2.29-1.36 3.640.82 2.32 4.67 2.05 5.12-0.370.39-1.29-0.69-2.53-1.43-3.31 2.39-2.43 4.71-5.04 6.17-8.140.6-1.320.9-2.80.61-4.24-0.28-2.34-1.82-4.47-3.97-5.46C14.760.27 13.360.02 11.99 0m-0.24 1.58v15.53C9.88 13.48 7.72 9.27 8.73 5.07c0.35-1.54 1.25-3.31 3.02-3.49m20.04c1.530.36 3.03 1.1 3.91 2.48 1.3 1.93 1.32 4.550.1 6.52-1.27 2.4-3.06 4.46-4.92 6.42 1.47-2.97 3.07-6.11 3.18-9.5-0.04-2.08-0.44-4.61-2.27-5.92M11.97 20.1c0.850.34 1.6 1.980.15 2.17-0.660.15-1.37-0.6-0.99-1.220.21-0.350.49-0.730.84-0.95"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFlydotio;

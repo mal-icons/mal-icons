@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-fmod",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFmod {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.35 10.17a0.90.9 0 0 0-0.90.9v4.07H1.13v-2.81H0v-1.32h1.13a2.23 2.23 0 0 1 2.22-2.17H4.67v1.32zm7.33 1.84a0.250.25 0 0 0-0.240.17l-0.53 1.83a1.56 1.56 0 0 1-3 0l-0.53-1.83a0.250.25 0 0 0-0.48 0l-0.53 1.83a1.57 1.57 0 0 1-1.51 1.12h-0.37v-1.32h0.37a0.250.25 0 0 0 0.24-0.17l0.53-1.83a1.57 1.57 0 0 1 3.01 0l0.54 1.84a0.250.25 0 0 0 0.47 0l0.53-1.83a1.57 1.57 0 0 1 3.01 0l0.53 1.83a0.250.25 0 0 0 0.240.17h0.37v1.32h-0.37a1.57 1.57 0 0 1-1.51-1.12l-0.53-1.83a0.250.25 0 0 0-0.23-0.18zm2.690.91a2.23 2.23 0 1 1 2.23 2.23 2.23 2.23 0 0 1-2.23-2.23zm3.13 0a0.90.9 0 1 0-0.90.90.90.9 0 0 0 0.9-0.9zm4.670.46a0.960.96 0 0 0 0.07-0.120.670.67 0 0 1 1.270.310.650.65 0 0 1-0.050.26l-0.020.04a2.27 2.27 0 0 1-2.03 1.28 2.23 2.23 0 0 1 0-4.45h0.1a2.25 2.25 0 0 1 1.010.29V8.84h1.32v3.01a0.740.74 0 0 1-0.710.72 1.59 1.59 0 0 1-1.07-0.370.90.9 0 0 0-0.55-0.19h-0.1a0.90.9 0 1 0 0.78 1.37zM4.23 11.62a0.70.7 0 0 1-0.70.70.70.7 0 0 1-0.7-0.70.70.7 0 0 1 0.7-0.70.70.7 0 0 1 0.70.7zm18.4 2.84a0.690.69 0 1 0 0.69-0.670.680.68 0 0 0-0.690.67zm0.12 0a0.560.56 0 1 1 0.560.580.560.56 0 0 1-0.56-0.58zm0.280.38h0.12v-0.34h0.14l0.220.34h0.14l-0.23-0.35a0.20.2 0 0 0 0.21-0.22c0-0.15-0.09-0.23-0.28-0.23h-0.31zm0.12-0.69h0.16c0.08 0 0.170.020.170.12 0 0.1-0.10.14-0.210.14h-0.13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFmod;

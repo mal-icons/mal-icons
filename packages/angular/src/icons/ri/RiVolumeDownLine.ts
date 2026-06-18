@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-volume-down-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiVolumeDownLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13 7.22L9.6 10H6V14H9.6L13 16.78V7.22ZM8.89 16H5C4.45 16 4 15.55 4 15V9C4 8.45 4.45 8 5 8H8.89L14.18 3.67C14.4 3.49 14.71 3.52 14.89 3.74C14.96 3.83 15 3.94 15 4.06V19.94C15 20.22 14.78 20.44 14.5 20.44C14.38 20.44 14.27 20.41 14.18 20.33L8.89 16ZM18.86 16.59L17.44 15.17C18.39 14.44 19 13.29 19 12C19 10.57 18.25 9.31 17.12 8.61L18.56 7.17C20.04 8.26 21 10.02 21 12C21 13.84 20.17 15.49 18.86 16.59Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiVolumeDownLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-paloaltosoftware",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPaloaltosoftware {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M120.01c-0.58 0-1.160.23-1.610.69L0.69 10.39c-0.910.91-0.91 2.32 0 3.23l0.840.84 8.01-8.15a3.44 3.44 0 0 1 4.85 0l8.08 8.080.84-0.84c0.91-0.840.92-2.250.07-3.16L13.610.69a2.28 2.28 0 0 0-1.62-0.68zm0 6.46c-0.58 0-1.160.23-1.610.68L0.69 16.85c-0.910.91-0.91 2.32 0 3.23l3.23 3.23c0.910.91 2.320.91 3.23 0l4.85-4.85 4.85 4.85c0.910.91 2.320.91 3.23 0l3.23-3.23c0.91-0.840.92-2.320.07-3.23l-9.76-9.7a2.28 2.28 0 0 0-1.62-0.68z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPaloaltosoftware;

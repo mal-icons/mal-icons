@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiDigikeyelectronics = createIcon("0 0 24 24", [["path",{"d":"M12.250.22A11.79 11.79 0 0 1 23.89 10.42c0.91 6.59-3.94 12.71-10.56 13.3-0.450.04-0.910.06-1.370.06l-10.70v-3.75H0V3.99h1.22V0.22l11.020zM17.9 19.42l-8.26-7.42 8.25-7.42h-6.94L5.62 9.36V4.6H0.56v14.8h5.11v-4.72l5.29 4.75H17.9z"}]]);
+
+export default SiDigikeyelectronics;

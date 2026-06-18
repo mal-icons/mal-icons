@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-opslevel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiOpslevel {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.25 4.86 13.530.41a3.07 3.07 0 0 0-3.07 0l-2.34 1.34v6.21l3.1-1.79a1.52 1.52 0 0 1 1.54 0l3.88 2.24c0.480.280.760.780.76 1.33v4.48a1.54 1.54 0 0 1-0.76 1.33l-3.88 2.24V24l8.48-4.9a3.08 3.08 0 0 0 1.54-2.66V7.53a3.05 3.05 0 0 0-1.54-2.67ZM6.59 14.22V2.65L2.75 4.88A3.08 3.08 0 0 0 1.21 7.53v8.91c0 1.10.58 2.11 1.54 2.66L11.24 24v-6.21L7.35 15.55a1.53 1.53 0 0 1-0.76-1.33Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiOpslevel;

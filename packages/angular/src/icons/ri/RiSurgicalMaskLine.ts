@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-surgical-mask-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSurgicalMaskLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.49 3.12L20.24 5.06C20.69 5.17 21 5.57 21 6.03V7L22 7C23.1 7 24 7.9 24 9V12C24 13.66 22.66 15 21 15L20.58 15C20.04 16.35 19.03 17.49 17.68 18.16L12.89 20.55C12.33 20.83 11.67 20.83 11.11 20.55L6.32 18.16C4.97 17.49 3.96 16.35 3.42 15L3 15C1.34 15 0 13.66 0 12V9C0 7.9 0.9 7 2 7L3 7V6.03C3 5.57 3.31 5.17 3.76 5.06L11.51 3.12C11.83 3.04 12.17 3.04 12.49 3.12ZM12 5.06L5 6.81V12.79C5 14.31 5.86 15.69 7.21 16.37L12 18.76L16.79 16.37C18.14 15.69 19 14.31 19 12.79V6.81L12 5.06ZM3 9H2V12C2 12.55 2.45 13 3 13V9ZM22 9H21V13C21.55 13 22 12.55 22 12V9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSurgicalMaskLine;

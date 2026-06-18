@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiShieldsdotio = createIcon("0 0 24 24", [["path",{"d":"M19 0a5 5 0 0 1 5 5v14a5 5 0 0 1-5 5H5l-0.26-0.01A5 5 0 0 1 0 19V5a5 5 0 0 1 5-5zm-7 21h7a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-7z"}]]);
+
+export default SiShieldsdotio;

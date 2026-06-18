@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-quarkus",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiQuarkus {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.98 0A3.99 3.99 0 0 0 0 3.98V20.02A3.99 3.99 0 0 0 3.98 24h10.98L12 16.8l-2.15 4.55H3.98c-0.72 0-1.33-0.61-1.33-1.33V3.98c0-0.720.61-1.33 1.33-1.33h16.04c0.72 0 1.330.61 1.33 1.33v16.04c0 0.72-0.61 1.33-1.33 1.33h-3.48L17.63 24h2.39A3.99 3.99 0 0 0 24 20.02V3.98A3.99 3.99 0 0 0 20.02 0zm4.32 4.22v3.86l3.34-1.93zm7.39 0l-3.34 1.93 3.34 1.93zM12 6.35L8.31 8.48 12 10.62l3.7-2.13zM8.1 8.83v4.27l3.7 2.13v-4.27zm7.79 0L12.2 10.97v4.27l3.7-2.13zm-8.150.2l-3.34 1.93 3.34 1.93zm8.5 0v3.86l3.34-1.93zm-8.15 4.47v3.86l3.34-1.93zm7.79 0l-3.34 1.93 3.34 1.93z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiQuarkus;

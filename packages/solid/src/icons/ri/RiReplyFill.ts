@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiReplyFill = createIcon("0 0 24 24", [["path",{"d":"M11 20L1 12L11 4V9C16.52 9 21 13.48 21 19C21 19.27 20.99 19.54 20.97 19.81C19.46 16.95 16.46 15 13 15H11V20Z"}]]);
+
+export default RiReplyFill;

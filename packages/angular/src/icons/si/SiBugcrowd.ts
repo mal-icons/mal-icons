@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-bugcrowd",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBugcrowd {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M24 12L18 1.39H6L0 12l6 10.61h12zm-5.78 1.66c00.83-0.12 1.57-0.35 2.23a5.05 5.05 0 0 1-0.99 1.71 4.32 4.32 0 0 1-1.5 1.09 4.69 4.69 0 0 1-1.90.39 4.16 4.16 0 0 1-1.14-0.15 3.75 3.75 0 0 1-0.87-0.36 3.79 3.79 0 0 1-0.6-0.43 3.02 3.02 0 0 1-0.47-0.51h-0.04l0.020.19c0.010.170.020.330.020.5v0.53H7.96V7.06c0-0.15-0.04-0.26-0.11-0.34-0.08-0.07-0.19-0.11-0.33-0.11h-0.81V4.43h2.45c0.4700.820.11 1.050.330.220.220.330.580.33 1.05v3c00.26-0.010.47-0.020.63l-0.020.25h0.04a2.9 2.9 0 0 1 0.46-0.51c0.16-0.140.35-0.280.6-0.430.25-0.140.54-0.260.88-0.360.38-0.10.77-0.15 1.16-0.150.70 1.330.14 1.890.4a4.12 4.12 0 0 1 1.45 1.11c0.40.480.71 1.050.92 1.720.210.660.32 1.390.32 2.2m-2.8 1.41c0.14-0.40.21-0.850.21-1.370-0.66-0.11-1.23-0.33-1.72-0.22-0.48-0.52-0.86-0.9-1.12a2.35 2.35 0 0 0-1.34-0.4 2.57 2.57 0 0 0-0.970.19 2.37 2.37 0 0 0-0.830.59 2.84 2.84 0 0 0-0.58 1.01c-0.140.41-0.210.91-0.22 1.48 0 0.40.050.790.16 1.170.10.370.270.710.48 1.020.210.30.490.550.810.720.320.180.70.27 1.130.270.3400.68-0.071-0.21a2.43 2.43 0 0 0 0.82-0.62c0.24-0.270.43-0.610.56-1Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBugcrowd;

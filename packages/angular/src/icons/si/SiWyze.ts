@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-wyze",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWyze {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.48 13.17 7.3 9.47h0.97L5.78 14.53h-0.61l-1.03-2.08-1.03 2.08h-0.61L0 9.47h0.97l1.83 3.670.85-1.71-0.97-1.97h0.97l1.83 3.7Zm8.46-3.7-2.25 3.44v1.59h-0.88v-1.59L8.52 9.47h1.03l1.67 2.55 1.67-2.54h1.03Zm5.44 4.19H24v0.87h-4.62v-0.87Zm0-4.19H24v0.87h-4.62v-0.87Zm0 2.08H24v0.87h-4.62v-0.87Zm-0.27-2.08-3.44 4.22h3.13v0.84H13.84l3.41-4.22h-3.04v-0.84h4.9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWyze;

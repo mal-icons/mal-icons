@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-bike-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBikeFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.5 12H4V7H2V5H8V7H6V9.8L15.81 7.17L15.23 5H12V3H15.98C16.43 2.99 16.84 3.29 16.97 3.74L18.52 9.54L16.59 10.05L16.33 9.1L5.5 12ZM5 21C2.79 21 1 19.21 1 17C1 14.79 2.79 13 5 13C7.21 13 9 14.79 9 17C9 19.21 7.21 21 5 21ZM5 18C5.55 18 6 17.55 6 17C6 16.45 5.55 16 5 16C4.45 16 4 16.45 4 17C4 17.55 4.45 18 5 18ZM18 21C15.24 21 13 18.76 13 16C13 13.24 15.24 11 18 11C20.76 11 23 13.24 23 16C23 18.76 20.76 21 18 21ZM18 17C18.55 17 19 16.55 19 16C19 15.45 18.55 15 18 15C17.45 15 17 15.45 17 16C17 16.55 17.45 17 18 17Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBikeFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-phonepe",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPhonepe {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.21 9.94h2.95v4.69c-0.40.2-0.940.27-1.340.27-1.07 0-1.61-0.54-1.61-1.74V9.94zm13.47 4.82c-1.52 6.45-7.98 10.44-14.43 8.92C2.79 22.15-1.2 15.690.32 9.24 1.85 2.79 8.31-1.2 14.760.32c6.45 1.52 10.44 7.99 8.92 14.43zm-6.23-5.89a0.890.89 0 0 0-0.87-0.87h-1.61l-3.69-4.22c-0.33-0.4-0.87-0.54-1.41-0.4l-1.270.4c-0.20.07-0.270.34-0.130.47l4.02 3.82H6.39c-0.2 0-0.330.13-0.330.34v0.67c0 0.470.40.870.870.87h0.94v3.22c0 2.41 1.27 3.82 3.42 3.820.67 0 1.21-0.07 1.88-0.33v2.15c0 0.60.47 1.07 1.07 1.07h0.94a0.430.43 0 0 0 0.4-0.4V9.87h1.54c0.2 0 0.34-0.130.34-0.33v-0.67z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPhonepe;

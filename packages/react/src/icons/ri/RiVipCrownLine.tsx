@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiVipCrownLine = createIcon("0 0 24 24", [["path",{"d":"M2 19H22V21H2V19ZM2 5L7 8.5L12 2L17 8.5L22 5V17H2V5ZM4 8.84V15H20V8.84L16.59 11.23L12 5.28L7.42 11.23L4 8.84Z"}]]);
+
+export default RiVipCrownLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-campaignmonitor",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCampaignmonitor {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.84 4.27c-0.29-0.41-0.86-0.51-1.27-0.23L0.16 19.73c0.170.240.440.390.750.39h22.18c0.5 0 0.91-0.410.91-0.91V4.78c0-0.18-0.06-0.35-0.16-0.51zm-22.4-0.23c-0.41-0.29-0.98-0.19-1.270.23-0.110.15-0.160.33-0.160.51v14.45l10.66-8.74-9.23-6.45v0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCampaignmonitor;

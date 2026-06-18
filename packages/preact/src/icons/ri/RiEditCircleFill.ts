@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiEditCircleFill = createIcon("0 0 24 24", [["path",{"d":"M16.63 3.13L9.29 10.46L9.3 14.71L13.54 14.7L20.87 7.37C21.59 8.75 22 10.33 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.47 6.48 2 12 2C13.67 2 15.24 2.41 16.63 3.13ZM20.49 2.1L21.9 3.51L12.71 12.7L11.3 12.71L11.29 11.29L20.49 2.1Z"}]]);
+
+export default RiEditCircleFill;

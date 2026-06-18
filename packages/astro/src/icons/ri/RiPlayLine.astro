@@ -1,0 +1,8 @@
+---
+import type { NodeTuple } from "@mal-icons/core";
+import IconBase from "../../IconBase.astro";
+
+const nodes: NodeTuple[] = [["path",{"d":"M16.39 12L10 7.74V16.26L16.39 12ZM19.38 12.42L8.78 19.48C8.55 19.64 8.24 19.57 8.08 19.34C8.03 19.26 8 19.16 8 19.07V4.93C8 4.66 8.22 4.43 8.5 4.43C8.6 4.43 8.7 4.46 8.78 4.52L19.38 11.58C19.61 11.74 19.67 12.05 19.51 12.28C19.48 12.33 19.43 12.38 19.38 12.42Z"}]];
+---
+
+<IconBase viewBox="0 0 24 24" nodes={nodes} {...Astro.props} />

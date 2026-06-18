@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiDmm = createIcon("0 0 24 24", [["path",{"d":"M9.530.46H0v23.08h11.55C17.28 23.54 24 20.92 24 12S16.030.46 9.530.46zm0.65 15.07V8.34c1.75 0 4.40.08 4.4 3.58 0 3.58-2.55 3.61-4.4 3.61z"}]]);
+
+export default SiDmm;

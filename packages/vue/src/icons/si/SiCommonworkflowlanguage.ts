@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiCommonworkflowlanguage = createIcon("0 0 24 24", [["path",{"d":"M13.91 0L8.57 5.4l0.040.040.10.1 3.59 3.4-2.24 2.25h-0.01l-1.58 1.59 3.74 3.77-3.73 3.80.130.14v0.01L12.05 24l1.61-1.64-1.98-2.03 3.74-3.79-1.61-1.64-0.010.01-2.13-2.13 3.87-3.87-0.02-0.010.02-0.02-3.64-3.52 3.64-3.69z"}]]);
+
+export default SiCommonworkflowlanguage;

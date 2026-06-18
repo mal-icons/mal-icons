@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-dropbox-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDropboxLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.65 17.26L12.04 19.42L15.43 17.26L17.29 18.45L12.04 21.79L6.79 18.45L8.65 17.26ZM7.77 8.98L10.17 7.43L7.74 5.85L5.29 7.37L7.77 8.98ZM9.61 10.17L12 11.72L14.4 10.17L12 8.62L9.61 10.17ZM13.85 12.91L16.27 14.48L18.72 12.98L16.23 11.36L13.85 12.91ZM12 6.24L16.24 3.49L22.47 7.33L18.07 10.17L22.47 13.02L16.24 16.84L12 14.1L7.77 16.84L1.54 13.02L5.94 10.17L1.54 7.33L7.77 3.49L12 6.24ZM13.84 7.43L16.23 8.98L18.72 7.37L16.27 5.85L13.84 7.43ZM10.16 12.91L7.77 11.36L5.29 12.98L7.74 14.48L10.16 12.91Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDropboxLine;

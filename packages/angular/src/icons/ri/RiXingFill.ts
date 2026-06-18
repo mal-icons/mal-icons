@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-xing-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiXingFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.46 3.23C20.62 3.23 20.77 3.31 20.85 3.38C20.92 3.54 20.92 3.69 20.85 3.85L14.77 14.62L18.62 21.69C18.69 21.85 18.69 22 18.62 22.15C18.54 22.23 18.39 22.31 18.23 22.31H15.46C15.08 22.31 14.85 22 14.69 21.77L10.77 14.62C11 14.31 16.92 3.77 16.92 3.77C17.08 3.46 17.31 3.23 17.69 3.23H20.46ZM8.92 7C9.31 7 9.54 7.31 9.69 7.54L11.62 10.85C11.46 11 8.62 16.08 8.62 16.08C8.46 16.31 8.23 16.62 7.85 16.62H5.15C5 16.62 4.85 16.54 4.77 16.46C4.69 16.31 4.69 16.15 4.77 16L7.62 10.85L5.77 7.62C5.69 7.46 5.69 7.31 5.77 7.15C5.85 7.08 6 7 6.15 7H8.92Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiXingFill;

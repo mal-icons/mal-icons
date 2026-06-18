@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-freecad",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFreecad {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 0h16v8a0.70.7 0 0 1-0.290.57l-2.17 1.58a0.70.7 0 0 0-0.290.56v0.59c0 0.220.110.430.290.57l1.9 1.38a0.70.7 0 0 1 0.250.78l-0.65 2a0.70.7 0 0 1-0.660.48H18.03a0.70.7 0 0 0-0.570.29l-0.340.47a0.70.7 0 0 0-0.10.63l0.72 2.23a0.70.7 0 0 1-0.250.78l-1.7 1.23a0.70.7 0 0 1-0.82 0l-1.89-1.38a0.70.7 0 0 0-0.63-0.1l-0.560.18a0.70.7 0 0 0-0.450.45l-0.72 2.23a0.70.7 0 0 1-0.660.48H2V4zm12 8V4H6v16h4v-5h4v-4h-4V8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFreecad;

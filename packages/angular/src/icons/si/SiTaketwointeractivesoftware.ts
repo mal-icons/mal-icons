@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-taketwointeractivesoftware",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTaketwointeractivesoftware {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m17.01 16.780.42-0.26 4.16-3.1c1.41-1.25 2.29-2.69 2.29-4.61-0.01-3.85-3.04-5.77-6.61-5.77-1.66 0-3.120.45-4.28 1.26V2.85L0 2.86l0.01 4.39 3.85-0.010.02 13.89 5.36-0.01-0.02-13.89h1.44a7.97 7.97 0 0 0-0.52 2.02l4.520.88c0.08-1.380.55-3.1 2.22-3.1 1.1 0 1.750.83 1.75 1.87 0 1.56-1.3 2.65-2.4 3.59l-6.08 4.560.01 4.09 13.64-0.020.21-4.37-6.990.02Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTaketwointeractivesoftware;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-key-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiKeyLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.92 13C12.44 15.84 9.97 18 7 18C3.69 18 1 15.31 1 12C1 8.69 3.69 6 7 6C9.97 6 12.44 8.16 12.92 11H23V13H21V17H19V13H17V17H15V13H12.92ZM7 16C9.21 16 11 14.21 11 12C11 9.79 9.21 8 7 8C4.79 8 3 9.79 3 12C3 14.21 4.79 16 7 16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiKeyLine;

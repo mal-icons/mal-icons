@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiSaveFill = createIcon("0 0 24 24", [["path",{"d":"M18 21V13H6V21H4C3.45 21 3 20.55 3 20V4C3 3.45 3.45 3 4 3H17L21 7V20C21 20.55 20.55 21 20 21H18ZM16 21H8V15H16V21Z"}]]);
+
+export default RiSaveFill;

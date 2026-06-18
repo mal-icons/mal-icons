@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-eslint",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiEslint {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.26 9.13L11.82 6.5a0.370.37 0 0 1 0.37 0l4.56 2.63a0.370.37 0 0 1 0.180.32v5.26a0.370.37 0 0 1-0.180.32l-4.56 2.63a0.370.37 0 0 1-0.37 0l-4.56-2.63a0.370.37 0 0 1-0.18-0.32V9.45a0.370.37 0 0 1 0.18-0.32M23.85 11.53l-5.45-9.47c-0.2-0.34-0.56-0.6-0.96-0.6H6.56c-0.4 0-0.760.25-0.960.6L0.15 11.51a1.13 1.13 0 0 0 0 1.12l5.45 9.4c0.20.340.560.520.960.52h10.89c0.4 0 0.76-0.170.96-0.51l5.45-9.41a1.07 1.07 0 0 0 0-1.09m-4.51 4.56a0.40.4 0 0 1-0.20.34L12.2 20.43a0.40.4 0 0 1-0.39 0l-6.94-4a0.40.4 0 0 1-0.2-0.34V8.08c0-0.140.08-0.270.2-0.34L11.8 3.74c0.12-0.070.27-0.070.39 0l6.94 4a0.40.4 0 0 1 0.210.34z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiEslint;

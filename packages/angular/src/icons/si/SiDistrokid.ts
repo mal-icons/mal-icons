@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-distrokid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDistrokid {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 10.51h1.17c0.94 0 1.590.65 1.59 1.49V12c0 0.84-0.65 1.5-1.59 1.5H0v-2.99zM1.17 12.9c0.54 0 0.9-0.360.9-0.89V12c0-0.53-0.36-0.9-0.9-0.9H0.66v1.8h0.51zm2.21-2.4h0.66v2.99H3.37v-2.99zm1.2 2.550.39-0.47c0.270.220.550.360.890.360.27 0 0.43-0.110.43-0.28v-0.01c0-0.17-0.1-0.25-0.6-0.38-0.6-0.15-0.99-0.32-0.99-0.91v-0.01c0-0.540.43-0.9 1.05-0.9a1.73 1.73 0 0 1 1.110.38l-0.340.5c-0.26-0.18-0.52-0.29-0.78-0.29-0.25 0-0.380.12-0.380.26v0.01c0 0.20.130.260.640.390.610.160.950.380.950.9v0.01c0 0.59-0.450.93-1.10.93a1.9 1.9 0 0 1-1.27-0.48zm3.57-1.95h-0.91v-0.6h2.48v0.61H8.8v2.38h-0.66V11.11zm2.07-0.61h1.37c0.38 0 0.680.110.870.30.170.170.260.40.260.68v0.01c0 0.48-0.260.79-0.640.93l0.73 1.07h-0.77l-0.64-0.96h-0.52v0.96h-0.66v-2.99zm1.32 1.45c0.32 0 0.5-0.170.5-0.42v-0.01c0-0.28-0.2-0.43-0.52-0.43h-0.65v0.86h0.66zm1.630.05V12c0-0.850.67-1.55 1.59-1.55s1.580.69 1.58 1.54V12c0 0.85-0.67 1.55-1.59 1.55s-1.58-0.69-1.58-1.54zm2.49 0V12c0-0.51-0.37-0.94-0.9-0.94s-0.90.42-0.90.93v0.01c0 0.510.380.940.910.94s0.9-0.420.9-0.93zm1.4-1.5h0.34v1.79l1.72-1.78h0.44l-1.28 1.31 1.34 1.68h-0.42l-1.15-1.45-0.640.65v0.8h-0.34v-2.99zm3.1 0h0.34v2.99h-0.34v-2.99zm1.21 0h1.04c0.94 0 1.590.65 1.59 1.49V12c0 0.84-0.65 1.5-1.59 1.5h-1.04v-2.99zm1.04 2.68c0.76 0 1.24-0.51 1.24-1.17V12c0-0.66-0.48-1.18-1.24-1.18h-0.7v2.37l0.70z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDistrokid;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiStopLine = createIcon("0 0 24 24", [["path",{"d":"M7 7V17H17V7H7ZM6 5H18C18.55 5 19 5.45 19 6V18C19 18.55 18.55 19 18 19H6C5.45 19 5 18.55 5 18V6C5 5.45 5.45 5 6 5Z"}]]);
+
+export default RiStopLine;

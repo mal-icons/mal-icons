@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-basketball-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBasketballFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.37 13.37L14.14 14.39C13.05 16.8 13 19.47 13.83 21.83C13.24 21.94 12.63 22 12 22C10.54 22 9.14 21.69 7.89 21.12L12.37 13.37ZM15.88 15.4L20.12 17.84C19.02 19.36 17.51 20.56 15.75 21.27C15.1 19.51 15.08 17.53 15.76 15.7L15.88 15.4ZM8.86 11.34L10.63 12.37L6.16 20.12C4.52 18.94 3.25 17.27 2.57 15.33C4.93 14.89 7.12 13.61 8.65 11.62L8.86 11.34ZM21.91 10.62C21.97 11.07 22 11.53 22 12C22 13.46 21.69 14.86 21.12 16.11L16.88 13.66C18.11 12.05 19.86 11.01 21.75 10.64L21.91 10.62ZM2.88 7.89L7.12 10.34C5.86 11.99 4.05 13.05 2.09 13.39C2.03 12.93 2 12.47 2 12C2 10.54 2.31 9.14 2.88 7.89ZM17.84 3.88C19.48 5.06 20.75 6.73 21.43 8.67C19.07 9.11 16.88 10.39 15.35 12.38L15.14 12.66L13.37 11.63L17.84 3.88ZM12 2C13.46 2 14.86 2.31 16.11 2.88L11.63 10.63L9.86 9.61C10.95 7.2 11 4.53 10.17 2.17C10.76 2.06 11.37 2 12 2ZM8.25 2.73C8.9 4.49 8.92 6.47 8.24 8.3L8.12 8.6L3.88 6.16C4.94 4.7 6.37 3.53 8.05 2.81L8.25 2.73Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBasketballFill;

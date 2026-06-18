@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-mail-settings-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiMailSettingsLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 7.24L12.07 14.34L4 7.22V19H14V21H3C2.45 21 2 20.55 2 20V4C2 3.45 2.45 3 3 3H21C21.55 3 22 3.45 22 4V13H20V7.24ZM19.5 5H4.51L12.06 11.66L19.5 5ZM17.05 19.55C17.02 19.37 17 19.19 17 19C17 18.81 17.02 18.63 17.05 18.45L16.04 17.87L17.04 16.13L18.05 16.72C18.33 16.48 18.65 16.29 19 16.17V15H21V16.17C21.35 16.29 21.67 16.48 21.95 16.72L22.96 16.13L23.96 17.87L22.95 18.45C22.98 18.63 23 18.81 23 19C23 19.19 22.98 19.37 22.95 19.55L23.96 20.13L22.96 21.87L21.95 21.28C21.67 21.52 21.35 21.71 21 21.83V23H19V21.83C18.65 21.71 18.33 21.52 18.05 21.28L17.04 21.87L16.04 20.13L17.05 19.55ZM20 20C20.55 20 21 19.55 21 19C21 18.45 20.55 18 20 18C19.45 18 19 18.45 19 19C19 19.55 19.45 20 20 20Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiMailSettingsLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-akaunting",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAkaunting {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.15 18.67a7.35 7.35 0 0 1-3.150.7 7.34 7.34 0 0 1-4.54-1.56l-3.01 3.51A11.96 11.96 0 0 0 12 24c1.91 0 3.72-0.45 5.33-1.24l-2.18-4.08Zm4.23 2.79V24h4.62V12c0-6.63-5.37-12-12-12C5.47 0 0.17 5.210 11.69h4.63a7.38 7.38 0 1 1 11.03 6.71l2.18 4.08a12 12 0 0 0 1.54-1.02ZM7.02 17.44a7.35 7.35 0 0 1-2.39-5.16H0a11.97 11.97 0 0 0 4 8.68l3.01-3.51Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAkaunting;

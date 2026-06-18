@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-houdini",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHoudini {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 19.64V24h3.82A8.66 8.66 0 0 1 0 19.64zm16.04-4.55c0-4.04-3.25-7.92-8.11-8.09C4.48 6.87 1.8 8.14 0 10.01v4.21c1.22-3.55 4.6-5.16 7.42-5.13 3.530.04 6.25 2.7 6.28 5.72 0 2.88-1.18 4.99-4.44 5.52-1.770.3-4.55-0.75-4.44-3.430.07-1.38 1.14-2.16 2.37-2.11-1.21 1.620.39 2.8 1.52 2.56a2.51 2.51 0 0 0 1.97-2.5c0-1.02-0.96-2.66-3.33-2.6-2.940.07-4.78 2.18-4.85 4.8-0.07 3.28 3.01 5.46 6.17 5.48 4.630.06 7.4-2.98 7.38-7.44zM0 0v6.91a12.86 12.86 0 0 1 7.93-2.61c6.8 0 11.13 4.76 11.13 10.77 0 4.17-1.95 7.31-4.99 8.94H24V0H0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHoudini;

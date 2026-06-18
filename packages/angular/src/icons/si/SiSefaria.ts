@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sefaria",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSefaria {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.61 15.41c-0.62 2.92-2.73 4.15-7.42 4.15-11.54 0-7.45-9.28-5.84-11.190.68-0.85 1.15-1.55 2.87-1.55h3.27c4.57 0 5.440.22 6.58 2.550.62 1.260.98 3.970.54 6.04m1.24-5.79c-0.38-2.49-0.89-5.2-3.05-6.71-1.31-0.91-2.66-0.98-4.18-0.98-1.03 0-4.67-0.04-6.26-0.04C5.83 1.89 4.780.62 4.78 0 3.78 1.23 3 2.6 3.27 4.25c0.24 1.48 1.26 2.43 2.75 2.62C4.34 9.25 2.81 11.99 2.88 14.9c0.05 1.830.47 9.1 8.69 9.1h1.5c3.51 0 5.63-2.61 6.25-3.61 1.82-2.96 2.12-7.55 1.54-10.76Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSefaria;

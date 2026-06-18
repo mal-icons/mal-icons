@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-crewai",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCrewai {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.480.18C7.16 1.32 1.48 9.07 1.43 15.37c-0.05 5.53 3.1 8.68 8.68 8.63 6.72-0.05 14.26-6.87 12.09-10.9-0.67-1.29-1.4-1.34-2.69-0.21-1.6 1.4-1.650.31-0.21-2.89 1.76-3.98 1.71-5.32-0.31-7.54C17.030.39 14.96-0.39 12.480.18Zm5.32 2.07c2.27 2.02 2.38 4.240.47 8.42-1.39 3.1-2.17 3.52-3.82 1.86-1.24-1.24-1.34-3.46-0.26-6.04 1.14-2.630.98-3.1-0.57-1.65-3.72 3.36-6.46 9.77-5.42 12.50.46 1.190.83 1.4 2.74 1.4 2.79 0 6.3-1.7 7.96-3.93 1.76-2.27 2.79-2.27 2.79-0.05 0 3.88-6.46 8.63-11.62 8.63-6.25 0-9.35-4.75-7.49-11.470.88-2.99 4.44-7.9 7.08-9.66 3.26-2.17 5.68-2.17 8.16 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCrewai;

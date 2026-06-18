@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiLogoutCircleLine = createIcon("0 0 24 24", [["path",{"d":"M5 11H13V13H5V16L0 12L5 8V11ZM4 18H6.71C8.12 19.24 9.97 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C9.97 4 8.12 4.76 6.71 6H4C5.82 3.57 8.73 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C8.73 22 5.82 20.43 4 18Z"}]]);
+
+export default RiLogoutCircleLine;

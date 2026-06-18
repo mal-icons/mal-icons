@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiSettingsFill = createIcon("0 0 24 24", [["path",{"d":"M12 1L21.5 6.5V17.5L12 23L2.5 17.5V6.5L12 1ZM12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15Z"}]]);
+
+export default RiSettingsFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-nuxt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiNuxt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.46 19.83h8.92c0.28 0 0.56-0.070.81-0.21a1.59 1.59 0 0 0 0.59-0.57 1.53 1.53 0 0 0 0.22-0.78 1.53 1.53 0 0 0-0.22-0.78L17.79 7.41a1.59 1.59 0 0 0-0.59-0.57 1.65 1.65 0 0 0-0.81-0.21c-0.28 0-0.560.07-0.810.21a1.59 1.59 0 0 0-0.590.57L13.46 9.99l-3-5.04a1.59 1.59 0 0 0-0.59-0.57 1.65 1.65 0 0 0-0.81-0.21c-0.28 0-0.560.07-0.810.21a1.59 1.59 0 0 0-0.590.57L0.22 17.48A1.53 1.53 0 0 0 0 18.26c00.270.070.550.220.78a1.59 1.59 0 0 0 0.590.57c0.250.140.520.210.810.21h5.6c2.22 0 3.86-0.95 4.98-2.79l2.73-4.59L16.39 9.99l4.39 7.38h-5.86ZM7.12 17.37l-3.910 5.86-9.84 2.92 4.92-1.96 3.29c-0.75 1.2-1.6 1.63-2.92 1.63z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiNuxt;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-dashboard-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDashboard2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4ZM12 5C13.02 5 13.99 5.22 14.86 5.61L13.3 7.17C12.88 7.06 12.45 7 12 7C9.24 7 7 9.24 7 12C7 13.38 7.56 14.63 8.46 15.54L7.05 16.95L6.89 16.79C5.72 15.54 5 13.85 5 12C5 8.13 8.13 5 12 5ZM18.39 9.14C18.78 10.02 19 10.98 19 12C19 13.93 18.22 15.68 16.95 16.95L15.54 15.54C16.44 14.63 17 13.38 17 12C17 11.55 16.94 11.12 16.83 10.7L18.39 9.14ZM16.24 6.34L17.66 7.76L13.93 11.48C13.98 11.65 14 11.82 14 12C14 13.1 13.1 14 12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C12.18 10 12.35 10.02 12.52 10.07L16.24 6.34Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDashboard2Line;

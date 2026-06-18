@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-cast-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCastLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 3H21C21.55 3 22 3.45 22 4V20C22 20.55 21.55 21 21 21H15C15 20.32 14.95 19.65 14.85 19H20V5H4V8.15C3.35 8.05 2.68 8 2 8V4C2 3.45 2.45 3 3 3ZM13 21H11C11 16.03 6.97 12 2 12V10C8.08 10 13 14.92 13 21ZM9 21H7C7 18.24 4.76 16 2 16V14C5.87 14 9 17.13 9 21ZM5 21H2V18C3.66 18 5 19.34 5 21Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCastLine;

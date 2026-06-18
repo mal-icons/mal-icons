@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiSlideshow3Line = createIcon("0 0 24 24", [["path",{"d":"M13 18V20H17V22H7V20H11V18H3C2.45 18 2 17.55 2 17V4C2 3.45 2.45 3 3 3H21C21.55 3 22 3.45 22 4V17C22 17.55 21.55 18 21 18H13ZM4 5V16H20V5H4ZM10 7.5L15 10.5L10 13.5V7.5Z"}]]);
+
+export default RiSlideshow3Line;

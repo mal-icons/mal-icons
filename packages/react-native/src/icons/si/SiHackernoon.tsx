@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiHackernoon = createIcon("0 0 24 24", [["path",{"d":"M5.7 0v6.22H8.85V4.65h1.58v7.84H12V4.65h1.57v1.57h3.15V0zm11.02 6.22v3.14h1.57V6.22zm1.57 3.14v4.71h1.58v-1.57h1.57v-1.57h-1.57V9.36zm0 4.71h-1.57v3.14h1.57zm-1.57 3.14h-3.15v1.57H8.85V17.2H5.7V24h11.02zm-11.02 0v-3.14H4.13v3.14zm-1.58-3.14V9.36H2.55v4.71zm0-4.7h1.58V6.22H4.13Z"}]]);
+
+export default SiHackernoon;

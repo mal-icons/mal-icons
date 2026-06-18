@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiProgress2Fill = createIcon("0 0 24 24", [["path",{"d":"M12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22ZM12 12V6C15.31 6 18 8.69 18 12H12Z"}]]);
+
+export default RiProgress2Fill;

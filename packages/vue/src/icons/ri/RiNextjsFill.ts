@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiNextjsFill = createIcon("0 0 24 24", [["path",{"d":"M12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22ZM16 8H14.65V12H16V8ZM9.35 9.71L15.41 17.54L16.46 16.73L9.68 8H8V16H9.35V9.71Z"}]]);
+
+export default RiNextjsFill;

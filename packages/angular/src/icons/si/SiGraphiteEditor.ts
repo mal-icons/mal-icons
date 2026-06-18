@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-graphite-editor",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGraphiteEditor {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m7.74 15.97-3.5-6.06c-0.15-0.23-0.08-0.540.15-0.69s0.54-0.080.690.15c0.010.010.020.030.020.04l3.5 6.06c0.150.230.080.54-0.150.69s-0.540.08-0.69-0.15a0.10.1 0 0 1-0.02-0.04m15.82 5.93c0.030.3-0.080.6-0.310.81-0.420.51-2.240.89-3.61 1.08-0.910.13-1.830.2-2.750.21-0.86-0.01-2.06-0.23-3.2-0.3-1.61-0.1-6.94-0.3-8.78-0.29-2.060.01-2.47-0.11-2.82-0.41-0.14-0.11 1.03-0.7 3.5-0.9 6.02-0.49 11.33-0.55 13.14-0.460.730.04 1.450.17 2.150.38l-3.86-2.77c-0.320.21-0.70.33-1.080.33h-9c-0.71 0-1.37-0.38-1.73-1l-4.5-7.79c-0.36-0.62-0.36-1.38 0-2L5.21 1c0.35-0.62 1.01-1 1.73-1h9c0.71 0 1.380.38 1.73 1l3.32 5.75 1.18 2.040.010.02c0 0.010.010.020.010.02q0.210.380.240.81c0 0.05 1.03 11.25 1.12 12.19zM6.52 2.73l5.61 9.72c0.7-0.17 1.42-0.26 2.14-0.25l1.48-2.01 2.48-0.28c0.36-0.630.79-1.21 1.29-1.73l-3.33-5.76a1 1 0 0 0-0.75-0.43h-8c-0.30.02-0.580.18-0.750.43zm8.18 14.86-3.1-2.22a1 1 0 0 1-0.28-0.31L5.36 4.73l-2.67 4.63c-0.140.27-0.140.59 0 0.87l4 6.93c0.170.260.450.420.750.43zm6.38-0.43-0.7-7.09c-0.440.48-0.83 1.01-1.15 1.58l-2.480.28-1.48 2.01c-0.65 0-1.310.07-1.940.21l5.79 4.15a1.91 1.91 0 0 1 1.96-1.14"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGraphiteEditor;

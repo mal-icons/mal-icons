@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-tinyletter",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTinyletter {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.07 18.2h-4.91v3.21l-4.22-3.21H4.93a0.640.64 0 1-0.64-0.64v-1.69l3.99-3.03L12 15.67l3.73-2.83 3.99 3.03v1.69a0.640.64 0 1-0.640.64zM7.21 12.04l-2.92 2.22V9.81zm12.5-2.22v4.44l-2.92-2.22zM4.93 5.61h2.74L12 9.13l4.34-3.52h2.73c0.36 0 0.640.290.640.64v1.95L12 14.06l-7.71-5.86V6.25c0-0.350.29-0.640.64-0.64zm3.41-3.77c0.36-0.360.83-0.55 1.34-0.550.5 0 0.980.2 1.330.55L12 2.83l0.99-0.99c0.36-0.360.83-0.55 1.33-0.550.51 0 0.980.2 1.340.550.360.360.550.830.55 1.34 0 0.49-0.190.96-0.53 1.31L12 7.47 8.32 4.49a1.89 1.89 0 1.02-2.65zm10.73 2.49h-1.79A3.17 3.17 0 16.570.93C15.970.33 15.17 0 14.33 0c-0.85 0-1.640.33-2.240.93L12 1.01 11.920.93C11.320.33 10.52 0 9.67 0 8.83 0 8.030.33 7.430.93a3.18 3.18 0 0-0.71 3.39H4.93a1.93 1.93 0 0-1.93 1.93V17.56a1.93 1.93 0 1.93 1.93h4.57L15.44 24v-4.51h3.63a1.93 1.93 0 1.93-1.93V6.25a1.93 1.93 0 0-1.93-1.93"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTinyletter;

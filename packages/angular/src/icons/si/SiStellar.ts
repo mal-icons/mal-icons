@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-stellar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiStellar {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 1.72c-1.37 0-2.70.27-3.950.78A10.18 10.18 0 0 0 2.66 7.9a10.14 10.14 0 0 0-0.8 3.95c0 0.260.010.520.030.78a1.94 1.94 0 0 1-1.05 1.88L0 14.93v1.9l2.46-1.260.07-0.03v0.01l0.77-0.390.76-0.380.07-0.04 14.81-7.56 1.67-0.85 3.39-1.73V2.69L17.79 5.86 3.74 13.03l-0.10.06-0.02-0.11a8.29 8.29 0 0 1-0.07-1.1c0-2.250.88-4.38 2.47-5.98a8.46 8.46 0 0 1 2.71-1.82 8.51 8.51 0 0 1 3.2-0.65h0.07a8.41 8.41 0 0 1 4.09 1.06l1.63-0.830.13-0.07a10.11 10.11 0 0 0-5.84-1.85zM24 7.14 5.05 16.81l-1.670.85L0 19.38v1.9l3.28-1.67 2.91-1.48 14.06-7.150.11-0.050.020.12c0.050.370.070.740.07 1.11 0 2.26-0.88 4.38-2.47 5.98a8.46 8.46 0 0 1-2.71 1.82 8.31 8.31 0 0 1-3.20.65h-0.06c-1.44 0-2.86-0.37-4.1-1.06l-0.070.03-1.680.86c0.590.42 1.230.78 1.9 1.06a10.11 10.11 0 0 0 3.950.8 10.09 10.09 0 0 0 7.17-2.97 10.14 10.14 0 0 0 2.97-7.18c0-0.260-0.52-0.03-0.78a1.94 1.94 0 0 1 1.06-1.88L24 9.04z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiStellar;

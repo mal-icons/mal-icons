@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-mediapipe",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMediapipe {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.18 0C1 0 0.040.940 2.11L0 2.18v6.55a2.18 2.18 0 0 0 4.36 0V2.18A2.18 2.18 0 0 0 2.18 0Zm6.55 0c-1.18 0-2.140.94-2.18 2.11l00.07v13.09a2.18 2.18 0 0 0 4.36 0V2.18A2.18 2.18 0 0 0 8.73 0Zm6.55 0a2.18 2.18 0 0 0-2.18 2.18 2.18 2.18 0 0 0 2.18 2.18 2.18 2.18 0 0 0 2.18-2.18A2.18 2.18 0 0 0 15.27 0Zm6.55 0c-1.18 0-2.140.94-2.18 2.11l00.07v19.64a2.18 2.18 0 0 0 4.36 0V2.18A2.18 2.18 0 0 0 21.82 0Zm-6.54 6.55c-1.18 0-2.140.94-2.18 2.11l00.07v13.09a2.18 2.18 0 0 0 4.36 0V8.73a2.18 2.18 0 0 0-2.18-2.18zM2.18 13.09c-1.18 0-2.140.94-2.18 2.11L0 15.27v6.55a2.18 2.18 0 0 0 4.36 0v-6.54a2.18 2.18 0 0 0-2.18-2.18zm6.55 6.55a2.18 2.18 0 0 0-2.18 2.18A2.18 2.18 0 0 0 8.73 24a2.18 2.18 0 0 0 2.18-2.18 2.18 2.18 0 0 0-2.18-2.18Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMediapipe;

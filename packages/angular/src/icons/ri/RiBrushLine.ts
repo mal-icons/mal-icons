@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-brush-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBrushLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.46 9.68L15.31 9.53C14.67 8.91 13.85 8.43 12.92 8.18C10.02 7.41 7.23 9.05 6.43 12.01C6.39 12.17 6.37 12.35 6.33 12.81C6.17 14.68 5.73 16.07 4.53 17.48C6.79 18.37 9.47 19 11.5 19C13.97 19 16.16 17.34 16.81 14.92C17.33 12.99 16.75 11.02 15.46 9.68ZM13.29 6.21L18.23 2.37C18.63 2.06 19.19 2.1 19.55 2.45L22.54 5.45C22.9 5.8 22.93 6.37 22.63 6.77L18.78 11.71C19.08 12.9 19.08 14.17 18.74 15.44C17.85 18.79 14.81 21 11.5 21C8 21 3.5 19.5 1 18C4.98 15 4.05 13.19 4.5 11.5C5.56 7.55 9.34 5.24 13.29 6.21ZM16.7 8.09C16.77 8.16 16.83 8.22 16.9 8.29L18.03 9.42L20.5 6.24L18.76 4.49L15.58 6.97L16.7 8.09Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBrushLine;

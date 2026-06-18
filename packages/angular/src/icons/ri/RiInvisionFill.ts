@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-invision-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiInvisionFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 3H20C20.55 3 21 3.45 21 4V20C21 20.55 20.55 21 20 21H4C3.45 21 3 20.55 3 20V4C3 3.45 3.45 3 4 3ZM6.99 14.07C6.93 14.33 6.9 14.62 6.9 14.86C6.9 15.78 7.38 16.4 8.41 16.4C9.26 16.4 9.95 15.87 10.45 15.02L10.14 16.29H11.83L12.8 12.26C13.04 11.24 13.51 10.71 14.22 10.71C14.78 10.71 15.12 11.07 15.12 11.67C15.12 11.84 15.11 12.03 15.05 12.23L14.55 14.08C14.47 14.35 14.44 14.62 14.44 14.87C14.44 15.75 14.94 16.39 15.98 16.39C16.87 16.39 17.58 15.79 17.97 14.37L17.31 14.1C16.98 15.06 16.69 15.23 16.47 15.23C16.24 15.23 16.12 15.07 16.12 14.76C16.12 14.62 16.15 14.46 16.19 14.27L16.68 12.47C16.8 12.04 16.84 11.67 16.84 11.32C16.84 9.97 16.06 9.27 15.11 9.27C14.22 9.27 13.31 10.1 12.86 10.98L13.19 9.4H10.61L10.25 10.79H11.45L10.71 13.89C10.13 15.24 9.06 15.26 8.92 15.23C8.7 15.18 8.56 15.09 8.56 14.79C8.56 14.62 8.59 14.37 8.66 14.07L9.8 9.4H6.93L6.57 10.79H7.76L6.99 14.07ZM8.63 8.63C9.25 8.63 9.75 8.12 9.75 7.5C9.75 6.88 9.25 6.38 8.63 6.38C8 6.38 7.5 6.88 7.5 7.5C7.5 8.12 8 8.63 8.63 8.63Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiInvisionFill;

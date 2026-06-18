@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiMenuFold3Line = createIcon("0 0 24 24", [["path",{"d":"M21 4H7V6H21V4ZM21 11H11V13H21V11ZM21 18H7V20H21V18ZM9.01 8.81L7.6 7.4L3 12L7.6 16.59L9.01 15.18L5.83 12L9.01 8.81Z"}]]);
+
+export default RiMenuFold3Line;

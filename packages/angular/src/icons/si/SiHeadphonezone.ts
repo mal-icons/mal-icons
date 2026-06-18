@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-headphonezone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHeadphonezone {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.63 4.7 17.96 0 9.09 2.48c-0.46 1.75-0.69 4.140.13 6.660.23-0.070.46-0.10.7-0.13a4.72 4.72 0 0 1 5.13 4.31 4.72 4.72 0 0 1-4.3 5.13 4.72 4.72 0 0 1-5.13-4.3 4.62 4.62 0 0 1 1.16-3.54c-0.86-1.32-1.99-3.61-1.95-6.49C1.11 6.62-0.85 11.260.38 15.86c1.49 5.83 7.45 9.31 13.25 7.78 4.6-1.19 7.75-5.2 8.11-9.7l2.25-1.62-6.36-7.62Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHeadphonezone;

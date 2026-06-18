@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiMozilla = createIcon("0 0 24 24", [["path",{"d":"M4.82 24H1.75V0H4.82zM7.33 12.24H19.48v-0.69L11.56 8.67V6.25l7.92-2.87v-0.7H10.1V0h12.15v4.89l-6.44 2.22v0.69l6.45 2.22v4.89H7.33zm0-9.56h2.77v2.77H7.33z"}]]);
+
+export default SiMozilla;

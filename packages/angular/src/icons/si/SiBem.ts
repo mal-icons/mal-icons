@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-bem",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBem {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 5.16h5.61v1.65H0Zm0-3.06h5.61v1.65H0Zm10.07 6.11H0v1.65h9.69c1.06 0 3.540.02 4.46 1.51v-0.92c-0.45-1.46-1.77-2.24-4.08-2.24Zm0.02 3.07H0v1.65h9.69c2.36 0 3.840.1 4.460.43v-0.73c-0.47-1.15-2.45-1.34-4.05-1.34Zm-0.02 7.78H0V17.4h9.69c1.06 0 3.54-0.02 4.46-1.51v0.92c-0.45 1.46-1.77 2.24-4.08 2.24zm0.02-3.06H0v-1.65h9.69c2.36 0 3.84-0.09 4.46-0.42v0.73c-0.47 1.16-2.45 1.34-4.05 1.34zm6.51 5.92H24v-1.01h-7.19c-0.64 0-2.15-0.02-2.69-0.9v0.57c0.260.87 1.06 1.34 2.48 1.34zm-0.02-1.86h7.4v-1.01H16.81c-1.44 0-2.33-0.05-2.69-0.26v0.45c0.280.71 1.490.83 2.450.83z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBem;

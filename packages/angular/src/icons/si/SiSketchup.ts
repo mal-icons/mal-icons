@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sketchup",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSketchup {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.97 9.03l7.72 4.43-0.01 1.32-4.39-2.52-2.76 1.57 7.15 4.120.01 1.27-7.66-4.4c0.020.520.49 2.11 1.38 3.340.91 1.25 1.95 1.78 1.95 1.78L11.43 24V11.85L0.98 5.85zm22.06-3.8L15.220.72S13.98 0 12.01 0C9.95 0 8.760.75 8.760.75l-7.24 4.14 11.01 6.33V24l7.25-4.14s1.3-0.71 2.28-2.41c0.87-1.50.98-2.940.98-2.94zM11.25 7.31s1.62-0.3 2.980.49l2.17 1.25s0 1.10 2.74c0 1.31-1.11 2.67-1.11 2.67l0-4.82zm6.4 10.56l-2.36 1.35v-1.27l1.84-1.05c1.75-1.26 2.04-3.12 2.04-3.76l-0.01-5.7-5.01-2.88s-0.76-0.5-2.13-0.5c-1.37 0-2.110.46-2.110.46L8.15 5.53l-1.11-0.64L9.47 3.5s0.95-0.53 2.54-0.53c1.46 0 2.60.57 2.60.57L20.27 6.81l-0.01 6.23c0.040.96-0.41 3.3-2.61 4.84z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSketchup;

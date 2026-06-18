@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-crowdsource",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCrowdsource {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 1.77c-1.13 0-2.040.92-2.04 2.04s0.92 2.05 2.04 2.05 2.04-0.92 2.04-2.05-0.92-2.04-2.04-2.04zM7.36 5.45c-1.13 0-2.040.92-2.04 2.05S6.23 9.55 7.36 9.55s2.04-0.92 2.04-2.04-0.92-2.05-2.04-2.05zm9.27 0c-1.13 0-2.040.92-2.04 2.05s0.92 2.04 2.04 2.04 2.04-0.92 2.04-2.04-0.92-2.05-2.04-2.05zM1.35 7.64a1.32 1.32 0 0 0-0.930.36c-0.490.47-0.56 1.23-0.14 1.770.660.86 1.99 2.6 2.65 3.46a5.4 5.4 0 0 1 1.11 3.28c0 1.520.71 2.97 1.95 3.840.770.54 1.610.98 2.52 1.3v-3.93c0-0.590.19-1.170.47-1.65-0.1-0.95-0.52-1.81-1.2-2.5L2.34 8.11c-0.26-0.29-0.63-0.47-1-0.47zm21.31 0a1.32 1.32 0 0 0-0.920.39l-4.54 4.57-0.970.97c-0.680.68-1.09 1.55-1.2 2.490.270.450.450.990.47 1.55v4.04a10.28 10.28 0 0 0 2.52-1.3c1.24-0.88 1.95-2.32 1.95-3.84a5.41 5.41 0 0 1 1.11-3.28c0.59-0.78 2.04-2.67 2.65-3.460.41-0.540.35-1.3-0.14-1.77a1.31 1.31 0 0 0-0.93-0.36zm-10.66 1.5c-1.13 0-2.040.92-2.04 2.05s0.92 2.04 2.04 2.04 2.04-0.92 2.04-2.04c0-1.13-0.92-2.05-2.04-2.05zm0 5.73c-1.66 0-3 1.28-3 2.86v4.09c0.950.27 1.960.41 30.41s2.05-0.15 3-0.41v-4.18c-0.05-1.54-1.37-2.77-3-2.77z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCrowdsource;

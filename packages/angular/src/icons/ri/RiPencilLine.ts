@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-pencil-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPencilLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.73 9.58L14.31 8.16L5 17.48V18.89H6.41L15.73 9.58ZM17.14 8.16L18.56 6.75L17.14 5.33L15.73 6.75L17.14 8.16ZM7.24 20.89H3V16.65L16.43 3.21C16.83 2.82 17.46 2.82 17.85 3.21L20.68 6.04C21.07 6.43 21.07 7.06 20.68 7.45L7.24 20.89Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPencilLine;

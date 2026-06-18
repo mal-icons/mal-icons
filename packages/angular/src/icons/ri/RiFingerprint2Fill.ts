@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-fingerprint-2-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiFingerprint2Fill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 1C16.97 1 21 5.03 21 10V14C21 17.04 19.49 19.72 17.19 21.35C17.72 19.66 18 17.86 18 16L18 14H16L16 16L16 16.31C15.95 18.56 15.45 20.7 14.57 22.63C13.75 22.87 12.89 23 12 23C11.66 23 11.32 22.98 10.99 22.94C12.26 20.94 13 18.55 13 16V9H11V16L11 16.29C10.94 18.59 10.17 20.71 8.91 22.45C7.95 22.1 7.06 21.59 6.28 20.95C7.36 19.59 8 17.87 8 16V10L8 9.8C8.04 9.13 8.23 8.51 8.55 7.97L7.11 6.52C6.41 7.5 6 8.7 6 10V16L6 16.22C5.95 17.44 5.54 18.57 4.88 19.5C3.7 17.98 3 16.07 3 14V10C3 5.03 7.03 1 12 1ZM12 4C10.7 4 9.5 4.41 8.52 5.11L9.97 6.55C10.56 6.2 11.26 6 12 6C14.21 6 16 7.79 16 10V12H18V10C18 6.69 15.31 4 12 4Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiFingerprint2Fill;

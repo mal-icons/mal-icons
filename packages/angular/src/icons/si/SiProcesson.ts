@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-processon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiProcesson {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.91 12.06c0-2.5 1.18-4.55 3.37-4.55 2.22 0 3.35 2.17 3.35 4.46 0 2.54-1.2 4.53-3.35 4.53-2.13 0-3.37-1.96-3.37-4.44m9.07-0.18c0-3.46-2.09-6.14-5.65-6.15-3.42 0-5.77 2.63-5.77 6.37 0 3.57 2.17 6.19 5.6 6.19 3.35 0 5.83-2.33 5.83-6.4m1.50.040.01 6.18h2.23v-5.16c0-0.250.02-0.520.09-0.720.24-0.660.85-1.3 1.73-1.3 1.2 0 1.680.95 1.68 2.22v4.96h2.22v-5.21c0-2.78-1.59-3.78-3.12-3.78-1.45 0-2.420.83-2.79 1.51h-0.06l-0.11-1.32h-1.95c0.050.760.07 1.610.07 2.62M20.01 24H3.99A3.98 3.98 0 0 1 0 20.01V3.99A3.98 3.98 0 0 1 3.99 0h16.03A3.98 3.98 0 0 1 24 3.99v16.03A3.98 3.98 0 0 1 20.01 24"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiProcesson;

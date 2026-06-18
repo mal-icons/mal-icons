@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-microdotblog",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMicrodotblog {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.4 0 0 4.9 0 10.95 0 17 5.4 21.9 12 21.9c1.4 0 2.85-0.25 4.2-0.70.15-0.050.35 0 0.450.1 1 1.35 2.55 2.3 4.25 2.7l0.25-0.1v-0.3a4.65 4.65 0 1.2-5.9C22.9 15.85 24 13.5 24 10.95 24 4.9 18.55 0 12 0zm-0.05 5.2c0.15 0 0.30.10.350.25L13.55 9l3.850.1c0.15 0 0.30.10.350.20.050.15 0 0.3-0.150.4L14.55 12l1.1 3.6c0.050.15 0 0.3-0.150.4h-0.4l-3.15-2.15L8.8 16h-0.4c-0.15-0.1-0.2-0.25-0.15-0.4l1.1-3.6L6.3 9.7c-0.15-0.1-0.2-0.25-0.15-0.40.05-0.10.2-0.20.35-0.2l3.85-0.1 1.25-3.55c0.05-0.150.2-0.250.35-0.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMicrodotblog;

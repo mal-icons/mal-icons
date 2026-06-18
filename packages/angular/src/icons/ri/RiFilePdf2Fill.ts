@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-file-pdf-2-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiFilePdf2Fill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 2C3.45 2 3 2.44 3 2.99V21.01C3 21.54 3.44 22 3.99 22H20.01C20.56 22 21 21.55 21 20.99L21 7L16 2H4ZM10.5 7.5H12.5C12.5 9.99 14.64 12.66 17.32 13.55L16.86 15.49C13.72 15.04 10.48 16.38 7.55 18.33L6.38 16.72C7.46 15.85 8.5 14.38 9.27 12.65C10.04 10.94 10.5 9.08 10.5 7.5ZM11.1 13.47C11.37 12.88 11.6 12.26 11.8 11.63C12.28 12.35 12.86 13.02 13.51 13.6C12.53 13.77 11.57 14.06 10.64 14.43C10.8 14.11 10.96 13.79 11.1 13.47Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiFilePdf2Fill;

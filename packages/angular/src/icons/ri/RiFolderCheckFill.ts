@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-folder-check-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiFolderCheckFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 13C20.09 13 21.12 13.29 22 13.8V6C22 5.45 21.55 5 21 5H12.41L10.41 3H3C2.45 3 2 3.45 2 4V20C2 20.55 2.45 21 3 21H13.34C13.12 20.37 13 19.7 13 19C13 15.69 15.69 13 19 13ZM15.46 18.46L19 22L23.95 17.05L22.54 15.64L19 19.17L16.88 17.05L15.46 18.46Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiFolderCheckFill;

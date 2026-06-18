@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-truck-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiTruckLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.96 18C8.72 19.7 7.26 21 5.5 21C3.74 21 2.28 19.7 2.04 18H1V6C1 5.45 1.45 5 2 5H16C16.55 5 17 5.45 17 6V8H20L23 12.06V18H20.96C20.72 19.7 19.26 21 17.5 21C15.74 21 14.28 19.7 14.04 18H8.96ZM15 7H3V15.05C3.64 14.4 4.52 14 5.5 14C6.9 14 8.1 14.82 8.66 16H14.34C14.5 15.65 14.73 15.33 15 15.05V7ZM17 13H21V12.72L18.99 10H17V13ZM17.5 19C18.15 19 18.71 18.58 18.91 18C18.97 17.84 19 17.68 19 17.5C19 16.67 18.33 16 17.5 16C16.67 16 16 16.67 16 17.5C16 17.68 16.03 17.84 16.09 18C16.29 18.58 16.85 19 17.5 19ZM7 17.5C7 16.67 6.33 16 5.5 16C4.67 16 4 16.67 4 17.5C4 17.68 4.03 17.84 4.09 18C4.29 18.58 4.85 19 5.5 19C6.15 19 6.71 18.58 6.91 18C6.97 17.84 7 17.68 7 17.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiTruckLine;

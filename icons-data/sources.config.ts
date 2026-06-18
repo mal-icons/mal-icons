@@ -370,4 +370,27 @@ export const sources: Record<string, IconSource> = {
     style: "fill",
     excludePattern: "-fill\\.svg$",
   },
+  ri: {
+    id: "ri",
+    prefix: "Ri",
+    name: "Remix Icon",
+    license: "Apache-2.0",
+    repo: "Remix-Design/RemixIcon",
+    ref: "v4.6.0",
+    // SVGs are sharded across per-category folders (System, Map, …); collect
+    // them all recursively. Each icon ships both a `-line` and `-fill` variant.
+    iconDir: "icons",
+    style: "fill",
+    recursive: true,
+  },
+  si: {
+    id: "si",
+    prefix: "Si",
+    name: "Simple Icons",
+    license: "CC0-1.0",
+    repo: "simple-icons/simple-icons",
+    ref: "16.23.0",
+    iconDir: "icons",
+    style: "fill",
+  },
 };

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-utorrent",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiUtorrent {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.68 23.94a12.01 12.01 0 0 0 9.6-7.79c-0.120.04-0.260.1-0.430.15-2 0.59-3.4-0.47-3.69-0.65-0.28-0.18-0.59-0.48-0.64-0.46-0.18 1.13-1.22 2.71-3.58 3.42-1.290.39-2.690.4-3.68-0.16l0.330.82c0.130.330.350.870.49 1.19 0 0 0.86 2.04 1.61 3.48M2.72 7.15l3.54-0.66c0.32-0.060.680.120.790.41l2.43 6.07c0.330.630.40.770.62 1.04 0 0 1.68 2.4 4.24 1.81 1.73-0.39 2.53-1.69 2.59-2.610.06-0.3-0.03-0.67-0.18-1.02L13.83 5.61c-0.12-0.270.02-0.530.31-0.58l2.95-0.55a0.690.69 0 0 1 0.710.38l3.23 6.91c0.130.280.390.710.590.97 0 0 0.670.96 1.750.780.27 0 0.57-0.140.57-0.140.05-0.430.07-0.870.07-1.31 0-6.63-5.37-12-12-12C5.370.06 0 5.43 0 12.06c0 5.32 3.46 9.83 8.25 11.4a24.77 24.77 0 0 1-0.92-2.12L2.3 7.81c-0.11-0.30.08-0.590.43-0.65"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiUtorrent;

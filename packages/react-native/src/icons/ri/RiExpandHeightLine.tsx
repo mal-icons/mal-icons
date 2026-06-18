@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiExpandHeightLine = createIcon("0 0 24 24", [["path",{"d":"M6 2H18V4H6V2ZM16.95 9.45L12 4.5L7.05 9.45L8.47 10.86L11 8.33V15.67L8.46 13.14L7.05 14.55L12 19.5L16.95 14.55L15.54 13.14L13 15.67V8.33L15.54 10.86L16.95 9.45ZM18 20V22H6V20H18Z"}]]);
+
+export default RiExpandHeightLine;

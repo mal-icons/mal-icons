@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiArrowDownLine = createIcon("0 0 24 24", [["path",{"d":"M13 16.17L18.36 10.81L19.78 12.22L12 20L4.22 12.22L5.64 10.81L11 16.17V4H13V16.17Z"}]]);
+
+export default RiArrowDownLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-feedly",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFeedly {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.86 1.99a2.61 2.61 0 0-3.73 0L0.77 11.53a2.73 2.73 0 0 3.8l6.68 6.81a2.62 2.62 0 1.740.66h5.61a2.62 2.62 0 1.87-0.79l6.55-6.68a2.73 2.73 0 0-3.8l-9.37-9.54zm-0.26 17.42l-0.940.95a0.370.37 0 1-0.270.11h-0.8a0.380.38 0 1-0.25-0.1l-0.95-0.97a0.390.39 0 10-0.54l1.34-1.36a0.370.37 0 1.53 0l1.34 1.36a0.390.39 0 10 0.54zm0-5.71l-3.74 3.81a0.370.37 0 1-0.270.11h-0.8a0.380.38 0 1-0.25-0.09l-0.95-0.97a0.390.39 0 10-0.54l4.14-4.21a0.370.37 0 1.53 0l1.34 1.36a0.390.39 0 10 0.54zm0-5.71L7.06 14.65a0.370.37 0 1-0.270.11h-0.8a0.370.37 0 1-0.25-0.09l-0.95-0.97a0.390.39 0 10-0.54L11.73 6.09a0.370.37 0 1.53 0l1.34 1.36a0.390.39 0 10 0.54z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFeedly;

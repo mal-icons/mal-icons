@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ziggo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiZiggo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.56 18.69a3 3 0 0 0-2.52-2.86h-6.3l7.26-6.94a2.15 2.15 0 0 0 0.5-2.34 2.1 2.1 0 0 0-2.2-1.23h-9a2.79 2.79 0 0 0 2.19 2.9h5.18L6 15.38a2.01 2.01 0 0 0-0.42 2.13 1.97 1.97 0 0 0 2.12 1.19zM2.85 18.6a2.54 2.54 0 0 0 2.55 2.54h13.2a2.54 2.54 0 0 0 2.55-2.53V7.92A2.87 2.87 0 0 1 24 5.31V18.6a5.39 5.39 0 0 1-5.4 5.4H5.4A5.39 5.39 0 0 1 0 18.6V5.4A5.39 5.39 0 0 1 5.4 0h13.2a5.6 5.6 0 0 1 2.070.41A5.24 5.24 0 0 1 22.64 1.8a1.5 1.5 0 0 1 0.42 1 1.41 1.41 0 0 1-0.42 1.02 1.5 1.5 0 0 1-2.02 0A2.69 2.69 0 0 0 19.59 3a2.43 2.43 0 0 0-0.99-0.19H5.4A2.51 2.51 0 0 0 2.87 5.4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiZiggo;

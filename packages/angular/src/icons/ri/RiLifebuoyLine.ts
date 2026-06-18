@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-lifebuoy-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiLifebuoyLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM12 17C11.36 17 10.74 16.88 10.17 16.66L7.94 18.89C9.13 19.6 10.52 20 12 20C13.48 20 14.87 19.6 16.06 18.89L13.83 16.66C13.26 16.88 12.65 17 12 17ZM4 12C4 13.48 4.4 14.87 5.11 16.06L7.34 13.83C7.12 13.26 7 12.65 7 12C7 11.36 7.12 10.74 7.34 10.17L5.11 7.94C4.4 9.13 4 10.52 4 12ZM18.89 7.94L16.66 10.17C16.88 10.74 17 11.36 17 12C17 12.65 16.88 13.26 16.66 13.83L18.89 16.06C19.6 14.87 20 13.48 20 12C20 10.52 19.6 9.13 18.89 7.94ZM12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9ZM12 4C10.52 4 9.13 4.4 7.94 5.11L10.17 7.34C10.74 7.12 11.36 7 12 7C12.65 7 13.26 7.12 13.83 7.34L16.06 5.11C14.87 4.4 13.48 4 12 4Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiLifebuoyLine;

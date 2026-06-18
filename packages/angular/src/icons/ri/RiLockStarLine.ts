@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-lock-star-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiLockStarLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 7C6 3.69 8.69 1 12 1C15.31 1 18 3.69 18 7V8H19.5C20.33 8 21 8.67 21 9.5V13H19V10H5V20H13V22H4.5C3.67 22 3 21.33 3 20.5V9.5C3 8.67 3.67 8 4.5 8H6V7ZM16 7C16 4.79 14.21 3 12 3C9.79 3 8 4.79 8 7V8H16V7ZM20.64 20.2L21.15 23.14L18.5 21.75L15.86 23.14L16.36 20.2L14.22 18.11L17.18 17.68L18.5 15L19.82 17.68L22.78 18.11L20.64 20.2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiLockStarLine;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiNationalrail = createIcon("0 0 24 24", [["path",{"d":"M0 12C0 5.37 5.37 0 12 0c6.63 0 12 5.37 12 12 0 6.63-5.37 12-12 12-6.63 0-12-5.37-12-12Zm6.2-5.84 6.08 2.79H2.84v1.88h9.5l-4.62 2.25H2.84v1.87h4.88l5.78 2.8h4.33l-6.09-2.79h9.47v-1.87h-9.45l4.62-2.25h4.84V8.95h-4.87l-5.78-2.79H6.2"}]]);
+
+export default SiNationalrail;

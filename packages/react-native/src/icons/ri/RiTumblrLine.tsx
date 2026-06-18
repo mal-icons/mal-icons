@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiTumblrLine = createIcon("0 0 24 24", [["path",{"d":"M8 8C9.08 8 11.5 7.33 11.5 3.5V2H13V8H18V10H13V12.91C13 15.39 13 16.6 13 17C13 19.21 14.62 20.4 17.79 20.4V22C17.15 22 16.4 22 15.54 22C13.14 22 11 19.96 11 17.45V10H7V8H8Z"}]]);
+
+export default RiTumblrLine;

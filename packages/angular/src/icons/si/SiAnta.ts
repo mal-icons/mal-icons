@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-anta",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAnta {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M24 15.24a20.74 20.74 0 0 0-9.86-7.51 31.27 31.27 0 0 1 6.91 1.01l-1.55-1.32A29.16 29.16 0 0 0 9.05 5.51a29.08 29.08 0 0 0-6.410.7L0 8.03c0.34 0 0.84-0.02 1.17-0.02a25.15 25.15 0 0 1 20.46 10.48ZM9.2 12.98h3.33l-0.33 1.18h-1.05L9.93 18.49H8.77l1.21-4.33H8.87zm-3.77 0H6.47l0.44 2.950.82-2.95h1.2l-1.54 5.52H6.22l-0.4-2.74-0.76 2.74H3.88ZM0 18.49l2.82-5.51h1.18L3.77 18.49H2.58l0.05-0.74H1.53l-0.360.74zm2.02-1.88h0.69l0.21-1.95zm8.21 1.88 2.83-5.51h1.18l-0.23 5.51h-1.18l0.05-0.74h-1.11l-0.360.74zm2.02-1.88h0.69l0.21-1.95z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAnta;

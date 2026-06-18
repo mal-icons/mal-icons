@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-husqvarna",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHusqvarna {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0c1.02 0 1.690.18 1.970.24-0.14 1.31-0.1 2.35 0 2.660.34 1 2.28 1.47 3.06 1.010.86-0.520.66-2.110.66-3.16 0 0 1.270.3 2.050.590.630.24 1.560.7 1.560.70.19 1.320.01 3.28-1.29 3.950.980.99 1.31 2.15 1.73 4.30.34 1.930.26 3.280.24 4.41-0.1 1.53-0.1 2.36-0.46 3.74-0.52 1.59-0.83 2.34-1.88 3.44C17.5 24.13 14.01 24 12 24c-2.010-5.490.13-7.63-2.11-1.05-1.1-1.36-1.85-1.88-3.44-0.36-1.39-0.36-2.21-0.46-3.74-0.02-1.12-0.1-2.470.24-4.40.42-2.150.75-3.32 1.73-4.3-1.3-0.66-1.48-2.62-1.29-3.95 0 0 0.93-0.46 1.56-0.7C5.04 1.06 6.310.75 6.310.75c0 1.05-0.2 2.630.66 3.160.780.46 2.72-0.01 3.06-1.010.1-0.30.14-1.35 0-2.66C10.310.18 10.98 0 12 0m0 21.13c2.34 0 3.09 0 4.25-0.320.4-0.14 1.12-0.34 1.64-1.170.96-1.650.96-4.750.96-6.23 0-1.49 0-4.12-0.96-5.75-0.52-0.84-1.23-1.08-1.64-1.19-1.19-0.32-1.95-0.3-4.25-0.3h0c-2.30.01-3.06-0.01-4.250.3-0.410.11-1.120.34-1.64 1.19-0.96 1.63-0.96 4.27-0.96 5.75s0 4.590.96 6.24c0.520.83 1.24 1.02 1.64 1.17 1.160.32 1.910.32 4.250.32zM12 14.46c2 0 1.960 1.960.64v4.05h2.72V7.93H13.96V11.3c0 0.660.040.66-1.960.66h0c-2 0-1.960-1.96-0.66V7.93H7.32v11.23h2.72v-4.06c0-0.64-0.04-0.64 1.96-0.64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHusqvarna;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiContrastFill = createIcon("0 0 24 24", [["path",{"d":"M12 22C6.48 22 2 17.52 2 12C2 6.47 6.48 2 12 2C17.52 2 22 6.47 22 12C22 17.52 17.52 22 12 22ZM12 20V4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20Z"}]]);
+
+export default RiContrastFill;

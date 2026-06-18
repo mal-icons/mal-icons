@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-h-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiH2 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 4V11H11V4H13V20H11V13H4V20H2V4H4ZM18.5 8C20.57 8 22.25 9.68 22.25 11.75C22.25 12.61 21.96 13.4 21.48 14.03L21.33 14.21L18.03 18H22V20H15L15 18.44L19.82 12.9C20.09 12.59 20.25 12.19 20.25 11.75C20.25 10.78 19.47 10 18.5 10C17.58 10 16.83 10.71 16.76 11.61L16.75 11.75H14.75C14.75 9.68 16.43 8 18.5 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiH2;

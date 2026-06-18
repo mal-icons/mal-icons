@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiParkingLine = createIcon("0 0 24 24", [["path",{"d":"M6 3H13C16.31 3 19 5.69 19 9C19 12.31 16.31 15 13 15H8V21H6V3ZM8 5V13H13C15.21 13 17 11.21 17 9C17 6.79 15.21 5 13 5H8Z"}]]);
+
+export default RiParkingLine;

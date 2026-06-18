@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-dribbble-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDribbbleLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.99 11.57C19.9 9.95 19.33 8.45 18.42 7.22C18.17 7.48 17.88 7.77 17.5 8.09C16.59 8.85 15.49 9.54 14.18 10.1C14.35 10.45 14.5 10.79 14.64 11.11L14.64 11.11C14.67 11.17 14.69 11.23 14.73 11.34C14.74 11.36 14.74 11.37 14.75 11.38C16.26 11.21 17.86 11.27 19.4 11.48C19.61 11.51 19.81 11.54 19.99 11.57ZM10.6 4.12C10.78 4.37 10.96 4.63 11.18 4.95C11.79 5.86 12.4 6.81 12.96 7.8C13.07 7.99 13.19 8.19 13.3 8.39C14.52 7.91 15.53 7.3 16.34 6.62C16.67 6.35 16.94 6.09 17.14 5.87C15.75 4.7 13.96 4 12 4C11.52 4 11.06 4.04 10.6 4.12ZM4.25 10C4.83 9.98 5.48 9.95 6.29 9.88C7.9 9.73 9.54 9.46 11.15 9.05C10.57 8.04 9.94 7.02 9.29 6.05C8.98 5.59 8.68 5.15 8.45 4.83C6.4 5.85 4.84 7.73 4.25 10ZM5.78 17.04C6.17 16.47 6.68 15.83 7.36 15.14C8.81 13.65 10.53 12.49 12.51 11.85C12.54 11.84 12.56 11.83 12.58 11.83C12.41 11.47 12.26 11.14 12.1 10.83C10.26 11.37 8.33 11.7 6.4 11.88C5.46 11.96 4.62 12 4 12C4 13.91 4.67 15.66 5.78 17.04ZM15 19.42C14.9 18.87 14.77 18.27 14.59 17.57C14.27 16.31 13.87 15.01 13.37 13.71C11.37 14.43 9.78 15.5 8.54 16.76C7.95 17.38 7.51 17.95 7.23 18.42C8.56 19.41 10.21 20 12 20C13.06 20 14.08 19.79 15 19.42ZM16.88 18.34C18.41 17.16 19.5 15.44 19.87 13.47C19.53 13.39 19.09 13.3 18.62 13.23C17.58 13.09 16.5 13.07 15.44 13.2C15.89 14.48 16.26 15.73 16.56 16.94C16.69 17.46 16.8 17.94 16.88 18.34ZM12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDribbbleLine;

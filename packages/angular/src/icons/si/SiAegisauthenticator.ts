@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-aegisauthenticator",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAegisauthenticator {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m6.95 19.87-0.010.01a1.48 1.48 0 0 00 1.47l0.320.56c0.260.460.760.75 1.290.75h0.02c1.14 0 1.85-1.23 1.29-2.22l-0.32-0.57c-0.57-1-2.01-1-2.580m3.49-6.11a1.48 1.48 0 0 00 1.47l3.8 6.68c0.260.460.760.75 1.290.75h0.02c1.14 0 1.85-1.23 1.29-2.22l-3.81-6.68c-0.57-1-2.01-1-2.58 0m0.33-11.69L0.2 20.46c-0.560.980.14 2.2 1.27 2.2a1.47 1.47 0 0 0 1.27-0.74l7.95-13.93c0.56-0.99 1.99-0.99 2.550l7.92 13.92a1.47 1.47 0 0 0 1.270.74h0.1c1.13 0 1.83-1.22 1.27-2.19L13.31 2.08c-0.56-0.98-1.98-0.99-2.540"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAegisauthenticator;

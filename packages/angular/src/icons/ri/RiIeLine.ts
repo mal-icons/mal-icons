@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-ie-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiIeLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.16 10C17.34 7.67 15.11 6 12.5 6C9.89 6 7.67 7.67 6.84 10H18.16ZM6.58 13C7.06 15.84 9.53 18 12.5 18C14.7 18 16.62 16.82 17.66 15.06H20.97C20.96 15.08 20.95 15.1 20.95 15.12C19.68 18.55 16.37 21 12.5 21C11.11 21 9.79 20.68 8.61 20.12C5.87 21.61 3.5 21.92 2.19 20.61C0.85 19.27 1.56 15.76 3.5 12.24C4.19 10.98 5.04 9.73 6 8.57C6.36 8.14 6.74 7.72 7.13 7.32C6.85 7.38 5.25 8.17 3.72 10.03C3.77 9.78 3.84 9.52 3.92 9.27C5.08 5.63 8.48 3 12.5 3C12.73 3 12.96 3.01 13.18 3.03C16.28 1.62 19.16 1.3 20.38 2.51C21.5 3.64 21.44 5.51 20.5 7.76C20.49 7.78 20.48 7.8 20.47 7.82C21.13 9.07 21.5 10.49 21.5 12C21.5 12.34 21.48 12.67 21.45 13H18.42H6.58ZM8.01 19.8C6.18 18.74 4.76 17.07 4.03 15.06C2.87 17.34 2.57 19.25 3.57 20.24C4.38 21.05 6 20.86 8 19.8L8.01 19.8ZM20.17 7.29C20.18 7.28 20.18 7.27 20.19 7.26C20.94 5.64 21 4.26 20.31 3.45C19.44 2.58 17.77 2.7 15.79 3.62C17.62 4.34 19.16 5.64 20.17 7.29Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiIeLine;

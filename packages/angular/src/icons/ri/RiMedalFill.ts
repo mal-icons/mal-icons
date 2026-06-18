@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-medal-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiMedalFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 7C16.42 7 20 10.58 20 15C20 19.42 16.42 23 12 23C7.58 23 4 19.42 4 15C4 10.58 7.58 7 12 7ZM12 10.5L10.68 13.18L7.72 13.61L9.86 15.7L9.35 18.64L12 17.25L14.65 18.64L14.14 15.7L16.28 13.61L13.32 13.18L12 10.5ZM13 2L18 2V5L16.64 6.14C15.53 5.56 14.3 5.18 13 5.05L13 2ZM11 2L11 5.05C9.7 5.18 8.47 5.56 7.36 6.14L6 5V2L11 2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiMedalFill;

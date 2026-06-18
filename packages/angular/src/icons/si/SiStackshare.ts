@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-stackshare",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiStackshare {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.21 6.7c-0.04-0.27 0-0.59 0-0.59v-0.01c0.14-0.710.77-1.25 1.53-1.250.01 0 0.0100.010h0c0.86 0 1.560.7 1.56 1.56s-0.7 1.56-1.56 1.56c0 0-0.010-0.010h-0.01c-0.740-1.38-0.53-1.52-1.25zM24 1.54v20.92c0 0.85-0.65 1.54-1.44 1.54H1.44C0.65 24 0 23.31 0 22.46V1.54C0 0.690.65 0 1.44 0h21.11C23.35 0 24 0.69 24 1.54zm-2.3 16.01c0-1.64-1.33-2.96-2.96-2.96-1.32 0-2.480.87-2.84 2.13h-1.76l-2.74-4.720000 2.74-4.71h1.75c0.46 1.57 2.1 2.47 3.67 2.02 1.57-0.46 2.48-2.1 2.02-3.67-0.46-1.57-2.1-2.47-3.67-2.02a2.96 2.96 0 0 0-2.02 2.02h-2.66l-0.03-0.02-3.23 5.55-0.020.04H8.02c-0.46-1.57-2.1-2.47-3.67-2.02-1.570.46-2.47 2.1-2.02 3.670.46 1.57 2.1 2.47 3.67 2.020.97-0.28 1.73-1.04 2.02-2.02h1.96l3.21 5.520.02-0.01h2.69a2.96 2.96 0 0 0 2.84 2.13h0c1.64 0 2.96-1.33 2.96-2.96zm-2.93-1.62c-0.740-1.380.53-1.53 1.2500.0300.06-0.010.0900.02-0.010.03-0.020.05-0.040.3 0 0.6 0 0.60.170.841 1.38 1.84 1.210.57-0.12 1-0.55 1.16-1.090.07-0.170.11-0.360.11-0.55 0-0.86-0.7-1.56-1.55-1.56zM5.2 10.42c-0.86 0-1.560.7-1.56 1.56 0 0.0100.0100.02 0 000.0100.0100.850.69 1.55 1.55 1.550.540 1.01-0.28 1.29-0.70.17-0.250.27-0.550.27-0.87 0-0.86-0.7-1.56-1.56-1.56z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiStackshare;

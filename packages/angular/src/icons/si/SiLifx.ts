@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-lifx",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLifx {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.13 8.2a3.11 3.11 0 0 0-2.210.92A3.15 3.15 0 0 0 0 11.35a3.14 3.14 0 0 0 0.92 2.23l0.270.270.01-0.01a2.73 2.73 0 0 1 1.93-0.79 2.74 2.74 0 0 1 1.930.8l0.020.010.27-0.27a3.16 3.16 0 0 0 0.92-2.23c0-0.81-0.3-1.61-0.92-2.23A3.14 3.14 0 0 0 3.13 8.2zm0 0.73a2.39 2.39 0 0 1 1.70.71 2.43 2.43 0 0 1 0.16 3.25 3.42 3.42 0 0 0-3.72 0 2.45 2.45 0 0 1-0.54-1.54c0-0.620.23-1.240.71-1.71a2.38 2.38 0 0 1 1.7-0.71zm5.320.08v6.03h3.17v-1.49H9.93l0-4.54zm4.25 0v6.02h1.49V9.01zm2.59 0v6.03h1.49V13.15h1.92v-1.41h-1.92v-1.23h3.05l0.86 1.55-1.66 2.98h1.66l0.81-1.530.7 1.53h1.78l-1.66-2.97L24 9.01h-1.78l-0.73 1.69-0.73-1.69zM3.13 13.75c-0.52 0-1.040.2-1.440.6l0.440.44a1.41 1.41 0 0 1 2 0l0.44-0.44c-0.4-0.4-0.92-0.6-1.44-0.6zm0 1.32a0.710.71 0 0 0-0.510.21l0.510.510.51-0.51a0.70.7 0 0 0-0.51-0.21Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLifx;

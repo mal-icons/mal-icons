@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-loader-2-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiLoader2Fill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C12.55 2 13 2.45 13 3V6C13 6.55 12.55 7 12 7C11.45 7 11 6.55 11 6V3C11 2.45 11.45 2 12 2ZM12 17C12.55 17 13 17.45 13 18V21C13 21.55 12.55 22 12 22C11.45 22 11 21.55 11 21V18C11 17.45 11.45 17 12 17ZM22 12C22 12.55 21.55 13 21 13H18C17.45 13 17 12.55 17 12C17 11.45 17.45 11 18 11H21C21.55 11 22 11.45 22 12ZM7 12C7 12.55 6.55 13 6 13H3C2.45 13 2 12.55 2 12C2 11.45 2.45 11 3 11H6C6.55 11 7 11.45 7 12ZM19.07 19.07C18.68 19.46 18.05 19.46 17.66 19.07L15.54 16.95C15.15 16.56 15.15 15.93 15.54 15.54C15.93 15.15 16.56 15.15 16.95 15.54L19.07 17.66C19.46 18.05 19.46 18.68 19.07 19.07ZM8.46 8.46C8.07 8.85 7.44 8.85 7.05 8.46L4.93 6.34C4.54 5.95 4.54 5.32 4.93 4.93C5.32 4.54 5.95 4.54 6.34 4.93L8.46 7.05C8.85 7.44 8.85 8.07 8.46 8.46ZM4.93 19.07C4.54 18.68 4.54 18.05 4.93 17.66L7.05 15.54C7.44 15.15 8.07 15.15 8.46 15.54C8.85 15.93 8.85 16.56 8.46 16.95L6.34 19.07C5.95 19.46 5.32 19.46 4.93 19.07ZM15.54 8.46C15.15 8.07 15.15 7.44 15.54 7.05L17.66 4.93C18.05 4.54 18.68 4.54 19.07 4.93C19.46 5.32 19.46 5.95 19.07 6.34L16.95 8.46C16.56 8.85 15.93 8.85 15.54 8.46Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiLoader2Fill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-btc-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBtcLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20C16.42 20 20 16.42 20 12ZM22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12ZM16.71 10.56C16.53 11.62 15.98 12.13 15.24 12.31C16.23 12.87 16.7 13.71 16.19 15.19C15.56 17.04 14.14 17.21 12.25 16.85L11.77 18.81L10.67 18.54L11.16 16.58C10.86 16.5 10.56 16.44 10.26 16.36L9.78 18.32L8.68 18.05L9.17 16.09L6.99 15.5L7.53 14.11C7.53 14.11 8.35 14.34 8.34 14.32C8.65 14.4 8.79 14.18 8.86 14.04L9.63 10.9L10.2 8.67C10.22 8.43 10.15 8.11 9.7 7.99C9.73 7.97 8.9 7.79 8.9 7.79L9.22 6.48L11.47 7.04L11.94 5.12L13.07 5.4L12.6 7.32C12.89 7.38 13.17 7.46 13.46 7.53L13.94 5.62L15.04 5.89L14.55 7.86C15.94 8.36 16.93 9.12 16.71 10.56ZM11.61 10.95C12.26 11.15 14.21 11.74 14.54 10.43C14.84 9.19 13.16 8.82 12.37 8.64C12.28 8.62 12.2 8.6 12.14 8.59L11.55 10.94L11.61 10.95ZM10.59 14.77L10.69 14.8C11.5 15.04 13.79 15.73 14.1 14.43C14.43 13.19 12.36 12.7 11.44 12.48C11.34 12.46 11.25 12.44 11.18 12.42L10.59 14.77Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBtcLine;

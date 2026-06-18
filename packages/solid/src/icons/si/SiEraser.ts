@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiEraser = createIcon("0 0 24 24", [["path",{"d":"M4.19 7.33c-0.25 0-0.480.17-0.610.44l-3.48 7.51c-0.280.610.06 1.390.61 1.39h10.68V7.33zm8.43 00 9.34h7.21c0.25 0 0.48-0.170.61-0.44l3.48-7.51c0.28-0.61-0.06-1.39-0.6-1.39Z"}]]);
+
+export default SiEraser;

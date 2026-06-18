@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-startpage",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiStartpage {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m16.89 14.250.04-0.06a8.72 8.72 0 0 0 1.85-4.31c-1.33 0-2.65 0-3.980.04a4.9 4.9 0 0 1-4.76 3.7 4.95 4.95 0 0 1-4.56-3.04 89.63 89.63 0 0 0-3.940.51c1.03 3.7 4.46 6.41 8.5 6.41a8.76 8.76 0 0 0 3.74-0.83l0.06-0.020.040.04 5.46 6.6c0.380.450.920.71 1.510.710.46 0 0.9-0.16 1.23-0.430.4-0.340.66-0.790.7-1.30.04-0.51-0.1-1.01-0.44-1.42zM5.12 8.56c0.1-2.59 2.27-4.68 4.92-4.68a4.91 4.91 0 0 1 4.9 4.39c1.310.02 2.610.04 3.920.1C18.62 3.72 14.75 0 10.04 0c-4.86 0-8.82 3.93-8.82 8.76v0.18a86.7 86.7 0 0 1 3.9-0.38z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiStartpage;

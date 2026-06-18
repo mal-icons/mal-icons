@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-fineco",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFineco {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.71 8.72a1.7 1.7 0 0 0-1.210.49A1.68 1.68 0 0 0 0 10.4v3.18a1.68 1.68 0 0 0 0.5 1.21 1.7 1.7 0 0 0 1.220.49h20.58v-0.02a1.7 1.7 0 0 0 1.21-0.49A1.68 1.68 0 0 0 24 13.58v-3.18a1.68 1.68 0 0 0-0.5-1.2 1.7 1.7 0 0 0-1.21-0.49Zm18.26 1.46c1.14 0 2.050.81 2.05 1.8 0 0.98-0.91 1.79-2.05 1.79-1.14 0-2.05-0.68-2.05-1.79 0-1.110.91-1.79 2.05-1.79zm-3.340.02a3.24 3.24 0 0 1 0.960.14l-0.160.52a2.42 2.42 0 0 0-0.8-0.13c-0.99 0-1.790.4-1.79 1.25 0 0.860.8 1.25 1.79 1.25a2.43 2.43 0 0 0 0.78-0.13l0.160.52a3.24 3.24 0 0 1-0.940.14c-1.52 0-2.46-0.68-2.46-1.79 0-1.11 1.1-1.79 2.46-1.79zm-14.340.06h2.58v0.51h-1.92v0.97h1.82v0.51H2.94v1.48h-0.66Zm3.31 0h0.66v3.47H5.6Zm1.5 0h0.82l1.09 1.48a9.03 9.03 0 0 1 0.72 1.16h0.02a12.98 12.98 0 0 1-0.06-1.45v-1.19h0.66v3.46H9.6L8.5 12.2a11.58 11.58 0 0 1-0.75-1.21h-0.02c0.030.440.030.910.03 1.48v1.24l-0.660.02zm4 0h2.58v0.52h-1.92v0.95h1.82v0.52H11.76v0.95l1.92-0.02v0.52h-2.58zm8.860.45c-0.77 0-1.390.4-1.39 1.27 0 0.870.62 1.27 1.39 1.270.77 0 1.39-0.57 1.39-1.27 0-0.7-0.62-1.27-1.39-1.27z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFineco;

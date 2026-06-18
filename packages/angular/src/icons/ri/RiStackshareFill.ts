@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-stackshare-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiStackshareFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 3C21.55 3 22 3.45 22 4V20C22 20.55 21.55 21 21 21H3C2.45 21 2 20.55 2 20V4C2 3.45 2.45 3 3 3H21ZM16.79 5.62C15.78 5.62 14.93 6.3 14.66 7.22H12.66L10.2 11.41H8.76C8.5 10.48 7.64 9.81 6.63 9.81C5.4 9.81 4.41 10.8 4.41 12.03C4.41 13.25 5.4 14.25 6.63 14.25C7.64 14.25 8.5 13.57 8.76 12.65H10.24L12.65 16.78H14.67C14.94 17.71 15.79 18.38 16.8 18.38C18.03 18.38 19.02 17.39 19.02 16.16C19.02 14.93 18.03 13.94 16.8 13.94C15.79 13.94 14.94 14.61 14.67 15.54H13.35L11.3 12L13.35 8.46H14.66C14.93 9.39 15.78 10.06 16.79 10.06C18.02 10.06 19.01 9.07 19.01 7.84C19.01 6.62 18.02 5.62 16.79 5.62ZM16.8 15.05C17.45 15.05 17.97 15.57 17.97 16.22C17.97 16.86 17.45 17.38 16.8 17.38C16.24 17.38 15.77 16.98 15.66 16.44C15.66 16.44 15.63 16.22 15.66 15.99C15.77 15.45 16.24 15.05 16.8 15.05ZM6.65 10.84C7.3 10.84 7.82 11.36 7.82 12.01C7.82 12.65 7.3 13.17 6.65 13.17C6.01 13.17 5.48 12.65 5.48 12.01C5.48 11.36 6.01 10.84 6.65 10.84ZM16.8 6.63C17.45 6.63 17.97 7.15 17.97 7.8C17.97 8.44 17.45 8.96 16.8 8.96C16.24 8.96 15.76 8.56 15.66 8.02C15.63 7.82 15.66 7.58 15.66 7.58C15.76 7.03 16.24 6.63 16.8 6.63Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiStackshareFill;

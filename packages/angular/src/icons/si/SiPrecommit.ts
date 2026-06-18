@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-precommit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPrecommit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0c-0.56 0-1.130.22-1.560.65L0.65 10.44c-0.860.86-0.86 2.25 0 3.11l9.8 9.8c0.860.86 2.250.86 3.11 0l9.8-9.8c0.86-0.860.86-2.25 0-3.11L13.560.65A2.19 2.19 0 12 0zm0 1.74c0.49 0 0.990.19 1.360.56L21.7 10.64c0.750.750.75 1.97 0 2.72L13.36 21.7c-0.370.38-0.870.56-1.360.56s-0.99-0.18-1.36-0.56L2.3 13.36a1.93 1.93 0 10-2.72L10.64 2.3c0.37-0.370.87-0.56 1.36-0.56zm0 0.62c-0.33 0-0.660.13-0.920.38L2.74 11.08a1.3 1.3 0 0 1.84l8.34 8.34a1.3 1.3 0 1.84 0l8.34-8.34a1.3 1.3 0 0-1.84L12.92 2.74A1.3 1.3 0 12 2.36zM9.21 7.62h3.96c0.55 0 1.010.08 1.40.240.390.160.70.370.940.630.240.260.420.560.530.9a3.34 3.34 0 10 2.08c-0.110.34-0.290.64-0.530.9a2.63 2.63 0 1-0.940.63c-0.380.16-0.850.24-1.40.24h-2.04v3.16H9.21zm1.92 1.48v2.66h1.51c0.22 0 0.43-0.020.64-0.050.21-0.030.39-0.10.55-0.190.16-0.090.28-0.230.38-0.40.09-0.170.14-0.40.14-0.68 0-0.28-0.05-0.51-0.14-0.68a1.05 1.05 0 0-0.38-0.4 1.51 1.51 0 0-0.55-0.19 4.06 4.06 0 0-0.64-0.05z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPrecommit;

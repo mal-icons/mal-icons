@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-tampermonkey",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTampermonkey {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.960C3-0.070.28 2.390.04 5.34c-0.07 3.32-0.01 6.65-0.03 9.970.06 1.87-0.28 3.870.72 5.57 1.08 2.08 3.46 3.29 5.77 3.11 4-0.01 8.010.02 12.01-0.02 2.95-0.16 5.48-2.81 5.48-5.77-0.01-4.240.02-8.47-0.01-12.71C23.82 2.53 21.160.01 18.20c-4.080-8.17 0-12.250zm0.45 12.68c2.33-0.05 4.51 1.81 4.83 4.120.41 2.29-1.06 4.72-3.27 5.41-2.190.78-4.82-0.27-5.87-2.34-1.14-2.04-0.52-4.83 1.37-6.2a4.9 4.9 0 12.95-0.99zm11.25 0c2.33-0.05 4.51 1.81 4.83 4.120.41 2.29-1.06 4.72-3.27 5.41-2.190.78-4.82-0.27-5.87-2.34-1.14-2.04-0.52-4.83 1.37-6.2a4.9 4.9 0 12.95-0.99z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTampermonkey;

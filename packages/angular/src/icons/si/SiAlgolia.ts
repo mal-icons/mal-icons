@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-algolia",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAlgolia {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.45 0 0.1 5.290.01 11.82c-0.1 6.63 5.29 12.13 11.92 12.17a11.91 11.91 0 0 0 5.78-1.440.280.28 0 0 0 0.05-0.46l-1.12-0.99a0.790.79 0 0 0-0.83-0.14 9.69 9.69 0 0 1-3.920.77c-5.36-0.07-9.69-4.53-9.61-9.890.08-5.29 4.42-9.57 9.73-9.57h9.73v17.3l-5.52-4.91a0.410.41 0 0 0-0.60.06 4.52 4.52 0 0 1-3.93 1.79 4.54 4.54 0 0 1-4.19-4.17 4.53 4.53 0 0 1 4.51-4.87 4.53 4.53 0 0 1 4.51 4.13c0.020.210.110.40.270.53l1.44 1.27a0.280.28 0 0 0 0.46-0.16 6.82 6.82 0 0 0 0.1-1.72c-0.23-3.38-2.97-6.09-6.34-6.3-3.87-0.24-7.11 2.79-7.21 6.59-0.1 3.7 2.93 6.89 6.63 6.97a6.75 6.75 0 0 0 4.14-1.29l7.21 6.39a0.480.48 0 0 0 0.8-0.36V0.46A0.460.46 0 0 0 23.54 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAlgolia;

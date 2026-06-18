@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-solveddotac",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSolveddotac {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.45 5.44A2.45 2.45 0 0 0 0 7.89v8.22a2.45 2.45 0 0 0 2.45 2.45h19.1A2.45 2.45 0 0 0 24 16.11V7.89a2.45 2.45 0 0 0-2.45-2.45zM15.73 8.9c0.96 0 1.620.26 2.150.65a0.70.7 0 0 1 0.280.560.690.69 0 0 1-0.70.690.740.74 0 0 1-0.42-0.14c-0.39-0.29-0.81-0.46-1.31-0.46-1.08 0-1.860.9-1.86 2v0.02c0 1.10.76 2.02 1.86 2.020.6 0 0.99-0.18 1.4-0.51a0.660.66 0 1 1 0.85 1c-0.580.51-1.260.81-2.290.81-1.89 0-3.29-1.46-3.29-3.3v-0.02c0-1.83 1.38-3.32 3.35-3.32m-6.980.01h0.08c0.39 0 0.660.210.820.56l2.24 5.06a0.70.7 0 0 1 0.070.280.670.67 0 0 1-0.670.68c-0.33 0-0.55-0.19-0.68-0.49l-0.43-1.01H7.36l-0.45 1.06a0.70.7 0 0 1-0.650.440.650.65 0 0 1-0.65-0.660.750.75 0 0 1 0.08-0.3l2.24-5.06c0.15-0.350.44-0.560.83-0.56m0.02 1.72-0.89 2.12H9.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSolveddotac;

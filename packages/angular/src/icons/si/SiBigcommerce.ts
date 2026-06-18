@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-bigcommerce",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBigcommerce {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.65 13.66h3.03c0.86 0 1.41-0.47 1.41-1.24 0-0.72-0.55-1.23-1.41-1.23h-3.03c-0.1 0-0.190.09-0.190.17v2.13c0.020.10.090.170.190.17zm0 4.9h3.13c0.96 0 1.54-0.49 1.54-1.35 0-0.75-0.55-1.35-1.53-1.35h-3.13c-0.1 0-0.190.09-0.190.17v2.34c0.020.120.090.190.190.19zM23.720.05l-8.95 8.93h1.46c2.28 0 3.63 1.44 3.63 3 0 1.24-0.83 2.14-1.72 2.54-0.140.06-0.140.260.010.32 1.030.4 1.77 1.48 1.77 2.74 0 1.78-1.19 3.2-3.5 3.2h-6.34c-0.1 0-0.19-0.09-0.19-0.17V13.85L0.06 23.64c-0.130.13-0.040.360.140.36h23.63a0.160.16 0 0 0 0.16-0.16V0.18c0.04-0.16-0.16-0.24-0.27-0.13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBigcommerce;

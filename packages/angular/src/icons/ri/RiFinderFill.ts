@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-finder-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiFinderFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 3C21.55 3 22 3.45 22 4V20C22 20.55 21.55 21 21 21H3C2.45 21 2 20.55 2 20V4C2 3.45 2.45 3 3 3H21ZM20 5H11.54C10.85 6.98 10.5 9.64 10.5 13H13.5C13.39 13.92 13.35 14.88 13.39 15.88C14.62 15.67 16.1 15.1 17.42 14.17L18.56 15.83C16.91 16.93 15.25 17.61 13.58 17.88C13.63 18.25 13.69 18.62 13.76 19L20 19V5ZM6.56 14.17L5.45 15.83C7.6 17.27 9.79 18 12 18V16C10.21 16 8.4 15.4 6.56 14.17ZM17 7C17.55 7 18 7.45 18 8V9C18 9.55 17.55 10 17 10C16.45 10 16 9.55 16 9V8C16 7.45 16.45 7 17 7ZM7 7C6.45 7 6 7.45 6 8C6 8.37 6 8.7 6 9C6 9.55 6.45 10 7 10C7.55 10 8 9.55 8 9V8C8 7.45 7.55 7 7 7Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiFinderFill;

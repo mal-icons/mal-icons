@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-wechat-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiWechatLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 14.68C10 14.66 10 14.63 10 14.61C10 12.11 12.02 10 14.75 9.38C14.39 7.08 11.96 5.2 8.9 5.2C5.58 5.2 3 7.41 3 9.98C3 10.95 3.36 11.88 4.04 12.68C4.07 12.72 4.12 12.77 4.19 12.84C4.79 13.45 5.14 14.25 5.2 15.08C5.91 14.67 6.74 14.51 7.56 14.64C7.72 14.67 7.86 14.68 7.96 14.7C8.27 14.74 8.58 14.76 8.9 14.76C9.28 14.76 9.65 14.73 10 14.68ZM10.46 16.63C9.95 16.71 9.43 16.76 8.9 16.76C8.49 16.76 8.1 16.73 7.7 16.68C7.58 16.67 7.43 16.64 7.25 16.62C6.88 16.56 6.49 16.63 6.17 16.83L4.27 17.97C4.12 18.06 3.95 18.11 3.78 18.09C3.34 18.06 3.01 17.67 3.05 17.24L3.2 15.46C3.24 15.01 3.08 14.56 2.76 14.24C2.66 14.14 2.58 14.05 2.52 13.97C1.56 12.85 1 11.47 1 9.98C1 6.24 4.54 3.2 8.9 3.2C12.96 3.2 16.3 5.83 16.75 9.21C20.12 9.36 22.8 11.72 22.8 14.61C22.8 15.81 22.34 16.91 21.57 17.8C21.52 17.86 21.46 17.93 21.38 18.01C21.12 18.27 20.99 18.63 21.02 18.99L21.14 20.41C21.17 20.76 20.91 21.06 20.55 21.09C20.41 21.1 20.27 21.07 20.16 21L18.61 20.08C18.35 19.93 18.04 19.87 17.74 19.91C17.59 19.94 17.47 19.95 17.37 19.97C17.05 20.01 16.73 20.03 16.4 20.03C13.71 20.03 11.4 18.62 10.46 16.63ZM17.43 17.94C18 17.85 18.58 17.91 19.11 18.11C19.25 17.55 19.54 17.03 19.95 16.61C20 16.56 20.04 16.52 20.06 16.5C20.55 15.93 20.8 15.28 20.8 14.61C20.8 12.81 18.9 11.2 16.4 11.2C13.9 11.2 12 12.81 12 14.61C12 16.42 13.9 18.03 16.4 18.03C16.64 18.03 16.88 18.01 17.11 17.98C17.2 17.97 17.3 17.96 17.43 17.94Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiWechatLine;

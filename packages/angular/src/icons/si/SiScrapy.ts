@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-scrapy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiScrapy {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.37 0 0 5.37 0 12c0 6.63 5.37 12 12 12 6.63 0 12-5.37 12-12 0-6.63-5.37-12-12-12Zm0 1.11c6 0 10.89 4.88 10.89 10.89S18 22.89 12 22.89 1.11 18 1.11 12 6 1.11 12 1.11Zm7.03 5.2c-0.540-1.280.3-2.25 1.1-1.050.86-3.81 3.05-3.81 3.05l1.02 1.3c4.69-2.56 6.19-3.17 6.12-4.29-0.04-0.63-0.38-1.15-1.07-1.15Zm-0.510.75c0.15 0 0.270.110.270.24 0 0.13-0.120.24-0.270.24-0.15 0-0.26-0.11-0.26-0.24 0-0.170.16-0.240.27-0.24zm-1.58 1.49c0 0.13-0.120.24-0.260.24-0.15 0-0.26-0.11-0.26-0.24 0-0.130.11-0.230.24-0.240.13-0.010.290.080.290.24zm-2.11 1.01c0.15 0 0.270.110.270.24s-0.120.24-0.270.24c-0.15 0-0.27-0.11-0.27-0.24 0-0.150.14-0.240.27-0.24zm-2.440.97c-1.50.23-5.810.99-8.01 2.67l3.57 5.39s4.71-2.93 5.86-6.24z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiScrapy;

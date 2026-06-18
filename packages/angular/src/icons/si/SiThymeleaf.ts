@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-thymeleaf",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiThymeleaf {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.73 0C0.78 0 0.020.760.02 1.71v20.59C0.02 23.240.78 24 1.73 24h20.55c0.95 0 1.71-0.76 1.71-1.71V1.71C23.980.76 23.22 0 22.27 0H1.73zm18.71 3.27c-1.86 3.69-3.3 7.63-5.67 11.05-1.06 1.57-2.33 3.16-4.16 3.86-1.310.55-2.940.34-3.98-0.65-0.63-0.52-0.54-1.43-0.17-2.080.96-1.22 2.34-2.02 3.59-2.91 3.84-2.62 7.45-5.65 10.4-9.27zm-1.69 1.25c-2.5 2.75-5.38 5.16-8.45 7.27l0000c-1.330.98-2.83 1.82-3.99 3.11-0.350.33-0.58 1.04-0.54 1.48-0.62-1.04-0.8-2.61-0.26-3.740.53-1.19 1.74-1.81 2.88-2.29 3.76-1.35 6.7-2.93 10.37-5.84z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiThymeleaf;

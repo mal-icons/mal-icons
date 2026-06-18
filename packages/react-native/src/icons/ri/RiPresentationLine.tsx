@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiPresentationLine = createIcon("0 0 24 24", [["path",{"d":"M8 4C8 5.1 7.1 6 6 6 4.9 6 4 5.1 4 4 4 2.9 4.9 2 6 2 7.1 2 8 2.9 8 4ZM5 16V22H3V10C3 8.34 4.34 7 6 7 6.82 7 7.56 7.33 8.11 7.86L10.48 10.11 12.79 7.79 14.21 9.21 10.52 12.89 9 11.46V22H7V16H5ZM6 9C5.45 9 5 9.45 5 10V14H7V10C7 9.45 6.55 9 6 9ZM19 5H10V3H20C20.55 3 21 3.45 21 4V15C21 15.55 20.55 16 20 16H16.58L19.4 22H17.19L14.37 16H10V14H19V5Z"}]]);
+
+export default RiPresentationLine;

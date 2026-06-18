@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-settings-2-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSettings2Fill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.69 4L11.29 1.39C11.68 1 12.32 1 12.71 1.39L15.31 4H19C19.55 4 20 4.45 20 5V8.69L22.61 11.29C23 11.68 23 12.32 22.61 12.71L20 15.31V19C20 19.55 19.55 20 19 20H15.31L12.71 22.61C12.32 23 11.68 23 11.29 22.61L8.69 20H5C4.45 20 4 19.55 4 19V15.31L1.39 12.71C1 12.32 1 11.68 1.39 11.29L4 8.69V5C4 4.45 4.45 4 5 4H8.69ZM12 15C13.66 15 15 13.66 15 12C15 10.34 13.66 9 12 9C10.34 9 9 10.34 9 12C9 13.66 10.34 15 12 15Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSettings2Fill;

@@ -174,17 +174,29 @@
     "./msr/*.json": "./src/icons/msr/*.json",
     "./mss/*.json": "./src/icons/mss/*.json",
     "./oc/*.json": "./src/icons/oc/*.json",
+    "./ri": {
+      "types": "./dist/icons/ri/index.d.ts",
+      "bun": "./src/icons/ri/index.ts",
+      "import": "./dist/icons/ri/index.js"
+    },
     "./rx": {
       "types": "./dist/icons/rx/index.d.ts",
       "bun": "./src/icons/rx/index.ts",
       "import": "./dist/icons/rx/index.js"
     },
+    "./ri/*.json": "./src/icons/ri/*.json",
     "./rx/*.json": "./src/icons/rx/*.json",
+    "./si": {
+      "types": "./dist/icons/si/index.d.ts",
+      "bun": "./src/icons/si/index.ts",
+      "import": "./dist/icons/si/index.js"
+    },
     "./sl": {
       "types": "./dist/icons/sl/index.d.ts",
       "bun": "./src/icons/sl/index.ts",
       "import": "./dist/icons/sl/index.js"
     },
+    "./si/*.json": "./src/icons/si/*.json",
     "./sl/*.json": "./src/icons/sl/*.json",
     "./tf": {
       "types": "./dist/icons/tf/index.d.ts",

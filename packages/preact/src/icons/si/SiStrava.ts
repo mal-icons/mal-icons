@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiStrava = createIcon("0 0 24 24", [["path",{"d":"M15.39 17.94l-2.09-4.12h-3.06L15.39 24l5.15-10.17h-3.07m-7.01-5.6l2.84 5.6h4.17L10.46 0l-7 13.83h4.17"}]]);
+
+export default SiStrava;

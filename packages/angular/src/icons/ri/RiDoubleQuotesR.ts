@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-double-quotes-r",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDoubleQuotesR {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.42 6.68C20.45 7.77 21 9 21 10.99C21 14.49 18.54 17.63 14.97 19.18L14.08 17.8C17.41 15.99 18.06 13.65 18.32 12.18C17.79 12.46 17.08 12.55 16.4 12.49C14.59 12.32 13.17 10.84 13.17 9C13.17 7.07 14.74 5.5 16.67 5.5C17.74 5.5 18.77 5.99 19.42 6.68ZM9.42 6.68C10.45 7.77 11 9 11 10.99C11 14.49 8.54 17.63 4.97 19.18L4.08 17.8C7.41 15.99 8.06 13.65 8.32 12.18C7.79 12.46 7.08 12.55 6.4 12.49C4.59 12.32 3.17 10.84 3.17 9C3.17 7.07 4.74 5.5 6.67 5.5C7.74 5.5 8.77 5.99 9.42 6.68Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDoubleQuotesR;

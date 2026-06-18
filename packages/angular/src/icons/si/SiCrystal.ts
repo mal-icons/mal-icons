@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-crystal",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCrystal {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.96 15.27l-8.69 8.67c-0.030.04-0.090.05-0.120.04L3.29 20.79c-0.05-0.02-0.09-0.05-0.09-0.09L0.01 8.86c-0.02-0.05 0-0.090.04-0.12L8.730.07c0.04-0.040.09-0.050.12-0.04l11.87 3.18c0.050.020.090.050.090.09l3.18 11.85c0.030.050.020.09-0.020.12zm-11.64-9.43L0.67 8.94c-0.02 0-0.040.03-0.020.05l8.53 8.51c0.020.020.050.020.05-0.02l3.13-11.64c0.02 0-0.02-0.04-0.04-0.02Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCrystal;

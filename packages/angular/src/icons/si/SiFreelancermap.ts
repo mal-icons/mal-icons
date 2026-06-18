@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-freelancermap",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFreelancermap {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12l-0.01-1.4H12c5.86 0 10.6-4.75 10.6-10.6H24c0-6.63-5.37-12-12-12m0 21.21c-5.08 0-9.21-4.12-9.21-9.21S6.92 2.79 12 2.79s9.21 4.12 9.21 9.21S17.08 21.2 12 21.2zm6.33-4.6c3.58-5.050.17-10.21-2.86-11.61-3.610.57-6.86 3.93-7.23 7.91 2.82 4.82 8.5 4.22 10.1 3.7m-9.91-1.45c0.27 1.640.72 3.25 1.7 4.44 3.420.88 6.45-0.78 7.94-2.64-3.15 1.46-6.660.62-9.64-1.8M4.71 9.07c-1.9 4.99 1.32 9.14 4.68 10.3-1.08-1.31-1.85-3.16-2.05-5-1.43-1.43-2.41-3.25-2.63-5.31M14.31 4.53c-3.09-1.01-6.050.19-7.74 1.80.04 2.070.38 3.690.91 5.070.73-3.48 3.55-6.34 6.83-6.86"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFreelancermap;

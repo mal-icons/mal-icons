@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiWondersharefilmora = createIcon("0 0 24 24", [["path",{"d":"M5.48 0A5.46 5.46 0 0 0 0 5.48v13.05A5.46 5.46 0 0 0 5.48 24h13.05A5.46 5.46 0 0 0 24 18.52V5.48A5.46 5.46 0 0 0 18.52 0H5.48Zm4.55 3.6 4.03 4.03-4.62 4.62-0.02-0.02a1.09 1.09 0 0 0-0.16-1.34L6 7.63l4.03-4.03ZM14.53 8l4.03 4.03-8.53 8.54L6 16.54 14.53 8Z"}]]);
+
+export default SiWondersharefilmora;

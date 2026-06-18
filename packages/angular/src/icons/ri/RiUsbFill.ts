@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-usb-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiUsbFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 1L15 6H13V13.38L16 11.88L16 11H15V7H19V11H18L18 13.12L13 15.62L13 17.17C14.17 17.58 15 18.69 15 20C15 21.66 13.66 23 12 23C10.34 23 9 21.66 9 20C9 18.81 9.69 17.79 10.69 17.3L6 14L6 11.73C5.4 11.39 5 10.74 5 10C5 8.9 5.9 8 7 8C8.1 8 9 8.9 9 10C9 10.74 8.6 11.39 8 11.73L8 13L11 15.09V6H9L12 1Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiUsbFill;

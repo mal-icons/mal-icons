@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-netflix-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiNetflixFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.29 3.81L13.31 9.52L13.71 10.64L13.71 5.83L13.72 1.01H17.99L18 11.87C18 17.85 18 22.76 17.98 22.77C17.97 22.78 17.78 22.77 17.55 22.74C16.56 22.63 15.26 22.51 14.21 22.46C13.86 22.45 13.58 22.43 13.57 22.42C13.57 22.42 13.3 21.66 12.8 20.24L12.8 20.24C12.31 18.85 11.59 16.81 10.65 14.17L10.31 13.22L10.31 17.81C10.3 22.17 10.3 22.42 10.25 22.42C10.08 22.42 8.68 22.51 8.21 22.55C7.9 22.58 7.28 22.64 6.84 22.7C6.39 22.75 6.02 22.78 6.01 22.78C6.01 22.77 6 17.87 6 11.88V1H6.01L6.01 1H10.29L10.32 1.08C10.33 1.1 10.39 1.26 10.48 1.52L11.12 3.3L11.29 3.79L11.29 3.81Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiNetflixFill;

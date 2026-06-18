@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-mcdonalds",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMcdonalds {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.24 3.01c2.07 0 3.74 8.71 3.74 19.48H24c0-11.59-3.04-20.97-6.77-20.97-2.13 0-4.01 2.81-5.25 7.23-1.24-4.42-3.12-7.23-5.23-7.23C3.03 1.52 0 10.89 0 22.48h3.01c0-10.76 1.66-19.47 3.72-19.47 2.07 0 3.74 8.05 3.74 17.98h3c0-9.93 1.68-17.98 3.75-17.98Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMcdonalds;

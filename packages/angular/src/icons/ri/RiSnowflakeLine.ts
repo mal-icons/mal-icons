@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-snowflake-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSnowflakeLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 3.3L14.45 1.67L15.55 3.33L13 5.04V10.27L17.53 7.65L17.73 4.59L19.72 4.72L19.54 7.65L22.17 8.95L21.28 10.74L18.53 9.38L14 12L18.53 14.62L21.28 13.26L22.17 15.05L19.54 16.35L19.73 19.28L17.73 19.41L17.53 16.35L13 13.73V18.96L15.55 20.67L14.45 22.33L12 20.7L9.55 22.33L8.45 20.67L11 18.96V13.73L6.47 16.35L6.27 19.41L4.27 19.28L4.46 16.35L1.83 15.05L2.72 13.26L5.47 14.62L10 12L5.47 9.38L2.72 10.74L1.83 8.95L4.46 7.65L4.27 4.72L6.27 4.59L6.47 7.65L11 10.27V5.04L8.45 3.33L9.55 1.67L12 3.3Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSnowflakeLine;

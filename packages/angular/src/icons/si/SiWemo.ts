@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-wemo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWemo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.3 0C1.93 0 0 1.93 0 4.3v15.4C0 22.07 1.93 24 4.3 24H19.7c2.38 0 4.3-1.93 4.3-4.3H24V4.3C24 1.93 22.07 0 19.7 0zm12.91 4.17c2.09 0 3.79 1.62 3.79 3.61 0 0.0900.19-0.010.28l-0.020.18H14.65l0.110.32c0.350.99 1.34 1.66 2.45 1.660.83 0 1.61-0.38 2.1-1.02l0.11-0.150.990.67-0.120.16c-0.710.94-1.86 1.51-3.08 1.51-2.09 0-3.79-1.62-3.79-3.61 0-1.99 1.7-3.61 3.79-3.61zm-13.940.13h1.21V8.73c0 0.730.59 1.32 1.32 1.320.73 0 1.32-0.59 1.32-1.32V4.3h1.21v4.43c0 0.730.59 1.32 1.32 1.320.73 0 1.32-0.59 1.32-1.32V4.3h1.21v4.43c0 1.4-1.14 2.53-2.53 2.53-0.65 0-1.29-0.26-1.76-0.71l-0.17-0.16-0.170.16c-0.470.45-1.110.71-1.760.71-1.4 0-2.53-1.14-2.53-2.53zm13.94 1.02c-0.99 0-1.880.52-2.34 1.35l-0.190.36h5.06l-0.19-0.36c-0.45-0.83-1.35-1.35-2.33-1.35zm0 7.23c2.09 0 3.79 1.62 3.79 3.61 0 1.99-1.7 3.61-3.79 3.61-2.09 0-3.79-1.62-3.79-3.61 0-1.99 1.7-3.61 3.79-3.61zm-11.40.13c0.65 0 1.290.26 1.760.71l0.170.160.17-0.16c0.47-0.45 1.11-0.71 1.76-0.71 1.4 0 2.53 1.14 2.53 2.53v4.43h-1.21v-4.43c0-0.73-0.59-1.32-1.32-1.32-0.73 0-1.320.59-1.32 1.32v4.43H7.13v-4.43c0-0.73-0.59-1.32-1.32-1.32-0.73 0-1.320.59-1.32 1.32v4.43h-1.21v-4.43c0-1.4 1.14-2.53 2.53-2.53zm11.4 1.04c-1.42 0-2.58 1.1-2.58 2.44 0 1.35 1.16 2.44 2.58 2.44 1.42 0 2.58-1.1 2.58-2.44 0-1.35-1.16-2.44-2.58-2.44Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWemo;

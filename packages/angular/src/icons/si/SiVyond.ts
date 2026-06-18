@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-vyond",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiVyond {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.55 16.38 0 7.62h1.33l0.93 6.180.93-6.18h1.33l-1.55 8.77H1.55zm5.49-7.61H6.02l1.17 3.78v2.68h0.92v-2.68L9.28 8.77H8.26L7.65 11.35l-0.61-2.58v0zm5.12 1.92c0-0.32-0.13-0.48-0.37-0.48s-0.370.16-0.370.48v2.62c0 0.320.130.490.370.49s0.37-0.170.37-0.49v-2.62zm-0.34-1.26c0.69 0 1.140.47 1.14 1.26v2.52c0 0.87-0.43 1.35-1.17 1.35s-1.16-0.47-1.16-1.38v-2.52c0-0.770.44-1.24 1.19-1.24m5.03-0.66v4.2l-1.34-4.2h-0.9v6.46h0.92v-3.94l1.32 3.94h0.94V8.77h-0.94zm5.07 6.32c0.51 0 0.71-0.320.71-0.92v-4.22c0-0.72-0.34-1.04-1.08-1.04h-0.31v6.18h0.68zM19.89 7.62h1.92c1.5 0 2.190.78 2.19 2.41v3.91c0 1.68-0.62 2.45-2.12 2.45H19.89V7.62z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiVyond;

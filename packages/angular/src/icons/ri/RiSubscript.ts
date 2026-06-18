@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-subscript",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSubscript {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.6 4L10.5 9.93L15.4 4H18L11.8 11.5L18 18.99V19H15.41L10.5 13.07L5.59 19H3V18.99L9.2 11.5L3 4H5.6ZM21.8 16C21.8 15.56 21.44 15.2 21 15.2C20.56 15.2 20.2 15.56 20.2 16C20.2 16.08 20.21 16.15 20.23 16.22L19.08 16.55C19.03 16.38 19 16.19 19 16C19 14.9 19.9 14 21 14C22.1 14 23 14.9 23 16C23 16.57 22.76 17.09 22.37 17.45L20.74 19H23V20H19V19L21.55 16.58C21.7 16.43 21.8 16.23 21.8 16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSubscript;

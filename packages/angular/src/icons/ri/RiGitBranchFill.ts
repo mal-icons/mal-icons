@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-git-branch-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGitBranchFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.11 15.21C8.22 15.65 9 16.73 9 18C9 19.66 7.66 21 6 21C4.34 21 3 19.66 3 18C3 16.69 3.83 15.58 5 15.17V8.83C3.83 8.42 3 7.31 3 6C3 4.34 4.34 3 6 3C7.66 3 9 4.34 9 6C9 7.31 8.17 8.42 7 8.83V12C7.84 11.37 8.87 11 10 11H14C15.38 11 16.55 10.06 16.89 8.79C15.78 8.35 15 7.27 15 6C15 4.34 16.34 3 18 3C19.66 3 21 4.34 21 6C21 7.33 20.13 8.46 18.93 8.85C18.52 11.21 16.47 13 14 13H10C8.62 13 7.45 13.94 7.11 15.21Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGitBranchFill;

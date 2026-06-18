@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sahibinden",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSahibinden {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 0v24h24V0zm11.52 4.72c0.56-0.01 1.130 1.690.06 2.410.05 4.85 2.18 4.88 4.51h-3.32c0.01-0.69-0.6-1.55-1.28-1.73-1.1-0.27-2.46-0.35-3.430.29-0.740.45-1.06 1.67-0.09 2.06 2.29 1.08 5.160.85 7.22 2.37 1.7 1.21 1.6 3.670.27 5.09-1.72 1.84-4.64 2.13-7.1 1.78-2.45-0.12-4.75-2.24-4.82-4.56h3.31c-0.060.830.64 1.56 1.46 1.82 1.270.28 2.730.36 3.93-0.190.96-0.32 1.02-1.540.28-2.1-1.59-0.9-3.56-0.92-5.3-1.52-2.01-0.39-3.64-2.28-3.26-4.20.42-2.34 3.13-3.73 5.55-3.68z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSahibinden;

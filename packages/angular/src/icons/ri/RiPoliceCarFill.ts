@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-police-car-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPoliceCarFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22 13.5V21C22 21.55 21.55 22 21 22H20C19.45 22 19 21.55 19 21V20H5V21C5 21.55 4.55 22 4 22H3C2.45 22 2 21.55 2 21V13.5L0.76 13.19C0.31 13.08 0 12.68 0 12.22V11.5C0 11.22 0.22 11 0.5 11H2.43L4.48 6.21C4.8 5.48 5.52 5 6.32 5H8V3H11V5H13V3H16V5H17.68C18.48 5 19.2 5.48 19.52 6.21L21.57 11H23.5C23.78 11 24 11.22 24 11.5V12.22C24 12.68 23.69 13.08 23.24 13.19L22 13.5ZM4 15V17C4 17.55 4.45 18 5 18H8.24C8.33 18 8.41 17.98 8.48 17.94C8.72 17.81 8.82 17.51 8.69 17.26L8.69 17.26C7.88 15.75 6.32 15 4 15ZM20 15C17.68 15 16.12 15.75 15.31 17.26L15.31 17.26C15.18 17.51 15.28 17.81 15.52 17.94C15.59 17.98 15.67 18 15.76 18H19C19.55 18 20 17.55 20 17V15ZM6 7L4.55 10.63C4.5 10.75 4.48 10.87 4.48 11C4.48 11.55 4.92 12 5.48 12H18.52C18.65 12 18.78 11.98 18.89 11.93C19.41 11.72 19.66 11.14 19.45 10.63L18 7H6Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPoliceCarFill;

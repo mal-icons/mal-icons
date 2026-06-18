@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiHeadphoneFill = createIcon("0 0 24 24", [["path",{"d":"M4 12H7C8.1 12 9 12.9 9 14V19C9 20.1 8.1 21 7 21H4C2.9 21 2 20.1 2 19V12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12V19C22 20.1 21.1 21 20 21H17C15.9 21 15 20.1 15 19V14C15 12.9 15.9 12 17 12H20C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12Z"}]]);
+
+export default RiHeadphoneFill;

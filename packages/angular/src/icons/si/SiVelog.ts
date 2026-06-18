@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-velog",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiVelog {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 0C1.34 0 0 1.34 0 3v18c0 1.66 1.34 3 3 3h18c1.66 0 3-1.34 3-3V3c0-1.66-1.34-3-3-3H3Zm6.88 6.25c0.63 0 10.3 1.130.9l1.46 8.3c0.47-0.610.85-1.13 1.15-1.550.47-0.660.89-1.42 1.28-2.270.41-0.850.61-1.620.61-2.29 0-0.4-0.11-0.73-0.34-0.97-0.21-0.25-0.61-0.58-1.19-0.970.6-0.76 1.35-1.15 2.25-1.150.48 0 0.880.14 1.190.430.330.280.490.70.49 1.26 0 0.93-0.39 2.09-1.17 3.49-0.76 1.38-2.24 3.46-4.43 6.23l-2.230.16-1.71-9.63h-2.25V7.24c0.6-0.19 1.31-0.41 2.12-0.630.81-0.24 1.36-0.36 1.64-0.36Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiVelog;

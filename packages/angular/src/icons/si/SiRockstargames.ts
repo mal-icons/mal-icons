@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-rockstargames",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRockstargames {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.97 6.82h3.24c1.47 0 2.74-0.45 2.74-2.08 0-1.3-1.12-1.58-2.19-1.58H6.75l-0.78 3.66Zm12.83 8.75h5.17l-4.66 3.230.76 5.09-4.04-3.07L10.6 24l2.54-5.39s-2.95-3.07-2.95-3.07c-0.2-0.26-0.26-0.94-0.26-1.23 0-0.370.02-0.740.05-1.130.03-0.450.06-0.930.06-1.48 0-1.34-0.59-2.04-2.04-2.04H5.28l-1.18 5.53H0.03L3.27 0h7.67c2.85 0 5.030.7 5.03 3.94 0 2.28-1.12 3.89-3.59 4.23v0.05c1.160.28 1.6 1.06 1.6 2.53 0 0.59-0.02 1.1-0.03 1.58-0.010.43-0.030.83-0.03 1.24 0 0.530.14 1.380.48 1.97h0.57l3.03-5.060.82 5.1Zm-1.23-2.95-2.19 3.65h-3.46l2.1 2.19-1.73 3.67 3.78-2.22 2.98 2.26-0.55-3.73 3.09-2.14h-3.43l-0.59-3.69Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRockstargames;

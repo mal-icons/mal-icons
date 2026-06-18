@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-mini-program-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiMiniProgramLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22ZM12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 16.42 7.58 20 12 20ZM13 14C13 15.93 11.43 17.5 9.5 17.5C7.57 17.5 6 15.93 6 14C6 12.63 6.8 11.4 8.02 10.83C8.52 10.59 9.12 10.81 9.35 11.31C9.59 11.81 9.37 12.41 8.87 12.64C8.34 12.88 8 13.41 8 14C8 14.83 8.67 15.5 9.5 15.5C10.33 15.5 11 14.83 11 14V10C11 8.07 12.57 6.5 14.5 6.5C16.43 6.5 18 8.07 18 10C18 11.37 17.2 12.6 15.98 13.17C15.48 13.41 14.88 13.19 14.65 12.69C14.42 12.19 14.63 11.59 15.13 11.36C15.66 11.12 16 10.59 16 10C16 9.17 15.33 8.5 14.5 8.5C13.67 8.5 13 9.17 13 10V14Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiMiniProgramLine;

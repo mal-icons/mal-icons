@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-kickstarter",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiKickstarter {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.17 0c-3.2 0-5.8 2.58-5.8 5.76v12.48C1.37 21.42 3.97 24 7.17 24c1.98 0 3.72-0.98 4.77-2.48l0.790.79c2.26 2.25 5.94 2.25 8.2 0a5.72 5.72 0 1.7-4.07 5.72 5.72 0 0-1.7-4.07l-2.18-2.17 2.18-2.16a5.72 5.72 0 1.7-4.07 5.72 5.72 0 0-1.7-4.07c-2.26-2.25-5.94-2.25-8.2 0l-0.790.79A5.8 5.8 0 7.17 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiKickstarter;

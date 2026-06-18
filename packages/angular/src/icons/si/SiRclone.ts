@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-rclone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRclone {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.840.63C9.360.68 6.98 1.99 5.65 4.29c-0.76 1.31-1.06 2.77-0.97 4.17a7.99 7.99 0 0 1 2.66-0.45l1.470c-0.01-0.560.12-1.130.42-1.650.88-1.53 2.84-2.05 4.37-1.17 1.530.88 2.05 2.84 1.17 4.37l-1.48 2.56 1.2 2.07 2.390 1.48-2.57c2.03-3.510.82-8-2.69-10.02C14.460.91 13.140.6 11.840.63m-1.55 8.07-2.960C3.28 8.7 0 11.99 0 16.04c0 4.05 3.28 7.34 7.34 7.34 1.52 0 2.93-0.46 4.1-1.25a8 8 0 0 1-1.72-2.07l-0.74-1.27c-0.480.29-1.040.46-1.640.46-1.76 0-3.2-1.43-3.2-3.2 0-1.76 1.43-3.2 3.2-3.2l2.960 1.2-2.07zm9.590.75a7.99 7.99 0 0 1-0.93 2.53l-0.73 1.27c0.490.270.920.67 1.22 1.190.88 1.530.36 3.48-1.17 4.37-1.530.88-3.480.36-4.37-1.17l-1.48-2.56h-2.39L8.83 17.14l1.48 2.56c2.03 3.51 6.51 4.71 10.02 2.69 3.51-2.03 4.71-6.51 2.69-10.02-0.76-1.31-1.86-2.31-3.13-2.92"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRclone;

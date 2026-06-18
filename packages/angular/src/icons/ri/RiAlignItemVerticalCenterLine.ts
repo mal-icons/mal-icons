@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-align-item-vertical-center-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiAlignItemVerticalCenterLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 18L9 6L6 6L6 18H9ZM5 20C4.45 20 4 19.55 4 19L4 13H2V11H4L4 5C4 4.45 4.45 4 5 4H10C10.55 4 11 4.45 11 5V11H13V7C13 6.45 13.45 6 14 6L19 6C19.55 6 20 6.45 20 7V11H22V13H20V17C20 17.55 19.55 18 19 18H14C13.45 18 13 17.55 13 17V13H11V19C11 19.55 10.55 20 10 20H5ZM15 16H18V8L15 8V16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiAlignItemVerticalCenterLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-librariesdotio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLibrariesdotio {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.15 24c-1.16-0.05-1.750.04-2.02-0.48-0.26-0.31-0.14-3.46-0.18-4.69 1.7-1.36 3.42-2.69 5.15-4.03 0 2.890.15 8.19-0.17 8.72-0.270.56-1.330.47-2.770.48zm6.47-0.62c-0.3-0.01-0.17-6.05-0.2-11.2 1.7-1.36 3.42-2.68 5.14-4.01-0.03 5.920.12 14.78-0.11 15.1-0.330.71-1.060.54-2.470.59-1.09-0.06-2.060.16-2.36-0.47zm8.410.02c-0.17-0.33-0.16-7.9-0.1-15.2a500.57 500.57 0 15.12 3.98c-0.03 1.220.1 11.18-0.16 11.18-0.280.47-0.640.49-2.440.49-0.93-0.08-1.850.18-2.41-0.44zM0.98 15.56C0.96 10.750.93 6.051 1.1c0.03-0.630.25-10.94-1.040.54-0.07 3.01-0.04 3.460.05a0.870.87 0 1.620.65c0.1 2.720.08 6.150.1 10.78-1.72 1.34-3.43 2.68-5.14 4.02zm8.46-6.66c-0.05-2.52 0-7.020.03-7.70.08-1.55 1.09-1.11 2.41-1.2 1.98-0.02 2.280.1 2.50.460.250.370.2 2.60.2 4.42-1.69 1.32-3.59 2.83-5.14 4.02zm13.58-0.01c-1.71-1.34-3.35-2.63-5.06-3.960.02-1.32-0.06-2.740.01-3.990.11-0.540.26-0.84 1.16-0.87 1.12-0.12 2.73-0.09 3.420.140.520.120.52 1.380.49 5.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLibrariesdotio;

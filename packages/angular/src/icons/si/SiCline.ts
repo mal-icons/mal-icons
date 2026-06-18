@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-cline",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCline {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m23.37 13.56-1.44-2.89V8.99c0-2.76-2.22-5-4.95-5h-2.46c0.18-0.370.28-0.780.28-1.21A2.77 2.77 0 0 0 12.02 0a2.77 2.77 0 0 0-2.76 2.78c0 0.430.10.850.28 1.21H7.07c-2.74 0-4.95 2.24-4.95 5v1.67L0.64 13.55c-0.150.29-0.150.64 0 0.93l1.47 2.86v1.67C2.11 21.76 4.33 24 7.07 24h9.9c2.74 0 4.95-2.24 4.95-5V17.33l1.44-2.86c0.14-0.290.14-0.620-0.91m-12.85 2.36a2.27 2.27 0 0 1-2.26 2.27 2.27 2.27 0 0 1-2.26-2.27v-4.04A2.27 2.27 0 0 1 8.25 9.6a2.27 2.27 0 0 1 2.26 2.27zm7.29 0a2.27 2.27 0 0 1-2.26 2.27 2.27 2.27 0 0 1-2.26-2.27v-4.04A2.27 2.27 0 0 1 15.54 9.6a2.27 2.27 0 0 1 2.26 2.27z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCline;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-slack-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSlackFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.53 14.51C6.53 15.6 5.64 16.48 4.56 16.48C3.48 16.48 2.59 15.6 2.59 14.51C2.59 13.43 3.48 12.55 4.56 12.55H6.53V14.51ZM7.52 14.51C7.52 13.43 8.4 12.55 9.49 12.55C10.57 12.55 11.45 13.43 11.45 14.51V19.44C11.45 20.52 10.57 21.41 9.49 21.41C8.4 21.41 7.52 20.52 7.52 19.44V14.51ZM9.49 6.53C8.4 6.53 7.52 5.64 7.52 4.56C7.52 3.48 8.4 2.59 9.49 2.59C10.57 2.59 11.45 3.48 11.45 4.56V6.53H9.49ZM9.49 7.52C10.57 7.52 11.45 8.4 11.45 9.49C11.45 10.57 10.57 11.45 9.49 11.45H4.56C3.48 11.45 2.59 10.57 2.59 9.49C2.59 8.4 3.48 7.52 4.56 7.52H9.49ZM17.47 9.49C17.47 8.4 18.36 7.52 19.44 7.52C20.52 7.52 21.41 8.4 21.41 9.49C21.41 10.57 20.52 11.45 19.44 11.45H17.47V9.49ZM16.48 9.49C16.48 10.57 15.6 11.45 14.51 11.45C13.43 11.45 12.55 10.57 12.55 9.49V4.56C12.55 3.48 13.43 2.59 14.51 2.59C15.6 2.59 16.48 3.48 16.48 4.56V9.49ZM14.51 17.47C15.6 17.47 16.48 18.36 16.48 19.44C16.48 20.52 15.6 21.41 14.51 21.41C13.43 21.41 12.55 20.52 12.55 19.44V17.47H14.51ZM14.51 16.48C13.43 16.48 12.55 15.6 12.55 14.51C12.55 13.43 13.43 12.55 14.51 12.55H19.44C20.52 12.55 21.41 13.43 21.41 14.51C21.41 15.6 20.52 16.48 19.44 16.48H14.51Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSlackFill;

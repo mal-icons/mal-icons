@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-digitalocean",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDigitalocean {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.04 0C5.41-0.020.01 5.370.01 11.99h4.64c0-4.92 4.88-8.73 10.06-6.85a6.95 6.95 0 14.15 4.15c1.89 5.18-1.92 10.06-6.84 10.06v-4.61H7.39v4.62h4.61V24c7.86 0 13.97-7.59 11.4-15.83-1.11-3.59-3.98-6.45-7.57-7.57A12.8 12.8 0 12.04 0zM7.39 19.36H3.83v3.56H7.39zm-3.56 0v-2.98H0.85v2.98z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDigitalocean;

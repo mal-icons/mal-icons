@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-spidermonkey",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSpidermonkey {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.41 1.85c-0.77-0.03-1.610.24-2.750.77-1.220.39-1.91 1.45-0.48 1.45l-0.040.93-0.90.35-0.030.9s-0.14 1.05 10.99c-0.150.04-0.270.11-0.10.280.310.310.720.21 2.20.24 1.480.04 1.64 1.68 1.64 1.68s0.33 2.70.28 5.33c-1.6-0.85-3.2-1.61-3.7-1.5-1.10.24-2.04 1.33-1.1 2.890.86 1.43 2.32 2.45 3.78 3.37-0.440.72-0.98 1.11-2.080.84-0.55-0.13-0.51-0.45-2-1.27-2.75-1.11-2.28-0.32-1.60.34 1.42 1.01 2.12 1.93 3.17 2.36 1.030.42 2.420.38 4.18-1.13l0.08-0.09-0.060.07c2.26 1.4 5.06 1.84 7.65 1.270.13-0.040.54-0.090.5-0.14l0.060.01c0.01-0.07 2.580.28 4.48-0.49 1.84-0.74 3.04-2.14 3.29-3.59 1.04-5.95-4.87-6.42-5.64-6.66l-1.77-0.48c-0.33-0.84-0.78-1.66-1.36-2.56a5.8 5.8 0 0 0-1.26-1.41l00s0.17-0.550.84-1.12c0.13-0.11 2.36-1.81 6.41-0.08l0.29 2.76 1.84-0.09L22.99 4.3c-0.65-0.76-6.17-3.05-10.15-0.01-0.590.51-0.95 1.21-0.95 1.21q0.0100.010.01a9 9 0 0 0-1.95-0.44v-0.01s-0.77-2.13-2.18-2.84a3.2 3.2 0 0 0-1.35-0.37Zm-0.89 2.8400.01zm4.98 3.540.020.01-0.020zm-0.17 3.76c0.6 1 1.03 1.9 1.23 3.02a11.6 11.6 0 0 1-0.44 1.98s-0.51-0.31-1.24-0.74c0.14-0.840.23-1.740.34-2.760.04-0.480.08-10.12-1.5m6.650.360.020.07c0.030.130.050.260.070.39l1.920.54s3.170.62 2.68 3.81c-0.45 3.01-4.99 2.77-4.98 2.670.54-3.40.65-5.610.29-7.48z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSpidermonkey;

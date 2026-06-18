@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-keeper",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiKeeper {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm1.37 1.79 1.850.47v2.6l2.07-1.7 1.54 1.14-3.95 3.25-1.51-0.01zm-9.07 15.54L2.44 15.75V8.7L4.3 7zm3.63 2.22L6.08 21.16V3l1.85 1.61zm9.36 1.56-2.07-1.7v2.6l-1.850.47v-5.74l1.52-0.01 3.95 3.25zm2.73-2.47-4.6-3.67h-3.83v7.51H9.74v-9.36h6.33l5.11 4.08zm2.62-8.33-2.06 1.7 2.06 1.7-1.18 1.43L17.67 12l3.79-3.13zm-6.570.6H9.74V1.53h1.85v7.51h3.83l4.6-3.67 1.16 1.45z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiKeeper;

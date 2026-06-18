@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-play-reverse-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPlayReverseFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.62 12.42L15.22 19.48C15.45 19.64 15.76 19.57 15.92 19.34C15.97 19.26 16 19.16 16 19.07V4.93C16 4.66 15.78 4.43 15.5 4.43C15.4 4.43 15.3 4.46 15.22 4.52L4.62 11.58C4.39 11.74 4.33 12.05 4.49 12.28C4.52 12.33 4.57 12.38 4.62 12.42Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPlayReverseFill;

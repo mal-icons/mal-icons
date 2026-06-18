@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-pioneerdj",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPioneerdj {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.46 5.57c1.47 1.14 1.72 2.7 1.11 4.32-0.56 1.5-1.83 2.96-3.83 4.09-2.21 1.23-4.5 1.55-6.99 1.55H0L4.21 4.31h5.05c2.55 0 4.70.1 6.2 1.26zm-3.11 4.24c0.33-0.880.25-2.2-0.34-2.91-0.66-0.78-1.67-0.87-3.14-0.87l-0.720.02s-0.62-0.07-0.870.49c-0.150.350.06-0.26-2.41 6.34-0.330.880.450.920.450.92s2.790.17 5.13-1.45c0.99-0.68 1.58-1.7 1.89-2.54zm5.94-1.47L24 8.37l-2.89 7.73c-0.94 2.52-2.9 3.6-6.81 3.6l-3.06-0.040.73-1.75c4.430.21 5.23-1.76 5.37-2.14l1.85-4.97s0.32-0.88-0.4-0.88h-1.13Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPioneerdj;

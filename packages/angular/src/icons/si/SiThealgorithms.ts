@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-thealgorithms",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiThealgorithms {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.23,19.86H1.35l1.79-4.22h4.81L13.31,3.21H7.56l-4.23,9.82h2.59c0.180.30.510.510.890.51a1.04,1.04,0,0,0,1.04-1.04c0-0.57-0.47-1.02-1.04-1.02-0.42,0-0.770.24-0.930.6H4.65l3.5-7.94h3.76L7.38,14.68l-4.770.03L0,20.79h8.84L10,18.26h3.84l1.28,2.53H24L15.99,3.21Zm2.27-2.59,1.38-3.02,1.5,3.02zm5.22,2.69-0.87-1.76h2.74c0.180.330.530.560.920.56a1.04,1.04,0,0,0,1.04-1.04,1.04,1.04,0,0,0-1.04-1.04c-0.42,0-0.780.26-0.950.62H14.42l-2.09-4.06,1.53-3.37,1.73,3.52h0.81c0.170.350.530.60.930.6a1.04,1.04,0,0,0,1.04-1.04,1.04,1.04,0,0,0-1.04-1.04c-0.44,0-0.810.27-0.960.66h-0.3l-1.79-3.64,1.7-3.73,6.68,14.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiThealgorithms;

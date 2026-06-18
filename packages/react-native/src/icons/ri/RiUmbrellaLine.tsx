@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiUmbrellaLine = createIcon("0 0 24 24", [["path",{"d":"M13 2.05C18.05 2.55 22 6.81 22 12V13H13V19C13 20.1 13.89 21 15 21C16.1 21 17 20.1 17 19V18H19V19C19 21.21 17.21 23 15 23C12.79 23 11 21.21 11 19V13H2V12C2 6.81 5.94 2.55 11 2.05V2C11 1.45 11.45 1 12 1C12.55 1 13 1.45 13 2V2.05ZM19.94 11C19.44 7.05 16.08 4 12 4C7.92 4 4.55 7.05 4.06 11H19.94Z"}]]);
+
+export default RiUmbrellaLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-iced",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiIced {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m22.61 0-6.02 6.12 1.31 1.29 6.02-6.12L22.61 0zm-5.640.05L7.93 9.23l1.31 1.29 9.04-9.18L16.970.05zM9.7 1.78c-2.34 2.38-3.48 3.53-4.62 4.68a1972.17 1972.17 0 0 0-4.62 4.69l-0.380.38 2.87 9.77L12.76 24l10.51-10.5-1.3-1.3-9.02 9.01-1.91-6.83 5.56-5.65-1.31-1.29-5.56 5.65-6.84-1.79C4.51 9.65 5.45 8.7 6.39 7.75c1.14-1.15 2.28-2.31 4.62-4.68L9.7 1.78zM21.61 6.73l-1.53 1.53-6.46 6.57 1.31 1.29 6.45-6.56 1.53-1.53-1.3-1.3zM2.46 13.09l6.81 1.78 1.9 6.78-6.74-1.86-1.97-6.71z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiIced;

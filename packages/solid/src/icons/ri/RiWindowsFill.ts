@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiWindowsFill = createIcon("0 0 24 24", [["path",{"d":"M3 5.48L10.38 4.46V11.59H3V5.48ZM3 18.52L10.38 19.54V12.5H3V18.52ZM11.19 19.65L21 21V12.5H11.19V19.65ZM11.19 4.35V11.59H21V3L11.19 4.35Z"}]]);
+
+export default RiWindowsFill;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiDeleteRow = createIcon("0 0 24 24", [["path",{"d":"M20 5C20.55 5 21 5.45 21 6V12C21 12.55 20.55 13 20 13C20.63 13.84 21 14.87 21 16C21 18.76 18.76 21 16 21C13.24 21 11 18.76 11 16C11 14.87 11.37 13.84 12 13L4 13C3.45 13 3 12.55 3 12V6C3 5.45 3.45 5 4 5H20ZM13 15V17H19V15H13ZM19 7H5V11H19V7Z"}]]);
+
+export default RiDeleteRow;

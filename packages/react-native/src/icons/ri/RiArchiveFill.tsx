@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiArchiveFill = createIcon("0 0 24 24", [["path",{"d":"M3 10H21V20C21 20.55 20.56 21 20.01 21H3.99C3.44 21 3 20.56 3 20V10ZM9 12V14H15V12H9ZM2 4C2 3.45 2.46 3 2.99 3H21.01C21.56 3 22 3.44 22 4V8H2V4Z"}]]);
+
+export default RiArchiveFill;

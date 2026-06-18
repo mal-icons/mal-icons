@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiBuildingFill = createIcon("0 0 24 24", [["path",{"d":"M21 19H23V21H1V19H3V4C3 3.45 3.45 3 4 3H14C14.55 3 15 3.45 15 4V19H17V9H20C20.55 9 21 9.45 21 10V19ZM7 11V13H11V11H7ZM7 7V9H11V7H7Z"}]]);
+
+export default RiBuildingFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-pulse-ai-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPulseAiFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.71 8.13L19.47 8.69C19.29 9.11 18.71 9.11 18.53 8.69L18.29 8.13C17.85 7.12 17.06 6.32 16.07 5.88L15.31 5.54C14.9 5.36 14.9 4.76 15.31 4.58L16.03 4.26C17.04 3.81 17.84 2.97 18.28 1.93L18.53 1.32C18.71 0.89 19.29 0.89 19.47 1.32L19.72 1.93C20.16 2.97 20.96 3.81 21.97 4.26L22.69 4.58C23.1 4.76 23.1 5.36 22.69 5.54L21.93 5.88C20.94 6.32 20.15 7.12 19.71 8.13ZM15 21.54L9 7.54L6.66 13H1V11H5.34L9 2.46L15 16.46L17.34 11H23V13H18.66L15 21.54Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPulseAiFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-loop",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLoop {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12,0C5.37,0,0,5.37,0,12s5.37,12,12,12s12-5.37,12-12C24.01,5.37,18.63,0,12,0z M12.7,22.61 C6.84,22.61,2.09,17.86,2.09,12S6.84,1.39,12.7,1.39S23.31,6.14,23.31,12S18.56,22.61,12.7,22.61z M7.05,3.41 c-4.75,2.74-6.37,8.8-3.63,13.54c2.74,4.74,8.81,6.37,13.54,3.63c4.75-2.73,6.37-8.81,3.63-13.54 C17.85,2.3,11.79,0.68,7.05,3.41z M16.87,19.03c-4.08,2.35-9.29,0.95-11.64-3.12 c-2.35-4.08-0.95-9.29,3.12-11.64c4.08-2.35,9.29-0.95,11.64,3.12C22.34,11.46,20.95,16.68,16.87,19.03z M5.23,8.08c-2.17,3.74-0.87,8.53,2.87,10.69c3.74,2.17,8.53,0.88,10.7-2.87s0.88-8.53-2.87-10.69 C12.18,3.06,7.38,4.34,5.23,8.08z M18.07,14.7c-1.83,3.16-5.86,4.24-9.02,2.42 c-3.16-1.83-4.24-5.86-2.42-9.02s5.86-4.24,9.03-2.42C18.82,7.49,19.9,11.54,18.07,14.7z M6.09,12 c0,3.27,2.65,5.92,5.92,5.92s5.92-2.65,5.92-5.92s-2.65-5.92-5.92-5.92C8.74,6.08,6.09,8.73,6.09,12z M16.7,11.3c0,2.59-2.1,4.69-4.69,4.69s-4.69-2.1-4.69-4.69s2.1-4.69,4.69-4.69C14.59,6.61,16.7,8.71,16.7,11.3 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLoop;

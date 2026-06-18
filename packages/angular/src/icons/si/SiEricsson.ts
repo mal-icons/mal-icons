@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ericsson",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiEricsson {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.76 1.59A2.36 2.36 0 0 0 19.570.23c-0.54-0.27-1.19-0.34-2.260.02L5.19 4.29c-1.070.36-1.550.8-1.82 1.34a2.36 2.36 0 0 0 1.06 3.17c0.540.27 1.190.34 2.26-0.02l12.13-4.04c1.07-0.35 1.55-0.79 1.82-1.34a2.35 2.35 0 0 0 0.13-1.81zm0 7.49a2.36 2.36 0 0 0-1.19-1.37c-0.54-0.27-1.19-0.34-2.260.02L5.19 11.78c-1.070.36-1.550.8-1.82 1.34a2.36 2.36 0 0 0 1.06 3.17c0.540.27 1.190.34 2.26-0.02l12.13-4.04c1.07-0.36 1.55-0.79 1.82-1.34a2.35 2.35 0 0 0 0.13-1.81zm0 7.49a2.36 2.36 0 0 0-1.19-1.37c-0.54-0.27-1.19-0.34-2.260.02L5.19 19.26c-1.070.36-1.550.8-1.82 1.34a2.36 2.36 0 0 0 1.06 3.17c0.540.27 1.190.34 2.26-0.02l12.13-4.04c1.07-0.35 1.55-0.79 1.82-1.34a2.35 2.35 0 0 0 0.13-1.81z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiEricsson;

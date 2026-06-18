@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-shadow-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiShadowLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 2C2.45 2 2 2.45 2 3V17C2 17.55 2.45 18 3 18H6V21C6 21.55 6.45 22 7 22H21C21.55 22 22 21.55 22 21V7C22 6.45 21.55 6 21 6H18V3C18 2.45 17.55 2 17 2H3ZM18 11.56L20 13.56V16.44L18 14.44V11.56ZM18 9.44V8H20V11.44L18 9.44ZM18 17V16.56L20 18.56V20H18.56L16.56 18H17C17.55 18 18 17.55 18 17ZM14.44 18L16.44 20H13.56L11.56 18H14.44ZM9.44 18L11.44 20H8V18H9.44ZM4 16V4H16V16H4Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiShadowLine;

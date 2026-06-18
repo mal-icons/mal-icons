@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-swap-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSwap2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.21 2.29L15.79 3.71L18.09 6H13V8H18.09L15.79 10.29L17.21 11.71L21.91 7L17.21 2.29ZM9.5 7C9.5 5.62 8.38 4.5 7 4.5C5.62 4.5 4.5 5.62 4.5 7C4.5 8.38 5.62 9.5 7 9.5C8.38 9.5 9.5 8.38 9.5 7ZM11.5 7C11.5 9.49 9.49 11.5 7 11.5C4.51 11.5 2.5 9.49 2.5 7C2.5 4.51 4.51 2.5 7 2.5C9.49 2.5 11.5 4.51 11.5 7ZM5.91 18L8.21 20.29L6.79 21.71L2.09 17L6.79 12.29L8.21 13.71L5.91 16H11V18H5.91ZM15 19H19V15H15V19ZM13 14C13 13.45 13.45 13 14 13H20C20.55 13 21 13.45 21 14V20C21 20.55 20.55 21 20 21H14C13.45 21 13 20.55 13 20V14Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSwap2Line;

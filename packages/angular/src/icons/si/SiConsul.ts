@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-consul",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiConsul {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.08 12.03a2.51 2.51 0 0 0-2.51-2.51 2.51 2.51 0 0 0-2.51 2.51 2.51 2.51 0 0 0 2.51 2.51 2.51 2.51 0 0 0 2.51-2.51zm3.530a1.16 1.16 0 0 0-1.16-1.16 1.16 1.16 0 0 0-1.16 1.16 1.16 1.16 0 0 0 1.16 1.16 1.16 1.16 0 0 0 1.16-1.16zm4.79 5.51a1.16 1.16 0 0 0-1.16-1.16 1.16 1.16 0 0 0-1.16 1.16 1.16 1.16 0 0 0 1.16 1.16 1.16 1.16 0 0 0 1.16-1.16zM20.75 13.89a1.15 1.16 0 0 0-1.15-1.16 1.15 1.16 0 0 0-1.15 1.16 1.15 1.16 0 0 0 1.15 1.16 1.15 1.16 0 0 0 1.15-1.16zm3.250.06a1.15 1.15 0 0 0-1.15-1.15 1.15 1.15 0 0 0-1.15 1.15 1.15 1.15 0 0 0 1.15 1.15 1.15 1.15 0 0 0 1.15-1.15zm-3.28-3.88a1.16 1.15 0 0 0-1.16-1.15 1.16 1.15 0 0 0-1.16 1.15 1.16 1.15 0 0 0 1.16 1.15 1.16 1.15 0 0 0 1.16-1.15zm3.280.05a1.16 1.16 0 0 0-1.16-1.16 1.16 1.16 0 0 0-1.16 1.16 1.16 1.16 0 0 0 1.16 1.16A1.16 1.16 0 0 0 24 10.11zm-1.63-3.63a1.16 1.16 0 0 0-1.16-1.16 1.16 1.16 0 0 0-1.16 1.16 1.16 1.16 0 0 0 1.16 1.16A1.16 1.16 0 0 0 22.37 6.48zM11.620.38c-3.11 0-6.03 1.21-8.22 3.4C1.21 5.98 0 8.9 0 12c0 3.11 1.21 6.03 3.4 8.22 2.2 2.19 5.12 3.4 8.22 3.4 2.58 0 5.02-0.83 7.06-2.39l-1.42-1.85c-1.63 1.25-3.57 1.9-5.64 1.9-2.48 0-4.81-0.96-6.57-2.72-1.75-1.75-2.71-4.08-2.71-6.57 0-2.480.96-4.81 2.72-6.57 1.75-1.75 4.08-2.71 6.57-2.71 2.06 0 4.010.66 5.64 1.91l1.42-1.85C16.63 1.21 14.190.38 11.620.38Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiConsul;

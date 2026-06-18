@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-pearson",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPearson {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.22 1.55C12.6-1.65 5.260.09 2.1 6.93c-2.18 4.71-1.19 12.9 3.88 15.83 5.07 2.93 11.870.47 14.98-5.29 3.54-6.55 2.36-13.03-2.74-15.92zm-6.24 18.53a1.21 1.21 0 0 1-0.760.25 1.59 1.59 0 0 1-0.4-0.05 1.08 1.08 0 0 1-0.53-0.310.940.94 0 0 1-0.21-0.47 1.15 1.15 0 0 1 0.21-0.85c0.2-0.30.53-0.480.89-0.49a1 1 0 0 1 0.190.02c0.190.040.370.120.520.240.290.220.460.550.460.91a0.940.94 0 0 1-0.370.76zm7.66-9.83c-0.2 1.51-1.14 2.91-2.7 3.84-1.240.74-2.86 1.03-4.46 1.05-0.010.25-0.06 1.1-0.09 1.24a0.870.87 0 0 1-0.20.42c-0.170.22-0.470.36-0.770.44a2.49 2.49 0 0 1-0.630.10.80.8 0 0 1-0.57-0.230.80.8 0 0 1-0.2-0.48l-0.01-0.17c-0.03-0.14-0.22-7.5-0.18-7.370.03-0.88 1.48-1.03 2.27-0.880.790.160.59 1.10.57 2.25 0 0-0.04 1.52-0.11 3.12a6.18 6.18 0 0 0 2.56-0.68c1.51-0.73 2.31-1.86 2.31-3.51s-1.65-3.51-4.69-3.51-4.350.75-5.82 1.94c-0.330.27-0.590.54-0.830.72-0.240.18-0.880.2-1.05-0.21-0.21-0.50.18-1.060.41-1.330.36-0.43 1.24-1.28 2.22-1.78C8.77 4.62 10.14 4 12.05 3.95c1.72-0.04 4.450.09 6.41 2.26l0.010.01c1.02 1.07 1.34 2.68 1.16 4.01z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPearson;

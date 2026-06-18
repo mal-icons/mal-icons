@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiMailOpenFill = createIcon("0 0 24 24", [["path",{"d":"M2.24 6.85L11.49 1.31C11.81 1.12 12.2 1.12 12.52 1.31L21.76 6.85C21.91 6.94 22 7.11 22 7.28V20C22 20.55 21.55 21 21 21H3C2.45 21 2 20.55 2 20V7.28C2 7.11 2.09 6.94 2.24 6.85ZM18.35 8.24L12.06 13.68L5.65 8.24L4.35 9.76L12.07 16.32L19.65 9.76L18.35 8.24Z"}]]);
+
+export default RiMailOpenFill;

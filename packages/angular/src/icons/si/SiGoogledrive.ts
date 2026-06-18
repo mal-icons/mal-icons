@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-googledrive",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGoogledrive {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.01 1.49c-2.08 0-3.750.02-3.740.050.010.02 1.71 3 3.77 6.62l3.76 6.57h3.76c2.08 0 3.75-0.02 3.74-0.050-0.02-1.71-3-3.77-6.62l-3.76-6.57zm-4.76 1.73a789.83 789.86 0 0 0-3.63 6.32L0 15.87l1.89 3.3 1.89 3.3 3.62-6.33 3.62-6.33-1.88-3.29C8.1 4.7 7.26 3.22 7.25 3.21zm2.26 12.65-0.20.35c-0.110.2-0.96 1.67-1.88 3.29a423.93 423.95 0 0 1-1.7 2.97c-0.010.03 3.240.04 7.220.04h7.24l1.8-3.16c0.99-1.73 1.85-3.23 1.91-3.32l0.1-0.17h-7.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGoogledrive;

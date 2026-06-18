@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-afterpay",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAfterpay {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.37 0 0 5.37 0 12c0 6.63 5.37 12 12 12 6.63 0 12-5.37 12-12 0-6.63-5.37-12-12-12Zm1.24 4.92a2.21 2.21 0 0 1 1.150.3l4.46 2.56c1.50.86 1.5 3.01 0 3.87l-4.46 2.56c-1.490.85-3.34-0.22-3.34-1.93v-0.34a0.440.44 0 0 0-0.66-0.38L6.29 13.9a0.440.44 0 0 0 0 0.77l4.1 2.35a0.440.44 0 0 0 0.66-0.38v-0.68c0-0.330.36-0.540.65-0.38l1.040.6a0.440.44 0 0 1 0.220.38v0.29c0 1.72-1.85 2.79-3.34 1.94L5.16 16.22c-1.49-0.86-1.49-3.01 0-3.87l4.46-2.56c1.49-0.85 3.340.22 3.34 1.94v0.34c0 0.340.370.550.660.38l4.1-2.35a0.440.44 0 0 0 0-0.76l-4.1-2.35a0.440.44 0 0 0-0.660.38v0.69c0 0.33-0.360.54-0.650.38l-1.04-0.6a0.440.44 0 0 1-0.22-0.38v-0.29c0-1.28 1.04-2.21 2.19-2.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAfterpay;

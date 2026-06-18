@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-slint",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSlint {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m6.5 23.91 13.61-9.4s0.61-0.350.61-0.91c0-0.74-0.78-0.98-0.78-0.98l-7.49-2.95c-0.27-0.1-0.630.19-0.290.56l2.48 2.47s0.690.680.69 1.12-0.420.84-0.420.84l-9.02 8.68c-0.320.310.110.870.610.57zM17.50.09 3.89 9.48s-0.610.35-0.610.91c0 0.740.780.980.780.98l7.49 2.95c0.270.10.64-0.190.29-0.56l-2.48-2.48s-0.69-0.67-0.69-1.12c0-0.440.42-0.840.42-0.84L18.10.65c0.33-0.31-0.11-0.87-0.6-0.57z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSlint;

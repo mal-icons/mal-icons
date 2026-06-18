@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-floatplane",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFloatplane {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.95,20.16c-1.81,1.53-4.08,2.37-6.47,2.37c-2.68,0-5.19-1.05-7.09-2.93c-1.9-1.9-2.93-4.42-2.93-7.09 c0-2.4,0.84-4.67,2.37-6.47L2.91,4.87C1.1,6.9,0,9.59,0,12.52C0,18.86,5.14,24,11.48,24 c2.93,0,5.62-1.1,7.64-2.91L17.95,20.16z M8.33,2.99c1-0.33,2.06-0.5,3.15-0.5c2.68,0,5.19,1.05,7.09,2.93 c1.9,1.9,2.93,4.42,2.93,7.09c0,1.09-0.17,2.15-0.5,3.15l1.13,1.13c0.53-1.32,0.83-2.77,0.83-4.28 c0-6.35-5.14-11.48-11.48-11.48c-1.52,0-2.97,0.29-4.28,0.83L8.33,2.99z M9.68,6.44L3.45,0l-0.97,1.52 C2.39,1.66,2.4,1.84,2.51,1.97L7.92,8.92L9.68,6.44z M7.66,14.96l-2.51-1.89l-0.46,0.77 c-0.05,0.09-0.04,0.2,0.03,0.27l2.12,2.29L7.66,14.96z M12.16,9.01l-0.58-0.6l0.15-0.61 c0.07-0.27,0.09-0.49,0.07-0.62c-0.09-0.39-0.27-0.69-0.27-0.69l-5.47,5.87c0,0,0.37,0.36,0.91-0.05 c0.24-0.18,1.19-0.96,2.2-1.8l0.93,1.19L12.16,9.01z M17.5,14.26l0.15-0.61c0.06-0.21,0.09-0.38,0.07-0.5 c-0.06-0.39-0.22-0.69-0.22-0.69l-5.87,5.47c0,0,0.36,0.37,0.92,0c0.27-0.18,1.43-0.99,2.58-1.82l6.89,5.37 c0.13,0.11,0.32,0.12,0.46,0.03L24,20.54L17.5,14.26z M9.06,16.39c0.88-0.68,2.12-1.62,3.22-2.47l1.24,0.97 l2.04-2.47l-0.68-0.65l0.22-0.77c0.11-0.39,0.15-0.7,0.12-0.88c-0.11-0.57-0.36-0.98-0.36-0.98l-8.07,8.07 c0,0,0.25,0.21,0.77,0l2.28,2.1c0.08,0.07,0.19,0.08,0.27,0.03l0.77-0.46L9.06,16.39z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFloatplane;

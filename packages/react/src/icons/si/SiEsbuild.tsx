@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiEsbuild = createIcon("0 0 24 24", [["path",{"d":"M12 0A12 12 0 0 12a12 12 0 12 12 12 12 0 12-12A12 12 0 12 0zM6.72 5.28L13.44 12l-6.72 6.72-2.04-2.04L9.36 12 4.68 7.32zm7.2 0L20.64 12l-6.72 6.72-2.04-2.04L16.56 12l-4.68-4.68z"}]]);
+
+export default SiEsbuild;

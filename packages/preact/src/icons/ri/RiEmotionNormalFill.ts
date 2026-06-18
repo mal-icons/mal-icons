@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiEmotionNormalFill = createIcon("0 0 24 24", [["path",{"d":"M12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22ZM8 14V16H16V14H8ZM8 11C8.83 11 9.5 10.33 9.5 9.5C9.5 8.67 8.83 8 8 8C7.17 8 6.5 8.67 6.5 9.5C6.5 10.33 7.17 11 8 11ZM16 11C16.83 11 17.5 10.33 17.5 9.5C17.5 8.67 16.83 8 16 8C15.17 8 14.5 8.67 14.5 9.5C14.5 10.33 15.17 11 16 11Z"}]]);
+
+export default RiEmotionNormalFill;

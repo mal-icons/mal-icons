@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiSliceFill = createIcon("0 0 24 24", [["path",{"d":"M13.77 12.23L15.89 14.35C11.29 18.95 5.64 20.36 2.1 19.65L17.66 4.1L19.78 6.22L13.77 12.23Z"}]]);
+
+export default RiSliceFill;

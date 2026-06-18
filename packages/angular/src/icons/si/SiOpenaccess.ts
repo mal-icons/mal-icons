@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-openaccess",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiOpenaccess {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.97 13.49a7.56 7.56 0 0-0.54-1.04V6.42a6.38 6.38 0 0-1.88-4.53A6.37 6.37 0 12.02 0h0a6.37 6.37 0 0-4.54 1.88 6.38 6.38 0 0-1.88 4.54v0.88h2.57v-0.88c0-1.030.4-1.99 1.13-2.72a3.82 3.82 0 12.72-1.12 3.85 3.85 0 13.85 3.85v3.51A7.52 7.52 0 12 8.87a7.54 7.54 0 0-5.35 2.22 7.54 7.54 0 0-2.22 5.35 7.54 7.54 0 2.22 5.35A7.54 7.54 0 12 24a7.54 7.54 0 5.35-2.22 7.54 7.54 0 2.22-5.35c0-1.02-0.2-2.01-0.59-2.95zM12 21.43a5 5 0 1-5-5A5 5 0 112 11.44a5 5 0 15 5A5 5 0 112 21.43zm2.15-4.97a2.12 2.12 0 11-4.24 0 2.12 2.12 0 14.24 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiOpenaccess;

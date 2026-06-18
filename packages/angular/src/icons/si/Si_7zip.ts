@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-7zip",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Si_7zip {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 18.86h24V8.18H10.72V5.14H0ZM2.02 7.27h6.66v1.99c-1.74 2.09-2.84 4.5-2.95 7.4H3.48c0.09-2.50.35-4.95 2.28-6.99l0.03-0.03H2.02Zm8.45 1.25h13.22v10.14H10.47Zm6.01 1.21v6.87h1.48v-6.87Zm2.760.04v6.91h1.62v-2.42h1.03c0.4300.75-0.290.97-0.720.43-0.850.43-2.26-0.02-3.09-0.23-0.42-0.57-0.7-1.03-0.68zm-7.920v1.6h2.22l-2.3 3.74v1.54h4.29V15.1h-2.7l2.79-3.91v-1.41Zm9.45 1.51h0.6c0.16-0.010.290.080.370.220.170.270.170.7400.99a0.360.36 0 0 1-0.370.18l-0.550.05z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Si_7zip;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-alarm-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiAlarmFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 22C7.03 22 3 17.97 3 13C3 8.03 7.03 4 12 4C16.97 4 21 8.03 21 13C21 17.97 16.97 22 12 22ZM13 13V8H11V15H16V13H13ZM1.75 6.28L5.28 2.75L6.7 4.16L3.16 7.7L1.75 6.28ZM18.72 2.75L22.25 6.28L20.84 7.7L17.3 4.16L18.72 2.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiAlarmFill;

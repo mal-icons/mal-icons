@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiCornerUpLeftFill = createIcon("0 0 24 24", [["path",{"d":"M19 10L19 19L17 19L17 12L9.41 12V17.41L3 11L9.41 4.59L9.41 10L19 10Z"}]]);
+
+export default RiCornerUpLeftFill;

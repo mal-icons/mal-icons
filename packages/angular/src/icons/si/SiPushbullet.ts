@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-pushbullet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPushbullet {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm0 1.69A10.31 10.31 0 0 1 22.31 12 10.31 10.31 0 0 1 12 22.31 10.31 10.31 0 0 1 1.69 12 10.31 10.31 0 0 1 12 1.69zM7.26 6.92a0.660.77 0 0 0-0.660.77v8.64a0.60.6 0 0 0 0.60.6h1.73a0.60.6 0 0 0 0.6-0.6V7.69a0.660.77 0 0 0-0.66-0.77zm6.940c-0.970.01-1.930.01-2.870-0.28 0-0.470.25-0.530.5a1.7 1.7 0 0 0-0.040.41c0 2.850.01 5.680.01 8.47 0 0.40.210.640.590.64 10 1.970 2.9 0 0.06 0 0.130.020.180.020.82-0.02 1.55-0.25 2.18-0.7 2.02-1.43 2.55-4.26 1.66-6.47-0.57-1.42-1.74-2.57-3.27-2.82a5.03 5.03 0 0 0-0.8-0.05z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPushbullet;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ecovacs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiEcovacs {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.07,19.07L19.07,19.07C17.26,20.88 14.76,22 11.99,22C9.23,22 6.73,20.88 4.92,19.07L4.92,19.07C4.74,18.89 4.49,18.78 4.22,18.78C3.96,18.78 3.72,18.88 3.54,19.04C3.34,19.22 3.22,19.49 3.22,19.78C3.22,20.05 3.33,20.3 3.5,20.48L3.51,20.49L3.52,20.5C5.69,22.66 8.69,24 11.99,24C15.3,24 18.3,22.66 20.47,20.5L20.48,20.48L20.49,20.47C20.67,20.29 20.77,20.05 20.77,19.78C20.77,19.49 20.65,19.22 20.45,19.04C20.27,18.88 20.03,18.78 19.77,18.78C19.5,18.78 19.25,18.89 19.07,19.07ZM15.39,14L11.4,14C10.29,14 9.4,13.11 9.4,12C9.4,10.9 10.29,10 11.4,10L15.39,10L16.79,8L11.4,8C9.19,8 7.39,9.79 7.39,12C7.39,14.21 9.19,16 11.4,16L16.79,16L15.39,14ZM14.99,11L14.96,11L14.96,11L11.99,11C11.44,11 11,11.45 11,12C11,12.55 11.44,13 11.99,13L14.96,13L14.96,13L14.99,13C15.55,13 15.99,12.55 15.99,12C15.99,11.45 15.55,11 14.99,11ZM11.98,0C8.68,0 5.69,1.34 3.52,3.5C3.34,3.68 3.23,3.93 3.23,4.2C3.23,4.5 3.35,4.76 3.55,4.94C3.73,5.1 3.97,5.2 4.22,5.21C4.5,5.21 4.75,5.09 4.93,4.92L4.93,4.91L4.93,4.91C6.75,3.11 9.25,1.99 12.01,2C14.77,2.01 17.27,3.13 19.08,4.95L19.08,4.94C19.26,5.13 19.51,5.24 19.78,5.24C20.04,5.24 20.28,5.14 20.45,4.98C20.66,4.8 20.78,4.54 20.78,4.24C20.78,3.97 20.67,3.72 20.49,3.54L20.49,3.53L20.49,3.53C18.33,1.36 15.33,0.01 12.02,0L11.98,0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiEcovacs;

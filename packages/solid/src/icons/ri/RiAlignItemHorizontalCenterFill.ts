@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiAlignItemHorizontalCenterFill = createIcon("0 0 24 24", [["path",{"d":"M11 4V2H13V4H19C19.55 4 20 4.45 20 5V10C20 10.55 19.55 11 19 11H13V13H17C17.55 13 18 13.45 18 14V19C18 19.55 17.55 20 17 20H13V22H11V20H7C6.45 20 6 19.55 6 19V14C6 13.45 6.45 13 7 13H11V11H5C4.45 11 4 10.55 4 10V5C4 4.45 4.45 4 5 4H11Z"}]]);
+
+export default RiAlignItemHorizontalCenterFill;

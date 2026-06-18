@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-semver",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSemver {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.36 9.02A12.07 12.07 0 2.97 19.87a12.05 12.05 0 10.38 4.06c7.77-0.7 13.09-9.8 9.52-16.8-0.42-1.19-2.07-0.37-1.90.60.290.70.53 1.420.71 2.15a9.98 9.98 0 1-3.93 10.25 9.97 9.97 0 1-14.81-3.81A9.98 9.98 0 14.44 5.45a9.97 9.97 0 14.85-3.04 9.87 9.87 0 17.020.630.330.33 0 1.160.43l-3.96 10.62c-0.110.81-0.690.79-0.8 0l-2.38-7.37a1.57 1.57 0 0-0.77-0.99c-1.19-0.56-3.090.67-2.38 2.15l3.91 10.44c0.52 1.39 1.02 1.83 2.06 1.83s1.54-0.44 2.06-1.83L20 3.94a1.04 1.04 0 0-0.37-1.19C13.1-2.91 2.320.640.36 9.02z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSemver;

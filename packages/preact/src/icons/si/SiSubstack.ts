@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiSubstack = createIcon("0 0 24 24", [["path",{"d":"M22.54 8.24H1.46V5.41h21.08v2.84zM1.46 10.81V24L12 18.11 22.54 24V10.81H1.46zM22.54 0H1.46v2.84h21.08V0z"}]]);
+
+export default SiSubstack;

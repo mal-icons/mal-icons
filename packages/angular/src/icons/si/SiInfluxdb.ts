@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-influxdb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiInfluxdb {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.78 14.48l-2.29-9.96c-0.13-0.55-0.62-1.09-1.17-1.25L9.870.05C9.74 0 9.58 0 9.43 0c-0.44 0-0.910.18-1.220.44L0.72 7.41C0.3 7.780.09 8.50.22 9.02l2.44 10.66c0.130.550.62 1.09 1.17 1.25l9.78 3.02c0.130.050.280.050.440.050.44 0 0.91-0.18 1.22-0.44l8.01-7.43c0.42-0.390.62-1.090.49-1.64zM10.96 2.42l7.18 2.21c0.280.080.280.21 0 0.29l-3.770.86c-0.280.08-0.67-0.05-0.88-0.26l-2.63-2.83c-0.23-0.23-0.18-0.340.1-0.26zm4.47 12.87c0.080.29-0.10.44-0.390.37l-7.75-2.39c-0.28-0.08-0.34-0.31-0.13-0.52l5.93-5.51c0.21-0.210.44-0.130.520.16zM2.67 8.27l6.29-5.85c0.21-0.210.55-0.180.750.03L12.86 5.85c0.210.210.180.55-0.030.75l-6.29 5.85c-0.210.21-0.550.18-0.75-0.02L2.64 9.02a0.540.54 0 1.03-0.76zm1.54 9.28L2.54 10.24c-0.08-0.280.05-0.340.23-0.13L5.4 12.95c0.210.210.280.620.210.91L4.46 17.55c-0.080.28-0.210.28-0.26 0zm9.2 4.26l-8.22-2.52a0.550.55 0 1-0.36-0.67l1.38-4.42a0.550.55 0 1.68-0.36l8.22 2.52c0.280.080.440.390.360.68L14.08 21.45a0.550.55 0 1-0.670.37zm7.28-5.98L15.2 20.93c-0.210.21-0.310.13-0.23-0.15l1.14-3.69c0.08-0.280.39-0.570.67-0.62l3.77-0.86c0.29-0.080.340.050.130.23zm0.6-1.09l-4.52 1.04a0.530.53 0 1-0.65-0.39l-1.92-8.37a0.530.53 0 1.39-0.65L19.1 5.34a0.530.53 0 1.650.39l1.92 8.37c0.080.31-0.10.6-0.390.65Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiInfluxdb;

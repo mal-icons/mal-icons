@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiZotero = createIcon("0 0 24 24", [["path",{"d":"M21.23 2.46 7.18 20.92h14.56V24H2.26v-2.46L16.31 3.08H2.98V0h18.26v2.46z"}]]);
+
+export default SiZotero;

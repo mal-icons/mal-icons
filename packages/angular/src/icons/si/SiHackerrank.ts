@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-hackerrank",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHackerrank {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 0v24h24V0zm9.95 8h1.81c0.06 0 0.110.050.110.11v7.77c0 0.06-0.050.11-0.110.11H9.95c-0.06 0-0.11-0.05-0.11-0.11v-2.87H7.89v2.87c0 0.06-0.050.11-0.110.11H5.98a0.110.11 0 1-0.11-0.11V8.11c0-0.060.05-0.110.11-0.11h1.81c0.06 0 0.110.050.110.11v2.87H9.84v-2.87c0-0.060.05-0.110.11-0.11zm3 0h5.78c0.06 0 0.110.050.110.11v7.77a0.110.11 0 1-0.110.11h-5.78a0.110.11 0 1-0.11-0.11V8.11c0-0.060.05-0.110.11-0.11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHackerrank;

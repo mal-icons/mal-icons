@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-multi-image-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiMultiImageLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7 3C6.45 3 6 3.45 6 4V7H3C2.45 7 2 7.45 2 8V20C2 20.55 2.45 21 3 21H17C17.55 21 18 20.55 18 20V17H21C21.55 17 22 16.55 22 16V4C22 3.45 21.55 3 21 3H7ZM17 7H8V5H20V15H18V8C18 7.45 17.55 7 17 7ZM16 9V15.74L11.49 11.64L4 18.63V9H16ZM11.51 14.36L16 18.44V19H6.54L11.51 14.36ZM7 13.5C7.83 13.5 8.5 12.83 8.5 12C8.5 11.17 7.83 10.5 7 10.5C6.17 10.5 5.5 11.17 5.5 12C5.5 12.83 6.17 13.5 7 13.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiMultiImageLine;

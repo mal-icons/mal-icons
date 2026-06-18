@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-closed-captioning-ai-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiClosedCaptioningAiFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.47 8.69L20.71 8.13C21.15 7.12 21.94 6.32 22.93 5.88L23.69 5.54C24.1 5.36 24.1 4.76 23.69 4.58L22.97 4.26C21.96 3.81 21.16 2.97 20.72 1.93L20.47 1.32C20.29 0.89 19.71 0.89 19.53 1.32L19.28 1.93C18.84 2.97 18.04 3.81 17.03 4.26L16.31 4.58C15.9 4.76 15.9 5.36 16.31 5.54L17.07 5.88C18.06 6.32 18.85 7.12 19.29 8.13L19.53 8.69C19.71 9.11 20.29 9.11 20.47 8.69ZM22 20V10.66C21.37 10.88 20.7 11 20 11C19.12 11 18.28 10.81 17.53 10.47L17.42 10.59C17.05 10.22 16.55 10 16 10C14.9 10 14 10.9 14 12C14 13.11 14.9 14 16 14C16.55 14 17.05 13.78 17.41 13.41L18.83 14.83C18.1 15.55 17.1 16 16 16C13.79 16 12 14.21 12 12C12 10.18 13.22 8.63 14.9 8.15C14.33 7.24 14 6.16 14 5C14 4.3 14.12 3.63 14.34 3H3C2.45 3 2 3.45 2 4V20C2 20.55 2.45 21 3 21H21C21.55 21 22 20.55 22 20ZM9 8C10.1 8 11.1 8.45 11.83 9.17L10.42 10.59C10.05 10.22 9.55 10 9 10C7.9 10 7 10.9 7 12C7 13.11 7.9 14 9 14C9.55 14 10.05 13.78 10.41 13.41L11.83 14.83C11.1 15.55 10.1 16 9 16C6.79 16 5 14.21 5 12C5 9.79 6.79 8 9 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiClosedCaptioningAiFill;

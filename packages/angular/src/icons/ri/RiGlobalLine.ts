@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-global-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGlobalLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22ZM9.71 19.67C8.75 17.63 8.16 15.37 8.03 13H4.06C4.46 16.18 6.72 18.77 9.71 19.67ZM10.03 13C10.18 15.44 10.88 17.73 12 19.75C13.12 17.73 13.82 15.44 13.97 13H10.03ZM19.94 13H15.97C15.84 15.37 15.25 17.63 14.29 19.67C17.28 18.77 19.54 16.18 19.94 13ZM4.06 11H8.03C8.16 8.63 8.75 6.37 9.71 4.33C6.72 5.23 4.46 7.82 4.06 11ZM10.03 11H13.97C13.82 8.56 13.12 6.27 12 4.25C10.88 6.27 10.18 8.56 10.03 11ZM14.29 4.33C15.25 6.37 15.84 8.63 15.97 11H19.94C19.54 7.82 17.28 5.23 14.29 4.33Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGlobalLine;

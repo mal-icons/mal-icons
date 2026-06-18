@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiFolderZipFill = createIcon("0 0 24 24", [["path",{"d":"M21 5C21.55 5 22 5.45 22 6V20C22 20.55 21.55 21 21 21H3C2.45 21 2 20.55 2 20V4C2 3.45 2.45 3 3 3H10.41L12.41 5H16V7H18V5H21ZM18 13H16V15H14V18H18V13ZM16 11H14V13H16V11ZM18 9H16V11H18V9ZM16 7H14V9H16V7Z"}]]);
+
+export default RiFolderZipFill;

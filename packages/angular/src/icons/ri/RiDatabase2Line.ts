@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-database-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDatabase2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5 12.5C5 12.81 5.46 13.36 6.53 13.89C7.91 14.58 9.88 15 12 15C14.12 15 16.09 14.58 17.47 13.89C18.54 13.36 19 12.81 19 12.5V10.33C17.35 11.35 14.83 12 12 12C9.17 12 6.65 11.35 5 10.33V12.5ZM19 15.33C17.35 16.35 14.83 17 12 17C9.17 17 6.65 16.35 5 15.33V17.5C5 17.81 5.46 18.36 6.53 18.89C7.91 19.58 9.88 20 12 20C14.12 20 16.09 19.58 17.47 18.89C18.54 18.36 19 17.81 19 17.5V15.33ZM3 17.5V7.5C3 5.01 7.03 3 12 3C16.97 3 21 5.01 21 7.5V17.5C21 19.99 16.97 22 12 22C7.03 22 3 19.99 3 17.5ZM12 10C14.12 10 16.09 9.58 17.47 8.89C18.54 8.36 19 7.81 19 7.5C19 7.19 18.54 6.64 17.47 6.11C16.09 5.42 14.12 5 12 5C9.88 5 7.91 5.42 6.53 6.11C5.46 6.64 5 7.19 5 7.5C5 7.81 5.46 8.36 6.53 8.89C7.91 9.58 9.88 10 12 10Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDatabase2Line;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-walletconnect",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWalletconnect {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.91 7.52c3.92-3.83 10.26-3.83 14.17 0l0.470.46a0.480.48 0 0 1 0 0.69l-1.61 1.58a0.250.25 0 0 1-0.35 0l-0.65-0.63c-2.73-2.67-7.16-2.67-9.89 0l-0.690.68a0.260.26 0 0 1-0.35 0L4.4 8.72a0.480.48 0 0 1 0-0.69l0.52-0.51Zm17.51 3.26 1.43 1.4a0.480.48 0 0 1 0 0.69l-6.47 6.33a0.510.51 0 0 1-0.71 0l-4.59-4.49a0.130.13 0 0 0-0.18 0l-4.59 4.49a0.510.51 0 0 1-0.71 0L0.15 12.88a0.480.48 0 0 1 0-0.69l1.43-1.4a0.510.51 0 0 1 0.71 0l4.59 4.49c0.050.050.130.050.18 0l4.59-4.49a0.510.51 0 0 1 0.71 0l4.59 4.49c0.050.050.130.050.18 0l4.59-4.49a0.510.51 0 0 1 0.71 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWalletconnect;

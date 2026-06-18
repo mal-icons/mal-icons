@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-reddit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiReddit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.37 0 0 5.37 0 12c0 3.31 1.34 6.31 3.52 8.49l-2.29 2.29C0.78 23.23 1.1 24 1.74 24H12c6.63 0 12-5.37 12-12S18.63 0 12 0Zm4.39 3.2c1.1 0 20.9 2 2 0 1.11-0.89 2-2 2-0.95 0-1.74-0.66-1.95-1.54v0c-1.150.16-2.03 1.15-2.03 2.34v0.01c1.780.07 3.40.57 4.69 1.360.47-0.36 1.06-0.58 1.71-0.58 1.55 0 2.8 1.25 2.8 2.8 0 1.12-0.65 2.08-1.6 2.53-0.09 3.26-3.64 5.88-8 5.88-4.36 0-7.9-2.62-8-5.87-0.95-0.45-1.61-1.41-1.61-2.54 0-1.55 1.25-2.8 2.8-2.80.65 0 1.240.22 1.710.59 1.27-0.79 2.88-1.29 4.64-1.36v-0.01c0-1.66 1.26-3.03 2.88-3.210.19-0.910.99-1.59 1.96-1.59Zm-8.09 8.38c-0.78 0-1.460.78-1.51 1.8-0.05 1.020.64 1.43 1.43 1.430.79 0 1.37-0.37 1.42-1.380.05-1.02-0.55-1.84-1.34-1.84Zm7.41 0c-0.79 0-1.380.82-1.34 1.840.05 1.020.63 1.39 1.42 1.390.79 0 1.47-0.41 1.43-1.43-0.05-1.02-0.72-1.8-1.51-1.8Zm-3.7 4.01c-0.97 0-1.910.05-2.770.14-0.150.02-0.240.17-0.180.310.48 1.15 1.62 1.96 2.95 1.96 1.33 0 2.47-0.81 2.95-1.960.06-0.14-0.04-0.29-0.18-0.3-0.86-0.09-1.79-0.13-2.77-0.13Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiReddit;

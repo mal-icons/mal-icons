@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-assemblyscript",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAssemblyscript {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 0v24h24V0h-9.22c0 1.41-1.04 2.81-2.76 2.81A2.77 2.77 0 19.23 0zm18.2 10.95c0.71 0 1.310.14 1.820.410.520.260.960.72 1.33 1.36l-1.73 1.11c-0.19-0.34-0.39-0.58-0.62-0.73a1.42 1.42 0 0-0.81-0.22c-0.33 0-0.590.09-0.780.27a0.90.9 0 0-0.280.68c0 0.340.110.60.320.780.220.170.570.36 1.050.57l0.550.24c0.470.20.890.41 1.250.630.370.210.680.450.920.730.250.260.440.570.570.920.140.340.210.740.21 1.2a3 3 0 1-0.28 1.33c-0.180.38-0.430.7-0.760.97a3.42 3.42 0 1-1.170.6c-0.440.13-0.930.19-1.460.19a5.31 5.31 0 1-1.41-0.17 4.62 4.62 0 1-1.14-0.47 3.92 3.92 0 1-0.89-0.71 4.48 4.48 0 1-0.6-0.9L16.1 18.67c0.240.390.530.710.860.970.340.250.780.38 1.330.380.46 0 0.83-0.1 1.09-0.30.28-0.210.41-0.470.41-0.79 0-0.38-0.14-0.66-0.43-0.85-0.28-0.19-0.68-0.4-1.19-0.62l-0.55-0.24a8.12 8.12 0 1-1.09-0.55 3.64 3.64 0 1-0.84-0.7 2.89 2.89 0 1-0.54-0.9 3.38 3.38 0 1-0.19-1.19c0-0.410.07-0.80.22-1.15a2.91 2.91 0 1.65-0.93c0.28-0.260.63-0.47 1.03-0.620.4-0.150.85-0.22 1.35-0.22zm-8.80.03h0.19l4.92 10.86h-2.33l-0.51-1.22H7.32l-0.51 1.22H4.68zm0.06 3.99a22.21 22.21 0 1-0.210.7l-0.20.65a6.98 6.98 0 1-0.220.59l-0.78 1.87h2.83l-0.78-1.87a15.49 15.49 0 1-0.24-0.63 23.74 23.74 0 1-0.41-1.3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAssemblyscript;

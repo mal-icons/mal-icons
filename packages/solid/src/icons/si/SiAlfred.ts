@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiAlfred = createIcon("0 0 24 24", [["path",{"d":"m0 15.9c0-1.14 1.13-2.18 3-2.98v-1.83c0-4.14 4.03-7.5 9-7.5s9 3.36 9 7.5v1.83c1.870.79 3 1.84 3 2.98 0 2.49-5.37 4.5-12 4.5s-12-2.01-12-4.5z"}]]);
+
+export default SiAlfred;

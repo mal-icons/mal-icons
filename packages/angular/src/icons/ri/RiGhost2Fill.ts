@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-ghost-2-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGhost2Fill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C15.5 2 18 5 19 8C22 9 23 11.73 23 14L20.23 14.79C19.8 14.92 19.5 15.31 19.5 15.75V17.25C19.5 18.22 18.72 19 17.75 19H17.15C16.48 19 15.86 19.34 15.49 19.9C14.56 21.3 13.4 22 12 22C10.6 22 9.44 21.3 8.51 19.9C8.14 19.34 7.52 19 6.85 19H6.25C5.28 19 4.5 18.22 4.5 17.25V15.75C4.5 15.31 4.2 14.92 3.77 14.79L1 14C1 11.73 2 9 5 8C6 5 8.5 2 12 2ZM12 12C11.17 12 10.5 13.12 10.5 14.5C10.5 15.88 11.17 17 12 17C12.83 17 13.5 15.88 13.5 14.5C13.5 13.12 12.83 12 12 12ZM9.5 8C8.67 8 8 8.67 8 9.5C8 10.33 8.67 11 9.5 11C10.33 11 11 10.33 11 9.5C11 8.67 10.33 8 9.5 8ZM14.5 8C13.67 8 13 8.67 13 9.5C13 10.33 13.67 11 14.5 11C15.33 11 16 10.33 16 9.5C16 8.67 15.33 8 14.5 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGhost2Fill;

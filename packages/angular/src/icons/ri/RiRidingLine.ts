@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-riding-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiRidingLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.5 21C3.01 21 1 18.99 1 16.5C1 14.01 3.01 12 5.5 12C7.99 12 10 14.01 10 16.5C10 18.99 7.99 21 5.5 21ZM5.5 19C6.88 19 8 17.88 8 16.5C8 15.12 6.88 14 5.5 14C4.12 14 3 15.12 3 16.5C3 17.88 4.12 19 5.5 19ZM18.5 21C16.01 21 14 18.99 14 16.5C14 14.01 16.01 12 18.5 12C20.99 12 23 14.01 23 16.5C23 18.99 20.99 21 18.5 21ZM18.5 19C19.88 19 21 17.88 21 16.5C21 15.12 19.88 14 18.5 14C17.12 14 16 15.12 16 16.5C16 17.88 17.12 19 18.5 19ZM11.02 10.31L13 12V18H11V13L8.28 10.73C8.18 10.67 8.09 10.59 8 10.5C7.22 9.72 7.22 8.45 8 7.67L10.83 4.84C11.61 4.06 12.88 4.06 13.66 4.84L15.07 6.26C16.17 7.36 17.55 8.02 18.99 8.23L18.98 10.25C17.03 10.02 15.15 9.16 13.66 7.67L11.02 10.31ZM16 5C14.9 5 14 4.1 14 3C14 1.9 14.9 1 16 1C17.1 1 18 1.9 18 3C18 4.1 17.1 5 16 5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiRidingLine;

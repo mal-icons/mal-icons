@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiArrowRightUpBoxFill = createIcon("0 0 24 24", [["path",{"d":"M4 3C3.45 3 3 3.45 3 4V20C3 20.55 3.45 21 4 21H20C20.55 21 21 20.55 21 20V4C21 3.45 20.55 3 20 3H4ZM16 8V16.41L12.5 12.91L8.71 16.71L7.29 15.29L11.09 11.5L7.59 8H16Z"}]]);
+
+export default RiArrowRightUpBoxFill;

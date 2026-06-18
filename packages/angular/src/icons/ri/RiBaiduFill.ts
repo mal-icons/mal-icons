@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-baidu-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBaiduFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.93 12.5C7.99 12.05 7.71 9.59 7.65 9.05C7.55 8.22 6.57 6.77 5.24 6.88C3.57 7.03 3.33 9.44 3.33 9.44C3.1 10.56 3.87 12.94 5.93 12.5ZM8.12 16.78C8.06 16.96 7.92 17.4 8.04 17.79C8.27 18.65 9.02 18.69 9.02 18.69H10.1V16.05H8.94C8.42 16.21 8.17 16.61 8.12 16.78ZM9.76 8.36C10.89 8.36 11.82 7.05 11.82 5.43C11.82 3.81 10.89 2.5 9.76 2.5C8.62 2.5 7.69 3.81 7.69 5.43C7.69 7.05 8.62 8.36 9.76 8.36ZM14.66 8.56C16.18 8.75 17.16 7.13 17.36 5.9C17.56 4.67 16.57 3.24 15.5 2.99C14.42 2.75 13.07 4.48 12.94 5.6C12.8 6.98 13.14 8.36 14.66 8.56ZM14.66 12C12.8 9.1 10.15 10.28 9.26 11.76C8.38 13.24 7.01 14.17 6.81 14.42C6.61 14.66 3.97 16.09 4.55 18.7C5.14 21.31 7.21 21.26 7.21 21.26C7.21 21.26 8.73 21.41 10.49 21.02C12.26 20.62 13.78 21.11 13.78 21.11C13.78 21.11 17.9 22.49 19.03 19.84C20.16 17.18 18.39 15.8 18.39 15.8C18.39 15.8 16.04 13.97 14.66 12ZM8.65 19.75C7.5 19.52 7.04 18.73 6.98 18.6C6.92 18.46 6.59 17.83 6.77 16.75C7.27 15.13 8.69 15.01 8.69 15.01H10.12V13.26L11.34 13.27V19.75H8.65ZM13.24 19.74C12.05 19.43 11.99 18.58 11.99 18.58V15.17L13.24 15.14V18.21C13.32 18.54 13.73 18.6 13.73 18.6H15V15.17H16.33V19.74H13.24ZM20.7 10.62C20.7 10.04 20.21 8.26 18.39 8.26C16.57 8.26 16.33 9.94 16.33 11.12C16.33 12.25 16.43 13.83 18.69 13.78C20.95 13.73 20.7 11.22 20.7 10.62Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBaiduFill;

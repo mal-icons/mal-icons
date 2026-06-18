@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-aliens-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiAliensFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C16.69 2 20.5 5.81 20.5 10.5C20.5 17 15 22.5 12 22.5C9 22.5 3.5 17 3.5 10.5C3.5 5.81 7.31 2 12 2ZM17.5 12C15.01 12 13 14.01 13 16.5C13 16.66 13.01 16.82 13.03 16.98C13.18 16.99 13.34 17 13.5 17C15.99 17 18 14.99 18 12.5C18 12.34 17.99 12.18 17.97 12.02C17.82 12.01 17.66 12 17.5 12ZM6.5 12C6.34 12 6.18 12.01 6.02 12.03C6.01 12.18 6 12.34 6 12.5C6 14.99 8.01 17 10.5 17C10.66 17 10.82 16.99 10.98 16.97C10.99 16.82 11 16.66 11 16.5C11 14.01 8.99 12 6.5 12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiAliensFill;

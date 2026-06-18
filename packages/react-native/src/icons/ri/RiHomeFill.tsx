@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiHomeFill = createIcon("0 0 24 24", [["path",{"d":"M21 20C21 20.55 20.55 21 20 21H4C3.45 21 3 20.55 3 20V9.49C3 9.18 3.14 8.89 3.39 8.7L11.39 2.48C11.75 2.2 12.25 2.2 12.61 2.48L20.61 8.7C20.86 8.89 21 9.18 21 9.49V20Z"}]]);
+
+export default RiHomeFill;

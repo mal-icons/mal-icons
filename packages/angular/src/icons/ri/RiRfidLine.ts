@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-rfid-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiRfidLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.36 18.36C21.88 14.85 21.88 9.15 18.36 5.64L19.78 4.22C24.07 8.52 24.07 15.48 19.78 19.78L18.36 18.36ZM5.64 5.64C2.12 9.15 2.12 14.85 5.64 18.36L4.22 19.78C-0.07 15.48 -0.07 8.52 4.22 4.22L5.64 5.64ZM15.54 15.54C17.49 13.58 17.49 10.42 15.54 8.46L16.95 7.05C19.68 9.78 19.68 14.22 16.95 16.95L15.54 15.54ZM8.46 8.46C6.51 10.42 6.51 13.58 8.46 15.54L7.05 16.95C4.32 14.22 4.32 9.78 7.05 7.05L8.46 8.46ZM12 14C13.1 14 14 13.1 14 12C14 10.9 13.1 10 12 10C10.9 10 10 10.9 10 12C10 13.1 10.9 14 12 14Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiRfidLine;

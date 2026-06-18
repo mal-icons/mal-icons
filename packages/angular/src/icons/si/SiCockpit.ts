@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-cockpit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCockpit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm0 1.8A10.19 10.19 0 0 1 22.21 12 10.19 10.19 0 0 1 12 22.2 10.19 10.19 0 0 1 1.8 12 10.19 10.19 0 0 1 12 1.8zm4.02 5.29c-0.49-0.02-1.230.37-1.9 1.03l-1.44 1.43-4.31-1.45-0.840.87 3.25 2.47-0.730.72a4.75 4.75 0 0 0-0.640.79L7.45 12.8l-0.480.48 1.95 1.44 1.42 1.940.48-0.48-0.14-1.98c0.25-0.160.5-0.360.74-0.6l0.77-0.76 2.5 3.270.87-0.84-1.45-4.33 1.39-1.38c0.89-0.88 1.3-1.920.92-2.32a0.550.55 0 0 0-0.39-0.16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCockpit;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-diaspora",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDiaspora {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.26 21.93l-2.33-3.25c-0.62-0.87-1.13-1.55-1.15-1.55-0.03 0-1.01 1.32-2.32 3.12-1.25 1.71-2.28 3.12-2.29 3.12-0.04 0-4.5-3.14-4.51-3.18-0.01-0.02 1-1.5 2.24-3.29 1.24-1.79 2.25-3.29 2.25-3.32 0-0.06-0.4-0.2-3.55-1.25a1604.93 1604.93 0 0 1-3.59-1.2c-0.03-0.010.15-0.630.79-2.650.46-1.450.85-2.640.86-2.660.01-0.01 1.710.53 3.77 1.21 2.060.68 3.77 1.23 3.79 1.230.02 0 0.05-0.030.05-0.070.01-0.040.03-1.790.04-3.90.01-2.110.04-3.850.05-3.870.02-0.030.6-0.04 2.73-0.04 1.49 0 2.720.01 2.740.020.020.020.06 1.180.13 3.780.11 4.270.12 4.330.18 4.330.03 0 1.66-0.55 3.63-1.22 1.97-0.67 3.59-1.2 3.61-1.190.040.05 1.66 5.31 1.64 5.33-0.010.01-1.660.57-3.65 1.25-2.750.93-3.64 1.24-3.64 1.28-0.010.030.94 1.44 2.14 3.2 1.18 1.73 2.15 3.16 2.14 3.18-0.010.04-4.44 3.3-4.48 3.3-0.01 0-0.58-0.77-1.25-1.7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDiaspora;

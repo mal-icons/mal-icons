@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sogou",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSogou {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.8 22.74L17.79 24c1.56-0.68 2.93-1.62 4.05-2.85l-0.95-1.32c-1.11 1.29-2.47 2.28-4.08 2.91h-0.01zM12 22.2c-5.77 0-10.45-4.62-10.45-10.35C1.55 6.15 6.23 1.53 12 1.53s10.46 4.65 10.46 10.35c0 2.55-0.95 4.89-2.51 6.69l0.95 1.26C22.8 17.73 24 14.94 24 11.88 24 5.3 18.63 0 12 0S0 5.31 0 11.85c0 6.57 5.37 11.88 12 11.88 1.71 0 3.33-0.35 4.8-0.99l-0.96-1.26c-1.20.45-2.490.72-3.840.72zM18 12.65c-2.25-1.86-5.34-2.1-7.8-3.56-0.75-0.48-0.15-1.390.6-1.42 2.7-0.45 5.370.63 7.89 1.5l0.15-2.65c-3.15-1.14-6.57-1.87-9.9-1.35-1.20.3-2.40.68-3.25 1.56-1.17 1.2-0.96 3.360.39 4.32 2.24 1.76 5.18 2.01 7.62 3.360.960.390.56 1.68-0.39 1.77-2.920.56-5.8-0.72-8.32-2.1-0.03 1.02-0.06 2.01-0.06 3 3.2 1.41 6.75 2.07 10.2 1.53 1.17-0.22 2.37-0.6 3.23-1.45 1.23-1.2 1.11-3.51-0.33-4.5H18z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSogou;

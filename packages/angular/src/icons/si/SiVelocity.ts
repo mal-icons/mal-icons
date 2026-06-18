@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-velocity",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiVelocity {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m7.62 6.72-4.750.96a0.650.65 0 0 0-0.440.32L0.08 12.25a0.650.65 0 0 0 0.050.7l2.99 4.08a0.660.66 0 0 0 0.660.26l4.74-0.96a0.650.65 0 0 0 0.36-0.21h11.69a0.540.54 0 0 0 0-1.08h-2.95a0.530.53 0 0 1-0.39-0.150.550.55 0 0 1 0-0.780.550.55 0 0 1 0.39-0.15h5.88a0.530.53 0 0 0 0.51-0.33v-0.42a0.530.53 0 0 0-0.51-0.33h-9.79a0.550.55 0 0 1-0.54-0.540.540.54 0 0 1 0.54-0.54h5.85a0.540.54 0 0 0 0.53-0.540.540.54 0 0 0-0.52-0.54H15.68a0.540.54 0 1 1 0-1.08h5.86a0.550.55 0 0 0 0.52-0.540.540.54 0 0 0-0.52-0.54H9.42L8.28 6.97a0.650.65 0 0 0-0.66-0.25M7.58 7.77a0.530.53 0 0 1 0.210.72l-1.45 2.63a0.880.88 0 0 0 0.060.95L8.1 14.39a0.530.53 0 0 1-0.850.62l-1.71-2.33a0.880.88 0 0 0-0.88-0.34l-2.90.59a0.520.52 0 0 1-0.62-0.410.530.53 0 0 1 0.41-0.62l3.14-0.63a0.90.9 0 0 0 0.6-0.44l1.58-2.84a0.520.52 0 0 1 0.72-0.21m13.61 2.92a0.540.54 0 1 00 1.080.540.54 0 0 0 0-1.08"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiVelocity;

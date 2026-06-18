@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-iceland",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiIceland {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.74 13.92c-0.94 0-1.26-0.42-1.33-0.77L9 12.59c0-1.88-1.15-2.23-1.88-2.23-0.94 0-1.990.7-1.99 2.2 0 1.330.91 2.16 2.41 2.160.45 0 0.94-0.1 1.22-0.21l-0.14-0.7c-0.240.07-0.590.1-0.870.1zm-0.63-2.76c0.38 0 0.660.280.70.84l-1.50.31c0.03-0.730.31-1.150.8-1.15zm6.07-0.8c-0.66 0-1.260.17-1.60.28 0 0.040.140.70.170.770.38-0.140.91-0.24 1.26-0.240.56 0 0.80.170.80.56v0.17c-1.74 0-2.480.63-2.48 1.43 0 0.910.8 1.4 1.95 1.40.77 0 1.4-0.14 1.67-0.21v-2.72c0.03-0.98-0.56-1.43-1.78-1.43zm0.63 3.52c-0.10.03-0.310.03-0.420.03-0.38 0-0.84-0.17-0.84-0.63 0-0.450.38-0.7 1.22-0.66v1.26zm9-4.6v1.19c-0.14-0.03-0.31-0.07-0.59-0.07-1.01 0-2.090.7-2.09 2.2 0 1.330.87 2.13 2.3 2.130.59 0 1.29-0.1 1.57-0.17V9.28Zm0 4.64c-0.10.03-0.240.03-0.310.03-0.73 0-1.15-0.52-1.15-1.4 0-0.660.28-1.36 1.08-1.360.1 0 0.310.030.380.03zM0 9.28h1.08v5.23H0Zm3.98 5.44c-1.22 0-2.02-0.84-2.02-2.06 0-1.330.87-2.27 2.06-2.270.28 0 0.630.070.840.17l-0.210.73c-0.14-0.03-0.31-0.1-0.45-0.1-0.66 0-1.120.56-1.12 1.4 0 0.840.42 1.33 1.05 1.330.17 0 0.42-0.030.63-0.1l0.170.73c-0.210.07-0.630.17-0.940.17zM9.63 9.28h1.08v5.23H9.63ZM19.5 14.51h-1.15v-2.69c0-0.56-0.28-0.7-0.7-0.7-0.21 0-0.450.03-0.630.07v3.31h-1.15v-3.94c0.28-0.07 1.12-0.21 1.81-0.21 1.26 0 1.810.45 1.81 1.4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiIceland;

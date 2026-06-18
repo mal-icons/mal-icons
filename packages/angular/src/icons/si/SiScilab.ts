@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-scilab",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiScilab {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.81 1.8c-1.1 0-1.990.89-1.99 1.99v16.41c0 1.10.89 1.99 1.99 1.99h16.38c1.1 0 1.99-0.89 1.99-1.99V3.79c0-1.1-0.89-1.99-1.99-1.99zm8.82 1.23a1.8 1.83 0 0 1 1.8 1.82 1.8 1.83 0 0 1-1.8 1.83A1.8 1.83 0 0 1 10.83 4.86a1.8 1.83 0 0 1 1.8-1.82Zm2.99 3.5a1.8 1.83 0 0 1 1.8 1.83 1.8 1.83 0 0 1-1.8 1.83 1.8 1.83 0 0 1-1.8-1.82 1.8 1.83 0 0 1 1.8-1.83Zm-7.350.26a1.8 1.83 0 0 1 1.8 1.82 1.8 1.83 0 0 1-1.8 1.83 1.8 1.83 0 0 1-1.8-1.83 1.8 1.83 0 0 1 1.8-1.82Zm3.98 2.63a1.8 1.83 0 0 1 1.8 1.83 1.8 1.83 0 0 1-1.8 1.82 1.8 1.83 0 0 1-1.8-1.82 1.8 1.83 0 0 1 1.8-1.83zm7.040.05a1.8 1.83 0 0 1 1.8 1.83 1.8 1.83 0 0 1-1.8 1.82 1.8 1.83 0 0 1-1.8-1.82 1.8 1.83 0 0 1 1.8-1.83zm-3.4 2.54a1.8 1.83 0 0 1 1.8 1.83 1.8 1.83 0 0 1-1.8 1.82 1.8 1.83 0 0 1-1.8-1.82 1.8 1.83 0 0 1 1.8-1.83zm-11.610.95a1.8 1.83 0 0 1 1.8 1.83 1.8 1.83 0 0 1-1.8 1.82 1.8 1.83 0 0 1-1.8-1.82 1.8 1.83 0 0 1 1.8-1.83Zm15.520.93a1.8 1.83 0 0 1 1.8 1.82 1.8 1.83 0 0 1-1.8 1.83 1.8 1.83 0 0 1-1.8-1.83 1.8 1.83 0 0 1 1.8-1.82zM7.81 15.67a1.8 1.83 0 0 1 1.8 1.82 1.8 1.83 0 0 1-1.8 1.83 1.8 1.83 0 0 1-1.8-1.83 1.8 1.83 0 0 1 1.8-1.82ZM3.56 0A3.56 3.56 0 0 0 0 3.56v16.87A3.56 3.56 0 0 0 3.56 24h16.87A3.56 3.56 0 0 0 24 20.44V3.56A3.56 3.56 0 0 0 20.44 0Zm0 1.02h16.88a2.54 2.54 0 0 1 2.54 2.54v16.88a2.54 2.54 0 0 1-2.54 2.54H3.56a2.54 2.54 0 0 1-2.54-2.54V3.56a2.54 2.54 0 0 1 2.54-2.54z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiScilab;

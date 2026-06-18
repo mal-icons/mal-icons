@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-roon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRoon {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.29 9.2c0.14-0.020.23-0.170.23-0.32a0.310.31 0 0 0-0.18-0.3s-0.09-0.06-0.58-0.06C1.06 8.52 0 9.6 0 11.34v3.8a0.360.36 0 0 0 0.71 0v-3.8c0-1.380.85-2.19 2.14-2.140.0900.340.020.440zm17.89-0.69c-1.64 0-2.83 1.19-2.83 2.83v3.8a0.360.36 0 1 0 0.71 0v-3.8c0-1.220.89-2.11 2.12-2.11 1.22 0 2.110.89 2.11 2.11v3.8a0.360.36 0 1 0 0.71 0v-3.8c0-1.64-1.19-2.83-2.82-2.83Zm-6.9 0c-1.84 0-3.33 1.58-3.33 3.52 0 1.91 1.49 3.47 3.33 3.47 1.84 0 3.34-1.56 3.34-3.47 0-1.94-1.5-3.52-3.34-3.52zm2.62 3.52c0 1.53-1.18 2.78-2.62 2.78-1.44 0-2.62-1.25-2.62-2.78 0-1.56 1.18-2.83 2.62-2.83 1.44 0 2.62 1.27 2.62 2.83zM6.87 8.5c-1.84 0-3.33 1.58-3.33 3.52 0 1.91 1.49 3.47 3.33 3.47 1.84 0 3.34-1.56 3.34-3.47 0-1.94-1.5-3.52-3.34-3.52zm2.62 3.52c0 1.53-1.18 2.78-2.62 2.78-1.44 0-2.62-1.25-2.62-2.78 0-1.56 1.18-2.83 2.62-2.83 1.44 0 2.62 1.27 2.62 2.83z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRoon;

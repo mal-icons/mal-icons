@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-t-shirt-air-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiTShirtAirFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.71 17.79C13.53 18.62 14.29 19 15 19C15.38 19 15.68 18.93 16.23 18.72L16.63 18.57C17.68 18.15 18.21 18 19 18C20.21 18 21.38 18.54 22.48 19.58L22.71 19.79L21.29 21.21C20.46 20.38 19.7 20 19 20C18.62 20 18.32 20.07 17.76 20.28L17.37 20.43C16.32 20.85 15.79 21 15 21C13.78 21 12.62 20.46 11.51 19.42L11.29 19.21L12.71 17.79ZM9 3C9 4.66 10.34 6 12 6C13.65 6 15 4.66 15 3H21C21.55 3 22 3.45 22 4V11C22 11.55 21.55 12 21 12H12C10.94 12 10.08 12.82 10 13.85L10 14V21H6C5.45 21 5 20.55 5 20L5 12L3 12C2.45 12 2 11.55 2 11V4C2 3.45 2.45 3 3 3H9ZM12.71 13.79C13.53 14.62 14.29 15 15 15C15.38 15 15.68 14.93 16.23 14.72L16.63 14.57C17.68 14.15 18.21 14 19 14C20.21 14 21.38 14.54 22.48 15.58L22.71 15.79L21.29 17.21C20.46 16.38 19.7 16 19 16C18.62 16 18.32 16.07 17.76 16.28L17.37 16.43C16.32 16.85 15.79 17 15 17C13.78 17 12.62 16.46 11.51 15.42L11.29 15.21L12.71 13.79Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiTShirtAirFill;

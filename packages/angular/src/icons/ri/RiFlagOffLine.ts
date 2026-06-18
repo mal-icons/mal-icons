@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-flag-off-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiFlagOffLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.59 18L21.19 22.61L22.61 21.19L2.81 1.39L1.39 2.81L3 4.41V22H5V16H12L12.72 17.45C12.89 17.79 13.24 18 13.62 18H16.59ZM14.59 16H14.24L13.89 15.3L14.59 16ZM12.59 14H5V6.41L12.59 14ZM21 6V16.76L19 14.76V7H12.76L11.76 5H9.24L7.24 3H12.38C12.76 3 13.11 3.21 13.28 3.55L14 5H20C20.55 5 21 5.45 21 6Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiFlagOffLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-mendeley",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMendeley {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 9.17h0.02a2.36 2.36 0 11.5 4.17 1.81 1.81 0 1-0.860.45 2.35 2.35 0 1-0.650.09h-0.02c-0.22 0-0.44-0.03-0.65-0.09a1.81 1.81 0 1-0.86-0.45 2.35 2.35 0 1-0.85-1.81 2.36 2.36 0 12.36-2.35m-9.97 9.47c1.270.16 2.39-0.76 2.51-2.06a2.44 2.44 0 0-0.21-1.24c-1.77-3.89 6.97-3.98 5.49-0.31l-0.010.02c-0.7 1.12-0.32 2.570.84 3.240.430.250.90.35 1.360.330.460.020.94-0.08 1.36-0.33 1.16-0.67 1.54-2.120.84-3.24l-0.01-0.02c-1.48-3.67 7.27-3.58 5.490.31a2.45 2.45 0 0-0.21 1.24c0.12 1.3 1.24 2.22 2.51 2.06a2.35 2.35 0 1.42-0.74s0.59-0.490.58-1.73c-0.01-1.02-0.58-1.58-0.58-1.58a2.21 2.21 0 0-1.81-0.65c-1.62-0.04-1.86-1.31-1.41-3.70.17-0.430.24-0.880.23-1.34a3.42 3.42 0 0-2.13-3.3c-0.04-0.02-0.08-0.03-0.12-0.05a1.51 1.51 0 0-0.13-0.05 3.42 3.42 0 0-4 1.45c-0.820.9-1.19 1.44-2.03 1.44-0.8 0-1.21-0.54-2.03-1.44a3.41 3.41 0 0-4.14-1.41c-0.040.02-0.080.03-0.120.05a3.42 3.42 0 0-2.13 3.3c-0.020.460.060.910.23 1.340.46 2.40.22 3.67-1.4 3.7-0.79-0.09-1.390.24-1.990.84-0.60.6-0.55 2.21 0 2.910.40.510.940.86 1.60.95"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMendeley;

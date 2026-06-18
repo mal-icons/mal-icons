@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-streamrunners",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiStreamrunners {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.57 12.74a0.850.85 0 0 0 0-1.48l-12.66-7.31c-0.69-0.4-1.510.29-1.23 1.04l0.98 2.59c0.110.28-0.10.58-0.40.58H7.55c-0.66 0-1.270.32-1.660.86L3.63 12.21h8.55c0.02 0 0.030.020.030.04-0.85 2.25-1.69 4.51-2.54 6.76-0.280.750.53 1.44 1.23 1.04zM0 17.05a0.010.01 0 0 0 0 0.01h8.3a0.640.64 0 0 0 0.61-0.45l0.66-2.13a0.640.64 0 0 0-0.61-0.83l-6.80.02a0.080.08 0 0 0-0.070.04C1.39 14.810.69 15.93 0 17.05Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiStreamrunners;

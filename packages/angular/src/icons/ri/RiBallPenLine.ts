@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-ball-pen-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBallPenLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.85 11.7L17.14 10.99L7.24 20.89H3V16.65L14.31 5.33L19.97 10.99C20.36 11.38 20.36 12.01 19.97 12.41L12.9 19.48L11.49 18.06L17.85 11.7ZM15.73 9.58L14.31 8.16L5 17.48V18.89H6.41L15.73 9.58ZM18.56 2.51L21.38 5.33C21.78 5.72 21.78 6.36 21.38 6.75L19.97 8.16L15.73 3.92L17.14 2.51C17.53 2.12 18.17 2.12 18.56 2.51Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBallPenLine;

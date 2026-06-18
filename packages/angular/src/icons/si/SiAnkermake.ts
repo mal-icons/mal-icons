@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ankermake",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAnkermake {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m12.35 10.46 3.08 3.12c0.190.190.190.42 0 0.61l-3.12 3.12c-0.190.19-0.420.19-0.61 0L8.57 14.19c-0.19-0.19-0.19-0.42 0-0.61l3.17-3.12c0.19-0.190.42-0.190.61 0Zm-1.58-1.58c0.140.190.140.42-0.050.61l-3.12 3.12c-0.190.19-0.420.19-0.61 0l-1.72-1.72v12.68H0V0.44h2.33l8.44 8.44ZM21.720.44H24v23.11h-5.27V10.88l-1.72 1.72c-0.190.19-0.420.19-0.61 0l-3.12-3.12c-0.19-0.19-0.19-0.42 0-0.6L21.720.44Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAnkermake;

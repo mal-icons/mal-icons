@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-vk-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiVkFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.26 4.26C3 5.53 3 7.57 3 11.64V12.36C3 16.43 3 18.46 4.26 19.74C5.53 21 7.57 21 11.64 21H12.36C16.43 21 18.46 21 19.74 19.74C21 18.47 21 16.43 21 12.36V11.64C21 7.57 21 5.54 19.74 4.26C18.47 3 16.43 3 12.36 3H11.64C7.57 3 5.54 3 4.26 4.26ZM6.04 8.48H8.1C8.17 11.91 9.68 13.36 10.88 13.66V8.48H12.82V11.44C14 11.31 15.25 9.96 15.67 8.47H17.6C17.44 9.24 17.13 9.97 16.67 10.62C16.22 11.26 15.64 11.8 14.97 12.21C15.72 12.58 16.38 13.11 16.91 13.76C17.44 14.41 17.83 15.16 18.05 15.97H15.92C15.46 14.54 14.32 13.44 12.82 13.29V15.97H12.58H12.58C8.47 15.97 6.13 13.16 6.04 8.48Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiVkFill;

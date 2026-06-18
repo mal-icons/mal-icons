@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-fontbase",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFontbase {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.08 14c-2.7-2.77-5.7-5.7-8.1-8.1-1.62-1.62-4.28-1.62-5.94 0-2.97 2.96-5.25 5.21-8.1 8.07a3.12 3.12 0 0 0 0 4.44 3.12 3.12 0 0 0 4.44 0l2.2-2.2 2.2 2.2a3.12 3.12 0 0 0 4.44 0 3.12 3.12 0 0 0 0-4.44l4.4 4.4a3.12 3.12 0 0 0 4.44 0c1.27-1.16 1.27-3.160.04-4.36z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFontbase;

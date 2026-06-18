@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiTravestiFill = createIcon("0 0 24 24", [["path",{"d":"M7.54 9.95L4.66 7.08L2.19 9.55L0.77 8.14L7.14 1.77L8.55 3.19L6.08 5.66L8.95 8.54C10.21 7.57 11.79 7 13.5 7C17.64 7 21 10.36 21 14.5C21 18.64 17.64 22 13.5 22C9.36 22 6 18.64 6 14.5C6 12.79 6.57 11.21 7.54 9.95Z"}]]);
+
+export default RiTravestiFill;

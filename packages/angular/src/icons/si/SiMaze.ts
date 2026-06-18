@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-maze",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMaze {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.13 16.55c-1.5-1.49-1.5-3.9 0-5.39l4.08-4.04c1.27-1.26 3.21-1.45 4.68-0.580.460.270.450.890.08 1.26-0.380.37-0.990.34-1.50.19-0.65-0.19-1.39-0.03-1.90.48l-4.08 4.04a1.89 1.89 0 0 0 0 2.69c0.750.74 1.970.74 2.72 0l8.16-8.08c1.5-1.49 3.94-1.49 5.44 0l4.08 4.04c1.5 1.49 1.5 3.9 0 5.39-1.5 1.49-3.94 1.49-5.44 0l-1.36-1.35-1.7 1.68c-1.27 1.26-3.2 1.45-4.680.58-0.46-0.27-0.45-0.89-0.08-1.260.38-0.370.99-0.34 1.5-0.190.650.19 1.390.03 1.9-0.48l1.75-1.73c0.72-0.72 1.9-0.72 2.62 0l1.41 1.4c0.750.74 1.970.74 2.72 0a1.89 1.89 0 0 0 0-2.69l-4.08-4.04c-0.75-0.74-1.97-0.74-2.72 0L6.56 16.55c-1.5 1.49-3.94 1.49-5.44 0"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMaze;

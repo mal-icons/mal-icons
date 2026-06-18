@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-copilot-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCopilotFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.66 14.48C8.66 13.93 9.11 13.48 9.66 13.48 10.22 13.48 10.66 13.93 10.66 14.48V16.48C10.66 17.03 10.22 17.48 9.66 17.48 9.11 17.48 8.66 17.03 8.66 16.48V14.48ZM15.34 14.48C15.34 13.93 14.89 13.48 14.34 13.48 13.78 13.48 13.33 13.93 13.33 14.48V16.48C13.33 17.03 13.78 17.48 14.34 17.48 14.89 17.48 15.34 17.03 15.34 16.48V14.48ZM12 4.03C11.15 2.81 9.4 2.72 8.05 2.84 6.51 2.99 5.21 3.52 4.48 4.3 3.21 5.69 3.15 8.6 3.77 10.19 3.7 10.47 3.65 10.75 3.6 11.04 2.47 11.34 1.32 12.94 1.32 14.08V16.24C1.32 16.84 1.6 17.39 2.09 17.77 4.92 19.86 8.44 21.49 12 21.49 15.56 21.49 19.08 19.86 21.9 17.77 22.4 17.39 22.68 16.84 22.68 16.24V14.08C22.68 12.94 21.53 11.34 20.4 11.04 20.35 10.75 20.3 10.47 20.23 10.19 20.85 8.6 20.79 5.69 19.52 4.3 18.79 3.52 17.49 2.99 15.94 2.84 14.6 2.72 12.84 2.81 12 4.03ZM18.67 17.49C17.14 18.34 14.59 19.49 12 19.49 9.41 19.49 6.86 18.34 5.33 17.49V11.69C7.8 12.65 10.65 12.15 12 9.93H12C13.35 12.15 16.2 12.65 18.67 11.69V17.49ZM10.66 6.83C10.66 8.41 10.18 10.14 7.99 10.14 5.8 10.14 5.39 9.62 5.39 8.14 5.39 5.81 5.74 4.81 8.7 4.81 10.41 4.81 10.66 5.36 10.66 6.83ZM13.33 6.83C13.33 5.36 13.58 4.81 15.3 4.81 18.25 4.81 18.61 5.81 18.61 8.14 18.61 9.62 18.19 10.14 16 10.14 13.81 10.14 13.33 8.41 13.33 6.83Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCopilotFill;

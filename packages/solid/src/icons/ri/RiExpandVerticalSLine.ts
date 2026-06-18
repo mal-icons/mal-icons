@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiExpandVerticalSLine = createIcon("0 0 24 24", [["path",{"d":"M16.95 7.45L12 2.5L7.05 7.45L8.47 8.86L11 6.33L11 17.67L8.46 15.14L7.05 16.55L12 21.5L16.95 16.55L15.54 15.14L13 17.67L13 6.33L15.54 8.86L16.95 7.45Z"}]]);
+
+export default RiExpandVerticalSLine;

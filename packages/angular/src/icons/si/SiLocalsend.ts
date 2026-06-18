@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-localsend",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLocalsend {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.54 12.02A6.46 6.46 0 0 1 12 5.56a6.46 6.46 0 0 1 6.46 6.45A6.46 6.46 0 0 1 12 18.39a6.46 6.46 0 0 1-6.46-6.37zM22.53 6.26a1.85 1.85 0 0 1-2.47-0.42 10.22 10.22 0 0 0-1.88-1.87 1.84 1.84 0 0 1-0.42-2.47 12.05 12.05 0 0 1 4.77 4.76zm-18.59-0.42a1.85 1.85 0 0 1-2.470.42 12.05 12.05 0 0 1 4.77-4.76 1.84 1.84 0 0 1-0.42 2.47 10.22 10.22 0 0 0-1.88 1.88ZM24 12.02c0 1.14-0.16 2.28-0.48 3.37a1.84 1.84 0 0 1-1.45-2.04c0.12-0.880.12-1.77 0-2.65a1.84 1.84 0 0 1 1.45-2.04c0.32 1.10.48 2.230.48 3.37zm-24 0c0-1.140.16-2.270.48-3.37a1.84 1.84 0 0 1 1.45 2.04c-0.110.88-0.11 1.77 0 2.65a1.84 1.84 0 0 1-1.45 2.04A11.97 11.97 0 0 1 0 12.01Zm17.76 10.52a1.84 1.84 0 0 1 0.42-2.47 10.22 10.22 0 0 0 1.88-1.87 1.85 1.85 0 0 1 2.47-0.42 12.05 12.05 0 0 1-4.77 4.76zm-11.52 0a12.05 12.05 0 0 1-4.77-4.76 1.85 1.85 0 0 1 2.470.42 10.22 10.22 0 0 0 1.88 1.87c0.770.590.95 1.660.42 2.47zM12 24a12.01 12.01 0 0 1-3.37-0.48 1.85 1.85 0 0 1 2.05-1.45c0.880.12 1.780.12 2.66 0a1.85 1.85 0 0 1 2.05 1.45c-1.10.32-2.230.48-3.370.48Zm1.51-22.06c-0.94-0.14-1.89-0.1-2.83-0.01A1.85 1.85 0 0 1 8.630.48 12.01 12.01 0 0 1 12 0h0c1.140 2.280.16 3.370.48a1.85 1.85 0 0 1-1.87 1.46z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLocalsend;

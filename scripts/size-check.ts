@@ -22,7 +22,9 @@ const LIMIT_BYTES = 2800; // 2.8 KB gzipped (headroom over the largest detailed 
  * include the dense Tux mascot (VscTerminalLinux ~3.85 KB) whose detailed
  * geometry is irreducible. Game Icons (`gi`) are highly detailed single-path
  * illustrations whose densest glyphs (e.g. GiAbstract066 ~9.3 KB gzip) carry
- * irreducible geometry, so the set gets a larger ceiling. Every other set
+ * irreducible geometry, so the set gets a larger ceiling. Simple Icons (`si`)
+ * are real-world brand logos whose most intricate marks (e.g. SiElsevier
+ * ~17 KB, SiComposer ~12 KB gzip) have irreducible geometry. Every other set
  * stays on the strict {@link LIMIT_BYTES} budget.
  */
 const SET_LIMIT_BYTES: Record<string, number> = {
@@ -30,6 +32,7 @@ const SET_LIMIT_BYTES: Record<string, number> = {
   dev: 52000,
   gi: 10000,
   gr: 5000,
+  si: 18000,
   vsc: 4000,
 };
 const ICONS_ROOT = join(process.cwd(), "packages", "react", "src", "icons");

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiMap2Fill = createIcon("0 0 24 24", [["path",{"d":"M2 5L9 2L15 5L21.3 2.3C21.56 2.19 21.85 2.31 21.96 2.56C21.99 2.62 22 2.69 22 2.76V19L15 22L9 19L2.7 21.7C2.44 21.81 2.15 21.69 2.04 21.44C2.01 21.38 2 21.31 2 21.24V5ZM15 19.76V7.18L14.94 7.2L9 4.24V16.82L9.06 16.8L15 19.76Z"}]]);
+
+export default RiMap2Fill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-chessdotcom",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiChessdotcom {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0a3.85 3.85 0 0 0-3.87 3.85A3.84 3.84 0 0 0 9.73 6.97l-2.79 1.85c0 0.620.14 1.110.43 1.65H9.83c-0.010.25-0.010.55-0.010.93 0 0.0300.050.010.07-0.06 1.35-0.51 3.47-3.62 5.84-0.820.63-1.42 1.5-1.81 2.53a0.330.33 0 0 0-0.040.08 8.12 8.12 0 0 0-0.39 2.52c0 0.10.22 1.56 8.04 1.56s8.04-1.46 8.04-1.56c0-2.23-0.82-4.05-2.24-5.13-4.03-3.08-3.59-5.74-3.64-6.84h2.46c0.29-0.530.43-1.030.43-1.65l-2.79-1.84a3.86 3.86 0 0 0 1.6-3.12A3.87 3.87 0 0 0 13.450.28c00-0.010-0.010A3.76 3.76 0 0 0 12 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiChessdotcom;

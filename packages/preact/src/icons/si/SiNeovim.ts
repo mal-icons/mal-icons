@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiNeovim = createIcon("0 0 24 24", [["path",{"d":"M2.21 4.95v13.62L7.66 24V10.31L3.31 3.85 2.21 4.95zm5 17.98l-4.56-4.55V5.14l0.59-0.6 3.97 5.91v12.49zm14.57-4.46l-0.860.94-4.24-6.38V0l5.07 5.090.03 13.39zM7.430l13 19.84-3.64 3.64L3.79 3.68 7.43 0z"}]]);
+
+export default SiNeovim;

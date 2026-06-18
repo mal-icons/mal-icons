@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiRoblox = createIcon("0 0 24 24", [["path",{"d":"M18.93 24 0 18.89 5.080 24 5.11ZM15.35 10.09l-5.28-1.45-1.41 5.27 5.28 1.45z"}]]);
+
+export default SiRoblox;

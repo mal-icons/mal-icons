@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-pronounsdotpage",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPronounsdotpage {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.99 5.14c0.06-0.10.01-0.18-0.11-0.18l-2.050a0.410.41 0 0 0-0.320.18l-5.03 8.5c-0.7 1.16-1.68 1.41-2.62 1.3-1.61-0.2-2.48-1.38-2.48-2.96a2.88 2.88 0 0 1 2.88-2.88h3.19c0.12 0 0.26-0.080.32-0.18l1.15-2.01c0.06-0.10.01-0.18-0.11-0.18H5.25A5.26 5.26 0 0 0 0 11.98c0 1.40.55 2.91 1.54 3.90.980.97 2.29 1.33 3.69 1.360.790.01 2.96-0.01 3.97-1.82a18678.91 18678.91 0 0 1 5.79-10.28Zm7.47 2.98c-0.98-0.97-2.29-1.33-3.69-1.36-0.79-0.01-2.960.01-3.97 1.82-1.14 2.02-5.79 10.28-5.79 10.28-0.060.1-0.010.190.110.19l2.050a0.410.41 0 0 0 0.32-0.18l5.03-8.5c0.7-1.16 1.68-1.41 2.62-1.3 1.620.2 2.48 1.38 2.48 2.96a2.88 2.88 0 0 1-2.88 2.88h-3.19a0.410.41 0 0 0-0.320.18l-1.15 2.01c-0.060.1-0.010.180.110.18h4.56A5.26 5.26 0 0 0 24 12.02c0-1.4-0.55-2.91-1.54-3.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPronounsdotpage;

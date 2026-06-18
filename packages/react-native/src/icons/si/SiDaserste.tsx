@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiDaserste = createIcon("0 0 24 24", [["path",{"d":"M11.650.01C5.160.20 5.57 0 12.130.14 18.72 5.47 24 12 24s11.87-5.28 12-11.87C24 5.29 18.41-0.19 11.650.01zm5.14 4.93V16.96L8.78 19.92v-9.08l-3.9 1.39V9.26l11.9-4.33z"}]]);
+
+export default SiDaserste;

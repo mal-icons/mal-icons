@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-apple",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiApple {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.15 6.9c-0.95 0-2.41-1.08-3.96-1.04-2.040.03-3.91 1.18-4.96 3.01-2.12 3.68-0.55 9.1 1.52 12.09 1.01 1.45 2.21 3.09 3.79 3.04 1.52-0.06 2.09-0.99 3.94-0.99 1.83 0 2.350.99 3.960.95 1.64-0.03 2.68-1.48 3.68-2.95 1.16-1.69 1.64-3.32 1.66-3.41-0.04-0.01-3.18-1.22-3.22-4.86-0.03-3.04 2.48-4.49 2.6-4.56-1.43-2.09-3.62-2.32-4.39-2.38-2-0.16-3.67 1.09-4.61 1.09zM15.53 3.83c0.84-1.01 1.4-2.43 1.25-3.83-1.210.05-2.660.81-3.53 1.82-0.780.9-1.45 2.34-1.27 3.71 1.340.1 2.72-0.69 3.56-1.7"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiApple;

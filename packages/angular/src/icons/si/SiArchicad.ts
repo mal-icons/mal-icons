@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-archicad",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiArchicad {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.59 16.32c-0.78 0-1.41-0.63-1.41-1.41 0-0.780.63-1.41 1.41-1.41S24 14.13 24 14.91c0 0.78-0.63 1.41-1.41 1.41zM0.15 19.83c-0.350.7-0.07 1.540.63 1.890.70.35 1.540.07 1.89-0.63 0 0 7.85-16.01 14.25-16.15 4.23-0.09 4.23 5.64 4.23 5.64 0 0.780.63 1.41 1.41 1.41s1.41-0.63 1.41-1.41c0 0 0.06-8.38-7.02-8.46C8.76 1.870.15 19.830.15 19.83z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiArchicad;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-commitlint",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCommitlint {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.99 4.82v0.9h1.85v6.34c0 0.810.19 1.430.56 1.880.380.440.910.66 1.60.66h1.46v-0.97H12.11c-0.37 0-0.65-0.13-0.84-0.39-0.19-0.26-0.28-0.65-0.28-1.17V4.82ZM3.46 7.42c-1.08 0-1.930.33-2.550.98C0.3 9.04 0 9.94 0 11.1c0 1.150.3 2.050.91 2.70.610.65 1.460.98 2.550.98a3.67 3.67 0 0 0 1-0.14c0.33-0.090.65-0.220.96-0.4V13.04c-0.270.26-0.560.45-0.880.58a3 3 0 0 1-1.080.18c-0.72 0-1.27-0.23-1.66-0.7-0.39-0.47-0.58-1.14-0.58-2 0-0.870.2-1.530.58-20.39-0.470.94-0.7 1.66-0.70.39 0 0.730.06 1.040.18a3.1 3.1 0 0 1 0.920.59V7.96a4.26 4.26 0 0 0-0.97-0.41 3.74 3.74 0 0 0-0.99-0.13Zm12.86 6.12v1.13H24V13.54zm3.16 2.26-2.3 3.38h1.3l1.69-2.2 1.68 2.2h1.3l-2.3-3.38z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCommitlint;

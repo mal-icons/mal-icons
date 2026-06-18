@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-signal-tower-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSignalTowerLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.12 20.09L7.13 18.35C5.23 16.89 4 14.59 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 14.59 18.77 16.89 16.87 18.35L17.88 20.09C20.38 18.27 22 15.32 22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 15.32 3.62 18.27 6.12 20.09ZM8.15 16.6C6.84 15.5 6 13.85 6 12C6 8.69 8.69 6 12 6C15.31 6 18 8.69 18 12C18 13.85 17.16 15.5 15.85 16.6L14.82 14.84C15.55 14.11 16 13.11 16 12C16 9.79 14.21 8 12 8C9.79 8 8 9.79 8 12C8 13.11 8.45 14.11 9.18 14.84L8.15 16.6ZM11 13H13V22H11V13Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSignalTowerLine;

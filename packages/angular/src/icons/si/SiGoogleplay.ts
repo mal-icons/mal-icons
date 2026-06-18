@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-googleplay",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGoogleplay {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.02 13.3l-3.92 2.22-3.51-3.49 3.54-3.52 3.89 2.2a1.49 1.49 0 0 1 0 2.59zM1.340.92a1.49 1.49 0 0 0-0.110.57v21.02c0 0.220.050.420.120.6l11.16-11.09L1.340.92zm12.21 10.07l3.26-3.24L3.450.2a1.47 1.47 0 0 0-0.95-0.18l11.04 10.97zm0 2.07l-11 10.93c0.30.040.61-0.020.91-0.18l13.32-7.54-3.23-3.21z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGoogleplay;

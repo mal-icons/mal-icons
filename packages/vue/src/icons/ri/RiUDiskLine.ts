@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiUDiskLine = createIcon("0 0 24 24", [["path",{"d":"M19 12H5V20H19V12ZM5 10V2H19V10H20C20.55 10 21 10.45 21 11V21C21 21.55 20.55 22 20 22H4C3.45 22 3 21.55 3 21V11C3 10.45 3.45 10 4 10H5ZM7 10H17V4H7V10ZM9 6H11V8H9V6ZM13 6H15V8H13V6Z"}]]);
+
+export default RiUDiskLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-japanairlines",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiJapanairlines {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.140.03a12 12 0 0 0-8.79 4.84 9.34 9.34 0 0 0 1.35 7.820.010.01 0 1 1-0.020.02A8.23 8.23 0 0 1 1.6 6.06c0-0.02-0.01-0.02-0.02-0.01A11.88 11.88 0 0 0 0.36 9.07a8.76 8.76 0 0 0 2.42 5.360.020.02 0 0 1-0.020.02A7.17 7.17 0 0 1 0.13 10.4c0-0.02-0.02-0.02-0.02 0a12.13 12.13 0 0 0-0.06 2.66 7.22 7.22 0 0 0 2.19 3.15c0.020.0100.04-0.020.03a6.51 6.51 0 0 1-1.95-1.78c-0.01-0.01-0.02-0.01-0.020.01a12 12 0 0 0 23.48 0c0-0.01-0.01-0.02-0.02-0.01a6.5 6.5 0 0 1-1.96 1.78c-0.020.01-0.03-0.01-0.02-0.03a7.22 7.22 0 0 0 2.2-3.15h0.01a12.13 12.13 0 0 0-0.06-2.66c0-0.02-0.02-0.02-0.02 0a7.17 7.17 0 0 1-2.64 4.040.020.02 0 0 1-0.02-0.02 8.76 8.76 0 0 0 2.42-5.36 11.88 11.88 0 0 0-1.22-3.02c-0.01-0.01-0.02-0.01-0.020.01a8.23 8.23 0 0 1-2.08 6.660.010.01 0 1 1-0.02-0.02 9.34 9.34 0 0 0 1.35-7.82A12 12 0 0 0 11.140.03zm0.040.31a7.72 7.72 0 0 1 6.24 13.17l00c-2.45 2.39-6.120.86-5.74-2.070.29-2.26 3.06-4.51 5.16-5.73a0.020.02 0 0 0 0-0.03c-0.28-0.26-0.85-0.85-1.21-1.3a2.41 2.41 0 0 0-3.850.07l-6.030.56a0.020.02 0 0 0 0 0.04l6.470.37c1.150.06 1.52 1.110.42 1.94-4.11 3.11-4.84 6.41-3.92 9.02a0.020.02 0 0 1-0.030.01 5.3 5.3 0 0 1-0.81-1.88A7.72 7.72 0 0 1 11.180.35ZM9.12 17.34h1.64l-0.87 2.28a2.2 2.2 0 0 1-2.34 1.26 5.3 5.3 0 0 1-1.14-0.11l0.28-0.73c0.750.09 1.390.02 1.64-0.63zm3.87 0h1.46l0.33 3.43h-1.64l-0.02-0.68H11.64l-0.540.68h-1.35l2.74-3.18a0.70.7 0 0 1 0.5-0.25zm3.55 0h1.64l-1.04 2.7h2.08l-0.280.73h-3.71zm-3.471-0.88 1.1h0.92z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiJapanairlines;

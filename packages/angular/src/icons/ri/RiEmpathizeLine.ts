@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-empathize-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiEmpathizeLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.36 10.98C19.93 12.54 19.93 15.07 18.36 16.64L12.71 22.29C12.32 22.68 11.68 22.68 11.29 22.29L5.64 16.64C4.07 15.07 4.07 12.54 5.64 10.98C7.2 9.42 9.73 9.42 11.29 10.98L12 11.69L12.71 10.98C14.27 9.42 16.8 9.42 18.36 10.98ZM7.05 12.39C6.27 13.17 6.27 14.44 7.05 15.22L12 20.17L16.95 15.22C17.73 14.44 17.73 13.17 16.95 12.39C16.17 11.61 14.9 11.61 14.12 12.39L12 14.51L9.88 12.39C9.1 11.61 7.83 11.61 7.05 12.39ZM12 1C14.21 1 16 2.79 16 5C16 7.21 14.21 9 12 9C9.79 9 8 7.21 8 5C8 2.79 9.79 1 12 1ZM12 3C10.9 3 10 3.9 10 5C10 6.1 10.9 7 12 7C13.1 7 14 6.1 14 5C14 3.9 13.1 3 12 3Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiEmpathizeLine;

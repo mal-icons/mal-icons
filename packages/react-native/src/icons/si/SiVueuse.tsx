@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiVueuse = createIcon("0 0 24 24", [["path",{"d":"M0.880v12.87C0.88 19.02 5.86 24 12 24s11.12-4.98 11.12-11.13V0h-9.22v12.87c0 2.54-3.81 2.54-3.81 0V0Zm4.61 1h3.61v11.87C9.09 14.56 10.35 15.79 12 15.79s2.91-1.24 2.91-2.92V1h3.61v11.87a6.52 6.52 0 0 1-13.03 0z"}]]);
+
+export default SiVueuse;

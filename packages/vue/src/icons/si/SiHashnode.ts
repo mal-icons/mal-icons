@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiHashnode = createIcon("0 0 24 24", [["path",{"d":"M22.35 8.02l-6.37-6.37a5.63 5.63 0 0 0-7.96 0l-6.37 6.37a5.63 5.63 0 0 0 0 7.96l6.37 6.37a5.63 5.63 0 0 0 7.96 0l6.37-6.37a5.63 5.63 0 0 0 0-7.96zM12 15.95a3.95 3.95 0 1 1 0-7.91 3.95 3.95 0 0 1 0 7.91z"}]]);
+
+export default SiHashnode;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiUserFollowFill = createIcon("0 0 24 24", [["path",{"d":"M13 14.06V22H4C4 17.58 7.58 14 12 14C12.34 14 12.67 14.02 13 14.06ZM12 13C8.69 13 6 10.32 6 7C6 3.69 8.69 1 12 1C15.32 1 18 3.69 18 7C18 10.32 15.32 13 12 13ZM17.79 19.91L21.33 16.38L22.74 17.79L17.79 22.74L14.26 19.21L15.67 17.79L17.79 19.91Z"}]]);
+
+export default RiUserFollowFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-primevue",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPrimevue {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m6.41 0-2.56 2.57 3.850.37L8.880.23l2.66 6.88v0l0.350.90.38-0.93v0L14.75 1.09v0l0.27-0.67 1.1 2.51 3.85-0.37L17.41 0H8.98Zm2.39 1.72L8.07 3.46l-2.89-0.22-3.72-0.3 1.1 4.58L7.84 9.48l0.010.03 2.560.94h0.24l00h0.88V8.8Zm6.280.16L12.28 8.68v1.76h1.01l000.240h0.03l00h0.02l2.38-0.880.01-0.02 5.47-2.03 1.1-4.58-4.040.32-2.750.21zM2.74 8.24v6.23l4.4 3.66v-5.68l1.28-1.83-1.650.37-2.02-2.01Zm18.33 0-2.020.73-2.02 2.01-1.65-0.37 1.28 1.83v5.68l4.4-3.66zM9.14 10.6l-0.30.490.010.02-1.15 1.72v8.24l1.1 1.65L10.08 24h3.67l1.28-1.28 1.1-1.65V12.82l-1.15-1.720.01-0.02-0.18-0.24-0.15-0.22-0.010.01-0.02-0.03-0.790.49h-3.65zm-4.38 6.26v2.38l2.38 2.38V18.87zm14.29 0L16.67 18.87v2.75l2.38-2.38z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPrimevue;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-jetpackcompose",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiJetpackcompose {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.140a2.58 2.58 0 0 0-1.420.34L2.55 5.06a2.58 2.58 0 0 0-0.950.97l3.96 2.17a1.77 1.77 0 0 1 0.6-0.59l4.95-2.86a1.76 1.76 0 0 1 1.76 0l4.95 2.86a1.75 1.75 0 0 1 0.530.46l3.92-2.26a2.58 2.58 0 0 0-0.82-0.74L13.290.35a2.58 2.58 0 0 0-1.15-0.34Zm-0.14 4.91a1.36 1.36 0 0 0-0.680.18L6.36 7.95a1.35 1.35 0 0 0-0.450.44l1.92 1.06a1.05 1.05 0 0 1 0.31-0.28l3.34-1.93a1.05 1.05 0 0 1 1.05 0l3.34 1.93a1.07 1.07 0 0 1 0.240.2l0.02-0.0100 1.88-1.08a1.35 1.35 0 0 0-0.37-0.32l-4.95-2.86a1.36 1.36 0 0 0-0.68-0.18Zm10.43 1.15-3.92 2.26a1.76 1.76 0 0 1 0.20.81v5.72c0 0.63-0.33 1.21-0.88 1.53l-4.95 2.86a1.76 1.76 0 0 1-0.640.21v4.52a2.58 2.58 0 0 0 1.06-0.31l8.16-4.71a2.58 2.58 0 0 0 1.29-2.23V7.3a2.58 2.58 0 0 0-0.32-1.23Zm-20.940.24a2.58 2.58 0 0 0-0.230.99v9.43c0 0.920.49 1.77 1.29 2.23l8.16 4.71a2.57 2.57 0 0 0 1.230.34v-4.53a1.76 1.76 0 0 1-0.83-0.23L6.16 16.38a1.77 1.77 0 0 1-0.88-1.53V9.14a1.78 1.78 0 0 1 0.13-0.68Zm16.67 2.22-1.89 1.09a1.06 1.06 0 0 1 0.120.46v3.86c0 0.38-0.20.72-0.530.91l-3.34 1.93a1.04 1.04 0 0 1-0.290.11v2.17c0.15-0.030.3-0.080.44-0.16l4.95-2.86a1.36 1.36 0 0 0 0.68-1.18V9.14a1.36 1.36 0 0 0-0.15-0.61Zm-12.390.13a1.36 1.36 0 0 0-0.090.48v5.72a1.36 1.36 0 0 0 0.68 1.18l4.95 2.86c0.190.110.410.170.630.18v-2.17a1.05 1.05 0 0 1-0.46-0.12L8.14 14.84a1.05 1.05 0 0 1-0.53-0.91v-3.85a0.990.99 0 0 1 0.08-0.38l-0.03-0.01z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiJetpackcompose;

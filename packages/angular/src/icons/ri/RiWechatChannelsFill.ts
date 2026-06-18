@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-wechat-channels-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiWechatChannelsFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.19 3.18C20.36 2.71 21.35 3.16 21.87 4.46C23.26 7.94 20 21.13 17.44 21.13C16.61 21.13 15.78 20.44 14.82 19.21C14.38 18.65 13.93 17.98 13.46 17.23C13.09 16.63 12.72 16 12.37 15.36L12 14.69L11.98 14.72C11.53 15.58 11.04 16.43 10.54 17.23C10.07 17.98 9.62 18.65 9.18 19.21C8.22 20.44 7.39 21.13 6.56 21.13C4 21.13 0.74 7.94 2.13 4.46C2.65 3.16 3.64 2.71 4.81 3.18C5.65 3.52 6.58 4.34 7.62 5.56C8.23 6.28 8.88 7.14 9.55 8.11C10.28 9.18 11.01 10.33 11.68 11.47L12 12.01L12.32 11.47C12.86 10.55 13.43 9.64 14.01 8.76L14.45 8.11C15.12 7.14 15.76 6.28 16.38 5.56C17.42 4.34 18.35 3.52 19.19 3.18ZM4.32 4.35C3.83 4.15 3.58 4.27 3.32 4.92C2.86 6.07 3.05 8.95 3.73 12.19L3.89 12.91L4.06 13.64C4.92 17.1 6.15 19.87 6.56 19.87C6.84 19.87 7.45 19.36 8.17 18.43C8.58 17.91 9.01 17.28 9.45 16.57C9.82 15.99 10.17 15.37 10.52 14.75L10.93 13.99L11.28 13.32L10.92 12.68L10.58 12.11C9.92 10.99 9.21 9.87 8.49 8.82C7.85 7.89 7.23 7.06 6.64 6.37C5.73 5.3 4.93 4.6 4.32 4.35ZM20.68 4.92C20.42 4.27 20.17 4.15 19.68 4.35C19.07 4.6 18.27 5.3 17.36 6.37C16.77 7.06 16.15 7.89 15.51 8.82C14.93 9.66 14.36 10.54 13.82 11.44L13.25 12.4L12.72 13.32L12.9 13.66L13.14 14.13C13.59 14.96 14.06 15.79 14.55 16.57C14.99 17.28 15.42 17.91 15.83 18.43C16.55 19.36 17.16 19.87 17.44 19.87C17.85 19.87 19.08 17.1 19.94 13.64L20.11 12.91C20.91 9.39 21.17 6.15 20.68 4.92Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiWechatChannelsFill;

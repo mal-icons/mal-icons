@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-heart-pulse-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiHeartPulseLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.5 3C19.54 3 22 5.5 22 9C22 16 14.5 20 12 21.5C10.02 20.31 4.92 17.56 2.87 13L1 13V11L2.21 11C2.07 10.36 2 9.7 2 9C2 5.5 4.5 3 7.5 3C9.36 3 11 4 12 5C13 4 14.64 3 16.5 3ZM16.5 5C15.42 5 14.26 5.57 13.41 6.41L12 7.83L10.59 6.41C9.74 5.57 8.58 5 7.5 5C5.56 5 4 6.66 4 9C4 9.69 4.09 10.35 4.27 11L6.43 11L8.5 7.56L11.5 12.56L12.43 11H17V13H13.57L11.5 16.44L8.5 11.44L7.57 13L5.11 13C5.9 14.37 7.09 15.67 8.65 16.9C9.39 17.5 10.18 18.05 11.07 18.6C11.36 18.79 11.66 18.97 12 19.18C12.34 18.97 12.64 18.79 12.93 18.6C13.82 18.05 14.61 17.5 15.35 16.9C18.33 14.53 20 11.94 20 9C20 6.64 18.46 5 16.5 5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiHeartPulseLine;

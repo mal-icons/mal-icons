@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-tripdotcom",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTripdotcom {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.83 9c-0.68 0-1.290.31-1.710.8v-0.51h-1.71v8.35h1.9v-2.92c0.420.340.940.55 1.520.55 1.68 0 3.04-1.4 3.04-3.13s-1.36-3.13-3.04-3.13zm-0.19 4.52c-0.73 0-1.33-0.62-1.33-1.38s0.6-1.38 1.33-1.38c0.73 0 1.330.62 1.33 1.39s-0.59 1.39-1.33 1.39zm6.360.61a1.14 1.14 0 1 1-2.28 0 1.14 1.14 0 0 1 2.28 0zM13.21 7.43a1.06 1.06 0 1 1-2.12 0 1.06 1.06 0 0 1 2.13 0zm-2.01 1.86h1.9v5.69h-1.9V9.29zM6.83 8.23H4.36v6.75H2.47V8.23H0V6.63h6.83v1.59zm3.04 1.03c0.13 0 0.260.010.380.03v1.74a1.55 1.55 0 0 0-0.3-0.03c-0.88 0-1.590.61-1.59 1.59v2.39H6.45V9.29h1.71v0.9c0.36-0.560.99-0.93 1.71-0.93z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTripdotcom;

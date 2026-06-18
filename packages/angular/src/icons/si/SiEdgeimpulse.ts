@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-edgeimpulse",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiEdgeimpulse {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.01 10.29h4.51l1.35 3.53h-5.86c-0.98 0-1.77-0.79-1.77-1.77s0.79-1.77 1.77-1.77v0ZM0.68 12.05a1.77 1.77 0 0 1 1.77-1.77h8.6a1.77 1.77 0 0 1 1.77 1.77c0 0.98-0.79 1.77-1.77 1.77H2.45c-0.98 0-1.77-0.79-1.77-1.77ZM24 19.61H4.45a2.52 2.52 0 0 1-1.930.9A2.51 2.51 0 0 1 0 18a2.51 2.51 0 0 1 2.52-2.51c0.78 0 1.470.35 1.930.9h18.32L24 19.61ZM19.59 7.66H4.4a2.51 2.51 0 0 1-1.890.85A2.51 2.51 0 0 1 0 6a2.51 2.51 0 0 1 2.52-2.51c0.8 0 1.510.37 1.970.95h13.88l1.23 3.22Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiEdgeimpulse;

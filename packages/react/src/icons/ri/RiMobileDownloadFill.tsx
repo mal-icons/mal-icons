@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiMobileDownloadFill = createIcon("0 0 24 24", [["path",{"d":"M12 6C12 4.46 12.58 3.06 13.53 2H6C5.45 2 5 2.45 5 3V21C5 21.55 5.45 22 6 22H18C18.55 22 19 21.55 19 21V11.92C18.67 11.97 18.34 12 18 12C14.69 12 12 9.31 12 6ZM12 17C12.55 17 13 17.45 13 18C13 18.55 12.55 19 12 19C11.45 19 11 18.55 11 18C11 17.45 11.45 17 12 17ZM22 6H19V2H17V6H14L18 10L22 6Z"}]]);
+
+export default RiMobileDownloadFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-headspace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHeadspace {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.97 11.86c0.28 3.89-1.53 6.09-2.62 7.64-1.69 1.79-3.84 4.22-9.29 4.36-4.620.18-6.9-1.85-8.8-3.62-2.49-2.73-3.14-4.35-3.26-8.38-0.01-2.470.94-4.93 2.6-7.1C4.93 1.47 8.640.37 12.060.14c3.59-0.14 6.45 1.67 8.4 3.62 2.5 2.63 3.26 4.89 3.51 8.09Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHeadspace;

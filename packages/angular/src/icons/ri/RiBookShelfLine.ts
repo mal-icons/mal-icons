@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-book-shelf-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBookShelfLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 3C3.45 3 3 3.45 3 4V20C3 20.55 3.45 21 4 21H14C14.55 21 15 20.55 15 20V15.3L16 20C16.11 20.54 16.65 20.88 17.19 20.77L21.1 19.94C21.64 19.82 21.98 19.29 21.87 18.75L18.96 5.06C18.84 4.52 18.31 4.17 17.77 4.29L14.99 4.88C14.93 4.38 14.51 4 14 4H10C10 3.45 9.55 3 9 3H4ZM10 6H13V14H10V6ZM10 19V16H13V19H10ZM8 5V15H5V5H8ZM8 17V19H5V17H8ZM17.33 16.65L19.29 16.23L19.7 18.19L17.75 18.61L17.33 16.65ZM16.92 14.69L15.25 6.87L17.21 6.45L18.87 14.28L16.92 14.69Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBookShelfLine;

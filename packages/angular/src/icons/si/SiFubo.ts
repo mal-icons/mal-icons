@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-fubo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFubo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.9 16.7H9.11v-0.29c-0.260.2-0.660.42-1.320.42-2.16 0-3-1.17-3-3.43V9.81h1.78v3.59c-0.010.62 0 1.78 1.28 1.78 1.24 0 1.25-1.1 1.25-1.76V9.81h1.78v6.9zM4.1 7.21c-1.96-0.22-2.410.23-2.760.7-0.320.41-0.360.99-0.36 1.4v0.5H0v1.65h1v5.24h1.78v-5.24h1.35V9.81h-1.31v-0.46c0-0.470.38-0.530.57-0.52l0.390.020.32-1.63zM24 13.26c0-1.98-1.59-3.59-3.56-3.59-0.83 0-1.60.29-2.210.780.380.440.680.970.85 1.54a1.71 1.71 0 0 1 1.34-0.67c0.98 0 1.770.86 1.77 1.92 0 1.06-0.79 1.92-1.76 1.92-0.97 0-1.76-0.85-1.76-1.9 0-0.91-0.33-1.75-0.88-2.38a3.45 3.45 0 0 0-2.62-1.21c-0.65 0-1.260.18-1.780.5V7.26l-1.780.35v9.1h1.78v-0.29c0.520.32 1.130.43 1.780.43a3.42 3.42 0 0 0 2.18-0.78 4.22 4.22 0 0 1-0.88-1.54c-0.320.43-0.80.7-1.340.7-0.96 0-1.75-0.88-1.75-1.97s0.78-1.97 1.75-1.97c0.97 0 1.750.89 1.75 1.98 0 1.98 1.6 3.59 3.57 3.59C22.4 16.85 24 15.24 24 13.26"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFubo;

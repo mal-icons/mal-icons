@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-taxi-wifi-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiTaxiWifiLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 3V7H6.24L4.24 11H22V21C22 21.55 21.55 22 21 22H20C19.45 22 19 21.55 19 21V20H5V21C5 21.55 4.55 22 4 22H3C2.45 22 2 21.55 2 21V11L4.45 6.11C4.79 5.43 5.48 5 6.24 5H9V3H12ZM20 13H4V18H20V13ZM6.5 14C7.33 14 8 14.67 8 15.5C8 16.33 7.33 17 6.5 17C5.67 17 5 16.33 5 15.5C5 14.67 5.67 14 6.5 14ZM17.5 14C18.33 14 19 14.67 19 15.5C19 16.33 18.33 17 17.5 17C16.67 17 16 16.33 16 15.5C16 14.67 16.67 14 17.5 14ZM18.5 1C20.99 1 23 3.01 23 5.5C23 7.99 20.99 10 18.5 10C16.01 10 14 7.99 14 5.5C14 3.01 16.01 1 18.5 1ZM18.5 6.17C18.01 6.17 17.56 6.34 17.21 6.64L17.09 6.75L18.5 8.17L19.91 6.75C19.55 6.39 19.05 6.17 18.5 6.17ZM18.5 3.5C17.3 3.5 16.2 3.96 15.37 4.7L15.2 4.87L16.14 5.81C16.75 5.21 17.58 4.83 18.5 4.83C19.34 4.83 20.11 5.15 20.7 5.66L20.86 5.81L21.8 4.87C20.96 4.02 19.79 3.5 18.5 3.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiTaxiWifiLine;

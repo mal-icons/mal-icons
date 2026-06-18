@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-arkecosystem",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiArkecosystem {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.8 0C0.81 0 0 0.81 0 1.8v20.4c0 10.81 1.8 1.8 1.8h20.4c1 0 1.8-0.8 1.8-1.8V1.8c0-0.99-0.8-1.8-1.8-1.8H1.8zm10.22 4.39l9.29 15.1-9.29-9.82-9.35 9.82 9.35-15.1zm0 7.58l1.63 1.69h-3.28l1.65-1.69zM9.31 14.76h5.41l1.5 1.57H7.81l1.5-1.57z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiArkecosystem;

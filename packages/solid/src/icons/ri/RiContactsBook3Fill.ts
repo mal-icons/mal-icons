@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiContactsBook3Fill = createIcon("0 0 24 24", [["path",{"d":"M4 2C3.45 2 3 2.45 3 3V5H5V7H2V9H5V11H2V13H5V15H2V17H5V19H3V21C3 21.55 3.45 22 4 22H20C20.55 22 21 21.55 21 21V3C21 2.45 20.55 2 20 2H4ZM9 16C9 14.34 10.34 13 12 13C13.66 13 15 14.34 15 16H9ZM12 12C10.9 12 10 11.1 10 10C10 8.9 10.9 8 12 8C13.1 8 14 8.9 14 10C14 11.1 13.1 12 12 12Z"}]]);
+
+export default RiContactsBook3Fill;

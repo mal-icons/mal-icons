@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-figma",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFigma {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.85 8.98h-4.59V0h4.59c2.48 0 4.49 2.01 4.49 4.49s-2.01 4.49-4.49 4.49zM12.74 7.51h3.12c1.67 0 3.02-1.35 3.02-3.02s-1.35-3.02-3.02-3.02h-3.12V7.51zm0 1.47H8.15c-2.48 0-4.49-2.01-4.49-4.49S5.67 0 8.15 0h4.59v8.98zm-4.59-7.51c-1.66 0-3.02 1.36-3.02 3.02s1.35 3.02 3.02 3.02h3.12V1.47H8.15zm4.59 15.02H8.15c-2.48 0-4.49-2.01-4.49-4.49s2.01-4.49 4.49-4.49h4.59v8.98zM8.15 8.98c-1.66 0-3.02 1.36-3.02 3.02s1.36 3.02 3.02 3.02h3.12V8.98H8.15zM8.17 24c-2.49 0-4.51-2.01-4.51-4.49s2.01-4.49 4.49-4.49h4.59v4.44c0 2.5-2.05 4.54-4.56 4.54zm-0.02-7.51a3.02 3.02 0 0 0-3.02 3.02c0 1.67 1.37 3.02 3.04 3.02 1.71 0 3.09-1.38 3.09-3.07v-2.97H8.15zm7.7 0h-0.1c-2.48 0-4.49-2.01-4.49-4.49s2.01-4.49 4.49-4.49h0.1c2.48 0 4.49 2.01 4.49 4.49s-2.01 4.49-4.49 4.49zm-0.1-7.51c-1.66 0-3.02 1.36-3.02 3.02s1.36 3.02 3.02 3.02h0.1c1.67 0 3.02-1.35 3.02-3.02s-1.35-3.02-3.02-3.02h-0.1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFigma;

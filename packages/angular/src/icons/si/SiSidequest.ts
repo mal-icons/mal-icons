@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sidequest",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSidequest {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M24 10.41 18.69 1.21H8.07l2.52 4.360.77 1.33-0.92 1.59H8.6l-0.77-1.33-2.52-4.36L0 12l5.31 9.2 2.52-4.360.77-1.33h1.84l0.92 1.59-0.77 1.33-2.52 4.36H18.69L24 13.59h-6.57l-0.92-1.590.92-1.59H24ZM5.29 5.33 6.27 7.03 4.76 9.64h6.33l3.17-5.49h-3.01l-0.98-1.7h7.05l-5.18 8.98H1.76l3.53-6.1Zm4.98 16.220.98-1.7h3.02l-3.17-5.49H4.76l1.51 2.61-0.98 1.7-3.52-6.1h10.37l1.36 2.36 3.82 6.62h-7.05Zm8.08-4.06 1.51-2.61h1.97l-3.52 6.1-3.11-5.38-2.08-3.6 2.46-4.26 2.73-4.72 3.53 6.1h-1.97l-1.5-2.61-3.17 5.49 3.17 5.49Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSidequest;

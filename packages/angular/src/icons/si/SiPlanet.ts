@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-planet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPlanet {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.89 6.58c-1.16 0-2.40.46-3.22 1.63h-0.03a1.59 1.59 0 0 0-1.59-1.59h-0.05v10.86a1.79 1.79 0 0 0 1.78 1.78v-4.7h0.03c0.340.57 1.29 1.54 3.19 1.54 2.86 0 4.57-2.35 4.57-4.640-2.42-1.62-4.88-4.69-4.88zm-0.07 7.98c-1.71 0-3.07-1.39-3.07-3.22 0-1.67 1.24-3.2 3.02-3.2 1.85 0 3.1 1.62 3.1 3.230 1.91-1.45 3.18-3.06 3.18zM12 24A12 12 0 1 1 24 12 12.01 12.01 0 0 1 12 24zm0-22.86a10.86 10.86 0 1 0 10.86 10.86 10.87 10.87 0 0 0-10.86-10.86z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPlanet;

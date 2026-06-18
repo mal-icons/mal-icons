@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiMedal2Fill = createIcon("0 0 24 24", [["path",{"d":"M12 8.5L14.12 13.59L19.61 14.03L15.42 17.61L16.7 22.97L12 20.1L7.3 22.97L8.58 17.61L4.39 14.03L9.88 13.59L12 8.5ZM8 2V11H6V2H8ZM18 2V11H16V2H18ZM13 2V7H11V2H13Z"}]]);
+
+export default RiMedal2Fill;

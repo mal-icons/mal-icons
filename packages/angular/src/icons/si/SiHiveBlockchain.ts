@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-hive-blockchain",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHiveBlockchain {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.08 1.64a0.10.1 0 0-0.090.05L0.01 11.95a0.10.1 0 0 0.1l6.04 10.26c0.040.070.140.070.18 0l5.97-10.26a0.10.1 0 00-0.1L6.17 1.69a0.10.1 0 0-0.09-0.05zm2.86 0c-0.08 0-0.130.09-0.090.15l5.19 8.97a0.110.11 0 0.090.05h3.12c0.08 0 0.13-0.090.09-0.16l-5.19-8.97a0.10.1 0 0-0.09-0.05H8.94zm5.89 0a0.10.1 0 0-0.090.15L20.66 12l-5.91 10.21a0.10.1 0 0.090.15h3.12a0.10.1 0 0.09-0.05l5.95-10.26a0.10.1 0 0-0.1L18.04 1.69a0.10.1 0 0-0.09-0.05H14.83zm-0.79 11.7a0.10.1 0 0-0.090.05l-5.1 8.82c-0.040.070.010.150.090.15h3.12a0.10.1 0 0.09-0.05l5.1-8.82a0.10.1 0 0-0.09-0.15h-3.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHiveBlockchain;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-riscv",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRiscv {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.950.05h16.95v6.21l-10.42 14.74-0.520.73-5.79-6.84c4.1-0.74 6.21-3.9 6.21-7.37 0-3.48-2.11-7.05-6.42-7.47zM1.48 13.42l8.74 10.53H0V3.42h5.47c2.95 0 4.42 2 4.42 4.11 0 2.11-1.48 4.21-4.42 4.21H1.48v1.69zm14.07 10.53H24V12.16l-7.69 10.74-0.77 1.05z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRiscv;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiKick = createIcon("0 0 24 24", [["path",{"d":"M1.33 0h8v5.33H12V2.67h2.67V0h8v8H20v2.67h-2.67v2.67H20V16h2.67v8h-8v-2.67H12v-2.67H9.33V24h-8Z"}]]);
+
+export default SiKick;

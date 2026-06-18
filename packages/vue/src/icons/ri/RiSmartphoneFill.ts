@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiSmartphoneFill = createIcon("0 0 24 24", [["path",{"d":"M6 2H18C18.55 2 19 2.45 19 3V21C19 21.55 18.55 22 18 22H6C5.45 22 5 21.55 5 21V3C5 2.45 5.45 2 6 2ZM12 17C11.45 17 11 17.45 11 18C11 18.55 11.45 19 12 19C12.55 19 13 18.55 13 18C13 17.45 12.55 17 12 17Z"}]]);
+
+export default RiSmartphoneFill;

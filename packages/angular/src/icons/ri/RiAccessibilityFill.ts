@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-accessibility-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiAccessibilityFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22ZM13.5 7C13.5 7.83 12.83 8.5 12 8.5C11.17 8.5 10.5 7.83 10.5 7C10.5 6.17 11.17 5.5 12 5.5C12.83 5.5 13.5 6.17 13.5 7ZM6.63 10.43L7.37 8.57C8.82 9.14 10.44 9.5 12 9.5C13.56 9.5 15.17 9.14 16.63 8.57C16.63 8.57 17.38 10.42 17.36 10.43C16.28 10.85 15.14 11.15 14 11.33C14 12.2 13.91 13.09 14.32 13.9L15.89 17.05L14.11 17.95L12.55 14.84C12.45 14.63 12.23 14.5 12 14.5C11.77 14.5 11.55 14.63 11.45 14.84L9.89 17.95L8.11 17.05L9.68 13.9C10.08 13.09 10 12.2 10 11.33C8.86 11.15 7.7 10.86 6.63 10.43Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiAccessibilityFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-git-fork-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGitForkFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 6C9 7.31 8.17 8.42 7 8.83V9C7 10.1 7.9 11 9 11H15C16.1 11 17 10.1 17 9V8.83C15.83 8.42 15 7.31 15 6C15 4.34 16.34 3 18 3C19.66 3 21 4.34 21 6C21 7.31 20.17 8.42 19 8.83V9C19 11.21 17.21 13 15 13H13V15.17C14.17 15.58 15 16.69 15 18C15 19.66 13.66 21 12 21C10.34 21 9 19.66 9 18C9 16.69 9.83 15.58 11 15.17V13H9C6.79 13 5 11.21 5 9V8.83C3.83 8.42 3 7.31 3 6C3 4.34 4.34 3 6 3C7.66 3 9 4.34 9 6Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGitForkFill;

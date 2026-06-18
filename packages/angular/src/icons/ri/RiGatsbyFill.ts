@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-gatsby-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGatsbyFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM6.43 17.57C4.93 16.07 4.14 14.07 4.14 12.14L11.93 19.86C9.93 19.79 7.93 19.07 6.43 17.57ZM13.72 19.64L4.36 10.29C5.14 6.79 8.29 4.14 12 4.14C14.64 4.14 16.93 5.43 18.36 7.36L17.29 8.29C16.07 6.64 14.14 5.57 12 5.57C9.22 5.57 6.86 7.36 5.93 9.86L14.14 18.07C16.22 17.36 17.79 15.57 18.29 13.43H14.86V12H19.86C19.86 15.71 17.22 18.86 13.72 19.64Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGatsbyFill;

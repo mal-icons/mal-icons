@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiCheckmk = createIcon("0 0 24 24", [["path",{"d":"M5.19 8.74v3.99l4.88-3.16v8.22l1.93 1.11 1.93-1.11V9.57l4.88 3.16V8.74l-6.81-4.27-6.81 4.26zM12 0l10.38 6V18L12 24 1.63 18.01V6L12 0z"}]]);
+
+export default SiCheckmk;

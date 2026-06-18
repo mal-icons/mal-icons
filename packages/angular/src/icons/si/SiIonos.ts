@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ionos",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiIonos {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.18 15.5a1.76 1.76 0 0 1-0.35-0.04 1.83 1.83 0 0 1-1.21-0.86l-0.01-0.01c-0.13-0.26-0.04-0.570.2-0.72a0.520.52 0 0 1 0.27-0.070.530.53 0 0 1 0.460.270.560.56 0 0 0 0.020.03l0.060.080.080.08a0.740.74 0 0 0 0.350.170.760.76 0 0 0 0.6-0.140.720.72 0 0 0 0.3-0.540.740.74 0 0 0-0.21-0.58s-1.6-1.66-1.67-1.74a1.96 1.96 0 0 1-0.19-0.23c-0.23-0.32-0.3-0.7-0.26-1.07a1.74 1.74 0 0 1 0.23-0.74s0.07-0.120.09-0.16c0.08-0.120.25-0.280.37-0.37a1.88 1.88 0 0 1 0.31-0.18 1.75 1.75 0 0 1 2.280.70.520.52 0 0 1 0.060.40.530.53 0 0 1-0.250.330.510.51 0 0 1-0.260.070.530.53 0 0 1-0.46-0.270.70.7 0 0 0-0.47-0.330.720.72 0 0 0-0.560.130.690.69 0 0 0-0.270.50.70.7 0 0 0 0.190.54l1.64 1.69a1.83 1.83 0 0 1 0.51 1.39c-0.050.52-0.311-0.72 1.31a1.84 1.84 0 0 1-1.10.37m-5.170a1.76 1.76 0 0 0 1.76-1.76v-3.48a1.76 1.76 0 0 0-3.52 0v3.48a1.76 1.76 0 0 0 1.76 1.76m0-5.93c0.38 0 0.70.320.70.7v3.48a0.70.7 0 0 1-0.70.70.690.69 0 0 1-0.7-0.7v-3.48a0.70.7 0 0 1 0.7-0.7m-7.90.32v5.08a0.530.53 0 0 0 1.06 0V12.09Zm2.88 2.03V9.03a0.530.53 0 0 1 1.06 0v5.08zm1.05 2.94v0.11a0.530.53 0 0 1-1.010.24L9.12 9.15v-0.12a0.530.53 0 0 1 0.3-0.480.530.53 0 0 1 0.710.25Zm-7.910.65a1.76 1.76 0 0 0 1.76-1.76v-3.48a1.76 1.76 0 0 0-3.52 0v3.48a1.76 1.76 0 0 0 1.76 1.76m0-5.93a0.710.71 0 0 1 0.70.7v3.48a0.70.7 0 1 1-1.39 0v-3.48a0.70.7 0 0 1 0.7-0.7M0 14.91a0.580.58 0 1 0 1.16 0V9.08a0.580.58 0 0 0-1.16 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiIonos;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-openjsfoundation",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiOpenjsfoundation {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.99 0 1.6 6v12L12 24l10.4-5.99V6L11.99 0M10.97 1.53 8.46 5.88H3.44l7.53-4.34M8.05 6.6 6.87 8.63 3.34 6.6h4.7M7.13 9.6 11.28 12 7.13 14.4 5.75 12 7.13 9.6m-0.61-0.35L5.34 11.29 2.99 7.21l3.53 2.04m-4.1-1.59L4.93 12 2.42 16.34V7.66m2.92 5.06 1.18 2.04-3.53 2.04 2.35-4.08m1.54 2.65 1.18 2.04H3.34l3.53-2.04m-3.43 2.76h5.01l2.51 4.34-7.53-4.34M11.64 22.2l-2.35-4.08h2.35V22.2m0-4.79h-2.77l-1.38-2.4 4.14-2.4v4.79h0.01m0-6.02L7.5 8.99l1.38-2.4h2.76v4.79m0-5.5H9.29l2.35-4.08v4.08m5.83 3.37L21 7.21l-2.35 4.08-1.18-2.04M18.24 12l-1.38 2.4L12.71 12l4.14-2.4L18.24 12m-1.12-3.37L15.94 6.6h4.7l-3.53 2.04m3.43-2.76h-5.01l-2.5-4.34 7.52 4.34m-8.19-4.08 2.35 4.08h-2.35V1.8m0 4.79h2.76l1.38 2.4-4.14 2.4V6.6m0 6.02 4.14 2.4-1.38 2.39h-2.76v-4.79m0 5.5h2.35l-2.35 4.08v-4.08m0.67 4.34 2.5-4.34h5.01l-7.52 4.34m2.92-5.06 1.18-2.04 3.53 2.04H15.94m1.53-2.66 1.18-2.04L21 16.79l-3.53-2.04m4.1 1.6L19.06 12l2.51-4.34v8.69"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiOpenjsfoundation;
