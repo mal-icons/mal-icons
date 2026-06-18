@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaMagento = createIcon("0 0 32 32", [["path",{"d":"M 16 3.23 L 5 10.17 L 5 22.44 L 8 24.15 L 8 11.83 L 16 6.77 L 24 11.83 L 24 24.15 L 27 22.44 L 27 10.17 L 16 3.23 z M 14 11.58 L 11 13.46 L 11 25.87 L 16 28.73 L 21 25.87 L 21 13.48 L 18 11.6 L 18 24.13 L 16 25.27 L 14 24.13 L 14 11.58 z"}]]);
+
+export default LaMagento;

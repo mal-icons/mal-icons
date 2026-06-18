@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-drumstick-bite-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaDrumstickBiteSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 19.65 4 C 17.51 4 15.37 4.82 13.74 6.45 C 12.18 8.01 10.33 12.4 8.27 19.48 L 6.68 21.08 C 6.45 21.03 6.23 21 6 21 C 4.34 21 3 22.35 3 24 C 3 25.35 3.9 26.5 5.13 26.87 C 5.5 28.1 6.65 29 8 29 C 9.65 29 11 27.65 11 26 C 11 25.77 10.97 25.54 10.92 25.32 L 12.51 23.73 C 14.28 23.21 16.78 22.44 19.12 21.58 L 20.27 21.15 L 19.62 20.11 C 19.21 19.47 19 18.74 19 18 C 19 15.79 20.79 14 23 14 C 24.11 14 25.14 14.45 25.91 15.28 L 27.08 16.53 L 27.6 14.9 C 28.56 11.9 27.77 8.67 25.55 6.45 C 23.93 4.82 21.79 4 19.65 4 z M 19.65 6 C 21.27 6 22.9 6.62 24.14 7.86 C 25.46 9.18 26.11 10.98 25.98 12.8 C 25.08 12.28 24.07 12 23 12 C 19.69 12 17 14.69 17 18 C 17 18.71 17.13 19.41 17.38 20.08 C 15.78 20.64 14.25 21.12 12.91 21.52 L 10.48 19.09 C 12.26 13.14 13.95 9.07 15.16 7.86 C 16.39 6.62 18.02 6 19.65 6 z M 9.57 21.01 L 10.99 22.42 L 8.53 24.88 L 8.88 25.54 C 8.96 25.69 9 25.85 9 26 C 9 26.55 8.55 27 8 27 C 7.45 27 7 26.55 7 26 L 7 25 L 6 25 C 5.45 25 5 24.55 5 24 C 5 23.45 5.45 23 6 23 C 6.15 23 6.31 23.04 6.46 23.12 L 7.11 23.47 L 9.57 21.01 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaDrumstickBiteSolid;

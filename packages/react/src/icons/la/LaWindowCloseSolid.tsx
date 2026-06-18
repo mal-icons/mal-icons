@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaWindowCloseSolid = createIcon("0 0 32 32", [["path",{"d":"M 5 5 L 5 27 L 27 27 L 27 5 Z M 7 7 L 25 7 L 25 25 L 7 25 Z M 11.69 10.31 L 10.28 11.72 L 14.56 16 L 10.22 20.34 L 11.63 21.75 L 15.97 17.41 L 20.28 21.72 L 21.69 20.31 L 17.38 16 L 21.63 11.75 L 20.22 10.34 L 15.97 14.59 Z"}]]);
+
+export default LaWindowCloseSolid;

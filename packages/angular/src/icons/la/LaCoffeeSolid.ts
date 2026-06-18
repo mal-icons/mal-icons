@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-coffee-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCoffeeSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 11 3 L 11 7 L 13 7 L 13 3 Z M 15 4 L 15 7 L 17 7 L 17 4 Z M 4.88 8 L 5 9.09 L 6.81 26.31 C 6.97 27.83 8.29 29 9.81 29 L 19.19 29 C 20.71 29 22.03 27.83 22.19 26.31 L 22.66 22 L 25 22 C 26.64 22 28 20.64 28 19 L 28 16 C 28 14.36 26.64 13 25 13 L 23.59 13 L 24 9.09 L 24.13 8 Z M 7.13 10 L 21.88 10 L 20.19 26.09 C 20.13 26.61 19.71 27 19.19 27 L 9.81 27 C 9.29 27 8.87 26.61 8.81 26.09 Z M 23.38 15 L 25 15 C 25.57 15 26 15.43 26 16 L 26 19 C 26 19.57 25.57 20 25 20 L 22.84 20 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCoffeeSolid;

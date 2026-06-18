@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-thumbs-up-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaThumbsUpSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16.69 3 L 16.38 3.28 L 9.59 10 L 5 10 L 5 26 L 21.84 26 C 23.25 26 24.48 25 24.78 23.63 L 26.94 13.63 C 27.33 11.78 25.89 10 24 10 L 18.25 10 L 18.44 9.25 C 18.64 9.09 18.77 9.03 19.06 8.63 C 19.53 7.98 20 6.99 20 5.66 C 20 4.23 18.71 3 17.09 3 Z M 17.41 5.09 C 17.83 5.18 18 5.35 18 5.66 C 18 6.56 17.73 7.12 17.47 7.47 C 17.21 7.82 17.03 7.91 17.03 7.91 L 16.69 8.09 L 16.56 8.5 L 15.97 10.75 L 15.66 12 L 24 12 C 24.66 12 25.11 12.57 24.97 13.22 L 22.84 23.22 C 22.74 23.69 22.32 24 21.84 24 L 11 24 L 11 11.41 Z M 7 12 L 9 12 L 9 24 L 7 24 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaThumbsUpSolid;

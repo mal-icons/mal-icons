@@ -161,6 +161,18 @@ const SET_META = {
     blurb:
       "Large 512×512 set with filled, `-outline` and `-sharp` variants. Filled icons theme via `color`; outline variants carry stroke geometry.",
   },
+  la: {
+    id: "la",
+    name: "Line Awesome",
+    prefix: "La",
+    version: "1.2.1",
+    license: "MIT",
+    repo: "icons8/line-awesome",
+    style: "fill",
+    viewBox: "0 0 32 32",
+    blurb:
+      "Icons8's 32×32 fill set — a Font Awesome 5 alternative drawn in the Windows 10 style. Solid glyphs carry a `Solid` suffix (e.g. `LaAddressBook`, `LaAddressBookSolid`); brand marks are plain (`LaAdobe`).",
+  },
   lu: {
     id: "lu",
     name: "Lucide",

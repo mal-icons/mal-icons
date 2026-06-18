@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-sellcast",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSellcast {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5 5 L 5 27 L 27 27 L 27 5 L 5 5 z M 7 7 L 25 7 L 25 25 L 7 25 L 7 7 z M 20.07 9.06 C 19.69 8.99 19.27 9.12 19.02 9.56 L 18.79 9.95 C 16.49 8.66 13.54 9.44 12.21 11.69 C 10.88 13.94 11.68 16.85 13.97 18.15 C 14.86 18.66 13.97 18.15 14.86 18.65 C 16.05 19.32 17.06 17.56 15.88 16.9 C 15.88 16.9 15 16.4 15 16.4 C 13.68 15.66 13.22 13.99 13.98 12.7 C 14.75 11.41 16.45 10.96 17.77 11.7 C 18.65 12.21 17.76 11.7 18.65 12.2 C 19.13 12.44 19.6 12.34 19.91 12.04 C 20.04 11.91 20 11.94 20.81 10.56 C 21.24 9.84 20.7 9.17 20.07 9.06 z M 16.69 13.2 C 15.71 13.1 15.07 14.52 16.09 15.1 C 16.95 15.57 16.13 15.12 16.98 15.59 C 18.29 16.34 18.75 18.01 17.99 19.3 C 17.23 20.59 15.53 21.04 14.21 20.29 C 13.32 19.79 14.22 20.3 13.33 19.79 C 12.84 19.51 12.21 19.68 11.93 20.16 L 11.18 21.43 C 10.58 22.45 12.1 23.91 13.19 22.05 C 15.49 23.34 18.45 22.56 19.78 20.31 C 21.1 18.06 20.31 15.15 18 13.85 C 17.12 13.34 18.01 13.85 17.12 13.35 C 16.97 13.26 16.83 13.22 16.69 13.2 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSellcast;

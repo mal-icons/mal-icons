@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-synagogue-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSynagogueSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4.66 L 15.34 5.25 L 7.63 12 L 4 12 L 4 27 L 14 27 L 14 23 C 14 21.88 14.88 21 16 21 C 17.12 21 18 21.88 18 23 L 18 27 L 28 27 L 28 12 L 24.38 12 L 16.66 5.25 Z M 6 7 C 5.42 7.88 4 8.01 4 9.66 C 4 10.58 4.66 11 4.66 11 L 7.34 11 C 7.34 11 8 10.58 8 9.66 C 8 7.92 6.66 7.85 6 7 Z M 26 7 C 25.42 7.88 24 8.5 24 9.66 C 24 10.58 24.66 11 24.66 11 L 27.34 11 C 27.34 11 28 10.58 28 9.66 C 28 8.41 26.66 7.85 26 7 Z M 16 7.31 L 23.34 13.75 L 23.63 14 L 26 14 L 26 25 L 20 25 L 20 23 C 20 20.8 18.2 19 16 19 C 13.8 19 12 20.8 12 23 L 12 25 L 6 25 L 6 14 L 8.38 14 L 8.66 13.75 Z M 16 11.47 L 15.13 12.97 L 13.41 12.97 L 14.25 14.47 L 13.41 15.97 L 15.13 15.97 L 16 17.5 L 16.88 15.97 L 18.59 15.97 L 17.75 14.47 L 18.59 12.97 L 16.88 12.97 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSynagogueSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-at-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaAtSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16.19 4 C 8.82 3.89 2.91 10.48 4.16 18.03 C 5 23.15 9.2 27.18 14.34 27.88 C 17.81 28.34 21.05 27.34 23.5 25.38 L 22.25 23.81 C 20.2 25.45 17.51 26.3 14.59 25.91 C 10.34 25.33 6.85 21.95 6.16 17.72 C 5.11 11.35 9.99 5.91 16.16 6 C 21.41 6.08 25.84 10.43 26 15.69 C 26 15.8 26 15.91 26 16.03 C 25.99 18.23 24.21 20 22 20 C 20.88 20 20 19.12 20 18 L 20 10 L 18 10 L 18 10.78 C 17.28 10.29 16.43 10 15.5 10 C 13.03 10 11 12.03 11 14.5 L 11 17.5 C 11 19.97 13.03 22 15.5 22 C 16.85 22 18.05 21.39 18.88 20.44 C 19.61 21.37 20.73 22 22 22 C 25.29 22 27.99 19.32 28 16.03 C 28 15.9 28 15.77 28 15.63 C 27.81 9.29 22.52 4.09 16.19 4 Z M 15.5 12 C 16.89 12 18 13.11 18 14.5 L 18 17.5 C 18 18.89 16.89 20 15.5 20 C 14.11 20 13 18.89 13 17.5 L 13 14.5 C 13 13.11 14.11 12 15.5 12 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaAtSolid;

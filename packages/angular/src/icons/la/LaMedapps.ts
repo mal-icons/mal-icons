@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-medapps",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMedapps {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 2 C 11.51 2 8 5.44 8 9.84 C 8 11.98 8.86 14.57 10.18 16.46 L 10.32 16.65 C 11.11 17.76 12 19.03 12 20 C 12 20.55 12.45 21 13 21 C 13.55 21 14 20.55 14 20 C 14 18.4 12.91 16.85 11.95 15.49 L 11.82 15.3 C 10.73 13.76 10 11.56 10 9.84 C 10 6.56 12.64 4 16 4 C 19.36 4 22 6.56 22 9.84 C 22 11.56 21.27 13.76 20.18 15.3 L 20.06 15.48 C 19.24 16.64 18 18.38 18 20 C 18 20.55 18.45 21 19 21 C 19.55 21 20 20.55 20 20 C 20 19.02 21.1 17.47 21.69 16.64 L 21.82 16.46 C 23.14 14.57 24 11.98 24 9.84 C 24 5.44 20.49 2 16 2 z M 16.22 10 C 15.75 10.08 15.71 13.19 15.47 14.38 C 14.99 13.71 14.92 12.62 14.47 12.53 C 14.14 12.53 13.96 13.59 13.77 14.23 L 12.12 14.48 C 11.34 14.79 14.48 14.87 14.66 14.88 C 15 15.72 15.59 17.51 15.83 16.86 L 16.32 13.55 C 16.82 14.6 17 16.05 17.26 16.05 C 17.58 16.04 17.62 15.39 17.86 14.64 C 18.71 14.63 20.1 14.62 19.99 14.25 C 19.99 14.25 17.92 14.12 17.39 13.91 C 17.26 13.35 16.7 9.96 16.22 10 z M 13 23 C 12.45 23 12 23.45 12 24 C 12 24.55 12.45 25 13 25 L 19 25 C 19.55 25 20 24.55 20 24 C 20 23.45 19.55 23 19 23 L 13 23 z M 14 27 C 13.45 27 13 27.45 13 28 C 13 28.55 13.45 29 14 29 L 18 29 C 18.55 29 19 28.55 19 28 C 19 27.45 18.55 27 18 27 L 14 27 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMedapps;

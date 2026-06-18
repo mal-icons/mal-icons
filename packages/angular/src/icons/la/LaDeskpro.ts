@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-deskpro",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaDeskpro {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 6.7 5 C 6.45 5.01 6.01 5.04 6.01 5.78 L 6.01 15.7 C 5.83 19.76 9.79 21 10.97 21 L 15.21 21 C 14.39 20.21 14.07 19.25 14 18.51 C 13.94 17.89 14.89 17.81 14.94 18.42 C 14.95 18.53 15.19 21 17.63 21 L 17.93 21 L 19.45 18.42 L 19.69 18 L 23 18 L 23 10.6 C 23 8.7 22.17 4.99 17.12 5.01 L 13.07 5.01 C 13.54 5.52 13.93 6.16 13.93 7 C 13.93 7.63 13 7.63 13 7 C 13 4.88 10.74 4.99 10.54 5.01 C 10.53 5.01 10.52 5 10.51 5 L 6.7 5 z M 18.51 12 C 19.44 12.06 20.28 13.01 19.91 14.3 L 17 12.97 C 17.37 12.25 17.96 11.97 18.51 12 z M 20.45 19 L 19.35 21 L 24 21 C 25.79 21 28 20 29 19 L 20.45 19 z M 19 22 C 20 23 20.59 23.55 20.59 23.8 C 20.6 23.89 20.62 25.8 18.77 26.68 C 18.24 26.93 18.07 26.99 17.49 27 L 16 29 C 17 29 17.54 29 17.96 28.95 C 20.41 28.63 22.06 26.75 22.51 25.62 C 22.64 25.29 22.99 24.4 23 22 L 19 22 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaDeskpro;

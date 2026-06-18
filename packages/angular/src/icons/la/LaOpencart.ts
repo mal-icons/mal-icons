@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-opencart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaOpencart {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 1 5.25 C 3.93 10.82 9.12 11.68 15.41 11.81 C 19.12 11.89 27.28 11.57 27.28 13.56 C 27.28 15.05 21.84 19.73 21.84 20.69 C 21.84 20.69 25.61 17.5 27.72 15.63 C 29.82 13.75 31 12.64 31 11.53 C 31 9.27 22.27 9.69 15.22 9.69 C 8.17 9.69 4.31 8.35 1 5.25 Z M 8.88 22.53 C 7.71 22.53 6.75 23.46 6.75 24.63 C 6.75 25.79 7.71 26.75 8.88 26.75 C 10.04 26.75 10.97 25.79 10.97 24.63 C 10.97 23.46 10.04 22.53 8.88 22.53 Z M 18.63 22.53 C 17.46 22.53 16.53 23.46 16.53 24.63 C 16.53 25.79 17.46 26.75 18.63 26.75 C 19.79 26.75 20.75 25.79 20.75 24.63 C 20.75 23.46 19.79 22.53 18.63 22.53 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaOpencart;

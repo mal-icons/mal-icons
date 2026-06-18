@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-mdb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMdb {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 1.08 9 L 0.08 21 L 2.09 21 L 2.64 14.3 L 5.32 21 L 6.68 21 L 9.36 14.3 L 9.91 21 L 11.92 21 L 10.92 9 L 9.32 9 L 6 17.31 L 2.68 9 L 1.08 9 z M 14 9 L 14 21 L 16 21 C 19.3 21 22 18.3 22 15 C 22 11.7 19.3 9 16 9 L 14 9 z M 24 9 L 24 14 L 24 16 L 24 21.01 L 28.49 21.01 C 30.42 21.01 32 19.43 32 17.51 C 32 16.24 31.28 15.16 30.26 14.55 C 30.69 13.97 31 13.28 31 12.5 C 31 10.58 29.42 9 27.5 9 L 24 9 z M 16 11 C 18.22 11 20 12.78 20 15 C 20 17.22 18.22 19 16 19 L 16 11 z M 26 11 L 27.5 11 C 28.34 11 29 11.66 29 12.5 C 29 13.34 28.34 14 27.5 14 L 26 14 L 26 11 z M 26 16 L 27.5 16 L 28.49 16 C 29.34 16 30 16.66 30 17.51 C 30 18.35 29.34 19.01 28.49 19.01 L 26 19.01 L 26 16 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMdb;

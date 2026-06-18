@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-hamburger-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHamburgerSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 11 5 C 7.7 5 5 7.7 5 11 L 5 11.25 L 3.88 12.75 C 4.23 13.02 4.6 13.19 5 13.31 L 5 15.78 C 4.39 16.33 4 17.12 4 18 C 4 18.88 4.39 19.67 5 20.22 L 5 23 C 5 24.09 5.91 25 7 25 L 25 25 C 26.09 25 27 24.09 27 23 L 27 20.22 C 27.61 19.67 28 18.88 28 18 C 28 17.12 27.61 16.33 27 15.78 L 27 13.31 C 27.4 13.19 27.77 13.02 28.13 12.75 L 27 11.22 L 27 11 C 27 7.7 24.3 5 21 5 Z M 11 7 L 12 7 C 12 7.55 12.45 8 13 8 C 13.55 8 14 7.55 14 7 L 21 7 C 23.22 7 25 8.78 25 11 L 25 11.5 C 24.74 11.43 24.5 11.29 24.28 11.13 L 23.75 10.75 L 23.16 11.09 L 22.41 11.53 C 21.71 11.95 20.86 11.95 20.16 11.53 L 19.41 11.09 L 18.94 10.81 L 18.44 11.03 L 17 11.78 C 16.38 12.09 15.65 12.09 15.03 11.78 L 13.56 11.03 L 13.06 10.81 L 12.59 11.09 L 11.84 11.53 C 11.14 11.95 10.29 11.95 9.59 11.53 L 8.84 11.09 L 8.25 10.75 L 7.72 11.13 C 7.5 11.29 7.25 11.43 7 11.5 L 7 11 C 7 8.78 8.78 7 11 7 Z M 11 8 C 10.45 8 10 8.45 10 9 C 10 9.55 10.45 10 11 10 C 11.55 10 12 9.55 12 9 C 12 8.45 11.55 8 11 8 Z M 15 8 C 14.45 8 14 8.45 14 9 C 14 9.55 14.45 10 15 10 C 15.55 10 16 9.55 16 9 C 16 8.45 15.55 8 15 8 Z M 8.16 13 L 8.56 13.25 C 9.89 14.05 11.55 14.05 12.88 13.25 L 13.16 13.06 L 14.13 13.56 C 15.3 14.15 16.7 14.15 17.88 13.56 L 18.84 13.06 L 19.13 13.25 C 20.45 14.05 22.11 14.05 23.44 13.25 L 23.84 13 C 24.22 13.18 24.6 13.29 25 13.38 L 25 15 L 7 15 L 7 13.38 C 7.4 13.29 7.78 13.18 8.16 13 Z M 7 17 L 25 17 C 25.57 17 26 17.43 26 18 C 26 18.57 25.57 19 25 19 L 7 19 C 6.43 19 6 18.57 6 18 C 6 17.43 6.43 17 7 17 Z M 7 21 L 25 21 L 25 23 L 7 23 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHamburgerSolid;

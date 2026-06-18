@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-confluence",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaConfluence {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 22.51 5 C 22.27 5 22.04 5.11 21.9 5.32 C 21.89 5.33 21.88 5.35 21.87 5.37 C 20.42 7.79 19.53 8.88 18 8.88 C 16.34 8.88 13.94 7.61 9.3 5.41 C 9.2 5.36 9.09 5.34 8.99 5.34 C 8.72 5.34 8.46 5.49 8.33 5.75 C 8.33 5.75 8.33 5.76 8.32 5.77 L 6.07 10.88 C 5.9 11.24 6.07 11.67 6.43 11.83 C 7.42 12.3 9.39 13.24 11.18 14.1 C 13.99 15.46 16.33 16 18.28 16 C 24.04 16 26.47 11.3 27.89 9.04 C 28.1 8.7 27.99 8.26 27.65 8.05 L 22.91 5.12 C 22.79 5.04 22.65 5 22.51 5 z M 22.92 7.48 L 25.52 9.08 C 23.84 11.73 21.93 14 18.28 14 C 16.48 14 14.38 13.43 12.05 12.3 C 10.79 11.69 9.43 11.05 8.4 10.55 L 9.62 7.78 C 9.79 7.86 9.96 7.94 10.12 8.02 C 13.98 9.86 16.1 10.88 17.99 10.88 C 20.3 10.88 21.64 9.46 22.92 7.48 z M 13.71 16 C 7.95 16 5.52 20.72 4.11 22.96 C 3.9 23.31 4.01 23.76 4.35 23.97 L 9.1 26.89 C 9.22 26.96 9.35 27 9.48 27 C 9.73 27 9.97 26.88 10.1 26.65 C 11.54 24.22 12.44 23.14 13.98 23.14 C 15.63 23.14 18.03 24.4 22.69 26.61 C 22.8 26.66 22.9 26.69 23.01 26.69 C 23.28 26.69 23.54 26.53 23.66 26.27 C 23.67 26.27 23.67 26.26 23.67 26.25 L 25.94 21.13 C 26.1 20.77 25.93 20.34 25.57 20.18 C 24.58 19.7 22.6 18.77 20.83 17.92 C 18.01 16.55 15.67 16 13.71 16 z M 13.71 18 C 15.51 18 17.62 18.58 19.96 19.72 C 21.21 20.32 22.57 20.96 23.61 21.46 L 22.37 24.24 C 22.18 24.15 22 24.06 21.82 23.98 C 17.98 22.15 15.87 21.14 13.98 21.14 C 11.67 21.14 10.34 22.54 9.06 24.52 L 6.48 22.93 C 8.16 20.28 10.06 18 13.71 18 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaConfluence;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-fill-drip-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaFillDripSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 11.3 3.3 L 9.9 4.7 L 11.7 6.5 L 4.8 13.4 C 3.6 14.6 3.6 16.5 4.8 17.7 L 4.9 17.8 L 11.2 24.1 C 12.4 25.3 14.3 25.3 15.5 24.1 L 23.1 16.5 L 23.8 15.8 L 14.1 6.1 L 13.3 5.3 L 13.1 5.1 L 11.3 3.3 z M 13.1 7.9 L 21 15.8 L 18.8 18 L 7.9 18 L 6.2 16.3 C 5.8 15.9 5.8 15.2 6.2 14.8 L 13.1 7.9 z M 25 19.3 L 24.2 20.5 C 24.2 20.5 23.7 21.3 23.1 22.2 C 22.8 22.7 22.6 23.1 22.4 23.6 C 22.2 24.1 22 24.4 22 25 C 22 26.6 23.4 28 25 28 C 26.6 28 28 26.6 28 25 C 28 24.4 27.8 24 27.6 23.5 C 27.4 23 27.1 22.5 26.9 22.1 C 26.4 21.2 25.8 20.4 25.8 20.4 L 25 19.3 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaFillDripSolid;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaFileSolid = createIcon("0 0 32 32", [["path",{"d":"M 6 3 L 6 29 L 26 29 L 26 9.59 L 25.72 9.28 L 19.72 3.28 L 19.41 3 Z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 Z M 20 6.44 L 22.56 9 L 20 9 Z"}]]);
+
+export default LaFileSolid;

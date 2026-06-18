@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-behance",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaBehance {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 1 6.75 L 1 25.25 L 9.94 25.25 C 10.77 25.25 16.47 25.08 16.47 19.88 C 16.47 16.62 14.23 15.52 13.09 15.19 C 13.93 14.79 15.59 13.86 15.59 11.34 C 15.59 9.95 15.39 6.75 9.69 6.75 Z M 21.38 8.47 L 21.38 10.16 L 28.28 10.16 L 28.28 8.47 Z M 5.06 9.91 L 8.88 9.91 C 9.23 9.91 11.66 9.71 11.66 12.03 C 11.66 14.01 9.91 14.22 9.19 14.22 L 5.06 14.22 Z M 25 11.69 C 19.78 11.69 18.69 16.22 18.69 18.19 C 18.69 24.02 23.47 24.69 25 24.69 C 29.13 24.69 30.3 22.02 30.78 20.53 L 27.78 20.53 C 27.66 20.91 26.79 22.16 25.13 22.16 C 22.34 22.16 22.09 19.98 22.09 19 L 30.97 19 C 31.15 15.63 29.67 11.69 25 11.69 Z M 24.91 14.22 C 25.74 14.22 26.41 14.46 26.81 14.91 C 27.21 15.36 27.51 16.01 27.59 16.88 L 22.09 16.88 C 22.11 16.64 22.16 16.36 22.25 16.06 C 22.34 15.75 22.47 15.46 22.69 15.19 C 22.91 14.92 23.21 14.68 23.56 14.5 C 23.92 14.31 24.37 14.22 24.91 14.22 Z M 5.06 17 L 9.47 17 C 10.34 17 12.41 17.14 12.41 19.66 C 12.41 22.1 9.81 22.09 9.41 22.09 L 5.06 22.09 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaBehance;

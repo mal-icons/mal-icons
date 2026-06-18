@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-cc-visa",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCcVisa {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5 6 C 3.36 6 2 7.36 2 9 L 2 23 C 2 24.64 3.36 26 5 26 L 27 26 C 28.64 26 30 24.64 30 23 L 30 9 C 30 7.36 28.64 6 27 6 Z M 5 8 L 27 8 C 27.57 8 28 8.43 28 9 L 28 23 C 28 23.57 27.57 24 27 24 L 5 24 C 4.43 24 4 23.57 4 23 L 4 9 C 4 8.43 4.43 8 5 8 Z M 19.41 12.38 C 17.48 12.38 16.47 13.32 16.47 14.53 C 16.47 16.71 19.03 16.41 19.03 17.53 C 19.03 17.72 18.87 18.16 17.81 18.16 C 16.75 18.16 16.06 17.78 16.06 17.78 L 15.75 19.22 C 15.75 19.22 16.41 19.63 17.72 19.63 C 19.03 19.63 20.88 18.62 20.88 17.16 C 20.88 15.4 18.31 15.28 18.31 14.5 C 18.31 14.1 18.65 13.78 19.56 13.78 C 20.16 13.78 20.81 14.25 20.81 14.25 L 21.13 12.72 C 21.13 12.72 20.25 12.38 19.41 12.38 Z M 11.19 12.5 L 9.5 17.44 C 9.5 17.44 9.41 17.01 9.38 16.75 C 8.42 14.61 6.88 13.81 6.88 13.81 L 8.34 19.41 L 10.34 19.41 L 13.16 12.5 Z M 13.88 12.5 L 12.78 19.41 L 14.63 19.41 L 15.72 12.5 Z M 23.81 12.5 L 20.81 19.41 L 22.63 19.41 L 23 18.44 L 25.31 18.44 L 25.5 19.41 L 27.16 19.41 L 25.75 12.5 Z M 4.84 12.53 C 4.84 12.53 8.44 13.63 9.28 16.34 L 8.66 13.22 C 8.66 13.22 8.38 12.53 7.66 12.53 Z M 24.5 14.5 L 25.03 17.09 L 23.53 17.09 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCcVisa;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-telegram-plane",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaTelegramPlane {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 26.07 4 C 25.73 4.01 25.42 4.11 25.14 4.22 L 25.13 4.22 C 24.85 4.33 23.49 4.9 21.43 5.77 C 19.38 6.63 16.7 7.76 14.05 8.88 C 8.75 11.11 3.55 13.3 3.55 13.3 L 3.61 13.28 C 3.61 13.28 3.25 13.39 2.88 13.65 C 2.68 13.78 2.47 13.95 2.29 14.22 C 2.11 14.49 1.96 14.9 2.01 15.33 C 2.1 16.05 2.57 16.48 2.91 16.72 C 3.25 16.96 3.57 17.08 3.57 17.08 L 3.58 17.08 L 8.46 18.72 C 8.68 19.43 9.95 23.6 10.25 24.56 C 10.43 25.13 10.61 25.49 10.83 25.77 C 10.93 25.91 11.06 26.02 11.21 26.12 C 11.27 26.15 11.33 26.18 11.39 26.2 C 11.41 26.21 11.43 26.22 11.45 26.22 L 11.4 26.21 C 11.42 26.21 11.43 26.23 11.44 26.23 C 11.48 26.24 11.51 26.25 11.56 26.25 C 12.33 26.49 12.95 26.01 12.95 26.01 L 12.99 25.98 L 15.87 23.36 L 20.7 27.06 L 20.81 27.11 C 21.82 27.55 22.84 27.3 23.38 26.87 C 23.92 26.43 24.13 25.88 24.13 25.88 L 24.17 25.79 L 27.9 6.66 C 28.01 6.18 28.04 5.74 27.92 5.31 C 27.8 4.88 27.5 4.48 27.14 4.27 C 26.77 4.05 26.41 3.98 26.07 4 Z M 25.97 6.05 C 25.96 6.11 25.98 6.1 25.95 6.22 L 25.95 6.23 L 22.25 25.16 C 22.23 25.19 22.21 25.25 22.13 25.31 C 22.05 25.37 21.99 25.41 21.67 25.28 L 15.76 20.75 L 12.19 24 L 12.94 19.21 C 12.94 19.21 22.2 10.59 22.59 10.21 C 22.99 9.84 22.86 9.77 22.86 9.77 C 22.89 9.31 22.26 9.63 22.26 9.63 L 10.08 17.18 L 10.08 17.16 L 4.24 15.19 L 4.24 15.19 C 4.24 15.19 4.23 15.18 4.23 15.18 C 4.23 15.18 4.26 15.17 4.26 15.17 L 4.29 15.16 L 4.32 15.14 C 4.32 15.14 9.53 12.95 14.83 10.72 C 17.48 9.6 20.15 8.48 22.21 7.61 C 24.26 6.75 25.78 6.11 25.87 6.08 C 25.95 6.05 25.91 6.05 25.97 6.05 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaTelegramPlane;

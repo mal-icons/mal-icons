@@ -9,7 +9,7 @@
  * "gear" finds FiSettings, "house" finds FiHome).
  *
  * Usage:
- *   node search.js <query> [--set fi|ci|io|lu|fa|fab|far|ti|oc|dev|wi|ad|bs|fc|gi|gr|hi|md|mdf|mdr|mds|mdt|mso|msr|mss|ri|si|bx|bxs|bxl|tb|ph] [--limit N] [--json]
+ *   node search.js <query> [--set fi|ci|io|la|lu|fa|fab|far|ti|oc|dev|wi|ad|bs|fc|gi|gr|hi|md|mdf|mdr|mds|mdt|mso|msr|mss|ri|si|bx|bxs|bxl|tb|ph] [--limit N] [--json]
  *
  * Examples:
  *   node search.js trash
@@ -36,6 +36,7 @@ const SETS = [
   "fi",
   "ci",
   "io",
+  "la",
   "lu",
   "fa",
   "fab",
@@ -189,12 +190,12 @@ function search(query, icons, limit) {
 function printHelp() {
   process.stdout.write(
     [
-      "Usage: node search.js <query> [--set fi|ci|io|lu|fa|fab|far|ti|oc|dev|wi|ad|bs|fc|gi|gr|hi|md|mdf|mdr|mds|mdt|mso|msr|mss|ri|si|bx|bxs|bxl|tb|ph] [--limit N] [--json]",
+      "Usage: node search.js <query> [--set fi|ci|io|la|lu|fa|fab|far|ti|oc|dev|wi|ad|bs|fc|gi|gr|hi|md|mdf|mdr|mds|mdt|mso|msr|mss|ri|si|bx|bxs|bxl|tb|ph] [--limit N] [--json]",
       "",
       "Search mal-icons by name, tags, or description.",
       "",
       "Options:",
-      "  -s, --set <id>     Limit to one set (fi, ci, io, lu, fa, fab, far, ti, oc, dev, wi, ad, bs, fc, gi, gr, mdf, mdr, mds, mdt, mso, msr, mss, ri, si, bx, bxs, bxl, tb, ph).",
+      "  -s, --set <id>     Limit to one set (fi, ci, io, la, lu, fa, fab, far, ti, oc, dev, wi, ad, bs, fc, gi, gr, mdf, mdr, mds, mdt, mso, msr, mss, ri, si, bx, bxs, bxl, tb, ph).",
       "  -n, --limit <N>    Max results (default 20).",
       "      --json         Output JSON instead of a table.",
       "  -h, --help         Show this help.",

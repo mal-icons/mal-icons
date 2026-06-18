@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-vote-yea-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaVoteYeaSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 8 5 L 8 21 L 24 21 L 24 5 L 8 5 z M 10 7 L 22 7 L 22 19 L 10 19 L 10 7 z M 19.3 9.9 L 15 14.2 L 12.7 11.9 L 11.3 13.4 L 14.3 16.4 L 15 17.1 L 15.7 16.4 L 20.7 11.4 L 19.3 9.9 z M 2 19 L 2 27 L 4 27 L 4 21 L 6 21 L 6 19 L 2 19 z M 26 19 L 26 21 L 28 21 L 28 27 L 30 27 L 30 19 L 26 19 z M 6 23 L 6 25 L 26 25 L 26 23 L 6 23 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaVoteYeaSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-baby-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaBabySolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 2 C 13.8 2 12 3.8 12 6 C 12 8.2 13.8 10 16 10 C 18.2 10 20 8.2 20 6 C 20 3.8 18.2 2 16 2 Z M 16 4 C 17.12 4 18 4.88 18 6 C 18 7.12 17.12 8 16 8 C 14.88 8 14 7.12 14 6 C 14 4.88 14.88 4 16 4 Z M 16 11 C 9.33 11 6.09 17.56 6.09 17.56 L 7.91 18.44 C 7.91 18.44 9.3 15.71 12 14.13 L 12 20.22 C 11.59 20.36 11.06 20.58 10.47 20.91 C 9.93 21.2 9.38 21.58 8.91 22.09 C 8.43 22.61 8.03 23.3 8 24.13 C 7.95 25.68 8.83 27.09 9.63 28.25 C 10.42 29.41 11.22 30.31 11.22 30.31 L 12.72 28.94 C 12.72 28.94 11.99 28.16 11.28 27.13 C 10.57 26.09 9.98 24.77 10 24.19 C 10.01 23.95 10.12 23.71 10.38 23.44 C 10.63 23.16 11.02 22.88 11.44 22.66 C 11.85 22.43 12.25 22.27 12.56 22.16 C 13.13 22.91 14.23 24 16 24 C 17.74 24 18.83 22.95 19.41 22.19 C 19.71 22.3 20.07 22.45 20.44 22.66 C 20.86 22.88 21.25 23.16 21.5 23.44 C 21.75 23.71 21.84 23.95 21.84 24.19 C 21.84 24.81 21.23 26.09 20.53 27.09 C 19.84 28.1 19.16 28.84 19.16 28.84 L 20.59 30.22 C 20.59 30.22 21.4 29.35 22.19 28.22 C 22.97 27.09 23.84 25.72 23.84 24.19 C 23.84 23.35 23.44 22.62 22.97 22.09 C 22.5 21.57 21.95 21.2 21.41 20.91 C 20.9 20.63 20.39 20.43 20 20.28 L 20 14.13 C 22.7 15.71 24.09 18.44 24.09 18.44 L 25.91 17.56 C 25.91 17.56 22.67 11 16 11 Z M 16 13 C 16.71 13 17.38 13.08 18 13.25 L 18 20.69 C 17.89 20.89 17.29 22 16 22 C 14.71 22 14.11 20.89 14 20.69 L 14 13.25 C 14.62 13.08 15.29 13 16 13 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaBabySolid;

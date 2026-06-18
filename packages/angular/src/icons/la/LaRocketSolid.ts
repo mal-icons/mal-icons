@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-rocket-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaRocketSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 25.91 4 C 25.21 4 24.24 4.03 23.22 4.13 C 21.17 4.32 18.81 4.66 17.34 6.13 C 16.11 7.36 13.57 10.62 11.22 13.69 C 10.75 14.29 10.77 14.28 10.34 14.84 L 8.63 14.75 C 7.35 14.68 6.12 15.22 5.31 16.22 L 3.22 18.78 L 2.19 20.09 L 3.81 20.41 L 7.09 21.06 L 10.94 24.91 L 11.59 28.19 L 11.94 29.81 L 13.22 28.78 L 15.78 26.69 C 16.78 25.88 17.32 24.65 17.25 23.38 L 17.16 21.69 C 17.74 21.25 17.72 21.26 18.34 20.78 C 21.42 18.43 24.7 15.9 25.91 14.69 C 27.36 13.23 27.68 10.84 27.88 8.78 C 28.07 6.73 27.97 4.97 27.97 4.97 L 27.94 4.06 L 27.03 4.03 C 27.03 4.03 26.6 4 25.91 4 Z M 25 6 C 25.4 6 25.68 6.02 25.97 6.03 C 25.98 6.61 26 7.22 25.88 8.59 C 25.7 10.49 25.12 12.6 24.47 13.25 C 23.58 14.14 20.19 16.84 17.13 19.19 C 14.42 21.26 12.51 22.72 11.97 23.13 L 8.91 20.06 C 9.32 19.51 10.72 17.6 12.78 14.91 C 15.13 11.85 17.83 8.45 18.75 7.53 C 19.43 6.85 21.52 6.27 23.41 6.09 C 24.09 6.03 24.6 6 25 6 Z M 20.44 9.53 C 19.32 9.53 18.44 10.45 18.44 11.56 C 18.44 12.68 19.32 13.59 20.44 13.59 C 21.55 13.59 22.47 12.68 22.47 11.56 C 22.47 10.45 21.55 9.53 20.44 9.53 Z M 8.5 16.75 L 8.88 16.78 C 8.27 17.58 7.29 18.86 7.16 19.03 L 5.81 18.75 L 6.84 17.5 C 7.25 17 7.86 16.71 8.5 16.75 Z M 6.22 21.94 C 5.36 22.79 4.88 23.98 4.53 24.97 C 4.19 25.96 4.03 26.78 4.03 26.78 L 3.72 28.25 L 5.19 27.97 C 5.19 27.97 5.98 27.83 6.97 27.5 C 7.95 27.17 9.14 26.68 10.03 25.78 L 8.63 24.38 C 8.18 24.82 7.3 25.21 6.5 25.5 C 6.8 24.67 7.25 23.72 7.63 23.34 Z M 15.22 23.13 L 15.25 23.5 C 15.29 24.14 15.03 24.75 14.53 25.16 L 13.25 26.19 L 12.97 24.84 C 13.14 24.71 14.42 23.72 15.22 23.13 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaRocketSolid;

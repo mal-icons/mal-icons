@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-mountain-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMountainSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 17.01 3.02 L 16.1 4.68 C 13.93 8.63 11.75 12.58 9.58 16.54 L 7.66 14.62 L 7 15.72 C 5.05 18.97 3.1 22.23 1.14 25.49 L 0.23 27 L 2 27 L 31.52 27 L 30.92 25.61 C 29.92 23.27 28.92 20.94 27.92 18.61 L 27.34 17.25 L 25.27 19.32 C 22.8 14.45 20.33 9.58 17.87 4.71 L 17.01 3.02 z M 16.94 7.3 C 17.95 9.3 18.97 11.3 19.98 13.3 L 19.21 13.96 L 16.93 12.01 L 14.65 13.96 L 13.72 13.16 C 14.79 11.21 15.86 9.26 16.94 7.3 z M 16.93 14.64 L 19.21 16.6 L 20.91 15.14 C 21.97 17.24 23.04 19.35 24.11 21.45 L 24.73 22.68 L 26.66 20.75 C 27.27 22.17 27.88 23.58 28.48 25 L 3.77 25 C 5.2 22.61 6.63 20.23 8.06 17.85 L 10.05 19.83 L 10.69 18.67 C 11.37 17.43 12.05 16.19 12.73 14.96 L 14.65 16.6 L 16.93 14.64 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMountainSolid;

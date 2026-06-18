@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-life-ring-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaLifeRingSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 9.38 4 4 9.38 4 16 C 4 22.62 9.38 28 16 28 C 22.62 28 28 22.62 28 16 C 28 9.38 22.62 4 16 4 Z M 16 6 C 16.34 6 16.67 6.03 17 6.06 L 17 9.09 C 16.67 9.05 16.34 9 16 9 C 15.66 9 15.33 9.05 15 9.09 L 15 6.06 C 15.33 6.03 15.66 6 16 6 Z M 13 6.44 L 13 9.69 C 11.55 10.38 10.38 11.55 9.69 13 L 6.47 13 C 7.44 9.88 9.88 7.41 13 6.44 Z M 19 6.44 C 22.11 7.41 24.59 9.89 25.56 13 L 22.31 13 C 21.62 11.55 20.45 10.38 19 9.69 Z M 16 11 C 18.77 11 21 13.23 21 16 C 21 18.77 18.77 21 16 21 C 13.23 21 11 18.77 11 16 C 11 13.23 13.23 11 16 11 Z M 6.06 15 L 9.06 15 C 9.02 15.32 9 15.66 9 16 C 9 16.34 9.05 16.67 9.09 17 L 6.06 17 C 6.03 16.67 6 16.34 6 16 C 6 15.66 6.03 15.33 6.06 15 Z M 22.91 15 L 25.94 15 C 25.97 15.33 26 15.66 26 16 C 26 16.34 25.97 16.67 25.94 17 L 22.91 17 C 22.95 16.67 23 16.34 23 16 C 23 15.66 22.95 15.33 22.91 15 Z M 6.44 19 L 9.69 19 C 10.38 20.45 11.55 21.62 13 22.31 L 13 25.56 C 9.89 24.59 7.41 22.11 6.44 19 Z M 22.31 19 L 25.56 19 C 24.59 22.11 22.11 24.59 19 25.56 L 19 22.31 C 20.45 21.62 21.62 20.45 22.31 19 Z M 15 22.91 C 15.33 22.95 15.66 23 16 23 C 16.34 23 16.67 22.95 17 22.91 L 17 25.94 C 16.67 25.97 16.34 26 16 26 C 15.66 26 15.33 25.97 15 25.94 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaLifeRingSolid;

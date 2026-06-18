@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-fire-alt-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaFireAltSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16.8 4.39 L 13.8 9.39 L 11.95 7.54 L 11.25 8.34 C 7.77 12.29 6 15.87 6 19 C 6 23.96 10.49 28 16 28 C 21.51 28 26 23.96 26 19 C 26 14.24 20.8 8.37 17.71 5.29 L 16.8 4.39 z M 17.19 7.62 C 19.77 10.31 24 15.29 24 19 C 24 21.39 22.62 23.5 20.52 24.77 C 20.82 24.05 21 23.27 21 22.43 C 21 20.05 19.32 17.22 17.9 15.28 L 17.06 14.11 L 14.84 17.43 L 13.44 16.03 L 12.78 17.12 C 11.6 19.06 11 20.85 11 22.43 C 11 23.27 11.18 24.05 11.48 24.77 C 9.38 23.5 8 21.39 8 19 C 8 16.61 9.4 13.68 12.06 10.47 L 14.2 12.61 L 17.19 7.62 z M 17.1 17.65 C 18.33 19.57 19 21.23 19 22.43 C 19 24.4 17.65 26 16 26 C 14.35 26 13 24.4 13 22.43 C 13 21.51 13.29 20.45 13.87 19.28 L 15.16 20.57 L 17.1 17.65 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaFireAltSolid;

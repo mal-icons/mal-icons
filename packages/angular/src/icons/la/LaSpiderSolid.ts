@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-spider-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSpiderSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 7 3 L 7 8.47 L 7.38 8.78 L 11.41 12 L 8.34 12 L 4.59 9.19 L 3.41 10.81 L 7.66 14 L 11.22 14 L 7.63 17 L 3 17 L 3 19 L 8.38 19 L 8.63 18.78 L 10.03 17.63 C 10.02 17.75 10 17.87 10 18 C 10 18.18 10.02 18.35 10.03 18.53 L 6.28 22.28 L 6 22.59 L 6 29 L 8 29 L 8 23.44 L 10.56 20.88 C 10.84 21.63 11.18 22.38 11.63 23.06 C 12.63 24.63 14.11 26 16 26 C 17.89 26 19.37 24.63 20.38 23.06 C 20.82 22.38 21.16 21.63 21.44 20.88 L 24 23.44 L 24 29 L 26 29 L 26 22.59 L 25.72 22.28 L 21.97 18.53 C 21.98 18.35 22 18.18 22 18 C 22 17.88 21.98 17.77 21.97 17.66 L 23.38 18.78 L 23.66 19 L 29 19 L 29 17 L 24.34 17 L 20.59 14 L 24.34 14 L 28.59 10.81 L 27.41 9.19 L 23.66 12 L 20.59 12 L 24.63 8.78 L 25 8.47 L 25 3 L 23 3 L 23 7.53 L 19.88 10.03 C 19.72 9.41 19.41 8.88 19 8.41 L 19 5 L 17 5 L 17 7.16 C 16.68 7.07 16.34 7 16 7 C 15.66 7 15.32 7.07 15 7.16 L 15 5 L 13 5 L 13 8.41 C 12.59 8.88 12.28 9.41 12.13 10.03 L 9 7.53 L 9 3 Z M 16 9 C 17.12 9 18 9.88 18 11 C 18 12.12 17.12 13 16 13 C 14.88 13 14 12.12 14 11 C 14 9.88 14.88 9 16 9 Z M 16 15 C 17.23 15 18.27 15.3 18.94 15.78 C 19.61 16.27 20 16.89 20 18 C 20 19.11 19.49 20.75 18.69 22 C 17.89 23.25 16.87 24 16 24 C 15.13 24 14.11 23.25 13.31 22 C 12.51 20.75 12 19.11 12 18 C 12 16.89 12.39 16.27 13.06 15.78 C 13.73 15.3 14.77 15 16 15 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSpiderSolid;

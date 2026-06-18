@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaFileVideoSolid = createIcon("0 0 32 32", [["path",{"d":"M 6 3 L 6 29 L 26 29 L 26 9.59 L 25.72 9.28 L 19.72 3.28 L 19.41 3 Z M 8 5 L 18 5 L 18 11 L 24 11 L 24 27 L 8 27 Z M 20 6.44 L 22.56 9 L 20 9 Z M 13 13.22 L 13 22.78 L 14.5 21.84 L 19.5 18.84 L 20.94 18 L 19.5 17.16 L 14.5 14.16 Z M 15 16.75 L 17.09 18 L 15 19.25 Z"}]]);
+
+export default LaFileVideoSolid;

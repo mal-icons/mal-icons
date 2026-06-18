@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-microchip-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMicrochipSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 7 6 L 7 8 L 3 8 L 3 26 L 7 26 L 7 28 L 9 28 L 9 26 L 11 26 L 11 28 L 13 28 L 13 26 L 15 26 L 15 28 L 17 28 L 17 26 L 19 26 L 19 28 L 21 28 L 21 26 L 23 26 L 23 28 L 25 28 L 25 26 L 29 26 L 29 8 L 25 8 L 25 6 L 23 6 L 23 8 L 21 8 L 21 6 L 19 6 L 19 8 L 17 8 L 17 6 L 15 6 L 15 8 L 13 8 L 13 6 L 11 6 L 11 8 L 9 8 L 9 6 Z M 5 10 L 27 10 L 27 24 L 5 24 Z M 8 12 C 7.45 12 7 12.45 7 13 C 7 13.55 7.45 14 8 14 C 8.55 14 9 13.55 9 13 C 9 12.45 8.55 12 8 12 Z M 12 12 C 11.45 12 11 12.45 11 13 C 11 13.55 11.45 14 12 14 C 12.55 14 13 13.55 13 13 C 13 12.45 12.55 12 12 12 Z M 16 12 C 15.45 12 15 12.45 15 13 C 15 13.55 15.45 14 16 14 C 16.55 14 17 13.55 17 13 C 17 12.45 16.55 12 16 12 Z M 20 12 C 19.45 12 19 12.45 19 13 C 19 13.55 19.45 14 20 14 C 20.55 14 21 13.55 21 13 C 21 12.45 20.55 12 20 12 Z M 24 12 C 23.45 12 23 12.45 23 13 C 23 13.55 23.45 14 24 14 C 24.55 14 25 13.55 25 13 C 25 12.45 24.55 12 24 12 Z M 8 16 C 7.45 16 7 16.45 7 17 C 7 17.55 7.45 18 8 18 C 8.55 18 9 17.55 9 17 C 9 16.45 8.55 16 8 16 Z M 24 16 C 23.45 16 23 16.45 23 17 C 23 17.55 23.45 18 24 18 C 24.55 18 25 17.55 25 17 C 25 16.45 24.55 16 24 16 Z M 8 20 C 7.45 20 7 20.45 7 21 C 7 21.55 7.45 22 8 22 C 8.55 22 9 21.55 9 21 C 9 20.45 8.55 20 8 20 Z M 12 20 C 11.45 20 11 20.45 11 21 C 11 21.55 11.45 22 12 22 C 12.55 22 13 21.55 13 21 C 13 20.45 12.55 20 12 20 Z M 16 20 C 15.45 20 15 20.45 15 21 C 15 21.55 15.45 22 16 22 C 16.55 22 17 21.55 17 21 C 17 20.45 16.55 20 16 20 Z M 20 20 C 19.45 20 19 20.45 19 21 C 19 21.55 19.45 22 20 22 C 20.55 22 21 21.55 21 21 C 21 20.45 20.55 20 20 20 Z M 24 20 C 23.45 20 23 20.45 23 21 C 23 21.55 23.45 22 24 22 C 24.55 22 25 21.55 25 21 C 25 20.45 24.55 20 24 20 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMicrochipSolid;

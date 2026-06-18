@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaReplySolid = createIcon("0 0 32 32", [["path",{"d":"M 12.28 5.28 L 4.28 13.28 L 3.59 14 L 4.28 14.72 L 12.28 22.72 L 13.72 21.28 L 7.44 15 L 21 15 C 23.77 15 26 17.23 26 20 C 26 22.77 23.77 25 21 25 L 21 27 C 24.86 27 28 23.86 28 20 C 28 16.14 24.86 13 21 13 L 7.44 13 L 13.72 6.72 Z"}]]);
+
+export default LaReplySolid;

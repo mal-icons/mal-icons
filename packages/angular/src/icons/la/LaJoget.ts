@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-joget",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaJoget {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 8.83 3 3 8.83 3 16 C 3 23.17 8.83 29 16 29 C 23.17 29 29 23.17 29 16 C 29 8.83 23.17 3 16 3 z M 16 5 C 22.07 5 27 9.94 27 16 C 27 16.4 26.98 16.8 26.93 17.19 C 24.41 17.19 17.47 17.23 14.95 17.17 C 11.87 17.1 10.42 16.01 11.71 14.5 C 12.99 12.98 14.23 12.23 15.21 11.64 C 16.2 11.06 16.68 9.81 13.87 10.03 C 8.36 10.4 6.06 13.44 5.01 15.87 C 5.08 9.86 9.98 5 16 5 z M 21.58 12 C 20.59 12 18.92 13.42 17.47 14.35 C 15.73 15.5 13.85 16.1 13.85 16.1 L 23.26 16 L 25.99 14.66 C 25.99 14.66 26.18 14.13 24.93 13.81 C 23.67 13.48 21.62 14.47 19.97 15.36 C 18.32 16.23 18.25 15.81 18.25 15.81 C 18.25 15.81 20.83 13.87 21.41 13.51 C 22 13.15 23.19 12.74 22.16 12.15 C 21.97 12.05 21.78 12 21.58 12 z M 26.09 20.37 C 24.4 24.26 20.51 27 16 27 C 15.3 27 14.61 26.93 13.95 26.8 C 13.57 26.17 13.2 25.51 13.04 25.14 C 12.7 24.37 11.47 22.57 14.84 21.34 C 17.53 20.37 23.59 20.39 26.09 20.37 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaJoget;

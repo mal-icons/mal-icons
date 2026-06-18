@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-chevron-left-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaChevronLeftSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 19.75 2.59 L 19.03 3.28 L 7.03 15.28 L 6.34 16 L 7.03 16.72 L 19.03 28.72 L 19.75 29.41 L 20.47 28.72 L 24.06 25.09 L 24.75 24.41 L 24.06 23.69 L 16.38 16 L 24.06 8.31 L 24.75 7.59 L 24.06 6.91 L 20.47 3.28 Z M 19.75 5.44 L 21.94 7.63 L 14.25 15.28 L 13.53 16 L 14.25 16.72 L 21.94 24.38 L 19.75 26.56 L 9.19 16 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaChevronLeftSolid;

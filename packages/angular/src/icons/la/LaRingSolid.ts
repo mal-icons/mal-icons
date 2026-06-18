@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-ring-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaRingSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 26 7 L 25.7 6.7 C 24 4.8 21.5 4.2 21.5 4.2 C 18.5 3.3 13.8 5.3 9.6 9.4 C 6.1 12.7 4 16.7 4 19.7 C 4 20.1 4.1 20.5 4.1 20.9 C 4.3 22.9 5.6 25 6.7 26 C 8.1 27.4 9.9 28.1 11.9 28.1 C 15.2 28.1 19.1 26.2 22.7 22.8 C 28.3 17.3 29.7 10.8 26 7 Z M 10 21.7 C 10 20.4 11.4 17.7 14.4 14.7 C 17.3 11.8 20.3 11 21.7 10.7 C 21 12.6 19.5 14.9 17.3 17.1 C 15.2 19.1 12.8 20.7 10.7 21.5 C 10.5 21.6 10.2 21.6 10 21.7 Z M 11 10.8 C 14.3 7.5 17.8 5.9 20 5.9 C 20.7 5.9 21.3 6.1 21.7 6.5 C 22.1 6.9 22.3 7.7 22.2 8.6 C 21 8.7 16.9 9.4 13 13.3 C 10.5 15.8 7.9 19.4 8.1 21.9 C 7.5 21.9 6.9 21.7 6.6 21.4 C 6.4 21.2 6.2 20.9 6.1 20.5 C 6.1 20.5 6 20 6 19.7 C 6.1 17.2 8 13.7 11 10.8 Z M 21.3 21.3 C 16.5 26.1 11 27.4 8.1 24.6 C 7.9 24.4 7.7 24.2 7.5 23.9 C 7.7 24 8 24 8.3 24 C 9.2 24 10.3 23.8 11.4 23.4 C 13.8 22.5 16.4 20.8 18.7 18.5 C 22.2 15 24.2 11 24.2 8.1 L 24.3 8.2 L 24.6 8.4 C 27.4 11.3 26 16.7 21.3 21.3 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaRingSolid;

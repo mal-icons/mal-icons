@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-cloud-showers-heavy-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCloudShowersHeavySolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 5 C 12.67 5 9.95 7.37 9.25 10.5 C 8.03 10.98 7.13 11.87 6.59 13.06 C 6.39 13.04 6.21 13 6 13 C 2.7 13 0 15.7 0 19 C 0 19.07 0 19.12 0 19.19 C 0.09 22.05 2.14 24.36 4.84 24.88 L 6.75 23 L 6 23 C 3.83 23 2.07 21.29 2 19.13 C 2 19.08 2 19.04 2 19 C 2 16.78 3.78 15 6 15 C 6.29 15 6.58 15.03 6.88 15.09 L 7.88 15.31 L 8.06 14.34 C 8.31 13.23 9.2 12.36 10.31 12.09 L 10.97 11.94 L 11.06 11.25 C 11.42 8.84 13.48 7 16 7 C 17.96 7 19.64 8.12 20.47 9.75 L 20.84 10.53 L 21.69 10.25 C 22.13 10.1 22.55 10 23 10 C 25.22 10 27 11.78 27 14 C 27 13.99 26.98 14.08 26.97 14.31 L 26.91 15.03 L 27.56 15.31 C 28.99 15.92 30 17.34 30 19 C 30 21.22 28.22 23 26 23 L 25.31 23 L 23.28 25 L 26 25 C 29.3 25 32 22.3 32 19 C 32 16.84 30.73 15.05 29 14 C 29 10.7 26.3 8 23 8 C 22.57 8 22.2 8.13 21.81 8.22 C 20.56 6.3 18.45 5 16 5 Z M 13.59 19.09 L 3.94 28.59 L 5.34 30 L 15 20.5 Z M 18.59 19.09 L 8.94 28.59 L 10.34 30 L 20 20.5 Z M 23.59 19.09 L 13.94 28.59 L 15.34 30 L 25 20.5 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCloudShowersHeavySolid;

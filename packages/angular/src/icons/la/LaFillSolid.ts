@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-fill-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaFillSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 11.31 3.28 L 9.91 4.72 L 11.69 6.5 L 4.78 13.41 C 3.6 14.59 3.6 16.54 4.78 17.72 L 4.84 17.78 L 11.19 24.09 C 12.37 25.28 14.32 25.28 15.5 24.09 L 23.09 16.5 L 23.81 15.81 L 14.09 6.09 L 13.31 5.28 L 13.09 5.09 Z M 13.13 7.94 L 21 15.81 L 14.09 22.69 C 13.68 23.11 13.01 23.11 12.59 22.69 L 6.22 16.28 C 5.8 15.86 5.8 15.23 6.22 14.81 Z M 25 19.25 L 24.19 20.44 C 24.19 20.44 23.65 21.19 23.13 22.09 C 22.86 22.55 22.62 23.02 22.41 23.5 C 22.2 23.98 22 24.42 22 25 C 22 26.64 23.36 28 25 28 C 26.64 28 28 26.64 28 25 C 28 24.42 27.8 23.98 27.59 23.5 C 27.38 23.02 27.14 22.55 26.88 22.09 C 26.35 21.19 25.81 20.44 25.81 20.44 Z M 25 22.88 C 25.07 22.98 25.06 22.98 25.13 23.09 C 25.36 23.5 25.62 23.94 25.78 24.31 C 25.95 24.68 26 25.03 26 25 C 26 25.55 25.55 26 25 26 C 24.45 26 24 25.55 24 25 C 24 25.03 24.05 24.68 24.22 24.31 C 24.38 23.94 24.64 23.5 24.88 23.09 C 24.94 22.98 24.93 22.98 25 22.88 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaFillSolid;

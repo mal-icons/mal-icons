@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-sign-in-alt-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSignInAltSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 10.42 4 5.74 7.83 4.41 13 L 6.47 13 C 7.75 8.95 11.53 6 16 6 C 21.52 6 26 10.48 26 16 C 26 21.52 21.52 26 16 26 C 11.53 26 7.75 23.05 6.47 19 L 4.41 19 C 5.74 24.17 10.42 28 16 28 C 22.62 28 28 22.62 28 16 C 28 9.38 22.62 4 16 4 Z M 15.34 11.28 L 13.91 12.72 L 16.19 15 L 4 15 L 4 17 L 16.19 17 L 13.91 19.28 L 15.34 20.72 L 19.34 16.72 L 20.03 16 L 19.34 15.28 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSignInAltSolid;

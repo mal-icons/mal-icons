@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-balance-scale-left-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaBalanceScaleLeftSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 23.52 5.11 L 18.28 7.08 C 17.73 6.42 16.92 6 16 6 C 14.35 6 13 7.35 13 9 C 13 9.02 13.01 9.04 13.01 9.06 L 8 11 L 3 19.75 L 3 20.02 C 3 22.77 5.24 25 8 25 C 10.76 25 13 22.77 13 20.02 L 13 19.75 L 9.01 12.77 L 13.72 10.93 C 14.06 11.33 14.5 11.64 15 11.82 L 15 24 L 15 26 L 17 26 L 21 26 L 21 24 L 17 24 L 17 11.82 C 18.16 11.4 19 10.3 19 9 C 19 8.98 18.99 8.96 18.99 8.95 L 23.21 7.36 L 19 14.73 L 19 15 C 19 17.76 21.24 20 24 20 C 26.76 20 29 17.76 29 15 L 29 14.73 L 24.51 6.88 L 23.52 5.11 z M 16 8 C 16.55 8 17 8.45 17 9 C 17 9.55 16.55 10 16 10 C 15.45 10 15 9.55 15 9 C 15 8.45 15.45 8 16 8 z M 24 10.02 L 26.28 14 L 21.72 14 L 24 10.02 z M 8 15.03 L 10.27 19 L 5.73 19 L 8 15.03 z M 21.19 16 L 26.81 16 C 26.4 17.16 25.3 18 24 18 C 22.7 18 21.6 17.16 21.19 16 z M 5.18 21 L 10.82 21 C 10.41 22.17 9.31 23.02 8 23.02 C 6.69 23.02 5.59 22.17 5.18 21 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaBalanceScaleLeftSolid;

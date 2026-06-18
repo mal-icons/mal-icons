@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-lastfm-square",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaLastfmSquare {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5 5 L 5 27 L 27 27 L 27 5 L 5 5 z M 7 7 L 25 7 L 25 25 L 7 25 L 7 7 z M 12.61 12.11 C 10.25 12.11 9 13.6 9 16.14 C 9 18.57 10.25 19.89 12.5 19.89 C 14.31 19.89 15.18 19.04 15.18 19.04 L 14.67 17.65 C 14.67 17.65 13.83 18.58 12.58 18.58 C 11.47 18.58 10.69 17.62 10.69 16.07 C 10.69 14.1 11.68 13.4 12.66 13.4 C 14.48 13.4 14.7 14.85 15.42 17.09 C 15.93 18.64 16.89 19.89 19.67 19.89 C 21.66 19.89 23 19.28 23 17.68 C 23 15.69 21.29 15.47 19.86 15.16 C 19.15 15 18.94 14.71 18.94 14.23 C 18.94 13.68 19.38 13.36 20.08 13.36 C 20.85 13.36 21.27 13.65 21.33 14.34 L 22.94 14.15 C 22.81 12.7 21.82 12.11 20.18 12.11 C 18.74 12.11 17.33 12.65 17.33 14.4 C 17.33 15.49 17.86 16.18 19.19 16.5 C 20.42 16.79 21.37 16.88 21.37 17.76 C 21.37 18.35 20.79 18.59 19.7 18.59 C 18.08 18.59 17.41 17.74 17.03 16.57 C 16.15 13.92 15.83 12.11 12.61 12.11 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaLastfmSquare;

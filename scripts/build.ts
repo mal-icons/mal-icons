@@ -378,6 +378,7 @@ async function buildReact(): Promise<void> {
     "gr",
     "hi",
     "io",
+    "la",
     "lu",
     "mdf",
     "mdr",

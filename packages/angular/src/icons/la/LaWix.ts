@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-wix",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaWix {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 22.05 9.95 C 21.53 9.92 21.1 10 21.1 10 L 25.1 16 L 21.1 21.9 C 21.1 21.9 22.9 22.2 23.7 21.4 C 24.2 20.9 24.5 20.4 26.2 18 C 26.5 17.5 26.8 18 26.8 18 C 28.3 20 28.7 20.8 29.4 21.4 C 30.3 22.1 32 21.9 32 21.9 L 28 16 L 31.9 10 C 31.9 10 30.2 9.7 29.4 10.5 C 28.8 11.1 28.2 11.9 26.8 14 C 26.8 14 26.5 14.5 26.2 14 C 24.8 12 24.2 11.1 23.6 10.5 C 23.2 10.1 22.58 9.97 22.05 9.95 z M 0.42 9.99 C 0.28 9.98 0.14 9.99 0 10 L 3.2 22 C 3.2 22 4.2 22 4.7 21.8 C 5.4 21.5 5.7 21.2 6.1 19.6 C 6.5 18.2 7.5 13.9 7.6 13.6 C 7.8 12.9 8.1 12.9 8.3 13.6 C 8.4 13.9 9.4 18.1 9.8 19.6 C 10.2 21.2 10.5 21.5 11.2 21.8 C 11.8 22.1 12.8 22 12.8 22 L 16 10 C 14.9 9.9 13.6 10.5 13.5 11.7 L 11.8 18.1 L 10.4 12.9 C 10.1 11.4 9.4 10.6 8.1 10.6 C 6.8 10.6 6.2 11.3 5.8 12.9 L 4.4 18.1 L 2.7 11.7 C 2.44 10.56 1.41 10.04 0.42 9.99 z M 19.6 10 C 19.6 10 18.8 10 18.3 10.2 C 17.7 10.5 17.5 11.1 17.5 12.6 C 17.5 12.6 17.8 12.3 18.3 12.1 C 19.7 11.6 19.6 10.6 19.6 10 z M 19.5 12 L 19.5 12.08 C 19.52 12.03 19.53 12 19.5 12 z M 19.5 12.08 C 19.44 12.18 19.25 12.36 18.9 12.5 C 18.6 12.7 18.3 12.8 18 12.9 C 17.3 13.2 17.4 13.6 17.4 14.6 L 17.4 22 C 17.4 22 18.2 22.1 18.7 21.8 C 19.4 21.5 19.5 21.1 19.5 19.6 L 19.5 12.08 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaWix;

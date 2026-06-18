@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-house-damage-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHouseDamageSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 2.59 L 15.28 3.28 L 2.28 16.28 L 3.72 17.72 L 5 16.44 L 5 28 L 13.83 28 L 16 22 L 12.38 22 L 16.01 15.79 L 16 20 L 19.55 20 L 17.94 28 L 27 28 L 27 16.44 L 28.28 17.72 L 29.72 16.28 L 16.72 3.28 L 16 2.59 z M 16 5.44 L 25 14.44 L 25 26 L 20.38 26 L 22 18 L 18 18 L 18 12 L 15.9 12 L 10 22.11 L 10 24 L 13.15 24 L 12.43 26 L 7 26 L 7 14.44 L 16 5.44 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHouseDamageSolid;

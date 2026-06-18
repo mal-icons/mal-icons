@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-grimace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaGrimace {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 8.83 3 3 8.83 3 16 C 3 23.17 8.83 29 16 29 C 23.17 29 29 23.17 29 16 C 29 8.83 23.17 3 16 3 z M 16 5 C 22.07 5 27 9.94 27 16 C 27 22.07 22.07 27 16 27 C 9.94 27 5 22.07 5 16 C 5 9.94 9.94 5 16 5 z M 11.5 12 A 1.5 1.5 0 0 0 11.5 15 A 1.5 1.5 0 0 0 11.5 12 z M 20.5 12 A 1.5 1.5 0 0 0 20.5 15 A 1.5 1.5 0 0 0 20.5 12 z M 12 17 C 10.35 17 9 18.35 9 20 C 9 21.65 10.35 23 12 23 L 20 23 C 21.65 23 23 21.65 23 20 C 23 18.35 21.65 17 20 17 L 12 17 z M 12 19 L 13 19 L 13 21 L 12 21 C 11.45 21 11 20.55 11 20 C 11 19.45 11.45 19 12 19 z M 15 19 L 17 19 L 17 21 L 15 21 L 15 19 z M 19 19 L 20 19 C 20.55 19 21 19.45 21 20 C 21 20.55 20.55 21 20 21 L 19 21 L 19 19 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaGrimace;

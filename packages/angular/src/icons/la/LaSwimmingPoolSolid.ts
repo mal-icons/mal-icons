@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-swimming-pool-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSwimmingPoolSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 12 4 C 10.35 4 9 5.35 9 7 L 9 19.63 L 10 18.91 L 11 19.63 L 11 7 C 11 6.45 11.45 6 12 6 L 13 6 L 13 4 Z M 24 4 C 22.35 4 21 5.35 21 7 L 21 8 L 12 8 L 12 10 L 21 10 L 21 12 L 12 12 L 12 14 L 21 14 L 21 16 L 12 16 L 12 18 L 21 18 L 21 19.63 L 22 18.91 L 23 19.63 L 23 7 C 23 6.45 23.45 6 24 6 L 25 6 L 25 4 Z M 10 20.72 L 9.38 21.22 C 9.38 21.22 8.37 22 7.03 22 C 5.69 22 4.63 21.22 4.63 21.22 L 3.38 22.78 C 3.38 22.78 4.92 24 7.03 24 C 8.49 24 9.42 23.52 10 23.16 C 10.58 23.51 11.56 24 13.03 24 C 14.49 24 15.42 23.52 16 23.16 C 16.58 23.51 17.56 24 19.03 24 C 20.49 24 21.42 23.52 22 23.16 C 22.58 23.51 23.56 24 25.03 24 C 27.14 24 28.63 22.78 28.63 22.78 L 27.38 21.22 C 27.38 21.22 26.37 22 25.03 22 C 23.69 22 22.63 21.22 22.63 21.22 L 22 20.72 L 21.38 21.22 C 21.38 21.22 20.37 22 19.03 22 C 17.69 22 16.63 21.22 16.63 21.22 L 16 20.72 L 15.38 21.22 C 15.38 21.22 14.37 22 13.03 22 C 11.69 22 10.63 21.22 10.63 21.22 Z M 10 24.72 L 9.38 25.22 C 9.38 25.22 8.37 26 7.03 26 C 5.69 26 4.63 25.22 4.63 25.22 L 3.38 26.78 C 3.38 26.78 4.92 28 7.03 28 C 8.49 28 9.42 27.52 10 27.16 C 10.58 27.51 11.56 28 13.03 28 C 14.49 28 15.42 27.52 16 27.16 C 16.58 27.51 17.56 28 19.03 28 C 20.49 28 21.42 27.52 22 27.16 C 22.58 27.51 23.56 28 25.03 28 C 27.14 28 28.63 26.78 28.63 26.78 L 27.38 25.22 C 27.38 25.22 26.37 26 25.03 26 C 23.69 26 22.63 25.22 22.63 25.22 L 22 24.72 L 21.38 25.22 C 21.38 25.22 20.37 26 19.03 26 C 17.69 26 16.63 25.22 16.63 25.22 L 16 24.72 L 15.38 25.22 C 15.38 25.22 14.37 26 13.03 26 C 11.69 26 10.63 25.22 10.63 25.22 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSwimmingPoolSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-python",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaPython {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 5 C 11.01 5 11 7 11 7 L 11 11 L 17 11 L 17 12 L 7 12 C 7 12 4 11.54 4 17 C 4 22.46 7 22 7 22 L 10 22 L 10 20.38 C 10 17.96 11.96 16 14.38 16 L 17.63 16 C 19.48 16 21 15.48 21 13.63 L 21 7 C 21 7 20.99 5 16 5 Z M 13 7 C 13.55 7 14 7.45 14 8 C 14 8.55 13.55 9 13 9 C 12.45 9 12 8.55 12 8 C 12 7.45 12.45 7 13 7 Z M 22 11 L 22 13.63 C 22 16.04 20.04 17 17.63 17 L 14.38 17 C 12.52 17 11 18.52 11 20.38 L 11 26 C 11 26 11.06 28 16 28 C 20.94 28 21 26 21 26 L 21 22 L 15 22 L 15 21 L 25 21 C 25 21 28 21.5 28 16 C 28 10.5 25 11 25 11 Z M 19 24 C 19.55 24 20 24.45 20 25 C 20 25.55 19.55 26 19 26 C 18.45 26 18 25.55 18 25 C 18 24.45 18.45 24 19 24 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaPython;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-dhl",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaDhl {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5.63 13 L 4.61 14.39 L 10.18 14.39 C 10.46 14.39 10.45 14.5 10.31 14.69 C 10.17 14.88 9.94 15.2 9.8 15.39 C 9.73 15.49 9.59 15.67 10.03 15.67 L 12.31 15.67 C 12.31 15.67 12.67 15.17 12.98 14.75 C 13.4 14.18 13.02 13 11.53 13 L 5.63 13 z M 15.23 13 L 13.27 15.67 L 20.45 15.67 L 22.41 13 L 19.48 13 L 18.36 14.53 L 17.04 14.53 L 18.17 13 L 15.23 13 z M 23.38 13 L 21.41 15.67 L 24.52 15.67 L 26.48 13 L 23.38 13 z M 6.24 14.74 L 4.19 17.53 L 9.2 17.53 C 10.85 17.53 11.77 16.41 12.05 16.02 L 8.64 16.02 C 8.21 16.02 8.34 15.84 8.41 15.74 C 8.55 15.55 8.8 15.22 8.94 15.04 C 9.08 14.85 9.07 14.74 8.79 14.74 L 6.24 14.74 z M 0 16.02 L 0 16.34 L 4.53 16.34 L 4.77 16.02 L 0 16.02 z M 13.02 16.02 L 11.9 17.53 L 14.84 17.53 L 15.95 16.02 L 13.02 16.02 z M 17.27 16.02 C 17.26 16.02 16.15 17.53 16.15 17.53 L 19.09 17.53 L 20.2 16.02 L 17.27 16.02 z M 21.15 16.02 C 21.15 16.02 20.94 16.31 20.84 16.45 C 20.47 16.95 20.79 17.53 21.99 17.53 L 26.71 17.53 L 27.82 16.02 L 21.15 16.02 z M 28.37 16.02 L 28.13 16.34 L 32 16.34 L 32 16.02 L 28.37 16.02 z M 0 16.61 L 0 16.93 L 4.09 16.93 L 4.32 16.61 L 0 16.61 z M 27.93 16.61 L 27.69 16.93 L 32 16.93 L 32 16.61 L 27.93 16.61 z M 0 17.21 L 0 17.53 L 3.65 17.53 L 3.89 17.21 L 0 17.21 z M 27.48 17.21 L 27.25 17.53 L 32 17.53 L 32 17.21 L 27.48 17.21 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaDhl;

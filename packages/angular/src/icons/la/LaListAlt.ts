@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-list-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaListAlt {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 10.28 5.28 L 7 8.56 L 5.72 7.28 L 4.28 8.72 L 6.28 10.72 L 7 11.41 L 7.72 10.72 L 11.72 6.72 Z M 15 7 L 15 9 L 28 9 L 28 7 Z M 10.28 13.28 L 7 16.56 L 5.72 15.28 L 4.28 16.72 L 6.28 18.72 L 7 19.41 L 7.72 18.72 L 11.72 14.72 Z M 15 15 L 15 17 L 28 17 L 28 15 Z M 10.28 21.28 L 7 24.56 L 5.72 23.28 L 4.28 24.72 L 6.28 26.72 L 7 27.41 L 7.72 26.72 L 11.72 22.72 Z M 15 23 L 15 25 L 28 25 L 28 23 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaListAlt;

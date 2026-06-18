@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-images-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaImagesSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 2 5 L 2 23 L 6 23 L 6 27 L 30 27 L 30 9 L 26 9 L 26 5 Z M 4 7 L 24 7 L 24 21 L 4 21 Z M 6 9 L 6 19 L 22 19 L 22 9 Z M 8 11 L 20 11 L 20 17 L 8 17 Z M 26 11 L 28 11 L 28 25 L 8 25 L 8 23 L 26 23 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaImagesSolid;

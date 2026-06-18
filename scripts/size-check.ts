@@ -26,7 +26,9 @@ const LIMIT_BYTES = 2800; // 2.8 KB gzipped (headroom over the largest detailed 
  * are real-world brand logos whose most intricate marks (e.g. SiElsevier
  * ~17 KB, SiComposer ~12 KB gzip) have irreducible geometry. Boxicons Logos
  * (`bxl`) are brand marks whose densest glyph (BxlFlask ~3.4 KB gzip) has
- * irreducible geometry. Every other set
+ * irreducible geometry. Line Awesome (`la`) bundles Font Awesome brand marks
+ * whose densest glyph (LaOldRepublic ~5.2 KB gzip) has irreducible geometry.
+ * Every other set
  * stays on the strict {@link LIMIT_BYTES} budget.
  */
 const SET_LIMIT_BYTES: Record<string, number> = {
@@ -35,6 +37,7 @@ const SET_LIMIT_BYTES: Record<string, number> = {
   dev: 52000,
   gi: 10000,
   gr: 5000,
+  la: 5500,
   si: 18000,
   vsc: 4000,
 };

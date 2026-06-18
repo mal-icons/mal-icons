@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-wine-glass-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaWineGlassSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 8.3 5 L 8 5.6 C 7.4 6.9 7 8.7 7 11 C 7 15.6 10.5 19.4 15 19.9 L 15 26 L 10 26 L 10 28 L 22 28 L 22 26 L 17 26 L 17 19.9 C 21.5 19.4 25 15.6 25 11 C 25 8.7 24.6 6.9 24 5.6 L 23.8 5 L 8.3 5 z M 9.6 7 L 22.4 7 C 22.8 8.2 23 9.6 23 11 C 23 13.1 22.1 14.9 20.7 16.2 L 20.6 16.3 C 20.5 16.4 20.4 16.5 20.3 16.5 C 20.2 16.6 20.1 16.6 20.1 16.7 C 20 16.8 19.9 16.8 19.8 16.9 C 19.7 17 19.6 17 19.5 17.1 C 19.4 17.1 19.3 17.2 19.3 17.2 C 19.2 17.3 19.1 17.3 18.9 17.4 C 18.8 17.4 18.7 17.5 18.7 17.5 C 18.6 17.6 18.4 17.6 18.3 17.6 C 18.2 17.6 18.2 17.7 18.1 17.7 C 18 17.7 17.8 17.8 17.7 17.8 C 17.6 17.8 17.6 17.8 17.5 17.9 L 16.9 17.9 L 16.7 17.9 L 16 17.9 C 12.1 17.9 9 14.8 9 10.9 L 9 9.8 L 9 9.4 L 9.6 7 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaWineGlassSolid;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaCompressArrowsAltSolid = createIcon("0 0 32 32", [["path",{"d":"M 4.72 3.28 L 3.28 4.72 L 10.56 12 L 5 12 L 5 14 L 14 14 L 14 5 L 12 5 L 12 10.56 Z M 27.28 3.28 L 20 10.56 L 20 5 L 18 5 L 18 14 L 27 14 L 27 12 L 21.44 12 L 28.72 4.72 Z M 5 18 L 5 20 L 10.56 20 L 3.28 27.28 L 4.72 28.72 L 12 21.44 L 12 27 L 14 27 L 14 18 Z M 18 18 L 18 27 L 20 27 L 20 21.44 L 27.28 28.72 L 28.72 27.28 L 21.44 20 L 27 20 L 27 18 Z"}]]);
+
+export default LaCompressArrowsAltSolid;

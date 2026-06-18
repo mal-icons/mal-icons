@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-flushed-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaFlushedSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 8.83 3 3 8.83 3 16 C 3 23.17 8.83 29 16 29 C 23.17 29 29 23.17 29 16 C 29 8.83 23.17 3 16 3 z M 16 5 C 22.07 5 27 9.94 27 16 C 27 22.07 22.07 27 16 27 C 9.94 27 5 22.07 5 16 C 5 9.94 9.94 5 16 5 z M 11.5 8 C 8.47 8 6 10.47 6 13.5 C 6 16.53 8.47 19 11.5 19 C 13.36 19 15 18.07 16 16.65 C 17 18.07 18.64 19 20.5 19 C 23.53 19 26 16.53 26 13.5 C 26 10.47 23.53 8 20.5 8 C 18.64 8 17 8.93 16 10.35 C 15 8.93 13.36 8 11.5 8 z M 11.5 10 C 13.43 10 15 11.57 15 13.5 C 15 15.43 13.43 17 11.5 17 C 9.57 17 8 15.43 8 13.5 C 8 11.57 9.57 10 11.5 10 z M 20.5 10 C 22.43 10 24 11.57 24 13.5 C 24 15.43 22.43 17 20.5 17 C 18.57 17 17 15.43 17 13.5 C 17 11.57 18.57 10 20.5 10 z M 11.5 12 A 1.5 1.5 0 0 0 11.5 15 A 1.5 1.5 0 0 0 11.5 12 z M 20.5 12 A 1.5 1.5 0 0 0 20.5 15 A 1.5 1.5 0 0 0 20.5 12 z M 12 21 L 12 23 L 20 23 L 20 21 L 12 21 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaFlushedSolid;

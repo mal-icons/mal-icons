@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-skating-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSkatingSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 22.5 4 C 20.58 4 19 5.58 19 7.5 C 19 9.42 20.58 11 22.5 11 C 24.42 11 26 9.42 26 7.5 C 26 5.58 24.42 4 22.5 4 Z M 22.5 6 C 23.36 6 24 6.64 24 7.5 C 24 8.36 23.36 9 22.5 9 C 21.64 9 21 8.36 21 7.5 C 21 6.64 21.64 6 22.5 6 Z M 9 9 L 9 11 L 17.59 11 L 14 14.59 C 13.23 15.37 13.23 16.63 14 17.41 L 16 19.41 L 16 24 L 18 24 L 18 19.41 C 18 18.88 17.78 18.38 17.41 18 L 15.41 16 L 19 12.41 C 19.6 11.8 19.72 10.93 19.44 10.25 C 19.15 9.57 18.44 9 17.59 9 Z M 12.63 17.81 L 9 21.44 L 10.41 22.84 L 14.03 19.22 Z M 7 21 C 6.45 21 6 21.45 6 22 C 6 22.55 6.45 23 7 23 C 7.28 23 7.54 22.9 7.72 22.72 C 7.9 22.54 8 22.28 8 22 C 8 21.45 7.55 21 7 21 Z M 7.72 22.72 C 7.54 22.9 7.41 23.13 7.41 23.41 C 7.41 23.96 7.86 24.41 8.41 24.41 C 8.68 24.41 8.95 24.3 9.13 24.13 C 9.3 23.95 9.41 23.68 9.41 23.41 C 9.41 22.86 8.96 22.41 8.41 22.41 C 8.13 22.41 7.9 22.54 7.72 22.72 Z M 9.13 24.13 C 8.95 24.3 8.81 24.54 8.81 24.81 C 8.81 25.36 9.26 25.81 9.81 25.81 C 10.36 25.81 10.81 25.36 10.81 24.81 C 10.81 24.26 10.36 23.81 9.81 23.81 C 9.54 23.81 9.3 23.95 9.13 24.13 Z M 15.06 25 C 14.51 25 14.06 25.45 14.06 26 C 14.06 26.55 14.51 27 15.06 27 C 15.61 27 16.06 26.55 16.06 26 C 16.06 25.45 15.61 25 15.06 25 Z M 16.06 26 C 16.06 26.55 16.51 27 17.06 27 C 17.61 27 18.06 26.55 18.06 26 C 18.06 25.45 17.61 25 17.06 25 C 16.51 25 16.06 25.45 16.06 26 Z M 18.06 26 C 18.06 26.55 18.51 27 19.06 27 C 19.61 27 20.06 26.55 20.06 26 C 20.06 25.45 19.61 25 19.06 25 C 18.51 25 18.06 25.45 18.06 26 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSkatingSolid;

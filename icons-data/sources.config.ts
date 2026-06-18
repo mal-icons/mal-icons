@@ -95,6 +95,21 @@ export const sources: Record<string, IconSource> = {
     iconDir: "src/svg",
     style: "fill",
   },
+  la: {
+    id: "la",
+    prefix: "La",
+    name: "Line Awesome",
+    license: "MIT",
+    repo: "icons8/line-awesome",
+    // The `v1.2.1` tag archive ships only the compiled font (`dist/`), not the
+    // `svg/` sources; pin to the commit that includes them for reproducibility.
+    ref: "78a101217707c9b1c4dcf2a821be75684e36307f",
+    // A single flat folder mixes all three styles; filenames are unique because
+    // solid glyphs carry a `-solid` suffix (e.g. `address-book.svg` vs
+    // `address-book-solid.svg`), while brand marks are plain (`adobe.svg`).
+    iconDir: "svg",
+    style: "fill",
+  },
   lu: {
     id: "lu",
     prefix: "Lu",

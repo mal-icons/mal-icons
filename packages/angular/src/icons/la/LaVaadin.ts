@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-vaadin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaVaadin {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 4 4 C 3.4 4 3 4.4 3 5 L 3 7.5 C 3 9.4 4.6 11 6.5 11 L 13.6 11 C 14.4 11 15 11.6 15 12.4 L 15 13 C 15 13.6 15.4 14 16 14 C 16.6 14 17 13.6 17 13 L 17 12.4 C 17 11.6 17.6 11 18.4 11 L 25.5 11 C 27.4 11 29 9.4 29 7.5 L 29 5 C 29 4.4 28.6 4 28 4 C 27.4 4 27 4.4 27 5 L 27 5.6 C 27 6.4 26.4 7 25.6 7 L 19 7 C 17.3 7 16 8.3 16 10 C 16 8.3 14.7 7 13 7 L 6.4 7 C 5.6 7 5 6.4 5 5.6 L 5 5 C 5 4.4 4.6 4 4 4 z M 10.35 15.03 C 10.16 15.04 9.98 15.1 9.8 15.2 C 9.1 15.6 8.8 16.5 9.2 17.2 L 14.7 27.2 C 14.9 27.7 15.5 28 16 28 C 16.5 28 17.1 27.7 17.3 27.2 L 22.8 17.2 C 23.2 16.5 22.9 15.6 22.2 15.2 C 21.5 14.8 20.6 15.1 20.2 15.8 L 16 23.4 L 11.8 15.8 C 11.5 15.28 10.92 14.98 10.35 15.03 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaVaadin;

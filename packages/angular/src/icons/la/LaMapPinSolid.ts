@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-map-pin-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMapPinSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 5 C 12.14 5 9 8.14 9 12 C 9 15.52 11.62 18.42 15 18.91 L 15 28 L 17 28 L 17 18.91 C 20.38 18.42 23 15.52 23 12 C 23 8.14 19.86 5 16 5 Z M 16 7 C 18.77 7 21 9.23 21 12 C 21 14.77 18.77 17 16 17 C 13.23 17 11 14.77 11 12 C 11 9.23 13.23 7 16 7 Z M 16 8 C 13.8 8 12 9.8 12 12 L 14 12 C 14 10.88 14.88 10 16 10 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMapPinSolid;

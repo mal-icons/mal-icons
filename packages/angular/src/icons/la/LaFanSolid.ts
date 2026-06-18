@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-fan-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaFanSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 10.49 4 6 8.49 6 14 C 6 19.51 10.49 24 16 24 C 21.51 24 26 19.51 26 14 C 26 8.49 21.51 4 16 4 Z M 16 6 C 20.24 6 23.68 9.27 23.97 13.44 C 23.36 13 22.67 12.75 21.97 12.63 C 21.53 12.55 21.09 12.52 20.66 12.53 C 20 12.54 19.35 12.64 18.75 12.81 C 18.29 11.75 17.22 11 16 11 C 15.79 11 15.58 11.02 15.38 11.06 C 15.37 11.05 15.35 11.07 15.34 11.06 C 14.7 10.52 14 9.68 13.69 8.84 C 13.48 8.29 13.43 7.77 13.53 7.34 C 13.63 6.93 13.84 6.53 14.41 6.16 C 14.92 6.05 15.46 6 16 6 Z M 11.5 7.41 C 11.43 8.14 11.56 8.86 11.81 9.53 C 12.2 10.57 12.84 11.5 13.59 12.22 C 13.22 12.72 13 13.34 13 14 C 13 14.79 13.3 15.52 13.81 16.06 C 13.65 16.86 13.27 17.83 12.72 18.5 C 12.34 18.96 11.89 19.28 11.47 19.41 C 11.04 19.54 10.6 19.54 9.97 19.22 C 8.75 17.82 8 16.01 8 14 C 8 11.25 9.39 8.84 11.5 7.41 Z M 16 13 C 16.56 13 17 13.44 17 14 C 17 14.56 16.56 15 16 15 C 15.44 15 15 14.56 15 14 C 15 13.44 15.44 13 16 13 Z M 20.69 14.56 C 21.01 14.55 21.33 14.57 21.63 14.63 C 22.21 14.73 22.7 14.94 23.03 15.25 C 23.34 15.54 23.54 15.92 23.59 16.56 C 22.53 19.73 19.53 22 16 22 C 14.73 22 13.53 21.71 12.47 21.19 C 13.18 20.88 13.78 20.36 14.25 19.78 C 14.94 18.94 15.43 17.95 15.69 16.97 C 15.79 16.98 15.89 17 16 17 C 17.31 17 18.41 16.12 18.81 14.94 C 19.33 14.74 20.01 14.59 20.69 14.56 Z M 15 25 L 15 26 L 9 26 L 9 28 L 23 28 L 23 26 L 17 26 L 17 25 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaFanSolid;

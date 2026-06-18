@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-tractor-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaTractorSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 7 5 L 7 12.25 C 5.65 12.55 4.42 13.13 3.38 13.97 L 4.63 15.53 C 5.82 14.57 7.34 14 9 14 C 12.88 14 16 17.12 16 21 L 20.56 21 C 20.21 21.59 20 22.27 20 23 C 20 25.2 21.8 27 24 27 C 26.2 27 28 25.2 28 23 C 28 21.97 27.58 21.05 26.94 20.34 L 28.94 15.38 L 29 15.19 L 29 13 L 24 13 L 24 10 C 24 9.43 24.43 9 25 9 L 25 7 C 23.36 7 22 8.36 22 10 L 22 13 L 18.69 13 L 15.94 5.66 L 15.69 5 Z M 9 7 L 14.31 7 L 17.06 14.34 L 17.31 15 L 26.91 15 L 25.31 19 L 17.75 19 C 16.83 15 13.27 12 9 12 Z M 9 15 C 5.7 15 3 17.7 3 21 C 3 24.3 5.7 27 9 27 C 12.3 27 15 24.3 15 21 C 15 17.7 12.3 15 9 15 Z M 9 17 C 11.22 17 13 18.78 13 21 C 13 23.22 11.22 25 9 25 C 6.78 25 5 23.22 5 21 C 5 18.78 6.78 17 9 17 Z M 9 19 C 7.89 19 7 19.89 7 21 C 7 22.11 7.89 23 9 23 C 10.11 23 11 22.11 11 21 C 11 19.89 10.11 19 9 19 Z M 24 21 C 25.12 21 26 21.88 26 23 C 26 24.12 25.12 25 24 25 C 22.88 25 22 24.12 22 23 C 22 21.88 22.88 21 24 21 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaTractorSolid;

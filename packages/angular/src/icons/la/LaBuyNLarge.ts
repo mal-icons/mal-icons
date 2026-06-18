@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-buy-n-large",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaBuyNLarge {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4.21 C 7.72 4.21 1 9.49 1 16 C 1 22.51 7.72 27.79 16 27.79 C 24.28 27.79 31 22.51 31 16 C 31 9.49 24.28 4.21 16 4.21 z M 8.84 8 L 15.35 8 C 18.5 8 19.59 9.48 19.24 11.76 C 19.23 11.84 19.18 12.02 19.14 12.18 C 18.79 12.07 18.42 12 18.03 12 C 15.82 12 14.03 13.79 14.03 16 C 14.03 18.03 15.55 19.69 17.51 19.95 C 17.5 19.95 17.5 19.96 17.5 19.97 C 16.56 21.76 14.7 22.97 11.75 23 C 11.75 23 5.01 23.01 5 23 L 8.84 8 z M 21.35 8 L 26 8 L 23.21 19 L 28 19 L 27 23 L 17.61 23 L 18.36 19.97 C 20.42 19.8 22.03 18.1 22.03 16 C 22.03 14.59 21.3 13.35 20.19 12.64 L 21.35 8 z M 11.99 11 L 11.34 13.76 L 12.53 13.76 C 13.54 13.76 14.51 12.97 14.71 12.07 C 14.93 11.08 14.24 11 13.18 11 L 11.99 11 z M 16.43 13.42 L 18.07 13.42 L 18.85 15.41 L 19.35 13.42 L 21.03 13.42 L 19.87 18.32 L 18.01 18.32 L 17.43 16.38 L 17.02 18.32 L 15.03 18.32 L 16.43 13.42 z M 10.61 16.74 L 9.84 20 L 11.22 20 C 12.12 20 13.01 19.82 13.34 18.46 C 13.65 17.17 12.89 16.74 11.99 16.74 L 10.61 16.74 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaBuyNLarge;

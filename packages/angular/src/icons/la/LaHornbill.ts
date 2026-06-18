@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-hornbill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHornbill {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 10.52 3 C 9.14 3 8.02 4.12 8.02 5.5 C 8.02 6.73 8.91 7.75 10.08 7.96 C 8.8 10.08 8.02 12.9 8.02 16 L 9.02 16 C 9.02 12.97 10.94 10.39 13.64 9.42 C 14.1 7.32 14.77 6 15.52 6 C 16.01 6 16.46 6.56 16.84 7.52 C 18.46 7.54 20.34 7.69 22 8.03 C 20.54 5.56 18.4 4 16.02 4 C 14.93 4 13.9 4.32 12.95 4.91 C 12.69 3.81 11.7 3 10.52 3 z M 16 8 L 16 9 C 19.03 9 21.61 10.92 22.58 13.62 C 24.68 14.08 26 14.75 26 15.5 C 26 15.99 25.44 16.44 24.48 16.82 C 24.46 18.44 24.31 20.32 23.97 21.98 C 26.44 20.52 28 18.38 28 16 C 28 14.91 27.68 13.88 27.09 12.93 C 28.19 12.67 29 11.68 29 10.5 C 29 9.12 27.88 8 26.5 8 C 25.27 8 24.25 8.89 24.04 10.06 C 21.92 8.78 19.1 8 16 8 z M 8.03 10.02 C 5.56 11.48 4 13.62 4 16 C 4 17.09 4.32 18.12 4.91 19.07 C 3.81 19.33 3 20.32 3 21.5 C 3 22.88 4.12 24 5.5 24 C 6.73 24 7.75 23.11 7.96 21.94 C 10.08 23.22 12.9 24 16 24 L 16 23 C 12.97 23 10.39 21.08 9.42 18.38 C 7.32 17.92 6 17.25 6 16.5 C 6 16.01 6.56 15.56 7.52 15.18 C 7.54 13.56 7.69 11.68 8.03 10.02 z M 22.98 16 C 22.98 19.03 21.06 21.61 18.36 22.58 C 17.9 24.68 17.23 26 16.48 26 C 15.99 26 15.54 25.44 15.16 24.48 C 13.54 24.46 11.66 24.31 10 23.97 C 11.46 26.44 13.6 28 15.98 28 C 17.07 28 18.1 27.68 19.05 27.09 C 19.31 28.19 20.3 29 21.48 29 C 22.86 29 23.98 27.88 23.98 26.5 C 23.98 25.27 23.09 24.25 21.92 24.04 C 23.2 21.92 23.98 19.1 23.98 16 L 22.98 16 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHornbill;

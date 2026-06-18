@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-helicopter-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHelicopterSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 18 6 L 18 10.06 C 16.15 10.22 14.74 10.79 13.78 11.47 C 13.22 11.87 12.82 12.32 12.53 12.72 C 12.46 12.81 12.46 12.92 12.41 13 L 5.81 13 C 5.39 11.84 4.29 11 3 11 C 1.36 11 0 12.36 0 14 C 0 15.64 1.36 17 3 17 C 4.29 17 5.39 16.16 5.81 15 L 14 15 L 14 14.16 C 14.01 14.11 14.05 13.98 14.13 13.88 C 14.28 13.66 14.55 13.37 14.94 13.09 C 15.72 12.54 17.02 12 19 12 C 19.45 12 19.91 12.16 20.38 12.22 C 19.85 13.07 19.69 14.14 19.69 15.78 C 19.69 16.51 19.94 17.25 20.47 17.78 C 21 18.32 21.77 18.63 22.63 18.63 C 24.64 18.63 25.97 18.55 26.97 18.38 C 27.05 18.36 27.07 18.3 27.16 18.28 C 27.11 18.36 27.12 18.5 27.06 18.56 C 26.79 18.91 26.39 19.18 25.81 19.41 C 24.66 19.86 22.9 20 21.16 20 L 16.22 20 C 14.99 20 14 19.01 14 17.78 L 14 16 L 12 16 L 12 17.78 C 12 20.09 13.91 22 16.22 22 L 21.16 22 C 22.98 22 24.91 21.91 26.53 21.28 C 27.34 20.96 28.11 20.48 28.66 19.78 C 29.21 19.08 29.5 18.16 29.5 17.13 C 29.5 14.95 27.93 13.19 25.94 11.97 C 25.18 11.5 24.29 11.19 23.41 10.88 C 22.3 10.48 21.16 10.18 20 10.06 L 20 6 Z M 7 7 L 7 9 L 17 9 L 17 7 Z M 21 7 L 21 9 L 31 9 L 31 7 Z M 23.06 12.91 C 23.69 13.15 24.34 13.36 24.88 13.69 C 26.1 14.43 26.8 15.3 27.16 16.19 C 27 16.26 26.99 16.34 26.63 16.41 C 25.87 16.54 24.6 16.63 22.63 16.63 C 22.21 16.63 22 16.51 21.88 16.38 C 21.75 16.24 21.69 16.05 21.69 15.78 C 21.69 14.08 21.91 13.31 22.06 13.13 C 22.14 13.03 22.21 12.99 22.41 12.94 C 22.54 12.9 22.82 12.92 23.06 12.91 Z M 3 13 C 3.56 13 4 13.44 4 14 C 4 14.56 3.56 15 3 15 C 2.44 15 2 14.56 2 14 C 2 13.44 2.44 13 3 13 Z M 28 22 C 28 22.57 27.57 23 27 23 L 11 23 L 11 25 L 27 25 C 28.64 25 30 23.64 30 22 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHelicopterSolid;

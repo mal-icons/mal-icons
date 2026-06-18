@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-stackpath",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaStackpath {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5 5 L 5 27 L 27 27 L 27 5 L 5 5 z M 7 7 L 25 7 L 25 25 L 7 25 L 7 7 z M 10.78 13 C 9.79 13 8.54 13.46 8.54 14.64 C 8.54 15.47 8.93 15.98 10.71 16.54 C 11.45 16.8 11.64 16.98 11.64 17.37 C 11.64 18.02 10.83 17.98 10.81 17.98 C 9.94 17.98 9.71 17.59 9.71 17.04 L 8.4 17.04 L 8.39 17.07 C 8.36 18.41 9.6 19 10.81 19 C 12.09 19 13 18.42 13 17.36 C 13 16.45 12.48 15.88 11 15.44 C 10.12 15.13 9.89 14.98 9.89 14.65 C 9.89 14.32 10.19 14.02 10.76 14.02 C 11.36 14.02 11.65 14.38 11.65 14.81 L 12.96 14.81 L 12.97 14.78 C 12.99 13.94 12.33 13 10.78 13 z M 14 13.04 L 14 18.96 L 15.38 18.96 L 15.38 16.93 L 16.22 16.93 C 17.51 16.93 18.5 16.24 18.5 14.98 C 18.5 13.9 17.71 13.04 16.22 13.04 L 14 13.04 z M 20.21 13.04 L 18.16 18.96 L 19.44 18.96 L 21.54 13.04 L 20.21 13.04 z M 22.67 13.04 L 20.62 18.96 L 21.9 18.96 L 24 13.04 L 22.67 13.04 z M 15.38 14.1 L 16.22 14.1 C 16.95 14.1 17.13 14.62 17.13 14.99 C 17.13 15.35 16.95 15.88 16.22 15.88 L 15.38 15.88 L 15.38 14.1 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaStackpath;
