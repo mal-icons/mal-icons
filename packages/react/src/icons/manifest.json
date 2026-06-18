@@ -157,6 +157,12 @@
       "count": 733
     },
     {
+      "id": "ph",
+      "name": "Phosphor",
+      "license": "MIT",
+      "count": 1248
+    },
+    {
       "id": "ri",
       "name": "Remix Icon",
       "license": "Apache-2.0",

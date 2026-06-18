@@ -312,6 +312,11 @@
       "bun": "./src/icons/tb/index.ts",
       "import": "./src/icons/tb/index.ts"
     },
+    "./ph": {
+      "solid": "./src/icons/ph/index.ts",
+      "bun": "./src/icons/ph/index.ts",
+      "import": "./src/icons/ph/index.ts"
+    },
     "./sl": {
       "solid": "./src/icons/sl/index.ts",
       "bun": "./src/icons/sl/index.ts",
@@ -341,6 +346,11 @@
       "solid": "./src/icons/tb/*.ts",
       "bun": "./src/icons/tb/*.ts",
       "import": "./src/icons/tb/*.ts"
+    },
+    "./ph/*": {
+      "solid": "./src/icons/ph/*.ts",
+      "bun": "./src/icons/ph/*.ts",
+      "import": "./src/icons/ph/*.ts"
     },
     "./sl/*": {
       "solid": "./src/icons/sl/*.ts",

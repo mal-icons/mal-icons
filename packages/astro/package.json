@@ -57,6 +57,7 @@
     "./bxl/*": "./src/icons/bxl/*.astro",
     "./bxs/*": "./src/icons/bxs/*.astro",
     "./tb/*": "./src/icons/tb/*.astro",
+    "./ph/*": "./src/icons/ph/*.astro",
     "./sl/*": "./src/icons/sl/*.astro",
     "./tf/*": "./src/icons/tf/*.astro",
     "./ti/*": "./src/icons/ti/*.astro",

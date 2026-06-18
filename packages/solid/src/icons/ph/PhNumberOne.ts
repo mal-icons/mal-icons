@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const PhNumberOne = createIcon("0 0 256 256", [["path",{"d":"M144,48V208a8,8,0,0,1-16,0V62.13L100.12,78.86a8,8,0,1,1-8.24-13.72l40-24A8,8,0,0,1,144,48Z"}]]);
+
+export default PhNumberOne;

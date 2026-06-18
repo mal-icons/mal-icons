@@ -387,6 +387,7 @@ async function buildReact(): Promise<void> {
     "msr",
     "mss",
     "oc",
+    "ph",
     "ri",
     "rx",
     "si",

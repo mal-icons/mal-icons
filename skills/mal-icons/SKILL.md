@@ -4,7 +4,7 @@ description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Game Icons "gi", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Remix Icon "ri", Simple Icons "si", Bootstrap Icons "bs", Boxicons Regular "bx" / Solid "bxs" / Logos "bxl", Tabler Icons "tb", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 49,577 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Game Icons "gi", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Remix Icon "ri", Simple Icons "si", Bootstrap Icons "bs", Boxicons Regular "bx" / Solid "bxs" / Logos "bxl", Tabler Icons "tb", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss", Phosphor "ph" — 50,825 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -58,6 +58,7 @@ helps you choose icons and wire them into any supported framework correctly.
 | `mso` | Material Symbols Outlined | `Mso` | fill | 3004 | Apache-2.0 | `0 -960 960 960` |
 | `msr` | Material Symbols Rounded | `Msr` | fill | 3004 | Apache-2.0 | `0 -960 960 960` |
 | `mss` | Material Symbols Sharp | `Mss` | fill | 3004 | Apache-2.0 | `0 -960 960 960` |
+| `ph` | Phosphor | `Ph` | fill | 1248 | MIT | `0 0 256 256` |
 
 Component names are PascalCase with the set prefix: `FiActivity`, `CiHeart`,
 `IoHeartOutline`. Ionicons ships filled, `-outline`, and `-sharp` variants
@@ -135,6 +136,7 @@ catalog (name, tags, description) lives in:
 - [references/icons/mso.json](references/icons/mso.json) · [mso.md](references/icons/mso.md) — Material Symbols Outlined
 - [references/icons/msr.json](references/icons/msr.json) · [msr.md](references/icons/msr.md) — Material Symbols Rounded
 - [references/icons/mss.json](references/icons/mss.json) · [mss.md](references/icons/mss.md) — Material Symbols Sharp
+- [references/icons/ph.json](references/icons/ph.json) · [ph.md](references/icons/ph.md) — Phosphor
 
 Prefer the JSON packs for programmatic lookups; the `.md` tables are for
 human browsing. Regenerate both with `node scripts/build-packs.mjs`.
@@ -200,4 +202,4 @@ Swap `react` for any package: `vue`, `svelte`, `solid`, `preact`, `angular`,
 2. Use the package that matches their framework; default to per-icon or set
    barrel imports for tree-shaking.
 3. Open the relevant `references/setup/<framework>.md` for the exact API.
-4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) and Boxicons (`bx`, `bxs`, `bxl`) are CC-BY-4.0; Game Icons (`gi`) is CC-BY-3.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) and Remix Icon (`ri`) are Apache-2.0; Simple Icons (`si`) is CC0-1.0 (public domain, but brand trademarks still apply); Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`)/Bootstrap Icons (`bs`)/Tabler Icons (`tb`) are MIT; Lucide (`lu`) is ISC.
+4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) and Boxicons (`bx`, `bxs`, `bxl`) are CC-BY-4.0; Game Icons (`gi`) is CC-BY-3.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) and Remix Icon (`ri`) are Apache-2.0; Simple Icons (`si`) is CC0-1.0 (public domain, but brand trademarks still apply); Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`)/Bootstrap Icons (`bs`)/Tabler Icons (`tb`)/Phosphor (`ph`) are MIT; Lucide (`lu`) is ISC.

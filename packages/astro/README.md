@@ -95,6 +95,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Material Symbols Sharp](https://fonts.google.com/icons?icon.set=Material+Symbols&icon.style=Sharp) | [Apache 2.0 license](https://github.com/marella/material-symbols/blob/main/LICENSE) | 0.9.0 |  3004 |
 
 | [Octicons](https://primer.style/octicons/) | [MIT license](https://github.com/primer/octicons/blob/main/LICENSE) | 19.28.1 |   733 |
+| [Phosphor](https://phosphoricons.com/) | [MIT license](https://github.com/phosphor-icons/core/blob/main/LICENSE) | 2.0.8 | 1248 |
 | [Radix Icons](https://www.radix-ui.com/icons) | [MIT license](https://github.com/radix-ui/icons/blob/master/LICENSE) | 0.0.17 | 318 |
 | [Remix Icon](https://remixicon.com/) | [Apache 2.0 license](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 4.6.0 | 3058 |
 | [Simple Icons](https://simpleicons.org/) | [CC0 1.0 license](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) | 16.23.0 | 3442 |
@@ -155,6 +156,8 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/astro/bxs/BxsHeart.astro` | A single Boxicons Solid icon module |
 | `@mal-icons/astro/tb` | All Tabler icons (named exports) |
 | `@mal-icons/astro/tb/TbHeart.astro` | A single Tabler icon module |
+| `@mal-icons/astro/ph` | All Phosphor icons (named exports) |
+| `@mal-icons/astro/ph/PhHeart.astro` | A single Phosphor icon module |
 
 ## Example
 

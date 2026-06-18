@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ph-shield-slash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class PhShieldSlash {
+  readonly viewBox = "0 0 256 256";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M53.92,34.62A8,8,0,0,0,40.26,42,16,16,0,0,0,32,56v58.77c0,89.62,75.82,119.34,91,124.38a15.44,15.44,0,0,0,10,0,147.19,147.19,0,0,0,54.59-33.76l14.51,16a8,8,0,1,0,11.84-10.77ZM128,224c-13.53-4.5-80-30.68-80-109.18V56h3.73L176.8,193.57A130.13,130.13,0,0,1,128,224ZM224,56v58.77c0,19.67-3.73,37.93-11.1,54.29a8,8,0,1,1-14.59-6.57c6.43-14.28,9.69-30.33,9.69-47.72V56L98.52,56a8,8,0,1,1,0-16H208A16,16,0,0,1,224,56Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default PhShieldSlash;

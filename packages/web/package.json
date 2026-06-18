@@ -211,6 +211,11 @@
       "bun": "./src/icons/tb/index.ts",
       "import": "./dist/icons/tb/index.js"
     },
+    "./ph": {
+      "types": "./dist/icons/ph/index.d.ts",
+      "bun": "./src/icons/ph/index.ts",
+      "import": "./dist/icons/ph/index.js"
+    },
     "./sl": {
       "types": "./dist/icons/sl/index.d.ts",
       "bun": "./src/icons/sl/index.ts",
@@ -221,6 +226,7 @@
     "./bxl/*.json": "./src/icons/bxl/*.json",
     "./bxs/*.json": "./src/icons/bxs/*.json",
     "./tb/*.json": "./src/icons/tb/*.json",
+    "./ph/*.json": "./src/icons/ph/*.json",
     "./sl/*.json": "./src/icons/sl/*.json",
     "./tf": {
       "types": "./dist/icons/tf/index.d.ts",
