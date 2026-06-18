@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbMasksTheater = createIcon("0 0 24 24", [["path",{"d":"M13.19 9h6.62a2 2 0 0 1 1.99 2.18l-0.57 6.18a4 4 0 0 1 -3.98 3.64h-1.5a4 4 0 0 1 -3.98 -3.63l-0.57 -6.18a2 2 0 0 1 1.99 -2.18"}],["path",{"d":"M15 13h0.01"}],["path",{"d":"M18 13h0.01"}],["path",{"d":"M15 16.5c1 0.67 2 0.67 3 0"}],["path",{"d":"M8.63 15.98a4.04 4.04 0 0 1 -0.38 0.02h-1.5a4 4 0 0 1 -3.98 -3.63l-0.57 -6.18a2 2 0 0 1 1.99 -2.18h6.62a2 2 0 0 1 2 2"}],["path",{"d":"M6 8h0.01"}],["path",{"d":"M9 8h0.01"}],["path",{"d":"M6 12c0.76 -0.51 1.53 -0.63 2.29 -0.36"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbMasksTheater;

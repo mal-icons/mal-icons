@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbAmpersand = createIcon("0 0 24 24", [["path",{"d":"M19 20l-10.4 -10.97a2.95 2.95 0 0 1 0 -4.16a2.94 2.94 0 0 1 4.16 0a2.95 2.95 0 0 1 0 4.17l-4.68 4.69a3.69 3.69 0 0 0 0 5.21a3.68 3.68 0 0 0 5.2 0l5.72 -5.92"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbAmpersand;

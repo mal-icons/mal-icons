@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbBrandSupernova = createIcon("0 0 24 24", [["path",{"d":"M10 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M15 15h0.5c3.04 0 5.5 -1.34 5.5 -3s-2.46 -3 -5.5 -3c-1.84 0 -3.46 0.49 -4.46 1.25"}],["path",{"d":"M9 9h-0.5c-3.04 0 -5.5 1.34 -5.5 3s2.46 3 5.5 3c1.84 0 3.48 -0.49 4.47 -1.25"}],["path",{"d":"M15 9v-0.5c0 -3.04 -1.34 -5.5 -3 -5.5s-3 2.46 -3 5.5c0 1.83 0.49 3.46 1.24 4.46"}],["path",{"d":"M9 15v0.5c0 3.04 1.34 5.5 3 5.5s3 -2.46 3 -5.5c0 -1.84 -0.49 -3.47 -1.25 -4.47"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbBrandSupernova;

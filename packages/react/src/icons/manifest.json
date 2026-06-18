@@ -13,6 +13,24 @@
       "count": 2078
     },
     {
+      "id": "bx",
+      "name": "Boxicons Regular",
+      "license": "CC-BY-4.0",
+      "count": 814
+    },
+    {
+      "id": "bxl",
+      "name": "Boxicons Logos",
+      "license": "CC-BY-4.0",
+      "count": 155
+    },
+    {
+      "id": "bxs",
+      "name": "Boxicons Solid",
+      "license": "CC-BY-4.0",
+      "count": 665
+    },
+    {
       "id": "cg",
       "name": "css.gg",
       "license": "MIT",
@@ -161,6 +179,12 @@
       "name": "Simple Line Icons",
       "license": "MIT",
       "count": 189
+    },
+    {
+      "id": "tb",
+      "name": "Tabler Icons",
+      "license": "MIT",
+      "count": 5093
     },
     {
       "id": "tf",

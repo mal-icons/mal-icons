@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbThumbUpOff = createIcon("0 0 24 24", [["path",{"d":"M7 11v8a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-7a1 1 0 0 1 1 -1h3a3.99 3.99 0 0 0 2.83 -1.17m1.17 -2.83v-1a2 2 0 1 1 4 0v5h3a2 2 0 0 1 2 2c-0.22 1.11 -0.39 1.95 -0.5 2.5m-0.76 3.24c-0.39 0.82 -1.04 1.31 -1.74 1.25h-7a3 3 0 0 1 -3 -3"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbThumbUpOff;

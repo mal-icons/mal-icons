@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbCircuitCapacitorPolarized = createIcon("0 0 24 24", [["path",{"d":"M22 12h-8"}],["path",{"d":"M2 12h8"}],["path",{"d":"M10 7v10"}],["path",{"d":"M14 7v10"}],["path",{"d":"M17 5h4"}],["path",{"d":"M19 3v4"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbCircuitCapacitorPolarized;

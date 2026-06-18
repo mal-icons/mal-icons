@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-edit-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxEditAlt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.05 7.4c0.38-0.380.59-0.880.59-1.41s-0.21-1.04-0.59-1.41l-1.59-1.59c-0.38-0.38-0.88-0.59-1.41-0.59s-1.040.21-1.410.59L4 13.59V18h4.41L19.05 7.4zm-3-3 1.59 1.59-1.59 1.58-1.59-1.58 1.59-1.58zM6 16v-1.58l7.04-7.02 1.59 1.59L7.59 16H6zm-2 4h16v2H4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxEditAlt;

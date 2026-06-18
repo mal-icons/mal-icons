@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandLastfm = createIcon("0 0 24 24", [["path",{"d":"M20 8c-0.83 -1 -1.39 -1 -2 -1c-0.61 0 -2 0.27 -2 2s1.38 2.23 3 3c1.62 0.77 2.13 1.81 2 3s-1 2 -3 2s-3 -1 -3.5 -2s-1.58 -4.78 -2.5 -6a5 5 0 1 0 -1 7"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandLastfm;

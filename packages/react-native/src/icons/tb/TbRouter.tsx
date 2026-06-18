@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbRouter = createIcon("0 0 24 24", [["path",{"d":"M3 15a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -4"}],["path",{"d":"M17 17l0 0.01"}],["path",{"d":"M13 17l0 0.01"}],["path",{"d":"M15 13l0 -2"}],["path",{"d":"M11.75 8.75a4 4 0 0 1 6.5 0"}],["path",{"d":"M8.5 6.5a8 8 0 0 1 13 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbRouter;

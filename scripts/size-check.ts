@@ -24,10 +24,13 @@ const LIMIT_BYTES = 2800; // 2.8 KB gzipped (headroom over the largest detailed 
  * illustrations whose densest glyphs (e.g. GiAbstract066 ~9.3 KB gzip) carry
  * irreducible geometry, so the set gets a larger ceiling. Simple Icons (`si`)
  * are real-world brand logos whose most intricate marks (e.g. SiElsevier
- * ~17 KB, SiComposer ~12 KB gzip) have irreducible geometry. Every other set
+ * ~17 KB, SiComposer ~12 KB gzip) have irreducible geometry. Boxicons Logos
+ * (`bxl`) are brand marks whose densest glyph (BxlFlask ~3.4 KB gzip) has
+ * irreducible geometry. Every other set
  * stays on the strict {@link LIMIT_BYTES} budget.
  */
 const SET_LIMIT_BYTES: Record<string, number> = {
+  bxl: 4000,
   fab: 6000,
   dev: 52000,
   gi: 10000,

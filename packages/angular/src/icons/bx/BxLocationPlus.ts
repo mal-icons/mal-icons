@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-location-plus",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxLocationPlus {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.42 21.82a1 1 0 0 0 1.16 0C12.88 21.6 20.03 16.44 20 10c0-4.41-3.59-8-8-8S4 5.59 4 10c-0.03 6.44 7.12 11.6 7.42 11.82zM12 4c3.31 0 6 2.69 6 60.02 4.44-4.39 8.42-6 9.73-1.61-1.31-6.02-5.29-6-9.73 0-3.31 2.69-6 6-6z"}],["path",{"d":"M11 14h2v-3h3V9h-3V6h-2v3H8v2h3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxLocationPlus;

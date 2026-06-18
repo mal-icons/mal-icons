@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsMoon = createIcon("0 0 24 24", [["path",{"d":"M12 11.81A9 9 0 0 1 10.05 2a9.94 9.94 0 0 0-5.12 2.74c-3.9 3.91-3.9 10.24 0 14.14 3.91 3.91 10.24 3.91 14.14 0a9.95 9.95 0 0 0 2.74-5.12A9 9 0 0 1 12 11.81z"}]]);
+
+export default BxsMoon;

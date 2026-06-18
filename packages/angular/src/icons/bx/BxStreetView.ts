@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-street-view",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxStreetView {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"12","cy":"4","r":"2"}],["path",{"d":"M12 18h2v-5h2V9c0-1.1-0.9-2-2-2h-4c-1.1 0-2 0.9-2 2v4h2v5h2z"}],["path",{"d":"m18.45 11.39-0.89 1.79C19.11 13.95 20 14.98 20 16c0 1.89-3.28 4-8 4s-8-2.11-8-4c0-1.020.89-2.05 2.45-2.82l-0.89-1.79C3.3 12.51 2 14.19 2 16c0 3.36 4.39 6 10 6s10-2.64 10-6c0-1.81-1.29-3.49-3.55-4.61z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxStreetView;

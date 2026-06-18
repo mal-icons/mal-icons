@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbAlpha = createIcon("0 0 24 24", [["path",{"d":"M18.1 6c-1.1 2.91 -1.9 4.91 -2.4 6c-1.88 4.09 -3.71 6 -6 6c-2.4 0 -4.8 -2.4 -4.8 -6s2.4 -6 4.8 -6c2.27 0 4.14 1.99 6 6c0.51 1.1 1.31 3.1 2.4 6"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbAlpha;

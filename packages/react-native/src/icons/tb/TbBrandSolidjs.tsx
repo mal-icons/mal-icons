@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandSolidjs = createIcon("0 0 24 24", [["path",{"d":"M2 17.5c4.67 3 8 4.5 10 4.5c2.5 0 4 -1.5 4 -3.5s-1.5 -3.5 -4 -3.5c-2 0 -5.33 0.83 -10 2.5"}],["path",{"d":"M5 13.5c4.67 -1.67 8 -2.5 10 -2.5c2.5 0 4 1.5 4 3.5c0 0.74 -0.2 1.41 -0.59 1.96l-2.88 3.83"}],["path",{"d":"M22 6.5c-4 -3 -8 -4.5 -10 -4.5c-2.04 0 -2.62 0.46 -3.42 1.55"}],["path",{"d":"M2 17.5l3 -4"}],["path",{"d":"M22 6.5l-3 4"}],["path",{"d":"M8.58 3.55l-2.95 3.71"}],["path",{"d":"M7.42 12.66c-1.51 -0.48 -2.42 -1.48 -2.42 -3.16c0 -2.5 1.5 -3.5 4 -3.5c1.69 0 5.09 1.07 8.2 3.2a114.76 114.76 0 0 1 1.8 1.3l-2.3 0.79"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandSolidjs;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbDeviceMobileMessage = createIcon("0 0 24 24", [["path",{"d":"M11 3h10v8h-3l-4 2v-2h-3l0 -8"}],["path",{"d":"M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2"}],["path",{"d":"M10 18v0.01"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbDeviceMobileMessage;

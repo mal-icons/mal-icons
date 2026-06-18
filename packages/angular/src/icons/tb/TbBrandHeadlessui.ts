@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-brand-headlessui",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBrandHeadlessui {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.74 4.33l7.82 -1.27a4.46 4.46 0 0 1 5.11 3.69l1.27 7.82a4.46 4.46 0 0 1 -3.69 5.11l-7.82 1.27a4.46 4.46 0 0 1 -5.11 -3.69l-1.27 -7.82a4.46 4.46 0 0 1 3.69 -5.11"}],["path",{"d":"M7.25 7.7l7.9 -1.28a1 1 0 0 1 1.15 0.83l0.36 2.22l-9.56 3.51l-0.67 -4.13a1 1 0 0 1 0.83 -1.15"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBrandHeadlessui;

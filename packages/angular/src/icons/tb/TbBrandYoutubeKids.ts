@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-brand-youtube-kids",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBrandYoutubeKids {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.61 17.75l-3.9 0.27h-0.03a13.83 13.83 0 0 0 -3.72 0.83l-2.51 0.91a4.11 4.11 0 0 1 -3.29 -0.22a3.82 3.82 0 0 1 -1.98 -2.53l-1.38 -6.05a3.67 3.67 0 0 1 0.54 -2.86a3.96 3.96 0 0 1 2.49 -1.66l11.25 -2.35c2.14 -0.45 4.25 0.85 4.71 2.9l1.4 6.16a3.68 3.68 0 0 1 -0.7 3.09a4.01 4.01 0 0 1 -2.89 1.51v0l0 0"}],["path",{"d":"M9 10l1.21 5l4.29 -4l-5.5 -1"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBrandYoutubeKids;

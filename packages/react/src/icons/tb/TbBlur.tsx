@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBlur = createIcon("0 0 24 24", [["path",{"d":"M12 21a9.01 9.01 0 0 0 2.32 -0.3a9 9 0 0 0 1.74 -16.73a9 9 0 1 0 -4.06 17.04"}],["path",{"d":"M12 3v17"}],["path",{"d":"M12 12h9"}],["path",{"d":"M12 9h8"}],["path",{"d":"M12 6h6"}],["path",{"d":"M12 18h6"}],["path",{"d":"M12 15h8"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBlur;

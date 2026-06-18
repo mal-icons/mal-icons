@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBatteryAutomotive = createIcon("0 0 24 24", [["path",{"d":"M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -10"}],["path",{"d":"M6 5v-2"}],["path",{"d":"M18 3v2"}],["path",{"d":"M6.5 12h3"}],["path",{"d":"M14.5 12h3"}],["path",{"d":"M16 10.5v3"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBatteryAutomotive;

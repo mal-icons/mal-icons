@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-telescope-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbTelescopeOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 21l6 -5l6 5"}],["path",{"d":"M12 13v8"}],["path",{"d":"M8.24 8.26l-4.18 2.51c-1.02 0.61 -1.36 1.9 -0.76 2.91l0.17 0.28c0.52 0.88 1.62 1.27 2.61 0.91l6.46 -2.34m2.91 -1.05l4.88 -1.77a1.02 1.02 0 0 0 0.56 -1.45l-2.62 -4.7a1.09 1.09 0 0 0 -1.45 -0.42l-0.06 0.03l-6.02 3.61"}],["path",{"d":"M14 5l3 5.5"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbTelescopeOff;

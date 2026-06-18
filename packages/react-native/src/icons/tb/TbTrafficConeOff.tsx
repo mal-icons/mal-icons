@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbTrafficConeOff = createIcon("0 0 24 24", [["path",{"d":"M4 20h16"}],["path",{"d":"M9.4 10h0.6m4 0h0.6"}],["path",{"d":"M7.8 15h7.2"}],["path",{"d":"M6 20l3.5 -10.5"}],["path",{"d":"M10.5 6.5l0.5 -1.5h2l2 6m2 6l1 3"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbTrafficConeOff;

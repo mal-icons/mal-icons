@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-plug-x",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbPlugX {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.55 17.73a5.81 5.81 0 0 1 -7.36 -4.05a5.81 5.81 0 0 1 1.54 -5.63l2.05 -2.05l7.17 7.17"}],["path",{"d":"M4 20l3.5 -3.5"}],["path",{"d":"M15 4l-3.5 3.5"}],["path",{"d":"M20 9l-3.5 3.5"}],["path",{"d":"M16 16l4 4"}],["path",{"d":"M20 16l-4 4"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbPlugX;

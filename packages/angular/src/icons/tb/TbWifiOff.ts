@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-wifi-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbWifiOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 18l0.01 0"}],["path",{"d":"M9.17 15.17a4 4 0 0 1 5.66 0"}],["path",{"d":"M6.34 12.34a7.96 7.96 0 0 1 3.86 -2.14m4.16 0.16a7.97 7.97 0 0 1 3.29 2"}],["path",{"d":"M3.52 9.52a12 12 0 0 1 3.54 -2.45m3.1 -0.92a12 12 0 0 1 10.33 3.37"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbWifiOff;

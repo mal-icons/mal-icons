@@ -9,6 +9,9 @@ export { default as IconBase } from "./IconBase.svelte";
 // directly from the package root (e.g. `import { FiSearch } from "@mal-icons/svelte"`).
 export * from "./icons/ad/index.ts";
 export * from "./icons/bs/index.ts";
+export * from "./icons/bx/index.ts";
+export * from "./icons/bxl/index.ts";
+export * from "./icons/bxs/index.ts";
 export * from "./icons/cg/index.ts";
 export * from "./icons/ci/index.ts";
 export * from "./icons/dev/index.ts";
@@ -34,6 +37,7 @@ export * from "./icons/ri/index.ts";
 export * from "./icons/rx/index.ts";
 export * from "./icons/si/index.ts";
 export * from "./icons/sl/index.ts";
+export * from "./icons/tb/index.ts";
 export * from "./icons/tf/index.ts";
 export * from "./icons/ti/index.ts";
 export * from "./icons/vsc/index.ts";

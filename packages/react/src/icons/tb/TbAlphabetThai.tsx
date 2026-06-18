@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbAlphabetThai = createIcon("0 0 24 24", [["path",{"d":"M8 18v-3.44c0 -0.49 0.17 -0.92 0.49 -1.36c0.33 -0.45 1.01 -0.76 1.51 -0.93c0.03 -0.01 0.04 -0.08 0 -0.09c-0.43 -0.22 -1.29 -0.52 -1.63 -1.03l-0.01 -0.02l-0.08 -0.12c-0.28 -0.42 -0.28 -1.25 -0.28 -1.25c0 -1.46 0.85 -2.62 1.84 -3.2q 0.9 -0.54 2.14 -0.54q 1.08 0 2 0.47c1.33 0.65 2.03 2.2 2.03 3.98v7.55"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbAlphabetThai;

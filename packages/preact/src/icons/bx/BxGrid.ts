@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxGrid = createIcon("0 0 24 24", [["path",{"d":"M15 3H4.98c-1.1 0-2 0.9-2 2v14.02c0 1.10.9 2 2 2H19c1.1 0 2-0.9 2-2V5c0-1.1-0.9-2-2-2h-4zm4 5h-3V5h3v3zM4.98 10h3v4.02h-3V10zm5 0H14v4.02H9.98V10zM16 10h3v4.02h-3V10zm-2-5v3H9.98V5H14zM7.98 5v3h-3V5h3zm-3 11.02h3v3h-3v-3zm5 3v-3H14v3H9.98zm6.02 0v-3h3v3H16z"}]]);
+
+export default BxGrid;

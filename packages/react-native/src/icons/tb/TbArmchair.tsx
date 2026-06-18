@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbArmchair = createIcon("0 0 24 24", [["path",{"d":"M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2"}],["path",{"d":"M5 11v-5a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v5"}],["path",{"d":"M6 19v2"}],["path",{"d":"M18 19v2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbArmchair;

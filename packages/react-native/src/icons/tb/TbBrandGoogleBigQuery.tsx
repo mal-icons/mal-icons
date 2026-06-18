@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandGoogleBigQuery = createIcon("0 0 24 24", [["path",{"d":"M17.73 19.88a2.23 2.23 0 0 1 -1.95 1.13h-7.28a2.22 2.22 0 0 1 -1.95 -1.16l-4.27 -6.75a2.27 2.27 0 0 1 0 -2.18l4.27 -6.75a2.23 2.23 0 0 1 1.95 -1.16h7.29c0.81 0 1.55 0.44 1.95 1.16l3.98 6.75a2.33 2.33 0 0 1 0 2.25l-3.98 6.75v-0.03"}],["path",{"d":"M8 11.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0"}],["path",{"d":"M14 14l2 2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandGoogleBigQuery;

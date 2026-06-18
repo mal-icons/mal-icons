@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandLine = createIcon("0 0 24 24", [["path",{"d":"M21 10.66c0 -4.22 -4.04 -7.66 -9 -7.66s-9 3.44 -9 7.66c0 3.78 3.2 6.96 7.53 7.56c1.05 0.24 0.93 0.64 0.7 2.13c-0.04 0.24 -0.18 0.93 0.78 0.51c0.96 -0.42 5.18 -3.2 7.07 -5.48c1.3 -1.5 1.93 -3.03 1.93 -4.71v-0.01"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandLine;

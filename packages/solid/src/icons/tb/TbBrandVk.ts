@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbBrandVk = createIcon("0 0 24 24", [["path",{"d":"M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4v-9h4v4.5l0.03 0a4.53 4.53 0 0 0 3.97 -4.5h4l-0.34 1.71a6.86 6.86 0 0 1 -3.66 4.79a5.34 5.34 0 0 1 3.57 4.11l0.43 2.39h-4a4.53 4.53 0 0 0 -3.97 -4.5v4.5l-0.03 -0.01"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbBrandVk;

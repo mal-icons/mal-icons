@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbZodiacLeo = createIcon("0 0 24 24", [["path",{"d":"M13 17a4 4 0 1 0 8 0"}],["path",{"d":"M3 16a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}],["path",{"d":"M7 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"}],["path",{"d":"M7 7c0 3 2 5 2 9"}],["path",{"d":"M15 7c0 4 -2 6 -2 10"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbZodiacLeo;

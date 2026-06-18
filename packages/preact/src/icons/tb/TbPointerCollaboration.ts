@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbPointerCollaboration = createIcon("0 0 24 24", [["path",{"d":"M13.94 13.01l5.02 -1.96c1.45 -0.56 1.37 -2.63 -0.12 -3.09l-12.73 -3.89c-1.25 -0.38 -2.43 0.79 -2.04 2.04l3.9 12.73c0.45 1.48 2.52 1.56 3.09 0.12l1.96 -5.02c0.17 -0.43 0.5 -0.76 0.93 -0.93"}],["path",{"d":"M20 15l-3.15 1.06a1.25 1.25 0 0 0 -0.78 0.79l-1.06 3.15"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbPointerCollaboration;

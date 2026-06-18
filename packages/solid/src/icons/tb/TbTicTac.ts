@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbTicTac = createIcon("0 0 24 24", [["path",{"d":"M4 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M3 12h18"}],["path",{"d":"M12 3v18"}],["path",{"d":"M4 16l4 4"}],["path",{"d":"M4 20l4 -4"}],["path",{"d":"M16 4l4 4"}],["path",{"d":"M16 8l4 -4"}],["path",{"d":"M16 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbTicTac;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrowserCheck = createIcon("0 0 24 24", [["path",{"d":"M4 5a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1l0 -14"}],["path",{"d":"M4 8h16"}],["path",{"d":"M8 4v4"}],["path",{"d":"M9.5 14.5l1.5 1.5l3 -3"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrowserCheck;

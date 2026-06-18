@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbHammerDrill = createIcon("0 0 24 24", [["path",{"d":"M12 15v6"}],["path",{"d":"M16 5h4"}],["path",{"d":"M8 5h-4"}],["path",{"d":"M15 11h-6a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1"}],["path",{"d":"M14 11h-4v3a1 1 0 0 0 1 1h2a1 1 0 0 0 1 -1v-3"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbHammerDrill;

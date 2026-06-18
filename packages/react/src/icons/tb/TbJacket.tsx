@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbJacket = createIcon("0 0 24 24", [["path",{"d":"M16 3l-4 5l-4 -5"}],["path",{"d":"M12 19a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2v-8.17a2 2 0 0 1 0.59 -1.41l0.83 -0.83a2 2 0 0 0 0.59 -1.41v-2.17a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v2.17a2 2 0 0 0 0.59 1.41l0.83 0.83a2 2 0 0 1 0.59 1.41v8.17a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2"}],["path",{"d":"M20 13h-3a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3"}],["path",{"d":"M4 17h3a1 1 0 0 0 1 -1v-2a1 1 0 0 0 -1 -1h-3"}],["path",{"d":"M12 19v-11"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbJacket;

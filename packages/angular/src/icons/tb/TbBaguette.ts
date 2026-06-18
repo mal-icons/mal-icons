@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-baguette",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBaguette {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.63 11.28l5.64 -5.64c2.67 -2.66 5.92 -3.75 8.66 -1.2l0.19 0.18a2.99 2.99 0 0 1 0 4.23l-11.29 11.27a3 3 0 0 1 -4.09 0.14l-0.14 -0.13c-2.73 -2.72 -1.7 -6.12 1.02 -8.84"}],["path",{"d":"M9.5 7.5l1.5 3.5"}],["path",{"d":"M6.5 10.5l1.5 3.5"}],["path",{"d":"M12.5 4.5l1.5 3.5"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBaguette;

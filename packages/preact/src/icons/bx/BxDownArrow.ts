@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxDownArrow = createIcon("0 0 24 24", [["path",{"d":"M21.89 5.54A1 1 0 0 0 21 5H3a1 1 0 0 0-0.82 1.57l9 13a11 0 0 0 1.64 0l9-13a11 0 0 0 0.06-1.03zM12 17.24 4.91 7h14.18L12 17.24z"}]]);
+
+export default BxDownArrow;

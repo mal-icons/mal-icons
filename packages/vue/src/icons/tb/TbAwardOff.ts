@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbAwardOff = createIcon("0 0 24 24", [["path",{"d":"M16.72 12.7a6 6 0 0 0 -8.43 -8.42m-1.75 2.24a6 6 0 0 0 7.94 7.94"}],["path",{"d":"M12 15l3.4 5.89l1.6 -3.23l0.71 0.05m1.11 -2.9l-1.62 -2.8"}],["path",{"d":"M6.8 12l-3.4 5.89l3.6 -0.23l1.6 3.23l3.4 -5.89"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbAwardOff;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-pie-chart-alt-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxPieChartAlt2 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm7.93 9H13V4.07A8.01 8.01 0 0 1 19.93 11zM4 12c0-4.07 3.06-7.44 7-7.93V12a11 0 0 0 0.110.44c0.020.030.020.060.040.09l4.2 6.72A7.95 7.95 0 0 1 12 20c-4.41 0-8-3.59-8-8zm13.05 6.2L13.81 13h6.13a7.99 7.99 0 0 1-2.88 5.2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxPieChartAlt2;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsRuler = createIcon("0 0 24 24", [["path",{"d":"M20.88 7H3.13C1.95 7 1 7.9 1 9v6c0 1.10.95 2 2.13 2h17.75C22.05 17 23 16.1 23 15V9c0-1.1-0.95-2-2.12-2zM7 12H5V9h2v3zm4 1H9V9h2v4zm4-1h-2V9h2v3zm4 1h-2V9h2v4z"}]]);
+
+export default BxsRuler;

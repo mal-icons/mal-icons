@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbMessageCircleUp = createIcon("0 0 24 24", [["path",{"d":"M12 19.98a9.87 9.87 0 0 1 -4.3 -0.98l-4.7 1l1.3 -3.9c-2.32 -3.44 -1.43 -7.87 2.1 -10.37c3.53 -2.5 8.59 -2.3 11.85 0.48c1.99 1.7 2.93 4.05 2.75 6.35"}],["path",{"d":"M19 22v-6"}],["path",{"d":"M22 19l-3 -3l-3 3"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbMessageCircleUp;

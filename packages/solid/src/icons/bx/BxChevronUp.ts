@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxChevronUp = createIcon("0 0 24 24", [["path",{"d":"m6.29 13.29 1.41 1.41L12 10.41l4.29 4.29 1.41-1.41L12 7.59z"}]]);
+
+export default BxChevronUp;

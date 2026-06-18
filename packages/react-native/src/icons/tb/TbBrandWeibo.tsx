@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandWeibo = createIcon("0 0 24 24", [["path",{"d":"M19 14.13c0 3.07 -3.5 5.87 -8 5.87c-4.13 0 -8 -2.22 -8 -5.56c0 -1.78 0.98 -3.74 2.7 -5.57c2.36 -2.51 5.19 -3.69 6.55 -2.24c0.42 0.44 0.75 1.39 0.75 2.06c2 -1.61 4.31 0.39 3.5 2.69c1.26 0.56 2.5 0.54 2.5 2.74"}],["path",{"d":"M15 4h1a5 5 0 0 1 5 5v1"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandWeibo;

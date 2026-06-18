@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbMicrowaveOff = createIcon("0 0 24 24", [["path",{"d":"M18 18h-14a1 1 0 0 1 -1 -1v-10a1 1 0 0 1 1 -1h2m4 0h10a1 1 0 0 1 1 1v10"}],["path",{"d":"M15 6v5m0 4v3"}],["path",{"d":"M18 12h0.01"}],["path",{"d":"M18 9h0.01"}],["path",{"d":"M6.5 10.5c1 -0.67 1.5 -0.67 2.5 0c0.64 0.27 1.27 0.67 1.91 0.43"}],["path",{"d":"M6.5 13.5c1 -0.67 1.5 -0.67 2.5 0c0.83 0.35 1.67 0.93 2.5 0"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbMicrowaveOff;

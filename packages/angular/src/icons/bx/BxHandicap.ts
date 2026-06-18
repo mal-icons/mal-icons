@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-handicap",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxHandicap {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"9","cy":"4","r":"2"}],["path",{"d":"M16.98 14.8A1 1 0 0 0 16 14h-4.13l-0.43-3H16V9h-4.85l-0.16-1.14A1 1 0 0 0 10 7H9a1 1 0 0 0-0.99 1.14l0.88 6.14A2.01 2.01 0 0 0 10.87 16h4.31l0.84 4.2c0.090.470.50.80.980.8h3v-2h-2.18l-0.84-4.2z"}],["path",{"d":"M12.51 17.5c-0.74 1.48-2.25 2.5-4.01 2.5A4.51 4.51 0 0 1 4 15.5a4.5 4.5 0 0 1 2.82-4.17l-0.29-2.02C3.91 10.15 2 12.6 2 15.5 2 19.08 4.92 22 8.5 22a6.5 6.5 0 0 0 5.55-3.13l-0.27-1.37H12.51z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxHandicap;

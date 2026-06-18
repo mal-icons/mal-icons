@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-news",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxNews {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.88 3H4.13C2.95 3 2 3.9 2 5v14c0 1.10.95 2 2.13 2h15.75C21.05 21 22 20.1 22 19V5c0-1.1-0.95-2-2.12-2zm0 16H4.13c-0.06 0-0.1-0.02-0.11-0.02-0.01 0-0.010-0.010.01L3.99 5.05c0.01-0.010.05-0.050.14-0.05h15.75c0.0800.120.030.130.01l0.01 13.95c-0.010.01-0.050.05-0.140.05z"}],["path",{"d":"M6 7h6v6H6zm7 8H6v2h12v-2h-4zm1-4h4v2h-4zm0-4h4v2h-4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxNews;

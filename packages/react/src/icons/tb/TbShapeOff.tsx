@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbShapeOff = createIcon("0 0 24 24", [["path",{"d":"M3.58 3.6a2 2 0 0 0 2.85 2.81"}],["path",{"d":"M17 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M3 19a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M17.57 17.6a2 2 0 0 0 2.83 2.83"}],["path",{"d":"M5 7v10"}],["path",{"d":"M9 5h8"}],["path",{"d":"M7 19h10"}],["path",{"d":"M19 7v8"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbShapeOff;

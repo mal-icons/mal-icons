@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbLockAccessOff = createIcon("0 0 24 24", [["path",{"d":"M4 8v-2c0 -0.55 0.23 -1.05 0.59 -1.42"}],["path",{"d":"M4 16v2a2 2 0 0 0 2 2h2"}],["path",{"d":"M16 4h2a2 2 0 0 1 2 2v2"}],["path",{"d":"M16 20h2c0.55 0 1.05 -0.22 1.41 -0.58"}],["path",{"d":"M15 11a1 1 0 0 1 1 1m-0.29 3.7a1 1 0 0 1 -0.71 0.3h-6a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h2"}],["path",{"d":"M10 11v-1m1.18 -2.83a2 2 0 0 1 2.82 1.83v1"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbLockAccessOff;

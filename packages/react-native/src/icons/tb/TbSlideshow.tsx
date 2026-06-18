@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSlideshow = createIcon("0 0 24 24", [["path",{"d":"M15 6l0.01 0"}],["path",{"d":"M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -8"}],["path",{"d":"M3 13l4 -4a3 5 0 0 1 3 0l4 4"}],["path",{"d":"M13 12l2 -2a3 5 0 0 1 3 0l3 3"}],["path",{"d":"M8 21l0.01 0"}],["path",{"d":"M12 21l0.01 0"}],["path",{"d":"M16 21l0.01 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSlideshow;

@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-dog",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbDog {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11 5h2"}],["path",{"d":"M19 12c-0.67 5.33 -2.33 8 -5 8h-4c-2.67 0 -4.33 -2.67 -5 -8"}],["path",{"d":"M11 16c0 0.67 0.33 1 1 1s1 -0.33 1 -1h-2"}],["path",{"d":"M12 18v2"}],["path",{"d":"M10 11v0.01"}],["path",{"d":"M14 11v0.01"}],["path",{"d":"M5 4l6 0.97l-6.24 6.69a1.02 1.02 0 0 1 -1.41 0.11a0.95 0.95 0 0 1 -0.33 -0.95l1.98 -6.81"}],["path",{"d":"M19 4l-6 0.97l6.24 6.69c0.36 0.41 0.99 0.46 1.41 0.11a0.95 0.95 0 0 0 0.33 -0.95l-1.97 -6.81"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbDog;

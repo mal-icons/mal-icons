@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-jsfiddle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlJsfiddle {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.58 11.38c0.01-0.120.02-0.230.02-0.35 0-3.24-2.67-5.87-5.96-5.87A5.97 5.97 0 0 0 8.26 8.5a2.73 2.73 0 0 0-1.67-0.57c-1.52 0-2.75 1.21-2.75 2.7 0 0.280.040.550.130.81a3.96 3.96 0 0 0-1.98 3.42c0 2.17 1.77 3.94 3.98 3.97h11.9c0.07 0 0.150.010.230.01 2.18 0 3.94-1.74 3.94-3.89a3.89 3.89 0 0 0-2.43-3.58h-0.01v0zM7.36 15.84a2.33 2.33 0 0 1-0.75-1.32 2.87 2.87 0 0 1-0.05-0.54c0-0.740.27-1.350.81-1.830.54-0.48 1.22-0.72 2.05-0.720.85 0 1.650.32 2.360.960.180.160.350.340.510.54l0.91 1.07c0.160.220.320.40.50.560.470.420.980.63 1.410.630.37 0 0.67-0.110.91-0.340.21-0.190.34-0.450.36-0.73l0.01-0.12a1.05 1.05 0 0 0-0.05-0.35 1.27 1.27 0 0 0-1.24-0.84c-0.45 0-0.90.15-1.40.63l-0.81-0.95-0.09-0.11c0.71-0.69 1.41-0.95 2.37-0.950.84 0 1.530.24 2.040.71l0.010.01c0.540.470.8 1.090.8 1.84a2.6 2.6 0 0 1-0.050.53 2.38 2.38 0 0 1-0.74 1.3 2.69 2.69 0 0 1-1.430.68 4.51 4.51 0 0 1-0.590.04c-0.86 0-1.68-0.31-2.37-0.94a4.87 4.87 0 0 1-0.54-0.58l-0.91-1.06a3.58 3.58 0 0 0-0.49-0.56c-0.46-0.42-0.98-0.63-1.43-0.63-0.13 0-0.260.02-0.390.05a1.19 1.19 0 0 0-0.520.29c-0.230.22-0.360.52-0.360.84 0 0.320.110.60.350.83l0.010.01c0.250.230.560.340.930.340.46 0 0.91-0.16 1.4-0.64l0.80.940.090.1c-0.720.7-1.430.97-2.340.97-0.84 0-1.52-0.24-2.05-0.71l-0.050.06z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlJsfiddle;

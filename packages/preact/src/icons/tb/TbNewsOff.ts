@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbNewsOff = createIcon("0 0 24 24", [["path",{"d":"M16 6h3a1 1 0 0 1 1 1v9m-0.61 3.44a2 2 0 0 1 -3.39 -1.43v-2m0 -4v-7a1 1 0 0 0 -1 -1h-7m-3.73 0.32a1 1 0 0 0 -0.26 0.68v12a3 3 0 0 0 3 3h11"}],["path",{"d":"M8 12h4"}],["path",{"d":"M8 16h4"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbNewsOff;

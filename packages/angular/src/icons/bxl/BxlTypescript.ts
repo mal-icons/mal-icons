@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-typescript",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlTypescript {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.24 3H4.76A1.76 1.76 0 0 0 3 4.76v14.48A1.76 1.76 0 0 0 4.76 21h14.48A1.76 1.76 0 0 0 21 19.24V4.76A1.76 1.76 0 0 0 19.24 3zm-5.8 10h-2.25v6.44H9.4V13H7.15v-1.46h6.29zm5.8 5.28a1.71 1.71 0 0 1-0.670.74 3 3 0 0 1-1 0.39 5.81 5.81 0 0 1-1.20.12 7 7 0 0 1-1.23-0.11 4.52 4.52 0 0 1-1-0.33v-1.71l-0.06-0.06h0.06v0.07a3.41 3.41 0 0 0 1 0.54 3.06 3.06 0 0 0 1.130.2 2.58 2.58 0 0 0 0.6-0.06 1.47 1.47 0 0 0 0.42-0.170.750.75 0 0 0 0.25-0.250.690.69 0 0 0-0.06-0.74 1.24 1.24 0 0 0-0.35-0.33 3.12 3.12 0 0 0-0.53-0.3l-0.67-0.28a3.57 3.57 0 0 1-1.37-1 2 2 0 0 1-0.46-1.33 2.16 2.16 0 0 1 0.24-1.06 2.09 2.09 0 0 1 0.66-0.71 2.88 2.88 0 0 1 1-0.42 5.11 5.11 0 0 1 1.19-0.13 7 7 0 0 1 1.090.07 4.53 4.53 0 0 1 0.880.23v1.65a2.42 2.42 0 0 0-0.42-0.24 3.58 3.58 0 0 0-0.49-0.17 3 3 0 0 0-0.49-0.1 2.45 2.45 0 0 0-0.46 0 2.29 2.29 0 0 0-0.560.06 1.54 1.54 0 0 0-0.430.160.780.78 0 0 0-0.260.250.630.63 0 0 0-0.090.330.620.62 0 0 0 0.10.35 1.19 1.19 0 0 0 0.30.29 2.15 2.15 0 0 0 0.460.28l0.630.28a6.56 6.56 0 0 1 0.840.42 2.65 2.65 0 0 1 0.640.49 1.79 1.79 0 0 1 0.420.63 2.48 2.48 0 0 1 0.140.85 2.68 2.68 0 0 1-0.25 1.08z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlTypescript;

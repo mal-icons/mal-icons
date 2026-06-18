@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-photo-circle-minus",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbPhotoCircleMinus {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15 8h0.01"}],["path",{"d":"M20.48 15.04a9 9 0 0 0 -8.47 -12.03a9 9 0 0 0 -9 9a9 9 0 0 0 9.53 8.99"}],["path",{"d":"M4 15l4 -4c0.93 -0.89 2.07 -0.89 3 0l4 4"}],["path",{"d":"M14 14l1 -1c0.93 -0.89 2.07 -0.89 3 0l2 2"}],["path",{"d":"M16 19h6"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbPhotoCircleMinus;

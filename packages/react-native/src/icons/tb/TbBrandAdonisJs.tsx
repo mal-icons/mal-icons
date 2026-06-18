@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandAdonisJs = createIcon("0 0 24 24", [["path",{"d":"M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9"}],["path",{"d":"M8.86 16.92c1.14 -0.42 1.64 -0.92 3.14 -0.92s2 0.5 3.14 0.92c0.71 0.26 1.52 -0.1 1.78 -0.77c0.13 -0.32 0.11 -0.67 -0.04 -0.98l-3.71 -7.47c-0.3 -0.6 -1.06 -0.86 -1.7 -0.58a1.24 1.24 0 0 0 -0.63 0.58l-3.71 7.47c-0.32 0.65 -0.02 1.42 0.68 1.71c0.33 0.14 0.72 0.17 1.06 0.04l0 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandAdonisJs;

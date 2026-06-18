@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-tip-jar-euro",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbTipJarEuro {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 4v1.88c0 0.69 0.39 1.31 1 1.62s1 0.93 1 1.62v8.88a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-8.88c0 -0.68 0.39 -1.31 1 -1.62s1 -0.93 1 -1.62v-1.88"}],["path",{"d":"M6 4h12l-12 0"}],["path",{"d":"M12 13h-3"}],["path",{"d":"M14 10.17a3 3 0 1 0 0 5.66"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbTipJarEuro;

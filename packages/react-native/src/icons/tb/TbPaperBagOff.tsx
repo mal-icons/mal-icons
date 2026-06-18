@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPaperBagOff = createIcon("0 0 24 24", [["path",{"d":"M7.16 3.19c0.26 -0.12 0.54 -0.18 0.84 -0.18h8a2 2 0 0 1 2 2v1.82a5 5 0 0 0 0.53 2.24l0.94 1.89a5 5 0 0 1 0.53 2.24v2.82m-0.18 3.82a2 2 0 0 1 -1.82 1.18h-12a2 2 0 0 1 -2 -2v-5.82a5 5 0 0 1 0.53 -2.24l1.47 -2.94v-2"}],["path",{"d":"M13.19 13.17a2 2 0 1 0 2.64 2.65"}],["path",{"d":"M6 21a2 2 0 0 0 2 -2v-5.82a5 5 0 0 0 -0.53 -2.24l-1.47 -2.94"}],["path",{"d":"M11 7h2"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPaperBagOff;

@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-brand-github-copilot",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBrandGithubCopilot {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 18v-5.5c0 -0.67 0.17 -1.33 0.5 -2"}],["path",{"d":"M12 7.5c0 -1 -0.01 -4.07 -4 -3.5c-3.5 0.5 -4 2.5 -4 3.5c0 1.5 0 4 3 4c4 0 5 -2.5 5 -4"}],["path",{"d":"M4 12c-1.33 0.67 -2 1.33 -2 2c0 1 0 3 1.5 4c3 2 6.5 3 8.5 3s5.5 -1 8.5 -3c1.5 -1 1.5 -3 1.5 -4c0 -0.67 -0.67 -1.33 -2 -2"}],["path",{"d":"M20 18v-5.5c0 -0.67 -0.17 -1.33 -0.5 -2"}],["path",{"d":"M12 7.5l0 -0.3l0.01 -0.27l0.03 -0.3l0.01 -0.1l0.03 -0.21c0.01 -0.07 0.03 -0.15 0.05 -0.22l0.06 -0.22c0.34 -1.12 1.26 -2.24 3.81 -1.87c2.84 0.41 3.7 1.8 3.93 2.84l0.04 0.2c0 0.03 0.01 0.07 0.01 0.1l0.02 0.19l0 0.17l0 0.49l-0.01 0.39l-0.02 0.27c-0.12 1.37 -0.65 2.85 -2.96 2.85c-3.26 0 -4.52 -1.66 -4.88 -3.08l-0.05 -0.24a3.87 3.87 0 0 1 -0.04 -0.23l-0.02 -0.23a3.52 3.52 0 0 1 -0.01 -0.21l0.01 0"}],["path",{"d":"M10 15v2"}],["path",{"d":"M14 15v2"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBrandGithubCopilot;

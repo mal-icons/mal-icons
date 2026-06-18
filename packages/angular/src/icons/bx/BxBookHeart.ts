@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-book-heart",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxBookHeart {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 8v11c0 2.2 1.79 3 3 3h15v-2H6.01C5.55 19.99 5 19.81 5 19s0.55-0.99 1.01-1H21V4c0-1.1-0.9-2-2-2H6c-1.21 0-3 0.8-3 3v3zm3-4h13v12H5V5c0-0.810.55-0.99 1-1z"}],["path",{"d":"m12 14 3.35-3.29a2.13 2.13 0 0 0 0-3.07 2.23 2.23 0 0 0-3.13 0l-0.220.22-0.22-0.22a2.22 2.22 0 0 0-3.12 0 2.13 2.13 0 0 0 0 3.07L12 14z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxBookHeart;

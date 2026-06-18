@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-visa",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlVisa {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.54 9.19a4.16 4.16 0 0 0-1.45-0.25c-1.6 0-2.730.81-2.74 1.96-0.010.850.8 1.33 1.42 1.610.630.290.840.480.840.7400.4-0.50.58-0.970.58-0.64 0-0.99-0.09-1.52-0.31l-0.2-0.09-0.23 1.33c0.390.16 1.090.3 1.810.31 1.7 0 2.81-0.8 2.83-2.030.01-0.68-0.43-1.19-1.35-1.62-0.56-0.28-0.91-0.46-0.91-0.74 0-0.250.3-0.510.92-0.51a2.95 2.95 0 0 1 1.210.23l0.150.070.23-1.29-0.040.01zm4.15-0.14h-1.25c-0.39 0-0.680.11-0.850.49l-2.4 5.45h1.7l0.34-0.89 2.080c0.050.210.20.890.20.89h1.5l-1.31-5.94zm-10.64-0.05h1.62l-1.01 5.94H9.04l1.01-5.94v0zm-4.11 3.280.170.83 1.58-4.05h1.72l-2.55 5.93H5.14l-1.4-5.02a0.340.34 0 0 0-0.15-0.2 6.95 6.95 0 0 0-1.59-0.59l0.02-0.12h2.61c0.350.010.640.130.730.5l0.57 2.73v0zm12.760.610.65-1.66c-0.010.020.13-0.340.22-0.57l0.110.510.38 1.71H18.69v0h0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlVisa;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbQuotes = createIcon("0 0 24 24", [["path",{"d":"M4 12c-1.33 -1.85 -1.33 -4.15 0 -6"}],["path",{"d":"M8 12c-1.33 -1.85 -1.33 -4.15 0 -6"}],["path",{"d":"M16 18c1.33 -1.85 1.33 -4.15 0 -6"}],["path",{"d":"M20 18c1.33 -1.85 1.33 -4.15 0 -6"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbQuotes;

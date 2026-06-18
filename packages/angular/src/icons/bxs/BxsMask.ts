@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-mask",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsMask {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 6H5C3.35 6 2 7.35 2 9v5c0 2.21 1.79 4 4 4h1.64c1.17 0 2.28-0.56 2.98-1.490.66-0.88 2.1-0.88 2.760A3.74 3.74 0 0 0 16.36 18H18c2.21 0 4-1.79 4-4V9c0-1.65-1.35-3-3-3zM7.5 13C6.12 13 5 12.33 5 11.5S6.12 10 7.5 10s2.50.67 2.5 1.5S8.88 13 7.5 13zm9 0c-1.38 0-2.5-0.67-2.5-1.5s1.12-1.5 2.5-1.5 2.50.67 2.5 1.5-1.12 1.5-2.5 1.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsMask;

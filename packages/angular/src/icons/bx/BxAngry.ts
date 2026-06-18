@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-angry",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxAngry {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"}],["path",{"d":"M12 14c-3 0-4 3-4 3h8s-1-3-4-3zm-2.44-2.44c0.01-0.010.02-0.030.04-0.04l1.030.410.74-1.86-5-2-0.74 1.86 1.370.55L7 10.5a1.5 1.5 0 0 0 2.56 1.06zm3.07-1.490.74 1.86 1.04-0.41c0.010.010.020.020.030.04a1.49 1.49 0 0 0 2.11 0c0.27-0.270.44-0.640.44-1.06l0-0.01 1.39-0.55-0.74-1.86-5 2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxAngry;

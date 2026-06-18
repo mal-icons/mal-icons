@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbCards = createIcon("0 0 24 24", [["path",{"d":"M3.6 7.2l7.14 -3.11a0.96 0.96 0 0 1 1.27 0.53l4.92 11.9a1 1 0 0 1 -0.51 1.3l-7.14 3.11a0.96 0.96 0 0 1 -1.27 -0.53l-4.92 -11.9a1 1 0 0 1 0.51 -1.3l0 0"}],["path",{"d":"M15 4h1a1 1 0 0 1 1 1v3.5"}],["path",{"d":"M20 6c0.26 0.11 0.52 0.22 0.77 0.32a1 1 0 0 1 0.53 1.31l-2.3 5.37"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbCards;

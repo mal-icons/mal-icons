@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbMessageCircleBolt = createIcon("0 0 24 24", [["path",{"d":"M13.04 19.93a9.93 9.93 0 0 1 -5.34 -0.93l-4.7 1l1.3 -3.9c-2.32 -3.44 -1.43 -7.87 2.1 -10.37c3.53 -2.5 8.59 -2.3 11.85 0.48c1.99 1.7 2.93 4.04 2.75 6.35"}],["path",{"d":"M19 16l-2 3h4l-2 3"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbMessageCircleBolt;

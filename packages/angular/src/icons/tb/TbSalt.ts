@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-salt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbSalt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 13v0.01"}],["path",{"d":"M10 16v0.01"}],["path",{"d":"M14 16v0.01"}],["path",{"d":"M7.5 8h9l-0.28 -2.25a2 2 0 0 0 -1.98 -1.75h-4.47a2 2 0 0 0 -1.99 1.75l-0.28 2.25"}],["path",{"d":"M7.5 8l-1.61 9.67a2 2 0 0 0 1.97 2.33h8.28a2 2 0 0 0 1.97 -2.33l-1.61 -9.67"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbSalt;

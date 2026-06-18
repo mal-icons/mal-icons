@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbWheelchairOff = createIcon("0 0 24 24", [["path",{"d":"M3 16a5 5 0 1 0 10 0a5 5 0 1 0 -10 0"}],["path",{"d":"M17.58 17.59a2 2 0 0 0 2.83 2.82"}],["path",{"d":"M14 14h-1.4"}],["path",{"d":"M6 6v5"}],["path",{"d":"M6 8h2m4 0h5"}],["path",{"d":"M15 8v3"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbWheelchairOff;

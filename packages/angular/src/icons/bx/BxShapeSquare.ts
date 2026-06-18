@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-shape-square",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxShapeSquare {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 6c0-1.65-1.35-3-3-3a2.99 2.99 0 0 0-2.81 2h-6.37A2.99 2.99 0 0 0 6 3C4.35 3 3 4.35 3 6c0 1.30.84 2.4 2 2.82v6.37A3 3 0 0 0 3 18c0 1.65 1.35 3 3 3a2.99 2.99 0 0 0 2.82-2h6.37a2.99 2.99 0 0 0 2.82 2c1.65 0 3-1.35 3-3a3 3 0 0 0-2-2.82V8.82A3 3 0 0 0 21 6zm-3-1a1 1 0 1 1-1 1c0-0.550.45-1 1-1zm-2.81 12h-6.37A2.99 2.99 0 0 0 7 15.18V8.82A2.99 2.99 0 0 0 8.82 7h6.37A2.99 2.99 0 0 0 17 8.82v6.37A2.99 2.99 0 0 0 15.19 17zM6 5a1 1 0 1 1-1 1c0-0.550.45-1 1-1zm0 14a1 1 0 0 1 0-2 1 1 0 0 1 0 2zm12 0a1 1 0 0 1 0-2 1 1 0 0 1 0 2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxShapeSquare;

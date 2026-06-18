@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbWhirl = createIcon("0 0 24 24", [["path",{"d":"M14 12a2 2 0 1 0 -4 0a2 2 0 0 0 4 0"}],["path",{"d":"M12 21c-3.31 0 -6 -2.46 -6 -5.5s2.69 -5.5 6 -5.5"}],["path",{"d":"M21 12c0 3.31 -2.46 6 -5.5 6s-5.5 -2.69 -5.5 -6"}],["path",{"d":"M12 14c3.31 0 6 -2.46 6 -5.5s-2.69 -5.5 -6 -5.5"}],["path",{"d":"M14 12c0 -3.31 -2.46 -6 -5.5 -6s-5.5 2.69 -5.5 6"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbWhirl;

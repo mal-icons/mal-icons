@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-phone-call",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsPhoneCall {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 11h2C22 5.87 18.13 2 12.99 2v2C17.05 4 20 6.94 20 11z"}],["path",{"d":"M13 8c2.1 0 3 0.9 3 3h2c0-3.22-1.77-5-5-5v2zm3.42 5.44a1 1 0 0 0-1.390.04l-2.39 2.46c-0.58-0.11-1.73-0.47-2.93-1.66-1.19-1.19-1.55-2.35-1.66-2.93l2.46-2.39a1 1 0 0 0 0.04-1.39L6.86 3.51a1 1 0 0 0-1.39-0.09l-2.17 1.86a1 1 0 0 0-0.290.65c-0.010.25-0.3 6.17 4.29 10.77C11.31 20.71 16.32 21 17.7 21c0.2 0 0.33-0.010.36-0.01a0.990.99 0 0 0 0.65-0.29l1.86-2.17a1 1 0 0 0-0.09-1.39l-4.06-3.7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsPhoneCall;

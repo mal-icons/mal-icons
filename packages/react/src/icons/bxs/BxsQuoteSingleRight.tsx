@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsQuoteSingleRight = createIcon("0 0 24 24", [["path",{"d":"M8.8 17.02 8 17.18V20h1c2.78 0 4.91-0.77 6.31-2.29C17.2 15.66 17.01 13.03 17 13V5a1 1 0 0 0-1-1H9c-1.1 0-2 0.9-2 2v7a1 1 0 0 0 1 1h4.08a2.89 2.89 0 0 1-0.43 1.4c-0.510.8-1.46 1.35-2.84 1.62z"}]]);
+
+export default BxsQuoteSingleRight;

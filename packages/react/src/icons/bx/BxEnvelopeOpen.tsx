@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxEnvelopeOpen = createIcon("0 0 24 24", [["path",{"d":"m21.56 8.17-9-6a1 1 0 0 0-1.11 0l-9 6A1 1 0 0 0 2 9v11c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2V9c0-0.33-0.17-0.65-0.44-0.83zM12 4.2 19.2 9 12 13.8 4.8 9 12 4.2zM4 20v-9.13l7.45 4.96a1 1 0 0 0 1.11 0L20 10.87 20 20H4z"}]]);
+
+export default BxEnvelopeOpen;

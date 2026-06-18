@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-badge-dollar",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsBadgeDollar {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.05 14.67a0.990.99 0 0 0 0.470.61l1.91 1.1v2.2a1 1 0 0 0 1 1h2.2l1.1 1.91a1.01 1.01 0 0 0 0.870.5c0.17 0 0.35-0.050.5-0.13L12 20.75l1.91 1.1a1 1 0 0 0 1.37-0.36l1.1-1.91h2.2a1 1 0 0 0 1-1V16.38l1.91-1.1a1 1 0 0 0 0.37-1.37L20.75 12l1.1-1.91a1 1 0 0 0-0.36-1.37l-1.91-1.1v-2.2a1 1 0 0 0-1-1H16.38l-1.1-1.91a1.01 1.01 0 0 0-0.61-0.470.990.99 0 0 0-0.760.1L12 3.25l-1.91-1.1a1 1 0 0 0-1.370.37l-1.1 1.91H5.42a1 1 0 0 0-1 1V7.62l-1.91 1.1a1 1 0 0 0-0.36 1.37L3.25 12l-1.1 1.91a1.01 1.01 0 0 0-0.10.76zM12 13c-3.48 0-4-1.88-4-3 0-1.29 1.03-2.58 3-2.91V6.01h2v1.11c1.730.41 2.4 1.85 2.4 2.88h-1l-1 0.02C13.39 9.64 13.19 9 12 9c-1.3 0-2 0.52-2 1 0 0.37 0 1 2 1 3.48 0 4 1.88 4 3 0 1.29-1.03 2.58-3 2.92V18h-2v-1.08c-2.34-0.37-3-2-3-2.92h2c0.010.140.16 1 2 1 1.38 0 2-0.58 2-1 0-0.32 0-1-2-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsBadgeDollar;

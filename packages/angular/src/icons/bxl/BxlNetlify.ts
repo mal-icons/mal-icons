@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-netlify",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlNetlify {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.13 9.68 22 11.8v-0.11c-0.07-0.24-0.28-0.45-0.7-0.87l-2-2-2.070.87zM12.2 7.24a1.31 1.31 0 0 1 0.160.47l3 1.29a1.11 1.11 0 0 1 0.29-0.14l0.48-3-2-2-1.95 3.3s0 0.050.020.08zM10.61 7a1.1 1.1 0 0 1 1-0.2h0.05l2.16-3.34-0.66-0.66c-0.42-0.42-0.63-0.63-0.87-0.7a1 1 0 0 0-0.63 0c-0.240.07-0.450.28-0.870.7l-3 3c0.310.14 2.5 1.06 2.78 1.19zm-3.12 5.29h0.27a1.45 1.45 0 0 1 0.29 0l2.38-3.68v-0.06a1 1 0 0 1-0.27-0.95L9 7l-1.7-0.73L5 8.61l2.51 3.66zm7.62-2.44v-0.08a0.590.59 0 0 1 0-0.14l-2.86-1.27h-0.05a1.05 1.05 0 0 1-0.880.47h-0.17s-0.05 0-0.060.05L8.73 12.5v0.05l6.33-2.7s0.050.020.05 0zm1.36-0.91a0.830.83 0 0 1 0.260.19l2-0.84-1.89-1.87-0.4 2.47zm-2.29 5.54A0.910.91 0 0 1 15 14v-0.05l0.54-3.37-0.09-0.08L9 13.15a2.76 2.76 0 0 1 0.080.27zM2 11.95zm12.14 3.18L8.92 14v0.06L13.47 21l0.42-0.43c0.15-0.920.71-4.330.78-4.72a0.90.9 0 0 1-0.53-0.72zm1.650.32a0.880.88 0 0 1-0.360.27l-0.64 3.94L18.43 16zm1.07-5.13a0.070.07 0 0 0-0.06 0 0.920.92 0 0 1-0.610.34v0.06l-0.55 3.4a0.880.88 0 0 1 0.340.62h0.06l2.950.61 2.28-2.28a4.22 4.22 0 0 0 0.65-0.74zM8.3 14.59a1.27 1.27 0 0 1-0.86 0l-1.22 1.9 4.69 4.68a2.68 2.68 0 0 0 0.870.71 1 1 0 0 0 0.63 0 1.86 1.86 0 0 0 0.7-0.54l-4.69-6.8zm4.71 6.82zm-6.62-7.82s0.06 0 0.06-0.05 0 0-0.06 0l-4.14-0.86a7.07 7.07 0 0 0 0.510.54l1.36 1.36 2.27-1zm0.28-0.66a1.05 1.05 0 0 1 0.2-0.27v-0.06C6.1 11.4 5.3 10.24 4.5 9.07l-1.75 1.75c-0.420.42-0.630.63-0.70.87A0.750.75 0 0 0 2 12l4.67 1zm0.17 1.33a0.610.61 0 0 1-0.07-0.1L4.59 15l1.08 1.1 1.17-1.82s0.01-0.02 0-0.02z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlNetlify;

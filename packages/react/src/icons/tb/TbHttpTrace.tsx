@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbHttpTrace = createIcon("0 0 24 24", [["path",{"d":"M3 8h4"}],["path",{"d":"M5 8v8"}],["path",{"d":"M10 12h2a2 2 0 1 0 0 -4h-2v8"}],["path",{"d":"M14 16l-3 -4"}],["path",{"d":"M17 16v-6a2 2 0 1 1 4 0v6"}],["path",{"d":"M17 13h4"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbHttpTrace;

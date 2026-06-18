@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-pyramid-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbPyramidOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.38 17.37a1 1 0 0 0 -0.01 -1.09l-8.54 -13.84a1 1 0 0 0 -1.66 0l-1.8 2.92m-1.53 2.48l-5.21 8.44a1 1 0 0 0 0.39 1.45l8.09 4.05a1.99 1.99 0 0 0 1.79 0l5.9 -2.96"}],["path",{"d":"M12 2v6m0 4v10"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbPyramidOff;

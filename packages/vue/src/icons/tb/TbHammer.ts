@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbHammer = createIcon("0 0 24 24", [["path",{"d":"M11.41 10l-7.38 7.42a2.09 2.09 0 0 0 0 2.97a2.11 2.11 0 0 0 2.98 0l7.41 -7.38"}],["path",{"d":"M18.12 15.29l2.59 -2.59a1 1 0 0 0 0 -1.41l-7.59 -7.59a1 1 0 0 0 -1.41 0l-2.59 2.59a1 1 0 0 0 0 1.41l7.59 7.59a1 1 0 0 0 1.41 0"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbHammer;

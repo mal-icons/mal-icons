@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbDeviceImacMinus = createIcon("0 0 24 24", [["path",{"d":"M12.5 17h-8.5a1 1 0 0 1 -1 -1v-12a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v11"}],["path",{"d":"M3 13h18"}],["path",{"d":"M8 21h4.5"}],["path",{"d":"M10 17l-0.5 4"}],["path",{"d":"M16 19h6"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbDeviceImacMinus;

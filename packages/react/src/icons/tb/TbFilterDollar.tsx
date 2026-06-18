@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbFilterDollar = createIcon("0 0 24 24", [["path",{"d":"M13.25 19.58l-4.25 1.42v-8.5l-4.48 -4.93a2 2 0 0 1 -0.52 -1.34v-2.23h16v2.17a2 2 0 0 1 -0.59 1.41l-4.41 4.41"}],["path",{"d":"M21 15h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"}],["path",{"d":"M19 21v1m0 -8v1"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbFilterDollar;

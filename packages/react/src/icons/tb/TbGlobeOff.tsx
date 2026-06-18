@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbGlobeOff = createIcon("0 0 24 24", [["path",{"d":"M7.35 7.36a4 4 0 0 0 5.29 5.29m2.01 -2.01a4 4 0 0 0 -5.3 -5.28"}],["path",{"d":"M5.75 15a8.02 8.02 0 0 0 9.79 0.56m2.02 -2a8.02 8.02 0 0 0 -2.56 -11.56"}],["path",{"d":"M11 17v4"}],["path",{"d":"M7 21h8"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbGlobeOff;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-file-png",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsFilePng {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.78 14.58c-0.19 0-0.310.02-0.380.04v1.19c0.080.020.170.020.310.020.49 0 0.79-0.250.79-0.66 0-0.37-0.26-0.59-0.71-0.59z"}],["path",{"d":"M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM9.03 16.11c-0.310.29-0.770.43-1.310.43-0.12 0-0.23-0.01-0.31-0.02v1.45h-0.91V13.97a7.5 7.5 0 0 1 1.24-0.08c0.56 0 0.970.11 1.240.320.260.20.430.540.430.94s-0.130.73-0.370.96zm4.3 1.85h-0.96l-0.86-1.56c-0.24-0.43-0.5-0.95-0.7-1.43l-0.020.01c0.020.530.04 1.10.04 1.76v1.22h-0.84v-4.04h1.07l0.84 1.48c0.240.430.480.930.66 1.39h0.02a14.75 14.75 0 0 1-0.08-1.68v-1.18h0.84v4.04zm4.17-0.19a4.51 4.51 0 0 1-1.350.23c-0.74 0-1.27-0.19-1.64-0.55-0.37-0.35-0.57-0.87-0.57-1.470.01-1.340.98-2.11 2.31-2.110.52 0 0.920.1 1.120.2l-0.190.73c-0.22-0.1-0.5-0.17-0.94-0.17-0.76 0-1.340.43-1.34 1.31 0 0.830.52 1.33 1.27 1.330.21 0 0.38-0.020.45-0.06v-0.85h-0.62v-0.71h1.51v2.13zM14 9h-1V4l5 5h-4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsFilePng;

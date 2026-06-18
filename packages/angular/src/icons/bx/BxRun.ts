@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-run",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxRun {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"17","cy":"4","r":"2"}],["path",{"d":"M15.78 10.97a2.01 2.01 0 0 0 2.150.83l3.32-0.83-0.48-1.94-3.320.83-1.38-2.07a2.01 2.01 0 0 0-1.27-0.85l-3.85-0.77a2 2 0 0 0-2.18 1.07l-1.66 3.32 1.790.9 1.66-3.32 1.970.39L7.43 17H3v2h4.43c0.7 0 1.36-0.37 1.72-0.97l1.92-3.2 5.17 1.03 1.82 5.45 1.9-0.63-1.81-5.45a2.01 2.01 0 0 0-1.51-1.33l-3.04-0.61 1.77-2.950.420.63z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxRun;

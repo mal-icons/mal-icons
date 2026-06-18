@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbPick = createIcon("0 0 24 24", [["path",{"d":"M13 8l-9.38 9.42a2.09 2.09 0 0 0 0 2.97a2.11 2.11 0 0 0 2.98 0l9.41 -9.38"}],["path",{"d":"M9 3h4.59a1 1 0 0 1 0.71 0.29l6.41 6.41a1 1 0 0 1 0.29 0.71v4.59a2 2 0 1 1 -4 0v-3l-5 -5h-3a2 2 0 1 1 0 -4"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbPick;

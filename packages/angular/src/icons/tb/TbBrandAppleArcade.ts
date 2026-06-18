@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-brand-apple-arcade",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBrandAppleArcade {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M20 12.5v4.75a0.73 0.73 0 0 1 -0.05 0.33a0.7 0.7 0 0 1 -0.35 0.37l-5.46 2.58a5 5 0 0 1 -4.27 0l-5.46 -2.58a0.71 0.71 0 0 1 -0.4 -0.69l0 -4.75"}],["path",{"d":"M4.43 12.22l5.63 -2.33a5.07 5.07 0 0 1 3.87 0l5.63 2.33a0.69 0.69 0 0 1 0.03 1.27l-5.46 2.54a5.06 5.06 0 0 1 -4.27 0l-5.46 -2.54a0.69 0.69 0 0 1 0.03 -1.27"}],["path",{"d":"M12 7l0 6"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBrandAppleArcade;

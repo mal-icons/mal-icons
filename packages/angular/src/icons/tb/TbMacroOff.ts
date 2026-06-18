@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-macro-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbMacroOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6 15a6 6 0 0 0 11.47 2.47"}],["path",{"d":"M15.53 15.53a6 6 0 0 0 -3.53 5.47"}],["path",{"d":"M12 21a6 6 0 0 0 -6 -6"}],["path",{"d":"M12 21v-10"}],["path",{"d":"M10.87 10.87a5.01 5.01 0 0 1 -3.73 -3.72m-0.13 -4.15l3 2l2 -2l2 2l3 -2v3a5 5 0 0 1 -2.6 4.39"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbMacroOff;

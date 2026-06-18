@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-c-plus-plus",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlCPlusPlus {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.66 7a1.51 1.51 0 0 0-0.55-0.57l-7.34-4.24a1.67 1.67 0 0 0-1.54 0L3.89 6.43a1.68 1.68 0 0 0-0.77 1.33v8.48a1.57 1.57 0 0 0 0.220.76 1.51 1.51 0 0 0 0.550.57l7.34 4.24a1.67 1.67 0 0 0 1.54 0l7.34-4.24a1.51 1.51 0 0 0 0.55-0.57 1.57 1.57 0 0 0 0.22-0.76V7.76a1.57 1.57 0 0 0-0.22-0.76zM12 17.92A5.92 5.92 0 1 1 17.13 9L16 9.71l-0.360.2-1 0.61A3 3 0 0 0 9 12a2.88 2.88 0 0 0 0.4 1.48 3 3 0 0 0 5.13 0l2.6 1.52A5.94 5.94 0 0 1 12 17.92zm5.92-5.59h-0.66V13h-0.65v-0.66H16v-0.66h0.66V11h0.65v0.66h0.66zm2.47 0h-0.66V13h-0.66v-0.66h-0.65v-0.66h0.65V11h0.66v0.66h0.66z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlCPlusPlus;

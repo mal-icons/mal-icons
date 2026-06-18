@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-sandbox",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbSandbox {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.95 8.02l1.05 6.98v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-2l1.25 -8.3a2 2 0 0 1 1.98 -1.7h3.78"}],["path",{"d":"M3 15h18"}],["path",{"d":"M13 3l5.5 1.5"}],["path",{"d":"M15.75 3.75l-2 7"}],["path",{"d":"M7 10.5c1.67 -0.67 3.33 -0.67 5 0c1.67 0.67 3.33 0.67 5 0"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbSandbox;

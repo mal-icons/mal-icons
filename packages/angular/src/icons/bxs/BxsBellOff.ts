@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-bell-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsBellOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.35 18.93A0.990.99 0 0 0 21 18v-1a11 0 0 0-0.29-0.71L19 14.59V10c0-3.22-2.18-5.93-5.14-6.74C13.56 2.52 12.85 2 12 2s-1.560.52-1.85 1.26c-1.320.36-2.46 1.13-3.35 2.13L3.71 2.29 2.29 3.71l18 18 1.41-1.41-1.36-1.36zM12 22a2.98 2.98 0 0 0 2.82-2H9.18A2.98 2.98 0 0 0 12 22zM5 10v4.59l-1.71 1.71A11 0 0 0 3 17v1a1 1 0 0 0 1 1h10.88L5.07 9.19C5.04 9.46 5 9.72 5 10z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsBellOff;

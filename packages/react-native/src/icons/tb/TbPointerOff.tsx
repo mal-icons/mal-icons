@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPointerOff = createIcon("0 0 24 24", [["path",{"d":"M15.66 11.63l2.23 -1.5a1.2 1.2 0 0 0 -0.31 -2.23l-8.01 -2.3m-5.57 -1.6l3.9 13.56a1.2 1.2 0 0 0 2.23 0.31l2.09 -3.09l4.91 4.91a1.07 1.07 0 0 0 1.51 0l0.52 -0.52"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPointerOff;

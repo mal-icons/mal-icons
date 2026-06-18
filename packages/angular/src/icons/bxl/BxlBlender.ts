@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-blender",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlBlender {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.43 13.01c0.04-0.670.36-1.250.86-1.67a2.86 2.86 0 0 1 1.84-0.66c0.71 0 1.360.25 1.850.660.490.420.82 10.86 1.670.040.69-0.24 1.32-0.72 1.8a2.83 2.83 0 0 1-1.980.78 2.83 2.83 0 0 1-1.98-0.78c-0.48-0.47-0.76-1.11-0.72-1.79z"}],["path",{"d":"M8.12 14.36c0.010.260.090.770.21 1.16a6.16 6.16 0 0 0 1.33 2.3 6.83 6.83 0 0 0 2.32 1.67 7.47 7.47 0 0 0 3.050.64 7.5 7.5 0 0 0 3.05-0.64 6.91 6.91 0 0 0 2.32-1.67 6.2 6.2 0 0 0 1.33-2.3 5.76 5.76 0 0 0 0.25-1.28 5.94 5.94 0 0 0-0.89-3.59 6.5 6.5 0 0 0-1.54-1.7l00-6.25-4.8-0.02-0.01c-0.41-0.31-1.1-0.31-1.550-0.460.32-0.510.85-0.1 1.18l00 2.61 2.12-7.940.01h-0.01c-0.66 0-1.290.43-1.410.98-0.130.560.32 1.01 1 1.02l00 4.03-0.01-7.19 5.52-0.030.02c-0.680.52-0.9 1.38-0.47 1.930.430.56 1.350.56 2.040l3.92-3.21c0 0-0.060.43-0.050.69zm10.08 1.45c-0.810.82-1.94 1.29-3.16 1.29-1.230-2.36-0.46-3.16-1.28a3.74 3.74 0 0 1-0.86-1.35 3.5 3.5 0 0 1-0.2-1.51c0.04-0.50.19-0.990.43-1.420.24-0.430.56-0.810.96-1.14a4.48 4.48 0 0 1 2.83-0.99 4.48 4.48 0 0 1 2.830.98c0.40.330.730.710.96 1.140.240.440.390.920.43 1.42a3.52 3.52 0 0 1-0.2 1.51 3.8 3.8 0 0 1-0.87 1.36z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlBlender;

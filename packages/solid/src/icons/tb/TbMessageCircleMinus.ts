@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbMessageCircleMinus = createIcon("0 0 24 24", [["path",{"d":"M12.02 19.98a9.87 9.87 0 0 1 -4.32 -0.98l-4.7 1l1.3 -3.9c-2.32 -3.44 -1.43 -7.87 2.1 -10.37c3.53 -2.5 8.59 -2.3 11.85 0.48c2.72 2.32 3.47 5.83 2.1 8.81"}],["path",{"d":"M16 19h6"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbMessageCircleMinus;

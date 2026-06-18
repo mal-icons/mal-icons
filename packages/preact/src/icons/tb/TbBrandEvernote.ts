@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbBrandEvernote = createIcon("0 0 24 24", [["path",{"d":"M4 8h5v-5"}],["path",{"d":"M17.9 19c0.6 -2.5 1.1 -5.47 1.1 -9c0 -4.5 -2 -5 -3 -5c-1.91 0 -3 -0.5 -3.5 -1c-0.35 -0.35 -0.5 -1 -1.5 -1h-2l-5 5c0 6 2.5 8 5 8c1 0 1.5 -0.5 2 -1.5s1.41 -0.33 2.5 0c1.04 0.31 2.01 0.26 2.5 0.5c1 0.5 2 1.5 2 3c0 0.5 0 3 -3 3s-3 -3 -1 -3"}],["path",{"d":"M15 10h1"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbBrandEvernote;

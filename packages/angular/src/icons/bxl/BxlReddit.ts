@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-reddit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlReddit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"9.67","cy":"13","r":"1"}],["path",{"d":"M14.09 15.39A3.28 3.28 0 0 1 12 16a3.27 3.27 0 0 1-2.08-0.630.270.27 0 0 0-0.380.38c0.710.54 1.580.81 2.470.77a3.81 3.81 0 0 0 2.47-0.77v0.04a0.280.28 0 0 0 0.01-0.40.280.28 0 0 0-0.40zm0.21-3.35a1 1 0 0 0 0 2l-0.010.04c0.0200.03 0 0.05 0a1 1 0 0 0 0.96-1.04 1 1 0 0 0-1-1z"}],["path",{"d":"M12 2C6.48 2 2 6.48 2 12c0 5.52 4.48 10 10 10s10-4.48 10-10c0-5.52-4.48-10-10-10zm5.86 11.33c0.010.150.010.29 0 0.44 0 2.24-2.61 4.06-5.83 4.06s-5.83-1.82-5.83-4.06a2.68 2.68 0 0 1 0-0.44 1.46 1.46 0 0 1-0.45-2.33 1.46 1.46 0 0 1 2.06-0.06 7.15 7.15 0 0 1 3.9-1.23l0.74-3.47v0A0.310.31 0 0 1 12.82 6l2.450.49a1 1 0 1 1-0.130.61L13 6.65l-0.65 3.12a7.12 7.12 0 0 1 3.85 1.23 1.46 1.46 0 0 1 2.47 1c0.010.56-0.31 1.08-0.81 1.33z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlReddit;

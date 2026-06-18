@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbDoorEnter = createIcon("0 0 24 24", [["path",{"d":"M13 12v0.01"}],["path",{"d":"M3 21h18"}],["path",{"d":"M5 21v-16a2 2 0 0 1 2 -2h6m4 10.5v7.5"}],["path",{"d":"M21 7h-7m3 -3l-3 3l3 3"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbDoorEnter;

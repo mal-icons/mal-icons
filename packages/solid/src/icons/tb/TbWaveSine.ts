@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbWaveSine = createIcon("0 0 24 24", [["path",{"d":"M21 12h-2c-0.89 0 -1.66 -0.86 -1.76 -2c-0.3 -3.45 -0.75 -6 -2.75 -6s-2.5 3.58 -2.5 8s-0.5 8 -2.5 8s-2.45 -2.55 -2.75 -6c-0.1 -1.15 -0.87 -2 -1.76 -2h-2"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbWaveSine;

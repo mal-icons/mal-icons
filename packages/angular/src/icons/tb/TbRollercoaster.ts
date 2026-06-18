@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-rollercoaster",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbRollercoaster {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3 21a5.55 5.55 0 0 0 5.27 -3.79l0.74 -2.2a8.78 8.78 0 0 1 8.32 -6h3.68"}],["path",{"d":"M20 9v12"}],["path",{"d":"M8 21v-3"}],["path",{"d":"M12 21v-10"}],["path",{"d":"M16 9.5v11.5"}],["path",{"d":"M15 3h5v3h-5l0 -3"}],["path",{"d":"M6 8l4 -3l2 2.5l-4 3l-1.8 -0.5l-0.2 -2"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbRollercoaster;

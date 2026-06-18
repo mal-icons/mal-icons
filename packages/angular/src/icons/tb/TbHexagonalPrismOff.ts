@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-hexagonal-prism-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbHexagonalPrismOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.79 7l-3.77 2.64a2.01 2.01 0 0 1 -1.15 0.36h-1.87m-4 0h-1.87c-0.41 0 -0.81 -0.13 -1.15 -0.36l-3.77 -2.64"}],["path",{"d":"M8 10v11"}],["path",{"d":"M16 10v2m0 4v5"}],["path",{"d":"M20.97 16.97a2.01 2.01 0 0 0 0.03 -0.34v-9.26c0 -0.65 -0.32 -1.27 -0.85 -1.64l-3.37 -2.36a2 2 0 0 0 -1.15 -0.36h-7.27a1.99 1.99 0 0 0 -1.07 0.31m-2.35 1.64l-1.1 0.77a2.01 2.01 0 0 0 -0.85 1.64v9.26c0 0.66 0.32 1.27 0.85 1.64l3.37 2.36a2 2 0 0 0 1.15 0.36h7.27c0.41 0 0.81 -0.13 1.15 -0.36l2.26 -1.59"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbHexagonalPrismOff;

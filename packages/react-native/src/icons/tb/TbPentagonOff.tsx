@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPentagonOff = createIcon("0 0 24 24", [["path",{"d":"M8.13 4.13l2.7 -1.96a1.98 1.98 0 0 1 2.33 0l8.02 5.83c0.69 0.5 0.98 1.4 0.72 2.21l-1.89 5.81m-0.98 3.02l-0.2 0.6a1.98 1.98 0 0 1 -1.88 1.37h-9.92a1.98 1.98 0 0 1 -1.88 -1.37l-3.06 -9.43a1.98 1.98 0 0 1 0.72 -2.21l2.99 -2.18"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPentagonOff;

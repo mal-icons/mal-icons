@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxZoomOut = createIcon("0 0 24 24", [["path",{"d":"M6 9h8v2H6z"}],["path",{"d":"M10 18a7.95 7.95 0 0 0 4.9-1.69l4.4 4.4 1.41-1.41-4.4-4.4A7.95 7.95 0 0 0 18 10c0-4.41-3.59-8-8-8s-8 3.59-8 8 3.59 8 8 8zm0-14c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6 2.69-6 6-6z"}]]);
+
+export default BxZoomOut;

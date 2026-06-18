@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsLogInCircle = createIcon("0 0 24 24", [["path",{"d":"M12 3c-4.62 0-8.44 3.51-8.94 8H10v-3l5 4-5 4v-3H3.06C3.56 17.49 7.38 21 12 21c4.96 0 9-4.04 9-9s-4.04-9-9-9z"}]]);
+
+export default BxsLogInCircle;

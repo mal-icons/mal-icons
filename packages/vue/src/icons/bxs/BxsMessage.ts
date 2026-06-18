@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsMessage = createIcon("0 0 24 24", [["path",{"d":"M20 2H4c-1.1 0-2 0.89-2 1.99v12.02C2 17.11 2.9 18 4 18h3v4l6.35-4H20c1.1 0 2-0.89 2-1.99V3.99A2 2 0 0 0 20 2z"}]]);
+
+export default BxsMessage;

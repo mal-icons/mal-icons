@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-wheat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbWheat {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.01 21.51v-3.75"}],["path",{"d":"M5.93 9.5l-0.43 1.6c-0.71 2.66 0.87 5.39 3.52 6.11c1 0.27 1.99 0.54 2.99 0.8v-3.44c-0.16 -2.1 -1.64 -3.88 -3.68 -4.43l-2.41 -0.64"}],["path",{"d":"M13.74 11.16c0.45 -0.45 0.82 -0.99 1.06 -1.59c0.25 -0.59 0.37 -1.23 0.37 -1.87c0 -0.64 -0.13 -1.28 -0.37 -1.87c-0.25 -0.59 -0.61 -1.13 -1.06 -1.59l-1.73 -1.73l-1.73 1.73c-0.45 0.45 -0.81 0.99 -1.06 1.59c-0.25 0.59 -0.37 1.23 -0.37 1.87c0 0.64 0.13 1.28 0.37 1.87c0.25 0.59 0.61 1.13 1.06 1.59"}],["path",{"d":"M18.1 9.5l0.43 1.6c0.71 2.66 -0.87 5.39 -3.52 6.11c-1 0.27 -1.99 0.54 -2.99 0.8v-3.44c0.16 -2.1 1.64 -3.88 3.68 -4.43l2.41 -0.64"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbWheat;

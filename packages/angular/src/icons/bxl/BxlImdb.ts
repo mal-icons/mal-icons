@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-imdb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlImdb {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.65 10.24c-0.06-0.03-0.16-0.05-0.31-0.05v3.54c0.2 0 0.32-0.040.37-0.12s0.07-0.30.07-0.66v-2.09c0-0.24-0.01-0.4-0.02-0.47a0.220.22 0 0 0-0.1-0.15zm3.5 1.18c-0.08 0-0.140.03-0.160.09-0.020.06-0.040.21-0.040.46v1.43c0 0.240.010.390.040.460.030.070.090.10.170.10.09 0 0.2-0.040.23-0.10.03-0.070.04-0.230.04-0.49V11.97c0-0.23-0.01-0.38-0.04-0.45-0.03-0.07-0.15-0.1-0.23-0.1z"}],["path",{"d":"M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM6.63 14.66H5.23V9.27h1.4v5.4zm4.82 0H10.23l-0.01-3.64-0.49 3.64h-0.87L8.34 11.1l0 3.56H7.11V9.27H8.93c0.050.330.110.710.17 1.15l0.2 1.370.32-2.52h1.83v5.4zm3.66-1.6c0 0.48-0.030.81-0.070.97a0.730.73 0 0 1-0.240.3811 0 0 1-0.420.19c-0.170.04-0.420.06-0.750.06h-1.7V9.27h1.05c0.68 0 1.070.03 1.310.090.240.060.420.160.550.310.130.140.20.30.230.480.030.170.050.520.05 1.03v1.9zm3.650.36c0 0.32-0.020.56-0.070.72a0.760.76 0 0 1-0.310.410.950.95 0 0 1-0.570.17c-0.16 0-0.36-0.04-0.5-0.1a1.14 1.14 0 0 1-0.38-0.31l-0.090.34h-1.26V9.27h1.35v1.76a1.09 1.09 0 0 1 0.38-0.29c0.14-0.060.34-0.10.5-0.10.19 0 0.350.030.480.09a0.720.72 0 0 1 0.440.55c0.020.10.020.310.020.64v1.51z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlImdb;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbPlaneDeparture = createIcon("0 0 24 24", [["path",{"d":"M14.64 10.26l4.83 -1.29a2 2 0 1 1 1.03 3.86l-14.49 3.88l-4.45 -5.02l2.9 -0.78l2.45 1.41l2.9 -0.78l-3.74 -6.24l2.9 -0.78l5.68 5.73"}],["path",{"d":"M3 21h18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbPlaneDeparture;

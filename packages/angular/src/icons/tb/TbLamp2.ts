@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-lamp-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbLamp2 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5 21h9"}],["path",{"d":"M10 21l-7 -8l8.5 -5.5"}],["path",{"d":"M13 14c-2.15 -2.15 -2.15 -5.85 0 -8c2.09 -2.09 5.84 -1.97 8 0l-8 8"}],["path",{"d":"M11.74 7.57l-1.16 -1.16a2 2 0 0 1 2.83 -2.83l1.14 1.14"}],["path",{"d":"M15.5 12l0.21 0.27a2.53 2.53 0 0 0 3.56 0c0.94 -0.93 0.98 -2.42 0.12 -3.4l-0.37 -0.37"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbLamp2;

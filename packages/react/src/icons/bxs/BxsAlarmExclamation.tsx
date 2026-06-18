@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsAlarmExclamation = createIcon("0 0 24 24", [["path",{"d":"m17.28 3.71 1.41-1.42 3.01 3-1.41 1.42zm-10.59 0-2.99 3L2.29 5.29l2.99-3zM12 4c-4.88 0-9 4.12-9 9s4.12 9 9 9 9-4.12 9-9-4.12-9-9-9zm1 14h-2v-2h2v2zm0-4h-2V8h2v6z"}]]);
+
+export default BxsAlarmExclamation;

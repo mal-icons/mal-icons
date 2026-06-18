@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbTimeDurationOff = createIcon("0 0 24 24", [["path",{"d":"M3 12v0.01"}],["path",{"d":"M7.5 19.8v0.01"}],["path",{"d":"M4.2 16.5v0.01"}],["path",{"d":"M4.2 7.5v0.01"}],["path",{"d":"M12 21a8.99 8.99 0 0 0 6.36 -2.63m1.69 -2.34a9 9 0 0 0 -8.05 -13.03"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbTimeDurationOff;

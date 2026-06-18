@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbDatabaseShare = createIcon("0 0 24 24", [["path",{"d":"M4 6c0 1.66 3.58 3 8 3s8 -1.34 8 -3s-3.58 -3 -8 -3s-8 1.34 -8 3"}],["path",{"d":"M4 6v6c0 1.66 3.58 3 8 3c0.36 0 0.72 -0.01 1.07 -0.03"}],["path",{"d":"M20 13v-7"}],["path",{"d":"M4 12v6c0 1.66 3.58 3 8 3"}],["path",{"d":"M16 22l5 -5"}],["path",{"d":"M21 21.5v-4.5h-4.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbDatabaseShare;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbAlarmOff = createIcon("0 0 24 24", [["path",{"d":"M7.59 7.57a7 7 0 1 0 9.83 9.86m1.35 -2.64a7 7 0 0 0 -8.54 -8.56"}],["path",{"d":"M12 12v1h1"}],["path",{"d":"M5.26 5.27l-1.01 0.74"}],["path",{"d":"M17 4l2.75 2"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbAlarmOff;

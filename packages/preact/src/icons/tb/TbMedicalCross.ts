@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbMedicalCross = createIcon("0 0 24 24", [["path",{"d":"M13 3a1 1 0 0 1 1 1v4.54l3.93 -2.27a1 1 0 0 1 1.37 0.37l1 1.73a1 1 0 0 1 -0.37 1.37l-3.93 2.27l3.93 2.27a1 1 0 0 1 0.37 1.37l-1 1.73a1 1 0 0 1 -1.37 0.37l-3.93 -2.27v4.54a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-4.54l-3.93 2.27a1 1 0 0 1 -1.37 -0.37l-1 -1.73a1 1 0 0 1 0.37 -1.37l3.93 -2.27l-3.93 -2.27a1 1 0 0 1 -0.37 -1.37l1 -1.73a1 1 0 0 1 1.37 -0.37l3.93 2.27v-4.53a1 1 0 0 1 1 -1h2"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbMedicalCross;

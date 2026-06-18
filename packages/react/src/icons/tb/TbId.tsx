@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbId = createIcon("0 0 24 24", [["path",{"d":"M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v10a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -10"}],["path",{"d":"M7 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M15 8l2 0"}],["path",{"d":"M15 12l2 0"}],["path",{"d":"M7 16l10 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbId;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbReceiptEuro = createIcon("0 0 24 24", [["path",{"d":"M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"}],["path",{"d":"M15 7.8c-0.52 -0.5 -1.17 -0.8 -1.87 -0.8c-1.73 0 -3.12 1.79 -3.12 4s1.4 4 3.13 4c0.7 0 1.35 -0.3 1.87 -0.8"}],["path",{"d":"M9 11h4"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbReceiptEuro;

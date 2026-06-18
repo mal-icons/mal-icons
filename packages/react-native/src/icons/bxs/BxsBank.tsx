@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsBank = createIcon("0 0 24 24", [["path",{"d":"M2 8v4h1V18H2v3h16l3 0V21h1v-3h-1v-6h1V8L12 2 2 8zm4 10v-6h2V18H6zm5 0v-6h2V18h-2zm7 0h-2v-6h2V18zM14 8a2 2 0 1 1-40A2 2 0 0 1 14 8z"}]]);
+
+export default BxsBank;

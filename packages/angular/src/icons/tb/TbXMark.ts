@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-x-mark",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbXMark {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 16l3.64 3.64a1.21 1.21 0 0 0 1.71 0l2.29 -2.29a1.21 1.21 0 0 0 0 -1.71l-3.64 -3.64l3.64 -3.64a1.21 1.21 0 0 0 0 -1.71l-2.29 -2.29a1.21 1.21 0 0 0 -1.71 0l-3.64 3.64l-3.64 -3.64a1.21 1.21 0 0 0 -1.71 0l-2.29 2.29a1.21 1.21 0 0 0 0 1.71l3.64 3.64l-3.64 3.64a1.21 1.21 0 0 0 0 1.71l2.29 2.29a1.21 1.21 0 0 0 1.71 0l3.64 -3.64"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbXMark;

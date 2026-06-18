@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbGitPullRequestConflict = createIcon("0 0 24 24", [["path",{"d":"M16 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}],["path",{"d":"M11 6h5a2 2 0 0 1 2 2v8"}],["path",{"d":"M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}],["path",{"d":"M6 11v5"}],["path",{"d":"M4 4l4 4"}],["path",{"d":"M8 4l-4 4"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbGitPullRequestConflict;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBubble = createIcon("0 0 24 24", [["path",{"d":"M12.4 3a5.34 5.34 0 0 1 4.91 3.24a5.33 5.33 0 0 1 -1.19 10.6a4.26 4.26 0 0 1 -5.28 1.86l-3.83 2.3v-3.13a2.67 2.67 0 0 1 -1.79 -3.77a4.8 4.8 0 0 1 2.91 -8.93a5.33 5.33 0 0 1 4.29 -2.16"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBubble;

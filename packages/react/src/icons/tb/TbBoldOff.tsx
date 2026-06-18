@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBoldOff = createIcon("0 0 24 24", [["path",{"d":"M9 5h4a3.5 3.5 0 0 1 2.22 6.2m-3.22 0.8h-5v-5"}],["path",{"d":"M17.11 17.11a3.5 3.5 0 0 1 -3.11 1.89h-7v-7"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBoldOff;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbTarget2 = createIcon("0 0 24 24", [["path",{"d":"M17 21l-1.74 -6"}],["path",{"d":"M7 21l1.74 -6"}],["path",{"d":"M12 4v-1"}],["path",{"d":"M14 10a2 2 0 1 0 -4 0a2 2 0 0 0 4 0"}],["path",{"d":"M18 10a6 6 0 1 0 -12 0a6 6 0 0 0 12 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbTarget2;

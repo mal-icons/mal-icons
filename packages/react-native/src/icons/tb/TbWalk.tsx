@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbWalk = createIcon("0 0 24 24", [["path",{"d":"M12 4a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"}],["path",{"d":"M7 21l3 -4"}],["path",{"d":"M16 21l-2 -4l-3 -3l1 -6"}],["path",{"d":"M6 12l2 -3l4 -1l3 3l3 1"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbWalk;

@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-volcano",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbVolcano {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 8v-1a2 2 0 1 0 -4 0"}],["path",{"d":"M15 8v-1a2 2 0 1 1 4 0"}],["path",{"d":"M4 20l3.47 -7.81a2 2 0 0 1 1.83 -1.19h5.4a2 2 0 0 1 1.83 1.19l3.47 7.81"}],["path",{"d":"M6.19 15.06a2.14 2.14 0 0 1 0.48 -0.06c0.53 -0.01 1.03 0.18 1.33 0.5c0.31 0.32 0.81 0.51 1.33 0.5c0.53 0.01 1.03 -0.18 1.33 -0.5c0.31 -0.32 0.81 -0.51 1.33 -0.5c0.53 -0.01 1.03 0.18 1.33 0.5c0.31 0.32 0.81 0.51 1.33 0.5c0.53 0.01 1.03 -0.18 1.33 -0.5c0.31 -0.32 0.81 -0.51 1.33 -0.5c0.16 0 0.32 0.03 0.47 0.06"}],["path",{"d":"M12 8v-4"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbVolcano;

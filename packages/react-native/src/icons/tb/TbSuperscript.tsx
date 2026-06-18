@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSuperscript = createIcon("0 0 24 24", [["path",{"d":"M5 7l8 10m-8 0l8 -10"}],["path",{"d":"M21 11h-4l3.5 -4a1.73 1.73 0 0 0 -3.5 -2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSuperscript;

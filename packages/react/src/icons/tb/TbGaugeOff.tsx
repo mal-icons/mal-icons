@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbGaugeOff = createIcon("0 0 24 24", [["path",{"d":"M20.04 16.05a9 9 0 0 0 -12.07 -12.1m-2.33 1.69a9 9 0 1 0 12.73 12.73"}],["path",{"d":"M11.28 11.3a1 1 0 0 0 1.42 1.41"}],["path",{"d":"M14 10l2 -2"}],["path",{"d":"M7 12c0 -1.39 0.56 -2.64 1.48 -3.55m2.62 -1.37c0.29 -0.05 0.6 -0.08 0.91 -0.08"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbGaugeOff;

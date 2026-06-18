@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-hand-click-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbHandClickOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 13v-5"}],["path",{"d":"M8.06 4.08a1.5 1.5 0 0 1 2.94 0.42v2.5m0 4v1"}],["path",{"d":"M12.06 8.07a1.5 1.5 0 0 1 1.94 1.44v0.5"}],["path",{"d":"M14.06 10.08a1.5 1.5 0 0 1 2.94 0.42v1.5"}],["path",{"d":"M17 11.5a1.5 1.5 0 0 1 3 0v4.5m-0.88 3.13a6 6 0 0 1 -5.12 2.87h-2h0.21a6 6 0 0 1 -5.01 -2.7l-0.2 -0.3c-0.31 -0.48 -1.41 -2.39 -3.29 -5.73a1.5 1.5 0 0 1 0.54 -2.02a1.87 1.87 0 0 1 2.28 0.28l1.47 1.47"}],["path",{"d":"M3 3l18 18"}],["path",{"d":"M4 7h-1"}],["path",{"d":"M14 3l1 -1"}],["path",{"d":"M15 6h1"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbHandClickOff;

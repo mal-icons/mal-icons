@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-donate-blood",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxDonateBlood {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 21h9.62a4 4 0 0 0 3.04-1.4l5.1-5.95a1 1 0 0 0-0.44-1.6l-1.97-0.66a3.04 3.04 0 0 0-2.820.5l-3.18 2.55-0.62-1.24A3.98 3.98 0 0 0 9.15 11H4c-1.1 0-2 0.9-2 2v6c0 1.10.9 2 2 2zm0-8h5.15c0.76 0 1.450.42 1.79 1.11l0.450.9H7v2h6.01a11 0 0 0 0.44-0.11l0000h0l00h0l00c0.01000000.01 0 0000h0l000000000000000000000000h0l00h0l0000c0.0100000l00a0.920.92 0 0 0 0.11-0.08l4.15-3.32c0.26-0.210.62-0.270.94-0.17l0.560.19-4.13 4.82a2.03 2.03 0 0 1-1.520.69H4v-6zm9.76-10.67C13.3 2.83 11 5.46 11 7.5c0 1.93 1.57 3.5 3.5 3.5S18 9.43 18 7.5c0-2.04-2.3-4.67-2.76-5.17-0.38-0.42-1.1-0.42-1.48 0zM16 7.5c0 0.83-0.67 1.5-1.5 1.5S13 8.33 13 7.5c0-0.710.74-1.93 1.5-2.930.76 1 1.5 2.23 1.5 2.93z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxDonateBlood;

@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-diabolo-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbDiaboloOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.73 4.75c-0.47 0.38 -0.73 0.8 -0.73 1.25c0 1.22 1.93 2.27 4.71 2.74m4.26 0.24c3.96 -0.18 7.03 -1.44 7.03 -2.98c0 -1.66 -3.58 -3 -8 -3c-1.66 0 -3.2 0.19 -4.48 0.51"}],["path",{"d":"M4 6v0.14a1 1 0 0 0 0.05 0.31l1.95 5.55l-1.96 5.67a1 1 0 0 0 -0.04 0.27v0.07c0 1.66 3.58 3 8 3c3.22 0 5.99 -0.71 7.26 -1.74m-0.21 -4.23l-1.05 -3.03l1.95 -5.55a1 1 0 0 0 0.05 -0.31v-0.14"}],["path",{"d":"M6 12c0 1.11 2.69 2 6 2c0.66 0 1.29 -0.04 1.88 -0.1m3.2 -0.83c0.59 -0.31 0.92 -0.67 0.92 -1.07"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbDiaboloOff;

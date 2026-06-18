@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsRename = createIcon("0 0 24 24", [["path",{"d":"M20 6h-1v12h1c1.1 0 2-0.9 2-2v-8c0-1.1-0.9-2-2-2z"}],["path",{"d":"M17 18V4h3V2h-8v2H15v2H4c-1.1 0-2 0.9-2 2v8c0 1.10.9 2 2 2h11V20h-3v2h8v-2H17v-2zm-11-4v-4h9v4H6z"}]]);
+
+export default BxsRename;

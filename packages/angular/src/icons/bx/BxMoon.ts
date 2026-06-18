@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-moon",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxMoon {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.74 13.05a8.09 8.09 0 0 1-2.080.27c-2.13 0-4.14-0.83-5.65-2.34a8.03 8.03 0 0 1-2.06-7.72A1 1 0 0 0 9.73 2.03a10.01 10.01 0 0 0-4.49 2.58c-3.9 3.9-3.9 10.24 0 14.14a9.94 9.94 0 0 0 7.07 2.93 9.93 9.93 0 0 0 7.07-2.93 10.01 10.01 0 0 0 2.58-4.49 1 1 0 0 0-1.22-1.22zm-2.77 4.3a7.95 7.95 0 0 1-5.66 2.34 7.95 7.95 0 0 1-5.66-2.34c-3.12-3.12-3.12-8.19 0-11.31a7.92 7.92 0 0 1 2.06-1.48 10.03 10.03 0 0 0 2.89 7.85 9.97 9.97 0 0 0 7.85 2.89 8.04 8.04 0 0 1-1.48 2.06z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxMoon;

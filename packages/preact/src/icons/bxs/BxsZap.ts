@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsZap = createIcon("0 0 24 24", [["path",{"d":"M20.98 11.8a11 0 0 0-0.74-0.77l-6.86-1.72 2.54-5.92a11 0 0 0-0.32-1.1911 0 0 0-1.230.02l-11 9a1 1 0 0 0 0.39 1.74l6.72 1.68-3.34 5.85A1 1 0 0 0 8 22a11 0 0 0 0.6-0.2l12-9a1 1 0 0 0 0.38-1z"}]]);
+
+export default BxsZap;

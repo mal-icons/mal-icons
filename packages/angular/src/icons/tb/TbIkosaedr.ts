@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-ikosaedr",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbIkosaedr {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 8.01v7.99a2 2 0 0 1 -1.01 1.74l-7 4.01a2 2 0 0 1 -1.99 0l-7 -4.01a2 2 0 0 1 -1.01 -1.73v-7.99a2 2 0 0 1 1.01 -1.73l7 -4.01a2 2 0 0 1 1.99 0l7 4.01a2 2 0 0 1 1.01 1.74"}],["path",{"d":"M3.29 6.97l4.21 2.03"}],["path",{"d":"M20.71 6.97l-4.21 2.03"}],["path",{"d":"M20.7 17h-17.4"}],["path",{"d":"M11.76 2.03l-4.26 6.97l-4.3 7.84"}],["path",{"d":"M12.24 2.03q 2.8 4.44 4.26 6.97t 4.3 7.84"}],["path",{"d":"M12 17l-4.5 -8h9l-4.5 8"}],["path",{"d":"M12 17v5"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbIkosaedr;

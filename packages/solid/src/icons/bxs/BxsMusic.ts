@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsMusic = createIcon("0 0 24 24", [["path",{"d":"M6 18.57c2.21 0 4-1.79 4-4V4.43L19 7.7v7.43a3.95 3.95 0 0 0-2-0.56c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7a11 0 0 0-0.66-0.94l-11-4A11 0 0 0 8 3v8.13a3.95 3.95 0 0 0-2-0.56c-2.21 0-4 1.79-4 4s1.79 4 4 4z"}]]);
+
+export default BxsMusic;

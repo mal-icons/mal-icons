@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-github",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlGithub {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"fill-rule":"evenodd","clip-rule":"evenodd","d":"M12.03 2c-5.51 0-9.97 4.47-9.97 9.97 0 4.41 2.86 8.15 6.82 9.470.50.090.68-0.220.68-0.48 0-0.24-0.01-0.86-0.01-1.7-2.770.6-3.36-1.34-3.36-1.34-0.45-1.15-1.11-1.46-1.11-1.46-0.9-0.620.07-0.60.07-0.6 10.07 1.53 1.03 1.53 1.030.89 1.52 2.34 1.08 2.90.830.09-0.640.35-1.080.64-1.33-2.21-0.25-4.54-1.11-4.54-4.93 0-1.090.39-1.98 1.02-2.67-0.1-0.25-0.45-1.270.1-2.64 0 0 0.84-0.27 2.74 1.02a9.58 9.58 0 0 1 2.5-0.34 9.55 9.55 0 0 1 2.50.34c1.91-1.29 2.74-1.02 2.74-1.020.55 1.370.2 2.390.1 2.640.640.7 1.02 1.59 1.02 2.68 0 3.83-2.33 4.68-4.55 4.920.360.310.680.920.68 1.85 0 1.33-0.01 2.41-0.01 2.74 0 0.270.180.580.690.48C19.15 20.11 22 16.38 22 11.97 22 6.47 17.54 2 12.03 2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlGithub;

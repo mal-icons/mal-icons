@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbFilterSpark = createIcon("0 0 24 24", [["path",{"d":"M15 12.5v-0.5l4.41 -4.41a2 2 0 0 0 0.59 -1.41v-2.17h-16v2.23c0 0.5 0.19 0.98 0.52 1.35l4.48 4.93v8.5l2 -0.67"}],["path",{"d":"M18.5 22a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbFilterSpark;

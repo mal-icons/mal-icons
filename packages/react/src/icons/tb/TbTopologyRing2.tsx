@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbTopologyRing2 = createIcon("0 0 24 24", [["path",{"d":"M14 6a2 2 0 1 0 -4 0a2 2 0 0 0 4 0"}],["path",{"d":"M7 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0"}],["path",{"d":"M21 18a2 2 0 1 0 -4 0a2 2 0 0 0 4 0"}],["path",{"d":"M7 18h10"}],["path",{"d":"M18 16l-5 -8"}],["path",{"d":"M11 8l-5 8"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbTopologyRing2;

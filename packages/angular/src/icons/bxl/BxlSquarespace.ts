@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-squarespace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlSquarespace {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.89 9.26c-1.5-1.5-3.94-1.5-5.47 0l-6.13 6.13a0.980.98 0 0 0 0 1.380.980.98 0 0 0 1.38 0l6.13-6.13a1.93 1.93 0 0 1 2.72 2.72l-6.04 6.04c0.750.75 1.970.75 2.72 0l4.66-4.66c1.53-1.53 1.53-3.970.03-5.47zm-2.06 2.03a0.980.98 0 0 0-1.38 0l-6.13 6.16c-0.750.75-1.970.75-2.72 0-0.38-0.37-1-0.37-1.38 0s-0.37 1 0 1.38c1.5 1.5 3.94 1.5 5.48 0l6.13-6.13c0.38-0.410.38-1.030-1.41zm-2.03-6.13c-1.5-1.5-3.94-1.5-5.47 0l-6.13 6.13a0.980.98 0 0 0 0 1.380.980.98 0 0 0 1.38 0l6.17-6.13a1.93 1.93 0 0 1 2.73 0 0.980.98 0 0 0 1.38 0c0.35-0.410.35-1-0.02-1.37h-0.02zm-2.06 2.03a0.980.98 0 0 0-1.38 0l-6.13 6.16a1.93 1.93 0 0 1-2.72 0 1.93 1.93 0 0 1 0-2.72l6.04-6.04a1.93 1.93 0 0 0-2.72 0L3.12 9.26c-1.5 1.5-1.5 3.94 0 5.48 1.5 1.5 3.94 1.5 5.48 0l6.13-6.13c0.38-0.410.38-1.03 0-1.41h0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlSquarespace;

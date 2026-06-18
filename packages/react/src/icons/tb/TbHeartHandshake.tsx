@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbHeartHandshake = createIcon("0 0 24 24", [["path",{"d":"M19.5 12.57l-7.5 7.43l-7.5 -7.43a5 5 0 1 1 7.5 -6.57a5 5 0 1 1 7.5 6.57"}],["path",{"d":"M12 6l-3.29 3.29a1 1 0 0 0 0 1.41l0.54 0.54c0.69 0.69 1.81 0.69 2.5 0l1 -1a3.18 3.18 0 0 1 4.5 0l2.25 2.25"}],["path",{"d":"M12.5 15.5l2 2"}],["path",{"d":"M15 13l2 2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbHeartHandshake;

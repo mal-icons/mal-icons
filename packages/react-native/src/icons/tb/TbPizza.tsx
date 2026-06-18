@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPizza = createIcon("0 0 24 24", [["path",{"d":"M12 21.5c-3.04 0 -5.95 -0.71 -8.5 -1.98l8.5 -16.52l8.5 16.52a19.09 19.09 0 0 1 -8.5 1.98"}],["path",{"d":"M5.38 15.87a14.94 14.94 0 0 0 6.82 1.63a14.94 14.94 0 0 0 6.5 -1.48"}],["path",{"d":"M13 11.01v-0.01"}],["path",{"d":"M11 14v-0.01"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPizza;

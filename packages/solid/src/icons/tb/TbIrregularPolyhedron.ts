@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbIrregularPolyhedron = createIcon("0 0 24 24", [["path",{"d":"M6 12l-1.75 6.13a1 1 0 0 0 0.59 1.21l6.28 2.5a2.46 2.46 0 0 0 1.76 0l6.28 -2.5a1 1 0 0 0 0.59 -1.2l-1.75 -6.13l1.75 -6.13a1 1 0 0 0 -0.59 -1.2l-6.28 -2.5a2.46 2.46 0 0 0 -1.76 0l-6.28 2.5a1 1 0 0 0 -0.59 1.2l1.75 6.13"}],["path",{"d":"M4.5 5.5l6.62 2.33a2.35 2.35 0 0 0 1.76 0l6.62 -2.33"}],["path",{"d":"M6 12l5.21 1.86a2.34 2.34 0 0 0 1.58 0l5.21 -1.86"}],["path",{"d":"M12 22v-14"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbIrregularPolyhedron;

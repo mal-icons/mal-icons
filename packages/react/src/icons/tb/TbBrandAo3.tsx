@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandAo3 = createIcon("0 0 24 24", [["path",{"d":"M2 5c7.11 4.1 10.96 10.13 12 14c1.07 -4.67 4.49 -8.94 8 -11"}],["path",{"d":"M12 8a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M7 9c-0.28 5.49 -2.34 7.33 -4 10c4.01 -2 6.02 -5 15.05 -5c4.01 0 3.51 2.5 1 3c2 0.5 2.51 5 -2.01 2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandAo3;

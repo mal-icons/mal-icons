@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbDropCircle = createIcon("0 0 24 24", [["path",{"d":"M10.07 15.34c1.12 0.88 2.74 0.88 3.86 0c1.12 -0.88 1.4 -2.39 0.67 -3.57l-2.6 -3.76l-2.6 3.77c-0.73 1.19 -0.44 2.69 0.67 3.58"}],["path",{"d":"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbDropCircle;

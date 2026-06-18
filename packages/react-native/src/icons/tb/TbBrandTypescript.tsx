@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandTypescript = createIcon("0 0 24 24", [["path",{"d":"M15 17.5c0.32 0.32 0.75 0.5 1.21 0.5h0.54c0.69 0 1.25 -0.56 1.25 -1.25v-0.25a1.5 1.5 0 0 0 -1.5 -1.5a1.5 1.5 0 0 1 -1.5 -1.5v-0.25c0 -0.69 0.56 -1.25 1.25 -1.25h0.54c0.45 0 0.89 0.18 1.21 0.5"}],["path",{"d":"M9 12h4"}],["path",{"d":"M11 12v6"}],["path",{"d":"M21 19v-14a2 2 0 0 0 -2 -2h-14a2 2 0 0 0 -2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandTypescript;

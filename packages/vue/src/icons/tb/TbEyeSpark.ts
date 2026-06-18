@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbEyeSpark = createIcon("0 0 24 24", [["path",{"d":"M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"}],["path",{"d":"M11.67 17.99q -5.18 -0.18 -8.67 -5.99q 3.6 -6 9 -6t 9 6"}],["path",{"d":"M19 22.5a4.75 4.75 0 0 1 3.5 -3.5a4.75 4.75 0 0 1 -3.5 -3.5a4.75 4.75 0 0 1 -3.5 3.5a4.75 4.75 0 0 1 3.5 3.5"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbEyeSpark;

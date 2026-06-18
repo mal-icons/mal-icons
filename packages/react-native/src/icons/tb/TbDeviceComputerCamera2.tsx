@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbDeviceComputerCamera2 = createIcon("0 0 24 24", [["path",{"d":"M17 14h-10a4 4 0 0 1 -4 -4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4a4 4 0 0 1 -4 4"}],["path",{"d":"M15 14h-6v4h6v-4"}],["path",{"d":"M17 18h-10"}],["path",{"d":"M12 10.02v0.01"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbDeviceComputerCamera2;

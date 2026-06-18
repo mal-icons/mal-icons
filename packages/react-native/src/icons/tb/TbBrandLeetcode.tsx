@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandLeetcode = createIcon("0 0 24 24", [["path",{"d":"M12 13h7.5"}],["path",{"d":"M9.42 7.27l5 -5"}],["path",{"d":"M16.63 16.64l-2.4 2.42a3.19 3.19 0 0 1 -4.52 0l-3.77 -3.79a3.22 3.22 0 0 1 0 -4.54l3.77 -3.79a3.19 3.19 0 0 1 4.52 0l2.3 2.31"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandLeetcode;

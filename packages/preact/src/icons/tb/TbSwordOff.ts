@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbSwordOff = createIcon("0 0 24 24", [["path",{"d":"M11.94 7.94l3.06 -3.94h5v5l-3.93 3.06m-2.26 1.76l-2.81 2.19l-4 4l-3 -3l4 -4l2.19 -2.81"}],["path",{"d":"M6.5 11.5l6 6"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbSwordOff;

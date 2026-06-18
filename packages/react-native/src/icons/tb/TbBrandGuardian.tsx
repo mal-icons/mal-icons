@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandGuardian = createIcon("0 0 24 24", [["path",{"d":"M14 13h6"}],["path",{"d":"M4 12c0 -9.3 9.5 -9 9.5 -9c-2.81 0 -4.5 4.37 -4.5 9s1.76 8.98 4.57 8.98c0 0.02 -9.57 1.09 -9.57 -8.98"}],["path",{"d":"M14.5 3c1.42 0 3.85 1.16 4.5 2v3.5"}],["path",{"d":"M15 13v8s2.77 -0.37 4 -2v-6"}],["path",{"d":"M13.5 21h1.5"}],["path",{"d":"M13.5 3h1"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandGuardian;

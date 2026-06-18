@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbSquareRoundedMinus2 = createIcon("0 0 24 24", [["path",{"d":"M12.5 21c-0.18 0 -0.31 0 -0.5 0c-7.2 0 -9 -1.8 -9 -9s1.8 -9 9 -9s9 1.8 9 9c0 1.14 -0.05 2.14 -0.15 3.02"}],["path",{"d":"M16 19h6"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbSquareRoundedMinus2;

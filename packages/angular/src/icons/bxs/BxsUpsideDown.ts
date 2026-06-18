@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-upside-down",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsUpsideDown {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10 10-4.49 10-10S17.51 2 12 2zM8.51 15a1.49 1.49 0 1 1 0-2.99A1.49 1.49 0 0 1 8.51 15zm4.3-6.92a4.11 4.11 0 0 0-1.62 0 4.12 4.12 0 0 0-0.750.23c-0.230.1-0.460.22-0.680.37a4.08 4.08 0 0 0-1.08 1.08L7.02 8.65a6.03 6.03 0 0 1 2.64-2.17 6.1 6.1 0 0 1 1.13-0.35 6.06 6.06 0 0 1 2.42 0 5.92 5.92 0 0 1 2.150.9 6.08 6.08 0 0 1 1.62 1.62l-1.66 1.12a3.99 3.99 0 0 0-0.49-0.59 3.99 3.99 0 0 0-2.02-1.09zM15.5 15a1.5 1.5 0 1 1 0-3A1.5 1.5 0 0 1 15.5 15z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsUpsideDown;

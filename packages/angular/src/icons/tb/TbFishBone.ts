@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-fish-bone",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbFishBone {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.69 7.44a6.97 6.97 0 0 0 -1.69 4.56a6.97 6.97 0 0 0 1.7 4.57c1.91 -0.68 3.69 -2.18 5.3 -4.57c-1.61 -2.38 -3.39 -3.88 -5.31 -4.57"}],["path",{"d":"M2 9.5a40.73 40.73 0 0 0 2.42 2.5a39.68 39.68 0 0 0 -2.42 2.5"}],["path",{"d":"M18 11v0.01"}],["path",{"d":"M4.42 12h10.58"}],["path",{"d":"M7 10v4"}],["path",{"d":"M11 8v8"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbFishBone;

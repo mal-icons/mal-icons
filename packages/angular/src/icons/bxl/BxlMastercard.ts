@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-mastercard",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlMastercard {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.45 17.02c0.050.040.10.080.150.12a6.17 6.17 0 0 1-3.42 1.03A6.17 6.17 0 0 1 2.01 12a6.18 6.18 0 0 1 9.59-5.14c-0.050.04-0.10.08-0.140.13A6.63 6.63 0 0 0 9.17 12c0 1.930.83 3.76 2.29 5.02zm4.36-11.19a6.14 6.14 0 0 0-3.42 1.03c0.050.040.10.080.140.13 1.46 1.26 2.3 3.09 2.3 5.02s-0.83 3.75-2.29 5.02c-0.050.04-0.10.08-0.150.12a6.16 6.16 0 0 0 3.42 1.03 6.17 6.17 0 1 0 0-12.35zM12 7.15A6.15 6.15 0 0 0 9.64 12 6.15 6.15 0 0 0 12 16.85 6.16 6.16 0 0 0 14.36 12 6.15 6.15 0 0 0 12 7.15z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlMastercard;

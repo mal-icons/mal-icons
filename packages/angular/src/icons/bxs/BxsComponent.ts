@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-component",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsComponent {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m3.55 18.9 4 2a1 1 0 0 0 0.89 0L12 19.12l3.55 1.78a0.990.99 0 0 0 0.890l4-2c0.34-0.170.55-0.520.55-0.89v-5c0-0.38-0.21-0.72-0.55-0.89L17 10.38V6c0-0.38-0.21-0.72-0.55-0.89l-4-2a1 1 0 0 0-0.89 0l-4 2C7.21 5.28 7 5.62 7 6v4.38l-3.45 1.72A11 0 0 0 3 13v5c0 0.380.210.730.550.9zM8 12.12l2.26 1.13-2.91 1.46-2.26-1.13L8 12.12zm4-2.5 3-1.5v2.26l-3 1.5V9.62zm6.26 3.63-2.88 1.44-2.26-1.13L16 12.12l2.26 1.13zM8 18.88l-0.06-0.03V16.65L11 15.12v2.26l-3 1.5zm8 0v-2.26l3-1.5v2.26l-3 1.5zM12 5.12l2.26 1.13-2.88 1.44-2.26-1.13L12 5.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsComponent;

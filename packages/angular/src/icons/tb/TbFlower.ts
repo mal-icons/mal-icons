@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-flower",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbFlower {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}],["path",{"d":"M12 2a3 3 0 0 1 3 3c0 0.56 -0.26 1.44 -0.78 2.64l-0.72 1.36l1.76 -1.89c0.5 -0.6 0.92 -1 1.27 -1.2a2.97 2.97 0 0 1 4.07 1.1a3.01 3.01 0 0 1 -1.09 4.1c-0.37 0.22 -0.99 0.4 -1.85 0.54l-2.66 0.37l2.4 0.33c1 0.14 1.7 0.34 2.11 0.58a3.01 3.01 0 0 1 1.09 4.1a2.97 2.97 0 0 1 -4.07 1.1c-0.35 -0.2 -0.77 -0.6 -1.27 -1.2l-1.76 -1.89l0.72 1.36c0.52 1.2 0.78 2.08 0.78 2.64a3 3 0 0 1 -6 0c0 -0.56 0.26 -1.44 0.78 -2.64l0.72 -1.36l-1.76 1.89c-0.5 0.6 -0.92 1 -1.27 1.21a2.97 2.97 0 0 1 -4.07 -1.1a3.01 3.01 0 0 1 1.09 -4.1c0.37 -0.22 0.99 -0.4 1.85 -0.54l2.66 -0.37l-2.4 -0.32c-1 -0.14 -1.7 -0.34 -2.11 -0.58a3.01 3.01 0 0 1 -1.09 -4.1a2.97 2.97 0 0 1 4.07 -1.1c0.35 0.2 0.77 0.6 1.27 1.21l1.76 1.89c-1 -2.29 -1.5 -3.62 -1.5 -4a3 3 0 0 1 3 -3"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbFlower;

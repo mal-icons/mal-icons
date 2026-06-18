@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-live-photo-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbLivePhotoOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.3 11.29a1 1 0 1 0 1.41 1.42"}],["path",{"d":"M8.47 8.46a5 5 0 1 0 7.08 7.07m1.37 -2.59a5 5 0 0 0 -5.81 -5.85"}],["path",{"d":"M15.9 20.11v0.01"}],["path",{"d":"M19.04 17.61v0.01"}],["path",{"d":"M20.77 14v0.01"}],["path",{"d":"M20.77 10v0.01"}],["path",{"d":"M19.04 6.39v0.01"}],["path",{"d":"M15.9 3.89v0.01"}],["path",{"d":"M12 3v0.01"}],["path",{"d":"M8.1 3.89v0.01"}],["path",{"d":"M4.96 6.39v0.01"}],["path",{"d":"M3.23 10v0.01"}],["path",{"d":"M3.23 14v0.01"}],["path",{"d":"M4.96 17.61v0.01"}],["path",{"d":"M8.1 20.11v0.01"}],["path",{"d":"M12 21v0.01"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbLivePhotoOff;

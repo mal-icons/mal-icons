@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxRadioCircleMarked = createIcon("0 0 24 24", [["path",{"d":"M12 5c-3.86 0-7 3.14-7 7s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm0 12c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"}],["path",{"d":"M12 9c-1.63 0-3 1.37-3 3s1.37 3 3 3 3-1.37 3-3-1.37-3-3-3z"}]]);
+
+export default BxRadioCircleMarked;

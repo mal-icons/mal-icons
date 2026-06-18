@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandTiktok = createIcon("0 0 24 24", [["path",{"d":"M21 7.92v4.03a9.95 9.95 0 0 1 -5 -1.95v4.5a6.5 6.5 0 1 1 -8 -6.33v4.33a2.5 2.5 0 1 0 4 2v-11.5h4.08a6.01 6.01 0 0 0 4.92 4.92"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandTiktok;

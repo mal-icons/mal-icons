@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxlUnsplash = createIcon("0 0 24 24", [["path",{"d":"M8.63 8.06V3h6.75v5.06h-6.75zm6.75 2.81H21V21H3V10.88h5.63v5.06h6.75v-5.06z"}]]);
+
+export default BxlUnsplash;

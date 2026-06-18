@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxWalletAlt = createIcon("0 0 24 24", [["path",{"d":"M20 3H5C3.35 3 2 4.35 2 6v12c0 1.65 1.35 3 3 3h15c1.1 0 2-0.9 2-2V5c0-1.1-0.9-2-2-2zM5 19c-0.55 0-1-0.45-1-1V6c0-0.550.45-1 1-1h15v3h-6c-1.1 0-2 0.9-2 2v4c0 1.10.9 2 2 2h6v3H5zm15-9v4h-6v-4h6z"}]]);
+
+export default BxWalletAlt;

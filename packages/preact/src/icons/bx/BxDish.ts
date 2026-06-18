@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxDish = createIcon("0 0 24 24", [["path",{"d":"M21 15c0-4.62-3.51-8.44-8-8.94V4h-2v2.06c-4.490.5-8 4.32-8 8.94v2h18v-2zM5 15c0-3.86 3.14-7 7-7s7 3.14 7 7H5zm-3 3h20v2H2z"}]]);
+
+export default BxDish;

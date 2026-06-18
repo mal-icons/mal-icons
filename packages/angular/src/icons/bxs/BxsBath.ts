@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-bath",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsBath {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 10H7V7.11c0-10.68-1.92 1.66-2.08A2 2 0 0 1 11 7h2a4 4 0 0 0-4.4-3.98C6.52 3.22 5 5.09 5 7.18V10H3a1 1 0 0 0-1 1v2c0 2.61 1.67 4.82 4 5.65V22h2v-3h8v3h2v-3.35c2.33-0.83 4-3.04 4-5.65v-2a1 1 0 0 0-1-1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsBath;

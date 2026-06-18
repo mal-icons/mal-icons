@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbTornado = createIcon("0 0 24 24", [["path",{"d":"M21 4l-18 0"}],["path",{"d":"M13 16l-6 0"}],["path",{"d":"M11 20l4 0"}],["path",{"d":"M6 8l14 0"}],["path",{"d":"M4 12l12 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbTornado;

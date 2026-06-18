@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSquareRotatedOff = createIcon("0 0 24 24", [["path",{"d":"M16.96 16.95l-3.46 3.46c-0.78 0.78 -2.22 0.78 -3 0l-6.91 -6.91c-0.78 -0.78 -0.78 -2.22 0 -3l3.46 -3.46m2 -2l1.45 -1.45c0.78 -0.78 2.22 -0.78 3 0l6.91 6.91c0.78 0.78 0.78 2.22 0 3l-1.45 1.45"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSquareRotatedOff;

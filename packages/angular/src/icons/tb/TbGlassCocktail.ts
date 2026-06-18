@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-glass-cocktail",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbGlassCocktail {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 21h8"}],["path",{"d":"M12 15v6"}],["path",{"d":"M5 5a7 2 0 1 0 14 0a7 2 0 1 0 -14 0"}],["path",{"d":"M5 5v0.39c0 0.43 0.13 0.85 0.36 1.21l5 7.51c0.63 0.95 1.88 1.18 2.79 0.52c0.19 -0.14 0.36 -0.32 0.49 -0.52l5 -7.51c0.24 -0.35 0.36 -0.77 0.36 -1.21v-0.39"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbGlassCocktail;

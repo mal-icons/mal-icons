@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsDrink = createIcon("0 0 24 24", [["path",{"d":"M20.83 4.56A1 1 0 0 0 20 3H4a1 1 0 0 0-0.83 1.55L11 16.3V20H8v2h8v-2h-3v-3.7l7.83-11.75zm-2.70.45-2 3H7.87l-2-3h12.26z"}]]);
+
+export default BxsDrink;

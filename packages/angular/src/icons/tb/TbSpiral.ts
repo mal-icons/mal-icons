@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-spiral",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbSpiral {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10 12.06a1.9 1.9 0 0 0 0.61 0.74c1.06 0.71 2.47 0.11 3.04 -0.92c0.84 -1.51 -0.02 -3.37 -1.52 -4.08c-2 -0.95 -4.37 0.15 -5.24 2.09c-1.09 2.43 0.29 5.25 2.71 6.25c2.93 1.21 6.28 -0.42 7.44 -3.25c1.36 -3.34 -0.56 -7.13 -3.9 -8.41c-3.85 -1.47 -8.2 0.68 -9.64 4.42c-1.63 4.25 0.82 9.02 5.08 10.58c4.78 1.74 10.12 -0.94 11.83 -5.59a9.35 9.35 0 0 0 0.58 -2.81"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbSpiral;
