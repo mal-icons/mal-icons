@@ -438,4 +438,16 @@ export const sources: Record<string, IconSource> = {
     iconDir: "icons/outline",
     style: "stroke",
   },
+  ph: {
+    id: "ph",
+    prefix: "Ph",
+    name: "Phosphor",
+    license: "MIT",
+    repo: "phosphor-icons/core",
+    ref: "v2.0.8",
+    // The `assets/regular` directory ships clean, single-path, fill-style SVGs
+    // (the other weights live in sibling folders: thin, light, bold, fill, duotone).
+    iconDir: "assets/regular",
+    style: "fill",
+  },
 };
