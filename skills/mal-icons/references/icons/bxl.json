@@ -1,0 +1,1288 @@
+{
+  "set": {
+    "id": "bxl",
+    "name": "Boxicons Logos",
+    "prefix": "Bxl",
+    "version": "2.1.4",
+    "license": "CC-BY-4.0",
+    "repo": "box-icons/boxicons",
+    "style": "fill",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 155,
+  "icons": [
+    {
+      "name": "Bxl_500px",
+      "tags": [
+        "500px",
+        "fill"
+      ],
+      "description": "_500 px icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "Bxl_99designs",
+      "tags": [
+        "99designs",
+        "fill"
+      ],
+      "description": "_99 designs icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAdobe",
+      "tags": [
+        "adobe",
+        "fill"
+      ],
+      "description": "Adobe icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAirbnb",
+      "tags": [
+        "airbnb",
+        "fill"
+      ],
+      "description": "Airbnb icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAlgolia",
+      "tags": [
+        "algolia",
+        "fill"
+      ],
+      "description": "Algolia icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAmazon",
+      "tags": [
+        "amazon",
+        "fill"
+      ],
+      "description": "Amazon icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAndroid",
+      "tags": [
+        "android",
+        "fill"
+      ],
+      "description": "Android icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAngular",
+      "tags": [
+        "angular",
+        "fill"
+      ],
+      "description": "Angular icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlApple",
+      "tags": [
+        "apple",
+        "fill"
+      ],
+      "description": "Apple icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAudible",
+      "tags": [
+        "audible",
+        "fill"
+      ],
+      "description": "Audible icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlAws",
+      "tags": [
+        "aws",
+        "fill"
+      ],
+      "description": "Aws icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlBaidu",
+      "tags": [
+        "baidu",
+        "fill"
+      ],
+      "description": "Baidu icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlBehance",
+      "tags": [
+        "behance",
+        "fill"
+      ],
+      "description": "Behance icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlBing",
+      "tags": [
+        "bing",
+        "fill"
+      ],
+      "description": "Bing icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlBitcoin",
+      "tags": [
+        "bitcoin",
+        "fill"
+      ],
+      "description": "Bitcoin icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlBlender",
+      "tags": [
+        "blender",
+        "fill"
+      ],
+      "description": "Blender icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlBlogger",
+      "tags": [
+        "blogger",
+        "fill"
+      ],
+      "description": "Blogger icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlBootstrap",
+      "tags": [
+        "bootstrap",
+        "fill"
+      ],
+      "description": "Bootstrap icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlChrome",
+      "tags": [
+        "chrome",
+        "fill"
+      ],
+      "description": "Chrome icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlCodepen",
+      "tags": [
+        "codepen",
+        "fill"
+      ],
+      "description": "Codepen icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlCPlusPlus",
+      "tags": [
+        "add",
+        "c",
+        "cplus",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxlCreativeCommons",
+      "tags": [
+        "commons",
+        "creative",
+        "fill"
+      ],
+      "description": "Creative Commons icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlCss3",
+      "tags": [
+        "css3",
+        "fill"
+      ],
+      "description": "Css 3 icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDailymotion",
+      "tags": [
+        "dailymotion",
+        "fill"
+      ],
+      "description": "Dailymotion icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDeezer",
+      "tags": [
+        "deezer",
+        "fill"
+      ],
+      "description": "Deezer icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDeviantart",
+      "tags": [
+        "deviantart",
+        "fill"
+      ],
+      "description": "Deviantart icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDevTo",
+      "tags": [
+        "dev",
+        "fill",
+        "to"
+      ],
+      "description": "Dev To icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDigg",
+      "tags": [
+        "digg",
+        "fill"
+      ],
+      "description": "Digg icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDigitalocean",
+      "tags": [
+        "digitalocean",
+        "fill"
+      ],
+      "description": "Digitalocean icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDiscord",
+      "tags": [
+        "discord",
+        "fill"
+      ],
+      "description": "Discord icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDiscordAlt",
+      "tags": [
+        "alt",
+        "discord",
+        "fill"
+      ],
+      "description": "Discord Alt icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDiscourse",
+      "tags": [
+        "discourse",
+        "fill"
+      ],
+      "description": "Discourse icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDjango",
+      "tags": [
+        "django",
+        "fill"
+      ],
+      "description": "Django icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDocker",
+      "tags": [
+        "docker",
+        "fill"
+      ],
+      "description": "Docker icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDribbble",
+      "tags": [
+        "dribbble",
+        "fill"
+      ],
+      "description": "Dribbble icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDropbox",
+      "tags": [
+        "dropbox",
+        "fill"
+      ],
+      "description": "Dropbox icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlDrupal",
+      "tags": [
+        "drupal",
+        "fill"
+      ],
+      "description": "Drupal icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlEbay",
+      "tags": [
+        "ebay",
+        "fill"
+      ],
+      "description": "Ebay icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlEdge",
+      "tags": [
+        "edge",
+        "fill"
+      ],
+      "description": "Edge icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlEtsy",
+      "tags": [
+        "etsy",
+        "fill"
+      ],
+      "description": "Etsy icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFacebook",
+      "tags": [
+        "facebook",
+        "fill"
+      ],
+      "description": "Facebook icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFacebookCircle",
+      "tags": [
+        "circle",
+        "facebook",
+        "fill"
+      ],
+      "description": "Facebook Circle icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFacebookSquare",
+      "tags": [
+        "facebook",
+        "fill",
+        "square"
+      ],
+      "description": "Facebook Square icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFigma",
+      "tags": [
+        "figma",
+        "fill"
+      ],
+      "description": "Figma icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFirebase",
+      "tags": [
+        "fill",
+        "firebase"
+      ],
+      "description": "Firebase icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFirefox",
+      "tags": [
+        "fill",
+        "firefox"
+      ],
+      "description": "Firefox icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFlask",
+      "tags": [
+        "fill",
+        "flask"
+      ],
+      "description": "Flask icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFlickr",
+      "tags": [
+        "fill",
+        "flickr"
+      ],
+      "description": "Flickr icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFlickrSquare",
+      "tags": [
+        "fill",
+        "flickr",
+        "square"
+      ],
+      "description": "Flickr Square icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFlutter",
+      "tags": [
+        "fill",
+        "flutter"
+      ],
+      "description": "Flutter icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlFoursquare",
+      "tags": [
+        "fill",
+        "foursquare"
+      ],
+      "description": "Foursquare icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlGit",
+      "tags": [
+        "fill",
+        "git"
+      ],
+      "description": "Git icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlGithub",
+      "tags": [
+        "fill",
+        "github"
+      ],
+      "description": "GitHub mark — repository and source-code links."
+    },
+    {
+      "name": "BxlGitlab",
+      "tags": [
+        "fill",
+        "gitlab"
+      ],
+      "description": "Gitlab icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlGmail",
+      "tags": [
+        "fill",
+        "gmail"
+      ],
+      "description": "Gmail icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlGoLang",
+      "tags": [
+        "fill",
+        "go",
+        "lang"
+      ],
+      "description": "Go Lang icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlGoogle",
+      "tags": [
+        "fill",
+        "google"
+      ],
+      "description": "Google icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlGoogleCloud",
+      "tags": [
+        "cloud",
+        "fill",
+        "google"
+      ],
+      "description": "Google Cloud icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlGooglePlus",
+      "tags": [
+        "add",
+        "fill",
+        "google",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxlGooglePlusCircle",
+      "tags": [
+        "add",
+        "circle",
+        "fill",
+        "google",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxlGraphql",
+      "tags": [
+        "fill",
+        "graphql"
+      ],
+      "description": "Graphql icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlHeroku",
+      "tags": [
+        "fill",
+        "heroku"
+      ],
+      "description": "Heroku icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlHtml5",
+      "tags": [
+        "fill",
+        "html5"
+      ],
+      "description": "Html 5 icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlImdb",
+      "tags": [
+        "fill",
+        "imdb"
+      ],
+      "description": "Imdb icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlInstagram",
+      "tags": [
+        "fill",
+        "instagram"
+      ],
+      "description": "Instagram icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlInstagramAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "instagram"
+      ],
+      "description": "Instagram Alt icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlInternetExplorer",
+      "tags": [
+        "explorer",
+        "fill",
+        "internet"
+      ],
+      "description": "Internet Explorer icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlInvision",
+      "tags": [
+        "fill",
+        "invision"
+      ],
+      "description": "Invision icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlJava",
+      "tags": [
+        "fill",
+        "java"
+      ],
+      "description": "Java icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlJavascript",
+      "tags": [
+        "fill",
+        "javascript"
+      ],
+      "description": "Javascript icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlJoomla",
+      "tags": [
+        "fill",
+        "joomla"
+      ],
+      "description": "Joomla icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlJquery",
+      "tags": [
+        "fill",
+        "jquery"
+      ],
+      "description": "Jquery icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlJsfiddle",
+      "tags": [
+        "fill",
+        "jsfiddle"
+      ],
+      "description": "Jsfiddle icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlKickstarter",
+      "tags": [
+        "fill",
+        "kickstarter"
+      ],
+      "description": "Kickstarter icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlKubernetes",
+      "tags": [
+        "fill",
+        "kubernetes"
+      ],
+      "description": "Kubernetes icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlLess",
+      "tags": [
+        "fill",
+        "less"
+      ],
+      "description": "Less icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlLinkedin",
+      "tags": [
+        "fill",
+        "linkedin"
+      ],
+      "description": "Linkedin icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlLinkedinSquare",
+      "tags": [
+        "fill",
+        "linkedin",
+        "square"
+      ],
+      "description": "Linkedin Square icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMagento",
+      "tags": [
+        "fill",
+        "magento"
+      ],
+      "description": "Magento icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMailchimp",
+      "tags": [
+        "fill",
+        "mailchimp"
+      ],
+      "description": "Mailchimp icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMarkdown",
+      "tags": [
+        "fill",
+        "markdown"
+      ],
+      "description": "Markdown icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMastercard",
+      "tags": [
+        "fill",
+        "mastercard"
+      ],
+      "description": "Mastercard icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMastodon",
+      "tags": [
+        "fill",
+        "mastodon"
+      ],
+      "description": "Mastodon icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMedium",
+      "tags": [
+        "fill",
+        "medium"
+      ],
+      "description": "Medium icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMediumOld",
+      "tags": [
+        "fill",
+        "medium",
+        "old"
+      ],
+      "description": "Medium Old icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMediumSquare",
+      "tags": [
+        "fill",
+        "medium",
+        "square"
+      ],
+      "description": "Medium Square icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMessenger",
+      "tags": [
+        "fill",
+        "messenger"
+      ],
+      "description": "Messenger icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMeta",
+      "tags": [
+        "fill",
+        "meta"
+      ],
+      "description": "Meta icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMicrosoft",
+      "tags": [
+        "fill",
+        "microsoft"
+      ],
+      "description": "Microsoft icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMicrosoftTeams",
+      "tags": [
+        "fill",
+        "microsoft",
+        "teams"
+      ],
+      "description": "Microsoft Teams icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlMongodb",
+      "tags": [
+        "fill",
+        "mongodb"
+      ],
+      "description": "Mongodb icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlNetlify",
+      "tags": [
+        "fill",
+        "netlify"
+      ],
+      "description": "Netlify icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlNodejs",
+      "tags": [
+        "fill",
+        "nodejs"
+      ],
+      "description": "Nodejs icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlOkRu",
+      "tags": [
+        "fill",
+        "ok",
+        "ru"
+      ],
+      "description": "Ok Ru icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlOpera",
+      "tags": [
+        "fill",
+        "opera"
+      ],
+      "description": "Opera icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPatreon",
+      "tags": [
+        "fill",
+        "patreon"
+      ],
+      "description": "Patreon icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPaypal",
+      "tags": [
+        "fill",
+        "paypal"
+      ],
+      "description": "Paypal icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPeriscope",
+      "tags": [
+        "fill",
+        "periscope"
+      ],
+      "description": "Periscope icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPhp",
+      "tags": [
+        "fill",
+        "php"
+      ],
+      "description": "Php icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPinterest",
+      "tags": [
+        "fill",
+        "pinterest"
+      ],
+      "description": "Pinterest icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPinterestAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "pinterest"
+      ],
+      "description": "Pinterest Alt icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPlayStore",
+      "tags": [
+        "fill",
+        "play",
+        "store"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "BxlPocket",
+      "tags": [
+        "fill",
+        "pocket"
+      ],
+      "description": "Pocket icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPostgresql",
+      "tags": [
+        "fill",
+        "postgresql"
+      ],
+      "description": "Postgresql icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlProductHunt",
+      "tags": [
+        "fill",
+        "hunt",
+        "product"
+      ],
+      "description": "Product Hunt icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlPython",
+      "tags": [
+        "fill",
+        "python"
+      ],
+      "description": "Python icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlQuora",
+      "tags": [
+        "fill",
+        "quora"
+      ],
+      "description": "Quora icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlReact",
+      "tags": [
+        "fill",
+        "react"
+      ],
+      "description": "React icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlRedbubble",
+      "tags": [
+        "fill",
+        "redbubble"
+      ],
+      "description": "Redbubble icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlReddit",
+      "tags": [
+        "fill",
+        "reddit"
+      ],
+      "description": "Reddit icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlRedux",
+      "tags": [
+        "fill",
+        "redux"
+      ],
+      "description": "Redux icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSass",
+      "tags": [
+        "fill",
+        "sass"
+      ],
+      "description": "Sass icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlShopify",
+      "tags": [
+        "fill",
+        "shopify"
+      ],
+      "description": "Shopify icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSketch",
+      "tags": [
+        "fill",
+        "sketch"
+      ],
+      "description": "Sketch icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSkype",
+      "tags": [
+        "fill",
+        "skype"
+      ],
+      "description": "Skype icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSlack",
+      "tags": [
+        "fill",
+        "slack"
+      ],
+      "description": "Slack icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSlackOld",
+      "tags": [
+        "fill",
+        "old",
+        "slack"
+      ],
+      "description": "Slack Old icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSnapchat",
+      "tags": [
+        "fill",
+        "snapchat"
+      ],
+      "description": "Snapchat icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSoundcloud",
+      "tags": [
+        "fill",
+        "soundcloud"
+      ],
+      "description": "Soundcloud icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSpotify",
+      "tags": [
+        "fill",
+        "spotify"
+      ],
+      "description": "Spotify icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSpringBoot",
+      "tags": [
+        "boot",
+        "fill",
+        "spring"
+      ],
+      "description": "Spring Boot icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSquarespace",
+      "tags": [
+        "fill",
+        "squarespace"
+      ],
+      "description": "Squarespace icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlStackOverflow",
+      "tags": [
+        "fill",
+        "overflow",
+        "stack"
+      ],
+      "description": "Stack Overflow icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlSteam",
+      "tags": [
+        "fill",
+        "steam"
+      ],
+      "description": "Steam icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlStripe",
+      "tags": [
+        "fill",
+        "stripe"
+      ],
+      "description": "Stripe icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTailwindCss",
+      "tags": [
+        "css",
+        "fill",
+        "tailwind"
+      ],
+      "description": "Tailwind Css icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTelegram",
+      "tags": [
+        "fill",
+        "telegram"
+      ],
+      "description": "Telegram icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTiktok",
+      "tags": [
+        "fill",
+        "tiktok"
+      ],
+      "description": "Tiktok icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTrello",
+      "tags": [
+        "fill",
+        "trello"
+      ],
+      "description": "Trello icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTripAdvisor",
+      "tags": [
+        "advisor",
+        "fill",
+        "trip"
+      ],
+      "description": "Trip Advisor icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTumblr",
+      "tags": [
+        "fill",
+        "tumblr"
+      ],
+      "description": "Tumblr icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTux",
+      "tags": [
+        "fill",
+        "tux"
+      ],
+      "description": "Tux icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTwitch",
+      "tags": [
+        "fill",
+        "twitch"
+      ],
+      "description": "Twitch icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlTwitter",
+      "tags": [
+        "fill",
+        "twitter"
+      ],
+      "description": "Twitter/X bird — social profile links."
+    },
+    {
+      "name": "BxlTypescript",
+      "tags": [
+        "fill",
+        "typescript"
+      ],
+      "description": "Typescript icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlUnity",
+      "tags": [
+        "fill",
+        "unity"
+      ],
+      "description": "Unity icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlUnsplash",
+      "tags": [
+        "fill",
+        "unsplash"
+      ],
+      "description": "Unsplash icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlUpwork",
+      "tags": [
+        "fill",
+        "upwork"
+      ],
+      "description": "Upwork icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlVenmo",
+      "tags": [
+        "fill",
+        "venmo"
+      ],
+      "description": "Venmo icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlVimeo",
+      "tags": [
+        "fill",
+        "vimeo"
+      ],
+      "description": "Vimeo icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlVisa",
+      "tags": [
+        "fill",
+        "visa"
+      ],
+      "description": "Visa icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlVisualStudio",
+      "tags": [
+        "fill",
+        "studio",
+        "visual"
+      ],
+      "description": "Visual Studio icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlVk",
+      "tags": [
+        "fill",
+        "vk"
+      ],
+      "description": "Vk icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlVuejs",
+      "tags": [
+        "fill",
+        "vuejs"
+      ],
+      "description": "Vuejs icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlWhatsapp",
+      "tags": [
+        "fill",
+        "whatsapp"
+      ],
+      "description": "Whatsapp icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlWhatsappSquare",
+      "tags": [
+        "fill",
+        "square",
+        "whatsapp"
+      ],
+      "description": "Whatsapp Square icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlWikipedia",
+      "tags": [
+        "fill",
+        "wikipedia"
+      ],
+      "description": "Wikipedia icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlWindows",
+      "tags": [
+        "fill",
+        "windows"
+      ],
+      "description": "Windows icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlWix",
+      "tags": [
+        "fill",
+        "wix"
+      ],
+      "description": "Wix icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlWordpress",
+      "tags": [
+        "fill",
+        "wordpress"
+      ],
+      "description": "Wordpress icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlXing",
+      "tags": [
+        "fill",
+        "xing"
+      ],
+      "description": "Xing icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlYahoo",
+      "tags": [
+        "fill",
+        "yahoo"
+      ],
+      "description": "Yahoo icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlYelp",
+      "tags": [
+        "fill",
+        "yelp"
+      ],
+      "description": "Yelp icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlYoutube",
+      "tags": [
+        "fill",
+        "youtube"
+      ],
+      "description": "Youtube icon — Boxicons Logos (bxl) set, fill style."
+    },
+    {
+      "name": "BxlZoom",
+      "tags": [
+        "fill",
+        "zoom"
+      ],
+      "description": "Zoom icon — Boxicons Logos (bxl) set, fill style."
+    }
+  ]
+}

@@ -125,6 +125,9 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | ---------------------------------------- | --------------------------------------------------------------------------------- | ------- | ----: |
 | [Ant Design Icons](https://ant.design/components/icon) | [MIT license](https://github.com/ant-design/ant-design-icons/blob/master/LICENSE) | 4.0.0   |   420 |
 | [Bootstrap Icons](https://icons.getbootstrap.com/) | [MIT license](https://github.com/twbs/icons/blob/main/LICENSE) | 1.13.1  |  2078 |
+| [Boxicons Logos](https://boxicons.com/) | [CC BY 4.0 license](https://github.com/box-icons/boxicons/blob/master/LICENSE) | 2.1.4 | 155 |
+| [Boxicons Regular](https://boxicons.com/) | [CC BY 4.0 license](https://github.com/box-icons/boxicons/blob/master/LICENSE) | 2.1.4 | 814 |
+| [Boxicons Solid](https://boxicons.com/) | [CC BY 4.0 license](https://github.com/box-icons/boxicons/blob/master/LICENSE) | 2.1.4 | 665 |
 | [Circum Icons](https://circumicons.com/) | [MPL-2.0 license](https://github.com/Klarr-Agency/Circum-Icons/blob/main/LICENSE) | 2.0.2   |   288 |
 | [Codicons](https://microsoft.github.io/vscode-codicons/) | [CC BY 4.0 license](https://github.com/microsoft/vscode-codicons/blob/main/LICENSE) | 0.0.46 | 604 |
 | [css.gg](https://css.gg/) | [MIT license](https://github.com/astrit/css.gg/blob/master/license) | 2.1.1 | 704 |
@@ -152,6 +155,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Remix Icon](https://remixicon.com/) | [Apache 2.0 license](https://github.com/Remix-Design/RemixIcon/blob/master/License) | 4.6.0 | 3058 |
 | [Simple Icons](https://simpleicons.org/) | [CC0 1.0 license](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md) | 16.23.0 | 3442 |
 | [Simple Line Icons](https://simplelineicons.github.io/) | [MIT license](https://github.com/thesabbir/simple-line-icons/blob/master/LICENSE.md) | 2.5.5 | 189 |
+| [Tabler Icons](https://tabler.io/icons) | [MIT license](https://github.com/tabler/tabler-icons/blob/main/LICENSE) | 3.44.0 | 5093 |
 | [Themify](https://themify.me/themify-icons) | [SIL OFL 1.1 license](https://github.com/lykmapipo/themify-icons/blob/master/README.md) | 9600186 | 352 |
 | [Typicons](https://www.s-ings.com/typicons/) | [CC BY-SA 4.0 license](https://github.com/stephenhutchings/typicons.font/blob/master/LICENCE.md) | 2.1.2   |   336 |
 | [Weather Icons](https://erikflowers.github.io/weather-icons/) | [SIL OFL 1.1 license](https://github.com/erikflowers/weather-icons/blob/master/README.md#licensing) | 2.0.12  |   219 |
@@ -216,6 +220,14 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/web/ri/RiHome2Line.json` | A single Remix Icon icon module |
 | `@mal-icons/web/si` | All Simple Icons icons (named exports) |
 | `@mal-icons/web/si/SiGithub.json` | A single Simple Icons icon module |
+| `@mal-icons/web/bx` | All Boxicons Regular icons (named exports) |
+| `@mal-icons/web/bx/BxAbacus.json` | A single Boxicons Regular icon module |
+| `@mal-icons/web/bxl` | All Boxicons Logos icons (named exports) |
+| `@mal-icons/web/bxl/BxlGithub.json` | A single Boxicons Logos icon module |
+| `@mal-icons/web/bxs` | All Boxicons Solid icons (named exports) |
+| `@mal-icons/web/bxs/BxsHeart.json` | A single Boxicons Solid icon module |
+| `@mal-icons/web/tb` | All Tabler icons (named exports) |
+| `@mal-icons/web/tb/TbHeart.json` | A single Tabler icon module |
 
 ## Example
 

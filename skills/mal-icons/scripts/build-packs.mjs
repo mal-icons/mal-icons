@@ -401,6 +401,54 @@ const SET_META = {
     blurb:
       "SVG brand/logo icons for popular companies and tools (e.g. `SiGithub`, `SiReact`, `SiDocker`). Single-color 24×24 fill; theme via `color`.",
   },
+  bx: {
+    id: "bx",
+    name: "Boxicons Regular",
+    prefix: "Bx",
+    version: "2.1.4",
+    license: "CC-BY-4.0",
+    repo: "box-icons/boxicons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Simple, consistent 24×24 outline-style UI icons (e.g. `BxHome`, `BxSearch`, `BxUser`). Single-color fill; theme via `color`.",
+  },
+  bxs: {
+    id: "bxs",
+    name: "Boxicons Solid",
+    prefix: "Bxs",
+    version: "2.1.4",
+    license: "CC-BY-4.0",
+    repo: "box-icons/boxicons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Solid-weight variants of the Boxicons UI set (e.g. `BxsHome`, `BxsHeart`, `BxsUser`). Single-color 24×24 fill; theme via `color`.",
+  },
+  bxl: {
+    id: "bxl",
+    name: "Boxicons Logos",
+    prefix: "Bxl",
+    version: "2.1.4",
+    license: "CC-BY-4.0",
+    repo: "box-icons/boxicons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Brand/logo marks from Boxicons (e.g. `BxlGithub`, `BxlReact`, `BxlDocker`). Single-color 24×24 fill; theme via `color`.",
+  },
+  tb: {
+    id: "tb",
+    name: "Tabler Icons",
+    prefix: "Tb",
+    version: "3.44.0",
+    license: "MIT",
+    repo: "tabler/tabler-icons",
+    style: "stroke",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Large set of crisp 24×24 outline icons drawn on a 2px stroke grid (e.g. `TbHeart`, `TbHome`, `TbBrandGithub`). Theme via `color`; tune weight with `weight`.",
+  },
 };
 
 /**
