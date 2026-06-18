@@ -31,6 +31,7 @@ export * from "./icons/mso/index.ts";
 export * from "./icons/msr/index.ts";
 export * from "./icons/mss/index.ts";
 export * from "./icons/oc/index.ts";
+export * from "./icons/ph/index.ts";
 export * from "./icons/ri/index.ts";
 export * from "./icons/rx/index.ts";
 export * from "./icons/si/index.ts";

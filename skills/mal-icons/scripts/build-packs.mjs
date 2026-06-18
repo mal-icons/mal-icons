@@ -449,6 +449,18 @@ const SET_META = {
     blurb:
       "Large set of crisp 24×24 outline icons drawn on a 2px stroke grid (e.g. `TbHeart`, `TbHome`, `TbBrandGithub`). Theme via `color`; tune weight with `weight`.",
   },
+  ph: {
+    id: "ph",
+    name: "Phosphor",
+    prefix: "Ph",
+    version: "2.0.8",
+    license: "MIT",
+    repo: "phosphor-icons/core",
+    style: "fill",
+    viewBox: "0 0 256 256",
+    blurb:
+      "Flexible 256×256 icons in the regular weight, drawn as single-color fills (e.g. `PhHeart`, `PhHouse`, `PhGithubLogo`). Theme via `color`.",
+  },
 };
 
 /**

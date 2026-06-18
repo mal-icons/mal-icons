@@ -253,6 +253,10 @@
       "bun": "./src/icons/tb/index.ts",
       "import": "./src/icons/tb/index.ts"
     },
+    "./ph": {
+      "bun": "./src/icons/ph/index.ts",
+      "import": "./src/icons/ph/index.ts"
+    },
     "./sl": {
       "bun": "./src/icons/sl/index.ts",
       "import": "./src/icons/sl/index.ts"
@@ -276,6 +280,10 @@
     "./tb/*": {
       "bun": "./src/icons/tb/*.ts",
       "import": "./src/icons/tb/*.ts"
+    },
+    "./ph/*": {
+      "bun": "./src/icons/ph/*.ts",
+      "import": "./src/icons/ph/*.ts"
     },
     "./sl/*": {
       "bun": "./src/icons/sl/*.ts",

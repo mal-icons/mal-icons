@@ -322873,6 +322873,11209 @@
       ]
     },
     {
+      "name": "PhAddressBook",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "address",
+        "book"
+      ]
+    },
+    {
+      "name": "PhAirplane",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "airplane"
+      ]
+    },
+    {
+      "name": "PhAirplaneInFlight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "airplane",
+        "in",
+        "flight"
+      ]
+    },
+    {
+      "name": "PhAirplaneLanding",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "airplane",
+        "landing"
+      ]
+    },
+    {
+      "name": "PhAirplaneTakeoff",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "airplane",
+        "takeoff"
+      ]
+    },
+    {
+      "name": "PhAirplaneTilt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "airplane",
+        "tilt"
+      ]
+    },
+    {
+      "name": "PhAirplay",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "airplay"
+      ]
+    },
+    {
+      "name": "PhAirTrafficControl",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "air",
+        "traffic",
+        "control"
+      ]
+    },
+    {
+      "name": "PhAlarm",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "alarm"
+      ]
+    },
+    {
+      "name": "PhAlien",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "alien"
+      ]
+    },
+    {
+      "name": "PhAlignBottom",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "bottom"
+      ]
+    },
+    {
+      "name": "PhAlignBottomSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "bottom",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAlignCenterHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "center",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhAlignCenterHorizontalSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "center",
+        "horizontal",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAlignCenterVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "center",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhAlignCenterVerticalSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "center",
+        "vertical",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAlignLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "PhAlignLeftSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "left",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAlignRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "PhAlignRightSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "right",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAlignTop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "top"
+      ]
+    },
+    {
+      "name": "PhAlignTopSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "align",
+        "top",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAmazonLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "amazon",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhAnchor",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "anchor"
+      ]
+    },
+    {
+      "name": "PhAnchorSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "anchor",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAndroidLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "android",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhAngularLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "angular",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhAperture",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "aperture"
+      ]
+    },
+    {
+      "name": "PhAppleLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "apple",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhApplePodcastsLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "apple",
+        "podcasts",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhAppStoreLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "app",
+        "store",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhAppWindow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "app",
+        "window"
+      ]
+    },
+    {
+      "name": "PhArchive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "archive"
+      ]
+    },
+    {
+      "name": "PhArchiveBox",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "archive",
+        "box"
+      ]
+    },
+    {
+      "name": "PhArchiveTray",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "archive",
+        "tray"
+      ]
+    },
+    {
+      "name": "PhArmchair",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "armchair"
+      ]
+    },
+    {
+      "name": "PhArrowArcLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "arc",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowArcRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "arc",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowBendDoubleUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "double",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowBendDoubleUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "double",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowBendDownLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowBendDownRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowBendLeftDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowBendLeftUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowBendRightDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowBendRightUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowBendUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowBendUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "bend",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowCircleDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowCircleDownLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowCircleDownRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowCircleLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowCircleRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowCircleUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowCircleUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowCircleUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "circle",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowClockwise",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "clockwise"
+      ]
+    },
+    {
+      "name": "PhArrowCounterClockwise",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "counter",
+        "clockwise"
+      ]
+    },
+    {
+      "name": "PhArrowDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowDownLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowDownRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowElbowDownLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowElbowDownRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowElbowLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowElbowLeftDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "left",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowElbowLeftUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "left",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowElbowRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowElbowRightDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "right",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowElbowRightUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "right",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowElbowUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowElbowUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "elbow",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowFatDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowFatLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowFatLineDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "line",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowFatLineLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "line",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowFatLineRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "line",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowFatLinesDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "lines",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowFatLinesLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "lines",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowFatLinesRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "lines",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowFatLinesUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "lines",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowFatLineUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "line",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowFatRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowFatUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "fat",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowLineDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowLineDownLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowLineDownRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowLineLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowLineRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowLineUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowLineUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowLineUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "line",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowsClockwise",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "clockwise"
+      ]
+    },
+    {
+      "name": "PhArrowsCounterClockwise",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "counter",
+        "clockwise"
+      ]
+    },
+    {
+      "name": "PhArrowsDownUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "down",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowsHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhArrowsIn",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "in"
+      ]
+    },
+    {
+      "name": "PhArrowsInCardinal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "in",
+        "cardinal"
+      ]
+    },
+    {
+      "name": "PhArrowsInLineHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "in",
+        "line",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhArrowsInLineVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "in",
+        "line",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhArrowsInSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "in",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhArrowsLeftRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowsMerge",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "merge"
+      ]
+    },
+    {
+      "name": "PhArrowsOut",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "out"
+      ]
+    },
+    {
+      "name": "PhArrowsOutCardinal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "out",
+        "cardinal"
+      ]
+    },
+    {
+      "name": "PhArrowsOutLineHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "out",
+        "line",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhArrowsOutLineVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "out",
+        "line",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhArrowsOutSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "out",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhArrowSquareDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowSquareDownLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "down",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowSquareDownRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "down",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowSquareIn",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "in"
+      ]
+    },
+    {
+      "name": "PhArrowSquareLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowSquareOut",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "out"
+      ]
+    },
+    {
+      "name": "PhArrowSquareRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowSquareUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowSquareUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowSquareUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "square",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowsSplit",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "split"
+      ]
+    },
+    {
+      "name": "PhArrowsVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrows",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhArrowUDownLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "udown",
+        "left",
+        "u",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowUDownRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "udown",
+        "right",
+        "u",
+        "down"
+      ]
+    },
+    {
+      "name": "PhArrowULeftDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "uleft",
+        "down",
+        "u",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowULeftUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "uleft",
+        "up",
+        "u",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "up",
+        "left"
+      ]
+    },
+    {
+      "name": "PhArrowUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "up",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowURightDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "uright",
+        "down",
+        "u",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowURightUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "uright",
+        "up",
+        "u",
+        "right"
+      ]
+    },
+    {
+      "name": "PhArrowUUpLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "uup",
+        "left",
+        "u",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArrowUUpRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "arrow",
+        "uup",
+        "right",
+        "u",
+        "up"
+      ]
+    },
+    {
+      "name": "PhArticle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "article"
+      ]
+    },
+    {
+      "name": "PhArticleMedium",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "article",
+        "medium"
+      ]
+    },
+    {
+      "name": "PhArticleNyTimes",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "article",
+        "ny",
+        "times"
+      ]
+    },
+    {
+      "name": "PhAsterisk",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "asterisk"
+      ]
+    },
+    {
+      "name": "PhAsteriskSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "asterisk",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhAt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "at"
+      ]
+    },
+    {
+      "name": "PhAtom",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "atom"
+      ]
+    },
+    {
+      "name": "PhBaby",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "baby"
+      ]
+    },
+    {
+      "name": "PhBackpack",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "backpack"
+      ]
+    },
+    {
+      "name": "PhBackspace",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "backspace"
+      ]
+    },
+    {
+      "name": "PhBag",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bag"
+      ]
+    },
+    {
+      "name": "PhBagSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bag",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhBalloon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "balloon"
+      ]
+    },
+    {
+      "name": "PhBandaids",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bandaids"
+      ]
+    },
+    {
+      "name": "PhBank",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bank"
+      ]
+    },
+    {
+      "name": "PhBarbell",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "barbell"
+      ]
+    },
+    {
+      "name": "PhBarcode",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "barcode"
+      ]
+    },
+    {
+      "name": "PhBarricade",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "barricade"
+      ]
+    },
+    {
+      "name": "PhBaseball",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "baseball"
+      ]
+    },
+    {
+      "name": "PhBaseballCap",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "baseball",
+        "cap"
+      ]
+    },
+    {
+      "name": "PhBasket",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "basket"
+      ]
+    },
+    {
+      "name": "PhBasketball",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "basketball"
+      ]
+    },
+    {
+      "name": "PhBathtub",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bathtub"
+      ]
+    },
+    {
+      "name": "PhBatteryCharging",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "charging"
+      ]
+    },
+    {
+      "name": "PhBatteryChargingVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "charging",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhBatteryEmpty",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "empty"
+      ]
+    },
+    {
+      "name": "PhBatteryFull",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "full"
+      ]
+    },
+    {
+      "name": "PhBatteryHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "high"
+      ]
+    },
+    {
+      "name": "PhBatteryLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "low"
+      ]
+    },
+    {
+      "name": "PhBatteryMedium",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "medium"
+      ]
+    },
+    {
+      "name": "PhBatteryPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhBatteryPlusVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "plus",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhBatteryVerticalEmpty",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "vertical",
+        "empty"
+      ]
+    },
+    {
+      "name": "PhBatteryVerticalFull",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "vertical",
+        "full"
+      ]
+    },
+    {
+      "name": "PhBatteryVerticalHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "vertical",
+        "high"
+      ]
+    },
+    {
+      "name": "PhBatteryVerticalLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "vertical",
+        "low"
+      ]
+    },
+    {
+      "name": "PhBatteryVerticalMedium",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "vertical",
+        "medium"
+      ]
+    },
+    {
+      "name": "PhBatteryWarning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "warning"
+      ]
+    },
+    {
+      "name": "PhBatteryWarningVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "battery",
+        "warning",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhBed",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bed"
+      ]
+    },
+    {
+      "name": "PhBeerBottle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "beer",
+        "bottle"
+      ]
+    },
+    {
+      "name": "PhBeerStein",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "beer",
+        "stein"
+      ]
+    },
+    {
+      "name": "PhBehanceLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "behance",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhBell",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell"
+      ]
+    },
+    {
+      "name": "PhBellRinging",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell",
+        "ringing"
+      ]
+    },
+    {
+      "name": "PhBellSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhBellSimpleRinging",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell",
+        "simple",
+        "ringing"
+      ]
+    },
+    {
+      "name": "PhBellSimpleSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell",
+        "simple",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhBellSimpleZ",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell",
+        "simple",
+        "z"
+      ]
+    },
+    {
+      "name": "PhBellSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhBellZ",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bell",
+        "z"
+      ]
+    },
+    {
+      "name": "PhBezierCurve",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bezier",
+        "curve"
+      ]
+    },
+    {
+      "name": "PhBicycle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bicycle"
+      ]
+    },
+    {
+      "name": "PhBinoculars",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "binoculars"
+      ]
+    },
+    {
+      "name": "PhBird",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bird"
+      ]
+    },
+    {
+      "name": "PhBluetooth",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bluetooth"
+      ]
+    },
+    {
+      "name": "PhBluetoothConnected",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bluetooth",
+        "connected"
+      ]
+    },
+    {
+      "name": "PhBluetoothSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bluetooth",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhBluetoothX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bluetooth",
+        "x"
+      ]
+    },
+    {
+      "name": "PhBoat",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "boat"
+      ]
+    },
+    {
+      "name": "PhBone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bone"
+      ]
+    },
+    {
+      "name": "PhBook",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "book"
+      ]
+    },
+    {
+      "name": "PhBookBookmark",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "book",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "PhBookmark",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bookmark"
+      ]
+    },
+    {
+      "name": "PhBookmarks",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bookmarks"
+      ]
+    },
+    {
+      "name": "PhBookmarkSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bookmark",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhBookmarksSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bookmarks",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhBookOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "book",
+        "open"
+      ]
+    },
+    {
+      "name": "PhBookOpenText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "book",
+        "open",
+        "text"
+      ]
+    },
+    {
+      "name": "PhBooks",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "books"
+      ]
+    },
+    {
+      "name": "PhBoot",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "boot"
+      ]
+    },
+    {
+      "name": "PhBoundingBox",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bounding",
+        "box"
+      ]
+    },
+    {
+      "name": "PhBowlFood",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bowl",
+        "food"
+      ]
+    },
+    {
+      "name": "PhBracketsAngle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "brackets",
+        "angle"
+      ]
+    },
+    {
+      "name": "PhBracketsCurly",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "brackets",
+        "curly"
+      ]
+    },
+    {
+      "name": "PhBracketsRound",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "brackets",
+        "round"
+      ]
+    },
+    {
+      "name": "PhBracketsSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "brackets",
+        "square"
+      ]
+    },
+    {
+      "name": "PhBrain",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "brain"
+      ]
+    },
+    {
+      "name": "PhBrandy",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "brandy"
+      ]
+    },
+    {
+      "name": "PhBridge",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bridge"
+      ]
+    },
+    {
+      "name": "PhBriefcase",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "briefcase"
+      ]
+    },
+    {
+      "name": "PhBriefcaseMetal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "briefcase",
+        "metal"
+      ]
+    },
+    {
+      "name": "PhBroadcast",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "broadcast"
+      ]
+    },
+    {
+      "name": "PhBroom",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "broom"
+      ]
+    },
+    {
+      "name": "PhBrowser",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "browser"
+      ]
+    },
+    {
+      "name": "PhBrowsers",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "browsers"
+      ]
+    },
+    {
+      "name": "PhBug",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bug"
+      ]
+    },
+    {
+      "name": "PhBugBeetle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bug",
+        "beetle"
+      ]
+    },
+    {
+      "name": "PhBugDroid",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bug",
+        "droid"
+      ]
+    },
+    {
+      "name": "PhBuildings",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "buildings"
+      ]
+    },
+    {
+      "name": "PhBus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "bus"
+      ]
+    },
+    {
+      "name": "PhButterfly",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "butterfly"
+      ]
+    },
+    {
+      "name": "PhCactus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cactus"
+      ]
+    },
+    {
+      "name": "PhCake",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cake"
+      ]
+    },
+    {
+      "name": "PhCalculator",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "calculator"
+      ]
+    },
+    {
+      "name": "PhCalendar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "calendar"
+      ]
+    },
+    {
+      "name": "PhCalendarBlank",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "calendar",
+        "blank"
+      ]
+    },
+    {
+      "name": "PhCalendarCheck",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "calendar",
+        "check"
+      ]
+    },
+    {
+      "name": "PhCalendarPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "calendar",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhCalendarX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "calendar",
+        "x"
+      ]
+    },
+    {
+      "name": "PhCallBell",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "call",
+        "bell"
+      ]
+    },
+    {
+      "name": "PhCamera",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "camera"
+      ]
+    },
+    {
+      "name": "PhCameraPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "camera",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhCameraRotate",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "camera",
+        "rotate"
+      ]
+    },
+    {
+      "name": "PhCameraSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "camera",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhCampfire",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "campfire"
+      ]
+    },
+    {
+      "name": "PhCar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "car"
+      ]
+    },
+    {
+      "name": "PhCardholder",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cardholder"
+      ]
+    },
+    {
+      "name": "PhCards",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cards"
+      ]
+    },
+    {
+      "name": "PhCaretCircleDoubleDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "double",
+        "down"
+      ]
+    },
+    {
+      "name": "PhCaretCircleDoubleLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "double",
+        "left"
+      ]
+    },
+    {
+      "name": "PhCaretCircleDoubleRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "double",
+        "right"
+      ]
+    },
+    {
+      "name": "PhCaretCircleDoubleUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "double",
+        "up"
+      ]
+    },
+    {
+      "name": "PhCaretCircleDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "down"
+      ]
+    },
+    {
+      "name": "PhCaretCircleLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "left"
+      ]
+    },
+    {
+      "name": "PhCaretCircleRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "right"
+      ]
+    },
+    {
+      "name": "PhCaretCircleUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "up"
+      ]
+    },
+    {
+      "name": "PhCaretCircleUpDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "circle",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "name": "PhCaretDoubleDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "double",
+        "down"
+      ]
+    },
+    {
+      "name": "PhCaretDoubleLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "double",
+        "left"
+      ]
+    },
+    {
+      "name": "PhCaretDoubleRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "double",
+        "right"
+      ]
+    },
+    {
+      "name": "PhCaretDoubleUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "double",
+        "up"
+      ]
+    },
+    {
+      "name": "PhCaretDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "down"
+      ]
+    },
+    {
+      "name": "PhCaretLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "left"
+      ]
+    },
+    {
+      "name": "PhCaretRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "right"
+      ]
+    },
+    {
+      "name": "PhCaretUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "up"
+      ]
+    },
+    {
+      "name": "PhCaretUpDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "caret",
+        "up",
+        "down"
+      ]
+    },
+    {
+      "name": "PhCarProfile",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "car",
+        "profile"
+      ]
+    },
+    {
+      "name": "PhCarrot",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "carrot"
+      ]
+    },
+    {
+      "name": "PhCarSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "car",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhCassetteTape",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cassette",
+        "tape"
+      ]
+    },
+    {
+      "name": "PhCastleTurret",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "castle",
+        "turret"
+      ]
+    },
+    {
+      "name": "PhCat",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cat"
+      ]
+    },
+    {
+      "name": "PhCellSignalFull",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cell",
+        "signal",
+        "full"
+      ]
+    },
+    {
+      "name": "PhCellSignalHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cell",
+        "signal",
+        "high"
+      ]
+    },
+    {
+      "name": "PhCellSignalLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cell",
+        "signal",
+        "low"
+      ]
+    },
+    {
+      "name": "PhCellSignalMedium",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cell",
+        "signal",
+        "medium"
+      ]
+    },
+    {
+      "name": "PhCellSignalNone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cell",
+        "signal",
+        "none"
+      ]
+    },
+    {
+      "name": "PhCellSignalSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cell",
+        "signal",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhCellSignalX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cell",
+        "signal",
+        "x"
+      ]
+    },
+    {
+      "name": "PhCertificate",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "certificate"
+      ]
+    },
+    {
+      "name": "PhChair",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chair"
+      ]
+    },
+    {
+      "name": "PhChalkboard",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chalkboard"
+      ]
+    },
+    {
+      "name": "PhChalkboardSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chalkboard",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhChalkboardTeacher",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chalkboard",
+        "teacher"
+      ]
+    },
+    {
+      "name": "PhChampagne",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "champagne"
+      ]
+    },
+    {
+      "name": "PhChargingStation",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "charging",
+        "station"
+      ]
+    },
+    {
+      "name": "PhChartBar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "bar"
+      ]
+    },
+    {
+      "name": "PhChartBarHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "bar",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhChartDonut",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "donut"
+      ]
+    },
+    {
+      "name": "PhChartLine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "line"
+      ]
+    },
+    {
+      "name": "PhChartLineDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "line",
+        "down"
+      ]
+    },
+    {
+      "name": "PhChartLineUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "line",
+        "up"
+      ]
+    },
+    {
+      "name": "PhChartPie",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "pie"
+      ]
+    },
+    {
+      "name": "PhChartPieSlice",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "pie",
+        "slice"
+      ]
+    },
+    {
+      "name": "PhChartPolar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "polar"
+      ]
+    },
+    {
+      "name": "PhChartScatter",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chart",
+        "scatter"
+      ]
+    },
+    {
+      "name": "PhChat",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat"
+      ]
+    },
+    {
+      "name": "PhChatCentered",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "centered"
+      ]
+    },
+    {
+      "name": "PhChatCenteredDots",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "centered",
+        "dots"
+      ]
+    },
+    {
+      "name": "PhChatCenteredText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "centered",
+        "text"
+      ]
+    },
+    {
+      "name": "PhChatCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhChatCircleDots",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "circle",
+        "dots"
+      ]
+    },
+    {
+      "name": "PhChatCircleText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "circle",
+        "text"
+      ]
+    },
+    {
+      "name": "PhChatDots",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "dots"
+      ]
+    },
+    {
+      "name": "PhChats",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chats"
+      ]
+    },
+    {
+      "name": "PhChatsCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chats",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhChatsTeardrop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chats",
+        "teardrop"
+      ]
+    },
+    {
+      "name": "PhChatTeardrop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "teardrop"
+      ]
+    },
+    {
+      "name": "PhChatTeardropDots",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "teardrop",
+        "dots"
+      ]
+    },
+    {
+      "name": "PhChatTeardropText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "teardrop",
+        "text"
+      ]
+    },
+    {
+      "name": "PhChatText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "chat",
+        "text"
+      ]
+    },
+    {
+      "name": "PhCheck",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "check"
+      ]
+    },
+    {
+      "name": "PhCheckCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "check",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhCheckFat",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "check",
+        "fat"
+      ]
+    },
+    {
+      "name": "PhChecks",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "checks"
+      ]
+    },
+    {
+      "name": "PhCheckSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "check",
+        "square"
+      ]
+    },
+    {
+      "name": "PhCheckSquareOffset",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "check",
+        "square",
+        "offset"
+      ]
+    },
+    {
+      "name": "PhChurch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "church"
+      ]
+    },
+    {
+      "name": "PhCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhCircleDashed",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circle",
+        "dashed"
+      ]
+    },
+    {
+      "name": "PhCircleHalf",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circle",
+        "half"
+      ]
+    },
+    {
+      "name": "PhCircleHalfTilt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circle",
+        "half",
+        "tilt"
+      ]
+    },
+    {
+      "name": "PhCircleNotch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circle",
+        "notch"
+      ]
+    },
+    {
+      "name": "PhCirclesFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circles",
+        "four"
+      ]
+    },
+    {
+      "name": "PhCirclesThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circles",
+        "three"
+      ]
+    },
+    {
+      "name": "PhCirclesThreePlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circles",
+        "three",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhCircuitry",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "circuitry"
+      ]
+    },
+    {
+      "name": "PhClipboard",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "clipboard"
+      ]
+    },
+    {
+      "name": "PhClipboardText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "clipboard",
+        "text"
+      ]
+    },
+    {
+      "name": "PhClock",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "clock"
+      ]
+    },
+    {
+      "name": "PhClockAfternoon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "clock",
+        "afternoon"
+      ]
+    },
+    {
+      "name": "PhClockClockwise",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "clock",
+        "clockwise"
+      ]
+    },
+    {
+      "name": "PhClockCountdown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "clock",
+        "countdown"
+      ]
+    },
+    {
+      "name": "PhClockCounterClockwise",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "clock",
+        "counter",
+        "clockwise"
+      ]
+    },
+    {
+      "name": "PhClosedCaptioning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "closed",
+        "captioning"
+      ]
+    },
+    {
+      "name": "PhCloud",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud"
+      ]
+    },
+    {
+      "name": "PhCloudArrowDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "PhCloudArrowUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "PhCloudCheck",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "check"
+      ]
+    },
+    {
+      "name": "PhCloudFog",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "fog"
+      ]
+    },
+    {
+      "name": "PhCloudLightning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "lightning"
+      ]
+    },
+    {
+      "name": "PhCloudMoon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "moon"
+      ]
+    },
+    {
+      "name": "PhCloudRain",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "rain"
+      ]
+    },
+    {
+      "name": "PhCloudSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhCloudSnow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "snow"
+      ]
+    },
+    {
+      "name": "PhCloudSun",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "sun"
+      ]
+    },
+    {
+      "name": "PhCloudWarning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "warning"
+      ]
+    },
+    {
+      "name": "PhCloudX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cloud",
+        "x"
+      ]
+    },
+    {
+      "name": "PhClub",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "club"
+      ]
+    },
+    {
+      "name": "PhCoatHanger",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "coat",
+        "hanger"
+      ]
+    },
+    {
+      "name": "PhCodaLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "coda",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhCode",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "code"
+      ]
+    },
+    {
+      "name": "PhCodeBlock",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "code",
+        "block"
+      ]
+    },
+    {
+      "name": "PhCodepenLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "codepen",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhCodesandboxLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "codesandbox",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhCodeSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "code",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhCoffee",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "coffee"
+      ]
+    },
+    {
+      "name": "PhCoin",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "coin"
+      ]
+    },
+    {
+      "name": "PhCoins",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "coins"
+      ]
+    },
+    {
+      "name": "PhCoinVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "coin",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhColumns",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "columns"
+      ]
+    },
+    {
+      "name": "PhCommand",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "command"
+      ]
+    },
+    {
+      "name": "PhCompass",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "compass"
+      ]
+    },
+    {
+      "name": "PhCompassTool",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "compass",
+        "tool"
+      ]
+    },
+    {
+      "name": "PhComputerTower",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "computer",
+        "tower"
+      ]
+    },
+    {
+      "name": "PhConfetti",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "confetti"
+      ]
+    },
+    {
+      "name": "PhContactlessPayment",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "contactless",
+        "payment"
+      ]
+    },
+    {
+      "name": "PhControl",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "control"
+      ]
+    },
+    {
+      "name": "PhCookie",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cookie"
+      ]
+    },
+    {
+      "name": "PhCookingPot",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cooking",
+        "pot"
+      ]
+    },
+    {
+      "name": "PhCopy",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "copy"
+      ]
+    },
+    {
+      "name": "PhCopyleft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "copyleft"
+      ]
+    },
+    {
+      "name": "PhCopyright",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "copyright"
+      ]
+    },
+    {
+      "name": "PhCopySimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "copy",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhCornersIn",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "corners",
+        "in"
+      ]
+    },
+    {
+      "name": "PhCornersOut",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "corners",
+        "out"
+      ]
+    },
+    {
+      "name": "PhCouch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "couch"
+      ]
+    },
+    {
+      "name": "PhCpu",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cpu"
+      ]
+    },
+    {
+      "name": "PhCreditCard",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "credit",
+        "card"
+      ]
+    },
+    {
+      "name": "PhCrop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "crop"
+      ]
+    },
+    {
+      "name": "PhCross",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cross"
+      ]
+    },
+    {
+      "name": "PhCrosshair",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "crosshair"
+      ]
+    },
+    {
+      "name": "PhCrosshairSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "crosshair",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhCrown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "crown"
+      ]
+    },
+    {
+      "name": "PhCrownSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "crown",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhCube",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cube"
+      ]
+    },
+    {
+      "name": "PhCubeFocus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cube",
+        "focus"
+      ]
+    },
+    {
+      "name": "PhCubeTransparent",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cube",
+        "transparent"
+      ]
+    },
+    {
+      "name": "PhCurrencyBtc",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "btc"
+      ]
+    },
+    {
+      "name": "PhCurrencyCircleDollar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "circle",
+        "dollar"
+      ]
+    },
+    {
+      "name": "PhCurrencyCny",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "cny"
+      ]
+    },
+    {
+      "name": "PhCurrencyDollar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "dollar"
+      ]
+    },
+    {
+      "name": "PhCurrencyDollarSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "dollar",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhCurrencyEth",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "eth"
+      ]
+    },
+    {
+      "name": "PhCurrencyEur",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "eur"
+      ]
+    },
+    {
+      "name": "PhCurrencyGbp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "gbp"
+      ]
+    },
+    {
+      "name": "PhCurrencyInr",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "inr"
+      ]
+    },
+    {
+      "name": "PhCurrencyJpy",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "jpy"
+      ]
+    },
+    {
+      "name": "PhCurrencyKrw",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "krw"
+      ]
+    },
+    {
+      "name": "PhCurrencyKzt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "kzt"
+      ]
+    },
+    {
+      "name": "PhCurrencyNgn",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "ngn"
+      ]
+    },
+    {
+      "name": "PhCurrencyRub",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "currency",
+        "rub"
+      ]
+    },
+    {
+      "name": "PhCursor",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cursor"
+      ]
+    },
+    {
+      "name": "PhCursorClick",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cursor",
+        "click"
+      ]
+    },
+    {
+      "name": "PhCursorText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cursor",
+        "text"
+      ]
+    },
+    {
+      "name": "PhCylinder",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "cylinder"
+      ]
+    },
+    {
+      "name": "PhDatabase",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "database"
+      ]
+    },
+    {
+      "name": "PhDesktop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "desktop"
+      ]
+    },
+    {
+      "name": "PhDesktopTower",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "desktop",
+        "tower"
+      ]
+    },
+    {
+      "name": "PhDetective",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "detective"
+      ]
+    },
+    {
+      "name": "PhDeviceMobile",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "device",
+        "mobile"
+      ]
+    },
+    {
+      "name": "PhDeviceMobileCamera",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "device",
+        "mobile",
+        "camera"
+      ]
+    },
+    {
+      "name": "PhDeviceMobileSpeaker",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "device",
+        "mobile",
+        "speaker"
+      ]
+    },
+    {
+      "name": "PhDevices",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "devices"
+      ]
+    },
+    {
+      "name": "PhDeviceTablet",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "device",
+        "tablet"
+      ]
+    },
+    {
+      "name": "PhDeviceTabletCamera",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "device",
+        "tablet",
+        "camera"
+      ]
+    },
+    {
+      "name": "PhDeviceTabletSpeaker",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "device",
+        "tablet",
+        "speaker"
+      ]
+    },
+    {
+      "name": "PhDevToLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dev",
+        "to",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhDiamond",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "diamond"
+      ]
+    },
+    {
+      "name": "PhDiamondsFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "diamonds",
+        "four"
+      ]
+    },
+    {
+      "name": "PhDiceFive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dice",
+        "five"
+      ]
+    },
+    {
+      "name": "PhDiceFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dice",
+        "four"
+      ]
+    },
+    {
+      "name": "PhDiceOne",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dice",
+        "one"
+      ]
+    },
+    {
+      "name": "PhDiceSix",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dice",
+        "six"
+      ]
+    },
+    {
+      "name": "PhDiceThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dice",
+        "three"
+      ]
+    },
+    {
+      "name": "PhDiceTwo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dice",
+        "two"
+      ]
+    },
+    {
+      "name": "PhDisc",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "disc"
+      ]
+    },
+    {
+      "name": "PhDiscordLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "discord",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhDivide",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "divide"
+      ]
+    },
+    {
+      "name": "PhDna",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dna"
+      ]
+    },
+    {
+      "name": "PhDog",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dog"
+      ]
+    },
+    {
+      "name": "PhDoor",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "door"
+      ]
+    },
+    {
+      "name": "PhDoorOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "door",
+        "open"
+      ]
+    },
+    {
+      "name": "PhDot",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dot"
+      ]
+    },
+    {
+      "name": "PhDotOutline",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dot",
+        "outline"
+      ]
+    },
+    {
+      "name": "PhDotsNine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "nine"
+      ]
+    },
+    {
+      "name": "PhDotsSix",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "six"
+      ]
+    },
+    {
+      "name": "PhDotsSixVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "six",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhDotsThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "three"
+      ]
+    },
+    {
+      "name": "PhDotsThreeCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "three",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhDotsThreeCircleVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "three",
+        "circle",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhDotsThreeOutline",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "three",
+        "outline"
+      ]
+    },
+    {
+      "name": "PhDotsThreeOutlineVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "three",
+        "outline",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhDotsThreeVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dots",
+        "three",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhDownload",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "download"
+      ]
+    },
+    {
+      "name": "PhDownloadSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "download",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhDress",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dress"
+      ]
+    },
+    {
+      "name": "PhDribbbleLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dribbble",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhDrop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "drop"
+      ]
+    },
+    {
+      "name": "PhDropboxLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "dropbox",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhDropHalf",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "drop",
+        "half"
+      ]
+    },
+    {
+      "name": "PhDropHalfBottom",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "drop",
+        "half",
+        "bottom"
+      ]
+    },
+    {
+      "name": "PhEar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ear"
+      ]
+    },
+    {
+      "name": "PhEarSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ear",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhEgg",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "egg"
+      ]
+    },
+    {
+      "name": "PhEggCrack",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "egg",
+        "crack"
+      ]
+    },
+    {
+      "name": "PhEject",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eject"
+      ]
+    },
+    {
+      "name": "PhEjectSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eject",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhElevator",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "elevator"
+      ]
+    },
+    {
+      "name": "PhEngine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "engine"
+      ]
+    },
+    {
+      "name": "PhEnvelope",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "envelope"
+      ]
+    },
+    {
+      "name": "PhEnvelopeOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "envelope",
+        "open"
+      ]
+    },
+    {
+      "name": "PhEnvelopeSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "envelope",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhEnvelopeSimpleOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "envelope",
+        "simple",
+        "open"
+      ]
+    },
+    {
+      "name": "PhEqualizer",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "equalizer"
+      ]
+    },
+    {
+      "name": "PhEquals",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "equals"
+      ]
+    },
+    {
+      "name": "PhEraser",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eraser"
+      ]
+    },
+    {
+      "name": "PhEscalatorDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "escalator",
+        "down"
+      ]
+    },
+    {
+      "name": "PhEscalatorUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "escalator",
+        "up"
+      ]
+    },
+    {
+      "name": "PhExam",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "exam"
+      ]
+    },
+    {
+      "name": "PhExclude",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "exclude"
+      ]
+    },
+    {
+      "name": "PhExcludeSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "exclude",
+        "square"
+      ]
+    },
+    {
+      "name": "PhExport",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "export"
+      ]
+    },
+    {
+      "name": "PhEye",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eye"
+      ]
+    },
+    {
+      "name": "PhEyeClosed",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eye",
+        "closed"
+      ]
+    },
+    {
+      "name": "PhEyedropper",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eyedropper"
+      ]
+    },
+    {
+      "name": "PhEyedropperSample",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eyedropper",
+        "sample"
+      ]
+    },
+    {
+      "name": "PhEyeglasses",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eyeglasses"
+      ]
+    },
+    {
+      "name": "PhEyeSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "eye",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhFacebookLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "facebook",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhFaceMask",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "face",
+        "mask"
+      ]
+    },
+    {
+      "name": "PhFactory",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "factory"
+      ]
+    },
+    {
+      "name": "PhFaders",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "faders"
+      ]
+    },
+    {
+      "name": "PhFadersHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "faders",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhFan",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fan"
+      ]
+    },
+    {
+      "name": "PhFastForward",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fast",
+        "forward"
+      ]
+    },
+    {
+      "name": "PhFastForwardCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fast",
+        "forward",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhFeather",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "feather"
+      ]
+    },
+    {
+      "name": "PhFigmaLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "figma",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhFile",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file"
+      ]
+    },
+    {
+      "name": "PhFileArchive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "archive"
+      ]
+    },
+    {
+      "name": "PhFileArrowDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "arrow",
+        "down"
+      ]
+    },
+    {
+      "name": "PhFileArrowUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "arrow",
+        "up"
+      ]
+    },
+    {
+      "name": "PhFileAudio",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "audio"
+      ]
+    },
+    {
+      "name": "PhFileCloud",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "cloud"
+      ]
+    },
+    {
+      "name": "PhFileCode",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "code"
+      ]
+    },
+    {
+      "name": "PhFileCss",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "css"
+      ]
+    },
+    {
+      "name": "PhFileCsv",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "csv"
+      ]
+    },
+    {
+      "name": "PhFileDashed",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "dashed"
+      ]
+    },
+    {
+      "name": "PhFileDoc",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "doc"
+      ]
+    },
+    {
+      "name": "PhFileHtml",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "html"
+      ]
+    },
+    {
+      "name": "PhFileImage",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "image"
+      ]
+    },
+    {
+      "name": "PhFileJpg",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "jpg"
+      ]
+    },
+    {
+      "name": "PhFileJs",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "js"
+      ]
+    },
+    {
+      "name": "PhFileJsx",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "jsx"
+      ]
+    },
+    {
+      "name": "PhFileLock",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "lock"
+      ]
+    },
+    {
+      "name": "PhFileMagnifyingGlass",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "magnifying",
+        "glass"
+      ]
+    },
+    {
+      "name": "PhFileMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhFilePdf",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "pdf"
+      ]
+    },
+    {
+      "name": "PhFilePlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhFilePng",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "png"
+      ]
+    },
+    {
+      "name": "PhFilePpt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "ppt"
+      ]
+    },
+    {
+      "name": "PhFileRs",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "rs"
+      ]
+    },
+    {
+      "name": "PhFiles",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "files"
+      ]
+    },
+    {
+      "name": "PhFileSql",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "sql"
+      ]
+    },
+    {
+      "name": "PhFileSvg",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "svg"
+      ]
+    },
+    {
+      "name": "PhFileText",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "text"
+      ]
+    },
+    {
+      "name": "PhFileTs",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "ts"
+      ]
+    },
+    {
+      "name": "PhFileTsx",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "tsx"
+      ]
+    },
+    {
+      "name": "PhFileVideo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "video"
+      ]
+    },
+    {
+      "name": "PhFileVue",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "vue"
+      ]
+    },
+    {
+      "name": "PhFileX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "x"
+      ]
+    },
+    {
+      "name": "PhFileXls",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "xls"
+      ]
+    },
+    {
+      "name": "PhFileZip",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "file",
+        "zip"
+      ]
+    },
+    {
+      "name": "PhFilmReel",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "film",
+        "reel"
+      ]
+    },
+    {
+      "name": "PhFilmScript",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "film",
+        "script"
+      ]
+    },
+    {
+      "name": "PhFilmSlate",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "film",
+        "slate"
+      ]
+    },
+    {
+      "name": "PhFilmStrip",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "film",
+        "strip"
+      ]
+    },
+    {
+      "name": "PhFingerprint",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fingerprint"
+      ]
+    },
+    {
+      "name": "PhFingerprintSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fingerprint",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhFinnTheHuman",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "finn",
+        "the",
+        "human"
+      ]
+    },
+    {
+      "name": "PhFire",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fire"
+      ]
+    },
+    {
+      "name": "PhFireExtinguisher",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fire",
+        "extinguisher"
+      ]
+    },
+    {
+      "name": "PhFireSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fire",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhFirstAid",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "first",
+        "aid"
+      ]
+    },
+    {
+      "name": "PhFirstAidKit",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "first",
+        "aid",
+        "kit"
+      ]
+    },
+    {
+      "name": "PhFish",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fish"
+      ]
+    },
+    {
+      "name": "PhFishSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fish",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhFlag",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flag"
+      ]
+    },
+    {
+      "name": "PhFlagBanner",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flag",
+        "banner"
+      ]
+    },
+    {
+      "name": "PhFlagCheckered",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flag",
+        "checkered"
+      ]
+    },
+    {
+      "name": "PhFlagPennant",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flag",
+        "pennant"
+      ]
+    },
+    {
+      "name": "PhFlame",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flame"
+      ]
+    },
+    {
+      "name": "PhFlashlight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flashlight"
+      ]
+    },
+    {
+      "name": "PhFlask",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flask"
+      ]
+    },
+    {
+      "name": "PhFloppyDisk",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "floppy",
+        "disk"
+      ]
+    },
+    {
+      "name": "PhFloppyDiskBack",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "floppy",
+        "disk",
+        "back"
+      ]
+    },
+    {
+      "name": "PhFlowArrow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flow",
+        "arrow"
+      ]
+    },
+    {
+      "name": "PhFlower",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flower"
+      ]
+    },
+    {
+      "name": "PhFlowerLotus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flower",
+        "lotus"
+      ]
+    },
+    {
+      "name": "PhFlowerTulip",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flower",
+        "tulip"
+      ]
+    },
+    {
+      "name": "PhFlyingSaucer",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "flying",
+        "saucer"
+      ]
+    },
+    {
+      "name": "PhFolder",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder"
+      ]
+    },
+    {
+      "name": "PhFolderDashed",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "dashed"
+      ]
+    },
+    {
+      "name": "PhFolderLock",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "lock"
+      ]
+    },
+    {
+      "name": "PhFolderMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhFolderNotch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "notch"
+      ]
+    },
+    {
+      "name": "PhFolderNotchMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "notch",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhFolderNotchOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "notch",
+        "open"
+      ]
+    },
+    {
+      "name": "PhFolderNotchPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "notch",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhFolderOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "open"
+      ]
+    },
+    {
+      "name": "PhFolderPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhFolders",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folders"
+      ]
+    },
+    {
+      "name": "PhFolderSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhFolderSimpleDashed",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "simple",
+        "dashed"
+      ]
+    },
+    {
+      "name": "PhFolderSimpleLock",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "simple",
+        "lock"
+      ]
+    },
+    {
+      "name": "PhFolderSimpleMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "simple",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhFolderSimplePlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "simple",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhFolderSimpleStar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "simple",
+        "star"
+      ]
+    },
+    {
+      "name": "PhFolderSimpleUser",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "simple",
+        "user"
+      ]
+    },
+    {
+      "name": "PhFolderStar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "star"
+      ]
+    },
+    {
+      "name": "PhFolderUser",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "folder",
+        "user"
+      ]
+    },
+    {
+      "name": "PhFootball",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "football"
+      ]
+    },
+    {
+      "name": "PhFootprints",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "footprints"
+      ]
+    },
+    {
+      "name": "PhForkKnife",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "fork",
+        "knife"
+      ]
+    },
+    {
+      "name": "PhFrameCorners",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "frame",
+        "corners"
+      ]
+    },
+    {
+      "name": "PhFramerLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "framer",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhFunction",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "function"
+      ]
+    },
+    {
+      "name": "PhFunnel",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "funnel"
+      ]
+    },
+    {
+      "name": "PhFunnelSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "funnel",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhGameController",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "game",
+        "controller"
+      ]
+    },
+    {
+      "name": "PhGarage",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "garage"
+      ]
+    },
+    {
+      "name": "PhGasCan",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gas",
+        "can"
+      ]
+    },
+    {
+      "name": "PhGasPump",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gas",
+        "pump"
+      ]
+    },
+    {
+      "name": "PhGauge",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gauge"
+      ]
+    },
+    {
+      "name": "PhGavel",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gavel"
+      ]
+    },
+    {
+      "name": "PhGear",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gear"
+      ]
+    },
+    {
+      "name": "PhGearFine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gear",
+        "fine"
+      ]
+    },
+    {
+      "name": "PhGearSix",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gear",
+        "six"
+      ]
+    },
+    {
+      "name": "PhGenderFemale",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gender",
+        "female"
+      ]
+    },
+    {
+      "name": "PhGenderIntersex",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gender",
+        "intersex"
+      ]
+    },
+    {
+      "name": "PhGenderMale",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gender",
+        "male"
+      ]
+    },
+    {
+      "name": "PhGenderNeuter",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gender",
+        "neuter"
+      ]
+    },
+    {
+      "name": "PhGenderNonbinary",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gender",
+        "nonbinary"
+      ]
+    },
+    {
+      "name": "PhGenderTransgender",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gender",
+        "transgender"
+      ]
+    },
+    {
+      "name": "PhGhost",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ghost"
+      ]
+    },
+    {
+      "name": "PhGif",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gif"
+      ]
+    },
+    {
+      "name": "PhGift",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gift"
+      ]
+    },
+    {
+      "name": "PhGitBranch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "git",
+        "branch"
+      ]
+    },
+    {
+      "name": "PhGitCommit",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "git",
+        "commit"
+      ]
+    },
+    {
+      "name": "PhGitDiff",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "git",
+        "diff"
+      ]
+    },
+    {
+      "name": "PhGitFork",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "git",
+        "fork"
+      ]
+    },
+    {
+      "name": "PhGithubLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "github",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGitlabLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gitlab",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGitlabLogoSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gitlab",
+        "logo",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhGitMerge",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "git",
+        "merge"
+      ]
+    },
+    {
+      "name": "PhGitPullRequest",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "git",
+        "pull",
+        "request"
+      ]
+    },
+    {
+      "name": "PhGlobe",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "globe"
+      ]
+    },
+    {
+      "name": "PhGlobeHemisphereEast",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "globe",
+        "hemisphere",
+        "east"
+      ]
+    },
+    {
+      "name": "PhGlobeHemisphereWest",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "globe",
+        "hemisphere",
+        "west"
+      ]
+    },
+    {
+      "name": "PhGlobeSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "globe",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhGlobeStand",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "globe",
+        "stand"
+      ]
+    },
+    {
+      "name": "PhGoggles",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "goggles"
+      ]
+    },
+    {
+      "name": "PhGoodreadsLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "goodreads",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGoogleCardboardLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "google",
+        "cardboard",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGoogleChromeLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "google",
+        "chrome",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGoogleDriveLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "google",
+        "drive",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGoogleLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "google",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGooglePhotosLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "google",
+        "photos",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGooglePlayLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "google",
+        "play",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGooglePodcastsLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "google",
+        "podcasts",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhGradient",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "gradient"
+      ]
+    },
+    {
+      "name": "PhGraduationCap",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "graduation",
+        "cap"
+      ]
+    },
+    {
+      "name": "PhGrains",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "grains"
+      ]
+    },
+    {
+      "name": "PhGrainsSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "grains",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhGraph",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "graph"
+      ]
+    },
+    {
+      "name": "PhGridFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "grid",
+        "four"
+      ]
+    },
+    {
+      "name": "PhGridNine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "grid",
+        "nine"
+      ]
+    },
+    {
+      "name": "PhGuitar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "guitar"
+      ]
+    },
+    {
+      "name": "PhHamburger",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hamburger"
+      ]
+    },
+    {
+      "name": "PhHammer",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hammer"
+      ]
+    },
+    {
+      "name": "PhHand",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand"
+      ]
+    },
+    {
+      "name": "PhHandbag",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "handbag"
+      ]
+    },
+    {
+      "name": "PhHandbagSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "handbag",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhHandCoins",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "coins"
+      ]
+    },
+    {
+      "name": "PhHandEye",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "eye"
+      ]
+    },
+    {
+      "name": "PhHandFist",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "fist"
+      ]
+    },
+    {
+      "name": "PhHandGrabbing",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "grabbing"
+      ]
+    },
+    {
+      "name": "PhHandHeart",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "heart"
+      ]
+    },
+    {
+      "name": "PhHandPalm",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "palm"
+      ]
+    },
+    {
+      "name": "PhHandPointing",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "pointing"
+      ]
+    },
+    {
+      "name": "PhHandsClapping",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hands",
+        "clapping"
+      ]
+    },
+    {
+      "name": "PhHandshake",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "handshake"
+      ]
+    },
+    {
+      "name": "PhHandSoap",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "soap"
+      ]
+    },
+    {
+      "name": "PhHandsPraying",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hands",
+        "praying"
+      ]
+    },
+    {
+      "name": "PhHandSwipeLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "swipe",
+        "left"
+      ]
+    },
+    {
+      "name": "PhHandSwipeRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "swipe",
+        "right"
+      ]
+    },
+    {
+      "name": "PhHandTap",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "tap"
+      ]
+    },
+    {
+      "name": "PhHandWaving",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hand",
+        "waving"
+      ]
+    },
+    {
+      "name": "PhHardDrive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hard",
+        "drive"
+      ]
+    },
+    {
+      "name": "PhHardDrives",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hard",
+        "drives"
+      ]
+    },
+    {
+      "name": "PhHash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hash"
+      ]
+    },
+    {
+      "name": "PhHashStraight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hash",
+        "straight"
+      ]
+    },
+    {
+      "name": "PhHeadlights",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "headlights"
+      ]
+    },
+    {
+      "name": "PhHeadphones",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "headphones"
+      ]
+    },
+    {
+      "name": "PhHeadset",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "headset"
+      ]
+    },
+    {
+      "name": "PhHeart",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "heart"
+      ]
+    },
+    {
+      "name": "PhHeartbeat",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "heartbeat"
+      ]
+    },
+    {
+      "name": "PhHeartBreak",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "heart",
+        "break"
+      ]
+    },
+    {
+      "name": "PhHeartHalf",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "heart",
+        "half"
+      ]
+    },
+    {
+      "name": "PhHeartStraight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "heart",
+        "straight"
+      ]
+    },
+    {
+      "name": "PhHeartStraightBreak",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "heart",
+        "straight",
+        "break"
+      ]
+    },
+    {
+      "name": "PhHexagon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hexagon"
+      ]
+    },
+    {
+      "name": "PhHighHeel",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "high",
+        "heel"
+      ]
+    },
+    {
+      "name": "PhHighlighterCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "highlighter",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhHoodie",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hoodie"
+      ]
+    },
+    {
+      "name": "PhHorse",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "horse"
+      ]
+    },
+    {
+      "name": "PhHourglass",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass"
+      ]
+    },
+    {
+      "name": "PhHourglassHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass",
+        "high"
+      ]
+    },
+    {
+      "name": "PhHourglassLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass",
+        "low"
+      ]
+    },
+    {
+      "name": "PhHourglassMedium",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass",
+        "medium"
+      ]
+    },
+    {
+      "name": "PhHourglassSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhHourglassSimpleHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass",
+        "simple",
+        "high"
+      ]
+    },
+    {
+      "name": "PhHourglassSimpleLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass",
+        "simple",
+        "low"
+      ]
+    },
+    {
+      "name": "PhHourglassSimpleMedium",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "hourglass",
+        "simple",
+        "medium"
+      ]
+    },
+    {
+      "name": "PhHouse",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "house"
+      ]
+    },
+    {
+      "name": "PhHouseLine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "house",
+        "line"
+      ]
+    },
+    {
+      "name": "PhHouseSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "house",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhIceCream",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ice",
+        "cream"
+      ]
+    },
+    {
+      "name": "PhIdentificationBadge",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "identification",
+        "badge"
+      ]
+    },
+    {
+      "name": "PhIdentificationCard",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "identification",
+        "card"
+      ]
+    },
+    {
+      "name": "PhImage",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "image"
+      ]
+    },
+    {
+      "name": "PhImages",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "images"
+      ]
+    },
+    {
+      "name": "PhImageSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "image",
+        "square"
+      ]
+    },
+    {
+      "name": "PhImagesSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "images",
+        "square"
+      ]
+    },
+    {
+      "name": "PhInfinity",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "infinity"
+      ]
+    },
+    {
+      "name": "PhInfo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "info"
+      ]
+    },
+    {
+      "name": "PhInstagramLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "instagram",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhIntersect",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "intersect"
+      ]
+    },
+    {
+      "name": "PhIntersectSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "intersect",
+        "square"
+      ]
+    },
+    {
+      "name": "PhIntersectThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "intersect",
+        "three"
+      ]
+    },
+    {
+      "name": "PhJeep",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "jeep"
+      ]
+    },
+    {
+      "name": "PhKanban",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "kanban"
+      ]
+    },
+    {
+      "name": "PhKey",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "key"
+      ]
+    },
+    {
+      "name": "PhKeyboard",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "keyboard"
+      ]
+    },
+    {
+      "name": "PhKeyhole",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "keyhole"
+      ]
+    },
+    {
+      "name": "PhKeyReturn",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "key",
+        "return"
+      ]
+    },
+    {
+      "name": "PhKnife",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "knife"
+      ]
+    },
+    {
+      "name": "PhLadder",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ladder"
+      ]
+    },
+    {
+      "name": "PhLadderSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ladder",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhLamp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lamp"
+      ]
+    },
+    {
+      "name": "PhLaptop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "laptop"
+      ]
+    },
+    {
+      "name": "PhLayout",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "layout"
+      ]
+    },
+    {
+      "name": "PhLeaf",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "leaf"
+      ]
+    },
+    {
+      "name": "PhLifebuoy",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lifebuoy"
+      ]
+    },
+    {
+      "name": "PhLightbulb",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lightbulb"
+      ]
+    },
+    {
+      "name": "PhLightbulbFilament",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lightbulb",
+        "filament"
+      ]
+    },
+    {
+      "name": "PhLighthouse",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lighthouse"
+      ]
+    },
+    {
+      "name": "PhLightning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lightning"
+      ]
+    },
+    {
+      "name": "PhLightningA",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lightning",
+        "a"
+      ]
+    },
+    {
+      "name": "PhLightningSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lightning",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhLineSegment",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "line",
+        "segment"
+      ]
+    },
+    {
+      "name": "PhLineSegments",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "line",
+        "segments"
+      ]
+    },
+    {
+      "name": "PhLink",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "link"
+      ]
+    },
+    {
+      "name": "PhLinkBreak",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "link",
+        "break"
+      ]
+    },
+    {
+      "name": "PhLinkedinLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "linkedin",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhLinkSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "link",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhLinkSimpleBreak",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "link",
+        "simple",
+        "break"
+      ]
+    },
+    {
+      "name": "PhLinkSimpleHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "link",
+        "simple",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhLinkSimpleHorizontalBreak",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "link",
+        "simple",
+        "horizontal",
+        "break"
+      ]
+    },
+    {
+      "name": "PhLinuxLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "linux",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhList",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "list"
+      ]
+    },
+    {
+      "name": "PhListBullets",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "list",
+        "bullets"
+      ]
+    },
+    {
+      "name": "PhListChecks",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "list",
+        "checks"
+      ]
+    },
+    {
+      "name": "PhListDashes",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "list",
+        "dashes"
+      ]
+    },
+    {
+      "name": "PhListMagnifyingGlass",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "list",
+        "magnifying",
+        "glass"
+      ]
+    },
+    {
+      "name": "PhListNumbers",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "list",
+        "numbers"
+      ]
+    },
+    {
+      "name": "PhListPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "list",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhLock",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock"
+      ]
+    },
+    {
+      "name": "PhLockers",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lockers"
+      ]
+    },
+    {
+      "name": "PhLockKey",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock",
+        "key"
+      ]
+    },
+    {
+      "name": "PhLockKeyOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock",
+        "key",
+        "open"
+      ]
+    },
+    {
+      "name": "PhLockLaminated",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock",
+        "laminated"
+      ]
+    },
+    {
+      "name": "PhLockLaminatedOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock",
+        "laminated",
+        "open"
+      ]
+    },
+    {
+      "name": "PhLockOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock",
+        "open"
+      ]
+    },
+    {
+      "name": "PhLockSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhLockSimpleOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "lock",
+        "simple",
+        "open"
+      ]
+    },
+    {
+      "name": "PhMagicWand",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "magic",
+        "wand"
+      ]
+    },
+    {
+      "name": "PhMagnet",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "magnet"
+      ]
+    },
+    {
+      "name": "PhMagnetStraight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "magnet",
+        "straight"
+      ]
+    },
+    {
+      "name": "PhMagnifyingGlass",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "magnifying",
+        "glass"
+      ]
+    },
+    {
+      "name": "PhMagnifyingGlassMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "magnifying",
+        "glass",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhMagnifyingGlassPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "magnifying",
+        "glass",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhMapPin",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "map",
+        "pin"
+      ]
+    },
+    {
+      "name": "PhMapPinLine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "map",
+        "pin",
+        "line"
+      ]
+    },
+    {
+      "name": "PhMapTrifold",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "map",
+        "trifold"
+      ]
+    },
+    {
+      "name": "PhMarkerCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "marker",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhMartini",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "martini"
+      ]
+    },
+    {
+      "name": "PhMaskHappy",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "mask",
+        "happy"
+      ]
+    },
+    {
+      "name": "PhMaskSad",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "mask",
+        "sad"
+      ]
+    },
+    {
+      "name": "PhMathOperations",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "math",
+        "operations"
+      ]
+    },
+    {
+      "name": "PhMedal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "medal"
+      ]
+    },
+    {
+      "name": "PhMedalMilitary",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "medal",
+        "military"
+      ]
+    },
+    {
+      "name": "PhMediumLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "medium",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMegaphone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "megaphone"
+      ]
+    },
+    {
+      "name": "PhMegaphoneSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "megaphone",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhMessengerLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "messenger",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMetaLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "meta",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMetronome",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "metronome"
+      ]
+    },
+    {
+      "name": "PhMicrophone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microphone"
+      ]
+    },
+    {
+      "name": "PhMicrophoneSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microphone",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhMicrophoneStage",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microphone",
+        "stage"
+      ]
+    },
+    {
+      "name": "PhMicrosoftExcelLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microsoft",
+        "excel",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMicrosoftOutlookLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microsoft",
+        "outlook",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMicrosoftPowerpointLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microsoft",
+        "powerpoint",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMicrosoftTeamsLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microsoft",
+        "teams",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMicrosoftWordLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "microsoft",
+        "word",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhMinusCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "minus",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhMinusSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "minus",
+        "square"
+      ]
+    },
+    {
+      "name": "PhMoney",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "money"
+      ]
+    },
+    {
+      "name": "PhMonitor",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "monitor"
+      ]
+    },
+    {
+      "name": "PhMonitorPlay",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "monitor",
+        "play"
+      ]
+    },
+    {
+      "name": "PhMoon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "moon"
+      ]
+    },
+    {
+      "name": "PhMoonStars",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "moon",
+        "stars"
+      ]
+    },
+    {
+      "name": "PhMoped",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "moped"
+      ]
+    },
+    {
+      "name": "PhMopedFront",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "moped",
+        "front"
+      ]
+    },
+    {
+      "name": "PhMosque",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "mosque"
+      ]
+    },
+    {
+      "name": "PhMotorcycle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "motorcycle"
+      ]
+    },
+    {
+      "name": "PhMountains",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "mountains"
+      ]
+    },
+    {
+      "name": "PhMouse",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "mouse"
+      ]
+    },
+    {
+      "name": "PhMouseSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "mouse",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhMusicNote",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "music",
+        "note"
+      ]
+    },
+    {
+      "name": "PhMusicNotes",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "music",
+        "notes"
+      ]
+    },
+    {
+      "name": "PhMusicNoteSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "music",
+        "note",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhMusicNotesPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "music",
+        "notes",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhMusicNotesSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "music",
+        "notes",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhNavigationArrow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "navigation",
+        "arrow"
+      ]
+    },
+    {
+      "name": "PhNeedle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "needle"
+      ]
+    },
+    {
+      "name": "PhNewspaper",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "newspaper"
+      ]
+    },
+    {
+      "name": "PhNewspaperClipping",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "newspaper",
+        "clipping"
+      ]
+    },
+    {
+      "name": "PhNotches",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "notches"
+      ]
+    },
+    {
+      "name": "PhNote",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "note"
+      ]
+    },
+    {
+      "name": "PhNoteBlank",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "note",
+        "blank"
+      ]
+    },
+    {
+      "name": "PhNotebook",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "notebook"
+      ]
+    },
+    {
+      "name": "PhNotepad",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "notepad"
+      ]
+    },
+    {
+      "name": "PhNotePencil",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "note",
+        "pencil"
+      ]
+    },
+    {
+      "name": "PhNotification",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "notification"
+      ]
+    },
+    {
+      "name": "PhNotionLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "notion",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhNumberCircleEight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "eight"
+      ]
+    },
+    {
+      "name": "PhNumberCircleFive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "five"
+      ]
+    },
+    {
+      "name": "PhNumberCircleFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "four"
+      ]
+    },
+    {
+      "name": "PhNumberCircleNine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "nine"
+      ]
+    },
+    {
+      "name": "PhNumberCircleOne",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "one"
+      ]
+    },
+    {
+      "name": "PhNumberCircleSeven",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "seven"
+      ]
+    },
+    {
+      "name": "PhNumberCircleSix",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "six"
+      ]
+    },
+    {
+      "name": "PhNumberCircleThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "three"
+      ]
+    },
+    {
+      "name": "PhNumberCircleTwo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "two"
+      ]
+    },
+    {
+      "name": "PhNumberCircleZero",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "circle",
+        "zero"
+      ]
+    },
+    {
+      "name": "PhNumberEight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "eight"
+      ]
+    },
+    {
+      "name": "PhNumberFive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "five"
+      ]
+    },
+    {
+      "name": "PhNumberFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "four"
+      ]
+    },
+    {
+      "name": "PhNumberNine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "nine"
+      ]
+    },
+    {
+      "name": "PhNumberOne",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "one"
+      ]
+    },
+    {
+      "name": "PhNumberSeven",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "seven"
+      ]
+    },
+    {
+      "name": "PhNumberSix",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "six"
+      ]
+    },
+    {
+      "name": "PhNumberSquareEight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "eight"
+      ]
+    },
+    {
+      "name": "PhNumberSquareFive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "five"
+      ]
+    },
+    {
+      "name": "PhNumberSquareFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "four"
+      ]
+    },
+    {
+      "name": "PhNumberSquareNine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "nine"
+      ]
+    },
+    {
+      "name": "PhNumberSquareOne",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "one"
+      ]
+    },
+    {
+      "name": "PhNumberSquareSeven",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "seven"
+      ]
+    },
+    {
+      "name": "PhNumberSquareSix",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "six"
+      ]
+    },
+    {
+      "name": "PhNumberSquareThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "three"
+      ]
+    },
+    {
+      "name": "PhNumberSquareTwo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "two"
+      ]
+    },
+    {
+      "name": "PhNumberSquareZero",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "square",
+        "zero"
+      ]
+    },
+    {
+      "name": "PhNumberThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "three"
+      ]
+    },
+    {
+      "name": "PhNumberTwo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "two"
+      ]
+    },
+    {
+      "name": "PhNumberZero",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "number",
+        "zero"
+      ]
+    },
+    {
+      "name": "PhNut",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "nut"
+      ]
+    },
+    {
+      "name": "PhNyTimesLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ny",
+        "times",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhOctagon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "octagon"
+      ]
+    },
+    {
+      "name": "PhOfficeChair",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "office",
+        "chair"
+      ]
+    },
+    {
+      "name": "PhOption",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "option"
+      ]
+    },
+    {
+      "name": "PhOrangeSlice",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "orange",
+        "slice"
+      ]
+    },
+    {
+      "name": "PhPackage",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "package"
+      ]
+    },
+    {
+      "name": "PhPaintBrush",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paint",
+        "brush"
+      ]
+    },
+    {
+      "name": "PhPaintBrushBroad",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paint",
+        "brush",
+        "broad"
+      ]
+    },
+    {
+      "name": "PhPaintBrushHousehold",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paint",
+        "brush",
+        "household"
+      ]
+    },
+    {
+      "name": "PhPaintBucket",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paint",
+        "bucket"
+      ]
+    },
+    {
+      "name": "PhPaintRoller",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paint",
+        "roller"
+      ]
+    },
+    {
+      "name": "PhPalette",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "palette"
+      ]
+    },
+    {
+      "name": "PhPants",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pants"
+      ]
+    },
+    {
+      "name": "PhPaperclip",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paperclip"
+      ]
+    },
+    {
+      "name": "PhPaperclipHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paperclip",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhPaperPlane",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paper",
+        "plane"
+      ]
+    },
+    {
+      "name": "PhPaperPlaneRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paper",
+        "plane",
+        "right"
+      ]
+    },
+    {
+      "name": "PhPaperPlaneTilt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paper",
+        "plane",
+        "tilt"
+      ]
+    },
+    {
+      "name": "PhParachute",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "parachute"
+      ]
+    },
+    {
+      "name": "PhParagraph",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paragraph"
+      ]
+    },
+    {
+      "name": "PhParallelogram",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "parallelogram"
+      ]
+    },
+    {
+      "name": "PhPark",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "park"
+      ]
+    },
+    {
+      "name": "PhPassword",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "password"
+      ]
+    },
+    {
+      "name": "PhPath",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "path"
+      ]
+    },
+    {
+      "name": "PhPatreonLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "patreon",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhPause",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pause"
+      ]
+    },
+    {
+      "name": "PhPauseCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pause",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhPawPrint",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paw",
+        "print"
+      ]
+    },
+    {
+      "name": "PhPaypalLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "paypal",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhPeace",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "peace"
+      ]
+    },
+    {
+      "name": "PhPen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pen"
+      ]
+    },
+    {
+      "name": "PhPencil",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pencil"
+      ]
+    },
+    {
+      "name": "PhPencilCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pencil",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhPencilLine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pencil",
+        "line"
+      ]
+    },
+    {
+      "name": "PhPencilSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pencil",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhPencilSimpleLine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pencil",
+        "simple",
+        "line"
+      ]
+    },
+    {
+      "name": "PhPencilSimpleSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pencil",
+        "simple",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhPencilSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pencil",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhPenNib",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pen",
+        "nib"
+      ]
+    },
+    {
+      "name": "PhPenNibStraight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pen",
+        "nib",
+        "straight"
+      ]
+    },
+    {
+      "name": "PhPentagram",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pentagram"
+      ]
+    },
+    {
+      "name": "PhPepper",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pepper"
+      ]
+    },
+    {
+      "name": "PhPercent",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "percent"
+      ]
+    },
+    {
+      "name": "PhPerson",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "person"
+      ]
+    },
+    {
+      "name": "PhPersonArmsSpread",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "person",
+        "arms",
+        "spread"
+      ]
+    },
+    {
+      "name": "PhPersonSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "person",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhPersonSimpleBike",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "person",
+        "simple",
+        "bike"
+      ]
+    },
+    {
+      "name": "PhPersonSimpleRun",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "person",
+        "simple",
+        "run"
+      ]
+    },
+    {
+      "name": "PhPersonSimpleThrow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "person",
+        "simple",
+        "throw"
+      ]
+    },
+    {
+      "name": "PhPersonSimpleWalk",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "person",
+        "simple",
+        "walk"
+      ]
+    },
+    {
+      "name": "PhPerspective",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "perspective"
+      ]
+    },
+    {
+      "name": "PhPhone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone"
+      ]
+    },
+    {
+      "name": "PhPhoneCall",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone",
+        "call"
+      ]
+    },
+    {
+      "name": "PhPhoneDisconnect",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone",
+        "disconnect"
+      ]
+    },
+    {
+      "name": "PhPhoneIncoming",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone",
+        "incoming"
+      ]
+    },
+    {
+      "name": "PhPhoneOutgoing",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone",
+        "outgoing"
+      ]
+    },
+    {
+      "name": "PhPhonePlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhPhoneSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhPhoneX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phone",
+        "x"
+      ]
+    },
+    {
+      "name": "PhPhosphorLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "phosphor",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhPi",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pi"
+      ]
+    },
+    {
+      "name": "PhPianoKeys",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "piano",
+        "keys"
+      ]
+    },
+    {
+      "name": "PhPictureInPicture",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "picture",
+        "in"
+      ]
+    },
+    {
+      "name": "PhPiggyBank",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "piggy",
+        "bank"
+      ]
+    },
+    {
+      "name": "PhPill",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pill"
+      ]
+    },
+    {
+      "name": "PhPinterestLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pinterest",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhPinwheel",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pinwheel"
+      ]
+    },
+    {
+      "name": "PhPizza",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pizza"
+      ]
+    },
+    {
+      "name": "PhPlaceholder",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "placeholder"
+      ]
+    },
+    {
+      "name": "PhPlanet",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "planet"
+      ]
+    },
+    {
+      "name": "PhPlant",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plant"
+      ]
+    },
+    {
+      "name": "PhPlay",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "play"
+      ]
+    },
+    {
+      "name": "PhPlayCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "play",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhPlaylist",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "playlist"
+      ]
+    },
+    {
+      "name": "PhPlayPause",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "play",
+        "pause"
+      ]
+    },
+    {
+      "name": "PhPlug",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plug"
+      ]
+    },
+    {
+      "name": "PhPlugCharging",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plug",
+        "charging"
+      ]
+    },
+    {
+      "name": "PhPlugs",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plugs"
+      ]
+    },
+    {
+      "name": "PhPlugsConnected",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plugs",
+        "connected"
+      ]
+    },
+    {
+      "name": "PhPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhPlusCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plus",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhPlusMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plus",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhPlusSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "plus",
+        "square"
+      ]
+    },
+    {
+      "name": "PhPokerChip",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "poker",
+        "chip"
+      ]
+    },
+    {
+      "name": "PhPoliceCar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "police",
+        "car"
+      ]
+    },
+    {
+      "name": "PhPolygon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "polygon"
+      ]
+    },
+    {
+      "name": "PhPopcorn",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "popcorn"
+      ]
+    },
+    {
+      "name": "PhPottedPlant",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "potted",
+        "plant"
+      ]
+    },
+    {
+      "name": "PhPower",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "power"
+      ]
+    },
+    {
+      "name": "PhPrescription",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "prescription"
+      ]
+    },
+    {
+      "name": "PhPresentation",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "presentation"
+      ]
+    },
+    {
+      "name": "PhPresentationChart",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "presentation",
+        "chart"
+      ]
+    },
+    {
+      "name": "PhPrinter",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "printer"
+      ]
+    },
+    {
+      "name": "PhProhibit",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "prohibit"
+      ]
+    },
+    {
+      "name": "PhProhibitInset",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "prohibit",
+        "inset"
+      ]
+    },
+    {
+      "name": "PhProjectorScreen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "projector",
+        "screen"
+      ]
+    },
+    {
+      "name": "PhProjectorScreenChart",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "projector",
+        "screen",
+        "chart"
+      ]
+    },
+    {
+      "name": "PhPulse",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "pulse"
+      ]
+    },
+    {
+      "name": "PhPushPin",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "push",
+        "pin"
+      ]
+    },
+    {
+      "name": "PhPushPinSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "push",
+        "pin",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhPushPinSimpleSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "push",
+        "pin",
+        "simple",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhPushPinSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "push",
+        "pin",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhPuzzlePiece",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "puzzle",
+        "piece"
+      ]
+    },
+    {
+      "name": "PhQrCode",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "qr",
+        "code"
+      ]
+    },
+    {
+      "name": "PhQuestion",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "question"
+      ]
+    },
+    {
+      "name": "PhQueue",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "queue"
+      ]
+    },
+    {
+      "name": "PhQuotes",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "quotes"
+      ]
+    },
+    {
+      "name": "PhRadical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "radical"
+      ]
+    },
+    {
+      "name": "PhRadio",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "radio"
+      ]
+    },
+    {
+      "name": "PhRadioactive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "radioactive"
+      ]
+    },
+    {
+      "name": "PhRadioButton",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "radio",
+        "button"
+      ]
+    },
+    {
+      "name": "PhRainbow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rainbow"
+      ]
+    },
+    {
+      "name": "PhRainbowCloud",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rainbow",
+        "cloud"
+      ]
+    },
+    {
+      "name": "PhReadCvLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "read",
+        "cv",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhReceipt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "receipt"
+      ]
+    },
+    {
+      "name": "PhReceiptX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "receipt",
+        "x"
+      ]
+    },
+    {
+      "name": "PhRecord",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "record"
+      ]
+    },
+    {
+      "name": "PhRectangle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "PhRecycle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "recycle"
+      ]
+    },
+    {
+      "name": "PhRedditLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "reddit",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhRepeat",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "repeat"
+      ]
+    },
+    {
+      "name": "PhRepeatOnce",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "repeat",
+        "once"
+      ]
+    },
+    {
+      "name": "PhRewind",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rewind"
+      ]
+    },
+    {
+      "name": "PhRewindCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rewind",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhRoadHorizon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "road",
+        "horizon"
+      ]
+    },
+    {
+      "name": "PhRobot",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "robot"
+      ]
+    },
+    {
+      "name": "PhRocket",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rocket"
+      ]
+    },
+    {
+      "name": "PhRocketLaunch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rocket",
+        "launch"
+      ]
+    },
+    {
+      "name": "PhRows",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rows"
+      ]
+    },
+    {
+      "name": "PhRss",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rss"
+      ]
+    },
+    {
+      "name": "PhRssSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rss",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhRug",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "rug"
+      ]
+    },
+    {
+      "name": "PhRuler",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ruler"
+      ]
+    },
+    {
+      "name": "PhScales",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "scales"
+      ]
+    },
+    {
+      "name": "PhScan",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "scan"
+      ]
+    },
+    {
+      "name": "PhScissors",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "scissors"
+      ]
+    },
+    {
+      "name": "PhScooter",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "scooter"
+      ]
+    },
+    {
+      "name": "PhScreencast",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "screencast"
+      ]
+    },
+    {
+      "name": "PhScribbleLoop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "scribble",
+        "loop"
+      ]
+    },
+    {
+      "name": "PhScroll",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "scroll"
+      ]
+    },
+    {
+      "name": "PhSeal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "seal"
+      ]
+    },
+    {
+      "name": "PhSealCheck",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "seal",
+        "check"
+      ]
+    },
+    {
+      "name": "PhSealQuestion",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "seal",
+        "question"
+      ]
+    },
+    {
+      "name": "PhSealWarning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "seal",
+        "warning"
+      ]
+    },
+    {
+      "name": "PhSelection",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "selection"
+      ]
+    },
+    {
+      "name": "PhSelectionAll",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "selection",
+        "all"
+      ]
+    },
+    {
+      "name": "PhSelectionBackground",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "selection",
+        "background"
+      ]
+    },
+    {
+      "name": "PhSelectionForeground",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "selection",
+        "foreground"
+      ]
+    },
+    {
+      "name": "PhSelectionInverse",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "selection",
+        "inverse"
+      ]
+    },
+    {
+      "name": "PhSelectionPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "selection",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhSelectionSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "selection",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhShapes",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shapes"
+      ]
+    },
+    {
+      "name": "PhShare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "share"
+      ]
+    },
+    {
+      "name": "PhShareFat",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "share",
+        "fat"
+      ]
+    },
+    {
+      "name": "PhShareNetwork",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "share",
+        "network"
+      ]
+    },
+    {
+      "name": "PhShield",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield"
+      ]
+    },
+    {
+      "name": "PhShieldCheck",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield",
+        "check"
+      ]
+    },
+    {
+      "name": "PhShieldCheckered",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield",
+        "checkered"
+      ]
+    },
+    {
+      "name": "PhShieldChevron",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield",
+        "chevron"
+      ]
+    },
+    {
+      "name": "PhShieldPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhShieldSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhShieldStar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield",
+        "star"
+      ]
+    },
+    {
+      "name": "PhShieldWarning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shield",
+        "warning"
+      ]
+    },
+    {
+      "name": "PhShirtFolded",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shirt",
+        "folded"
+      ]
+    },
+    {
+      "name": "PhShootingStar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shooting",
+        "star"
+      ]
+    },
+    {
+      "name": "PhShoppingBag",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shopping",
+        "bag"
+      ]
+    },
+    {
+      "name": "PhShoppingBagOpen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shopping",
+        "bag",
+        "open"
+      ]
+    },
+    {
+      "name": "PhShoppingCart",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shopping",
+        "cart"
+      ]
+    },
+    {
+      "name": "PhShoppingCartSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shopping",
+        "cart",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhShower",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shower"
+      ]
+    },
+    {
+      "name": "PhShrimp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shrimp"
+      ]
+    },
+    {
+      "name": "PhShuffle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shuffle"
+      ]
+    },
+    {
+      "name": "PhShuffleAngular",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shuffle",
+        "angular"
+      ]
+    },
+    {
+      "name": "PhShuffleSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "shuffle",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhSidebar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sidebar"
+      ]
+    },
+    {
+      "name": "PhSidebarSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sidebar",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhSigma",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sigma"
+      ]
+    },
+    {
+      "name": "PhSignature",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "signature"
+      ]
+    },
+    {
+      "name": "PhSignIn",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sign",
+        "in"
+      ]
+    },
+    {
+      "name": "PhSignOut",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sign",
+        "out"
+      ]
+    },
+    {
+      "name": "PhSignpost",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "signpost"
+      ]
+    },
+    {
+      "name": "PhSimCard",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sim",
+        "card"
+      ]
+    },
+    {
+      "name": "PhSiren",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "siren"
+      ]
+    },
+    {
+      "name": "PhSketchLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sketch",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhSkipBack",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "skip",
+        "back"
+      ]
+    },
+    {
+      "name": "PhSkipBackCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "skip",
+        "back",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhSkipForward",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "skip",
+        "forward"
+      ]
+    },
+    {
+      "name": "PhSkipForwardCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "skip",
+        "forward",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhSkull",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "skull"
+      ]
+    },
+    {
+      "name": "PhSlackLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "slack",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhSliders",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sliders"
+      ]
+    },
+    {
+      "name": "PhSlidersHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sliders",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhSlideshow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "slideshow"
+      ]
+    },
+    {
+      "name": "PhSmiley",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley"
+      ]
+    },
+    {
+      "name": "PhSmileyAngry",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "angry"
+      ]
+    },
+    {
+      "name": "PhSmileyBlank",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "blank"
+      ]
+    },
+    {
+      "name": "PhSmileyMeh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "meh"
+      ]
+    },
+    {
+      "name": "PhSmileyNervous",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "nervous"
+      ]
+    },
+    {
+      "name": "PhSmileySad",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "sad"
+      ]
+    },
+    {
+      "name": "PhSmileySticker",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "sticker"
+      ]
+    },
+    {
+      "name": "PhSmileyWink",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "wink"
+      ]
+    },
+    {
+      "name": "PhSmileyXEyes",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "smiley",
+        "xeyes",
+        "x",
+        "eyes"
+      ]
+    },
+    {
+      "name": "PhSnapchatLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "snapchat",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhSneaker",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sneaker"
+      ]
+    },
+    {
+      "name": "PhSneakerMove",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sneaker",
+        "move"
+      ]
+    },
+    {
+      "name": "PhSnowflake",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "snowflake"
+      ]
+    },
+    {
+      "name": "PhSoccerBall",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "soccer",
+        "ball"
+      ]
+    },
+    {
+      "name": "PhSortAscending",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sort",
+        "ascending"
+      ]
+    },
+    {
+      "name": "PhSortDescending",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sort",
+        "descending"
+      ]
+    },
+    {
+      "name": "PhSoundcloudLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "soundcloud",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhSpade",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "spade"
+      ]
+    },
+    {
+      "name": "PhSparkle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sparkle"
+      ]
+    },
+    {
+      "name": "PhSpeakerHifi",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "hifi"
+      ]
+    },
+    {
+      "name": "PhSpeakerHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "high"
+      ]
+    },
+    {
+      "name": "PhSpeakerLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "low"
+      ]
+    },
+    {
+      "name": "PhSpeakerNone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "none"
+      ]
+    },
+    {
+      "name": "PhSpeakerSimpleHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "simple",
+        "high"
+      ]
+    },
+    {
+      "name": "PhSpeakerSimpleLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "simple",
+        "low"
+      ]
+    },
+    {
+      "name": "PhSpeakerSimpleNone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "simple",
+        "none"
+      ]
+    },
+    {
+      "name": "PhSpeakerSimpleSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "simple",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhSpeakerSimpleX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "simple",
+        "x"
+      ]
+    },
+    {
+      "name": "PhSpeakerSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhSpeakerX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "speaker",
+        "x"
+      ]
+    },
+    {
+      "name": "PhSpinner",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "spinner"
+      ]
+    },
+    {
+      "name": "PhSpinnerGap",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "spinner",
+        "gap"
+      ]
+    },
+    {
+      "name": "PhSpiral",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "spiral"
+      ]
+    },
+    {
+      "name": "PhSplitHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "split",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhSplitVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "split",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhSpotifyLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "spotify",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "square"
+      ]
+    },
+    {
+      "name": "PhSquareHalf",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "square",
+        "half"
+      ]
+    },
+    {
+      "name": "PhSquareHalfBottom",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "square",
+        "half",
+        "bottom"
+      ]
+    },
+    {
+      "name": "PhSquareLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "square",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhSquaresFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "squares",
+        "four"
+      ]
+    },
+    {
+      "name": "PhSquareSplitHorizontal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "square",
+        "split",
+        "horizontal"
+      ]
+    },
+    {
+      "name": "PhSquareSplitVertical",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "square",
+        "split",
+        "vertical"
+      ]
+    },
+    {
+      "name": "PhStack",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stack"
+      ]
+    },
+    {
+      "name": "PhStackOverflowLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stack",
+        "overflow",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhStackSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stack",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhStairs",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stairs"
+      ]
+    },
+    {
+      "name": "PhStamp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stamp"
+      ]
+    },
+    {
+      "name": "PhStar",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "star"
+      ]
+    },
+    {
+      "name": "PhStarAndCrescent",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "star",
+        "and",
+        "crescent"
+      ]
+    },
+    {
+      "name": "PhStarFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "star",
+        "four"
+      ]
+    },
+    {
+      "name": "PhStarHalf",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "star",
+        "half"
+      ]
+    },
+    {
+      "name": "PhStarOfDavid",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "star",
+        "of",
+        "david"
+      ]
+    },
+    {
+      "name": "PhSteeringWheel",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "steering",
+        "wheel"
+      ]
+    },
+    {
+      "name": "PhSteps",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "steps"
+      ]
+    },
+    {
+      "name": "PhStethoscope",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stethoscope"
+      ]
+    },
+    {
+      "name": "PhSticker",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sticker"
+      ]
+    },
+    {
+      "name": "PhStool",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stool"
+      ]
+    },
+    {
+      "name": "PhStop",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stop"
+      ]
+    },
+    {
+      "name": "PhStopCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stop",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhStorefront",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "storefront"
+      ]
+    },
+    {
+      "name": "PhStrategy",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "strategy"
+      ]
+    },
+    {
+      "name": "PhStripeLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "stripe",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhStudent",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "student"
+      ]
+    },
+    {
+      "name": "PhSubtitles",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "subtitles"
+      ]
+    },
+    {
+      "name": "PhSubtract",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "subtract"
+      ]
+    },
+    {
+      "name": "PhSubtractSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "subtract",
+        "square"
+      ]
+    },
+    {
+      "name": "PhSuitcase",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "suitcase"
+      ]
+    },
+    {
+      "name": "PhSuitcaseRolling",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "suitcase",
+        "rolling"
+      ]
+    },
+    {
+      "name": "PhSuitcaseSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "suitcase",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhSun",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sun"
+      ]
+    },
+    {
+      "name": "PhSunDim",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sun",
+        "dim"
+      ]
+    },
+    {
+      "name": "PhSunglasses",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sunglasses"
+      ]
+    },
+    {
+      "name": "PhSunHorizon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sun",
+        "horizon"
+      ]
+    },
+    {
+      "name": "PhSwap",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "swap"
+      ]
+    },
+    {
+      "name": "PhSwatches",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "swatches"
+      ]
+    },
+    {
+      "name": "PhSwimmingPool",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "swimming",
+        "pool"
+      ]
+    },
+    {
+      "name": "PhSword",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "sword"
+      ]
+    },
+    {
+      "name": "PhSynagogue",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "synagogue"
+      ]
+    },
+    {
+      "name": "PhSyringe",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "syringe"
+      ]
+    },
+    {
+      "name": "PhTable",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "table"
+      ]
+    },
+    {
+      "name": "PhTabs",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tabs"
+      ]
+    },
+    {
+      "name": "PhTag",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tag"
+      ]
+    },
+    {
+      "name": "PhTagChevron",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tag",
+        "chevron"
+      ]
+    },
+    {
+      "name": "PhTagSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tag",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhTarget",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "target"
+      ]
+    },
+    {
+      "name": "PhTaxi",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "taxi"
+      ]
+    },
+    {
+      "name": "PhTelegramLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "telegram",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhTelevision",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "television"
+      ]
+    },
+    {
+      "name": "PhTelevisionSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "television",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhTennisBall",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tennis",
+        "ball"
+      ]
+    },
+    {
+      "name": "PhTent",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tent"
+      ]
+    },
+    {
+      "name": "PhTerminal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "terminal"
+      ]
+    },
+    {
+      "name": "PhTerminalWindow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "terminal",
+        "window"
+      ]
+    },
+    {
+      "name": "PhTestTube",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "test",
+        "tube"
+      ]
+    },
+    {
+      "name": "PhTextAa",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "aa"
+      ]
+    },
+    {
+      "name": "PhTextAlignCenter",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "align",
+        "center"
+      ]
+    },
+    {
+      "name": "PhTextAlignJustify",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "align",
+        "justify"
+      ]
+    },
+    {
+      "name": "PhTextAlignLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "align",
+        "left"
+      ]
+    },
+    {
+      "name": "PhTextAlignRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "align",
+        "right"
+      ]
+    },
+    {
+      "name": "PhTextAUnderline",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "aunderline",
+        "a",
+        "underline"
+      ]
+    },
+    {
+      "name": "PhTextB",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "b"
+      ]
+    },
+    {
+      "name": "PhTextbox",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "textbox"
+      ]
+    },
+    {
+      "name": "PhTextColumns",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "columns"
+      ]
+    },
+    {
+      "name": "PhTextH",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "h"
+      ]
+    },
+    {
+      "name": "PhTextHFive",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "hfive",
+        "h",
+        "five"
+      ]
+    },
+    {
+      "name": "PhTextHFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "hfour",
+        "h",
+        "four"
+      ]
+    },
+    {
+      "name": "PhTextHOne",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "hone",
+        "h",
+        "one"
+      ]
+    },
+    {
+      "name": "PhTextHSix",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "hsix",
+        "h",
+        "six"
+      ]
+    },
+    {
+      "name": "PhTextHThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "hthree",
+        "h",
+        "three"
+      ]
+    },
+    {
+      "name": "PhTextHTwo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "htwo",
+        "h",
+        "two"
+      ]
+    },
+    {
+      "name": "PhTextIndent",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "indent"
+      ]
+    },
+    {
+      "name": "PhTextItalic",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "italic"
+      ]
+    },
+    {
+      "name": "PhTextOutdent",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "outdent"
+      ]
+    },
+    {
+      "name": "PhTextStrikethrough",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "strikethrough"
+      ]
+    },
+    {
+      "name": "PhTextT",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "t"
+      ]
+    },
+    {
+      "name": "PhTextUnderline",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "text",
+        "underline"
+      ]
+    },
+    {
+      "name": "PhThermometer",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "thermometer"
+      ]
+    },
+    {
+      "name": "PhThermometerCold",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "thermometer",
+        "cold"
+      ]
+    },
+    {
+      "name": "PhThermometerHot",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "thermometer",
+        "hot"
+      ]
+    },
+    {
+      "name": "PhThermometerSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "thermometer",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhThumbsDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "thumbs",
+        "down"
+      ]
+    },
+    {
+      "name": "PhThumbsUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "thumbs",
+        "up"
+      ]
+    },
+    {
+      "name": "PhTicket",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "ticket"
+      ]
+    },
+    {
+      "name": "PhTidalLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tidal",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhTiktokLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tiktok",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhTimer",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "timer"
+      ]
+    },
+    {
+      "name": "PhTipi",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tipi"
+      ]
+    },
+    {
+      "name": "PhToggleLeft",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "toggle",
+        "left"
+      ]
+    },
+    {
+      "name": "PhToggleRight",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "toggle",
+        "right"
+      ]
+    },
+    {
+      "name": "PhToilet",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "toilet"
+      ]
+    },
+    {
+      "name": "PhToiletPaper",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "toilet",
+        "paper"
+      ]
+    },
+    {
+      "name": "PhToolbox",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "toolbox"
+      ]
+    },
+    {
+      "name": "PhTooth",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tooth"
+      ]
+    },
+    {
+      "name": "PhTote",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tote"
+      ]
+    },
+    {
+      "name": "PhToteSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tote",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhTrademark",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "trademark"
+      ]
+    },
+    {
+      "name": "PhTrademarkRegistered",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "trademark",
+        "registered"
+      ]
+    },
+    {
+      "name": "PhTrafficCone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "traffic",
+        "cone"
+      ]
+    },
+    {
+      "name": "PhTrafficSign",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "traffic",
+        "sign"
+      ]
+    },
+    {
+      "name": "PhTrafficSignal",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "traffic",
+        "signal"
+      ]
+    },
+    {
+      "name": "PhTrain",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "train"
+      ]
+    },
+    {
+      "name": "PhTrainRegional",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "train",
+        "regional"
+      ]
+    },
+    {
+      "name": "PhTrainSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "train",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhTram",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tram"
+      ]
+    },
+    {
+      "name": "PhTranslate",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "translate"
+      ]
+    },
+    {
+      "name": "PhTrash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "trash"
+      ]
+    },
+    {
+      "name": "PhTrashSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "trash",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhTray",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tray"
+      ]
+    },
+    {
+      "name": "PhTree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tree"
+      ]
+    },
+    {
+      "name": "PhTreeEvergreen",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tree",
+        "evergreen"
+      ]
+    },
+    {
+      "name": "PhTreePalm",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tree",
+        "palm"
+      ]
+    },
+    {
+      "name": "PhTreeStructure",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tree",
+        "structure"
+      ]
+    },
+    {
+      "name": "PhTrendDown",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "trend",
+        "down"
+      ]
+    },
+    {
+      "name": "PhTrendUp",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "trend",
+        "up"
+      ]
+    },
+    {
+      "name": "PhTriangle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "triangle"
+      ]
+    },
+    {
+      "name": "PhTrophy",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "trophy"
+      ]
+    },
+    {
+      "name": "PhTruck",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "truck"
+      ]
+    },
+    {
+      "name": "PhTShirt",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "tshirt",
+        "t",
+        "shirt"
+      ]
+    },
+    {
+      "name": "PhTwitchLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "twitch",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhTwitterLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "twitter",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhUmbrella",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "umbrella"
+      ]
+    },
+    {
+      "name": "PhUmbrellaSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "umbrella",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhUnite",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "unite"
+      ]
+    },
+    {
+      "name": "PhUniteSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "unite",
+        "square"
+      ]
+    },
+    {
+      "name": "PhUpload",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "upload"
+      ]
+    },
+    {
+      "name": "PhUploadSimple",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "upload",
+        "simple"
+      ]
+    },
+    {
+      "name": "PhUsb",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "usb"
+      ]
+    },
+    {
+      "name": "PhUser",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user"
+      ]
+    },
+    {
+      "name": "PhUserCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhUserCircleGear",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "circle",
+        "gear"
+      ]
+    },
+    {
+      "name": "PhUserCircleMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "circle",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhUserCirclePlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "circle",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhUserFocus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "focus"
+      ]
+    },
+    {
+      "name": "PhUserGear",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "gear"
+      ]
+    },
+    {
+      "name": "PhUserList",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "list"
+      ]
+    },
+    {
+      "name": "PhUserMinus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "minus"
+      ]
+    },
+    {
+      "name": "PhUserPlus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "plus"
+      ]
+    },
+    {
+      "name": "PhUserRectangle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "rectangle"
+      ]
+    },
+    {
+      "name": "PhUsers",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "users"
+      ]
+    },
+    {
+      "name": "PhUsersFour",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "users",
+        "four"
+      ]
+    },
+    {
+      "name": "PhUserSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "square"
+      ]
+    },
+    {
+      "name": "PhUsersThree",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "users",
+        "three"
+      ]
+    },
+    {
+      "name": "PhUserSwitch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "user",
+        "switch"
+      ]
+    },
+    {
+      "name": "PhVan",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "van"
+      ]
+    },
+    {
+      "name": "PhVault",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "vault"
+      ]
+    },
+    {
+      "name": "PhVibrate",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "vibrate"
+      ]
+    },
+    {
+      "name": "PhVideo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "video"
+      ]
+    },
+    {
+      "name": "PhVideoCamera",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "video",
+        "camera"
+      ]
+    },
+    {
+      "name": "PhVideoCameraSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "video",
+        "camera",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhVignette",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "vignette"
+      ]
+    },
+    {
+      "name": "PhVinylRecord",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "vinyl",
+        "record"
+      ]
+    },
+    {
+      "name": "PhVirtualReality",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "virtual",
+        "reality"
+      ]
+    },
+    {
+      "name": "PhVirus",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "virus"
+      ]
+    },
+    {
+      "name": "PhVoicemail",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "voicemail"
+      ]
+    },
+    {
+      "name": "PhVolleyball",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "volleyball"
+      ]
+    },
+    {
+      "name": "PhWall",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wall"
+      ]
+    },
+    {
+      "name": "PhWallet",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wallet"
+      ]
+    },
+    {
+      "name": "PhWarehouse",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "warehouse"
+      ]
+    },
+    {
+      "name": "PhWarning",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "warning"
+      ]
+    },
+    {
+      "name": "PhWarningCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "warning",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhWarningDiamond",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "warning",
+        "diamond"
+      ]
+    },
+    {
+      "name": "PhWarningOctagon",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "warning",
+        "octagon"
+      ]
+    },
+    {
+      "name": "PhWatch",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "watch"
+      ]
+    },
+    {
+      "name": "PhWaveform",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "waveform"
+      ]
+    },
+    {
+      "name": "PhWaves",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "waves"
+      ]
+    },
+    {
+      "name": "PhWaveSawtooth",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wave",
+        "sawtooth"
+      ]
+    },
+    {
+      "name": "PhWaveSine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wave",
+        "sine"
+      ]
+    },
+    {
+      "name": "PhWaveSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wave",
+        "square"
+      ]
+    },
+    {
+      "name": "PhWaveTriangle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wave",
+        "triangle"
+      ]
+    },
+    {
+      "name": "PhWebcam",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "webcam"
+      ]
+    },
+    {
+      "name": "PhWebcamSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "webcam",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhWebhooksLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "webhooks",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhWechatLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wechat",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhWhatsappLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "whatsapp",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhWheelchair",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wheelchair"
+      ]
+    },
+    {
+      "name": "PhWheelchairMotion",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wheelchair",
+        "motion"
+      ]
+    },
+    {
+      "name": "PhWifiHigh",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wifi",
+        "high"
+      ]
+    },
+    {
+      "name": "PhWifiLow",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wifi",
+        "low"
+      ]
+    },
+    {
+      "name": "PhWifiMedium",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wifi",
+        "medium"
+      ]
+    },
+    {
+      "name": "PhWifiNone",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wifi",
+        "none"
+      ]
+    },
+    {
+      "name": "PhWifiSlash",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wifi",
+        "slash"
+      ]
+    },
+    {
+      "name": "PhWifiX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wifi",
+        "x"
+      ]
+    },
+    {
+      "name": "PhWind",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wind"
+      ]
+    },
+    {
+      "name": "PhWindowsLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "windows",
+        "logo"
+      ]
+    },
+    {
+      "name": "PhWine",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wine"
+      ]
+    },
+    {
+      "name": "PhWrench",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "wrench"
+      ]
+    },
+    {
+      "name": "PhX",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "x"
+      ]
+    },
+    {
+      "name": "PhXCircle",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "xcircle",
+        "x",
+        "circle"
+      ]
+    },
+    {
+      "name": "PhXSquare",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "xsquare",
+        "x",
+        "square"
+      ]
+    },
+    {
+      "name": "PhYinYang",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "yin",
+        "yang"
+      ]
+    },
+    {
+      "name": "PhYoutubeLogo",
+      "set": "ph",
+      "terms": [
+        "ph",
+        "youtube",
+        "logo"
+      ]
+    },
+    {
       "name": "Ri_24HoursFill",
       "set": "ri",
       "terms": [

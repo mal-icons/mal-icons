@@ -310,6 +310,11 @@
       "bun": "./src/icons/tb/index.ts",
       "import": "./dist/icons/tb/index.js"
     },
+    "./ph": {
+      "types": "./dist/icons/ph/index.d.ts",
+      "bun": "./src/icons/ph/index.ts",
+      "import": "./dist/icons/ph/index.js"
+    },
     "./sl": {
       "types": "./dist/icons/sl/index.d.ts",
       "bun": "./src/icons/sl/index.ts",
@@ -339,6 +344,11 @@
       "types": "./dist/icons/tb/*.d.ts",
       "bun": "./src/icons/tb/*.ts",
       "import": "./dist/icons/tb/*.js"
+    },
+    "./ph/*": {
+      "types": "./dist/icons/ph/*.d.ts",
+      "bun": "./src/icons/ph/*.ts",
+      "import": "./dist/icons/ph/*.js"
     },
     "./sl/*": {
       "types": "./dist/icons/sl/*.d.ts",
