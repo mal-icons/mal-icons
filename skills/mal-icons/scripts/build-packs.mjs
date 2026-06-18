@@ -377,6 +377,30 @@ const SET_META = {
     blurb:
       "Google's Material Symbols — the sharp weight-400 variant (e.g. `MssHome`, `MssSearch`, `MssFace`). 960×960 viewBox; paths paint with `currentColor`; theme via `color`.",
   },
+  ri: {
+    id: "ri",
+    name: "Remix Icon",
+    prefix: "Ri",
+    version: "4.6.0",
+    license: "Apache-2.0",
+    repo: "Remix-Design/RemixIcon",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "Neutral, open-source 24×24 system icons in matching `-line` and `-fill` pairs (e.g. `RiHome2Line`, `RiHome2Fill`, `RiSearchLine`). Single-color fill; theme via `color`.",
+  },
+  si: {
+    id: "si",
+    name: "Simple Icons",
+    prefix: "Si",
+    version: "16.23.0",
+    license: "CC0-1.0",
+    repo: "simple-icons/simple-icons",
+    style: "fill",
+    viewBox: "0 0 24 24",
+    blurb:
+      "SVG brand/logo icons for popular companies and tools (e.g. `SiGithub`, `SiReact`, `SiDocker`). Single-color 24×24 fill; theme via `color`.",
+  },
 };
 
 /**
