@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-group-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGroupLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 22C2 17.58 5.58 14 10 14C14.42 14 18 17.58 18 22H16C16 18.69 13.31 16 10 16C6.69 16 4 18.69 4 22H2ZM10 13C6.69 13 4 10.32 4 7C4 3.69 6.69 1 10 1C13.32 1 16 3.69 16 7C16 10.32 13.32 13 10 13ZM10 11C12.21 11 14 9.21 14 7C14 4.79 12.21 3 10 3C7.79 3 6 4.79 6 7C6 9.21 7.79 11 10 11ZM18.28 14.7C21.06 15.96 23 18.75 23 22H21C21 19.56 19.55 17.47 17.46 16.53L18.28 14.7ZM17.6 3.41C19.59 4.24 21 6.2 21 8.5C21 11.37 18.8 13.73 16 13.98V11.96C17.7 11.72 19 10.26 19 8.5C19 7.12 18.2 5.93 17.04 5.36L17.6 3.41Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGroupLine;

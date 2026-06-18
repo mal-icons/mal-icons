@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-nextbike",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiNextbike {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.33 11.1C10.47 7.86 7.73 5.5 4.49 5.5H0.75C0.2 5.5 0 5.66 0 6.33c0 1.550.43 2.98 1.15 4.18A5.65 5.65 0 0 0 0 13.92c0 3.16 2.6 5.73 5.82 5.73 2.86 0 5.24-2.03 5.73-4.710.24-1.320.13-2.56-0.21-3.84zm-9.01 2.83c0-0.570.14-1.110.4-1.58 1.170.99 2.64 1.58 4.24 1.58h2.35c0 1.9-1.56 3.45-3.49 3.45s-3.49-1.55-3.49-3.45zM14.09 7.87a7.56 7.56 0 0 1 3.86-1.220.240.24 0 0 0 0.23-0.23v-1.83c0-0.13-0.11-0.25-0.25-0.23a9.86 9.86 0 0 0-5.14 1.6c-0.20.13-0.380.27-0.570.4-0.110.09-0.130.23-0.040.34l1.17 1.4c0.090.110.230.110.340.03-0.060.090.18-0.140.4-0.25zm4.090.32c-3.21 0-5.82 2.57-5.82 5.73s2.6 5.73 5.82 5.73S24 17.08 24 13.92s-2.6-5.73-5.82-5.73zm0 9.17c-1.92 0-3.48-1.55-3.48-3.45s1.56-3.45 3.48-3.45 3.48 1.55 3.48 3.45-1.56 3.45-3.48 3.45z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiNextbike;

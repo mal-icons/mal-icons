@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiSchoolFill = createIcon("0 0 24 24", [["path",{"d":"M23 19H22V9H18V6.59L12 0.59L6 6.59V9H2V19H1V21H23V19ZM6 19H4V11H6V19ZM18 11H20V19H18V11ZM11 12H13V19H11V12Z"}]]);
+
+export default RiSchoolFill;

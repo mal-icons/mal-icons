@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-everydotorg",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiEverydotorg {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.15 9.36c0-4.47-3.73-7.85-8.52-7.85C4.28 1.51 0 6.03 0 11.63c0 6.04 4.81 10.86 11.28 10.86 6.47 0 12.27-5.13 12.72-11.85h-2.95c-0.55 5.03-4.81 8.9-9.77 8.9-4.77 0-8.31-3.5-8.31-7.91 0-3.97 2.95-7.17 6.66-7.17 3.1 0 5.55 2.12 5.55 4.9 0 2.31-1.67 4.24-3.88 4.24v2.95c3.92 0 6.85-3.27 6.85-7.19"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiEverydotorg;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiPlayListFill = createIcon("0 0 24 24", [["path",{"d":"M2 18H12V20H2V18ZM2 11H16V13H2V11ZM2 4H22V6H2V4ZM19 15.17V9H24V11H21V18C21 19.66 19.66 21 18 21C16.34 21 15 19.66 15 18C15 16.34 16.34 15 18 15C18.35 15 18.69 15.06 19 15.17Z"}]]);
+
+export default RiPlayListFill;

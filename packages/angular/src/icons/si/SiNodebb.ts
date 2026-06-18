@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-nodebb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiNodebb {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.91 4.26c-3.44 0-5.4 1.68-5.4 4.16 0 1.530.79 2.76 2.09 3.32C1.01 12.27 0 13.57 0 15.36c0 2.68 1.98 4.38 5.6 4.38h6.05c0-1.270.03-2.560.03-4.44V4.26zm6.41 0v11.03c0 1.880.03 3.170.03 4.44H18.4c3.62 0 5.6-1.7 5.6-4.38 0-1.79-1.01-3.09-2.6-3.62 1.3-0.55 2.09-1.79 2.09-3.32 0-2.48-1.96-4.16-5.4-4.16zM6.09 6.74h2.51v3.94H6.09c-1.61 0-2.45-0.73-2.45-1.97S4.47 6.74 6.09 6.74zm9.32 0h2.51c1.61 0 2.450.73 2.45 1.97 0 1.24-0.84 1.97-2.45 1.97h-2.51zm-9.56 6.37h2.73v1.92c0 1.68-0.37 2.23-1.52 2.23H5.62c-1.65 0-2.49-0.71-2.49-2.12 0-1.350.9-2.03 2.71-2.03zm9.58 0h2.73c1.81 0 2.710.69 2.71 2.03 0 1.42-0.84 2.12-2.49 2.12h-1.43c-1.15 0-1.52-0.55-1.52-2.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiNodebb;

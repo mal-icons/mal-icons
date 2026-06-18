@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-wpexplorer",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWpexplorer {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M24 12A12 12 0 1 1 12 0a12.01 12.01 0 0 1 12 12Zm-1.5 0A10.5 10.5 0 1 0 12 22.5 10.52 10.52 0 0 0 22.5 12ZM7.54 5.84l4.07 1.74-1.74 4.07L5.8 9.91l1.74-4.07Zm5.16 7.93 2.19 4.41H14.2l-2.34-4.69-2.29 4.69h-0.66l2.4-5.01-1.05-0.440.28-0.66 3.22 1.36-0.280.67Zm-0.55-5.45 3.22 1.38-1.38 3.2-3.2-1.36 1.36-3.21Zm3.76 2.01 2.56 1.08-1.1 2.55-2.54-1.08 1.08-2.54Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWpexplorer;

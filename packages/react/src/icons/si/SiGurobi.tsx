@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiGurobi = createIcon("0 0 24 24", [["path",{"d":"m11.04 0 7.03 1.36L24 18.37 18.37 24 0 17.64 1.81 5.95 11.04 0Zm12.39 18.24L17.89 2.36l-3.56 7.83 3.88 13.26 5.22-5.21Zm-5.82-16.46L11.140.53l-8.71 5.62 11.55 3.6 3.62-7.97Z"}]]);
+
+export default SiGurobi;

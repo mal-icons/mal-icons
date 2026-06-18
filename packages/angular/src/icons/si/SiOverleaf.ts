@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-overleaf",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiOverleaf {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.350.75C19.11-0.51 7.37-0.98 7.35 6.03c-3.43 2.19-5.7 5.77-5.7 9.6a8.37 8.37 0 0 0 13.12 6.9 8.37 8.37 0 0 0-1.77-14.72c-0.61-0.23-1.92-0.65-2.98-0.56-1.50.95-3.33 2.92-4.19 4.87 2.59-3.08 7.5-2.42 9.19 1.23 1.69 3.65-0.99 7.82-5.02 7.8a5.5 5.5 0 0 1-4.19-1.93c-1.48-1.75-1.87-3.64-1.56-5.5 1.06-6.49 8.76-10.19 14.49-11.61-1.870.99-5.24 2.61-7.59 4.38C18.02 9.14 19.13 3.35 22.350.75z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiOverleaf;

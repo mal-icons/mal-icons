@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-nfc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiNfc {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.96 1.98C23.9 1 23.140.26 22.150.2c-1.1-0.07-4.67-0.12-5.69-0.12 1.83 1.26 2.08 3.64 2.26 8.070.1 2.620.01 11.80 12.19l-0.05 2.5-9.63-9.63v-3.01l7.66 7.66c0.02-1.520.04-3.490.04-5.3 0-1.76-0.03-3.35-0.08-4.19-0.29-4.82-0.74-7.08-3.25-7.96-0.77-0.27-1.49-0.33-2.68-0.35C9.730.03 2.850.04 1.850.090.80.150.090.910.04 1.9c-0.050.98-0.06 19.17 0 20.170.060.980.82 1.72 1.81 1.78 1.10.07 4.670.08 5.690.08-1.83-1.26-2.08-3.64-2.25-8.07-0.1-2.62-0.01-11.8 0-12.19l0.05-2.5 9.63 9.63v3.01L7.31 6.15c-0.02 1.51-0.04 3.49-0.04 5.3 0 1.760.03 3.350.08 4.190.29 4.820.74 7.08 3.25 7.960.770.27 1.490.34 2.680.350.990.01 7.870.01 8.86-0.05 1.06-0.06 1.77-0.82 1.81-1.810.05-0.980.06-19.13 0-20.12"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiNfc;

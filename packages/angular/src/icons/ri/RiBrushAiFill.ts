@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-brush-ai-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBrushAiFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.71 7.13L4.47 7.69C4.29 8.11 3.71 8.11 3.53 7.69L3.29 7.13C2.85 6.12 2.06 5.32 1.07 4.88L0.31 4.54C-0.1 4.36 -0.1 3.76 0.31 3.58L1.03 3.26C2.04 2.81 2.84 1.97 3.28 0.93L3.53 0.32C3.71 -0.11 4.29 -0.11 4.47 0.32L4.72 0.93C5.16 1.97 5.96 2.81 6.97 3.26L7.69 3.58C8.1 3.76 8.1 4.36 7.69 4.54L6.93 4.88C5.94 5.32 5.15 6.12 4.71 7.13ZM18.23 2.37L13.29 6.21C9.34 5.24 5.56 7.55 4.5 11.5C4.4 11.88 4.37 12.26 4.33 12.67C4.22 14.06 4.09 15.67 1 18C3.5 19.5 8 21 11.5 21C14.81 21 17.85 18.79 18.74 15.44C19.08 14.17 19.08 12.9 18.78 11.71L22.63 6.77C22.93 6.37 22.9 5.8 22.54 5.45L19.55 2.45C19.19 2.1 18.63 2.06 18.23 2.37ZM16.9 8.29C16.83 8.22 16.77 8.15 16.7 8.09L15.58 6.97L18.76 4.49L20.5 6.24L18.03 9.42L16.9 8.29Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBrushAiFill;

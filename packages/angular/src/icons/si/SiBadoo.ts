@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-badoo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBadoo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.68 2.81c3.39 0 6.32 2.79 6.32 6.23 0 6.71-6.6 12.16-12 12.16S0 15.75 0 9.04c0-3.44 2.93-6.23 6.32-6.23 4.13 0 5.58 3.18 5.68 3.41a6.08 6.08 0 0 1 5.67-3.41zm1.08 6.49V9.11h-2.38v0.19c0 2.35-1.97 4.28-4.38 4.28-2.42 0-4.37-1.92-4.37-4.28V9.11H5.23v0.19c0 1.770.7 3.42 1.98 4.67a6.8 6.8 0 0 0 4.78 1.93 6.8 6.8 0 0 0 4.78-1.93 6.49 6.49 0 0 0 1.98-4.67Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBadoo;

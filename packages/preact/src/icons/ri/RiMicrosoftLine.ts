@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiMicrosoftLine = createIcon("0 0 24 24", [["path",{"d":"M11 5H5V11H11V5ZM13 5V11H19V5H13ZM19 13H13V19H19V13ZM11 19V13H5V19H11ZM3 3H21V21H3V3Z"}]]);
+
+export default RiMicrosoftLine;

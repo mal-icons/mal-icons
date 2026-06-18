@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-pie-chart-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPieChart2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0.5C18.35 0.5 23.5 5.65 23.5 12C23.5 12.34 23.49 12.67 23.46 13H21.95C21.45 18.05 17.19 22 12 22C6.48 22 2 17.52 2 12C2 6.81 5.95 2.55 11 2.05V0.54C11.33 0.51 11.66 0.5 12 0.5ZM11 4.06C7.05 4.55 4 7.92 4 12C4 16.42 7.58 20 12 20C16.08 20 19.45 16.95 19.94 13H11V4.06ZM13 2.55V11H21.45C20.98 6.55 17.45 3.02 13 2.55Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPieChart2Line;

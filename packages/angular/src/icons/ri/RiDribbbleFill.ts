@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-dribbble-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDribbbleFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.51 22 22 17.52 22 12C22 6.48 17.51 2 12 2ZM18.61 6.61C19.8 8.06 20.51 9.92 20.54 11.92C20.25 11.87 17.43 11.3 14.59 11.65C14.53 11.51 14.47 11.36 14.41 11.21C14.23 10.8 14.04 10.37 13.84 9.97C16.99 8.69 18.42 6.85 18.61 6.61ZM12 3.48C14.17 3.48 16.15 4.29 17.66 5.62C17.51 5.84 16.22 7.56 13.18 8.7C11.78 6.13 10.23 4.03 9.99 3.7C10.63 3.55 11.31 3.48 12 3.48ZM8.37 4.28C8.59 4.58 10.11 6.7 11.53 9.21C7.54 10.28 4.02 10.25 3.64 10.25C4.19 7.61 5.98 5.41 8.37 4.28ZM3.45 12.01C3.45 11.92 3.45 11.84 3.45 11.75C3.82 11.76 7.97 11.82 12.23 10.54C12.48 11.01 12.71 11.5 12.92 11.99C12.81 12.02 12.69 12.05 12.59 12.09C8.18 13.51 5.84 17.39 5.64 17.72C4.29 16.21 3.45 14.2 3.45 12.01ZM12 20.55C10.03 20.55 8.2 19.87 6.76 18.75C6.91 18.43 8.65 15.09 13.46 13.41C13.49 13.4 13.5 13.4 13.52 13.39C14.72 16.5 15.21 19.11 15.34 19.86C14.31 20.31 13.18 20.55 12 20.55ZM16.76 19.08C16.67 18.56 16.22 16.07 15.1 13C17.78 12.57 20.12 13.27 20.42 13.37C20.05 15.74 18.68 17.79 16.76 19.08Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDribbbleFill;

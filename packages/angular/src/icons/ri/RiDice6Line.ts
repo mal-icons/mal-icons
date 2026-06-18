@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-dice-6-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDice6Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 5V19H5L5 5H19ZM5 3C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3H5ZM9 9.5C9.83 9.5 10.5 8.83 10.5 8C10.5 7.17 9.83 6.5 9 6.5C8.17 6.5 7.5 7.17 7.5 8C7.5 8.83 8.17 9.5 9 9.5ZM10.5 12C10.5 12.83 9.83 13.5 9 13.5C8.17 13.5 7.5 12.83 7.5 12C7.5 11.17 8.17 10.5 9 10.5C9.83 10.5 10.5 11.17 10.5 12ZM10.5 16C10.5 16.83 9.83 17.5 9 17.5C8.17 17.5 7.5 16.83 7.5 16C7.5 15.17 8.17 14.5 9 14.5C9.83 14.5 10.5 15.17 10.5 16ZM16.5 8C16.5 8.83 15.83 9.5 15 9.5C14.17 9.5 13.5 8.83 13.5 8C13.5 7.17 14.17 6.5 15 6.5C15.83 6.5 16.5 7.17 16.5 8ZM15 13.5C15.83 13.5 16.5 12.83 16.5 12C16.5 11.17 15.83 10.5 15 10.5C14.17 10.5 13.5 11.17 13.5 12C13.5 12.83 14.17 13.5 15 13.5ZM15 17.5C15.83 17.5 16.5 16.83 16.5 16C16.5 15.17 15.83 14.5 15 14.5C14.17 14.5 13.5 15.17 13.5 16C13.5 16.83 14.17 17.5 15 17.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDice6Line;

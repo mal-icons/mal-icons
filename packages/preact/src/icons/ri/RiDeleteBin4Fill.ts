@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiDeleteBin4Fill = createIcon("0 0 24 24", [["path",{"d":"M20 7V21C20 21.55 19.55 22 19 22H5C4.45 22 4 21.55 4 21V7H2V5H22V7H20ZM11 10V17H13V10H11ZM7 2H17V4H7V2Z"}]]);
+
+export default RiDeleteBin4Fill;

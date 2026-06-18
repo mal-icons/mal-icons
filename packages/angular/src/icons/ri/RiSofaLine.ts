@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-sofa-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSofaLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 3C5.69 3 3 5.69 3 9V9.35C1.48 10.1 0.63 11.92 1.27 13.66L1.58 14.52C1.86 15.28 2 16.09 2 16.91V19.5C2 20.33 2.67 21 3.5 21H20.5C21.33 21 22 20.33 22 19.5V16.91C22 16.09 22.14 15.28 22.42 14.52L22.73 13.66C23.37 11.92 22.52 10.1 21 9.35V9C21 5.69 18.31 3 15 3H9ZM19 9.03C17.31 9.26 16 10.71 16 12.47L16 14H8V12.47C8 10.71 6.69 9.26 5 9.03V9C5 6.79 6.79 5 9 5H15C17.21 5 19 6.79 19 9V9.03ZM16 16L16 17H18V12.47C18 11.66 18.66 11 19.47 11C20.49 11 21.2 12.01 20.86 12.97L20.54 13.83C20.18 14.82 20 15.86 20 16.91V19H4V16.91C4 15.86 3.82 14.82 3.46 13.83L3.15 12.97C2.8 12.01 3.51 11 4.53 11C5.34 11 6 11.66 6 12.47V17H8V16H16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSofaLine;

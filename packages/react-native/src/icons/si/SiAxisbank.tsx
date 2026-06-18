@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiAxisbank = createIcon("0 0 24 24", [["path",{"d":"M11.98 1.6 0 22.4h7.45l8.27-14.37Zm0.03 12.9 4.53 7.9H24l-4.53-7.9z"}]]);
+
+export default SiAxisbank;

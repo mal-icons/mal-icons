@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-coze",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCoze {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.37 12.1a0.610.61 0 0 0-0.610.61v1.22a0.610.61 0 1 0 1.22 0v-1.22a0.610.61 0 0 0-0.61-0.61m0.8 3.45a0.610.61 0 0 1 0-0.860.610.61 0 0 1 0.86 0 1.52 1.52 0 0 0 2.15 0 0.610.61 0 0 1 0.86 0 0.610.61 0 0 1 0 0.86 2.73 2.73 0 0 1-3.87 0m4.06-2.24a0.610.61 0 1 1 0.610.610.610.61 0 0 1-0.61-0.61zM3.02 0A3.02 3.02 0 0 0 0 3.02v17.95A3.02 3.02 0 0 0 3.02 24h17.95A3.02 3.02 0 0 0 24 20.98V3.02A3.02 3.02 0 0 0 20.98 0ZM12.1 3.78h0a6.29 6.29 0 0 1 6.28 6.29v2.64h1.51c1.73 0 2.12 2.430.48 2.97l-1.980.66v1.14a1.51 1.51 0 0 1-2.19 1.35l-1.1-0.55c-0.05-0.02-0.11 0-0.130.06-0.89 2.79-4.83 2.79-5.73 0a0.10.1 0 0 0-0.13-0.05l-1.10.55a1.51 1.51 0 0 1-2.19-1.35v-1.14l-1.98-0.66c-1.65-0.54-1.25-2.970.48-2.97h1.51v-2.64A6.29 6.29 0 0 1 12.1 3.78"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCoze;

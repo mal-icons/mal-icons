@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiNpm = createIcon("0 0 24 24", [["path",{"d":"M1.76 0C0.79 0 0 0.79 0 1.76v20.47C0 23.210.79 24 1.76 24h20.47c0.98 0 1.76-0.79 1.76-1.76V1.76C24 0.79 23.21 0 22.24 0zM5.13 5.32l13.840.02-0.01 13.84h-3.46l0.01-10.38h-3.46L12.04 19.17H5.11z"}]]);
+
+export default SiNpm;

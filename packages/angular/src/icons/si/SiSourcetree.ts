@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sourcetree",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSourcetree {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C6.76 0 2.47 4.25 2.47 9.53c0 4.21 2.77 7.79 6.57 9.05v4.76c0 0.370.30.660.660.66h4.51a0.660.66 0 0 0 0.66-0.66v-4.76c0.03-0.010.05-0.020.07-0.03v0.06c3.69-1.22 6.41-4.63 6.57-8.690.01-0.120.01-0.250.01-0.37v-0.02c0-0.15-0.01-0.3-0.01-0.45C21.28 4.04 17.13 0 12 0Zm0 6.35a3.21 3.21 0 0 1 2.66 5.01v0A3.22 3.22 0 0 1 12 12.78a3.21 3.21 0 0 1 0-6.42z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSourcetree;

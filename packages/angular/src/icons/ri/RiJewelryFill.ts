@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-jewelry-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiJewelryFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15 2.85V4.86C15 5.25 15.23 5.61 15.58 5.77L15.99 5.96C15.9 7.36 15.43 8.6 14.74 9.49C13.99 10.47 13.01 11 12 11C10.99 11 10.02 10.47 9.26 9.49C8.57 8.6 8.1 7.36 8.01 5.96L8.42 5.77C8.78 5.61 9 5.25 9 4.86V2.85C9 2.36 9.35 1.94 9.84 1.89C11.28 1.72 12.72 1.72 14.16 1.89C14.65 1.94 15 2.36 15 2.85ZM6.1 6.85L2.85 8.37C2.1 8.72 1.78 9.6 2.12 10.35L6.6 20.13C6.84 20.66 7.38 21 7.96 21H16.04C16.62 21 17.16 20.66 17.4 20.13L21.88 10.35C22.22 9.6 21.9 8.72 21.15 8.37L17.9 6.85C17.69 8.32 17.14 9.66 16.33 10.71C15.42 11.89 14.15 12.75 12.68 12.95L14.19 15.06C14.38 15.32 14.38 15.68 14.19 15.94L12.2 18.72C12.1 18.85 11.9 18.85 11.8 18.72L9.81 15.94C9.63 15.68 9.63 15.32 9.81 15.06L11.32 12.95C9.85 12.75 8.59 11.89 7.67 10.71C6.86 9.66 6.31 8.32 6.1 6.85Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiJewelryFill;

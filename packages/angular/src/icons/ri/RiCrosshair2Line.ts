@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-crosshair-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCrosshair2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11 5.07C7.93 5.51 5.51 7.93 5.07 11H7V13H5.07C5.51 16.07 7.93 18.49 11 18.93V17H13V18.93C16.07 18.49 18.49 16.07 18.93 13H17V11H18.93C18.49 7.93 16.07 5.51 13 5.07V7H11V5.07ZM3.05 11C3.52 6.83 6.83 3.52 11 3.05V1H13V3.05C17.17 3.52 20.48 6.83 20.95 11H23V13H20.95C20.48 17.17 17.17 20.48 13 20.95V23H11V20.95C6.83 20.48 3.52 17.17 3.05 13H1V11H3.05ZM14 12C14 13.1 13.1 14 12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCrosshair2Line;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiTensorflow = createIcon("0 0 24 24", [["path",{"d":"M1.29 5.86L11.54 0v24l-4.09-2.38V7.6l-6.17 3.560.02-5.31zm21.43 5.31l-0.01-5.31L12.46 0v24l4.1-2.38V14.87l3.09 1.79-0.02-4.62-3.07-1.76V7.6l6.17 3.56z"}]]);
+
+export default SiTensorflow;

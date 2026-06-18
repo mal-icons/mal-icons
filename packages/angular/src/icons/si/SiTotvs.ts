@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-totvs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTotvs {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.39 0 0 5.34 0 12c0 6.61 5.39 12 12 12 6.61 0 12-5.39 12-12S18.61 0 12 0ZM8.65 3.81c1.27-0.07 10.7 2.3 11.43 2.940.610.850.61 9.12 0 9.69-0.280.1-2.13-0.28-4.2-0.75 0 2.03-0.14 3.97-0.43 4.2-0.760.24-10.77-2.27-11.53-2.93-0.61-0.85-0.61-9.12 0-9.690.28-0.09 2.080.28 4.210.76 0-2.030.14-3.970.43-4.2a0.450.45 0 0 1 0.1-0.01Zm-0.52 4.26c-0.05 2.360.1 4.960.43 5.430.430.38 4.16 1.42 7.28 2.170.05-2.41-0.09-5.01-0.43-5.48-0.42-0.38-4.16-1.42-7.27-2.13Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTotvs;

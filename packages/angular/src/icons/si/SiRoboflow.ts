@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-roboflow",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRoboflow {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0m0.51 3.6a9.6 9.6 0 0 1 2.590.39c1.760.52 3.51 1.75 3.82 3.680.070.410.070.830.01 1.24-0.21 1.47-1.09 2.78-2.09 3.83-1.06 1.12-2.42 1.85-3.54 2.9-0.660.61-0.92 1.36-0.13 2 1.080.55 1.990.27 2.97-0.330.58-0.35 1.08-0.82 1.51-1.340.22-0.260.42-0.540.62-0.820.16-0.240.32-0.520.54-0.72a0.80.8 0 0 1 0.5-0.270.690.69 0 0 1 0.70.41c0.120.280.010.64-0.110.9-0.65 1.35-1.37 2.25-1.87 2.78-1.49 1.65-3.81 2.74-5.95 1.85-1.23-0.51-2.2-1.66-2.37-3-0.32-2.5 2.59-3.95 4.12-5.370.94-0.87 1.97-2.2 1.49-3.56-0.46-1.3-1.99-1.87-3.25-2-1.24-0.13-2.50.13-3.620.65-0.880.41-1.62 1.04-2.32 1.71-0.230.22-0.450.46-0.690.67-0.210.18-0.450.35-0.730.39-0.420.06-0.81-0.25-0.76-0.690.09-0.710.59-1.33 1.04-1.86q0.41-0.490.88-0.93a9.3 9.3 0 0 1 2.4-1.6 9.9 9.9 0 0 1 4.25-0.9m-2.22 5.26c1.56-0.05 1.92 1.030.88 1.84-1.76 1.37-4 2.75-4.22 4.95-0.090.890.35 2.290.89 3.240.040.070.060.150.060.24-0.010.23-0.190.42-0.430.41-0.16-0.01-0.31-0.09-0.45-0.18-0.64-0.39-1.24-0.89-1.7-1.48a5 5 0 0 1-0.66-1.12 4.6 4.6 0 0 1-0.32-1.2 4.6 4.6 0 0 1 0.01-1.24q0.05-0.310.13-0.62c0.67-2.49 3.38-4.56 5.5-4.83q0.17-0.020.33-0.03"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRoboflow;

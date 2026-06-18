@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiMicrosoftFill = createIcon("0 0 24 24", [["path",{"d":"M11.5 3V11.5H3V3H11.5ZM11.5 21H3V12.5H11.5V21ZM12.5 3H21V11.5H12.5V3ZM21 12.5V21H12.5V12.5H21Z"}]]);
+
+export default RiMicrosoftFill;

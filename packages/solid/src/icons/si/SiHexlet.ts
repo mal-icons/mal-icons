@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiHexlet = createIcon("0 0 24 24", [["path",{"d":"M16.73 7.1v6.42H7.27V7.1L4.56 6.09V24h2.71v-7.77h9.46V24h2.71V6.09l-2.7 1.01Zm3.04-4.06L12 0 4.22 3.04 12 5.75l7.78-2.7Z"}]]);
+
+export default SiHexlet;

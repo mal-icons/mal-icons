@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-wikibooks",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWikibooks {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.030.29c-0.420.14-0.780.42-1.110.71C0.43 5.310.25 5.50.25 5.5c-0.240.22-0.260.54-0.250.86l0.02 1.82s2.07-2.01 5.16-4.99c1.67 4.34 3.41 8.65 5.12 12.970.230.65-0.33 1.19-1.04 1.9-0.980.96-3.03 2.93-5.14 5.56h2.11l5.07-5.55c0.48-0.66 1.08-1.310.82-1.91L8.15 5.81c0.92-0.78 1.76-1.68 2.62-2.53l5.25 13.17c0.30.89-0.17 1.68-1.13 2.55-1.150.92-3.51 3.07-4.58 4.71h1.63c1.71-1.76 2.02-1.99 3.96-3.68 1.31-1.33 2.49-2.02 1.87-3.73l-4.13-10.32c1.01-0.99 2.01-1.87 2.98-2.85 2.11 4.64 3.56 8.38 5.33 13.330.58 1.610.46 1.68-0.93 2.55-2.23 1.11-2.93 1.83-5.58 4.66h1.82c2.22-2.01 3.05-2.72 5.83-4.180.98-0.57 1.12-1.280.71-2.4-1.3-3.62-4.12-11.41-6.72-16.75l-4.1 3.97-1.57-3.92C9.91 1.38 8.74 2.78 7.47 4.04z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWikibooks;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-mic-2-ai-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiMic2AiLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.71 7.13L20.47 7.69C20.29 8.11 19.71 8.11 19.53 7.69L19.29 7.13C18.85 6.12 18.06 5.32 17.07 4.88L16.31 4.54C15.9 4.36 15.9 3.76 16.31 3.58L17.03 3.26C18.04 2.81 18.84 1.97 19.28 0.93L19.53 0.32C19.71 -0.11 20.29 -0.11 20.47 0.32L20.72 0.93C21.16 1.97 21.96 2.81 22.97 3.26L23.69 3.58C24.1 3.76 24.1 4.36 23.69 4.54L22.93 4.88C21.94 5.32 21.15 6.12 20.71 7.13ZM7 6C7 3.24 9.24 1 12 1C12.99 1 13.92 1.29 14.7 1.79L13.62 3.47C13.15 3.17 12.6 3 12 3C10.34 3 9 4.34 9 6V12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12V7H17V12C17 14.76 14.76 17 12 17C9.24 17 7 14.76 7 12V6ZM2.19 13.96L4.15 13.57C4.88 17.24 8.12 20 12 20C15.88 20 19.12 17.24 19.85 13.57L21.81 13.96C20.9 18.55 16.85 22 12 22C7.15 22 3.1 18.55 2.19 13.96Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiMic2AiLine;

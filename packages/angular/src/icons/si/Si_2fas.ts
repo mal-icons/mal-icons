@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-2fas",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class Si_2fas {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0c-0.92 0-1.830.12-2.720.36L4.07 1.75a2.64 2.64 0 0 0-1.96 2.55v9.12a7.91 7.91 0 0 0 3.55 6.61l5.7 3.77a1.32 1.32 0 0 0 1.47-0.01l5.57-3.75a7.93 7.93 0 0 0 3.49-6.57V4.3a2.64 2.64 0 0 0-1.96-2.55L14.720.36A10.59 10.59 0 0 0 12 0ZM7.38 5.4h9.23c0.73 0 1.320.59 1.32 1.32 0 0.73-0.59 1.32-1.32 1.32H7.38c-0.73 0-1.32-0.59-1.32-1.32 0-0.730.59-1.32 1.32-1.32zM7.38 9.36h3.3c0.73 0 1.320.6 1.32 1.32a1.32 1.32 0 0 1-1.32 1.32H7.38c-0.73 0-1.32-0.59-1.32-1.32 0-0.720.59-1.32 1.32-1.32zm0 3.96c0.73 0 1.320.59 1.32 1.32 0 0.73-0.59 1.32-1.32 1.32-0.73 0-1.32-0.59-1.32-1.32 0-0.730.59-1.32 1.32-1.32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default Si_2fas;

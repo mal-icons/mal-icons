@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sencha",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSencha {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.29,24c0.46-1.22,0.92-1.53,0.92-2.44c0-1.45-0.88-2.8-2.24-3.43 l-5.83-2.81C5.21,13.85,3.39,10.97,3.39,7.8c0-3.23,1.87-6.13,4.87-7.58L8.71,0C8.13,0.67,7.8,1.53,7.8,2.44 c0,1.45,0.88,2.8,2.24,3.44l5.83,2.81c2.93,1.46,4.74,4.34,4.74,7.51c0,3.23-1.87,6.13-4.87,7.58L15.29,24"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSencha;

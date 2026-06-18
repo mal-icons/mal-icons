@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-civicrm",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCivicrm {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.57 9.05c0.25-0.480.45-1.120.24-1.79-0.25-0.77-0.94-1.27-2.05-1.51l-7.05-1.5L6.50.41C6.420.36 5.72 0 4.95 0 4.38 0 3.890.2 3.530.57c-0.340.35-0.540.83-0.6 1.44a3.18 3.18 0 0 0-0.2-0.01c-1.09 0-1.650.46-1.930.84C0.37 3.440.32 4.240.64 5.23l2.65 8.120.25 7.03c0.04 1.220.72 2.54 2.1 2.540.26 0 0.54-0.050.82-0.150.330.560.92 1.23 1.86 1.230.67 0 1.32-0.36 1.96-1.06l5.11-5.7 6.78-4.28c0.15-0.09 1.44-0.95 1.4-2.23-0.02-0.64-0.36-1.2-1-1.67zM7.4 20.17l-2.33-7.13-0.32-8.85 8.33 1.77 6.77 3.62-5.63 6.28-6.82 4.31zM20.38 7.51c0.550.120.710.280.720.310.020.06-0.020.2-0.090.34l-1.62-0.870.990.21zM4.95 1.79c0.27 0 0.610.140.70.19l1.740.93-2.69-0.57c0.01-0.320.08-0.480.12-0.530.01-0.010.06-0.020.14-0.02zm-2.61 2.88c-0.19-0.59-0.09-0.77-0.09-0.770.02-0.030.17-0.10.48-0.10.08 0 0.160.010.220.01l0.11 3.05-0.71-2.19zm2.99 15.64l-0.03-0.80.51 1.57a0.680.68 0 0 1-0.180.03c-0.15 0-0.29-0.5-0.31-0.81zm3.61 1.42c-0.410.46-0.620.47-0.620.47-0.06 0-0.18-0.13-0.3-0.32l1.82-1.15-0.891zm12.27-10.3l-1.440.91 1.7-1.89c0.250.170.310.30.310.330.010.13-0.290.47-0.560.65z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCivicrm;

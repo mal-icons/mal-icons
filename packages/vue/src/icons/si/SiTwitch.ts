@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiTwitch = createIcon("0 0 24 24", [["path",{"d":"M11.57 4.71h1.72v5.14H11.57zm4.72 0H18v5.14h-1.71zM6 0L1.71 4.29v15.43h5.14V24l4.29-4.29h3.43L22.29 12V0zm14.57 11.14l-3.43 3.43h-3.43l-3 3v-3H6.86V1.71h13.71Z"}]]);
+
+export default SiTwitch;

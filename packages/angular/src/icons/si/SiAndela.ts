@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-andela",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAndela {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 4.59 13.960.51A3.94 3.94 0 0 0 12 0c-0.71 0-1.380.18-1.950.51L2.98 4.59a4.01 4.01 0 0 0-1.92 3.42v8a3.99 3.99 0 0 0 1.93 3.42l7.01 4.05c0.590.34 1.260.53 1.990.530.72 0 1.41-0.19 1.99-0.53l6.94-4.01a4.01 4.01 0 0 0 2-3.47V8a4 4 0 0 0-1.94-3.41Zm0.3 7.53h-0.04c-5.040.02-9.14 4.14-9.14 9.18a0.120.12 0 0 1-0.120.120.120.12 0 0 1-0.12-0.12v-0.04c-0.02-5.04-4.14-9.14-9.18-9.14a0.120.12 0 0 1-0.12-0.11c0-0.070.06-0.120.12-0.12h0.04c5.04-0.02 9.14-4.14 9.14-9.18 0-0.070.06-0.110.12-0.110.07 0 0.120.060.120.12 0 5.06 4.11 9.18 9.18 9.180.07 0 0.120.060.120.120.010.07-0.050.12-0.120.12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAndela;

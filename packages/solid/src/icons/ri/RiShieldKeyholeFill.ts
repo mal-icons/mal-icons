@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiShieldKeyholeFill = createIcon("0 0 24 24", [["path",{"d":"M12 1L20.22 2.83C20.67 2.93 21 3.33 21 3.8V13.79C21 15.8 20 17.67 18.33 18.78L12 23L5.67 18.78C4 17.67 3 15.8 3 13.79V3.8C3 3.33 3.33 2.93 3.78 2.83L12 1ZM12 7C10.9 7 10 7.9 10 9C10 9.74 10.4 10.39 11 10.73L11 15H13L13 10.73C13.6 10.39 14 9.74 14 9C14 7.9 13.1 7 12 7Z"}]]);
+
+export default RiShieldKeyholeFill;

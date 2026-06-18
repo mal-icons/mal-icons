@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-twenty",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTwenty {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.97 0H3.03A3.03 3.03 0 0 0 0 3.03v17.94A3.03 3.03 0 0 0 3.03 24h17.94A3.03 3.03 0 0 0 24 20.97V3.03A3.03 3.03 0 0 0 20.97 0ZM4.81 8.94a2.38 2.38 0 0 1 2.37-2.37h4.57c0.07 0 0.130.040.160.1a0.170.17 0 0 1-0.030.19l-1 1.09a0.920.92 0 0 1-0.680.3H7.2a0.710.71 0 0 0-0.710.71v1.8a0.420.42 0 0 1-0.420.42h-0.84a0.420.42 0 0 1-0.42-0.42V8.94zm14.22 6.13a2.38 2.38 0 0 1-2.37 2.38h-1.94a2.38 2.38 0 0 1-2.37-2.37v-3.4c0-0.230.09-0.450.24-0.62l1.13-1.23a0.170.17 0 0 1 0.30.12v5.13c0 0.390.320.710.710.71h1.92c0.39 0 0.71-0.320.71-0.71V8.95a0.710.71 0 0 0-0.71-0.71h-2.23c-0.25 0-0.50.11-0.670.3l-6.66 7.24h4c0.23 0 0.420.190.420.42v0.84a0.420.42 0 0 1-0.420.42h-5.39a0.890.89 0 0 1-0.89-0.89v-0.44c0-0.220.08-0.440.23-0.6l7.47-8.11a2.6 2.6 0 0 1 1.92-0.84h2.24a2.38 2.38 0 0 1 2.38 2.38v6.13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTwenty;

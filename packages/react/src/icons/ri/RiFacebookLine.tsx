@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiFacebookLine = createIcon("0 0 24 24", [["path",{"d":"M13 9H17.5L17 11H13V20H11V11H7V9H11V7.13C11 5.34 11.19 4.7 11.53 4.05C11.88 3.39 12.39 2.88 13.05 2.53C13.7 2.19 14.34 2 16.13 2C16.65 2 17.11 2.05 17.5 2.15V4H16.13C14.8 4 14.4 4.08 13.99 4.3C13.69 4.46 13.46 4.69 13.3 4.99C13.08 5.4 13 5.8 13 7.13V9Z"}]]);
+
+export default RiFacebookLine;

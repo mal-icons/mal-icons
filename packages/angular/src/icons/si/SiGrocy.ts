@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-grocy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGrocy {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.620.07C7.530.79 3.61 4.62 2.35 10.08c-0.32 1.35-0.39 3.9-0.16 5.20.62 3.57 2.96 6.57 6.15 7.91 1.360.58 2.10.73 3.840.78 1.220.04 1.860.01 2.72-0.13 2.69-0.45 5.4-1.7 6.65-3.09l0.4-0.45-0.05-1.87a481.92 481.92 0 0 1-0.12-5.34l-0.06-3.47-2.910.09c-1.590.03-3.720.1-4.750.14l-1.850.07-0.09 2.32c-0.05 1.28-0.08 2.34-0.05 2.360.020.020.880.08 1.920.12l1.870.08v0.29c0 0.71-0.130.98-0.56 1.21-0.650.33-1.870.48-2.620.33-2.71-0.57-3.78-4.55-1.96-7.37C11.86 7.48 13.87 6.62 16.56 6.74c0.740.04 1.670.16 2.120.270.450.120.840.170.870.120.1-0.140.47-5.730.4-5.9-0.09-0.24-1.35-0.7-2.57-0.95-1.25-0.25-3.72-0.37-4.77-0.22z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGrocy;

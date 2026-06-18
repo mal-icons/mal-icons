@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-rtm",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRtm {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.58 9.05H1.98l-0.49 1.41h3.41c0.54 0 0.590.250.510.49-0.080.24-0.180.32-0.720.32h-3.43L0 14.95h1.92l0.89-2.45c0.26 0 0.330.020.440.26l1.04 2.2h2.08l-1.15-2.46c1.37-0.15 1.99-0.82 2.21-1.70.21-0.84-0.17-1.73-1.85-1.73m2.82 0-0.49 1.41H10l-1.54 4.48 2.040 1.54-4.48h1.94l0.49-1.41H8.4zm7.89 0h-1.31l-0.48 1.41h0.62c0.27 0 0.420.220.320.49l-1.37 3.99h2.04l1.37-3.99c0.37-1.080.05-1.9-1.19-1.9m3.19 0h-1.16l-0.49 1.41h0.48c0.27 0 0.420.220.320.49l-1.37 3.99H19.3l1.37-3.99c0.37-1.080.05-1.9-1.19-1.9m3.19 0h-1.16l-0.48 1.41h0.48c0.27 0 0.420.220.320.49l-1.37 3.99h2.04l1.37-3.99c0.37-1.080.05-1.9-1.19-1.9"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRtm;

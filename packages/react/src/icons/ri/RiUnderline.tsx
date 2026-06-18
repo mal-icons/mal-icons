@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiUnderline = createIcon("0 0 24 24", [["path",{"d":"M8 3V12C8 14.21 9.79 16 12 16C14.21 16 16 14.21 16 12V3H18V12C18 15.31 15.31 18 12 18C8.69 18 6 15.31 6 12V3H8ZM4 20H20V22H4V20Z"}]]);
+
+export default RiUnderline;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-bookbub",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBookbub {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 20V4h5.4c1.6 0 2.80.3 3.8 1 0.90.7 1.4 1.6 1.4 2.7 0 0.8-0.3 1.6-0.8 2.3-0.60.7-1.3 1.2-2.2 1.4 1.10.1 2 0.6 2.7 1.30.70.7 1 1.6 1 2.6 0 1.4-0.5 2.6-1.5 3.4-1 0.9-2.4 1.3-4.1 1.3H0zM3 6.4v4.2h1.7c0.8 0 1.5-0.2 1.9-0.60.4-0.40.7-1 0.7-1.7 0-1.3-0.9-1.9-2.7-1.9H3zM3 13v4.7h2.1c0.9 0 1.6-0.2 2.1-0.60.5-0.50.8-1.10.8-1.9C8 13.7 7 13 5 13H3zm9.7 7V4h5.4c1.6 0 2.80.3 3.8 1 0.90.7 1.4 1.6 1.4 2.7 0 0.8-0.3 1.6-0.8 2.3-0.60.7-1.3 1.2-2.2 1.4 1.10.1 2 0.6 2.7 1.30.70.7 1 1.6 1 2.6 0 1.4-0.5 2.6-1.5 3.4-1 0.9-2.4 1.3-4.1 1.3h-5.7zm3-13.6v4.2h1.7c0.8 0 1.5-0.2 1.9-0.6s0.7-1 0.7-1.7c0-1.3-0.9-1.9-2.7-1.9h-1.6zm0 6.6v4.7h2.1c0.9 0 1.6-0.2 2.1-0.60.5-0.40.7-1 0.7-1.8 0-1.5-1-2.3-3-2.3h-1.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBookbub;

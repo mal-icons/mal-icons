@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-live-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiLiveFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16 4C16.55 4 17 4.45 17 5V9.2L22.21 5.55C22.44 5.39 22.75 5.45 22.91 5.67C22.97 5.76 23 5.86 23 5.96V18.04C23 18.32 22.78 18.54 22.5 18.54C22.4 18.54 22.3 18.51 22.21 18.45L17 14.8V19C17 19.55 16.55 20 16 20H2C1.45 20 1 19.55 1 19V5C1 4.45 1.45 4 2 4H16ZM7.4 8.83C7.21 8.83 7.05 8.97 7.01 9.15L7 9.23V14.77C7 14.85 7.02 14.92 7.06 14.99C7.17 15.15 7.37 15.21 7.54 15.15L7.61 15.11L11.97 12.34C12.02 12.31 12.06 12.26 12.09 12.21C12.2 12.05 12.17 11.84 12.03 11.71L11.97 11.66L7.61 8.89C7.55 8.85 7.48 8.83 7.4 8.83Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiLiveFill;

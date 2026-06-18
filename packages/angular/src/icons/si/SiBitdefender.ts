@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-bitdefender",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBitdefender {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.69 0v0.36l1.23 1.05c1.48 1.2 1.67 1.44 1.67 2.53V24h8.65c4.54 0 9.08-1.63 9.08-6.85 0-3.08-2.17-5.46-5.19-5.8v-0.07c2.48-0.74 4.17-2.54 4.17-5.25 0-4.37-3.73-6.03-7.35-6.03L1.69 0zm7.18 3.66h3.52c2.38 0 3.120.33 3.84 1.010.550.520.8 1.240.8 2.07 0 0.78-0.27 1.47-0.83 2-0.70.68-1.67 1.01-3.44 1.01H8.86V3.66zm0 9.76h4.1c3.46 0 5.090.88 5.09 3.39 0 3.15-3.05 3.53-5.26 3.53H8.86v-6.92z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBitdefender;

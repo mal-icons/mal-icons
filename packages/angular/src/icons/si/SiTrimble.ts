@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-trimble",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTrimble {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.6 18.34a9.1 9.1 0 0 0 4.8 2.82L2.6 24zm4.76-15.52a9.14 9.14 0 0 0-4.76 2.81V0zM22.85 12l-4.81 2.85a9.65 9.65 0 0 0 0.01-5.69zM5.76 4.3a9.4 9.4 0 0 1 5.3-0.61 4.3 4.3 0 0 0-2.420.83c-0.76-0.21-2.18-0.37-2.87-0.21M14.9 14.6c-2.37 1.83-6.16 1.32-8.46-0.6a23 23 0 0 1 2.67-3.48c1.36 1.21 3.4 1.7 5.040.940.38 1.010.63 2.070.75 3.15m-9.72-0.42a15.4 15.4 0 0 0-1.62 3.75 8.5 8.5 0 0 1-2.41-5.6 8.54 8.54 0 0 1 1.94-5.79c-0.65 2.390.06 5.51 2.09 7.64m8.6-3.64c-1.140.53-2.750.33-3.98-0.72a19 19 0 0 1 2.34-1.86 11.4 11.4 0 0 1 1.64 2.59m-1.53-3.89a8.7 8.7 0 0 0-2.52-1.73c0.91-0.59 3-0.63 4.30.72a8.4 8.4 0 0 0-1.78 1.01M5.92 14.88c2.4 1.94 6.25 2.59 9.050.88a7.4 7.4 0 0 1-0.47 2.72 8.06 8.06 0 0 1-5.01 1.89 8.05 8.05 0 0 1-5.08-1.68c0.14-0.690.51-2.02 1.52-3.81m8.65-4.93a12.7 12.7 0 0 0-1.63-2.54 7 7 0 0 1 1.67-1c0.680.950.86 2.59-0.04 3.55m1.54-2.06c0.84 1.870.87 4.21-0.35 5.84a14 14 0 0 0-0.78-2.82c0.42-0.370.74-0.830.94-1.36a3.5 3.5 0 0 0 0.19-1.66M9.14 9.1c-0.76-1.05-0.99-2.4-0.23-3.45a7.7 7.7 0 0 1 2.53 1.58 19.5 19.5 0 0 0-2.3 1.87m6.77 5.95a6.5 6.5 0 0 0 1.61-3.75 8.65 8.65 0 0 1-1.71 5.88q0.14-1.060.1-2.13M7.96 5.35c-0.85 1.35-0.47 3.230.49 4.44a24 24 0 0 0-2.72 3.5c-1.88-2.14-2.62-5.57-1.01-7.92a6.5 6.5 0 0 1 3.25-0.02"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTrimble;

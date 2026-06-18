@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-asus",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAsus {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.9 10.79V9.52h-4.66c-0.97 0-1.410.6-1.48 1.18v0.02-1.2h-1.37v1.27h1.36zm-6.140.46l-1.37-0.08v1.46c0 0.46-0.230.59-1.020.59H14.28c-0.65 0-0.93-0.19-0.93-0.59v-1.6l-1.39-0.1v1.81h-0.03c-0.08-0.53-0.28-1.14-1.6-1.23L6 11.22c0 0.670.47 1.06 1.22 1.14l3.020.31c0.240.020.410.090.410.29 0 0.22-0.180.24-0.460.24H5.95V11.22l-1.39-0.09v3.35h5.65c1.26 0 1.66-0.65 1.72-1.2h0.03c0.160.860.91 1.2 2.19 1.2h1.41c1.49 0 2.2-0.46 2.2-1.52zm4.40.26l-4.34-0.26c0 0.670.44 1.11 1.18 1.17l3.090.24c0.240.020.380.080.380.28 0 0.19-0.170.26-0.520.26h-4.21v1.29h4.3c1.36 0 1.95-0.47 1.95-1.55 0-0.97-0.53-1.34-1.84-1.42zm-10.19-1.98h1.39v1.27h-1.39zM3.8 11.07l-1.51-0.15L0 14.48h1.69zm7.91-1.55h-4.23c-0.98 0-1.420.61-1.52 1.2v-1.2H3.62c-0.33 0-0.490.1-0.640.33l-0.650.94h9.38Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAsus;

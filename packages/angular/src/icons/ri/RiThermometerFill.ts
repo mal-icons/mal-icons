@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-thermometer-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiThermometerFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.56 3.44C22.12 5.01 22.12 7.54 20.56 9.1L12.36 17.3C11.71 17.94 10.87 18.35 9.97 18.45L6.59 18.82L4.29 21.12C3.9 21.51 3.27 21.51 2.88 21.12C2.49 20.73 2.49 20.1 2.88 19.71L5.18 17.41L5.55 14.03C5.65 13.13 6.06 12.29 6.7 11.64L14.9 3.44C16.46 1.88 18.99 1.88 20.56 3.44ZM11.36 12.64L9.95 14.05L12.07 16.17L13.49 14.76L11.36 12.64ZM14.19 9.81L12.78 11.22L14.9 13.34L16.31 11.93L14.19 9.81ZM17.02 6.98L15.61 8.39L17.73 10.51L19.14 9.1L17.02 6.98Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiThermometerFill;

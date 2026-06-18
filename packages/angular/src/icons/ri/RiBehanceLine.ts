@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-behance-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBehanceLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.5 11C8.6 11 9.5 10.1 9.5 9C9.5 7.9 8.6 7 7.5 7H3V11H7.5ZM8.5 13H3V17H8.5C9.6 17 10.5 16.1 10.5 15C10.5 13.9 9.6 13 8.5 13ZM10.56 11.57C11.72 12.27 12.5 13.55 12.5 15C12.5 17.21 10.71 19 8.5 19H1V5H7.5C9.71 5 11.5 6.79 11.5 9C11.5 9.98 11.15 10.88 10.56 11.57ZM15.5 6H21V7.5H15.5V6ZM23 14.5H15.5V14.75C15.5 16.27 16.73 17.5 18.25 17.5C19.32 17.5 20.25 16.89 20.7 16H22.83C22.29 18.02 20.44 19.5 18.25 19.5C15.63 19.5 13.5 17.37 13.5 14.75V13.25C13.5 10.63 15.63 8.5 18.25 8.5C20.87 8.5 23 10.63 23 13.25V14.5ZM20.9 12.5C20.57 11.35 19.51 10.5 18.25 10.5C16.99 10.5 15.93 11.35 15.6 12.5H20.9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBehanceLine;

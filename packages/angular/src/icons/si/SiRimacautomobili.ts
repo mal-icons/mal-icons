@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-rimacautomobili",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRimacautomobili {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.42 1.32C18.430.49 15.19-0.02 12.01 0 8.82-0.02 5.590.49 2.59 1.32a0.490.49 0 0-0.340.46c0 7.95 2.98 17.8 9.48 22.14a0.460.46 0 0.54 0c6.5-4.34 9.49-14.17 9.48-22.140.02-0.21-0.13-0.39-0.33-0.45zM15.91 17.06c-1.02 1.72-2.24 3.27-3.69 4.45a0.320.32 0 1-0.41 0C7.85 18.24 5.54 12.47 4.66 6.89L3.65 6.36h7.48c2.41 0 2.720.78 2.72 1.35 0 0.57-0.31 1.35-2.71 1.35H8.93a0.130.13 0 0-0.130.13c0 0.030.020.070.050.1l7.33 7.330.780.78zm1.33-2.65l-4.37-4.37c-0.06-0.06-0.02-0.160.07-0.18l0.86-0.1c1.81-0.19 2.85-1.11 2.85-2.24 0-1.32-1.4-2.05-3.72-2.05H4.45A24.74 24.73 0 14.27 3.3a0.460.46 0 1.37-0.49 32.3 32.3 0 17.3-0.86h0.13c2.39 0 4.880.29 7.30.860.230.050.390.260.370.49-0.18 3.63-0.99 7.59-2.5 11.1z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRimacautomobili;

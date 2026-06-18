@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiSidebarFoldFill = createIcon("0 0 24 24", [["path",{"d":"M13 3H4C3.45 3 3 3.45 3 4V20C3 20.55 3.45 21 4 21H13V3ZM15 21V3H20C20.55 3 21 3.45 21 4V20C21 20.55 20.55 21 20 21H15ZM11 8.5V15.5L7 12L11 8.5Z"}]]);
+
+export default RiSidebarFoldFill;

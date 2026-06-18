@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-erlang",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiErlang {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.86 7.89c0.15-1.86 1.62-3.11 3.34-3.12 1.730 2.99 1.26 3.03 3.12zm12.11 11.71c0.8-0.86 1.52-1.87 2.17-3.03l-3.62-1.81c-1.27 2.06-3.13 3.97-5.69 3.98-3.74-0.01-5.21-3.21-5.2-7.32h13.97c0.02-0.460.02-0.68 0-0.90.09-2.45-0.56-4.5-1.74-6.11l-0.010.01H24v15.19h-3.04zm-17.210C1.9 17.620.81 14.890.81 11.64c0-2.880.9-5.35 2.46-7.23H0v15.19h3.76Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiErlang;

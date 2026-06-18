@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-bitcoin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBitcoin {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.64 14.9c-1.6 6.43-8.11 10.34-14.54 8.74C2.67 22.05-1.24 15.530.36 9.11 1.96 2.67 8.48-1.24 14.90.36c6.43 1.61 10.34 8.12 8.74 14.55v0zm-6.35-4.61c0.24-1.59-0.97-2.45-2.64-3.03l0.54-2.15-1.31-0.33-0.52 2.11c-0.34-0.09-0.7-0.17-1.06-0.25l0.53-2.13-1.32-0.33-0.54 2.17c-0.28-0.07-0.56-0.13-0.84-0.2l-1.81-0.45-0.35 1.41s0.980.230.960.24c0.540.140.630.490.620.77l-1.48 5.92c-0.070.17-0.240.41-0.610.310.020.02-0.96-0.24-0.96-0.24l-0.66 1.51 1.710.430.930.24-0.54 2.19 1.320.330.54-2.17c0.360.10.710.19 1.050.27l-0.51 2.15 1.320.330.55-2.19c2.240.43 3.930.26 4.64-1.770.57-1.64-0.03-2.58-1.22-3.20.85-0.19 1.5-0.76 1.68-1.93h0.01zm-3.01 4.22c-0.4 1.64-3.160.75-4.050.53l0.72-2.9c0.90.23 3.760.67 3.33 2.37zm0.41-4.24c-0.37 1.49-2.660.74-3.40.55l0.65-2.64c0.740.18 3.140.52 2.75 2.08v0.01z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBitcoin;

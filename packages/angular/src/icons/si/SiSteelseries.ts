@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-steelseries",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSteelseries {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.08 0c-1 0-1.810.81-1.81 1.81v2.57c-4.020.74-7.2 3.91-7.94 7.92H1.81c-1 0-1.810.81-1.81 1.81 0 10.81 1.81 1.81 1.81h2.52C5.18 20.51 9.23 24 14.08 24 19.55 24 24 19.56 24 14.11c0-4.84-3.5-8.88-8.11-9.73V1.81C15.890.81 15.08 0 14.08 0ZM4.69 3.18c-1 0-1.820.81-1.82 1.81 0 10.81 1.81 1.82 1.81 1 0 1.82-0.81 1.82-1.81 0-1-0.82-1.81-1.82-1.81zm9.39 4.66c3.47 0 6.29 2.81 6.29 6.28 0 3.46-2.82 6.28-6.29 6.28-3.47 0-6.29-2.82-6.29-6.28 0-3.46 2.82-6.28 6.29-6.28zm-0.02 2.4c-2.15 0-3.89 1.74-3.89 3.88S11.92 18 14.06 18c2.15 0 3.89-1.74 3.89-3.88 0-2.14-1.75-3.88-3.89-3.88zm0 2.72c0.65 0 1.170.52 1.17 1.16 0 0.64-0.52 1.17-1.17 1.17-0.64 0-1.17-0.53-1.17-1.17 0-0.640.53-1.16 1.17-1.16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSteelseries;

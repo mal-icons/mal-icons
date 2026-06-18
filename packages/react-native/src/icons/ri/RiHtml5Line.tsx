@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiHtml5Line = createIcon("0 0 24 24", [["path",{"d":"M12 18.18L7.38 16.92L7.05 13.38H9.32L9.48 15.22L12 15.89L14.52 15.22L14.78 12.36H6.96L6.33 5.68H17.67L17.45 7.89H8.82L9.03 10.14H17.24L16.62 16.92L12 18.18ZM3 2H21L19.38 20L12 22L4.62 20L3 2ZM5.19 4L6.49 18.43L12 19.93L17.51 18.43L18.81 4H5.19Z"}]]);
+
+export default RiHtml5Line;

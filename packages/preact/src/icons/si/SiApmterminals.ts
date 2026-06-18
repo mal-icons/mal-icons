@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiApmterminals = createIcon("0 0 24 24", [["path",{"d":"M23.8 2.95 0 16.55v4.5L24 9.32V2.95zm0.2 10.1-8.87 4.21v3.68l8.87-3.4Z"}]]);
+
+export default SiApmterminals;

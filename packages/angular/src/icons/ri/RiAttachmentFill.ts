@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-attachment-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiAttachmentFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 2.99L21 21.01C21 21.54 20.56 22 20.01 22H3.99C3.44 22 3 21.56 3 21.01V2.99C3 2.46 3.44 2 3.99 2H20C20.55 2 21 2.44 21 2.99ZM9 13V9C9 8.45 9.45 8 10 8C10.55 8 11 8.45 11 9V13C11 13.55 11.45 14 12 14C12.55 14 13 13.55 13 13V9C13 7.34 11.66 6 10 6C8.34 6 7 7.34 7 9V13C7 15.76 9.24 18 12 18C14.76 18 17 15.76 17 13V8H15V13C15 14.66 13.66 16 12 16C10.34 16 9 14.66 9 13Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiAttachmentFill;

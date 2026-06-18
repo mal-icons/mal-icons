@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-doordash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDoordash {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.07 8.41a6.09 6.09 0 0-5.4-3.23H0.58A0.590.59 0 0.17 6.18L3.89 9.93a1.75 1.75 0 1.240.52h12.05a1.55 1.55 0 11.03 3.11H8.91a0.590.59 0 0-0.41 1l3.73 3.75a1.75 1.75 0 1.240.52h3.76c4.89 0 8.58-5.22 5.85-10.41"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDoordash;

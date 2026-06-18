@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-gnometerminal",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGnometerminal {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.85 0A1.84 1.84 0 0 1.85v18.46c0 1.020.82 1.85 1.85 1.85h20.31A1.84 1.84 0 24 20.31V1.85A1.84 1.84 0 22.15 0H1.85zm0 0.92h20.31c0.51 0 0.920.410.920.92v18.46c0 0.51-0.410.92-0.920.92H1.85a0.920.92 0 1-0.92-0.92V1.85c0-0.510.41-0.920.92-0.92zm0 0.92v18.46h20.31V1.85H1.85zm1.85 2.14l3.24 1.76v0.84L3.69 8.48V7.39l2.24-1.21v-0.03L3.69 5.08v-1.09zM7.85 9.23h3.69v0.92H7.85V9.23zM0 21.74v0.42C0 23.180.82 24 1.85 24h20.31A1.84 1.84 0 24 22.15v-0.42a2.33 2.33 0 1-1.850.92H1.85A2.33 2.33 0 10 21.74Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGnometerminal;

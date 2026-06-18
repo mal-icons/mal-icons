@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-translate",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiTranslate {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5 15V17C5 18.05 5.82 18.92 6.85 18.99L7 19H10V21H7C4.79 21 3 19.21 3 17V15H5ZM18 10L22.4 21H20.25L19.04 18H14.95L13.76 21H11.6L16 10H18ZM17 12.89L15.75 16H18.25L17 12.89ZM8 2V4H12V11H8V14H6V11H2V4H6V2H8ZM17 3C19.21 3 21 4.79 21 7V9H19V7C19 5.9 18.1 5 17 5H14V3H17ZM6 6H4V9H6V6ZM10 6H8V9H10V6Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiTranslate;

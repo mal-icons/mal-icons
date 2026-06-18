@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiCloudy2Fill = createIcon("0 0 24 24", [["path",{"d":"M17 21H7C3.69 21 1 18.31 1 15C1 12.38 2.67 10.16 5.01 9.34C5 9.23 5 9.11 5 9C5 5.13 8.13 2 12 2C15.87 2 19 5.13 19 9C19 9.11 19 9.23 18.99 9.34C21.33 10.16 23 12.38 23 15C23 18.31 20.31 21 17 21Z"}]]);
+
+export default RiCloudy2Fill;

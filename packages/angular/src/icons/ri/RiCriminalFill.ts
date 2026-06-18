@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-criminal-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCriminalFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C16.97 2 21 6.03 21 11C21 13.2 20.21 15.22 18.89 16.79C20.15 17.62 20.93 18.68 21 19.84L21 20L12 22L3 20L3 19.84C3.07 18.68 3.85 17.62 5.11 16.79C3.79 15.22 3 13.2 3 11C3 6.03 7.03 2 12 2ZM12 13C10.62 13 9.5 13.67 9.5 14.5C9.5 15.33 10.62 16 12 16C13.38 16 14.5 15.33 14.5 14.5C14.5 13.67 13.38 13 12 13ZM9 8C7.9 8 7 8.67 7 9.5C7 10.33 7.9 11 9 11C10.1 11 11 10.33 11 9.5C11 8.67 10.1 8 9 8ZM15 8C13.9 8 13 8.67 13 9.5C13 10.33 13.9 11 15 11C16.1 11 17 10.33 17 9.5C17 8.67 16.1 8 15 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCriminalFill;

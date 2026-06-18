@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-car-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCarFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 20H5V21C5 21.55 4.55 22 4 22H3C2.45 22 2 21.55 2 21V12L4.51 5.3C4.81 4.52 5.55 4 6.39 4H17.61C18.45 4 19.19 4.52 19.49 5.3L22 12V21C22 21.55 21.55 22 21 22H20C19.45 22 19 21.55 19 21V20ZM4.14 12H19.86L17.61 6H6.39L4.14 12ZM6.5 17C7.33 17 8 16.33 8 15.5C8 14.67 7.33 14 6.5 14C5.67 14 5 14.67 5 15.5C5 16.33 5.67 17 6.5 17ZM17.5 17C18.33 17 19 16.33 19 15.5C19 14.67 18.33 14 17.5 14C16.67 14 16 14.67 16 15.5C16 16.33 16.67 17 17.5 17Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCarFill;

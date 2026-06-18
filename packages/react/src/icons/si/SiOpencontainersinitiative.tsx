@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiOpencontainersinitiative = createIcon("0 0 24 24", [["path",{"d":"M0 0v24h24V0zm20.55 20.43H3.45V3.57h17.1V20.43zm-5.15-9.98h3.44v8.26h-3.44zm0-5.16h3.44v3.44h-3.44zm-6.79 9.98V8.73h5.07v-3.44H5.16v13.42h8.51v-3.44Z"}]]);
+
+export default SiOpencontainersinitiative;

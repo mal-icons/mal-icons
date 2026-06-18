@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiCodio = createIcon("0 0 24 24", [["path",{"d":"M12 24L1.61 18v-12L12 0l10.4 6L16.5 9.4 12 6.8 7.5 9.4v5.2l4.5 2.6 4.5-2.6 5.9 3.4L12 24h-0.01z"}]]);
+
+export default SiCodio;

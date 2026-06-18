@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-unrealengine",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiUnrealengine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0a12 12 0 1012 12A12 12 0 12 0zm0 23.52A11.52 11.52 0 1123.52 12 11.52 11.52 0 112 23.52zm7.13-9.79c-0.211-1.13 3.56-4.06 4.94l-1.18-1.32-1.99 2a7.34 7.34 0 1-5.8-2.98 2.86 2.86 0 0.650.12c0.330.010.68-0.110.68-0.66v-5.39a0.890.89 0 0-1.12-0.89c-0.920.21-1.66 2.51-1.66 2.51a7.3 7.3 0 12.53-5.6 7.41 7.41 0 13.73-1.72c-1.010.57-1.57 1.51-1.57 2.29 0 1.260.76 1.110.980.92v7.28a1.16 1.16 0 0.150.26 1.08 1.08 0 0.880.45c0.76 0 1.75-0.87 1.75-0.87V9.17c0-0.6-0.45-1.32-0.9-1.57 0 0 0.84-0.15 1.480.35a5.54 5.54 0 1.39-0.42c1.51-1.48 2.93-1.9 4.11-2.11 0 0-2.15 1.69-2.15 3.96 0 1.690.04 5.80.04 5.80.80.77 1.99-0.34 3.06-1.44Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiUnrealengine;

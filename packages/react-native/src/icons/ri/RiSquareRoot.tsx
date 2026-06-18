@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiSquareRoot = createIcon("0 0 24 24", [["path",{"d":"M15.38 4H22V6H16.62L9 21.24L5.38 14H2V12H6.62L9 16.76L15.38 4Z"}]]);
+
+export default RiSquareRoot;

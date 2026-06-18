@@ -139,10 +139,22 @@
       "count": 733
     },
     {
+      "id": "ri",
+      "name": "Remix Icon",
+      "license": "Apache-2.0",
+      "count": 3058
+    },
+    {
       "id": "rx",
       "name": "Radix Icons",
       "license": "MIT",
       "count": 318
+    },
+    {
+      "id": "si",
+      "name": "Simple Icons",
+      "license": "CC0-1.0",
+      "count": 3442
     },
     {
       "id": "sl",

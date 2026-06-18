@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-wasmcloud",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWasmcloud {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.81 5.48 12.80.22a1.59 1.59 0 0 0-1.6 0L2.19 5.48a1.41 1.41 0 0 0-0.7 1.22v10.6a1.44 1.44 0 0 0 0.72 1.24l9.02 5.25a1.55 1.55 0 0 0 1.56 0l9-5.25a1.44 1.44 0 0 0 0.72-1.24V6.69a1.41 1.41 0 0 0-0.7-1.22zm-2 10.43a0.280.28 0 0 1-0.140.24l-7.53 4.39a0.280.28 0 0 1-0.28 0l-7.52-4.38a0.290.29 0 0 1-0.14-0.26v-7.8a0.280.28 0 0 1 0.14-0.24l2.73-1.6a0.280.28 0 0 1 0.28 0 0.280.28 0 0 1 0.140.24v7.32l2.47-1.43v-7.65a0.270.27 0 0 1 0.14-0.24l1.78-1.04a0.280.28 0 0 1 0.28 0l1.79 1.04a0.280.28 0 0 1 0.140.24v7.64l2.46 1.43V6.48a0.280.28 0 0 1 0.14-0.240.280.28 0 0 1 0.28 0l2.73 1.6a0.280.28 0 0 1 0.140.24z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWasmcloud;

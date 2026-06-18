@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-cloud-off-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCloudOffFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.51 2.1L22.61 21.19L21.19 22.61L19.18 20.59C18.5 20.86 17.77 21 17 21H7C3.69 21 1 18.31 1 15C1 12.38 2.67 10.16 5.01 9.34C5 9.23 5 9.11 5 9C5 8.22 5.13 7.47 5.36 6.78L2.1 3.51L3.51 2.1ZM17 9C17.7 9 18.37 9.12 18.99 9.34C21.33 10.16 23 12.38 23 15C23 16.09 22.71 17.11 22.2 17.99L14.01 9.8C14.89 9.29 15.91 9 17 9ZM12 2C15.24 2 17.97 4.2 18.77 7.2C18.2 7.07 17.61 7 17 7C15.36 7 13.83 7.5 12.56 8.34L7.69 3.48C8.88 2.55 10.38 2 12 2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCloudOffFill;

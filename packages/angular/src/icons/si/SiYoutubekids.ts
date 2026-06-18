@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-youtubekids",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiYoutubekids {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m23.99 13.54-0.01-0.29c-0.01-1.12-0.64-6.49-1-7.46-0.41-1.11-0.97-1.94-1.67-2.48-1.14-0.87-2.12-1.06-3.31-1.09h-0.03c-0.51 0-3.850.42-6.640.8-2.80.39-6.30.92-7.14 1.23-1.150.43-2.071-2.8 1.73C0.05 7.33-0.11 8.730.05 10.55c0.13 1.410.88 6.98 1.3 8.250.57 1.72 1.69 2.75 3.15 2.910.360.040.70.06 1.050.06 1.28 0 2.3-0.28 3.47-0.6 1.85-0.5 4.15-1.13 8.89-1.13h0.14c1.16 0 4.01-0.26 5.3-2.690.69-1.30.65-2.870.63-3.81zm-7.72-1.67-0.10.07c-0.270.19-0.550.37-0.820.56l-4.3 2.98c-0.270.21-0.750.52-1.020.52a0.240.24 0 0 1-0.11-0.02c-0.23-0.12-0.3-0.94-0.36-1.34l-0.01-0.09c-0.06-0.48-0.59-5.03-0.65-5.53-0.02-0.14-0.1-0.660.06-0.780.05-0.040.12-0.050.2-0.050.2 0 0.440.080.550.120.850.27 5.08 1.77 6.4 2.450.040.020.080.040.120.060.190.080.450.190.450.5100.3-0.220.45-0.410.56z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiYoutubekids;

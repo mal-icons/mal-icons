@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiHandSanitizerFill = createIcon("0 0 24 24", [["path",{"d":"M17 2V4L13 4V6H16V8C18.21 8 20 9.79 20 12V20C20 21.1 19.1 22 18 22H6C4.9 22 4 21.1 4 20V12C4 9.79 5.79 8 8 8V6H11V4L7.5 4C6.87 4 6.13 4.49 5.3 5.6L3.7 4.4C4.87 2.84 6.13 2 7.5 2H17ZM13 12H11V14H9V16H11L11 18H13L13 16H15V14H13V12Z"}]]);
+
+export default RiHandSanitizerFill;

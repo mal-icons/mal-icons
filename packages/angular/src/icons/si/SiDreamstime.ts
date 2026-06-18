@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-dreamstime",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDreamstime {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.53 5.15C16.95-1.6 7.12-0.4 2.76 4.630.59 7.11-0.24 10.560.06 13.71c0.3 2.48 1.2 4.73 2.48 6.23 3.38 4.13 9.23 4.58 13.06 1.95 5.41-3.75 5.03-9.83 2.1-13.21-5.25-6.01-14.26-0.07-10.88 6.760.83 1.65 2.7 2.55 4.43 2.55 2.4 0 4.28-2.85 3.15-4.58-1.13-1.8-3.08 0-2.25 1.350.68 1.05-0.75 1.65-1.35 1.5-1.58-0.38-2.33-2.55-1.8-4.350.45-1.58 2.1-2.63 3.68-2.55 2.180.15 4.58 1.88 4.35 5.63-0.52 6.08-8.48 7.21-11.64 2.85-4.95-6.980.9-16.37 9.84-13.51 4.58 1.5 7.96 6.91 5.86 12.69-0.82 2.18-1.27 3-1.35 3.75-0.38 2.78 8.41-5.86 1.8-15.62z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDreamstime;

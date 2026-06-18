@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-make",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMake {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.38 3.5c-0.27 0-0.510.19-0.570.47L9.85 18.99a0.580.58 0 0 0 0.450.68l4.10.83a0.580.58 0 0 0 0.68-0.45l2.96-15.02a0.580.58 0 0 0-0.45-0.68l-4.1-0.83a0.590.59 0 0 0-0.11-0.01zm-5.880.1a0.580.58 0 0 0-0.520.32L0.06 17.7a0.570.57 0 0 0 0.260.77l3.73 1.88a0.580.58 0 0 0 0.78-0.26l6.93-13.78a0.580.58 0 0 0-0.26-0.78L7.76 3.66a0.570.57 0 0 0-0.26-0.06zm11.740.12a0.580.58 0 0 0-0.580.58v15.43c0 0.320.260.580.580.58h4.18a0.580.58 0 0 0 0.58-0.58V4.29a0.580.58 0 0 0-0.58-0.58Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMake;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-calendar-schedule-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCalendarScheduleLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7 3V1H9V3H15V1H17V3H21C21.55 3 22 3.45 22 4V9H20V5H17V7H15V5H9V7H7V5H4V19H10V21H3C2.45 21 2 20.55 2 20V4C2 3.45 2.45 3 3 3H7ZM17 12C14.79 12 13 13.79 13 16C13 18.21 14.79 20 17 20C19.21 20 21 18.21 21 16C21 13.79 19.21 12 17 12ZM11 16C11 12.69 13.69 10 17 10C20.31 10 23 12.69 23 16C23 19.31 20.31 22 17 22C13.69 22 11 19.31 11 16ZM16 13V16.41L18.29 18.71L19.71 17.29L18 15.59V13H16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCalendarScheduleLine;

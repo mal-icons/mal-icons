@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiFilePaperFill = createIcon("0 0 24 24", [["path",{"d":"M3 15V3C3 2.45 3.45 2 4 2H20C20.55 2 21 2.45 21 3V19C21 20.66 19.66 22 18 22H4C2.34 22 1 20.66 1 19V17H17V19C17 19.55 17.45 20 18 20C18.55 20 19 19.55 19 19V15H3Z"}]]);
+
+export default RiFilePaperFill;

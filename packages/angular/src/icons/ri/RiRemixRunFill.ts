@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-remix-run-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiRemixRunFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.12 20C19.12 18.94 19.12 17.96 18.95 15.88C18.75 13.79 17.67 12.73 15.8 12.36C18.01 12.07 19.64 10.36 19.64 7.72C19.64 4.2 17.32 2 12.66 2H4V5.67H11.8C13.86 5.67 14.89 6.55 14.89 8.01C14.89 9.67 13.86 10.3 11.8 10.3H4V14.05H11.57C13.2 14.05 14.09 14.51 14.23 16.57C14.34 17.98 14.33 18.67 14.31 19.34L14.31 19.34C14.31 19.56 14.3 19.77 14.3 20L19.12 20ZM4 17.2V20H10.12V18.21C10.12 17.83 9.94 17.2 9.09 17.2H4Z","fill":"currentColor"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiRemixRunFill;

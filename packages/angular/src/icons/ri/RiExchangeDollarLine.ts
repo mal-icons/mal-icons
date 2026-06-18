@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-exchange-dollar-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiExchangeDollarLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.38 15.11C20.93 11.44 19.54 7.11 16 5.07C13.45 3.6 10.42 3.69 8.03 5.06L7.04 3.32C10.03 1.62 13.81 1.5 17 3.34C21.49 5.94 23.21 11.48 21.12 16.11L22.46 16.89L18.3 19.1L18.13 14.39L19.38 15.11ZM4.63 8.9C3.08 12.56 4.47 16.89 8 18.93C10.56 20.4 13.59 20.31 15.97 18.95L16.97 20.69C13.98 22.39 10.2 22.51 7 20.66C2.51 18.07 0.79 12.52 2.89 7.89L1.54 7.12L5.71 4.9L5.88 9.62L4.63 8.9ZM8.5 14H14C14.28 14 14.5 13.78 14.5 13.5C14.5 13.23 14.28 13 14 13H10C8.62 13 7.5 11.88 7.5 10.5C7.5 9.12 8.62 8 10 8H11V7H13V8H15.5V10H10C9.73 10 9.5 10.23 9.5 10.5C9.5 10.78 9.73 11 10 11H14C15.38 11 16.5 12.12 16.5 13.5C16.5 14.88 15.38 16 14 16H13V17H11V16H8.5V14Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiExchangeDollarLine;

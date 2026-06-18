@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-kucoin",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiKucoin {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m7.93 12 7.12 7.12 4.49-4.49a2 2 0 0 1 2.87 0 2 2 0 0 1 0 2.87l-5.92 5.92a2.06 2.06 0 0 1-2.88 0l-8.54-8.54v5.07a2.03 2.03 0 1 1-4.07 0V4.04a2.03 2.03 0 1 1 4.07 0v5.09L13.60.59a2.06 2.06 0 0 1 2.88 0l5.92 5.92c0.790.80.79 2.09 0 2.87-0.80.79-2.090.79-2.86 0l-4.49-4.49zM15.05 9.96a2.04 2.04 0 0 0-2.05 2.04c0 1.130.9 2.05 2.04 2.05a2.04 2.04 0 0 0 2.05-2.03v-0.02a2.07 2.07 0 0 0-2.03-2.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiKucoin;

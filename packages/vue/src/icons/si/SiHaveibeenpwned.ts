@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiHaveibeenpwned = createIcon("0 0 24 24", [["path",{"d":"M1.89 3.87 0 13.6h4.7l1.89-9.73ZM7.17 8.56l-0.98 5.04h4.7l0.98-5.04Zm5.94 1.31-0.72 3.73h4.7l0.72-3.73Zm6.19 0-0.72 3.73h4.7L24 9.87ZM5.91 15.09l-0.98 5.04h4.7l0.98-5.04z"}]]);
+
+export default SiHaveibeenpwned;

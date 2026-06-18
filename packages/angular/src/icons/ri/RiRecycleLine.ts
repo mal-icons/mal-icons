@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-recycle-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiRecycleLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.56 12.1L21.09 14.75C22.06 16.42 21.48 18.56 19.81 19.53C19.28 19.84 18.68 20 18.06 20L16 20L16 22.5L11 19L16 15.5L16 18L18.06 18C18.32 18 18.58 17.93 18.81 17.8C19.53 17.38 19.77 16.47 19.36 15.75L17.83 13.1L19.56 12.1ZM7.3 9.13L7.83 15.21L5.67 13.96L4.64 15.75C4.51 15.98 4.44 16.24 4.44 16.5C4.44 17.33 5.11 18 5.94 18L9 18V20H5.94C4 20 2.44 18.43 2.44 16.5C2.44 15.89 2.6 15.28 2.91 14.75L3.94 12.96L1.77 11.71L7.3 9.13ZM13.75 2.97C14.28 3.28 14.72 3.72 15.03 4.25L16.06 6.04L18.23 4.79L17.69 10.87L12.16 8.29L14.33 7.04L13.3 5.25C13.17 5.02 12.98 4.83 12.75 4.7C12.03 4.29 11.11 4.53 10.7 5.25L9.17 7.9L7.44 6.9L8.97 4.25C9.93 2.58 12.07 2 13.75 2.97Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiRecycleLine;

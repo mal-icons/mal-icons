@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-cloudflarepages",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCloudflarepages {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.72 14.32H5.44l-0.64-1.2L13.67 0l1.40.58-1.75 9.11h5.24l0.65 1.19L10.72 24l-1.41-0.54ZM4.09 5.45a0.580.58 0 1 1 0-1.160.580.58 0 0 1 0 1.16zm1.54 0a0.580.58 0 1 1 0-1.160.580.58 0 0 1 0 1.16zm1.54 0a0.580.58 0 1 1 0-1.160.580.58 0 0 1 0 1.16zm8.66-2.7h5.42l0.770.77v16.98l-0.770.77h-7.39l0.37-0.58h6.78l0.43-0.43V3.76l-0.43-0.43h-4.68l-0.55 2.85h-0.59l0.53-2.880.11-0.55ZM2.74 21.27l-0.77-0.77V3.52l0.77-0.77h7.68l-0.390.58H2.98l-0.430.43v16.5l0.430.43h5.59l-0.090.58zm1.16-1.93h3.28l-0.120.58h-3.55l-0.19-0.19v-3.47l0.58 1.16zm13.12 0 0.580.58H14.7l0.39-0.58z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCloudflarepages;

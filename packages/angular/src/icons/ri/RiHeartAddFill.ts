@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-heart-add-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiHeartAddFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19 14V17H22V19H19L19 22H17L17 19H14V17H17V14H19ZM20.24 4.76C22.4 6.92 22.57 10.31 20.75 12.67C19.93 12.24 18.99 12 18 12C14.69 12 12 14.69 12 18C12 19.01 12.25 19.96 12.69 20.79L12 21.49L3.52 12.99C1.42 10.64 1.5 7.02 3.76 4.76C6.02 2.49 9.65 2.42 12 4.53C14.35 2.42 17.98 2.49 20.24 4.76Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiHeartAddFill;

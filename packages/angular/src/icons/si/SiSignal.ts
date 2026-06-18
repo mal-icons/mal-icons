@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-signal",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSignal {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0q-0.93 0-1.830.14l0.17 1.11a11 11 0 0 1 3.32 0l0.17-1.11A12 12 0 0 0 12 0M9.150.34A12 12 0 0 0 5.77 1.74l0.580.96a10.8 10.8 0 0 1 3.07-1.27zm5.7 0-0.27 1.09a10.8 10.8 0 0 1 3.07 1.27l0.58-0.96A12 12 0 0 0 14.850.34M12 2.25a9.75 9.75 0 0 0-8.54 14.46c0.070.130.10.290.060.44l-1.01 4.34 4.34-1.01a0.620.62 0 0 1 0.440.06A9.7 9.7 0 0 0 12 21.75c5.39 0 9.75-4.36 9.75-9.75S17.39 2.25 12 2.25m-7.090.07a12 12 0 0 0-2.59 2.59l0.910.66a11 11 0 0 1 2.35-2.35zm14.18 0-0.660.91a11 11 0 0 1 2.35 2.35l0.91-0.66a12 12 0 0 0-2.59-2.59M1.74 5.77A12 12 0 0 0 0.34 9.15l1.090.27a10.8 10.8 0 0 1 1.27-3.07zm20.52 0-0.960.58a10.8 10.8 0 0 1 1.27 3.07l1.09-0.27a12 12 0 0 0-1.4-3.38M0.14 10.17A12 12 0 0 0 0 12q0 0.930.14 1.83l1.11-0.17A11 11 0 0 1 1.13 12q0-0.850.13-1.66zm23.720-1.110.17q0.130.810.13 1.66c0 0.85-0.04 1.12-0.12 1.66l1.110.17a12.1 12.1 0 0 0 0-3.66M1.43 14.58l-1.090.27a12 12 0 0 0 0.96 2.59l-0.26 1.14 1.10.260.36-1.54-0.19-0.36a10.8 10.8 0 0 1-0.87-2.35m21.13 0a10.8 10.8 0 0 1-1.27 3.07l0.960.58a12 12 0 0 0 1.4-3.38zm-1.79 3.85a11 11 0 0 1-2.35 2.35l0.660.91a12 12 0 0 0 2.59-2.59zm-19.96 1.1L0.36 21.48a1.8 1.8 0 0 0 2.16 2.16l1.95-0.45-0.26-1.09-1.950.46a0.680.68 0 0 1-0.81-0.81l0.45-1.95zm16.83 1.77a10.8 10.8 0 0 1-3.07 1.27l0.27 1.09a12 12 0 0 0 3.38-1.4zm-10.940.21-1.540.360.26 1.1 1.14-0.27c0.810.42 1.680.74 2.590.96l0.27-1.09a10.8 10.8 0 0 1-2.35-0.87zm3.63 1.24-0.17 1.11a12.1 12.1 0 0 0 3.66 0l-0.17-1.11q-0.810.13-1.660.13a11 11 0 0 1-1.66-0.12"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSignal;

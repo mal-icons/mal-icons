@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-doubanread",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDoubanread {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.06 3c-4.13 0-5.43 3.97-7.99 5.97l-0.150.12c-0.830.61-1.79 1-3.01 1C2.01 10.080.38 7.86 0 6.44c0 1.10.18 2.250.5 3.4C2.05 15.4 6.96 21 11.41 21c5.21 0 8.99-5.43 10.13-9.560.37-1.33 1.2-2.48 2.37-3.18l0.1-0.06-0.14-0.0500c-1.14-0.45-2.08-1.31-2.72-2.38-0.98-1.65-2.98-2.77-5.08-2.77m2.71 3.75c0.380.010.70.360.740.820.040.5-0.270.93-0.680.98-0.410.04-0.77-0.32-0.81-0.82s0.27-0.930.68-0.98zm-4.61 2.25a2.46 2.46 0 0 1 1.050.71c1.49 1.830.4 4.62-1.37 5.86-2.2 1.62-5.20.88-7.38-0.38a9.5 9.5 0 0 1-2.77-2.43 10 10 0 0 1-0.67-1.02c-0.01-0.020.02-0.040.03-0.02 1.39 1.98 3.55 3.3 5.9 3.720.950.14 1.90.24 2.79-0.04 1.53-0.52 2.9-1.74 3.33-3.330.32-1.090.03-2.33-0.94-3.02-0.03-0.02 0-0.060.03-0.05"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDoubanread;

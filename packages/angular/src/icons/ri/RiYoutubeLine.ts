@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-youtube-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiYoutubeLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.61 6.99C19.53 6.7 19.32 6.47 19.07 6.4C18.63 6.28 16.5 6 12 6C7.5 6 5.37 6.28 4.93 6.4C4.69 6.47 4.47 6.7 4.4 6.99C4.29 7.42 4 9.2 4 12C4 14.8 4.29 16.58 4.4 17.01C4.47 17.3 4.69 17.53 4.93 17.6C5.37 17.72 7.5 18 12 18C16.5 18 18.63 17.72 19.07 17.6C19.31 17.53 19.53 17.3 19.61 17.01C19.72 16.58 20 14.8 20 12C20 9.2 19.72 7.42 19.61 6.99ZM21.54 6.5C22 8.28 22 12 22 12C22 12 22 15.72 21.54 17.5C21.29 18.49 20.55 19.26 19.61 19.52C17.9 20 12 20 12 20C12 20 6.11 20 4.4 19.52C3.45 19.26 2.71 18.48 2.46 17.5C2 15.72 2 12 2 12C2 12 2 8.28 2.46 6.5C2.71 5.51 3.45 4.74 4.4 4.48C6.11 4 12 4 12 4C12 4 17.9 4 19.61 4.48C20.55 4.74 21.29 5.52 21.54 6.5ZM10 15.5V8.5L16 12L10 15.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiYoutubeLine;

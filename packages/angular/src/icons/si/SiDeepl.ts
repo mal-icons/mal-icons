@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-deepl",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDeepl {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.91 4.94 12.690.19a1.36 1.36 0 0 0-1.37 0L3.09 4.96a1.38 1.38 0 0 0-0.69 1.18v9.53a1.38 1.38 0 0 0 0.69 1.19l8.22 4.760.060.04 4.05 2.35-0.01-2.060.01-1.1400.02v-0.38c0-0.230.12-0.430.3-0.56l0.26-0.150.13-0.07h-0.01l4.8-2.78a1.38 1.38 0 0 0 0.69-1.2V6.14a1.38 1.38 0 0 0-0.69-1.2m-9.85 9.69a1.43 1.43 0 0 1-0.4 1.38 1.41 1.41 0 0 1-1.97 0 1.42 1.42 0 0 1 0-2.06 1.41 1.41 0 0 1 2.040.08l3.33-1.920.690.39zm5.77-2.41a1.41 1.41 0 0 1-1.97 0 1.43 1.43 0 0 1-0.37-1.48l-0.010.01-3.75-2.17-0.060.06a1.41 1.41 0 0 1-1.97 0 1.42 1.42 0 0 1 0-2.06 1.41 1.41 0 0 1 1.97 0c0.390.380.520.920.39 1.41l3.78 2.20.02-0.02a1.41 1.41 0 0 1 1.97 0 1.43 1.43 0 0 1 0 2.06z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDeepl;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiWallet2Fill = createIcon("0 0 24 24", [["path",{"d":"M22 8H13C12.45 8 12 8.45 12 9V15C12 15.55 12.45 16 13 16H22V20C22 20.55 21.56 21 21 21H3C2.45 21 2 20.55 2 20V4C2 3.45 2.45 3 3 3H21C21.56 3 22 3.45 22 4V8ZM15 11H18V13H15V11Z"}]]);
+
+export default RiWallet2Fill;

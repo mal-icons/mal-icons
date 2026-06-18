@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-matomo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMatomo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.66 15.37a3.34 3.34 0 0 1-3.33 3.33C1.5 18.7 0 17.21 0 15.37s1.5-3.33 3.33-3.33a3.34 3.34 0 0 1 3.33 3.33zm11.57-3.64a3.66 3.66 0 0 1-1.990.59 3.64 3.64 0 0 1-1.87-0.53l0.010.01a3.73 3.73 0 0 1-1.24-1.19l-2.61-3.69a0.170.17 0 0 1-0.03-0.03A3.31 3.31 0 0 0 7.67 5.3a3.32 3.32 0 0 0-2.85 1.590.150.15 0 0 1-0.020.03l-3.43 5.34a3.66 3.66 0 0 1 5.09 1.180.130.13 0 0 1 0.020.02l2.76 3.87a3.31 3.31 0 0 0 2.7 1.38 3.31 3.31 0 0 0 2.71-1.38l0.01-0.01c0.07-0.10.14-0.20.2-0.3l1.44-2.25 1.94-3.02zm5.28 1.9l-0.01-0.03-0.04-0.07a1.11 1.11 0 0 0-0.03-0.04l-3.52-5.37c0.020.170.050.340.050.51 0 0.74-0.22 1.46-0.63 2.07l-2.8 4.38 1.42 2.1800a0.130.13 0 0 1 0.020.03 3.34 3.34 0 0 0 2.72 1.42A3.34 3.34 0 0 0 24 15.37c0-0.61-0.17-1.22-0.5-1.74zm-7.26-1.67a3.34 3.34 0 0 0 3.33-3.33 3.34 3.34 0 0 0-3.33-3.33 3.34 3.34 0 0 0-3.33 3.33 3.34 3.34 0 0 0 3.33 3.33z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMatomo;

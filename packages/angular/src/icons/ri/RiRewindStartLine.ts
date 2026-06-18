@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-rewind-start-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiRewindStartLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 4C1.45 4 1 4.45 1 5V19C1 19.55 1.45 20 2 20C2.55 20 3 19.55 3 19V13.33L12.22 19.48C12.3 19.54 12.4 19.57 12.5 19.57C12.78 19.57 13 19.34 13 19.07V13.33L22.22 19.48C22.3 19.54 22.4 19.57 22.5 19.57C22.78 19.57 23 19.34 23 19.07V4.93C23 4.84 22.97 4.74 22.92 4.66C22.76 4.43 22.45 4.36 22.22 4.52L13 10.67V4.93C13 4.84 12.97 4.74 12.92 4.66C12.76 4.43 12.45 4.36 12.22 4.52L3 10.67V5C3 4.45 2.55 4 2 4ZM11 7.74V16.26L4.61 12L11 7.74ZM21 7.74V16.26L14.61 12L21 7.74Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiRewindStartLine;

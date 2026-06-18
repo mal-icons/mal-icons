@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiVbulletin = createIcon("0 0 24 24", [["path",{"d":"M1.09 10.32V24h21.82V0h-2.42l-5.46 19.61h-6.09l-3.13-9.25zm9.28-4.44l1.36 6.31L13.96 0H1.09v5.87Z"}]]);
+
+export default SiVbulletin;

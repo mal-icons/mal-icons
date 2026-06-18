@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-matternet",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMatternet {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.23 4.18l-4.07 2.33V1.83L11.99 0 8.83 1.83v4.68L4.78 4.17 1.61 6v3.66L5.66 12l-4.05 2.34V18l3.17 1.83 4.04-2.34v4.68L11.98 24l3.17-1.83v-4.68l4.05 2.33 3.17-1.83v-3.65L18.34 12l4.06-2.34V6l-3.16-1.82h0zm0.37 3.43V5.72l1.640.94v1.91l-1.64-0.95h0zm1.64 9.29l-6.07-3.5 1.65-0.94L21.24 15v1.9l00zm-6.83-3.95L12.76 12l6.45-3.73 1.640.94-6.45 3.73h0zM3.13 9.22l1.64-0.94L11.23 12l-1.640.95-6.45-3.73zm5.69 4.17l-6.07 3.51V15l4.43-2.56 1.640.95v0zM2.75 8.56V6.66l1.64-0.94v1.9l-1.640.95zm9.63 0V1.55l1.640.94V7.61l-1.640.95v0zm-2.4-0.96V2.49l1.64-0.94v7l-1.64-0.95zm8.87-1.89v1.9l-6.46 3.73V9.44l6.46-3.73zm-7.23 3.72v1.9L5.15 7.61V5.72l6.46 3.7200zm-2.4 6.51l-4.43 2.56-1.64-0.94 6.07-3.51v1.9zm0.77-2.34l1.64-0.94v7.45l-1.640.96v-7.47zm3.66 8.12l-1.640.95-1.64-0.95 1.64-0.95 1.640.95v0zm0.39-0.66l-1.65-0.95v-7.44l1.650.94zm6.83-3.5l-1.640.94-4.42-2.56v-1.9l6.08 3.51h-0.01z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMatternet;

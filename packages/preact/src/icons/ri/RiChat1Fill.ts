@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiChat1Fill = createIcon("0 0 24 24", [["path",{"d":"M10 3H14C18.42 3 22 6.58 22 11C22 15.42 18.42 19 14 19V22.5C9 20.5 2 17.5 2 11C2 6.58 5.58 3 10 3Z"}]]);
+
+export default RiChat1Fill;

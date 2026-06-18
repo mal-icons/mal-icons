@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-visa",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiVisa {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.11 8.26L5.97 15.76H3.92L2.37 9.78c-0.09-0.37-0.17-0.5-0.46-0.66C1.45 8.860.68 8.63 0 8.48l0.05-0.22h3.3a0.90.9 0 1.890.76l0.82 4.34 2.02-5.1zm8.03 5.05c0.01-1.98-2.74-2.09-2.72-2.970.01-0.270.26-0.560.82-0.63a3.66 3.66 0 11.910.34l0.34-1.59a5.21 5.21 0 0-1.81-0.33c-1.92 0-3.27 1.02-3.28 2.48-0.01 1.080.96 1.68 1.7 2.040.760.37 1.010.6 1.010.9300.5-0.60.73-1.160.73-0.970.02-1.54-0.26-1.99-0.47l-0.35 1.64c0.450.21 1.290.39 2.160.4 2.04 0 3.37-1.01 3.38-2.56m5.06 2.45H24l-1.56-7.5h-1.66a0.880.88 0 0-0.830.55l-2.91 6.95h2.04l0.41-1.12h2.49zm-2.16-2.66l1.02-2.810.59 2.82zm-8.16-4.84l-1.6 7.5H8.34l1.61-7.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiVisa;

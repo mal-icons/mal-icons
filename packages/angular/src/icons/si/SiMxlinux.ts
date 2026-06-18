@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-mxlinux",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMxlinux {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 13.3l3.28 3.82-0.750.9-2.13-2.52-1.13-1.340.74-0.86zM24 2.41v19.18c0 0.66-0.53 1.19-1.19 1.19H1.19A1.19 1.19 0 0 1 0 21.59V2.41c0-0.650.53-1.19 1.19-1.19h21.63c0.66 0 1.190.53 1.19 1.19zm-2.24 17.09l-2.12-2.54-2.12-2.54-0.590.7-3.25-3.79 4.91-5.73-1.17-1.01-4.76 5.55-4.74-5.53-1.95 1.67 5 5.83-0.730.85-1.24-1.46-3.38 4-3.38 4h19.52z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMxlinux;

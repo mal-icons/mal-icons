@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-fueler",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFueler {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0c1.2 0 2.09 1.93 3.17 2.28 1.130.36 2.98-0.67 3.920.010.950.690.53 2.76 1.22 3.70.680.93 2.8 1.18 3.17 2.30.35 1.08-1.21 2.51-1.21 3.71 0 1.2 1.56 2.63 1.21 3.71-0.36 1.12-2.48 1.36-3.16 2.3-0.690.94-0.27 3.02-1.22 3.7-0.940.68-2.79-0.35-3.910.01C14.09 22.07 13.2 24 12 24c-1.2 0-2.09-1.93-3.17-2.28-1.13-0.36-2.980.67-3.91-0.01-0.95-0.68-0.53-2.76-1.22-3.7-0.68-0.93-2.8-1.17-3.16-2.29-0.35-1.08 1.21-2.51 1.21-3.71 0-1.2-1.56-2.63-1.21-3.710.37-1.12 2.48-1.36 3.17-2.290.69-0.940.27-3.02 1.22-3.70.94-0.68 2.790.36 3.91-0.01C9.91 1.93 10.8 0 12 0Zm-0.2 6.34-3.25 6.17c-0.160.30.070.650.390.65h1.71c0.23 0 0.440.190.440.45v3.71c0 0.460.60.620.830.22l3.39-6.11c0.16-0.29-0.04-0.66-0.38-0.66l-1.850c-0.24 0-0.44-0.2-0.44-0.44V6.55c0-0.46-0.61-0.62-0.83-0.21Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFueler;

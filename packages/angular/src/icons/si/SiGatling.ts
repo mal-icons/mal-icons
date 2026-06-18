@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-gatling",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGatling {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.14 17.31c0.66-0.39 1.24-0.92 1.68-1.56h0.77a0.710.71 0 0 0 0.71-0.710.710.71 0 0 0-0.71-0.71h-0.06c0.15-0.450.25-0.920.27-1.41h0.76a0.710.71 0 0 0 0.71-0.710.710.71 0 0 0-0.71-0.71h-0.79c-0.05-0.49-0.17-0.97-0.34-1.41h0.15a0.710.71 0 0 0 0.71-0.710.710.71 0 0 0-0.71-0.71h-0.96c-0.98-1.23-2.53-2.05-4.26-2.05h-1.22c-0.76 0-1.50.16-2.160.45H14.26c2.95 0 5.37 2.42 5.37 5.37 0 2.73-2.05 4.99-4.69 5.33-0.160.01-0.320.02-0.490.02H8.92a6.59 6.59 0 0 0 2.25-2.03c0.040.010.090.010.120.01h4.81a0.710.71 0 0 0 0.71-0.710.710.71 0 0 0-0.71-0.71H11.91a6.82 6.82 0 0 0 0.37-1.41h5.51a0.710.71 0 0 0 0.71-0.710.710.71 0 0 0-0.71-0.71H12.34c-0.04-0.49-0.14-0.96-0.27-1.41h4.05a0.710.71 0 0 0 0.71-0.710.710.71 0 0 0-0.71-0.71h-4.68c-1.14-1.93-3.25-3.23-5.65-3.23h-0.47C3.14 5.43 1.19 6.52 0 8.18a5.85 5.85 0 0 1 4.43-2.03c2.53 0 4.69 1.61 5.5 3.86H6.96C6.37 9.26 5.45 8.78 4.43 8.78c-1.780.02-3.22 1.46-3.22 3.24s1.45 3.23 3.23 3.23c1.06 0 1.99-0.5 2.58-1.29H3.96c0-1.42 1.15-2.57 2.57-2.57h3.75c0.020.210.040.420.040.63 0 3.23-2.63 5.86-5.86 5.86-1.71 0-3.24-0.74-4.32-1.9 1.2 1.57 3.1 2.59 5.22 2.59h9.63c4.99 0 9.03-0.29 9.03-0.68 0-0.25-1.98-0.48-4.86-0.59Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGatling;

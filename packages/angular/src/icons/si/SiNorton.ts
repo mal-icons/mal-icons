@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-norton",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiNorton {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.98 12c0 6.62-5.37 12-11.98 12C5.4 24 0.02 18.620.02 12S5.4 0 12 0c1.83 0 3.560.41 5.11 1.15l-1.99 2.57A8.79 8.79 0 0 0 12 3.15c-4.66 0-8.48 3.63-8.81 8.21a9.6 9.6 0 0 0-0.020.65c0 4.88 3.96 8.86 8.84 8.86 4.87 0 8.84-3.97 8.84-8.85 0-0.65-0.07-1.29-0.2-1.9l2.31-2.98A11.95 11.95 0 0 1 23.98 12m-2.44-7.25L19.52 7.35l-7.08 9.14-5.78-5.17L8.75 8.97l3.27 2.93L17.38 4.98l1.92-2.48a12.08 12.08 0 0 1 2.23 2.25"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiNorton;

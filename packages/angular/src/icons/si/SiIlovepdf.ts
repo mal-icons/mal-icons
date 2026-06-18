@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ilovepdf",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiIlovepdf {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.37 2.09c-1.350.65-2.36 1.74-3.09 2.99C11.1 3.09 9.21 1.47 6.36 1.47 3.5 1.47 0 3.89 0 7.99c0 4.14 3.46 6.11 5.17 7.22 1.83 1.19 4.96 3.34 7.11 7.33 2.15-3.99 5.28-6.14 7.11-7.32 1.29-0.83 3.56-2.15 4.61-4.51Zm-0.1 8.83V3.14l7.79 7.79H15.27z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiIlovepdf;

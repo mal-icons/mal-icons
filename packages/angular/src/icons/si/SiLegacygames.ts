@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-legacygames",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLegacygames {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.62 5.99v12.03L11.99 24l10.37-5.99L22.38 6 11.99 0Zm19.150.960 10.12-8.79 5.05-8.76-5.02L3.22 6.94l8.77-5.06Zm-8.78-3.18a2.03 2.03 0 0 1 0.87 3.86v2.94l3.86-2.26c0.2-0.120.43-0.20.66-0.23l1.6-0.22a0.10.1 0 0 1 0.10.17l-0.96 1.31a1.78 1.78 0 0 1-0.540.49L13.6 12.13l2.39 1.4c0.56-0.41 1.39-0.46 2.14-0.08l0.160.09c1.040.62 1.49 1.861 2.77-0.490.91-1.73 1.15-2.770.53-0.75-0.44-1.19-1.21-1.2-1.94l-2.47-1.45v3.04a2.03 2.03 0 0 1 1.15 1.67l0.010.16a2.03 2.03 0 1 1-2.9-1.83v-2.91l-4.24 2.46a0.60.6 0 0 1-0.240.08l-1.750.17a0.10.1 0 0 1-0.09-0.16l1.04-1.4a0.590.59 0 0 1 0.18-0.16l4.37-2.56-2.42-1.42c-0.560.41-1.390.46-2.140.08l-0.16-0.09c-1.04-0.62-1.49-1.86-1-2.770.49-0.91 1.73-1.15 2.77-0.530.750.45 1.19 1.21 1.2 1.95l2.47 1.450-3.04a2.03 2.03 0 0 1-1.15-1.67l-0.01-0.16c0-1.120.91-2.03 2.03-2.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLegacygames;

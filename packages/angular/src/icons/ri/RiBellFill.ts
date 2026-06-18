@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-bell-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBellFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.41 10.59L13.89 11.07L14.36 11.56L14.82 12.05C18.28 15.81 20.29 19.27 19.42 20.13C19.02 20.53 18.07 20.32 16.79 19.62C13.58 21.64 9.39 21.44 6.38 19.03L9.36 16.05C10.03 16.23 10.77 16.06 11.29 15.54C12.07 14.75 12.07 13.49 11.29 12.71C10.51 11.93 9.25 11.93 8.46 12.71C7.98 13.19 7.8 13.86 7.91 14.48L7.95 14.64L4.97 17.62C2.56 14.61 2.36 10.42 4.38 7.21C3.68 5.93 3.47 4.98 3.87 4.58C4.84 3.6 9.12 6.29 13.41 10.59ZM19.78 4.22C20.56 5 20.56 6.27 19.78 7.05C19.73 7.1 19.67 7.15 19.61 7.2C21.23 9.75 21.43 12.95 20.22 15.67C19.03 13.71 17.15 11.49 14.83 9.17L14.29 8.64C12.16 6.56 10.14 4.88 8.33 3.78C11.05 2.57 14.25 2.77 16.8 4.39C16.85 4.33 16.9 4.27 16.95 4.22C17.73 3.44 19 3.44 19.78 4.22Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBellFill;

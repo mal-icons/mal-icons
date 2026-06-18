@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-imagej",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiImagej {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.13 17.51h-8.07a0.190.19 0 0 1-0.19-0.19v-0.44a0.190.19 0 0 1 0.19-0.19h8.07a0.190.19 0 0 1 0.190.19v0.44a0.190.19 0 0 1-0.190.19zm5.62-12.19c-1.420-4.22-0.01-5.64-0.01a0.40.4 0 0 0-0.40.4v3.61c0 0.220.180.40.40.4h1.75v8.19a1.83 1.83 0 0 1-0.91 1.58 1.83 1.83 0 0 1-1.82 0 1.83 1.83 0 0 1-0.91-1.58H6.94c0 2.17 1.17 4.19 3.05 5.280.940.54 1.990.81 3.050.81s2.11-0.27 3.05-0.81c1.88-1.08 3.04-3.11 3.05-5.27V5.69a0.380.38 0 0 0-0.38-0.38zM7.45 15.23h3.28a0.640.64 0 0 0 0.64-0.64V0.64A0.640.64 0 0 0 10.73 0h-3.28a0.640.64 0 0 0-0.640.64v13.95c0 0.350.290.640.640.64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiImagej;

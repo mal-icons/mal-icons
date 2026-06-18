@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-clubforce",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiClubforce {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.4 0C0.62 0 0 0.62 0 1.4v21.2c0 0.780.62 1.4 1.4 1.4h21.2c0.78 0 1.4-0.62 1.4-1.4V1.4c0-0.78-0.62-1.4-1.4-1.4Zm4.78 5.5h9.61l-2.83 2.11H8.33v3.47L6.18 12.72V5.5Zm11.64 1.32v7.42L11.96 18.5l-4.79-3.63 1.68-1.32 3.11 2.35 3.19-2.39-3.23-2.23 1.83-1.35 1.96 1.36v-2.87Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiClubforce;

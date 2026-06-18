@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiTShirtFill = createIcon("0 0 24 24", [["path",{"d":"M14.51 5L17.12 2.39C17.51 2 18.14 2 18.53 2.39L22.78 6.64C23.17 7.03 23.17 7.66 22.78 8.05L19 11.83V21C19 21.55 18.55 22 18 22H6C5.45 22 5 21.55 5 21V11.83L1.22 8.05C0.83 7.66 0.83 7.03 1.22 6.64L5.46 2.39C5.85 2 6.49 2 6.88 2.39L9.48 5H14.51Z"}]]);
+
+export default RiTShirtFill;

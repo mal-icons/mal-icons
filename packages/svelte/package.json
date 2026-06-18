@@ -265,20 +265,40 @@
       "bun": "./src/icons/oc/*.svelte",
       "import": "./src/icons/oc/*.svelte"
     },
+    "./ri": {
+      "svelte": "./src/icons/ri/index.ts",
+      "bun": "./src/icons/ri/index.ts",
+      "import": "./src/icons/ri/index.ts"
+    },
     "./rx": {
       "svelte": "./src/icons/rx/index.ts",
       "bun": "./src/icons/rx/index.ts",
       "import": "./src/icons/rx/index.ts"
+    },
+    "./ri/*": {
+      "svelte": "./src/icons/ri/*.svelte",
+      "bun": "./src/icons/ri/*.svelte",
+      "import": "./src/icons/ri/*.svelte"
     },
     "./rx/*": {
       "svelte": "./src/icons/rx/*.svelte",
       "bun": "./src/icons/rx/*.svelte",
       "import": "./src/icons/rx/*.svelte"
     },
+    "./si": {
+      "svelte": "./src/icons/si/index.ts",
+      "bun": "./src/icons/si/index.ts",
+      "import": "./src/icons/si/index.ts"
+    },
     "./sl": {
       "svelte": "./src/icons/sl/index.ts",
       "bun": "./src/icons/sl/index.ts",
       "import": "./src/icons/sl/index.ts"
+    },
+    "./si/*": {
+      "svelte": "./src/icons/si/*.svelte",
+      "bun": "./src/icons/si/*.svelte",
+      "import": "./src/icons/si/*.svelte"
     },
     "./sl/*": {
       "svelte": "./src/icons/sl/*.svelte",

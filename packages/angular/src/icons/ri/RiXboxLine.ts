@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-xbox-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiXboxLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.8 15.49C5.92 12.96 8 10.05 9.29 8.52C8.04 7.28 7.12 6.59 6.47 6.22C4.95 7.68 4 9.73 4 12C4 13.25 4.29 14.43 4.8 15.49ZM8.85 4.64C10.45 5.05 12 5.96 12 5.96V5.95C12 5.95 13.55 5.05 15.15 4.64C14.19 4.23 13.12 4 12 4C10.88 4 9.82 4.23 8.85 4.64ZM17.54 6.22C16.88 6.59 15.97 7.28 14.72 8.52C16.01 10.05 18.08 12.96 19.2 15.48C19.71 14.43 20 13.25 20 12C20 9.73 19.05 7.68 17.54 6.22ZM17.94 17.36C16.54 15.12 13.85 12.41 12 11.01C10.15 12.41 7.46 15.12 6.06 17.36C7.52 18.98 9.64 20 12 20C14.36 20 16.48 18.98 17.94 17.36ZM12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiXboxLine;

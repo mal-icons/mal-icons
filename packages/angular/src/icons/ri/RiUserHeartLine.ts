@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-user-heart-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiUserHeartLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.84 15.66L18.02 15.84L18.19 15.66C19.07 14.78 20.5 14.78 21.38 15.66C22.26 16.54 22.26 17.96 21.38 18.84L18.02 22.2L14.66 18.84C13.78 17.96 13.78 16.54 14.66 15.66C15.54 14.78 16.96 14.78 17.84 15.66ZM12 14V16C8.69 16 6 18.69 6 22H4C4 17.67 7.45 14.14 11.75 14L12 14ZM12 1C15.32 1 18 3.69 18 7C18 10.24 15.44 12.88 12.23 13L12 13C8.69 13 6 10.32 6 7C6 3.76 8.56 1.12 11.78 1L12 1ZM12 3C9.79 3 8 4.79 8 7C8 9.21 9.79 11 12 11C14.21 11 16 9.21 16 7C16 4.79 14.21 3 12 3Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiUserHeartLine;

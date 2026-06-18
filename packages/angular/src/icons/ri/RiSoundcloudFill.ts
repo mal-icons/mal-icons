@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-soundcloud-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSoundcloudFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.46 8.6C10.73 8.6 10.94 10.7 10.94 13.3L10.94 13.65C10.92 16.09 10.72 18 10.46 18C10.21 18 10 16.04 9.98 13.56L9.98 13.21C9.99 10.65 10.2 8.6 10.46 8.6ZM8.8 9.56C9.06 9.56 9.27 11.36 9.28 13.61V13.95C9.27 16.2 9.06 18 8.8 18C8.54 18 8.34 16.25 8.32 14.03L8.32 13.69L8.32 13.35C8.35 11.22 8.55 9.56 8.8 9.56ZM7.14 9.56C7.39 9.56 7.6 11.31 7.62 13.53L7.62 13.87L7.61 14.21C7.59 16.34 7.38 18 7.14 18C6.88 18 6.67 16.2 6.66 13.95V13.61C6.67 11.36 6.88 9.56 7.14 9.56ZM5.47 10.13C5.74 10.13 5.95 11.89 5.95 14.07L5.95 14.4C5.93 16.42 5.72 18 5.47 18C5.21 18 5 16.29 4.99 14.15V13.98C5 11.85 5.21 10.13 5.47 10.13ZM3.81 11.86C4.07 11.86 4.29 13.24 4.29 14.93L4.29 15.09C4.27 16.71 4.06 18 3.81 18C3.54 18 3.33 16.63 3.33 14.93L3.33 14.77C3.34 13.15 3.55 11.86 3.81 11.86ZM14.59 7.06C17.17 7.06 19.31 8.95 19.71 11.41C20.01 11.33 20.32 11.28 20.64 11.28C22.5 11.28 24 12.79 24 14.64C24 16.48 22.53 17.97 20.7 18L20.64 18H12.48C12.06 18 11.71 17.66 11.71 17.24V7.93C12.54 7.38 13.53 7.06 14.59 7.06ZM2.14 11.67C2.41 11.67 2.62 13 2.62 14.64L2.62 14.8C2.61 16.37 2.4 17.62 2.14 17.62C1.88 17.62 1.67 16.33 1.66 14.72L1.66 14.64C1.66 13 1.88 11.67 2.14 11.67ZM0.48 12.63C0.75 12.63 0.96 13.57 0.96 14.74L0.96 14.87C0.94 15.98 0.74 16.85 0.48 16.85C0.21 16.85 0 15.91 0 14.74L0 14.61C0.02 13.5 0.22 12.63 0.48 12.63Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSoundcloudFill;

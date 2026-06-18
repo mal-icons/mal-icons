@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-veritas",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiVeritas {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 9.75l1.25 3.87c0.110.320.410.530.730.53a0.770.77 0 0.73-0.53l1.25-3.87h-0.69L2.09 13.41a0.110.11 0 1-0.10.08c-0.05 0-0.09-0.03-0.11-0.08L0.69 9.75H0zm5.31 0c-0.61 0-1.10.49-1.1 1.1v2.2c0 0.610.49 1.1 1.1 1.1h2.09v-0.66H5.31a0.440.44 0 1-0.44-0.44v-0.78h2.09v-0.65H4.87v-0.78c0-0.240.2-0.440.44-0.44h2.09V9.75H5.31zm3.76 0a0.990.99 0 0-0.990.99v3.41h0.66v-3.41c0-0.180.15-0.330.33-0.33h1.43a0.550.55 0 1.510.350.550.55 0 1-0.320.71l-1.110.41c-0.40.14-0.610.58-0.480.98a0.770.77 0 0.410.45l2.070.94v-0.72l-1.81-0.8a0.130.13 0 1-0.07-0.080.130.13 0 1.08-0.17l1.14-0.4c0.62-0.240.94-0.940.7-1.56-0.19-0.48-0.64-0.78-1.13-0.78H9.07zm3.31 0v4.4h0.66V9.75h-0.66zm1.21 0v0.66h1.28v3.74h0.66v-3.74h1.28V9.75h-3.21zm4.71 0a0.770.77 0 0-0.730.53l-1.25 3.87h0.7l1.18-3.67a0.110.11 0 1.1-0.08c0.05 0 0.090.030.110.08l1.18 3.67h0.7l-1.25-3.87a0.770.77 0 0-0.73-0.53zm3.33 0c-0.7 0-1.270.57-1.27 1.27 0 0.70.57 1.27 1.27 1.27l1.10c0.33 0 0.610.270.610.6a0.610.61 0 1-0.610.61h-2.15v0.66h2.15c0.7 0 1.27-0.57 1.27-1.27s-0.57-1.27-1.27-1.27h-1.1a0.610.61 0 1-0.61-0.61c0-0.330.27-0.610.61-0.61h2.15V9.75h-2.15Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiVeritas;

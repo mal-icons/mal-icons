@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-squarespace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSquarespace {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.66 8.72c-1.8-1.8-4.73-1.8-6.56 0l-7.35 7.35c-0.450.45-0.45 1.2 0 1.650.450.45 1.20.45 1.65 0l7.35-7.35c0.9-0.9 2.36-0.9 3.26 0 0.90.90.9 2.36 0 3.26l-7.24 7.24c0.90.9 2.360.9 3.26 0l5.59-5.59c1.84-1.84 1.84-4.760.04-6.56zm-2.47 2.44c-0.45-0.45-1.2-0.45-1.65 0l-7.35 7.39c-0.90.9-2.360.9-3.26 0-0.45-0.45-1.2-0.45-1.65 0s-0.45 1.2 0 1.65c1.8 1.8 4.73 1.8 6.56 0l7.35-7.35c0.45-0.490.45-1.240-1.69zm-2.44-7.35c-1.8-1.8-4.73-1.8-6.56 0l-7.35 7.35c-0.450.45-0.45 1.2 0 1.65s1.20.45 1.65 0l7.4-7.35c0.9-0.9 2.37-0.9 3.27 0 0.450.45 1.20.45 1.65 0 0.42-0.490.42-1.2-0.03-1.65h-0.02zm-2.47 2.44c-0.45-0.45-1.2-0.45-1.65 0l-7.35 7.39c-0.90.9-2.360.9-3.26 0-0.9-0.9-0.9-2.36 0-3.26l7.24-7.24c-0.9-0.9-2.36-0.9-3.26 0L1.35 8.72c-1.8 1.8-1.8 4.72 0 6.56 1.8 1.8 4.72 1.8 6.56 0l7.35-7.35c0.45-0.490.45-1.24 0-1.69h0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSquarespace;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiStarlingbank = createIcon("0 0 24 24", [["path",{"d":"M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm2.74 3.82h0.67v2.72h-0.67a4.79 4.79 0 0 0-4.79 4.79V12H7.23v-0.67c0-4.14 3.37-7.51 7.51-7.51zM14.05 12h2.72v0.67c0 4.14-3.37 7.51-7.51 7.51h-0.67v-2.72h0.67a4.79 4.79 0 0 0 4.79-4.79z"}]]);
+
+export default SiStarlingbank;

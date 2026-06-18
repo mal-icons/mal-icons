@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-autodeskrevit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAutodeskrevit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M24 22.67H2.99c-0.52 0-0.84-0.29-0.83-0.7200.040-0.150-0.460.14-0.080.28-0.160.43-0.25l0.08-0.040.07-0.060.02-0.010.13-0.08 1.29-0.8h1.13c3.35 0 11.82 0 16.550.010.16 0 0.63 0 1-0.370.37-0.370.37-0.850.37-1.01-0.01-2.060-4.110.01-6.160.01-2.390.02-4.86 0-7.3v-0.06l0.61-0.01c0.1700.140.20.140.30.01 5.68-0.02 11.360.02 17.04zM14.33 8.98c0.01-0.280.01-0.560.01-0.86-0.01-0.5-0.39-1.05-0.92-1.05-0.43 0-0.920.01-1.430.01v3.01h1.43c0.52 0 0.9-0.580.91-1.1zM3.89 19.23 3.85 1.36l0.01-0.020.030h17.31c0.510.230.940.56 1.03 1.160.02 1.05 0 1.9 0 2.8500.0200.04 0 0.060.03 4.49-0.02 8.960 13.45 0 0.28-0.070.38-0.370.38-5.99-0.01-17.97-0.01-17.97-0.01zm5.62-3.97h2.4l0.06-0.05v-3.5c0.3200.5700.7900.08 0 0.350.080.450.290.360.760.69 1.53 1.13 2.250.580.97 1.7 1.2 2.47 1.20.53 0 0.53-0.020.53-0.24 0-0.42-0.01-0.93-0.01-1.37-0.4-0.04-0.73-0.16-0.93-0.54-0.36-0.7-0.74-1.4-1.12-2.110.25-0.070.22-0.060.3-0.090.86-0.36 1.14-0.95 1.21-1.710.05-0.50.06-1.140.03-1.39-0.11-0.83-0.38-1.45-1.04-1.93-0.77-0.56-1.68-0.66-2.58-0.69a62.4 62.4 0 0 0-3.680.01v9.89zm-5.66-13.9C1.63 2.640.98 3.090.22 3.510.03 3.62 0 3.9 0 4.1l0.02 17.45c0.57-0.36 3.29-1.96 3.87-2.32L3.85 1.36z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAutodeskrevit;

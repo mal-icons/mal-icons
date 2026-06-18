@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-googlecolab",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGooglecolab {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.94 4.98a7.03 7.03 0 0 0-4.93 2.06 7.03 7.03 0 0 0-0.12 9.81l2.4-2.39a3.65 3.65 0 0 1 5.15-5.15l2.4-2.4a7.03 7.03 0 0 0-4.89-1.93zM7.07 4.99a7.03 7.03 0 0 0-4.89 1.93l2.39 2.39a3.64 3.64 0 0 1 5.020.13l1.73-2.97-0.1-0.08A7.03 7.03 0 0 0 7.07 4.99zm15.01 2.17l-2.39 2.39a3.65 3.65 0 0 1-5.15 5.15l-2.41 2.41a7.04 7.04 0 0 0 9.95-9.95zM1.93 7.17a7.03 7.03 0 0 00 9.68l2.4-2.4a3.64 3.64 0 0 10-4.89zm7.66 7.42c-1.38 1.38-3.59 1.41-5.020.11l-2.4 2.4c2.47 2.33 6.26 2.58 9.010.55l0.14-0.11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGooglecolab;

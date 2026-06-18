@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-clerk",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiClerk {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m21.47 20.83-2.88-2.88a0.570.57 0 0 0-0.7-0.08 6.85 6.85 0 0 1-7.08 0 0.580.58 0 0 0-0.70.08l-2.88 2.88a0.580.58 0 0 0-0.10.690.570.57 0 0 0 0.170.19 12 12 0 0 0 14.11 0 0.580.58 0 0 0 0.24-0.420.580.58 0 0 0-0.17-0.45Zm0-17.67-2.88 2.88a0.570.57 0 0 1-0.70.08A6.86 6.86 0 0 0 8.72 8.08a6.86 6.86 0 0 0-1.22 3.69 6.86 6.86 0 0 0 0.98 3.760.570.57 0 0 1-0.080.7l-2.88 2.88a0.570.57 0 0 1-0.86-0.06A11.99 11.99 0 0 1 6.77 2.7a11.99 11.99 0 0 1 14.64-0.40.570.57 0 0 1 0.230.420.570.57 0 0 1-0.170.45Zm-7.12 12.26a3.43 3.43 0 1 0 0-6.85 3.43 3.43 0 0 0 0 6.85Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiClerk;

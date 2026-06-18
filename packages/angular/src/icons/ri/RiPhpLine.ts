@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-php-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPhpLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.15 5.55L8.43 14.38H10.43L11.29 9.97H12.79C13.34 9.97 13.71 10.41 13.6 10.95L12.93 14.38H14.93L15.6 10.95C15.92 9.32 14.83 8 13.17 8H11.67L12.15 5.55H10.15ZM2.17 8H5.92C7.72 8 8.9 9.43 8.55 11.19C8.21 12.96 6.48 14.38 4.68 14.38H2.93L2.46 16.84H0.46L2.17 8ZM3.31 12.42H5.06C5.75 12.42 6.42 11.87 6.55 11.19C6.68 10.52 6.23 9.97 5.54 9.97H3.79L3.31 12.42ZM17.17 8H20.92C22.72 8 23.9 9.43 23.55 11.19C23.21 12.96 21.48 14.38 19.68 14.38H17.93L17.46 16.84H15.46L17.17 8ZM18.31 12.42H20.06C20.75 12.42 21.42 11.87 21.55 11.19C21.68 10.52 21.23 9.97 20.54 9.97H18.79L18.31 12.42Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPhpLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-shenzhenmetro",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiShenzhenmetro {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.27 0v0.16c0 4.69 3.03 8.75 7.33 10.43v2.74C3.3 14.990.27 19.020.27 23.77V24H4.36v-0.23c0-2.46 1.28-4.62 3.24-5.93V24h3.17v-7.38c0.41-0.060.82-0.1 1.23-0.10.42 0 0.830.04 1.240.1V24h3.17v-6.15c1.93 1.31 3.16 3.47 3.16 5.92V24h4.17v-0.23c0-4.69-3.03-8.75-7.33-10.43V10.6c4.3-1.66 7.33-5.7 7.33-10.45V0h-4.09v0.15c0 2.46-1.28 4.62-3.24 5.93V0h-3.16v7.31c-0.410.07-0.820.1-1.240.1a8.11 8.11 0 0 1-1.23-0.1V0H7.6V6.07C5.68 4.76 4.44 2.6 4.440.15V0zm10.5 11.36c0.820.08 1.650.08 2.470v1.21a12.24 12.24 0 0 0-2.47 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiShenzhenmetro;

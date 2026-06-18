@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiAlignItemBottomFill = createIcon("0 0 24 24", [["path",{"d":"M4 4C4 3.45 4.45 3 5 3H10C10.55 3 11 3.45 11 4L11 16C11 16.55 10.55 17 10 17H5C4.45 17 4 16.55 4 16L4 4ZM14 7C13.45 7 13 7.45 13 8V16C13 16.55 13.45 17 14 17H19C19.55 17 20 16.55 20 16V8C20 7.45 19.55 7 19 7L14 7ZM21 19L3 19V21H21V19Z"}]]);
+
+export default RiAlignItemBottomFill;

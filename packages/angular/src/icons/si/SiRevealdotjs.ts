@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-revealdotjs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRevealdotjs {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.27 1.35a0.770.77 0 0 0-0.790.78v19.76c0 0.490.450.860.930.76l6.68-1.38-2.77-0.61-3.670.76V2.61l3.10.69 2.78-0.57-6.1-1.35a0.770.77 0 0 0-0.15-0.02zm15.320L5.15 4.34v15.09l14.43 3.2a0.770.77 0 0 0 0.94-0.76V2.11a0.770.77 0 0 0-0.93-0.76zM2.98 4.79l-2.370.49A0.770.77 0 0 0 0 6.04v11.64a0.770.77 0 0 0 0.610.75l2.380.53V4.79zm18.030.25V6.23l1.820.41v11.01l-1.820.38v1.19l2.37-0.49A0.770.77 0 0 0 24 17.96V6.32a0.770.77 0 0 0-0.61-0.75l-2.37-0.52z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRevealdotjs;

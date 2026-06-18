@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiFileAddLine = createIcon("0 0 24 24", [["path",{"d":"M15 4H5V20H19V8H15V4ZM3 2.99C3 2.44 3.45 2 4 2H16L21 7L21 20.99C21 21.55 20.56 22 20.01 22H3.99C3.44 22 3 21.54 3 21.01V2.99ZM11 11V8H13V11H16V13H13V16H11V13H8V11H11Z"}]]);
+
+export default RiFileAddLine;

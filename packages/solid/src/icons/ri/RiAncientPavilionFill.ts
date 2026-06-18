@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiAncientPavilionFill = createIcon("0 0 24 24", [["path",{"d":"M1.52 7.88C1.68 9.83 3.09 11.45 5 11.89V19H3V21H21V19H19V11.89C20.91 11.45 22.32 9.83 22.48 7.88C21.99 7.96 21.5 8 21 8C17.19 8 13.79 5.6 12.51 2H11.49C10.21 5.6 6.81 8 3 8C2.5 8 2.01 7.96 1.52 7.88ZM17 19H7V12H17V19Z"}]]);
+
+export default RiAncientPavilionFill;

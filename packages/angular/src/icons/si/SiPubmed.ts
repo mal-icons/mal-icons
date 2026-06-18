@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-pubmed",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPubmed {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.23 7.98l0.01-1C7.85 1.42 5.1 0 5.1 0l0.05 2.29C3.73 1.06 2.6 1.44 2.6 1.44l0.12 15.31s4.22-1.8 5.43 5.51C10.24 13.54 21.4 24 21.4 24V9S10.52-0.18 8.23 7.98zm9.79 9.94l-1.05-5.23-1.9 4.51h-0.96l-1.72-4.3-1.05 5.04H9.32l2.09-9.39h0.8l2.49 5.54 2.51-5.56h0.87l2.08 9.39h-2.14z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPubmed;

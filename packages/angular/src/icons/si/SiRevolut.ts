@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-revolut",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRevolut {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.91 6.96C20.91 3.12 17.79 0 13.95 0H2.42v3.86h10.98c1.74 0 3.18 1.37 3.21 3.040.020.84-0.3 1.63-0.89 2.23-0.590.6-1.370.93-2.210.93H9.23a0.280.28 0 0 0-0.280.28v3.43c0 0.060.020.110.050.16L16.26 24h5.31l-7.27-10.09c3.66-0.18 6.61-3.26 6.61-6.95zM6.89 5.92H2.42V24h4.47z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRevolut;

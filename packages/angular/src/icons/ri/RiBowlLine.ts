@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-bowl-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBowlLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 1.5C8 0.95 7.55 0.5 7 0.5C6.45 0.5 6 0.95 6 1.5V2.5C6 2.51 6 2.51 6 2.52C6 2.56 6.01 2.58 5.79 2.79L5.77 2.81C5.51 3.08 5 3.58 5 4.5V5.5C5 6.05 5.45 6.5 6 6.5C6.55 6.5 7 6.05 7 5.5V4.5C7 4.49 7 4.49 7 4.48C7 4.44 6.99 4.42 7.21 4.21L7.23 4.19C7.49 3.92 8 3.42 8 2.5V1.5ZM19 1.5C19 0.95 18.55 0.5 18 0.5C17.45 0.5 17 0.95 17 1.5V2.5C17 2.51 17 2.51 17 2.52C17 2.56 17.01 2.58 16.79 2.79L16.77 2.81C16.51 3.08 16 3.58 16 4.5V5.5C16 6.05 16.45 6.5 17 6.5C17.55 6.5 18 6.05 18 5.5V4.5C18 4.49 18 4.49 18 4.48C18 4.44 17.99 4.42 18.21 4.21L18.23 4.19C18.49 3.92 19 3.42 19 2.5V1.5ZM12.5 0.5C13.05 0.5 13.5 0.95 13.5 1.5V2.5C13.5 3.42 12.99 3.92 12.73 4.19L12.71 4.21C12.49 4.42 12.5 4.44 12.5 4.48C12.5 4.49 12.5 4.49 12.5 4.5V5.5C12.5 6.05 12.05 6.5 11.5 6.5C10.95 6.5 10.5 6.05 10.5 5.5V4.5C10.5 3.58 11.01 3.08 11.27 2.81L11.29 2.79C11.51 2.58 11.5 2.56 11.5 2.52C11.5 2.51 11.5 2.51 11.5 2.5V1.5C11.5 0.95 11.95 0.5 12.5 0.5ZM4 10H20C20 14.42 16.42 18 12 18C7.58 18 4 14.42 4 10ZM3 8C2.45 8 2 8.45 2 9V10C2 14.1 4.47 17.62 8 19.17V20C8 20.55 8.45 21 9 21H15C15.55 21 16 20.55 16 20V19.17C19.53 17.62 22 14.1 22 10V9C22 8.45 21.55 8 21 8H3Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBowlLine;

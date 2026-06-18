@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-tools-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiToolsLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.33 3.27C6.56 2.83 7.99 3.11 8.98 4.09C10.1 5.22 10.3 6.91 9.58 8.23L20.29 18.94L18.88 20.36L8.17 9.65C6.84 10.37 5.15 10.17 4.03 9.04C3.04 8.06 2.77 6.63 3.21 5.39L5.44 7.63C6.03 8.22 6.98 8.22 7.57 7.63C8.15 7.04 8.15 6.09 7.57 5.51L5.33 3.27ZM15.7 5.16L18.88 3.39L20.29 4.8L18.53 7.98L16.76 8.34L14.64 10.46L13.22 9.04L15.34 6.92L15.7 5.16ZM8.98 13.29L10.39 14.7L5.09 20C4.7 20.39 4.07 20.39 3.68 20C3.31 19.64 3.29 19.07 3.6 18.68L3.68 18.59L8.98 13.29Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiToolsLine;

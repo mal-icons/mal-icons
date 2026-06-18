@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-loop-right-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiLoopRightLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 4C14.75 4 17.17 5.39 18.62 7.5H16V9.5H22V3.5H20V6C18.18 3.57 15.27 2 12 2C6.48 2 2 6.48 2 12H4C4 7.58 7.58 4 12 4ZM20 12C20 16.42 16.42 20 12 20C9.25 20 6.83 18.61 5.38 16.5H8V14.5H2V20.5H4V18C5.82 20.43 8.73 22 12 22C17.52 22 22 17.52 22 12H20Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiLoopRightLine;

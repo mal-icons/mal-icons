@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiOpenzeppelin = createIcon("0 0 24 24", [["path",{"d":"M22.78 24H9.32l2.2-3.69a5.23 5.23 0 0 1 4.49-2.56h6.78ZM1.22 0h21.57l-3.72 6.25H1.22ZM9.76 9.76a5.73 5.73 0 0 1 4.92-2.79h4.01L8.5 24h-7.26Z"}]]);
+
+export default SiOpenzeppelin;

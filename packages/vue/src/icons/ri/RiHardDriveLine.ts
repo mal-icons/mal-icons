@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiHardDriveLine = createIcon("0 0 24 24", [["path",{"d":"M5 10.94C8.62 10.49 11.49 7.62 11.94 4H5V10.94ZM5 12.95V20H19V4H13.95C13.48 8.72 9.72 12.48 5 12.95ZM4 2H20C20.55 2 21 2.45 21 3V21C21 21.55 20.55 22 20 22H4C3.45 22 3 21.55 3 21V3C3 2.45 3.45 2 4 2ZM15 16H17V18H15V16Z"}]]);
+
+export default RiHardDriveLine;

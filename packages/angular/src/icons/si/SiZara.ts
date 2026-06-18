@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-zara",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiZara {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.56 7l00.01 2.79 7.62v-7.23h-1.15v-0.07h3.96c1.9 0 3.230.98 3.23 2.38 0 1.02-0.91 1.87-2.26 2.11l-0.250.030.250.03c0.820.09 1.470.35 1.940.75l00L19.14 7h0.07l00.01 3.56 9.7H24v0.07h-3.92v-0.07h1.15l-1.17-3.19h-2.37v0l0.010.04c0.090.280.140.580.140.87v1.2c0 0.620.27 1.240.79 1.240.3 0 0.55-0.110.84-0.37l0.040.04c-0.310.33-0.690.47-1.270.47-0.43 0-0.8-0.1-1.1-0.31l-0.06-0.04c-0.39-0.3-0.64-0.78-0.75-1.43l-0.02-0.11-0.02-0.160-0.03-0.65 1.78h0.93v0.07h-1.94v-0.07h0.94l0.72-1.95v0a6.35 6.35 0 1-0.01-0.35v-0.85c0-1.05-0.78-1.65-2.14-1.65h-1.34v4.81h1.16v0.07H9.43v-0.07h1.15l-1.17-3.19H6.17l-1.16 3.150.05-0.01c1.52-0.26 2.22-1.42 2.23-2.64h0.07v2.76H0l5.47-9.38H3.27c-1.82 0-2.65 1.41-2.66 2.81H0.54v-2.88h6.63l-0.040.07-5.42 9.31h2.85c0.07 0 0.1400.21-0.01l0.07-0.010.09-0.01L8.49 7h0.07zm9.88 2.1l-1.31 3.580.010.010.070.07c0.190.20.350.430.450.68l0.010.02h2.38l-1.59-4.35zm-10.65 0l-1.6 4.35h3.19l-1.59-4.35zm6.03-1.7h-1.02v4.43h1.34c1.35 0 1.77-0.49 1.77-2.11 0-1.52-0.72-2.32-2.08-2.32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiZara;

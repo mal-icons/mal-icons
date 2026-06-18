@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-mind-map",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiMindMap {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18 3C19.66 3 21 4.34 21 6C21 7.66 19.66 9 18 9H15C13.69 9 12.58 8.17 12.17 7L11 7C9.9 7 9 7.9 9 9L9 9.17C10.17 9.58 11 10.69 11 12C11 13.31 10.17 14.42 9 14.83L9 15C9 16.1 9.9 17 11 17L12.17 17C12.58 15.83 13.69 15 15 15H18C19.66 15 21 16.34 21 18C21 19.66 19.66 21 18 21H15C13.69 21 12.58 20.17 12.17 19L11 19C8.79 19 7 17.21 7 15H5C3.34 15 2 13.66 2 12C2 10.34 3.34 9 5 9H7C7 6.79 8.79 5 11 5L12.17 5C12.58 3.83 13.69 3 15 3H18ZM18 17H15C14.45 17 14 17.45 14 18C14 18.55 14.45 19 15 19H18C18.55 19 19 18.55 19 18C19 17.45 18.55 17 18 17ZM8 11H5C4.45 11 4 11.45 4 12C4 12.55 4.45 13 5 13H8C8.55 13 9 12.55 9 12C9 11.45 8.55 11 8 11ZM18 5H15C14.45 5 14 5.45 14 6C14 6.55 14.45 7 15 7H18C18.55 7 19 6.55 19 6C19 5.45 18.55 5 18 5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiMindMap;

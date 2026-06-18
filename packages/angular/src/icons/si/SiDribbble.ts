@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-dribbble",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDribbble {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 24C5.39 24 0 18.61 0 12S5.39 0 12 0s12 5.39 12 12-5.38 12-12 12zm10.12-10.36c-0.35-0.11-3.17-0.95-6.38-0.44 1.34 3.68 1.89 6.68 1.99 7.31 2.3-1.55 3.94-4.02 4.39-6.87zm-6.11 7.81c-0.15-0.9-0.75-4.03-2.19-7.77l-0.070.02c-5.79 2.02-7.86 6.03-8.04 6.4 1.73 1.36 3.92 2.17 6.29 2.17 1.42 0 2.77-0.29 4-0.81zm-11.62-2.58c0.23-0.4 3.05-5.05 8.33-6.760.14-0.040.27-0.080.41-0.12-0.26-0.58-0.54-1.17-0.83-1.74C7.17 11.78 2.21 11.71 1.76 11.7l00.31c0 2.631 5.04 2.63 6.86zm-2.42-8.95c0.460.01 4.680.03 9.48-1.25-1.7-3.02-3.53-5.56-3.8-5.93-2.87 1.35-5.01 3.99-5.68 7.17zM9.6 2.05c0.280.38 2.15 2.91 3.82 6 3.65-1.36 5.19-3.44 5.37-3.7-1.81-1.61-4.19-2.59-6.79-2.59-0.82 0-1.630.1-2.40.28zm10.34 3.48c-0.220.29-1.93 2.49-5.72 4.040.240.490.470.990.68 1.490.080.180.150.360.220.53 3.41-0.43 6.80.26 7.140.33-0.02-2.42-0.88-4.64-2.31-6.38z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDribbble;

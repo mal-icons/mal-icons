@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-dovecot",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDovecot {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 8.78 8.39 C 8.58 8.39 8.38 8.46 8.22 8.58 L 0.12 14.77 C -0.04 14.9 -0.04 15.14 0.12 15.26 L 0.46 15.52 C 0.61 15.64 0.83 15.64 0.98 15.52 L 5 12.45 C 5.22 12.29 5.53 12.29 5.75 12.45 L 8.41 14.49 C 8.63 14.66 8.93 14.66 9.16 14.49 L 12.67 11.8 C 12.9 11.64 12.9 11.29 12.67 11.12 L 9.35 8.58 C 9.19 8.46 8.99 8.39 8.78 8.39 Z M 18.08 8.39 C 17.88 8.39 17.68 8.46 17.52 8.58 L 9.42 14.78 C 9.26 14.9 9.26 15.14 9.42 15.27 L 9.75 15.52 C 9.91 15.64 10.12 15.64 10.28 15.52 L 14.91 11.99 C 15.14 11.82 15.44 11.82 15.66 11.99 L 20.19 15.44 C 20.41 15.61 20.72 15.61 20.94 15.44 L 23.83 13.23 C 24.06 13.06 24.06 12.71 23.83 12.54 L 18.65 8.58 C 18.49 8.46 18.29 8.39 18.08 8.39 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDovecot;

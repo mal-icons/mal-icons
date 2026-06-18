@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiFolderCloseLine = createIcon("0 0 24 24", [["path",{"d":"M3 3C2.45 3 2 3.45 2 4V20C2 20.55 2.45 21 3 21H13V19H4V5H9.59L11.59 7H20V12H22V6C22 5.45 21.55 5 21 5H12.41L10.41 3H3ZM20.41 18L22.54 20.12L21.12 21.54L19 19.41L16.88 21.54L15.46 20.12L17.59 18L15.46 15.88L16.88 14.46L19 16.59L21.12 14.46L22.54 15.88L20.41 18Z"}]]);
+
+export default RiFolderCloseLine;

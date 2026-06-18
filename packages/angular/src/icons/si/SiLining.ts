@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-lining",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLining {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.93 8.82c-0.260-0.70.01-1.420.08-1.940.19-2.40.83-2.40.83L0 15.18h1.02c4.28-4.66 8.29-6.28 8.29-6.28s0.05-0.07-0.38-0.08Zm2.33 1.57c-1.71-0.01-3.180.09-3.80.37-1.420.63-3.84 2.27-6.03 4.43 0 0 0.860.12 1.9-0.48 0 0 3.42-2.59 6.17-2.07 2.750.52 5.17 1.83 5.17 1.83s1.75 1 3.390.44c1.64-0.56 5.95-2.9 5.95-2.9s-3.27-0.78-6.26-1.18c-1.69-0.23-4.28-0.42-6.48-0.43Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLining;

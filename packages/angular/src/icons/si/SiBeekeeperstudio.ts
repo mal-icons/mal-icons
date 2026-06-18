@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-beekeeperstudio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBeekeeperstudio {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.01 4.62 13.850.5c-1.17-0.67-2.59-0.67-3.74 0L8.24 1.59v10.42c0 1.330.71 2.58 1.87 3.250.570.33 1.230.51 1.870.51s1.3-0.16 1.87-0.51c1.17-0.67 1.87-1.9 1.87-3.25 0-1.33-0.71-2.58-1.87-3.25-0.57-0.33-1.23-0.51-1.87-0.51V5.9c0.64 0 1.30.16 1.870.51l2.03 1.18c1.170.67 1.87 1.9 1.87 3.25v2.35c0 1.33-0.71 2.58-1.87 3.25l-2.03 1.18c-0.570.33-1.230.51-1.870.51s-1.3-0.16-1.87-0.51L8.08 16.44c-1.16-0.67-1.87-1.9-1.87-3.25V2.75L2.97 4.62c-1.170.67-1.87 1.9-1.87 3.25v8.25c0 1.330.71 2.58 1.87 3.25l7.15 4.12c1.170.67 2.590.67 3.74 0l7.15-4.12c1.17-0.67 1.87-1.9 1.87-3.25V7.87a3.82 3.82 0 0 0-1.89-3.25ZM9.69 9.05c-0.210.16-0.390.34-0.560.54V6.97l0.56-0.33v2.41Zm1.43-0.69c-0.20.05-0.380.1-0.560.18v-2.36c0.18-0.080.38-0.130.56-0.18v2.36Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBeekeeperstudio;

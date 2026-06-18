@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-talend",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTalend {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.880.03c-0.410.04-1.230.19-1.790.32-0.650.16-1.10.3-1.860.63A11.96 11.96 0 0 0 0.97 7.23C0.53 8.250.37 8.820.12 10.17c-0.120.61-0.120.72-0.12 1.84s0 1.230.12 1.84c0.25 1.350.41 1.920.85 2.94a11.96 11.96 0 0 0 6.25 6.25c1.020.44 1.590.61 2.940.850.610.120.720.12 1.840.12s1.230 1.84-0.12c1.35-0.25 1.92-0.41 2.94-0.85a11.96 11.96 0 0 0 6.25-6.25c0.44-1.020.61-1.590.85-2.940.12-0.610.12-0.720.12-1.84s0-1.23-0.12-1.84c-0.25-1.35-0.41-1.92-0.85-2.94-1.31-3.06-3.84-5.41-7.06-6.58C15.510.48 14.760.3 13.950.15c-0.64-0.12-0.82-0.13-1.73-0.15-0.56-0.01-1.16 0-1.340.02zm1.54 5.340.110.1v2.86h2.29l0.070.12c0.140.210.060.74-0.130.93-0.070.07-0.190.07-1.150.07h-1.08l0.01 3.49c0.01 3.170.02 3.520.09 3.720.150.450.360.60.830.590.33 0 0.6-0.06 1.22-0.30.38-0.140.41-0.140.49-0.080.10.090.260.420.260.54 0 0.14-0.350.4-0.930.68-0.920.44-1.660.61-2.470.56-1.52-0.1-2.37-0.61-2.68-1.62-0.09-0.28-0.09-0.4-0.1-3.93l-0.01-3.64h-0.55c-0.62 0-0.68-0.03-0.72-0.31-0.04-0.20.1-0.340.46-0.47a6.06 6.06 0 0 0 2.5-1.72c0.35-0.410.48-0.60.75-1.120.13-0.240.27-0.470.32-0.51a0.320.32 0 0 1 0.440.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTalend;

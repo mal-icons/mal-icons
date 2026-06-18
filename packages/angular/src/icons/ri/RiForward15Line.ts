@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-forward-15-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiForward15Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.48 2 2 6.48 2 12 2 17.52 6.48 22 12 22 17.52 22 22 17.52 22 12H20C20 16.42 16.42 20 12 20 7.58 20 4 16.42 4 12 4 7.58 7.58 4 12 4 14.75 4 17.18 5.39 18.62 7.5L16 7.5V8.5H12V12.75H14.88C15.22 12.75 15.5 13.03 15.5 13.38 15.5 13.72 15.22 14 14.88 14H12V15.5H14.88C16.05 15.5 17 14.55 17 13.38 17 12.2 16.05 11.25 14.88 11.25H13.5V10H16.75V9.5H22V3.5H20L20 6C18.18 3.57 15.27 2 12 2ZM8.5 8.5H10V15.5H8.5V8.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiForward15Line;

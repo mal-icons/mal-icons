@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-pretzel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPretzel {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.440.03 10.76 6.52a0.310.31 0 0 0-0.140.24v5.43l2.72 1.7v-5.54a0.30.3 0 0 1 0.14-0.23l6.24-3.48a0.290.29 0 0 1 0.420.24V15.19a2.81 2.81 0 0 1-1.38 2.56 2.83 2.83 0 0 1-2.91-0.02l-6.24-3.95-0.03-0.03a5.57 5.57 0 0 0-6.240.33 5.52 5.52 0 0 0-1.98 5.92 5.46 5.46 0 0 0 2.66 3.33A5.66 5.66 0 0 0 6.68 24a5.96 5.96 0 0 0 1.6-0.24 5.54 5.54 0 0 0 3.43-2.92l0.09-0.24-2.31-1.47-0.240.56a2.79 2.79 0 0 1-1.74 1.48 2.84 2.84 0 0 1-2.19-0.24 2.74 2.74 0 0 1-1.36-1.7c-0.41-1.420.41-2.95 1.81-3.450.29-0.10.6-0.150.92-0.14a2.83 2.83 0 0 1 1.450.41l6.24 3.98h0.03a5.56 5.56 0 0 0 2.90.8 5.97 5.97 0 0 0 1.6-0.24 5.57 5.57 0 0 0 2.9-2.05 5.54 5.54 0 0 0 1.07-3.38V0.27A0.290.29 0 0 0 22.58 0a0.290.29 0 0 0-0.140.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPretzel;

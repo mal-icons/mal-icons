@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-braintree",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBraintree {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.28 20.48h4.72c3.64 0 5.46-1.2 5.46-3.52 0-2.27-1.94-3.52-5.75-3.52H8.28Zm0-16.96v6.54h4.14c3.1 0 4.72-1.16 4.72-3.27 0-2.15-1.65-3.27-4.76-3.27zM1.7 24v-3.52H4.47V3.52H1.7V0h11.09c5.09 0 8.19 2.36 8.19 6.46 0 2.69-1.57 4.35-3.56 5.13 2.860.79 4.88 2.81 4.88 5.59 0 4.39-3.39 6.83-8.94 6.83H1.7"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBraintree;

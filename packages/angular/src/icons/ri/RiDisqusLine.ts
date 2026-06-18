@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-disqus-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiDisqusLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C9.69 22 7.5 21.22 5.75 19.81L1.03 20.4L2.75 15.81C2.26 14.61 2 13.32 2 12C2 6.48 6.47 2 12 2ZM12 4C7.58 4 4 7.58 4 12C4 13.18 4.25 14.32 4.74 15.36L4.91 15.74L4.06 18L6.38 17.71L6.72 18.01C8.17 19.29 10.03 20 12 20C16.42 20 20 16.42 20 12C20 7.58 16.42 4 12 4ZM8.05 7H11.84C15.26 7 17.28 8.96 17.38 11.73L17.38 11.94V11.97C17.38 14.78 15.42 16.89 12.04 17L11.78 17H8.05V7H11.84H8.05ZM11.88 9.46H10.77V14.54H11.88C13.44 14.54 14.5 13.7 14.58 12.2L14.59 12.01V11.99C14.59 10.39 13.51 9.46 11.88 9.46Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiDisqusLine;

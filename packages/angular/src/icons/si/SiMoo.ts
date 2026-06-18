@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-moo",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMoo {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.96 24c-2.52 0-4.8-1.11-6.34-3.14-1.11-1.42-1.66-3.08-1.66-4.86 0-0.560.06-1.110.19-1.60.3-1.78 1.59-4.68 3.93-8.68C9.81 2.77 11.220.55 11.290.55c0.12-0.250.31-0.550.68-0.550.37 0 0.560.310.740.56 0 0 1.48 2.22 3.2 5.17 2.34 4 3.63 6.89 3.94 8.680.130.490.19 1.050.19 1.6 0 1.79-0.56 3.45-1.65 4.86C16.77 22.83 14.42 24 11.96 24zm0-2.09c1.91 0 3.63-0.86 4.8-2.340.8-1.04 1.23-2.34 1.23-3.69 0-0.43-0.06-0.8-0.12-1.23-0.25-1.35-1.29-3.69-3.07-6.83-1.36-2.4-2.52-4.12-2.52-4.12l-0.31-0.43-0.250.37s-1.17 1.79-2.52 4.13c-1.84 3.15-2.89 5.47-3.07 6.84-0.060.43-0.120.8-0.12 1.23 0 1.360.43 2.59 1.23 3.69 1.11 1.54 2.83 2.4 4.74 2.4l0-0.01z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMoo;

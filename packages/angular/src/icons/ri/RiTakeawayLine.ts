@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-takeaway-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiTakeawayLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16 1C16.55 1 17 1.45 17 2V3L22 3V9L19.98 9L22.75 16.6C22.91 17.03 23 17.51 23 18C23 20.21 21.21 22 19 22C17.14 22 15.57 20.73 15.13 19L10.87 19C10.43 20.73 8.86 22 7 22C5.06 22 3.43 20.61 3.07 18.77C2.44 18.44 2 17.77 2 17V4C2 3.45 2.45 3 3 3H10C10.55 3 11 3.45 11 4V12C11 12.51 11.39 12.94 11.88 12.99L12 13H14C14.51 13 14.94 12.61 14.99 12.12L15 12V3H12V1H16ZM7 16C5.9 16 5 16.9 5 18C5 19.1 5.9 20 7 20C8.1 20 9 19.1 9 18C9 16.9 8.1 16 7 16ZM19 16C17.9 16 17 16.89 17 18C17 19.1 17.9 20 19 20C20.1 20 21 19.1 21 18C21 16.89 20.1 16 19 16ZM17.85 9H17V12C17 13.66 15.66 15 14 15H12C10.69 15 9.58 14.17 9.17 13L4 13V15.35C4.73 14.52 5.81 14 7 14C8.86 14 10.43 15.27 10.87 17H15.13C15.57 15.27 17.14 14 19 14C19.24 14 19.47 14.02 19.7 14.06L17.85 9ZM9 8H4V11H9V8ZM20 5H17V7H20V5ZM9 5H4V6H9V5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiTakeawayLine;

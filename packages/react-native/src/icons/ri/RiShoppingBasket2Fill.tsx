@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiShoppingBasket2Fill = createIcon("0 0 24 24", [["path",{"d":"M15.37 3.44L18.58 9L22 9V11L20.84 11L20.08 20.09C20.04 20.6 19.6 21 19.08 21H4.93C4.4 21 3.97 20.6 3.93 20.09L3.17 11L2 11V9L5.43 9L8.64 3.44L10.37 4.44L7.74 9H16.27L13.64 4.44L15.37 3.44ZM13 13H11V17H13V13ZM9 13H7V17H9V13ZM17 13H15V17H17V13Z"}]]);
+
+export default RiShoppingBasket2Fill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-maas",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMaas {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.43 0v24h15.15V0Zm3.36 10.39c0.47 0 0.860.380.860.85 0 0.47-0.380.85-0.860.85a0.860.86 0 0 1-0.86-0.85c0-0.470.38-0.850.86-0.85m1.040.21h7.93c0.22 0 0.390.170.40.38v0.51a0.40.4 0 0 1-0.390.38H8.83c0.01-0.010.01-0.020.02-0.03a1.22 1.22 0 0 0-0.02-1.25m-1.12 2.83c0.47 0 0.860.380.860.85 0 0.47-0.380.85-0.860.85a0.860.86 0 0 1-0.86-0.85c0-0.470.38-0.850.86-0.85m1.040.2h8.01c0.22 0 0.390.170.390.38v0.51a0.40.4 0 0 1-0.390.38h-8q0.0100.01-0.01c0.16-0.280.21-0.610.12-0.92a1.1 1.1 0 0 0-0.15-0.34M7.71 16.47c0.47 0 0.860.380.860.85s-0.380.85-0.860.85a0.860.86 0 0 1-0.86-0.85c0-0.470.38-0.850.86-0.85m1.040.21h8.01c0.22 0 0.390.170.390.38v0.51a0.40.4 0 0 1-0.390.38H8.74l0.02-0.03a1.22 1.22 0 0 0-0.02-1.25m-1.04 2.83c0.47 0 0.860.380.860.85s-0.380.85-0.860.85a0.860.86 0 0 1-0.86-0.85c0-0.470.38-0.850.86-0.85m1.040.21h8.01a0.380.38 0 0 1 0.390.38v0.51a0.40.4 0 0 1-0.390.38H8.74l0.02-0.03a1.22 1.22 0 0 0-0.02-1.25"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMaas;

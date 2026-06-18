@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-nxp",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiNxp {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m6.8 7.91 2.52 4.09-2.52 4.09-4.27-4.940 4.94-2.520L0 16.08V7.91h2.52l4.27 4.940-4.94m14.85 2.89c0-0.55-0.27-0.87-1.04-0.87h-3.19v2.31h3.4c0.59 0 0.82-0.560.82-1.04v-0.4zm-0.63-2.89C23.42 7.91 24 9.11 24 10.71v0.96c0 1.22-0.54 2.61-2.32 2.61h-4.26l0 1.81h0L14.9 12l2.52-4.09h3.6m-6.750h-0.46l-1.7 2.72-1.7-2.72H7.42l2.52 4.09-2.52 4.09h2.99l1.7-2.72 1.7 2.72h0.47l2.520-2.52-4.09 2.52-4.09h-2.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiNxp;

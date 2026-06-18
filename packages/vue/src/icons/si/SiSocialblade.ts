@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiSocialblade = createIcon("0 0 24 24", [["path",{"d":"M2.32 16.69H0v1.89h2.32v-1.89ZM5.94 13.59H3.61v4.99h2.32v-4.99ZM9.55 14.8H7.23v3.79h2.32v-3.78ZM13.16 13.94H10.84v4.65h2.32v-4.65ZM16.77 12.04h-2.32v6.54h2.32v-6.54ZM20.39 10.07h-2.32v8.52h2.32v-8.52ZM24 5.42h-2.32v13.16H24V5.42Z"}]]);
+
+export default SiSocialblade;

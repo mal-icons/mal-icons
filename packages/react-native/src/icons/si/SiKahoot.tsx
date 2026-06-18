@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiKahoot = createIcon("0 0 24 24", [["path",{"d":"M20.56 18.87l2.75-17.51L16.17 0zM0.7 2.35v19.08l4.040.14-0.04-6.68 2.49-2.4 2.63 9.08h3.57L10.09 9.72l4.96-5.44-3.5-1.34L4.73 9.44V1.32zm18.3 17.86l-0.99 2.33L20.12 24l2.09-1.24-0.89-2.56Z"}]]);
+
+export default SiKahoot;

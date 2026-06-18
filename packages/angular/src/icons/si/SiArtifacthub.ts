@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-artifacthub",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiArtifacthub {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 24c-0.620-1.24-0.17-1.78-0.5l-7.51-4.29c-1.02-0.62-1.64-1.72-1.64-2.91V7.73c0-1.250.64-2.37 1.76-3.01L10.250.48c1.08-0.64 2.42-0.64 3.50l7.42 4.24c1.080.6 1.77 1.73 1.76 3.01v8.58c0 0.97-0.44 2.16-1.64 2.9l-7.51 4.29c-0.560.34-1.20.5-1.780.5zm-0.5-21.35L3.96 6.96c-0.20.16-0.380.37-0.380.77l0 8.67c0.040.220.120.430.370.63l7.56 4.32c0.270.170.660.210.99 0l7.52-4.3c0.23-0.150.37-0.390.41-0.65V7.73c0.01-0.3-0.14-0.59-0.38-0.77L12.5 2.65c-0.39-0.24-0.76-0.16-10z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiArtifacthub;

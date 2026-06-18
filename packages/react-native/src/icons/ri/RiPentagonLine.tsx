@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiPentagonLine = createIcon("0 0 24 24", [["path",{"d":"M12 3.03L20.53 9.23L17.27 19.26H6.73L3.47 9.23L12 3.03ZM22.75 8.51L12 0.7L1.25 8.51L5.36 21.14H18.64L22.75 8.51Z"}]]);
+
+export default RiPentagonLine;

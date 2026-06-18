@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-yuque-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiYuqueFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.28 2.96C20.25 3.16 21.04 5.3 21.12 5.55L22.42 5.65C22.55 5.65 22.59 5.83 22.47 5.88C21.15 6.6 20.74 8.05 20.98 9C21.07 9.36 21.23 9.69 21.39 10.02C21.7 10.66 22.04 11.44 22.1 13C22.22 16.24 19.59 19.18 16.31 19.6C17.48 18.41 18.13 17.15 18.43 16.22C19.04 14.38 18.94 12.9 18.49 11.78C18.04 10.67 17.28 9.99 16.7 9.64C15.02 8.62 13.48 8.55 12.26 8.88C12.73 8.28 13.14 7.68 13.46 7.01C14.04 5.36 13.36 4.17 12.76 3.5C12.56 3.25 12.7 2.84 13.06 2.84C14.47 2.84 15.87 2.86 17.28 2.96ZM3.32 19.11C5.24 16.9 8.03 13.71 10.48 10.96C11.04 10.33 13.25 8.62 16.23 10.42C17.11 10.96 18.66 12.59 17.56 15.93C16.76 18.38 13.15 23.73 1.8 21.78C1.57 21.74 1.29 21.42 1.58 21.09C2 20.62 2.6 19.93 3.32 19.11Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiYuqueFill;

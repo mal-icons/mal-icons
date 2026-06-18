@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-jio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiJio {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0A12 12 0 1 1 0 12 12 12 0 0 1 12 0m5.59 14.56c-0.88 0-1.49-0.65-1.49-1.57 0-0.910.62-1.56 1.49-1.56s1.490.65 1.49 1.57c0 0.9-0.63 1.56-1.49 1.56zm0.03-5.15c-2.26 0-3.77 1.44-3.77 3.58 0 2.19 1.45 3.6 3.73 3.6 2.26 0 3.76-1.41 3.76-3.59 0-2.15-1.47-3.59-3.71-3.59zM11.78 6.27c-0.86 0-1.390.48-1.39 1.24 0 0.770.55 1.26 1.44 1.260.86 0 1.4-0.48 1.4-1.26s-0.55-1.24-1.43-1.24m0.15 3.2h-0.28c-0.67 0-1.190.32-1.19 1.29v4.42c0 0.980.5 1.28 1.22 1.28h0.28c0.68 0 1.16-0.33 1.16-1.28v-4.42c0-0.99-0.47-1.28-1.19-1.28M8.32 7.39h-0.4c-0.76 0-1.170.43-1.17 1.29v4.13c0 1.06-0.36 1.44-1.2 1.44-0.66 0-1.2-0.29-1.63-0.82C3.87 13.37 3 13.79 3 14.81c0 1.1 1.03 1.78 2.96 1.78 2.33 0 3.56-1.17 3.56-3.74V8.68c0-0.86-0.41-1.28-1.2-1.28"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiJio;

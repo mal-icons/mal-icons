@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiKnifeFill = createIcon("0 0 24 24", [["path",{"d":"M22.37 19.44C22.96 20.03 22.96 20.98 22.37 21.56C21.79 22.15 20.84 22.15 20.25 21.56L15.66 16.96L12.12 20.5L4.34 12.72C1.28 9.66 1.22 4.72 4.17 1.59L4.34 1.41L22.37 19.44Z"}]]);
+
+export default RiKnifeFill;

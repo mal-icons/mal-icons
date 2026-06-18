@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-creative-commons-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCreativeCommonsFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2ZM9 8C6.79 8 5 9.79 5 12C5 14.21 6.79 16 9 16C10.1 16 11.1 15.55 11.83 14.83L10.41 13.41C10.05 13.78 9.55 14 9 14C7.9 14 7 13.11 7 12C7 10.9 7.9 10 9 10C9.55 10 10.05 10.22 10.42 10.59L11.83 9.17C11.1 8.45 10.1 8 9 8ZM16 8C13.79 8 12 9.79 12 12C12 14.21 13.79 16 16 16C17.1 16 18.1 15.55 18.83 14.83L17.41 13.41C17.05 13.78 16.55 14 16 14C14.9 14 14 13.11 14 12C14 10.9 14.9 10 16 10C16.55 10 17.05 10.22 17.42 10.59L18.83 9.17C18.1 8.45 17.1 8 16 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCreativeCommonsFill;

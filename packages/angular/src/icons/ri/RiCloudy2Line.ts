@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-cloudy-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCloudy2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 21H7C3.69 21 1 18.31 1 15C1 12.38 2.67 10.16 5.01 9.34C5 9.23 5 9.11 5 9C5 5.13 8.13 2 12 2C15.87 2 19 5.13 19 9C19 9.11 19 9.23 18.99 9.34C21.33 10.16 23 12.38 23 15C23 18.31 20.31 21 17 21ZM7 19H17C19.21 19 21 17.21 21 15C21 12.79 19.21 11 17 11C16.86 11 16.71 11.01 16.57 11.02C16.85 10.4 17 9.72 17 9C17 6.24 14.76 4 12 4C9.24 4 7 6.24 7 9C7 9.72 7.15 10.4 7.43 11.02C7.29 11.01 7.14 11 7 11C4.79 11 3 12.79 3 15C3 17.21 4.79 19 7 19Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCloudy2Line;

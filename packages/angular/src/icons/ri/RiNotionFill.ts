@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-notion-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiNotionFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.1 5.91C6.69 6.38 6.91 6.35 8 6.27L18.33 5.65C18.55 5.65 18.37 5.44 18.3 5.4L16.58 4.16C16.25 3.9 15.82 3.61 14.98 3.68L4.97 4.41C4.61 4.45 4.53 4.63 4.68 4.78L6.1 5.91ZM6.72 8.32L6.72 19.19C6.72 19.77 7.02 19.99 7.67 19.95L19.03 19.3C19.69 19.26 19.76 18.86 19.76 18.39V7.59C19.76 7.11 19.58 6.86 19.17 6.89L7.31 7.59C6.87 7.62 6.72 7.84 6.72 8.32ZM17.93 8.9C18.01 9.23 17.93 9.56 17.6 9.59L17.06 9.7V17.73C16.58 17.98 16.14 18.13 15.78 18.13C15.19 18.13 15.05 17.95 14.61 17.4L11.03 11.78V17.22L12.16 17.47C12.16 17.47 12.16 18.13 11.25 18.13L8.73 18.28C8.66 18.13 8.73 17.77 8.99 17.69L9.64 17.51V10.32L8.73 10.25C8.66 9.92 8.84 9.45 9.35 9.41L12.05 9.23L15.78 14.92V9.89L14.83 9.78C14.76 9.38 15.05 9.08 15.41 9.05L17.93 8.9ZM4.13 3.43L14.54 2.66C15.82 2.55 16.14 2.63 16.95 3.21L20.27 5.54C20.82 5.95 21 6.06 21 6.49V19.3C21 20.1 20.71 20.58 19.69 20.65L7.6 21.38C6.83 21.41 6.47 21.3 6.07 20.79L3.62 17.62C3.18 17.04 3 16.6 3 16.09L3 4.71C3 4.05 3.29 3.5 4.13 3.43Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiNotionFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-yew",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiYew {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.470a1.18 1.18 0 0 0-0.810.39L13.33 8.57h0a3.5 3.5 0 0 0-1.42-0.3 3.5 3.5 0 0 0-1.290.25h0L3.350.39a1.18 1.18 0 0 0-0.81-0.39 1.18 1.18 0 0 0-0.850.3 1.18 1.18 0 0 0-0.09 1.67l7.25 8.08a3.5 3.5 0 0 0-0.47 1.75 3.56 3.56 0 0 0 2.45 3.37v7.65A1.18 1.18 0 0 0 12 24a1.18 1.18 0 0 0 1.18-1.18v-7.71a3.56 3.56 0 0 0 2.27-3.3 3.5 3.5 0 0 0-0.4-1.62l7.36-8.21a1.18 1.18 0 0 0-0.09-1.67 1.18 1.18 0 0 0-0.85-0.3m-9.56 1.57a9.84 9.84 0 0 0-5.39 1.61l0.670.75a8.8 8.8 0 0 1 4.72-1.36c1.79 0 3.450.53 4.84 1.44l0.67-0.75a9.84 9.84 0 0 0-5.51-1.69M4.06 5.48a9.84 9.84 0 0 0-1.99 5.93 9.84 9.84 0 0 0 8.25 9.71v-1.01a8.82 8.82 0 0 1-7.25-8.69 8.8 8.8 0 0 1 1.67-5.17Zm15.780.11-0.680.76a8.8 8.8 0 0 1 1.58 5.06 8.82 8.82 0 0 1-7.06 8.66v1.02a9.84 9.84 0 0 0 8.06-9.67 9.84 9.84 0 0 0-1.9-5.81m-7.93 4.24a1.96 1.96 0 0 1 1.97 1.97 1.96 1.96 0 0 1-1.97 1.97 1.96 1.96 0 0 1-1.97-1.97 1.96 1.96 0 0 1 1.97-1.97"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiYew;

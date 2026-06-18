@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiSaveLine = createIcon("0 0 24 24", [["path",{"d":"M7 19V13H17V19H19V7.83L16.17 5H5V19H7ZM4 3H17L21 7V20C21 20.55 20.55 21 20 21H4C3.45 21 3 20.55 3 20V4C3 3.45 3.45 3 4 3ZM9 15V19H15V15H9Z"}]]);
+
+export default RiSaveLine;

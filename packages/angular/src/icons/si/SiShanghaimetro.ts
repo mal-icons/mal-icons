@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-shanghaimetro",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiShanghaimetro {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.38 11.66h-1.72l-3.43-4.49-3.07 3.61L9.31 7.18l-3.51 4.49H3.63c0.19-4.46 3.87-8.05 8.38-8.05 3.95 0 7.27 2.75 8.15 6.42h3.69C22.91 4.36 17.960.01 12 0.01c-6.63 0-12 5.37-12 12 0 1.10.15 2.170.43 3.18h6.52l2.41-2.55 2.81 3.48 2.95-3.5 1.9 2.61h2.69c-1.29 2.97-4.26 5.5-7.7 5.5-2.84 0-5.36-1.68-6.87-3.94H1C2.85 21.02 7.07 23.99 12 23.99c6.63 0 12-5.37 12-12 0-0.12 0-0.23-0.01-0.35l-3.60.02Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiShanghaimetro;

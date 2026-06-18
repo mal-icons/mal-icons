@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-anticlockwise-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiAnticlockwise2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.41 6L15.24 7.83L13.83 9.24L9.59 5L13.83 0.76L15.24 2.17L13.41 4H16C18.76 4 21 6.24 21 9V13H19V9C19 7.34 17.66 6 16 6H13.41ZM15 11V21C15 21.55 14.55 22 14 22H4C3.45 22 3 21.55 3 21V11C3 10.45 3.45 10 4 10H14C14.55 10 15 10.45 15 11ZM13 12H5V20H13V12Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiAnticlockwise2Line;

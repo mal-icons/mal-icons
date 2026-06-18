@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiKeynoteFill = createIcon("0 0 24 24", [["path",{"d":"M19 2C19.55 2 20.09 2.43 20.2 2.98L21.8 11.02C21.91 11.56 21.54 12 21.01 12H13V20H17V22H7V20H11V12H2.99C2.44 12 2.09 11.57 2.2 11.02L3.8 2.98C3.91 2.44 4.44 2 5 2H19Z"}]]);
+
+export default RiKeynoteFill;

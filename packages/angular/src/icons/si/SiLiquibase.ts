@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-liquibase",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLiquibase {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.02 0C6.65 0 2.97 1.92 2.96 3.65c0 1.72 3.73 3.65 9.06 3.65 5.33 0 9.05-1.92 9.05-3.65S17.35 0 12.02 0Zm9.06 6.45c-1.6 1.28-3.49 1.72-7.33 2.64-5.33 1.24-10.82 2.52-10.82 7.53v0.56c2-1.72 5.61-2.52 9.13-3.32h0c4.41-1 9.01-2.04 9.01-4.61zm0 5.85c-1.92 1.56-5.33 2.32-8.69 3.09-4.65 1.04-9.46 2.12-9.46 5.01 0 0.640.52 1.32 1.48 1.92 1.92-1.28 4.93-2 7.81-2.68 4.37-1.04 8.85-2.12 8.85-4.81zm0 5.65c-1.88 1.6-5.25 2.4-8.49 3.17-2.360.56-4.77 1.12-6.45 1.96C7.65 23.64 9.7 24 12.02 24c5.29 0 9.05-1.88 9.05-3.65z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLiquibase;

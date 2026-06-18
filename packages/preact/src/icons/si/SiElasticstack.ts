@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiElasticstack = createIcon("0 0 24 24", [["path",{"d":"M1.88 0C0.84 0 0 0.84 0 1.88v4.79h24V1.88C24 0.84 23.16 0 22.13 0zM0 8.89v6.22h24V8.89zm0 8.44v4.79C0 23.160.84 24 1.88 24h9v-6.67zm13.13 0V24h9C23.16 24 24 23.16 24 22.13v-4.79z"}]]);
+
+export default SiElasticstack;

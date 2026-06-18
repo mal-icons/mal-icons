@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-airchina",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAirchina {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.75 23.38c3.430.96 7.36-1.45 7.36-5.44v-4.71c0-1.38 1.15-3.19 3.21-3.19 2.17 0 3.2 1.95 3.2 3.19 0 0.79-0.31 2.38-1.8 2.38-1.19 0-1.95-1.21-1.57-2.2-0.080.330.090.660.450.660.34 0 0.53-0.320.47-0.73 0-0.08-0.1-0.83-0.94-0.83-0.7 0-0.930.64-0.930.95v4.19c0 4.48-4.88 7.8-9.45 5.74M3.51 19.99s2.3 2.34 5.340.57c2.01-1.17 2.08-3.6 2.08-3.6v-5.43s-0.08-2.72 2.37-4.67c1.71-1.34 3.3-1.25 4.39-1.39 2.81-0.34 4.06-2.12 4.06-2.120.030.3-0.27 3.56-3.78 4.48-0.720.19-4.58-0.19-4.58 4.28v5.38c0 1.13-0.27 3.12-2.38 4.53-2.17 1.44-5.68 1.21-7.49-2.03M1.05 8.76H3.85c0-0.50.43-1.47 1.52-1.470.43 0 0.50.1 1.05-0.020.72-0.24 1.04-0.66 1.19-0.99 0 0 0.28 1.19-0.84 1.81-0.640.35-1.620.07-1.620.07s-0.79-0.11-0.90.59c0.45 0 1.150.45 1.15 1.22v6.53c0 0.470.380.960.950.96a0.950.95 0 0 0 0.95-0.96v-4.58c0-6.76 5.26-9.56 8.31-9.79 2.53-0.19 4.240.04 7.34-2.14 0 0-0.97 3.8-5.36 4.7-0.80.17-3.22-0.11-5.5 2.25-1.8 1.88-1.99 3.61-1.99 5.89v4.04c0 1.76-1.42 3.55-3.59 3.55-2.1 0-3.57-1.67-3.57-3.54v-6.85c0-0.56-0.41-1.07-1.05-1.07h-0.85Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAirchina;

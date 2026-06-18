@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-playstation",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPlaystation {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.98 2.6v17.55l3.92 1.26V6.69c0-0.690.3-1.150.79-0.990.640.180.760.810.76 1.51v5.88c2.44 1.19 4.360 4.36-3.15 0-3.24-1.13-4.67-4.44-5.83-1.31-0.45-3.73-1.19-5.39-1.5zm4.66 16.24l6.3-2.27c0.72-0.260.83-0.620.25-0.82-0.59-0.19-1.64-0.14-2.360.12l-4.2 1.5V14.98l0.24-0.08s1.2-0.42 2.91-0.61c1.7-0.18 3.790.03 5.440.66 1.850.6 2.04 1.47 1.58 2.07-0.460.6-1.62 1.04-1.62 1.04l-8.54 3.11V18.86zM1.81 18.6c-1.9-0.55-2.21-1.67-1.35-2.320.8-0.59 2.16-1.05 2.16-1.05l5.62-2.01v2.31L4.21 17c-0.70.27-0.820.63-0.240.830.590.2 1.640.15 2.34-0.12L8.25 17v2.07c-0.120.03-0.260.04-0.390.07-1.940.33-40.2-6.04-0.48z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPlaystation;

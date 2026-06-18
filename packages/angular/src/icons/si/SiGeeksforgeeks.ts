@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-geeksforgeeks",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGeeksforgeeks {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.45 14.32c-0.140.28-0.330.53-0.560.75a3.69 3.69 0 0 1-1.10.7 4.51 4.51 0 0 1-3.12-0.02 3.79 3.79 0 0 1-2.13-2.08 3.57 3.57 0 0 1-0.13-0.35h7.42a4.26 4.26 0 0 1-0.37 1.01zm-11.99-0.65a3.79 3.79 0 0 1-2.13 2.08 4.51 4.51 0 0 1-3.120.02 3.7 3.7 0 0 1-1.1-0.69 2.65 2.65 0 0 1-0.56-0.74 4.22 4.22 0 0 1-0.37-1.01H9.59c-0.040.12-0.080.24-0.130.35zm14.5-1.76a3.85 3.85 0 0 0-0.08-0.47l-9.63-0.01a3.93 3.93 0 0 1 1.14-2.35c0.36-0.350.79-0.62 1.26-0.81a3.97 3.97 0 0 1 4.480.96l1.52-1.49a5.7 5.7 0 0 0-1.92-1.36 6.28 6.28 0 0 0-2.54-0.49 6.35 6.35 0 0 0-2.40.46 6.01 6.01 0 0 0-1.96 1.28 6.14 6.14 0 0 0-1.32 1.94 5.86 5.86 0 0 0-0.47 1.86h-0.06a5.86 5.86 0 0 0-0.47-1.86 6.13 6.13 0 0 0-1.32-1.94A6 6 0 0 0 8.21 6.34a6.7 6.7 0 0 0-4.950.03A5.71 5.71 0 0 0 1.34 7.73l1.52 1.49a4.17 4.17 0 0 1 4.48-0.96c0.470.180.90.46 1.260.810.370.360.660.790.86 1.270.150.340.240.710.28 1.08l-9.630.01A4.71 4.71 0 0 0 0 12.46a6.49 6.49 0 0 0 0.35 2.13 4.93 4.93 0 0 0 1.08 1.78c0.530.56 1.17 1 1.88 1.29a6.45 6.45 0 0 0 2.50.46c0.820.01 1.64-0.15 2.4-0.46a5.99 5.99 0 0 0 1.96-1.28 6.12 6.12 0 0 0 1.69-3.08h0.27a6.13 6.13 0 0 0 1.69 3.08 5.99 5.99 0 0 0 1.96 1.28 6.35 6.35 0 0 0 2.40.46 6.45 6.45 0 0 0 2.5-0.46 5.42 5.42 0 0 0 1.88-1.29 4.93 4.93 0 0 0 1.08-1.78A6.52 6.52 0 0 0 24 12.46a4.76 4.76 0 0 0-0.04-0.55z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGeeksforgeeks;

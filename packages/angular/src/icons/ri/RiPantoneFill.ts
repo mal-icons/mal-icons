@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-pantone-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPantoneFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4 18.92L2.65 18.38C2.14 18.17 1.89 17.59 2.1 17.08L4 12.37V18.92ZM8.86 21H7C6.45 21 6 20.55 6 20V13.92L8.86 21ZM6.02 5.97L15.29 2.22C15.81 2.01 16.39 2.26 16.6 2.77L22.21 16.68C22.42 17.19 22.17 17.78 21.66 17.98L12.39 21.73C11.88 21.94 11.3 21.69 11.09 21.18L5.47 7.27C5.26 6.76 5.51 6.17 6.02 5.97ZM9 9C9.55 9 10 8.55 10 8C10 7.45 9.55 7 9 7C8.45 7 8 7.45 8 8C8 8.55 8.45 9 9 9Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPantoneFill;

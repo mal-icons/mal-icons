@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiFileShredFill = createIcon("0 0 24 24", [["path",{"d":"M22 12V14H2V12H4V3C4 2.45 4.44 2 5 2H15L20 7L20 12H22ZM3 16H5V22H3V16ZM19 16H21V22H19V16ZM15 16H17V22H15V16ZM11 16H13V22H11V16ZM7 16H9V22H7V16Z"}]]);
+
+export default RiFileShredFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-wattpad",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWattpad {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.03 3.09c-1.690.11-3.9 2.03-6.9 6.950.25-2.760.35-4.72-0.86-5.74-0.82-0.7-2.76-0.97-3.930.54C0.18 6.35-0.09 9.310.02 12.43c0.24 6.52 2.54 8.49 4.59 8.49h0c3.62 0 4.13-4.44 6.6-8.4-0.09 1.42-0.01 2.670.27 3.53 1.08 3.4 4.78 3.66 6.470.21 2.37-4.87 3.06-6.02 5.45-9.52 1.58-2.31-0.25-3.81-2.37-2.73-1.090.55-2.86 1.94-5.07 4.870.39-2.230.28-6-2.93-5.78z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWattpad;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-nokia",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiNokia {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.59 9.35v5.3h0.8V9.35Zm-8.5-0.09c-1.55 0-2.75 1.13-2.75 2.74 0 1.69 1.2 2.74 2.75 2.74 1.55 0 2.75-1.05 2.75-2.74a2.72 2.72 0 0 0-2.75-2.74ZM10.05 12c0 1.2-0.88 1.99-1.96 1.99-1.08 0-1.96-0.79-1.96-1.99 0-1.170.88-1.99 1.96-1.99 1.08 0 1.960.81 1.96 1.99zM0 9.18v5.48h0.81v-3.62l4.22 3.79v-1.13zM11.44 12l2.95 2.65h1.18L12.62 12l2.96-2.65h-1.18ZM24 14.65h-0.87l-0.64-1.17h-2.9l-0.64 1.18h-0.87l1.06-1.96h2.94l-1.46-2.720.43-0.8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiNokia;

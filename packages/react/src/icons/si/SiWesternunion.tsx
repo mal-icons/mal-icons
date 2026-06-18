@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiWesternunion = createIcon("0 0 24 24", [["path",{"d":"M15.8 5.19h5.92L24 9.15l-4.64 8.04c-1.25 2.15-3.28 2.15-4.53 0L7.89 5.19h5.92l4.27 7.39a1.13 1.13 0 0 0 1.980l-4.27-7.39ZM0 5.19h5.92l6.24 10.8-0.7 1.2c-1.25 2.15-3.28 2.15-4.53 0L0 5.19Z"}]]);
+
+export default SiWesternunion;

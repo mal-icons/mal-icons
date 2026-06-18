@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-googlemessages",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGooglemessages {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zM4.91 7.09h11.46a2.2 2.2 0 0 1 2.17 2.19v5.86a2.21 2.21 0 0 1-2.18 2.18H8.04c-1.17 0-2.04-0.99-2.04-2.18v-4.64L4.5 7.91c-0.31-0.42-0.05-0.820.41-0.82zm3.42 2.19c-0.35 0-0.680.21-0.680.54 0 0.330.330.540.680.54h7.91c0.35 0 0.68-0.210.68-0.54 0-0.33-0.33-0.55-0.68-0.55zm0 2.18c-0.35 0-0.680.21-0.680.54 0 0.330.330.540.680.54h7.91c0.35 0 0.68-0.210.68-0.54 0-0.33-0.33-0.54-0.68-0.54zm-0.01 2.19c-0.35 0-0.680.21-0.680.54 0 0.330.330.540.680.54h5.73c0.35 0 0.68-0.210.68-0.54 0-0.33-0.33-0.55-0.68-0.55z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGooglemessages;

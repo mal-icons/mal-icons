@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-qualys",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiQualys {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.44 0 2.14 3.51 2.14 3.51s-0.38 2.6-0.14 7.83C2.37 19.25 12 24 12 24c00 9.63-4.75 10-12.660.24-5.23-0.14-7.83-0.14-7.83S18.56 0 12 0zm-0.68 2.92a7.37 7.37 0 0 1 8.05 7.33 7.12 7.12 0 0 1-2.77 5.63c-1.18-0.11-2.41-0.44-2.97-0.76 1.44-0.92 3.3-2.7 3.3-4.87a4.94 4.94 0 0 0-4.93-4.93c-2.72 0-4.93 2.27-4.93 5.07 0 2.33 1.24 4.16 3.67 5.44 1.590.84 3.97 1.45 6.49 1.77-0.420.62-1.53 1.69-2.18 2.05-3.01-0.49-5.65-1.54-7.46-3.1-1.93-1.67-2.95-3.85-2.95-6.3a7.37 7.37 0 0 1 6.69-7.33Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiQualys;

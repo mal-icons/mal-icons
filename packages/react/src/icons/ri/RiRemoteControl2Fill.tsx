@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiRemoteControl2Fill = createIcon("0 0 24 24", [["path",{"d":"M18 2C18.55 2 19 2.45 19 3V21C19 21.55 18.55 22 18 22H6C5.45 22 5 21.55 5 21V3C5 2.45 5.45 2 6 2H18ZM15 15H13V17H15V15ZM11 15H9V17H11V15ZM13 6H11V8H9V10H11L11 12H13L13 10H15V8H13V6Z"}]]);
+
+export default RiRemoteControl2Fill;

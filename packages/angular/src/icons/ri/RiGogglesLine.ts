@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-goggles-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGogglesLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.72 10.15C3.29 10.7 3 11.45 3 12.5C3 13.52 3.37 14.55 3.96 15.32C4.56 16.1 5.29 16.5 6 16.5C6.76 16.5 7.51 16.07 8.54 15.41C9.59 14.74 10.71 14 12 14C13.29 14 14.41 14.74 15.46 15.41C16.49 16.07 17.24 16.5 18 16.5C18.71 16.5 19.44 16.1 20.04 15.32C20.63 14.55 21 13.52 21 12.5C21 11.45 20.72 10.7 20.28 10.15C19.84 9.58 19.18 9.14 18.33 8.81C16.58 8.13 14.25 8 12 8C9.75 8 7.42 8.13 5.67 8.81C4.82 9.14 4.16 9.58 3.72 10.15ZM4.95 6.94C7.08 6.12 9.75 6 12 6C14.25 6 16.92 6.12 19.05 6.94C20.13 7.36 21.13 7.98 21.86 8.92C22.6 9.86 23 11.05 23 12.5C23 13.97 22.48 15.43 21.62 16.54C20.77 17.65 19.5 18.5 18 18.5C16.58 18.5 15.34 17.71 14.43 17.12C13.72 16.67 12.88 16 12 16C11.12 16 10.28 16.67 9.57 17.12C8.66 17.71 7.42 18.5 6 18.5C4.5 18.5 3.23 17.65 2.38 16.54C1.52 15.43 1 13.97 1 12.5C1 11.05 1.4 9.86 2.14 8.92C2.87 7.98 3.87 7.36 4.95 6.94Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGogglesLine;

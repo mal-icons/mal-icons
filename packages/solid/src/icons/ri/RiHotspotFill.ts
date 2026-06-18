@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiHotspotFill = createIcon("0 0 24 24", [["path",{"d":"M11 2V11H18V21C18 21.55 17.55 22 17 22H5C4.45 22 4 21.55 4 21V3C4 2.45 4.45 2 5 2H11ZM13 7C14.1 7 15 7.9 15 9H13V7ZM13 4C15.76 4 18 6.24 18 9H16C16 7.34 14.66 6 13 6V4ZM13 1C17.42 1 21 4.58 21 9H19C19 5.69 16.31 3 13 3V1Z"}]]);
+
+export default RiHotspotFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-camera-switch-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCameraSwitchLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.83 5L7.83 7H4V19H20V7H16.17L14.17 5H9.83ZM9 3H15L17 5H21C21.55 5 22 5.45 22 6V20C22 20.55 21.55 21 21 21H3C2.45 21 2 20.55 2 20V6C2 5.45 2.45 5 3 5H7L9 3ZM9.64 7.53C10.36 7.19 11.16 7 12 7C15.04 7 17.5 9.46 17.5 12.5C17.5 14.05 16.86 15.45 15.83 16.45L13.75 12.6H15.5C15.5 12.57 15.5 12.53 15.5 12.5C15.5 10.57 13.93 9 12 9C11.49 9 11.01 9.11 10.57 9.3L9.64 7.53ZM14.32 17.49C13.61 17.82 12.83 18 12 18C8.96 18 6.5 15.54 6.5 12.5C6.5 10.97 7.13 9.58 8.14 8.58L10.25 12.5H8.5C8.5 14.43 10.07 16 12 16C12.49 16 12.96 15.9 13.39 15.72L14.32 17.49Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCameraSwitchLine;

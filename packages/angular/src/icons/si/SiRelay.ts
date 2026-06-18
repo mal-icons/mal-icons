@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-relay",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRelay {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.26 4.94C1.01 4.94 0 5.95 0 7.2c0 1.25 1.01 2.26 2.26 2.26 1.05 0 1.94-0.72 2.19-1.69h10.34c0.99 0 1.790.8 1.79 1.79 0 0.99-0.8 1.79-1.79 1.79h-5.73c-1.67 0-3.03 1.36-3.03 3.03 0 1.67 1.36 3.03 3.03 3.03h10.49c0.270.95 1.14 1.64 2.18 1.64 1.25 0 2.26-1.01 2.26-2.26 0-1.25-1.01-2.26-2.26-2.26-1.04 0-1.910.69-2.18 1.64H9.06c-0.99 0-1.79-0.8-1.79-1.79 0-0.990.8-1.79 1.79-1.79h5.73c1.67 0 3.03-1.36 3.03-3.03 0-1.67-1.36-3.03-3.03-3.03H4.43c-0.29-0.92-1.15-1.59-2.16-1.59Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRelay;

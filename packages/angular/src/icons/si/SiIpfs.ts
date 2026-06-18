@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ipfs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiIpfs {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0L1.61 6v12L12 24l10.39-6V6zm-1.07 1.45h0a1.8 1.8 0 2.14 0l7.53 4.35a1.79 1.79 0 0 0.4l-7.53 4.35a1.8 1.8 0 0-2.14 0l-7.54-4.35a1.8 1.8 0 0-0.4zM21.32 7.4c0.110.080.230.150.350.2v8.7a1.8 1.8 0 0-1.07 1.85l-7.53 4.35a1.8 1.8 0 0-0.35-0.2l-0.01-8.65a1.8 1.8 0 1.07-1.85zm-18.650.05l7.54 4.35a1.8 1.8 0 1.07 1.85v8.7c-0.120.05-0.240.12-0.350.2l-7.53-4.35a1.8 1.8 0 0-1.07-1.85v-8.7c0.12-0.050.24-0.120.35-0.2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiIpfs;

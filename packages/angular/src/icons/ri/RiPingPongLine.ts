@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-ping-pong-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPingPongLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.5 2C16.75 2 21 6.25 21 11.5C21 13.03 20.64 14.47 20 15.75L22.46 18.22C22.85 18.61 22.85 19.24 22.46 19.63L19.63 22.46C19.24 22.85 18.61 22.85 18.22 22.46L15.75 20C14.47 20.64 13.03 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2ZM16.8 15.39L15.39 16.8L18.92 20.34L20.34 18.92L16.8 15.39ZM18.67 9.28L9.28 18.67C9.98 18.88 10.73 19 11.5 19C12.47 19 13.39 18.82 14.24 18.48L13.27 17.51C12.88 17.12 12.88 16.49 13.27 16.1L16.1 13.27C16.49 12.88 17.12 12.88 17.51 13.27L18.48 14.24C18.82 13.39 19 12.47 19 11.5C19 10.73 18.88 9.98 18.67 9.28ZM11.5 4C7.36 4 4 7.36 4 11.5C4 14.11 5.34 16.41 7.36 17.76L17.76 7.36C16.41 5.34 14.11 4 11.5 4Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPingPongLine;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-flask",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFlask {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M10.77 2.88c-0.01 1.430.32 4.620.45 5.73l-8.56 3.83c-0.56-0.96-0.98-2.3-1.24-3.38l-0.060.03c-0.20.09-0.410.05-0.49-0.09l-0.01-0.02-0.82-1.51c-0.06-0.1-0.05-0.250.02-0.39a0.780.78 0 0 1 0.36-0.33l9.82-4.21c0.15-0.060.3-0.060.400.110.060.130.130.130.33Zm0.68 7c0.52 1.970.68 2.410.83 2.82l-7.26 3.7a19.35 19.35 0 0 1-1.81-2.83l8.24-3.69Zm12.43 8.79h0c0.280.4-0.050.66-0.150.7l-0.950.37c0.040.130.040.32-0.220.41l-0.740.29c-0.230.09-0.4-0.06-0.42-0.2l-0.02-0.12c-4.43 1.78-7.94 1.69-10.70.65-1.98-0.74-3.58-1.98-4.85-3.38l6.95-3.54c0.72 1.43 1.59 2.45 2.51 3.18 2.09 1.64 4.42 1.71 5.79 1.56l-0.05-0.23c-0.01-0.080.01-0.130.09-0.16l0.73-0.29a0.30.3 0 0 1 0.340.09l0.75-0.29a0.310.31 0 0 1 0.340.09l0.580.89Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFlask;

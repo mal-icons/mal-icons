@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-alwaysdata",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAlwaysdata {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.05 15.25c1.26 1.26 1.26 3.31 0 4.57-1.26 1.26-3.31 1.26-4.570-0.96-0.96-1.19-2.37-0.69-3.55L12.97 8.95a2.9 2.9 0 0 1-0.76-0.01l-4.61 6.2c0.260.750.09 1.62-0.51 2.22-0.840.84-2.210.84-3.050-0.65-0.65-0.79-1.62-0.43-2.42l-2-2.93c-0.060.01-0.120.02-0.180.02-0.79 0-1.44-0.64-1.44-1.44 0-0.790.64-1.44 1.44-1.440.79 0 1.440.64 1.44 1.44 0 0.25-0.070.49-0.180.69l2.07 2.55c0.52-0.21 1.07-0.19 1.55-0.01l3.86-6.21c-0.69-1.11-0.55-2.580.41-3.54 1.12-1.12 2.94-1.12 4.0600.880.88 1.07 2.190.57 3.25l5.24 7c0.93-0.09 1.890.22 2.610.93z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAlwaysdata;

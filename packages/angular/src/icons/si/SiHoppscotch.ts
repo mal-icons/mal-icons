@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-hoppscotch",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHoppscotch {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.63 4.75a8.89 8.89 0 0 1 5.29 7.94c1.87 1.47 3.72 3.53 2.86 5.47-0.97 2.17-4.41 2.09-8.330.99A7.11 7.11 0 0 1 5.06 14.51C1.62 12.33-0.75 9.830.22 7.66c0.86-1.94 3.63-1.94 5.98-1.53a8.89 8.89 0 0 1 9.44-1.38ZM1.86 8.39c-0.47 1.06 2.06 4.05 8.97 7.13 6.92 3.08 10.83 2.95 11.3 1.890.39-0.87-1.21-2.55-3.05-3.86-1.43-1.02-3.38-2.14-5.93-3.28-0.69-0.31-0.96-1.13-0.67-1.790.29-0.650.93-1.09 2.28-1.160.6400.72-0.180.75-0.330.04-0.23-0.29-0.47-0.62-0.62-2.65-1.18-5.89-0.68-8.13 1.68-2.19-0.49-4.51-0.56-4.90.32Zm11.08 5.67c-0.240.54-0.980.74-1.650.44s-1.02-0.98-0.78-1.52c0.24-0.540.98-0.73 1.65-0.440.670.3 1.020.980.78 1.52zm4.02 2.33c0.70.2 1.4-0.09 1.57-0.660.16-0.56-0.28-1.19-0.98-1.39-0.7-0.2-1.40.09-1.560.66-0.160.560.28 1.190.98 1.39zM7.22 9.74c0.620.390.87 1.110.56 1.6-0.310.5-1.070.59-1.690.2-0.62-0.39-0.87-1.1-0.56-1.60.31-0.5 1.07-0.59 1.69-0.2Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHoppscotch;

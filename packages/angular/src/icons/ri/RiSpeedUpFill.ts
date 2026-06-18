@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-speed-up-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSpeedUpFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20 13C20 15.21 19.1 17.21 17.66 18.66L19.07 20.07C20.88 18.26 22 15.76 22 13 22 7.48 17.52 3 12 3 6.48 3 2 7.48 2 13 2 15.76 3.12 18.26 4.93 20.07L6.34 18.66C4.9 17.21 4 15.21 4 13 4 8.58 7.58 5 12 5 16.42 5 20 8.58 20 13ZM15.29 8.29 10.5 12.5 12.5 14.5 16.71 9.71 15.29 8.29Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSpeedUpFill;

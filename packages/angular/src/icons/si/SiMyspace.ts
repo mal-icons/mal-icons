@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-myspace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMyspace {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.8 12.27A3.81 3.81 0 23.62 8.47c0-2.1-1.71-3.79-3.82-3.79a3.82 3.82 0 0-3.82 3.81 3.82 3.82 0 3.82 3.81zm-8.60.71a3.43 3.43 0 3.44-3.42A3.43 3.43 0 11.2 6.13a3.44 3.44 0 0-3.44 3.44A3.44 3.44 0 11.2 13zm-7.80.64c1.71 0 3.09-1.38 3.09-3.08 0-1.7-1.39-3.08-3.1-3.08A3.09 3.09 0 0.3 10.54c0 1.7 1.39 3.08 3.1 3.08zm0 0.71c-1.96 0-3.4 1.72-3.4 3.5v1.2c0 0.170.140.310.310.31h6.18a0.310.31 0 0.31-0.31v-1.2c0-1.78-1.44-3.5-3.4-3.5zm7.8-0.56c-2.18 0-3.78 1.92-3.78 3.89v1.33c0 0.190.160.340.350.34h6.87a0.340.34 0 0.34-0.34V17.65c0-1.98-1.6-3.89-3.78-3.89zm8.6-0.62c-2.42 0-4.2 2.13-4.2 4.32v1.48c0 0.210.170.380.380.38h7.63c0.21 0 0.38-0.170.38-0.38v-1.48c0-2.2-1.78-4.32-4.2-4.32z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMyspace;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-kuaishou",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiKuaishou {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.32 12.26c2.33 0 4.22 1.88 4.22 4.2V19.8c0 2.32-1.89 4.2-4.22 4.2h-6.2a4.22 4.22 0 0 1-4.02-2.94l-3.68 1.83a2.04 2.04 0 0 1-2.73-0.9 2.02 2.02 0 0 1-0.22-0.91v-5.94a2.03 2.03 0 0 1 2.04-2.02 2.04 2.04 0 0 1 0.920.22l3.67 1.85a4.22 4.22 0 0 1 4.02-2.92zm-0.06 2.16h-6.08c-1.15 0-2.090.92-2.11 2.07v3.25c0 1.150.93 2.08 2.07 2.1h6.11c1.15 0 2.09-0.92 2.11-2.06v-3.25a2.1 2.1 0 0 0-2.07-2.1zM4.18 15.72a0.550.55 0 0 0-0.560.54v3.73a0.560.56 0 0 0 0.80.5l0.010 3.46-1.76V17.51l-3.47-1.73a0.560.56 0 0 0-0.25-0.06zM9.28 0a5.67 5.67 0 0 1 4.98 2.97 4.92 4.92 0 0 1 3.36-1.32c2.71 0 4.91 2.18 4.91 4.86 0 2.69-2.2 4.86-4.91 4.86a4.92 4.92 0 0 1-4-2.03 5.65 5.65 0 0 1-4.34 2.03c-3.13 0-5.67-2.55-5.67-5.69C3.61 2.55 6.15 0 9.28 0Zm8.34 3.93c-1.44 0-2.61 1.16-2.61 2.59s1.17 2.59 2.61 2.59c1.44 0 2.61-1.16 2.61-2.58s-1.17-2.58-2.61-2.58zM9.28 2.29a3.4 3.4 0 0 0-3.39 3.4c0 1.88 1.52 3.4 3.39 3.4a3.4 3.4 0 0 0 3.39-3.4c0-1.88-1.52-3.4-3.39-3.4z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiKuaishou;

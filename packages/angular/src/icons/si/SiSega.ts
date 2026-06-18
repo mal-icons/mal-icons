@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sega",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSega {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.23 4.14l-0.01 3.33h-10.6c-0.22 0-0.40.18-0.40.4 0 0.220.180.40.40.4l2.76-0.02c4.35 0 7.87 3.53 7.87 7.87 0 4.35-3.52 7.87-7.87 7.87L2.75 24l0.01-3.37h10.64c2.49 0 4.5-2.02 4.5-4.5 0-2.49-2.02-4.51-4.51-4.51l-2.77-0.03c-2.06 0-3.73-1.67-3.73-3.72 0-2.06 1.67-3.73 3.72-3.73h10.62zM2.76 19.84l0-3.33h10.61c0.21 0 0.38-0.170.38-0.39 0-0.21-0.17-0.38-0.38-0.38h-2.74c-4.34 0-7.87-3.52-7.87-7.87S6.28 0 10.62 0l10.600.01 3.35-10.60c-2.49 0-4.5 2.02-4.5 4.51 0 2.49 2.02 4.5 4.51 4.5l2.780.03c2.06 0 3.72 1.67 3.72 3.72 0 2.06-1.66 3.72-3.72 3.72H2.77l00z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSega;

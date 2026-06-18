@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-rocketdotchat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRocketdotchat {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.91 8.38c-0.65-1.01-1.56-1.9-2.71-2.66-2.21-1.46-5.13-2.26-8.2-2.26-1.03 0-2.040.09-3.020.27a9.98 9.98 0 0 0-2.08-1.53C4.110.8 1.65 1.320.4 1.77a0.60.6 0 0 0-0.230.98c0.880.91 2.33 2.7 1.97 4.33C0.75 8.49 0 10.2 0 11.98c0 1.820.75 3.52 2.14 4.940.36 1.63-1.1 3.42-1.97 4.33a0.60.6 0 0 0 0.230.98c1.250.45 3.710.97 6.51-0.43a10.03 10.03 0 0 0 2.08-1.53 17.06 17.06 0 0 0 3.020.27c3.07 0 5.98-0.8 8.2-2.26 1.15-0.75 2.06-1.65 2.71-2.66C23.63 14.49 24 13.28 24 12.02c0-1.3-0.37-2.51-1.09-3.64zM11.88 18.44c-1.33 0-2.59-0.17-3.75-0.48l-0.840.81a7.72 7.72 0 0 1-1.56 1.15 6.12 6.12 0 0 1-2.20.62c0.04-0.070.08-0.150.12-0.220.84-1.55 1.07-2.950.68-4.19-1.38-1.09-2.21-2.48-2.21-3.99 0-3.48 4.37-6.29 9.76-6.29s9.76 2.82 9.76 6.29c0 3.48-4.37 6.3-9.76 6.3zm-3.23-6.31c0 0.79-0.64 1.43-1.44 1.43a1.43 1.43 0 0 1-1.44-1.43c0-0.790.64-1.43 1.44-1.430.79 0 1.440.64 1.44 1.43zm4.63 0c0 0.79-0.64 1.43-1.44 1.43a1.43 1.43 0 0 1-1.44-1.43c0-0.790.64-1.43 1.44-1.430.79 0 1.440.64 1.44 1.43zm4.63 0c0 0.79-0.64 1.43-1.44 1.43a1.43 1.43 0 0 1-1.44-1.43c0-0.790.64-1.43 1.44-1.430.79 0 1.440.64 1.44 1.43z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRocketdotchat;

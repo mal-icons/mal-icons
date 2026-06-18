@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-semanticrelease",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSemanticrelease {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.95 14.4a2.4 2.4 0 1 1 0-4.8 2.4 2.4 0 0 1 0 4.8zm0-0.72a1.68 1.68 0 1 0 0-3.36 1.68 1.68 0 0 0 0 3.36zM8.3 3.12v1.73c0.10.53 1.01 2.64 1.68 3.89C9.12 8.11 7.2 6.67 6.67 5.95a4.42 4.42 0 0 1-0.82-1.39L2.45 6.48v4.13c0.430.24 1.10.72 1.490.860.530.19 2.830.43 4.220.48-1.010.43-3.17 1.39-4.08 1.49-0.770.14-1.30.05-1.63 0v4.08l3.31 1.87c0.43-0.19 1.15-0.58 1.49-0.820.43-0.34 1.78-2.21 2.5-3.41-0.1 1.06-0.38 3.41-0.72 4.27-0.290.72-0.62 1.1-0.82 1.39L12 22.99l3.5-2.02c0.05-0.430.1-1.34 0-1.82-0.05-0.53-1.01-2.64-1.63-3.890.860.67 2.74 2.11 3.31 2.830.530.620.72 1.150.82 1.44l3.55-2.02v-4.03c-0.38-0.24-1.15-0.72-1.63-0.91-0.48-0.19-2.78-0.43-4.18-0.48 1.01-0.48 3.17-1.39 4.08-1.490.86-0.14 1.39-0.05 1.730.05V6.48l-3.36-1.92-1.490.91c-0.430.34-1.78 2.21-2.54 3.360.14-1.060.43-3.410.77-4.270.29-0.720.62-1.150.86-1.39L12 1.01zM12 0l10.42 6v12L12 24 1.58 18V6z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSemanticrelease;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-agora",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiAgora {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.44 11.68a1.35 1.35 0 1 1 1.35-1.35 1.35 1.35 0 0 1-1.35 1.35m0-3.8a2.45 2.45 0 1 0 2.45 2.45 2.45 2.45 0 0 0-2.45-2.45m4.070.63-0.030.03-0.030.03-0.02-0.04-0.02-0.03a1.17 1.17 0 0 0-0.87-0.6l-0.09-0.02v4.9l0.09-0.01a1.14 1.14 0 0 0 1.01-1.15v-1.28a1.36 1.36 0 0 1 1.21-1.34l0.07-0.01V7.88l-0.090.01a2.09 2.09 0 0 0-1.230.62M2.45 11.68a1.35 1.35 0 1 1 1.35-1.35 1.35 1.35 0 0 1-1.35 1.35m1.57-3.32-0.020.03-0.020.03-0.03-0.02-0.03-0.02a2.45 2.45 0 1 0-1.48 4.4 2.42 2.42 0 0 0 1.48-0.5l0.03-0.020.03-0.020.020.030.020.03a1.17 1.17 0 0 0 0.790.47l0.090.01v-4.9l-0.090.01a1.17 1.17 0 0 0-0.790.47m17.53 3.32a1.35 1.35 0 1 1 1.35-1.35 1.35 1.35 0 0 1-1.35 1.35m2.36-3.79a1.18 1.18 0 0 0-0.790.47l-0.020.03-0.020.03-0.03-0.02-0.03-0.02a2.45 2.45 0 1 0-1.48 4.4 2.42 2.42 0 0 0 1.48-0.5l0.03-0.020.03-0.020.020.030.020.03a1.17 1.17 0 0 0 0.790.47L24 12.78V7.88ZM7.98 8.98a1.35 1.35 0 1 1-1.35 1.35 1.35 1.35 0 0 1 1.36-1.35M9.51 12.24a2.44 2.44 0 0 0 0.5-3.28 1.98 1.98 0 0 0-0.11-0.15 1.19 1.19 0 0 0 0.52-0.83l0.01-0.09H7.97A2.45 2.45 0 0 0 6.44 12.24a2.44 2.44 0 0 0-0.290.27l0.750.82a1.35 1.35 0 1 1 1.78 1.96l0.750.82a2.45 2.45 0 0 0 0.07-3.88"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiAgora;

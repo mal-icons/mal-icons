@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-umbrella-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiUmbrellaFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13 2.05C18.05 2.55 22 6.81 22 12V13H13V19C13 20.1 13.89 21 15 21C16.1 21 17 20.1 17 19V18H19V19C19 21.21 17.21 23 15 23C12.79 23 11 21.21 11 19V13H2V12C2 6.81 5.94 2.55 11 2.05V2C11 1.45 11.45 1 12 1C12.55 1 13 1.45 13 2V2.05Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiUmbrellaFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-clarifai",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiClarifai {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.78 14.77A2.77 2.77 0 0 1 0 12.01a2.78 2.78 0 0 1 2.78-2.78 2.77 2.77 0 0 1 2.76 2.76c0 1.52-1.23 2.78-2.76 2.78zM17.12 1.83c-2.05 0-2.14 1.73-5.27 1.73-3.16 0-3.42-1.73-5.29-1.73a2.77 2.77 0 0 0-2.76 2.77 2.78 2.78 0 0 0 2.77 2.76c2.07 0 2.16-1.73 5.29-1.73 3.16 0 3.42 1.73 5.29 1.73A2.77 2.77 0 0 0 19.9 4.6a2.78 2.78 0 0 0-2.78-2.76zm0 14.81c-2.07 0-2.16 1.73-5.29 1.73-3.16 0-3.42-1.73-5.29-1.73a2.77 2.77 0 0 0-2.76 2.76 2.78 2.78 0 0 0 2.77 2.77c2.07 0 2.16-1.73 5.29-1.73 3.16 0 3.42 1.73 5.29 1.73a2.77 2.77 0 0 0 0-5.53zm4.1-7.4c-2.08 0-2 1.82-4.62 1.82-2.42-0.01-2.45-1.82-4.75-1.82-1.44 0-2.63 1.32-2.63 2.77s1.2 2.76 2.77 2.76c2.08 0 2.01-1.82 4.62-1.82 2.42 0 2.44 1.81 4.77 1.81 1.44 0 2.63-1.32 2.63-2.76 0-1.43-1.2-2.75-2.78-2.75Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiClarifai;

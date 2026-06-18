@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-invidious",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiInvidious {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm0 0.74A11.26 11.26 0 0 1 23.26 12 11.26 11.26 0 0 1 12 23.26 11.26 11.26 0 0 1 0.74 12 11.26 11.26 0 0 1 12 0.74zm-0.66 4.38a0.780.78 0 0 0-0.780.780.780.78 0 0 0 0.780.780.780.78 0 0 0 0.78-0.770.780.78 0 0 0-0.77-0.78zm0.04 2.27-0.52 1.85-2.75 9.29h-0.71v0.37h1.97v-0.37h-0.87l2.61-8.81 4.6 9.17h1.43L11.38 7.38z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiInvidious;

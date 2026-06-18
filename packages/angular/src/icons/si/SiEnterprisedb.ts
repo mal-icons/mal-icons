@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-enterprisedb",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiEnterprisedb {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zM6.44 7.75c0.07 0 0.1500.220.01l1.820.18a0.380.38 0 0 1 0.350.37v6.64c0 0.19-0.150.32-0.340.3l-1.81-0.18C5.47 14.95 4.5 13.92 4.5 12.76c0-0.620.28-1.150.72-1.49-0.44-0.43-0.72-1.01-0.72-1.63 0-1.080.85-1.89 1.94-1.89zm11.12 0c1.09 0 1.940.81 1.94 1.89 0 0.62-0.28 1.2-0.72 1.630.440.340.720.870.72 1.49 0 1.16-0.97 2.19-2.16 2.31l-1.820.18c-0.190.02-0.34-0.12-0.34-0.3V8.31c0-0.180.15-0.350.35-0.37l1.82-0.18c0.07-0.010.15-0.010.22-0.01zm-7.37 2H12c1.19 0 2.160.93 2.16 2.07v3.09c0 1.15-0.97 2.09-2.17 2.09H10.18a0.340.34 0 0 1-0.34-0.34v-0.09c0-0.340.19-0.330.27-0.34l0.14-0.01c1.22-0.13 1.74-0.4 1.75-0.77h-1.82c-0.2 0-0.34-0.19-0.34-0.39v-4.98c0-0.180.15-0.330.35-0.33z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiEnterprisedb;

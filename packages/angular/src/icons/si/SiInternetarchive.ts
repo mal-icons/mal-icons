@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-internetarchive",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiInternetarchive {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.67 22.88V24H1.33v-1.12zm-0.84-1.67v1.4H2.17v-1.4zM4.23 6.14l0.230.120.12 1.880.12 3.06v2.94l-0.12 3.67-0.02 2.47-0.330.1H3.06l-0.35-0.1-0.14-2.47-0.12-3.65v-2.94l0.12-3.080.11-1.890.24-0.11zm16.84 0l0.240.120.12 1.880.12 3.06v2.94l-0.12 3.67-0.02 2.47-0.330.1h-1.17l-0.35-0.1-0.14-2.47-0.12-3.65v-2.94l0.12-3.080.11-1.890.24-0.11zm-11.79 0l0.240.120.12 1.880.12 3.06v2.94l-0.12 3.67-0.02 2.47-0.330.1H8.11l-0.35-0.1-0.14-2.47-0.12-3.65v-2.94l0.12-3.080.11-1.890.24-0.11zm6.46 0l0.230.120.12 1.880.12 3.06v2.94l-0.12 3.67-0.02 2.47-0.330.1H14.57l-0.35-0.1-0.14-2.47-0.12-3.65v-2.94l0.12-3.080.11-1.890.24-0.11zm6.08-2.51V5.58H2.17V3.63zM11.8 0l10.31 2.35-0.410.72H1.95l-0.62-0.59Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiInternetarchive;

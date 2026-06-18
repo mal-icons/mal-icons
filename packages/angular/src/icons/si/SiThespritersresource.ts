@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-thespritersresource",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiThespritersresource {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M1.25 0C0.56 0 0 0.56 0 1.25v6.67C4.76 2.36 9.470.04 12.880.07c1.470.01 3.550.87 3.46 2.75-0.07 1.56-3.2 3.76-4.71 4.2L10.5 6.89c0.08-0.69 2.26-2.77 2.25-3.79-0.01-0.63-0.98-1.38-1.85-1.32-2.050.14-8.15 5.28-8.06 6.940.07 1.36 3.27 1.82 6.46 1.78 3.28-0.05 3.63-0.12 6.350.01 2.130.1 8.24 2.02 8.29 5.390.04 2.47-2.67 4.33-6.33 5.78-3.4 1.35-8.21 2.29-9.79 2.27-2.62-0.04-7.76-0.9-7.76-3.540-2.01 1.49-4.58 3.91-4.730.4-0.020.740.03 1.050.59-0.930.93-1.68 1.59-1.63 2.890.08 1.86 3.02 2.5 4.49 2.830.440.1 3.40.58 6.77-0.49 4.04-1.28 5.74-3 5.71-5.13-0.01-0.85-0.92-2.28-3.56-3.15-2.37-0.78-3.48-1.01-6.64-0.96-2.980.05-5.870.11-8.26-0.43-1.13-0.25-1.87-0.8-1.87-0.8L0 10.98V22.75C0 23.440.56 24 1.25 24h21.5c0.69 0 1.25-0.56 1.25-1.25V1.25C24 0.56 23.44 0 22.75 0H1.25z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiThespritersresource;

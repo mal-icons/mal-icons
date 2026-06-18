@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-postman",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPostman {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.530.1C6.96-0.740.94 3.90.1 10.47c-0.84 6.57 3.8 12.58 10.37 13.43 6.570.84 12.59-3.8 13.43-10.37C24.74 6.96 20.10.94 13.530.1zm2.47 7.49a0.860.86 0 0 0-0.590.25l-4.45 4.45-0.31-0.31-0.64-0.64c4.39-4.38 5.18-4.42 6-3.75zm-4.86 4.86l4.44-4.44a0.620.62 0 1 1 0.850.9l-4.7 4.13-0.59-0.59zm0.330.69l-1.10.24a0.060.06 0 0 1-0.07-0.030.060.06 0 0 1 0.01-0.07l0.65-0.640.510.51zm-2.8-0.46l1.17-1.170.880.88-1.980.43a0.070.07 0 0 1-0.08-0.040.070.07 0 0 1 0.01-0.09zm-3.65 6.06a0.080.08 0 0 1-0.07-0.080.080.08 0 0 1 0.02-0.05h0l0.95-0.95 1.22 1.22-2.12-0.15zm2.42-1.26a0.230.23 0 0 0-0.120.26l0.20.87a0.130.13 0 0 1-0.210.12h0l-0.93-0.93-0.29-0.29 3.76-3.76 1.82-0.390.870.87c-1.25 1.1-2.97 2.2-5.1 3.27zm5.28-3.43h0l-0.84-0.84 4.7-4.12a0.950.95 0 0 0 0.12-0.13c-0.15 1.35-2.03 3.25-3.98 5.09zm3.66-6.46l00a1.82 1.82 0 0 1 2.46-2.68l-1.61 1.61a0.120.12 0 0 0 0 0.17l1.25 1.25a1.82 1.82 0 0 1-2.09-0.34zm2.58 0a1.71 1.71 0 0 1-0.270.22h0l-1.21-1.21 1.53-1.53c0.660.720.64 1.83-0.05 2.52zM18.86 6.05a0.140.14 0 0 0-0.050.160.420.42 0 0 1-0.050.450.140.14 0 0 0 0.020.20.140.14 0 0 0 0.080.030.140.14 0 0 0 0.11-0.050.690.69 0 0 0 0.09-0.750.140.14 0 0 0-0.19-0.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPostman;

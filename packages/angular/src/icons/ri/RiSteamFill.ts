@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-steam-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSteamFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.01 2C6.75 2 2.45 6.05 2.04 11.2L7.4 13.41C7.86 13.1 8.4 12.92 8.99 12.92C9.05 12.92 9.1 12.92 9.15 12.93L11.54 9.47V9.43C11.54 7.35 13.23 5.66 15.31 5.66C17.38 5.66 19.08 7.35 19.08 9.43C19.08 11.51 17.38 13.2 15.31 13.2H15.22L11.82 15.62C11.82 15.67 11.82 15.71 11.82 15.76C11.82 17.32 10.56 18.59 9 18.59C7.64 18.59 6.49 17.61 6.22 16.31L2.39 14.73C3.57 18.92 7.43 22 12.01 22C17.53 22 22 17.52 22 12C22 6.48 17.53 2 12.01 2ZM7.08 16.67C7.3 17.12 7.67 17.5 8.17 17.71C9.25 18.16 10.5 17.65 10.95 16.56C11.17 16.04 11.17 15.46 10.95 14.94C10.74 14.41 10.33 14 9.81 13.79C9.29 13.57 8.73 13.58 8.24 13.76L9.51 14.29C10.31 14.62 10.69 15.54 10.35 16.33C10.02 17.13 9.1 17.51 8.31 17.18L7.08 16.67ZM17.82 9.42C17.82 8.04 16.69 6.91 15.31 6.91C13.92 6.91 12.79 8.04 12.79 9.42C12.79 10.81 13.92 11.94 15.31 11.94C16.69 11.94 17.82 10.81 17.82 9.42ZM15.31 7.53C16.35 7.53 17.2 8.38 17.2 9.42C17.2 10.46 16.35 11.31 15.31 11.31C14.27 11.31 13.42 10.46 13.42 9.42C13.42 8.38 14.27 7.53 15.31 7.53Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSteamFill;

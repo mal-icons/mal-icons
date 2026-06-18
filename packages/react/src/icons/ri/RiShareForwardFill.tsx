@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiShareForwardFill = createIcon("0 0 24 24", [["path",{"d":"M13 14H11C7.54 14 4.54 15.95 3.03 18.81C3.01 18.54 3 18.27 3 18C3 12.48 7.48 8 13 8V3L23 11L13 19V14Z"}]]);
+
+export default RiShareForwardFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-rubymine",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRubymine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 0v24h24V0Zm3.06 3H6.92q0.95 0 1.670.35t1.110.98c0.260.420.390.90.39 1.46q0 0.84-0.4 1.48a2.6 2.6 0 0 1-1.120.99 2 2 0 0 1-0.30.1q-0.070.02-0.130.04L10.28 12H8.26l-1.94-3.4H4.81V12H3.06Zm8.51 0h2.44l1.85 5.910.150.770.14-0.77L17.94 3h2.48v9h-1.74V5.58l0.03-0.47L16.61 12H15.34l-2.07-6.850.030.42V12h-1.73ZM4.81 4.46V7.14h1.99q0.4400.77-0.160.34-0.170.52-0.47c0.12-0.20.18-0.440.18-0.71q0-0.41-0.18-0.71a1.17 1.17 0 0 0-0.51-0.46 1.7 1.7 0 0 0-0.77-0.17ZM3 19.2h9.6V21h-9.6z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRubymine;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiGuangzhoumetro = createIcon("0 0 24 24", [["path",{"d":"M16.43 12.33A16.19 16.19 0 0 1 22.120.01L17.68 0a16.2 16.2 0 0 0-4.78 11.37V24h3.53zm-8.87 0A16.17 16.17 0 0 0 1.880.01L6.32 0a16.24 16.24 0 0 1 4.77 11.37V24H7.56z"}]]);
+
+export default SiGuangzhoumetro;

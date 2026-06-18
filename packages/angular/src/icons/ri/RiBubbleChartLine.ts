@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-bubble-chart-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBubbleChartLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16 16C17.66 16 19 17.34 19 19C19 20.66 17.66 22 16 22C14.34 22 13 20.66 13 19C13 17.34 14.34 16 16 16ZM6 12C8.21 12 10 13.79 10 16C10 18.21 8.21 20 6 20C3.79 20 2 18.21 2 16C2 13.79 3.79 12 6 12ZM16 18C15.45 18 15 18.45 15 19C15 19.55 15.45 20 16 20C16.55 20 17 19.55 17 19C17 18.45 16.55 18 16 18ZM6 14C4.9 14 4 14.9 4 16C4 17.1 4.9 18 6 18C7.1 18 8 17.1 8 16C8 14.9 7.1 14 6 14ZM14.5 2C17.54 2 20 4.46 20 7.5C20 10.54 17.54 13 14.5 13C11.46 13 9 10.54 9 7.5C9 4.46 11.46 2 14.5 2ZM14.5 4C12.57 4 11 5.57 11 7.5C11 9.43 12.57 11 14.5 11C16.43 11 18 9.43 18 7.5C18 5.57 16.43 4 14.5 4Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBubbleChartLine;

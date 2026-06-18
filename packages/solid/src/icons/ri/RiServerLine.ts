@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiServerLine = createIcon("0 0 24 24", [["path",{"d":"M5 11H19V5H5V11ZM21 4V20C21 20.55 20.55 21 20 21H4C3.45 21 3 20.55 3 20V4C3 3.45 3.45 3 4 3H20C20.55 3 21 3.45 21 4ZM19 13H5V19H19V13ZM7 15H10V17H7V15ZM7 7H10V9H7V7Z"}]]);
+
+export default RiServerLine;

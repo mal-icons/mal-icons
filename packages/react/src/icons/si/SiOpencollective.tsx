@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiOpencollective = createIcon("0 0 24 24", [["path",{"d":"M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12c2.54 0 4.89-0.79 6.83-2.13l-3.11-3.11a7.72 7.72 0 1 1 0-13.51l3.11-3.11A11.94 11.94 0 0 0 12 0zm9.87 5.17l-3.11 3.11A7.67 7.67 0 0 1 19.72 12a7.68 7.68 0 0 1-0.96 3.73l3.11 3.11A11.94 11.94 0 0 0 24 12c0-2.54-0.79-4.89-2.13-6.83z"}]]);
+
+export default SiOpencollective;

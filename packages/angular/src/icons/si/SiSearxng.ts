@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-searxng",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSearxng {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m13.72 17.26 6.87 6.58L24 20.28l-6.82-6.54a9.11 9.11 0 0 0 1.14-4.43c0-5.05-4.11-9.16-9.16-9.16S0 4.26 0 9.32c0 5.06 4.1 9.16 9.16 9.16a9.11 9.11 0 0 0 4.56-1.21ZM9.16 2.77a6.55 6.55 0 0 1 6.54 6.54 6.55 6.55 0 0 1-6.54 6.54 6.55 6.55 0 0 1-6.54-6.54 6.55 6.55 0 0 1 6.54-6.54ZM7.26 5.71a4.07 4.07 0 0 1 4.740.75 4.06 4.06 0 0 1 0.71 4.75l1.160.61a5.38 5.38 0 0 0-0.93-6.28 5.38 5.38 0 0 0-6.27-0.99l0.6 1.16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSearxng;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-qq-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiQqFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.91 14.53C19.73 13.96 19.49 13.29 19.24 12.64L18.33 10.4C18.33 10.37 18.34 9.93 18.34 9.7C18.34 5.86 16.51 2 12 2C7.49 2 5.66 5.86 5.66 9.7C5.66 9.93 5.67 10.37 5.67 10.4L4.76 12.64C4.51 13.29 4.27 13.96 4.09 14.53C3.23 17.27 3.51 18.4 3.72 18.42C4.17 18.48 5.49 16.36 5.49 16.36C5.49 17.59 6.13 19.19 7.51 20.34C6.99 20.5 6.36 20.74 5.95 21.04C5.59 21.3 5.63 21.57 5.7 21.68C5.99 22.17 10.65 21.99 12 21.84C13.35 21.99 18.02 22.17 18.3 21.68C18.37 21.57 18.42 21.3 18.05 21.04C17.64 20.74 17.01 20.5 16.5 20.34C17.87 19.19 18.51 17.59 18.51 16.36C18.51 16.36 19.83 18.48 20.28 18.42C20.49 18.4 20.77 17.27 19.91 14.53Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiQqFill;

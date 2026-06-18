@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-sort-number-asc",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSortNumberAsc {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9 3L9 11H7V5.41L5 5.95V3.62L7.31 3H9ZM19 3V16H22L18 21L14 16H17V3H19ZM11 15.5C11 16.06 10.84 16.59 10.57 17.04L8.29 21H5.98L7.45 18.45C6.06 18.19 5 16.97 5 15.5C5 13.84 6.34 12.5 8 12.5C9.66 12.5 11 13.84 11 15.5ZM8 16.5C8.55 16.5 9 16.05 9 15.5C9 14.95 8.55 14.5 8 14.5C7.45 14.5 7 14.95 7 15.5C7 16.05 7.45 16.5 8 16.5Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSortNumberAsc;

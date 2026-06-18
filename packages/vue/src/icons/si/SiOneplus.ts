@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiOneplus = createIcon("0 0 24 24", [["path",{"d":"M0 3.74V24h20.26V12.43h-2.26v9.32H2.25V6h9.32V3.74zM18 0v3.74h-3.76v2.26h3.76v3.76h2.26V6H24V3.74h-3.76V0zm-6.45 18.76V8.86H9.56c0 0.68-0.23 1.19-0.58 1.5-0.370.3-0.910.44-1.560.44h-0.24v1.63h2.13v6.31h2.24z"}]]);
+
+export default SiOneplus;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-police-badge-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiPoliceBadgeFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.91 11.67C3.24 10.2 3.54 8.81 2 6.5L5.5 2.5C5.5 2.5 9 4 12 1.5C15 4 18.5 2.5 18.5 2.5L22 6.5C20.46 8.81 20.76 10.2 21.09 11.67C21.39 13.08 21.72 14.56 20.5 17C19.34 19.32 17.35 20.12 15.48 20.88C14.13 21.43 12.84 21.95 12 23C11.16 21.95 9.87 21.43 8.52 20.88C6.65 20.12 4.66 19.32 3.5 17C2.28 14.56 2.61 13.08 2.91 11.67ZM14.38 12.77L16.76 10.45L13.47 9.98L12 7L10.53 9.98L7.24 10.45L9.62 12.77L9.06 16.05L12 14.5L14.94 16.05L14.38 12.77Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiPoliceBadgeFill;

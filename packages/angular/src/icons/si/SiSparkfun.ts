@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-sparkfun",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSparkfun {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.31 5.48c-0.760.13-1.97-0.61-2.59-1.36-0.75-0.92-0.66-1.65-0.07-2.290.88-0.98 2.4-0.6 2.4-0.6s-2.77-2.43-5.66-0.44c-2.57 1.77-1.83 4.180.49 6.29 2.09 1.90.42 3.99-1.69 3.72-1.44-0.18-2.03-1.34-1.69-2.050.3-0.61 1.34-0.98 1.34-0.98s-1.19-0.48-2.590.04c-1.260.47-2.3 1.52-2.21 4.12V24s1.3-1.6 2.83-3.24c1.71-1.84 2.5-3.08 4.25-2.94 3.330.21 5.74-1.27 7.37-3.64 3.14-4.560.67-9.68-1.43-10.34 0 0 0.34 1.44-0.74 1.64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSparkfun;

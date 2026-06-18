@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-blender-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBlenderLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.12 2.22C12.69 1.87 12.06 1.95 11.72 2.38C11.37 2.81 11.45 3.44 11.88 3.78L15.3 6.5H4.5C3.95 6.5 3.5 6.95 3.5 7.5C3.5 8.05 3.95 8.5 4.5 8.5H9.97L0.88 15.72C0.45 16.06 0.37 16.69 0.72 17.12C1.06 17.55 1.69 17.63 2.12 17.28L7.54 12.98C7.52 13.23 7.5 13.49 7.5 13.75C7.5 17.86 11.19 21 15.5 21C19.81 21 23.5 17.86 23.5 13.75C23.5 11.5 22.38 9.52 20.66 8.21L13.12 2.22ZM11.56 9.79C12.61 8.99 13.98 8.5 15.5 8.5C17.02 8.5 18.4 8.99 19.44 9.79C20.73 10.78 21.5 12.2 21.5 13.75C21.5 16.55 18.92 19 15.5 19C12.08 19 9.5 16.55 9.5 13.75C9.5 12.27 10.2 10.91 11.38 9.93L11.56 9.79ZM14.48 14.09C14.2 13.83 14.08 13.53 14.1 13.21C14.13 12.65 14.72 12 15.6 12C16.47 12 17.06 12.64 17.09 13.21C17.11 13.54 16.99 13.84 16.72 14.1C16.43 14.37 16.02 14.54 15.6 14.54C15.18 14.54 14.77 14.37 14.48 14.09ZM15.6 10C13.85 10 12.2 11.29 12.1 13.1C11.99 15.05 13.73 16.54 15.6 16.54C17.47 16.54 19.2 15.06 19.09 13.1C18.99 11.29 17.34 10 15.6 10Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBlenderLine;

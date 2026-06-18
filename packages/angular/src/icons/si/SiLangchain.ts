@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-langchain",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLangchain {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.8 0a6.93 6.93 0 0 0-4.91 2.02L5.45 5.46l3.27 3.27 3.43-3.43a2.28 2.28 0 0 1 3.28 0 2.28 2.28 0 0 1 0 3.28L12 12l3.27 3.27 3.43-3.43c2.69-2.69 2.69-7.13 0-9.82A6.92 6.92 0 0 0 13.8 0m-5.07 8.73-3.43 3.43c-2.69 2.69-2.69 7.13 0 9.82A6.92 6.92 0 0 0 10.2 24a6.93 6.93 0 0 0 4.91-2.02l3.43-3.43-3.27-3.27-3.43 3.43a2.28 2.28 0 0 1-3.28 0 2.28 2.28 0 0 1 0-3.28L12 12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLangchain;

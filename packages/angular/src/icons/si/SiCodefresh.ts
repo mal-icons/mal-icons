@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-codefresh",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCodefresh {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 2.84c1.4 2.71 1.45 5.24 2.98 10.4 1.86 5.34 8.7 5.7 9.21 5.710.460.73 1.51 1.7 3.93 2.21l0.27-1.27c-2.08-0.44-2.84-1.24-3.11-1.68l00.01c0.09-0.48 1.52-5.38-1.32-9.35C7.18 3.58 0 2.84 0 2.84zm24 0.84c-3.90.61-4.29-0.92-11.47 3.09a11.88 11.88 0 0 1 2.63 10.05c3.72-1.49 5.17-3.98 5.61-6.47 0 0 1.27-4.72 3.24-6.68zM12.53 6.77l00v0l00zM2.64 5.22s5.42 1.43 8.54 11.54c-2.94-0.89-4.2-3.8-4.63-5.17h0.01a15.86 15.86 0 0 0-3.92-6.37z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCodefresh;

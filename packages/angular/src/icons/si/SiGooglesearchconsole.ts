@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-googlesearchconsole",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiGooglesearchconsole {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.55 1.16L6.83 2.87v1.68h1.72zm0 3.4v0.04H6.83v-0.04H3.39L0 7.84v3.58h2.83V8.94c0-0.520.43-0.950.95-0.95h16.48c0.53 0 0.950.430.950.95v2.48h2.75V7.84l-3.39-3.29H17.3v0.04h-1.72v-0.04zm7.04 0H17.3V2.87l-1.72-1.72zM8.68 1.19V2.84h6.77V1.19zm11.47 7.07a0.830.83 0 0-0.130.01l-0.540c-5.220.01-10.43-0.01-15.650.01-0.43-0.06-0.790.44-0.720.88v2.26h17.81c-0.02-0.890.05-1.78-0.03-2.67-0.1-0.34-0.43-0.5-0.74-0.5zm-15.420.63a0.690.7 0 1.690.70.690.7 0 1-0.690.70.690.7 0 1-0.69-0.70.690.7 0 1.69-0.7zm2.13 0a0.690.7 0 1.690.70.690.7 0 1-0.690.70.690.7 0 1-0.69-0.70.690.7 0 1.69-0.7zM0.04 11.65v9.16c0 1.050.86 1.91 1.91 1.91h0.88V11.65zm21.17 0v11.06h0.88c1.05 0 1.91-0.86 1.91-1.91v-9.16zM4.06 13.13v6.85h6.14v-6.85zm13.240.02v3.78l-1.710.98-1.71-0.98v-3.76a4.01 4.01 0 0 7.23v2.44h3.46v-2.44a4.01 4.01 0 0-0.04-7.25zm-13.24 8.26v1.43h7.93v-1.43z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiGooglesearchconsole;

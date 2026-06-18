@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiRestTimeFill = createIcon("0 0 24 24", [["path",{"d":"M11 6V14H19C19 18.42 15.42 22 11 22C6.58 22 3 18.42 3 14C3 9.67 6.58 6 11 6ZM21 2V4L15.67 10H21V12H13V10L18.33 4H13V2H21Z"}]]);
+
+export default RiRestTimeFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-botblecms",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBotblecms {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 9.37c-1.61 0-3.090.54-4.3 1.43V0S5.620.43 4.69 1.31l0.04 15.74C4.92 20.92 8.09 24 12 24c0.55 0 1.07-0.07 1.59-0.18v-3.1a4.32 4.32 0 0 1-1.590.31 4.34 4.34 0 0 1 0-8.67 4.32 4.32 0 0 1 4.31 4.11l0.09 6.03c1.76-1.33 2.91-3.43 2.91-5.8A7.32 7.32 0 0 0 12 9.37Zm1.52 7.51c0 0.84-0.68 1.52-1.52 1.52a1.53 1.53 0 0 1 0-3.05c0.84 0 1.520.68 1.52 1.53Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBotblecms;

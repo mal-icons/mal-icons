@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-pytorch",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPytorch {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.01 0L4.95 7.05a9.87 9.87 0 0 14.02 9.87 9.87 0 14.02 0c3.98-3.9 3.99-10.20.09-14.02l-1.74 1.74c2.9 2.91 2.9 7.63 0 10.54s-7.63 2.9-10.54 0-2.9-7.63 0-10.54l4.65-4.650.58-0.66zm3.57 3.9a1.33 1.33 0 0-1.33 1.33 1.33 1.33 0 1.33 1.33A1.33 1.33 0 16.9 5.23 1.33 1.33 0 15.57 3.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPytorch;

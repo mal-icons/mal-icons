@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-link",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiLink {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.36 15.54L16.95 14.12L18.36 12.71C20.32 10.75 20.32 7.59 18.36 5.64C16.41 3.68 13.25 3.68 11.29 5.64L9.88 7.05L8.46 5.64L9.88 4.22C12.61 1.49 17.04 1.49 19.78 4.22C22.51 6.96 22.51 11.39 19.78 14.12L18.36 15.54ZM15.54 18.36L14.12 19.78C11.39 22.51 6.96 22.51 4.22 19.78C1.49 17.04 1.49 12.61 4.22 9.88L5.64 8.46L7.05 9.88L5.64 11.29C3.68 13.25 3.68 16.41 5.64 18.36C7.59 20.32 10.75 20.32 12.71 18.36L14.12 16.95L15.54 18.36ZM14.83 7.76L16.24 9.17L9.17 16.24L7.76 14.83L14.83 7.76Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiLink;

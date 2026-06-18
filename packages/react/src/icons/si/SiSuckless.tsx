@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiSuckless = createIcon("0 0 24 24", [["path",{"d":"M0 4h24v4H4v2h20v10H0v-4h20v-2H0z"}]]);
+
+export default SiSuckless;

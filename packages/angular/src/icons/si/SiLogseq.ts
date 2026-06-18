@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-logseq",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiLogseq {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.3 9.84c-2.68-1.37-5.47-1.56-8.32-0.61-1.740.58-3.2 1.58-4.27 3.09-1.03 1.45-1.45 3.07-1.18 4.840.27 1.78 1.16 3.23 2.51 4.4C9.96 23.23 12.24 23.94 15.09 24c0.41-0.05 1.16-0.1 1.88-0.25 2-0.42 3.75-1.32 5.08-2.91 1.62-1.94 2.11-4.15 1.27-6.56-0.7-2.03-2.14-3.47-4.03-4.43ZM7.52 6.3c0.51-2.16-0.88-4.66-2.99-5.37-1.11-0.37-2.16-0.27-3.070.49C0.61 2.110.29 3.060.27 4.15c0.010.140.020.280.030.440.010.10.020.210.040.310.35 1.7 1.26 2.98 2.9 3.64 1.910.77 3.81-0.24 4.27-2.23Zm4.06-1.15c1.080.38 2.150.31 3.22-0.030.94-0.3 1.76-0.79 2.34-1.610.8-1.120.5-2.39-0.72-3.03-0.6-0.32-1.25-0.44-1.93-0.48-0.470.08-0.950.12-1.410.23-1.070.27-20.78-2.65 1.7-0.490.7-0.64 1.45-0.17 2.230.30.50.780.8 1.320.99Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiLogseq;

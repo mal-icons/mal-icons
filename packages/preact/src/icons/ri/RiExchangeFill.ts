@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiExchangeFill = createIcon("0 0 24 24", [["path",{"d":"M12 22C6.48 22 2 17.53 2 12C2 6.48 6.48 2 12 2C17.53 2 22 6.48 22 12C22 17.53 17.53 22 12 22ZM12 9H8V11H17L12 6V9ZM7 13L12 18V15H16V13H7Z"}]]);
+
+export default RiExchangeFill;

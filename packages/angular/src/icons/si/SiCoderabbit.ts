@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-coderabbit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCoderabbit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.99 13.05C23.75 6.86 18.75 1.82 12.57 1.54 5.68 1.22 0 6.71 0 13.53c0 2.60.82 5.01 2.23 6.970.81 1.13 2.07 1.85 3.44 1.96-2.01-2.28-0.3-4.19-0.3-4.19-0.80.39-1.13 1.69-1.13 1.69-1.51-0.93-1.16-2.04-1.16-2.040.1-0.230.31-0.87 1.48-0.64 2.25-7.42 9.67-3.55 9.67-3.55-0.12-0.23-0.5-1.55-0.5-1.55-4.82-0.7-6.44-4.11-6.44-4.11 4.47-1.36 7.18 2.33 7.18 2.33-1.24-3.03-4.23-1.82-5.01-6.79 5.190.86 5.94 4.93 6.04 5.80.07-0.170.49-0.4 2.19-0.3 2.640.15 4.74 2.83 4.74 2.83 0 5.43-6.64 4.12-6.64 8.23 0 0.96 1.050.9 1.4 1.370.290.380.160.80.110.94h0.63c1.49 0 2.91-0.69 3.79-1.89 1.53-2.1 2.39-4.71 2.29-7.53zm-8.4 9.43c-1.15-0.38-2.27-2.98-3.65-2.98 1.94 1.17 1.12 2.720.96 2.98h2.7z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCoderabbit;

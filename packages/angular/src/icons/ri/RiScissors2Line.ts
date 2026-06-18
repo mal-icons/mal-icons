@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-scissors-2-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiScissors2Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 13.41L9.45 15.96C9.8 16.56 10 17.25 10 18C10 20.21 8.21 22 6 22C3.79 22 2 20.21 2 18C2 15.79 3.79 14 6 14C6.74 14 7.44 14.2 8.03 14.55L10.59 12L4.56 5.98C3.78 5.19 3.78 3.93 4.56 3.15L12 10.58L19.43 3.15C20.22 3.93 20.22 5.19 19.43 5.98L13.41 12L15.97 14.55C16.56 14.2 17.26 14 18 14C20.21 14 22 15.79 22 18C22 20.21 20.21 22 18 22C15.79 22 14 20.21 14 18C14 17.25 14.2 16.56 14.55 15.96L12 13.41ZM6 20C7.1 20 8 19.1 8 18C8 16.89 7.1 16 6 16C4.9 16 4 16.89 4 18C4 19.1 4.9 20 6 20ZM18 20C19.1 20 20 19.1 20 18C20 16.89 19.1 16 18 16C16.9 16 16 16.89 16 18C16 19.1 16.9 20 18 20Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiScissors2Line;

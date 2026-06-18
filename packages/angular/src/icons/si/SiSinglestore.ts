@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-singlestore",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSinglestore {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.03 5.06c-0.91-1.92-2.8-3.43-5.11-4.03C11.40.89 10.860.83 10.260.8c-0.89 0-1.740.11-2.630.34-2.20.66-3.74 1.95-4.66 2.95C1.8 5.44 1.03 6.840.57 8.24c0 0.03-0.030.06-0.030.12C0.52 8.470.4 8.810.4 8.9c-0.030.06-0.030.14-0.060.2l-0.090.34c0 0.03 0 0.06-0.030.09-0.74 3.690.49 7 1.23 8.230.190.310.340.560.490.8C0.27 9.4 5.12 5.04 10.63 4.92c2.89-0.06 5.77 1.12 7.17 3.46-0.09-1.29-0.17-2-0.77-3.32zM12.54 0c2.570.72 4.91 2.52 5.89 4.72 1.49 3.58 1.14 8.1-0.49 10.78-1.37 2.2-3.48 3.38-5.91 3.35-3.77-0.03-6.83-3.03-6.86-6.81 0-3.78 2.97-6.89 6.86-6.890.63 0 1.540.09 2.560.52 0 0-0.74-0.44-2.64-0.73C6.5 4.220.06 8.35 1.54 17.88c2.06 3.66 6 6.15 10.49 6.12 6.6-0.03 12-5.43 11.97-12.07C24 5.58 18.830.17 12.54 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSinglestore;

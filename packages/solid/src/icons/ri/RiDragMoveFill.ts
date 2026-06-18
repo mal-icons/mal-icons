@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiDragMoveFill = createIcon("0 0 24 24", [["path",{"d":"M12 22L8 18H16L12 22ZM12 2L16 6H8L12 2ZM12 14C10.9 14 10 13.1 10 12C10 10.9 10.9 10 12 10C13.1 10 14 10.9 14 12C14 13.1 13.1 14 12 14ZM2 12L6 8V16L2 12ZM22 12L18 16V8L22 12Z"}]]);
+
+export default RiDragMoveFill;

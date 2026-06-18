@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-cashapp",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCashapp {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M23.59 3.48a5.1 5.1 0 0-3.05-3.05c-1.31-0.42-2.5-0.42-4.92-0.42H8.36c-2.4 0-3.61 0-4.90.4a5.1 5.1 0 0-3.05 3.06C0 4.76 0 5.97 0 8.37v7.27c0 2.41 0 3.60.4 4.9a5.1 5.1 0 3.05 3.05c1.30.41 2.50.41 4.90.41h7.28c2.41 0 3.61 0 4.9-0.4a5.1 5.1 0 3.06-3.06c0.41-1.30.41-2.50.41-4.9v-7.25c0-2.41 0-3.61-0.41-4.91zm-6.17 4.63l-0.930.93a0.50.5 0 1-0.670.01 5 5 0 0-3.22-1.18c-0.97 0-1.940.32-1.94 1.21 0 0.9 1.04 1.2 2.24 1.65 2.10.7 3.84 1.58 3.84 3.64 0 2.24-1.74 3.78-4.58 3.95l-0.26 1.2a0.490.49 0 1-0.480.39H9.63l-0.09-0.01a0.50.5 0 1-0.38-0.59l0.28-1.27a6.54 6.54 0 1-2.88-1.57v-0.01a0.480.48 0 10-0.68l1-0.97a0.490.49 0 1.67 0c0.910.86 2.13 1.34 3.39 1.32 1.3 0 2.17-0.55 2.17-1.42 0-0.87-0.88-1.1-2.54-1.72-1.76-0.63-3.43-1.52-3.43-3.6 0-2.42 2.01-3.6 4.39-3.71l0.25-1.23a0.480.48 0 1.48-0.38h1.78l0.10.01c0.260.060.430.310.370.57l-0.27 1.37c0.90.3 1.750.77 2.48 1.39l0.020.02c0.190.20.190.5 0 0.68z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCashapp;

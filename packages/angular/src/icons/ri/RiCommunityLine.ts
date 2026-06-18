@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-community-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiCommunityLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21 21H3C2.45 21 2 20.55 2 20V12.49C2 12.2 2.13 11.92 2.34 11.73L6 8.54V4C6 3.45 6.45 3 7 3H21C21.55 3 22 3.45 22 4V20C22 20.55 21.55 21 21 21ZM9 19H12V12.94L8 9.45L4 12.94V19H7V15H9V19ZM14 19H20V5H8V7.13C8.23 7.13 8.47 7.21 8.66 7.37L13.66 11.73C13.88 11.92 14 12.2 14 12.49V19ZM16 11H18V13H16V11ZM16 15H18V17H16V15ZM16 7H18V9H16V7ZM12 7H14V9H12V7Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiCommunityLine;

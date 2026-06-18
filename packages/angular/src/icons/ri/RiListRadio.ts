@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-list-radio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiListRadio {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.5 7C8.5 5.9 7.6 5 6.5 5C5.4 5 4.5 5.9 4.5 7C4.5 8.1 5.4 9 6.5 9C7.6 9 8.5 8.1 8.5 7ZM10.5 7C10.5 9.21 8.71 11 6.5 11C4.29 11 2.5 9.21 2.5 7C2.5 4.79 4.29 3 6.5 3C8.71 3 10.5 4.79 10.5 7ZM21 4H13V6H21V4ZM21 11H13V13H21V11ZM21 18H13V20H21V18ZM6.5 19C5.4 19 4.5 18.1 4.5 17C4.5 15.9 5.4 15 6.5 15C7.6 15 8.5 15.9 8.5 17C8.5 18.1 7.6 19 6.5 19ZM6.5 21C8.71 21 10.5 19.21 10.5 17C10.5 14.79 8.71 13 6.5 13C4.29 13 2.5 14.79 2.5 17C2.5 19.21 4.29 21 6.5 21ZM6.5 8C7.05 8 7.5 7.55 7.5 7C7.5 6.45 7.05 6 6.5 6C5.95 6 5.5 6.45 5.5 7C5.5 7.55 5.95 8 6.5 8Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiListRadio;

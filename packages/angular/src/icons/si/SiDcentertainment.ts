@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-dcentertainment",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDcentertainment {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M5.22 8.79h2.15c0.6 0 1.090.49 1.09 1.09v4.95c0 0.6-0.49 1.09-1.09 1.09H6.05V9.48a0.160.16 0 0-0.07-0.13zM12 23.1a11.08 11.08 0 1-8.66-4.150.050.05 0 1.04-0.07h5.94a0.260.26 0 0.15-0.05l2.27-1.65a0.160.16 0 0.06-0.13V7.62a0.160.16 0 0-0.06-0.13L9.47 5.84a0.260.26 0 0-0.15-0.05H2.89a0.050.05 0 1-0.04-0.07A11.09 11.09 0 112 0.9c3.8 0 7.15 1.91 9.15 4.82a0.050.05 0 1-0.040.07h-1.6c-0.05 0-0.10.03-0.120.08l-0.350.76-1.08-0.79a0.260.26 0 0-0.15-0.05h-2.55a0.260.26 0 0-0.150.05L12.83 7.49a0.160.16 0 0-0.060.13v9.43c0 0.050.020.10.070.13l2.27 1.65a0.260.26 0 0.150.05h5.37c0.04 0 0.060.050.040.07A11.08 11.08 0 112 23.1zM1.6 8.3l1.040.76c0.040.030.070.080.070.13v8.73c0 0.05-0.060.06-0.080.03A11.05 11.05 0 1.9 12c0-1.290.22-2.530.62-3.68a0.050.05 0 1.08-0.02zm13.670.49h3.23v1.78c0 0.050.040.080.080.08h2.7a0.10.1 0 0.1-0.08l0.54-3.37c0.01-0.040.07-0.050.09-0.01a11.05 11.05 0 11.1 4.82 11.05 11.05 0 1-1.39 5.38c-0.020.04-0.080.02-0.08-0.02v-3.08a0.080.08 0 0-0.08-0.08h-2.96a0.080.08 0 0-0.080.08v1.64h-1.3a1.09 1.09 0 1-1.09-1.09V9.48a0.160.16 0 0-0.06-0.13zM12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDcentertainment;

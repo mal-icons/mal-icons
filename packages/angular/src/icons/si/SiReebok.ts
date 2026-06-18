@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-reebok",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiReebok {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.99 11.48C17.74 10.38 19.46 9.75 24 8.64c-2.470.16-7.920.54-11.68 1.27l2.67 1.57m-8.56 3.65h3.6c0.71-1.08 1.42-1.61 2.25-2.19a71.38 71.38 0 0-1.89-0.7c-2.3 1.01-3.57 2.38-3.95 2.89m0.71-3.93c-3.21 1.15-4.99 2.39-6.2 3.93h3.98c0.39-0.54 1.86-2.09 4.63-3.17a57.09 57.09 0 0-2.41-0.75M8.79 8.79H0c8.86 1.6 13.13 3.66 20 6.57-0.59-0.44-10.05-6.01-11.21-6.57"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiReebok;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiLineHeight2 = createIcon("0 0 24 24", [["path",{"d":"M2 3L2 5L4 5L4 19L2 19L2 21L8 21V19H6L6 5L8 5L8 3L2 3ZM10.2 18H12.35L13.55 15H18.45L19.65 18H21.8L17 6H15L10.2 18ZM16 8.89L17.65 13H14.35L16 8.89Z"}]]);
+
+export default RiLineHeight2;

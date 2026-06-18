@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-quicklook",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiQuicklook {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m22.68 19.1900-3.07-3.07a7.03 7.03 0 0 0 1.33-4.12 7.07 7.07 0 0 0-7.07-7.07V1.04A1.04 1.04 0 0 0 12.650.02L1.67 1.97a0.830.83 0 0 0-0.690.82v18.43c0 0.40.290.750.690.82l10.98 1.95a1.04 1.04 0 0 0 1.22-1.02v-3.89a7.03 7.03 0 0 0 4.12-1.33l3.07 3.07c0.450.45 1.170.45 1.62 0h0c0.45-0.450.45-1.170-1.62zm-8.81-0.62a6.58 6.58 0 0 1-6.57-6.57 6.58 6.58 0 0 1 6.57-6.57A6.58 6.58 0 0 1 20.44 12a6.58 6.58 0 0 1-6.57 6.57zm5.28-6.57a5.29 5.29 0 0 1-5.28 5.28c-2.91 0-5.28-2.37-5.28-5.28s2.37-5.28 5.28-5.28a5.29 5.29 0 0 1 5.28 5.28z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiQuicklook;

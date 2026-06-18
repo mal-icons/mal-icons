@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-flower-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiFlowerLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2.08L12.46 2.31C14.22 3.21 15.73 4.54 16.86 6.15C17.79 5.71 18.78 5.39 19.82 5.2L21 4.98V13C21 17.97 16.97 22 12 22C7.03 22 3 17.97 3 13V4.98L4.18 5.2C5.22 5.39 6.21 5.71 7.14 6.15C8.27 4.54 9.78 3.21 11.54 2.31L12 2.08ZM8.88 7.17C10.11 8.03 11.17 9.11 12 10.36C12.83 9.11 13.89 8.03 15.12 7.17C14.3 6.02 13.23 5.05 12 4.34C10.77 5.05 9.7 6.02 8.88 7.17ZM10.9 12.43C10.02 10.72 8.66 9.29 6.99 8.33C6.37 7.97 5.7 7.68 5 7.46V13C5 16.29 7.27 19.05 10.33 19.8C10.11 18.9 10 17.96 10 17C10 15.38 10.32 13.84 10.9 12.43ZM12.45 19.99C16.11 19.75 19 16.71 19 13V7.46C18.3 7.68 17.63 7.97 17.01 8.33C14.01 10.06 12 13.3 12 17C12 18.04 12.16 19.04 12.45 19.99Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiFlowerLine;

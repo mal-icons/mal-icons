@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiVisx = createIcon("0 0 24 24", [["path",{"d":"M0 0 12 11.52 24 0h-5.87L12 6.09 5.87 0Zm24 0L12.48 12l11.52 12V18.13l-6.09-6.13 6.09-6.13ZM00V5.88l6.09 6.13-6.09 6.13V24l11.5-12Zm0 24h5.87L12 17.91 18.13 24h5.87L12 12.47Z"}]]);
+
+export default SiVisx;

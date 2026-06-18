@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-settings-4-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSettings4Line {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 12C2 11.14 2.11 10.3 2.32 9.5C3.41 9.55 4.49 9.01 5.07 8C5.65 6.99 5.58 5.78 4.99 4.87C6.18 3.7 7.67 2.82 9.33 2.36C9.82 3.33 10.83 4 12 4C13.17 4 14.18 3.33 14.67 2.36C16.33 2.82 17.82 3.7 19.01 4.87C18.42 5.78 18.35 6.99 18.93 8C19.51 9.01 20.59 9.55 21.68 9.5C21.89 10.3 22 11.14 22 12C22 12.86 21.89 13.7 21.68 14.5C20.59 14.45 19.51 14.99 18.93 16C18.35 17.01 18.42 18.22 19.01 19.13C17.82 20.3 16.33 21.18 14.67 21.64C14.18 20.67 13.17 20 12 20C10.83 20 9.82 20.67 9.33 21.64C7.67 21.18 6.18 20.3 4.99 19.13C5.58 18.22 5.65 17.01 5.07 16C4.49 14.99 3.41 14.45 2.32 14.5C2.11 13.7 2 12.86 2 12ZM6.8 15C7.43 16.09 7.61 17.35 7.37 18.52C7.78 18.81 8.21 19.07 8.66 19.27C9.56 18.47 10.74 18 12 18C13.26 18 14.44 18.47 15.34 19.27C15.79 19.07 16.22 18.81 16.63 18.52C16.39 17.35 16.57 16.09 17.2 15C17.83 13.91 18.82 13.12 19.97 12.75C19.99 12.5 20 12.25 20 12C20 11.75 19.99 11.5 19.97 11.25C18.82 10.87 17.83 10.09 17.2 9C16.57 7.91 16.39 6.65 16.63 5.48C16.22 5.19 15.79 4.93 15.34 4.73C14.44 5.53 13.26 6 12 6C10.74 6 9.56 5.53 8.66 4.73C8.21 4.93 7.78 5.19 7.37 5.48C7.61 6.65 7.43 7.91 6.8 9C6.17 10.09 5.18 10.87 4.03 11.25C4.01 11.5 4 11.75 4 12C4 12.25 4.01 12.5 4.03 12.75C5.18 13.12 6.17 13.91 6.8 15ZM12 15C10.34 15 9 13.66 9 12C9 10.34 10.34 9 12 9C13.66 9 15 10.34 15 12C15 13.66 13.66 15 12 15ZM12 13C12.55 13 13 12.55 13 12C13 11.45 12.55 11 12 11C11.45 11 11 11.45 11 12C11 12.55 11.45 13 12 13Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSettings4Line;

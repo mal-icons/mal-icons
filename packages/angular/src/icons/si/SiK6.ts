@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-k6",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiK6 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M24 23.65H0L7.99 6.6l4.81 3.54L19.080.35Zm-8.8-3.68h0.05a2.29 2.29 0 0 0 1.59-0.64 2.09 2.09 0 0 0 0.69-1.58 1.91 1.91 0 0 0-0.66-1.51 2.01 2.01 0 0 0-1.37-0.59h-0.04a0.720.72 0 0 0-0.20.03l1.27-1.88-1.01-0.7-0.480.71-1.22 1.86c-0.210.31-0.390.58-0.490.77-0.110.2-0.210.41-0.290.63a1.94 1.94 0 0 0-0.140.72 2.09 2.09 0 0 0 0.68 1.56c0.420.410.990.64 1.580.64Zm-5.36-2.03 1.4 1.98h1.5l-1.64-2.29 1.46-2.03-0.97-0.67-0.430.56-1.31 1.85v-3.72l-1.31-1.07v7.37h1.31v-1.98Zm5.370.79a0.960.96 0 1 1 0-1.93h0.01a0.940.94 0 0 1 0.680.290.90.9 0 0 1 0.290.670.980.98 0 0 1-0.980.97Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiK6;

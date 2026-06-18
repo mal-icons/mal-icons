@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiOpnsense = createIcon("0 0 24 24", [["path",{"d":"M5.25 0v5.25h13.5v13.5H24V7.5L16.5 0Zm13.5 18.75H5.25V5.25H0V16.5L7.5 24h11.25Z"}]]);
+
+export default SiOpnsense;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-bluesound",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiBluesound {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m14.33 14.89-8.40a4.55 4.55 0 0 0-4.55 4.54c0 2.050.01 3.740.01 3.74V24h12.96l0.190c4.68-0.1 8.08-3.58 8.08-8.27a8.73 8.73 0 0 0-0.8-3.72 8.77 8.77 0 0 0 0.81-3.72c0-4.69-3.4-8.17-8.08-8.27L1.39 0v0.83s-0.01 1.68-0.01 3.73a4.55 4.55 0 0 0 4.55 4.54l8.40.01c2.38 0 4.39 1.05 5.57 2.88-1.18 1.84-3.2 2.89-5.57 2.89m0.22-7.45-8.610a2.88 2.88 0 0 1-2.88-2.88V1.67H14.33c3.84 0 6.62 2.78 6.62 6.62 0 0.68-0.09 1.34-0.27 1.97-1.47-1.73-3.67-2.75-6.13-2.81m6.13 6.31c0.180.630.27 1.290.27 1.97 0 3.83-2.78 6.61-6.62 6.61l-11.280v-2.9a2.88 2.88 0 0 1 2.88-2.88h8.45l0.29-0.01c2.41-0.08 4.56-1.09 6.01-2.79"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiBluesound;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiAlpinedotjs = createIcon("0 0 24 24", [["path",{"d":"m24 12-5.72 5.75-5.72-5.74 5.72-5.75L24 12zM5.72 6.25 0 12l5.72 5.75h11.44L5.72 6.25z"}]]);
+
+export default SiAlpinedotjs;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-citroen",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCitroen {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C6.68 0 2.29 5.38 2.29 12S6.65 24 12 24c5.35 0 9.71-5.38 9.71-12S17.32 0 12 0zM4.11 16.23c-0.19-0.6-0.35-1.24-0.41-1.88L12 8.18l8.37 6.18a12.33 12.33 0 0 1-0.41 1.88v0.03h-0.03L12 10.35zm0.92 2.1-0.03-0.03L12 13.11l7 5.19v0.03c-1.65 2.9-4.2 4.62-6.99 4.62s-5.36-1.75-6.99-4.62zM12 5.35l-8.53 6.34v-0.03c0.06-2.670.95-5.28 2.61-7.38C7.67 2.32 9.77 1.21 12 1.21c2.23 0 4.36 1.11 5.92 3.06 1.56 1.94 2.52 4.62 2.61 7.42v0.03l-0.03-0.03z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCitroen;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-user-forbid-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiUserForbidLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8 7C8 4.79 9.79 3 12 3C14.21 3 16 4.79 16 7C16 9.21 14.21 11 12 11C9.79 11 8 9.21 8 7ZM12 1C8.69 1 6 3.69 6 7C6 10.31 8.69 13 12 13C15.31 13 18 10.31 18 7C18 3.69 15.31 1 12 1ZM15 18C15 16.34 16.34 15 18 15C18.46 15 18.9 15.11 19.29 15.29L15.29 19.29C15.11 18.9 15 18.46 15 18ZM16.71 20.71L20.71 16.71C20.9 17.1 21 17.54 21 18C21 19.66 19.66 21 18 21C17.54 21 17.1 20.9 16.71 20.71ZM18 13C15.24 13 13 15.24 13 18C13 20.76 15.24 23 18 23C20.76 23 23 20.76 23 18C23 15.24 20.76 13 18 13ZM12 14C12.08 14 12.17 14 12.25 14C11.82 14.62 11.49 15.31 11.28 16.04C8.3 16.4 6 18.93 6 22H4C4 17.58 7.58 14 12 14Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiUserForbidLine;

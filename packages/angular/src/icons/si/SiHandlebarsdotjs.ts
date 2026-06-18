@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-handlebarsdotjs",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiHandlebarsdotjs {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.1 4.95a3.45 3.45 0 0 0-0.40.01C6.32 5.15 5.37 6.38 4.8 6.9c-0.570.53-1.66 1.76-2.38 1.55-0.72-0.22-0.92-1.11-0.67-1.38s0.45-0.220.61 0c0.10.180.140.380.140.59a1.36 1.36 0 0 0 0.44-0.660.790.79 0 0 0-0.44-1.02c-1.3-0.66-2.140.51-2.260.79-0.120.27-0.340.71-0.2 1.70.140.990.61 1.9 2.1 2.26a6.31 6.31 0 0 0 4.24-0.49l4.41-1.84a5.41 5.41 0 0 1 0.56-0.1v9.86c0 0.510.320.910.710.910.39 0 0.71-0.410.71-0.91V8.29a5.41 5.41 0 0 1 0.440.09l4.41 1.84a6.31 6.31 0 0 0 4.240.49c1.49-0.36 1.97-1.27 2.11-2.260.14-0.99-0.08-1.42-0.2-1.7-0.12-0.27-0.96-1.45-2.26-0.79a0.790.79 0 0 0-0.44 1.02c0.080.260.230.490.440.67a1.19 1.19 0 0 1 0.14-0.59c0.16-0.220.36-0.270.61 0s0.05 1.16-0.67 1.38c-0.720.22-1.8-1.02-2.38-1.55-0.57-0.52-1.52-1.75-3.9-1.94A3.45 3.45 0 0 0 12 6.65a3.45 3.45 0 0 0-2.9-1.7zm12.39 2.7v0l0.010c0000-0.010zm-18.98 0c0000-0.010l0.010V7.65z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiHandlebarsdotjs;

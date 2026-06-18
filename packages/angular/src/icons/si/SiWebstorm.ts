@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-webstorm",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiWebstorm {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 0v24h24V0H0zm17.89 2.89c1.44 0 2.670.44 3.67 1.28l-1.11 1.67c-0.89-0.61-1.72-1-2.56-1s-1.280.39-1.280.89v0.06c0 0.670.440.89 2.11 1.33 2 0.56 3.11 1.28 3.11 3v0.06c0 2-1.5 3.11-3.61 3.11-1.5-0.06-3-0.61-4.17-1.67l1.28-1.56c0.890.72 1.83 1.22 2.94 1.220.89 0 1.39-0.33 1.39-0.94v-0.06c0-0.56-0.33-0.83-2-1.28-2-0.5-3.22-1.06-3.22-3.06v-0.06c0-1.83 1.44-3 3.44-3zm-16.110.22h2.28l1.5 5.78 1.72-5.78h1.67l1.67 5.78 1.5-5.78h2.33l-2.83 9.94H9.72L8.11 7.28l-1.67 5.78H4.61L1.78 3.11zm0.5 16.39h9V21h-9v-1.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiWebstorm;

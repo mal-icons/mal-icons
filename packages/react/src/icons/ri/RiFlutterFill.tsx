@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiFlutterFill = createIcon("0 0 24 24", [["path",{"d":"M13.5 2L3.5 12L6.59 15.08L19.67 2H13.5ZM13.5 11.2L8.12 16.62L13.5 22H19.68L14.3 16.6L19.69 11.2L13.5 11.2Z"}]]);
+
+export default RiFlutterFill;

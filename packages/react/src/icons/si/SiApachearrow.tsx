@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiApachearrow = createIcon("0 0 24 24", [["path",{"d":"m0 2 10 10L0 22v-4l6-6-6-6zm7 0 10 10L7 22v-4l6-6-6-6zm7 0 10 10-10 10v-4l6-6-6-6z"}]]);
+
+export default SiApachearrow;

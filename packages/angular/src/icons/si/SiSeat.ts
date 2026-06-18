@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-seat",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSeat {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0 10.33l23.98 4.46c-0.020.66-0.06 2.71-0.1 3.9-0.04 1.42-0.35 2.28-0.92 2.82-0.80.72-1.750.88-4.01 1.01-5.220.29-10.540.25-17.22-0.23-0.7-0.04-0.97-0.18-1.09-0.27-0.29-0.2-0.33-0.43-0.41-1.6-0.06-0.8-0.16-3.12-0.2-3.9 3.10.21 7.850.37 11.710.370.97 0 3.490.02 4.170.020.53 0 1.23-0.14 1.58-0.7L0 13.22zm0.02-1.25c0.02-0.760.06-2.650.1-3.760.04-1.420.35-2.280.93-2.810.8-0.72 1.75-0.88 4.01-1.01 5.22-0.29 10.54-0.25 17.220.230.70.040.970.19 1.090.270.290.210.330.430.41 1.60.040.680.14 2.490.19 3.47-2.3-0.12-6.21-0.31-9.6-0.35-3.39-0.04-6.450.02-6.820.06-0.740.1-1.090.45-1.190.6L24 10.63v2.57Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSeat;

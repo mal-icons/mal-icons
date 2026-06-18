@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiMidi = createIcon("0 0 24 24", [["path",{"d":"M21.78 7.52H24v8.97h-2.22zm-8.56 0h6.51c0.66 0 1.050.57 1.05 1.25v6.61c0 0.84-0.35 1.11-1.11 1.11h-6.44v-5.7h2.23v3.51h3.14V9.54h-5.36zm-3.23 0h2.19v8.97h-2.19zM0 7.52h7.85c0.66 0 1.050.57 1.05 1.25v7.72H6.71V9.77H5.43v6.71H3.44V9.78H2.19v6.71H0Z"}]]);
+
+export default SiMidi;

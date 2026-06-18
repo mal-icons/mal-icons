@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-photopea",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPhotopea {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.1 0A3.9 3.9 0 0 1 24 3.9v16.19A3.9 3.9 0 0 1 20.1 24H6.39l-0.05-10.34v-0.07c0-3.92 3.11-7.09 6.96-7.09 2.31 0 4.18 1.9 4.18 4.25 0 2.35-1.87 4.25-4.18 4.25-0.77 0-1.39-0.63-1.39-1.42 0-0.780.62-1.42 1.39-1.420.77 0 1.39-0.63 1.39-1.42 0-0.78-0.62-1.42-1.39-1.42-2.31 0-4.18 1.9-4.18 4.25 0 2.35 1.87 4.25 4.18 4.25 3.85 0 6.96-3.17 6.96-7.09 0-3.92-3.11-7.09-6.96-7.09-5.39 0-9.75 4.44-9.75 9.93v0.09l0.02 10.32A3.9 3.9 0 0 1 0 20.1V3.9A3.9 3.9 0 0 1 3.9 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPhotopea;

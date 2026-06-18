@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-monica",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMonica {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M3.99 1.13C1.88 1.13 0 3.37 0 5.58c0 1.40.83 2.51 1.73 3.13a17.05 17.05 0 0 0-0.98 3.61c-1.2 7.39 5.82 10.56 11.44 10.56 5.62 0 11.85-3.61 11.06-10.56a14.74 14.74 0 0 0-0.88-3.68C23.24 7.99 24 6.92 24 5.57c0-2.21-1.88-4.44-3.99-4.44-1.53 0-3.210.25-4.02 1.22a11.77 11.77 0 0 0-3.8-0.61c-1.46 0-2.860.22-4.140.67-0.79-1.03-2.5-1.28-4.06-1.28zm8.13 2.77c4.51 0 8.24 2.9 8.87 8.470.63 5.57-4.37 8.47-8.87 8.47-4.51 0-10.15-2.54-9.18-8.470.97-5.93 4.67-8.47 9.18-8.47zM7.6 9.08c-1.75 0-2.77 2.21-2.77 4.38 0 2.170.67 2.85 2.26 3.23 1.60.38 3.42-1.69 3.42-3.86 0-2.17-1.16-3.74-2.92-3.74zm8.85 0c-1.75 0-2.92 1.57-2.92 3.74 0 2.17 1.82 4.25 3.42 3.86 1.6-0.38 2.27-1.05 2.27-3.23 0-2.17-1.02-4.38-2.77-4.38zm-8.38 1.58c0.92 0 1.10.71 1.1 1.64 0 0.92-0.57 1.63-1.49 1.63-0.43 0-0.57-0.11-0.76-0.36-0.22-0.28-0.38-0.6-0.33-1.270.09-1.120.56-1.63 1.48-1.63zm7.91 0c0.92 0 1.390.52 1.48 1.640.050.67-0.110.99-0.33 1.27-0.20.25-0.330.36-0.760.36-0.92 0-1.49-0.71-1.49-1.63s0.18-1.63 1.1-1.63zm-3.92 5c-0.87 0-1.720.09-1.720.64s0.87 1.83 1.74 1.83c0.87 0 1.71-1.28 1.71-1.83s-0.85-0.64-1.72-0.64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMonica;

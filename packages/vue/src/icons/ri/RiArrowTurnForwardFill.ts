@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiArrowTurnForwardFill = createIcon("0 0 24 24", [["path",{"d":"M17 8V13C17 16.31 14.31 19 11 19C7.69 19 5 16.31 5 13V4H3V13C3 17.42 6.58 21 11 21C15.42 21 19 17.42 19 13V8H23L18 2L13 8H17Z"}]]);
+
+export default RiArrowTurnForwardFill;

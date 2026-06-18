@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-devrant",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiDevrant {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.72 0C5.48-0.01 1.59 4.05 1.7 10.32c-0.07 3.91 1.44 7 4.13 8.730.660.41 1.360.74 2.141l2.17 3.35c0.330.850.70.770.85-0.11l0.59-2.69h0.44c2.470.07 4.57-0.52 6.23-1.58 2.62-1.73 4.13-4.79 4.05-8.7C22.41 3.95 18.43-0.14 12.020c-0.10-0.20-0.30zm4.57 4.64c0.26 0 0.520.090.70.28h0c0.190.190.30.440.30.74 0 0.15 0 0.3-0.070.41l-3.72 9.25c-0.260.44-0.630.55-0.880.55a1.01 1.01 0 0 1-0.99-0.99c0-0.150.04-0.260.07-0.41l3.69-9.21c0.07-0.150.15-0.260.22-0.33a0.990.99 0 0 1 0.7-0.28zM9.46 7.5c0.31 0 0.630.120.870.36h0c0.220.220.370.520.330.85 0 0.33-0.150.59-0.370.85-0.220.26-0.520.37-0.850.37-0.33 0-0.59-0.15-0.85-0.37-0.26-0.22-0.37-0.51-0.37-0.85s0.15-0.630.37-0.85c0.24-0.240.55-0.360.87-0.36zm0 4.97c0.31 0 0.630.120.870.36h0c0.220.260.370.550.330.85a1.2 1.2 0 0 1-0.370.85c-0.220.26-0.520.37-0.850.37a1.2 1.2 0 0 1-0.85-0.37c-0.26-0.22-0.37-0.52-0.37-0.85s0.15-0.630.37-0.85c0.24-0.240.55-0.360.87-0.36z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiDevrant;

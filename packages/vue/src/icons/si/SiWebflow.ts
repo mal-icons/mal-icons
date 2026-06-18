@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const SiWebflow = createIcon("0 0 24 24", [["path",{"d":"m24 4.51-7.66 14.97H9.15l3.21-6.2h-0.14C9.57 16.71 5.62 18.97 0 19.49v-6.12s3.6-0.21 5.71-2.43H0V4.51h6.42v5.28l0.140 2.62-5.28h4.85v5.24h0.14l2.72-5.24H24Z"}]]);
+
+export default SiWebflow;

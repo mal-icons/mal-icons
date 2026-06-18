@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-ripple",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiRipple {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.55 14.65c-0.85-0.49-1.8-0.63-2.75-0.67-0.79-0.02-1.97-0.54-1.97-1.98 0-1.070.87-1.94 1.99-1.980.95-0.03 1.91-0.18 2.75-0.67A5.02 5.02 0 22.4 2.5 5.04 5.04 0 15.530.67a4.99 4.99 0 0-2.5 4.34c0 0.970.35 1.860.79 2.70.370.70.55 2-0.71 2.73-0.950.54-2.130.2-2.72-0.74-0.5-0.8-1.09-1.54-1.94-2.03C6.05 6.28 2.98 7.1 1.6 9.49A5.02 5.02 0 3.44 16.34a5.03 5.03 0 5.01 0c0.85-0.48 1.44-1.23 1.94-2.030.41-0.65 1.43-1.49 2.72-0.740.950.54 1.24 1.740.71 2.73-0.440.82-0.79 1.73-0.79 2.7A5.01 5.01 0 18.03 24a5.01 5.01 0 5.01-5.01 4.98 4.98 0 0-2.49-4.34z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiRipple;

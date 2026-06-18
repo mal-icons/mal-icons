@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-group-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGroupFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2 22C2 17.58 5.58 14 10 14C14.42 14 18 17.58 18 22H2ZM10 13C6.69 13 4 10.32 4 7C4 3.69 6.69 1 10 1C13.32 1 16 3.69 16 7C16 10.32 13.32 13 10 13ZM17.36 15.23C20.45 16.02 22.77 18.72 22.98 22H20C20 19.39 19 17.01 17.36 15.23ZM15.34 12.96C16.97 11.49 18 9.37 18 7C18 5.58 17.63 4.25 16.98 3.1C19.28 3.55 21 5.57 21 8C21 10.76 18.76 13 16 13C15.78 13 15.56 12.99 15.34 12.96Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGroupFill;

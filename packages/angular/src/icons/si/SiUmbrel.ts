@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-umbrel",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiUmbrel {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.85 8.3c2.63-0.05 4.70.66 6.3 2.05 1.17 1.01 2.14 2.43 2.9 4.31a7.58 7.58 0 0 0-1.82-0.21c-1.34 0-2.550.31-3.560.99-1.13-0.69-2.34-1.05-3.62-1.05-1.31 0-2.570.38-3.77 1.09-1.15-0.73-2.46-1.09-3.87-1.09-0.51 0-10.05-1.470.150.68-1.72 1.58-3.05 2.66-4.03 1.56-1.39 3.61-2.15 6.25-2.2zM1.84 17.62c0.04-0.040.08-0.080.11-0.120.48-0.56 1.23-0.91 2.45-0.91 1.15 0 2.140.32 30.95l0.040.03c0.470.35 1.110.36 1.590.04 1.03-0.7 2.03-1.01 3.02-1.010.97 0 1.910.3 2.840.97l0.020.01a1.38 1.38 0 0 0 1.7-0.08c0.61-0.53 1.46-0.84 2.63-0.84 1.23 0 2.190.34 2.940.98a1.09 1.09 0 0 0 0.440.24 1.1 1.1 0 0 0 0.81-0.09 1.1 1.1 0 0 0 0.55-1.27c-0.87-3.38-2.3-6.03-4.36-7.82-2.08-1.81-4.71-2.65-7.79-2.59-3.060.06-5.650.96-7.67 2.76-2 1.79-3.34 4.39-4.1 7.67a1.1 1.1 0 0 0 1.81 1.08z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiUmbrel;

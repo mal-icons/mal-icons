@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiDoorLockBoxFill = createIcon("0 0 24 24", [["path",{"d":"M4 3H20C20.55 3 21 3.45 21 4V20C21 20.55 20.55 21 20 21H4C3.45 21 3 20.55 3 20V4C3 3.45 3.45 3 4 3ZM11 12.79V16H13V12.79C13.88 12.41 14.5 11.53 14.5 10.5C14.5 9.12 13.38 8 12 8C10.62 8 9.5 9.12 9.5 10.5C9.5 11.53 10.12 12.41 11 12.79Z"}]]);
+
+export default RiDoorLockBoxFill;

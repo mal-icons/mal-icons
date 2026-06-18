@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-trove",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTrove {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M11.92 8.43c-1.390.04-2.51 1.21-2.49 2.61a2.53 2.53 0 0 0 1.76 2.39l0.25-1.12a1.42 1.42 0 0 1-0.87-1.31c0-0.880.82-1.59 1.72-1.40.560.120.990.58 1.1 1.14a1.42 1.42 0 0 1-0.85 1.56l0.25 1.12a2.54 2.54 0 0 0 1.76-2.43 2.56 2.56 0 0 0-2.63-2.57zM0.19 8.5a0.140.14 0 0 0-0.140.14v0.78c0 0.070.060.130.140.13h1.02v3.8a0.140.14 0 0 0 0.140.14h0.85a0.140.14 0 0 0 0.14-0.13V9.55h1.02a0.140.14 0 0 0 0.14-0.13v-0.78a0.140.14 0 0 0-0.14-0.14zm4.5 0a0.140.14 0 0 0-0.130.14v4.71c0 0.070.060.140.130.14h0.85a0.140.14 0 0 0 0.14-0.14v-1.81h0.49l0.95 1.88a0.130.13 0 0 0 0.110.07h0.95c0.12 0 0.17-0.110.12-0.21l-0.97-1.81c0.62-0.25 1.05-0.77 1.05-1.43 0-0.85-0.7-1.54-1.55-1.54zm10.36 0c-0.11 0-0.160.09-0.120.19l2.22 4.79a0.140.14 0 0 0 0.120.08h0.07c0.06 0 0.1-0.040.12-0.08l2.23-4.79c0.04-0.09-0.01-0.19-0.12-0.19h-0.95a0.140.14 0 0 0-0.120.08l-1.17 2.6h-0.04L16.11 8.58a0.140.14 0 0 0-0.12-0.08zm5.81 0a0.140.14 0 0 0-0.140.14v4.71c0 0.070.060.140.140.14h2.94a0.140.14 0 0 0 0.14-0.14v-0.77a0.130.13 0 0 0-0.13-0.13h-1.97v-0.96h1.62a0.130.13 0 0 0 0.14-0.14v-0.77a0.140.14 0 0 0-0.13-0.13h-1.62v-0.88h1.97a0.130.13 0 0 0 0.14-0.13v-0.78a0.140.14 0 0 0-0.13-0.14zM5.68 9.52h1.05c0.29 0 0.540.240.540.54 0 0.3-0.250.57-0.540.57H5.68zM0.14 14.53A0.130.13 0 0 0 0 14.66v0.78c0 0.070.060.140.140.14h10.59l0.23-1.04zm12.9 0 0.23 1.05h10.6a0.130.13 0 0 0 0.14-0.13v-0.77a0.130.13 0 0 0-0.13-0.13z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTrove;

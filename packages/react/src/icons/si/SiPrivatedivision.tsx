@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const SiPrivatedivision = createIcon("0 0 24 24", [["path",{"d":"M12.380.25A0.420.42 0 0 0 12 0a0.430.43 0 0 0-0.390.25L6.17 12l5.44 11.75a0.430.43 0 0 0 0.620.180.430.43 0 0 0 0.16-0.18l5.44-11.75L12.380.25Zm-0.39 18.45-3.1-6.69 3.1-6.7 3.1 6.7-3.1 6.7Z"}]]);
+
+export default SiPrivatedivision;

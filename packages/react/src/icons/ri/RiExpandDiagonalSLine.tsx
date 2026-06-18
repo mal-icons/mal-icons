@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiExpandDiagonalSLine = createIcon("0 0 24 24", [["path",{"d":"M15.59 7H12V5H19V12H17V8.41L8.41 17H12V19H5V12H7V15.59L15.59 7Z"}]]);
+
+export default RiExpandDiagonalSLine;

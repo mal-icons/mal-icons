@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-base-station-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiBaseStationLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 13L18 22H6L12 13ZM12 16.6L9.74 20H14.26L12 16.6ZM10.94 10.56C10.35 9.97 10.35 9.03 10.94 8.44C11.53 7.85 12.47 7.85 13.06 8.44C13.65 9.03 13.65 9.97 13.06 10.56C12.47 11.15 11.53 11.15 10.94 10.56ZM5.28 2.78L6.7 4.2C3.77 7.13 3.77 11.87 6.7 14.8L5.28 16.22C1.57 12.51 1.57 6.49 5.28 2.78ZM18.72 2.78C22.43 6.49 22.43 12.51 18.72 16.22L17.3 14.8C20.23 11.87 20.23 7.13 17.3 4.2L18.72 2.78ZM8.11 5.61L9.53 7.03C8.16 8.39 8.16 10.61 9.53 11.97L8.11 13.39C5.96 11.24 5.96 7.76 8.11 5.61H8.11ZM15.89 5.61C18.04 7.76 18.04 11.24 15.89 13.39L14.47 11.97C15.84 10.61 15.84 8.39 14.47 7.03L15.89 5.61Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiBaseStationLine;

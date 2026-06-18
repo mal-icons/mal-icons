@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-seafile",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiSeafile {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.21 4.27c-2 0-3.62 1.62-3.62 3.62 0 0.0600.130.010.2a2.38 2.38 0 0 0-0.97-0.2c-1.34 0-2.42 1.08-2.42 2.42 0 0.0600.130.010.19-0.13-0.12-0.3-0.2-0.49-0.2-0.4 0-0.720.32-0.720.72 0 0.40.320.710.720.72h3.55c0.68-1.45 2.14-2.41 3.82-2.410.82 0 1.580.24 2.230.64a5.7 5.7 0 0 1 1.51-2.12c-0.02-1.98-1.64-3.59-3.62-3.59ZM15.58 7.41c-2.5 0-4.56 1.85-4.9 4.25-0.62-0.82-1.6-1.35-2.7-1.35-1.87 0-3.38 1.52-3.38 3.38 0 0.540.13 1.050.36 1.51-1.170.24-2.04 1.15-2.04 2.23 0 1.27 1.19 2.3 2.66 2.30.65 0 1.24-0.2 1.7-0.54l5.44-5.35c0.6-0.55 1.4-0.89 2.28-0.89 1.84 0 3.33 1.47 3.38 3.29 0 000000.030.54-0.25 1.08-0.77 1.38-0.720.42-1.630.2-2.03-0.49-0.4-0.69-0.14-1.590.59-2.01a1.61 1.61 0 0 1 0.53-0.19c-0.16-0.03-0.32-0.05-0.48-0.05-1.33 0-2.42 1.08-2.42 2.42 0 1.34 1.08 2.42 2.42 2.420.06 0 0.1200.18-0.01l0-0.010.07-0.01h4.74v0.02C22.63 19.66 24 18.33 24 16.7c0-1.67-1.43-3.03-3.09-3.03h-0.01c-0.270.48-0.60.76-0.97 1.070.39-0.710.61-1.520.61-2.38-0.01-1.36-0.56-2.6-1.46-3.49-0.9-0.9-2.13-1.45-3.5-1.45Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiSeafile;

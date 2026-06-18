@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-fandango",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiFandango {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M13.66 6.96L8.05 8.5 9.19 12.72l5.62-1.54L15.95 15.4l-5.61 1.49 1.09 4.22-5.61 1.49L4.42 17.54c0.85-0.99 1.19-2.390.85-3.73-0.4-1.34-1.39-2.38-2.58-2.83L1.29 5.76 12.57 2.78zm7.11-0.2L18.930.05 0 5.07l1.84 6.76c1.090.2 2.09 1.04 2.38 2.240.35 1.19-0.1 2.38-0.94 3.18l1.79 6.71L24 18.88l-1.79-6.71c-1.14-0.2-2.09-1.04-2.43-2.24-0.3-1.190.1-2.430.99-3.18z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiFandango;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-speed-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiSpeedLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 13.33L2.78 19.48C2.55 19.64 2.24 19.57 2.08 19.34C2.03 19.26 2 19.16 2 19.07V4.93C2 4.66 2.22 4.43 2.5 4.43C2.6 4.43 2.7 4.46 2.78 4.52L12 10.67V4.93C12 4.66 12.22 4.43 12.5 4.43C12.6 4.43 12.7 4.46 12.78 4.52L23.38 11.58C23.61 11.74 23.67 12.05 23.51 12.28C23.48 12.33 23.43 12.38 23.38 12.42L12.78 19.48C12.55 19.64 12.24 19.57 12.08 19.34C12.03 19.26 12 19.16 12 19.07V13.33ZM10.39 12L4 7.74V16.26L10.39 12ZM14 7.74V16.26L20.39 12L14 7.74Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiSpeedLine;

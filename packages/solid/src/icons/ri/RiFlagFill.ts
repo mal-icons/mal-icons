@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiFlagFill = createIcon("0 0 24 24", [["path",{"d":"M3 3H12.38C12.76 3 13.11 3.21 13.28 3.55L14 5H20C20.55 5 21 5.45 21 6V17C21 17.55 20.55 18 20 18H13.62C13.24 18 12.89 17.79 12.72 17.45L12 16H5V22H3V3Z"}]]);
+
+export default RiFlagFill;

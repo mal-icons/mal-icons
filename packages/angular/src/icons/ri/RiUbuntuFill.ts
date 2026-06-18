@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-ubuntu-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiUbuntuFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12ZM5.2 10.66C4.46 10.66 3.87 11.26 3.87 12C3.87 12.74 4.46 13.33 5.2 13.33C5.94 13.33 6.54 12.74 6.54 12C6.54 11.26 5.94 10.66 5.2 10.66ZM14.73 16.73C14.1 17.1 13.88 17.92 14.25 18.56C14.61 19.19 15.43 19.41 16.07 19.04C16.71 18.68 16.93 17.86 16.56 17.22C16.19 16.58 15.37 16.36 14.73 16.73V16.73ZM8.1 12C8.1 10.68 8.76 9.52 9.76 8.81L8.78 7.17C7.62 7.96 6.75 9.15 6.38 10.55C6.81 10.89 7.08 11.41 7.08 12C7.08 12.59 6.81 13.11 6.38 13.45C6.75 14.85 7.62 16.04 8.78 16.83L9.76 15.19C8.76 14.48 8.1 13.32 8.1 12L8.1 12ZM12 8.1C14.04 8.1 15.71 9.66 15.89 11.65L17.79 11.63C17.69 10.16 17.05 8.83 16.06 7.86C15.56 8.06 14.97 8.03 14.46 7.73C13.96 7.44 13.64 6.95 13.55 6.41C13.06 6.27 12.54 6.2 12 6.2C11.08 6.2 10.21 6.42 9.43 6.8L10.36 8.46C10.86 8.23 11.41 8.1 12 8.1ZM12 15.9C11.41 15.9 10.86 15.77 10.36 15.54L9.43 17.2C10.21 17.58 11.08 17.8 12 17.8C12.54 17.8 13.06 17.73 13.55 17.59C13.64 17.05 13.96 16.56 14.46 16.27C14.97 15.97 15.56 15.94 16.06 16.13C17.05 15.16 17.69 13.84 17.79 12.37L15.88 12.35C15.71 14.34 14.04 15.9 12 15.9L12 15.9ZM14.73 7.27C15.37 7.63 16.19 7.42 16.56 6.78C16.93 6.14 16.71 5.32 16.07 4.96C15.43 4.59 14.61 4.8 14.24 5.44C13.88 6.08 14.1 6.9 14.73 7.27V7.27Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiUbuntuFill;

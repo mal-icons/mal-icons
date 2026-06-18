@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const RiLayoutColumnLine = createIcon("0 0 24 24", [["path",{"d":"M11 5H5V19H11V5ZM13 5V19H19V5H13ZM4 3H20C20.55 3 21 3.45 21 4V20C21 20.55 20.55 21 20 21H4C3.45 21 3 20.55 3 20V4C3 3.45 3.45 3 4 3Z"}]]);
+
+export default RiLayoutColumnLine;

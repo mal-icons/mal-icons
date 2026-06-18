@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const RiAlarmFill = createIcon("0 0 24 24", [["path",{"d":"M12 22C7.03 22 3 17.97 3 13C3 8.03 7.03 4 12 4C16.97 4 21 8.03 21 13C21 17.97 16.97 22 12 22ZM13 13V8H11V15H16V13H13ZM1.75 6.28L5.28 2.75L6.7 4.16L3.16 7.7L1.75 6.28ZM18.72 2.75L22.25 6.28L20.84 7.7L17.3 4.16L18.72 2.75Z"}]]);
+
+export default RiAlarmFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-twitter-fill",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiTwitterFill {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22.21 5.66C21.45 5.99 20.64 6.22 19.81 6.31C20.68 5.79 21.34 4.97 21.65 4C20.83 4.49 19.93 4.83 18.99 5.01C18.2 4.17 17.1 3.69 15.94 3.69C13.63 3.69 11.76 5.57 11.76 7.88C11.76 8.2 11.8 8.52 11.87 8.83C8.39 8.65 5.31 6.99 3.25 4.46C2.88 5.1 2.68 5.82 2.68 6.56C2.68 8.01 3.42 9.29 4.54 10.04C3.88 10.02 3.23 9.84 2.65 9.52C2.65 9.54 2.65 9.55 2.65 9.57C2.65 11.6 4.09 13.29 6 13.67C5.64 13.77 5.27 13.82 4.9 13.82C4.63 13.82 4.37 13.79 4.11 13.75C4.65 15.41 6.19 16.62 8.02 16.65C6.54 17.81 4.71 18.44 2.83 18.44C2.49 18.44 2.16 18.42 1.83 18.38C3.74 19.61 5.97 20.26 8.24 20.26C15.93 20.26 20.14 13.89 20.14 8.36C20.14 8.18 20.13 8 20.13 7.82C20.94 7.23 21.65 6.5 22.21 5.66Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiTwitterFill;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-moodle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMoodle {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0Zm1.13 5.740.040.12-2.74 1.99c0.370.260.80.61 1.010.84l0.080.1c-1.29 2.26-3.74 3.06-6.32 2.18l0.02-0.16h0c-0.08-0.57-0.1-1.05-0.06-1.46-0.750-1.53-0.04-2.28-0.07l-0.520.02c-0.10.84-0.04 2.13-0.03 2.320.35 1.280.3 2.290.3 3.53-0.41-1-0.9-2.1-0.42-3.47l-0.01-0.32c0-0.01-0.07-1.150.04-2.06l-0.410.01-0.04-0.12C5.79 6.84 8.5 6.22 13.13 5.74Zm1.62 2.51c1.22 0 2.190.27 2.90.810.810.6 1.22 1.49 1.22 2.66v5.69h-2.73v-5.37c0-1.12-0.46-1.68-1.39-1.68-0.93 0-1.390.56-1.39 1.68v5.37h-2.73v-5.37c0-0.52-0.1-0.91-0.29-1.190.62-0.43 1.15-1.01 1.57-1.720.030.030.060.060.090.090.5-0.63 1.42-0.95 2.76-0.95zm-9.61 3.23c0.930.3 1.860.39 2.740.29a3.55 3.55 0 0 0-0.010.26v5.37H5.14v-5.69c0-0.080-0.150.01-0.23z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMoodle;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-trueup",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiTrueup {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.17 4.8a1.2 1.2 0 1 0 0.06 2.4 1.2 1.2 0 0 0-0.06-2.4Zm-8.4 0a1.2 1.2 0 1 0 0.06 2.4 1.2 1.2 0 0 0-0.06-2.4ZM10.2 0a6.61 6.61 0 0 0-6.6 6.6v4.8A12.61 12.61 0 0 0 16.2 24h3.6a0.60.6 0 0 0 0.6-0.6V6.6A6.61 6.61 0 0 0 13.8 0Zm0 1.2h3.6a5.33 5.33 0 0 1 2.530.66A6.15 6.15 0 0 0 12 5.63a6.15 6.15 0 0 0-4.32-3.77A5.33 5.33 0 0 1 10.2 1.2ZM6.33 2.84C9.51 3.13 11.4 5.4 11.4 9a0.60.6 0 0 0 1.2 0c0-3.6 1.9-5.87 5.07-6.16A5.38 5.38 0 0 1 19.2 6.6v0.6c0 3.91-4.42 7.2-7.2 7.2s-7.2-3.29-7.2-7.2v-0.6c0-1.40.55-2.75 1.53-3.76ZM4.8 11.07C6.51 13.76 9.68 15.6 12 15.6c1.09 0 2.37-0.41 3.6-1.12V16.2c0 2.930.78 5.14 2.32 6.6H16.2A11.41 11.41 0 0 1 4.8 11.4Zm14.4 0v11.25c-1.61-1.21-2.4-3.22-2.4-6.12v-2.52a10.32 10.32 0 0 0 2.4-2.61z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiTrueup;

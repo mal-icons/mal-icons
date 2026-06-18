@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-curseforge",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiCurseforge {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.33 9.21S23.23 8.44 24 6.19h-7.51V4.4H0l2.03 2.36V9.17s5.13-0.27 7.11 1.24c2.71 2.52-3.05 5.92-3.05 5.92L5.1 19.6c1.55-1.47 4.49-3.38 9.9-3.29-2.060.65-4.12 1.67-5.73 3.29h10.92l-1.03-3.27s-7.92-4.67-0.83-7.11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiCurseforge;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-unacademy",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiUnacademy {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M0.72 2.19a0.70.7 0 0-0.710.71H0l00.03c-0.010.310.030.660.12 1.080.91 5.55 5.88 9.79 11.87 9.79 5.94 0 10.86-4.16 11.84-9.620.13-0.510.18-0.920.16-1.27a0.70.7 0 0-0.71-0.71zm11.24 13.82c-2.97 0-5.43 2.08-5.92 4.81a2.29 2.29 0 0-0.080.64c0 0.20.150.360.360.36h11.29a0.350.35 0 0.36-0.36h0v-0.01a2.21 2.21 0 0-0.06-0.54c-0.45-2.77-2.94-4.89-5.93-4.89z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiUnacademy;

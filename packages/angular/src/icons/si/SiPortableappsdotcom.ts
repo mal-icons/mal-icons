@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-portableappsdotcom",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPortableappsdotcom {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 0C7.98 0 4.42 1.98 2.24 5.02c-1.82 4.30.99 7.62 4 7.53 2.93-0.08 5.26-1.36 7.04-3.4l-3.02-3.01h10.64l-0.04 10.58-2.79-2.78c-2.74 2.97-5.49 5.44-9.74 5.21C3.17 18.860.55 14.70.09 10.560.03 11.03 0 11.51 0 12 0 18.63 5.37 24 12 24s12-5.37 12-12S18.63 0 12 0z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPortableappsdotcom;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-prdotco",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiPrdotco {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 4.67c1.880 3.750.72 5.18 2.15 1.03 1.02 1.6 2.19 1.9 3.29l1.79-1.79c0.72-0.72 1.88-0.72 2.59 0 0.720.720.72 1.88 0 2.59l-6.28 6.28c-1.43 1.43-3.31 2.15-5.18 2.15-1.88 0-3.75-0.72-5.18-2.15-0.94-0.94-1.58-2.08-1.9-3.28L3.13 15.69c-0.720.72-1.880.72-2.59 0-0.72-0.72-0.72-1.88 0-2.59 2.09-2.09 4.19-4.19 5.95-5.95 1.69-1.86 3.77-2.47 5.51-2.48zm2.59 4.74c-1.43-1.43-3.75-1.43-5.18 0-1.43 1.43-1.43 3.75 0 5.18 1.43 1.43 3.75 1.43 5.180 1.43-1.43 1.43-3.750-5.18z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiPrdotco;

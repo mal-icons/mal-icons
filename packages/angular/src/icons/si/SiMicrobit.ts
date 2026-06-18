@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-microbit",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiMicrobit {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M6.86 5.14A6.87 6.87 0 0 12a6.86 6.86 0 6.86 6.86h10.29A6.86 6.86 0 24 12c0-3.78-3.07-6.86-6.86-6.86zm0 2.74h10.29A4.12 4.12 0 121.26 12a4.12 4.12 0 1-4.11 4.12H6.86A4.12 4.12 0 12.74 12a4.12 4.12 0 14.11-4.11zm10.17 2.73a1.39 1.39 0 10 2.77 1.39 1.39 0 00-2.77zm-10.17 0a1.39 1.39 0 100 2.77 1.39 1.39 0 0-2.77Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiMicrobit;

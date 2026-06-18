@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-si-infuse",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class SiInfuse {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18.8 7.74c0 0.5-0.040.8-0.15 1.24a5.1 5.1 0 0 1-0.97 1.93c-0.180.22-0.570.61-0.780.76-0.080.06-2.62 1.89-5.65 4.08a842 842 0 0 0-5.64 4.08 2.6 2.6 0 0 0-0.550.72 2.39 2.39 0 0 0 1 3.18c0.70.38 1.620.37 2.29-0.02a2322 2322 0 0 0 11.38-8.18 6 6 0 0 0 0.85-0.85 4.78 4.78 0 0 0 0.76-4.42 4.86 4.86 0 0 0-1.35-2.07 15 15 0 0 0-0.67-0.52c-0.26-0.18-0.48-0.35-0.5-0.36-0.02-0.02-0.020.09-0.020.43M4.31 5.62c-0.90.2-1.570.84-1.82 1.75l-0.070.23v7.71l0.060.23c0.3 1.09 1.21 1.8 2.32 1.8 1.16 0 2.12-0.79 2.35-1.940.04-0.220.04-7.65 0-7.88a2.5 2.5 0 0 0-0.23-0.66A2.38 2.38 0 0 0 5.39 5.64a3 3 0 0 0-1.08-0.02M6.640.03a4.79 4.79 0 0 0-4.13 3.78c-0.050.26-0.120.91-0.10.94a1 1 0 0 0 0.21-0.12 4.2 4.2 0 0 1 1.39-0.57c0.34-0.07 1-0.09 1.37-0.040.60.09 1.10.3 1.710.70.10.07 1.91 1.38 4.02 2.9 2.11 1.53 3.88 2.8 3.95 2.840.10.050.150.060.330.060.19 0 0.23-0.010.35-0.070.19-0.090.65-0.560.83-0.830.88-1.340.71-3.08-0.41-4.18-0.14-0.14-0.94-0.73-3.27-2.42C11.2 1.78 9.710.72 9.580.65A4.8 4.8 0 0 0 6.640.03"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default SiInfuse;

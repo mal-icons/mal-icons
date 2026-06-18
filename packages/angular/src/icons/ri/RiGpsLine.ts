@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-ri-gps-line",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class RiGpsLine {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M7.13 20.74C4.07 19.03 2 15.76 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12C22 15.76 19.93 19.03 16.87 20.74L15.97 18.95C18.38 17.57 20 14.97 20 12C20 7.58 16.42 4 12 4C7.58 4 4 7.58 4 12C4 14.97 5.62 17.57 8.03 18.95L7.13 20.74ZM8.92 17.15C7.17 16.11 6 14.19 6 12C6 8.69 8.69 6 12 6C15.31 6 18 8.69 18 12C18 14.19 16.83 16.11 15.08 17.15L14.18 15.36C15.27 14.64 16 13.41 16 12C16 9.79 14.21 8 12 8C9.79 8 8 9.79 8 12C8 13.41 8.73 14.64 9.82 15.36L8.92 17.15ZM12 16L15 22H9L12 16Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default RiGpsLine;
