@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaHouzz = createIcon("0 0 32 32", [["path",{"d":"M 16 2.28 L 8 6.84 L 8 16 L 16 11.44 Z M 16 11.44 L 24 16 L 24 6.84 Z M 24 16 L 16 20.56 L 16 29.72 L 24 25.16 Z M 16 20.56 L 8 16 L 8 25.16 Z"}]]);
+
+export default LaHouzz;

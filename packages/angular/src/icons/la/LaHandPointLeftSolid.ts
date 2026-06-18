@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-hand-point-left-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHandPointLeftSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16.91 3 C 15.29 3 14 4.23 14 5.66 C 14 6.99 14.47 7.98 14.94 8.63 C 15.23 9.03 15.36 9.09 15.56 9.25 L 15.75 10 L 5 10 C 3.36 10 2 11.36 2 13 C 2 14.64 3.36 16 5 16 L 8.56 16 L 10.22 23.63 C 10.52 25 11.75 26 13.16 26 L 30 26 L 30 10 L 24.41 10 L 17.63 3.28 L 17.31 3 Z M 16.59 5.09 L 23 11.41 L 23 24 L 13.16 24 C 12.68 24 12.26 23.69 12.16 23.22 L 10.38 14.78 L 10.19 14 L 5 14 C 4.43 14 4 13.57 4 13 C 4 12.43 4.43 12 5 12 L 18.34 12 L 18.03 10.75 L 17.44 8.5 L 17.31 8.09 L 16.97 7.91 C 16.97 7.91 16.79 7.82 16.53 7.47 C 16.27 7.12 16 6.56 16 5.66 C 16 5.35 16.17 5.18 16.59 5.09 Z M 25 12 L 28 12 L 28 24 L 25 24 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHandPointLeftSolid;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaMedkitSolid = createIcon("0 0 32 32", [["path",{"d":"M 14 5 C 12.91 5 12 5.91 12 7 L 12 8 L 6 8 C 4.36 8 3 9.36 3 11 L 3 26 L 29 26 L 29 11 C 29 9.36 27.64 8 26 8 L 20 8 L 20 7 C 20 5.91 19.09 5 18 5 Z M 14 7 L 18 7 L 18 8 L 14 8 Z M 6 10 L 26 10 C 26.57 10 27 10.43 27 11 L 27 24 L 5 24 L 5 11 C 5 10.43 5.43 10 6 10 Z M 15 13 L 15 16 L 12 16 L 12 18 L 15 18 L 15 21 L 17 21 L 17 18 L 20 18 L 20 16 L 17 16 L 17 13 Z"}]]);
+
+export default LaMedkitSolid;

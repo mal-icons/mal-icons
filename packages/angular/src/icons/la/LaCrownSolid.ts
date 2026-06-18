@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-crown-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCrownSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 14.36 3 13 4.36 13 6 C 13 7.13 13.63 8.11 14.56 8.63 L 11.63 14.5 L 7.03 11.22 C 7.63 10.67 8 9.87 8 9 C 8 7.36 6.64 6 5 6 C 3.36 6 2 7.36 2 9 C 2 10.35 2.93 11.47 4.16 11.84 L 6 22 L 6 27 L 26 27 L 26 22 L 27.84 11.84 C 29.07 11.47 30 10.35 30 9 C 30 7.36 28.64 6 27 6 C 25.36 6 24 7.36 24 9 C 24 9.87 24.37 10.67 24.97 11.22 L 20.38 14.5 L 17.44 8.63 C 18.37 8.11 19 7.13 19 6 C 19 4.36 17.64 3 16 3 Z M 16 5 C 16.56 5 17 5.44 17 6 C 17 6.56 16.56 7 16 7 C 15.44 7 15 6.56 15 6 C 15 5.44 15.44 5 16 5 Z M 5 8 C 5.56 8 6 8.44 6 9 C 6 9.56 5.56 10 5 10 C 4.44 10 4 9.56 4 9 C 4 8.44 4.44 8 5 8 Z M 27 8 C 27.56 8 28 8.44 28 9 C 28 9.56 27.56 10 27 10 C 26.44 10 26 9.56 26 9 C 26 8.44 26.44 8 27 8 Z M 16 10.25 L 19.09 16.44 L 20.59 16.81 L 25.59 13.25 L 24.19 21 L 7.81 21 L 6.41 13.25 L 11.41 16.81 L 12.91 16.44 Z M 8 23 L 24 23 L 24 25 L 8 25 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCrownSolid;

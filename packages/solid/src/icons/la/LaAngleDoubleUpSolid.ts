@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaAngleDoubleUpSolid = createIcon("0 0 32 32", [["path",{"d":"M 16 4.69 L 3.78 16.91 L 5.22 18.31 L 16 7.53 L 26.78 18.31 L 28.22 16.91 Z M 16 11.69 L 3.78 23.91 L 5.22 25.31 L 16 14.53 L 26.78 25.31 L 28.22 23.91 Z"}]]);
+
+export default LaAngleDoubleUpSolid;

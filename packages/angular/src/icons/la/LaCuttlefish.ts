@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-cuttlefish",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCuttlefish {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 17 3 C 9.83 3 4 8.83 4 16 C 4 23.17 9.83 29 17 29 C 20.64 29 24.02 27.54 26.5 24.88 L 27.38 23.94 L 26.31 23.23 C 23.22 20.47 21.94 17.5 21.79 17.12 C 20.62 18.68 18.79 20 17 20 C 14.79 20 13 18.21 13 16 C 13 13.79 14.79 12 17 12 C 18.79 12 20.63 13.32 21.79 14.89 C 21.93 14.58 23.68 10.74 26.31 8.77 L 27.38 8.06 L 26.5 7.13 C 24.01 4.47 20.64 3 17 3 z M 17 5 C 19.75 5 22.32 5.99 24.34 7.8 C 23.07 8.95 22.04 10.37 21.29 11.58 C 20.07 10.67 18.59 10 17 10 C 13.69 10 11 12.69 11 16 C 11 19.31 13.69 22 17 22 C 18.59 22 20.07 21.33 21.3 20.41 C 22 21.52 23.01 22.84 24.38 24.16 C 22.35 26 19.77 27 17 27 C 10.94 27 6 22.07 6 16 C 6 9.94 10.93 5 17 5 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCuttlefish;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaAngleLeftSolid = createIcon("0 0 32 32", [["path",{"d":"M 19.03 4.28 L 8.03 15.28 L 7.34 16 L 8.03 16.72 L 19.03 27.72 L 20.47 26.28 L 10.19 16 L 20.47 5.72 Z"}]]);
+
+export default LaAngleLeftSolid;

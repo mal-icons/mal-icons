@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-oil-can-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaOilCanSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 11 9 L 11 11 L 13 11 L 13 13 L 7.56 13 L 5.84 10.44 L 5.53 10 L 1 10 L 1 15.69 L 6 17.69 L 6 25 L 20.53 25 L 20.81 24.56 L 29.5 12 L 31 12 L 31 10 L 27.66 10 L 27.41 10.19 L 21 15 L 21 13 L 15 13 L 15 11 L 17 11 L 17 9 Z M 3 12 L 4.44 12 L 6 14.34 L 6 15.5 L 3 14.31 Z M 25.78 13.94 L 19.5 23 L 8 23 L 8 15 L 19 15 L 19 19 L 20.59 17.81 Z M 29.5 16 C 29.5 16 28 18.67 28 19.5 C 28 20.33 28.67 21 29.5 21 C 30.33 21 31 20.33 31 19.5 C 31 18.67 29.5 16 29.5 16 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaOilCanSolid;

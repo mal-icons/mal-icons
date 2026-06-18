@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-microscope-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMicroscopeSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 17 4 L 17 6 L 21 6 L 21 4 Z M 16 7 L 16 9 L 14 9 C 11.25 9 9 11.25 9 14 L 9 18.19 C 7.84 18.61 7 19.71 7 21 C 7 22.29 7.84 23.39 9 23.81 L 9 26 L 7 26 L 7 28 L 24 28 L 24 26 L 11 26 L 11 23.81 C 11.84 23.51 12.51 22.84 12.81 22 L 24 22 L 24 20 L 12.81 20 C 12.51 19.16 11.84 18.49 11 18.19 L 11 14 C 11 12.34 12.34 11 14 11 L 16 11 L 16 17 L 22 17 L 22 7 Z M 18 9 L 20 9 L 20 15 L 18 15 Z M 10 20 C 10.56 20 11 20.44 11 21 C 11 21.56 10.56 22 10 22 C 9.44 22 9 21.56 9 21 C 9 20.44 9.44 20 10 20 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMicroscopeSolid;

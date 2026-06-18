@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-quran-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaQuranSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 8 3 C 6.36 3 5 4.36 5 6 L 5 26 C 5 27.64 6.36 29 8 29 L 27 29 L 27 3 Z M 8 5 L 25 5 L 25 23 L 8 23 C 7.65 23 7.32 23.07 7 23.19 L 7 6 C 7 5.43 7.43 5 8 5 Z M 8 6 L 8 22 L 24 22 L 24 6 Z M 10 8 L 22 8 L 22 20 L 10 20 Z M 16 9 C 15.45 9 15 9.45 15 10 C 15 10.55 15.45 11 16 11 C 16.55 11 17 10.55 17 10 C 17 9.45 16.55 9 16 9 Z M 16 11 L 13 11 L 13 17 L 19 17 L 19 11 Z M 19 14 C 19 14.55 19.45 15 20 15 C 20.55 15 21 14.55 21 14 C 21 13.45 20.55 13 20 13 C 19.45 13 19 13.45 19 14 Z M 16 17 C 15.45 17 15 17.45 15 18 C 15 18.55 15.45 19 16 19 C 16.55 19 17 18.55 17 18 C 17 17.45 16.55 17 16 17 Z M 13 14 C 13 13.45 12.55 13 12 13 C 11.45 13 11 13.45 11 14 C 11 14.55 11.45 15 12 15 C 12.55 15 13 14.55 13 14 Z M 15 13 L 17 13 L 17 15 L 15 15 Z M 8 25 L 25 25 L 25 27 L 8 27 C 7.43 27 7 26.57 7 26 C 7 25.43 7.43 25 8 25 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaQuranSolid;

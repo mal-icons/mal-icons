@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-procedures-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaProceduresSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 17.13 0.44 L 14.38 6 L 9 6 L 9 8 L 15.63 8 L 16.88 5.44 L 19.72 13 L 23.5 8 L 28 8 L 28 6 L 22.5 6 L 20.28 8.88 L 17.13 0.44 z M 6.5 11 C 5.12 11 4 12.12 4 13.5 L 4 28 L 9 28 L 9 26 L 23 26 L 23 28 L 28 28 L 28 17 C 28 15.36 26.65 14 25 14 L 13 14 L 13 14.56 C 12.41 14.21 11.73 14 11 14 C 10.27 14 9.59 14.21 9 14.56 L 9 13.5 C 9 12.12 7.88 11 6.5 11 z M 6.5 13 C 6.72 13 7 13.29 7 13.5 L 7 22 L 26 22 L 26 26 L 25 26 L 25 24 L 7 24 L 7 26 L 6 26 L 6 13.5 C 6 13.29 6.29 13 6.5 13 z M 11 16 C 12.12 16 13 16.88 13 18 C 13 19.12 12.12 20 11 20 C 9.88 20 9 19.12 9 18 C 9 16.88 9.88 16 11 16 z M 15 16 L 25 16 C 25.56 16 26 16.45 26 17 L 26 20 L 15 20 L 15 16 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaProceduresSolid;

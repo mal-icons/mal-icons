@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-chess-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaChessSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 8 4 L 8 6 L 4.8 6 L 6.07 12 L 6 12 C 5.4 12 5 12.4 5 13 C 5 13.6 5.4 14 6 14 L 6.11 14 L 5.09 21 L 5 21 C 4.4 21 4 21.4 4 22 C 4 22.32 4.12 22.58 4.32 22.75 L 3 24.7 L 3 27 L 15 27 L 15.1 27 L 15.1 24.7 L 13.74 22.69 C 13.9 22.52 14 22.29 14 22 C 14 21.4 13.6 21 13 21 L 12.89 21 L 11.81 14 L 12 14 C 12.6 14 13 13.6 13 13 C 13 12.4 12.6 12 12 12 L 11.95 12 L 13.3 6 L 10 6 L 10 4 L 8 4 z M 7.2 8 L 10.8 8 L 9.9 12 L 8.1 12 L 7.2 8 z M 19 9 L 19 11 L 19 12 L 19 15.4 L 19.9 16.3 L 19.13 21 L 19 21 C 18.4 21 18 21.4 18 22 C 18 22.32 18.12 22.58 18.32 22.75 L 17 24.7 L 17 27 L 29 27 L 29.1 27 L 29.1 24.7 L 27.74 22.69 C 27.9 22.52 28 22.29 28 22 C 28 21.4 27.6 21 27 21 L 26.87 21 L 26.1 16.3 L 27 15.4 L 27 12 L 27 11 L 27 9 L 25 9 L 25 11 L 24 11 L 24 9 L 22 9 L 22 11 L 21 11 L 21 9 L 19 9 z M 21 13 L 25 13 L 25 14.6 L 23.9 15.7 L 24.8 21 L 21.2 21 L 22.1 15.7 L 21 14.6 L 21 13 z M 8.2 14 L 9.9 14 L 10.9 21 L 7.2 21 L 8.2 14 z M 6.5 23 L 11.5 23 L 12.8 25 L 5.2 25 L 6.5 23 z M 20.6 23 L 25.5 23 L 26.8 25 L 19.2 25 L 20.6 23 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaChessSolid;

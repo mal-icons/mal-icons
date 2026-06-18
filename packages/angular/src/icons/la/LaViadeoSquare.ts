@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-viadeo-square",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaViadeoSquare {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 7.4 5 C 6.1 5 5 6.1 5 7.4 L 5 24.7 C 5 25.9 6.1 27 7.4 27 L 24.7 27 C 26 27 27.1 25.9 27.1 24.6 L 27.1 7.4 C 27 6.1 25.9 5 24.6 5 L 7.4 5 z M 15.3 7.7 C 16.7 8.6 17.4 10.9 17.6 12.5 C 18 13.6 18.2 14.9 18.2 16.1 C 18.2 18.9 17.1 21.1 14.7 22.6 C 17.15 22.64 19 20.57 19 18.2 C 19 17.6 18.9 17 18.6 16.4 C 19.1 16.3 19.5 16.1 19.9 15.9 C 20.8 17.7 20.7 20.3 18.9 22.2 C 16.7 24.6 12.8 24.6 10.6 22.2 C 7.1 18.4 9.6 12.2 14.7 12.2 C 15.4 12.2 16.1 12.3 16.7 12.5 C 16.5 12.9 16.3 13.4 16.3 13.9 C 15.8 13.7 15.3 13.6 14.7 13.6 C 12.2 13.6 10.4 15.7 10.4 18.1 C 10.4 20.3 11.9 22.1 13.9 22.5 C 17 21.3 17.6 16.5 17.6 13.6 L 17.6 12.5 C 17 10.8 16.2 9.2 15.3 7.7 z M 14.7 22.6 C 14.67 22.6 14.63 22.6 14.6 22.6 L 14.7 22.6 C 14.7 22.6 14.7 22.6 14.7 22.6 z M 22.1 8.2 C 23.8 10.4 22.9 14.7 20.3 14.7 C 19.6 14.7 19 14.3 18.5 13.9 C 19.6 13.3 21 12.3 21.7 11.2 C 21.8 11 21.9 10.8 21.9 10.6 C 21.3 12 19.6 13.1 18.1 13.5 C 17.9 13.1 17.7 12.7 17.7 12.3 C 17.7 11.8 18 11.1 18.4 10.7 C 19.5 9.7 21.1 10.3 22.1 8.2 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaViadeoSquare;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-cc-diners-club",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCcDinersClub {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5 6 C 3.36 6 2 7.36 2 9 L 2 23 C 2 24.64 3.36 26 5 26 L 27 26 C 28.64 26 30 24.64 30 23 L 30 9 C 30 7.36 28.64 6 27 6 Z M 5 8 L 27 8 C 27.57 8 28 8.43 28 9 L 28 23 C 28 23.57 27.57 24 27 24 L 5 24 C 4.43 24 4 23.57 4 23 L 4 9 C 4 8.43 4.43 8 5 8 Z M 15 10 C 11.7 10 9 12.7 9 16 C 9 19.3 11.7 22 15 22 L 17 22 C 20.31 22 23 19.31 23 16 C 23 12.69 20.31 10 17 10 Z M 15 12 C 17.22 12 19 13.78 19 16 C 19 18.22 17.22 20 15 20 C 12.78 20 11 18.22 11 16 C 11 13.78 12.78 12 15 12 Z M 14.19 13.66 C 13.21 14 12.5 14.91 12.5 16 C 12.5 17.09 13.21 18 14.19 18.34 Z M 15.81 13.66 L 15.81 18.34 C 16.79 18 17.5 17.09 17.5 16 C 17.5 14.91 16.79 14 15.81 13.66 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCcDinersClub;

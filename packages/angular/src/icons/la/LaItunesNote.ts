@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-itunes-note",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaItunesNote {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 23.07 5.01 C 22.89 5.01 21.63 5.26 11.26 7.2 C 11.18 7.2 10.79 7.3 10.58 7.48 C 10.37 7.64 10.26 7.87 10.21 8.13 C 10.04 8.82 10.59 21.28 10.08 21.87 C 9.86 22.11 9.46 22.19 9.16 22.24 C 7.33 22.56 6.12 22.73 5.25 23.55 C 3.76 25.01 4.54 27.54 6.73 27.95 C 7.56 28.11 9.1 27.9 9.96 27.43 C 10.71 27.04 11.28 26.34 11.49 25.42 C 11.67 24.62 11.62 25.17 11.62 13.24 C 11.62 12.66 11.78 12.51 12.3 12.39 C 12.3 12.39 21.32 10.71 21.74 10.64 C 22.32 10.53 22.6 10.69 22.6 11.26 C 22.6 19.35 22.7 19.19 22.38 19.56 C 22.15 19.81 21.89 19.88 21.58 19.93 C 19.76 20.25 18.66 20.31 17.79 21.13 C 16.7 22.2 16.71 23.89 17.93 24.91 C 18.83 25.6 19.85 25.77 21.09 25.54 C 22.51 25.28 23.57 24.49 23.89 23.1 C 24.04 22.47 23.99 23.41 23.99 5.9 C 23.99 5.31 23.65 4.96 23.07 5.01 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaItunesNote;

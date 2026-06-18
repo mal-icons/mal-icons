@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaArrowUpSolid = createIcon("0 0 32 32", [["path",{"d":"M 16 4.09 L 15.28 4.78 L 6.78 13.28 L 8.22 14.72 L 15 7.94 L 15 28 L 17 28 L 17 7.94 L 23.78 14.72 L 25.22 13.28 L 16.72 4.78 Z"}]]);
+
+export default LaArrowUpSolid;

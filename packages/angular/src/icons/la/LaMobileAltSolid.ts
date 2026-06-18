@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-mobile-alt-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMobileAltSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 11 4 C 9.36 4 8 5.36 8 7 L 8 25 C 8 26.64 9.36 28 11 28 L 21 28 C 22.64 28 24 26.64 24 25 L 24 7 C 24 5.36 22.64 4 21 4 Z M 11 6 L 21 6 C 21.55 6 22 6.45 22 7 L 22 25 C 22 25.55 21.55 26 21 26 L 11 26 C 10.45 26 10 25.55 10 25 L 10 7 C 10 6.45 10.45 6 11 6 Z M 16 23 C 15.45 23 15 23.45 15 24 C 15 24.55 15.45 25 16 25 C 16.55 25 17 24.55 17 24 C 17 23.45 16.55 23 16 23 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMobileAltSolid;

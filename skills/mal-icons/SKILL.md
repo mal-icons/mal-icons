@@ -2,9 +2,9 @@
 name: mal-icons
 description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
-  "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
+  "fi", Circum "ci", Ionicons "io", Line Awesome "la", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Game Icons "gi", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Remix Icon "ri", Simple Icons "si", Bootstrap Icons "bs", Boxicons Regular "bx" / Solid "bxs" / Logos "bxl", Tabler Icons "tb", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss", Phosphor "ph" — 50,825 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Game Icons "gi", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Remix Icon "ri", Simple Icons "si", Bootstrap Icons "bs", Boxicons Regular "bx" / Solid "bxs" / Logos "bxl", Tabler Icons "tb", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss", Phosphor "ph" — 52,369 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -26,6 +26,7 @@ helps you choose icons and wire them into any supported framework correctly.
 | `fi` | Feather  | `Fi`   | stroke |   287 | MIT     | `0 0 24 24`   |
 | `ci` | Circum   | `Ci`   | fill   |   288 | MPL-2.0 | `0 0 24 24`   |
 | `io` | Ionicons | `Io`   | fill   |  1357 | MIT     | `0 0 512 512` |
+| `la` | Line Awesome | `La` | fill |  1544 | MIT     | `0 0 32 32`   |
 | `lu` | Lucide   | `Lu`   | stroke |  1727 | ISC     | `0 0 24 24`   |
 | `fa` | Font Awesome Free | `Fa` | fill | 1402 | CC-BY-4.0 | `0 0 512 512` |
 | `fab` | Font Awesome Free Brands | `Fab` | fill | 495 | CC-BY-4.0 | `0 0 512 512` |
@@ -104,6 +105,7 @@ catalog (name, tags, description) lives in:
 - [references/icons/fi.json](references/icons/fi.json) · [fi.md](references/icons/fi.md) — Feather
 - [references/icons/ci.json](references/icons/ci.json) · [ci.md](references/icons/ci.md) — Circum
 - [references/icons/io.json](references/icons/io.json) · [io.md](references/icons/io.md) — Ionicons
+- [references/icons/la.json](references/icons/la.json) · [la.md](references/icons/la.md) — Line Awesome
 - [references/icons/lu.json](references/icons/lu.json) · [lu.md](references/icons/lu.md) — Lucide
 - [references/icons/fa.json](references/icons/fa.json) · [fa.md](references/icons/fa.md) — Font Awesome Free
 - [references/icons/fab.json](references/icons/fab.json) · [fab.md](references/icons/fab.md) — Font Awesome Free Brands
@@ -202,4 +204,4 @@ Swap `react` for any package: `vue`, `svelte`, `solid`, `preact`, `angular`,
 2. Use the package that matches their framework; default to per-icon or set
    barrel imports for tree-shaking.
 3. Open the relevant `references/setup/<framework>.md` for the exact API.
-4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) and Boxicons (`bx`, `bxs`, `bxl`) are CC-BY-4.0; Game Icons (`gi`) is CC-BY-3.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) and Remix Icon (`ri`) are Apache-2.0; Simple Icons (`si`) is CC0-1.0 (public domain, but brand trademarks still apply); Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`)/Bootstrap Icons (`bs`)/Tabler Icons (`tb`)/Phosphor (`ph`) are MIT; Lucide (`lu`) is ISC.
+4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) and Boxicons (`bx`, `bxs`, `bxl`) are CC-BY-4.0; Game Icons (`gi`) is CC-BY-3.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) and Remix Icon (`ri`) are Apache-2.0; Simple Icons (`si`) is CC0-1.0 (public domain, but brand trademarks still apply); Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`)/Bootstrap Icons (`bs`)/Tabler Icons (`tb`)/Phosphor (`ph`)/Line Awesome (`la`) are MIT; Lucide (`lu`) is ISC.

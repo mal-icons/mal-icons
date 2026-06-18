@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-sync-alt-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSyncAltSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 10.89 4 6.62 7.16 4.88 11.63 L 6.72 12.38 C 8.18 8.64 11.71 6 16 6 C 19.24 6 22.13 7.59 23.94 10 L 20 10 L 20 12 L 27 12 L 27 5 L 25 5 L 25 8.09 C 22.81 5.58 19.57 4 16 4 Z M 25.28 19.63 C 23.82 23.36 20.29 26 16 26 C 12.72 26 9.84 24.39 8.03 22 L 12 22 L 12 20 L 5 20 L 5 27 L 7 27 L 7 23.91 C 9.19 26.39 12.39 28 16 28 C 21.11 28 25.38 24.84 27.13 20.38 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSyncAltSolid;

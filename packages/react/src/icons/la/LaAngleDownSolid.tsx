@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaAngleDownSolid = createIcon("0 0 32 32", [["path",{"d":"M 4.22 10.78 L 2.78 12.22 L 15.28 24.72 L 16 25.41 L 16.72 24.72 L 29.22 12.22 L 27.78 10.78 L 16 22.56 Z"}]]);
+
+export default LaAngleDownSolid;

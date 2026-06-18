@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-road-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaRoadSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5.47 6 L 5.28 6.75 L 0.63 24.75 L 0.28 26 L 31.72 26 L 31.38 24.75 L 26.72 6.75 L 26.53 6 Z M 7.03 8 L 15.13 8 L 15.06 11 L 16.94 11 L 16.88 8 L 24.97 8 L 29.13 24 L 17.28 24 L 17.19 20 L 14.81 20 L 14.72 24 L 2.88 24 Z M 15 13 L 14.88 18 L 17.13 18 L 17 13 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaRoadSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-closed-captioning-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaClosedCaptioningSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 2 6 L 2 23.91 L 30 23.91 L 30 6 Z M 4 8 L 28 8 L 28 21.91 L 4 21.91 Z M 12 10 C 9.25 10 7 12.25 7 15 C 7 17.75 9.25 20 12 20 C 13.2 20 14.28 19.56 15.13 18.88 L 13.88 17.31 C 13.35 17.74 12.71 18 12 18 C 10.33 18 9 16.67 9 15 C 9 13.33 10.33 12 12 12 C 12.71 12 13.35 12.26 13.88 12.69 L 15.13 11.13 C 14.28 10.44 13.2 10 12 10 Z M 22 10 C 19.25 10 17 12.25 17 15 C 17 17.75 19.25 20 22 20 C 23.2 20 24.28 19.56 25.13 18.88 L 23.88 17.31 C 23.35 17.74 22.71 18 22 18 C 20.33 18 19 16.67 19 15 C 19 13.33 20.33 12 22 12 C 22.71 12 23.35 12.26 23.88 12.69 L 25.13 11.13 C 24.28 10.44 23.2 10 22 10 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaClosedCaptioningSolid;

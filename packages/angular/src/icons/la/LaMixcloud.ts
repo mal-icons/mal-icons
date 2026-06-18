@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-mixcloud",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMixcloud {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 12.85 6 C 9.22 6 6.01 8.33 4.86 11.72 C 2.11 12.12 0 14.47 0 17.33 C 0 20.45 2.54 23 5.69 23 L 20.23 23 C 22.86 23 25 20.87 25 18.25 C 25 15.98 23.39 14.07 21.27 13.61 C 20.84 9.35 17.23 6 12.85 6 z M 12.85 8 C 16.38 8 19.25 10.9 19.25 14.44 C 19.25 15.13 19.14 15.82 18.93 16.47 C 18.47 17.88 20.57 18.46 20.97 17.14 C 21.12 16.72 21.23 16.29 21.3 15.85 C 22.28 16.22 23 17.18 23 18.33 C 23 19.8 21.81 21 20.33 21 L 5.61 21 C 3.62 21 2 19.39 2 17.39 C 2 15.39 3.62 13.78 5.61 13.78 C 6.56 13.78 7.46 14.15 8.14 14.84 C 9.15 15.86 10.69 14.32 9.67 13.29 C 8.93 12.55 8.02 12.04 7.03 11.79 C 8.04 9.52 10.32 8 12.85 8 z M 29.47 12.01 C 28.69 11.9 27.87 12.79 28.45 13.64 C 29.4 15.07 29.92 16.76 29.92 18.5 C 29.92 20.24 29.4 21.94 28.45 23.38 C 27.97 24.08 28.5 25 29.3 25 C 29.64 25 29.97 24.83 30.18 24.54 C 31.37 22.75 32 20.66 32 18.5 C 32 16.33 31.37 14.24 30.17 12.48 C 29.98 12.19 29.73 12.04 29.47 12.01 z M 26.48 13.7 C 25.69 13.6 24.87 14.48 25.46 15.32 C 26.1 16.27 26.43 17.37 26.43 18.5 C 26.43 19.64 26.1 20.73 25.46 21.67 C 24.98 22.36 25.47 23.29 26.32 23.29 C 26.66 23.29 26.99 23.15 27.19 22.85 C 28.06 21.56 28.51 20.05 28.51 18.5 C 28.51 16.94 28.06 15.44 27.19 14.17 C 26.99 13.88 26.74 13.74 26.48 13.7 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMixcloud;

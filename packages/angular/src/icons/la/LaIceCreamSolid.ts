@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-ice-cream-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaIceCreamSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 13.84 4 12.01 5.38 11.31 7.31 C 9.39 8.01 8 9.84 8 12 C 8 12.06 8 12.13 8 12.19 C 6.84 12.61 6 13.71 6 15 C 6 16.64 7.36 18 9 18 L 9.38 18 L 13.69 26.5 C 13.7 26.52 13.71 26.52 13.72 26.53 C 14.14 27.42 15.02 28 16 28 C 16.98 28 17.86 27.42 18.28 26.53 L 18.31 26.53 C 18.32 26.52 18.31 26.51 18.31 26.5 L 22.63 18 L 23 18 C 24.64 18 26 16.64 26 15 C 26 13.69 25.12 12.59 23.94 12.19 C 23.66 10.49 22.51 9.07 20.97 8.41 C 20.67 5.94 18.55 4 16 4 Z M 16 6 C 17.32 6 18.44 6.83 18.84 8 C 16.51 8.07 14.55 9.78 14.09 12 L 10 12 C 10 10.35 11.35 9 13 9 C 13.28 9 13.55 9.05 13.81 9.13 C 14.25 8.54 14.77 8 15.38 7.59 C 14.86 7.32 14.3 7.15 13.72 7.06 C 14.26 6.41 15.08 6 16 6 Z M 19 10 C 20.32 10 21.44 10.83 21.84 12 L 16.16 12 C 16.56 10.83 17.68 10 19 10 Z M 9 14 L 23 14 C 23.57 14 24 14.43 24 15 C 24 15.57 23.57 16 23 16 L 12.63 16 L 13.66 18 L 20.38 18 L 16.53 25.63 L 16.5 25.66 L 16.5 25.69 C 16.41 25.89 16.22 26 16 26 C 15.78 26 15.59 25.89 15.5 25.69 L 15.5 25.66 L 15.47 25.63 L 10.91 16.56 L 10.63 16 L 9 16 C 8.43 16 8 15.57 8 15 C 8 14.43 8.43 14 9 14 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaIceCreamSolid;

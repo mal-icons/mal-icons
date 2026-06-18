@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-crow-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCrowSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 7 6 C 4.79 6 3 7.79 3 10 L 3 15 C 3 19.08 6.05 22.44 10 22.93 L 10 27 L 12 27 L 12 23 L 13 23 L 14 23 L 14 27 L 16 27 L 16 23 L 22.38 23 L 25.46 25 L 29.46 25 L 11 13 L 11 10 L 15 10 C 15 8.34 12.8 7 11 7 L 9.62 7 C 8.92 6.39 8.01 6 7 6 z M 7 8 C 7.2 8 7.39 8.04 7.58 8.1 A 1 1 0 0 0 8 10 A 1 1 0 0 0 8.9 9.42 C 8.96 9.61 9 9.8 9 10 L 9 13 L 9 14.09 L 9.91 14.68 L 19.64 21 L 13 21 L 11 21 C 7.69 21 5 18.31 5 15 L 5 10 C 5 8.9 5.9 8 7 8 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCrowSolid;

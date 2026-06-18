@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-pinterest",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaPinterest {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 9.37 4 4 9.37 4 16 C 4 21.09 7.16 25.43 11.63 27.18 C 11.52 26.23 11.43 24.77 11.67 23.73 C 11.89 22.8 13.07 17.77 13.07 17.77 C 13.07 17.77 12.72 17.05 12.72 15.98 C 12.72 14.32 13.68 13.07 14.89 13.07 C 15.91 13.07 16.41 13.84 16.41 14.76 C 16.41 15.79 15.75 17.33 15.41 18.76 C 15.13 19.95 16.01 20.93 17.19 20.93 C 19.32 20.93 20.96 18.68 20.96 15.43 C 20.96 12.56 18.9 10.55 15.95 10.55 C 12.54 10.55 10.53 13.11 10.53 15.76 C 10.53 16.79 10.93 17.89 11.43 18.5 C 11.52 18.61 11.54 18.72 11.51 18.84 C 11.41 19.22 11.21 20.04 11.18 20.2 C 11.12 20.42 11 20.47 10.77 20.36 C 9.27 19.66 8.34 17.47 8.34 15.71 C 8.34 11.93 11.09 8.45 16.27 8.45 C 20.43 8.45 23.66 11.41 23.66 15.38 C 23.66 19.52 21.05 22.84 17.44 22.84 C 16.22 22.84 15.08 22.21 14.69 21.47 C 14.69 21.47 14.09 23.76 13.94 24.32 C 13.67 25.36 12.94 26.67 12.45 27.46 C 13.57 27.81 14.76 28 16 28 C 22.63 28 28 22.63 28 16 C 28 9.37 22.63 4 16 4 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaPinterest;

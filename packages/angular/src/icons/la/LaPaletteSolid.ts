@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-palette-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaPaletteSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 15.59 2.97 C 15.06 2.98 14.52 3.04 13.97 3.13 L 13.94 3.13 C 8.61 4 4.3 8.19 3.22 13.5 C 2.89 15.01 2.91 16.42 3.13 17.81 C 3.13 17.82 3.13 17.84 3.13 17.84 C 3.45 20.19 6.5 21.22 8.22 19.5 C 9.45 18.27 11.27 18.27 12.5 19.5 C 13.73 20.73 13.73 22.55 12.5 23.78 C 10.78 25.5 11.81 28.55 14.16 28.88 C 14.16 28.88 14.18 28.87 14.19 28.88 C 15.57 29.09 16.97 29.1 18.47 28.78 C 18.48 28.78 18.49 28.78 18.5 28.78 C 23.82 27.79 28.01 23.38 28.88 18.06 L 28.88 18.03 C 30.01 10.39 24.42 3.72 17.16 3.03 C 16.64 2.98 16.13 2.95 15.59 2.97 Z M 15.63 4.97 C 16.08 4.95 16.53 4.96 16.97 5 C 23.16 5.57 27.88 11.21 26.91 17.75 C 26.18 22.23 22.59 25.99 18.13 26.81 L 18.09 26.81 C 16.82 27.09 15.64 27.09 14.44 26.91 C 13.62 26.8 13.24 25.89 13.91 25.22 C 15.88 23.25 15.88 20.06 13.91 18.09 C 11.94 16.13 8.75 16.13 6.78 18.09 C 6.11 18.76 5.2 18.38 5.09 17.56 C 4.91 16.36 4.91 15.18 5.19 13.91 C 6.11 9.42 9.77 5.82 14.25 5.09 C 14.72 5.02 15.17 4.98 15.63 4.97 Z M 14 7 C 12.89 7 12 7.89 12 9 C 12 10.11 12.89 11 14 11 C 15.11 11 16 10.11 16 9 C 16 7.89 15.11 7 14 7 Z M 21 9 C 19.89 9 19 9.89 19 11 C 19 12.11 19.89 13 21 13 C 22.11 13 23 12.11 23 11 C 23 9.89 22.11 9 21 9 Z M 9 11 C 7.89 11 7 11.89 7 13 C 7 14.11 7.89 15 9 15 C 10.11 15 11 14.11 11 13 C 11 11.89 10.11 11 9 11 Z M 23 16 C 21.89 16 21 16.89 21 18 C 21 19.11 21.89 20 23 20 C 24.11 20 25 19.11 25 18 C 25 16.89 24.11 16 23 16 Z M 19 21 C 17.89 21 17 21.89 17 23 C 17 24.11 17.89 25 19 25 C 20.11 25 21 24.11 21 23 C 21 21.89 20.11 21 19 21 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaPaletteSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-ioxhost",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaIoxhost {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 9.38 4 4 9.38 4 16 C 4 17.04 4.16 18.04 4.41 19 L 2 19 C 1.45 19 1 19.45 1 20 C 1 20.55 1.45 21 2 21 L 5.09 21 C 7 25.12 11.17 28 16 28 C 22.62 28 28 22.62 28 16 C 28 14.96 27.84 13.96 27.59 13 L 30 13 C 30.55 13 31 12.55 31 12 C 31 11.45 30.55 11 30 11 L 26.91 11 C 25 6.88 20.83 4 16 4 Z M 16 6 C 19.71 6 22.93 8 24.66 11 L 11 11 C 10.45 11 10 11.45 10 12 C 10 12.55 10.45 13 11 13 L 25.56 13 C 25.86 13.95 26 14.95 26 16 C 26 21.54 21.54 26 16 26 C 12.29 26 9.07 24 7.34 21 L 21 21 C 21.55 21 22 20.55 22 20 C 22 19.45 21.55 19 21 19 L 6.44 19 C 6.14 18.05 6 17.05 6 16 C 6 10.46 10.46 6 16 6 Z M 11 15 C 10.45 15 10 15.45 10 16 C 10 16.55 10.45 17 11 17 L 21 17 C 21.55 17 22 16.55 22 16 C 22 15.45 21.55 15 21 15 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaIoxhost;

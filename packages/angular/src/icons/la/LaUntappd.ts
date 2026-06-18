@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-untappd",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaUntappd {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 18.2 5.3 C 18.1 5.3 18.1 5.4 18.1 5.5 L 18.1 5.7 C 18.1 5.9 17.9 5.9 17.8 5.9 C 17.7 5.9 17.7 6 17.7 6.2 C 12.4 11.6 12.8 11.7 12 12.1 L 10.8 12.8 C 10.3 13 9.9 13.4 9.6 13.8 L 3.3 22.6 C 3 23 2.9 23.6 3.2 24.1 C 3.9 25.6 5.5 26.8 7.2 27 C 7.7 27 8.2 26.8 8.5 26.4 L 14.8 17.6 C 15.1 17.2 15.3 16.7 15.4 16.2 L 15.6 14.8 C 15.7 13.9 15.9 14.2 19.3 7.5 C 19.5 7.3 19.6 7.3 19.6 7.2 C 19.6 7.1 19.6 6.9 19.7 6.9 L 19.9 6.9 C 20 6.9 20 6.8 20 6.7 C 19.9 6.6 19.8 6.2 19.3 5.7 C 18.8 5.3 18.4 5.3 18.2 5.3 z M 13.9 5.4 C 13.7 5.4 13.3 5.4 12.8 5.8 C 12.3 6.2 12.1 6.5 12.1 6.7 C 12 6.8 12 6.9 12.1 6.9 L 12.3 6.9 C 12.4 6.9 12.4 7.1 12.4 7.2 C 12.4 7.3 12.5 7.3 12.7 7.5 C 13 8.2 13.4 8.8 13.6 9.4 C 14.1 8.9 14.7 8.2 15.5 7.4 C 15.2 7 14.8 6.7 14.4 6.3 C 14.4 6.1 14.4 6 14.3 6 C 14.2 6 14 6 14 5.8 L 14 5.6 C 14 5.5 14 5.4 13.9 5.4 z M 18.5 10.6 C 17.7 12.2 17.1 13.2 16.8 13.7 C 16.4 14.5 16.3 14.5 16.3 14.8 L 16.5 16.1 C 16.6 16.6 16.8 17.1 17.1 17.5 L 23.4 26.3 C 23.7 26.7 24.3 27 24.8 26.9 C 26.5 26.7 28.1 25.5 28.8 24 C 29.1 23.6 29 23 28.7 22.6 L 22.4 13.8 C 22.1 13.4 21.7 13 21.2 12.8 L 20 12.1 C 19.6 11.9 19.5 11.7 18.5 10.6 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaUntappd;

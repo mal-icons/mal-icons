@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-utensil-spoon-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaUtensilSpoonSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 23.09 4 C 22.65 4.01 22.2 4.07 21.75 4.16 C 19.97 4.5 18.19 5.4 16.88 6.72 C 15.56 8.04 14.94 9.59 15 11.09 C 15.05 12.27 15.5 13.38 16.22 14.34 L 4.28 26.28 L 5.72 27.72 L 17.66 15.78 C 18.62 16.5 19.73 16.95 20.91 17 C 22.41 17.06 23.96 16.44 25.28 15.13 C 26.6 13.81 27.5 12.03 27.84 10.25 C 28.18 8.47 27.97 6.59 26.69 5.31 C 26.05 4.67 25.26 4.3 24.41 4.13 C 23.98 4.04 23.54 3.99 23.09 4 Z M 23.09 6 C 23.4 6 23.7 6.01 23.97 6.06 C 24.51 6.17 24.96 6.39 25.28 6.72 C 25.93 7.37 26.17 8.52 25.91 9.88 C 25.64 11.23 24.88 12.69 23.88 13.69 C 22.88 14.69 21.93 15.04 21 15 C 20.07 14.96 19.13 14.51 18.31 13.69 C 17.49 12.87 17.04 11.93 17 11 C 16.96 10.07 17.31 9.13 18.31 8.13 C 19.31 7.13 20.77 6.36 22.13 6.09 C 22.46 6.03 22.79 6 23.09 6 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaUtensilSpoonSolid;

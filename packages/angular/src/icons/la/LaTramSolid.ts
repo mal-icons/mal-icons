@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-tram-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaTramSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 10.75 2 L 8.56 3.09 L 9.44 4.91 L 11.25 4 L 20.75 4 L 22.56 4.91 L 23.44 3.09 L 21.25 2 Z M 15 5 L 15 6 L 12 6 C 8.7 6 6 8.7 6 12 L 6 24 C 6 25.64 7.36 27 9 27 L 7 29 L 9.34 29 L 11.34 27 L 20.66 27 L 22.66 29 L 25 29 L 23 27 C 24.64 27 26 25.64 26 24 L 26 12 C 26 8.7 23.3 6 20 6 L 17 6 L 17 5 Z M 12 8 L 20 8 C 22.22 8 24 9.78 24 12 L 24 16 L 8 16 L 8 12 C 8 9.78 9.78 8 12 8 Z M 8 18 L 24 18 L 24 24 C 24 24.57 23.57 25 23 25 L 9 25 C 8.43 25 8 24.57 8 24 Z M 11.5 20 C 10.67 20 10 20.67 10 21.5 C 10 22.33 10.67 23 11.5 23 C 12.33 23 13 22.33 13 21.5 C 13 20.67 12.33 20 11.5 20 Z M 20.5 20 C 19.67 20 19 20.67 19 21.5 C 19 22.33 19.67 23 20.5 23 C 21.33 23 22 22.33 22 21.5 C 22 20.67 21.33 20 20.5 20 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaTramSolid;

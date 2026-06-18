@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-cube-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaCubeSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4.41 L 15.59 4.59 L 5.59 9.09 L 5 9.34 L 5 22.03 L 5.5 22.31 L 15.5 27.88 L 16 28.16 L 16.5 27.88 L 26.5 22.31 L 27 22.03 L 27 9.34 L 26.41 9.09 L 16.41 4.59 Z M 16 6.59 L 23.69 10.03 L 16 13.88 L 8.31 10.03 Z M 7 11.63 L 15 15.63 L 15 25.28 L 7 20.84 Z M 25 11.63 L 25 20.84 L 17 25.28 L 17 15.63 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaCubeSolid;

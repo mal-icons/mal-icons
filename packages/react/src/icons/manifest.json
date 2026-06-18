@@ -103,6 +103,12 @@
       "count": 1357
     },
     {
+      "id": "la",
+      "name": "Line Awesome",
+      "license": "MIT",
+      "count": 1544
+    },
+    {
       "id": "lu",
       "name": "Lucide",
       "license": "ISC",

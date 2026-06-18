@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-tshirt-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaTshirtSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 15.07 3 14.05 3.27 13.19 3.53 C 12.34 3.79 11.71 4.05 11.69 4.06 C 11.69 4.06 11.66 4.06 11.66 4.06 L 8.78 5.03 L 8.69 5.06 C 8.63 5.08 8.54 5.11 8.31 5.19 L 8 5.28 L 8 5.31 C 7.16 5.67 5.86 6.45 5.09 8.06 C 4.06 10.25 4 12.97 4 12.97 L 4 15 L 8 15 L 8 29 L 24 29 L 24 15 L 28 15 L 28 12.91 C 28 12.91 27.91 12.06 27.75 11.03 C 27.59 10 27.42 8.87 26.84 7.97 C 25.91 6.5 24.75 5.75 24 5.38 L 24 5.28 L 23.59 5.16 C 23.54 5.13 23.55 5.14 23.5 5.13 L 23.31 5.06 L 20.34 4.06 C 20.34 4.06 20.31 4.06 20.31 4.06 C 20.29 4.05 19.66 3.79 18.81 3.53 C 17.95 3.27 16.93 3 16 3 Z M 16 5 C 16.43 5 17.43 5.23 18.22 5.47 C 18.43 5.53 18.41 5.54 18.59 5.59 C 18.53 5.69 18.48 5.78 18.41 5.88 C 17.94 6.46 17.28 7 16 7 C 14.72 7 14.06 6.46 13.59 5.88 C 13.52 5.78 13.47 5.69 13.41 5.59 C 13.59 5.54 13.57 5.53 13.78 5.47 C 14.57 5.23 15.57 5 16 5 Z M 11.44 6.22 C 11.59 6.5 11.78 6.81 12.03 7.13 C 12.77 8.04 14.09 9 16 9 C 17.91 9 19.23 8.04 19.97 7.13 C 20.22 6.81 20.41 6.5 20.56 6.22 L 22 6.72 L 22 27 L 10 27 L 10 6.72 Z M 8 7.56 L 8 13 L 6 13 C 6 12.95 6.16 10.52 6.91 8.94 C 7.21 8.3 7.61 7.86 8 7.56 Z M 24 7.72 C 24.37 8.03 24.77 8.43 25.16 9.03 C 25.32 9.29 25.63 10.41 25.78 11.34 C 25.93 12.23 25.99 12.92 26 13 L 24 13 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaTshirtSolid;

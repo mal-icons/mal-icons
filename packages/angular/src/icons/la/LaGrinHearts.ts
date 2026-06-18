@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-grin-hearts",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaGrinHearts {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 9.38 4 4 9.38 4 16 C 4 22.62 9.38 28 16 28 C 22.62 28 28 22.62 28 16 C 28 9.38 22.62 4 16 4 Z M 16 6 C 21.54 6 26 10.46 26 16 C 26 21.54 21.54 26 16 26 C 10.46 26 6 21.54 6 16 C 6 10.46 10.46 6 16 6 Z M 10.5 11 C 9.67 11 9 11.67 9 12.5 C 9 12.59 9.01 12.68 9.03 12.78 C 9.07 13.02 9.17 13.22 9.31 13.41 C 10.06 14.7 12 16 12 16 C 12 16 15 14.09 15 12.5 C 15 11.67 14.33 11 13.5 11 C 12.67 11 12 11.67 12 12.5 C 12 11.67 11.33 11 10.5 11 Z M 18.5 11 C 17.67 11 17 11.67 17 12.5 C 17 12.59 17.01 12.68 17.03 12.78 C 17.07 13.02 17.17 13.22 17.31 13.41 C 18.06 14.7 20 16 20 16 C 20 16 21.99 14.71 22.72 13.38 C 22.88 13.08 23 12.79 23 12.5 C 23 11.67 22.33 11 21.5 11 C 20.67 11 20 11.67 20 12.5 C 20 11.67 19.33 11 18.5 11 Z M 10.81 19 L 9.09 20 C 10.48 22.39 13.05 24 16 24 C 18.95 24 21.52 22.39 22.91 20 L 21.19 19 C 20.15 20.79 18.23 22 16 22 C 13.77 22 11.85 20.79 10.81 19 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaGrinHearts;

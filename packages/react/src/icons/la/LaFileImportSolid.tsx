@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaFileImportSolid = createIcon("0 0 32 32", [["path",{"d":"M 6 4 L 6 28 L 26 28 L 26 19 L 24 19 L 24 26 L 8 26 L 8 6 L 24 6 L 24 13 L 26 13 L 26 4 Z M 17.5 11 L 13.19 15.28 L 12.5 16 L 13.19 16.72 L 17.5 21 L 18.91 19.59 L 16.31 17 L 28 17 L 28 15 L 16.31 15 L 18.91 12.41 Z"}]]);
+
+export default LaFileImportSolid;

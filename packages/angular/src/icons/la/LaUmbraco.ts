@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-umbraco",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaUmbraco {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 8.83 3 3 8.83 3 16 C 3 23.17 8.83 29 16 29 C 23.17 29 29 23.17 29 16 C 29 8.83 23.17 3 16 3 z M 16 5 C 22.09 5 27 9.91 27 16 C 27 22.09 22.09 27 16 27 C 9.91 27 5 22.09 5 16 C 5 9.91 9.91 5 16 5 z M 22.18 11 L 20.74 11.21 C 20.62 11.23 20.53 11.33 20.54 11.45 C 20.53 11.46 20.53 11.47 20.54 11.48 L 20.62 11.91 C 20.69 12.33 20.77 12.87 20.85 13.52 C 20.93 14.19 20.97 14.87 20.98 15.54 C 20.99 16.83 20.83 17.77 20.56 18.39 C 20.28 19.01 19.66 19.61 19 19.75 C 18.09 19.94 17.17 20.02 16.25 19.99 L 15.75 19.99 C 14.83 20.02 13.91 19.94 13 19.75 C 12.33 19.61 11.73 19.03 11.45 18.41 C 11.18 17.79 10.98 16.83 10.99 15.54 C 10.99 14.87 11.04 14.19 11.12 13.52 C 11.19 12.87 11.27 12.33 11.35 11.91 L 11.43 11.48 C 11.43 11.47 11.43 11.46 11.43 11.45 C 11.43 11.33 11.34 11.23 11.23 11.21 L 9.81 11 L 9.78 11 C 9.67 11 9.57 11.08 9.54 11.19 C 9.52 11.28 9.51 11.36 9.46 11.59 C 9.37 12.04 9.29 12.48 9.2 13.13 C 9.1 13.82 9.05 14.53 9.03 15.23 C 8.99 15.72 8.99 16.21 9.03 16.7 C 9.06 18 9.29 19.04 9.7 19.82 C 10.11 20.6 10.81 21.15 11.79 21.5 C 12.77 21.84 14.14 22.01 15.89 22 L 16.11 22 C 17.87 22.01 19.23 21.84 20.21 21.5 C 21.2 21.16 21.89 20.6 22.3 19.82 C 22.71 19.04 22.94 18 22.97 16.7 C 23.01 16.21 23.01 15.72 22.97 15.23 C 22.95 14.53 22.9 13.82 22.8 13.13 C 22.71 12.49 22.63 12.05 22.54 11.59 C 22.49 11.36 22.48 11.29 22.46 11.19 C 22.43 11.08 22.33 11 22.22 11 L 22.18 11 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaUmbraco;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-funnel-dollar-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaFunnelDollarSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5 4 L 5 6.34 L 5.22 6.63 L 13 16.34 L 13 28.03 L 14.59 26.78 L 16.16 25.59 C 16.91 29.23 20.15 32 24 32 C 28.41 32 32 28.41 32 24 C 32 19.59 28.41 16 24 16 C 22.11 16 20.37 16.68 19 17.78 L 19 16.34 L 26.78 6.62 L 27 6.34 L 27 4 L 5 4 z M 7.28 6 L 24.72 6 L 17.53 15 L 14.47 15 L 7.28 6 z M 15 17 L 17 17 L 17 20.13 C 16.49 21.05 16.15 22.09 16.03 23.19 L 15 24 L 15 17 z M 24 18 C 27.32 18 30 20.68 30 24 C 30 27.32 27.32 30 24 30 C 20.68 30 18 27.32 18 24 C 18 20.68 20.68 18 24 18 z M 23 19 L 23 20.06 C 21.88 20.25 21 21.2 21 22.38 C 21 23.13 21.42 23.82 22.09 24.16 L 25 25.63 C 25 25.85 24.85 26 24.63 26 L 23.38 26 C 23.15 26 23 25.85 23 25.63 L 23 25 L 21 25 L 21 25.63 C 21 26.8 21.88 27.75 23 27.94 L 23 29 L 25 29 L 25 27.94 C 26.13 27.75 27 26.8 27 25.62 C 27 24.87 26.58 24.18 25.91 23.84 L 23 22.38 C 23 22.15 23.15 22 23.38 22 L 24.63 22 C 24.85 22 25 22.15 25 22.38 L 25 23 L 27 23 L 27 22.38 C 27 21.2 26.13 20.25 25 20.06 L 25 19 L 23 19 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaFunnelDollarSolid;

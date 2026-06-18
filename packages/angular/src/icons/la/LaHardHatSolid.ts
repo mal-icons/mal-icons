@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-hard-hat-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHardHatSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 13 7 L 13 8.41 C 8.04 9.69 4.41 14.08 4.13 19.38 C 2.95 19.79 2 20.7 2 22 L 2 25 L 30 25 L 30 22 C 30 20.7 29.05 19.79 27.88 19.38 C 27.59 14.08 23.96 9.69 19 8.41 L 19 7 Z M 15.03 9 L 17 9 C 16.98 9.11 16.98 9.23 17 9.34 L 17 15 L 19 15 L 19 10.5 C 22.74 11.68 25.57 14.97 25.97 19 L 24 19 L 24 21 L 27 21 C 27.57 21 28 21.43 28 22 L 28 23 L 4 23 L 4 22 C 4 21.43 4.43 21 5 21 L 8 21 L 8 19 L 6.03 19 C 6.43 14.97 9.26 11.68 13 10.5 L 13 15 L 15 15 L 15 9.5 C 15.05 9.34 15.06 9.17 15.03 9 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHardHatSolid;

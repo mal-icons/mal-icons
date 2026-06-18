@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaUnderlineSolid = createIcon("0 0 32 32", [["path",{"d":"M 8 4 L 8 16 C 8 20.43 11.57 24 16 24 C 20.43 24 24 20.43 24 16 L 24 4 L 22 4 L 22 16 C 22 19.37 19.37 22 16 22 C 12.63 22 10 19.37 10 16 L 10 4 Z M 6 26 L 6 28 L 26 28 L 26 26 Z"}]]);
+
+export default LaUnderlineSolid;

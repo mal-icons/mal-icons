@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-unlock-alt-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaUnlockAltSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 12.96 3 10.41 4.96 9.38 7.63 L 11.22 8.38 C 11.98 6.43 13.84 5 16 5 C 18.75 5 21 7.25 21 10 L 21 11.38 C 19.52 10.52 17.82 10 16 10 C 10.49 10 6 14.49 6 20 C 6 25.51 10.49 30 16 30 C 21.51 30 26 25.51 26 20 C 26 17.21 24.85 14.69 23 12.88 L 23 10 C 23 6.16 19.84 3 16 3 Z M 16 12 C 20.43 12 24 15.57 24 20 C 24 24.43 20.43 28 16 28 C 11.57 28 8 24.43 8 20 C 8 15.57 11.57 12 16 12 Z M 16 18 C 14.89 18 14 18.89 14 20 C 14 20.74 14.4 21.37 15 21.72 L 15 25 L 17 25 L 17 21.72 C 17.6 21.37 18 20.74 18 20 C 18 18.89 17.11 18 16 18 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaUnlockAltSolid;

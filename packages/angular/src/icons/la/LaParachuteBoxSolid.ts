@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-parachute-box-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaParachuteBoxSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 28 16 C 28 9.38 22.62 4 16 4 C 9.38 4 4 9.38 4 16 L 4 16.45 L 12 23.45 L 12 28 L 20 28 L 20 23.45 L 28 16.45 Z M 16 6.36 C 16.87 7.3 18.42 9.54 18.87 13.66 C 18.15 13.28 17.21 13 16 13 C 14.79 13 13.85 13.28 13.13 13.66 C 13.58 9.53 15.14 7.3 16 6.36 Z M 11.09 16.4 L 13.48 22 L 13.38 22 L 6.34 15.84 C 6.72 15.45 7.39 15 8.5 15 C 10.4 15 11.06 16.35 11.09 16.4 Z M 15.66 22 L 13.14 16.13 C 13.52 15.69 14.38 15 16 15 C 17.63 15 18.48 15.7 18.86 16.12 L 16.34 22 Z M 18.52 22 L 20.91 16.4 C 20.93 16.38 21.55 15 23.5 15 C 24.6 15 25.27 15.45 25.66 15.84 L 18.63 22 Z M 25.66 13.45 C 25.08 13.18 24.37 13 23.5 13 C 22.39 13 21.54 13.29 20.88 13.68 C 20.54 10.21 19.47 7.82 18.48 6.32 C 21.98 7.22 24.74 9.96 25.66 13.45 Z M 13.52 6.32 C 12.53 7.82 11.46 10.21 11.12 13.68 C 10.46 13.29 9.61 13 8.5 13 C 7.63 13 6.92 13.18 6.34 13.45 C 7.26 9.96 10.02 7.22 13.52 6.32 Z M 18 26 L 14 26 L 14 24 L 18 24 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaParachuteBoxSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-reply-all-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaReplyAllSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 10.28 5.28 L 2.28 13.28 L 1.59 14 L 2.28 14.72 L 10.28 22.72 L 11.72 21.28 L 4.44 14 L 11.72 6.72 Z M 15.28 5.28 L 7.28 13.28 L 6.59 14 L 7.28 14.72 L 15.28 22.72 L 16.72 21.28 L 10.44 15 L 23 15 C 25.77 15 28 17.23 28 20 C 28 22.77 25.77 25 23 25 L 23 27 C 26.86 27 30 23.86 30 20 C 30 16.14 26.86 13 23 13 L 10.44 13 L 16.72 6.72 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaReplyAllSolid;

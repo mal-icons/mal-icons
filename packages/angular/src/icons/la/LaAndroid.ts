@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-android",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaAndroid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 10.53 3.5 C 10.36 3.54 10.23 3.67 10.18 3.84 C 10.13 4 10.17 4.18 10.28 4.31 L 11.75 6.44 C 10.08 7.72 9 9.74 9 12 L 9 22 C 9 22.7 9.44 23.2 10 23.56 L 10 26.5 C 10 27.87 11.13 29 12.5 29 C 13.87 29 15 27.87 15 26.5 L 15 24 L 17 24 L 17 26.5 C 17 27.87 18.13 29 19.5 29 C 20.87 29 22 27.87 22 26.5 L 22 23.56 C 22.56 23.2 23 22.7 23 22 L 23 12 C 23 9.74 21.92 7.72 20.25 6.44 L 21.72 4.31 C 21.84 4.16 21.86 3.95 21.78 3.78 C 21.69 3.6 21.51 3.49 21.31 3.5 C 21.28 3.5 21.25 3.5 21.22 3.5 C 21.09 3.54 20.97 3.63 20.91 3.75 L 19.41 5.88 C 18.4 5.31 17.23 5 16 5 C 14.77 5 13.6 5.31 12.59 5.88 L 11.09 3.75 C 11.01 3.6 10.86 3.51 10.69 3.5 C 10.66 3.5 10.63 3.5 10.59 3.5 C 10.57 3.5 10.55 3.5 10.53 3.5 Z M 16 7 C 18.43 7 20.44 8.71 20.91 11 L 11.09 11 C 11.56 8.71 13.57 7 16 7 Z M 14 8 C 13.45 8 13 8.45 13 9 C 13 9.55 13.45 10 14 10 C 14.55 10 15 9.55 15 9 C 15 8.45 14.55 8 14 8 Z M 18 8 C 17.45 8 17 8.45 17 9 C 17 9.55 17.45 10 18 10 C 18.55 10 19 9.55 19 9 C 19 8.45 18.55 8 18 8 Z M 6 11 L 6 21 L 8 21 L 8 11 Z M 24 11 L 24 21 L 26 21 L 26 11 Z M 11 13 L 21 13 L 21 22 L 20 22 L 20 26.5 C 20 26.79 19.79 27 19.5 27 C 19.21 27 19 26.79 19 26.5 L 19 22 L 13 22 L 13 26.5 C 13 26.79 12.79 27 12.5 27 C 12.21 27 12 26.79 12 26.5 L 12 22 L 11 22 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaAndroid;

@@ -31,6 +31,7 @@ export * from "./icons/gi/index.ts";
 export * from "./icons/gr/index.ts";
 export * from "./icons/hi/index.ts";
 export * from "./icons/io/index.ts";
+export * from "./icons/la/index.ts";
 export * from "./icons/lu/index.ts";
 export * from "./icons/mdf/index.ts";
 export * from "./icons/mdr/index.ts";

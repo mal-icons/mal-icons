@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-thermometer-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaThermometerSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 21.75 4 C 20.15 4 18.53 4.63 17.31 5.84 L 9.66 13.47 L 9.53 13.63 C 8.55 14.6 8 15.93 8 17.31 L 8 19.63 L 4.91 22.69 L 4.88 22.75 C 3.72 23.96 3.72 25.91 4.91 27.09 C 6.11 28.3 8.11 28.3 9.31 27.09 L 12.38 24 L 14.69 24 C 16.07 24 17.4 23.45 18.38 22.47 L 26.16 14.69 C 28.59 12.25 28.59 8.28 26.16 5.84 C 24.94 4.63 23.35 4 21.75 4 Z M 21.75 6 C 22.84 6 23.91 6.41 24.75 7.25 C 26.42 8.92 26.42 11.61 24.75 13.28 L 16.97 21.06 C 16.37 21.66 15.54 22 14.69 22 L 11.56 22 L 7.88 25.69 C 7.44 26.13 6.75 26.13 6.31 25.69 C 5.88 25.25 5.88 24.56 6.31 24.13 L 10 20.44 L 10 17.31 C 10 16.46 10.34 15.63 10.94 15.03 L 11.78 14.19 L 12.78 15.22 L 14.22 13.78 L 13.22 12.78 L 14.78 11.22 L 15.78 12.22 L 17.22 10.78 L 16.22 9.78 L 17.78 8.22 L 18.78 9.22 L 20.22 7.78 L 19.25 6.81 C 20 6.27 20.88 6 21.75 6 Z M 22.28 8.28 L 10.06 20.5 L 11.5 21.94 L 23.72 9.72 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaThermometerSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-hackerrank",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHackerrank {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3 C 14.23 3 5.54 7.98 4.66 9.5 C 3.78 11.02 3.78 20.98 4.66 22.5 C 5.54 24.02 14.23 29 16 29 C 17.76 29 26.45 24.02 27.34 22.5 C 28.22 20.98 28.22 11.01 27.34 9.5 L 27.34 9.5 C 26.44 7.98 17.76 3 16 3 z M 16 5.01 C 17.69 5.36 24.42 9.22 25.6 10.51 C 26.14 12.15 26.13 19.84 25.6 21.49 C 24.43 22.78 17.7 26.64 16 26.99 C 14.3 26.64 7.57 22.78 6.4 21.49 C 5.87 19.84 5.87 12.16 6.4 10.51 C 7.57 9.22 14.3 5.36 16 5.01 z M 13 9 L 11 11 L 12 11 L 12 21 L 14 21 L 14 17 L 18 17 L 18 21 L 17 21 L 19 23 L 21 21 L 20 21 L 20 12 L 18 12 L 18 15 L 14 15 L 14 11 L 15 11 L 13 9 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHackerrank;

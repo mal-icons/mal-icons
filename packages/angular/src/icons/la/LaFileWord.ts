@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-file-word",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaFileWord {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 6 3 L 6 29 L 26 29 L 26 3 Z M 8 5 L 24 5 L 24 27 L 8 27 Z M 18 12 L 18 18.5 C 18 18.71 17.71 19 17.5 19 C 17.46 19 17.52 19.05 17.44 18.94 C 17.36 18.83 17.23 18.55 17.16 18.25 C 17.01 17.65 17 17 17 17 L 17 15 L 15 15 L 15 19.5 C 15 19.71 14.71 20 14.5 20 C 14.29 20 14 19.71 14 19.5 L 14 13 L 10 13 L 10 15 L 12 15 L 12 19.5 C 12 20.88 13.12 22 14.5 22 C 15.48 22 16.19 21.36 16.59 20.53 C 16.89 20.72 17.11 21 17.5 21 C 18.88 21 20 19.88 20 18.5 L 20 14 L 22 14 L 22 12 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaFileWord;

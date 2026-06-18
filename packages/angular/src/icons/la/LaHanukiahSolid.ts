@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-hanukiah-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHanukiahSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 16 4 15 6.02 15 7 C 15 7.55 15.45 8 16 8 C 16.55 8 17 7.55 17 7 C 17 6.06 16 4 16 4 Z M 13 5 C 13 5 12 7.06 12 8 C 12 8.55 12.45 9 13 9 C 13.55 9 14 8.55 14 8 C 14 7.02 13 5 13 5 Z M 19 5 C 19 5 18 7.02 18 8 C 18 8.55 18.45 9 19 9 C 19.55 9 20 8.55 20 8 C 20 7.06 19 5 19 5 Z M 10 6 C 10 6 9 8.06 9 9 C 9 9.55 9.45 10 10 10 C 10.55 10 11 9.55 11 9 C 11 8.02 10 6 10 6 Z M 22 6 C 22 6 21 8.02 21 9 C 21 9.55 21.45 10 22 10 C 22.55 10 23 9.55 23 9 C 23 8.06 22 6 22 6 Z M 7 7 C 7 7 6 9.06 6 10 C 6 10.55 6.45 11 7 11 C 7.55 11 8 10.55 8 10 C 8 9.02 7 7 7 7 Z M 25 7 C 25 7 24 9.02 24 10 C 24 10.55 24.45 11 25 11 C 25.55 11 26 10.55 26 10 C 26 9.06 25 7 25 7 Z M 4 8 C 4 8 3 10.06 3 11 C 3 11.55 3.45 12 4 12 C 4.55 12 5 11.55 5 11 C 5 10.02 4 8 4 8 Z M 28 8 C 28 8 27 10.02 27 11 C 27 11.55 27.45 12 28 12 C 28.55 12 29 11.55 29 11 C 29 10.06 28 8 28 8 Z M 15 9 L 15 18 L 14.97 18 C 14.41 18 14 17.59 14 17.03 L 14 10 L 12 10 L 12 17.03 C 12 17.37 12.05 17.7 12.16 18 L 11.97 18 C 11.42 18 11 17.58 11 17.03 L 11 11 L 9 11 L 9 17.03 C 9 17.37 9.08 17.7 9.19 18 L 9.06 18 C 8.47 18 8 17.53 8 16.94 L 8 12 L 6 12 L 6 16.94 C 6 17.31 6.09 17.67 6.22 18 L 6.03 18 C 5.45 18 5 17.55 5 16.97 L 5 13 L 3 13 L 3 16.97 C 3 18.63 4.37 20 6.03 20 L 15 20 L 15 26 L 10 26 L 10 28 L 22 28 L 22 26 L 17 26 L 17 20 L 25.97 20 C 27.63 20 29 18.63 29 16.97 L 29 13 L 27 13 L 27 16.97 C 27 17.55 26.55 18 25.97 18 L 25.78 18 C 25.91 17.67 26 17.31 26 16.94 L 26 12 L 24 12 L 24 16.94 C 24 17.53 23.53 18 22.94 18 L 22.81 18 C 22.92 17.7 23 17.37 23 17.03 L 23 11 L 21 11 L 21 17.03 C 21 17.58 20.58 18 20.03 18 L 19.84 18 C 19.95 17.7 20 17.37 20 17.03 L 20 10 L 18 10 L 18 17.03 C 18 17.59 17.59 18 17.03 18 L 17 18 L 17 9 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHanukiahSolid;

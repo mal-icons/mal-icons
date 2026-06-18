@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-thumbtack-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaThumbtackSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 20.53 2.56 L 19.84 3.5 L 14.94 10.19 C 12.31 9.73 9.53 10.47 7.5 12.5 L 6.78 13.19 L 12.09 18.5 L 4 26.59 L 4 28 L 5.41 28 L 13.5 19.91 L 18.81 25.22 L 19.5 24.5 C 21.53 22.47 22.27 19.69 21.81 17.06 L 28.5 12.16 L 29.44 11.47 Z M 20.78 5.63 L 26.38 11.22 L 20.16 15.78 L 19.59 16.19 L 19.78 16.84 C 20.26 18.68 19.74 20.59 18.59 22.19 L 9.81 13.41 C 11.41 12.26 13.32 11.74 15.16 12.22 L 15.81 12.41 L 16.22 11.84 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaThumbtackSolid;

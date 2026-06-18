@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaLongArrowAltLeftSolid = createIcon("0 0 32 32", [["path",{"d":"M 10.81 9.28 L 4.09 16 L 10.81 22.72 L 12.22 21.28 L 7.94 17 L 28 17 L 28 15 L 7.94 15 L 12.22 10.72 Z"}]]);
+
+export default LaLongArrowAltLeftSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-dropbox",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaDropbox {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 11.78 4.47 L 11.16 4.88 L 4.47 9.19 L 3.25 9.97 L 4.41 10.84 L 7.91 13.5 L 4.41 16.16 L 3.19 17.06 L 4.5 17.81 L 8.13 19.94 L 8.13 23.28 L 8.56 23.56 L 15.44 28.09 L 16 28.47 L 16.56 28.09 L 23.44 23.63 L 23.88 23.31 L 23.88 19.97 L 27.5 17.81 L 28.72 17.09 L 27.66 16.19 L 24.31 13.34 L 27.63 10.63 L 28.72 9.75 L 27.53 9 L 21.03 4.88 L 20.41 4.5 L 19.84 4.97 L 16 8.13 L 12.34 4.97 Z M 20.59 6.94 L 25.31 9.97 L 22.66 12.13 L 17.75 9.28 Z M 11.59 6.97 L 14.34 9.31 L 9.63 12.31 L 6.72 10.09 Z M 16 10.63 L 20.81 13.38 L 16 16.38 L 11.47 13.53 Z M 22.66 14.56 L 25.28 16.81 L 22.47 18.5 C 22.38 18.54 22.29 18.59 22.22 18.66 L 20.47 19.69 L 17.75 17.63 Z M 9.63 14.72 L 14.25 17.63 L 11.63 19.69 L 6.78 16.84 Z M 16.03 18.81 L 19.78 21.69 L 20.34 22.09 L 20.91 21.75 L 21.88 21.16 L 21.88 22.22 L 16 26.06 L 10.13 22.19 L 10.13 21.13 L 11.19 21.75 L 11.78 22.09 L 12.31 21.69 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaDropbox;

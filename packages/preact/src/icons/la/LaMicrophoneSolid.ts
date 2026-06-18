@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const LaMicrophoneSolid = createIcon("0 0 32 32", [["path",{"d":"M 13 4 C 11.91 4 11 4.91 11 6 L 11 18 C 11 19.09 11.91 20 13 20 L 19 20 C 20.09 20 21 19.09 21 18 L 21 6 C 21 4.91 20.09 4 19 4 Z M 13 6 L 19 6 L 19 18 L 13 18 Z M 7 14 L 7 18 C 7 21.3 9.7 24 13 24 L 15 24 L 15 26 L 11 26 L 11 28 L 21 28 L 21 26 L 17 26 L 17 24 L 19 24 C 22.3 24 25 21.3 25 18 L 25 14 L 23 14 L 23 18 C 23 20.22 21.22 22 19 22 L 13 22 C 10.78 22 9 20.22 9 18 L 9 14 Z"}]]);
+
+export default LaMicrophoneSolid;

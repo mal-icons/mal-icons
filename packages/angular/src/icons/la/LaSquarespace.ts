@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-squarespace",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSquarespace {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 12.94 6 C 12.33 6 11.71 6.23 11.24 6.7 L 11.23 6.71 L 5.41 12.53 C 3.53 14.41 3.53 17.47 5.41 19.35 C 7.3 21.23 10.35 21.23 12.24 19.35 L 19.91 11.68 C 20.38 11.2 20.38 10.44 19.91 9.97 C 19.44 9.5 18.68 9.5 18.21 9.97 L 10.53 17.64 C 9.59 18.59 8.06 18.59 7.12 17.64 C 6.65 17.17 6.42 16.56 6.42 15.94 C 6.42 15.32 6.65 14.7 7.12 14.23 L 14.65 6.71 C 14.18 6.24 13.56 6 12.94 6 z M 19.06 6 C 17.82 6 16.59 6.47 15.65 7.41 L 7.97 15.09 C 7.5 15.56 7.5 16.32 7.97 16.79 C 8.44 17.26 9.21 17.26 9.68 16.79 L 17.35 9.12 C 18.29 8.17 19.82 8.17 20.76 9.12 C 21 9.36 21.3 9.47 21.62 9.47 C 21.92 9.47 22.24 9.36 22.47 9.12 C 22.94 8.65 22.94 7.88 22.47 7.41 C 21.53 6.47 20.29 6 19.06 6 z M 24.18 11.23 C 22.94 11.23 21.7 11.71 20.76 12.65 L 13.09 20.32 C 12.62 20.79 12.62 21.56 13.09 22.03 C 13.56 22.5 14.32 22.5 14.79 22.03 L 22.47 14.35 C 23.41 13.41 24.94 13.41 25.88 14.35 C 26.82 15.3 26.82 16.82 25.88 17.77 L 18.35 25.29 C 19.29 26.23 20.82 26.23 21.76 25.29 L 27.59 19.47 C 29.47 17.59 29.47 14.53 27.59 12.65 C 26.64 11.71 25.41 11.23 24.18 11.23 z M 24.18 14.86 C 23.87 14.86 23.56 14.98 23.32 15.21 L 15.65 22.88 C 14.71 23.82 13.18 23.82 12.24 22.88 L 12.23 22.88 C 11.76 22.41 11 22.41 10.53 22.88 C 10.3 23.12 10.18 23.42 10.18 23.74 C 10.18 24.04 10.3 24.36 10.53 24.59 C 11.47 25.53 12.7 26 13.94 26 C 15.18 26 16.41 25.53 17.35 24.59 L 25.03 16.91 C 25.5 16.44 25.5 15.68 25.03 15.21 C 24.79 14.98 24.49 14.86 24.18 14.86 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSquarespace;

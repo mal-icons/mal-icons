@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-sort-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSortSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3.59 L 15.28 4.28 L 7.28 12.28 L 5.59 14 L 26.41 14 L 24.72 12.28 L 16.72 4.28 Z M 16 6.44 L 21.56 12 L 10.44 12 Z M 5.59 18 L 7.28 19.72 L 15.28 27.72 L 16 28.41 L 16.72 27.72 L 24.72 19.72 L 26.41 18 Z M 10.44 20 L 21.56 20 L 16 25.56 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSortSolid;

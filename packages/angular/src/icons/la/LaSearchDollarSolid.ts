@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-search-dollar-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaSearchDollarSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 19 3 C 13.49 3 9 7.49 9 13 C 9 15.4 9.84 17.59 11.25 19.31 L 3.28 27.28 L 4.72 28.72 L 12.69 20.75 C 14.41 22.16 16.61 23 19 23 C 24.51 23 29 18.51 29 13 C 29 7.49 24.51 3 19 3 z M 19 5 C 23.43 5 27 8.57 27 13 C 27 17.43 23.43 21 19 21 C 14.57 21 11 17.43 11 13 C 11 8.57 14.57 5 19 5 z M 18 8 L 18 9.06 C 16.88 9.25 16 10.2 16 11.38 C 16 12.13 16.42 12.82 17.09 13.16 L 20 14.63 C 20 14.85 19.85 15 19.63 15 L 18.38 15 C 18.15 15 18 14.85 18 14.63 L 18 14 L 16 14 L 16 14.63 C 16 15.8 16.88 16.75 18 16.94 L 18 18 L 20 18 L 20 16.94 C 21.13 16.75 22 15.8 22 14.62 C 22 13.87 21.58 13.18 20.91 12.84 L 18 11.38 C 18 11.15 18.15 11 18.38 11 L 19.63 11 C 19.85 11 20 11.15 20 11.38 L 20 12 L 22 12 L 22 11.38 C 22 10.2 21.13 9.25 20 9.06 L 20 8 L 18 8 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaSearchDollarSolid;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-youtube-square",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaYoutubeSquare {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 5 5 L 5 27 L 27 27 L 27 5 L 5 5 z M 7 7 L 25 7 L 25 25 L 7 25 L 7 7 z M 16 11.08 C 16 11.08 11.61 11.08 10.53 11.37 C 9.93 11.54 9.45 12.01 9.29 12.62 C 9 13.71 9 16.01 9 16.01 C 9 16.01 9 18.31 9.29 19.41 C 9.45 20.01 9.93 20.47 10.53 20.63 C 11.61 20.92 16 20.92 16 20.92 C 16 20.92 20.39 20.92 21.47 20.63 C 22.07 20.46 22.55 20.01 22.71 19.4 C 23 18.31 23 16.01 23 16.01 C 23 16.01 23 13.72 22.71 12.62 C 22.55 12.01 22.07 11.54 21.47 11.37 C 20.39 11.08 16 11.08 16 11.08 z M 14 13.16 L 19 16.01 L 14 18.85 L 14 13.16 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaYoutubeSquare;

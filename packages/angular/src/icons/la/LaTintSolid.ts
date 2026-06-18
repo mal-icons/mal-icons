@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-tint-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaTintSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 3.44 L 15.22 4.38 C 15.22 4.38 13.22 6.79 11.19 9.78 C 10.17 11.28 9.13 12.92 8.34 14.5 C 7.56 16.08 7 17.6 7 19 C 7 23.95 11.05 28 16 28 C 20.95 28 25 23.95 25 19 C 25 17.6 24.44 16.08 23.66 14.5 C 22.88 12.92 21.83 11.28 20.81 9.78 C 18.78 6.79 16.78 4.38 16.78 4.38 Z M 16 6.66 C 16.56 7.35 17.61 8.57 19.19 10.91 C 20.17 12.36 21.13 13.95 21.84 15.41 C 22.56 16.86 23 18.2 23 19 C 23 22.86 19.86 26 16 26 C 12.14 26 9 22.86 9 19 C 9 18.2 9.44 16.86 10.16 15.41 C 10.88 13.95 11.83 12.36 12.81 10.91 C 14.39 8.57 15.44 7.35 16 6.66 Z M 11 19 C 11 21.75 13.25 24 16 24 L 16 22 C 14.34 22 13 20.66 13 19 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaTintSolid;

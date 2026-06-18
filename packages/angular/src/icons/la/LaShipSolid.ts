@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-ship-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaShipSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 15 3 L 15 5 L 11 5 L 11 8 L 7 8 L 7 13.91 L 6.16 14.09 L 6.16 14.13 C 4.35 14.52 3.46 16.61 4.41 18.19 L 6 20.88 L 6 25.84 C 5.19 25.62 4.63 25.22 4.63 25.22 L 3.38 26.78 C 3.38 26.78 4.92 28 7.03 28 C 8.49 28 9.42 27.52 10 27.16 C 10.58 27.51 11.56 28 13.03 28 C 14.49 28 15.42 27.52 16 27.16 C 16.58 27.51 17.56 28 19.03 28 C 20.49 28 21.42 27.52 22 27.16 C 22.58 27.51 23.56 28 25.03 28 C 27.14 28 28.63 26.78 28.63 26.78 L 27.38 25.22 C 27.38 25.22 26.83 25.65 26 25.88 L 26 20.88 L 27.59 18.19 C 28.54 16.61 27.65 14.52 25.84 14.13 L 25 13.94 L 25 8 L 21 8 L 21 5 L 17 5 L 17 3 Z M 13 7 L 19 7 L 19 10 L 23 10 L 23 13.5 L 16.22 12.03 L 16 12 L 15.78 12.03 L 9 13.5 L 9 10 L 13 10 Z M 16 14.06 L 25.41 16.06 C 25.93 16.18 26.18 16.7 25.91 17.16 L 24.16 20.09 L 24 20.31 L 24 25.84 C 23.19 25.62 22.63 25.22 22.63 25.22 L 22 24.72 L 21.38 25.22 C 21.38 25.22 20.37 26 19.03 26 C 17.69 26 16.63 25.22 16.63 25.22 L 16 24.72 L 15.38 25.22 C 15.38 25.22 14.37 26 13.03 26 C 11.69 26 10.63 25.22 10.63 25.22 L 10 24.72 L 9.38 25.22 C 9.38 25.22 8.83 25.65 8 25.88 L 8 20.31 L 7.84 20.09 L 6.09 17.16 C 5.82 16.7 6.07 16.18 6.59 16.06 Z M 11 16 C 10.4 16 10 16.7 10 17.5 C 10 18.3 10.4 19 11 19 C 11.6 19 12 18.3 12 17.5 C 12 16.7 11.6 16 11 16 Z M 21 16 C 20.4 16 20 16.7 20 17.5 C 20 18.3 20.4 19 21 19 C 21.6 19 22 18.3 22 17.5 C 22 16.7 21.6 16 21 16 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaShipSolid;

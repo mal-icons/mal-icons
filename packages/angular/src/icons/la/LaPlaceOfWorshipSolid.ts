@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-place-of-worship-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaPlaceOfWorshipSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4.41 L 15.22 5.38 L 11.22 10.38 L 11 10.66 L 11 16.94 L 5.47 20.41 L 6.53 22.09 L 7 21.81 L 7 27 L 15 27 L 15 23 C 15 22.43 15.43 22 16 22 C 16.57 22 17 22.43 17 23 L 17 27 L 25 27 L 25 21.81 L 25.47 22.09 L 26.53 20.41 L 21 16.94 L 21 10.66 L 20.78 10.38 L 16.78 5.38 Z M 16 7.59 L 19 11.34 L 19 15.69 L 16.53 14.16 L 16 13.81 L 15.47 14.16 L 13 15.69 L 13 11.34 Z M 16 11 C 15.45 11 15 11.45 15 12 C 15 12.55 15.45 13 16 13 C 16.55 13 17 12.55 17 12 C 17 11.45 16.55 11 16 11 Z M 16 16.19 L 23 20.56 L 23 25 L 19 25 L 19 23 C 19 21.36 17.64 20 16 20 C 14.36 20 13 21.36 13 23 L 13 25 L 9 25 L 9 20.56 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaPlaceOfWorshipSolid;

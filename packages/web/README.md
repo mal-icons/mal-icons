@@ -141,6 +141,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | [Grommet](https://icons.grommet.io/) | [Apache 2.0 license](https://github.com/grommet/grommet-icons/blob/master/LICENSE) | 4.14.0  |   637 |
 | [Heroicons](https://heroicons.com/) | [MIT license](https://github.com/tailwindlabs/heroicons/blob/master/LICENSE) | 2.2.0 | 324 |
 | [Ionicons](https://ionic.io/ionicons)    | [MIT license](https://github.com/ionic-team/ionicons/blob/main/LICENSE)           | 8.0.13  |  1357 |
+| [Line Awesome](https://icons8.com/line-awesome) | [MIT license](https://github.com/icons8/line-awesome/blob/master/LICENSE.md) | 1.2.1 | 1544 |
 | [Lucide](https://lucide.dev/icons/) | [ISC license](https://github.com/lucide-icons/lucide/blob/main/LICENSE) | 1.19.0  |  1727 |
 | [Material Icons Filled](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Filled) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
 | [Material Icons Rounded](https://fonts.google.com/icons?icon.set=Material+Icons&icon.style=Rounded) | [Apache 2.0 license](https://github.com/marella/material-design-icons/blob/main/svg/LICENSE) | 0.14.15 |  2122 |
@@ -187,6 +188,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/web/gi/GiAce.json` | A single icon's JSON data                         |
 | `@mal-icons/web/gr/GrHome.json` | A single icon's JSON data                         |
 | `@mal-icons/web/io`                 | The Ionicons set as a `{ name: IconData }` object |
+| `@mal-icons/web/la`                 | The Line Awesome set as a `{ name: IconData }` object |
 | `@mal-icons/web/lu`                 | The Lucide set as a `{ name: IconData }` object   |
 | `@mal-icons/web/mdf` | All Material Icons Filled (named exports) |
 | `@mal-icons/web/mdr` | All Material Icons Rounded (named exports) |
@@ -197,6 +199,7 @@ The bundled icon sets, their upstream licenses, pinned versions, and counts:
 | `@mal-icons/web/mss` | All Material Symbols Sharp (named exports) |
 | `@mal-icons/web/oc`                 | The Octicons set as a `{ name: IconData }` object |
 | `@mal-icons/web/io/IoHeart.json`    | A single Ionicons icon's JSON data                |
+| `@mal-icons/web/la/LaHeart.json`    | A single Line Awesome icon's JSON data                |
 | `@mal-icons/web/lu/LuHeart.json`    | A single Lucide icon's JSON data                  |
 | `@mal-icons/web/oc/OcHeart16.json`    | A single Octicons icon's JSON data                |
 | `@mal-icons/web/ti`                 | The Typicons set as a `{ name: IconData }` object |

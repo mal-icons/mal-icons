@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-user-astronaut-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaUserAstronautSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 16 4 C 11 4 7 8 7 13 C 6.7 13 6.4 13.2 6.2 13.4 C 6 13.7 5.9 14 6.1 14.3 L 7.1 17.3 C 7.2 17.7 7.6 18 8 18 L 8.5 18 C 8.69 18.29 8.9 18.56 9.13 18.82 C 9.43 19.3 9.8 19.73 10.21 20.12 C 8.19 21.81 7 24.33 7 27 L 9 27 C 9 24.73 10.08 22.63 11.92 21.29 C 12.85 21.74 13.89 22 15 22 L 17 22 C 18.1 22 19.12 21.75 20.04 21.31 C 21.86 22.6 23 24.75 23 27 L 25 27 C 25 24.34 23.81 21.84 21.76 20.15 C 22.18 19.75 22.56 19.31 22.88 18.82 C 23.1 18.56 23.31 18.29 23.5 18 L 24 18 C 24.4 18 24.8 17.7 24.9 17.3 L 25.9 14.3 C 26.1 14 26 13.7 25.8 13.4 C 25.6 13.2 25.3 13 25 13 C 25 8 21 4 16 4 z M 16 6 C 19.52 6 22.38 8.53 22.9 11.88 C 21.99 10.74 20.6 10 19 10 L 13 10 C 11.4 10 10.01 10.74 9.1 11.88 C 9.62 8.53 12.48 6 16 6 z M 13 12 L 19 12 C 20.7 12 22 13.3 22 15 C 22 15.72 21.85 16.39 21.59 17 L 17 17 C 16.4 17 16 17.5 16 18 C 16 18.6 16.5 19 17 19 L 19.62 19 C 18.57 19.63 17.33 20 16 20 C 13.9 20 12.04 19.1 10.76 17.66 C 10.28 16.89 10 15.99 10 15 C 10 13.3 11.3 12 13 12 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaUserAstronautSolid;

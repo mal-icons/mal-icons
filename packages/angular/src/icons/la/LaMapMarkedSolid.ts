@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-map-marked-solid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaMapMarkedSolid {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 22 3 C 18.7 3 16 5.7 16 9 C 16 9.99 16.38 11 16.88 12.13 C 17.37 13.25 17.99 14.43 18.63 15.53 C 19.9 17.73 21.19 19.56 21.19 19.56 L 22 20.75 L 22.81 19.56 C 22.81 19.56 24.1 17.73 25.38 15.53 C 26.01 14.43 26.63 13.25 27.13 12.13 C 27.62 11 28 9.99 28 9 C 28 5.7 25.3 3 22 3 z M 11.97 4.94 L 4 8.34 L 4 27.53 L 12.03 24.06 L 20.03 27.06 L 28 23.66 L 28 14.94 C 27.36 16.16 26.66 17.33 26 18.38 L 26 22.34 L 21 24.47 L 21 22.84 L 19.53 20.72 C 19.38 20.49 19.19 20.22 19 19.94 L 19 24.56 L 13 22.31 L 13 7.44 L 14.09 7.84 C 14.19 7.17 14.37 6.52 14.63 5.91 L 11.97 4.94 z M 22 5 C 24.22 5 26 6.78 26 9 C 26 9.39 25.76 10.3 25.31 11.31 C 24.87 12.32 24.24 13.47 23.63 14.53 C 22.81 15.94 22.46 16.44 22 17.13 C 21.54 16.44 21.19 15.94 20.38 14.53 C 19.76 13.47 19.13 12.32 18.69 11.31 C 18.24 10.3 18 9.39 18 9 C 18 6.78 19.78 5 22 5 z M 11 7.5 L 11 22.34 L 6 24.47 L 6 9.66 L 11 7.5 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaMapMarkedSolid;

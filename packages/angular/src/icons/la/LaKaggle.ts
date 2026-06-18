@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-kaggle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaKaggle {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 10.35 4 C 10.12 4 10 4.12 10 4.35 L 10 27.64 C 10 27.88 10.12 28 10.35 28 L 12.65 28 C 12.88 28 13 27.88 13 27.64 L 13 22.81 L 14.81 21.09 L 20.05 27.75 C 20.19 27.92 20.35 28 20.54 28 L 23.72 28 C 23.88 28 23.98 27.95 24 27.86 L 23.93 27.5 L 17.02 18.91 L 23.65 12.5 C 23.77 12.37 23.73 12 23.4 12 L 20.12 12 C 19.95 12 19.79 12.09 19.62 12.25 L 13 18.97 L 13 4.35 C 13 4.12 12.88 4 12.65 4 L 10.35 4 z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaKaggle;

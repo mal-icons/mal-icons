@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const LaExternalLinkSquareAltSolid = createIcon("0 0 32 32", [["path",{"d":"M 5 5 L 5 27 L 27 27 L 27 5 Z M 7 7 L 25 7 L 25 25 L 7 25 Z M 13 10 L 13 12 L 18.56 12 L 9.28 21.28 L 10.72 22.72 L 20 13.44 L 20 19 L 22 19 L 22 10 Z"}]]);
+
+export default LaExternalLinkSquareAltSolid;

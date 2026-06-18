@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-la-hand-spock",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class LaHandSpock {
+  readonly viewBox = "0 0 32 32";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M 12.41 2 C 12.21 2 12.01 2.02 11.81 2.06 C 10.47 2.37 9.53 3.56 9.47 4.88 C 9.1 4.82 8.72 4.82 8.34 4.91 C 6.74 5.27 5.7 6.89 6.06 8.5 L 8 16.91 L 8 17.75 L 7.13 16.88 C 5.96 15.71 4.04 15.71 2.88 16.88 C 1.71 18.04 1.71 19.96 2.88 21.13 L 9.66 27.91 C 10.83 29.08 12.46 30 14.38 30 L 19 30 C 22.86 30 26 26.86 26 23 L 26 16 L 26.94 11.28 C 27.25 9.67 26.18 8.07 24.56 7.75 C 24.22 7.68 23.89 7.67 23.56 7.72 L 23.78 6.59 C 24.1 4.98 23.02 3.38 21.41 3.06 C 19.79 2.75 18.22 3.82 17.91 5.44 L 16.91 10.19 L 15.38 4.34 C 15.37 4.34 15.38 4.32 15.38 4.31 L 15.34 4.31 C 15.01 2.93 13.77 1.98 12.41 2 Z M 12.25 4.03 C 12.8 3.91 13.31 4.23 13.44 4.78 L 13.44 4.81 L 15.94 14.41 L 16.13 15.16 L 17.91 15.16 L 18.09 14.34 L 19.84 5.84 L 19.84 5.81 C 19.95 5.26 20.48 4.92 21.03 5.03 C 21.59 5.14 21.92 5.66 21.81 6.22 L 20 15.34 L 21.97 15.72 L 23 10.53 L 23.03 10.53 C 23.14 9.98 23.63 9.61 24.19 9.72 C 24.74 9.83 25.08 10.35 24.97 10.91 L 24.03 15.81 L 24 15.91 L 24 23 C 24 25.77 21.77 28 19 28 L 14.38 28 C 13.1 28 12.01 27.38 11.09 26.47 L 4.28 19.72 C 3.88 19.32 3.88 18.68 4.28 18.28 C 4.68 17.88 5.32 17.88 5.72 18.28 L 8.28 20.88 L 10 22.59 L 10 16.78 L 9.97 16.69 L 8.03 8.06 C 7.91 7.51 8.23 6.97 8.78 6.84 C 9.33 6.72 9.84 7.07 9.97 7.63 L 11.75 15.56 L 13.72 15.13 L 11.94 7.16 C 11.93 7.14 11.94 7.14 11.94 7.13 L 11.5 5.22 C 11.38 4.67 11.7 4.16 12.25 4.03 Z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default LaHandSpock;
