@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbMickey = createIcon("0 0 24 24", [["path",{"d":"M5.5 3a3.5 3.5 0 0 1 3.25 4.8a7.02 7.02 0 0 0 -2.42 2.1a3.5 3.5 0 1 1 -0.83 -6.9"}],["path",{"d":"M18.5 3a3.5 3.5 0 1 1 -0.83 6.9a7.01 7.01 0 0 0 -2.42 -2.1a3.5 3.5 0 0 1 3.25 -4.8"}],["path",{"d":"M5 14a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbMickey;

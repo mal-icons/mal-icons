@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSection = createIcon("0 0 24 24", [["path",{"d":"M20 20h0.01"}],["path",{"d":"M4 20h0.01"}],["path",{"d":"M8 20h0.01"}],["path",{"d":"M12 20h0.01"}],["path",{"d":"M16 20h0.01"}],["path",{"d":"M20 4h0.01"}],["path",{"d":"M4 4h0.01"}],["path",{"d":"M8 4h0.01"}],["path",{"d":"M12 4h0.01"}],["path",{"d":"M16 4l0 0.01"}],["path",{"d":"M4 9a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1l0 -6"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSection;

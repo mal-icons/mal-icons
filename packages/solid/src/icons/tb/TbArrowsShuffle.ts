@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbArrowsShuffle = createIcon("0 0 24 24", [["path",{"d":"M18 4l3 3l-3 3"}],["path",{"d":"M18 20l3 -3l-3 -3"}],["path",{"d":"M3 7h3a5 5 0 0 1 5 5a5 5 0 0 0 5 5h5"}],["path",{"d":"M21 7h-5a4.98 4.98 0 0 0 -3 1m-4 8a4.98 4.98 0 0 1 -3 1h-3"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbArrowsShuffle;

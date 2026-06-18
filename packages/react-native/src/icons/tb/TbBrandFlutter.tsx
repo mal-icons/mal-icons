@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandFlutter = createIcon("0 0 24 24", [["path",{"d":"M7 14l-3 -3l8 -8h6l-11 11"}],["path",{"d":"M14 21l-5 -5l5 -5h5l-5 5l5 5l-5 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandFlutter;

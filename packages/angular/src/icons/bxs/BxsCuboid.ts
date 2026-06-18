@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-cuboid",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsCuboid {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.71 2.29A11 0 0 0 16 2H8c-0.41 0-0.780.26-0.930.64l-5 13a11 0 0 0 0.23 1.07l5 5A11 0 0 0 8 22h8c0.41 0 0.79-0.250.93-0.64l5-13a11 0 0 0-0.23-1.07l-5-5zM18.59 7h-5.17l-3-3h5.17l3 3zm-3.27 13h-6.23l4.58-11h5.88l-4.23 11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsCuboid;

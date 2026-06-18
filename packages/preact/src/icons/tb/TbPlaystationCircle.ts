@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbPlaystationCircle = createIcon("0 0 24 24", [["path",{"d":"M12 21a9 9 0 0 0 9 -9a9 9 0 0 0 -9 -9a9 9 0 0 0 -9 9a9 9 0 0 0 9 9"}],["path",{"d":"M7.5 12a4.5 4.5 0 1 0 9 0a4.5 4.5 0 1 0 -9 0"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbPlaystationCircle;

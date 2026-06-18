@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbArrowSharpTurnRight = createIcon("0 0 24 24", [["path",{"d":"M7 18v-11.31a0.7 0.7 0 0 1 1.2 -0.49l9.81 9.81"}],["path",{"d":"M13 16h5v-5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbArrowSharpTurnRight;

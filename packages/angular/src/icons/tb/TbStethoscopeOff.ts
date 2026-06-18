@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-stethoscope-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbStethoscopeOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.17 4.18a2 2 0 0 0 -1.17 1.82v3.5a5.5 5.5 0 0 0 9.86 3.36m1.14 -2.86v-4a2 2 0 0 0 -2 -2h-1"}],["path",{"d":"M8 15a6 6 0 0 0 10.71 3.71m1.22 -2.8c0.05 -0.3 0.07 -0.6 0.07 -0.91v-3"}],["path",{"d":"M11 3v2"}],["path",{"d":"M18 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbStethoscopeOff;

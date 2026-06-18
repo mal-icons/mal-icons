@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-brand-guardian",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBrandGuardian {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14 13h6"}],["path",{"d":"M4 12c0 -9.3 9.5 -9 9.5 -9c-2.81 0 -4.5 4.37 -4.5 9s1.76 8.98 4.57 8.98c0 0.02 -9.57 1.09 -9.57 -8.98"}],["path",{"d":"M14.5 3c1.42 0 3.85 1.16 4.5 2v3.5"}],["path",{"d":"M15 13v8s2.77 -0.37 4 -2v-6"}],["path",{"d":"M13.5 21h1.5"}],["path",{"d":"M13.5 3h1"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBrandGuardian;

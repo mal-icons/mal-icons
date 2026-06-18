@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPacman = createIcon("0 0 24 24", [["path",{"d":"M6.64 5.64a9 9 0 0 1 13.4 0.75l-5.62 5.62l5.62 5.62a9 9 0 1 1 -13.4 -11.98"}],["path",{"d":"M11.5 7.5a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPacman;

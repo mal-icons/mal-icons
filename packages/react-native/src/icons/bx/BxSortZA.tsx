@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxSortZA = createIcon("0 0 24 24", [["path",{"d":"M19.71 14.71A1 1 0 0 0 19 13h-7v2h4.59l-4.29 4.29A1 1 0 0 0 13 21h7v-2h-4.59l4.29-4.29zM6 3.99l-4 4h3v12h2v-12h3zM17 3h-2c-0.42 0-0.790.26-0.940.65l-2.75 7.33h2.14L14.19 9h3.61l0.74 1.98h2.14l-2.75-7.33A1 1 0 0 0 17 3zm-2.06 4 0.75-2h0.61l0.75 2h-2.11z"}]]);
+
+export default BxSortZA;

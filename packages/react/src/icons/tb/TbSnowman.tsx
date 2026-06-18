@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSnowman = createIcon("0 0 24 24", [["path",{"d":"M12 3a4 4 0 0 1 2.91 6.75a6 6 0 1 1 -5.81 0a4 4 0 0 1 2.9 -6.75"}],["path",{"d":"M17.5 11.5l2.5 -1.5"}],["path",{"d":"M6.5 11.5l-2.5 -1.5"}],["path",{"d":"M12 13h0.01"}],["path",{"d":"M12 16h0.01"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSnowman;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsBugAlt = createIcon("0 0 24 24", [["path",{"d":"m18 5.41 1.71-1.71-1.41-1.41-1.56 1.56C15.48 2.71 13.82 2 12 2s-3.480.71-4.73 1.86L5.71 2.29 4.29 3.71 6 5.41A6.94 6.94 0 0 0 5 9H3v2h2v2H3v2h2c0 3.86 3.14 7 7 7s7-3.14 7-7h2v-2h-2v-2h2V9h-2a6.94 6.94 0 0 0-1-3.59zM15 15H9v-2h6v2zm0-4H9V9h6v2z"}]]);
+
+export default BxsBugAlt;

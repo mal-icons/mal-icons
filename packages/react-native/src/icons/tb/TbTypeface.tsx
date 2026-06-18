@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbTypeface = createIcon("0 0 24 24", [["path",{"d":"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2l0 -14"}],["path",{"d":"M17 17a2 2 0 0 1 -2 -2v-8h-5a2 2 0 0 0 -2 2"}],["path",{"d":"M7 17a2.78 2.78 0 0 0 2.63 -1.9l0.37 -1.1a13.4 13.4 0 0 1 3.24 -5.24l1.76 -1.76"}],["path",{"d":"M10 14h5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbTypeface;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-microsoft-teams",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlMicrosoftTeams {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"20.29","cy":"8.34","r":"1.71"}],["path",{"d":"M18.58 11.51h3.41v3.66c0 0.94-0.76 1.71-1.71 1.71h-1.71v-5.36zM2.01 4.2v15.6l11.21 1.98V2.22L2.01 4.2zm8.29 5.41-1.950.05v5.75H6.88V9.76l-1.950.1V8.54l5.36-0.29v1.36zm3.90.44v8.29h1.95c0.81 0 1.46-0.65 1.46-1.46V10.05h-3.41zm1.46-4.87c-0.59 0-1.10.26-1.460.67v2.56c0.360.410.880.67 1.460.67a1.95 1.95 0 0 0 0-3.9z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlMicrosoftTeams;

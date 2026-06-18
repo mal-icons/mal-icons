@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsNotification = createIcon("0 0 24 24", [["circle",{"cx":"18","cy":"6","r":"3"}],["path",{"d":"M13 6c0-0.710.15-1.390.42-2H6c-1.1 0-2 0.9-2 2v12c0 1.10.9 2 2 2h12c1.1 0 2-0.9 2-2v-7.42A4.96 4.96 0 0 1 18 11a5 5 0 0 1-5-5z"}]]);
+
+export default BxsNotification;

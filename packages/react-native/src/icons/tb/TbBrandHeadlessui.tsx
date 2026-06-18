@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandHeadlessui = createIcon("0 0 24 24", [["path",{"d":"M6.74 4.33l7.82 -1.27a4.46 4.46 0 0 1 5.11 3.69l1.27 7.82a4.46 4.46 0 0 1 -3.69 5.11l-7.82 1.27a4.46 4.46 0 0 1 -5.11 -3.69l-1.27 -7.82a4.46 4.46 0 0 1 3.69 -5.11"}],["path",{"d":"M7.25 7.7l7.9 -1.28a1 1 0 0 1 1.15 0.83l0.36 2.22l-9.56 3.51l-0.67 -4.13a1 1 0 0 1 0.83 -1.15"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandHeadlessui;

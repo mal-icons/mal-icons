@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbParking = createIcon("0 0 24 24", [["path",{"d":"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14"}],["path",{"d":"M10 16v-8h2.67c0.74 0 1.33 0.9 1.33 2s-0.6 2 -1.33 2h-2.67"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbParking;

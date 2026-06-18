@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsTrafficBarrier = createIcon("0 0 24 24", [["path",{"d":"M21 6h-2V3h-2v3H7V3H5v3H3a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2v6h2v-6h10v6h2v-6h2a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1zM4.42 13l2.86-5H9.58l-2.86 5H4.42zm7.86-5h2.3l-2.86 5H9.42l2.86-5zm5 0h2.3l-2.86 5H14.42l2.86-5z"}]]);
+
+export default BxsTrafficBarrier;

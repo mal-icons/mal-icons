@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPhotoAlt = createIcon("0 0 24 24", [["path",{"d":"M6 18h5"}],["path",{"d":"M14 18h4"}],["path",{"d":"M15 7h0.01"}],["path",{"d":"M3 6a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v12a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3v-12"}],["path",{"d":"M3 15l5 -5c0.93 -0.89 2.07 -0.89 3 0l5 5"}],["path",{"d":"M14 13l1 -1c0.93 -0.89 2.07 -0.89 3 0l3 3"}],["path",{"d":"M3 15h18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPhotoAlt;

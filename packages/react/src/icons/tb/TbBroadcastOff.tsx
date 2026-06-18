@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBroadcastOff = createIcon("0 0 24 24", [["path",{"d":"M18.36 19.36a9 9 0 0 0 -9.72 -14.72m-2.49 1.51a9 9 0 0 0 -0.52 13.21"}],["path",{"d":"M15.54 16.54a5 5 0 0 0 -3.54 -8.54m-3 1a5 5 0 0 0 -0.53 7.54"}],["path",{"d":"M12 12a1 1 0 1 0 1 1"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBroadcastOff;

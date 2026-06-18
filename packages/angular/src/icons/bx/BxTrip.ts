@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-trip",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxTrip {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M14.84 20H6.5C5.12 20 4 18.88 4 17.5S5.12 15 6.5 15h7c1.93 0 3.5-1.57 3.5-3.5S15.43 8 13.5 8H8.64a9.81 9.81 0 0 1-1.35 2H13.5c0.83 0 1.50.67 1.5 1.5s-0.67 1.5-1.5 1.5h-7C4.02 13 2 15.02 2 17.5S4.02 22 6.5 22h9.59a10.42 10.42 0 0 1-1.25-2zM5 2C3.35 2 2 3.35 2 5c0 3.19 3 5 3 5s3-1.81 3-5c0-1.65-1.35-3-3-3zm0 4.5a1.5 1.5 0 1 1 0-3A1.5 1.5 0 0 1 5 6.5z"}],["path",{"d":"M19 14c-1.65 0-3 1.35-3 3 0 3.19 3 5 3 5s3-1.81 3-5c0-1.65-1.35-3-3-3zm0 4.5a1.5 1.5 0 1 1 0-3A1.5 1.5 0 0 1 19 18.5z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxTrip;

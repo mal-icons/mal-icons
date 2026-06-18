@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPhotoHexagon = createIcon("0 0 24 24", [["path",{"d":"M15 8h0.01"}],["path",{"d":"M19.88 6.27c0.7 0.4 1.13 1.14 1.13 1.95v7.28c0 0.81 -0.44 1.56 -1.16 1.95l-6.75 4.27a2.27 2.27 0 0 1 -2.18 0l-6.75 -4.27a2.23 2.23 0 0 1 -1.16 -1.95v-7.28c0 -0.81 0.44 -1.55 1.16 -1.95l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-0.03"}],["path",{"d":"M3.5 15.5l4.5 -4.5c0.93 -0.89 2.07 -0.89 3 0l5 5"}],["path",{"d":"M14 14l1 -1c0.93 -0.89 2.07 -0.89 3 0l2.5 2.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPhotoHexagon;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-cookie",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxCookie {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.6 11.06a1.01 1.01 0 0 0-0.85-0.17A2.94 2.94 0 0 1 20 11c-1.65 0-3-1.35-3-2.940.01-0.030.02-0.140.02-0.17a11 0 0 0-1.25-1.01A2.96 2.96 0 0 1 15 7c-1.65 0-3-1.35-3-3 0-0.220.03-0.440.1-0.72a1 1 0 0 0-1.07-1.24A9.96 9.96 0 0 0 2 12c0 5.51 4.49 10 10 10s10-4.49 10-10c0-0.050-0.1-0.01-0.16a1 1 0 0 0-0.39-0.78zM12 20c-4.41 0-8-3.59-8-8a7.96 7.96 0 0 1 6.01-7.75A5.01 5.01 0 0 0 15 9l0.10a5.01 5.01 0 0 0 4.84 4C19.44 16.94 16.07 20 12 20z"}],["circle",{"cx":"12.5","cy":"11.5","r":"1.5"}],["circle",{"cx":"8.5","cy":"8.5","r":"1.5"}],["circle",{"cx":"7.5","cy":"12.5","r":"1.5"}],["circle",{"cx":"15.5","cy":"15.5","r":"1.5"}],["circle",{"cx":"10.5","cy":"16.5","r":"1.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxCookie;

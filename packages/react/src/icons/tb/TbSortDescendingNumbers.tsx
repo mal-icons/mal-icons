@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSortDescendingNumbers = createIcon("0 0 24 24", [["path",{"d":"M4 15l3 3l3 -3"}],["path",{"d":"M7 6v12"}],["path",{"d":"M17 14a2 2 0 0 1 2 2v3a2 2 0 1 1 -4 0v-3a2 2 0 0 1 2 -2"}],["path",{"d":"M15 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M19 5v3a2 2 0 0 1 -2 2h-1.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSortDescendingNumbers;

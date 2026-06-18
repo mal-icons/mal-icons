@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbHandClick = createIcon("0 0 24 24", [["path",{"d":"M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"}],["path",{"d":"M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5"}],["path",{"d":"M14 10.5a1.5 1.5 0 0 1 3 0v1.5"}],["path",{"d":"M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h0.21a6 6 0 0 1 -5.01 -2.7l-0.2 -0.3c-0.31 -0.48 -1.41 -2.39 -3.29 -5.73a1.5 1.5 0 0 1 0.54 -2.02a1.87 1.87 0 0 1 2.28 0.28l1.47 1.47"}],["path",{"d":"M5 3l-1 -1"}],["path",{"d":"M4 7h-1"}],["path",{"d":"M14 3l1 -1"}],["path",{"d":"M15 6h1"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbHandClick;

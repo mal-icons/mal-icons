@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-car",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsCar {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m20.77 10.15-1.37-4.1A3 3 0 0 0 16.56 4H7.44a3 3 0 0 0-2.84 2.05l-1.37 4.1A2 2 0 0 0 2 12v5c0 0.740.4 1.38 1 1.72V21a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-2h12v2a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-2.28A1.99 1.99 0 0 0 22 17v-5a2 2 0 0 0-1.23-1.84zM7.44 6h9.12c0.43 0 0.810.270.950.68L18.61 10H5.39l1.11-3.32A1 1 0 0 1 7.44 6zM5.5 16a1.5 1.5 0 1 1 0-3A1.5 1.5 0 0 1 5.5 16zm13 0a1.5 1.5 0 1 1 0-3A1.5 1.5 0 0 1 18.5 16z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsCar;

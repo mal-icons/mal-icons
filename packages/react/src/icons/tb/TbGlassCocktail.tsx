@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbGlassCocktail = createIcon("0 0 24 24", [["path",{"d":"M8 21h8"}],["path",{"d":"M12 15v6"}],["path",{"d":"M5 5a7 2 0 1 0 14 0a7 2 0 1 0 -14 0"}],["path",{"d":"M5 5v0.39c0 0.43 0.13 0.85 0.36 1.21l5 7.51c0.63 0.95 1.88 1.18 2.79 0.52c0.19 -0.14 0.36 -0.32 0.49 -0.52l5 -7.51c0.24 -0.35 0.36 -0.77 0.36 -1.21v-0.39"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbGlassCocktail;

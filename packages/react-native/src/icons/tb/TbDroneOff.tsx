@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbDroneOff = createIcon("0 0 24 24", [["path",{"d":"M14 14h-4v-4"}],["path",{"d":"M10 10l-3.5 -3.5"}],["path",{"d":"M9.96 5.95a3.5 3.5 0 0 0 -2.92 -2.91m-3.02 0.99a3.5 3.5 0 0 0 1.98 5.94"}],["path",{"d":"M14 10l3.5 -3.5"}],["path",{"d":"M18 9.97a3.5 3.5 0 1 0 -3.97 -3.96"}],["path",{"d":"M14 14l3.5 3.5"}],["path",{"d":"M14.04 18a3.5 3.5 0 0 0 5.94 1.98m0.99 -3.03a3.5 3.5 0 0 0 -2.92 -2.91"}],["path",{"d":"M10 14l-3.5 3.5"}],["path",{"d":"M6 14.04a3.5 3.5 0 1 0 3.97 3.97"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbDroneOff;

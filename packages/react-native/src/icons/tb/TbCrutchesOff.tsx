@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbCrutchesOff = createIcon("0 0 24 24", [["path",{"d":"M8.18 4.17a2 2 0 0 1 1.82 -1.17h4a2 2 0 1 1 0 4h-3"}],["path",{"d":"M11 21h2"}],["path",{"d":"M12 21v-4.09a3 3 0 0 1 0.5 -1.66l0.99 -1.49a3 3 0 0 0 0.1 -0.15m0.41 -3.6v-3"}],["path",{"d":"M12 21v-4.09a3 3 0 0 0 -0.5 -1.66l-0.99 -1.49a3 3 0 0 1 -0.5 -1.66v-2.09"}],["path",{"d":"M10 11h1"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbCrutchesOff;

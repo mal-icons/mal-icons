@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandStocktwits = createIcon("0 0 24 24", [["path",{"d":"M16 3l-8 4.5l8 4.5"}],["path",{"d":"M8 12l8 4.5l-8 4.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandStocktwits;

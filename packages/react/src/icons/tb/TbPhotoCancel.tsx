@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPhotoCancel = createIcon("0 0 24 24", [["path",{"d":"M15 8h0.01"}],["path",{"d":"M12.5 21h-6.5a3 3 0 0 1 -3 -3v-12a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v6.5"}],["path",{"d":"M3 16l5 -5c0.93 -0.89 2.07 -0.89 3 0l3 3"}],["path",{"d":"M14 14l1 -1c0.62 -0.59 1.33 -0.79 2.01 -0.6"}],["path",{"d":"M16 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"}],["path",{"d":"M17 21l4 -4"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPhotoCancel;

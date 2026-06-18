@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPlayVolleyball = createIcon("0 0 24 24", [["path",{"d":"M11.01 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M19.01 9.5a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"}],["path",{"d":"M2 16l5 1l0.5 -2.5"}],["path",{"d":"M11.5 21l2.5 -5.5l-5.5 -3.5l3.5 -4l3 4l4 2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPlayVolleyball;

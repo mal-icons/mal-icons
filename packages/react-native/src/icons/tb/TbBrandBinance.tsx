@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandBinance = createIcon("0 0 24 24", [["path",{"d":"M6 8l2 2l4 -4l4 4l2 -2l-6 -6l-6 6"}],["path",{"d":"M6 16l2 -2l4 4l3.5 -3.5l2 2l-5.5 5.5l-6 -6"}],["path",{"d":"M20 10l2 2l-2 2l-2 -2l2 -2"}],["path",{"d":"M4 10l2 2l-2 2l-2 -2l2 -2"}],["path",{"d":"M12 10l2 2l-2 2l-2 -2l2 -2"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandBinance;

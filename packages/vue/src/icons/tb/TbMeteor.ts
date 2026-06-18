@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbMeteor = createIcon("0 0 24 24", [["path",{"d":"M21 3l-5 9h5l-6.89 7.09a6.5 6.5 0 1 1 -8.85 -9.51l7.75 -6.58l-1 5l9 -5"}],["path",{"d":"M7 14.5a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbMeteor;

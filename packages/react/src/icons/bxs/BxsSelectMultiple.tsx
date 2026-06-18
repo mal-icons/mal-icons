@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsSelectMultiple = createIcon("0 0 24 24", [["path",{"d":"M20 2H8a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-6.93 12.48-3.27-3.27 1.41-1.41 1.73 1.73 4.3-5.16 1.54 1.28-5.7 6.84z"}],["path",{"d":"M4 22h11v-2H4V8H2v12c0 1.10.9 2 2 2z"}]]);
+
+export default BxsSelectMultiple;

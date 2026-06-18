@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbHierarchy2 = createIcon("0 0 24 24", [["path",{"d":"M10 3h4v4h-4l0 -4"}],["path",{"d":"M3 17h4v4h-4l0 -4"}],["path",{"d":"M17 17h4v4h-4l0 -4"}],["path",{"d":"M7 17l5 -4l5 4"}],["path",{"d":"M12 7l0 6"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbHierarchy2;

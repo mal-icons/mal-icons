@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbFlaskOff = createIcon("0 0 24 24", [["path",{"d":"M9 3h6"}],["path",{"d":"M13 9h1"}],["path",{"d":"M10 3v3m-0.27 3.74l-3.73 10.26a0.7 0.7 0 0 0 0.5 1h11a0.7 0.7 0 0 0 0.5 -1l-1.14 -3.14m-2.29 -6.29l-0.57 -1.56v-6"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbFlaskOff;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbTie = createIcon("0 0 24 24", [["path",{"d":"M12 22l4 -4l-2.5 -11l0.99 -2.65a1 1 0 0 0 -0.94 -1.35h-3.11a1 1 0 0 0 -0.94 1.35l0.99 2.65l-2.5 11l4 4"}],["path",{"d":"M10.5 7h3l5 5.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbTie;

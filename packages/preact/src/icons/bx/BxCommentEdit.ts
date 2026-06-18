@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxCommentEdit = createIcon("0 0 24 24", [["path",{"d":"m13.77 9.12-1.4-1.4-3.87 3.86v1.4h1.4zM14.1 6l1.4 1.4-1.07 1.07-1.4-1.4z"}],["path",{"d":"M20 2H4c-1.1 0-2 0.9-2 2v18l5.33-4H20c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm0 14H6.67L4 18V4h16v12z"}]]);
+
+export default BxCommentEdit;

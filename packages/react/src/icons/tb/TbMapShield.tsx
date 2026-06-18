@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbMapShield = createIcon("0 0 24 24", [["path",{"d":"M15 11a3 3 0 1 0 -3 3"}],["path",{"d":"M12.25 21.47a2 2 0 0 1 -1.66 -0.57l-4.24 -4.24a8 8 0 1 1 13.66 -5.83"}],["path",{"d":"M22 16c0 4 -2.5 6 -3.5 6s-3.5 -2 -3.5 -6c1 0 2.5 -0.5 3.5 -1.5c1 1 2.5 1.5 3.5 1.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbMapShield;

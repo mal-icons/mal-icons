@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbKey = createIcon("0 0 24 24", [["path",{"d":"M16.56 3.84l3.6 3.6a2.88 2.88 0 0 1 0 4.07l-2.64 2.64a2.88 2.88 0 0 1 -4.07 0l-0.3 -0.3l-6.56 6.56a2 2 0 0 1 -1.24 0.58l-0.17 0.01h-1.17a1 1 0 0 1 -0.99 -0.88l-0.01 -0.12v-1.17a2 2 0 0 1 0.47 -1.28l0.12 -0.13l0.41 -0.41h2v-2h2v-2l2.14 -2.14l-0.3 -0.3a2.88 2.88 0 0 1 0 -4.07l2.64 -2.64a2.88 2.88 0 0 1 4.07 0"}],["path",{"d":"M15 9h0.01"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbKey;

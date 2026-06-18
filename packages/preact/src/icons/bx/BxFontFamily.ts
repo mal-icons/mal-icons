@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxFontFamily = createIcon("0 0 24 24", [["path",{"d":"M15 4h7v2h-7zm1 4h6v2h-6zm2 4h4v2h-4zM9.31 4l-6 16h2.14l1.88-5h6.36l1.88 5h2.14l-6-16H9.31zm-1.24 9L10.5 6.52 12.93 13H8.07z"}]]);
+
+export default BxFontFamily;

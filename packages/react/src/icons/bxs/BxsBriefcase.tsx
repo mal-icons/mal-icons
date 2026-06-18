@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxsBriefcase = createIcon("0 0 24 24", [["path",{"d":"M20 6h-3V4c0-1.1-0.9-2-2-2H9c-1.1 0-2 0.9-2 2v2H4c-1.1 0-2 0.9-2 2v3h20V8c0-1.1-0.9-2-2-2zM9 4h6v2H9V4zm5 10h-4v-2H2v7c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2v-7h-8v2z"}]]);
+
+export default BxsBriefcase;

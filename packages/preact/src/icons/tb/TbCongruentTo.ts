@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbCongruentTo = createIcon("0 0 24 24", [["path",{"d":"M5 13h14"}],["path",{"d":"M5 17h14"}],["path",{"d":"M5 7.69c2.33 -2.62 4.67 -1.86 7 0.06s4.67 2.69 7 0.06"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbCongruentTo;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbPrismOff = createIcon("0 0 24 24", [["path",{"d":"M12 12v10"}],["path",{"d":"M17.96 17.95l-4.94 3.7a1.7 1.7 0 0 1 -2.04 0l-5.98 -4.49a2.5 2.5 0 0 1 -1 -2v-11.17m3 -1h12a1 1 0 0 1 1 1v11.17c0 0.25 -0.04 0.5 -0.11 0.73"}],["path",{"d":"M12.69 8.7a1.7 1.7 0 0 0 0.36 -0.21l6.66 -5.19"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbPrismOff;

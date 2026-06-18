@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandReason = createIcon("0 0 24 24", [["path",{"d":"M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14"}],["path",{"d":"M18 18h-3v-6h3"}],["path",{"d":"M18 15h-3"}],["path",{"d":"M8 18v-6h2.5a1.5 1.5 0 0 1 0 3h-2.5"}],["path",{"d":"M12 18l-2 -3"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandReason;

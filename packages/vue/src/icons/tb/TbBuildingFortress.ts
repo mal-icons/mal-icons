@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbBuildingFortress = createIcon("0 0 24 24", [["path",{"d":"M7 21h1a1 1 0 0 0 1 -1v-1a3 3 0 0 1 6 0m3 2h1a1 1 0 0 0 1 -1v-15l-3 -2l-3 2v6h-4v-6l-3 -2l-3 2v15a1 1 0 0 0 1 1h2m8 -2v1a1 1 0 0 0 1 1h2"}],["path",{"d":"M7 7v0.01"}],["path",{"d":"M7 10v0.01"}],["path",{"d":"M7 13v0.01"}],["path",{"d":"M17 7v0.01"}],["path",{"d":"M17 10v0.01"}],["path",{"d":"M17 13v0.01"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbBuildingFortress;

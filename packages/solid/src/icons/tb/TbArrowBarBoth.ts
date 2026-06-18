@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbArrowBarBoth = createIcon("0 0 24 24", [["path",{"d":"M8 12h-6"}],["path",{"d":"M5 15l-3 -3l3 -3"}],["path",{"d":"M22 12h-6"}],["path",{"d":"M19 15l3 -3l-3 -3"}],["path",{"d":"M12 4v16"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbArrowBarBoth;

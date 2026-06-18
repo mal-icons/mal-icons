@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbClockEdit = createIcon("0 0 24 24", [["path",{"d":"M21 12a9 9 0 1 0 -9.97 8.95c0.32 0.03 0.64 0.05 0.97 0.05"}],["path",{"d":"M12 7v5l2 2"}],["path",{"d":"M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbClockEdit;

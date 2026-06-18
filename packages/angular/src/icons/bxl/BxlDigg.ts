@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-digg",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlDigg {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M16.8 8.8v6.8h3.2v0.8h-3.2v1.6h5.2V8.8h-5.2zm-6 0v6.8h3.2v0.8h-3.2v1.6h5.2V8.8h-5.2zM5.2 6V8.8H2v6.8h5.2V6H5.2zM10 8.8h-2v6.8h2V8.8zM20 14h-1.2v-3.6h1.2V14zM5.2 14H4v-3.6h1.2V14zm8.8 0h-1.2v-3.6h1.2V14zm-4-8h-2v2h2v-2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlDigg;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-shield-alt-2",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxShieldAlt2 {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.44 5.09a1 1 0 0 0-0.960.02c-0.680.39-1.350.58-2.050.58-2.03 0-3.95-1.63-5.72-3.39-0.37-0.37-1.06-0.37-1.44 0C9.59 3.96 7.6 5.66 5.51 5.66c-0.69 0-1.35-0.18-2.02-0.56-0.3-0.17-0.66-0.17-0.96-0.01s-0.50.46-0.530.8c-0.010.13-0.94 12.87 9.68 16.04a0.990.99 0 0 0 0.290.04H12c0.1 0 0.19-0.010.28-0.04 10.66-3.17 9.7-15.92 9.68-16.04a1 1 0 0 0-0.53-0.8zm-9.45 14.84c-6.98-2.25-7.93-9.41-8.01-12.480.510.14 1.020.21 1.540.21 2.49 0 4.65-1.57 6.48-3.28 1.89 1.79 3.98 3.3 6.44 3.30.53 0 1.06-0.07 1.58-0.22-0.07 3.07-1.02 10.22-8.02 12.47z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxShieldAlt2;

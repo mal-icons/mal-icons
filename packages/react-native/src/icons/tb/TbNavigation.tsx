@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbNavigation = createIcon("0 0 24 24", [["path",{"d":"M12 18.5l7.27 2.46c0.2 0.08 0.42 0.03 0.57 -0.12a0.55 0.55 0 0 0 0.13 -0.57l-7.97 -17.27l-7.97 17.27c-0.07 0.2 -0.02 0.42 0.14 0.57c0.15 0.15 0.37 0.19 0.57 0.12l7.27 -2.46"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbNavigation;

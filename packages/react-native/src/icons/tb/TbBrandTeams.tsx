@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandTeams = createIcon("0 0 24 24", [["path",{"d":"M3 7h10v10h-10l0 -10"}],["path",{"d":"M6 10h4"}],["path",{"d":"M8 10v4"}],["path",{"d":"M8.1 17c0.47 2.27 2.48 4 4.9 4a5 5 0 0 0 5 -5v-7h-5"}],["path",{"d":"M18 18a4 4 0 0 0 4 -4v-5h-4"}],["path",{"d":"M13 8.83a3 3 0 1 0 -1.83 -1.83"}],["path",{"d":"M15.83 8.36a2.5 2.5 0 1 0 0.59 -4.12"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandTeams;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbServer = createIcon("0 0 24 24", [["path",{"d":"M3 7a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3"}],["path",{"d":"M3 15a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3l0 -2"}],["path",{"d":"M7 8l0 0.01"}],["path",{"d":"M7 16l0 0.01"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbServer;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxHeartSquare = createIcon("0 0 24 24", [["path",{"d":"m12 17 4.19-4.19a2.75 2.75 0 0 0 0-3.91 2.75 2.75 0 0 0-3.91 0l-0.280.28-0.28-0.28a2.75 2.75 0 0 0-3.91 0 2.75 2.75 0 0 0 0 3.91L12 17z"}],["path",{"d":"M21 4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4zm-2 15H5V5h14v14z"}]]);
+
+export default BxHeartSquare;

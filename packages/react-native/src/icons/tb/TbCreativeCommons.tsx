@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbCreativeCommons = createIcon("0 0 24 24", [["path",{"d":"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}],["path",{"d":"M10.5 10.5c-0.85 -0.71 -2.13 -0.66 -2.91 0.12a1.93 1.93 0 0 0 0 2.77c0.78 0.77 2.07 0.83 2.91 0.12"}],["path",{"d":"M16.5 10.5c-0.85 -0.71 -2.13 -0.66 -2.91 0.12a1.93 1.93 0 0 0 0 2.77c0.78 0.77 2.07 0.83 2.91 0.12"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbCreativeCommons;

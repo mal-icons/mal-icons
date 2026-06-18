@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-mobile-vibration",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsMobileVibration {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M15.54 2.81a2 2 0 0 0-2.83 0l-9.9 9.9a2 2 0 0 0 0 2.83l5.66 5.66c0.390.390.90.59 1.410.59s1.02-0.19 1.41-0.58l9.9-9.9c0.78-0.780.78-2.05 0-2.83l-5.66-5.66zM8.71 16.71a11 0 1 1-1.41-1.4111 0 1 1 1.41 1.41zm7 5-1.41-1.41 6-6 1.41 1.42zM8.29 2.29l1.41 1.41-6 6-1.41-1.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsMobileVibration;

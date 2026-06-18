@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-car-crash",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsCarCrash {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M2.63 17.92a1.77 1.77 0 0 0 1.2 1.29l0.180.79H4v2h16v-2H6.68a0.840.84 0 0 0-0.01-0.28l-0.2-0.86 10.36-2.360.20.86a0.890.89 0 0 0 1.060.67l0.86-0.2a0.890.89 0 0 0 0.67-1.06l-0.25-1.1c0.45-0.420.67-1.050.53-1.68l-0.59-2.59a1.76 1.76 0 0 0-1.26-1.31l-2.05-3.38a2.77 2.77 0 0 0-2.98-1.26l-7.87 1.79a2.77 2.77 0 0 0-2.14 2.43l-0.39 3.93a1.76 1.76 0 0 0-0.57 1.72l0.59 2.59zm3.02-0.69a1.33 1.33 0 1 1-0.59-2.59 1.33 1.33 0 0 1 0.59 2.59zm11.22-2.55a1.33 1.33 0 1 1-0.59-2.59 1.33 1.33 0 0 1 0.59 2.59zM5.59 9.19l7.87-1.79a0.770.77 0 0 1 0.830.35l1.59 2.61-0.570.13-10.05 2.29-0.570.130.3-3.04a0.770.77 0 0 1 0.6-0.68zM18.41 4 17 2l-0.5 3L19 9l3 1-2-2.54 2-0.93-2-0.93L22 2z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsCarCrash;

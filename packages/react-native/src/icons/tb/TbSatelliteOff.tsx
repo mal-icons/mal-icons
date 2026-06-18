@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSatelliteOff = createIcon("0 0 24 24", [["path",{"d":"M7.71 3.71l5.59 5.59m-1.29 2.71l-1.29 1.29a1 1 0 0 1 -1.41 0l-5.59 -5.59a1 1 0 0 1 0 -1.41l1.29 -1.29"}],["path",{"d":"M6 10l-3 3l3 3l3 -3"}],["path",{"d":"M10 6l3 -3l3 3l-3 3"}],["path",{"d":"M12 12l1.5 1.5"}],["path",{"d":"M14.5 17c0.69 0 1.32 -0.28 1.77 -0.73"}],["path",{"d":"M15 21c1.65 0 3.15 -0.67 4.24 -1.75m1.51 -2.51a6 6 0 0 0 0.26 -1.74"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSatelliteOff;

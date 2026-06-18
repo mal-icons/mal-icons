@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-log-out-circle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxLogOutCircle {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m2 12 5 4v-3h9v-2H7V8z"}],["path",{"d":"M13 3a8.94 8.94 0 0 0-6.36 2.64L8.05 7.05c1.32-1.32 3.08-2.05 4.95-2.05s3.630.73 4.95 2.05 2.05 3.08 2.05 4.95-0.73 3.63-2.05 4.95-3.08 2.05-4.95 2.05-3.63-0.73-4.95-2.05l-1.41 1.41c1.7 1.7 3.96 2.64 6.36 2.64s4.67-0.94 6.36-2.64c1.7-1.7 2.64-3.96 2.64-6.36s-0.94-4.66-2.64-6.36a8.94 8.94 0 0 0-6.36-2.64z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxLogOutCircle;

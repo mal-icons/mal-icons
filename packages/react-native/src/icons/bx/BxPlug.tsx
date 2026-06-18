@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxPlug = createIcon("0 0 24 24", [["path",{"d":"M3 8h2v5c0 2.21 1.79 4 4 4h2v5h2v-5h2c2.21 0 4-1.79 4-4V8h2V6H3v2zm4 0h10v5c0 1.1-0.9 2-2 2H9c-1.1 0-2-0.9-2-2V8zm0-6h2v3H7zm8 0h2v3h-2z"}]]);
+
+export default BxPlug;

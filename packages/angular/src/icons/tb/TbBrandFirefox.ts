@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-brand-firefox",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBrandFirefox {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M4.03 7.82a9 9 0 1 0 12.82 -3.4c-1.64 -1.02 -3.06 -1.02 -4.85 -1.02h-1.65"}],["path",{"d":"M4.91 9.49c-1.76 -1.57 -0.8 -5.38 0.11 -6.17c0.09 0.9 0.59 1.21 1.11 1.69c0.88 -0.28 1.31 -0.28 1.87 0c0.82 -0.91 1.69 -2.35 2.63 -2.09c-1.08 1.74 -0.07 3.73 1.37 4.17c-0.17 0.98 -1.48 1.91 -2.76 2.69c-1.3 0.94 -0.72 1.85 0 2.23c0.95 0.51 3.61 -1 4.55 0.35c-1.7 0.1 -1.54 3.11 -3.98 2.73c2.52 0.96 4.35 0.46 5.46 -0.34c1.97 -1.52 2.88 -3.54 2.88 -5.56c-0.01 -1.4 0.19 -2.69 -1.26 -4.75"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBrandFirefox;

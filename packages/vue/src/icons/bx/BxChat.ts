@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxChat = createIcon("0 0 24 24", [["path",{"d":"M5 18v3.77l1.52-0.91L11.28 18H16c1.1 0 2-0.9 2-2V8c0-1.1-0.9-2-2-2H4c-1.1 0-2 0.9-2 2v8c0 1.10.9 2 2 2h1zM4 8h12v8h-5.28L7 18.23V16H4V8z"}],["path",{"d":"M20 2H8c-1.1 0-2 0.9-2 2h12c1.1 0 2 0.9 2 2v8c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2z"}]]);
+
+export default BxChat;

@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-hexagon-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbHexagonOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.69 4.69l2.34 -1.39a2.06 2.06 0 0 1 2 0l6 3.57h-0.03a2 2 0 0 1 1 1.75v6.54c0 0.25 -0.04 0.49 -0.13 0.71m-2.16 1.85l-4.74 3.03a2 2 0 0 1 -1.94 0l-6 -3.83a2 2 0 0 1 -1.03 -1.75v-6.54a2 2 0 0 1 1.03 -1.75l1.15 -0.69"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbHexagonOff;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbNeedleThread = createIcon("0 0 24 24", [["path",{"d":"M3 21c-0.67 -0.67 3.26 -6.24 11.79 -16.71a3.5 3.5 0 1 1 5.08 4.79c-10.57 8.61 -16.2 12.59 -16.86 11.92"}],["path",{"d":"M17.5 6.5l-1 1"}],["path",{"d":"M17 7c-2.33 -2.67 -3.5 -4 -5 -4s-2 1 -2 2c0 4 8.16 8.41 6 11c-1.06 1.27 -3.36 1.29 -5.75 0.81"}],["path",{"d":"M5.74 15.43c-1.39 -0.56 -3.74 -1.92 -3.74 -3.42"}],["path",{"d":"M19.5 9.5l1.5 1.5"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbNeedleThread;

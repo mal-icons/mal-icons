@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbParachuteOff = createIcon("0 0 24 24", [["path",{"d":"M22 12c0 -5.52 -4.48 -10 -10 -10c-1.74 0 -3.37 0.44 -4.79 1.22m-2.28 1.71a9.97 9.97 0 0 0 -2.93 7.07"}],["path",{"d":"M22 12c0 -1.66 -1.46 -3 -3.25 -3c-1.63 0 -2.97 1.1 -3.21 2.54m-0.1 -0.09c-0.23 -1.07 -1.12 -1.93 -2.29 -2.28m-3.44 0.57c-0.74 0.55 -1.21 1.36 -1.21 2.27c0 -1.66 -1.46 -3 -3.25 -3c-1.8 0 -3.25 1.34 -3.25 3"}],["path",{"d":"M2 12l10 10l-3.5 -10"}],["path",{"d":"M14.58 14.62l-2.58 7.38l4.99 -4.99m2.01 -2.01l3 -3"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbParachuteOff;

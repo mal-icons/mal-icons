@@ -291,6 +291,26 @@
       "bun": "./src/icons/si/index.ts",
       "import": "./dist/icons/si/index.js"
     },
+    "./bx": {
+      "types": "./dist/icons/bx/index.d.ts",
+      "bun": "./src/icons/bx/index.ts",
+      "import": "./dist/icons/bx/index.js"
+    },
+    "./bxl": {
+      "types": "./dist/icons/bxl/index.d.ts",
+      "bun": "./src/icons/bxl/index.ts",
+      "import": "./dist/icons/bxl/index.js"
+    },
+    "./bxs": {
+      "types": "./dist/icons/bxs/index.d.ts",
+      "bun": "./src/icons/bxs/index.ts",
+      "import": "./dist/icons/bxs/index.js"
+    },
+    "./tb": {
+      "types": "./dist/icons/tb/index.d.ts",
+      "bun": "./src/icons/tb/index.ts",
+      "import": "./dist/icons/tb/index.js"
+    },
     "./sl": {
       "types": "./dist/icons/sl/index.d.ts",
       "bun": "./src/icons/sl/index.ts",
@@ -300,6 +320,26 @@
       "types": "./dist/icons/si/*.d.ts",
       "bun": "./src/icons/si/*.ts",
       "import": "./dist/icons/si/*.js"
+    },
+    "./bx/*": {
+      "types": "./dist/icons/bx/*.d.ts",
+      "bun": "./src/icons/bx/*.ts",
+      "import": "./dist/icons/bx/*.js"
+    },
+    "./bxl/*": {
+      "types": "./dist/icons/bxl/*.d.ts",
+      "bun": "./src/icons/bxl/*.ts",
+      "import": "./dist/icons/bxl/*.js"
+    },
+    "./bxs/*": {
+      "types": "./dist/icons/bxs/*.d.ts",
+      "bun": "./src/icons/bxs/*.ts",
+      "import": "./dist/icons/bxs/*.js"
+    },
+    "./tb/*": {
+      "types": "./dist/icons/tb/*.d.ts",
+      "bun": "./src/icons/tb/*.ts",
+      "import": "./dist/icons/tb/*.js"
     },
     "./sl/*": {
       "types": "./dist/icons/sl/*.d.ts",

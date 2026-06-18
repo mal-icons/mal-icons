@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbVaccineOff = createIcon("0 0 24 24", [["path",{"d":"M17 3l4 4"}],["path",{"d":"M19 5l-4.5 4.5"}],["path",{"d":"M11.5 6.5l6 6"}],["path",{"d":"M16.5 11.5l-0.5 0.5m-2 2l-4 4h-4v-4l4 -4m2 -2l0.5 -0.5"}],["path",{"d":"M7.5 12.5l1.5 1.5"}],["path",{"d":"M3 21l3 -3"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbVaccineOff;

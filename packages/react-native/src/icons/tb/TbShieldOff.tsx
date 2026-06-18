@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbShieldOff = createIcon("0 0 24 24", [["path",{"d":"M17.67 17.67a12 12 0 0 1 -5.67 3.33a12 12 0 0 1 -8.5 -15c0.79 0.04 1.58 -0.01 2.36 -0.12m3.13 -0.93a12 12 0 0 0 3.02 -1.95a12 12 0 0 0 8.5 3a12 12 0 0 1 -1.12 9.38"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbShieldOff;

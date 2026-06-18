@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-database-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbDatabaseOff {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12.98 8.98c3.96 -0.18 7.02 -1.45 7.02 -2.98c0 -1.66 -3.58 -3 -8 -3c-1.66 0 -3.2 0.19 -4.48 0.52m-2.78 1.23c-0.47 0.38 -0.73 0.81 -0.73 1.26c0 1.22 1.94 2.27 4.73 2.74"}],["path",{"d":"M4 6v6c0 1.66 3.58 3 8 3c0.99 0 1.93 -0.07 2.8 -0.19m3.19 -0.82c1.25 -0.53 2.01 -1.23 2.01 -1.99v-6"}],["path",{"d":"M4 12v6c0 1.66 3.58 3 8 3c3.22 0 5.99 -0.71 7.26 -1.74m0.74 -3.26v-4"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbDatabaseOff;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbIkosaedr = createIcon("0 0 24 24", [["path",{"d":"M21 8.01v7.99a2 2 0 0 1 -1.01 1.74l-7 4.01a2 2 0 0 1 -1.99 0l-7 -4.01a2 2 0 0 1 -1.01 -1.73v-7.99a2 2 0 0 1 1.01 -1.73l7 -4.01a2 2 0 0 1 1.99 0l7 4.01a2 2 0 0 1 1.01 1.74"}],["path",{"d":"M3.29 6.97l4.21 2.03"}],["path",{"d":"M20.71 6.97l-4.21 2.03"}],["path",{"d":"M20.7 17h-17.4"}],["path",{"d":"M11.76 2.03l-4.26 6.97l-4.3 7.84"}],["path",{"d":"M12.24 2.03q 2.8 4.44 4.26 6.97t 4.3 7.84"}],["path",{"d":"M12 17l-4.5 -8h9l-4.5 8"}],["path",{"d":"M12 17v5"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbIkosaedr;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsDirectionLeft = createIcon("0 0 24 24", [["path",{"d":"m21.71 11.29-8.98-9a1 1 0 0 0-1.410l-9.02 9a1 1 0 0 0 0 1.42l9.02 9c0.390.39 1.030.39 1.420l8.98-9a11 0 0 0 0-1.41zM15 16h-2v-4h-3v2l-3-3 3-3v2h5v6z"}]]);
+
+export default BxsDirectionLeft;

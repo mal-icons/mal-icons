@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbBrandWebflow = createIcon("0 0 24 24", [["path",{"d":"M17 10s-1.38 3.61 -1.5 4c-0.05 -0.4 -1.5 -8 -1.5 -8c-2.63 0 -3.77 1.56 -4.5 3.5c0 0 -1.84 4.59 -2 5c-0.01 -0.37 -0.5 -4.5 -0.5 -4.5c-0.15 -2.37 -2.21 -3.98 -4 -3.98l2 12.98c2.75 -0.01 4.72 -1.56 5.5 -3.5c0 0 1.44 -4.3 1.5 -4.5c0.01 0.18 1 8 1 8c2.76 0 4.69 -1.63 5.5 -3.5l3.5 -9.5c-2.73 0 -4.25 2.06 -5 4"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbBrandWebflow;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbMessageCircleOff = createIcon("0 0 24 24", [["path",{"d":"M8.6 4.58c3.22 -1.18 7.03 -0.61 9.65 1.63c2.98 2.54 3.6 6.52 1.64 9.66m-1.91 2.11c-2.79 2.19 -6.89 2.67 -10.27 1.02l-4.7 1l1.3 -3.9c-2.23 -3.3 -1.49 -7.51 1.68 -10.06"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbMessageCircleOff;

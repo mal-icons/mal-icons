@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbHemisphereOff = createIcon("0 0 24 24", [["path",{"d":"M6.59 6.6c-2.18 0.55 -3.59 1.42 -3.59 2.4c0 1.66 4.03 3 9 3m3.72 -0.27c3.11 -0.47 5.28 -1.52 5.28 -2.73c0 -1.66 -4.03 -3 -9 -3c-0.66 0 -1.31 0.02 -1.93 0.07"}],["path",{"d":"M3 9a9 9 0 0 0 13.68 7.69m2.17 -1.84a8.97 8.97 0 0 0 2.16 -5.85"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbHemisphereOff;

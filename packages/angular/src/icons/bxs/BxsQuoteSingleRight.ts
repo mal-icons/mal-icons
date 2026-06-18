@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-quote-single-right",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsQuoteSingleRight {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.8 17.02 8 17.18V20h1c2.78 0 4.91-0.77 6.31-2.29C17.2 15.66 17.01 13.03 17 13V5a1 1 0 0 0-1-1H9c-1.1 0-2 0.9-2 2v7a1 1 0 0 0 1 1h4.08a2.89 2.89 0 0 1-0.43 1.4c-0.510.8-1.46 1.35-2.84 1.62z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsQuoteSingleRight;

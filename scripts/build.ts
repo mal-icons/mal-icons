@@ -363,6 +363,9 @@ async function buildReact(): Promise<void> {
   for (const set of [
     "ad",
     "bs",
+    "bx",
+    "bxl",
+    "bxs",
     "cg",
     "ci",
     "dev",
@@ -388,6 +391,7 @@ async function buildReact(): Promise<void> {
     "rx",
     "si",
     "sl",
+    "tb",
     "tf",
     "ti",
     "vsc",

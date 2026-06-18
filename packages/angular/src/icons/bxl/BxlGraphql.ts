@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-graphql",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlGraphql {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M20.1 14.56a2.07 2.07 0 0 0-0.47-0.18V9.62a1.64 1.64 0 0 0 0.48-0.18 1.78 1.78 0 0 0-1.78-3.09 1.62 1.62 0 0 0-0.410.32l-4.11-2.38a1.7 1.7 0 0 0 0.07-0.51 1.78 1.78 0 0 0-3.56 0 1.7 1.7 0 0 0 0.070.51L6.28 6.66a1.58 1.58 0 0 0-0.41-0.31 1.78 1.78 0 0 0-1.78 3.09 1.64 1.64 0 0 0 0.480.18v4.76a2.07 2.07 0 0 0-0.470.18 1.78 1.78 0 1 0 1.78 3.09 1.72 1.72 0 0 0 0.4-0.31l4.11 2.37a1.7 1.7 0 0 0-0.070.51 1.78 1.78 0 0 0 3.56 0 1.69 1.69 0 0 0-0.09-0.56l4.09-2.36a1.7 1.7 0 0 0 0.440.35 1.78 1.78 0 1 0 1.78-3.09zM6.72 15.69a1.72 1.72 0 0 0-0.19-0.47 1.53 1.53 0 0 0-0.31-0.4l5.38-9.33a1.82 1.82 0 0 0 1 0l5.4 9.33a1.53 1.53 0 0 0-0.310.4 1.72 1.72 0 0 0-0.190.47zM17.5 7.4a1.81 1.81 0 0 0 0.17 1.38 1.75 1.75 0 0 0 1.120.84v4.76h-0.07l-5.39-9.310.05-0.07zM10.82 5a0.120.12 0 0 0 0 0.05L5.48 14.4h-0.07V9.62a1.75 1.75 0 0 0 1.12-0.84A1.81 1.81 0 0 0 6.7 7.4zm2.6 14a1.78 1.78 0 0 0-1.32-0.58 1.75 1.75 0 0 0-1.280.54L6.7 16.6v-0.06h10.78v0.11z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlGraphql;

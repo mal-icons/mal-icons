@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandCoreos = createIcon("0 0 24 24", [["path",{"d":"M21 12a9 9 0 1 1 -18 0a9 9 0 0 1 18 0"}],["path",{"d":"M12 3c-3.26 3.21 -3 7.65 -3 12c4.59 0.24 8.81 -0.28 12 -3"}],["path",{"d":"M9.5 9a4.49 4.49 0 0 1 5.5 5.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandCoreos;

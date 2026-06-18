@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbArrowsDoubleNwSe = createIcon("0 0 24 24", [["path",{"d":"M14 21l-11 -11"}],["path",{"d":"M3 14v-4h4"}],["path",{"d":"M17 14h4v-4"}],["path",{"d":"M10 3l11 11"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbArrowsDoubleNwSe;

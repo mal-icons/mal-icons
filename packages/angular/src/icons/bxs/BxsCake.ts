@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-cake",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsCake {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 15c-1.6 0-2.45-0.68-3.12-1.22-0.57-0.45-0.98-0.78-1.88-0.78-0.9 0-1.290.31-1.870.78-0.680.54-1.52 1.22-3.12 1.22s-2.44-0.68-3.12-1.22C3.29 13.31 2.9 13 2 13v5c0 1.10.9 2 2 2h16c1.1 0 2-0.9 2-2v-5c-0.9 0-1.290.31-1.880.78-0.680.54-1.52 1.22-3.13 1.22zM19 5h-6V2h-2v3H5C3.35 5 2 6.35 2 8v3c1.6 0 2.440.68 3.12 1.220.590.470.980.78 1.870.780.9 0 1.29-0.31 1.88-0.780.68-0.54 1.52-1.22 3.12-1.22 1.6 0 2.450.68 3.13 1.220.590.470.980.78 1.880.780.9 0 1.31-0.33 1.88-0.78C19.55 11.68 20.4 11 22 11V8c0-1.65-1.35-3-3-3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsCake;

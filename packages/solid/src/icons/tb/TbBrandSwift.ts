@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbBrandSwift = createIcon("0 0 24 24", [["path",{"d":"M20.55 15.83c1.33 -4.13 -1.38 -9.52 -6.05 -12.83c-0.13 -0.1 2.39 6.7 1.31 9.12c-2.15 -1.45 -4.76 -3.49 -7.81 -6.12l-0.5 2l-3.5 -1c4.36 4.75 7.21 7.7 8.56 8.84c-4.66 2.09 -10.65 -0.98 -10.56 -0.84c1.02 1.55 6 6 11 6c2 0 3.79 -0.5 4.74 -1.39c0.01 0 0.43 -0.45 1.38 -0.17c0.5 0.15 1.46 0.67 2.88 1.56v-1.51c0 -1.38 -0.51 -2.67 -1.45 -3.66"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbBrandSwift;

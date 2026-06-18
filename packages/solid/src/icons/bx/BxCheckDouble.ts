@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxCheckDouble = createIcon("0 0 24 24", [["path",{"d":"m2.39 13.74 4.74 3.62 7.62-8.7-1.51-1.32-6.38 7.3-3.26-2.49zm19.36-5.08-1.51-1.32-6.37 7.28-0.75-0.6-1.25 1.56 2.25 1.8z"}]]);
+
+export default BxCheckDouble;

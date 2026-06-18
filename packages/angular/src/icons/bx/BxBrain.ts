@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-brain",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxBrain {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M19.86 8.47a3.51 3.51 0 0 0-3.03-4.45A3.01 3.01 0 0 0 14 2a2.98 2.98 0 0 0-2 0.78A2.98 2.98 0 0 0 10 2c-1.3 0-2.410.83-2.82 2.02a3.51 3.51 0 0 0-3.04 4.45A4.03 4.03 0 0 0 2 12c0 1.080.43 2.09 1.17 2.83A4.07 4.07 0 0 0 3 16c0 1.96 1.41 3.59 3.31 3.93A3.52 3.52 0 0 0 9.5 22c0.98 0 1.86-0.41 2.5-1.06A3.48 3.48 0 0 0 14.5 22a3.51 3.51 0 0 0 3.19-2.06 4.01 4.01 0 0 0 3.14-5.11A4 4 0 0 0 22 12a4.03 4.03 0 0 0-2.14-3.53zM9.5 20c-0.71 0-1.33-0.5-1.47-1.2L7.82 18H7c-1.1 0-2-0.9-2-2 0-0.350.09-0.680.25-0.98l0.46-0.82-0.78-0.51A2.02 2.02 0 0 1 4 12c0-0.980.72-1.82 1.68-1.97l1.69-0.26-1.06-1.35a1.5 1.5 0 0 1 1.5-2.39L9 6.21V5a1 1 0 0 1 2 0v13.5c0 0.83-0.67 1.5-1.5 1.5zm9.57-6.31-0.780.510.460.82c0.170.30.250.630.250.98 0 1.1-0.9 2-2.05 2h-0.82l-0.160.8A1.5 1.5 0 0 1 14.5 20c-0.83 0-1.5-0.67-1.5-1.5V5c0-0.550.45-1 1-1s1 0.45 1 1.05v1.21l1.19-0.22a1.5 1.5 0 0 1 1.5 2.39l-1.06 1.35 1.690.26A2 2 0 0 1 20 12c0 0.68-0.35 1.32-0.92 1.69z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxBrain;

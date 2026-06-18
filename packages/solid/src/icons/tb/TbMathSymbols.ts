@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbMathSymbols = createIcon("0 0 24 24", [["path",{"d":"M3 12l18 0"}],["path",{"d":"M12 3l0 18"}],["path",{"d":"M16.5 4.5l3 3"}],["path",{"d":"M19.5 4.5l-3 3"}],["path",{"d":"M6 4l0 4"}],["path",{"d":"M4 6l4 0"}],["path",{"d":"M18 16l0.01 0"}],["path",{"d":"M18 20l0.01 0"}],["path",{"d":"M4 18l4 0"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbMathSymbols;

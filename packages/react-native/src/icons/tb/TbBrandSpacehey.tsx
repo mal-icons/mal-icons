@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBrandSpacehey = createIcon("0 0 24 24", [["path",{"d":"M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M14 20h6v-6a3 3 0 0 0 -6 0v6"}],["path",{"d":"M11 8v2.5a3.5 3.5 0 0 1 -3.5 3.5h-0.5a3 3 0 0 1 0 -6h4"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBrandSpacehey;

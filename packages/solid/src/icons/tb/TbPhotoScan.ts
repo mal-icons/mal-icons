@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbPhotoScan = createIcon("0 0 24 24", [["path",{"d":"M15 8h0.01"}],["path",{"d":"M6 13l2.64 -2.64a1.21 1.21 0 0 1 1.71 0l3.64 3.64"}],["path",{"d":"M13 13l1.64 -1.64a1.21 1.21 0 0 1 1.71 0l1.64 1.64"}],["path",{"d":"M3 7v-2a2 2 0 0 1 2 -2h2"}],["path",{"d":"M3 17v2a2 2 0 0 0 2 2h2"}],["path",{"d":"M17 3h2a2 2 0 0 1 2 2v2"}],["path",{"d":"M17 21h2a2 2 0 0 0 2 -2v-2"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbPhotoScan;

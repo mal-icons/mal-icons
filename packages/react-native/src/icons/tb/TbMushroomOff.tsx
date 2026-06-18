@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbMushroomOff = createIcon("0 0 24 24", [["path",{"d":"M5.87 5.89a8.13 8.13 0 0 0 -1.87 5.21a0.9 0.9 0 0 0 0.9 0.9h7.1m4 0h3.1a0.9 0.9 0 0 0 0.9 -0.9c0 -4.47 -3.58 -8.1 -8 -8.1c-1.43 0 -2.77 0.38 -3.94 1.05"}],["path",{"d":"M10 12v7a2 2 0 1 0 4 0v-5"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbMushroomOff;

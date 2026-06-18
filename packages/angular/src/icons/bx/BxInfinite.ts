@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-infinite",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxInfinite {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17 7c-2.09 0-3.61 1.57-5 3.35C10.61 8.57 9.09 7 7 7c-2.76 0-5 2.24-5 5a4.98 4.98 0 0 0 1.46 3.53A4.96 4.96 0 0 0 6.99 17h0.01c2.090 3.61-1.57 5-3.35C13.39 15.43 14.91 17 17 17c2.76 0 5-2.24 5-5s-2.24-5-5-5zM7 15l-0.01 1v-1c-0.8 0-1.55-0.31-2.11-0.88A3 3 0 0 1 7 9c1.33 0 2.56 1.44 3.75 3C9.56 13.56 8.33 15 7 15zM17 15c-1.33 0-2.56-1.44-3.75-3C14.44 10.44 15.67 9 17 9c1.65 0 3 1.35 3 3s-1.35 3-3 3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxInfinite;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxPyramid = createIcon("0 0 24 24", [["path",{"d":"M11.45 21.83a1 1 0 0 0 1.11 0l9-6A11 0 0 0 21.8 14.4l-9-12c-0.38-0.5-1.22-0.5-1.6 0l-9 12a1 1 0 0 0 0.25 1.43l9 6zM13 19.13V6l6.57 8.75L13 19.13zM11 6v13.13l-6.56-4.38L11 6z"}]]);
+
+export default BxPyramid;

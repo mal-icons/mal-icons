@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbSailboatOff = createIcon("0 0 24 24", [["path",{"d":"M2 20a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1"}],["path",{"d":"M4 18l-1 -3h12m4 0h2l-0.51 1.52"}],["path",{"d":"M11 11v1h1m4 0h2l-7 -9v4"}],["path",{"d":"M7.71 7.72l-1.71 4.28"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbSailboatOff;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbSnowflakeOff = createIcon("0 0 24 24", [["path",{"d":"M10 4l2 1l2 -1"}],["path",{"d":"M12 2v6m1.2 1.19l1.8 1.03"}],["path",{"d":"M17.93 6.27l0.13 2.23l1.87 1.23"}],["path",{"d":"M20.66 7l-5.63 3.25l-0.03 0.75"}],["path",{"d":"M19.93 14.27l-1.01 0.67"}],["path",{"d":"M14.21 14.23l-2.17 1.26"}],["path",{"d":"M14 20l-2 -1l-2 1"}],["path",{"d":"M12 22v-6.5l-3 -1.72"}],["path",{"d":"M6.07 17.73l-0.13 -2.23l-1.87 -1.23"}],["path",{"d":"M3.34 17l5.63 -3.25l-0.01 -3.46"}],["path",{"d":"M4.07 9.73l1.87 -1.23l0.13 -2.23"}],["path",{"d":"M3.34 7l5.63 3.25l0.8 -0.47"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbSnowflakeOff;

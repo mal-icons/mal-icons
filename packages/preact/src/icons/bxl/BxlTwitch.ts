@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxlTwitch = createIcon("0 0 24 24", [["path",{"d":"M4.26 3 3 6.24v13.22h4.5V21l2.530.85 2.39-2.39h3.66l4.92-4.92V3H4.26zm15.05 10.69-2.81 2.81h-4.5l-2.39 2.39v-2.39H5.81V4.69h13.5v9zm-2.81-5.77v4.92h-1.69V7.92h1.69zm-4.5 0v4.92h-1.69V7.92h1.69z"}]]);
+
+export default BxlTwitch;

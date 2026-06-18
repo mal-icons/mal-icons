@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-visual-studio",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlVisualStudio {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m21.29 4.1-4.12-2a1.36 1.36 0 0 0-0.48-0.1h-0.08a1.18 1.18 0 0 0-0.720.24l-0.140.12-7.88 7.19L4.44 7a0.830.83 0 0 0-0.54-0.170.880.88 0 0 0-0.530.17l-1.1 1a0.80.8 0 0 0-0.270.610.840.84 0 0 0 0.270.62l3 2.71-3 2.72a0.840.84 0 0 0 0 1.23l1.1 1a0.890.89 0 0 0 0.60.220.930.93 0 0 0 0.47-0.17l3.43-2.61 7.88 7.19a1.2 1.2 0 0 0 0.760.36h0.17a1 1 0 0 0 0.49-0.12l4.12-2a1.25 1.25 0 0 0 0.71-1.1V5.23a1.26 1.26 0 0 0-0.71-1.13zM17 16.47l-6-4.53 6-4.53z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlVisualStudio;

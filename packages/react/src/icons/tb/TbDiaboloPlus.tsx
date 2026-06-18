@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbDiaboloPlus = createIcon("0 0 24 24", [["path",{"d":"M4 6a8 3 0 1 0 16 0a8 3 0 1 0 -16 0"}],["path",{"d":"M4 6v0.14a1 1 0 0 0 0.05 0.31l1.95 5.55l-1.96 5.67a1 1 0 0 0 -0.04 0.27v0.07c0 1.66 3.58 3 8 3c0.17 0 0.34 0 0.51 -0.01m5.49 -8.99l1.95 -5.55a1 1 0 0 0 0.05 -0.31v-0.14"}],["path",{"d":"M6 12c0 1.11 2.69 2 6 2s6 -0.89 6 -2"}],["path",{"d":"M16 19h6"}],["path",{"d":"M19 16v6"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbDiaboloPlus;

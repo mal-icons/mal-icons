@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const BxCoffee = createIcon("0 0 24 24", [["path",{"d":"M5 2h2v3H5zm4 0h2v3H9zm4 0h2v3h-2zm6 7h-2V7H3v11c0 1.65 1.35 3 3 3h8c1.65 0 3-1.35 3-3h2c1.1 0 2-0.9 2-2v-5c0-1.1-0.9-2-2-2zm-4 9a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V9h10v9zm2-2v-5h2l0 5H17z"}]]);
+
+export default BxCoffee;

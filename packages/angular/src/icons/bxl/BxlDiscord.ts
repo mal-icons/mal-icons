@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-discord",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlDiscord {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M9.59 10.97c-0.54 0-0.970.48-0.97 1.06 0 0.580.44 1.060.97 1.060.54 0 0.97-0.480.97-1.050.01-0.58-0.43-1.05-0.97-1.05zm3.47 0c-0.54 0-0.970.48-0.97 1.06 0 0.580.44 1.060.97 1.060.54 0 0.97-0.480.97-1.050-0.58-0.43-1.05-0.97-1.05z"}],["path",{"d":"M17.68 3H4.95A1.95 1.95 0 0 0 3 4.96v12.84c0 1.080.87 1.96 1.95 1.96H15.72l-0.5-1.76 1.22 1.13 1.15 1.06L19.63 22V4.96A1.95 1.95 0 0 0 17.68 3zM14.01 15.41s-0.34-0.41-0.63-0.77c1.24-0.35 1.72-1.13 1.72-1.13-0.390.26-0.760.44-1.090.56a6.68 6.68 0 0 1-3.840.4 7.94 7.94 0 0 1-1.4-0.41 5.4 5.4 0 0 1-0.69-0.32c-0.03-0.02-0.06-0.03-0.08-0.05a0.120.12 0 0 1-0.04-0.03c-0.17-0.09-0.27-0.16-0.27-0.16s0.460.76 1.66 1.12c-0.280.36-0.640.79-0.640.79-2.1-0.07-2.9-1.44-2.9-1.44 0-3.06 1.37-5.54 1.37-5.54 1.37-1.03 2.67-1 2.67-1l0.10.11c-1.710.5-2.5 1.25-2.5 1.25s0.21-0.110.56-0.28c1.02-0.45 1.82-0.57 2.16-0.60.06-0.010.11-0.020.16-0.02a7.76 7.76 0 0 1 4.780.89s-0.75-0.71-2.37-1.21l0.13-0.15s1.3-0.03 2.671c0 0 1.37 2.48 1.37 5.54 00-0.81 1.38-2.91 1.44z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlDiscord;

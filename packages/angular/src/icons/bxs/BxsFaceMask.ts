@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-face-mask",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsFaceMask {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2C6.49 2 2 6.49 2 12c0 2.520.95 4.82 2.49 6.58 1.24 1.52 3.27 3.07 6.44 3.36a9.73 9.73 0 0 0 2.14 0c3.17-0.29 5.2-1.84 6.44-3.36A9.95 9.95 0 0 0 22 12c0-5.51-4.49-10-10-10zM4.71 8.72c0.150.090.310.180.460.280.40.250.790.5 1.290.690.490.19 1.090.31 1.880.310.79 0 1.39-0.12 1.88-0.31s0.89-0.44 1.29-0.690.79-0.5 1.29-0.69c0.49-0.19 1.09-0.31 1.88-0.31s1.390.13 1.880.31c0.50.190.890.44 1.290.69s0.790.5 1.290.69c0.180.070.370.120.580.170.190.680.3 1.40.3 2.14 0 0.84-0.13 1.65-0.37 2.42-0.260.2-0.730.47-1.580.76-0.770.26-1.670.46-2.680.6a25.34 25.34 0 0 1-6.73 0c-1.01-0.14-1.92-0.35-2.68-0.6-0.84-0.28-1.32-0.56-1.58-0.76a7.95 7.95 0 0 1 0.34-5.69z"}],["circle",{"cx":"8.5","cy":"12.5","r":"1.5"}],["circle",{"cx":"15.5","cy":"12.5","r":"1.5"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsFaceMask;

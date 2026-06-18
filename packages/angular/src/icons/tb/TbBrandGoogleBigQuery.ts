@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-brand-google-big-query",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbBrandGoogleBigQuery {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M17.73 19.88a2.23 2.23 0 0 1 -1.95 1.13h-7.28a2.22 2.22 0 0 1 -1.95 -1.16l-4.27 -6.75a2.27 2.27 0 0 1 0 -2.18l4.27 -6.75a2.23 2.23 0 0 1 1.95 -1.16h7.29c0.81 0 1.55 0.44 1.95 1.16l3.98 6.75a2.33 2.33 0 0 1 0 2.25l-3.98 6.75v-0.03"}],["path",{"d":"M8 11.5a3.5 3.5 0 1 0 7 0a3.5 3.5 0 1 0 -7 0"}],["path",{"d":"M14 14l2 2"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbBrandGoogleBigQuery;

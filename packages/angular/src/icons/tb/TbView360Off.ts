@@ -1,0 +1,22 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-tb-view-360-off",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class TbView360Off {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M8.34 8.39a19 19 0 0 0 -0.33 3.61c0 4.97 1.79 9 4 9c1.62 0 3.02 -2.17 3.65 -5.29m0.35 -3.71c0 -4.97 -1.79 -9 -4 -9c-1.03 0 -1.98 0.89 -2.69 2.34"}],["path",{"d":"M5.65 5.62a9 9 0 1 0 12.71 12.75m1.68 -2.33a9 9 0 0 0 -12.09 -12.08"}],["path",{"d":"M8.32 8.35c-3.14 0.63 -5.32 2.03 -5.32 3.65c0 2.21 4.03 4 9 4c1.29 0 2.51 -0.12 3.62 -0.34m3.06 -0.98c1.45 -0.71 2.33 -1.65 2.33 -2.68c0 -2.21 -4.03 -4 -9 -4"}],["path",{"d":"M3 3l18 18"}]];
+  readonly defaultAttr = {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"};
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default TbView360Off;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-store-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxStoreAlt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M22 5c0-1.65-1.35-3-3-3H5C3.35 2 2 3.35 2 5v2.83c0 1.050.38 2.01 1 2.75V19c0 1.10.9 2 2 2h14c1.1 0 2-0.9 2-2v-8.42c0.62-0.73 1-1.69 1-2.75V5zm-2 0v2.83c0 1.14-0.85 2.11-1.89 2.17L18 10c-1.1 0-2-0.9-2-2V4h3c0.55 0 1 0.45 1 1zM10 4h4v4c0 1.1-0.9 2-2 2s-2-0.9-2-2V4zM4 5c0-0.550.45-1 1-1h3v4c0 1.1-0.9 2-2 2l-0.110C4.85 9.94 4 8.97 4 7.83V5zm6 14v-3h4v3h-4zm6 0v-3c0-1.1-0.9-2-2-2h-4c-1.1 0-2 0.9-2 2v3H5v-7.13c0.250.070.520.110.790.13A3.99 3.99 0 0 0 9 10.64c0.730.83 1.81 1.36 3 1.36s2.27-0.52 3-1.36a3.99 3.99 0 0 0 3.21 1.35c0.27-0.010.53-0.060.79-0.12V19h-3z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxStoreAlt;

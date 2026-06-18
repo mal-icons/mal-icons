@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-station",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxStation {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["circle",{"cx":"12","cy":"12","r":"2"}],["path",{"d":"m7.76 16.24 1.41-1.41a3.97 3.97 0 0 1-1.17-2.83c0-1.070.42-2.07 1.17-2.82L7.76 7.76a5.96 5.96 0 0 0-1.76 4.24c0 1.60.63 3.11 1.76 4.25zm8.48 0A5.96 5.96 0 0 0 18 12a5.96 5.96 0 0 0-1.76-4.24l-1.41 1.41C15.58 9.93 16 10.93 16 12s-0.42 2.07-1.17 2.83l1.41 1.41z"}],["path",{"d":"M6.34 17.66a7.95 7.95 0 0 1-2.35-5.66c0-2.140.83-4.14 2.35-5.65L4.93 4.93c-1.89 1.89-2.93 4.4-2.93 7.07s1.04 5.18 2.93 7.07l1.41-1.41zM17.66 6.34A7.95 7.95 0 0 1 20 12a7.95 7.95 0 0 1-2.34 5.66l1.41 1.41A9.93 9.93 0 0 0 22 12a9.93 9.93 0 0 0-2.93-7.07l-1.41 1.41z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxStation;

@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bx-right-down-arrow-circle",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxRightDownArrowCircle {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M12 2.01a9.93 9.93 0 0 0-7.07 2.92c-3.9 3.9-3.9 10.24 0 14.14A9.93 9.93 0 0 0 12 22a9.93 9.93 0 0 0 7.07-2.92c3.9-3.9 3.9-10.24 0-14.14A9.93 9.93 0 0 0 12 2.01zm5.66 15.65A7.95 7.95 0 0 1 12 19.99c-2.14 0-4.15-0.83-5.66-2.34-3.12-3.12-3.12-8.19 0-11.31A7.94 7.94 0 0 1 12 4.01c2.14 0 4.150.83 5.66 2.34 3.12 3.12 3.12 8.2 0 11.31z"}],["path",{"d":"M9.66 8.25 8.25 9.66l3.21 3.21L9.34 15H15V9.34l-2.12 2.12z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxRightDownArrowCircle;

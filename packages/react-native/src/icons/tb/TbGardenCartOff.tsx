@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbGardenCartOff = createIcon("0 0 24 24", [["path",{"d":"M15.73 15.73a2.5 2.5 0 1 0 3.54 3.53"}],["path",{"d":"M6 8v11a1 1 0 0 0 1.81 0.59l3.69 -5.09v0.06"}],["path",{"d":"M6 8h2m4 0h9l-3 6.01m-3.32 0.69l-4.28 -0.45a4 4 0 0 1 -3.3 -2.49l-2.85 -7.13a1 1 0 0 0 -0.93 -0.63h-1.32"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbGardenCartOff;

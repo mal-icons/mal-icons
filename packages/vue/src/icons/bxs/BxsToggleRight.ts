@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsToggleRight = createIcon("0 0 24 24", [["path",{"d":"M16 6H8c-3.3 0-5.98 2.68-6 5.99v0.04A6.01 6.01 0 0 0 8 18h8c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 9c-1.63 0-3-1.37-3-3s1.37-3 3-3 3 1.37 3 3-1.37 3-3 3z"}]]);
+
+export default BxsToggleRight;

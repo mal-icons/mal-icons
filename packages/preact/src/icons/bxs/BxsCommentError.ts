@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxsCommentError = createIcon("0 0 24 24", [["path",{"d":"M20 2H4c-1.1 0-2 0.9-2 2v18l4-4h14c1.1 0 2-0.9 2-2V4c0-1.1-0.9-2-2-2zm-7 13h-2v-2h2v2zm0-4h-2V5h2v6z"}]]);
+
+export default BxsCommentError;

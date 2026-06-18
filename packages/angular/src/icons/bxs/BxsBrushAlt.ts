@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-brush-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsBrushAlt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18 8h-2V8h-1V5a2.92 2.92 0 0 0-0.87-2.11 2.94 2.94 0 0 0-2.39-0.88C10.2 2.14 9 3.51 9 5.12V8H6c-1.1 0-2 0.9-2 2v11a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V10c0-1.1-0.9-2-2-2zM6 12v-2h5V5.12c0-0.570.41-1.07 1-1.120.27 0 0.510.10.710.31a0.960.96 0 0 1 0.290.69V10h1l0.010h4V12H6z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsBrushAlt;

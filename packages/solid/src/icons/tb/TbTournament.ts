@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbTournament = createIcon("0 0 24 24", [["path",{"d":"M2 4a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M18 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M2 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M2 20a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"}],["path",{"d":"M6 12h3a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-3"}],["path",{"d":"M6 4h7a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-2"}],["path",{"d":"M14 10h4"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbTournament;

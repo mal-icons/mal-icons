@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbCurrencyEuroOff = createIcon("0 0 24 24", [["path",{"d":"M17.2 7c-1.98 -2.26 -4.95 -2.6 -7.23 -1.04m-1.91 2.08c-1.6 2.72 -1.37 6.47 0.69 8.89c2.29 2.69 6 2.76 8.36 0.18"}],["path",{"d":"M10 10h-5m0 4h8"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbCurrencyEuroOff;

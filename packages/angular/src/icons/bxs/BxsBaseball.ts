@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-baseball",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsBaseball {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M21.98 12.24a9.97 9.97 0 0 0-2.91-7.31 9.97 9.97 0 0 0-7.31-2.91 9.04 9.04 0 0 1-0.67 4.31l-1.84-0.78a7.04 7.04 0 0 0 0.53-3.28 9.93 9.93 0 0 0-4.85 2.67 9.92 9.92 0 0 0-2.67 4.85 7.08 7.08 0 0 0 2.58-0.28l0.57 1.92c-1.10.33-2.260.44-3.40.34a9.96 9.96 0 0 0 2.91 7.31 9.97 9.97 0 0 0 7.31 2.91 9.08 9.08 0 0 1 0.34-3.4l1.920.57a7.06 7.06 0 0 0-0.28 2.58 9.93 9.93 0 0 0 4.85-2.67 9.93 9.93 0 0 0 2.67-4.85 7.06 7.06 0 0 0-3.280.53l-0.78-1.84a9.03 9.03 0 0 1 4.31-0.67zM9.17 9.17a9.02 9.02 0 0 1-2.19 1.61l-0.93-1.77a7.01 7.01 0 0 0 2.58-2.31l1.66 1.11c-0.330.49-0.70.95-1.12 1.36zm7.07 7.07a6.99 6.99 0 0 0-1.26 1.71l-1.77-0.93a9.03 9.03 0 0 1 2.97-3.31l1.11 1.66a6.99 6.99 0 0 0-1.060.87z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsBaseball;

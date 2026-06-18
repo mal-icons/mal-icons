@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbCredits = createIcon("0 0 24 24", [["path",{"d":"M3 14a6 2 0 1 0 12 0a6 2 0 1 0 -12 0"}],["path",{"d":"M3 14v5c0 1.11 2.69 2 6 2s6 -0.89 6 -2v-5"}],["path",{"d":"M9 5a6 2 0 1 0 12 0a6 2 0 1 0 -12 0"}],["path",{"d":"M9 5v3"}],["path",{"d":"M18.36 11.66c1.59 -0.36 2.64 -0.97 2.64 -1.66v-5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbCredits;

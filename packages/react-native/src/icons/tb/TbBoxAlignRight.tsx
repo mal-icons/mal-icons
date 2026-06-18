@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBoxAlignRight = createIcon("0 0 24 24", [["path",{"d":"M14 20v-16h5a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-5"}],["path",{"d":"M9 20h0.01"}],["path",{"d":"M4 20h0.01"}],["path",{"d":"M4 15h0.01"}],["path",{"d":"M4 9h0.01"}],["path",{"d":"M4 4h0.01"}],["path",{"d":"M9 4h0.01"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBoxAlignRight;

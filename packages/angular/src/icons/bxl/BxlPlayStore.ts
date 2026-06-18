@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxl-play-store",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxlPlayStore {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"m12.95 11.62 2.96-2.96L6.36 3.29c-0.63-0.34-1.23-0.39-1.75-0.02l8.34 8.34zm3.46 3.46 3.07-1.73c0.6-0.340.93-0.810.93-1.34 0-0.53-0.33-1-0.93-1.34l-2.78-1.56-3.13 3.13 2.84 2.84zM4.1 4c-0.060.2-0.10.42-0.10.66v14.71c0 0.380.080.710.240.97l8.1-8.1L4.1 4zm8.85 8.86L4.9 20.91c0.150.060.320.090.50.090.31 0 0.64-0.090.97-0.28l9.26-5.2-2.67-2.67z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxlPlayStore;

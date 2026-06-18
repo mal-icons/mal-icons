@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbRectangularPrism = createIcon("0 0 24 24", [["path",{"d":"M21 14.01v-5.02a1.98 1.98 0 0 0 -1 -1.72l-4 -2.01a2.02 2.02 0 0 0 -2 0l-10 5.01c-0.62 0.36 -1 1.01 -1 1.72v5.02c0 0.71 0.38 1.36 1 1.72l4 2.01a2.02 2.02 0 0 0 2 0l10 -5.01c0.62 -0.35 1 -1.01 1 -1.72"}],["path",{"d":"M9 21v-7.5"}],["path",{"d":"M9 13.5l11.5 -5.5"}],["path",{"d":"M3.5 11l5.5 2.5"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbRectangularPrism;

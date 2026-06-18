@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbIroningOff = createIcon("0 0 24 24", [["path",{"d":"M10 6h6.46a3 3 0 0 1 2.96 2.51l0.58 3.46l0.8 4.82l0.01 0.04m-2.81 1.16h-15a7 7 0 0 1 7 -7h1m4 0h4.8"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbIroningOff;

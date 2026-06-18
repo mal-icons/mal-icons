@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbCakeOff = createIcon("0 0 24 24", [["path",{"d":"M21 17v-5a3 3 0 0 0 -3 -3h-5m-4 0h-3a3 3 0 0 0 -3 3v8h17"}],["path",{"d":"M3 14.8c0.31 0.14 0.65 0.2 1 0.2a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1m4 0a2.4 2.4 0 0 0 2 1c0.35 0.01 0.69 -0.06 1 -0.2"}],["path",{"d":"M10.17 6.19c0.07 -0.16 0.16 -0.31 0.28 -0.45l1.55 -1.74l1.47 1.64a2 2 0 0 1 -0.65 3.19"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbCakeOff;

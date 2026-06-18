@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbLifebuoy = createIcon("0 0 24 24", [["path",{"d":"M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"}],["path",{"d":"M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"}],["path",{"d":"M15 15l3.35 3.35"}],["path",{"d":"M9 15l-3.35 3.35"}],["path",{"d":"M5.65 5.65l3.35 3.35"}],["path",{"d":"M18.35 5.65l-3.35 3.35"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbLifebuoy;

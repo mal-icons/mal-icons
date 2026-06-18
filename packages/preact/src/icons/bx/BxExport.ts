@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxExport = createIcon("0 0 24 24", [["path",{"d":"M11 16h2V7h3l-4-5-4 5h3z"}],["path",{"d":"M5 22h14c1.1 0 2-0.9 2-2v-9c0-1.1-0.9-2-2-2h-4v2h4v9H5v-9h4V9H5c-1.1 0-2 0.9-2 2v9c0 1.10.9 2 2 2z"}]]);
+
+export default BxExport;

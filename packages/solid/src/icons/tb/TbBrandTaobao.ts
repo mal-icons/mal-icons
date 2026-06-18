@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const TbBrandTaobao = createIcon("0 0 24 24", [["path",{"d":"M2 5c0.97 0.56 1.34 1.1 2 2"}],["path",{"d":"M2 10c5.01 3.67 2.85 6.54 0 10"}],["path",{"d":"M10 4c-0.14 4.14 -2.26 5.29 -3.71 6.68"}],["path",{"d":"M10 6c2.19 -0.8 3.74 -0.85 6.06 -0.99c4.21 -0.16 5.52 2.26 5.8 5.15c0.43 4.4 -0.08 7.19 -2.12 9.3c-1.19 1.23 -3.24 2.62 -7.21 0.26"}],["path",{"d":"M11 10h6"}],["path",{"d":"M13 10v6.49"}],["path",{"d":"M8 13h10"}],["path",{"d":"M16 15.51l0.85 1.72"}],["path",{"d":"M16.5 17c-1.14 0.36 -7 3 -8.5 -0.5"}],["path",{"d":"M11.77 8.54l-1.76 2.46"}]], {"fill":"none","stroke-width":2,"stroke-linecap":"round","stroke-linejoin":"round"});
+
+export default TbBrandTaobao;

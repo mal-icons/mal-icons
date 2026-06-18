@@ -1,0 +1,21 @@
+import { ChangeDetectionStrategy, Component, Input } from "@angular/core";
+import type { NodeTuple } from "@mal-icons/core";
+import { IconBaseComponent } from "../../icon-base.ts";
+
+@Component({
+  selector: "mal-bxs-watch-alt",
+  standalone: true,
+  imports: [IconBaseComponent],
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: `<mal-icons [viewBox]="viewBox" [nodes]="nodes" [defaultAttr]="defaultAttr" [size]="size" [color]="color" [title]="title" [className]="className"></mal-icons>`,
+})
+class BxsWatchAlt {
+  readonly viewBox = "0 0 24 24";
+  readonly nodes: NodeTuple[] = [["path",{"d":"M18 8c0-0.91-0.61-1.67-1.44-1.91l-1.31-3.44A1 1 0 0 0 14.31 2H8.69a1 1 0 0 0-0.930.65l-1.31 3.44A2 2 0 0 0 5 8v8c0 0.910.61 1.67 1.45 1.91l1.31 3.44a1 1 0 0 0 0.930.65h5.62c0.42 0 0.79-0.260.94-0.64l1.31-3.44A2 2 0 0 0 18 16v-2h1v-4h-1V8zm-2 8H7V8h9l0 8z"}]];
+  @Input() size?: string | number;
+  @Input() color?: string;
+  @Input() title?: string;
+  @Input() className?: string;
+}
+
+export default BxsWatchAlt;

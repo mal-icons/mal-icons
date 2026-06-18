@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbBlurOff = createIcon("0 0 24 24", [["path",{"d":"M12 3v5m0 4v8"}],["path",{"d":"M5.64 5.63a9 9 0 1 0 12.72 12.74m1.68 -2.32a9 9 0 0 0 -12.07 -12.1"}],["path",{"d":"M16 12h5"}],["path",{"d":"M13 9h7"}],["path",{"d":"M12 6h6"}],["path",{"d":"M12 18h6"}],["path",{"d":"M12 15h3m4 0h1"}],["path",{"d":"M3 3l18 18"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbBlurOff;

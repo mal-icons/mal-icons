@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.ts";
+
+const BxStopwatch = createIcon("0 0 24 24", [["path",{"d":"M12 5c-4.41 0-8 3.59-8 8s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"}],["path",{"d":"M11 9h2v5h-2zM9 2h6v2H9zm10.29 5.71-2-2 1.41-1.41 2 2z"}]]);
+
+export default BxStopwatch;

@@ -1,0 +1,5 @@
+import { createIcon } from "../../create-icon.tsx";
+
+const TbMoodEdit = createIcon("0 0 24 24", [["path",{"d":"M20.96 11.1a9 9 0 1 0 -9.89 9.85"}],["path",{"d":"M9 10h0.01"}],["path",{"d":"M15 10h0.01"}],["path",{"d":"M9.5 15c0.66 0.67 1.56 1 2.5 1c0.13 0 0.25 -0.01 0.38 -0.02"}],["path",{"d":"M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39"}]], {"fill":"none","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round"});
+
+export default TbMoodEdit;
