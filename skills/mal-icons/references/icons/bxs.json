@@ -1,0 +1,6012 @@
+{
+  "set": {
+    "id": "bxs",
+    "name": "Boxicons Solid",
+    "prefix": "Bxs",
+    "version": "2.1.4",
+    "license": "CC-BY-4.0",
+    "repo": "box-icons/boxicons",
+    "style": "fill",
+    "viewBox": "0 0 24 24"
+  },
+  "count": 665,
+  "icons": [
+    {
+      "name": "BxsAddToQueue",
+      "tags": [
+        "add",
+        "fill",
+        "queue",
+        "to"
+      ],
+      "description": "Add To Queue icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAdjust",
+      "tags": [
+        "adjust",
+        "fill"
+      ],
+      "description": "Adjust icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAdjustAlt",
+      "tags": [
+        "adjust",
+        "alt",
+        "fill"
+      ],
+      "description": "Adjust Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAlarm",
+      "tags": [
+        "alarm",
+        "fill"
+      ],
+      "description": "Alarm icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAlarmAdd",
+      "tags": [
+        "add",
+        "alarm",
+        "fill"
+      ],
+      "description": "Alarm Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAlarmExclamation",
+      "tags": [
+        "alarm",
+        "exclamation",
+        "fill"
+      ],
+      "description": "Alarm Exclamation icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAlarmOff",
+      "tags": [
+        "alarm",
+        "fill",
+        "hide",
+        "off"
+      ],
+      "description": "Alarm Off icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAlarmSnooze",
+      "tags": [
+        "alarm",
+        "fill",
+        "snooze"
+      ],
+      "description": "Alarm Snooze icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAlbum",
+      "tags": [
+        "album",
+        "fill"
+      ],
+      "description": "Album icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAmbulance",
+      "tags": [
+        "ambulance",
+        "fill"
+      ],
+      "description": "Ambulance icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAnalyse",
+      "tags": [
+        "analyse",
+        "fill"
+      ],
+      "description": "Analyse icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsAngry",
+      "tags": [
+        "angry",
+        "fill"
+      ],
+      "description": "Angry icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsArch",
+      "tags": [
+        "arch",
+        "fill"
+      ],
+      "description": "Arch icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsArchive",
+      "tags": [
+        "archive",
+        "fill"
+      ],
+      "description": "Archive icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsArchiveIn",
+      "tags": [
+        "archive",
+        "fill",
+        "in"
+      ],
+      "description": "Archive In icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsArchiveOut",
+      "tags": [
+        "archive",
+        "fill",
+        "out"
+      ],
+      "description": "Archive Out icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsArea",
+      "tags": [
+        "area",
+        "fill"
+      ],
+      "description": "Area icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsArrowFromBottom",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "from"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsArrowFromLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "from",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsArrowFromRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "from",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsArrowFromTop",
+      "tags": [
+        "arrow",
+        "fill",
+        "from",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsArrowToBottom",
+      "tags": [
+        "arrow",
+        "bottom",
+        "fill",
+        "to"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsArrowToLeft",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "to"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsArrowToRight",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "to"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsArrowToTop",
+      "tags": [
+        "arrow",
+        "fill",
+        "to",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsAward",
+      "tags": [
+        "award",
+        "fill"
+      ],
+      "description": "Award icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBabyCarriage",
+      "tags": [
+        "baby",
+        "carriage",
+        "fill"
+      ],
+      "description": "Baby Carriage icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBackpack",
+      "tags": [
+        "backpack",
+        "fill"
+      ],
+      "description": "Backpack icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBadge",
+      "tags": [
+        "badge",
+        "fill"
+      ],
+      "description": "Badge icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBadgeCheck",
+      "tags": [
+        "badge",
+        "check",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsBadgeDollar",
+      "tags": [
+        "badge",
+        "dollar",
+        "fill"
+      ],
+      "description": "Badge Dollar icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBaguette",
+      "tags": [
+        "baguette",
+        "fill"
+      ],
+      "description": "Baguette icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBall",
+      "tags": [
+        "ball",
+        "fill"
+      ],
+      "description": "Ball icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBalloon",
+      "tags": [
+        "balloon",
+        "fill"
+      ],
+      "description": "Balloon icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBandAid",
+      "tags": [
+        "aid",
+        "band",
+        "fill"
+      ],
+      "description": "Band Aid icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBank",
+      "tags": [
+        "bank",
+        "fill"
+      ],
+      "description": "Bank icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBarChartAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "bar",
+        "chart",
+        "fill"
+      ],
+      "description": "Bar Chart Alt 2 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBarChartSquare",
+      "tags": [
+        "bar",
+        "chart",
+        "fill",
+        "square"
+      ],
+      "description": "Bar Chart Square icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBarcode",
+      "tags": [
+        "barcode",
+        "fill"
+      ],
+      "description": "Barcode icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBaseball",
+      "tags": [
+        "baseball",
+        "fill"
+      ],
+      "description": "Baseball icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBasket",
+      "tags": [
+        "basket",
+        "fill"
+      ],
+      "description": "Basket icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBasketball",
+      "tags": [
+        "basketball",
+        "fill"
+      ],
+      "description": "Basketball icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBath",
+      "tags": [
+        "bath",
+        "fill"
+      ],
+      "description": "Bath icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBattery",
+      "tags": [
+        "battery",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "BxsBatteryCharging",
+      "tags": [
+        "battery",
+        "charging",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "BxsBatteryFull",
+      "tags": [
+        "battery",
+        "fill",
+        "full"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "BxsBatteryLow",
+      "tags": [
+        "battery",
+        "fill",
+        "low"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "BxsBed",
+      "tags": [
+        "bed",
+        "fill"
+      ],
+      "description": "Bed icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBeenHere",
+      "tags": [
+        "been",
+        "fill",
+        "here"
+      ],
+      "description": "Been Here icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBeer",
+      "tags": [
+        "beer",
+        "fill"
+      ],
+      "description": "Beer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBell",
+      "tags": [
+        "bell",
+        "fill",
+        "notification"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "BxsBellMinus",
+      "tags": [
+        "bell",
+        "fill",
+        "minus",
+        "notification",
+        "remove"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "BxsBellOff",
+      "tags": [
+        "bell",
+        "fill",
+        "hide",
+        "notification",
+        "off"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "BxsBellPlus",
+      "tags": [
+        "add",
+        "bell",
+        "fill",
+        "notification",
+        "plus"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "BxsBellRing",
+      "tags": [
+        "bell",
+        "fill",
+        "notification",
+        "ring"
+      ],
+      "description": "Bell — notifications and alerts."
+    },
+    {
+      "name": "BxsBible",
+      "tags": [
+        "bible",
+        "fill"
+      ],
+      "description": "Bible icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBinoculars",
+      "tags": [
+        "binoculars",
+        "fill"
+      ],
+      "description": "Binoculars icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBlanket",
+      "tags": [
+        "blanket",
+        "fill"
+      ],
+      "description": "Blanket icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBolt",
+      "tags": [
+        "bolt",
+        "fill"
+      ],
+      "description": "Bolt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBoltCircle",
+      "tags": [
+        "bolt",
+        "circle",
+        "fill"
+      ],
+      "description": "Bolt Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBomb",
+      "tags": [
+        "bomb",
+        "fill"
+      ],
+      "description": "Bomb icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBone",
+      "tags": [
+        "bone",
+        "fill"
+      ],
+      "description": "Bone icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBong",
+      "tags": [
+        "bong",
+        "fill"
+      ],
+      "description": "Bong icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBook",
+      "tags": [
+        "book",
+        "fill"
+      ],
+      "description": "Book icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBookAdd",
+      "tags": [
+        "add",
+        "book",
+        "fill"
+      ],
+      "description": "Book Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBookAlt",
+      "tags": [
+        "alt",
+        "book",
+        "fill"
+      ],
+      "description": "Book Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBookBookmark",
+      "tags": [
+        "book",
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookContent",
+      "tags": [
+        "book",
+        "content",
+        "fill"
+      ],
+      "description": "Book Content icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBookHeart",
+      "tags": [
+        "book",
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "BxsBookmark",
+      "tags": [
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookmarkAlt",
+      "tags": [
+        "alt",
+        "bookmark",
+        "fill"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookmarkAltMinus",
+      "tags": [
+        "alt",
+        "bookmark",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookmarkAltPlus",
+      "tags": [
+        "add",
+        "alt",
+        "bookmark",
+        "fill",
+        "plus"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookmarkHeart",
+      "tags": [
+        "bookmark",
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookmarkMinus",
+      "tags": [
+        "bookmark",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookmarkPlus",
+      "tags": [
+        "add",
+        "bookmark",
+        "fill",
+        "plus"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookmarks",
+      "tags": [
+        "bookmarks",
+        "fill"
+      ],
+      "description": "Bookmarks icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBookmarkStar",
+      "tags": [
+        "bookmark",
+        "fill",
+        "star"
+      ],
+      "description": "Bookmark/ribbon — save-for-later and reading lists."
+    },
+    {
+      "name": "BxsBookOpen",
+      "tags": [
+        "book",
+        "fill",
+        "open"
+      ],
+      "description": "Book Open icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBookReader",
+      "tags": [
+        "book",
+        "fill",
+        "reader"
+      ],
+      "description": "Book Reader icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBot",
+      "tags": [
+        "bot",
+        "fill"
+      ],
+      "description": "Bot icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBowlHot",
+      "tags": [
+        "bowl",
+        "fill",
+        "hot"
+      ],
+      "description": "Bowl Hot icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBowlingBall",
+      "tags": [
+        "ball",
+        "bowling",
+        "fill"
+      ],
+      "description": "Bowling Ball icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBowlRice",
+      "tags": [
+        "bowl",
+        "fill",
+        "rice"
+      ],
+      "description": "Bowl Rice icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBox",
+      "tags": [
+        "box",
+        "fill"
+      ],
+      "description": "Box icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBrain",
+      "tags": [
+        "brain",
+        "fill"
+      ],
+      "description": "Brain icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBriefcase",
+      "tags": [
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBriefcaseAlt",
+      "tags": [
+        "alt",
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBriefcaseAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "briefcase",
+        "fill"
+      ],
+      "description": "Briefcase Alt 2 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBrightness",
+      "tags": [
+        "brightness",
+        "fill"
+      ],
+      "description": "Brightness icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBrightnessHalf",
+      "tags": [
+        "brightness",
+        "fill",
+        "half"
+      ],
+      "description": "Brightness Half icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBrush",
+      "tags": [
+        "brush",
+        "fill"
+      ],
+      "description": "Brush icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBrushAlt",
+      "tags": [
+        "alt",
+        "brush",
+        "fill"
+      ],
+      "description": "Brush Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBug",
+      "tags": [
+        "bug",
+        "fill"
+      ],
+      "description": "Bug icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBugAlt",
+      "tags": [
+        "alt",
+        "bug",
+        "fill"
+      ],
+      "description": "Bug Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBuilding",
+      "tags": [
+        "building",
+        "fill"
+      ],
+      "description": "Building icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBuildingHouse",
+      "tags": [
+        "building",
+        "fill",
+        "house"
+      ],
+      "description": "Building House icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBuildings",
+      "tags": [
+        "buildings",
+        "fill"
+      ],
+      "description": "Buildings icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBulb",
+      "tags": [
+        "bulb",
+        "fill"
+      ],
+      "description": "Bulb icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBullseye",
+      "tags": [
+        "bullseye",
+        "fill"
+      ],
+      "description": "Bullseye icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBuoy",
+      "tags": [
+        "buoy",
+        "fill"
+      ],
+      "description": "Buoy icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBus",
+      "tags": [
+        "bus",
+        "fill"
+      ],
+      "description": "Bus icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBusiness",
+      "tags": [
+        "business",
+        "fill"
+      ],
+      "description": "Business icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsBusSchool",
+      "tags": [
+        "bus",
+        "fill",
+        "school"
+      ],
+      "description": "Bus School icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCabinet",
+      "tags": [
+        "cabinet",
+        "fill"
+      ],
+      "description": "Cabinet icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCableCar",
+      "tags": [
+        "cable",
+        "car",
+        "fill"
+      ],
+      "description": "Cable Car icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCake",
+      "tags": [
+        "cake",
+        "fill"
+      ],
+      "description": "Cake icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCalculator",
+      "tags": [
+        "calculator",
+        "fill"
+      ],
+      "description": "Calculator icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCalendar",
+      "tags": [
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarAlt",
+      "tags": [
+        "alt",
+        "calendar",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarCheck",
+      "tags": [
+        "calendar",
+        "check",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarEdit",
+      "tags": [
+        "calendar",
+        "edit",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarEvent",
+      "tags": [
+        "calendar",
+        "event",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarExclamation",
+      "tags": [
+        "calendar",
+        "exclamation",
+        "fill"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarHeart",
+      "tags": [
+        "calendar",
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarMinus",
+      "tags": [
+        "calendar",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarPlus",
+      "tags": [
+        "add",
+        "calendar",
+        "fill",
+        "plus"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarStar",
+      "tags": [
+        "calendar",
+        "fill",
+        "star"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarWeek",
+      "tags": [
+        "calendar",
+        "fill",
+        "week"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCalendarX",
+      "tags": [
+        "calendar",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "x"
+      ],
+      "description": "Calendar — dates, scheduling and events."
+    },
+    {
+      "name": "BxsCamera",
+      "tags": [
+        "camera",
+        "fill",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "BxsCameraHome",
+      "tags": [
+        "camera",
+        "fill",
+        "home",
+        "house",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "BxsCameraMovie",
+      "tags": [
+        "camera",
+        "fill",
+        "movie",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "BxsCameraOff",
+      "tags": [
+        "camera",
+        "fill",
+        "hide",
+        "off",
+        "photo"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "BxsCameraPlus",
+      "tags": [
+        "add",
+        "camera",
+        "fill",
+        "photo",
+        "plus"
+      ],
+      "description": "Camera — capture photos and image uploads."
+    },
+    {
+      "name": "BxsCapsule",
+      "tags": [
+        "capsule",
+        "fill"
+      ],
+      "description": "Capsule icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaptions",
+      "tags": [
+        "captions",
+        "fill"
+      ],
+      "description": "Captions icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCar",
+      "tags": [
+        "car",
+        "fill"
+      ],
+      "description": "Car icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCarBattery",
+      "tags": [
+        "battery",
+        "car",
+        "fill"
+      ],
+      "description": "Battery — power level and charging state."
+    },
+    {
+      "name": "BxsCarCrash",
+      "tags": [
+        "car",
+        "crash",
+        "fill"
+      ],
+      "description": "Car Crash icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCard",
+      "tags": [
+        "card",
+        "fill"
+      ],
+      "description": "Card icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretDownCircle",
+      "tags": [
+        "caret",
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Caret Down Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretDownSquare",
+      "tags": [
+        "caret",
+        "down",
+        "fill",
+        "square"
+      ],
+      "description": "Caret Down Square icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretLeftCircle",
+      "tags": [
+        "caret",
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Caret Left Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretLeftSquare",
+      "tags": [
+        "caret",
+        "fill",
+        "left",
+        "square"
+      ],
+      "description": "Caret Left Square icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretRightCircle",
+      "tags": [
+        "caret",
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Caret Right Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretRightSquare",
+      "tags": [
+        "caret",
+        "fill",
+        "right",
+        "square"
+      ],
+      "description": "Caret Right Square icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretUpCircle",
+      "tags": [
+        "caret",
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Caret Up Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCaretUpSquare",
+      "tags": [
+        "caret",
+        "fill",
+        "like",
+        "square",
+        "up"
+      ],
+      "description": "Caret Up Square icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCarGarage",
+      "tags": [
+        "car",
+        "fill",
+        "garage"
+      ],
+      "description": "Car Garage icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCarMechanic",
+      "tags": [
+        "car",
+        "fill",
+        "mechanic"
+      ],
+      "description": "Car Mechanic icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCarousel",
+      "tags": [
+        "carousel",
+        "fill"
+      ],
+      "description": "Carousel icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCart",
+      "tags": [
+        "cart",
+        "fill"
+      ],
+      "description": "Cart icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCartAdd",
+      "tags": [
+        "add",
+        "cart",
+        "fill"
+      ],
+      "description": "Cart Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCartAlt",
+      "tags": [
+        "alt",
+        "cart",
+        "fill"
+      ],
+      "description": "Cart Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCartDownload",
+      "tags": [
+        "cart",
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "BxsCarWash",
+      "tags": [
+        "car",
+        "fill",
+        "wash"
+      ],
+      "description": "Car Wash icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCastle",
+      "tags": [
+        "castle",
+        "fill"
+      ],
+      "description": "Castle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCat",
+      "tags": [
+        "cat",
+        "fill"
+      ],
+      "description": "Cat icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCategory",
+      "tags": [
+        "category",
+        "fill"
+      ],
+      "description": "Category icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCategoryAlt",
+      "tags": [
+        "alt",
+        "category",
+        "fill"
+      ],
+      "description": "Category Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCctv",
+      "tags": [
+        "cctv",
+        "fill"
+      ],
+      "description": "Cctv icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCertification",
+      "tags": [
+        "certification",
+        "fill"
+      ],
+      "description": "Certification icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChalkboard",
+      "tags": [
+        "chalkboard",
+        "fill"
+      ],
+      "description": "Chalkboard icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChart",
+      "tags": [
+        "chart",
+        "fill"
+      ],
+      "description": "Chart icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChat",
+      "tags": [
+        "chat",
+        "fill"
+      ],
+      "description": "Chat icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCheckbox",
+      "tags": [
+        "checkbox",
+        "fill"
+      ],
+      "description": "Checkbox icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCheckboxChecked",
+      "tags": [
+        "checkbox",
+        "checked",
+        "fill"
+      ],
+      "description": "Checkbox Checked icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCheckboxMinus",
+      "tags": [
+        "checkbox",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsCheckCircle",
+      "tags": [
+        "check",
+        "circle",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsCheckShield",
+      "tags": [
+        "check",
+        "fill",
+        "shield"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsCheckSquare",
+      "tags": [
+        "check",
+        "fill",
+        "square"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsCheese",
+      "tags": [
+        "cheese",
+        "fill"
+      ],
+      "description": "Cheese icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChess",
+      "tags": [
+        "chess",
+        "fill"
+      ],
+      "description": "Chess icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChevronDown",
+      "tags": [
+        "chevron",
+        "down",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronDownCircle",
+      "tags": [
+        "chevron",
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronDownSquare",
+      "tags": [
+        "chevron",
+        "down",
+        "fill",
+        "square"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronLeft",
+      "tags": [
+        "chevron",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronLeftCircle",
+      "tags": [
+        "chevron",
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronLeftSquare",
+      "tags": [
+        "chevron",
+        "fill",
+        "left",
+        "square"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronRight",
+      "tags": [
+        "chevron",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronRightCircle",
+      "tags": [
+        "chevron",
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronRightSquare",
+      "tags": [
+        "chevron",
+        "fill",
+        "right",
+        "square"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronsDown",
+      "tags": [
+        "chevrons",
+        "down",
+        "fill"
+      ],
+      "description": "Chevrons Down icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChevronsLeft",
+      "tags": [
+        "chevrons",
+        "fill",
+        "left"
+      ],
+      "description": "Chevrons Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChevronsRight",
+      "tags": [
+        "chevrons",
+        "fill",
+        "right"
+      ],
+      "description": "Chevrons Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChevronsUp",
+      "tags": [
+        "chevrons",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevrons Up icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChevronUp",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronUpCircle",
+      "tags": [
+        "chevron",
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChevronUpSquare",
+      "tags": [
+        "chevron",
+        "fill",
+        "like",
+        "square",
+        "up"
+      ],
+      "description": "Chevron — expand/collapse and step navigation."
+    },
+    {
+      "name": "BxsChip",
+      "tags": [
+        "chip",
+        "fill"
+      ],
+      "description": "Chip icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsChurch",
+      "tags": [
+        "church",
+        "fill"
+      ],
+      "description": "Church icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCircle",
+      "tags": [
+        "circle",
+        "fill"
+      ],
+      "description": "Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCircleHalf",
+      "tags": [
+        "circle",
+        "fill",
+        "half"
+      ],
+      "description": "Circle Half icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCircleQuarter",
+      "tags": [
+        "circle",
+        "fill",
+        "quarter"
+      ],
+      "description": "Circle Quarter icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCircleThreeQuarter",
+      "tags": [
+        "circle",
+        "fill",
+        "quarter",
+        "three"
+      ],
+      "description": "Circle Three Quarter icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCity",
+      "tags": [
+        "city",
+        "fill"
+      ],
+      "description": "City icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsClinic",
+      "tags": [
+        "clinic",
+        "fill"
+      ],
+      "description": "Clinic icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCloud",
+      "tags": [
+        "cloud",
+        "fill"
+      ],
+      "description": "Cloud icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCloudDownload",
+      "tags": [
+        "cloud",
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "BxsCloudLightning",
+      "tags": [
+        "cloud",
+        "fill",
+        "lightning"
+      ],
+      "description": "Cloud Lightning icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCloudRain",
+      "tags": [
+        "cloud",
+        "fill",
+        "rain"
+      ],
+      "description": "Cloud Rain icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCloudUpload",
+      "tags": [
+        "cloud",
+        "fill",
+        "upload"
+      ],
+      "description": "Upward arrow from tray — upload and import actions."
+    },
+    {
+      "name": "BxsCoffee",
+      "tags": [
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCoffeeAlt",
+      "tags": [
+        "alt",
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCoffeeBean",
+      "tags": [
+        "bean",
+        "coffee",
+        "fill"
+      ],
+      "description": "Coffee Bean icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCoffeeTogo",
+      "tags": [
+        "coffee",
+        "fill",
+        "togo"
+      ],
+      "description": "Coffee Togo icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCog",
+      "tags": [
+        "cog",
+        "fill"
+      ],
+      "description": "Cog icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCoin",
+      "tags": [
+        "coin",
+        "fill"
+      ],
+      "description": "Coin icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCoinStack",
+      "tags": [
+        "coin",
+        "fill",
+        "stack"
+      ],
+      "description": "Coin Stack icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCollection",
+      "tags": [
+        "collection",
+        "fill"
+      ],
+      "description": "Collection icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsColor",
+      "tags": [
+        "color",
+        "fill"
+      ],
+      "description": "Color icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsColorFill",
+      "tags": [
+        "color",
+        "fill"
+      ],
+      "description": "Color Fill icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsComment",
+      "tags": [
+        "comment",
+        "fill"
+      ],
+      "description": "Comment icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCommentAdd",
+      "tags": [
+        "add",
+        "comment",
+        "fill"
+      ],
+      "description": "Comment Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCommentCheck",
+      "tags": [
+        "check",
+        "comment",
+        "fill"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsCommentDetail",
+      "tags": [
+        "comment",
+        "detail",
+        "fill"
+      ],
+      "description": "Comment Detail icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCommentDots",
+      "tags": [
+        "comment",
+        "dots",
+        "fill"
+      ],
+      "description": "Comment Dots icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCommentEdit",
+      "tags": [
+        "comment",
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsCommentError",
+      "tags": [
+        "comment",
+        "error",
+        "fill"
+      ],
+      "description": "Comment Error icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCommentMinus",
+      "tags": [
+        "comment",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsCommentX",
+      "tags": [
+        "cancel",
+        "close",
+        "comment",
+        "delete",
+        "fill",
+        "remove",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsCompass",
+      "tags": [
+        "compass",
+        "fill"
+      ],
+      "description": "Compass icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsComponent",
+      "tags": [
+        "component",
+        "fill"
+      ],
+      "description": "Component icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsConfused",
+      "tags": [
+        "confused",
+        "fill"
+      ],
+      "description": "Confused icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsContact",
+      "tags": [
+        "contact",
+        "fill"
+      ],
+      "description": "Contact icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsConversation",
+      "tags": [
+        "conversation",
+        "fill"
+      ],
+      "description": "Conversation icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCookie",
+      "tags": [
+        "cookie",
+        "fill"
+      ],
+      "description": "Cookie icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCool",
+      "tags": [
+        "cool",
+        "fill"
+      ],
+      "description": "Cool icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCopy",
+      "tags": [
+        "copy",
+        "fill"
+      ],
+      "description": "Copy icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCopyAlt",
+      "tags": [
+        "alt",
+        "copy",
+        "fill"
+      ],
+      "description": "Copy Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCopyright",
+      "tags": [
+        "copyright",
+        "fill"
+      ],
+      "description": "Copyright icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCoupon",
+      "tags": [
+        "coupon",
+        "fill"
+      ],
+      "description": "Coupon icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCreditCard",
+      "tags": [
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit card — payments, billing and checkout."
+    },
+    {
+      "name": "BxsCreditCardAlt",
+      "tags": [
+        "alt",
+        "card",
+        "credit",
+        "fill"
+      ],
+      "description": "Credit Card Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCreditCardFront",
+      "tags": [
+        "card",
+        "credit",
+        "fill",
+        "front"
+      ],
+      "description": "Credit Card Front icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCricketBall",
+      "tags": [
+        "ball",
+        "cricket",
+        "fill"
+      ],
+      "description": "Cricket Ball icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCrop",
+      "tags": [
+        "crop",
+        "fill"
+      ],
+      "description": "Crop icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCrown",
+      "tags": [
+        "crown",
+        "fill"
+      ],
+      "description": "Crown icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCube",
+      "tags": [
+        "cube",
+        "fill"
+      ],
+      "description": "Cube icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCubeAlt",
+      "tags": [
+        "alt",
+        "cube",
+        "fill"
+      ],
+      "description": "Cube Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCuboid",
+      "tags": [
+        "cuboid",
+        "fill"
+      ],
+      "description": "Cuboid icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCustomize",
+      "tags": [
+        "customize",
+        "fill"
+      ],
+      "description": "Customize icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsCylinder",
+      "tags": [
+        "cylinder",
+        "fill"
+      ],
+      "description": "Cylinder icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDashboard",
+      "tags": [
+        "dashboard",
+        "fill"
+      ],
+      "description": "Dashboard icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsData",
+      "tags": [
+        "data",
+        "fill"
+      ],
+      "description": "Data icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDetail",
+      "tags": [
+        "detail",
+        "fill"
+      ],
+      "description": "Detail icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDevices",
+      "tags": [
+        "devices",
+        "fill"
+      ],
+      "description": "Devices icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDiamond",
+      "tags": [
+        "diamond",
+        "fill"
+      ],
+      "description": "Diamond icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDice1",
+      "tags": [
+        "1",
+        "dice",
+        "dice1",
+        "fill"
+      ],
+      "description": "Dice 1 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDice2",
+      "tags": [
+        "2",
+        "dice",
+        "dice2",
+        "fill"
+      ],
+      "description": "Dice 2 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDice3",
+      "tags": [
+        "3",
+        "dice",
+        "dice3",
+        "fill"
+      ],
+      "description": "Dice 3 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDice4",
+      "tags": [
+        "4",
+        "dice",
+        "dice4",
+        "fill"
+      ],
+      "description": "Dice 4 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDice5",
+      "tags": [
+        "5",
+        "dice",
+        "dice5",
+        "fill"
+      ],
+      "description": "Dice 5 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDice6",
+      "tags": [
+        "6",
+        "dice",
+        "dice6",
+        "fill"
+      ],
+      "description": "Dice 6 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDirectionLeft",
+      "tags": [
+        "direction",
+        "fill",
+        "left"
+      ],
+      "description": "Direction Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDirectionRight",
+      "tags": [
+        "direction",
+        "fill",
+        "right"
+      ],
+      "description": "Direction Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDirections",
+      "tags": [
+        "directions",
+        "fill"
+      ],
+      "description": "Directions icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDisc",
+      "tags": [
+        "disc",
+        "fill"
+      ],
+      "description": "Disc icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDiscount",
+      "tags": [
+        "discount",
+        "fill"
+      ],
+      "description": "Discount icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDish",
+      "tags": [
+        "dish",
+        "fill"
+      ],
+      "description": "Dish icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDislike",
+      "tags": [
+        "dislike",
+        "fill"
+      ],
+      "description": "Dislike icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDizzy",
+      "tags": [
+        "dizzy",
+        "fill"
+      ],
+      "description": "Dizzy icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDockBottom",
+      "tags": [
+        "bottom",
+        "dock",
+        "fill"
+      ],
+      "description": "Dock Bottom icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDockLeft",
+      "tags": [
+        "dock",
+        "fill",
+        "left"
+      ],
+      "description": "Dock Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDockRight",
+      "tags": [
+        "dock",
+        "fill",
+        "right"
+      ],
+      "description": "Dock Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDockTop",
+      "tags": [
+        "dock",
+        "fill",
+        "top"
+      ],
+      "description": "Dock Top icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDog",
+      "tags": [
+        "dog",
+        "fill"
+      ],
+      "description": "Dog icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDollarCircle",
+      "tags": [
+        "circle",
+        "dollar",
+        "fill"
+      ],
+      "description": "Dollar Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDonateBlood",
+      "tags": [
+        "blood",
+        "donate",
+        "fill"
+      ],
+      "description": "Donate Blood icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDonateHeart",
+      "tags": [
+        "donate",
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "BxsDoorOpen",
+      "tags": [
+        "door",
+        "fill",
+        "open"
+      ],
+      "description": "Door Open icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDoughnutChart",
+      "tags": [
+        "chart",
+        "doughnut",
+        "fill"
+      ],
+      "description": "Doughnut Chart icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDownArrow",
+      "tags": [
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsDownArrowAlt",
+      "tags": [
+        "alt",
+        "arrow",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsDownArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "fill"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsDownArrowSquare",
+      "tags": [
+        "arrow",
+        "down",
+        "fill",
+        "square"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsDownload",
+      "tags": [
+        "download",
+        "fill",
+        "save"
+      ],
+      "description": "Downward arrow to tray — download and save actions."
+    },
+    {
+      "name": "BxsDownvote",
+      "tags": [
+        "downvote",
+        "fill"
+      ],
+      "description": "Downvote icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDrink",
+      "tags": [
+        "drink",
+        "fill"
+      ],
+      "description": "Drink icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDroplet",
+      "tags": [
+        "droplet",
+        "fill"
+      ],
+      "description": "Droplet icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDropletHalf",
+      "tags": [
+        "droplet",
+        "fill",
+        "half"
+      ],
+      "description": "Droplet Half icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDryer",
+      "tags": [
+        "dryer",
+        "fill"
+      ],
+      "description": "Dryer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsDuplicate",
+      "tags": [
+        "duplicate",
+        "fill"
+      ],
+      "description": "Duplicate icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsEdit",
+      "tags": [
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsEditAlt",
+      "tags": [
+        "alt",
+        "edit",
+        "fill"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsEditLocation",
+      "tags": [
+        "edit",
+        "fill",
+        "location"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsEject",
+      "tags": [
+        "eject",
+        "fill"
+      ],
+      "description": "Eject icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsEnvelope",
+      "tags": [
+        "envelope",
+        "fill"
+      ],
+      "description": "Envelope icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsEnvelopeOpen",
+      "tags": [
+        "envelope",
+        "fill",
+        "open"
+      ],
+      "description": "Envelope Open icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsEraser",
+      "tags": [
+        "eraser",
+        "fill"
+      ],
+      "description": "Eraser icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsError",
+      "tags": [
+        "error",
+        "fill"
+      ],
+      "description": "Error icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsErrorAlt",
+      "tags": [
+        "alt",
+        "error",
+        "fill"
+      ],
+      "description": "Error Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsErrorCircle",
+      "tags": [
+        "circle",
+        "error",
+        "fill"
+      ],
+      "description": "Error Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsEvStation",
+      "tags": [
+        "ev",
+        "fill",
+        "station"
+      ],
+      "description": "Ev Station icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsExit",
+      "tags": [
+        "exit",
+        "fill"
+      ],
+      "description": "Exit icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsExtension",
+      "tags": [
+        "extension",
+        "fill"
+      ],
+      "description": "Extension icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsEyedropper",
+      "tags": [
+        "eyedropper",
+        "fill"
+      ],
+      "description": "Eyedropper icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFace",
+      "tags": [
+        "face",
+        "fill"
+      ],
+      "description": "Face icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFaceMask",
+      "tags": [
+        "face",
+        "fill",
+        "mask"
+      ],
+      "description": "Face Mask icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFactory",
+      "tags": [
+        "factory",
+        "fill"
+      ],
+      "description": "Factory icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFastForwardCircle",
+      "tags": [
+        "circle",
+        "fast",
+        "fill",
+        "forward"
+      ],
+      "description": "Fast Forward Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFile",
+      "tags": [
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileArchive",
+      "tags": [
+        "archive",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileBlank",
+      "tags": [
+        "blank",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileCss",
+      "tags": [
+        "css",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileDoc",
+      "tags": [
+        "doc",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileExport",
+      "tags": [
+        "export",
+        "file",
+        "fill"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileFind",
+      "tags": [
+        "file",
+        "fill",
+        "find"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileGif",
+      "tags": [
+        "file",
+        "fill",
+        "gif"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileHtml",
+      "tags": [
+        "file",
+        "fill",
+        "html"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileImage",
+      "tags": [
+        "file",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileImport",
+      "tags": [
+        "file",
+        "fill",
+        "import"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileJpg",
+      "tags": [
+        "file",
+        "fill",
+        "jpg"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileJs",
+      "tags": [
+        "file",
+        "fill",
+        "js"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileJson",
+      "tags": [
+        "file",
+        "fill",
+        "json"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileMd",
+      "tags": [
+        "file",
+        "fill",
+        "md"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFilePdf",
+      "tags": [
+        "file",
+        "fill",
+        "pdf"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFilePlus",
+      "tags": [
+        "add",
+        "file",
+        "fill",
+        "plus"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFilePng",
+      "tags": [
+        "file",
+        "fill",
+        "png"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFileTxt",
+      "tags": [
+        "file",
+        "fill",
+        "txt"
+      ],
+      "description": "Document — files and attachments."
+    },
+    {
+      "name": "BxsFilm",
+      "tags": [
+        "fill",
+        "film"
+      ],
+      "description": "Film icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFilterAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "filter"
+      ],
+      "description": "Funnel — filtering and refining lists."
+    },
+    {
+      "name": "BxsFirstAid",
+      "tags": [
+        "aid",
+        "fill",
+        "first"
+      ],
+      "description": "First Aid icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFlag",
+      "tags": [
+        "fill",
+        "flag"
+      ],
+      "description": "Flag icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFlagAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "flag"
+      ],
+      "description": "Flag Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFlagCheckered",
+      "tags": [
+        "checkered",
+        "fill",
+        "flag"
+      ],
+      "description": "Flag Checkered icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFlame",
+      "tags": [
+        "fill",
+        "flame"
+      ],
+      "description": "Flame icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFlask",
+      "tags": [
+        "fill",
+        "flask"
+      ],
+      "description": "Flask icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFlorist",
+      "tags": [
+        "fill",
+        "florist"
+      ],
+      "description": "Florist icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsFolder",
+      "tags": [
+        "fill",
+        "folder"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "BxsFolderMinus",
+      "tags": [
+        "fill",
+        "folder",
+        "minus",
+        "remove"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "BxsFolderOpen",
+      "tags": [
+        "fill",
+        "folder",
+        "open"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "BxsFolderPlus",
+      "tags": [
+        "add",
+        "fill",
+        "folder",
+        "plus"
+      ],
+      "description": "Folder — directories and file grouping."
+    },
+    {
+      "name": "BxsFoodMenu",
+      "tags": [
+        "fill",
+        "food",
+        "menu"
+      ],
+      "description": "Hamburger lines — menus and navigation drawers."
+    },
+    {
+      "name": "BxsFridge",
+      "tags": [
+        "fill",
+        "fridge"
+      ],
+      "description": "Fridge icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGame",
+      "tags": [
+        "fill",
+        "game"
+      ],
+      "description": "Game icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGasPump",
+      "tags": [
+        "fill",
+        "gas",
+        "pump"
+      ],
+      "description": "Gas Pump icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGhost",
+      "tags": [
+        "fill",
+        "ghost"
+      ],
+      "description": "Ghost icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGift",
+      "tags": [
+        "fill",
+        "gift"
+      ],
+      "description": "Gift icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGraduation",
+      "tags": [
+        "fill",
+        "graduation"
+      ],
+      "description": "Graduation icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGrid",
+      "tags": [
+        "fill",
+        "grid"
+      ],
+      "description": "Grid icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGridAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "grid"
+      ],
+      "description": "Grid Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGroup",
+      "tags": [
+        "fill",
+        "group"
+      ],
+      "description": "Group icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsGuitarAmp",
+      "tags": [
+        "amp",
+        "fill",
+        "guitar"
+      ],
+      "description": "Guitar Amp icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHand",
+      "tags": [
+        "fill",
+        "hand"
+      ],
+      "description": "Hand icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHandDown",
+      "tags": [
+        "down",
+        "fill",
+        "hand"
+      ],
+      "description": "Hand Down icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHandLeft",
+      "tags": [
+        "fill",
+        "hand",
+        "left"
+      ],
+      "description": "Hand Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHandRight",
+      "tags": [
+        "fill",
+        "hand",
+        "right"
+      ],
+      "description": "Hand Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHandUp",
+      "tags": [
+        "fill",
+        "hand",
+        "like",
+        "up"
+      ],
+      "description": "Hand Up icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHappy",
+      "tags": [
+        "fill",
+        "happy"
+      ],
+      "description": "Happy icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHappyAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "happy"
+      ],
+      "description": "Happy Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHappyBeaming",
+      "tags": [
+        "beaming",
+        "fill",
+        "happy"
+      ],
+      "description": "Happy Beaming icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHappyHeartEyes",
+      "tags": [
+        "eyes",
+        "fill",
+        "happy",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "BxsHardHat",
+      "tags": [
+        "fill",
+        "hard",
+        "hat"
+      ],
+      "description": "Hard Hat icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHdd",
+      "tags": [
+        "fill",
+        "hdd"
+      ],
+      "description": "Hdd icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "BxsHeartCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "heart",
+        "like",
+        "love"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "BxsHeartSquare",
+      "tags": [
+        "fill",
+        "heart",
+        "like",
+        "love",
+        "square"
+      ],
+      "description": "Heart outline — likes, favorites, wishlists and reactions."
+    },
+    {
+      "name": "BxsHelpCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "help"
+      ],
+      "description": "Question mark — help and support."
+    },
+    {
+      "name": "BxsHide",
+      "tags": [
+        "fill",
+        "hide"
+      ],
+      "description": "Hide icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHome",
+      "tags": [
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "BxsHomeAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "BxsHomeCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "home",
+        "house"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "BxsHomeHeart",
+      "tags": [
+        "fill",
+        "heart",
+        "home",
+        "house",
+        "like",
+        "love"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "BxsHomeSmile",
+      "tags": [
+        "fill",
+        "home",
+        "house",
+        "smile"
+      ],
+      "description": "House — home links, dashboards and primary navigation."
+    },
+    {
+      "name": "BxsHot",
+      "tags": [
+        "fill",
+        "hot"
+      ],
+      "description": "Hot icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHotel",
+      "tags": [
+        "fill",
+        "hotel"
+      ],
+      "description": "Hotel icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHourglass",
+      "tags": [
+        "fill",
+        "hourglass"
+      ],
+      "description": "Hourglass icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHourglassBottom",
+      "tags": [
+        "bottom",
+        "fill",
+        "hourglass"
+      ],
+      "description": "Hourglass Bottom icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsHourglassTop",
+      "tags": [
+        "fill",
+        "hourglass",
+        "top"
+      ],
+      "description": "Hourglass Top icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsIdCard",
+      "tags": [
+        "card",
+        "fill",
+        "id"
+      ],
+      "description": "Id Card icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsImage",
+      "tags": [
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "BxsImageAdd",
+      "tags": [
+        "add",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "BxsImageAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "image",
+        "photo",
+        "picture"
+      ],
+      "description": "Picture — images, galleries and media."
+    },
+    {
+      "name": "BxsInbox",
+      "tags": [
+        "fill",
+        "inbox"
+      ],
+      "description": "Inbox icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsInfoCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "info"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "BxsInfoSquare",
+      "tags": [
+        "fill",
+        "info",
+        "square"
+      ],
+      "description": "Information — details, help and tooltips."
+    },
+    {
+      "name": "BxsInjection",
+      "tags": [
+        "fill",
+        "injection"
+      ],
+      "description": "Injection icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsInstitution",
+      "tags": [
+        "fill",
+        "institution"
+      ],
+      "description": "Institution icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsInvader",
+      "tags": [
+        "fill",
+        "invader"
+      ],
+      "description": "Invader icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsJoystick",
+      "tags": [
+        "fill",
+        "joystick"
+      ],
+      "description": "Joystick icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsJoystickAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "joystick"
+      ],
+      "description": "Joystick Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsJoystickButton",
+      "tags": [
+        "button",
+        "fill",
+        "joystick"
+      ],
+      "description": "Joystick Button icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsKey",
+      "tags": [
+        "fill",
+        "key"
+      ],
+      "description": "Key icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsKeyboard",
+      "tags": [
+        "fill",
+        "keyboard"
+      ],
+      "description": "Keyboard icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLabel",
+      "tags": [
+        "fill",
+        "label"
+      ],
+      "description": "Label icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLandmark",
+      "tags": [
+        "fill",
+        "landmark"
+      ],
+      "description": "Landmark icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLandscape",
+      "tags": [
+        "fill",
+        "landscape"
+      ],
+      "description": "Landscape icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLaugh",
+      "tags": [
+        "fill",
+        "laugh"
+      ],
+      "description": "Laugh icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLayer",
+      "tags": [
+        "fill",
+        "layer"
+      ],
+      "description": "Layer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLayerMinus",
+      "tags": [
+        "fill",
+        "layer",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsLayerPlus",
+      "tags": [
+        "add",
+        "fill",
+        "layer",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxsLayout",
+      "tags": [
+        "fill",
+        "layout"
+      ],
+      "description": "Layout icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLeaf",
+      "tags": [
+        "fill",
+        "leaf"
+      ],
+      "description": "Leaf icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLeftArrow",
+      "tags": [
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsLeftArrowAlt",
+      "tags": [
+        "alt",
+        "arrow",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsLeftArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsLeftArrowSquare",
+      "tags": [
+        "arrow",
+        "fill",
+        "left",
+        "square"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsLeftDownArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "fill",
+        "left"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsLeftTopArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "left",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsLemon",
+      "tags": [
+        "fill",
+        "lemon"
+      ],
+      "description": "Lemon icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLike",
+      "tags": [
+        "fill",
+        "like"
+      ],
+      "description": "Like icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLocationPlus",
+      "tags": [
+        "add",
+        "fill",
+        "location",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxsLock",
+      "tags": [
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "BxsLockAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "lock"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "BxsLockOpen",
+      "tags": [
+        "fill",
+        "lock",
+        "open"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "BxsLockOpenAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "lock",
+        "open"
+      ],
+      "description": "Closed padlock — security, privacy and protected content."
+    },
+    {
+      "name": "BxsLogIn",
+      "tags": [
+        "fill",
+        "in",
+        "log"
+      ],
+      "description": "Log In icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLogInCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "in",
+        "log"
+      ],
+      "description": "Log In Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLogOut",
+      "tags": [
+        "fill",
+        "log",
+        "out"
+      ],
+      "description": "Log Out icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLogOutCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "log",
+        "out"
+      ],
+      "description": "Log Out Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsLowVision",
+      "tags": [
+        "fill",
+        "low",
+        "vision"
+      ],
+      "description": "Low Vision icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMagicWand",
+      "tags": [
+        "fill",
+        "magic",
+        "wand"
+      ],
+      "description": "Magic Wand icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMagnet",
+      "tags": [
+        "fill",
+        "magnet"
+      ],
+      "description": "Magnet icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMap",
+      "tags": [
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "BxsMapAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "map"
+      ],
+      "description": "Map — locations, directions and geography."
+    },
+    {
+      "name": "BxsMapPin",
+      "tags": [
+        "fill",
+        "map",
+        "pin"
+      ],
+      "description": "Map pin — places, markers and addresses."
+    },
+    {
+      "name": "BxsMask",
+      "tags": [
+        "fill",
+        "mask"
+      ],
+      "description": "Mask icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMedal",
+      "tags": [
+        "fill",
+        "medal"
+      ],
+      "description": "Medal icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMegaphone",
+      "tags": [
+        "fill",
+        "megaphone"
+      ],
+      "description": "Megaphone icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMeh",
+      "tags": [
+        "fill",
+        "meh"
+      ],
+      "description": "Meh icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMehAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "meh"
+      ],
+      "description": "Meh Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMehBlank",
+      "tags": [
+        "blank",
+        "fill",
+        "meh"
+      ],
+      "description": "Meh Blank icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMemoryCard",
+      "tags": [
+        "card",
+        "fill",
+        "memory"
+      ],
+      "description": "Memory Card icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessage",
+      "tags": [
+        "fill",
+        "message"
+      ],
+      "description": "Message icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageAdd",
+      "tags": [
+        "add",
+        "fill",
+        "message"
+      ],
+      "description": "Message Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "message"
+      ],
+      "description": "Message Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageAltAdd",
+      "tags": [
+        "add",
+        "alt",
+        "fill",
+        "message"
+      ],
+      "description": "Message Alt Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageAltCheck",
+      "tags": [
+        "alt",
+        "check",
+        "fill",
+        "message"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsMessageAltDetail",
+      "tags": [
+        "alt",
+        "detail",
+        "fill",
+        "message"
+      ],
+      "description": "Message Alt Detail icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageAltDots",
+      "tags": [
+        "alt",
+        "dots",
+        "fill",
+        "message"
+      ],
+      "description": "Message Alt Dots icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageAltEdit",
+      "tags": [
+        "alt",
+        "edit",
+        "fill",
+        "message"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsMessageAltError",
+      "tags": [
+        "alt",
+        "error",
+        "fill",
+        "message"
+      ],
+      "description": "Message Alt Error icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageAltMinus",
+      "tags": [
+        "alt",
+        "fill",
+        "message",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsMessageAltX",
+      "tags": [
+        "alt",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "message",
+        "remove",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsMessageCheck",
+      "tags": [
+        "check",
+        "fill",
+        "message"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsMessageDetail",
+      "tags": [
+        "detail",
+        "fill",
+        "message"
+      ],
+      "description": "Message Detail icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageDots",
+      "tags": [
+        "dots",
+        "fill",
+        "message"
+      ],
+      "description": "Message Dots icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageEdit",
+      "tags": [
+        "edit",
+        "fill",
+        "message"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsMessageError",
+      "tags": [
+        "error",
+        "fill",
+        "message"
+      ],
+      "description": "Message Error icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageMinus",
+      "tags": [
+        "fill",
+        "message",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsMessageRounded",
+      "tags": [
+        "fill",
+        "message",
+        "rounded"
+      ],
+      "description": "Message Rounded icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageRoundedAdd",
+      "tags": [
+        "add",
+        "fill",
+        "message",
+        "rounded"
+      ],
+      "description": "Message Rounded Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageRoundedCheck",
+      "tags": [
+        "check",
+        "fill",
+        "message",
+        "rounded"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsMessageRoundedDetail",
+      "tags": [
+        "detail",
+        "fill",
+        "message",
+        "rounded"
+      ],
+      "description": "Message Rounded Detail icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageRoundedDots",
+      "tags": [
+        "dots",
+        "fill",
+        "message",
+        "rounded"
+      ],
+      "description": "Message Rounded Dots icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageRoundedEdit",
+      "tags": [
+        "edit",
+        "fill",
+        "message",
+        "rounded"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsMessageRoundedError",
+      "tags": [
+        "error",
+        "fill",
+        "message",
+        "rounded"
+      ],
+      "description": "Message Rounded Error icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageRoundedMinus",
+      "tags": [
+        "fill",
+        "message",
+        "minus",
+        "remove",
+        "rounded"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsMessageRoundedX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "message",
+        "remove",
+        "rounded",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsMessageSquare",
+      "tags": [
+        "fill",
+        "message",
+        "square"
+      ],
+      "description": "Message Square icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageSquareAdd",
+      "tags": [
+        "add",
+        "fill",
+        "message",
+        "square"
+      ],
+      "description": "Message Square Add icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageSquareCheck",
+      "tags": [
+        "check",
+        "fill",
+        "message",
+        "square"
+      ],
+      "description": "Check mark — success, confirm and completed states."
+    },
+    {
+      "name": "BxsMessageSquareDetail",
+      "tags": [
+        "detail",
+        "fill",
+        "message",
+        "square"
+      ],
+      "description": "Message Square Detail icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageSquareDots",
+      "tags": [
+        "dots",
+        "fill",
+        "message",
+        "square"
+      ],
+      "description": "Message Square Dots icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageSquareEdit",
+      "tags": [
+        "edit",
+        "fill",
+        "message",
+        "square"
+      ],
+      "description": "Pencil — edit, compose and rename actions."
+    },
+    {
+      "name": "BxsMessageSquareError",
+      "tags": [
+        "error",
+        "fill",
+        "message",
+        "square"
+      ],
+      "description": "Message Square Error icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMessageSquareMinus",
+      "tags": [
+        "fill",
+        "message",
+        "minus",
+        "remove",
+        "square"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsMessageSquareX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "message",
+        "remove",
+        "square",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsMessageX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "message",
+        "remove",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsMeteor",
+      "tags": [
+        "fill",
+        "meteor"
+      ],
+      "description": "Meteor icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMicrochip",
+      "tags": [
+        "fill",
+        "microchip"
+      ],
+      "description": "Microchip icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMicrophone",
+      "tags": [
+        "fill",
+        "microphone"
+      ],
+      "description": "Microphone icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMicrophoneAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "microphone"
+      ],
+      "description": "Microphone Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMicrophoneOff",
+      "tags": [
+        "fill",
+        "hide",
+        "microphone",
+        "off"
+      ],
+      "description": "Microphone Off icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMinusCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "minus",
+        "remove"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsMinusSquare",
+      "tags": [
+        "fill",
+        "minus",
+        "remove",
+        "square"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsMobile",
+      "tags": [
+        "fill",
+        "mobile"
+      ],
+      "description": "Mobile icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMobileVibration",
+      "tags": [
+        "fill",
+        "mobile",
+        "vibration"
+      ],
+      "description": "Mobile Vibration icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMoon",
+      "tags": [
+        "fill",
+        "moon"
+      ],
+      "description": "Crescent moon — dark theme and night."
+    },
+    {
+      "name": "BxsMouse",
+      "tags": [
+        "fill",
+        "mouse"
+      ],
+      "description": "Mouse icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMouseAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "mouse"
+      ],
+      "description": "Mouse Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMovie",
+      "tags": [
+        "fill",
+        "movie"
+      ],
+      "description": "Movie icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsMoviePlay",
+      "tags": [
+        "fill",
+        "movie",
+        "play"
+      ],
+      "description": "Play triangle — start playback."
+    },
+    {
+      "name": "BxsMusic",
+      "tags": [
+        "fill",
+        "music"
+      ],
+      "description": "Music icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNavigation",
+      "tags": [
+        "fill",
+        "navigation"
+      ],
+      "description": "Navigation icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNetworkChart",
+      "tags": [
+        "chart",
+        "fill",
+        "network"
+      ],
+      "description": "Network Chart icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNews",
+      "tags": [
+        "fill",
+        "news"
+      ],
+      "description": "News icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNoEntry",
+      "tags": [
+        "entry",
+        "fill",
+        "no"
+      ],
+      "description": "No Entry icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNote",
+      "tags": [
+        "fill",
+        "note"
+      ],
+      "description": "Note icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNotepad",
+      "tags": [
+        "fill",
+        "notepad"
+      ],
+      "description": "Notepad icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNotification",
+      "tags": [
+        "fill",
+        "notification"
+      ],
+      "description": "Notification icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsNotificationOff",
+      "tags": [
+        "fill",
+        "hide",
+        "notification",
+        "off"
+      ],
+      "description": "Notification Off icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsObjectsHorizontalCenter",
+      "tags": [
+        "center",
+        "fill",
+        "horizontal",
+        "objects"
+      ],
+      "description": "Objects Horizontal Center icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsObjectsHorizontalLeft",
+      "tags": [
+        "fill",
+        "horizontal",
+        "left",
+        "objects"
+      ],
+      "description": "Objects Horizontal Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsObjectsHorizontalRight",
+      "tags": [
+        "fill",
+        "horizontal",
+        "objects",
+        "right"
+      ],
+      "description": "Objects Horizontal Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsObjectsVerticalBottom",
+      "tags": [
+        "bottom",
+        "fill",
+        "objects",
+        "vertical"
+      ],
+      "description": "Objects Vertical Bottom icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsObjectsVerticalCenter",
+      "tags": [
+        "center",
+        "fill",
+        "objects",
+        "vertical"
+      ],
+      "description": "Objects Vertical Center icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsObjectsVerticalTop",
+      "tags": [
+        "fill",
+        "objects",
+        "top",
+        "vertical"
+      ],
+      "description": "Objects Vertical Top icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsOffer",
+      "tags": [
+        "fill",
+        "offer"
+      ],
+      "description": "Offer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPackage",
+      "tags": [
+        "fill",
+        "package"
+      ],
+      "description": "Package icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPaint",
+      "tags": [
+        "fill",
+        "paint"
+      ],
+      "description": "Paint icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPaintRoll",
+      "tags": [
+        "fill",
+        "paint",
+        "roll"
+      ],
+      "description": "Paint Roll icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPalette",
+      "tags": [
+        "fill",
+        "palette"
+      ],
+      "description": "Palette icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPaperPlane",
+      "tags": [
+        "fill",
+        "paper",
+        "plane"
+      ],
+      "description": "Paper Plane icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsParking",
+      "tags": [
+        "fill",
+        "parking"
+      ],
+      "description": "Parking icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsParty",
+      "tags": [
+        "fill",
+        "party"
+      ],
+      "description": "Party icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPaste",
+      "tags": [
+        "fill",
+        "paste"
+      ],
+      "description": "Paste icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPear",
+      "tags": [
+        "fill",
+        "pear"
+      ],
+      "description": "Pear icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPen",
+      "tags": [
+        "edit",
+        "fill",
+        "pen"
+      ],
+      "description": "Pen icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPencil",
+      "tags": [
+        "edit",
+        "fill",
+        "pencil"
+      ],
+      "description": "Pencil icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPhone",
+      "tags": [
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "BxsPhoneCall",
+      "tags": [
+        "call",
+        "fill",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "BxsPhoneIncoming",
+      "tags": [
+        "fill",
+        "incoming",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "BxsPhoneOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "BxsPhoneOutgoing",
+      "tags": [
+        "fill",
+        "outgoing",
+        "phone"
+      ],
+      "description": "Handset — call and contact actions."
+    },
+    {
+      "name": "BxsPhotoAlbum",
+      "tags": [
+        "album",
+        "fill",
+        "photo"
+      ],
+      "description": "Photo Album icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPiano",
+      "tags": [
+        "fill",
+        "piano"
+      ],
+      "description": "Piano icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPieChart",
+      "tags": [
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPieChartAlt",
+      "tags": [
+        "alt",
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPieChartAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "chart",
+        "fill",
+        "pie"
+      ],
+      "description": "Pie Chart Alt 2 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPin",
+      "tags": [
+        "fill",
+        "pin"
+      ],
+      "description": "Pin icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPizza",
+      "tags": [
+        "fill",
+        "pizza"
+      ],
+      "description": "Pizza icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlane",
+      "tags": [
+        "fill",
+        "plane"
+      ],
+      "description": "Plane icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlaneAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "plane"
+      ],
+      "description": "Plane Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlaneLand",
+      "tags": [
+        "fill",
+        "land",
+        "plane"
+      ],
+      "description": "Plane Land icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlanet",
+      "tags": [
+        "fill",
+        "planet"
+      ],
+      "description": "Planet icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlaneTakeOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "plane",
+        "take"
+      ],
+      "description": "Plane Take Off icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlaylist",
+      "tags": [
+        "fill",
+        "playlist"
+      ],
+      "description": "Playlist icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlug",
+      "tags": [
+        "fill",
+        "plug"
+      ],
+      "description": "Plug icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPlusCircle",
+      "tags": [
+        "add",
+        "circle",
+        "fill",
+        "plus"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxsPlusSquare",
+      "tags": [
+        "add",
+        "fill",
+        "plus",
+        "square"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxsPointer",
+      "tags": [
+        "fill",
+        "pointer"
+      ],
+      "description": "Pointer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPolygon",
+      "tags": [
+        "fill",
+        "polygon"
+      ],
+      "description": "Polygon icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPopsicle",
+      "tags": [
+        "fill",
+        "popsicle"
+      ],
+      "description": "Popsicle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPrinter",
+      "tags": [
+        "fill",
+        "printer"
+      ],
+      "description": "Printer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPurchaseTag",
+      "tags": [
+        "fill",
+        "purchase",
+        "tag"
+      ],
+      "description": "Purchase Tag icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPurchaseTagAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "purchase",
+        "tag"
+      ],
+      "description": "Purchase Tag Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsPyramid",
+      "tags": [
+        "fill",
+        "pyramid"
+      ],
+      "description": "Pyramid icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsQuoteAltLeft",
+      "tags": [
+        "alt",
+        "fill",
+        "left",
+        "quote"
+      ],
+      "description": "Quote Alt Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsQuoteAltRight",
+      "tags": [
+        "alt",
+        "fill",
+        "quote",
+        "right"
+      ],
+      "description": "Quote Alt Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsQuoteLeft",
+      "tags": [
+        "fill",
+        "left",
+        "quote"
+      ],
+      "description": "Quote Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsQuoteRight",
+      "tags": [
+        "fill",
+        "quote",
+        "right"
+      ],
+      "description": "Quote Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsQuoteSingleLeft",
+      "tags": [
+        "fill",
+        "left",
+        "quote",
+        "single"
+      ],
+      "description": "Quote Single Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsQuoteSingleRight",
+      "tags": [
+        "fill",
+        "quote",
+        "right",
+        "single"
+      ],
+      "description": "Quote Single Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRadiation",
+      "tags": [
+        "fill",
+        "radiation"
+      ],
+      "description": "Radiation icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRadio",
+      "tags": [
+        "fill",
+        "radio"
+      ],
+      "description": "Radio icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsReceipt",
+      "tags": [
+        "fill",
+        "receipt"
+      ],
+      "description": "Receipt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRectangle",
+      "tags": [
+        "fill",
+        "rectangle"
+      ],
+      "description": "Rectangle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRegistered",
+      "tags": [
+        "fill",
+        "registered"
+      ],
+      "description": "Registered icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRename",
+      "tags": [
+        "fill",
+        "rename"
+      ],
+      "description": "Rename icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsReport",
+      "tags": [
+        "fill",
+        "report"
+      ],
+      "description": "Report icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRewindCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "rewind"
+      ],
+      "description": "Rewind Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRightArrow",
+      "tags": [
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsRightArrowAlt",
+      "tags": [
+        "alt",
+        "arrow",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsRightArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsRightArrowSquare",
+      "tags": [
+        "arrow",
+        "fill",
+        "right",
+        "square"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsRightDownArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "down",
+        "fill",
+        "right"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsRightTopArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "right",
+        "top"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsRocket",
+      "tags": [
+        "fill",
+        "rocket"
+      ],
+      "description": "Rocket icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsRuler",
+      "tags": [
+        "fill",
+        "ruler"
+      ],
+      "description": "Ruler icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSad",
+      "tags": [
+        "fill",
+        "sad"
+      ],
+      "description": "Sad icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSave",
+      "tags": [
+        "fill",
+        "save"
+      ],
+      "description": "Save icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSchool",
+      "tags": [
+        "fill",
+        "school"
+      ],
+      "description": "School icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSearch",
+      "tags": [
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "BxsSearchAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "fill",
+        "find",
+        "search"
+      ],
+      "description": "Magnifying glass — search inputs, filters and lookups."
+    },
+    {
+      "name": "BxsSelectMultiple",
+      "tags": [
+        "fill",
+        "multiple",
+        "select"
+      ],
+      "description": "Select Multiple icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSend",
+      "tags": [
+        "fill",
+        "send"
+      ],
+      "description": "Paper plane — send and submit actions."
+    },
+    {
+      "name": "BxsServer",
+      "tags": [
+        "fill",
+        "server"
+      ],
+      "description": "Server icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShapes",
+      "tags": [
+        "fill",
+        "shapes"
+      ],
+      "description": "Shapes icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShare",
+      "tags": [
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "BxsShareAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "share"
+      ],
+      "description": "Share — share, export and send-to actions."
+    },
+    {
+      "name": "BxsShield",
+      "tags": [
+        "fill",
+        "shield"
+      ],
+      "description": "Shield icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShieldAlt2",
+      "tags": [
+        "2",
+        "alt",
+        "alt2",
+        "fill",
+        "shield"
+      ],
+      "description": "Shield Alt 2 icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShieldMinus",
+      "tags": [
+        "fill",
+        "minus",
+        "remove",
+        "shield"
+      ],
+      "description": "Minus — remove, collapse and decrement actions."
+    },
+    {
+      "name": "BxsShieldPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus",
+        "shield"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxsShieldX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "shield",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsShip",
+      "tags": [
+        "fill",
+        "ship"
+      ],
+      "description": "Ship icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShocked",
+      "tags": [
+        "fill",
+        "shocked"
+      ],
+      "description": "Shocked icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShoppingBag",
+      "tags": [
+        "bag",
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping Bag icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShoppingBagAlt",
+      "tags": [
+        "alt",
+        "bag",
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping Bag Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShoppingBags",
+      "tags": [
+        "bags",
+        "cart",
+        "fill",
+        "shopping"
+      ],
+      "description": "Shopping Bags icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShow",
+      "tags": [
+        "fill",
+        "show"
+      ],
+      "description": "Show icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsShower",
+      "tags": [
+        "fill",
+        "shower"
+      ],
+      "description": "Shower icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSkipNextCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "next",
+        "skip"
+      ],
+      "description": "Skip Next Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSkipPreviousCircle",
+      "tags": [
+        "circle",
+        "fill",
+        "previous",
+        "skip"
+      ],
+      "description": "Skip Previous Circle icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSkull",
+      "tags": [
+        "fill",
+        "skull"
+      ],
+      "description": "Skull icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSleepy",
+      "tags": [
+        "fill",
+        "sleepy"
+      ],
+      "description": "Sleepy icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSlideshow",
+      "tags": [
+        "fill",
+        "slideshow"
+      ],
+      "description": "Slideshow icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSmile",
+      "tags": [
+        "fill",
+        "smile"
+      ],
+      "description": "Smile icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSortAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "sort"
+      ],
+      "description": "Sort Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSpa",
+      "tags": [
+        "fill",
+        "spa"
+      ],
+      "description": "Spa icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSpeaker",
+      "tags": [
+        "fill",
+        "speaker"
+      ],
+      "description": "Speaker icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSprayCan",
+      "tags": [
+        "can",
+        "fill",
+        "spray"
+      ],
+      "description": "Spray Can icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSpreadsheet",
+      "tags": [
+        "fill",
+        "spreadsheet"
+      ],
+      "description": "Spreadsheet icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSquare",
+      "tags": [
+        "fill",
+        "square"
+      ],
+      "description": "Square icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSquareRounded",
+      "tags": [
+        "fill",
+        "rounded",
+        "square"
+      ],
+      "description": "Square Rounded icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsStar",
+      "tags": [
+        "fill",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "BxsStarHalf",
+      "tags": [
+        "fill",
+        "half",
+        "star"
+      ],
+      "description": "Star — ratings, favorites and featured/bookmarked content."
+    },
+    {
+      "name": "BxsSticker",
+      "tags": [
+        "fill",
+        "sticker"
+      ],
+      "description": "Sticker icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsStopwatch",
+      "tags": [
+        "fill",
+        "stopwatch"
+      ],
+      "description": "Stopwatch icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsStore",
+      "tags": [
+        "fill",
+        "store"
+      ],
+      "description": "Store icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsStoreAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "store"
+      ],
+      "description": "Store Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsSun",
+      "tags": [
+        "fill",
+        "sun"
+      ],
+      "description": "Sun — light theme and daytime."
+    },
+    {
+      "name": "BxsSushi",
+      "tags": [
+        "fill",
+        "sushi"
+      ],
+      "description": "Sushi icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTachometer",
+      "tags": [
+        "fill",
+        "tachometer"
+      ],
+      "description": "Tachometer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTag",
+      "tags": [
+        "fill",
+        "tag"
+      ],
+      "description": "Tag icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTagAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "tag"
+      ],
+      "description": "Tag Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTagX",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "tag",
+        "x"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsTaxi",
+      "tags": [
+        "fill",
+        "taxi"
+      ],
+      "description": "Taxi icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTennisBall",
+      "tags": [
+        "ball",
+        "fill",
+        "tennis"
+      ],
+      "description": "Tennis Ball icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTerminal",
+      "tags": [
+        "fill",
+        "terminal"
+      ],
+      "description": "Terminal icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsThermometer",
+      "tags": [
+        "fill",
+        "thermometer"
+      ],
+      "description": "Thermometer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTime",
+      "tags": [
+        "fill",
+        "time"
+      ],
+      "description": "Time icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTimeFive",
+      "tags": [
+        "fill",
+        "five",
+        "time"
+      ],
+      "description": "Time Five icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTimer",
+      "tags": [
+        "fill",
+        "timer"
+      ],
+      "description": "Timer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTired",
+      "tags": [
+        "fill",
+        "tired"
+      ],
+      "description": "Tired icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsToggleLeft",
+      "tags": [
+        "fill",
+        "left",
+        "toggle"
+      ],
+      "description": "Toggle Left icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsToggleRight",
+      "tags": [
+        "fill",
+        "right",
+        "toggle"
+      ],
+      "description": "Toggle Right icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTone",
+      "tags": [
+        "fill",
+        "tone"
+      ],
+      "description": "Tone icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTorch",
+      "tags": [
+        "fill",
+        "torch"
+      ],
+      "description": "Torch icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsToTop",
+      "tags": [
+        "fill",
+        "to",
+        "top"
+      ],
+      "description": "To Top icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTraffic",
+      "tags": [
+        "fill",
+        "traffic"
+      ],
+      "description": "Traffic icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTrafficBarrier",
+      "tags": [
+        "barrier",
+        "fill",
+        "traffic"
+      ],
+      "description": "Traffic Barrier icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTrafficCone",
+      "tags": [
+        "cone",
+        "fill",
+        "traffic"
+      ],
+      "description": "Traffic Cone icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTrain",
+      "tags": [
+        "fill",
+        "train"
+      ],
+      "description": "Train icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTrash",
+      "tags": [
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "BxsTrashAlt",
+      "tags": [
+        "alt",
+        "bin",
+        "delete",
+        "fill",
+        "remove",
+        "trash"
+      ],
+      "description": "Trash can — delete and remove actions."
+    },
+    {
+      "name": "BxsTree",
+      "tags": [
+        "fill",
+        "tree"
+      ],
+      "description": "Tree icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTreeAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "tree"
+      ],
+      "description": "Tree Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTrophy",
+      "tags": [
+        "fill",
+        "trophy"
+      ],
+      "description": "Trophy icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTruck",
+      "tags": [
+        "fill",
+        "truck"
+      ],
+      "description": "Truck icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTShirt",
+      "tags": [
+        "fill",
+        "shirt",
+        "t",
+        "tshirt"
+      ],
+      "description": "TShirt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsTv",
+      "tags": [
+        "fill",
+        "tv"
+      ],
+      "description": "Tv icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsUniversalAccess",
+      "tags": [
+        "access",
+        "fill",
+        "universal"
+      ],
+      "description": "Universal Access icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsUpArrow",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsUpArrowAlt",
+      "tags": [
+        "alt",
+        "arrow",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsUpArrowCircle",
+      "tags": [
+        "arrow",
+        "circle",
+        "fill",
+        "like",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsUpArrowSquare",
+      "tags": [
+        "arrow",
+        "fill",
+        "like",
+        "square",
+        "up"
+      ],
+      "description": "Directional arrow — navigation and movement."
+    },
+    {
+      "name": "BxsUpsideDown",
+      "tags": [
+        "down",
+        "fill",
+        "upside"
+      ],
+      "description": "Upside Down icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsUpvote",
+      "tags": [
+        "fill",
+        "upvote"
+      ],
+      "description": "Upvote icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsUser",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserAccount",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserBadge",
+      "tags": [
+        "account",
+        "badge",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserCheck",
+      "tags": [
+        "account",
+        "check",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserCircle",
+      "tags": [
+        "account",
+        "circle",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserDetail",
+      "tags": [
+        "account",
+        "detail",
+        "fill",
+        "person",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserMinus",
+      "tags": [
+        "account",
+        "fill",
+        "minus",
+        "person",
+        "remove",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserPin",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "pin",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserPlus",
+      "tags": [
+        "account",
+        "add",
+        "fill",
+        "person",
+        "plus",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserRectangle",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "rectangle",
+        "user"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserVoice",
+      "tags": [
+        "account",
+        "fill",
+        "person",
+        "user",
+        "voice"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsUserX",
+      "tags": [
+        "account",
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "person",
+        "remove",
+        "user",
+        "x"
+      ],
+      "description": "Single person — profiles, accounts and authors."
+    },
+    {
+      "name": "BxsVector",
+      "tags": [
+        "fill",
+        "vector"
+      ],
+      "description": "Vector icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVial",
+      "tags": [
+        "fill",
+        "vial"
+      ],
+      "description": "Vial icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVideo",
+      "tags": [
+        "fill",
+        "video"
+      ],
+      "description": "Video icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVideoOff",
+      "tags": [
+        "fill",
+        "hide",
+        "off",
+        "video"
+      ],
+      "description": "Video Off icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVideoPlus",
+      "tags": [
+        "add",
+        "fill",
+        "plus",
+        "video"
+      ],
+      "description": "Plus — add, create and increment actions."
+    },
+    {
+      "name": "BxsVideoRecording",
+      "tags": [
+        "fill",
+        "recording",
+        "video"
+      ],
+      "description": "Video Recording icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVideos",
+      "tags": [
+        "fill",
+        "videos"
+      ],
+      "description": "Videos icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVirus",
+      "tags": [
+        "fill",
+        "virus"
+      ],
+      "description": "Virus icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVirusBlock",
+      "tags": [
+        "block",
+        "fill",
+        "virus"
+      ],
+      "description": "Virus Block icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsVolume",
+      "tags": [
+        "fill",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "BxsVolumeFull",
+      "tags": [
+        "fill",
+        "full",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "BxsVolumeLow",
+      "tags": [
+        "fill",
+        "low",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "BxsVolumeMute",
+      "tags": [
+        "fill",
+        "mute",
+        "volume"
+      ],
+      "description": "Speaker — audio volume controls."
+    },
+    {
+      "name": "BxsWallet",
+      "tags": [
+        "fill",
+        "wallet"
+      ],
+      "description": "Wallet icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWalletAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "wallet"
+      ],
+      "description": "Wallet Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWasher",
+      "tags": [
+        "fill",
+        "washer"
+      ],
+      "description": "Washer icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWatch",
+      "tags": [
+        "fill",
+        "watch"
+      ],
+      "description": "Watch icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWatchAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "watch"
+      ],
+      "description": "Watch Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWebcam",
+      "tags": [
+        "fill",
+        "webcam"
+      ],
+      "description": "Webcam icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWidget",
+      "tags": [
+        "fill",
+        "widget"
+      ],
+      "description": "Widget icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWindowAlt",
+      "tags": [
+        "alt",
+        "fill",
+        "window"
+      ],
+      "description": "Window Alt icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWine",
+      "tags": [
+        "fill",
+        "wine"
+      ],
+      "description": "Wine icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWinkSmile",
+      "tags": [
+        "fill",
+        "smile",
+        "wink"
+      ],
+      "description": "Wink Smile icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWinkTongue",
+      "tags": [
+        "fill",
+        "tongue",
+        "wink"
+      ],
+      "description": "Wink Tongue icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsWrench",
+      "tags": [
+        "fill",
+        "wrench"
+      ],
+      "description": "Wrench icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsXCircle",
+      "tags": [
+        "cancel",
+        "circle",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "x",
+        "xcircle"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsXSquare",
+      "tags": [
+        "cancel",
+        "close",
+        "delete",
+        "fill",
+        "remove",
+        "square",
+        "x",
+        "xsquare"
+      ],
+      "description": "Cross — close, dismiss and cancel actions."
+    },
+    {
+      "name": "BxsYinYang",
+      "tags": [
+        "fill",
+        "yang",
+        "yin"
+      ],
+      "description": "Yin Yang icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsZap",
+      "tags": [
+        "fill",
+        "zap"
+      ],
+      "description": "Zap icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsZoomIn",
+      "tags": [
+        "fill",
+        "in",
+        "zoom"
+      ],
+      "description": "Zoom In icon — Boxicons Solid (bxs) set, fill style."
+    },
+    {
+      "name": "BxsZoomOut",
+      "tags": [
+        "fill",
+        "out",
+        "zoom"
+      ],
+      "description": "Zoom Out icon — Boxicons Solid (bxs) set, fill style."
+    }
+  ]
+}

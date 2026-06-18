@@ -4,7 +4,7 @@ description: >-
   Find, import, theme, and troubleshoot icons from the @mal-icons SDK (Feather
   "fi", Circum "ci", Ionicons "io", Lucide "lu", Font Awesome Free solid "fa" / brands "fab" /
   regular "far", Typicons "ti", Octicons "oc", Devicons "dev", Weather Icons "wi",
-  Ant Design "ad", Flat Color Icons "fc", Game Icons "gi", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Remix Icon "ri", Simple Icons "si", Bootstrap Icons "bs", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 42,850 icons) across
+  Ant Design "ad", Flat Color Icons "fc", Game Icons "gi", Grommet "gr", Heroicons "hi", Simple Line Icons "sl", css.gg "cg", Codicons "vsc", Themify "tf", Radix Icons "rx", Remix Icon "ri", Simple Icons "si", Bootstrap Icons "bs", Boxicons Regular "bx" / Solid "bxs" / Logos "bxl", Tabler Icons "tb", Material Icons Filled "mdf" / Rounded "mdr" / Sharp "mds" / Two Tone "mdt", Material Symbols Outlined "mso" / Rounded "msr" / Sharp "mss" — 49,577 icons) across
   React, Vue, Svelte,
   Solid, Preact, Angular, Astro, vanilla Web, and React Native. Use when a user
   asks to add an icon, pick the right icon for a concept (e.g. "a trash icon",
@@ -45,6 +45,10 @@ helps you choose icons and wire them into any supported framework correctly.
 | `sl` | Simple Line Icons | `Sl` | fill | 189 | MIT | `0 0 1024 1024` |
 | `ri` | Remix Icon | `Ri` | fill | 3058 | Apache-2.0 | `0 0 24 24` |
 | `si` | Simple Icons | `Si` | fill | 3442 | CC0-1.0 | `0 0 24 24` |
+| `bx` | Boxicons Regular | `Bx` | fill | 814 | CC-BY-4.0 | `0 0 24 24` |
+| `bxs` | Boxicons Solid | `Bxs` | fill | 665 | CC-BY-4.0 | `0 0 24 24` |
+| `bxl` | Boxicons Logos | `Bxl` | fill | 155 | CC-BY-4.0 | `0 0 24 24` |
+| `tb` | Tabler Icons | `Tb` | stroke | 5093 | MIT | `0 0 24 24` |
 | `hi` | Heroicons | `Hi` | stroke | 324 | MIT | `0 0 24 24` |
 | `bs` | Bootstrap Icons | `Bs` | fill | 2078 | MIT | `0 0 16 16` |
 | `mdf` | Material Icons Filled | `Mdf` | fill | 2122 | Apache-2.0 | `0 0 24 24` |
@@ -120,6 +124,10 @@ catalog (name, tags, description) lives in:
 - [references/icons/ri.json](references/icons/ri.json) · [ri.md](references/icons/ri.md) — Remix Icon
 - [references/icons/si.json](references/icons/si.json) · [si.md](references/icons/si.md) — Simple Icons
 - [references/icons/bs.json](references/icons/bs.json) · [bs.md](references/icons/bs.md) — Bootstrap Icons
+- [references/icons/bx.json](references/icons/bx.json) · [bx.md](references/icons/bx.md) — Boxicons Regular
+- [references/icons/bxs.json](references/icons/bxs.json) · [bxs.md](references/icons/bxs.md) — Boxicons Solid
+- [references/icons/bxl.json](references/icons/bxl.json) · [bxl.md](references/icons/bxl.md) — Boxicons Logos
+- [references/icons/tb.json](references/icons/tb.json) · [tb.md](references/icons/tb.md) — Tabler Icons
 - [references/icons/mdf.json](references/icons/mdf.json) · [mdf.md](references/icons/mdf.md) — Material Icons Filled
 - [references/icons/mdr.json](references/icons/mdr.json) · [mdr.md](references/icons/mdr.md) — Material Icons Rounded
 - [references/icons/mds.json](references/icons/mds.json) · [mds.md](references/icons/mds.md) — Material Icons Sharp
@@ -192,4 +200,4 @@ Swap `react` for any package: `vue`, `svelte`, `solid`, `preact`, `angular`,
 2. Use the package that matches their framework; default to per-icon or set
    barrel imports for tree-shaking.
 3. Open the relevant `references/setup/<framework>.md` for the exact API.
-4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) are CC-BY-4.0; Game Icons (`gi`) is CC-BY-3.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) and Remix Icon (`ri`) are Apache-2.0; Simple Icons (`si`) is CC0-1.0 (public domain, but brand trademarks still apply); Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`)/Bootstrap Icons (`bs`) are MIT; Lucide (`lu`) is ISC.
+4. Respect licensing: Circum (`ci`) is MPL-2.0; Font Awesome Free (`fa`, `fab`, `far`) and Flat Color Icons (`fc`) and Boxicons (`bx`, `bxs`, `bxl`) are CC-BY-4.0; Game Icons (`gi`) is CC-BY-3.0; Typicons (`ti`) is CC-BY-SA-4.0; Weather Icons (`wi`) is OFL-1.1; Grommet (`gr`) and Material Icons (`md`, `mdf`, `mdr`, `mds`, `mdt`) and Material Symbols (`mso`, `msr`, `mss`) and Remix Icon (`ri`) are Apache-2.0; Simple Icons (`si`) is CC0-1.0 (public domain, but brand trademarks still apply); Feather/Ionicons/Octicons/Devicons/Ant Design (`ad`)/Bootstrap Icons (`bs`)/Tabler Icons (`tb`) are MIT; Lucide (`lu`) is ISC.
