@@ -154,6 +154,15 @@ async function buildVue(): Promise<void> {
     naming: "[dir]/[name].cjs",
   });
   if (!cjs.success) throw new AggregateError(cjs.logs, "vue CJS build failed");
+
+  // Write per-icon type stub so published consumers still get a typed default
+  // export for deep imports (e.g. `@mal-icons/vue/fi/FiSearch`).  Per-icon
+  // `.d.ts` / `.d.ts.map` files are excluded from the npm tarball via
+  // `.npmignore` to stay within npm's ~65 k file limit; this stub replaces them.
+  await Bun.write(
+    join(VUE_OUT, "icons", "_icon.d.ts"),
+    'import type { createIcon } from "../index.js";\ndeclare const _default: ReturnType<typeof createIcon>;\nexport default _default;\n',
+  );
 }
 
 async function buildPreact(): Promise<void> {
@@ -199,6 +208,12 @@ async function buildPreact(): Promise<void> {
     naming: "[dir]/[name].cjs",
   });
   if (!cjs.success) throw new AggregateError(cjs.logs, "preact CJS build failed");
+
+  // Write per-icon type stub (see buildVue for rationale).
+  await Bun.write(
+    join(PREACT_OUT, "icons", "_icon.d.ts"),
+    'import type { createIcon } from "../index.js";\ndeclare const _default: ReturnType<typeof createIcon>;\nexport default _default;\n',
+  );
 }
 
 async function buildSolid(): Promise<void> {
@@ -412,6 +427,12 @@ async function buildReact(): Promise<void> {
   if (await manifest.exists()) {
     await cp(join(REACT_SRC, "icons", "manifest.json"), join(REACT_OUT, "icons", "manifest.json"));
   }
+
+  // Write per-icon type stub (see buildVue for rationale).
+  await Bun.write(
+    join(REACT_OUT, "icons", "_icon.d.ts"),
+    'import type { createIcon } from "../index.js";\ndeclare const _default: ReturnType<typeof createIcon>;\nexport default _default;\n',
+  );
 }
 
 async function buildReactNative(): Promise<void> {
@@ -458,6 +479,12 @@ async function buildReactNative(): Promise<void> {
     naming: "[dir]/[name].cjs",
   });
   if (!cjs.success) throw new AggregateError(cjs.logs, "react-native CJS build failed");
+
+  // Write per-icon type stub (see buildVue for rationale).
+  await Bun.write(
+    join(RN_OUT, "icons", "_icon.d.ts"),
+    'import type { createIcon } from "../index.js";\ndeclare const _default: ReturnType<typeof createIcon>;\nexport default _default;\n',
+  );
 }
 
 async function buildEslintPlugin(): Promise<void> {

@@ -1,0 +1,11 @@
+# Per-icon type declaration files are excluded to stay under npm's ~65 k file
+# limit (157 k files → ~52 k after exclusion).  Per-icon deep imports such as
+# `import FiSearch from "@mal-icons/vue/fi/FiSearch"` still type-check via
+# the shared stub at dist/icons/_icon.d.ts (referenced by the package exports).
+dist/icons/**/*.d.ts
+dist/icons/**/*.d.ts.map
+!dist/icons/_icon.d.ts
+!dist/icons/**/index.d.ts
+!dist/icons/**/index.d.ts.map
+!dist/icons/**/names.d.ts
+!dist/icons/**/names.d.ts.map
