@@ -52,6 +52,16 @@ jobs:
       - name: Build all packages
         run: bun run build
 
+      - name: Prune per-icon declaration files for npm publish
+        run: |
+          for dir in packages/react packages/vue packages/preact packages/react-native; do
+            find "$dir/dist/icons" -type f \( -name "*.d.ts" -o -name "*.d.ts.map" \) \
+              ! -name "_icon.d.ts" \
+              ! -name "index.d.ts" ! -name "index.d.ts.map" \
+              ! -name "names.d.ts" ! -name "names.d.ts.map" \
+              -delete
+          done
+
       - name: Configure npm authentication
         if: ${{ env.NPM_TOKEN != '' }}
         run: |
@@ -101,6 +111,16 @@ jobs:
 
       - name: Build all packages
         run: bun run build
+
+      - name: Prune per-icon declaration files for npm publish
+        run: |
+          for dir in packages/react packages/vue packages/preact packages/react-native; do
+            find "$dir/dist/icons" -type f \( -name "*.d.ts" -o -name "*.d.ts.map" \) \
+              ! -name "_icon.d.ts" \
+              ! -name "index.d.ts" ! -name "index.d.ts.map" \
+              ! -name "names.d.ts" ! -name "names.d.ts.map" \
+              -delete
+          done
 
       - name: Configure npm authentication
         env:
