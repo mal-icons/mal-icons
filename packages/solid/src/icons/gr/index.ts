@@ -635,4 +635,6 @@ export { default as GrYoutube } from "./GrYoutube.ts";
 export { default as GrZoom } from "./GrZoom.ts";
 export { default as GrZoomIn } from "./GrZoomIn.ts";
 export { default as GrZoomOut } from "./GrZoomOut.ts";
-export { grIconNames, type GrIconName } from "./names.ts";
+import { grIconNames as _grIconNames } from "./names.ts";
+export type { GrIconName } from "./names.ts";
+export const grIconNames = _grIconNames;

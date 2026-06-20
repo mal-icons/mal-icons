@@ -493,4 +493,6 @@ export { default as FabYelp } from "./FabYelp.ts";
 export { default as FabYoast } from "./FabYoast.ts";
 export { default as FabYoutube } from "./FabYoutube.ts";
 export { default as FabZhihu } from "./FabZhihu.ts";
-export { fabIconNames, type FabIconName } from "./names.ts";
+import { fabIconNames as _fabIconNames } from "./names.ts";
+export type { FabIconName } from "./names.ts";
+export const fabIconNames = _fabIconNames;

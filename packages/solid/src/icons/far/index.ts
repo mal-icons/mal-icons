@@ -161,4 +161,6 @@ export { default as FarUser } from "./FarUser.ts";
 export { default as FarWindowMaximize } from "./FarWindowMaximize.ts";
 export { default as FarWindowMinimize } from "./FarWindowMinimize.ts";
 export { default as FarWindowRestore } from "./FarWindowRestore.ts";
-export { farIconNames, type FarIconName } from "./names.ts";
+import { farIconNames as _farIconNames } from "./names.ts";
+export type { FarIconName } from "./names.ts";
+export const farIconNames = _farIconNames;

@@ -316,4 +316,6 @@ export { default as RxViewVertical } from "./RxViewVertical.ts";
 export { default as RxWidth } from "./RxWidth.ts";
 export { default as RxZoomIn } from "./RxZoomIn.ts";
 export { default as RxZoomOut } from "./RxZoomOut.ts";
-export { rxIconNames, type RxIconName } from "./names.ts";
+import { rxIconNames as _rxIconNames } from "./names.ts";
+export type { RxIconName } from "./names.ts";
+export const rxIconNames = _rxIconNames;

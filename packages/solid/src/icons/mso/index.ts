@@ -3002,4 +3002,6 @@ export { default as MsoZoomIn } from "./MsoZoomIn.ts";
 export { default as MsoZoomInMap } from "./MsoZoomInMap.ts";
 export { default as MsoZoomOut } from "./MsoZoomOut.ts";
 export { default as MsoZoomOutMap } from "./MsoZoomOutMap.ts";
-export { msoIconNames, type MsoIconName } from "./names.ts";
+import { msoIconNames as _msoIconNames } from "./names.ts";
+export type { MsoIconName } from "./names.ts";
+export const msoIconNames = _msoIconNames;

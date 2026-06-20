@@ -2120,4 +2120,6 @@ export { default as MdsZoomIn } from "./MdsZoomIn.ts";
 export { default as MdsZoomInMap } from "./MdsZoomInMap.ts";
 export { default as MdsZoomOut } from "./MdsZoomOut.ts";
 export { default as MdsZoomOutMap } from "./MdsZoomOutMap.ts";
-export { mdsIconNames, type MdsIconName } from "./names.ts";
+import { mdsIconNames as _mdsIconNames } from "./names.ts";
+export type { MdsIconName } from "./names.ts";
+export const mdsIconNames = _mdsIconNames;

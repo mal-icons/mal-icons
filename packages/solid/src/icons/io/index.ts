@@ -1355,4 +1355,6 @@ export { default as IoWineSharp } from "./IoWineSharp.ts";
 export { default as IoWoman } from "./IoWoman.ts";
 export { default as IoWomanOutline } from "./IoWomanOutline.ts";
 export { default as IoWomanSharp } from "./IoWomanSharp.ts";
-export { ioIconNames, type IoIconName } from "./names.ts";
+import { ioIconNames as _ioIconNames } from "./names.ts";
+export type { IoIconName } from "./names.ts";
+export const ioIconNames = _ioIconNames;
