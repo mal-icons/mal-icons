@@ -310,4 +310,6 @@ export { default as FcVoicemail } from "./FcVoicemail.ts";
 export { default as FcVoicePresentation } from "./FcVoicePresentation.ts";
 export { default as FcWebcam } from "./FcWebcam.ts";
 export { default as FcWorkflow } from "./FcWorkflow.ts";
-export { fcIconNames, type FcIconName } from "./names.ts";
+import { fcIconNames as _fcIconNames } from "./names.ts";
+export type { FcIconName } from "./names.ts";
+export const fcIconNames = _fcIconNames;

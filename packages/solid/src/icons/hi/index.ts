@@ -322,4 +322,6 @@ export { default as HiWrench } from "./HiWrench.ts";
 export { default as HiWrenchScrewdriver } from "./HiWrenchScrewdriver.ts";
 export { default as HiXCircle } from "./HiXCircle.ts";
 export { default as HiXMark } from "./HiXMark.ts";
-export { hiIconNames, type HiIconName } from "./names.ts";
+import { hiIconNames as _hiIconNames } from "./names.ts";
+export type { HiIconName } from "./names.ts";
+export const hiIconNames = _hiIconNames;

@@ -2120,4 +2120,6 @@ export { default as MdtZoomIn } from "./MdtZoomIn.ts";
 export { default as MdtZoomInMap } from "./MdtZoomInMap.ts";
 export { default as MdtZoomOut } from "./MdtZoomOut.ts";
 export { default as MdtZoomOutMap } from "./MdtZoomOutMap.ts";
-export { mdtIconNames, type MdtIconName } from "./names.ts";
+import { mdtIconNames as _mdtIconNames } from "./names.ts";
+export type { MdtIconName } from "./names.ts";
+export const mdtIconNames = _mdtIconNames;

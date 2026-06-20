@@ -1400,4 +1400,6 @@ export { default as FaY } from "./FaY.ts";
 export { default as FaYenSign } from "./FaYenSign.ts";
 export { default as FaYinYang } from "./FaYinYang.ts";
 export { default as FaZ } from "./FaZ.ts";
-export { faIconNames, type FaIconName } from "./names.ts";
+import { faIconNames as _faIconNames } from "./names.ts";
+export type { FaIconName } from "./names.ts";
+export const faIconNames = _faIconNames;

@@ -350,4 +350,6 @@ export { default as TfYoutube } from "./TfYoutube.ts";
 export { default as TfZip } from "./TfZip.ts";
 export { default as TfZoomIn } from "./TfZoomIn.ts";
 export { default as TfZoomOut } from "./TfZoomOut.ts";
-export { tfIconNames, type TfIconName } from "./names.ts";
+import { tfIconNames as _tfIconNames } from "./names.ts";
+export type { TfIconName } from "./names.ts";
+export const tfIconNames = _tfIconNames;

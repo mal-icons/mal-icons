@@ -3002,4 +3002,6 @@ export { default as MsrZoomIn } from "./MsrZoomIn.ts";
 export { default as MsrZoomInMap } from "./MsrZoomInMap.ts";
 export { default as MsrZoomOut } from "./MsrZoomOut.ts";
 export { default as MsrZoomOutMap } from "./MsrZoomOutMap.ts";
-export { msrIconNames, type MsrIconName } from "./names.ts";
+import { msrIconNames as _msrIconNames } from "./names.ts";
+export type { MsrIconName } from "./names.ts";
+export const msrIconNames = _msrIconNames;

@@ -1246,4 +1246,6 @@ export { default as PhXCircle } from "./PhXCircle.ts";
 export { default as PhXSquare } from "./PhXSquare.ts";
 export { default as PhYinYang } from "./PhYinYang.ts";
 export { default as PhYoutubeLogo } from "./PhYoutubeLogo.ts";
-export { phIconNames, type PhIconName } from "./names.ts";
+import { phIconNames as _phIconNames } from "./names.ts";
+export type { PhIconName } from "./names.ts";
+export const phIconNames = _phIconNames;

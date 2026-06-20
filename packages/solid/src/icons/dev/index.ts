@@ -1723,4 +1723,6 @@ export { default as DevZube } from "./DevZube.ts";
 export { default as DevZulip } from "./DevZulip.ts";
 export { default as DevZulipIcon } from "./DevZulipIcon.ts";
 export { default as DevZwave } from "./DevZwave.ts";
-export { devIconNames, type DevIconName } from "./names.ts";
+import { devIconNames as _devIconNames } from "./names.ts";
+export type { DevIconName } from "./names.ts";
+export const devIconNames = _devIconNames;

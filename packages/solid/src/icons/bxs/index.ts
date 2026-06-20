@@ -663,4 +663,6 @@ export { default as BxsYinYang } from "./BxsYinYang.ts";
 export { default as BxsZap } from "./BxsZap.ts";
 export { default as BxsZoomIn } from "./BxsZoomIn.ts";
 export { default as BxsZoomOut } from "./BxsZoomOut.ts";
-export { bxsIconNames, type BxsIconName } from "./names.ts";
+import { bxsIconNames as _bxsIconNames } from "./names.ts";
+export type { BxsIconName } from "./names.ts";
+export const bxsIconNames = _bxsIconNames;

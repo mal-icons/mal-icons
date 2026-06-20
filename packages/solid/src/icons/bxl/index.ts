@@ -153,4 +153,6 @@ export { default as BxlYahoo } from "./BxlYahoo.ts";
 export { default as BxlYelp } from "./BxlYelp.ts";
 export { default as BxlYoutube } from "./BxlYoutube.ts";
 export { default as BxlZoom } from "./BxlZoom.ts";
-export { bxlIconNames, type BxlIconName } from "./names.ts";
+import { bxlIconNames as _bxlIconNames } from "./names.ts";
+export type { BxlIconName } from "./names.ts";
+export const bxlIconNames = _bxlIconNames;

@@ -1725,4 +1725,6 @@ export { default as LuZodiacTaurus } from "./LuZodiacTaurus.ts";
 export { default as LuZodiacVirgo } from "./LuZodiacVirgo.ts";
 export { default as LuZoomIn } from "./LuZoomIn.ts";
 export { default as LuZoomOut } from "./LuZoomOut.ts";
-export { luIconNames, type LuIconName } from "./names.ts";
+import { luIconNames as _luIconNames } from "./names.ts";
+export type { LuIconName } from "./names.ts";
+export const luIconNames = _luIconNames;

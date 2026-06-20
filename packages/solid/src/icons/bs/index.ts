@@ -2076,4 +2076,6 @@ export { default as BsYinYang } from "./BsYinYang.ts";
 export { default as BsYoutube } from "./BsYoutube.ts";
 export { default as BsZoomIn } from "./BsZoomIn.ts";
 export { default as BsZoomOut } from "./BsZoomOut.ts";
-export { bsIconNames, type BsIconName } from "./names.ts";
+import { bsIconNames as _bsIconNames } from "./names.ts";
+export type { BsIconName } from "./names.ts";
+export const bsIconNames = _bsIconNames;
