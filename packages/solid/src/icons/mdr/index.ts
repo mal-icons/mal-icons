@@ -2120,4 +2120,6 @@ export { default as MdrZoomIn } from "./MdrZoomIn.ts";
 export { default as MdrZoomInMap } from "./MdrZoomInMap.ts";
 export { default as MdrZoomOut } from "./MdrZoomOut.ts";
 export { default as MdrZoomOutMap } from "./MdrZoomOutMap.ts";
-export { mdrIconNames, type MdrIconName } from "./names.ts";
+import { mdrIconNames as _mdrIconNames } from "./names.ts";
+export type { MdrIconName } from "./names.ts";
+export const mdrIconNames = _mdrIconNames;

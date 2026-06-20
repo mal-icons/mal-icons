@@ -286,4 +286,6 @@ export { default as CiWifiOn } from "./CiWifiOn.ts";
 export { default as CiYoutube } from "./CiYoutube.ts";
 export { default as CiZoomIn } from "./CiZoomIn.ts";
 export { default as CiZoomOut } from "./CiZoomOut.ts";
-export { ciIconNames, type CiIconName } from "./names.ts";
+import { ciIconNames as _ciIconNames } from "./names.ts";
+export type { CiIconName } from "./names.ts";
+export const ciIconNames = _ciIconNames;

@@ -217,4 +217,6 @@ export { default as WiWindBeaufort8 } from "./WiWindBeaufort8.ts";
 export { default as WiWindBeaufort9 } from "./WiWindBeaufort9.ts";
 export { default as WiWindDeg } from "./WiWindDeg.ts";
 export { default as WiWindy } from "./WiWindy.ts";
-export { wiIconNames, type WiIconName } from "./names.ts";
+import { wiIconNames as _wiIconNames } from "./names.ts";
+export type { WiIconName } from "./names.ts";
+export const wiIconNames = _wiIconNames;

@@ -1542,4 +1542,6 @@ export { default as LaYoast } from "./LaYoast.ts";
 export { default as LaYoutube } from "./LaYoutube.ts";
 export { default as LaYoutubeSquare } from "./LaYoutubeSquare.ts";
 export { default as LaZhihu } from "./LaZhihu.ts";
-export { laIconNames, type LaIconName } from "./names.ts";
+import { laIconNames as _laIconNames } from "./names.ts";
+export type { LaIconName } from "./names.ts";
+export const laIconNames = _laIconNames;

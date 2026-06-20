@@ -731,4 +731,6 @@ export { default as OcZoomIn16 } from "./OcZoomIn16.ts";
 export { default as OcZoomIn24 } from "./OcZoomIn24.ts";
 export { default as OcZoomOut16 } from "./OcZoomOut16.ts";
 export { default as OcZoomOut24 } from "./OcZoomOut24.ts";
-export { ocIconNames, type OcIconName } from "./names.ts";
+import { ocIconNames as _ocIconNames } from "./names.ts";
+export type { OcIconName } from "./names.ts";
+export const ocIconNames = _ocIconNames;

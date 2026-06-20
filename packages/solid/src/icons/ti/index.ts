@@ -334,4 +334,6 @@ export { default as TiZoomInOutline } from "./TiZoomInOutline.ts";
 export { default as TiZoomOut } from "./TiZoomOut.ts";
 export { default as TiZoomOutline } from "./TiZoomOutline.ts";
 export { default as TiZoomOutOutline } from "./TiZoomOutOutline.ts";
-export { tiIconNames, type TiIconName } from "./names.ts";
+import { tiIconNames as _tiIconNames } from "./names.ts";
+export type { TiIconName } from "./names.ts";
+export const tiIconNames = _tiIconNames;

@@ -602,4 +602,6 @@ export { default as VscWorktreeCompact } from "./VscWorktreeCompact.ts";
 export { default as VscWorktreeSmall } from "./VscWorktreeSmall.ts";
 export { default as VscZoomIn } from "./VscZoomIn.ts";
 export { default as VscZoomOut } from "./VscZoomOut.ts";
-export { vscIconNames, type VscIconName } from "./names.ts";
+import { vscIconNames as _vscIconNames } from "./names.ts";
+export type { VscIconName } from "./names.ts";
+export const vscIconNames = _vscIconNames;

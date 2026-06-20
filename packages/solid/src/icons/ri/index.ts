@@ -3056,4 +3056,6 @@ export { default as RiZoomOutFill } from "./RiZoomOutFill.ts";
 export { default as RiZoomOutLine } from "./RiZoomOutLine.ts";
 export { default as RiZzzFill } from "./RiZzzFill.ts";
 export { default as RiZzzLine } from "./RiZzzLine.ts";
-export { riIconNames, type RiIconName } from "./names.ts";
+import { riIconNames as _riIconNames } from "./names.ts";
+export type { RiIconName } from "./names.ts";
+export const riIconNames = _riIconNames;

@@ -378,9 +378,15 @@ async function emitSolidSet(source: IconSource, icons: GeneratedIcon[]): Promise
 
   const namesConst = `${source.id}IconNames`;
   const namesType = `${source.id.charAt(0).toUpperCase()}${source.id.slice(1)}IconName`;
+  // Use a real local binding (`const X = _X`) rather than a pure re-export
+  // (`export { X } from "./names.ts"`).  Bun's `splitting:true` bundler emits
+  // pure re-export barrels as "facade" modules that reference the exported
+  // symbol without defining it; Node ESM then throws
+  // "Export 'X' is not defined in module".  A local `const` assignment forces
+  // Bun to inline or properly chunk the definition.
   const barrel = `${icons
     .map((icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.ts";`)
-    .join("\n")}\nexport { ${namesConst}, type ${namesType} } from "./names.ts";\n`;
+    .join("\n")}\nimport { ${namesConst} as _${namesConst} } from "./names.ts";\nexport type { ${namesType} } from "./names.ts";\nexport const ${namesConst} = _${namesConst};\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
   await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
 }

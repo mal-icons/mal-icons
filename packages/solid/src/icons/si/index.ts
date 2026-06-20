@@ -3440,4 +3440,6 @@ export { default as SiZotero } from "./SiZotero.ts";
 export { default as SiZsh } from "./SiZsh.ts";
 export { default as SiZulip } from "./SiZulip.ts";
 export { default as SiZyte } from "./SiZyte.ts";
-export { siIconNames, type SiIconName } from "./names.ts";
+import { siIconNames as _siIconNames } from "./names.ts";
+export type { SiIconName } from "./names.ts";
+export const siIconNames = _siIconNames;

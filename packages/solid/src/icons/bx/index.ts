@@ -812,4 +812,6 @@ export { default as BxXCircle } from "./BxXCircle.ts";
 export { default as BxYen } from "./BxYen.ts";
 export { default as BxZoomIn } from "./BxZoomIn.ts";
 export { default as BxZoomOut } from "./BxZoomOut.ts";
-export { bxIconNames, type BxIconName } from "./names.ts";
+import { bxIconNames as _bxIconNames } from "./names.ts";
+export type { BxIconName } from "./names.ts";
+export const bxIconNames = _bxIconNames;

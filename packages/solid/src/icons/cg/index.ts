@@ -702,4 +702,6 @@ export { default as CgYinyang } from "./CgYinyang.ts";
 export { default as CgYoutube } from "./CgYoutube.ts";
 export { default as CgZoomIn } from "./CgZoomIn.ts";
 export { default as CgZoomOut } from "./CgZoomOut.ts";
-export { cgIconNames, type CgIconName } from "./names.ts";
+import { cgIconNames as _cgIconNames } from "./names.ts";
+export type { CgIconName } from "./names.ts";
+export const cgIconNames = _cgIconNames;

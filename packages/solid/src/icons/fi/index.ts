@@ -285,4 +285,6 @@ export { default as FiZap } from "./FiZap.ts";
 export { default as FiZapOff } from "./FiZapOff.ts";
 export { default as FiZoomIn } from "./FiZoomIn.ts";
 export { default as FiZoomOut } from "./FiZoomOut.ts";
-export { fiIconNames, type FiIconName } from "./names.ts";
+import { fiIconNames as _fiIconNames } from "./names.ts";
+export type { FiIconName } from "./names.ts";
+export const fiIconNames = _fiIconNames;

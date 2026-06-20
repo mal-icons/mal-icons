@@ -418,4 +418,6 @@ export { default as AdYuque } from "./AdYuque.ts";
 export { default as AdZhihu } from "./AdZhihu.ts";
 export { default as AdZoomIn } from "./AdZoomIn.ts";
 export { default as AdZoomOut } from "./AdZoomOut.ts";
-export { adIconNames, type AdIconName } from "./names.ts";
+import { adIconNames as _adIconNames } from "./names.ts";
+export type { AdIconName } from "./names.ts";
+export const adIconNames = _adIconNames;

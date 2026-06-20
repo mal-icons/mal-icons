@@ -2120,4 +2120,6 @@ export { default as MdfZoomIn } from "./MdfZoomIn.ts";
 export { default as MdfZoomInMap } from "./MdfZoomInMap.ts";
 export { default as MdfZoomOut } from "./MdfZoomOut.ts";
 export { default as MdfZoomOutMap } from "./MdfZoomOutMap.ts";
-export { mdfIconNames, type MdfIconName } from "./names.ts";
+import { mdfIconNames as _mdfIconNames } from "./names.ts";
+export type { MdfIconName } from "./names.ts";
+export const mdfIconNames = _mdfIconNames;

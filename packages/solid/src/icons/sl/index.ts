@@ -187,4 +187,6 @@ export { default as SlVolume2 } from "./SlVolume2.ts";
 export { default as SlVolumeOff } from "./SlVolumeOff.ts";
 export { default as SlWallet } from "./SlWallet.ts";
 export { default as SlWrench } from "./SlWrench.ts";
-export { slIconNames, type SlIconName } from "./names.ts";
+import { slIconNames as _slIconNames } from "./names.ts";
+export type { SlIconName } from "./names.ts";
+export const slIconNames = _slIconNames;

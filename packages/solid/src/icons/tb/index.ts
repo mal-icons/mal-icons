@@ -5091,4 +5091,6 @@ export { default as TbZoomReset } from "./TbZoomReset.ts";
 export { default as TbZoomScan } from "./TbZoomScan.ts";
 export { default as TbZzz } from "./TbZzz.ts";
 export { default as TbZzzOff } from "./TbZzzOff.ts";
-export { tbIconNames, type TbIconName } from "./names.ts";
+import { tbIconNames as _tbIconNames } from "./names.ts";
+export type { TbIconName } from "./names.ts";
+export const tbIconNames = _tbIconNames;

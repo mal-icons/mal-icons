@@ -4178,4 +4178,6 @@ export { default as GiZigzagHieroglyph } from "./GiZigzagHieroglyph.ts";
 export { default as GiZigzagLeaf } from "./GiZigzagLeaf.ts";
 export { default as GiZigzagTune } from "./GiZigzagTune.ts";
 export { default as GiZipper } from "./GiZipper.ts";
-export { giIconNames, type GiIconName } from "./names.ts";
+import { giIconNames as _giIconNames } from "./names.ts";
+export type { GiIconName } from "./names.ts";
+export const giIconNames = _giIconNames;
