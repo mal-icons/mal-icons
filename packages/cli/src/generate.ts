@@ -386,7 +386,9 @@ async function emitSolidSet(source: IconSource, icons: GeneratedIcon[]): Promise
   // Bun to inline or properly chunk the definition.
   const barrel = `${icons
     .map((icon) => `export { default as ${icon.componentName} } from "./${icon.componentName}.ts";`)
-    .join("\n")}\nimport { ${namesConst} as _${namesConst} } from "./names.ts";\nexport type { ${namesType} } from "./names.ts";\nexport const ${namesConst} = _${namesConst};\n`;
+    .join(
+      "\n",
+    )}\nimport { ${namesConst} as _${namesConst} } from "./names.ts";\nexport type { ${namesType} } from "./names.ts";\nexport const ${namesConst} = _${namesConst};\n`;
   await writeFile(join(setDir, "index.ts"), barrel);
   await writeFile(join(setDir, "names.ts"), namesFileContents(source, icons));
 }
