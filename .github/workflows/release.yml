@@ -78,7 +78,7 @@ jobs:
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::dry-run $dir"
-            (cd "$dir" && bun publish --access public --dry-run)
+            (cd "$dir" && npm publish --access public --dry-run)
             echo "::endgroup::"
           done
 
@@ -142,7 +142,7 @@ jobs:
         run: |
           for dir in $PUBLISH_ORDER; do
             echo "::group::publish $dir"
-            (cd "$dir" && bun publish --access public)
+            (cd "$dir" && npm publish --access public)
             echo "::endgroup::"
           done
 
