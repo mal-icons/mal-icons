@@ -39,6 +39,10 @@ jobs:
         with:
           bun-version: ${{ env.BUN_VERSION }}
       - name: Type-check
+        # tsc --build over the whole monorepo (many generated icon modules)
+        # can exhaust the default V8 heap on the runner; raise the limit.
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
         run: bun run typecheck
       - name: Test
         run: bun test
