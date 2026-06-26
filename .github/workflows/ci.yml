@@ -113,6 +113,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Build all packages
+        # `bun run build` finishes with `tsc --build --force`, which rebuilds
+        # every project reference from scratch and can exhaust the default V8
+        # heap on the runner (same failure mode as type-check). Raise the limit.
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
         run: bun run build
       - name: Smoke-import core under Node
         run: node --input-type=module -e "await import('./packages/core/dist/index.js');"
@@ -137,6 +142,11 @@ jobs:
         with:
           bun-version: ${{ env.BUN_VERSION }}
       - name: Build all packages
+        # `bun run build` finishes with `tsc --build --force`, which rebuilds
+        # every project reference from scratch and can exhaust the default V8
+        # heap on the runner (same failure mode as type-check). Raise the limit.
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
         run: bun run build
       - name: Pack dry-run (verify publish contents)
         run: |
