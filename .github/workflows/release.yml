@@ -37,6 +37,10 @@ jobs:
       - name: Lint
         run: bun run lint
       - name: Type-check
+        # tsc --build over the whole monorepo (many generated icon modules)
+        # can exhaust the default V8 heap on the runner; raise the limit.
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
         run: bun run typecheck
       - name: Test
         run: bun test
@@ -50,6 +54,11 @@ jobs:
         run: bun install
 
       - name: Build all packages
+        # `bun run build` finishes with `tsc --build --force`, which rebuilds
+        # every project reference from scratch and can exhaust the default V8
+        # heap on the runner (same failure mode as type-check). Raise the limit.
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
         run: bun run build
 
       - name: Prune per-icon declaration files for npm publish
@@ -110,6 +119,11 @@ jobs:
         run: bun install
 
       - name: Build all packages
+        # `bun run build` finishes with `tsc --build --force`, which rebuilds
+        # every project reference from scratch and can exhaust the default V8
+        # heap on the runner (same failure mode as type-check). Raise the limit.
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
         run: bun run build
 
       - name: Prune per-icon declaration files for npm publish
