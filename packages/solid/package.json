@@ -25,7 +25,8 @@
   "sideEffects": false,
   "files": [
     "src",
-    "dist"
+    "dist",
+    "!dist/icons"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",

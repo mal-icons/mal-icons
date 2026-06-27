@@ -24,7 +24,8 @@
   "sideEffects": false,
   "files": [
     "src",
-    "dist"
+    "dist",
+    "!dist/icons"
   ],
   "svelte": "./src/index.ts",
   "types": "./dist/index.d.ts",
