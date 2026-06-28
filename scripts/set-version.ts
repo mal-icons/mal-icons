@@ -10,8 +10,11 @@ import { join } from "node:path";
  * marked `"private": true` (e.g. the CLI) are skipped — they are never
  * published.
  *
- * Only the `"version"` value is rewritten; all other formatting is preserved
- * byte-for-byte so the change stays minimal and review-friendly.
+ * Both the `"version"` value and the `@mal-icons/core` dependency range are
+ * rewritten: `workspace:*` is replaced with the concrete `<version>` so npm
+ * (which, unlike bun, does not translate `workspace:*` at publish time) ships
+ * dependents that point at the just-published core. All other formatting is
+ * preserved byte-for-byte so the change stays minimal and review-friendly.
  *
  * Usage: `bun run scripts/set-version.ts <version>`
  *   e.g. `bun run scripts/set-version.ts 0.1.3`
@@ -50,11 +53,14 @@ function main(): void {
       continue;
     }
 
-    const next = raw.replace(/("version"\s*:\s*")[^"]*(")/, `$1${version}$2`);
-    if (next === raw) {
+    const versioned = raw.replace(/("version"\s*:\s*")[^"]*(")/, `$1${version}$2`);
+    if (versioned === raw) {
       console.error(`error: could not find a "version" field in ${manifestPath}`);
       process.exit(1);
     }
+    // Pin the workspace core dependency to the released version so `npm publish`
+    // does not ship a literal `workspace:*` range (it only resolves under bun).
+    const next = versioned.replace(/("@mal-icons\/core"\s*:\s*")workspace:\*(")/, `$1${version}$2`);
     writeFileSync(manifestPath, next);
     updated.push(manifest.name ?? name);
   }

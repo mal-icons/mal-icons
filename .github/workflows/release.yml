@@ -50,7 +50,7 @@ jobs:
       - name: Stamp tag version into every package
         run: bun run set-version "$VERSION"
 
-      - name: Refresh lockfile so workspace:* resolves to the new version
+      - name: Refresh lockfile (set-version pins the core dep, drops workspace:*)
         run: bun install
 
       - name: Build all packages
@@ -115,7 +115,7 @@ jobs:
       - name: Stamp tag version into every package
         run: bun run set-version "$VERSION"
 
-      - name: Refresh lockfile so workspace:* resolves to the new version
+      - name: Refresh lockfile (set-version pins the core dep, drops workspace:*)
         run: bun install
 
       - name: Build all packages
