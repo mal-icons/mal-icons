@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@mal-icons/vue": "workspace:*",
-    "nuxt": "^3.14.0",
+    "nuxt": "^4.4.8",
     "vue": "^3.5.35"
   },
   "devDependencies": {
