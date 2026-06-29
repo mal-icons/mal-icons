@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/preact",
-  "version": "0.9.4",
+  "version": "0.11.0",
   "description": "Preact components for mal-icons.",
   "type": "module",
   "license": "MIT",
@@ -411,7 +411,7 @@
     "preact": ">=10"
   },
   "dependencies": {
-    "@mal-icons/core": "workspace:*"
+    "@mal-icons/core": "0.11.0"
   },
   "publishConfig": {
     "access": "public"

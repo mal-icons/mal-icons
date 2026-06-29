@@ -1,6 +1,6 @@
 {
   "name": "@mal-icons/angular",
-  "version": "0.9.4",
+  "version": "0.11.0",
   "description": "Angular standalone components for mal-icons.",
   "type": "module",
   "license": "MIT",
@@ -335,7 +335,7 @@
     "@angular/core": ">=16"
   },
   "dependencies": {
-    "@mal-icons/core": "workspace:*"
+    "@mal-icons/core": "0.11.0"
   },
   "publishConfig": {
     "access": "public"
